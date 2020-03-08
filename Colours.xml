@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Colours xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!--<Colour id="SecondWindowBorder">
+		<Use>Second Window Border</Use>
+		<Name>PaleGreen</Name>
+		<R>130</R>
+		<G>155</G>
+		<B>155</B>
+	</Colour>-->
+  <Colour id="GenericText">
+		<Use>Window Text</Use>
+		<Name>DarkRed</Name>
+		<R>96</R>
+		<G>0</G>
+		<B>0</B>
+	</Colour>
+  <Colour id="InteractiveText">
+		<Use>InteractiveText</Use>
+		<Name>DarkBlue</Name>
+		<R>0</R>
+		<G>0</G>
+		<B>96</B>
+	</Colour>
+  <Colour id="StripText">
+		<Use>Strip Text</Use>
+		<Name>OffWhite</Name>
+		<R>220</R>
+		<G>220</G>
+		<B>220</B>
+	</Colour>
+  <Colour id="StripBackground">
+		<Use>Strip Backgrounds</Use>
+		<Name>GreenGrey</Name>
+		<R>130</R>
+		<G>146</G>
+		<B>146</B>
+	</Colour>
+  <Colour id="WindowBackgound">
+		<Use>Window Backgrounds</Use>
+		<Name>LightGrey</Name>
+		<R>160</R>
+		<G>170</G>
+		<B>170</B>
+	</Colour>
+  <Colour id="Preactive">
+		<Use>Preactive Tracks and Strips</Use>
+		<Name>White</Name>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</Colour>
+  <Colour id="HighlightedText">
+		<Use>Highlighted Text</Use>
+		<Name>CyanBlue</Name>
+		<R>0</R>
+		<G>255</G>
+		<B>255</B>
+	</Colour>
+  <Colour id="CPDLCMessageBackground">
+		<Use>CPDLC Background</Use>
+		<Name>Cream</Name>
+		<R>230</R>
+		<G>210</G>
+		<B>190</B>
+	</Colour>
+  <Colour id="CPDLCDownlink">
+		<Use>CPDLC Downlink Highlight and Messages</Use>
+		<Name>DarkGreen</Name>
+		<R>0</R>
+		<G>105</G>
+		<B>0</B>
+	</Colour>
+  <Colour id="CPDLCUplink">
+    <Use>CPDLC Uplink Highlight and Messages</Use>
+    <Name>DarkBlue</Name>
+    <R>0</R>
+    <G>0</G>
+    <B>105</B>
+  </Colour>
+  <Colour id="CPDLCFreetext">
+    <Use>CPDLC Freetext Messages</Use>
+    <Name>Black</Name>
+    <R>26</R>
+    <G>26</G>
+    <B>26</B>
+  </Colour>
+  <Colour id="Emergency">
+		<Use>Emergency Indications</Use>
+		<Name>DarkRed</Name>
+		<R>209</R>
+		<G>46</G>
+		<B>46</B>
+	</Colour>
+  <Colour id="Warning">
+		<Use>Warning Indications</Use>
+		<Name>BrightYellow</Name>
+		<R>255</R>
+		<G>255</G>
+		<B>0</B>
+	</Colour>
+  <Colour id="VSCSBackground">
+    <Use>VSCS Background</Use>
+    <Name>Grey</Name>
+    <R>140</R>
+    <G>150</G>
+    <B>150</B>
+  </Colour>
+  <Colour id="VSCSHotline">
+    <Use>Closed VSCS Hotlines</Use>
+    <Name>Yellow</Name>
+    <R>235</R>
+    <G>235</G>
+    <B>0</B>
+  </Colour>
+  <Colour id="VSCSOpenHotline">
+    <Use>Open VSCS Hotlines</Use>
+    <Name>Green</Name>
+    <R>0</R>
+    <G>235</G>
+    <B>0</B>
+  </Colour>
+  <Colour id="VSCSColdline">
+    <Use>VSCS Closed Coldlines</Use>
+    <Name>CyanBlue</Name>
+    <R>0</R>
+    <G>235</G>
+    <B>235</B>
+  </Colour>
+  <Colour id="VSCSOpenColdline">
+    <Use>VSCS Open and (flashing) Ringing Coldlines</Use>
+    <Name>DarkPurple</Name>
+    <R>91</R>
+    <G>68</G>
+    <B>122</B>
+  </Colour>
+  <Colour id="VSCSActiveFrequency">
+    <Use>VSCS Frequencies that can be transmitted on</Use>
+    <Name>Green</Name>
+    <R>0</R>
+    <G>235</G>
+    <B>0</B>
+  </Colour>
+  <Colour id="VSCSReceivingFrequency">
+    <Use>VSCS Frequencies are receiving a transmission</Use>
+    <Name>White</Name>
+    <R>255</R>
+    <G>255</G>
+    <B>255</B>
+  </Colour>
+  <Colour id="VSCSFrequencyWarning">
+    <Use>VSCS Frequencies that are receive only or without voice</Use>
+    <Name>Yellow</Name>
+    <R>235</R>
+    <G>235</G>
+    <B>0</B>
+  </Colour>
+  <Colour id="VSCSButtonDepressed">
+    <Use>VSCS Generic Buttons</Use>
+    <Name>DarkGrey</Name>
+<!--    <R>90</R>
+    <G>90</G>
+    <B>90</B>-->
+	<R>130</R>
+	<G>146</G>
+	<B>146</B>
+  </Colour>
+  <Colour id="VSCSButtonSelected">
+    <Use>VSCS Buttons that are selected / highlighted</Use>
+    <Name>FUCHSIA</Name>
+    <R>241</R>
+    <G>178</G>
+    <B>225</B>
+  </Colour>
+  <Colour id="NonInteractiveText">
+		<Use>Non-Interactive Text</Use>
+		<Name>DarkGrey</Name>
+		<R>90</R>
+		<G>90</G>
+		<B>90</B>
+	</Colour>
+  <Colour id="ASDBackground">
+		<Use>ASD Backgrounds</Use>
+		<Name>MidGrey</Name>
+		<R>127</R>
+		<G>127</G>
+		<B>127</B>
+	</Colour>
+  <Colour id="CPDLCSendButton">
+		<Use>CPDLC Hot-Send Button</Use>
+		<Name>HotBlue</Name>
+		<R>101</R>
+		<G>101</G>
+		<B>255</B>
+	</Colour>
+  <Colour id="GroundBackground">
+    <Use>A-SMGCS Background</Use>
+    <Name>Grey</Name>
+    <R>105</R>
+    <G>105</G>
+    <B>105</B>
+  </Colour>
+	<Colour id="Jurisdiction">
+		<Use>Jurisdiction</Use>
+		<Name>LightGreen</Name>
+		<R>200</R>
+		<G>255</G>
+		<B>200</B>
+	</Colour>
+  <Colour id="GhostJurisdiction">
+    <Use>GhostJurisdiction</Use>
+    <Name>LightYellow</Name>
+    <R>250</R>
+    <G>255</G>
+    <B>200</B>
+  </Colour>
+  <Colour id="PostJurisdiction">
+		<Use>PostJurisdiction</Use>
+		<Name>Black</Name>
+		<R>0</R>
+		<G>0</G>
+		<B>0</B>
+	</Colour>
+  <Colour id="JurisdictionIQL">
+		<Use>JurisdictionIQL</Use>
+		<Name>Green</Name>
+		<R>0</R>
+		<G>255</G>
+		<B>0</B>
+	</Colour>
+  <Colour id="Handover">
+		<Use>HandOver</Use>
+		<Name>Salmon</Name>
+		<R>255</R>
+		<G>205</G>
+		<B>105</B>
+	</Colour>
+  <Colour id="Announced">
+		<Use>Announced</Use>
+		<Name>Blue</Name>
+		<R>0</R>
+		<G>0</G>
+		<B>188</B>
+	</Colour>
+  <Colour id="NonJurisdictionIQL">
+		<Use>NonJurisdictionIQL</Use>
+		<Name>White</Name>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</Colour>
+  <Colour id="NonJurisdiction">
+		<Use>Non Jurisdiction Tracks and Strips</Use>
+		<Name>Black</Name>
+		<R>0</R>
+		<G>0</G>
+		<B>0</B>
+	</Colour>
+  <Colour id="NonJurisdictionLabel">
+		<Use>Non Jurisdiction Labels</Use>
+		<Name>VeryDarkGrey</Name>
+		<R>55</R>
+		<G>55</G>
+		<B>55</B>
+	</Colour>
+  <Colour id="CFLHighlight">
+		<Use>New CFL Selection</Use>
+		<Name>White</Name>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</Colour>
+  <Colour id="IdentFlash">
+		<Use>SPI</Use>
+		<Name>CyanBlue</Name>
+		<R>0</R>
+		<G>255</G>
+		<B>255</B>
+	</Colour>
+  <Colour id="Route">
+    <Use>Graphic Route</Use>
+    <Name>Lavender</Name>
+    <R>196</R>
+    <G>171</G>
+    <B>196</B>
+  </Colour>
+  <Colour id="StaticTools">
+		<Use>BRL,PETO,NonRVSM,LATC,ETO</Use>
+		<Name>PaleOrange</Name>
+		<R>255</R>
+		<G>230</G>
+		<B>180</B>
+	</Colour>
+  <Colour id="PostJurisdictionFlash">
+		<Use>Post Jurisdiction Transfer Flashing</Use>
+		<Name>White</Name>
+		<R>255</R>
+		<G>255</G>
+		<B>255</B>
+	</Colour>
+  <Colour id="GroundArrival">
+    <Use>A-SMGCS Arrival</Use>
+    <Name>Buff</Name>
+    <R>255</R>
+    <G>255</G>
+    <B>160</B>
+  </Colour>
+  <Colour id="GroundUnknown">
+    <Use>A-SMGCS Aircraft</Use>
+    <Name>Orange</Name>
+    <R>255</R>
+    <G>156</G>
+    <B>55</B>
+  </Colour>
+  <Colour id="GroundDeparture">
+    <Use>A-SGCMS Departure</Use>
+    <Name>Blue</Name>
+    <R>139</R>
+    <G>220</G>
+    <B>243</B>
+  </Colour>
+  <Colour id="GroundLocal">
+    <Use>A-SGCMS Local</Use>
+    <Name>Pink</Name>
+    <R>255</R>
+    <G>100</G>
+    <B>255</B>
+  </Colour>
+	<Colour id="PRDArea">
+		<Use>Restricted/Danger Areas</Use>
+		<Name>Yellow</Name>
+		<R>235</R>
+		<G>235</G>
+		<B>0</B>
+	</Colour>
+  <Colour id="UserMap">
+    <Use>Custom Maps and Text</Use>
+    <Name>Yellow</Name>
+    <R>235</R>
+    <G>235</G>
+    <B>0</B>
+  </Colour>
+  <Colour id="PrimaryMap">
+		<Use>System Maps</Use>
+		<Name>DarkGrey</Name>
+		<R>90</R>
+		<G>90</G>
+		<B>90</B>
+	</Colour>
+  <Colour id="Infill">
+		<Use>Filled Area Map</Use>
+		<Name>MidGrey</Name>
+		<R>133</R>
+		<G>133</G>
+		<B>133</B>
+	</Colour>
+  <Colour id="SecondaryMap">
+		<Use>Alternative System Map</Use>
+		<Name>BlueGrey</Name>
+		<R>145</R>
+		<G>178</G>
+		<B>177</B>
+	</Colour>
+  <Colour id="GroundRunway">
+    <Use>A-SMGCS Runway</Use>
+    <Name>DarkDarkGrey</Name>
+    <R>40</R>
+    <G>40</G>
+    <B>40</B>
+  </Colour>
+  <Colour id="GroundTaxiway">
+    <Use>A-SMGCS Taxiway</Use>
+    <Name>DarkGrey</Name>
+    <R>60</R>
+    <G>60</G>
+    <B>60</B>
+  </Colour>
+  <Colour id="GroundApron">
+    <Use>A-SMGCS Apron</Use>
+    <Name>Grey</Name>
+    <R>75</R>
+    <G>75</G>
+    <B>75</B>
+  </Colour>
+  <Colour id="GroundBuilding">
+    <Use>A-SMGCS Building</Use>
+    <Name>LightGrey</Name>
+    <R>90</R>
+    <G>90</G>
+    <B>90</B>
+  </Colour>
+	<Colour id="DynamicTools">
+		<Use>Dynamic Tool In Use</Use>
+		<Name>OffWhite</Name>
+		<R>255</R>
+		<G>230</G>
+		<B>230</B>
+	</Colour>
+  <Colour id="Frozen">
+    <Use>Arrival Manager Frozen Flight</Use>
+    <Name>DarkRed</Name>
+    <R>120</R>
+    <G>0</G>
+    <B>0</B>
+  </Colour>
+  <Colour id="Stable">
+    <Use>Arrival Manager Stable Flight</Use>
+    <Name>White</Name>
+    <R>255</R>
+    <G>255</G>
+    <B>255</B>
+  </Colour>
+  <Colour id="SuperStable">
+    <Use>Arrival Manager Super Stable Flight</Use>
+    <Name>LightBlue</Name>
+    <R>100</R>
+    <G>210</G>
+    <B>255</B>
+  </Colour>
+  <Colour id="Unstable">
+    <Use>Arrival Manager Unstable Flight</Use>
+    <Name>Orange</Name>
+    <R>255</R>
+    <G>240</G>
+    <B>0</B>
+  </Colour>
+  <Colour id="DelayMinor">
+    <Use>Arrival Manager Minor Delay</Use>
+    <Name>Cyan</Name>
+    <R>0</R>
+    <G>235</G>
+    <B>235</B>
+  </Colour>
+  <Colour id="DelayMajor">
+    <Use>Arrival Manager Major Delay</Use>
+    <Name>Yellow</Name>
+    <R>235</R>
+    <G>235</G>
+    <B>0</B>
+  </Colour>
+</Colours>

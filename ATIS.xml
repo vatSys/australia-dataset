@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ATIS>
+  <Translations>
+    <Translation String="YMML" Spoken="Melbourne" />
+    <Translation String="YSSY" Spoken="Sydney" />
+    <Translation String="YPAD" Spoken="Adelaide" />
+    <Translation String="YBBN" Spoken="Brisbane" />
+    <Translation String="YPPH" Spoken="Perth" />
+    <Translation String="YSCB" Spoken="Canberra" />
+    <Translation String="YBCS" Spoken="Cairns" />
+    <Translation String="YBCG" Spoken="Gold Coast" />
+    <Translation String="YMEN" Spoken="Essendon" />
+    <Translation String="YSTW" Spoken="Tamworth" />
+
+    <Translation String="ATIS" Spoken="terminal information" />
+
+    <Translation String="A" Spoken="alpha" />
+    <Translation String="B" Spoken="bravo" />
+    <Translation String="C" Spoken="charlie" />
+    <Translation String="D" Spoken="delta" />
+    <Translation String="E" Spoken="echo" />
+    <Translation String="F" Spoken="foxtrot" />
+    <Translation String="G" Spoken="golf" />
+    <Translation String="H" Spoken="hotel" />
+    <Translation String="I" Spoken="india" />
+    <Translation String="J" Spoken="juliet" />
+    <Translation String="K" Spoken="kilo" />
+    <Translation String="L" Spoken="lima" />
+    <Translation String="M" Spoken="mike" />
+    <Translation String="N" Spoken="november" />
+    <Translation String="O" Spoken="oscar" />
+    <Translation String="P" Spoken="papa" />
+    <Translation String="Q" Spoken="quebec" />
+    <Translation String="R" Spoken="romeo" />
+    <Translation String="S" Spoken="sierra" />
+    <Translation String="T" Spoken="tango" />
+    <Translation String="U" Spoken="uniform" />
+    <Translation String="V" Spoken="victor" />
+    <Translation String="W" Spoken="whiskey" />
+    <Translation String="X" Spoken="x-ray" />
+    <Translation String="Y" Spoken="yankee" />
+    <Translation String="Z" Spoken="zulu" />
+
+    <Translation String="3" Spoken="tree" />
+    <Translation String="5" Spoken="fife" />
+    <Translation String="9" Spoken="niner" />
+    <Translation String="." Spoken="decimal" />
+
+    <Translation String="APCH" Spoken="approach" />
+    <Translation String="INST" Spoken="instrument" />
+    <Translation String="ILS" Spoken="I L S" />
+    <Translation String="NDB" Spoken="N D B" />
+    <Translation String="VOR" Spoken="V O R" />
+    <Translation String="GLS" Spoken="G L S" />
+    <Translation String="DME" Spoken="D M E" />
+    <Translation String="RNP" Spoken="R N P" />
+    <Translation String="RNAV" Spoken="are-nav" />
+    <Translation String="OPR" Spoken="operational" />
+    <Translation String="EXP" Spoken="expect" />
+    <Translation String="EIA" Spoken="expect instrument approach" />
+    <Translation String="HIRL" Spoken="high intensity runway lighting" />
+    <Translation String="HIAL" Spoken="high intensity approach lighting" />
+    <Translation String="OPS" Spoken="operations" />
+    <Translation String="PROG" Spoken="progress" />
+    <Translation String="AVBL" Spoken="available" />
+    <Translation String="LAHSO" Spoken="land and hold short operations" />
+    <Translation String="FM" Spoken="from" />
+    <Translation String="THRU" Spoken="through" />
+	<Translation String="CL" Spoken="centre line" />
+	<Translation String="PARL" Spoken="parallel" />
+    <Translation String="ABV" Spoken="above" />
+    <Translation String="BLW" Spoken="below" />
+    <Translation String="BTN" Spoken="between" />
+    <Translation String="DLA" Spoken="delay" />
+    <Translation String="DLAS" Spoken="delays" />
+    <Translation String="TWY" Spoken="taxiway" />
+    <Translation String="TWYS" Spoken="taxiways" />
+    <Translation String="FREQ" Spoken="frequency" />
+    <Translation String="ARR" Spoken="arrivals" />
+    <Translation String="ARRS" Spoken="arrivals" />
+    <Translation String="DEP" Spoken="departures" />
+    <Translation String="DEPS" Spoken="departures" />
+    <Translation String="ACFT" Spoken="aircraft" />
+    <Translation String="CCT" Spoken="circuit" />
+    <Translation String="TURB" Spoken="turbulence" />
+    <Translation String="MOD" Spoken="moderate" />
+    <Translation String="SEV" Spoken="severe" />
+    <Translation String="LGT" Spoken="light" />
+	<Translation String="DEG" Spoken="degrees" />
+
+    <Translation String="RWY" Spoken="runway" />
+    <Translation String="RWYS" Spoken="runways" />
+    <!--Changes L to Left when it is associated with a two digit runway identifier-->
+	<Translation Regex="([012]\d|[3][0123456])L AND R" Spoken="$1 left and right" />
+    <Translation Regex="([012]\d|[3][0123456])L AND C" Spoken="$1 left and centre" />
+    <Translation Regex="([012]\d|[3][0123456])C AND R" Spoken="$1 centre and right" />
+    <Translation Regex="([012]\d|[3][0123456])L" Spoken="$1 left" />
+    <Translation Regex="([012]\d|[3][0123456])R" Spoken="$1 right" />
+    <Translation Regex="([012]\d|[3][0123456])C" Spoken="$1 centre" />
+
+    <Translation String="WIND" Spoken="wind:" />
+    <!--This regex will change xxx/yyy to xxx degrees, yyy knots-->
+    <Translation Regex="(\d{3})\/(\d{1,3})" Spoken="$1 degrees, $2 knots" />
+	<Translation Regex="(\d{3})\/(\d{1,3})-(\d{1,3})" Spoken="$1 degrees, minimum $2 knots, maximum $3 knots" />
+	<Translation Regex="(\d{3})-(\d{3})\/(\d{1,3})" Spoken="varying $1 degrees to $2 degrees, $3 knots" />
+	<Translation Regex="(\d{3})-(\d{3})\/(\d{1,3})-(\d{1,3})" Spoken="varying $1 degrees to $2 degrees, minimum $3 knots, maximum $4 knots" />
+    <Translation String="MAX" Spoken="maximum" />
+    <Translation String="MIN" Spoken="minimum" />
+    <Translation String="XW" Spoken="crosswind" />
+    <Translation String="TW" Spoken="tailwind" />
+    <!--This regex will change xxxKTS to xxx knots-->
+    <Translation Regex="(\d{1,3})KTS" Spoken="$1 knots" />
+    <Translation String="KTS" Spoken="knots" />
+    <Translation String="VRB" Spoken="variable" />
+
+    <Translation String="CLD" Spoken="cloud" />
+    <!--Changes cloud to abbreviation and altitude * 100 without leading zeros-->
+    <Translation Regex="(FEW|SCT|BKN|OVC)[0]{0,2}(\d+)" Spoken="$1 ${2}00 feet" />
+    <Translation String="FT" Spoken="feet" />
+    <Translation String="FEW" Spoken="few" />
+    <Translation String="SCT" Spoken="scattered" />
+    <Translation String="BKN" Spoken="broken" />
+    <Translation String="OVC" Spoken="overcast" />
+    <Translation String="NSC" Spoken="nil significant" />
+
+    <Translation String="VIS" Spoken="visibility" />
+    <Translation String="RED" Spoken="reduced" />
+    <Translation Regex="[0]{0,3}(\d+)M" Spoken="$1 meters" />
+    <Translation Regex="[0]{0,1}(\d+)KM" Spoken="$1 kilometres" />
+    <Translation String="RVR" Spoken="runway visual range" />
+    <Translation String="GT" Spoken="greater than" />
+
+    <!--<Translation String="CAVOK" Spoken="ˈkævˈoʊˈkeɪ" IPA="true" />-->
+	<!--<Translation String="CAVOK" Spoken="K AA V . O K" IPA="true" />-->
+	<Translation String="CAVOK" Spoken="kav-okay" Alphabet="Text"/>
+    <Translation Regex="\+([A-Z]+)" Spoken="heavy $1" />
+    <Translation Regex="\-([A-Z]+)" Spoken="light $1" />
+    <Translation String="MI" Spoken="shallow" />
+    <Translation String="BC" Spoken="patches" />
+    <Translation String="PR" Spoken="partial" />
+    <Translation String="DR" Spoken="drifting" />
+    <Translation String="BL" Spoken="blowing" />
+    <Translation String="SH" Spoken="showers" />
+    <Translation String="FZ" Spoken="freezing" />
+    <Translation String="SHRA" Spoken="showers of rain" />
+    <Translation String="DZ" Spoken="drizzle" />
+    <Translation String="GR" Spoken="hail" />
+    <Translation String="SN" Spoken="snow" />
+    <Translation String="SG" Spoken="snow grains" />
+    <Translation String="DU" Spoken="dust" />
+    <Translation String="SA" Spoken="sand" />
+    <Translation String="SS" Spoken="sandstorm" />
+    <Translation String="DS" Spoken="duststorm" />
+    <Translation String="FG" Spoken="fog" />
+    <Translation String="RA" Spoken="rain" />
+    <Translation String="GS" Spoken="small hail pellets" />
+    <Translation String="FU" Spoken="smoke" />
+    <Translation String="BR" Spoken="mist" />
+    <Translation String="HZ" Spoken="haze" />
+    <Translation String="PO" Spoken="dust devil" />
+    <Translation String="SQ" Spoken="squall" />
+    <Translation String="FC" Spoken="funnel cloud" />
+    <Translation String="VA" Spoken="volcanic ash" />
+    <Translation String="VC" Spoken="vicinity" />
+    <Translation String="IC" Spoken="ice crystals" />
+    <Translation String="PL" Spoken="ice pellets" />
+    <Translation String="VCSH" Spoken="showers in area" />
+    <Translation String="SIA" Spoken="showers in area" />
+    <Translation String="TS" Spoken="thunderstorm" />
+    <Translation String="TSRA" Spoken="thunderstorms and rain" />
+    <Translation String="TSRAGS" Spoken="thunderstorms and rain with hail" />
+    <Translation String="TCU" Spoken="towering cumulus" />
+
+    <Translation String="TMP" Spoken="temperature" />
+
+    <Translation String="QNH" Spoken="Q-N-H" />
+
+    <Translation String="SIGMET" Spoken="sigmet" />
+
+  </Translations>
+  <Editor>
+    <Input name="APCH" NameIsSpoken="false" InputType="Edit" />
+    <Input name="RWY" NameIsSpoken="true" InputType="Edit" />
+    <Input name="SFC COND" NameIsSpoken="false" InputType="Edit" />
+    <Input name="OPR INFO" NameIsSpoken="false" InputType="Edit" />
+    <Input name="WIND" NameIsSpoken="true" InputType="Edit" />
+    <Input name="VIS" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true" />
+    <Input name="WX" NameIsSpoken="false" InputType="Edit" />
+    <Input name="CLD" NameIsSpoken="true" InputType="Edit" NumbersSpokenGrouped="true" />
+    <Input name="TMP" NameIsSpoken="true" InputType="Edit" />
+    <Input name="QNH" NameIsSpoken="true" InputType="Edit" />
+    <Input name="SIGWX" NameIsSpoken="false" InputType="Edit" NumbersSpokenGrouped="true" />
+    <Input name="OFCW_NOTIFY" value="ground or approach" InputType="Edit" />
+  </Editor>
+</ATIS>

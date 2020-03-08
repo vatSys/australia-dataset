@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="ML_RWY16" Priority="1" Center="-3740.4+14450.6">
+    <Runway Name="16/34">
+      <Threshold Name="16" Position="-37.653192+144.834911" ExtendedCentrelineTrack="351.322" ExtendedCentrelineLength="11"  ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="34" Position="-37.685789+144.840994" />
+    </Runway>
+    <Runway Name="09/27">
+      <Threshold Name="09" Position="-37.660756+144.822247" />
+      <Threshold Name="27" Position="-37.662261+144.848089" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Line>
+      -37.653192+144.834911/
+      HORSH/
+      ALBAK
+	</Line>
+	<Line>
+	  ALBAK/
+      CHIMU/
+	  SALLY
+	</Line>
+    <Line>
+      SALLY/
+	  DOSEL
+    </Line>
+    <Line>
+      SALLY/
+	  NONIX
+    </Line>
+    <Line>
+      SALLY/
+	  MNG
+    </Line>
+    <Line>
+      ALBAK/
+	  MARSH
+    </Line>
+	<Line>
+	  ALBAK/
+	  KEPPA
+	</Line>
+	<Line>
+	  ALBAK/
+	  NEVIS
+	</Line>
+    <Line>
+      MARSH/
+	  CRENA
+    </Line>
+    <Line>
+      MARSH/
+	  ESDIG
+    </Line>
+    <Line>
+      HORSH/
+	  YARRA
+    </Line>
+    <Line>
+      YARRA/
+	  CORRS
+    </Line>
+    <Line>
+      YARRA/
+	  SUNTI
+    </Line>
+	<!--STARS-->
+	<Line>
+	  ARBEY/
+	  TUNKA/
+	  BELTA
+    </Line>
+	<Line>
+	  BADGR/
+	  ANDYS/
+	  DOPNU/
+	  NEFER
+    </Line>
+	<Line>
+	  BOYSE/
+	  VALES/
+	  ANBEL/
+	  BUVIV/
+	  NEFER
+    </Line>
+	<Line>
+	  LIZZI/
+	  HORUS/
+	  ENSEG/
+	  NEFER/
+	  BELTA
+    </Line>
+	<Line>
+	  WAREN/
+	  MICHM/
+	  MONTY/
+	  SANDR/
+	  LAGUG/
+	  NEFER
+    </Line>
+	<Line>
+	  WENDY/
+	  TEENA/
+	  KEELA/
+	  PASCO/
+	  JADEL/
+	  KIKEX/
+	  NEFER
+    </Line>
+	<Line>
+	  BELTA/
+	  -37.653192+144.834911
+	</Line>
+	<Symbol Type="SolidStar">
+	  <Point>HORSH</Point>
+	</Symbol>
+    <Symbol Type="HollowStar">
+      <!--SID NTHEAST-->
+	  <Point>ALBAK</Point>
+	  <Point>CHIMU</Point>
+	  <Point>SALLY</Point>
+      <Point>MNG</Point>
+      <Point>NONIX</Point>
+	  <Point>DOSEL</Point>
+      <!--SID WEST-->
+      <Point>MARSH</Point>
+      <Point>ESDIG</Point>
+      <Point>CRENA</Point>
+	  <Point>KEPPA</Point>
+	  <Point>NEVIS</Point>
+      <!--SID STHEAST-->
+	  <Point>CORRS</Point>
+	  <Point>SUNTI</Point>
+	  <Point>YARRA</Point>
+      <!--STARS-->
+	  <Point>ARBEY</Point>
+	  <Point>TUNKA</Point>
+	  <Point>BELTA</Point>
+	  <Point>BADGR</Point>
+	  <Point>NEFER</Point>
+	  <Point>BOYSE</Point>
+	  <Point>LIZZI</Point>
+	  <Point>WAREN</Point>
+	  <Point>MONTY</Point>
+	  <Point>WENDY</Point>
+	  <Point>PASCO</Point>
+    </Symbol>
+    <Symbol Type="SolidSquare">
+	  <Point>MICHM</Point>
+	  <Point>SANDR</Point>
+	  <Point>LAGUG</Point>
+	  <Point>ANDYS</Point>
+	  <Point>DOPNU</Point>
+	  <Point>VALES</Point>
+	  <Point>ANBEL</Point>
+	  <Point>BUVIV</Point>
+	  <Point>MAXAL</Point>
+	  <Point>HORUS</Point>
+	  <Point>TEENA</Point>
+	  <Point>KEELA</Point>
+	  <Point>JADEL</Point>
+	  <Point>KIKEX</Point>
+	  <Point>ENSEG</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+
+    </Symbol>
+  </Map>
+</Maps>
