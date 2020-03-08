@@ -1,27 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Positions>
 	<Position Name="Mudgee" Type="ASD" DefaultCenter="-3178.000+15102.000" DefaultRange="789">
-    <Sectors>
-      <Sector Name="MDE"/>
-      <Sector Name="ARM"/>
-      <Sector Name="MLD"/>
-      <Sector Name="OCN"/>
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES" />
-      <Map Name="ALL_POINTS" />
-      <Map Name="FIR_BDRY" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="9000" />
-  </Position>
+		<Sectors>
+			<Sector Name="MDE"/>
+			<Sector Name="ARM"/>
+			<Sector Name="MLD"/>
+			<Sector Name="OCN"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<ArrivalLists>
+			<Airport Name="YSSY" />
+		</ArrivalLists>
+    		<CFL QuickLevel="9000" />
+  	</Position>
+	
   <Position Name="Barossa" Type="ASD" DefaultCenter="-3534.000+14230.000" DefaultRange="750">
     <Sectors>
       <Sector Name="TBD"/>
