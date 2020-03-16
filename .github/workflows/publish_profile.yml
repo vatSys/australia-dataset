@@ -12,7 +12,7 @@ jobs:
     - name: Archive Release
       uses: thedoctor0/zip-release@master
       with:
-        filename: 'profile_test.zip'
+        filename: 'profile.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
