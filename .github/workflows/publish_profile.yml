@@ -13,7 +13,7 @@ jobs:
       uses: thedoctor0/zip-release@master
       with:
         filename: 'profile.zip'
-        exclusions: '*.git* /*node_modules/* .editorconfig'
+        exclusions: '*.git* /*node_modules/* .editorconfig *.md'
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@3.0.0
       with:
