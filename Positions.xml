@@ -289,6 +289,7 @@
 		</ArrivalLists>
 		<CFL QuickLevel="9000" />
 	</Position>
+
 	<Position Name="Snowy" Type="ASD" DefaultCenter="-3719.000+14742.000" DefaultRange="600">
 		<Sectors>
 			<Sector Name="SNO"/>
@@ -315,6 +316,7 @@
 			<Airport Name="YMML" />
 		</ArrivalLists>
 	</Position>
+
 	<Position Name="Wollongong" Type="ASD" DefaultCenter="-3452.000+14939.000" DefaultRange="450">
 		<Sectors>
 			<Sector Name="WOL"/>
@@ -341,14 +343,9 @@
 			<Airport Name="YSSY" />
 		</ArrivalLists>
 	</Position>
-	<Position Name="YMML" Type="ASMGCS" ASMGCSAirport="YMML" DefaultCenter="-37.673+144.843" DefaultRange="5" MagneticVariation="-11"><!--Rotation="-70"-->
-		<Maps>
-			<Map Name="ASMGCS_YMML_RWY" />
-			<Map Name="ASMGCS_YMML_TWY" />
-			<Map Name="ASMGCS_YMML_BLD" />
-			<Map Name="ASMGCS_YMML_APR" />
-		</Maps>
-	</Position>
+
+	<!--
+
 	<Position Name="Adelaide TCU" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="150" MagneticVariation="-8">
 		<Sectors>
 			<Sector Name="AAW"/>
@@ -374,6 +371,9 @@
 			<Airport Name="YPAD" />
 		</ArrivalLists>
 	</Position>
+
+	-->
+
 	<Position Name="Melbourne TCU" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="150" MagneticVariation="-11">
 		<Sectors>
 			<Sector Name="MAE"/>
@@ -387,7 +387,7 @@
 			<Map Name="Melbourne/ML_RWY16" />
 		</Maps>
 		<ATIS>
-			<Editor Airport="YMML" Frequency="118.0" Server="rw1.vatpac.org"/>
+			<Editor Airport="YMML" Frequency="118.0" Server="no_vox"/>
 			<Window Airport="YMML"/>
 		</ATIS>
 		<Strips Mode="Beacon" Sort="Alpha">
@@ -400,6 +400,16 @@
 			<Airport Name="YMML" />
 		</ArrivalLists>
 	</Position>
+
+	<Position Name="YMML" Type="ASMGCS" ASMGCSAirport="YMML" DefaultCenter="-37.673+144.843" DefaultRange="5" MagneticVariation="-11"><!--Rotation="-70"-->
+		<Maps>
+			<Map Name="ASMGCS_YMML_RWY" />
+			<Map Name="ASMGCS_YMML_TWY" />
+			<Map Name="ASMGCS_YMML_BLD" />
+			<Map Name="ASMGCS_YMML_APR" />
+		</Maps>
+	</Position>
+
 	<Position Name="Sydney TCU" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="150" MagneticVariation="-13">
 		<Sectors>
 			<Sector Name="SAN"/>
@@ -411,7 +421,7 @@
 			<Map Name="Sydney/SY_RWY34" />
 		</Maps>
 		<ATIS>
-			<Editor Airport="YSSY" Frequency="126.25" Server="rw1.vatpac.org"/>
+			<Editor Airport="YSSY" Frequency="126.25" Server="no_vox"/>
 			<Window Airport="YSSY"/>
 		</ATIS>
 		<Strips Mode="Beacon" Sort="Alpha">
@@ -424,6 +434,7 @@
 			<Airport Name="YSSY" />
 		</ArrivalLists>
 	</Position>
+
 	<Position Name="YSSY" Type="ASMGCS" ASMGCSAirport="YSSY" DefaultCenter="-33.9461+151.1772" DefaultRange="5" MagneticVariation="-13">
 		<!--Rotation="-70"-->
 		<Maps>
@@ -433,4 +444,42 @@
 			<Map Name="ASMGCS_YSSY_APR" />
 		</Maps>
 	</Position>
+
+	<Position Name="Brisbane TCU" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="150" MagneticVariation="-13">
+		<Sectors>
+			<Sector Name="BAN"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="Sydney/BN_COAST" />
+			<Map Name="Sydney/BN_TCU" />
+			<Map Name="Sydney/BN_RWY19" />
+		</Maps>
+		<ATIS>
+			<Editor Airport="YBBN" Frequency="126.25" Server="no_vox"/>
+			<Window Airport="YBBN"/>
+		</ATIS>
+		<Strips Mode="Beacon" Sort="Alpha">
+			<Window Type="ADEP" Beacon="YBBN" Visible="true" />
+		</Strips>
+		<!--
+		<CFL QuickLevel="28000">
+			<AdditionalLevels>1600,1800,2100,2200,2700,5200</AdditionalLevels>
+		</CFL>
+		-->
+		<ArrivalLists>
+			<Airport Name="YBBN" />
+		</ArrivalLists>
+	</Position>
+
+	<Position Name="YSSY" Type="ASMGCS" ASMGCSAirport="YSSY" DefaultCenter="-33.9461+151.1772" DefaultRange="5" MagneticVariation="-13">
+		<!--Rotation="-70"-->
+		<Maps>
+			<Map Name="ASMGCS_YSSY_RWY" />
+			<Map Name="ASMGCS_YSSY_TWY" />
+			<Map Name="ASMGCS_YSSY_BLD" />
+			<Map Name="ASMGCS_YSSY_APR" />
+		</Maps>
+	</Position>
+
 </Positions>
