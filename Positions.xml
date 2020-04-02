@@ -126,20 +126,15 @@
     <ATIS>
       <Editor Airport="YPAD" Frequency="134.5" Server="rw1.vatpac.org"/>
       <Window Airport="YPAD"/>
-      <Window Airport="YPED"/>
     </ATIS>
     <Strips Mode="Beacon" Sort="Alpha">
       <Window Type="ADEP" Beacon="YPAD" Visible="true" />
-      <Window Type="ADEP" Beacon="YPPF" Visible="false" />
-      <Window Type="ADEP" Beacon="YPED" Visible="false" />
     </Strips>
     <CFL QuickLevel="24000">
       <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
     </CFL>
 	<ArrivalLists>
 		<Airport Name="YPAD" />
-		<Airport Name="YPPF" />
-		<Airport Name="YPED" />
 	</ArrivalLists>
   </Position>
   <Position Name="ML APP" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="150" MagneticVariation="-11">
@@ -153,27 +148,19 @@
       <Map Name="Melbourne/ML_COAST" />
       <Map Name="Melbourne/ML_TCU" />
       <Map Name="Melbourne/ML_RWY16" />
-	  <Map Name="Melbourne/ML RTCC"/>
     </Maps>
     <ATIS>
       <Editor Airport="YMML" Frequency="118.0" Server="rw1.vatpac.org"/>
       <Window Airport="YMML"/>
-	  <Window Airport="YMAV"/>
-      <Window Airport="YMEN"/>
     </ATIS>
     <Strips Mode="Beacon" Sort="Alpha">
       <Window Type="ADEP" Beacon="YMML" Visible="true" />
-      <Window Type="ADEP" Beacon="YMEN" Visible="false" />
-      <Window Type="ADEP" Beacon="YMAV" Visible="false" />
-      <Window Type="ADEP" Beacon="YMMB" Visible="false" />
     </Strips>
     <CFL QuickLevel="24000">
 		<AdditionalLevels>1600,1900,2100,2300,2700,2800,2900,3100,3300</AdditionalLevels>
     </CFL>
 	<ArrivalLists>
 		<Airport Name="YMML" />
-		<Airport Name="YMEN" />
-		<Airport Name="YMAV" />
 	</ArrivalLists>
   </Position>
   <Position Name="SY APP" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="150" MagneticVariation="-13">
@@ -185,27 +172,19 @@
       <Map Name="Sydney/SY_COAST" />
       <Map Name="Sydney/SY_TCU" />
       <Map Name="Sydney/SY_RWY34" />
-      <Map Name="Sydney/SY RTCC" />
     </Maps>
     <ATIS>
       <Editor Airport="YSSY" Frequency="126.25" Server="rw1.vatpac.org"/>
       <Window Airport="YSSY"/>
-      <Window Airport="YSBK"/>
-      <Window Airport="YSRI"/>
     </ATIS>
     <Strips Mode="Beacon" Sort="Alpha">
       <Window Type="ADEP" Beacon="YSSY" Visible="true" />
-      <Window Type="ADEP" Beacon="YSBK" Visible="false" />
-      <Window Type="ADEP" Beacon="YSRI" Visible="false" />
-      <Window Type="ADEP" Beacon="YSCN" Visible="false" />
     </Strips>
     <CFL QuickLevel="28000">
       <AdditionalLevels>1600,1800,2100,2200,2700,5200</AdditionalLevels>
     </CFL>
 	<ArrivalLists>
 		<Airport Name="YSSY" />
-		<Airport Name="YSRI" />
-		<Airport Name="YSBK" />
 	</ArrivalLists>
   </Position>
   <Position Name="YSSY" Type="ASMGCS" ASMGCSAirport="YSSY" DefaultCenter="-33.9461+151.1772" DefaultRange="5" MagneticVariation="-13">
