@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Positions>
 	<Position Name="Mudgee" Type="ASD" DefaultCenter="-3178.000+15102.000" DefaultRange="789">
 		<Sectors>
@@ -23,177 +23,280 @@
 		<ArrivalLists>
 			<Airport Name="YSSY" />
 		</ArrivalLists>
-    		<CFL QuickLevel="9000" />
-  	</Position>
-	
-  <Position Name="Barossa" Type="ASD" DefaultCenter="-3534.000+14230.000" DefaultRange="750">
-    <Sectors>
-      <Sector Name="TBD"/>
-      <Sector Name="AUG"/>
-      <Sector Name="MUN"/>
-      <Sector Name="OXL"/>
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES" />
-      <Map Name="ALL_POINTS" />
-      <Map Name="FIR_BDRY" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-	<ArrivalLists>
-		<Airport Name="YPAD" />
-		<Airport Name="YMML" />
-	</ArrivalLists>
-    <CFL QuickLevel="9000" />
-  </Position>
-  <Position Name="Snowy" Type="ASD" DefaultCenter="-3719.000+14742.000" DefaultRange="600">
-    <Sectors>
-      <Sector Name="SNO"/>
-      <Sector Name="ELW"/>
-      <Sector Name="WON"/>
-      <Sector Name="HUM"/>
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES" />
-      <Map Name="ALL_POINTS" />
-      <Map Name="FIR_BDRY" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="9000" />
+		<CFL QuickLevel="9000" />
+	</Position>
+
+	<Position Name="Bourke" Type="ASD" DefaultCenter="-3030.000+14105.000" DefaultRange="1000">
+		<Sectors>
+			<Sector Name="BKE"/>
+			<Sector Name="WRA"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
 		<ArrivalLists>
-		<Airport Name="YSCB" />
-		<Airport Name="YMML" />
-	</ArrivalLists>
-  </Position>
-  <Position Name="Wollongong" Type="ASD" DefaultCenter="-3452.000+14939.000" DefaultRange="450">
-    <Sectors>
-      <Sector Name="WOL"/>
-      <Sector Name="BIK"/>
-      <Sector Name="KAT"/>
-      <Sector Name="GTH"/>
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES" />
-      <Map Name="ALL_POINTS" />
-      <Map Name="FIR_BDRY" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="10000" />
+			<Airport Name="YPAD" />
+			<Airport Name="YSSY" />
+		</ArrivalLists>
+		<CFL QuickLevel="9000" />
+	</Position>
+
+	<Position Name="Mt Isa" Type="ASD" DefaultCenter="-2200.000+14160.000" DefaultRange="1700">
+		<Sectors>
+			<Sector Name="ISA"/>
+			<Sector Name="WEG"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
 		<ArrivalLists>
-		<Airport Name="YSCB" />
-		<Airport Name="YSSY" />
-	</ArrivalLists>
-  </Position>
-  <Position Name="YMML" Type="ASMGCS" ASMGCSAirport="YMML" DefaultCenter="-37.673+144.843" DefaultRange="5" MagneticVariation="-11"><!--Rotation="-70"-->
-    <Maps>
-      <Map Name="ASMGCS_YMML_RWY" />
-      <Map Name="ASMGCS_YMML_TWY" />
-      <Map Name="ASMGCS_YMML_BLD" />
-      <Map Name="ASMGCS_YMML_APR" />
-    </Maps>
-  </Position>
-  <Position Name="AD APP" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="150" MagneticVariation="-8">
-    <Sectors>
-      <Sector Name="AAW"/>
-      <Sector Name="AAE"/>
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Adelaide/AD_COAST" />
-      <Map Name="Adelaide/AD_TCU" />
-      <Map Name="Adelaide/AD_RWY23" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YPAD" Frequency="134.5" Server="rw1.vatpac.org"/>
-      <Window Airport="YPAD"/>
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YPAD" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="24000">
-      <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-    </CFL>
-	<ArrivalLists>
-		<Airport Name="YPAD" />
-	</ArrivalLists>
-  </Position>
-  <Position Name="ML APP" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="150" MagneticVariation="-11">
-    <Sectors>
-      <Sector Name="MAE"/>
-	  <Sector Name="MDN"/>
-	  <Sector Name="MDS"/>
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Melbourne/ML_COAST" />
-      <Map Name="Melbourne/ML_TCU" />
-      <Map Name="Melbourne/ML_RWY16" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YMML" Frequency="118.0" Server="rw1.vatpac.org"/>
-      <Window Airport="YMML"/>
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YMML" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="24000">
-		<AdditionalLevels>1600,1900,2100,2300,2700,2800,2900,3100,3300</AdditionalLevels>
-    </CFL>
-	<ArrivalLists>
-		<Airport Name="YMML" />
-	</ArrivalLists>
-  </Position>
-  <Position Name="SY APP" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="150" MagneticVariation="-13">
-    <Sectors>
-      <Sector Name="SAN"/>
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Sydney/SY_COAST" />
-      <Map Name="Sydney/SY_TCU" />
-      <Map Name="Sydney/SY_RWY34" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YSSY" Frequency="126.25" Server="rw1.vatpac.org"/>
-      <Window Airport="YSSY"/>
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YSSY" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="28000">
-      <AdditionalLevels>1600,1800,2100,2200,2700,5200</AdditionalLevels>
-    </CFL>
-	<ArrivalLists>
-		<Airport Name="YSSY" />
-	</ArrivalLists>
-  </Position>
-  <Position Name="YSSY" Type="ASMGCS" ASMGCSAirport="YSSY" DefaultCenter="-33.9461+151.1772" DefaultRange="5" MagneticVariation="-13">
-    <!--Rotation="-70"-->
-    <Maps>
-      <Map Name="ASMGCS_YSSY_RWY" />
-      <Map Name="ASMGCS_YSSY_TWY" />
-      <Map Name="ASMGCS_YSSY_BLD" />
-      <Map Name="ASMGCS_YSSY_APR" />
-    </Maps>
-  </Position>
+			<Airport Name="YBCS" />
+		</ArrivalLists>
+		<CFL QuickLevel="18000" />
+	</Position>
+
+	<Position Name="Downs" Type="ASD" DefaultCenter="-2625.000+15060.000" DefaultRange="1200">
+		<Sectors>
+			<Sector Name="CVN"/>
+			<Sector Name="DOS"/>
+			<Sector Name="KPL"/>
+			<Sector Name="BUR"/>
+			<Sector Name="GRN"/>
+			<Sector Name="SDY"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<ArrivalLists>
+			<Airport Name="YBBN" />
+		</ArrivalLists>
+		<CFL QuickLevel="9000" />
+	</Position>
+
+	<Position Name="Tabletop" Type="ASD" DefaultCenter="-1850.000+14800.000" DefaultRange="1100">
+		<Sectors>
+			<Sector Name="SWY"/>
+			<Sector Name="TBP"/>
+			<Sector Name="KEN"/>
+			<Sector Name="BAR"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<ArrivalLists>
+			<Airport Name="YBCS" />
+		</ArrivalLists>
+		<CFL QuickLevel="9000" />
+	</Position>
+
+	<Position Name="Tailem Bend" Type="ASD" DefaultCenter="-3534.000+14230.000" DefaultRange="750">
+		<Sectors>
+			<Sector Name="TBD"/>
+			<Sector Name="AUG"/>
+			<Sector Name="MUN"/>
+			<Sector Name="OXL"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<ArrivalLists>
+			<Airport Name="YPAD" />
+			<Airport Name="YMML" />
+		</ArrivalLists>
+		<CFL QuickLevel="9000" />
+	</Position>
+	<Position Name="Snowy" Type="ASD" DefaultCenter="-3719.000+14742.000" DefaultRange="600">
+		<Sectors>
+			<Sector Name="SNO"/>
+			<Sector Name="ELW"/>
+			<Sector Name="WON"/>
+			<Sector Name="HUM"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<CFL QuickLevel="9000" />
+		<ArrivalLists>
+			<Airport Name="YSCB" />
+			<Airport Name="YMML" />
+		</ArrivalLists>
+	</Position>
+	<Position Name="Wollongong" Type="ASD" DefaultCenter="-3452.000+14939.000" DefaultRange="450">
+		<Sectors>
+			<Sector Name="WOL"/>
+			<Sector Name="BIK"/>
+			<Sector Name="KAT"/>
+			<Sector Name="GTH"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<CFL QuickLevel="10000" />
+		<ArrivalLists>
+			<Airport Name="YSCB" />
+			<Airport Name="YSSY" />
+		</ArrivalLists>
+	</Position>
+	<Position Name="YMML" Type="ASMGCS" ASMGCSAirport="YMML" DefaultCenter="-37.673+144.843" DefaultRange="5" MagneticVariation="-11"><!--Rotation="-70"-->
+		<Maps>
+			<Map Name="ASMGCS_YMML_RWY" />
+			<Map Name="ASMGCS_YMML_TWY" />
+			<Map Name="ASMGCS_YMML_BLD" />
+			<Map Name="ASMGCS_YMML_APR" />
+		</Maps>
+	</Position>
+	<Position Name="Adelaide TCU" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="150" MagneticVariation="-8">
+		<Sectors>
+			<Sector Name="AAW"/>
+			<Sector Name="AAE"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="Adelaide/AD_COAST" />
+			<Map Name="Adelaide/AD_TCU" />
+			<Map Name="Adelaide/AD_RWY23" />
+		</Maps>
+		<ATIS>
+			<Editor Airport="YPAD" Frequency="134.5" Server="rw1.vatpac.org"/>
+			<Window Airport="YPAD"/>
+		</ATIS>
+		<Strips Mode="Beacon" Sort="Alpha">
+			<Window Type="ADEP" Beacon="YPAD" Visible="true" />
+		</Strips>
+		<CFL QuickLevel="24000">
+			<AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+		</CFL>
+		<ArrivalLists>
+			<Airport Name="YPAD" />
+		</ArrivalLists>
+	</Position>
+	<Position Name="Melbourne TCU" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="150" MagneticVariation="-11">
+		<Sectors>
+			<Sector Name="MAE"/>
+			<Sector Name="MDN"/>
+			<Sector Name="MDS"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="Melbourne/ML_COAST" />
+			<Map Name="Melbourne/ML_TCU" />
+			<Map Name="Melbourne/ML_RWY16" />
+		</Maps>
+		<ATIS>
+			<Editor Airport="YMML" Frequency="118.0" Server="rw1.vatpac.org"/>
+			<Window Airport="YMML"/>
+		</ATIS>
+		<Strips Mode="Beacon" Sort="Alpha">
+			<Window Type="ADEP" Beacon="YMML" Visible="true" />
+		</Strips>
+		<CFL QuickLevel="24000">
+			<AdditionalLevels>1600,1900,2100,2300,2700,2800,2900,3100,3300</AdditionalLevels>
+		</CFL>
+		<ArrivalLists>
+			<Airport Name="YMML" />
+		</ArrivalLists>
+	</Position>
+	<Position Name="Sydney TCU" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="150" MagneticVariation="-13">
+		<Sectors>
+			<Sector Name="SAN"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="Sydney/SY_COAST" />
+			<Map Name="Sydney/SY_TCU" />
+			<Map Name="Sydney/SY_RWY34" />
+		</Maps>
+		<ATIS>
+			<Editor Airport="YSSY" Frequency="126.25" Server="rw1.vatpac.org"/>
+			<Window Airport="YSSY"/>
+		</ATIS>
+		<Strips Mode="Beacon" Sort="Alpha">
+			<Window Type="ADEP" Beacon="YSSY" Visible="true" />
+		</Strips>
+		<CFL QuickLevel="28000">
+			<AdditionalLevels>1600,1800,2100,2200,2700,5200</AdditionalLevels>
+		</CFL>
+		<ArrivalLists>
+			<Airport Name="YSSY" />
+		</ArrivalLists>
+	</Position>
+	<Position Name="YSSY" Type="ASMGCS" ASMGCSAirport="YSSY" DefaultCenter="-33.9461+151.1772" DefaultRange="5" MagneticVariation="-13">
+		<!--Rotation="-70"-->
+		<Maps>
+			<Map Name="ASMGCS_YSSY_RWY" />
+			<Map Name="ASMGCS_YSSY_TWY" />
+			<Map Name="ASMGCS_YSSY_BLD" />
+			<Map Name="ASMGCS_YSSY_APR" />
+		</Maps>
+	</Position>
 </Positions>
