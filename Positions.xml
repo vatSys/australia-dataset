@@ -103,6 +103,140 @@
 		<CFL QuickLevel="9000" />
 	</Position>
 
+	<Position Name="Arafura" Type="ASD" DefaultCenter="-1200.000+14050.000" DefaultRange="1300">
+		<Sectors>
+			<Sector Name="ARA"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<ArrivalLists>
+			<Airport Name="YBCS" />
+			<Airport Name="YPDN" />
+		</ArrivalLists>
+		<CFL QuickLevel="9000" />
+	</Position>
+
+	<Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="1700">
+		<Sectors>
+			<Sector Name="KIY"/>
+			<Sector Name="TRT"/>
+			<Sector Name="STR"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<ArrivalLists>
+			<Airport Name="YBCS" />
+			<Airport Name="YPDN" />
+		</ArrivalLists>
+		<CFL QuickLevel="9000" />
+	</Position>
+
+	<Position Name="Alice Springs" Type="ASD" DefaultCenter="-3000.000+13200.000" DefaultRange="2000">
+		<Sectors>
+			<Sector Name="ASP"/>
+			<Sector Name="WAR"/>
+			<Sector Name="FOR"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<ArrivalLists>
+			<Airport Name="YBCS" />
+			<Airport Name="YPDN" />
+		</ArrivalLists>
+		<CFL QuickLevel="9000" />
+	</Position>
+
+	<Position Name="Esperence" Type="ASD" DefaultCenter="-3200.000+11850.000" DefaultRange="1200">
+		<Sectors>
+			<Sector Name="ESP"/>
+			<Sector Name="JAR"/>
+			<Sector Name="HYD"/>
+			<Sector Name="CRS"/>
+			<Sector Name="GVE"/>
+			<Sector Name="PIY"/>
+			<Sector Name="LEA"/>
+			<Sector Name="GEL"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<ArrivalLists>
+			<Airport Name="YBCS" />
+			<Airport Name="YPDN" />
+		</ArrivalLists>
+		<CFL QuickLevel="9000" />
+	</Position>
+
+	<Position Name="Ore" Type="ASD" DefaultCenter="-2350.000+11900.000" DefaultRange="1500">
+		<Sectors>
+			<Sector Name="ORE"/>
+			<Sector Name="BIL"/>
+			<Sector Name="MOR"/>
+			<Sector Name="TFR"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<ArrivalLists>
+			<Airport Name="YBCS" />
+			<Airport Name="YPDN" />
+		</ArrivalLists>
+		<CFL QuickLevel="9000" />
+	</Position>
+
 	<Position Name="Tabletop" Type="ASD" DefaultCenter="-1850.000+14800.000" DefaultRange="1100">
 		<Sectors>
 			<Sector Name="SWY"/>
