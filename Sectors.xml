@@ -228,8 +228,11 @@
   <Sector FullName="Nowra Clearance Delivery" Frequency="128.350" Callsign="NW_DEL" Name="NW COORD" >
   </Sector>
   <Sector FullName="Canberra Approach East" Frequency="124.500" Callsign="CB_APP" Name="CAE" >
+	<Volumes>CBE</Volumes>
+	<ResponsibleSectors>CAW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Canberra Approach West" Frequency="125.900" Callsign="CB-W_APP" Name="CAW" >
+	<Volumes>CBW</Volumes>
   </Sector>
   <Sector FullName="Canberra Tower" Frequency="118.700" Callsign="CB_TWR" Name="CB ADC" >
   </Sector>
