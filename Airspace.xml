@@ -25,6 +25,64 @@
             </Runway>
         </Airport>
 
+        <Airport Name="YBBN">
+            <Runway Name="14" DataRunway="14">
+                <SID Name="BN\d" Default="True" />
+                <STAR Name="[A-Z]{4}\dA" ApproachName="VOR"/>
+                <STAR Name="LAVEG\d"/>
+            </Runway>
+            <Runway Name="32" DataRunway="32">
+                <SID Name="BN\d" Default="True" />
+                <STAR Name="[A-Z]{4}\dA" ApproachName="RNVZ"/>
+                <STAR Name="LAVEG\d"/>
+            </Runway>
+            <Runway Name="01R" DataRunway="01R">
+                <SID Name="CORAL\d" Type="Jet"/>
+                <SID Name="TRIKI\d" Type="Jet"/>
+                <SID Name="COODA\d" Type="Jet"/>
+                <SID Name="HUUGO\d" Type="Jet"/>
+                <SID Name="SCOTT\d" Type="Jet"/>
+                <SID Name="WACKO\d" Type="Jet"/>
+                <SID Name="BN\d" Default="True" />
+                <STAR Name="[A-Z]{4}\dA" ApproachName="ILSY"/>
+                <STAR Name="CG\dA" ApproachName="ILSY"/>
+                <STAR Name="[A-Z]{4}\dP" ApproachName="RNVP"/>
+                <STAR Name="[A-Z]{4}\dM" ApproachName="RNVM"/>
+                <STAR Name="LAVEG\d"/>
+            </Runway>
+            <Runway Name="19L" DataRunway="19L">
+                <SID Name="CORAL\d" Type="Jet"/>
+                <SID Name="TRIKI\d" Type="Jet"/>
+                <SID Name="COODA\d" Type="Jet"/>
+                <SID Name="HUUGO\d" Type="Jet"/>
+                <SID Name="SCOTT\d" Type="Jet"/>
+                <SID Name="WACKO\d" Type="Jet"/>
+                <SID Name="BN\d" Default="True" />
+                <STAR Name="[A-Z]{4}\dA" ApproachName="ILSY"/>
+                <STAR Name="CG\dA" ApproachName="ILSY"/>
+                <STAR Name="[A-Z]{4}\dP" ApproachName="RNVP"/>
+                <STAR Name="[A-Z]{4}\dM" ApproachName="RNVM"/>
+                <STAR Name="LAVEG\d"/>
+                <STAR Name="SINNK\d"/>
+                <!--<STAR Name="QUIE\dA"/>-->
+            </Runway>
+            <Runway Name="19LV" DataRunway="19L">
+                <STAR Name="[A-Z]{4}\dV" />
+            </Runway>
+            <Runway Name="01RV" DataRunway="01R">
+                <STAR Name="[A-Z]{4}\dV" />
+            </Runway>
+            <Runway Name="14V" DataRunway="14">
+                <STAR Name="CG\dV" />
+                <STAR Name="SMOKA\dV" />
+                <STAR Name="BLAK\dV" />
+            </Runway>
+            <Runway Name="32V" DataRunway="32">
+                <STAR Name="CG\dV" />
+                <STAR Name="BLAK\dV" />
+            </Runway>
+        </Airport>
+
         <Airport Name="YMML">
             <Runway Name="16" DataRunway="16">
                 <SID Name="DOSEL\d" Type="Jet" />
@@ -13103,90 +13161,3 @@ Approaches are functionally similar to STARs, but can only be for one runway eac
     <Airport ICAO="YYWG" Position="-360144.000+1460143.000" />
 </Airports>
 </Airspace>
-028.500</Point>
-  <Point Name="GOMOM" Type="Fix">-420910.200+1451741.400</Point>
-  <Point Name="GOMUB" Type="Fix">-335530.500+1504117.200</Point>
-  <Point Name="GOMUL" Type="Fix">-273316.500+1352629.500</Point>
-  <Point Name="GOOLA" Type="Fix">-374848.600+1450034.000</Point>
-  <Point Name="GOOMA" Type="Fix">-330938.500+1550258.200</Point>
-  <Point Name="GOONY" Type="Fix">-350352.700+1491224.700</Point>
-  <Point Name="GOOTA" Type="Fix">-220138.000+1181918.700</Point>
-  <Point Name="GORDO" Type="Fix">-323244.900+1545503.200</Point>
-  <Point Name="GORDY" Type="Fix">-272513.000+1524610.800</Point>
-  <Point Name="GORGN" Type="Fix">-204335.400+1163841.400</Point>
-  <Point Name="GORKA" Type="Fix">-261242.200+1325207.700</Point>
-  <Point Name="GORRI" Type="Fix">-272710.500+1525554.300</Point>
-  <Point Name="GOSKO" Type="Fix">-374511.500+1444345.400</Point>
-  <Point Name="GOSNL" Type="Fix">-320420.900+1160510.200</Point>
-  <Point Name="GOSVU" Type="Fix">-203141.900+1490519.800</Point>
-  <Point Name="GOTSI" Type="Fix">-192539.400+1464104.800</Point>
-  <Point Name="GPNSA" Type="Fix">-113619.400+1302047.100</Point>
-  <Point Name="GPNSB" Type="Fix">-113538.700+1301458.800</Point>
-  <Point Name="GPNSC" Type="Fix">-113002.200+1301338.500</Point>
-  <Point Name="GPNSF" Type="Fix">-112741.700+1302210.500</Point>
-  <Point Name="GPNSH" Type="Fix">-112209.100+1302711.200</Point>
-  <Point Name="GPNSI" Type="Fix">-113154.000+1301822.300</Point>
-  <Point Name="GRABL" Type="Fix">-322013.600+1183621.300</Point>
-  <Point Name="GRACY" Type="Fix">-372050.200+1413443.300</Point>
-  <Point Name="GRAEM" Type="Fix">-271856.000+1531005.100</Point>
-  <Point Name="GRAZE" Type="Fix">-200805.500+1180311.400</Point>
-  <Point Name="GREAV" Type="Fix">-281900.100+1533811.000</Point>
-  <Point Name="GREGA" Type="Fix">-170020.200+1324528.000</Point>
-  <Point Name="GRENE" Type="Fix">-315326.700+1165610.500</Point>
-  <Point Name="GRIGS" Type="Fix">-345434.800+1384319.600</Point>
-  <Point Name="GRMED" Type="Fix">-275318.800+1235646.900</Point>
-  <Point Name="GRMEE" Type="Fix">-275545.400+1240416.500</Point>
-  <Point Name="GRMEF" Type="Fix">-275958.100+1235401.600</Point>
-  <Point Name="GRMEG" Type="Fix">-280224.800+1240131.600</Point>
-  <Point Name="GRMEH" Type="Fix">-280356.500+1234419.000</Point>
-  <Point Name="GRMEI" Type="Fix">-275751.800+1235909.200</Point>
-  <Point Name="GRMWA" Type="Fix">-281050.300+1234056.600</Point>
-  <Point Name="GRMWB" Type="Fix">-280822.400+1233326.500</Point>
-  <Point Name="GRMWC" Type="Fix">-280143.600+1233613.300</Point>
-  <Point Name="GRMWF" Type="Fix">-280411.200+1234343.000</Point>
-  <Point Name="GRMWH" Type="Fix">-280013.200+1235325.000</Point>
-  <Point Name="GRMWI" Type="Fix">-280616.900+1233834.900</Point>
-  <Point Name="GROOK" Type="Fix">-235459.100+1333826.900</Point>
-  <Point Name="GTEED" Type="Fix">-135540.400+1364058.200</Point>
-  <Point Name="GTEEE" Type="Fix">-140051.100+1364332.700</Point>
-  <Point Name="GTEEF" Type="Fix">-135915.900+1363323.300</Point>
-  <Point Name="GTEEG" Type="Fix">-140459.500+1363926.200</Point>
-  <Point Name="GTEEH" Type="Fix">-135759.500+1362515.900</Point>
-  <Point Name="GTEEI" Type="Fix">-140003.600+1363828.000</Point>
-  <Point Name="GTEWA" Type="Fix">-140100.500+1361403.800</Point>
-  <Point Name="GTEWB" Type="Fix">-135549.200+1361129.500</Point>
-  <Point Name="GTEWC" Type="Fix">-135141.400+1361535.900</Point>
-  <Point Name="GTEWF" Type="Fix">-135725.300+1362138.600</Point>
-  <Point Name="GTEWH" Type="Fix">-135841.900+1362945.900</Point>
-  <Point Name="GTEWI" Type="Fix">-135637.300+1361634.000</Point>
-  <Point Name="GTNEA" Type="Fix">-180834.800+1434059.000</Point>
-  <Point Name="GTNEB" Type="Fix">-181120.500+1434616.200</Point>
-  <Point Name="GTNEC" Type="Fix">-181702.100+1434521.800</Point>
-  <Point Name="GTNEF" Type="Fix">-181547.800+1433651.300</Point>
-  <Point Name="GTNEH" Type="Fix">-181948.200+1432822.600</Point>
-  <Point Name="GTNEI" Type="Fix">-181334.100+1434133.700</Point>
-  <Point Name="GTNWD" Type="Fix">-182744.500+1432242.600</Point>
-  <Point Name="GTNWE" Type="Fix">-182458.700+1431725.000</Point>
-  <Point Name="GTNWF" Type="Fix">-182031.700+1432650.600</Point>
-  <Point Name="GTNWG" Type="Fix">-181917.200+1431819.800</Point>
-  <Point Name="GTNWH" Type="Fix">-181631.300+1433519.300</Point>
-  <Point Name="GTNWI" Type="Fix">-182245.200+1432207.800</Point>
-  <Point Name="GUGAB" Type="Fix">-294106.800+1394959.200</Point>
-  <Point Name="GUGAN" Type="Fix">-192933.500+1465104.400</Point>
-  <Point Name="GUGED" Type="Fix">-281701.300+1533155.100</Point>
-  <Point Name="GUGTI" Type="Fix">-345355.000+1383615.500</Point>
-  <Point Name="GUGUK" Type="Fix">-145628.500+1385236.000</Point>
-  <Point Name="GUKEL" Type="Fix">-163913.300+1223438.100</Point>
-  <Point Name="GUKON" Type="Fix">-225621.300+1213054.400</Point>
-  <Point Name="GULFF" Type="Fix">-142200.000+1400000.000</Point>
-  <Point Name="GULFS" Type="Fix">-345111.100+1380808.300</Point>
-  <Point Name="GULLY" Type="Fix">-344726.500+1384538.800</Point>
-  <Point Name="GULOP" Type="Fix">-154912.400+1415522.400</Point>
-  <Point Name="GULUM" Type="Fix">-231312.600+1282748.800</Point>
-  <Point Name="GUMAP" Type="Fix">-305201.800+1475353.700</Point>
-  <Point Name="GUMBA" Type="Fix">-274408.000+1514820.400</Point>
-  <Point Name="GUMUT" Type="Fix">-192037.430+1470823.400</Point>
-  <Point Name="GUNAM" Type="Fix">-144202.500+1251212.700</Point>
-  <Point Name="GUNGN" Type="Fix">-315812.700+1160759.000</Point>
-  <Point Name="GUNIG" Type="Fix">-374500.900+1450456.700</Point>
-  <Point Name="GUNRO" Type="Fix">-163550.100+145372
