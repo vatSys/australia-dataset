@@ -48,6 +48,7 @@
                 <STAR Name="CG\dA" ApproachName="ILSY"/>
                 <STAR Name="[A-Z]{4}\dP" ApproachName="RNVP"/>
                 <STAR Name="[A-Z]{4}\dM" ApproachName="RNVM"/>
+                <STAR Name="[A-Z]{4}\dV" OpDataFlag="V"/>
                 <STAR Name="LAVEG\d"/>
             </Runway>
             <Runway Name="19L" DataRunway="19L">
@@ -62,15 +63,9 @@
                 <STAR Name="CG\dA" ApproachName="ILSY"/>
                 <STAR Name="[A-Z]{4}\dP" ApproachName="RNVP"/>
                 <STAR Name="[A-Z]{4}\dM" ApproachName="RNVM"/>
+                <STAR Name="[A-Z]{4}\dV" OpDataFlag="V"/>
                 <STAR Name="LAVEG\d"/>
                 <STAR Name="SINNK\d"/>
-                <!--<STAR Name="QUIE\dA"/>-->
-            </Runway>
-            <Runway Name="19LV" DataRunway="19L">
-                <STAR Name="[A-Z]{4}\dV" />
-            </Runway>
-            <Runway Name="01RV" DataRunway="01R">
-                <STAR Name="[A-Z]{4}\dV" />
             </Runway>
             <Runway Name="14V" DataRunway="14">
                 <STAR Name="CG\dV" />
