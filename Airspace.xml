@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Airspace>
     <SystemRunways>
-
         <Airport Name="YBCG">
             <Runway Name="14" DataRunway="14">
                 <SID Name="APAGI\d" Type="Jet"/>
@@ -331,23 +330,25 @@
             </Runway>
         </Airport>
     </SystemRunways>
-    <SIDSTARs>
-        <!--
-        ////////////////////////////////////////////////////////////////////////
+
+
+<!--
+////////////////////////////////////////////////////////////////////////////
         Example for SID "Testa1"
         Route with Runway= set is runway specific.
         Route without Runway= will be inserted after runway specific route
         Transition will then be applied if it joins to the flight plan route
         ie. From runway 36 with ABCDE transition, inserted route will be: ROUTE POINT TESTA FINSH ABCDE
-        ////////////////////////////////////////////////////////////////////////
+
         <SID Name="TESTA1" Airport="AAAA" Runways="18,36">
         <Route Runway="36">ROUTE POINT</Route>
         <Route Runway="18">ANTHR RALTO</Route>
         <Route>TESTA</Route>
         <Transition Name="ABCDE">FINSH ABCDE</Transition>
     </SID>
-    ////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
     STARs are functionally the same as SIDs, but processed in reverse order.
+	
     <STAR Name="TESTA1" Airport="AAAA" Runways="18,36">
     <Transition Name="ABCDE">ABCDE FINSH</Transition>
     <Route>TESTA</Route>
@@ -355,18 +356,23 @@
     <Route Runway="18">RALTO ANTHR</Route>
 </STAR>
 ie. for RWY 18 the following will be inserted:  ABCDE FINSH TESTA RALTO ANTHR (note that points are always inserted in defined order!)
-////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+
 Approaches are functionally similar to STARs, but can only be for one runway each
+
 <Approach Name="RNVZ" Airport="AAAA" Runway="18">
 <Transition Name="ABCDE">ANTHR</Transition>
 <Route>FAFFF AA18T</Route>
 </Approach>
+
+////////////////////////////////////////////////////////////////////////////
 -->
-<Approach Name="RNVZ" Airport="YMEN" Runway="17">
-    <Transition Name="ML">ML</Transition>
-    <Route>MENNF</Route>
-</Approach>
-</SIDSTARs>
+    <SIDSTARs>
+	<Approach Name="RNVZ" Airport="YMEN" Runway="17">
+		<Transition Name="ML">ML</Transition>
+		<Route>MENNF</Route>
+	</Approach>
+	</SIDSTARs>
 
 
 <Airways>
@@ -12459,6 +12465,16 @@ Approaches are functionally similar to STARs, but can only be for one runway eac
     <Point Name="WP" Type="Navaid" NavaidType="VOR" Frequency="112.800">-124024.800+1415520.900</Point>
 </Intersections>
 
+<!--
+-------------------------------------------------------------------------------------------
+	AIRPORT EXAMPLE:
+-------------------------------------------------------------------------------------------
+	<Airport ICAO="YABA" Position="-345636.000+1174832.000" Elevation="233">
+		<Runway Name="14" Position="-345639.000+1174835.000">
+		<Runway Name="32" Position="-345642.000+1174838.000">
+	</Airport>
+-------------------------------------------------------------------------------------------
+-->
 
 <Airports>
     <Airport ICAO="YABA" Position="-345636.000+1174832.000" />
