@@ -222,6 +222,43 @@
             </Runway>
         </Airport>
 
+        <Airport Name="YPDN">
+            <Runway Name="11" DataRunway="11">
+                <SID Name="DN\d" Default="True" />
+                <SID Name="BIRDY\d" Type="NonJet"/>
+                <SID Name="LAKUP\d" Type="NonJet"/>
+                <SID Name="RUSKA\d" Type="NonJet"/>
+                <SID Name="VANDI\d" Type="NonJet"/>
+                <SID Name="HELLI\d" Type="Jet"/>
+                <SID Name="JULIE\d" Type="Jet"/>
+                <SID Name="OCTOB\d" Type="Jet"/>
+                <SID Name="PALGA\d" Type="Jet"/>
+                <STAR Name="[A-Z]{4}\dA" Type="Jet" ApproachName="VOR" />
+                <STAR Name="[A-Z]{4}\dU" Type="Jet" ApproachName="RNVU" OpDataFlag="U" />
+                <STAR Name="[A-Z]{4}\dP" Type="Jet" ApproachName="RNVP" OpDataFlag="P" />
+            </Runway>
+            <Runway Name="29" DataRunway="29">
+                <SID Name="DN\d" Default="True" />
+                <SID Name="BIRDY\d" Type="NonJet"/>
+                <SID Name="LAKUP\d" Type="NonJet"/>
+                <SID Name="RUSKA\d" Type="NonJet"/>
+                <SID Name="VANDI\d" Type="NonJet"/>
+                <SID Name="HELLI\d" Type="Jet"/>
+                <SID Name="JULIE\d" Type="Jet"/>
+                <SID Name="OCTOB\d" Type="Jet"/>
+                <SID Name="PALGA\d" Type="Jet"/>
+                <STAR Name="[A-Z]{4}\dA" Type="Jet" ApproachName="ILS" />
+                <STAR Name="[A-Z]{4}\dU" Type="Jet" ApproachName="RNVU" OpDataFlag="U" />
+                <STAR Name="[A-Z]{4}\dP" Type="Jet" ApproachName="RNVP" OpDataFlag="P" />
+            </Runway>
+            <Runway Name="18" DataRunway="18">
+                <SID Name="DN\d" Default="True" />
+            </Runway>
+            <Runway Name="36" DataRunway="36">
+                <SID Name="DN\d" Default="True" />
+            </Runway>
+        </Airport>
+
         <Airport Name="YSSY">
             <Runway Name="07" DataRunway="07">
                 <SID Name="SY\d" />
@@ -348,7 +385,7 @@
     </SID>
 ////////////////////////////////////////////////////////////////////////////
     STARs are functionally the same as SIDs, but processed in reverse order.
-	
+
     <STAR Name="TESTA1" Airport="AAAA" Runways="18,36">
     <Transition Name="ABCDE">ABCDE FINSH</Transition>
     <Route>TESTA</Route>
