@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Airspace>
     <SystemRunways>
+
+      <Airport Name="YAMB">
+          <Runway Name="15" DataRunway="15">
+            <SID Name="[A-Z]{5}\d"/>
+            <SID Name="AMB\d" Default="True" />
+          </Runway>
+          <Runway Name="33" DataRunway="33">
+            <SID Name="AMB\d" Default="True" />
+            <SID Name="[A-Z]{5}\d" />
+          </Runway>
+          <Runway Name="04" DataRunway="04">
+          </Runway>
+          <Runway Name="22" DataRunway="22">
+          </Runway>
+      </Airport>
+
+      <Airport Name="YBAS">
+          <Runway Name="12" DataRunway="12">
+            <SID Name="TNK\d"/>
+            <SID Name="[A-Z]{5}\d"/>
+          </Runway>
+          <Runway Name="30" DataRunway="30">
+            <SID Name="TNK\d"/>
+            <SID Name="[A-Z]{5}\d" />
+          </Runway>
+          <Runway Name="17" DataRunway="17">
+          </Runway>
+          <Runway Name="35" DataRunway="35">
+          </Runway>
+      </Airport>
+
         <Airport Name="YBCG">
             <Runway Name="14" DataRunway="14">
                 <SID Name="APAGI\d" Type="Jet"/>
@@ -26,7 +57,6 @@
 
         <Airport Name="YBCS">
             <Runway Name="15" DataRunway="15">
-                <SID Name="CS\d" Default="True"/>
                 <SID Name="SWIFT\d" Type="Jet"/>
                 <SID Name="NONUM\d" Type="Jet"/>
                 <STAR Name="[A-Z]{4}\dA" ApproachName="ILSZ"/>
@@ -38,7 +68,6 @@
                 <STAR Name="[A-Z]{4}\dV"/>
             </Runway>
             <Runway Name="33" DataRunway="33">
-                <SID Name="CS\d" Default="True"/>
                 <SID Name="EAZEE\d" Type="Jet"/>
                 <STAR Name="[A-Z]{4}\dA" ApproachName="VOR"/>
                 <STAR Name="[A-Z]{4}\dX" ApproachName="RNVX"/>
@@ -77,7 +106,7 @@
                 <STAR Name="LAVEG\d"/>
             </Runway>
             <Runway Name="19L" DataRunway="19L">
-                <SID Name="CORAL\``d" Type="Jet"/>
+                <SID Name="CORAL\d" Type="Jet"/>
                 <SID Name="TRIKI\d" Type="Jet"/>
                 <SID Name="COODA\d" Type="Jet"/>
                 <SID Name="HUUGO\d" Type="Jet"/>
@@ -103,6 +132,39 @@
             </Runway>
         </Airport>
 
+        <Airport Name="YBHM">
+            <Runway Name="14" DataRunway="14">
+            </Runway>
+            <Runway Name="32" DataRunway="32">
+            </Runway>
+        </Airport>
+
+        <Airport Name="YBMK">
+            <Runway Name="14" DataRunway="14">
+              <SID Name="MK\d" Default="True" />
+              <SID Name="[A-Z]{5}\d" />
+                <STAR Name="[A-Z]{5}\d" ApproachName="RNVZ"/>
+            </Runway>
+            <Runway Name="32" DataRunway="32">
+              <SID Name="MK\d" Default="True" />
+              <SID Name="[A-Z]{5}\d" />
+              <STAR Name="[A-Z]{5}\d" ApproachName="RNVZ"/>
+            </Runway>
+        </Airport>
+
+        <Airport Name="YBRK">
+            <Runway Name="15" DataRunway="15">
+              <SID Name="RK\d" Default="True" />
+              <SID Name="[A-Z]{5}\d" />
+                <STAR Name="[A-Z]{5}\d" ApproachName="RNVZ"/>
+            </Runway>
+            <Runway Name="33" DataRunway="33">
+              <SID Name="RK\d" Default="True" />
+              <SID Name="[A-Z]{5}\d" />
+              <STAR Name="[A-Z]{5}\d" ApproachName="RNVZ"/>
+            </Runway>
+        </Airport>
+
         <Airport Name="YBRM">
             <Runway Name="10" DataRunway="10">
             </Runway>
@@ -112,19 +174,52 @@
 
         <Airport Name="YBTL">
             <Runway Name="19" DataRunway="19">
-                <SID Name="[A-Z]{5}\d">
+                <SID Name="[A-Z]{5}\d" />
                 <STAR Name="[A-Z]{4}\dB" ApproachName="VOR"/>
                 <STAR Name="[A-Z]{4}\dP" ApproachName="RNVP"/>
                 <STAR Name="[A-Z]{4}\dZ" ApproachName="RNVZ"/>
             </Runway>
             <Runway Name="01" DataRunway="01">
-                  <SID Name="[A-Z]{5}\d">
+                  <SID Name="[A-Z]{5}\d" />
                   <STAR Name="[A-Z]{4}\dA" ApproachName="ILSZ"/>
                   <STAR Name="[A-Z]{4}\dP" ApproachName="RNVP"/>
             </Runway>
             <Runway Name="25" DataRunway="25">
             </Runway>
             <Runway Name="07" DataRunway="07">
+            </Runway>
+        </Airport>
+
+        <Airport Name="YBSU">
+            <Runway Name="18" DataRunway="18">
+            </Runway>
+            <Runway Name="36" DataRunway="36">
+            </Runway>
+        </Airport>
+
+        <Airport Name="YCFS">
+            <Runway Name="21" DataRunway="21">
+            </Runway>
+            <Runway Name="03" DataRunway="03">
+            </Runway>
+        </Airport>
+
+        <Airport Name="YMMB">
+            <Runway Name="35L" DataRunway="35L">
+            </Runway>
+            <Runway Name="35R" DataRunway="35R">
+            </Runway>
+            <Runway Name="17R" DataRunway="17R">
+            </Runway>
+            <Runway Name="17L" DataRunway="17L">
+            </Runway>
+            <Runway Name="31L" DataRunway="31L">
+            </Runway>
+            <Runway Name="13L" DataRunway="13L">
+            </Runway>
+            <Runway Name="13L" DataRunway="13L">
+            </Runway>
+            <Runway Name="31L" DataRunway="31L">
             </Runway>
         </Airport>
 
@@ -185,14 +280,26 @@
 
         <Airport Name="YMAV">
             <Runway Name="18" DataRunway="18">
-                <SID Name="JUSTY\d" />
-                <SID Name="AV\d" Default="True" />
+              <SID Name="JUSTY\d" />
+              <SID Name="AV\d" Default="True" />
+                <SID Name="[A-Z]{5}\d" />
                 <STAR Name="[A-Z]{4}\d" ApproachName="ILSY"/>
             </Runway>
             <Runway Name="36" DataRunway="36">
                 <SID Name="JUSTY\d" />
                 <SID Name="AV\d" Default="True" />
                 <STAR Name="[A-Z]{4}\d" />
+            </Runway>
+        </Airport>
+
+        <Airport Name="YMAY">
+            <Runway Name="25" DataRunway="25">
+              <SID Name="[A-Z]{5}\d" />
+              <STAR Name="[A-Z]{5}\d" ApproachName="RNVZ"/>
+            </Runway>
+            <Runway Name="07" DataRunway="07">
+              <SID Name="[A-Z]{5}\d" />
+              <STAR Name="[A-Z]{5}\d" ApproachName="RNVZ"/>
             </Runway>
         </Airport>
 
@@ -208,6 +315,36 @@
             </Runway>
             <Runway Name="08" DataRunway="08">
                 <SID Name="ESSEN\d" Default="True" />
+            </Runway>
+        </Airport>
+
+        <Airport Name="YMES">
+            <Runway Name="04" DataRunway="04">
+              <SID Name="ESL\d" Default="True" />
+              <SID Name="[A-Z]{2}\d" />
+              <SID Name="[A-Z]{3}\d" />
+              <SID Name="[A-Z]{5}\d" />
+            </Runway>
+            <Runway Name="22" DataRunway="22">
+              <SID Name="ESL\d" Default="True" />
+              <SID Name="[A-Z]{2}\d" />
+              <SID Name="[A-Z]{3}\d" />
+              <SID Name="[A-Z]{5}\d" />
+              <STAR Name="[A-Z]{5}\d" ApproachName="RNVZ"/>
+            </Runway>
+            <Runway Name="09" DataRunway="09">
+              <SID Name="ESL\d" Default="True" />
+              <SID Name="[A-Z]{2}\d" />
+              <SID Name="[A-Z]{3}\d" />
+              <SID Name="[A-Z]{5}\d" />
+              <STAR Name="[A-Z]{5}\d" ApproachName="RNVZ"/>
+            </Runway>
+            <Runway Name="27" DataRunway="27">
+              <SID Name="ESL\d" Default="True" />
+              <SID Name="[A-Z]{2}\d" />
+              <SID Name="[A-Z]{3}\d" />
+              <SID Name="[A-Z]{5}\d" />
+              <STAR Name="[A-Z]{5}\d" ApproachName="RNVZ"/>
             </Runway>
         </Airport>
 
@@ -310,10 +447,187 @@
             </Runway>
         </Airport>
 
+        <Airport Name="YPED">
+            <Runway Name="36" DataRunway="36">
+              <SID Name="EDN\d" Default="True" />
+              <SID Name="NORTH\d" />
+            </Runway>
+            <Runway Name="18" DataRunway="18">
+              <SID Name="EDN\d" Default="True" />
+              <SID Name="NORTH\d" />
+            </Runway>
+        </Airport>
+
+        <Airport Name="YPJT">
+            <Runway Name="06L" DataRunway="06L">
+              <SID Name="[A-Z]{5}\d" />
+            </Runway>
+            <Runway Name="06R" DataRunway="06R">
+            </Runway>
+            <Runway Name="24L" DataRunway="24L">
+            </Runway>
+            <Runway Name="24R" DataRunway="24R">
+              <SID Name="[A-Z]{5}\d" />
+            </Runway>
+            <Runway Name="12" DataRunway="12">
+              <SID Name="[A-Z]{5}\d" />
+            </Runway>
+            <Runway Name="30" DataRunway="30">
+              <SID Name="[A-Z]{5}\d" />
+            </Runway>
+        </Airport>
+
         <Airport Name="YPKA">
             <Runway Name="08" DataRunway="08">
             </Runway>
             <Runway Name="26" DataRunway="26">
+            </Runway>
+        </Airport>
+
+        <Airport Name="YPLM">
+            <Runway Name="18" DataRunway="18">
+            </Runway>
+            <Runway Name="36" DataRunway="36">
+            </Runway>
+        </Airport>
+
+        <Airport Name="YPPF">
+            <Runway Name="03L" DataRunway="03L">
+              <SID Name="PF\d" Default="True" />
+            </Runway>
+            <Runway Name="21R" DataRunway="21R">
+              <SID Name="PF\d" Default="True" />
+            </Runway>
+            <Runway Name="03R" DataRunway="03R">
+            </Runway>
+            <Runway Name="21L" DataRunway="21L">
+            </Runway>
+            <Runway Name="08L" DataRunway="08L">
+            </Runway>
+            <Runway Name="26R" DataRunway="26R">
+            </Runway>
+            <Runway Name="08R" DataRunway="08R">
+            </Runway>
+            <Runway Name="26L" DataRunway="26L">
+            </Runway>
+        </Airport>
+
+        <Airport Name="YPPH">
+            <Runway Name="21" DataRunway="21">
+                <SID Name="PERTH\d" Default="True" />
+                <SID Name="MANDU\d" />
+                <SID Name="SOLUS\d" />
+                <SID Name="MUBID\d" Type="Jet" />
+                <SID Name="HECTO\d" Type="Jet" />
+                <SID Name="MEMUP\d" Type="Jet" />
+                <SID Name="YNRV\d" Type="Jet" />
+                <SID Name="PUMRY\d" Type="NonJet"/>
+                <SID Name="OTKUN\d" Type="NonJet"/>
+                <SID Name="OTLED\d" Type="NonJet"/>
+                <SID Name="RAVON\d" Type="NonJet"/>
+                <SID Name="AMANA\d" Type="Jet" />
+                <SID Name="AVNEX\d" Type="Jet" />
+                <SID Name="KEELS\d" />
+                <STAR Name="BEVL\dA" Type="Jet" ApproachName="ILS" />
+                <STAR Name="CONI\dA" Type="NonJet" ApproachName="ILS" />
+                <STAR Name="GREN\dA" Type="NonJet" ApproachName="ILS" />
+                <STAR Name="JULI\dA" Type="Jet" ApproachName="ILS" />
+                <STAR Name="SOLU\dA" Type="Jet" ApproachName="ILS" />
+                <STAR Name="WAVE\dA" Type="Jet" ApproachName="ILS" />
+            </Runway>
+            <Runway Name="03" DataRunway="03">
+                <SID Name="MANDU\d" />
+                <SID Name="SOLUS\d" />
+                <SID Name="PERTH\d" Default="True" />
+                <SID Name="MUBID\d" Type="Jet" />
+                <SID Name="HECTO\d" Type="Jet" />
+                <SID Name="MEMUP\d" Type="Jet" />
+                <SID Name="YNRV\d" Type="Jet" />
+                <SID Name="PIKIL\d" Type="NonJet"/>
+                <SID Name="RANGU\d" Type="NonJet"/>
+                <SID Name="OTLED\d" Type="NonJet"/>
+                <SID Name="RAVON\d" Type="NonJet"/>
+                <SID Name="AMANA\d" Type="Jet" />
+                <SID Name="AVNEX\d" Type="Jet" />
+                <SID Name="KEELS\d" />
+                <STAR Name="BEVL\dA" Type="Jet" ApproachName="ILS" />
+                <STAR Name="CONI\dA" Type="NonJet" ApproachName="ILS" />
+                <STAR Name="DAYL\dA" Type="NonJet" ApproachName="ILS" />
+                <STAR Name="GREN\dA" Type="NonJet" ApproachName="ILS" />
+                <STAR Name="JULI\dA" Type="Jet" ApproachName="ILS" />
+                <STAR Name="SOLU\dA" Type="Jet" ApproachName="ILS" />
+                <STAR Name="WAVE\dA" Type="Jet" ApproachName="ILS" />
+                <STAR Name="BEVL\dX" Type="Jet" ApproachName="RNVX" />
+                <STAR Name="CONI\dX" Type="NonJet" ApproachName="RNVX" />
+                <STAR Name="DAYL\dX" Type="NonJet" ApproachName="RNVX" />
+                <STAR Name="GREN\dX" Type="NonJet" ApproachName="RNVX" />
+                <STAR Name="JULI\dX" Type="Jet" ApproachName="RNVX" />
+                <STAR Name="SOLU\dX" Type="Jet" ApproachName="RNVX" />
+                <STAR Name="BEVL\dV" Type="Jet"/>
+                <STAR Name="CONI\dV" Type="NonJet"/>
+                <STAR Name="DAYL\dV" Type="NonJet"/>
+                <STAR Name="GREN\dV" Type="NonJet"/>
+                <STAR Name="JULI\dV" Type="Jet"/>
+                <STAR Name="SOLU\dV" Type="Jet"/>
+            </Runway>
+            <Runway Name="24" DataRunway="24">
+                <SID Name="PERTH\d" Default="True" />
+                <SID Name="MANDU\d" />
+                <SID Name="SOLUS\d" />
+                <SID Name="MUBID\d" Type="Jet" />
+                <SID Name="HECTO\d" Type="Jet" />
+                <SID Name="MEMUP\d" Type="Jet" />
+                <SID Name="YNRV\d" Type="Jet" />
+                <SID Name="PUMRY\d" Type="NonJet"/>
+                <SID Name="OTKUN\d" Type="NonJet"/>
+                <SID Name="OTLED\d" Type="NonJet"/>
+                <SID Name="RAVON\d" Type="NonJet"/>
+                <SID Name="AMANA\d" Type="Jet" />
+                <SID Name="AVNEX\d" Type="Jet" />
+                <SID Name="KEELS\d" />
+                <STAR Name="BEVL\dA" Type="Jet" ApproachName="ILS" />
+                <STAR Name="CONI\dA" Type="NonJet" ApproachName="ILS" />
+                <STAR Name="GREN\dA" Type="NonJet" ApproachName="ILS" />
+                <STAR Name="JULI\dA" Type="Jet" ApproachName="ILS" />
+                <STAR Name="SOLU\dA" Type="Jet" ApproachName="ILS" />
+                <STAR Name="WAVE\dA" Type="Jet" ApproachName="ILS" />
+            </Runway>
+            <Runway Name="06" DataRunway="06">
+                <SID Name="PERTH\d" Default="True" />
+                <SID Name="MANDU\d" />
+                <SID Name="SOLUS\d" />
+                <SID Name="MUBID\d" Type="Jet" />
+                <SID Name="HECTO\d" Type="Jet" />
+                <SID Name="MEMUP\d" Type="Jet" />
+                <SID Name="YNRV\d" Type="Jet" />
+                <SID Name="PIKIL\d" Type="NonJet"/>
+                <SID Name="RANGU\d" Type="NonJet"/>
+                <SID Name="OTLED\d" Type="NonJet"/>
+                <SID Name="RAVON\d" Type="NonJet"/>
+                <SID Name="AMANA\d" Type="Jet" />
+                <SID Name="AVNEX\d" Type="Jet" />
+                <SID Name="KEELS\d" />
+                <STAR Name="BEVL\dA" Type="Jet" ApproachName="RNVZ" />
+                <STAR Name="CONI\dA" Type="NonJet" ApproachName="RNVZ" />
+                <STAR Name="DAYL\dA" Type="NonJet" ApproachName="RNVZ" />
+                <STAR Name="GREN\dA" Type="NonJet" ApproachName="RNVZ" />
+                <STAR Name="JULI\dA" Type="Jet" ApproachName="RNVZ" />
+                <STAR Name="SOLU\dA" Type="Jet" ApproachName="RNVZ" />
+                <STAR Name="WAVE\dA" Type="Jet" ApproachName="RNVZ" />
+                <STAR Name="BEVL\dV" Type="Jet"/>
+                <STAR Name="CONI\dV" Type="NonJet"/>
+                <STAR Name="DAYL\dV" Type="NonJet"/>
+                <STAR Name="GREN\dV" Type="NonJet"/>
+                <STAR Name="JULI\dV" Type="Jet"/>
+                <STAR Name="SOLU\dV" Type="Jet"/>
+            </Runway>
+            <Runway Name="03V" DataRunway="03">
+              <STAR Name="BEVL\dV" Type="Jet"/>
+              <STAR Name="CONI\dV" Type="NonJet"/>
+              <STAR Name="DAYL\dV" Type="NonJet"/>
+              <STAR Name="GREN\dV" Type="NonJet"/>
+              <STAR Name="JULI\dV" Type="Jet"/>
+              <STAR Name="SOLU\dV" Type="Jet"/>
             </Runway>
         </Airport>
 
@@ -418,6 +732,79 @@
             </Runway>
         </Airport>
 
+        <Airport Name="YSCN">
+            <Runway Name="06" DataRunway="06">
+            </Runway>
+            <Runway Name="24" DataRunway="24">
+            </Runway>
+        </Airport>
+
+        <Airport Name="YSBK">
+            <Runway Name="11L" DataRunway="11L">
+            </Runway>
+            <Runway Name="11C" DataRunway="11C">
+              <SID Name="BK\d" Default="true" />
+            </Runway>
+            <Runway Name="11R" DataRunway="11R">
+            </Runway>
+            <Runway Name="29R" DataRunway="29R">
+            </Runway>
+            <Runway Name="29C" DataRunway="29C">
+                <SID Name="BK\d" Default="true" />
+            </Runway>
+            <Runway Name="29L" DataRunway="29L">
+            </Runway>
+        </Airport>
+
+        <Airport Name="YSRI">
+            <Runway Name="10" DataRunway="10">
+                <SID Name="RIC\d" Default="true" />
+                <SID Name="[A-Z]{5}\d" />
+            </Runway>
+            <Runway Name="28" DataRunway="28">
+              <SID Name="RIC\d" Default="true" />
+              <SID Name="[A-Z]{5}\d" />
+            </Runway>
+        </Airport>
+
+        <Airport Name="YSNW">
+            <Runway Name="03" DataRunway="03">
+              <SID Name="NOWRA\d" Default="true" />
+              <SID Name="CB\d" />
+              <SID Name="[A-Z]{5}\d" />
+              <SID Name="[A-Z]{3}\d" />
+            </Runway>
+            <Runway Name="21" DataRunway="21">
+              <SID Name="NOWRA\d" Default="true" />
+              <SID Name="CB\d" />
+              <SID Name="[A-Z]{5}\d" />
+              <SID Name="[A-Z]{3}\d" />
+            </Runway>
+            <Runway Name="08" DataRunway="08">
+              <SID Name="NOWRA\d" Default="true" />
+              <SID Name="CB\d" />
+              <SID Name="[A-Z]{5}\d" />
+              <SID Name="[A-Z]{3}\d" />
+            </Runway>
+            <Runway Name="26" DataRunway="26">
+              <SID Name="NOWRA\d" Default="true" />
+              <SID Name="CB\d" />
+              <SID Name="[A-Z]{5}\d" />
+              <SID Name="[A-Z]{3}\d" />
+            </Runway>
+        </Airport>
+
+        <Airport Name="YSTW">
+            <Runway Name="12L" DataRunway="12L">
+            </Runway>
+            <Runway Name="30R" DataRunway="30R">
+            </Runway>
+            <Runway Name="30L" DataRunway="30L">
+            </Runway>
+            <Runway Name="12R" DataRunway="12R">
+            </Runway>
+        </Airport>
+
         <Airport Name="YMHB">
             <Runway Name="12A" DataRunway="12">
                 <STAR Name="[A-Z]{4}\dA" ApproachName="ILSZ" />
@@ -435,6 +822,17 @@
                 <SID Name="[A-Z]{5}\d" />
                 <STAR Name="[A-Z]{4}\dV" />
                 <STAR Name="[A-Z]{4}\dW" ApproachName="RNVW" OpDataFlag="W" />
+            </Runway>
+        </Airport>
+
+        <Airport Name="YWLM">
+            <Runway Name="12" DataRunway="12">
+                <SID Name="WILLY\d" Default="true" />
+                <SID Name="[A-Z]{5}\d" />
+            </Runway>
+            <Runway Name="30" DataRunway="30">
+              <SID Name="WILLY\d" Default="true" />
+              <SID Name="[A-Z]{5}\d" />
             </Runway>
         </Airport>
     </SystemRunways>
