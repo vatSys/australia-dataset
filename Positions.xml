@@ -25,6 +25,31 @@
 		</ArrivalLists>
 		<CFL QuickLevel="9000" />
 	</Position>
+	
+	<Position Name="Tasmania" Type="ASD" DefaultCenter="-4255.000+14659.000" DefaultRange="789">
+		<Sectors>
+			<Sector Name="TAS"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES" />
+			<Map Name="ALL_POINTS" />
+			<Map Name="FIR_BDRY" />
+		</Maps>
+		<Strips Mode="State" Sort="Time">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<ArrivalLists>
+			<Airport Name="YMHB" />
+			<Airport Name="YMLT" />
+			<Airport Name="YMML" />
+		</ArrivalLists>
+		<CFL QuickLevel="9000" />
+	</Position>
 
 	<Position Name="Bourke" Type="ASD" DefaultCenter="-3030.000+14105.000" DefaultRange="1000">
 		<Sectors>
