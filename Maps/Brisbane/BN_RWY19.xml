@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="BN_RWY19" Priority="1" Center="-27.40+153.118">
+  	<!-- YBBN BRISBANE -->
+    <Runway Name="01R/19L">
+      <Threshold Name="01R" Position="-27.402803+153.118217" />
+      <Threshold Name="19L" Position="-27.374672+153.134306" ExtendedCentrelineTrack="026.9" ExtendedCentrelineLength="12"  ExtendedCentrelineTickInterval="2" />
+    </Runway>
+	<!-- STARs -->
+	<Line>
+	  BLAKA/
+	  MOOVI/
+	  LAGOB/
+	  LEAKY
+	</Line>
+	<Line>
+	  LAGOB/
+	  POODL
+	</Line>
+	<Line>
+	  POODL/
+	  FYSTI/
+	  KOUPA/
+	  GRAEM
+	</Line>
+	<Line>
+	  CG VOR/
+	  LEDON/
+	  CRAWS
+	</Line>
+	<Line>
+	  CRAWS/
+	  LEAKY
+	</Line>
+	<Line>
+	  CRAWS/
+	  POODL
+	</Line>
+	<Line>
+	  KEVIE/
+	  BILBI/
+	  DRAIN/
+	  PLUGG/
+	  SINNK
+	</Line>
+	<Line>
+	  SMOKA/
+	  QUIET/
+	  SINNK
+	</Line>
+	<Line>
+	  SAVER/
+	  IRTED/
+	  AMITY/
+	  LEAKY
+	</Line>
+	<Line>
+	  AMITY/
+	  MAVGA/
+	  FYSTI
+	</Line>
+	<Line>
+	  GLENN/
+	  SORVA/
+	  LEAKY/
+	  BOATS/
+	  SINNK
+	</Line>
+	<Line>
+	  SMOKA/
+	  OTGAT/
+	  DAYBO/
+	  BEKID/
+	  DRAIN
+	</Line>
+	<Line>
+	  DRAIN/
+	  GUTTA/
+	  DEBAY/
+	  MORTN
+	</Line>
+   <Symbol Type="HollowStar">
+	<Point>BLAKA</Point>
+	<Point>MOOVI</Point>
+	<Point>LAGOB</Point>
+	<Point>LEAKY</Point>
+	<Point>POODL</Point>
+	<Point>FYSTI</Point>
+	<Point>KOUPA</Point>
+	<Point>GRAEM</Point>
+	<Point>CG VOR</Point>
+	<Point>LEDON</Point>
+	<Point>CRAWS</Point>
+	<Point>KEVIE</Point>
+	<Point>BILBI</Point>
+	<Point>DRAIN</Point>
+	<Point>PLUGG</Point>
+	<Point>SMOKA</Point>
+	<Point>QUIET</Point>
+	<Point>SAVER</Point>
+	<Point>IRTED</Point>
+	<Point>AMITY</Point>	
+	<Point>MAVGA</Point>
+	<Point>GLENN</Point>
+	<Point>SORVA</Point>
+	<Point>BOATS</Point>
+	<Point>OTGAT</Point>
+	<Point>DAYBO</Point>
+	<Point>BEKID</Point>
+	<Point>GUTTA</Point>
+	<Point>DEBAY</Point>
+	<Point>MORTN</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>SINNK</Point>
+    </Symbol>
+	<!-- SIDs -->
+	<Line>
+	  -27.402803+153.118217/ <!-- UPWIND THRESHOLD -->
+	  CITEE
+	</Line>
+	<Line>
+	  -27.402803+153.118217/ <!-- UPWIND THRESHOLD -->
+	  BOSVU
+	</Line>
+	<Line>
+	  CITEE/
+	  NOGRA/
+	  AMBLE/
+	  DEBAY
+	</Line>
+	<Line>
+	  DEBAY/
+	  CORAL
+	</Line>
+	<Line>
+	  DEBAY/
+	  TRIKI
+	</Line>
+	<Line>
+	  AMBLE/
+	  COODA
+	</Line>
+	<Line>
+	  BOSVU/
+	  DADAN/
+	  DENIS/
+	  LILEE/
+	  HUUGO
+	</Line>
+	<Line>
+	  AMBLE/
+	  ODURA/
+	  SCOTT
+	</Line>
+	<Line>
+	  CITEE/
+	  NAIDO/
+	  SAMSN/
+	  WACKO
+	</Line>
+	<Symbol Type="SolidStar">
+    <Point>BOSVU</Point>
+	<Point>CITEE</Point>
+	</Symbol>
+   <Symbol Type="HollowStar">
+	<Point>NOGRA</Point>
+	<Point>AMBLE</Point>
+	<Point>DEBAY</Point>
+	<Point>CORAL</Point>
+	<Point>TRIKI</Point>
+	<Point>COODA</Point>
+	<Point>DADAN</Point>
+	<Point>DENIS</Point>
+	<Point>LILEE</Point>
+	<Point>HUUGO</Point>
+	<Point>ODURA</Point>
+	<Point>SCOTT</Point>
+	<Point>NAIDO</Point>
+	<Point>SAMSN</Point>
+	<Point>WACKO</Point>
+	</Symbol>
+  </Map>
+</Maps>

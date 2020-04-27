@@ -1,17 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Maps>
   <Map Type="System" Name="BN_TCU" Priority="1" Center="-27.40+153.118">
-	<!-- YBBN BRISBANE -->
-    <Runway Name="01R/19L">
-      <Threshold Name="01R" Position="-27.402803+153.118217" ExtendedCentrelineTrack="206.9" ExtendedCentrelineLength="14"  ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="19L" Position="-27.374672+153.134306" ExtendedCentrelineTrack="026.9" ExtendedCentrelineLength="14"  ExtendedCentrelineTickInterval="2" />
-    </Runway>
-	<!-- FUTURE PARALLEL
-	<Runway Name="01R/19L">
-      <Threshold Name="01R" Position="-27.402803+153.118217" />
-      <Threshold Name="19L" Position="-27.374672+153.134306" />
-    </Runway> 
-	-->
     <!--YBAF ARCHERFIELD-->
     <Runway Name="04L/22R">
       <Threshold Name="06" Position="-27.570981+153.001861" />
@@ -52,8 +41,231 @@
       <Threshold Name="18" Position="-26.594369+153.094325" />
       <Threshold Name="36" Position="-26.610117+153.089950" />
 	</Runway>
+	
+	<!-- ROUTES -->
+	<Line>
+	  <Point>
+	    GUSNI/
+		PARRY/
+		GLENN
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    HUUGO/
+		OSTAM/
+		BOBOP
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    HUUGO/
+		ISKIM
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    HUUGO/
+		APAGI/
+		TESSI
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    APAGI/
+		ISKIM
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    PEBDO/
+		WHITI/
+		GAMBL
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    LOSKU/
+		GAMBL
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    GAMBL/
+		GUMPO/
+		BLAKA
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    BANDA/
+		TOJAM/
+		CG VOR
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    BANDA/
+		BERNI
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    SCOTT/
+		LAMSI/
+		SIFRA
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    SCOTT/
+		ELLAS
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    SCOTT/
+		CHEWY
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    SCOTT/
+		SIFRA
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    SMOKA/
+		EAGLE
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    SMOKA/
+		HAWKE/
+		COOLA
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    WACKO/
+		IBUNA/
+		HAWKE
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    BONEY/
+		SAVER
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    MEPEM/
+		SAVER
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    GATER/
+		SAVER
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    NETTY/
+		SAVER
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    WODAY/
+		SAVER
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    HARVS/
+		SAVER
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    CORAL/
+		LOAFA
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    CORAL/
+		SOSTU
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    CORAL/
+		COLET
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    TRIKI/
+		SETER
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    ROM NDB/
+		OK VOR/
+		AGIVA/
+		PARRY
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    RACHL/
+		EDPEG/
+		PUGON/
+		PARRY
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    BURPA/
+		GAYLA/
+		LAVEG
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    BIVAT/
+		WOODY/
+		WINKY/
+		KEVIE
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    SUSGI/
+		LAVEG
+	  </Point>
+	</Line>
+	<Line>
+	  <Point>
+	    SOSTU/
+		LAVEG
+	  </Point>
+	</Line>
     <Symbol Type="SolidSquare">
+		<Point>WOODY</Point>
+		<Point>PARRY</Point>
     </Symbol>
+	<Symbol Type="HollowStar">
+		<Point>LAVEG</Point>
+		<Point>BURPA</Point>
+		<Point>GAYLA</Point>
+	</Symbol>
   </Map>
     <Map Type="System" Name="BN_TCU_NAMES" Priority="2" Center="-27.40+153.118">
       <Label>

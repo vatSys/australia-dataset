@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="BN_RWY01" Priority="1" Center="-27.40+153.118">
+  	<!-- YBBN BRISBANE -->
+    <Runway Name="01R/19L">
+      <Threshold Name="01R" Position="-27.402803+153.118217" ExtendedCentrelineTrack="206.9" ExtendedCentrelineLength="12"  ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="19L" Position="-27.374672+153.134306" />
+    </Runway>
+	<!-- STARs -->
+	<Line>
+	  CG VOR/
+	  OLDET/
+	  LAGOB
+	</Line>
+	<Line>
+	  CG VOR/
+	  MOOVI
+	</Line>
+	<Line>
+	  BLAKA/
+	  MOOVI
+	</Line>
+    <Line>
+	  MOOVI/
+	  BERTI/
+	  ESKAN/
+	  RUMRO/
+	  GLENN
+    </Line>
+	<Line>
+	  MOOVI/
+	  LAGOB/
+	  PUNEK/
+	  COTON/
+	  SORVA/
+	  ANNIE
+    </Line>
+	<Line>
+	  FLYNN/
+	  GLENN
+    </Line>
+	<Line>
+	  SMOKA/
+	  OTGAT/
+	  DAYBO
+	</Line>
+	<Line>
+	  DAYBO/
+	  GORRI/
+	  FLYNN
+    </Line>
+	<Line>
+	  DAYBO/
+	  ISVAN/
+	  SAGTA/
+	  BIPUD/
+	  OLBEV/
+	  PUNIG
+    </Line>
+	<Line>
+	  KEVIE/
+	  ENBET/
+	  FLYNN
+    </Line>
+	<Line>
+	  SAVER/
+	  IRTED/
+	  AMITY/
+	  DUNNI/
+	  ADGET/
+	  BEDAT/
+	  KASBA
+    </Line>
+	<Line>
+	  DUNNI/
+	  VETIS/
+	  LOGAN/
+	  GLENN
+    </Line>
+	<Symbol Type="SolidStar">
+    <Point>DEENA</Point>
+	</Symbol>
+   <Symbol Type="HollowStar">
+	<Point>DUNNI</Point>
+	<Point>VETIS</Point>
+	<Point>LOGAN</Point>
+	<Point>SAVER</Point>
+	<Point>IRTED</Point>
+	<Point>AMITY</Point>
+	<Point>ADGET</Point>
+	<Point>BEDAT</Point>
+	<Point>KASBA</Point>
+	<Point>KEVIE</Point>
+	<Point>ENBET</Point>
+	<Point>ISVAN</Point>
+	<Point>SAGTA</Point>
+	<Point>BIPUD</Point>
+	<Point>GORRI</Point>
+	<Point>FLYNN</Point>
+	<Point>CG VOR</Point>
+	<Point>OLDET</Point>
+	<Point>LAGOB</Point>
+	<Point>MOOVI</Point>
+	<Point>BLAKA</Point>
+	<Point>BERTI</Point>
+	<Point>ESKAN</Point>
+	<Point>RUMRO</Point>
+	<Point>PUNEK</Point>
+	<Point>COTON</Point>
+	<Point>SORVA</Point>
+	<Point>SMOKA</Point>
+	<Point>OTGAT</Point>
+	<Point>DAYBO</Point>	
+    </Symbol>
+    <Symbol Type="SolidSquare">
+      <Point></Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>GLENN</Point>
+    </Symbol>
+	<!-- SIDs -->
+	<Line>
+	  -27.374672+153.134306/ <!-- upwind threshold -->
+	  VERRY
+	</Line>
+	<Line>
+	  -27.374672+153.134306/ <!-- upwind threshold -->
+	  ISRIB
+	</Line>
+	<Line>
+	  VERRY/
+	  TRIKI
+	</Line>
+	<Line>
+	  VERRY/
+	  CORAL
+	</Line>
+	<Line>
+	  ISRIB/
+	  COODA
+	</Line>
+	<Line>
+	  ISRIB/
+	  LUMDI
+	</Line>
+	<Line>
+	  LUMDI/
+	  MANLI/
+	  HUUGO
+	</Line>
+	<Line>
+	  LUMDI/
+	  IGARU/
+	  OGOGA/
+	  SCOTT
+	</Line>
+	<Line>
+	  LUMDI/
+	  BAABA/
+	  CARSL/
+	  LAWNN/
+	  WACKO
+	</Line>
+	<Symbol Type="SolidStar">
+    <Point>ISRIB</Point>
+	</Symbol>
+   <Symbol Type="HollowStar">
+	<Point>LUMDI</Point>
+	<Point>BAABA</Point>
+	<Point>CARSL</Point>
+	<Point>LAWNN</Point>
+	<Point>WACKO</Point>
+	<Point>VERRY</Point>
+	<Point>TRIKI</Point>
+	<Point>CORAL</Point>
+	<Point>COODA</Point>
+	<Point>LUMDI</Point>
+	<Point>MANLI</Point>
+	<Point>HUUGO</Point>
+	<Point>IGARU</Point>
+	<Point>OGOGA</Point>
+	<Point>SCOTT</Point>
+	</Symbol>
+  </Map>
+</Maps>
