@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="CG_RWY32" Priority="1" Center="-27.40+153.118">
+	<Runway Name="14/32">
+      <Threshold Name="14" Position="-28.156511+153.500706" />
+      <Threshold Name="32" Position="-28.172569+153.510919" ExtendedCentrelineTrack="150.7" ExtendedCentrelineLength="10"  ExtendedCentrelineTickInterval="5" />
+	</Runway>
+	<!-- STARs -->
+	<Line>
+	  BERNI/
+	  ELDUX/
+	  VANSU/
+	  ROONY/
+	  FIKUL/
+	  JAAPI
+	</Line>
+	<Line>
+	  LAMSI/
+	  IGLAP/
+	  VIDUM/
+	  FIKUL
+    </Line>
+   <Symbol Type="HollowStar">
+	<Point>BERNI</Point>
+	<Point>ELDUX</Point>
+	<Point>VANSU</Point>
+	<Point>ROONY</Point>
+	<Point>JAAPI</Point>
+	<Point>LAMSI</Point>
+	<Point>IGLAP</Point>
+	<Point>VIDUM</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>FIKUL</Point>
+	  <Point>OOLSI</Point>
+    </Symbol>
+	<!-- SIDs -->
+	<Line>
+	  -28.156511+153.500706/ <!-- Threshold 14 -->
+	  -280744.0+1532909.0/
+	  STIMP/
+	  MICKS/
+	  APAGI
+	</Line>
+   <Symbol Type="HollowStar">
+     <Point>STIMP</Point>
+     <Point>MICKS</Point>
+	 <Point>APAGI</Point>
+	</Symbol>
+  </Map>
+</Maps>

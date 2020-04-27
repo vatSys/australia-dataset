@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="CG_RWY14" Priority="1" Center="-27.40+153.118">
+	<Runway Name="14/32">
+      <Threshold Name="14" Position="-28.156511+153.500706" ExtendedCentrelineTrack="330.7" ExtendedCentrelineLength="15"  ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="32" Position="-28.172569+153.510919" />
+	</Runway>
+	<!-- STARs -->
+	<Line>
+	  BERNI/
+	  ELDUX/
+	  VANSU/
+	  ROONY/
+	  FIKUL/
+	  CHOOK
+	</Line>
+	<Line>
+	  CHOOK/
+	  AGTEK/
+	  KEGAN
+	</Line>
+	<Line>
+	  CHOOK/
+	  KERRI/
+	  SAILA/
+	  NIKKI/
+	  INDEE/
+	  -280821.0+1532847.0
+	</Line>
+    <Line>
+	  LAMSI/
+	  PATSU/
+	  TELOG/
+	  LOTMA/
+	  KEGAN
+    </Line>
+	<Line>
+	  LAMSI/
+	  MIMUD/
+	  KAKVI/
+	  ENRIM/
+	  KERRI
+    </Line>
+	<Line Pattern="Dashed">
+		CG VOR/
+		IGOMU
+	</Line>
+	<Line>
+		KEGAN/
+		OOLNI/
+		OOLNF
+	</Line>
+   <Symbol Type="HollowStar">
+	<Point>BERNI</Point>
+	<Point>ELDUX</Point>
+	<Point>VANSU</Point>
+	<Point>ROONY</Point>
+	<Point>FIKUL</Point>
+	<Point>CHOOK</Point>
+	<Point>AGTEK</Point>
+	<Point>KEGAN</Point>
+	<Point>KERRI</Point>
+	<Point>SAILA</Point>
+	<Point>NIKKI</Point>
+	<Point>LAMSI</Point>
+	<Point>PATSU</Point>
+	<Point>TELOG</Point>
+	<Point>LOTMA</Point>
+	<Point>MIMUD</Point>
+	<Point>KAKVI</Point>
+	<Point>ENRIM</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>IRPOD</Point>
+	  <Point>OOLNI</Point>
+	  <Point>IGOMU</Point>
+    </Symbol>
+	<!-- SIDs -->
+	<Line>
+	  -28.172569+153.510919/ <!-- Threshold 32 -->
+	  SMALL/
+	  CUDGN/
+	  APAGI
+	</Line>
+	<Symbol Type="SolidStar">
+    <Point>SMALL</Point>
+	 <Point>CUDGN</Point>
+	</Symbol>
+   <Symbol Type="HollowStar">
+	<Point>APAGI</Point>
+	</Symbol>
+  </Map>
+</Maps>
