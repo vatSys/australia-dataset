@@ -481,7 +481,7 @@
 		</Maps>
 	</Position>
 
-	<Position Name="Brisbane TCU" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="150" MagneticVariation="-13">
+	<Position Name="Brisbane TCU" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="150" MagneticVariation="-11">
 		<Sectors>
 			<Sector Name="BAN"/>
 		</Sectors>
@@ -505,5 +505,14 @@
 		<ArrivalLists>
 			<Airport Name="YBBN" />
 		</ArrivalLists>
+	</Position>
+	
+	<Position Name="YBBN" Type="ASMGCS" ASMGCSAirport="YBBN" DefaultCenter="-27.3942+153.1218" DefaultRange="5" MagneticVariation="-11">
+		<!--Rotation="-70"-->
+		<Maps>
+			<Map Name="ASMGCS_YBBN_RWY" />
+			<Map Name="ASMGCS_YBBN_TWY" />
+			<Map Name="ASMGCS_YBBN_BLD" />
+		</Maps>
 	</Position>
 </Positions>
