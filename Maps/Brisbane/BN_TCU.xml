@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Maps>
+  <Map Type="System" Name="BN_TCU" Priority="1" Center="-27.40+153.118">
+	<!-- YBBN BRISBANE -->
+    <Runway Name="01R/19L">
+      <Threshold Name="01R" Position="-27.402803+153.118217" ExtendedCentrelineTrack="206.9" ExtendedCentrelineLength="14"  ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="19L" Position="-27.374672+153.134306" ExtendedCentrelineTrack="026.9" ExtendedCentrelineLength="14"  ExtendedCentrelineTickInterval="2" />
+    </Runway>
+	<!-- FUTURE PARALLEL
+	<Runway Name="01R/19L">
+      <Threshold Name="01R" Position="-27.402803+153.118217" />
+      <Threshold Name="19L" Position="-27.374672+153.134306" />
+    </Runway> 
+	-->
+    <!--YBAF ARCHERFIELD-->
+    <Runway Name="04L/22R">
+      <Threshold Name="06" Position="-27.570981+153.001861" />
+      <Threshold Name="24" Position="-27.565625+153.009442" />
+    </Runway>
+	<Runway Name="04R/22L">
+      <Threshold Name="06" Position="-27.571689+153.004367" />
+      <Threshold Name="24" Position="-27.565517+153.013094" />
+    </Runway>
+    <Runway Name="10L/28R">
+      <Threshold Name="10" Position="-27.570394+152.997217" />
+      <Threshold Name="28" Position="-27.574300+153.010919" />
+    </Runway>
+	<Runway Name="10R/28L">
+      <Threshold Name="10" Position="-27.572197+152.998061" />
+      <Threshold Name="28" Position="-27.575225+153.008675" />
+    </Runway>
+    <!--YAMB AMBERLEY-->
+    <Runway Name="15/33">
+      <Threshold Name="15" Position="-27.621714+152.705267" />
+      <Threshold Name="33" Position="-27.647344+152.7164645" />
+    </Runway>
+	<Runway Name="04/22">
+      <Threshold Name="04" Position="-27.644611+152.707869" />
+      <Threshold Name="22" Position="-27.636589+152.720414" />
+    </Runway>
+	<!--YBCG GOLD COAST-->
+    <Runway Name="14/32">
+      <Threshold Name="14" Position="-28.156511+153.500706" ExtendedCentrelineTrack="330.7" ExtendedCentrelineLength="10"  ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="32" Position="-28.172569+153.510919" ExtendedCentrelineTrack="150.7" ExtendedCentrelineLength="10"  ExtendedCentrelineTickInterval="5" />
+	</Runway>
+	<Runway Name="17/35">
+	  <Threshold Name="17" Position="-28.164356+153.506753" />
+      <Threshold Name="35" Position="-28.169594+153.506331" />
+    </Runway>
+	<!--YBSU SUNSHINE COAST-->
+    <Runway Name="18/36">
+      <Threshold Name="18" Position="-26.594369+153.094325" />
+      <Threshold Name="36" Position="-26.610117+153.089950" />
+	</Runway>
+    <Symbol Type="SolidSquare">
+    </Symbol>
+  </Map>
+    <Map Type="System" Name="BN_TCU_NAMES" Priority="2" Center="-27.40+153.118">
+      <Label>
+      </Label>
+  </Map>
+</Maps>
