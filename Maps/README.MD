@@ -49,13 +49,13 @@ Each `<Line>` element draws a line between all children `<Point>`'s. Lines may s
 
 ```			
 {
-                Solid,
-                Broken,
-                Hash,
-                Dashed,
-                Dotted,
-                None
-            }
+    Solid,
+    Broken,
+    Hash,
+    Dashed,
+    Dotted,
+    None
+}
 ```
 			
 Airway lines may be coded using a special syntax within `<Point>`
@@ -68,22 +68,22 @@ eg. `<Point>VALRA.A339.ELBIS</Point>`
 Each `<Symbol>` element must have attribute `Type` to select one of the following types:
 
 ```                
-				{
-					SolidTriangle,
-					HollowTriangle,
-					HollowTriangleWithBorder,
-                    SolidTriangleWithBorder,                    
-                    SolidSquare,
-					SolidStar,
-					HollowStar,
-					MalteseCross,
-                    HollowSquare,
-                    Circle,
-					DashedCircle,
-					DotFillCircle,
-					Hexagon,
-                    Reticle
-                }
+{
+	SolidTriangle,
+	HollowTriangle,
+	HollowTriangleWithBorder,
+    SolidTriangleWithBorder,                    
+    SolidSquare,
+	SolidStar,
+	HollowStar,
+	MalteseCross,
+    HollowSquare,
+    Circle,
+	DashedCircle,
+	DotFillCircle,
+	Hexagon,
+    Reticle
+}
 ```
 ![Map Symbols](https://vatsys.sawbe.com/Symbols.png)				
 
