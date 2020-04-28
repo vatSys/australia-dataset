@@ -45,12 +45,49 @@ An integer specifying the z-axis layering of the map, 0 being drawn on top of ev
 An approximate center point of the map, used to deconflict in the event of multiple Waypoints with the same name.
 
 ## Line Element
+Each `<Line>` element draws a line between all children `<Point>`'s. Lines may set attribute `Pattern` to one of the following:
+
+```			{
+                Solid,
+                Broken,
+                Hash,
+                Dashed,
+                Dotted,
+                None
+            }```
+			
+Airway lines may be coded using a special syntax within `<Point>`
+
+```<Point>STARTFIX.AIRWAYNAME.ENDFIX</Point>```
+
+eg. `<Point>VALRA.A339.ELBIS</Point>`
 
 ## Symbol Element
+Each `<Symbol>` element must have attribute `Type` to select one of the following types:
+
+```                
+				{
+					SolidTriangle,
+					HollowTriangle,
+					HollowTriangleWithBorder,
+                    SolidTriangleWithBorder,                    
+                    SolidSquare,
+					SolidStar,
+					HollowStar,
+					MalteseCross,
+                    HollowSquare,
+                    Circle,
+					DashedCircle,
+					DotFillCircle,
+					Hexagon,
+                    Reticle
+                }
+				```
+![alt text](http://vatsys.sawbe.com/Symbols.png" "Available Map Symbols")				
+
+Each `<Symbol>` can have multiple `<Point>` children. Each Point InnerText is either an otherwise defined waypoint/navaid/airport or latlong in standard format of where to place the Symbol.
 
 ## Label Element
 Each `<Label>` element of a map can have attributes `HasLeader="bool"` and `LabelOrientation="enum"` - these attributes specify if there is a line drawn from the point location to the text label and which compass direction or not.
 
 Each `<Label>` can have multiple `<Point>` children. Each Point can have the attribute `Name="string"` (which is displayed as the label text) and the InnerText is either an otherwise defined waypoint/navaid/airport or latlong in standard format of where to place the label. If you omit Name the name is generated from the InnerText. 
-
-`<Map>` element attribute Type changes the colour of the map, and of course you've seen Pattern already.
