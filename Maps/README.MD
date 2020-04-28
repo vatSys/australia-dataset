@@ -72,17 +72,17 @@ Each `<Symbol>` element must have attribute `Type` to select one of the followin
 	SolidTriangle,
 	HollowTriangle,
 	HollowTriangleWithBorder,
-    SolidTriangleWithBorder,                    
-    SolidSquare,
+	SolidTriangleWithBorder,                    
+	SolidSquare,
 	SolidStar,
 	HollowStar,
 	MalteseCross,
-    HollowSquare,
-    Circle,
+	HollowSquare,
+	Circle,
 	DashedCircle,
 	DotFillCircle,
 	Hexagon,
-    Reticle
+	Reticle
 }
 ```
 ![Map Symbols](https://vatsys.sawbe.com/Symbols.png)				
