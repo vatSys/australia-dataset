@@ -3,7 +3,7 @@ Maps are what the Air Situation Display uses to display background information t
 
 Each XML file must contain one `<Maps>` element, which may define multiple `<Map>` elements. Each `<Map>` are individually selectable within vatSys.
 
-Folder structure within the `vatSys Files\Maps\\` directory is preserved by the Maps menu within vatSys.
+Folder structure within the ` vatSys Files\Maps\ ` directory is preserved by the Maps menu within vatSys.
 
 # Map Element
 
@@ -91,5 +91,18 @@ Each `<Symbol>` can have multiple `<Point>` children. Each Point InnerText is ei
 
 ## Label Element
 Each `<Label>` element of a map can have attributes `HasLeader="bool"` and `LabelOrientation="enum"` - these attributes specify if there is a line drawn from the point location to the text label and which compass direction or not.
+
+```
+{
+	N,
+	NE,
+	E,
+	SE,
+	S,
+	SW,
+	W,
+	NW
+}
+```
 
 Each `<Label>` can have multiple `<Point>` children. Each Point can have the attribute `Name="string"` (which is displayed as the label text) and the InnerText is either an otherwise defined waypoint/navaid/airport or latlong in standard format of where to place the label. If you omit Name the name is generated from the InnerText. 
