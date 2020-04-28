@@ -47,14 +47,16 @@ An approximate center point of the map, used to deconflict in the event of multi
 ## Line Element
 Each `<Line>` element draws a line between all children `<Point>`'s. Lines may set attribute `Pattern` to one of the following:
 
-```			{
+```			
+			{
                 Solid,
                 Broken,
                 Hash,
                 Dashed,
                 Dotted,
                 None
-            }```
+            }
+```
 			
 Airway lines may be coded using a special syntax within `<Point>`
 
@@ -82,7 +84,7 @@ Each `<Symbol>` element must have attribute `Type` to select one of the followin
 					Hexagon,
                     Reticle
                 }
-				```
+```
 ![alt text](http://vatsys.sawbe.com/Symbols.png" "Available Map Symbols")				
 
 Each `<Symbol>` can have multiple `<Point>` children. Each Point InnerText is either an otherwise defined waypoint/navaid/airport or latlong in standard format of where to place the Symbol.
