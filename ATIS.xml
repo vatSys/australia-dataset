@@ -11,6 +11,7 @@
     <Translation String="YBCG" Spoken="Gold Coast" />
     <Translation String="YMEN" Spoken="Essendon" />
     <Translation String="YSTW" Spoken="Tamworth" />
+	<Translation String="YBAS" Spoken="Alice" />
 
     <Translation String="ATIS" Spoken="terminal information" />
 
@@ -121,7 +122,6 @@
     <Translation String="SCT" Spoken="scattered" />
     <Translation String="BKN" Spoken="broken" />
     <Translation String="OVC" Spoken="overcast" />
-    <Translation String="NSC" Spoken="nil significant" />
 
     <Translation String="VIS" Spoken="visibility" />
     <Translation String="RED" Spoken="reduced" />
@@ -132,7 +132,8 @@
 
     <!--<Translation String="CAVOK" Spoken="ˈkævˈoʊˈkeɪ" IPA="true" />-->
 	<!--<Translation String="CAVOK" Spoken="K AA V . O K" IPA="true" />-->
-	<Translation String="CAVOK" Spoken="kav-okay" Alphabet="Text"/>
+	<Translation String="CAVOK" Spoken="kuv-okay" Alphabet="Text"/>
+	<Translation String="NSC" Spoken="nil significant cloud" />
     <Translation Regex="\+([A-Z]+)" Spoken="heavy $1" />
     <Translation Regex="\-([A-Z]+)" Spoken="light $1" />
     <Translation String="MI" Spoken="shallow" />
