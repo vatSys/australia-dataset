@@ -648,43 +648,67 @@
             <Runway Name="07" DataRunway="07">
                 <SID Name="SY\d" />
                 <SID Name="FISHA\d" Type="Jet"/>
-                <STAR Name="[A-Z]{5}\d" />
-                <STAR Name="[A-Z]{4}\dA" />
+                <STAR Name="BORE\dA" />
+                <STAR Name="MEPIL\d" Type="NonJet" />
+				<STAR Name="MEPIL\d" OpDataFlag="MEP" />
+				<STAR Name="MARLN\d" />
+				<STAR Name="RIVET\d" />
+				<STAR Name="ODALE\d" />
             </Runway>
             <Runway Name="25" DataRunway="25">
                 <SID Name="SY\d" />
-                <STAR Name="[A-Z]{5}\d" />
-                <STAR Name="[A-Z]{4}\dA" />
+                <STAR Name="BORE\dA" />
+                <STAR Name="MEPIL\d" Type="NonJet" />
+				<STAR Name="MEPIL\d" OpDataFlag="MEP" />
+				<STAR Name="MARLN\d" />
+				<STAR Name="RIVET\d" />
+				<STAR Name="ODALE\d" />
             </Runway>
             <Runway Name="16L" DataRunway="16L">
                 <SID Name="SY\d" />
                 <SID Name="KEVIN\d" Type="Jet"/>
                 <SID Name="ABBEY\d" Type="Jet"/>
-                <STAR Name="[A-Z]{5}\d" />
-                <STAR Name="[A-Z]{4}\dA" />
+                <STAR Name="BORE\dA" />
+                <STAR Name="MEPIL\d" Type="NonJet" />
+				<STAR Name="MEPIL\d" OpDataFlag="MEP" />
+				<STAR Name="MARLN\d" />
+				<STAR Name="RIVET\d" />
+				<STAR Name="ODALE\d" />
             </Runway>
             <Runway Name="16R" DataRunway="16R">
                 <SID Name="SY\d" />
                 <SID Name="DEENA\d" Type="Jet"/>
                 <SID Name="KAMPI\d" Type="Jet"/>
-                <STAR Name="[A-Z]{5}\d" />
-                <STAR Name="[A-Z]{4}\dP" OpDataFlag="P" ApproachName="ILS" />
-                <STAR Name="[A-Z]{4}\dA" />
+				<STAR Name="BORE\dP" OpDataFlag="P" ApproachName="ILS" />
+                <STAR Name="BORE\dA" />
+                <STAR Name="MEPIL\d" Type="NonJet" />
+				<STAR Name="MEPIL\d" OpDataFlag="MEP" />
+				<STAR Name="MARLN\d" />
+				<STAR Name="RIVET\d" />
+				<STAR Name="ODALE\d" />
             </Runway>
             <Runway Name="34L" DataRunway="34L">
                 <SID Name="SY\d" />
                 <SID Name="KADOM\d" Type="Jet"/>
                 <SID Name="WOL\d" Type="Jet"/>
                 <SID Name="RIC\d" Type="Jet"/>
-                <STAR Name="[A-Z]{5}\d" />
-                <STAR Name="[A-Z]{4}\dA" />
+                <STAR Name="BORE\dA" />
+                <STAR Name="MEPIL\d" Type="NonJet" />
+				<STAR Name="MEPIL\d" OpDataFlag="MEP" />
+				<STAR Name="MARLN\d" />
+				<STAR Name="RIVET\d" />
+				<STAR Name="ODALE\d" />
             </Runway>
             <Runway Name="34R" DataRunway="34R">
                 <SID Name="SY\d" />
                 <SID Name="ENTRA\d" Type="Jet"/>
                 <SID Name="MARUB\d" Type="Jet"/>
-                <STAR Name="[A-Z]{5}\d" />
-                <STAR Name="[A-Z]{4}\dA" />
+                <STAR Name="BORE\dA" />
+                <STAR Name="MEPIL\d" Type="NonJet" />
+				<STAR Name="MEPIL\d" OpDataFlag="MEP" />
+				<STAR Name="MARLN\d" />
+				<STAR Name="RIVET\d" />
+				<STAR Name="ODALE\d" />
             </Runway>
         </Airport>
 
