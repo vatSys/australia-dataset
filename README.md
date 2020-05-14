@@ -149,6 +149,26 @@ Intersections (Fixes & Navaids) may be defined whenever you wish to remove relia
 
 Duplicates are generally accepted. vatSys will attempt to choose the nearest relevant intersection when parsing to resolve.
 
+#### Intersection Types
+```
+Types
+{
+	Fix,
+	Navaid,
+	Airport,
+	Unknown
+}
+```
+#### Navaid Intersection Types
+```
+NavaidTypes
+{
+	None,
+	VOR,
+	NDB,
+	TAC
+}
+```
 ### Airports
 
 Airports may be defined whenever you wish to remove reliance on Navigraph defined data.
