@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="ML_VOR" Priority="1" Center="-3740.4+14450.6">
+    <Line Pattern="Dotted">
+      ML VOR/
+	  NAOMI
+	</Line>
+	<Line Pattern="Dotted">
+      ML VOR/
+	  ML VOR086015
+	</Line>
+	<Line Pattern="Dotted">
+      ML VOR/
+	  TONAR
+	</Line>
+    <Symbol Type="HollowTriangle">
+		<Point>ML VOR086015</Point>
+		<Point>TONAR</Point>
+		<Point>NAOMI</Point>
+    </Symbol>
+  </Map>
+</Maps>
