@@ -3,182 +3,283 @@
   <Map Type="System" Name="BN_RWY19" Priority="1" Center="-27.40+153.118">
   	<!-- YBBN BRISBANE -->
     <Runway Name="01R/19L">
-      <Threshold Name="01R" Position="-27.402803+153.118217" />
-      <Threshold Name="19L" Position="-27.374672+153.134306" ExtendedCentrelineTrack="026.9" ExtendedCentrelineLength="12"  ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="01R" Position="-272410.090+1530705.580" />
+      <Threshold Name="19L" Position="-272228.820+1530803.500" ExtendedCentrelineLength="18"  ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <Runway Name="01L/19R">
+      <Threshold Name="01L" Position="-272259.110+1530624.670" />
+      <Threshold Name="19R" Position="-272123.580+1530719.090" ExtendedCentrelineLength="18"  ExtendedCentrelineTickInterval="2" />
     </Runway>
 	<!-- STARs -->
-	<Line>
-	  BLAKA/
-	  MOOVI/
-	  LAGOB/
-	  LEAKY
-	</Line>
-	<Line>
-	  LAGOB/
-	  POODL
-	</Line>
-	<Line>
-	  POODL/
-	  FYSTI/
-	  KOUPA/
-	  GRAEM
-	</Line>
-	<Line>
-	  CG VOR/
-	  LEDON/
-	  CRAWS
-	</Line>
-	<Line>
-	  CRAWS/
-	  LEAKY
-	</Line>
-	<Line>
-	  CRAWS/
-	  POODL
-	</Line>
-	<Line>
-	  KEVIE/
-	  BILBI/
-	  DRAIN/
-	  PLUGG/
-	  SINNK
-	</Line>
-	<Line>
-	  SMOKA/
-	  QUIET/
-	  SINNK
-	</Line>
-	<Line>
-	  SAVER/
-	  IRTED/
-	  AMITY/
-	  LEAKY
-	</Line>
-	<Line>
-	  AMITY/
-	  MAVGA/
-	  FYSTI
-	</Line>
-	<Line>
-	  GLENN/
-	  SORVA/
-	  LEAKY/
-	  BOATS/
-	  SINNK
-	</Line>
-	<Line>
-	  SMOKA/
-	  OTGAT/
-	  DAYBO/
-	  BEKID/
-	  DRAIN
-	</Line>
-	<Line>
-	  DRAIN/
-	  GUTTA/
-	  DEBAY/
-	  MORTN
-	</Line>
+	  <Line>
+	    BLAKA/
+      SUNUB/
+      LAGOB/
+      AMITY/
+      ESLUB/
+      OSEGU/
+      PILIG/
+      LAVIN
+	  </Line>
+    <Line>
+      BLAKA/
+      DOGMU/
+      LAGEV/
+	  RINKI/
+      PUBIV/
+      ISPON/
+      OMGUV/
+      BETSO
+    </Line>
+    <Line>
+      PUBIV/
+      ATSEP/
+      BN405/
+      BN415/
+      BN425
+    </Line>
+    <Line>
+      ENLIP/
+      DULIN/
+      ALBUB/
+      RITVU/
+      APUKU/
+      DRAIN/
+      PAMBU/
+      ATRAX/
+      LAVIN
+    </Line>
+    <Line>
+      ENLIP/
+      ODUTO/
+      ANSOR/
+      PULEX/
+      SORVA/
+      RUTAT/
+      PUBIV
+    </Line>
+    <Line>
+      DRAIN/
+      LUVNA/
+      BN400/
+      BN411/
+      BN421
+    </Line>
+    <Line>
+      GOMOL/
+      IRMEL/
+      AMITY
+    </Line>
+    <Line>
+      GOMOL/
+      ABVET/
+      SALEL/
+      SALGA/
+      ISPON
+    </Line>
+    <Line>
+      SALEL/
+      VALVO/
+      PUBIV
+    </Line>
+    <Line>
+      MORBI/
+      REMOR/
+      GAYLA/
+      LUTKO/
+      IGBON/
+      PAMBU
+    </Line>
+    <Line>
+      IGBON/
+      EMSIT/
+      IRVUL/
+      BETSO
+    </Line>
+    <Line>
+      SMOKA/
+      OTGAT/
+      GARTH/
+      BURPA/
+      IGBON
+    </Line>
+    <Line>
+      GARTH/
+      DAYBO/
+      PAMGO/
+      RUTAX/
+      DRAIN
+    </Line>
+    <Line>
+      TEBOT/
+      URBIN/
+      DOLSU/
+      PILIG/
+      LAVIN
+    </Line>
+    <Line>
+      URBIN/
+      KALTO/
+      OMGUV
+    </Line>
+    <Line>
+      UGTUG/
+      ENAID/
+      DUBOM/
+      OSEGU
+    </Line>
+    <Line>
+      UGTUG/
+      IPGAV/
+      ISPON
+    </Line>
+    <Line>
+      IPGAV/
+      TEMUL/
+      BUGSO/
+      ATSEP
+    </Line>
+    <Line>
+      WOODY/
+      ATVON/
+      TEGIL/
+      PAMGO/
+      IGBON
+    </Line>
    <Symbol Type="HollowStar">
-	<Point>BLAKA</Point>
-	<Point>MOOVI</Point>
-	<Point>LAGOB</Point>
-	<Point>LEAKY</Point>
-	<Point>POODL</Point>
-	<Point>FYSTI</Point>
-	<Point>KOUPA</Point>
-	<Point>GRAEM</Point>
-	<Point>CG VOR</Point>
-	<Point>LEDON</Point>
-	<Point>CRAWS</Point>
-	<Point>KEVIE</Point>
-	<Point>BILBI</Point>
-	<Point>DRAIN</Point>
-	<Point>PLUGG</Point>
-	<Point>SMOKA</Point>
-	<Point>QUIET</Point>
-	<Point>SAVER</Point>
-	<Point>IRTED</Point>
-	<Point>AMITY</Point>	
-	<Point>MAVGA</Point>
-	<Point>GLENN</Point>
-	<Point>SORVA</Point>
-	<Point>BOATS</Point>
-	<Point>OTGAT</Point>
-	<Point>DAYBO</Point>
-	<Point>BEKID</Point>
-	<Point>GUTTA</Point>
-	<Point>DEBAY</Point>
-	<Point>MORTN</Point>
+     <Point>SUNUB</Point>
+     <Point>LAGOB</Point>
+     <Point>BLAKA</Point>
+     <Point>LAGEV</Point>
+     <Point>DULIN</Point>
+     <Point>ALBUB</Point>
+     <Point>APUKU</Point>
+     <Point>ENLIP</Point>
+     <Point>ODUTO</Point>
+     <Point>ANSOR</Point>
+     <Point>PULEX</Point>
+     <Point>SORVA</Point>
+     <Point>AMITY</Point>
+     <Point>GOMOL</Point>
+     <Point>ABVET</Point>
+     <Point>SALEL</Point>
+     <Point>PUBIV</Point>
+     <Point>MORBI</Point>
+     <Point>REMOR</Point>
+     <Point>PAMBU</Point>
+     <Point>ATRAX</Point>
+     <Point>EMSIT</Point>
+     <Point>IRVUL</Point>
+     <Point>GAYLA</Point>
+     <Point>SMOKA</Point>
+     <Point>OTGAT</Point>
+     <Point>BURPA</Point>
+     <Point>GARTH</Point>
+     <Point>DAYBO</Point>
+     <Point>DRAIN</Point>
+     <Point>TEBOT</Point>
+     <Point>DOLSU</Point>
+     <Point>PILIG</Point>
+     <Point>LAVIN</Point>
+     <Point>URBIN</Point>
+     <Point>KALTO</Point>
+     <Point>OMGUV</Point>
+     <Point>ENAID</Point>
+     <Point>DUBOM</Point>
+     <Point>OSEGU</Point>
+     <Point>UGTUG</Point>
+     <Point>ISPON</Point>
+     <Point>IPGAV</Point>
+     <Point>WOODY</Point>
+     <Point>ATVON</Point>
+     <Point>PAMGO</Point>
+     <Point>IGBON</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>SINNK</Point>
+	 <Point>LUVNA</Point>
+	 <Point>OSOKO</Point>
+	 <Point>BETSO</Point>
+	 <Point>ATSEP</Point>
     </Symbol>
+	<Symbol Type="SolidSquare">
+	 <Point>DOGMU</Point>
+	 <Point>RINKI</Point>
+	 <Point>IRMEL</Point>
+	 <Point>ESLUB</Point>
+	 <Point>RUTAT</Point>
+	 <Point>SALGA</Point>
+	 <Point>RITVU</Point>
+	 <Point>TEGIL</Point>
+	 <Point>RUTAX</Point>
+	 <Point>LUTKO</Point>
+	 <Point>TEMUL</Point>
+     <Point>BUGSO</Point>
+	 <Point>VALVO</Point>
+	</Symbol>
 	<!-- SIDs -->
 	<Line>
-	  -27.402803+153.118217/ <!-- UPWIND THRESHOLD -->
-	  CITEE
+	  -272259.110+1530624.670/ <!-- UPWIND THRESHOLD -->
+	  DAMDA/
+	  TOGIN/
+	  ALBUB/
+	  AMBLE/
+	  DEBAY/
+	  BUKBU/
+	  BIXAD
 	</Line>
 	<Line>
-	  -27.402803+153.118217/ <!-- UPWIND THRESHOLD -->
-	  BOSVU
-	</Line>
-	<Line>
+	  -272410.090+1530705.580/ <!-- UPWIND THRESHOLD -->
 	  CITEE/
-	  NOGRA/
-	  AMBLE/
-	  DEBAY
+	  TOGIN
 	</Line>
 	<Line>
-	  DEBAY/
-	  CORAL
-	</Line>
-	<Line>
-	  DEBAY/
-	  TRIKI
-	</Line>
-	<Line>
-	  AMBLE/
-	  COODA
-	</Line>
-	<Line>
+	  -272410.090+1530705.580/ <!-- UPWIND THRESHOLD -->
 	  BOSVU/
 	  DADAN/
 	  DENIS/
 	  LILEE/
-	  HUUGO
+	  IDPAT/
+	  DUGAL/
+	  BEMAN/
+	  IDKOS/
+	  GUMKI
 	</Line>
 	<Line>
-	  AMBLE/
-	  ODURA/
+	  LILEE/
+	  SANEG
+	</Line>
+	<Line>
+	  DUGAL/
 	  SCOTT
 	</Line>
 	<Line>
-	  CITEE/
-	  NAIDO/
-	  SAMSN/
+	  ALBUB/
+	  IGMAS/
 	  WACKO
 	</Line>
 	<Symbol Type="SolidStar">
-    <Point>BOSVU</Point>
-	<Point>CITEE</Point>
+    <Point>CITEE</Point>
+	<Point>DAMDA</Point>
+	<Point>TOGIN</Point>
+	<Point>BOSVU</Point>
 	</Symbol>
    <Symbol Type="HollowStar">
-	<Point>NOGRA</Point>
-	<Point>AMBLE</Point>
-	<Point>DEBAY</Point>
-	<Point>CORAL</Point>
-	<Point>TRIKI</Point>
-	<Point>COODA</Point>
-	<Point>DADAN</Point>
-	<Point>DENIS</Point>
-	<Point>LILEE</Point>
-	<Point>HUUGO</Point>
-	<Point>ODURA</Point>
-	<Point>SCOTT</Point>
-	<Point>NAIDO</Point>
-	<Point>SAMSN</Point>
-	<Point>WACKO</Point>
+		<Point>AMBLE</Point>
+		<Point>DEBAY</Point>
+		<Point>BUKBU</Point>
+		<Point>BIXAD</Point>
+		<Point>DADAN</Point>
+		<Point>DENIS</Point>
+		<Point>LILEE</Point>
+		<Point>IDPAT</Point>
+		<Point>DUGAL</Point>
+		<Point>BEMAN</Point>
+		<Point>IDKOS</Point>
+		<Point>GUMKI</Point>
+		<Point>SANEG</Point>
+		<Point>SCOTT</Point>
+		<Point>IGMAS</Point>
+		<Point>WACKO</Point>
 	</Symbol>
   </Map>
 </Maps>

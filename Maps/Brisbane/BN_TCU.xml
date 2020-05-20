@@ -37,234 +37,396 @@
       <Threshold Name="18" Position="-26.594369+153.094325" />
       <Threshold Name="36" Position="-26.610117+153.089950" />
 	</Runway>
-	
 	<!-- ROUTES -->
 	<Line>
-	  <Point>
 	    GUSNI/
 		PARRY/
-		GLENN
-	  </Point>
+		AMB
 	</Line>
 	<Line>
-	  <Point>
-	    HUUGO/
+	    SANEG/
 		OSTAM/
 		BOBOP
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
+	    SANEG/
 	    HUUGO/
 		ISKIM
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    HUUGO/
 		APAGI/
 		TESSI
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    APAGI/
 		ISKIM
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    PEBDO/
 		WHITI/
 		GAMBL
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    LOSKU/
 		GAMBL
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    GAMBL/
 		GUMPO/
 		BLAKA
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    BANDA/
 		TOJAM/
 		CG VOR
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    BANDA/
 		BERNI
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    SCOTT/
 		LAMSI/
 		SIFRA
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    SCOTT/
 		ELLAS
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    SCOTT/
 		CHEWY
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    SCOTT/
 		SIFRA
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
-	    SMOKA/
+	    LAMUG/
 		EAGLE
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
+	    LAMUG/
+		SUSGI
+	</Line>
+	<Line>
 	    SMOKA/
+		LAMUG/
 		HAWKE/
 		COOLA
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    WACKO/
 		IBUNA/
 		HAWKE
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    BONEY/
 		SAVER
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    MEPEM/
 		SAVER
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    GATER/
 		SAVER
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    NETTY/
 		SAVER
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    WODAY/
 		SAVER
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    HARVS/
 		SAVER
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
+	    SAVER/
+		UGTUG
+	</Line>
+	<Line>
 	    CORAL/
 		LOAFA
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    CORAL/
 		SOSTU
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    CORAL/
 		COLET
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
-	    TRIKI/
+	    BIXAD/
 		SETER
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    ROM NDB/
 		OK VOR/
 		AGIVA/
 		PARRY
-	  </Point>
 	</Line>
 	<Line>
-	  <Point>
 	    RACHL/
 		EDPEG/
-		PUGON/
-		PARRY
-	  </Point>
+		ENLIP
 	</Line>
 	<Line>
-	  <Point>
-	    BURPA/
-		GAYLA/
-		LAVEG
-	  </Point>
+		MORBI/
+		OTLEB
 	</Line>
 	<Line>
-	  <Point>
-	    BIVAT/
-		WOODY/
-		WINKY/
-		KEVIE
-	  </Point>
+		BIVAT/
+		WOODY
 	</Line>
 	<Line>
-	  <Point>
 	    SUSGI/
-		LAVEG
-	  </Point>
+		OTLEB
 	</Line>
 	<Line>
-	  <Point>
 	    SOSTU/
-		LAVEG
-	  </Point>
+		OTLEB
 	</Line>
-    <Symbol Type="SolidSquare">
-		<Point>WOODY</Point>
-		<Point>PARRY</Point>
-    </Symbol>
-	<Symbol Type="HollowStar">
-		<Point>LAVEG</Point>
-		<Point>BURPA</Point>
-		<Point>GAYLA</Point>
-	</Symbol>
+	<Line>
+	    GUMKI/
+		MEPEM
+	</Line>
+	<Line>
+	    GUMKI/
+		BONEY
+	</Line>
+	<Line>
+	    ATROP/
+		MEPEM
+	</Line>
+	<Line>
+	    ATROP/
+		HARVS
+	</Line>
+	<Line>
+	    ATROP/
+		SETER
+	</Line>
+	<Line>
+	    BN VOR354015/
+		AKOBA/
+		SAGLI/
+		CLAMP
+	</Line>
   </Map>
     <Map Type="System" Name="BN_TCU_NAMES" Priority="2" Center="-27.40+153.118">
       <Label>
+		<Point>SUNUB</Point>
+		<Point>OLVUN</Point>
+		<Point>TOLAX</Point>
+	    <Point>GUSNI</Point>
+		<Point>AMB TAC</Point>
+		<Point>OSTAM</Point>
+		<Point>BOBOP</Point>
+	    <Point>SANEG</Point>
+	    <Point>HUUGO</Point>
+		<Point>APAGI</Point>
+		<Point>TESSI</Point>
+	    <Point>APAGI</Point>
+		<Point>ISKIM</Point>
+	    <Point>PEBDO</Point>
+		<Point>WHITI</Point>
+	    <Point>LOSKU</Point>
+		<Point>GAMBL</Point>
+	    <Point>GAMBL</Point>
+		<Point>GUMPO</Point>
+		<Point>TOJAM</Point>
+		<Point>CG VOR</Point>
+	    <Point>BANDA</Point>
+		<Point>BERNI</Point>
+		<Point>LAMSI</Point>
+		<Point>ELLAS</Point>
+		<Point>CHEWY</Point>
+	    <Point>SCOTT</Point>
+		<Point>SIFRA</Point>
+		<Point>EAGLE</Point>
+	    <Point>LAMUG</Point>
+		<Point>SUSGI</Point>
+	    <Point>SMOKA</Point>
+		<Point>LAMUG</Point>
+		<Point>COOLA</Point>
+	    <Point>WACKO</Point>
+		<Point>IBUNA</Point>
+		<Point>HAWKE</Point>
+	    <Point>BONEY</Point>
+	    <Point>MEPEM</Point>
+	    <Point>GATER</Point>
+	    <Point>NETTY</Point>
+	    <Point>WODAY</Point>
+	    <Point>HARVS</Point>
+		<Point>SAVER</Point>
+	    <Point>SAVER</Point>
+		<Point>LOAFA</Point>
+		<Point>SOSTU</Point>
+	    <Point>CORAL</Point>
+		<Point>COLET</Point>
+	    <Point>BIXAD</Point>
+	    <Point>ROM NDB</Point>
+		<Point>OK VOR</Point>
+		<Point>AGIVA</Point>
+		<Point>PARRY</Point>
+	    <Point>RACHL</Point>
+		<Point>EDPEG</Point>
+		<Point>BIVAT</Point>
+	    <Point>SUSGI</Point>
+	    <Point>SOSTU</Point>
+		<Point>OTLEB</Point>
+	    <Point>GUMKI</Point>
+		<Point>BONEY</Point>
+		<Point>MEPEM</Point>
+		<Point>HARVS</Point>
+	    <Point>ATROP</Point>
+		<Point>SETER</Point>
+		<Point>AKOBA</Point>
+		<Point>SAGLI</Point>
+		<Point>CLAMP</Point>
+		<Point>BERTI</Point>
+		<Point>PONOD</Point>
+		<Point>VATRO</Point>
+		<Point>KASBA</Point>
+		<Point>GORSO</Point>
+		<Point>OPITU</Point>
+		<Point>MULNI</Point>
+		<Point>SURSI</Point>
+		<Point>VELKA</Point>
+		<Point>VERIK</Point>
+		<Point>ARONU</Point>
+		<Point>ONIPA</Point>
+		<Point>SULDO</Point>
+		<Point>DABKO</Point>
+		<Point>ENPUK</Point>
+		<Point>BETNI</Point>
+		<Point>MATBO</Point>
+		<Point>ESNAV</Point>
+		<Point>TAPUL</Point>
+		<Point>REPUX</Point>
+		<Point>SAGTA</Point>
+		<Point>VEVEX</Point>
+		<Point>NIXEL</Point>
+		<Point>VANTI</Point>
+		<Point>COTON</Point>
+		<Point>NUNDI</Point>
+		<Point>ENTOX</Point>
+		<Point>ANIRI</Point>
+		<Point>IRTED</Point>
+		<Point>DOMBO</Point>
+		<Point>NODUG</Point>
+		<Point>RUKNO</Point>
+		<Point>BIPUD</Point>
+		<Point>GLENN</Point>
+		<Point>RUSVA</Point>
+		<Point>TANIK</Point>
+		<Point>BISEK</Point>
+		<Point>DAPTU</Point>
+		<Point>NUSBU</Point>
+		<Point>ASISO</Point>
+		<Point>ISRIB</Point>
+		<Point>LUMDI</Point>
+		<Point>SUNUB</Point>
+		<Point>LAGOB</Point>
+		<Point>BLAKA</Point>
+		<Point>LAGEV</Point>
+		<Point>DULIN</Point>
+		<Point>ALBUB</Point>
+		<Point>APUKU</Point>
+		<Point>ENLIP</Point>
+		<Point>ODUTO</Point>
+		<Point>ANSOR</Point>
+		<Point>PULEX</Point>
+		<Point>SORVA</Point>
+		<Point>AMITY</Point>
+		<Point>GOMOL</Point>
+		<Point>ABVET</Point>
+		<Point>SALEL</Point>
+		<Point>PUBIV</Point>
+		<Point>MORBI</Point>
+		<Point>REMOR</Point>
+		<Point>PAMBU</Point>
+		<Point>ATRAX</Point>
+		<Point>EMSIT</Point>
+		<Point>IRVUL</Point>
+		<Point>GAYLA</Point>
+		<Point>SMOKA</Point>
+		<Point>OTGAT</Point>
+		<Point>BURPA</Point>
+		<Point>GARTH</Point>
+		<Point>DAYBO</Point>
+		<Point>DRAIN</Point>
+		<Point>TEBOT</Point>
+		<Point>DOLSU</Point>
+		<Point>PILIG</Point>
+		<Point>LAVIN</Point>
+		<Point>URBIN</Point>
+		<Point>KALTO</Point>
+		<Point>OMGUV</Point>
+		<Point>ENAID</Point>
+		<Point>DUBOM</Point>
+		<Point>OSEGU</Point>
+		<Point>UGTUG</Point>
+		<Point>ISPON</Point>
+		<Point>IPGAV</Point>
+		<Point>WOODY</Point>
+		<Point>ATVON</Point>
+		<Point>PAMGO</Point>
+		<Point>IGBON</Point>
+		<Point>LUVNA</Point>
+		<Point>BETSO</Point>
+		<Point>ATSEP</Point>
+		<Point>DOGMU</Point>
+		<Point>RINKI</Point>
+		<Point>IRMEL</Point>
+		<Point>ESLUB</Point>
+		<Point>RUTAT</Point>
+		<Point>SALGA</Point>
+		<Point>RITVU</Point>
+		<Point>TEGIL</Point>
+		<Point>LUTKO</Point>
+		<Point>TEMUL</Point>
+		<Point>BUGSO</Point>
+		<Point>VALVO</Point>
+		<Point>CITEE</Point>
+		<Point>DAMDA</Point>
+		<Point>TOGIN</Point>
+		<Point>BOSVU</Point>
+		<Point>AMBLE</Point>
+		<Point>DEBAY</Point>
+		<Point>BUKBU</Point>
+		<Point>DADAN</Point>
+		<Point>DENIS</Point>
+		<Point>LILEE</Point>
+		<Point>IDPAT</Point>
+		<Point>DUGAL</Point>
+		<Point>IGMAS</Point>
+		<Point>BEMAN</Point>
+		<Point>NOPAS</Point>
+		<Point>SCOTT</Point>
+		<Point>ENDAB</Point>
+		<Point>DOXET</Point>
+		<Point>BIXAD</Point>
+		<Point>IDKOS</Point>
+		<Point>GUMKI</Point>
+		<Point>POTOV</Point>
+		<Point>SUGUR</Point>
+		<Point>OSOKO</Point>
+		<Point>MAVPI</Point>
+		<Point>SANEG</Point>
+		<Point>PIPEL</Point>
+		<Point>RUTAX</Point>
+		<Point>VILER</Point>
+		<Point>BAABA</Point>
+		<Point>CARSL</Point>
+		<Point>LAWNN</Point>
+		<Point>WACKO</Point>
       </Label>
   </Map>
   <Map Type="System" Name="BN_VFR_PTS" Priority="1" Center="-27.40+153.118">

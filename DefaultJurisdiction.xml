@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DefaultJurisdiction>
+  <RuleSets>
+    <RuleSet Name="YMML_DEPS">
+      <Rules>
+        <Departure Values="YMML">
+          <Rules>
+            <Runway Values="27,34">
+              <Rules>
+                <Route Values="DOSEL, MNG VOR, OWENS, KEPPA, NEVIS">
+                  <AssignSector Order="MDN,MDS,MAE"/>
+                </Route>
+                <Route Values="AV VOR, ESDEN, MB NDB, ESDIG, SUNTI, CORRS, CRENA">
+                  <AssignSector Order="MDS,MDN,MAE"/>
+                </Route>
+              </Rules>
+            </Runway>
+            <Runway Values="16">
+              <Rules>
+                <Route Values="AV VOR, DOSEL, MNG VOR, OWENS, KEPPA, ESDIG, CRENA, NEVIS">
+                  <AssignSector Order="MDN,MDS,MAE"/>
+                </Route>
+                <Route Values="ESDEN, MB NDB, SUNTI, CORRS">
+                  <AssignSector Order="MDS,MDN,MAE"/>
+                </Route>
+              </Rules>
+            </Runway>
+            <Default>
+              <AssignSector Order="MDN,MDS,MAE"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YPAD_DEPS">
+      <Rules>
+        <Departure Values="YPAD">
+          <Rules>
+            <Runway Values="30">
+              <AssignSector Order="AAW" />
+            </Runway>
+            <Runway Values="12">
+              <AssignSector Order="AAE,AAW" />
+            </Runway>
+            <Route Values="BENDO, SEDAN, ALBUT">
+              <AssignSector Order="AAE,AAW" />
+            </Route>
+            <Route Values="EEMUE, YORKE, HAWKY, WAKEN, ORBUN, VILAD">
+              <AssignSector Order="AAW"/>
+            </Route>
+            <Default>
+              <AssignSector Order="AAW"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YSSY_DEPS">
+      <Rules>
+        <Departure Values="YSSY">
+          <Rules>
+            <Runway Values="16R,16L">
+              <Rules>
+                <Route Values="WOL,CORDO,KADOM,RIC">
+                  <AssignSector Order="SDS,SDN,SAS,SAN" />
+                </Route>
+                <Route Values="OPTIC,CAWLY,EVONN,DIPSO,NOBAR,ENTRA,KAMBA">
+                  <AssignSector Order="SDN,SDS,SAN,SAS" />
+                </Route>
+              </Rules>
+            </Runway>
+            <Runway Values="34L,34R,07,25">
+              <Rules>
+                <Route Values="WOL,CORDO,KADOM,RIC,OPTIC,CAWLY">
+                  <AssignSector Order="SDS,SDN,SAS,SAN" />
+                </Route>
+                <Route Values="EVONN,DIPSO,NOBAR,ENTRA,KAMBA">
+                  <AssignSector Order="SDN,SDS,SAN,SAS" />
+                </Route>
+              </Rules>
+            </Runway>
+            <Route Values="BK,YSCN,YSHL">
+              <AssignSector Order="SDS,SDN,SAS,SAN" />
+            </Route>
+            <Default>
+              <AssignSector Order="SDN,SDS,SAN,SAS"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+  </RuleSets>
+</DefaultJurisdiction>

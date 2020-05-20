@@ -3,183 +3,301 @@
   <Map Type="System" Name="BN_RWY01" Priority="1" Center="-27.40+153.118">
   	<!-- YBBN BRISBANE -->
     <Runway Name="01R/19L">
-      <Threshold Name="01R" Position="-27.402803+153.118217" ExtendedCentrelineTrack="206.9" ExtendedCentrelineLength="12"  ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="19L" Position="-27.374672+153.134306" />
+      <Threshold Name="01R" Position="-272410.090+1530705.580" ExtendedCentrelineLength="18"  ExtendedCentrelineTickInterval="2"/>
+      <Threshold Name="19L" Position="-272228.820+1530803.500" />
+    </Runway>
+    <Runway Name="01L/19R">
+      <Threshold Name="01L" Position="-272259.110+1530624.670" ExtendedCentrelineLength="18"  ExtendedCentrelineTickInterval="2"/>
+      <Threshold Name="19R" Position="-272123.580+1530719.090" />
     </Runway>
 	<!-- STARs -->
 	<Line>
-	  CG VOR/
-	  OLDET/
-	  LAGOB
-	</Line>
-	<Line>
-	  CG VOR/
-	  MOOVI
-	</Line>
-	<Line>
-	  BLAKA/
-	  MOOVI
-	</Line>
-    <Line>
-	  MOOVI/
-	  BERTI/
-	  ESKAN/
-	  RUMRO/
-	  GLENN
+		BLAKA/
+		VELKA/
+		BERTI/
+		PONOD/
+		BISEK/
+		VANTI/
+		TANIK
     </Line>
 	<Line>
-	  MOOVI/
-	  LAGOB/
-	  PUNEK/
-	  COTON/
-	  SORVA/
-	  ANNIE
+		PONOD/
+		ENTOX/
+		VATRO/
+		PULEX
     </Line>
 	<Line>
-	  FLYNN/
-	  GLENN
+		VELKA/
+		ARONU/
+		COTON/
+		KASBA/
+		SORVA
     </Line>
 	<Line>
-	  SMOKA/
-	  OTGAT/
-	  DAYBO
-	</Line>
-	<Line>
-	  DAYBO/
-	  GORRI/
-	  FLYNN
+		ENLIP/
+		ODUTO/
+		ANSOR/
+		GORSO/
+		TANIK
     </Line>
 	<Line>
-	  DAYBO/
-	  ISVAN/
-	  SAGTA/
-	  BIPUD/
-	  OLBEV/
-	  PUNIG
+		ODUTO/
+		OPITU/
+		MULNI/
+		PULEX
     </Line>
 	<Line>
-	  KEVIE/
-	  ENBET/
-	  FLYNN
+		GOMOL/
+		SURSI/
+		VELKA
     </Line>
 	<Line>
-	  SAVER/
-	  IRTED/
-	  AMITY/
-	  DUNNI/
-	  ADGET/
-	  BEDAT/
-	  KASBA
+		GOMOL/
+		VERIK/
+		LAGOB/
+		ARONU
     </Line>
 	<Line>
-	  DUNNI/
-	  VETIS/
-	  LOGAN/
-	  GLENN
+		MORBI/
+		REMOR/
+		GAYLA/
+		DAYBO/
+		ENPUK/
+		ONIPA/
+		TAPUL/
+		SULDO/
+		DABKO/
+		TANIK
     </Line>
-	<Symbol Type="SolidStar">
-    <Point>DEENA</Point>
-	</Symbol>
+	<Line>
+		DAYBO/
+		ENPUK/
+		BETNI/
+		MATBO/
+		GLENN
+    </Line>
+	<Line>
+		SMOKA/
+		OTGAT/
+		GARTH/
+		ESNAV/
+		DAPTU/
+		RUKNO/
+		TAPUL
+    </Line>
+	<Line>
+		RUKNO/
+		BETNI
+    </Line>
+	<Line>
+		DAPTU/
+		REPUX/
+		SAGTA/
+		BIPUD
+    </Line>
+	<Line>
+		RUKNO/
+		RUSVA
+    </Line>
+	<Line>
+		TEBOT/
+		URBIN/
+		DOMBO/
+		VEVEX/
+		COTON/
+		NIXEL/
+		VANTI
+    </Line>
+	<Line>
+		URBIN/
+		ANIRI/
+		DOMBO
+    </Line>
+	<Line>
+		COTON/
+		NUNDI/
+		ENTOX
+    </Line>
+	<Line>
+		UGTUG/
+		IRTED/
+		DOMBO
+    </Line>
+	<Line>
+		WOODY/
+		NUSBU/
+		NODUG/
+		RUKNO
+    </Line>
+	<Line>
+		SORVA/
+		BN525/
+		BN535/
+		BN545
+    </Line>
+	<Line>
+		RUSVA/
+		BN500/
+		BN510/
+		BN520
+    </Line>
+	<Line>
+		BIPUD/
+		BN505/
+		BN515
+    </Line>
    <Symbol Type="HollowStar">
-	<Point>DUNNI</Point>
-	<Point>VETIS</Point>
-	<Point>LOGAN</Point>
-	<Point>SAVER</Point>
-	<Point>IRTED</Point>
-	<Point>AMITY</Point>
-	<Point>ADGET</Point>
-	<Point>BEDAT</Point>
-	<Point>KASBA</Point>
-	<Point>KEVIE</Point>
-	<Point>ENBET</Point>
-	<Point>ISVAN</Point>
-	<Point>SAGTA</Point>
-	<Point>BIPUD</Point>
-	<Point>GORRI</Point>
-	<Point>FLYNN</Point>
-	<Point>CG VOR</Point>
-	<Point>OLDET</Point>
-	<Point>LAGOB</Point>
-	<Point>MOOVI</Point>
-	<Point>BLAKA</Point>
-	<Point>BERTI</Point>
-	<Point>ESKAN</Point>
-	<Point>RUMRO</Point>
-	<Point>PUNEK</Point>
-	<Point>COTON</Point>
-	<Point>SORVA</Point>
-	<Point>SMOKA</Point>
-	<Point>OTGAT</Point>
-	<Point>DAYBO</Point>	
+		<Point>BLAKA</Point>
+		<Point>BERTI</Point>
+		<Point>PONOD</Point>
+		<Point>VATRO</Point>
+		<Point>KASBA</Point>
+		<Point>SORVA</Point>
+		<Point>ENLIP</Point>
+		<Point>ANSOR</Point>
+		<Point>GORSO</Point>
+		<Point>ODUTO</Point>
+		<Point>OPITU</Point>
+		<Point>MULNI</Point>
+		<Point>PULEX</Point>
+		<Point>SURSI</Point>
+		<Point>VELKA</Point>
+		<Point>GOMOL</Point>
+		<Point>VERIK</Point>
+		<Point>LAGOB</Point>
+		<Point>ARONU</Point>
+		<Point>MORBI</Point>
+		<Point>REMOR</Point>
+		<Point>GAYLA</Point>
+		<Point>ONIPA</Point>
+		<Point>SULDO</Point>
+		<Point>DABKO</Point>
+		<Point>DAYBO</Point>
+		<Point>ENPUK</Point>
+		<Point>BETNI</Point>
+		<Point>MATBO</Point>
+		<Point>SMOKA</Point>
+		<Point>GARTH</Point>
+		<Point>ESNAV</Point>
+		<Point>TAPUL</Point>
+		<Point>DAPTU</Point>
+		<Point>REPUX</Point>
+		<Point>SAGTA</Point>
+		<Point>TEBOT</Point>
+		<Point>VEVEX</Point>
+		<Point>NIXEL</Point>
+		<Point>VANTI</Point>
+		<Point>COTON</Point>
+		<Point>NUNDI</Point>
+		<Point>ENTOX</Point>
+		<Point>URBIN</Point>
+		<Point>ANIRI</Point>
+		<Point>UGTUG</Point>
+		<Point>IRTED</Point>
+		<Point>DOMBO</Point>
+		<Point>WOODY</Point>
+		<Point>NODUG</Point>
+		<Point>RUKNO</Point>
     </Symbol>
     <Symbol Type="SolidSquare">
-      <Point></Point>
+      <Point>BISEK</Point>
+	  <Point>OTGAT</Point>
+	  <Point>NUSBU</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
-      <Point>GLENN</Point>
+      <Point>BIPUD</Point>
+	  <Point>GLENN</Point>
+	  <Point>RUSVA</Point>
+	  <Point>TANIK</Point>
+	  <Point>SORVA</Point>
     </Symbol>
 	<!-- SIDs -->
 	<Line>
-	  -27.374672+153.134306/ <!-- upwind threshold -->
-	  VERRY
+		-272228.820+1530803.500/
+		ASISO/
+		BEMAN/
+		NOPAS/
+		SCOTT
 	</Line>
 	<Line>
-	  -27.374672+153.134306/ <!-- upwind threshold -->
-	  ISRIB
+		ASISO/
+		ENDAB/
+		DOXET/
+		BUKBU/
+		BIXAD
 	</Line>
 	<Line>
-	  VERRY/
-	  TRIKI
+		ASISO/
+		IDKOS/
+		GUMKI
 	</Line>
 	<Line>
-	  VERRY/
-	  CORAL
+		ASISO/
+		POTOV/
+		SUGUR/
+		SANEG
 	</Line>
 	<Line>
-	  ISRIB/
-	  COODA
+		-272123.580+1530719.090/
+		OSOKO/
+		BUKBU
 	</Line>
 	<Line>
-	  ISRIB/
-	  LUMDI
+		-272228.820+1530803.500/
+		ISRIB/
+		IDKOS
 	</Line>
 	<Line>
-	  LUMDI/
-	  MANLI/
-	  HUUGO
+		ISRIB/
+		LUMDI/
+		MAVPI/
+		SANEG
 	</Line>
 	<Line>
-	  LUMDI/
-	  IGARU/
-	  OGOGA/
-	  SCOTT
+		LUMDI/
+		PIPEL/
+		NOPAS
 	</Line>
 	<Line>
-	  LUMDI/
-	  BAABA/
-	  CARSL/
-	  LAWNN/
-	  WACKO
+		BUKBU/
+		RUTAX/
+		VILER/
+		WACKO
+	</Line>
+	<Line>
+		LUMDI/
+		BAABA/
+		CARSL/
+		LAWNN/
+		WACKO
 	</Line>
 	<Symbol Type="SolidStar">
-    <Point>ISRIB</Point>
+		<Point>ASISO</Point>
+		<Point>ISRIB</Point>
+		<Point>LUMDI</Point>
+		<Point>BUKBU</Point>
 	</Symbol>
    <Symbol Type="HollowStar">
-	<Point>LUMDI</Point>
-	<Point>BAABA</Point>
-	<Point>CARSL</Point>
-	<Point>LAWNN</Point>
-	<Point>WACKO</Point>
-	<Point>VERRY</Point>
-	<Point>TRIKI</Point>
-	<Point>CORAL</Point>
-	<Point>COODA</Point>
-	<Point>LUMDI</Point>
-	<Point>MANLI</Point>
-	<Point>HUUGO</Point>
-	<Point>IGARU</Point>
-	<Point>OGOGA</Point>
-	<Point>SCOTT</Point>
+		<Point>BEMAN</Point>
+		<Point>NOPAS</Point>
+		<Point>SCOTT</Point>
+		<Point>ENDAB</Point>
+		<Point>DOXET</Point>
+		<Point>BIXAD</Point>
+		<Point>IDKOS</Point>
+		<Point>GUMKI</Point>
+		<Point>POTOV</Point>
+		<Point>SUGUR</Point>
+		<Point>OSOKO</Point>
+		<Point>MAVPI</Point>
+		<Point>SANEG</Point>
+		<Point>PIPEL</Point>
+		<Point>RUTAX</Point>
+		<Point>VILER</Point>
+		<Point>BAABA</Point>
+		<Point>CARSL</Point>
+		<Point>LAWNN</Point>
+		<Point>WACKO</Point>
 	</Symbol>
   </Map>
 </Maps>
