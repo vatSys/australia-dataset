@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="ML_RWY09" Priority="1" Center="-3740.4+14450.6">
+    <Runway Name="16/34">
+      <Threshold Name="16" Position="-37.653192+144.834911" ExtendedCentrelineTrack="351.322" ExtendedCentrelineLength="11"  ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="34" Position="-37.685789+144.840994" />
+    </Runway>
+    <Runway Name="09/27">
+      <Threshold Name="09" Position="-37.660756+144.822247" ExtendedCentrelineLength="11" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="27" Position="-37.662261+144.848089" />
+    </Runway>
+	<!--STARS-->
+	<Line>
+	  ARBEY/
+	  TUNKA/
+	  DABUX/
+	  OPAVA/
+	  UPKAN/
+	  GUPUG
+	</Line>
+	<Line>
+		BOYSE/
+		VALES/
+		LUSTU/
+		ANBEL/
+		BUVIV/
+		NEFER/
+		BELTA/
+		OPAVA
+	</Line>
+	<Line>
+		LIZZI/
+		HORUS/
+		ENSEG/
+		NEFER/
+		BELTA
+	</Line>
+	<Line>
+		WAREN/
+		MICHM/
+		MONTY/
+		SANDR/
+		AGTEV/
+		BELTA
+	</Line>
+	<Line>
+		WENDY/
+		NIXEN/
+		TEENA/
+		RIPMO/
+		AVPIX/
+		GUPUG
+	</Line>
+	<Line>
+		MILLA/
+		EKKAS/
+		PORTS/
+		KEVEK/
+		MISCH/
+		RIPMO
+	</Line>
+	<Line>
+		ONAGI/
+		LATTA/
+		PORTS
+	</Line>
+    <Symbol Type="HollowStar">
+      <!--STARS-->
+	  <Point>ARBEY</Point>
+	  <Point>TUNKA</Point>
+	  <Point>BELTA</Point>
+	  <Point>DABUX</Point>
+	  <Point>OPAVA</Point>
+	  <Point>UPKAN</Point>
+	  <Point>BOYSE</Point>
+	  <Point>NEFER</Point>
+	  <Point>HORUS</Point>
+	  <Point>LIZZI</Point>
+	  <Point>MONTY</Point>
+	  <Point>SANDR</Point>
+	  <Point>WENDY</Point>
+	  <Point>NIXEN</Point>
+	  <Point>TEENA</Point>
+	  <Point>RIPMO</Point>
+	  <Point>AVPIX</Point>
+	  <Point>MILLA</Point>
+	  <Point>PORTS</Point>
+	  <Point>MISCH</Point>
+	  <Point>ONAGI</Point>
+    </Symbol>
+    <Symbol Type="SolidSquare">
+	  <Point>VALES</Point>
+	  <Point>LUSTU</Point>
+	  <Point>ANBEL</Point>
+	  <Point>BUVIV</Point>
+	  <Point>ENSEG</Point>
+	  <Point>AGTEV</Point>
+	  <Point>MICHM</Point>
+	  <Point>EKKAS</Point>
+	  <Point>LATTA</Point>
+	  <Point>KEVEK</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+		<Point>GUPUG</Point>
+    </Symbol>
+  </Map>
+</Maps>

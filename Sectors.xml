@@ -385,12 +385,18 @@
   </Sector>
   <Sector FullName="Brisbane Tower" Frequency="120.500" Callsign="BN_TWR" Name="BN ADC" >
   </Sector>
+  <Sector FullName="Brisbane Tower West" Frequency="118.000" Callsign="BN-W_TWR" Name="BN ADCW" >
+  </Sector>
   <Sector FullName="Brisbane Surface Movement Control" Frequency="121.700" Callsign="BN_GND" Name="BN SMC" >
+  </Sector>
+  <Sector FullName="Brisbane Surface Movement Control South" Frequency="122.250" Callsign="BN-S_GND" Name="BN SMCS" >
+  </Sector>
+  <Sector FullName="Brisbane Surface Movement Control North" Frequency="124.050" Callsign="BN-N_GND" Name="BN SMCN" >
   </Sector>
   <Sector FullName="Brisbane Clearance Delivery" Frequency="118.600" Callsign="BN_DEL" Name="BN COORD" >
   </Sector>
   <Sector FullName="Gold Coast Approach" Frequency="123.500" Callsign="CG_APP" Name="BAG" >
-    <Volumes>BAG_NORTH,BAG_SOUTH</Volumes>
+    <Volumes>BAG_NORTH,BAG_SOUTH,BAG_SOUTH_C</Volumes>
   </Sector>
   <Sector FullName="Gold Coast Tower" Frequency="118.700" Callsign="CG_TWR" Name="CG ADC" >
   </Sector>
