@@ -26,7 +26,7 @@
 		</ArrivalLists>
 		<CFL QuickLevel="9000" />
 	</Position>
-	
+
 	<Position Name="Tasmania" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="600">
 		<Sectors>
 			<Sector Name="TAS"/>
@@ -485,9 +485,9 @@
 		<Sectors>
 			<Sector Name="BAN"/>
 			<Sector Name="BAS"/>
-                        <Sector Name="BDN"/>
-                        <Sector Name="BDS"/>
-                        <Sector Name="BAG"/>
+            <Sector Name="BDN"/>
+            <Sector Name="BDS"/>
+            <Sector Name="BAG"/>
 		</Sectors>
 		<Maps>
 			<Map Name="ALL_CTA" />
@@ -502,6 +502,7 @@
 		</ATIS>
 		<Strips Mode="Beacon" Sort="Alpha">
 			<Window Type="ADEP" Beacon="YBBN" Visible="true" />
+			<Window Type="ADEP" Beacon="YBCG" Visible="true" />
 		</Strips>
 		<!--
 		<CFL QuickLevel="28000">
@@ -510,9 +511,10 @@
 		-->
 		<ArrivalLists>
 			<Airport Name="YBBN" />
+			<Airport Name="YBCG" />
 		</ArrivalLists>
 	</Position>
-	
+
 	<Position Name="YBBN" Type="ASMGCS" ASMGCSAirport="YBBN" DefaultCenter="-27.3942+153.1218" DefaultRange="5" MagneticVariation="-11">
 		<!--Rotation="-70"-->
 		<Maps>
