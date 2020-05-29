@@ -483,11 +483,11 @@
 
 	<Position Name="Brisbane TCU" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="150" MagneticVariation="-11">
 		<Sectors>
-			<Sector Name="BAN"/>
-			<Sector Name="BAS"/>
-                        <Sector Name="BDN"/>
-                        <Sector Name="BDS"/>
-                        <Sector Name="BAG"/>
+		    <Sector Name="BAN"/>
+		    <Sector Name="BAS"/>
+            <Sector Name="BDN"/>
+            <Sector Name="BDS"/>
+            <Sector Name="BAG"/>
 		</Sectors>
 		<Maps>
 			<Map Name="ALL_CTA" />
@@ -520,5 +520,83 @@
 			<Map Name="ASMGCS_YBBN_TWY" />
 			<Map Name="ASMGCS_YBBN_BLD" />
 		</Maps>
+	</Position>
+    <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" MagneticVariation="-12">
+		<Sectors>
+			<Sector Name="CAE"/>
+			<Sector Name="CAW"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="Canberra/CB_TCU" />
+			<Map Name="Canberra/CB_RWY17" />
+		</Maps>
+		<ATIS>
+			<Editor Airport="YSCB" Frequency="127.45" Server="no_vox"/>
+			<Window Airport="YSCB"/>
+		</ATIS>
+		<Strips Mode="Beacon" Sort="Alpha">
+			<Window Type="ADEP" Beacon="YSCB" Visible="true" />
+		</Strips>
+		<!--
+		<CFL QuickLevel="28000">
+			<AdditionalLevels>1600,1800,2100,2200,2700,5200</AdditionalLevels>
+		</CFL>
+		-->
+		<ArrivalLists>
+			<Airport Name="YSCB" />
+		</ArrivalLists>
+	</Position>
+    <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" MagneticVariation="2">
+		<Sectors>
+			<Sector Name="PHA"/>
+			<Sector Name="PHD"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="Perth/PH_TCU" />
+			<Map Name="Perth/PH_RWY03" />
+		</Maps>
+		<ATIS>
+			<Editor Airport="YPPH" Frequency="123.8" Server="no_vox"/>
+			<Window Airport="YPPH"/>
+		</ATIS>
+		<Strips Mode="Beacon" Sort="Alpha">
+			<Window Type="ADEP" Beacon="YPPH" Visible="true" />
+		</Strips>
+		<!--
+		<CFL QuickLevel="28000">
+			<AdditionalLevels>1600,1800,2100,2200,2700,5200</AdditionalLevels>
+		</CFL>
+		-->
+		<ArrivalLists>
+			<Airport Name="YPPH" />
+		</ArrivalLists>
+	</Position>
+    <Position Name="Cairns TCU" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="150" MagneticVariation="-7">
+		<Sectors>
+			<Sector Name="CSA"/>
+			<Sector Name="CSD"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="Cairns/CS_TCU" />
+			<Map Name="Cairns/CS_RWY15" />
+		</Maps>
+		<ATIS>
+			<Editor Airport="YBCS" Frequency="131.1" Server="no_vox"/>
+			<Window Airport="YBCS"/>
+		</ATIS>
+		<Strips Mode="Beacon" Sort="Alpha">
+			<Window Type="ADEP" Beacon="YBCS" Visible="true" />
+		</Strips>
+		<!--
+		<CFL QuickLevel="28000">
+			<AdditionalLevels>1600,1800,2100,2200,2700,5200</AdditionalLevels>
+		</CFL>
+		-->
+		<ArrivalLists>
+			<Airport Name="YBCS" />
+		</ArrivalLists>
 	</Position>
 </Positions>
