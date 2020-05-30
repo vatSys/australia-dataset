@@ -521,6 +521,7 @@
 			<Map Name="ASMGCS_YBBN_BLD" />
 		</Maps>
 	</Position>
+	
     <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" MagneticVariation="-12">
 		<Sectors>
 			<Sector Name="CAE"/>
@@ -547,6 +548,16 @@
 			<Airport Name="YSCB" />
 		</ArrivalLists>
 	</Position>
+
+	<Position Name="YSCB" Type="ASMGCS" ASMGCSAirport="YSCB" DefaultCenter="-35.306090+149.193797" DefaultRange="5" MagneticVariation="-12">
+		<!--Rotation="-70"-->
+		<Maps>
+			<Map Name="ASMGCS_YSCB_RWY" />
+			<Map Name="ASMGCS_YSCB_TWY" />
+			<Map Name="ASMGCS_YSCB_BLD" />
+		</Maps>
+	</Position>
+
     <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" MagneticVariation="2">
 		<Sectors>
 			<Sector Name="PHA"/>
@@ -573,6 +584,16 @@
 			<Airport Name="YPPH" />
 		</ArrivalLists>
 	</Position>
+	
+	<Position Name="YPPH" Type="ASMGCS" ASMGCSAirport="YPPH" DefaultCenter="-31.9402+115.966944" DefaultRange="5" MagneticVariation="2">
+		<!--Rotation="-70"-->
+		<Maps>
+			<Map Name="ASMGCS_YPPH_RWY" />
+			<Map Name="ASMGCS_YPPH_TWY" />
+			<Map Name="ASMGCS_YPPH_BLD" />
+		</Maps>
+	</Position>
+	
     <Position Name="Cairns TCU" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="150" MagneticVariation="-7">
 		<Sectors>
 			<Sector Name="CSA"/>
@@ -599,4 +620,21 @@
 			<Airport Name="YBCS" />
 		</ArrivalLists>
 	</Position>
+	
+	<Position Name="YBCS" Type="ASMGCS" ASMGCSAirport="YBCS" DefaultCenter="-16.878476+145.750094" DefaultRange="5" MagneticVariation="-7">
+		<!--Rotation="-70"-->
+		<Maps>
+			<Map Name="ASMGCS_YBCS_RWY" />
+			<Map Name="ASMGCS_YBCS_TWY" />
+			<Map Name="ASMGCS_YBCS_BLD" />
+		</Maps>
+	</Position>
+
+	<Position Name="YBAS" Type="ASMGCS" ASMGCSAirport="YBAS" DefaultCenter="-23.806+133.902" DefaultRange="5" MagneticVariation="-5">
+		<Maps>
+			<Map Name="ASMGCS_YBAS_RWY" />
+			<Map Name="ASMGCS_YBAS_TWY" />
+		</Maps>
+	</Position>
+	
 </Positions>
