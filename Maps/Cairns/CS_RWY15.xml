@@ -3,7 +3,7 @@
   <Map Type="System" Name="CS_RWY15" Priority="1" Centre="-16.885833+145.755278">
     <!--YBCS-->
     <Runway Name="15/33">
-      <Threshold Name="15" Position="-16.865831+145.743561" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="15" Position="-16.865831+145.743561" ExtendedCentrelineTrack="336.48" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
       <Threshold Name="33" Position="-16.891983+145.755383" />
     </Runway>
     <!--SIDs-->
@@ -231,6 +231,16 @@
       SUNNY/
       ATOSU
     </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>GUNRO</Point>
+      <Point>RAINY</Point>
+      <Point>SUNNY</Point>
+      <Point>BENJI</Point>
+      <Point>EPGAG</Point>
+      <Point>PULAX</Point>
+      <Point>TODEG</Point>
+      <Point>ATOSU</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>CS</Point>
       <Point>NONUM</Point>
@@ -242,12 +252,6 @@
       <Point>LAKED</Point>
       <Point>LOCKA</Point>
       <Point>ZANEY</Point>
-      <Point>GUNRO</Point>
-      <Point>RAINY</Point>
-      <Point>SUNNY</Point>
-      <Point>BENJI</Point>
-      <Point>EPGAG</Point>
-      <Point>PULAX</Point>
       <Point>SURUR</Point>
       <Point>DORKO</Point>
       <Point>AKOGU</Point>
@@ -257,8 +261,6 @@
       <Point>UPOLO</Point>
       <Point>BERSI</Point>
       <Point>FOGGI</Point>
-      <Point>TODEG</Point>
-      <Point>ATOSU</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="CS_RWY15_NAMES" Priority="2" Centre="-16.885833+145.755278">

@@ -4,7 +4,7 @@
     <!--YPPH-->
     <Runway Name="03/21">
       <Threshold Name="03" Position="-31.958739+115.959683" />
-      <Threshold Name="21" Position="-31.928594+115.968464" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="21" Position="-31.928594+115.968464" ExtendedCentrelineTrack="13.95" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -154,6 +154,11 @@
       BARFF/
       WOOFY
     </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>HAIGH</Point>
+      <Point>MOCUR</Point>
+      <Point>WOOFY</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>NAVEY</Point>
       <Point>BAMIL</Point>
@@ -196,7 +201,6 @@
       <Point>SOKAL</Point>
       <Point>CHIDL</Point>
       <Point>RAVON</Point>
-      <Point>MOCUR</Point>
       <Point>SOLUS</Point>
       <Point>YNRV</Point>
       <Point>BEVLY</Point>
@@ -206,7 +210,6 @@
       <Point>MUMOS</Point>
       <Point>ROLOB</Point>
       <Point>WOORA</Point>
-      <Point>HAIGH</Point>
       <Point>CONNI</Point>
       <Point>OLGEK</Point>
       <Point>GRENE</Point>
@@ -218,7 +221,6 @@
       <Point>YIREE</Point>
       <Point>BITAP</Point>
       <Point>BARFF</Point>
-      <Point>WOOFY</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="PH_RWY21_NAMES" Priority="2" Centre="-31.940278+115.966944">

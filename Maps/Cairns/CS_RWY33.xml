@@ -4,7 +4,7 @@
     <!--YBCS-->
     <Runway Name="15/33">
       <Threshold Name="15" Position="-16.865831+145.743561" />
-      <Threshold Name="33" Position="-16.891983+145.755383" ExtendedCentrelineLength="22" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="33" Position="-16.891983+145.755383" ExtendedCentrelineTrack="156.48" ExtendedCentrelineLength="22" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -201,13 +201,19 @@
       TOTTY/
       LEBAD
     </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>HENDO</Point>
+      <Point>KAKAG</Point>
+      <Point>LAVUP</Point>
+      <Point>BASIL</Point>
+      <Point>LEBAD</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>CANNU</Point>
       <Point>HAKIT</Point>
       <Point>EAZEE</Point>
       <Point>BARIA</Point>
       <Point>ROLFE</Point>
-      <Point>HENDO</Point>
       <Point>BULOK</Point>
       <Point>CARBA</Point>
       <Point>NONUM</Point>
@@ -223,11 +229,7 @@
       <Point>LOCKA</Point>
       <Point>PAVTA</Point>
       <Point>ZANEY</Point>
-      <Point>BASIL</Point>
       <Point>IGMOL</Point>
-      <Point>KAKAG</Point>
-      <Point>LAVUP</Point>
-      <Point>LEBAD</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="CS_RWY33_NAMES" Priority="2" Centre="-16.885833+145.755278">
