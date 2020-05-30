@@ -4,7 +4,7 @@
     <!--YSCB-->
     <Runway Name="17/35">
       <Threshold Name="17" Position="-35.290622+149.194447" />
-      <Threshold Name="35" Position="-35.3148+149.194447" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="35" Position="-35.3148+149.194447" ExtendedCentrelineTrack="180.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -145,6 +145,13 @@
       SLICK/
       BIBRU
     </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>MENZI</Point>
+      <Point>PILOS</Point>
+      <Point>KALKA</Point>
+      <Point>FOXLO</Point>
+      <Point>BIBRU</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>OKERU</Point>
       <Point>AKMIR</Point>
@@ -165,23 +172,21 @@
       <Point>LANYO</Point>
       <Point>HONEY</Point>
       <Point>DALEY</Point>
-      <Point>MENZI</Point>
       <Point>BUNGO</Point>
       <Point>HIPPO</Point>
-      <Point>FOXLO</Point>
       <Point>GIBIL</Point>
-      <Point>PILOS</Point>
       <Point>ARRAN</Point>
       <Point>POLLI</Point>
       <Point>EBONY</Point>
       <Point>KACEY</Point>
       <Point>GOMAN</Point>
       <Point>ANREP</Point>
-      <Point>KALKA</Point>
       <Point>RAZZI</Point>
       <Point>SLICK</Point>
-      <Point>BIBRU</Point>
     </Symbol>
+	<Symbol Type="SolidStar">
+      <Point>GUTMO</Point>
+	</Symbol>
   </Map>
   <Map Type="System" Name="CB_RWY35_NAMES" Priority="2" Centre="-35.306944+149.195">
     <Label>

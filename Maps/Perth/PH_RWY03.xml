@@ -3,7 +3,7 @@
   <Map Type="System" Name="PH_RWY03" Priority="1" Centre="-31.940278+115.966944">
     <!--YPPH-->
     <Runway Name="03/21">
-      <Threshold Name="03" Position="-31.958739+115.959683" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="03" Position="-31.958739+115.959683" ExtendedCentrelineTrack="193.95" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
       <Threshold Name="21" Position="-31.928594+115.968464" />
     </Runway>
     <!--SIDs-->
@@ -237,6 +237,10 @@
       SADOL/
       HARMN
     </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>TIMMY</Point>
+      <Point>KARGO</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>MIDLA</Point>
       <Point>ALWYN</Point>
@@ -286,9 +290,7 @@
       <Point>MESAM</Point>
       <Point>WUNGO</Point>
       <Point>HARMN</Point>
-      <Point>TIMMY</Point>
       <Point>VAVGA</Point>
-      <Point>KARGO</Point>
       <Point>CONNI</Point>
       <Point>OLGEK</Point>
       <Point>WOORA</Point>
