@@ -410,6 +410,24 @@
 		</ArrivalLists>
 	</Position>
 
+	<Position Name="YPAD" Type="ASMGCS" ASMGCSAirport="YPAD" DefaultCenter="-34.947162+138.532305" DefaultRange="5" MagneticVariation="-8">
+		<Maps>
+			<Map Name="ASMGCS_YPAD_RWY" />
+			<Map Name="ASMGCS_YPAD_TWY" />
+			<Map Name="ASMGCS_YPAD_APR" />
+			<Map Name="ASMGCS_YPAD_BLD" />
+		</Maps>
+	</Position>
+	
+	<Position Name="YPED" Type="ASMGCS" ASMGCSAirport="YPED" DefaultCenter="-34.706446+138.621013" DefaultRange="5" MagneticVariation="-8">
+		<Maps>
+			<Map Name="ASMGCS_YPED_RWY" />
+			<Map Name="ASMGCS_YPED_TWY" />
+			<Map Name="ASMGCS_YPED_APR" />
+			<Map Name="ASMGCS_YPED_BLD" />
+		</Maps>
+	</Position>
+	
 	<Position Name="Melbourne TCU" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="150" MagneticVariation="-11">
 		<Sectors>
 			<Sector Name="MAE"/>
@@ -478,6 +496,16 @@
 			<Map Name="ASMGCS_YSSY_TWY" />
 			<Map Name="ASMGCS_YSSY_BLD" />
 			<Map Name="ASMGCS_YSSY_APR" />
+		</Maps>
+	</Position>
+
+	<Position Name="YSBK" Type="ASMGCS" ASMGCSAirport="YSBK" DefaultCenter="-33.923171+150.990411" DefaultRange="5" MagneticVariation="-12">
+		<!--Rotation="-70"-->
+		<Maps>
+			<Map Name="ASMGCS_YSBK_RWY" />
+			<Map Name="ASMGCS_YSBK_TWY" />
+			<Map Name="ASMGCS_YSBK_BLD" />
+			<Map Name="ASMGCS_YSBK_APR" />
 		</Maps>
 	</Position>
 
@@ -630,10 +658,36 @@
 		</Maps>
 	</Position>
 
-	<Position Name="YBAS" Type="ASMGCS" ASMGCSAirport="YBAS" DefaultCenter="-23.806+133.902" DefaultRange="5" MagneticVariation="-5">
+	<Position Name="YPDN" Type="ASMGCS" ASMGCSAirport="YPDN" DefaultCenter="-12.415119+130.879154" DefaultRange="5" MagneticVariation="-3">
 		<Maps>
-			<Map Name="ASMGCS_YBAS_RWY" />
-			<Map Name="ASMGCS_YBAS_TWY" />
+			<Map Name="ASMGCS_YPDN_RWY" />
+			<Map Name="ASMGCS_YPDN_TWY" />
+			<Map Name="ASMGCS_YPDN_BLD" />
+		</Maps>
+	</Position>
+
+	<Position Name="YBTL" Type="ASMGCS" ASMGCSAirport="YBTL" DefaultCenter="-19.248112+146.769076" DefaultRange="5" MagneticVariation="-7">
+		<Maps>
+			<Map Name="ASMGCS_YBTL_RWY" />
+			<Map Name="ASMGCS_YBTL_TWY" />
+			<Map Name="ASMGCS_YBTL_APR" />
+			<Map Name="ASMGCS_YBTL_BLD" />
+		</Maps>
+	</Position>
+	
+	<Position Name="YWLM" Type="ASMGCS" ASMGCSAirport="YWLM" DefaultCenter="-32.795211+151.835095" DefaultRange="5" MagneticVariation="-12">
+		<Maps>
+			<Map Name="ASMGCS_YWLM_RWY" />
+			<Map Name="ASMGCS_YWLM_TWY" />
+			<Map Name="ASMGCS_YWLM_BLD" />
+		</Maps>
+	</Position>
+
+	<Position Name="YPTN" Type="ASMGCS" ASMGCSAirport="YPTN" DefaultCenter="-14.520112+132.380218" DefaultRange="5" MagneticVariation="-3">
+		<Maps>
+			<Map Name="ASMGCS_YPTN_RWY" />
+			<Map Name="ASMGCS_YPTN_TWY" />
+			<Map Name="ASMGCS_YPTN_BLD" />
 		</Maps>
 	</Position>
 	
