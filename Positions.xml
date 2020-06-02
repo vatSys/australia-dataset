@@ -617,7 +617,7 @@
 			<Map Name="Canberra/CB_RWY17" />
 		</Maps>
 		<ATIS>
-			<Editor Airport="YSCB" Frequency="127.45" Server="no_vox"/>
+			<Editor Airport="YSCB" Frequency="127.45" />
 			<Window Airport="YSCB"/>
 		</ATIS>
 		<Strips Mode="Beacon" Sort="Alpha">
@@ -631,6 +631,11 @@
 		<ArrivalLists>
 			<Airport Name="YSCB" />
 		</ArrivalLists>
+		<ControllerInfo>
+			<Line>Canberra Approach</Line>
+			<Line>ATIS available on 127.45</Line>
+			<Line>ATC feedback - feedback.vatpac.org</Line>
+		</ControllerInfo>
 	</Position>
 
 	<Position Name="YSCB" Type="ASMGCS" ASMGCSAirport="YSCB" DefaultCenter="-35.306090+149.193797" DefaultRange="5" MagneticVariation="-12">
@@ -653,7 +658,7 @@
 			<Map Name="Perth/PH_RWY03" />
 		</Maps>
 		<ATIS>
-			<Editor Airport="YPPH" Frequency="123.8" Server="no_vox"/>
+			<Editor Airport="YPPH" Frequency="123.8" />
 			<Window Airport="YPPH"/>
 		</ATIS>
 		<Strips Mode="Beacon" Sort="Alpha">
@@ -667,6 +672,11 @@
 		<ArrivalLists>
 			<Airport Name="YPPH" />
 		</ArrivalLists>
+		<ControllerInfo>
+			<Line>Perth Approach</Line>
+			<Line>ATIS available on 123.8</Line>
+			<Line>ATC feedback - feedback.vatpac.org</Line>
+		</ControllerInfo>
 	</Position>
 	
 	<Position Name="YPPH" Type="ASMGCS" ASMGCSAirport="YPPH" DefaultCenter="-31.9402+115.966944" DefaultRange="5" MagneticVariation="2">
@@ -689,7 +699,7 @@
 			<Map Name="Cairns/CS_RWY15" />
 		</Maps>
 		<ATIS>
-			<Editor Airport="YBCS" Frequency="131.1" Server="no_vox"/>
+			<Editor Airport="YBCS" Frequency="131.1" />
 			<Window Airport="YBCS"/>
 		</ATIS>
 		<Strips Mode="Beacon" Sort="Alpha">
@@ -703,6 +713,11 @@
 		<ArrivalLists>
 			<Airport Name="YBCS" />
 		</ArrivalLists>
+		<ControllerInfo>
+			<Line>Cairns Approach</Line>
+			<Line>ATIS available on 131.1</Line>
+			<Line>ATC feedback - feedback.vatpac.org</Line>
+		</ControllerInfo>
 	</Position>
 		
 	<Position Name="YBCS" Type="ASMGCS" ASMGCSAirport="YBCS" DefaultCenter="-16.878476+145.750094" DefaultRange="5" MagneticVariation="-7">
@@ -754,29 +769,5 @@
 			<Map Name="ASMGCS_YWLM_TWY" />
 			<Map Name="ASMGCS_YWLM_BLD" />
 		</Maps>
-        <Position Name="Alice Springs Tower" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="100" MagneticVariation="-4.6">
-		<Sectors>
-			<Sector Name="AS ADC"/>
-		</Sectors>
-		<Maps>
-			<Map Name="ALL_CTA" />
-			<Map Name="Alice Springs/AS_TCU" />
-			<Map Name="Alice Springs/AS_RWY12" />
-		</Maps>
-		<ATIS>
-			<Editor Airport="YBAS" Frequency="123.0" Server="no_vox"/>
-			<Window Airport="YBAS"/>
-		</ATIS>
-		<Strips Mode="Beacon" Sort="Alpha">
-			<Window Type="ADEP" Beacon="YBAS" Visible="true" />
-		</Strips>
-		<!--
-		<CFL QuickLevel="28000">
-			<AdditionalLevels>1600,1800,2100,2200,2700,5200</AdditionalLevels>
-		</CFL>
-		-->
-		<ArrivalLists>
-			<Airport Name="YBCS" />
-		</ArrivalLists>
 	</Position>
 </Positions>
