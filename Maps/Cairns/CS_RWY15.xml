@@ -3,21 +3,10 @@
   <Map Type="System" Name="CS_RWY15" Priority="1" Centre="-16.885833+145.755278">
     <!--YBCS-->
     <Runway Name="15/33">
-      <Threshold Name="15" Position="-16.865831+145.743561" ExtendedCentrelineTrack="336.48" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="15" Position="-16.865831+145.743561" ExtendedCentrelineTrack="336.48" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
       <Threshold Name="33" Position="-16.891983+145.755383" />
     </Runway>
     <!--SIDs-->
-    <Line>
-      <!--Rwy15 CS2-->
-      -16.891983+145.755383/
-      -16.891983+145.755383/
-      -16.90625+145.761259/
-      -16.911404+145.768113/
-      -16.912733+145.776719/
-      -16.909903+145.784919/
-      -16.903624+145.790657/
-      -16.834918+145.812863
-    </Line>
     <Line>
       <!--Rwy15 NONUM1-->
       -16.891983+145.755383/
@@ -31,7 +20,7 @@
       -16.806389+145.800229/
       -16.804579+145.774801/
       -16.814766+145.758869/
-      CS/
+      CS VOR/
       NONUM
     </Line>
     <Line>
@@ -217,7 +206,7 @@
     </Line>
     <Line>
       <!--Rwy15 SUNY6B-->
-      SUNNY
+      SUNNY/
       -16.63475+145.770944
     </Line>
     <Line>
@@ -274,6 +263,12 @@
       SUNNY/
       ATOSU
     </Line>
+    <Symbol Type="Circle">
+      <Point>CS VOR</Point>
+    </Symbol>
+    <Symbol Type="SolidTriangle">
+      <Point>SWIFT</Point>
+    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>GUNRO</Point>
       <Point>RAINY</Point>
@@ -285,9 +280,7 @@
       <Point>ATOSU</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>CS</Point>
       <Point>NONUM</Point>
-      <Point>SWIFT</Point>
       <Point>CARBA</Point>
       <Point>CODIE</Point>
       <Point>DREWS</Point>
@@ -308,7 +301,7 @@
   </Map>
   <Map Type="System" Name="CS_RWY15_NAMES" Priority="2" Centre="-16.885833+145.755278">
     <Label>
-      <Point>CS</Point>
+      <Point>CS VOR</Point>
       <Point>NONUM</Point>
       <Point>SWIFT</Point>
       <Point>CARBA</Point>
