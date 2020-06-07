@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="AV_TCU" Priority="1" Centre="-38.039444+144.469444">
+    <!--YMEN-->
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-37.731392+144.892881" />
+      <Threshold Name="26" Position="-37.7308+144.914661" ExtendedCentrelineTrack="88.05" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="17/35">
+      <Threshold Name="17" Position="-37.720425+144.900758" ExtendedCentrelineTrack="357.78" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="35" Position="-37.733961+144.901419" ExtendedCentrelineTrack="177.78" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <!--YMMB-->
+    <Runway Name="04/22">
+      <Threshold Name="04" Position="-37.979533+145.098122" />
+      <Threshold Name="22" Position="-37.976675+145.102061" />
+    </Runway>
+    <Runway Name="13L/31R">
+      <Threshold Name="13L" Position="-37.972919+145.098639" />
+      <Threshold Name="31R" Position="-37.980319+145.105958" />
+    </Runway>
+    <Runway Name="13R/31L">
+      <Threshold Name="13R" Position="-37.975719+145.098317" />
+      <Threshold Name="31L" Position="-37.981031+145.103561" />
+    </Runway>
+    <Runway Name="17L/35R">
+      <Threshold Name="17L" Position="-37.974211+145.099506" />
+      <Threshold Name="35R" Position="-37.982153+145.1002" />
+    </Runway>
+    <Runway Name="17R/35L">
+      <Threshold Name="17R" Position="-37.973736+145.097031" />
+      <Threshold Name="35L" Position="-37.981756+145.097736" />
+    </Runway>
+    <!--YMML-->
+    <Runway Name="16/34">
+      <Threshold Name="16" Position="-37.653192+144.834911" />
+      <Threshold Name="34" Position="-37.685789+144.840994" />
+    </Runway>
+    <Runway Name="16D/34">
+      <Threshold Name="16D" Position="-37.653192+144.834911" />
+      <Threshold Name="34" Position="-37.685789+144.840994" />
+    </Runway>
+    <Runway Name="16A/34S">
+      <Threshold Name="16A" Position="-37.653192+144.834911" />
+      <Threshold Name="34S" Position="-37.685789+144.840994" />
+    </Runway>
+    <Runway Name="09/27">
+      <Threshold Name="09" Position="-37.660756+144.822247" />
+      <Threshold Name="27" Position="-37.662261+144.848089" />
+    </Runway>
+    <Runway Name="09A/27S">
+      <Threshold Name="09A" Position="-37.660756+144.822247" />
+      <Threshold Name="27S" Position="-37.662261+144.848089" />
+    </Runway>
+    <Runway Name="09/27D">
+      <Threshold Name="09" Position="-37.660756+144.822247" />
+      <Threshold Name="27D" Position="-37.662261+144.848089" />
+    </Runway>
+    <!--Routes-->
+    <Line>
+      <!--W15-->
+      ML VOR/
+      LLOYD
+    </Line>
+  </Map>
+  <Map Type="System2" Name="AV_VFR" Priority="1" Centre="-38.039444+144.469444">
+    <Symbol Type="HollowSquare">
+      <Point>ACE</Point>
+      <Point>APL</Point>
+      <Point>ALOA</Point>
+      <Point>ALTS</Point>
+      <Point>ANG</Point>
+      <Point>ATV</Point>
+      <Point>BMP</Point>
+      <Point>BPN</Point>
+      <Point>BAW</Point>
+      <Point>BVG</Point>
+      <Point>BLTB</Point>
+      <Point>BTO</Point>
+      <Point>BYN</Point>
+      <Point>CARE</Point>
+      <Point>CARR</Point>
+      <Point>CERB</Point>
+      <Point>CLS</Point>
+      <Point>CKT</Point>
+      <Point>CGB</Point>
+      <Point>CWK</Point>
+      <Point>DFD</Point>
+      <Point>DSN</Point>
+      <Point>DRM</Point>
+      <Point>EPPG</Point>
+      <Point>FGN</Point>
+      <Point>FWO</Point>
+      <Point>GMH</Point>
+      <Point>KAO</Point>
+      <Point>KIM</Point>
+      <Point>KINN</Point>
+      <Point>KTN</Point>
+      <Point>LCR</Point>
+      <Point>LCD</Point>
+      <Point>LUY</Point>
+      <Point>LVAB</Point>
+      <Point>TON</Point>
+      <Point>LPD</Point>
+      <Point>LRM</Point>
+      <Point>LORN</Point>
+      <Point>MHT</Point>
+      <Point>MCTY</Point>
+      <Point>MCG</Point>
+      <Point>MELS</Point>
+      <Point>MVC</Point>
+      <Point>MCOT</Point>
+      <Point>MCD</Point>
+      <Point>NRW</Point>
+      <Point>NEQ</Point>
+      <Point>PTOM</Point>
+      <Point>PIPS</Point>
+      <Point>PWLC</Point>
+      <Point>PYK</Point>
+      <Point>ROK</Point>
+      <Point>RLR</Point>
+      <Point>SDP</Point>
+      <Point>SHOAL</Point>
+      <Point>SNP</Point>
+      <Point>SGSV</Point>
+      <Point>SBU</Point>
+      <Point>SWT</Point>
+      <Point>WHF</Point>
+      <Point>TOGA</Point>
+      <Point>VTG</Point>
+      <Point>WAN</Point>
+      <Point>WRD</Point>
+      <Point>WBER</Point>
+      <Point>WBES</Point>
+      <Point>WES</Point>
+      <Point>WTS</Point>
+      <Point>WMS</Point>
+      <Point>WOOS</Point>
+      <Point>YYN</Point>
+      <Point>YYM</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ACE</Point>
+      <Point>APL</Point>
+      <Point>ALOA</Point>
+      <Point>ALTS</Point>
+      <Point>ANG</Point>
+      <Point>ATV</Point>
+      <Point>BMP</Point>
+      <Point>BPN</Point>
+      <Point>BAW</Point>
+      <Point>BVG</Point>
+      <Point>BLTB</Point>
+      <Point>BTO</Point>
+      <Point>BYN</Point>
+      <Point>CARE</Point>
+      <Point>CARR</Point>
+      <Point>CERB</Point>
+      <Point>CLS</Point>
+      <Point>CKT</Point>
+      <Point>CGB</Point>
+      <Point>CWK</Point>
+      <Point>DFD</Point>
+      <Point>DSN</Point>
+      <Point>DRM</Point>
+      <Point>EPPG</Point>
+      <Point>FGN</Point>
+      <Point>FWO</Point>
+      <Point>GMH</Point>
+      <Point>KAO</Point>
+      <Point>KIM</Point>
+      <Point>KINN</Point>
+      <Point>KTN</Point>
+      <Point>LCR</Point>
+      <Point>LCD</Point>
+      <Point>LUY</Point>
+      <Point>LVAB</Point>
+      <Point>TON</Point>
+      <Point>LPD</Point>
+      <Point>LRM</Point>
+      <Point>LORN</Point>
+      <Point>MHT</Point>
+      <Point>MCTY</Point>
+      <Point>MCG</Point>
+      <Point>MELS</Point>
+      <Point>MVC</Point>
+      <Point>MCOT</Point>
+      <Point>MCD</Point>
+      <Point>NRW</Point>
+      <Point>NEQ</Point>
+      <Point>PTOM</Point>
+      <Point>PIPS</Point>
+      <Point>PWLC</Point>
+      <Point>PYK</Point>
+      <Point>ROK</Point>
+      <Point>RLR</Point>
+      <Point>SDP</Point>
+      <Point>SHOAL</Point>
+      <Point>SNP</Point>
+      <Point>SGSV</Point>
+      <Point>SBU</Point>
+      <Point>SWT</Point>
+      <Point>WHF</Point>
+      <Point>TOGA</Point>
+      <Point>VTG</Point>
+      <Point>WAN</Point>
+      <Point>WRD</Point>
+      <Point>WBER</Point>
+      <Point>WBES</Point>
+      <Point>WES</Point>
+      <Point>WTS</Point>
+      <Point>WMS</Point>
+      <Point>WOOS</Point>
+      <Point>YYN</Point>
+      <Point>YYM</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YMAV_ALLRWYS" Priority="2" Centre="-38.039444+144.469444">
+    <Runway Name="18/36">
+      <Threshold Name="18" Position="-38.027239+144.469425" ExtendedCentrelineTrack="7.59" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="36" Position="-38.054456+144.464839" ExtendedCentrelineTrack="187.59" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>

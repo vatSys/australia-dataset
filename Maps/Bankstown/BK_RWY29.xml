@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="BK_RWY29" Priority="1" Centre="-33.924444+150.988333">
+    <!--YSBK-->
+    <Runway Name="11C/29C">
+      <Threshold Name="11C" Position="-33.920119+150.984556" />
+      <Threshold Name="29C" Position="-33.926453+150.995861" ExtendedCentrelineTrack="123.90" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <Runway Name="11R/29L">
+      <Threshold Name="11R" Position="-33.921631+150.985203" />
+      <Threshold Name="29L" Position="-33.926833+150.994492" ExtendedCentrelineTrack="123.90" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <Runway Name="11L/29R">
+      <Threshold Name="11L" Position="-33.920122+150.986647" />
+      <Threshold Name="29R" Position="-33.925653+150.996522" ExtendedCentrelineTrack="123.90" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <!--SIDs-->
+    <!--STARs-->
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowStar" />
+  </Map>
+  <Map Type="System" Name="BK_RWY29_NAMES" Priority="2" Centre="-33.924444+150.988333">
+    <Label>
+      <Point>WATLE</Point>
+      <Point>ANPEN</Point>
+    </Label>
+  </Map>
+</Maps>

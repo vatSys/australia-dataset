@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="WLM_RWY30" Priority="1" Centre="-32.795+151.834444">
+    <!--YWLM-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-32.788767+151.824869" />
+      <Threshold Name="30" Position="-32.804972+151.847492" ExtendedCentrelineTrack="130.31" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy30 BUBRI1-->
+      -32.788767+151.824869/
+      -32.788775+151.824872/
+      -32.762376+151.819848/
+      ENVOL/
+      BUBRI
+    </Line>
+    <Line>
+      <!--Rwy30 EGEVO1-->
+      -32.788775+151.824872/
+      -32.784796+151.817442/
+      -32.783961+151.807428/
+      -32.787368+151.798218/
+      -32.79414+151.792185/
+      -32.802529+151.790888/
+      ABVUX/
+      EGEVO
+    </Line>
+    <Line>
+      <!--Rwy30 GUTEX1-->
+      ENVOL/
+      GUTEX
+    </Line>
+    <Line>
+      <!--Rwy30 IKIMO1-->
+      -32.788775+151.824872/
+      -32.784877+151.817694/
+      -32.783881+151.808095/
+      -32.786824+151.799079/
+      IKIMO
+    </Line>
+    <Line>
+      <!--Rwy30 LATUT1-->
+      ENVOL/
+      LATUT
+    </Line>
+    <Line>
+      <!--Rwy30 OMBUP1-->
+      ENVOL/
+      OMBUP
+    </Line>
+    <Line>
+      <!--Rwy30 WONKA1-->
+      LATUT/
+      WONKA
+    </Line>
+    <!--STARs-->
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowStar">
+      <Point>ENVOL</Point>
+      <Point>BUBRI</Point>
+      <Point>ABVUX</Point>
+      <Point>EGEVO</Point>
+      <Point>GUTEX</Point>
+      <Point>IKIMO</Point>
+      <Point>LATUT</Point>
+      <Point>OMBUP</Point>
+      <Point>WONKA</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="WLM_RWY30_NAMES" Priority="2" Centre="-32.795+151.834444">
+    <Label>
+      <Point>ENVOL</Point>
+      <Point>BUBRI</Point>
+      <Point>ABVUX</Point>
+      <Point>EGEVO</Point>
+      <Point>GUTEX</Point>
+      <Point>IKIMO</Point>
+      <Point>LATUT</Point>
+      <Point>OMBUP</Point>
+      <Point>WONKA</Point>
+      <Point>GOANA</Point>
+      <Point>NELSN</Point>
+      <Point>LOWEP</Point>
+      <Point>MAKOR</Point>
+      <Point>TIMBO</Point>
+      <Point>TW VOR</Point>
+      <Point>GDH NDB</Point>
+      <Point>NBR NDB</Point>
+      <Point>LOSKU</Point>
+      <Point>NICLA</Point>
+      <Point>TESAT</Point>
+      <Point>DONIC</Point>
+      <Point>TRINA</Point>
+      <Point>COOPA</Point>
+      <Point>SANAD</Point>
+      <Point>IVL NDB</Point>
+      <Point>CRAVN</Point>
+      <Point>JAFFA</Point>
+      <Point>ARM NDB</Point>
+      <Point>QDI NDB</Point>
+      <Point>SCO NDB</Point>
+      <Point>OLTIN</Point>
+      <Point>MATLA</Point>
+    </Label>
+  </Map>
+</Maps>

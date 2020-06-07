@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="HM_RWY32" Priority="1" Centre="-20.358056+148.951667">
+    <!--YBHM-->
+    <Runway Name="14/32">
+      <Threshold Name="14" Position="-20.351342+148.946717" />
+      <Threshold Name="32" Position="-20.363619+148.956561" ExtendedCentrelineTrack="142.89" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <!--SIDs-->
+    <!--STARs-->
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowStar" />
+  </Map>
+  <Map Type="System" Name="HM_RWY32_NAMES" Priority="2" Centre="-20.358056+148.951667">
+    <Label>
+      <Point>BOWLY</Point>
+      <Point>LINSU</Point>
+      <Point>PN VOR</Point>
+    </Label>
+  </Map>
+</Maps>

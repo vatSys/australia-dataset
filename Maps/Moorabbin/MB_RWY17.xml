@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="MB_RWY17" Priority="1" Centre="-37.975833+145.102222">
+    <!--YMMB-->
+    <Runway Name="17L/35R">
+      <Threshold Name="17L" Position="-37.974211+145.099506" ExtendedCentrelineTrack="356.04" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="35R" Position="-37.982153+145.1002" />
+    </Runway>
+    <Runway Name="17R/35L">
+      <Threshold Name="17R" Position="-37.973736+145.097031" ExtendedCentrelineTrack="356.02" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="35L" Position="-37.981756+145.097736" />
+    </Runway>
+    <!--SIDs-->
+    <!--STARs-->
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowStar" />
+  </Map>
+  <Map Type="System" Name="MB_RWY17_NAMES" Priority="2" Centre="-37.975833+145.102222">
+    <Label>
+      <Point>TEMIS</Point>
+      <Point>LACEY</Point>
+      <Point>COLDS</Point>
+      <Point>WENDY</Point>
+      <Point>LLOYD</Point>
+      <Point>ESDAN</Point>
+      <Point>ONAGI</Point>
+      <Point>SUNTI</Point>
+      <Point>NUNPA</Point>
+      <Point>NOGIP</Point>
+      <Point>IBOBO</Point>
+      <Point>AV VOR</Point>
+      <Point>ALPAL</Point>
+      <Point>KII NDB</Point>
+    </Label>
+  </Map>
+</Maps>

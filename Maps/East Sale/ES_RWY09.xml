@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="ES_RWY09" Priority="1" Centre="-38.098889+147.149444">
+    <!--YMES-->
+    <Runway Name="09/27">
+      <Threshold Name="09" Position="-38.095681+147.1283" ExtendedCentrelineTrack="278.89" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="27" Position="-38.098789+147.153425" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy09 ESL4-->
+      -38.098789+147.153425/
+      -38.098789+147.153425/
+      -38.105242+147.205249
+    </Line>
+    <!--STARs-->
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowStar" />
+  </Map>
+  <Map Type="System" Name="ES_RWY09_NAMES" Priority="2" Centre="-38.098889+147.149444">
+    <Label />
+  </Map>
+</Maps>

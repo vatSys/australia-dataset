@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="PEA_RWY18" Priority="1" Centre="-31.667778+116.015">
+    <!--YPEA-->
+    <Runway Name="18L/36R">
+      <Threshold Name="18L" Position="-31.662411+116.013714" ExtendedCentrelineTrack="353.51" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="36R" Position="-31.684267+116.016622" />
+    </Runway>
+    <Runway Name="18R/36L">
+      <Threshold Name="18R" Position="-31.668781+116.013333" ExtendedCentrelineTrack="353.50" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="36L" Position="-31.684389+116.015411" />
+    </Runway>
+    <!--SIDs-->
+    <!--STARs-->
+    <Line>
+      <!--Rwy18L PEA3G.BEVLY-->
+      BEVLY/
+      KYEMA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy18L PEA3G.GRENE-->
+      GRENE/
+      BOOKA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy18L PEA3G-->
+      GOSNL/
+      PH
+    </Line>
+    <Line>
+      <!--Rwy18L PEA3R.BEVLY-->
+      BEVLY/
+      BOOKA/
+      PONYS/
+      DELAK/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy18L PEA3R.GRENE-->
+      GRENE/
+      DORIS/
+      RONAN/
+      UNDOW/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy18L PEA3R-->
+      ROLOB/
+      PH
+    </Line>
+    <Line>
+      <!--Rwy18L PEA3W.HAMTN-->
+      HAMTN/
+      DAYLR/
+      WUNGO
+    </Line>
+    <Line>
+      <!--Rwy18L PEA3W-->
+      WUNGO/
+      HARMN/
+      PH
+    </Line>
+    <Line>
+      <!--Rwy18R PEA3G.BEVLY-->
+      
+    </Line>
+    <Line>
+      <!--Rwy18R PEA3G.GRENE-->
+      
+    </Line>
+    <Line>
+      <!--Rwy18R PEA3G-->
+      
+    </Line>
+    <Line>
+      <!--Rwy18R PEA3R.BEVLY-->
+      
+    </Line>
+    <Line>
+      <!--Rwy18R PEA3R.GRENE-->
+      
+    </Line>
+    <Line>
+      <!--Rwy18R PEA3R-->
+      
+    </Line>
+    <Line>
+      <!--Rwy18R PEA3W.HAMTN-->
+      
+    </Line>
+    <Line>
+      <!--Rwy18R PEA3W-->
+      
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>PH</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>BEVLY</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>GRENE</Point>
+      <Point>BOOKA</Point>
+      <Point>PONYS</Point>
+      <Point>DELAK</Point>
+      <Point>ROLOB</Point>
+      <Point>DORIS</Point>
+      <Point>RONAN</Point>
+      <Point>UNDOW</Point>
+      <Point>HAMTN</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="PEA_RWY18_NAMES" Priority="2" Centre="-31.667778+116.015">
+    <Label>
+      <Point>BEVLY</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>GRENE</Point>
+      <Point>BOOKA</Point>
+      <Point>PH</Point>
+      <Point>PONYS</Point>
+      <Point>DELAK</Point>
+      <Point>ROLOB</Point>
+      <Point>DORIS</Point>
+      <Point>RONAN</Point>
+      <Point>UNDOW</Point>
+      <Point>HAMTN</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+    </Label>
+  </Map>
+</Maps>

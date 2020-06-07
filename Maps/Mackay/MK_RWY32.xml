@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="MK_RWY32" Priority="1" Centre="-21.171389+149.179722">
+    <!--YBMK-->
+    <Runway Name="14/32">
+      <Threshold Name="14" Position="-21.163192+149.177464" />
+      <Threshold Name="32" Position="-21.178325+149.187667" ExtendedCentrelineTrack="147.69" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy32 CLIFT2-->
+      -21.163192+149.177464/
+      -21.163192+149.177464/
+      -21.09425+149.131118/
+      CLIFT
+    </Line>
+    <Line>
+      <!--Rwy32 POONA2-->
+      -21.163192+149.177464/
+      -21.144497+149.164123/
+      HARPO/
+      -21.006609+148.775535/
+      -21.007721+148.766542/
+      -21.012819+148.759296/
+      -21.020583+148.755673/
+      RUVAL/
+      POONA
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy32 DAGSI1-->
+      DAGSI/
+      LUMVA/
+      SADID/
+      BURNO
+    </Line>
+    <Line>
+      <!--Rwy32 WELKE1-->
+      WELKE/
+      BAVAM
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BURNO</Point>
+      <Point>BAVAM</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>CLIFT</Point>
+      <Point>HARPO</Point>
+      <Point>RUVAL</Point>
+      <Point>POONA</Point>
+      <Point>DAGSI</Point>
+      <Point>LUMVA</Point>
+      <Point>SADID</Point>
+      <Point>WELKE</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MK_RWY32_NAMES" Priority="2" Centre="-21.171389+149.179722">
+    <Label>
+      <Point>CLIFT</Point>
+      <Point>HARPO</Point>
+      <Point>RUVAL</Point>
+      <Point>POONA</Point>
+      <Point>DAGSI</Point>
+      <Point>LUMVA</Point>
+      <Point>SADID</Point>
+      <Point>BURNO</Point>
+      <Point>WELKE</Point>
+      <Point>BAVAM</Point>
+      <Point>TL VOR</Point>
+      <Point>LINBO</Point>
+      <Point>ALBUX</Point>
+      <Point>PN VOR</Point>
+      <Point>ISAAK</Point>
+      <Point>EML NDB</Point>
+      <Point>NIPOM</Point>
+      <Point>RK VOR</Point>
+      <Point>CARON</Point>
+    </Label>
+  </Map>
+</Maps>

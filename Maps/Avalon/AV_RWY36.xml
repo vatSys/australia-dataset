@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="AV_RWY36" Priority="1" Centre="-38.039444+144.469444">
+    <!--YMAV-->
+    <Runway Name="18/36">
+      <Threshold Name="18" Position="-38.027239+144.469425" />
+      <Threshold Name="36" Position="-38.054456+144.464839" ExtendedCentrelineTrack="187.59" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy36 JUSTY2-->
+      -38.027239+144.469425/
+      -38.017355+144.471183/
+      JUSTY/
+      ML
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy36 JAYBI5.APPLE-->
+      APPLE/
+      SOAPY/
+      JAYBI
+    </Line>
+    <Line>
+      <!--Rwy36 JAYBI5.CANTY-->
+      CANTY/
+      SOAPY
+    </Line>
+    <Line>
+      <!--Rwy36 JAYBI5.ML-->
+      ML/
+      JAYBI
+    </Line>
+    <Line>
+      <!--Rwy36 JAYBI5-->
+      JAYBI/
+      TEMPL
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>TEMPL</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>JUSTY</Point>
+      <Point>ML</Point>
+      <Point>APPLE</Point>
+      <Point>SOAPY</Point>
+      <Point>JAYBI</Point>
+      <Point>CANTY</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="AV_RWY36_NAMES" Priority="2" Centre="-38.039444+144.469444">
+    <Label>
+      <Point>JUSTY</Point>
+      <Point>ML</Point>
+      <Point>APPLE</Point>
+      <Point>SOAPY</Point>
+      <Point>JAYBI</Point>
+      <Point>CANTY</Point>
+      <Point>TEMPL</Point>
+      <Point>ML VOR</Point>
+      <Point>LLOYD</Point>
+    </Label>
+  </Map>
+</Maps>

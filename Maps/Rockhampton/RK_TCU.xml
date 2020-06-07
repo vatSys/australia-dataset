@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="RK_TCU" Priority="1" Centre="-23.381944+150.475278">
+    <!--Routes-->
+    <Line>
+      <!--V111-->
+      BUDGI/
+      RUROX
+    </Line>
+    <Line>
+      <!--V153-->
+      DAGSI/
+      MK VOR/
+      POONA/
+      MURPH/
+      ABVAS
+    </Line>
+    <Line>
+      <!--V307-->
+      MILTY/
+      SUSGI
+    </Line>
+    <Line>
+      <!--W240-->
+      LUKPU/
+      ESLAR/
+      MINNI
+    </Line>
+    <Line>
+      <!--W518-->
+      NIPOM/
+      PLUTO
+    </Line>
+    <Line>
+      <!--W636-->
+      BUD NDB/
+      GLA VOR
+    </Line>
+    <Line>
+      <!--W664-->
+      KANBU/
+      LUKPU
+    </Line>
+    <Line>
+      <!--W889-->
+      CARON/
+      MK VOR
+    </Line>
+  </Map>
+  <Map Type="System2" Name="RK_VFR" Priority="1" Centre="-23.381944+150.475278">
+    <Symbol Type="HollowSquare">
+      <Point>DAG</Point>
+      <Point>KANC</Point>
+      <Point>KUN</Point>
+      <Point>MAS</Point>
+      <Point>MLI</Point>
+      <Point>MGN</Point>
+      <Point>MWH</Point>
+      <Point>NBRR</Point>
+      <Point>PRKH</Point>
+      <Point>PII</Point>
+      <Point>PMA</Point>
+      <Point>RNN</Point>
+      <Point>SBRR</Point>
+      <Point>SPS</Point>
+      <Point>YMA</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>DAG</Point>
+      <Point>KANC</Point>
+      <Point>KUN</Point>
+      <Point>MAS</Point>
+      <Point>MLI</Point>
+      <Point>MGN</Point>
+      <Point>MWH</Point>
+      <Point>NBRR</Point>
+      <Point>PRKH</Point>
+      <Point>PII</Point>
+      <Point>PMA</Point>
+      <Point>RNN</Point>
+      <Point>SBRR</Point>
+      <Point>SPS</Point>
+      <Point>YMA</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YBRK_ALLRWYS" Priority="2" Centre="-23.381944+150.475278">
+    <Runway Name="04/22">
+      <Threshold Name="04" Position="-23.382458+150.465389" ExtendedCentrelineTrack="232.38" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="22" Position="-23.378047+150.471589" ExtendedCentrelineTrack="52.39" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <Runway Name="15/33">
+      <Threshold Name="15" Position="-23.369219+150.470561" ExtendedCentrelineTrack="337.68" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="33" Position="-23.390681+150.480117" ExtendedCentrelineTrack="157.66" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>

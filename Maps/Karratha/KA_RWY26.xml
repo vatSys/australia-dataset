@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="KA_RWY26" Priority="1" Centre="-20.712222+116.773333">
+    <!--YPKA-->
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-20.714025+116.764711" />
+      <Threshold Name="26" Position="-20.711747+116.786472" ExtendedCentrelineTrack="83.66" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <!--SIDs-->
+    <!--STARs-->
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowStar" />
+  </Map>
+  <Map Type="System" Name="KA_RWY26_NAMES" Priority="2" Centre="-20.712222+116.773333">
+    <Label>
+      <Point>PBO VOR</Point>
+      <Point>WEBBA</Point>
+      <Point>VETEL</Point>
+      <Point>POGAV</Point>
+    </Label>
+  </Map>
+</Maps>

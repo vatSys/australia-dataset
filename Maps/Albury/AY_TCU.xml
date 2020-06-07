@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="AY_TCU" Priority="1" Centre="-36.067778+146.958056">
+    <!--Routes-->
+    <Line>
+      <!--J42-->
+      CB VOR/
+      ARRAN
+    </Line>
+    <Line>
+      <!--V147-->
+      DUGGI/
+      TEMIS
+    </Line>
+    <Line>
+      <!--W335-->
+      COPPA/
+      WOLBI/
+      IGDEL
+    </Line>
+    <Line>
+      <!--W424-->
+      SHT NDB/
+      CANTY
+    </Line>
+    <Line>
+      <!--W465-->
+      MNG VOR/
+      LUTVU
+    </Line>
+    <Line>
+      <!--W638-->
+      PKS VOR/
+      WG VOR
+    </Line>
+    <Line>
+      <!--W817-->
+      MUSOP/
+      AVBEG/
+      KEDDY/
+      AKMIR
+    </Line>
+  </Map>
+  <Map Type="System2" Name="AY_VFR" Priority="1" Centre="-36.067778+146.958056">
+    <Symbol Type="HollowSquare">
+      <Point>APM</Point>
+      <Point>BDT</Point>
+      <Point>BCH</Point>
+      <Point>BNG</Point>
+      <Point>BOW</Point>
+      <Point>BUG</Point>
+      <Point>BMK</Point>
+      <Point>CHN</Point>
+      <Point>CCN</Point>
+      <Point>DSS</Point>
+      <Point>ELDO</Point>
+      <Point>GOY</Point>
+      <Point>GBRY</Point>
+      <Point>GRAA</Point>
+      <Point>HENTY</Point>
+      <Point>HBKT</Point>
+      <Point>HWG</Point>
+      <Point>HWW</Point>
+      <Point>JIA</Point>
+      <Point>KIEWA</Point>
+      <Point>KYP</Point>
+      <Point>KYE</Point>
+      <Point>LOGI</Point>
+      <Point>MOP</Point>
+      <Point>PIG</Point>
+      <Point>TLAG</Point>
+      <Point>TLY</Point>
+      <Point>RCK</Point>
+      <Point>WAM</Point>
+      <Point>WMF</Point>
+      <Point>YKH</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>APM</Point>
+      <Point>BDT</Point>
+      <Point>BCH</Point>
+      <Point>BNG</Point>
+      <Point>BOW</Point>
+      <Point>BUG</Point>
+      <Point>BMK</Point>
+      <Point>CHN</Point>
+      <Point>CCN</Point>
+      <Point>DSS</Point>
+      <Point>ELDO</Point>
+      <Point>GOY</Point>
+      <Point>GBRY</Point>
+      <Point>GRAA</Point>
+      <Point>HENTY</Point>
+      <Point>HBKT</Point>
+      <Point>HWG</Point>
+      <Point>HWW</Point>
+      <Point>JIA</Point>
+      <Point>KIEWA</Point>
+      <Point>KYP</Point>
+      <Point>KYE</Point>
+      <Point>LOGI</Point>
+      <Point>MOP</Point>
+      <Point>PIG</Point>
+      <Point>TLAG</Point>
+      <Point>TLY</Point>
+      <Point>RCK</Point>
+      <Point>WAM</Point>
+      <Point>WMF</Point>
+      <Point>YKH</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YMAY_ALLRWYS" Priority="2" Centre="-36.067778+146.958056">
+    <Runway Name="07/25">
+      <Threshold Name="07" Position="-36.068075+146.948892" ExtendedCentrelineTrack="261.18" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="25" Position="-36.06545+146.969742" ExtendedCentrelineTrack="81.19" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>

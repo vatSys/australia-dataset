@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="PF_RWY08" Priority="1" Centre="-34.793333+138.633056">
+    <!--YPPF-->
+    <Runway Name="08L/26R">
+      <Threshold Name="08L" Position="-34.79355+138.624764" ExtendedCentrelineTrack="264.80" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="26R" Position="-34.792767+138.635197" />
+    </Runway>
+    <Runway Name="08R/26L">
+      <Threshold Name="08R" Position="-34.795589+138.623317" ExtendedCentrelineTrack="264.79" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="26L" Position="-34.794778+138.634111" />
+    </Runway>
+    <!--SIDs-->
+    <!--STARs-->
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowStar" />
+  </Map>
+  <Map Type="System" Name="PF_RWY08_NAMES" Priority="2" Centre="-34.793333+138.633056">
+    <Label />
+  </Map>
+</Maps>

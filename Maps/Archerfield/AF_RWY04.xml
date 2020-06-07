@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="AF_RWY04" Priority="1" Centre="-27.570278+153.008056">
+    <!--YBAF-->
+    <Runway Name="04L/22R">
+      <Threshold Name="04L" Position="-27.570981+153.001861" ExtendedCentrelineTrack="231.59" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="22R" Position="-27.565625+153.009442" />
+    </Runway>
+    <Runway Name="04R/22L">
+      <Threshold Name="04R" Position="-27.571689+153.004367" ExtendedCentrelineTrack="231.56" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="22L" Position="-27.565517+153.013094" />
+    </Runway>
+    <!--SIDs-->
+    <!--STARs-->
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowStar" />
+  </Map>
+  <Map Type="System" Name="AF_RWY04_NAMES" Priority="2" Centre="-27.570278+153.008056">
+    <Label />
+  </Map>
+</Maps>

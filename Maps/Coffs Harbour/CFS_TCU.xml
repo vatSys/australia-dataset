@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="CFS_TCU" Priority="1" Centre="-30.320556+153.116389">
+    <!--Routes-->
+    <Line>
+      <!--J70-->
+      BANDA/
+      JOKER/
+      COOPA/
+      INOKE/
+      CORKY
+    </Line>
+    <Line>
+      <!--V140-->
+      TOOKI/
+      WLM NDB/
+      LATUT
+    </Line>
+    <Line>
+      <!--W330-->
+      TW VOR/
+      LOSKU
+    </Line>
+    <Line>
+      <!--W603-->
+      UGPOT/
+      WONKA/
+      WLM NDB/
+      VONNI
+    </Line>
+    <Line>
+      <!--W812-->
+      POSUM/
+      BILBY
+    </Line>
+    <Line>
+      <!--W954-->
+      GALON/
+      POSUM
+    </Line>
+  </Map>
+  <Map Type="System2" Name="CFS_VFR" Priority="1" Centre="-30.320556+153.116389">
+    <Symbol Type="HollowSquare">
+      <Point>BLR</Point>
+      <Point>BLIG</Point>
+      <Point>BOV</Point>
+      <Point>BDH</Point>
+      <Point>DRO</Point>
+      <Point>GRE</Point>
+      <Point>MKV</Point>
+      <Point>MTBA</Point>
+      <Point>MOB</Point>
+      <Point>NHS</Point>
+      <Point>PIL</Point>
+      <Point>RER</Point>
+      <Point>SWTE</Point>
+      <Point>SOI</Point>
+      <Point>TUK</Point>
+      <Point>URU</Point>
+      <Point>WGG</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>BLR</Point>
+      <Point>BLIG</Point>
+      <Point>BOV</Point>
+      <Point>BDH</Point>
+      <Point>DRO</Point>
+      <Point>GRE</Point>
+      <Point>MKV</Point>
+      <Point>MTBA</Point>
+      <Point>MOB</Point>
+      <Point>NHS</Point>
+      <Point>PIL</Point>
+      <Point>RER</Point>
+      <Point>SWTE</Point>
+      <Point>SOI</Point>
+      <Point>TUK</Point>
+      <Point>URU</Point>
+      <Point>WGG</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YCFS_ALLRWYS" Priority="2" Centre="-30.320556+153.116389">
+    <Runway Name="03/21">
+      <Threshold Name="03" Position="-30.338375+153.106547" ExtendedCentrelineTrack="220.71" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="21" Position="-30.324153+153.120656" ExtendedCentrelineTrack="40.72" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <Runway Name="10/28">
+      <Threshold Name="10" Position="-30.31645+153.114094" ExtendedCentrelineTrack="287.08" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="28" Position="-30.318708+153.122564" ExtendedCentrelineTrack="107.09" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>

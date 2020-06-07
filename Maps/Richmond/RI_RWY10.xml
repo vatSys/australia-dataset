@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="RI_RWY10" Priority="1" Centre="-33.600556+150.780833">
+    <!--YSRI-->
+    <Runway Name="10/28">
+      <Threshold Name="10" Position="-33.601614+150.771247" ExtendedCentrelineTrack="287.10" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="28" Position="-33.607272+150.793219" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy10 RIC3-->
+      -33.607272+150.793219/
+      -33.607358+150.793664/
+      -33.620491+150.845011
+    </Line>
+    <!--STARs-->
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowStar" />
+  </Map>
+  <Map Type="System" Name="RI_RWY10_NAMES" Priority="2" Centre="-33.600556+150.780833">
+    <Label />
+  </Map>
+</Maps>

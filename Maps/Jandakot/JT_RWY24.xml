@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="JT_RWY24" Priority="1" Centre="-32.0975+115.881111">
+    <!--YPJT-->
+    <Runway Name="06R/24L">
+      <Threshold Name="06R" Position="-32.100864+115.876914" />
+      <Threshold Name="24L" Position="-32.094831+115.886825" ExtendedCentrelineTrack="54.43" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <Runway Name="06L/24R">
+      <Threshold Name="06L" Position="-32.099961+115.874572" />
+      <Threshold Name="24R" Position="-32.094047+115.884292" ExtendedCentrelineTrack="54.45" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy24R MANTL1-->
+      -32.099961+115.874572/
+      -32.100487+115.873457/
+      -32.1151+115.8495/
+      -32.11528+115.8433/
+      -32.11285+115.8379/
+      -32.10846+115.8347/
+      -32.10329+115.8345/
+      MANTL
+    </Line>
+    <Line>
+      <!--Rwy24R SCARP4-->
+      -32.100487+115.873457/
+      -32.11607+115.8503/
+      -32.121+115.8484/
+      -32.12606+115.8497/
+      -32.12991+115.8538/
+      -32.13151+115.8596/
+      -32.11839+115.9323/
+      SCARP
+    </Line>
+    <Line>
+      <!--Rwy24R TONEG2-->
+      -32.100487+115.873457/
+      -32.11353+115.8531/
+      -32.12547+115.8454/
+      TONEG
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy24L JT2G.BEVLY-->
+      BEVLY/
+      KYEMA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy24L JT2G.GRENE-->
+      GRENE/
+      BOOKA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy24L JT2G.WOORA-->
+      WOORA/
+      HERNE/
+      GUNGN/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy24L JT2G-->
+      GOSNL/
+      PH
+    </Line>
+    <Line>
+      <!--Rwy24L JT2R.BEVLY-->
+      BEVLY/
+      BOOKA/
+      PONYS/
+      DELAK/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy24L JT2R.GRENE-->
+      GRENE/
+      DORIS/
+      RONAN/
+      UNDOW/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy24L JT2R-->
+      ROLOB/
+      PH
+    </Line>
+    <Line>
+      <!--Rwy24L JT2W.HAMTN-->
+      HAMTN/
+      DAYLR/
+      WUNGO
+    </Line>
+    <Line>
+      <!--Rwy24L JT2W-->
+      WUNGO/
+      HARMN/
+      PH
+    </Line>
+    <Line>
+      <!--Rwy24R JT2G.BEVLY-->
+      
+    </Line>
+    <Line>
+      <!--Rwy24R JT2G.GRENE-->
+      
+    </Line>
+    <Line>
+      <!--Rwy24R JT2G.WOORA-->
+      
+    </Line>
+    <Line>
+      <!--Rwy24R JT2G-->
+      
+    </Line>
+    <Line>
+      <!--Rwy24R JT2R.BEVLY-->
+      
+    </Line>
+    <Line>
+      <!--Rwy24R JT2R.GRENE-->
+      
+    </Line>
+    <Line>
+      <!--Rwy24R JT2R-->
+      
+    </Line>
+    <Line>
+      <!--Rwy24R JT2W.HAMTN-->
+      
+    </Line>
+    <Line>
+      <!--Rwy24R JT2W-->
+      
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>PH</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>MANTL</Point>
+      <Point>SCARP</Point>
+      <Point>TONEG</Point>
+      <Point>BEVLY</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>GRENE</Point>
+      <Point>BOOKA</Point>
+      <Point>WOORA</Point>
+      <Point>HERNE</Point>
+      <Point>GUNGN</Point>
+      <Point>PONYS</Point>
+      <Point>DELAK</Point>
+      <Point>ROLOB</Point>
+      <Point>DORIS</Point>
+      <Point>RONAN</Point>
+      <Point>UNDOW</Point>
+      <Point>HAMTN</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="JT_RWY24_NAMES" Priority="2" Centre="-32.0975+115.881111">
+    <Label>
+      <Point>MANTL</Point>
+      <Point>SCARP</Point>
+      <Point>TONEG</Point>
+      <Point>BEVLY</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>GRENE</Point>
+      <Point>BOOKA</Point>
+      <Point>WOORA</Point>
+      <Point>HERNE</Point>
+      <Point>GUNGN</Point>
+      <Point>PH</Point>
+      <Point>PONYS</Point>
+      <Point>DELAK</Point>
+      <Point>ROLOB</Point>
+      <Point>DORIS</Point>
+      <Point>RONAN</Point>
+      <Point>UNDOW</Point>
+      <Point>HAMTN</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+    </Label>
+  </Map>
+</Maps>

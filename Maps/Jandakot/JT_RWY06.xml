@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="JT_RWY06" Priority="1" Centre="-32.0975+115.881111">
+    <!--YPJT-->
+    <Runway Name="06L/24R">
+      <Threshold Name="06L" Position="-32.099961+115.874572" ExtendedCentrelineTrack="234.44" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="24R" Position="-32.094047+115.884292" />
+    </Runway>
+    <Runway Name="06R/24L">
+      <Threshold Name="06R" Position="-32.100864+115.876914" ExtendedCentrelineTrack="234.43" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="24L" Position="-32.094831+115.886825" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy06L MANTL1-->
+      -32.094047+115.884292/
+      -32.093106+115.885808/
+      -32.07753+115.909/
+      -32.0726+115.9109/
+      -32.06754+115.9096/
+      -32.06369+115.9055/
+      -32.06209+115.8997/
+      -32.06317+115.8937/
+      MANTL
+    </Line>
+    <Line>
+      <!--Rwy06L SCARP4-->
+      -32.093106+115.885808/
+      -32.08151+115.9051/
+      -32.08133+115.9113/
+      -32.08376+115.9166/
+      -32.08815+115.9199/
+      SCARP
+    </Line>
+    <Line>
+      <!--Rwy06L TONEG2-->
+      -32.06317+115.8937/
+      TONEG
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy06L JT2G.BEVLY-->
+      BEVLY/
+      KYEMA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy06L JT2G.GRENE-->
+      GRENE/
+      BOOKA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy06L JT2G.WOORA-->
+      WOORA/
+      HERNE/
+      GUNGN/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy06L JT2G-->
+      GOSNL/
+      PH
+    </Line>
+    <Line>
+      <!--Rwy06L JT2R.BEVLY-->
+      BEVLY/
+      BOOKA/
+      PONYS/
+      DELAK/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy06L JT2R.GRENE-->
+      GRENE/
+      DORIS/
+      RONAN/
+      UNDOW/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy06L JT2R-->
+      ROLOB/
+      PH
+    </Line>
+    <Line>
+      <!--Rwy06L JT2W.HAMTN-->
+      HAMTN/
+      DAYLR/
+      WUNGO
+    </Line>
+    <Line>
+      <!--Rwy06L JT2W-->
+      WUNGO/
+      HARMN/
+      PH
+    </Line>
+    <Line>
+      <!--Rwy06R JT2G.BEVLY-->
+      
+    </Line>
+    <Line>
+      <!--Rwy06R JT2G.GRENE-->
+      
+    </Line>
+    <Line>
+      <!--Rwy06R JT2G.WOORA-->
+      
+    </Line>
+    <Line>
+      <!--Rwy06R JT2G-->
+      
+    </Line>
+    <Line>
+      <!--Rwy06R JT2R.BEVLY-->
+      
+    </Line>
+    <Line>
+      <!--Rwy06R JT2R.GRENE-->
+      
+    </Line>
+    <Line>
+      <!--Rwy06R JT2R-->
+      
+    </Line>
+    <Line>
+      <!--Rwy06R JT2W.HAMTN-->
+      
+    </Line>
+    <Line>
+      <!--Rwy06R JT2W-->
+      
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>PH</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>MANTL</Point>
+      <Point>SCARP</Point>
+      <Point>TONEG</Point>
+      <Point>BEVLY</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>GRENE</Point>
+      <Point>BOOKA</Point>
+      <Point>WOORA</Point>
+      <Point>HERNE</Point>
+      <Point>GUNGN</Point>
+      <Point>PONYS</Point>
+      <Point>DELAK</Point>
+      <Point>ROLOB</Point>
+      <Point>DORIS</Point>
+      <Point>RONAN</Point>
+      <Point>UNDOW</Point>
+      <Point>HAMTN</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="JT_RWY06_NAMES" Priority="2" Centre="-32.0975+115.881111">
+    <Label>
+      <Point>MANTL</Point>
+      <Point>SCARP</Point>
+      <Point>TONEG</Point>
+      <Point>BEVLY</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>GRENE</Point>
+      <Point>BOOKA</Point>
+      <Point>WOORA</Point>
+      <Point>HERNE</Point>
+      <Point>GUNGN</Point>
+      <Point>PH</Point>
+      <Point>PONYS</Point>
+      <Point>DELAK</Point>
+      <Point>ROLOB</Point>
+      <Point>DORIS</Point>
+      <Point>RONAN</Point>
+      <Point>UNDOW</Point>
+      <Point>HAMTN</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+    </Label>
+  </Map>
+</Maps>

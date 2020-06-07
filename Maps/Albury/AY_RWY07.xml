@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="AY_RWY07" Priority="1" Centre="-36.067778+146.958056">
+    <!--YMAY-->
+    <Runway Name="07/25">
+      <Threshold Name="07" Position="-36.068075+146.948892" ExtendedCentrelineTrack="261.18" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="25" Position="-36.06545+146.969742" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy07 DUGGI1-->
+      -36.06545+146.969742/
+      ANUGO/
+      RUMES/
+      DUGGI
+    </Line>
+    <Line>
+      <!--Rwy07 UGVER1-->
+      ANUGO/
+      OLTAN/
+      UGVER
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy07 ARRAN1-->
+      ARRAN/
+      OLRUT/
+      POKIT/
+      RURLA
+    </Line>
+    <Line>
+      <!--Rwy07 VEGRU1-->
+      VEGRU/
+      UPDUR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>RURLA</Point>
+      <Point>UPDUR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ANUGO</Point>
+      <Point>RUMES</Point>
+      <Point>DUGGI</Point>
+      <Point>OLTAN</Point>
+      <Point>UGVER</Point>
+      <Point>ARRAN</Point>
+      <Point>OLRUT</Point>
+      <Point>POKIT</Point>
+      <Point>VEGRU</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="AY_RWY07_NAMES" Priority="2" Centre="-36.067778+146.958056">
+    <Label>
+      <Point>ANUGO</Point>
+      <Point>RUMES</Point>
+      <Point>DUGGI</Point>
+      <Point>OLTAN</Point>
+      <Point>UGVER</Point>
+      <Point>ARRAN</Point>
+      <Point>OLRUT</Point>
+      <Point>POKIT</Point>
+      <Point>RURLA</Point>
+      <Point>VEGRU</Point>
+      <Point>UPDUR</Point>
+      <Point>CB VOR</Point>
+      <Point>TEMIS</Point>
+      <Point>COPPA</Point>
+      <Point>WOLBI</Point>
+      <Point>IGDEL</Point>
+      <Point>SHT NDB</Point>
+      <Point>CANTY</Point>
+      <Point>MNG VOR</Point>
+      <Point>LUTVU</Point>
+      <Point>PKS VOR</Point>
+      <Point>WG VOR</Point>
+      <Point>MUSOP</Point>
+      <Point>AVBEG</Point>
+      <Point>KEDDY</Point>
+      <Point>AKMIR</Point>
+    </Label>
+  </Map>
+</Maps>

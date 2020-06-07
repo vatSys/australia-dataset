@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="CG_RWY14" Priority="1" Centre="-28.164444+153.504722">
+    <!--YBCG-->
+    <Runway Name="14/32">
+      <Threshold Name="14" Position="-28.156511+153.500706" ExtendedCentrelineTrack="330.59" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="32" Position="-28.172569+153.510919" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy14 APAGI4-->
+      -28.172569+153.510919/
+      SMALL/
+      CUDGN/
+      APAGI
+    </Line>
+    <Line>
+      <!--Rwy14 CUDGN3-->
+      -28.172569+153.510919/
+      -28.194364+153.525133/
+      SMALL/
+      -28.205766+153.531503/
+      -28.214181+153.535119/
+      -28.237859+153.544164/
+      CUDGN/
+      -28.250131+153.546753/
+      -28.261417+153.545884/
+      -28.272121+153.541729/
+      -28.281512+153.534568/
+      -28.288895+153.524925/
+      APAGI
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy14 BERN1A-->
+      BERNI/
+      ELDUX/
+      VANSU/
+      ROONY/
+      FIKUL/
+      CHOOK/
+      AGTEK/
+      KEGAN
+    </Line>
+    <Line>
+      <!--Rwy14 BERN1V-->
+      CHOOK/
+      KERRI/
+      SAILA/
+      NIKKI
+    </Line>
+    <Line>
+      <!--Rwy14 BERN1Y-->
+      
+    </Line>
+    <Line>
+      <!--Rwy14 LAMS1A-->
+      LAMSI/
+      PATSU/
+      TELOG/
+      LOTMA/
+      KEGAN
+    </Line>
+    <Line>
+      <!--Rwy14 LAMS1Y-->
+      LAMSI/
+      MIMUD/
+      KAKVI/
+      ENRIM/
+      KERRI
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>KEGAN</Point>
+      <Point>NIKKI</Point>
+      <Point>KERRI</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>SMALL</Point>
+      <Point>CUDGN</Point>
+      <Point>APAGI</Point>
+      <Point>BERNI</Point>
+      <Point>ELDUX</Point>
+      <Point>VANSU</Point>
+      <Point>ROONY</Point>
+      <Point>FIKUL</Point>
+      <Point>CHOOK</Point>
+      <Point>AGTEK</Point>
+      <Point>SAILA</Point>
+      <Point>LAMSI</Point>
+      <Point>PATSU</Point>
+      <Point>TELOG</Point>
+      <Point>LOTMA</Point>
+      <Point>MIMUD</Point>
+      <Point>KAKVI</Point>
+      <Point>ENRIM</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="CG_RWY14_NAMES" Priority="2" Centre="-28.164444+153.504722">
+    <Label>
+      <Point>SMALL</Point>
+      <Point>CUDGN</Point>
+      <Point>APAGI</Point>
+      <Point>BERNI</Point>
+      <Point>ELDUX</Point>
+      <Point>VANSU</Point>
+      <Point>ROONY</Point>
+      <Point>FIKUL</Point>
+      <Point>CHOOK</Point>
+      <Point>AGTEK</Point>
+      <Point>KEGAN</Point>
+      <Point>KERRI</Point>
+      <Point>SAILA</Point>
+      <Point>NIKKI</Point>
+      <Point>LAMSI</Point>
+      <Point>PATSU</Point>
+      <Point>TELOG</Point>
+      <Point>LOTMA</Point>
+      <Point>MIMUD</Point>
+      <Point>KAKVI</Point>
+      <Point>ENRIM</Point>
+      <Point>SCOTT</Point>
+      <Point>KATEB</Point>
+      <Point>ITIDE</Point>
+      <Point>GUDSO</Point>
+      <Point>ISKIM</Point>
+      <Point>MAKRU</Point>
+      <Point>BICKL</Point>
+      <Point>SU VOR</Point>
+      <Point>ALDAR</Point>
+      <Point>ARM NDB</Point>
+      <Point>GAMBL</Point>
+      <Point>CFS VOR</Point>
+      <Point>BANDA</Point>
+      <Point>EAGLE</Point>
+      <Point>LAMUG</Point>
+      <Point>SMOKA</Point>
+      <Point>DAYBO</Point>
+      <Point>BN VOR</Point>
+      <Point>DUNNI</Point>
+      <Point>ESTER</Point>
+    </Label>
+  </Map>
+</Maps>

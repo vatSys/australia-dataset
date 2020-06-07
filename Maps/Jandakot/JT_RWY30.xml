@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="JT_RWY30" Priority="1" Centre="-32.0975+115.881111">
+    <!--YPJT-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-32.099961+115.872475" />
+      <Threshold Name="30" Position="-32.105586+115.887019" ExtendedCentrelineTrack="114.44" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy30 MANTL1-->
+      -32.099961+115.872475/
+      -32.099936+115.872466/
+      -32.09147+115.849/
+      -32.07948+115.8459/
+      MANTL
+    </Line>
+    <Line>
+      <!--Rwy30 SCARP4-->
+      -32.099936+115.872466/
+      -32.09069+115.845/
+      -32.09177+115.839/
+      -32.09523+115.8345/
+      -32.10016+115.8326/
+      -32.10522+115.8339/
+      -32.10907+115.838/
+      SCARP
+    </Line>
+    <Line>
+      <!--Rwy30 TONEG2-->
+      -32.10016+115.8326/
+      -32.12547+115.8454/
+      TONEG
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy30 JT2G.BEVLY-->
+      BEVLY/
+      KYEMA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy30 JT2G.GRENE-->
+      GRENE/
+      BOOKA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy30 JT2G.WOORA-->
+      WOORA/
+      HERNE/
+      GUNGN/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy30 JT2G-->
+      GOSNL/
+      PH
+    </Line>
+    <Line>
+      <!--Rwy30 JT2R.BEVLY-->
+      BEVLY/
+      BOOKA/
+      PONYS/
+      DELAK/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy30 JT2R.GRENE-->
+      GRENE/
+      DORIS/
+      RONAN/
+      UNDOW/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy30 JT2R-->
+      ROLOB/
+      PH
+    </Line>
+    <Line>
+      <!--Rwy30 JT2W.HAMTN-->
+      HAMTN/
+      DAYLR/
+      WUNGO
+    </Line>
+    <Line>
+      <!--Rwy30 JT2W-->
+      WUNGO/
+      HARMN/
+      PH
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>PH</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>MANTL</Point>
+      <Point>SCARP</Point>
+      <Point>TONEG</Point>
+      <Point>BEVLY</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>GRENE</Point>
+      <Point>BOOKA</Point>
+      <Point>WOORA</Point>
+      <Point>HERNE</Point>
+      <Point>GUNGN</Point>
+      <Point>PONYS</Point>
+      <Point>DELAK</Point>
+      <Point>ROLOB</Point>
+      <Point>DORIS</Point>
+      <Point>RONAN</Point>
+      <Point>UNDOW</Point>
+      <Point>HAMTN</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="JT_RWY30_NAMES" Priority="2" Centre="-32.0975+115.881111">
+    <Label>
+      <Point>MANTL</Point>
+      <Point>SCARP</Point>
+      <Point>TONEG</Point>
+      <Point>BEVLY</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>GRENE</Point>
+      <Point>BOOKA</Point>
+      <Point>WOORA</Point>
+      <Point>HERNE</Point>
+      <Point>GUNGN</Point>
+      <Point>PH</Point>
+      <Point>PONYS</Point>
+      <Point>DELAK</Point>
+      <Point>ROLOB</Point>
+      <Point>DORIS</Point>
+      <Point>RONAN</Point>
+      <Point>UNDOW</Point>
+      <Point>HAMTN</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+    </Label>
+  </Map>
+</Maps>

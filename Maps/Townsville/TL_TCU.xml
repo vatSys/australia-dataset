@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="TL_TCU" Priority="1" Centre="-19.2525+146.765278">
+    <!--Routes-->
+    <Line>
+      <!--J184-->
+      ALBEE/
+      WISKA
+    </Line>
+    <Line>
+      <!--Q30-->
+      ANRUB/
+      BOXER
+    </Line>
+    <Line>
+      <!--R346-->
+      EKOKU/
+      SWALO/
+      SWIFT
+    </Line>
+    <Line>
+      <!--W258-->
+      JEMMA/
+      LINSU
+    </Line>
+    <Line>
+      <!--W469-->
+      MARON/
+      FORMA/
+      DOBGO/
+      HUG NDB
+    </Line>
+    <Line>
+      <!--W613-->
+      NIPOM/
+      CHARD
+    </Line>
+    <Line>
+      <!--W660-->
+      BOWLY/
+      FOYLE
+    </Line>
+    <Line>
+      <!--W841-->
+      DOTTE/
+      ISMUN
+    </Line>
+    <Line>
+      <!--ZZ929-->
+      ITORT/
+      EYSAW
+    </Line>
+  </Map>
+  <Map Type="System2" Name="TL_VFR" Priority="1" Centre="-19.2525+146.765278">
+    <Symbol Type="HollowSquare">
+      <Point>ANI</Point>
+      <Point>ANP</Point>
+      <Point>CCL</Point>
+      <Point>CEN</Point>
+      <Point>DOP</Point>
+      <Point>GIRU</Point>
+      <Point>HVI</Point>
+      <Point>KSPT</Point>
+      <Point>LNDA</Point>
+      <Point>MBC</Point>
+      <Point>MTBL</Point>
+      <Point>MBKR</Point>
+      <Point>MBHR</Point>
+      <Point>MMT</Point>
+      <Point>MUEE</Point>
+      <Point>MRTL</Point>
+      <Point>NOME</Point>
+      <Point>ORKS</Point>
+      <Point>PLU</Point>
+      <Point>PCA</Point>
+      <Point>RDRS</Point>
+      <Point>RKI</Point>
+      <Point>RGS</Point>
+      <Point>RRDM</Point>
+      <Point>RMT</Point>
+      <Point>SPN</Point>
+      <Point>SUA</Point>
+      <Point>SUNZ</Point>
+      <Point>TCNR</Point>
+      <Point>TNP</Point>
+      <Point>TOOU</Point>
+      <Point>WEP</Point>
+      <Point>WTRK</Point>
+      <Point>YBU</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ANI</Point>
+      <Point>ANP</Point>
+      <Point>CCL</Point>
+      <Point>CEN</Point>
+      <Point>DOP</Point>
+      <Point>GIRU</Point>
+      <Point>HVI</Point>
+      <Point>KSPT</Point>
+      <Point>LNDA</Point>
+      <Point>MBC</Point>
+      <Point>MTBL</Point>
+      <Point>MBKR</Point>
+      <Point>MBHR</Point>
+      <Point>MMT</Point>
+      <Point>MUEE</Point>
+      <Point>MRTL</Point>
+      <Point>NOME</Point>
+      <Point>ORKS</Point>
+      <Point>PLU</Point>
+      <Point>PCA</Point>
+      <Point>RDRS</Point>
+      <Point>RKI</Point>
+      <Point>RGS</Point>
+      <Point>RRDM</Point>
+      <Point>RMT</Point>
+      <Point>SPN</Point>
+      <Point>SUA</Point>
+      <Point>SUNZ</Point>
+      <Point>TCNR</Point>
+      <Point>TNP</Point>
+      <Point>TOOU</Point>
+      <Point>WEP</Point>
+      <Point>WTRK</Point>
+      <Point>YBU</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YBTL_ALLRWYS" Priority="2" Centre="-19.2525+146.765278">
+    <Runway Name="01/19">
+      <Threshold Name="01" Position="-19.258306+146.764722" ExtendedCentrelineTrack="204.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="19" Position="-19.238203+146.774217" ExtendedCentrelineTrack="24.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <Runway Name="07/25">
+      <Threshold Name="07" Position="-19.255808+146.755544" ExtendedCentrelineTrack="253.97" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="25" Position="-19.253072+146.765575" ExtendedCentrelineTrack="73.98" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>

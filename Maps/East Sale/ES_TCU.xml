@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="ES_TCU" Priority="1" Centre="-38.098889+147.149444">
+    <!--Routes-->
+  </Map>
+  <Map Type="System2" Name="ES_VFR" Priority="1" Centre="-38.098889+147.149444">
+    <Symbol Type="HollowSquare">
+      <Point>COWR</Point>
+      <Point>DARL</Point>
+      <Point>FYN</Point>
+      <Point>LKEE</Point>
+      <Point>LOWS</Point>
+      <Point>LSR</Point>
+      <Point>MGBH</Point>
+      <Point>MTWN</Point>
+      <Point>WELS</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>COWR</Point>
+      <Point>DARL</Point>
+      <Point>FYN</Point>
+      <Point>LKEE</Point>
+      <Point>LOWS</Point>
+      <Point>LSR</Point>
+      <Point>MGBH</Point>
+      <Point>MTWN</Point>
+      <Point>WELS</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YMES_ALLRWYS" Priority="2" Centre="-38.098889+147.149444">
+    <Runway Name="04/22">
+      <Threshold Name="04" Position="-38.10605+147.138561" ExtendedCentrelineTrack="233.86" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="22" Position="-38.093103+147.161006" ExtendedCentrelineTrack="53.88" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <Runway Name="09/27">
+      <Threshold Name="09" Position="-38.095681+147.1283" ExtendedCentrelineTrack="278.89" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="27" Position="-38.098789+147.153425" ExtendedCentrelineTrack="98.91" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>

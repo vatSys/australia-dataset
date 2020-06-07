@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="NW_TCU" Priority="1" Centre="-34.948889+150.536944">
+    <!--Routes-->
+  </Map>
+  <Map Type="System2" Name="NW_VFR" Priority="1" Centre="-34.948889+150.536944">
+    <Symbol Type="HollowSquare">
+      <Point>APPN</Point>
+      <Point>BATB</Point>
+      <Point>BWL</Point>
+      <Point>CONG</Point>
+      <Point>FSHR</Point>
+      <Point>KMA</Point>
+      <Point>LBT</Point>
+      <Point>MSV</Point>
+      <Point>PIC</Point>
+      <Point>SECF</Point>
+      <Point>SLL</Point>
+      <Point>TAGO</Point>
+      <Point>UDA</Point>
+      <Point>WDN</Point>
+      <Point>WOI</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>APPN</Point>
+      <Point>BATB</Point>
+      <Point>BWL</Point>
+      <Point>CONG</Point>
+      <Point>FSHR</Point>
+      <Point>KMA</Point>
+      <Point>LBT</Point>
+      <Point>MSV</Point>
+      <Point>PIC</Point>
+      <Point>SECF</Point>
+      <Point>SLL</Point>
+      <Point>TAGO</Point>
+      <Point>UDA</Point>
+      <Point>WDN</Point>
+      <Point>WOI</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YSNW_ALLRWYS" Priority="2" Centre="-34.948889+150.536944">
+    <Runway Name="03/21">
+      <Threshold Name="03" Position="-34.948853+150.536458" ExtendedCentrelineTrack="224.38" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="21" Position="-34.935672+150.552125" ExtendedCentrelineTrack="44.39" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-34.947881+150.526592" ExtendedCentrelineTrack="274.37" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="26" Position="-34.949322+150.549453" ExtendedCentrelineTrack="94.39" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>

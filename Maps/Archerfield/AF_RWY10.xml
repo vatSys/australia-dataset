@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="AF_RWY10" Priority="1" Centre="-27.570278+153.008056">
+    <!--YBAF-->
+    <Runway Name="10L/28R">
+      <Threshold Name="10L" Position="-27.570394+152.997217" ExtendedCentrelineTrack="287.73" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="28R" Position="-27.5743+153.010919" />
+    </Runway>
+    <Runway Name="10R/28L">
+      <Threshold Name="10R" Position="-27.572197+152.998061" ExtendedCentrelineTrack="287.75" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="28L" Position="-27.575225+153.008675" />
+    </Runway>
+    <!--SIDs-->
+    <!--STARs-->
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowStar" />
+  </Map>
+  <Map Type="System" Name="AF_RWY10_NAMES" Priority="2" Centre="-27.570278+153.008056">
+    <Label />
+  </Map>
+</Maps>

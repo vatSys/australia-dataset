@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="AS_TCU" Priority="1" Centre="-23.808333+133.900833">
+    <!--Routes-->
+    <Line>
+      <!--UY93-->
+      HERMA/
+      LISZT
+    </Line>
+    <Line>
+      <!--V112-->
+      ANGAS/
+      AYE NDB
+    </Line>
+    <Line>
+      <!--W177-->
+      CINDA/
+      DERAK
+    </Line>
+    <Line>
+      <!--Y69-->
+      WINAL/
+      HERMA
+    </Line>
+  </Map>
+  <Map Type="System2" Name="AS_VFR" Priority="1" Centre="-23.808333+133.900833">
+    <Symbol Type="HollowSquare">
+      <Point>KNO</Point>
+      <Point>BSP</Point>
+      <Point>DPW</Point>
+      <Point>EMY</Point>
+      <Point>EWI</Point>
+      <Point>GWTR</Point>
+      <Point>HGR</Point>
+      <Point>JCK</Point>
+      <Point>JES</Point>
+      <Point>LWG</Point>
+      <Point>MBST</Point>
+      <Point>OOR</Point>
+      <Point>MUO</Point>
+      <Point>OWS</Point>
+      <Point>STT</Point>
+      <Point>SSG</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>KNO</Point>
+      <Point>BSP</Point>
+      <Point>DPW</Point>
+      <Point>EMY</Point>
+      <Point>EWI</Point>
+      <Point>GWTR</Point>
+      <Point>HGR</Point>
+      <Point>JCK</Point>
+      <Point>JES</Point>
+      <Point>LWG</Point>
+      <Point>MBST</Point>
+      <Point>OOR</Point>
+      <Point>MUO</Point>
+      <Point>OWS</Point>
+      <Point>STT</Point>
+      <Point>SSG</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YBAS_ALLRWYS" Priority="2" Centre="-23.808333+133.900833">
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-23.801031+133.893361" ExtendedCentrelineTrack="300.25" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="30" Position="-23.812119+133.914028" ExtendedCentrelineTrack="120.25" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <Runway Name="17/35">
+      <Threshold Name="17" Position="-23.797278+133.886539" ExtendedCentrelineTrack="358.24" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="35" Position="-23.807483+133.886881" ExtendedCentrelineTrack="178.24" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>

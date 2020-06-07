@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="TL_RWY01" Priority="1" Centre="-19.2525+146.765278">
+    <!--YBTL-->
+    <Runway Name="01/19">
+      <Threshold Name="01" Position="-19.258306+146.764722" ExtendedCentrelineTrack="204.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="19" Position="-19.238203+146.774217" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy01 ANRUB1-->
+      -19.238203+146.774217/
+      AGSIR/
+      AVMAT/
+      LEDOG/
+      VEBTO/
+      SATCO/
+      ANRUB
+    </Line>
+    <Line>
+      <!--Rwy01 CARMN1-->
+      AVMAT/
+      BILER/
+      DONLO/
+      CARMN
+    </Line>
+    <Line>
+      <!--Rwy01 CATEY1-->
+      VEBTO/
+      ENSOM/
+      CATEY
+    </Line>
+    <Line>
+      <!--Rwy01 JEMMA2-->
+      -19.238203+146.774217/
+      TUVNO/
+      MAGGY/
+      VILUN/
+      GUMUT/
+      SUKBU/
+      JEMMA
+    </Line>
+    <Line>
+      <!--Rwy01 PEWEE5-->
+      -19.238203+146.774217/
+      -19.238201+146.774209/
+      -19.187657+146.793714/
+      -19.030833+146.715/
+      PEWEE
+    </Line>
+    <Line>
+      <!--Rwy01 SWIFT1-->
+      AVMAT/
+      ADNOD/
+      SWIFT
+    </Line>
+    <Line>
+      <!--Rwy01 TLE3-->
+      -19.238203+146.774217/
+      -19.190628+146.797675/
+      PCA
+    </Line>
+    <Line>
+      <!--Rwy01 TLN4-->
+      -19.190628+146.797675/
+      -19.146529+146.737782
+    </Line>
+    <Line>
+      <!--Rwy01 WALTA1-->
+      VILUN/
+      WALTA
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy01 IBUX1A-->
+      IBUXI/
+      TL/
+      AGPOK/
+      KIRAN
+    </Line>
+    <Line>
+      <!--Rwy01 PORO1A-->
+      POROB/
+      LAPES/
+      BOKES/
+      SATCO
+    </Line>
+    <Line>
+      <!--Rwy01 PORO1P-->
+      POROB/
+      POVED/
+      GUGAN
+    </Line>
+    <Line>
+      <!--Rwy01 SPAR1A-->
+      SPARO/
+      AKBUG/
+      SARGA/
+      MOSDU/
+      FREDY
+    </Line>
+    <Line>
+      <!--Rwy01 VOMP1A-->
+      VOMPA/
+      SASMO/
+      BOKES
+    </Line>
+    <Line>
+      <!--Rwy01 VOMP1P-->
+      VOMPA/
+      BEBUD/
+      GUGAN
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>KIRAN</Point>
+      <Point>SATCO</Point>
+      <Point>GUGAN</Point>
+      <Point>FREDY</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>AGSIR</Point>
+      <Point>AVMAT</Point>
+      <Point>LEDOG</Point>
+      <Point>VEBTO</Point>
+      <Point>ANRUB</Point>
+      <Point>BILER</Point>
+      <Point>DONLO</Point>
+      <Point>CARMN</Point>
+      <Point>ENSOM</Point>
+      <Point>CATEY</Point>
+      <Point>TUVNO</Point>
+      <Point>MAGGY</Point>
+      <Point>VILUN</Point>
+      <Point>GUMUT</Point>
+      <Point>SUKBU</Point>
+      <Point>JEMMA</Point>
+      <Point>PEWEE</Point>
+      <Point>ADNOD</Point>
+      <Point>SWIFT</Point>
+      <Point>PCA</Point>
+      <Point>WALTA</Point>
+      <Point>IBUXI</Point>
+      <Point>TL</Point>
+      <Point>AGPOK</Point>
+      <Point>POROB</Point>
+      <Point>LAPES</Point>
+      <Point>BOKES</Point>
+      <Point>POVED</Point>
+      <Point>SPARO</Point>
+      <Point>AKBUG</Point>
+      <Point>SARGA</Point>
+      <Point>MOSDU</Point>
+      <Point>VOMPA</Point>
+      <Point>SASMO</Point>
+      <Point>BEBUD</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="TL_RWY01_NAMES" Priority="2" Centre="-19.2525+146.765278">
+    <Label>
+      <Point>AGSIR</Point>
+      <Point>AVMAT</Point>
+      <Point>LEDOG</Point>
+      <Point>VEBTO</Point>
+      <Point>SATCO</Point>
+      <Point>ANRUB</Point>
+      <Point>BILER</Point>
+      <Point>DONLO</Point>
+      <Point>CARMN</Point>
+      <Point>ENSOM</Point>
+      <Point>CATEY</Point>
+      <Point>TUVNO</Point>
+      <Point>MAGGY</Point>
+      <Point>VILUN</Point>
+      <Point>GUMUT</Point>
+      <Point>SUKBU</Point>
+      <Point>JEMMA</Point>
+      <Point>PEWEE</Point>
+      <Point>ADNOD</Point>
+      <Point>SWIFT</Point>
+      <Point>PCA</Point>
+      <Point>WALTA</Point>
+      <Point>IBUXI</Point>
+      <Point>TL</Point>
+      <Point>AGPOK</Point>
+      <Point>KIRAN</Point>
+      <Point>POROB</Point>
+      <Point>LAPES</Point>
+      <Point>BOKES</Point>
+      <Point>POVED</Point>
+      <Point>GUGAN</Point>
+      <Point>SPARO</Point>
+      <Point>AKBUG</Point>
+      <Point>SARGA</Point>
+      <Point>MOSDU</Point>
+      <Point>FREDY</Point>
+      <Point>VOMPA</Point>
+      <Point>SASMO</Point>
+      <Point>BEBUD</Point>
+      <Point>ALBEE</Point>
+      <Point>WISKA</Point>
+      <Point>BOXER</Point>
+      <Point>EKOKU</Point>
+      <Point>SWALO</Point>
+      <Point>LINSU</Point>
+      <Point>MARON</Point>
+      <Point>FORMA</Point>
+      <Point>DOBGO</Point>
+      <Point>HUG NDB</Point>
+      <Point>NIPOM</Point>
+      <Point>CHARD</Point>
+      <Point>BOWLY</Point>
+      <Point>FOYLE</Point>
+      <Point>DOTTE</Point>
+      <Point>ISMUN</Point>
+      <Point>ITORT</Point>
+      <Point>EYSAW</Point>
+    </Label>
+  </Map>
+</Maps>

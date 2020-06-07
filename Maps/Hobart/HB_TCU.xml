@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="HB_TCU" Priority="1" Centre="-42.836111+147.510278">
+    <!--Routes-->
+  </Map>
+  <Map Type="System2" Name="HB_VFR" Priority="1" Centre="-42.836111+147.510278">
+    <Symbol Type="HollowSquare">
+      <Point>BOWB</Point>
+      <Point>BKD</Point>
+      <Point>CPA</Point>
+      <Point>COY</Point>
+      <Point>CBV</Point>
+      <Point>CREM</Point>
+      <Point>DRP</Point>
+      <Point>DLY</Point>
+      <Point>EAN</Point>
+      <Point>HCTY</Point>
+      <Point>LAUD</Point>
+      <Point>MGL</Point>
+      <Point>MRL</Point>
+      <Point>MAYD</Point>
+      <Point>MORN</Point>
+      <Point>OAT</Point>
+      <Point>PRS</Point>
+      <Point>PSF</Point>
+      <Point>RADT</Point>
+      <Point>RCH</Point>
+      <Point>SLP</Point>
+      <Point>SORL</Point>
+      <Point>TAS</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>BOWB</Point>
+      <Point>BKD</Point>
+      <Point>CPA</Point>
+      <Point>COY</Point>
+      <Point>CBV</Point>
+      <Point>CREM</Point>
+      <Point>DRP</Point>
+      <Point>DLY</Point>
+      <Point>EAN</Point>
+      <Point>HCTY</Point>
+      <Point>LAUD</Point>
+      <Point>MGL</Point>
+      <Point>MRL</Point>
+      <Point>MAYD</Point>
+      <Point>MORN</Point>
+      <Point>OAT</Point>
+      <Point>PRS</Point>
+      <Point>PSF</Point>
+      <Point>RADT</Point>
+      <Point>RCH</Point>
+      <Point>SLP</Point>
+      <Point>SORL</Point>
+      <Point>TAS</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YMHB_ALLRWYS" Priority="2" Centre="-42.836111+147.510278">
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-42.828983+147.502047" ExtendedCentrelineTrack="315.01" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="30" Position="-42.845589+147.524594" ExtendedCentrelineTrack="135.03" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>

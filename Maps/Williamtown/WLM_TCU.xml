@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="WLM_TCU" Priority="1" Centre="-32.795+151.834444">
+    <!--Routes-->
+    <Line>
+      <!--W149-->
+      GOANA/
+      NELSN
+    </Line>
+    <Line>
+      <!--W170-->
+      LOWEP/
+      MAKOR
+    </Line>
+    <Line>
+      <!--W174-->
+      TIMBO/
+      TW VOR/
+      GDH NDB/
+      NBR NDB
+    </Line>
+    <Line>
+      <!--W182-->
+      LOSKU/
+      NICLA
+    </Line>
+    <Line>
+      <!--W284-->
+      TESAT/
+      DONIC/
+      EGEVO
+    </Line>
+    <Line>
+      <!--W606-->
+      TRINA/
+      COOPA/
+      SANAD/
+      IVL NDB
+    </Line>
+    <Line>
+      <!--W674-->
+      CRAVN/
+      JAFFA/
+      ARM NDB/
+      IVL NDB
+    </Line>
+    <Line>
+      <!--W702-->
+      QDI NDB/
+      SCO NDB/
+      OLTIN/
+      MATLA
+    </Line>
+  </Map>
+  <Map Type="System2" Name="WLM_VFR" Priority="1" Centre="-32.795+151.834444">
+    <Symbol Type="HollowSquare">
+      <Point>ANA</Point>
+      <Point>BAXT</Point>
+      <Point>BRI</Point>
+      <Point>EGT</Point>
+      <Point>GCR</Point>
+      <Point>HXB</Point>
+      <Point>NBB</Point>
+      <Point>PSS</Point>
+      <Point>SRP</Point>
+      <Point>SRO</Point>
+      <Point>SUG</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ANA</Point>
+      <Point>BAXT</Point>
+      <Point>BRI</Point>
+      <Point>EGT</Point>
+      <Point>GCR</Point>
+      <Point>HXB</Point>
+      <Point>NBB</Point>
+      <Point>PSS</Point>
+      <Point>SRP</Point>
+      <Point>SRO</Point>
+      <Point>SUG</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YWLM_ALLRWYS" Priority="2" Centre="-32.795+151.834444">
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-32.788767+151.824869" ExtendedCentrelineTrack="310.30" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="30" Position="-32.804972+151.847492" ExtendedCentrelineTrack="130.31" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>

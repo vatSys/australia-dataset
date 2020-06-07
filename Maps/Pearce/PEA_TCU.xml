@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="PEA_TCU" Priority="1" Centre="-31.667778+116.015">
+    <!--YGIG-->
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-31.466489+115.853731" />
+      <Threshold Name="26" Position="-31.462219+115.872314" />
+    </Runway>
+    <!--YPJT-->
+    <Runway Name="06L/24R">
+      <Threshold Name="06L" Position="-32.099961+115.874572" />
+      <Threshold Name="24R" Position="-32.094047+115.884292" />
+    </Runway>
+    <Runway Name="06R/24L">
+      <Threshold Name="06R" Position="-32.100864+115.876914" />
+      <Threshold Name="24L" Position="-32.094831+115.886825" />
+    </Runway>
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-32.099961+115.872475" />
+      <Threshold Name="30" Position="-32.105586+115.887019" />
+    </Runway>
+    <!--YPPH-->
+    <Runway Name="03/21">
+      <Threshold Name="03" Position="-31.958739+115.959683" />
+      <Threshold Name="21" Position="-31.928594+115.968464" />
+    </Runway>
+    <Runway Name="06/24">
+      <Threshold Name="06" Position="-31.940989+115.959203" />
+      <Threshold Name="24" Position="-31.930908+115.978792" />
+    </Runway>
+    <!--Routes-->
+  </Map>
+  <Map Type="System2" Name="PEA_VFR" Priority="1" Centre="-31.667778+116.015">
+    <Symbol Type="HollowSquare">
+      <Point>ADWD</Point>
+      <Point>AKMW</Point>
+      <Point>ARE</Point>
+      <Point>BARB</Point>
+      <Point>BOAT</Point>
+      <Point>BRIC</Point>
+      <Point>BUB</Point>
+      <Point>BYFD</Point>
+      <Point>CNB</Point>
+      <Point>CDM</Point>
+      <Point>CYB</Point>
+      <Point>CTE</Point>
+      <Point>FDL</Point>
+      <Point>FFLD</Point>
+      <Point>FRE</Point>
+      <Point>FREM</Point>
+      <Point>HRR</Point>
+      <Point>HKE</Point>
+      <Point>JADL</Point>
+      <Point>MAYL</Point>
+      <Point>MTK</Point>
+      <Point>MUE</Point>
+      <Point>MUP</Point>
+      <Point>MWR</Point>
+      <Point>NORT</Point>
+      <Point>OAKF</Point>
+      <Point>OBC</Point>
+      <Point>PCTY</Point>
+      <Point>PIB</Point>
+      <Point>POWR</Point>
+      <Point>REDC</Point>
+      <Point>ROHM</Point>
+      <Point>RLY</Point>
+      <Point>SWY</Point>
+      <Point>SEL</Point>
+      <Point>TLMI</Point>
+      <Point>TOML</Point>
+      <Point>TOS</Point>
+      <Point>USW</Point>
+      <Point>VPH</Point>
+      <Point>WMP</Point>
+      <Point>WUN</Point>
+      <Point>YGB</Point>
+      <Point>ORKT</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ADWD</Point>
+      <Point>AKMW</Point>
+      <Point>ARE</Point>
+      <Point>BARB</Point>
+      <Point>BOAT</Point>
+      <Point>BRIC</Point>
+      <Point>BUB</Point>
+      <Point>BYFD</Point>
+      <Point>CNB</Point>
+      <Point>CDM</Point>
+      <Point>CYB</Point>
+      <Point>CTE</Point>
+      <Point>FDL</Point>
+      <Point>FFLD</Point>
+      <Point>FRE</Point>
+      <Point>FREM</Point>
+      <Point>HRR</Point>
+      <Point>HKE</Point>
+      <Point>JADL</Point>
+      <Point>MAYL</Point>
+      <Point>MTK</Point>
+      <Point>MUE</Point>
+      <Point>MUP</Point>
+      <Point>MWR</Point>
+      <Point>NORT</Point>
+      <Point>OAKF</Point>
+      <Point>OBC</Point>
+      <Point>PCTY</Point>
+      <Point>PIB</Point>
+      <Point>POWR</Point>
+      <Point>REDC</Point>
+      <Point>ROHM</Point>
+      <Point>RLY</Point>
+      <Point>SWY</Point>
+      <Point>SEL</Point>
+      <Point>TLMI</Point>
+      <Point>TOML</Point>
+      <Point>TOS</Point>
+      <Point>USW</Point>
+      <Point>VPH</Point>
+      <Point>WMP</Point>
+      <Point>WUN</Point>
+      <Point>YGB</Point>
+      <Point>ORKT</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YPEA_ALLRWYS" Priority="2" Centre="-31.667778+116.015">
+    <Runway Name="18L/36R">
+      <Threshold Name="18L" Position="-31.662411+116.013714" ExtendedCentrelineTrack="353.51" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="36R" Position="-31.684267+116.016622" ExtendedCentrelineTrack="173.51" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <Runway Name="18R/36L">
+      <Threshold Name="18R" Position="-31.668781+116.013333" ExtendedCentrelineTrack="353.50" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="36L" Position="-31.684389+116.015411" ExtendedCentrelineTrack="173.51" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-31.672319+116.008692" ExtendedCentrelineTrack="224.73" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="23" Position="-31.661486+116.021242" ExtendedCentrelineTrack="44.74" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>
