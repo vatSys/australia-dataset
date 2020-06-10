@@ -9,6 +9,13 @@
       PN VOR
     </Line>
   </Map>
+  <Map Type="System" Name="HM_TCU_NAMES" Priority="2" Centre="-20.358056+148.951667">
+    <Label>
+      <Point>BOWLY</Point>
+      <Point>LINSU</Point>
+      <Point>PN VOR</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="HM_VFR" Priority="1" Centre="-20.358056+148.951667">
     <Symbol Type="HollowSquare">
       <Point>BCT</Point>
@@ -67,8 +74,8 @@
   </Map>
   <Map Type="System" Name="YBHM_ALLRWYS" Priority="2" Centre="-20.358056+148.951667">
     <Runway Name="14/32">
-      <Threshold Name="14" Position="-20.351342+148.946717" ExtendedCentrelineTrack="322.88" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="32" Position="-20.363619+148.956561" ExtendedCentrelineTrack="142.89" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="14" Position="-20.351342+148.946717" ExtendedCentrelineTrack="322.88" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="32" Position="-20.363619+148.956561" ExtendedCentrelineTrack="142.89" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
     </Runway>
   </Map>
 </Maps>

@@ -3,6 +3,9 @@
   <Map Type="System" Name="OK_TCU" Priority="1" Centre="-27.411389+151.735278">
     <!--Routes-->
   </Map>
+  <Map Type="System" Name="OK_TCU_NAMES" Priority="2" Centre="-27.411389+151.735278">
+    <Label />
+  </Map>
   <Map Type="System2" Name="OK_VFR" Priority="1" Centre="-27.411389+151.735278">
     <Symbol Type="HollowSquare">
       <Point>ACLD</Point>
@@ -89,16 +92,16 @@
   </Map>
   <Map Type="System" Name="YBOK_ALLRWYS" Priority="2" Centre="-27.411389+151.735278">
     <Runway Name="09/27">
-      <Threshold Name="09" Position="-27.4091+151.724728" ExtendedCentrelineTrack="279.58" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="27" Position="-27.410736+151.735592" ExtendedCentrelineTrack="99.58" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="09" Position="-27.4091+151.724728" ExtendedCentrelineTrack="279.58" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="27" Position="-27.410736+151.735592" ExtendedCentrelineTrack="99.58" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
     </Runway>
     <Runway Name="14/32">
-      <Threshold Name="14" Position="-27.402669+151.737094" ExtendedCentrelineTrack="325.10" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="32" Position="-27.414881+151.746639" ExtendedCentrelineTrack="145.10" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="14" Position="-27.402669+151.737094" ExtendedCentrelineTrack="325.10" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="32" Position="-27.414881+151.746639" ExtendedCentrelineTrack="145.10" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
     </Runway>
     <Runway Name="05/23">
-      <Threshold Name="05" Position="-27.406086+151.730889" ExtendedCentrelineTrack="234.89" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="23" Position="-27.401339+151.738456" ExtendedCentrelineTrack="54.90" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="05" Position="-27.406086+151.730889" ExtendedCentrelineTrack="234.89" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="23" Position="-27.401339+151.738456" ExtendedCentrelineTrack="54.90" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
     </Runway>
   </Map>
 </Maps>

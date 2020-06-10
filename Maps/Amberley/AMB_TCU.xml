@@ -1,32 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="AMB_TCU" Priority="1" Centre="-27.640556+152.711944">
-    <!--YBAF-->
-    <Runway Name="10L/28R">
-      <Threshold Name="10L" Position="-27.570394+152.997217" />
-      <Threshold Name="28R" Position="-27.5743+153.010919" />
-    </Runway>
-    <Runway Name="10R/28L">
-      <Threshold Name="10R" Position="-27.572197+152.998061" />
-      <Threshold Name="28L" Position="-27.575225+153.008675" />
-    </Runway>
-    <Runway Name="04L/22R">
-      <Threshold Name="04L" Position="-27.570981+153.001861" />
-      <Threshold Name="22R" Position="-27.565625+153.009442" />
-    </Runway>
-    <Runway Name="04R/22L">
-      <Threshold Name="04R" Position="-27.571689+153.004367" />
-      <Threshold Name="22L" Position="-27.565517+153.013094" />
-    </Runway>
-    <!--YBBN-->
-    <Runway Name="01R/19L">
-      <Threshold Name="01R" Position="-27.402803+153.118217" />
-      <Threshold Name="19L" Position="-27.374672+153.134306" />
-    </Runway>
-    <Runway Name="01L/19R">
-      <Threshold Name="01L" Position="-27.383086+153.106853" />
-      <Threshold Name="19R" Position="-27.35655+153.121969" />
-    </Runway>
     <!--Routes-->
     <Line>
       <!--W256-->
@@ -66,6 +40,26 @@
       GAMBL/
       PIGGY
     </Line>
+  </Map>
+  <Map Type="System" Name="AMB_TCU_NAMES" Priority="2" Centre="-27.640556+152.711944">
+    <Label>
+      <Point>BNA NDB</Point>
+      <Point>LOSKU</Point>
+      <Point>ARM NDB</Point>
+      <Point>GERBL</Point>
+      <Point>OK VOR</Point>
+      <Point>UNVAT</Point>
+      <Point>VONDO</Point>
+      <Point>MASMI</Point>
+      <Point>BN VOR</Point>
+      <Point>VIMOL</Point>
+      <Point>DEJAY</Point>
+      <Point>MOR NDB</Point>
+      <Point>ALDAR</Point>
+      <Point>GAMBL</Point>
+      <Point>HUUGO</Point>
+      <Point>PIGGY</Point>
+    </Label>
   </Map>
   <Map Type="System2" Name="AMB_VFR" Priority="1" Centre="-27.640556+152.711944">
     <Symbol Type="HollowSquare">
@@ -261,12 +255,12 @@
   </Map>
   <Map Type="System" Name="YAMB_ALLRWYS" Priority="2" Centre="-27.640556+152.711944">
     <Runway Name="04/22">
-      <Threshold Name="04" Position="-27.644611+152.707869" ExtendedCentrelineTrack="234.32" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="22" Position="-27.636589+152.720414" ExtendedCentrelineTrack="54.32" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="04" Position="-27.644611+152.707869" ExtendedCentrelineTrack="234.32" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="22" Position="-27.636589+152.720414" ExtendedCentrelineTrack="54.32" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
     </Runway>
     <Runway Name="15/33">
-      <Threshold Name="15" Position="-27.621714+152.705267" ExtendedCentrelineTrack="338.74" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="33" Position="-27.647344+152.716464" ExtendedCentrelineTrack="158.74" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="15" Position="-27.621714+152.705267" ExtendedCentrelineTrack="338.74" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="33" Position="-27.647344+152.716464" ExtendedCentrelineTrack="158.74" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
     </Runway>
   </Map>
 </Maps>

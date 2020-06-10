@@ -37,6 +37,26 @@
       BUD NDB
     </Line>
   </Map>
+  <Map Type="System" Name="SU_TCU_NAMES" Priority="2" Centre="-26.603333+153.091111">
+    <Label>
+      <Point>GOMOL</Point>
+      <Point>MAKRU</Point>
+      <Point>ITIDE</Point>
+      <Point>MOOLO</Point>
+      <Point>MUDDL</Point>
+      <Point>SANEG</Point>
+      <Point>ISKIM</Point>
+      <Point>SURPO</Point>
+      <Point>OK VOR</Point>
+      <Point>UNVAT</Point>
+      <Point>SANDI</Point>
+      <Point>SEBVA</Point>
+      <Point>SUSGI</Point>
+      <Point>CREDY</Point>
+      <Point>HAAVI</Point>
+      <Point>BUD NDB</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="SU_VFR" Priority="1" Centre="-26.603333+153.091111">
     <Symbol Type="HollowSquare">
       <Point>AEN</Point>
@@ -153,8 +173,8 @@
   </Map>
   <Map Type="System" Name="YBSU_ALLRWYS" Priority="2" Centre="-26.603333+153.091111">
     <Runway Name="13/31">
-      <Threshold Name="13" Position="-26.583214+153.074517" ExtendedCentrelineTrack="322.5" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="31" Position="-26.600728+153.089547" ExtendedCentrelineTrack="142.5" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="13" Position="-26.583214+153.074517" ExtendedCentrelineTrack="322.5" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="31" Position="-26.600728+153.089547" ExtendedCentrelineTrack="142.5" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
     </Runway>
   </Map>
 </Maps>
