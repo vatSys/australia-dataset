@@ -2,8 +2,8 @@
 <Misc>
   <RVSMBand Lower="28000" Upper="41000" />
   <Transition Altitude="10000" />
-  <RVSMStatus Equipment="L, W, Z" />
-  <ADSBStatus Equipment="I, L, G, Z" Remark="ADSB" />
+  <RVSMStatus FAAEquipment="L, W, Z" ICAOEquipment="W" />
+  <ADSBStatus FAAEquipment="I, L, G, Z" ICAOEquipment="L, E, B1, B2" Remark="ADSB" />
   <LATCValues>15, 22, 29, 38, 45, 61, 72, 89, 115, 165</LATCValues>
   <FilterGroundTracks>YMML,YSSY,YPAD,YPPH,YBBN,YSCB,YPDN,YBCG,YBCS</FilterGroundTracks>
 </Misc>
