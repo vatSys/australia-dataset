@@ -2,13 +2,13 @@
 <Maps>
   <Map Type="System" Name="CB_RWY3530" Priority="1" Centre="-35.306944+149.195">
     <!--YSCB-->
-    <Runway Name="17/35">
-      <Threshold Name="17" Position="-35.290622+149.194447" />
-      <Threshold Name="35" Position="-35.3148+149.194447" ExtendedCentrelineTrack="180.00" ExtendedCentrelineLength="14" ExtendedCentrelineTickInterval="2" />
-    </Runway>
     <Runway Name="12/30">
       <Threshold Name="12" Position="-35.300683+149.185153" />
-      <Threshold Name="30" Position="-35.31+149.198758" ExtendedCentrelineTrack="129.88" ExtendedCentrelineLength="8" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="30" Position="-35.31+149.198758" ExtendedCentrelineTrack="129.88" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <Runway Name="17/35">
+      <Threshold Name="17" Position="-35.290622+149.194447" />
+      <Threshold Name="35" Position="-35.3148+149.194447" ExtendedCentrelineTrack="180.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -50,7 +50,6 @@
     </Line>
     <Line>
       <!--Rwy35 NONUP8-->
-      GUTMO/
       -35.10156+149.157597/
       MAJOR/
       NONUP
@@ -68,6 +67,11 @@
       WG
     </Line>
     <!--STARs-->
+    <Line>
+      <!--Rwy30 BUNG3V-->
+      BUNGO/
+      ENDOR
+    </Line>
     <Line>
       <!--Rwy35 AVBE4A-->
       AVBEG/
@@ -88,11 +92,6 @@
       <!--Rwy35 BUNG3V-->
       HIPPO/
       PILOS
-    </Line>
-    <Line>
-      <!--Rwy30 BUNG3V-->
-      BUNGO/
-      ENDOR
     </Line>
     <Line>
       <!--Rwy35 POLI7A.ARRAN-->
@@ -163,13 +162,15 @@
       BIBRU
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>ENDOR</Point>
       <Point>MENZI</Point>
       <Point>PILOS</Point>
       <Point>KALKA</Point>
       <Point>FOXLO</Point>
       <Point>BIBRU</Point>
-      <Point>ENDOR</Point>
     </Symbol>
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle" />
     <Symbol Type="HollowStar">
       <Point>OKERU</Point>
       <Point>AKMIR</Point>
@@ -186,10 +187,11 @@
       <Point>KEATS</Point>
       <Point>KELLY</Point>
       <Point>TANTA</Point>
+      <Point>WG</Point>
+      <Point>BUNGO</Point>
       <Point>LANYO</Point>
       <Point>HONEY</Point>
       <Point>DALEY</Point>
-      <Point>BUNGO</Point>
       <Point>HIPPO</Point>
       <Point>GIBIL</Point>
       <Point>ARRAN</Point>
@@ -201,12 +203,6 @@
       <Point>RAZZI</Point>
       <Point>SLICK</Point>
     </Symbol>
-    <Symbol Type="Circle">
-      <Point>WG</Point>
-    </Symbol>
-	<Symbol Type="SolidStar">
-      <Point>GUTMO</Point>
-	</Symbol>
   </Map>
   <Map Type="System" Name="CB_RWY3530_NAMES" Priority="2" Centre="-35.306944+149.195">
     <Label>
@@ -226,11 +222,12 @@
       <Point>KELLY</Point>
       <Point>TANTA</Point>
       <Point>WG</Point>
+      <Point>BUNGO</Point>
+      <Point>ENDOR</Point>
       <Point>LANYO</Point>
       <Point>HONEY</Point>
       <Point>DALEY</Point>
       <Point>MENZI</Point>
-      <Point>BUNGO</Point>
       <Point>HIPPO</Point>
       <Point>FOXLO</Point>
       <Point>GIBIL</Point>
@@ -262,9 +259,9 @@
       <Point>BTH NDB</Point>
       <Point>WG VOR</Point>
       <Point>POPLA</Point>
+      <Point>IGDEL</Point>
       <Point>PEAKE</Point>
       <Point>MER NDB</Point>
-      <Point>ENDOR</Point>
     </Label>
   </Map>
 </Maps>

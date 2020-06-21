@@ -173,8 +173,8 @@
 
 	<Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="1700">
 		<Sectors>
-			<Sector Name="TRT"/>
 			<Sector Name="KIY"/>
+			<Sector Name="TRT"/>
 			<Sector Name="STR"/>
 		</Sectors>
 		<Maps>
@@ -296,8 +296,8 @@
 
 	<Position Name="Tabletop" Type="ASD" DefaultCenter="-1850.000+14800.000" DefaultRange="1100">
 		<Sectors>
-			<Sector Name="TBP"/>
 			<Sector Name="SWY"/>
+			<Sector Name="TBP"/>
 			<Sector Name="KEN"/>
 			<Sector Name="BAR"/>
 		</Sectors>
@@ -453,7 +453,7 @@
 		</ControllerInfo>
 	</Position>
 
-	<Position Name="YPAD" Type="ASMGCS" ASMGCSAirport="YPAD" DefaultCenter="-34.947162+138.532305" DefaultRange="5" MagneticVariation="-8">
+	<Position Name="YPAD" Type="ASMGCS" ASMGCSAirport="YPAD" DefaultCenter="-34.947162+138.532305" DefaultRange="2" MagneticVariation="-8">
 		<Maps>
 			<Map Name="ASMGCS_YPAD_RWY" />
 			<Map Name="ASMGCS_YPAD_TWY" />
@@ -494,7 +494,7 @@
 		</ControllerInfo>
 	</Position>
 
-	<Position Name="YMML" Type="ASMGCS" ASMGCSAirport="YMML" DefaultCenter="-37.673+144.843" DefaultRange="5" MagneticVariation="-11"><!--Rotation="-70"-->
+	<Position Name="YMML" Type="ASMGCS" ASMGCSAirport="YMML" DefaultCenter="-37.673+144.843" DefaultRange="3" MagneticVariation="-11"><!--Rotation="-70"-->
 		<Maps>
 			<Map Name="ASMGCS_YMML_RWY" />
 			<Map Name="ASMGCS_YMML_TWY" />
@@ -538,7 +538,7 @@
 		</ControllerInfo>
 	</Position>
 
-	<Position Name="YSSY" Type="ASMGCS" ASMGCSAirport="YSSY" DefaultCenter="-33.9461+151.1772" DefaultRange="5" MagneticVariation="-13">
+	<Position Name="YSSY" Type="ASMGCS" ASMGCSAirport="YSSY" DefaultCenter="-33.9461+151.1772" DefaultRange="3" MagneticVariation="-13">
 		<!--Rotation="-70"-->
 		<Maps>
 			<Map Name="ASMGCS_YSSY_RWY" />
@@ -572,11 +572,9 @@
 			<Window Type="ADEP" Beacon="YBBN" Visible="true" />
 			<Window Type="ADEP" Beacon="YBCG" Visible="true" />
 		</Strips>
-		<!--
-		<CFL QuickLevel="28000">
-			<AdditionalLevels>1600,1800,2100,2200,2700,5200</AdditionalLevels>
+		<CFL QuickLevel="18000">
+			<AdditionalLevels>3300,4400,5100</AdditionalLevels>
 		</CFL>
-		-->
 		<ArrivalLists>
 			<Airport Name="YBBN" />
 			<Airport Name="YBCG" />
@@ -596,8 +594,15 @@
 			<Map Name="ASMGCS_YBBN_BLD" />
 		</Maps>
 	</Position>
-	
-    <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" MagneticVariation="-12">
+	<Position Name="YBCG" Type="ASMGCS" ASMGCSAirport="YBCG" DefaultCenter="-28.164444+153.504722" DefaultRange="2" MagneticVariation="-11">
+		<Maps>
+			<Map Name="ASMGCS_YBCG_RWY" />
+			<Map Name="ASMGCS_YBCG_TWY" />
+			<Map Name="ASMGCS_YBCG_BLD" />
+			<Map Name="ASMGCS_YBCG_APR" />
+		</Maps>
+	</Position>
+    <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" MagneticVariation="-12.5">
 		<Sectors>
 			<Sector Name="CAE"/>
 			<Sector Name="CAW"/>
@@ -622,9 +627,14 @@
 		<ArrivalLists>
 			<Airport Name="YSCB" />
 		</ArrivalLists>
+		<ControllerInfo>
+			<Line>Canberra Approach</Line>
+			<Line>ATIS available on 127.45</Line>
+			<Line>ATC feedback - feedback.vatpac.org</Line>
+		</ControllerInfo>
 	</Position>
 
-	<Position Name="YSCB" Type="ASMGCS" ASMGCSAirport="YSCB" DefaultCenter="-35.306090+149.193797" DefaultRange="5" MagneticVariation="-12">
+	<Position Name="YSCB" Type="ASMGCS" ASMGCSAirport="YSCB" DefaultCenter="-35.306090+149.193797" DefaultRange="3" MagneticVariation="-12">
 		<!--Rotation="-70"-->
 		<Maps>
 			<Map Name="ASMGCS_YSCB_RWY" />
@@ -633,7 +643,7 @@
 		</Maps>
 	</Position>
 
-    <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" MagneticVariation="2">
+    <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" MagneticVariation="1.6">
 		<Sectors>
 			<Sector Name="PHA"/>
 			<Sector Name="PHD"/>
@@ -641,7 +651,7 @@
 		<Maps>
 			<Map Name="ALL_CTA" />
 			<Map Name="Perth/PH_TCU" />
-			<Map Name="Perth/PH_RWY0306" />
+			<Map Name="Perth/PH_RWY03" />
 		</Maps>
 		<ATIS>
 			<Editor Airport="YPPH" Frequency="123.8" />
@@ -650,17 +660,20 @@
 		<Strips Mode="Beacon" Sort="Alpha">
 			<Window Type="ADEP" Beacon="YPPH" Visible="true" />
 		</Strips>
-		<!--
-		<CFL QuickLevel="28000">
-			<AdditionalLevels>1600,1800,2100,2200,2700,5200</AdditionalLevels>
+		<CFL QuickLevel="18000">
+			<AdditionalLevels>2800</AdditionalLevels>
 		</CFL>
-		-->
 		<ArrivalLists>
 			<Airport Name="YPPH" />
 		</ArrivalLists>
+		<ControllerInfo>
+			<Line>Perth Approach</Line>
+			<Line>ATIS available on 123.8</Line>
+			<Line>ATC feedback - feedback.vatpac.org</Line>
+		</ControllerInfo>
 	</Position>
 	
-	<Position Name="YPPH" Type="ASMGCS" ASMGCSAirport="YPPH" DefaultCenter="-31.9402+115.966944" DefaultRange="5" MagneticVariation="2">
+	<Position Name="YPPH" Type="ASMGCS" ASMGCSAirport="YPPH" DefaultCenter="-31.9402+115.966944" DefaultRange="3" MagneticVariation="1.6">
 		<!--Rotation="-70"-->
 		<Maps>
 			<Map Name="ASMGCS_YPPH_RWY" />
@@ -669,7 +682,7 @@
 		</Maps>
 	</Position>
 	
-    <Position Name="Cairns TCU" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="150" MagneticVariation="-7">
+    <Position Name="Cairns TCU" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="150" MagneticVariation="-6.7">
 		<Sectors>
 			<Sector Name="CSA"/>
 			<Sector Name="CSD"/>
@@ -694,9 +707,14 @@
 		<ArrivalLists>
 			<Airport Name="YBCS" />
 		</ArrivalLists>
+		<ControllerInfo>
+			<Line>Cairns Approach</Line>
+			<Line>ATIS available on 131.1</Line>
+			<Line>ATC feedback - feedback.vatpac.org</Line>
+		</ControllerInfo>
 	</Position>
-	
-	<Position Name="YBCS" Type="ASMGCS" ASMGCSAirport="YBCS" DefaultCenter="-16.878476+145.750094" DefaultRange="5" MagneticVariation="-7">
+		
+	<Position Name="YBCS" Type="ASMGCS" ASMGCSAirport="YBCS" DefaultCenter="-16.878476+145.750094" DefaultRange="2" MagneticVariation="-7">
 		<!--Rotation="-70"-->
 		<Maps>
 			<Map Name="ASMGCS_YBCS_RWY" />
@@ -704,8 +722,36 @@
 			<Map Name="ASMGCS_YBCS_BLD" />
 		</Maps>
 	</Position>
-
-	<Position Name="YBTL" Type="ASMGCS" ASMGCSAirport="YBTL" DefaultCenter="-19.248112+146.769076" DefaultRange="5" MagneticVariation="-7">
+	<Position Name="Townsville TCU" Type="ASD" DefaultCenter="-19.2525+146.765278" DefaultRange="150" MagneticVariation="-7">
+		<Sectors>
+			<Sector Name="TLA"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="Townsville/TL_COAST" />
+			<Map Name="Townsville/TL_TCU" />
+			<Map Name="Townsville/TL_RWY01" />
+		</Maps>
+		<ATIS>
+			<Editor Airport="YBTL" Frequency="133.5" />
+			<Window Airport="YBTL"/>
+		</ATIS>
+		<Strips Mode="Beacon" Sort="Alpha">
+			<Window Type="ADEP" Beacon="YBTL" Visible="true" />
+		</Strips>
+		<CFL QuickLevel="18000">
+			<AdditionalLevels>3600,4700,5200</AdditionalLevels>
+		</CFL>
+		<ArrivalLists>
+			<Airport Name="YBTL" />
+		</ArrivalLists>
+		<ControllerInfo>
+			<Line>Townsville Approach</Line>
+			<Line>ATIS available on 133.5</Line>
+			<Line>ATC feedback - feedback.vatpac.org</Line>
+		</ControllerInfo>
+	</Position>
+	<Position Name="YBTL" Type="ASMGCS" ASMGCSAirport="YBTL" DefaultCenter="-19.248112+146.769076" DefaultRange="2" MagneticVariation="-7">
 		<Maps>
 			<Map Name="ASMGCS_YBTL_RWY" />
 			<Map Name="ASMGCS_YBTL_TWY" />
@@ -713,8 +759,35 @@
 			<Map Name="ASMGCS_YBTL_BLD" />
 		</Maps>
 	</Position>
-	
-	<Position Name="YPDN" Type="ASMGCS" ASMGCSAirport="YPDN" DefaultCenter="-12.415119+130.879154" DefaultRange="5" MagneticVariation="-3">
+	<Position Name="Darwin TCU" Type="ASD" DefaultCenter="-12.414722+130.876667" DefaultRange="150" MagneticVariation="-3">
+		<Sectors>
+			<Sector Name="DNA"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="Darwin/DN_COAST" />
+			<Map Name="Darwin/DN_TCU" />
+			<Map Name="Darwin/DN_RWY11" />
+		</Maps>
+		<ATIS>
+			<Editor Airport="YPDN" Frequency="128.25" />
+			<Window Airport="YPDN"/>
+		</ATIS>
+		<Strips Mode="Beacon" Sort="Alpha">
+			<Window Type="ADEP" Beacon="YPDN" Visible="true" />
+		</Strips>
+		<CFL QuickLevel="18000">
+		</CFL>
+		<ArrivalLists>
+			<Airport Name="YPDN" />
+		</ArrivalLists>
+		<ControllerInfo>
+			<Line>Darwin Approach</Line>
+			<Line>ATIS available on 128.25</Line>
+			<Line>ATC feedback - feedback.vatpac.org</Line>
+		</ControllerInfo>
+	</Position>
+	<Position Name="YPDN" Type="ASMGCS" ASMGCSAirport="YPDN" DefaultCenter="-12.415119+130.879154" DefaultRange="2" MagneticVariation="-3">
 		<Maps>
 			<Map Name="ASMGCS_YPDN_RWY" />
 			<Map Name="ASMGCS_YPDN_TWY" />
@@ -722,7 +795,7 @@
 		</Maps>
 	</Position>
 	
-	<Position Name="YPED" Type="ASMGCS" ASMGCSAirport="YPED" DefaultCenter="-34.706446+138.621013" DefaultRange="5" MagneticVariation="-8">
+	<Position Name="YPED" Type="ASMGCS" ASMGCSAirport="YPED" DefaultCenter="-34.706446+138.621013" DefaultRange="2" MagneticVariation="-8">
 		<Maps>
 			<Map Name="ASMGCS_YPED_RWY" />
 			<Map Name="ASMGCS_YPED_TWY" />
@@ -730,8 +803,35 @@
 			<Map Name="ASMGCS_YPED_BLD" />
 		</Maps>
 	</Position>
-	
-	<Position Name="YPTN" Type="ASMGCS" ASMGCSAirport="YPTN" DefaultCenter="-14.520112+132.380218" DefaultRange="5" MagneticVariation="-3">
+	<Position Name="Tindal TCU" Type="ASD" DefaultCenter="-14.521111+132.377778" DefaultRange="150" MagneticVariation="-3">
+		<Sectors>
+			<Sector Name="TNA"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="Tindal/TN_TCU" />
+			<Map Name="Tindal/TN_RWY14" />
+		</Maps>
+		<ATIS>
+			<Editor Airport="YPTN" Frequency="134.05" />
+			<Window Airport="YPTN"/>
+		</ATIS>
+		<Strips Mode="Beacon" Sort="Alpha">
+			<Window Type="ADEP" Beacon="YTDN" Visible="true" />
+		</Strips>
+		<CFL QuickLevel="10000">
+			<AdditionalLevels>2300</AdditionalLevels>
+		</CFL>
+		<ArrivalLists>
+			<Airport Name="YTDN" />
+		</ArrivalLists>
+		<ControllerInfo>
+			<Line>Tindal Approach</Line>
+			<Line>ATIS available on 134.05</Line>
+			<Line>ATC feedback - feedback.vatpac.org</Line>
+		</ControllerInfo>
+	</Position>
+	<Position Name="YPTN" Type="ASMGCS" ASMGCSAirport="YPTN" DefaultCenter="-14.520112+132.380218" DefaultRange="2" MagneticVariation="-3">
 		<Maps>
 			<Map Name="ASMGCS_YPTN_RWY" />
 			<Map Name="ASMGCS_YPTN_TWY" />
@@ -739,12 +839,11 @@
 		</Maps>
 	</Position>
 	
-	<Position Name="YWLM" Type="ASMGCS" ASMGCSAirport="YWLM" DefaultCenter="-32.795211+151.835095" DefaultRange="5" MagneticVariation="-12">
+	<Position Name="YWLM" Type="ASMGCS" ASMGCSAirport="YWLM" DefaultCenter="-32.795211+151.835095" DefaultRange="2" MagneticVariation="-12">
 		<Maps>
 			<Map Name="ASMGCS_YWLM_RWY" />
 			<Map Name="ASMGCS_YWLM_TWY" />
 			<Map Name="ASMGCS_YWLM_BLD" />
 		</Maps>
 	</Position>
-	
 </Positions>

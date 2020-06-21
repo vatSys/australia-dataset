@@ -48,7 +48,8 @@
     <Line>
       <!--W545-->
       WG VOR/
-      POPLA
+      POPLA/
+      IGDEL
     </Line>
     <Line>
       <!--W643-->
@@ -134,57 +135,43 @@
       <Point>ASST</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="VFR_CITY_1">-35.237438+149.130392</Point>
-      <Point Name="VFR_CITY_2">-35.274570+149.057933</Point>
+      <Point Name="CITY_ONE_ROUTE">BKM</Point>
+      <Point Name="CITY_TWO_ROUTE">LGDA</Point>
+      <Point Name="SW_ROUTE">THW</Point>
     </Label>
-    <Line Pattern = "Dotted">
-      -35.355608+149.143905/ 
-      -35.306410+149.194171/ 
-      -35.235832+149.144448/ 
-      -35.233218+149.140724/ 
-      -35.233139+149.135884/ 
-      -35.237438+149.130392/ 
-      -35.265208+149.097212/ 
-      -35.269793+149.092000/ 
-      -35.273086+149.089846/ 
-      -35.277729+149.089943/ 
-      -35.347609+149.123706/ 
-      -35.355533+149.128128/ 
-      -35.357803+149.131899/ 
-      -35.358317+149.136147/ 
-      -35.357879+149.140269/
-      -35.355608+149.143905 
+    <!--CITY_ONE_ROUTE-->
+    <Line Pattern="Dotted">
+      BKM/
+      MTM/
+      YSCB/
+      RCSE/
+      BKM
     </Line>
-    <Line  Pattern = "Dotted">
-      -35.355608+149.143905/
-      -35.306410+149.194171/
-      -35.235832+149.144448/
-      -35.233218+149.140724/
-      -35.227872+149.129996/
-      -35.213286+149.105579/
-      -35.211407+149.101409/
-      -35.211161+149.098456/
-      -35.211601+149.095134/
-      -35.213626+149.090038/
-      -35.218097+149.086074/
-      -35.274570+149.057933/
-      -35.277860+149.056237/
-      -35.282782+149.055201/
-      -35.286366+149.054882/
-      -35.289857+149.055652/
-      -35.293886+149.057634/
-      -35.361166+149.090247/
-      -35.364386+149.092683/
-      -35.367369+149.095226/
-      -35.369052+149.097116/
-      -35.369885+149.098318/
-      -35.370179+149.099804/
-      -35.369758+149.102095/
-      -35.368736+149.105344/
-      -35.364042+149.128985/
-      -35.362880+149.134550/
-      -35.361424+149.137647/
-      -35.355608+149.143905
+    <!--CITY_TWO_ROUTE-->
+    <Line Pattern="Dotted">
+      LGDA/
+      CPNG/
+      MTLR/
+      MTM/
+      YSCB/
+      RCSE/
+      LGDA
     </Line>
+    <!--SW_ROUTE-->
+    <Line Pattern="Dotted">
+      THW/
+      BIDG/
+      COTR
+    </Line>
+  </Map>
+  <Map Type="System" Name="YSCB_ALLRWYS" Priority="2" Centre="-35.306944+149.195">
+    <Runway Name="17/35">
+      <Threshold Name="17" Position="-35.290622+149.194447" ExtendedCentrelineTrack="0.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="35" Position="-35.3148+149.194447" ExtendedCentrelineTrack="180.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-35.300683+149.185153" ExtendedCentrelineTrack="309.87" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="30" Position="-35.31+149.198758" ExtendedCentrelineTrack="129.88" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+    </Runway>
   </Map>
 </Maps>

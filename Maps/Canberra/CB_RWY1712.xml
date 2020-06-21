@@ -2,13 +2,13 @@
 <Maps>
   <Map Type="System" Name="CB_RWY1712" Priority="1" Centre="-35.306944+149.195">
     <!--YSCB-->
-    <Runway Name="17/35">
-      <Threshold Name="17" Position="-35.290622+149.194447" ExtendedCentrelineTrack="0.00" ExtendedCentrelineLength="14" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="35" Position="-35.3148+149.194447" />
-    </Runway>
     <Runway Name="12/30">
-      <Threshold Name="12" Position="-35.300683+149.185153" ExtendedCentrelineTrack="309.87" ExtendedCentrelineLength="8" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="12" Position="-35.300683+149.185153" ExtendedCentrelineTrack="309.87" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="30" Position="-35.31+149.198758" />
+    </Runway>
+    <Runway Name="17/35">
+      <Threshold Name="17" Position="-35.290622+149.194447" ExtendedCentrelineTrack="0.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="35" Position="-35.3148+149.194447" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -142,6 +142,8 @@
       <Point>VADMA</Point>
       <Point>SAPIT</Point>
     </Symbol>
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle" />
     <Symbol Type="HollowStar">
       <Point>OGORA</Point>
       <Point>OKERU</Point>
@@ -160,6 +162,7 @@
       <Point>NONUP</Point>
       <Point>KELLY</Point>
       <Point>TANTA</Point>
+      <Point>WG</Point>
       <Point>GOONY</Point>
       <Point>BUNGO</Point>
       <Point>GEORG</Point>
@@ -170,11 +173,8 @@
       <Point>BARTN</Point>
       <Point>RAZZI</Point>
     </Symbol>
-    <Symbol Type="Circle">
-      <Point>WG</Point>
-    </Symbol>
   </Map>
-  <Map Type="System" Name="CB_RWY1730_NAMES" Priority="2" Centre="-35.306944+149.195">
+  <Map Type="System" Name="CB_RWY1712_NAMES" Priority="2" Centre="-35.306944+149.195">
     <Label>
       <Point>OGORA</Point>
       <Point>OKERU</Point>
@@ -223,6 +223,7 @@
       <Point>BTH NDB</Point>
       <Point>WG VOR</Point>
       <Point>POPLA</Point>
+      <Point>IGDEL</Point>
       <Point>PEAKE</Point>
       <Point>MER NDB</Point>
     </Label>
