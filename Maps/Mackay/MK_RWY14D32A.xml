@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MK_RWY14" Priority="1" Centre="-21.171389+149.179722">
+  <Map Type="System" Name="MK_RWY14D32A" Priority="1" Centre="-21.171389+149.179722">
     <!--YBMK-->
     <Runway Name="14/32">
-      <Threshold Name="14" Position="-21.163192+149.177464" ExtendedCentrelineTrack="327.69" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="32" Position="-21.178325+149.187667" />
+      <Threshold Name="14" Position="-21.163192+149.177464" />
+      <Threshold Name="32" Position="-21.178325+149.187667" ExtendedCentrelineTrack="147.69" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -26,20 +26,20 @@
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy14 DAGSI1-->
+      <!--Rwy32 DAGSI1-->
       DAGSI/
-      LEDUS
+      LUMVA/
+      SADID/
+      BURNO
     </Line>
     <Line>
-      <!--Rwy14 WELKE1-->
+      <!--Rwy32 WELKE1-->
       WELKE/
-      BURNO/
-      SADID/
-      LUMVA
+      BAVAM
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>LEDUS</Point>
-      <Point>LUMVA</Point>
+      <Point>BURNO</Point>
+      <Point>BAVAM</Point>
     </Symbol>
     <Symbol Type="SolidStar">
       <Point>TANUD</Point>
@@ -50,23 +50,23 @@
       <Point>MIBEK</Point>
       <Point>CLIFT</Point>
       <Point>DAGSI</Point>
-      <Point>WELKE</Point>
-      <Point>BURNO</Point>
+      <Point>LUMVA</Point>
       <Point>SADID</Point>
+      <Point>WELKE</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="MK_RWY14_NAMES" Priority="2" Centre="-21.171389+149.179722">
+  <Map Type="System" Name="MK_RWY14D32A_NAMES" Priority="2" Centre="-21.171389+149.179722">
     <Label>
       <Point>POONA</Point>
       <Point>TANUD</Point>
       <Point>MIBEK</Point>
       <Point>CLIFT</Point>
       <Point>DAGSI</Point>
-      <Point>LEDUS</Point>
-      <Point>WELKE</Point>
-      <Point>BURNO</Point>
-      <Point>SADID</Point>
       <Point>LUMVA</Point>
+      <Point>SADID</Point>
+      <Point>BURNO</Point>
+      <Point>WELKE</Point>
+      <Point>BAVAM</Point>
       <Point>TL VOR</Point>
       <Point>LINBO</Point>
       <Point>ALBUX</Point>

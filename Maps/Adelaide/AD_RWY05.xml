@@ -84,7 +84,7 @@
       <!--Rwy05 ATPIP3-->
       ATPIP/
       KASBU/
-      AD
+      AD VOR
     </Line>
     <Line>
       <!--Rwy05 BLAC3V-->
@@ -164,7 +164,7 @@
       <!--Rwy05 RUSSL3-->
       RUSSL/
       LUFFY/
-      AD
+      AD VOR
     </Line>
     <Line>
       <!--Rwy05 SALT3V.AGROS-->
@@ -231,7 +231,7 @@
       <!--Rwy05 SURGN3-->
       SURGN/
       GRIGS/
-      AD
+      AD VOR
     </Line>
     <Line>
       <!--Rwy12 ATPIP3-->
@@ -296,7 +296,6 @@
       <Point>PANVO</Point>
       <Point>OGUGU</Point>
       <Point>LUNGA</Point>
-      <Point>AD</Point>
       <Point>COLPY</Point>
       <Point>VINCN</Point>
       <Point>ANGAV</Point>
@@ -304,8 +303,13 @@
       <Point>SIGUL</Point>
       <Point>MULDR</Point>
     </Symbol>
-    <Symbol Type="HollowStar">
+    <Symbol Type="SolidStar">
       <Point>KNOBL</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>AD VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
       <Point>ROGGS</Point>
       <Point>BENDO</Point>
       <Point>MOPRI</Point>
@@ -380,7 +384,7 @@
       <Point>OGUGU</Point>
       <Point>ATPIP</Point>
       <Point>KASBU</Point>
-      <Point>AD</Point>
+      <Point>AD VOR</Point>
       <Point>BLACK</Point>
       <Point>TAXES</Point>
       <Point>STANZ</Point>

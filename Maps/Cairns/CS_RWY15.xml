@@ -263,12 +263,6 @@
       SUNNY/
       ATOSU
     </Line>
-    <Symbol Type="Circle">
-      <Point>CS VOR</Point>
-    </Symbol>
-    <Symbol Type="SolidTriangle">
-      <Point>SWIFT</Point>
-    </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>GUNRO</Point>
       <Point>RAINY</Point>
@@ -279,8 +273,13 @@
       <Point>TODEG</Point>
       <Point>ATOSU</Point>
     </Symbol>
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle">
+      <Point>CS VOR</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>NONUM</Point>
+      <Point>SWIFT</Point>
       <Point>CARBA</Point>
       <Point>CODIE</Point>
       <Point>DREWS</Point>

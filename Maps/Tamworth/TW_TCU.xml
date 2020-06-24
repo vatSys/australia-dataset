@@ -87,6 +87,27 @@
       <Point>WEK</Point>
       <Point>WIE</Point>
     </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="IN_DURI_GAP">DUA</Point>
+      <Point Name="OUT_GATE_SOUTH">WASL</Point>
+      <Point Name="OUT_GATE_WEST">-31.075139+150.754722</Point>
+    </Label>
+    <!--IN_DURI_GAP-->
+    <Line Pattern="Dotted">
+      DUA/
+      -31.109566+150.801996
+    </Line>
+    <!--OUT_GATE_SOUTH-->
+    <Line Pattern="Dotted">
+      WASL/
+      -31.244415+150.786173/
+      GST
+    </Line>
+    <!--OUT_GATE_WEST-->
+    <Line Pattern="Dotted">
+      -31.075139+150.754722/
+      GWT
+    </Line>
   </Map>
   <Map Type="System" Name="YSTW_ALLRWYS" Priority="2" Centre="-31.083889+150.846667">
     <Runway Name="12L/30R">

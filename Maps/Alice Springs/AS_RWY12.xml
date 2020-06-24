@@ -63,6 +63,7 @@
     <Line>
       <!--Rwy12 KALUG3-->
       -23.815521+133.920451/
+      -23.936917+134.067778/
       KALUG
     </Line>
     <Line>
@@ -74,11 +75,13 @@
     </Line>
     <Line>
       <!--Rwy12 MINIM1-->
-      -23.812119+133.914028
+      -23.812119+133.914028/
+      -23.838441+133.96466/
+      MINIM
     </Line>
     <Line>
       <!--Rwy12 MINIM1.ARNTU-->
-      -23.812119+133.914028/
+      MINIM/
       -23.852021+133.982981/
       -23.86918+133.997603/
       -23.889215+134.006873/
@@ -107,7 +110,7 @@
     </Line>
     <Line>
       <!--Rwy12 MINIM1.GAFER-->
-      -23.812119+133.914028/
+      MINIM/
       -23.849883+134.009582/
       -23.838421+134.055048/
       -23.807693+134.088143/
@@ -122,17 +125,18 @@
     </Line>
     <Line>
       <!--Rwy12 MINIM1.KALUG-->
-      -23.812119+133.914028/
+      MINIM/
       -23.862435+133.998139/
       -23.884754+134.018403/
       -23.903735+134.033981/
       -23.921278+134.052017/
       -23.934448+134.068701/
+      -23.936917+134.067778/
       KALUG
     </Line>
     <Line>
       <!--Rwy12 MINIM1.PULOL-->
-      -23.812119+133.914028/
+      MINIM/
       -23.87781+134.067715/
       -23.890593+134.179617/
       -23.884833+134.248329/
@@ -160,8 +164,9 @@
     </Line>
     <Line>
       <!--Rwy12 PULOL3-->
-      -23.815521+133.920451/
-      -23.826079+134.068058/
+      -23.812119+133.914028/
+      -23.821366+134.002758/
+      -23.886092+134.280856/
       PULOL
     </Line>
     <Line>
@@ -184,6 +189,7 @@
       <!--Rwy12 SCOTI3-->
       -23.803292+133.972588/
       -23.677395+133.858718/
+      -23.303652+133.785611/
       SCOTI
     </Line>
     <Line>
@@ -196,12 +202,17 @@
       <!--Rwy12 TNK3-->
       -23.803292+133.972588/
       -23.623039+133.891664/
-      TNK
+      TNK VOR
     </Line>
     <!--STARs-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowStar">
+    <Symbol Type="SolidStar">
       <Point>PUNED</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>TNK VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
       <Point>RUVED</Point>
       <Point>SAGED</Point>
       <Point>ANGAS</Point>
@@ -217,13 +228,13 @@
       <Point>OSINA</Point>
       <Point>IGDEB</Point>
       <Point>LEESA</Point>
+      <Point>MINIM</Point>
       <Point>PULOL</Point>
       <Point>SADEL</Point>
       <Point>SCOTI</Point>
       <Point>SARAH</Point>
       <Point>SCHEE</Point>
       <Point>STEEL</Point>
-      <Point>TNK</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="AS_RWY12_NAMES" Priority="2" Centre="-23.808333+133.900833">
@@ -244,13 +255,14 @@
       <Point>OSINA</Point>
       <Point>IGDEB</Point>
       <Point>LEESA</Point>
+      <Point>MINIM</Point>
       <Point>PULOL</Point>
       <Point>SADEL</Point>
       <Point>SCOTI</Point>
       <Point>SARAH</Point>
       <Point>SCHEE</Point>
       <Point>STEEL</Point>
-      <Point>TNK</Point>
+      <Point>TNK VOR</Point>
       <Point>HERMA</Point>
       <Point>LISZT</Point>
       <Point>AYE NDB</Point>

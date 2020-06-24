@@ -26,7 +26,7 @@
       -23.779004+133.854031/
       -23.707503+133.837311/
       -23.725312+133.881577/
-      AS/
+      AS VOR/
       DESET
     </Line>
     <Line>
@@ -37,13 +37,29 @@
     </Line>
     <Line>
       <!--Rwy30 ELLOW3-->
-      AS/
+      AS VOR/
       ELLOW
     </Line>
     <Line>
       <!--Rwy30 GAFER3-->
-      -23.707503+133.837311/
-      -23.721891+133.977006/
+      -23.801031+133.893361/
+      -23.789146+133.870488/
+      OCTAV/
+      -23.780219+133.85814/
+      -23.768886+133.848506/
+      -23.755658+133.842408/
+      -23.741436+133.840258/
+      -23.727189+133.842203/
+      -23.724314+133.843157/
+      -23.685063+133.870648/
+      -23.663731+133.91587/
+      -23.665949+133.966677/
+      -23.666623+133.968688/
+      NAMIT/
+      -23.676986+134.026189/
+      -23.673694+134.084512/
+      -23.656671+134.139906/
+      -23.650805+134.151736/
       GAFER
     </Line>
     <Line>
@@ -54,12 +70,12 @@
     </Line>
     <Line>
       <!--Rwy30 IDANU3-->
-      AS/
+      AS VOR/
       IDANU
     </Line>
     <Line>
       <!--Rwy30 KALUG3-->
-      AS/
+      AS VOR/
       KALUG
     </Line>
     <Line>
@@ -70,9 +86,7 @@
     </Line>
     <Line>
       <!--Rwy30 OCTAV3-->
-      -23.801031+133.893361/
-      -23.789146+133.870488/
-      OCTAV
+      
     </Line>
     <Line>
       <!--Rwy30 OCTAV3.ARNTU-->
@@ -176,12 +190,12 @@
     </Line>
     <Line>
       <!--Rwy30 SADEL3-->
-      AS/
+      AS VOR/
       SADEL
     </Line>
     <Line>
       <!--Rwy30 SARAH3-->
-      AS/
+      AS VOR/
       SARAH
     </Line>
     <Line>
@@ -192,8 +206,9 @@
     </Line>
     <Line>
       <!--Rwy30 SCOTI3-->
-      -23.707503+133.837311/
-      -23.691324+133.85758/
+      -23.724314+133.843157/
+      -23.677441+133.852494/
+      -23.638504+133.849749/
       SCOTI
     </Line>
     <Line>
@@ -210,25 +225,29 @@
     </Line>
     <!--STARs-->
     <Symbol Type="HollowTriangle" />
-    <Symbol Type="HollowStar">
+    <Symbol Type="SolidStar">
       <Point>RUGMU</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>AS VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
       <Point>KIMIL</Point>
       <Point>SAGED</Point>
       <Point>ANGAS</Point>
       <Point>ARNTU</Point>
-      <Point>AS</Point>
       <Point>DESET</Point>
       <Point>DIGLA</Point>
       <Point>ELLOW</Point>
+      <Point>OCTAV</Point>
+      <Point>NAMIT</Point>
       <Point>GAFER</Point>
       <Point>HONGI</Point>
       <Point>IDANU</Point>
       <Point>KALUG</Point>
       <Point>IGDEB</Point>
       <Point>LEESA</Point>
-      <Point>OCTAV</Point>
       <Point>DINGO</Point>
-      <Point>NAMIT</Point>
       <Point>JIRRA</Point>
       <Point>PULOL</Point>
       <Point>SADEL</Point>
@@ -247,19 +266,19 @@
       <Point>SAGED</Point>
       <Point>ANGAS</Point>
       <Point>ARNTU</Point>
-      <Point>AS</Point>
+      <Point>AS VOR</Point>
       <Point>DESET</Point>
       <Point>DIGLA</Point>
       <Point>ELLOW</Point>
+      <Point>OCTAV</Point>
+      <Point>NAMIT</Point>
       <Point>GAFER</Point>
       <Point>HONGI</Point>
       <Point>IDANU</Point>
       <Point>KALUG</Point>
       <Point>IGDEB</Point>
       <Point>LEESA</Point>
-      <Point>OCTAV</Point>
       <Point>DINGO</Point>
-      <Point>NAMIT</Point>
       <Point>JIRRA</Point>
       <Point>PULOL</Point>
       <Point>SADEL</Point>

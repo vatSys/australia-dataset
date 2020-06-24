@@ -1,93 +1,200 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="CG_RWY14" Priority="1" Center="-27.40+153.118">
-	<Runway Name="14/32">
-      <Threshold Name="14" Position="-28.156511+153.500706" ExtendedCentrelineTrack="330.7" ExtendedCentrelineLength="15"  ExtendedCentrelineTickInterval="5" />
+  <Map Type="System" Name="CG_RWY14" Priority="1" Centre="-28.164444+153.504722">
+    <!--YBCG-->
+    <Runway Name="14/32">
+      <Threshold Name="14" Position="-28.156511+153.500706" ExtendedCentrelineTrack="330.59" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="32" Position="-28.172569+153.510919" />
-	</Runway>
-	<!-- STARs -->
-	<Line>
-	  BERNI/
-	  ELDUX/
-	  VANSU/
-	  ROONY/
-	  FIKUL/
-	  CHOOK
-	</Line>
-	<Line>
-	  CHOOK/
-	  AGTEK/
-	  KEGAN
-	</Line>
-	<Line>
-	  CHOOK/
-	  KERRI/
-	  SAILA/
-	  NIKKI/
-	  INDEE/
-	  -280821.0+1532847.0
-	</Line>
+    </Runway>
+    <!--SIDs-->
     <Line>
-	  LAMSI/
-	  PATSU/
-	  TELOG/
-	  LOTMA/
-	  KEGAN
+      <!--Rwy14 APAGI4-->
+      -28.172569+153.510919/
+      SMALL/
+      CUDGN/
+      APAGI
     </Line>
-	<Line>
-	  LAMSI/
-	  MIMUD/
-	  KAKVI/
-	  ENRIM/
-	  KERRI
+    <Line>
+      <!--Rwy14 CUDGN3-->
+      -28.172569+153.510919/
+      -28.194364+153.525133/
+      SMALL/
+      -28.205766+153.531503/
+      -28.214181+153.535119/
+      -28.237859+153.544164/
+      CUDGN/
+      -28.250131+153.546753/
+      -28.261417+153.545884/
+      -28.272121+153.541729/
+      -28.281512+153.534568/
+      -28.288895+153.524925/
+      APAGI
     </Line>
-	<Line Pattern="Dashed">
-		CG VOR/
-		IGOMU
-	</Line>
-	<Line>
-		KEGAN/
-		OOLNI/
-		OOLNF
-	</Line>
-   <Symbol Type="HollowStar">
-	<Point>BERNI</Point>
-	<Point>ELDUX</Point>
-	<Point>VANSU</Point>
-	<Point>ROONY</Point>
-	<Point>FIKUL</Point>
-	<Point>CHOOK</Point>
-	<Point>AGTEK</Point>
-	<Point>KEGAN</Point>
-	<Point>KERRI</Point>
-	<Point>SAILA</Point>
-	<Point>NIKKI</Point>
-	<Point>LAMSI</Point>
-	<Point>PATSU</Point>
-	<Point>TELOG</Point>
-	<Point>LOTMA</Point>
-	<Point>MIMUD</Point>
-	<Point>KAKVI</Point>
-	<Point>ENRIM</Point>
-    </Symbol>
+    <!--STARs-->
+    <Line>
+      <!--Rwy14 BERN1A-->
+      BERNI/
+      ELDUX/
+      VANSU/
+      ROONY/
+      FIKUL/
+      CHOOK/
+      AGTEK/
+      KEGAN
+    </Line>
+    <Line>
+      <!--Rwy14 BERN1V-->
+      CHOOK/
+      KERRI/
+      SAILA/
+      NIKKI
+    </Line>
+    <Line>
+      <!--Rwy14 BERN1Y-->
+      
+    </Line>
+    <Line>
+      <!--Rwy14 LAMS1A-->
+      LAMSI/
+      PATSU/
+      TELOG/
+      LOTMA/
+      KEGAN
+    </Line>
+    <Line>
+      <!--Rwy14 LAMS1Y-->
+      LAMSI/
+      MIMUD/
+      KAKVI/
+      ENRIM/
+      KERRI
+    </Line>
     <Symbol Type="HollowTriangle">
-      <Point>IRPOD</Point>
-	  <Point>OOLNI</Point>
-	  <Point>IGOMU</Point>
+      <Point>KEGAN</Point>
+      <Point>NIKKI</Point>
+      <Point>KERRI</Point>
     </Symbol>
-	<!-- SIDs -->
-	<Line>
-	  -28.172569+153.510919/ <!-- Threshold 32 -->
-	  SMALL/
-	  CUDGN/
-	  APAGI
-	</Line>
-	<Symbol Type="SolidStar">
-    <Point>SMALL</Point>
-	 <Point>CUDGN</Point>
-	</Symbol>
-   <Symbol Type="HollowStar">
-	<Point>APAGI</Point>
-	</Symbol>
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle" />
+    <Symbol Type="HollowStar">
+      <Point>SMALL</Point>
+      <Point>CUDGN</Point>
+      <Point>APAGI</Point>
+      <Point>BERNI</Point>
+      <Point>ELDUX</Point>
+      <Point>VANSU</Point>
+      <Point>ROONY</Point>
+      <Point>FIKUL</Point>
+      <Point>CHOOK</Point>
+      <Point>AGTEK</Point>
+      <Point>SAILA</Point>
+      <Point>LAMSI</Point>
+      <Point>PATSU</Point>
+      <Point>TELOG</Point>
+      <Point>LOTMA</Point>
+      <Point>MIMUD</Point>
+      <Point>KAKVI</Point>
+      <Point>ENRIM</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="CG_RWY14_NAMES" Priority="2" Centre="-28.164444+153.504722">
+    <Label>
+      <Point>SMALL</Point>
+      <Point>CUDGN</Point>
+      <Point>APAGI</Point>
+      <Point>BERNI</Point>
+      <Point>ELDUX</Point>
+      <Point>VANSU</Point>
+      <Point>ROONY</Point>
+      <Point>FIKUL</Point>
+      <Point>CHOOK</Point>
+      <Point>AGTEK</Point>
+      <Point>KEGAN</Point>
+      <Point>KERRI</Point>
+      <Point>SAILA</Point>
+      <Point>NIKKI</Point>
+      <Point>LAMSI</Point>
+      <Point>PATSU</Point>
+      <Point>TELOG</Point>
+      <Point>LOTMA</Point>
+      <Point>MIMUD</Point>
+      <Point>KAKVI</Point>
+      <Point>ENRIM</Point>
+      <Point>MEPEM</Point>
+      <Point>GUMKI</Point>
+      <Point>MIMMI</Point>
+      <Point>MORRO</Point>
+      <Point>WOODY</Point>
+      <Point>UGTUG</Point>
+      <Point>SAVER</Point>
+      <Point>BONEY</Point>
+      <Point>SANEG</Point>
+      <Point>HUUGO</Point>
+      <Point>TESSI</Point>
+      <Point>ADMAR</Point>
+      <Point>TOJAM</Point>
+      <Point>GOMOL</Point>
+      <Point>SCOTT</Point>
+      <Point>CHEWY</Point>
+      <Point>KATEB</Point>
+      <Point>ITIDE</Point>
+      <Point>GUDSO</Point>
+      <Point>ISKIM</Point>
+      <Point>BIXAD</Point>
+      <Point>TAPET</Point>
+      <Point>LOAFA</Point>
+      <Point>MAKRU</Point>
+      <Point>BICKL</Point>
+      <Point>SU VOR</Point>
+      <Point>SAMVI</Point>
+      <Point>RUDEY</Point>
+      <Point>MESED</Point>
+      <Point>ATROP</Point>
+      <Point>HARVS</Point>
+      <Point>SETER</Point>
+      <Point>TEBOT</Point>
+      <Point>HAWKE</Point>
+      <Point>COOLA</Point>
+      <Point>WACKO</Point>
+      <Point>IBUNA</Point>
+      <Point>LEBIT</Point>
+      <Point>ATVIL</Point>
+      <Point>UNVAT</Point>
+      <Point>SUSGI</Point>
+      <Point>OTLEB</Point>
+      <Point>MORBI</Point>
+      <Point>AKOBA</Point>
+      <Point>SAGLI</Point>
+      <Point>MAGPI</Point>
+      <Point>ALDAR</Point>
+      <Point>ARM NDB</Point>
+      <Point>GAMBL</Point>
+      <Point>CFS VOR</Point>
+      <Point>BUD NDB</Point>
+      <Point>SOSTU</Point>
+      <Point>HOLIS</Point>
+      <Point>RIDVO</Point>
+      <Point>OK VOR</Point>
+      <Point>MATVI</Point>
+      <Point>DAMIN</Point>
+      <Point>BANDA</Point>
+      <Point>BEPNA</Point>
+      <Point>YCCA</Point>
+      <Point>OPIPO</Point>
+      <Point>NODOR</Point>
+      <Point>EAGLE</Point>
+      <Point>LAMUG</Point>
+      <Point>SMOKA</Point>
+      <Point>BN VOR</Point>
+      <Point>DUNNI</Point>
+      <Point>ESTER</Point>
+      <Point>AGIVA</Point>
+      <Point>PARRY</Point>
+      <Point>ELENI</Point>
+      <Point>AMB NDB</Point>
+      <Point>SUKTU</Point>
+      <Point>EDPEG</Point>
+      <Point>ENLIP</Point>
+    </Label>
   </Map>
 </Maps>

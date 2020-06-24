@@ -252,6 +252,19 @@
       <Point>WRM</Point>
       <Point>WYR</Point>
     </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="TRANSIT_NTH">LKON</Point>
+    </Label>
+    <!--TRANSIT_NTH-->
+    <Line Pattern="Dotted">
+      LKON/
+      -27.466647+152.461706/
+      -27.455031+152.603381/
+      -27.447806+152.649047/
+      -27.45815+152.687289/
+      -27.465608+152.711292/
+      LMC
+    </Line>
   </Map>
   <Map Type="System" Name="YAMB_ALLRWYS" Priority="2" Centre="-27.640556+152.711944">
     <Runway Name="04/22">

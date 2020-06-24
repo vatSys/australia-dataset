@@ -1,47 +1,196 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="SY_RWY07" Priority="1" Center="-33.9461+151.1772">
-    <Runway Name="16L/34R">
-      <Threshold Name="16L" Position="-33.951636+151.188847" />
-      <Threshold Name="34R" Position="-33.970758+151.193811" />
-    </Runway>
-    <Runway Name="16R/34L">
-      <Threshold Name="16R" Position="-33.930100+151.171783" />
-      <Threshold Name="34L" Position="-33.964267+151.180644" />
-    </Runway>
+  <Map Type="System" Name="SY_RWY07" Priority="1" Centre="-33.946+151.177111">
+    <!--YSSY-->
     <Runway Name="07/25">
-      <Threshold Name="07" Position="-33.943739+151.163628" ExtendedCentrelineTrack="254.14" ExtendedCentrelineLength="15"  ExtendedCentrelineTickInterval="1"/>
+      <Threshold Name="07" Position="-33.943739+151.163628" ExtendedCentrelineTrack="254.20" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="25" Position="-33.937778+151.188908" />
     </Runway>
+    <!--SIDs-->
     <Line>
+      <!--Rwy07 FISHA8-->
       -33.937778+151.188908/
+      -33.936122+151.226533/
+      FISHA
+    </Line>
+    <Line>
+      <!--Rwy07 FISHA8.ENTRA-->
       FISHA/
+      -33.909437+151.380146/
+      -33.904702+151.398187/
+      -33.892865+151.414593/
       ENTRA
     </Line>
     <Line>
-      -33.937778+151.188908/
-      ENKAS/
-      TESAT026010/
-      SHORE/
-      KAMBA
+      <!--Rwy07 FISHA8.WOL-->
+      FISHA/
+      -33.909799+151.377802/
+      -33.908349+151.397425/
+      -33.911182+151.410881/
+      -33.918324+151.423704/
+      -33.931138+151.434199/
+      -33.946515+151.437553/
+      -33.95947+151.434381/
+      -33.971903+151.425081/
+      WOL NDB
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy07 BORE2A-->
+      BOREE/
+      BEKLO/
+      BEROW/
+      OVILS
     </Line>
     <Line>
-      FISHA/
-      FISHA160003/
-      WOL
+      <!--Rwy07 MARLN5-->
+      MARLN/
+      BIKUS/
+      WHALE/
+      PRAWN/
+      TESAT
     </Line>
-	<Symbol Type="SolidStar">
-    <Point>FISHA</Point>
-    <Point>ENKAS</Point>
-	</Symbol>
-    <Symbol Type="HollowStar">
-      <Point>SHORE</Point>
-    </Symbol>
-    <Symbol Type="SolidSquare">
-
-    </Symbol>
+    <Line>
+      <!--Rwy07 MEPIL3.SANAD-->
+      SANAD/
+      OLTIN/
+      YAKKA/
+      MEPIL
+    </Line>
+    <Line>
+      <!--Rwy07 MEPIL3-->
+      MEPIL/
+      LANOL/
+      TESAT
+    </Line>
+    <Line>
+      <!--Rwy07 ODALE7-->
+      ODALE/
+      KABLO/
+      MITSA/
+      ANKUB/
+      TESAT
+    </Line>
+    <Line>
+      <!--Rwy07 RIVET3-->
+      RIVET/
+      BIGEM/
+      TAMMI/
+      BOOGI/
+      TESAT
+    </Line>
     <Symbol Type="HollowTriangle">
-
+      <Point>ANKUB</Point>
     </Symbol>
+    <Symbol Type="SolidStar">
+      <Point>FISHA</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>WOL NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ENTRA</Point>
+      <Point>BOREE</Point>
+      <Point>BEKLO</Point>
+      <Point>BEROW</Point>
+      <Point>OVILS</Point>
+      <Point>MARLN</Point>
+      <Point>BIKUS</Point>
+      <Point>WHALE</Point>
+      <Point>PRAWN</Point>
+      <Point>TESAT</Point>
+      <Point>SANAD</Point>
+      <Point>OLTIN</Point>
+      <Point>YAKKA</Point>
+      <Point>MEPIL</Point>
+      <Point>LANOL</Point>
+      <Point>ODALE</Point>
+      <Point>KABLO</Point>
+      <Point>MITSA</Point>
+      <Point>RIVET</Point>
+      <Point>BIGEM</Point>
+      <Point>TAMMI</Point>
+      <Point>BOOGI</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="SY_RWY07_NAMES" Priority="2" Centre="-33.946+151.177111">
+    <Label>
+      <Point>FISHA</Point>
+      <Point>ENTRA</Point>
+      <Point>WOL NDB</Point>
+      <Point>BOREE</Point>
+      <Point>BEKLO</Point>
+      <Point>BEROW</Point>
+      <Point>OVILS</Point>
+      <Point>MARLN</Point>
+      <Point>BIKUS</Point>
+      <Point>WHALE</Point>
+      <Point>PRAWN</Point>
+      <Point>TESAT</Point>
+      <Point>SANAD</Point>
+      <Point>OLTIN</Point>
+      <Point>YAKKA</Point>
+      <Point>MEPIL</Point>
+      <Point>LANOL</Point>
+      <Point>ODALE</Point>
+      <Point>KABLO</Point>
+      <Point>MITSA</Point>
+      <Point>ANKUB</Point>
+      <Point>RIVET</Point>
+      <Point>BIGEM</Point>
+      <Point>TAMMI</Point>
+      <Point>BOOGI</Point>
+      <Point>KADOM</Point>
+      <Point>PKS VOR</Point>
+      <Point>NOBAR</Point>
+      <Point>ABARB</Point>
+      <Point>DIPSO</Point>
+      <Point>GUTIV</Point>
+      <Point>INVUS</Point>
+      <Point>ATNAT</Point>
+      <Point>SOTKI</Point>
+      <Point>SCO NDB</Point>
+      <Point>CORKY</Point>
+      <Point>SADLO</Point>
+      <Point>RAZZI</Point>
+      <Point>CB VOR</Point>
+      <Point>MARTO</Point>
+      <Point>WLM NDB</Point>
+      <Point>RIC NDB</Point>
+      <Point>BOYSY</Point>
+      <Point>MISIT</Point>
+      <Point>MUDGI</Point>
+      <Point>EVONN</Point>
+      <Point>GEROS</Point>
+      <Point>PLUGA</Point>
+      <Point>CAWLY</Point>
+      <Point>AKALU</Point>
+      <Point>NONID</Point>
+      <Point>RIKNI</Point>
+      <Point>KAMBA</Point>
+      <Point>TOOKI</Point>
+      <Point>LATUT</Point>
+      <Point>CORDO</Point>
+      <Point>EXETA</Point>
+      <Point>BUNGO</Point>
+      <Point>SOFAL</Point>
+      <Point>DU NDB</Point>
+      <Point>GAZEL</Point>
+      <Point>SCATZ</Point>
+      <Point>ANBAN</Point>
+      <Point>WG VOR</Point>
+      <Point>HAPPI</Point>
+      <Point>AKMIR</Point>
+      <Point>WELSH</Point>
+      <Point>MONDO</Point>
+      <Point>LOWEP</Point>
+      <Point>DONIC</Point>
+      <Point>EGEVO</Point>
+      <Point>NONUP</Point>
+      <Point>CULIN</Point>
+      <Point>TARAL</Point>
+      <Point>OPTIC</Point>
+      <Point>TONIM</Point>
+    </Label>
   </Map>
 </Maps>

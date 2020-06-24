@@ -3,7 +3,7 @@
   <Map Type="System" Name="LT_RWY14R" Priority="1" Centre="-41.545278+147.214167">
     <!--YMLT-->
     <Runway Name="14R/32L">
-      <Threshold Name="14R" Position="-41.537067+147.204097" ExtendedCentrelineTrack="327.27" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="14R" Position="-41.537067+147.204097" ExtendedCentrelineTrack="327.27" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="32L" Position="-41.552075+147.216933" />
     </Runway>
     <!--SIDs-->
@@ -35,7 +35,7 @@
     <Line>
       <!--Rwy14R MOTR1A-->
       -41.602401+147.164491/
-      LT/
+      LT NDB/
       MOTRA
     </Line>
     <Line>
@@ -48,7 +48,7 @@
     </Line>
     <Line>
       <!--Rwy14R NOLA5A-->
-      LT/
+      LT NDB/
       NOLAN
     </Line>
     <Line>
@@ -59,7 +59,7 @@
     </Line>
     <Line>
       <!--Rwy14R NUNP1A-->
-      LT/
+      LT NDB/
       NUNPA
     </Line>
     <Line>
@@ -87,12 +87,15 @@
     </Line>
     <!--STARs-->
     <Symbol Type="HollowTriangle" />
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle">
+      <Point>LT NDB</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>IRONS</Point>
       <Point>IRSOM</Point>
       <Point>KAREN</Point>
       <Point>MORGO</Point>
-      <Point>LT</Point>
       <Point>MOTRA</Point>
       <Point>NOLAN</Point>
       <Point>NUNPA</Point>
@@ -106,7 +109,7 @@
       <Point>IRSOM</Point>
       <Point>KAREN</Point>
       <Point>MORGO</Point>
-      <Point>LT</Point>
+      <Point>LT NDB</Point>
       <Point>MOTRA</Point>
       <Point>NOLAN</Point>
       <Point>NUNPA</Point>

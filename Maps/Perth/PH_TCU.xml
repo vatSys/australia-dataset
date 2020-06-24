@@ -6,27 +6,14 @@
       <Threshold Name="08" Position="-31.466489+115.853731" />
       <Threshold Name="26" Position="-31.462219+115.872314" />
     </Runway>
-    <!--YPEA-->
-    <Runway Name="18L/36R">
-      <Threshold Name="18L" Position="-31.662411+116.013714" ExtendedCentrelineTrack="353.51" ExtendedCentrelineLength="12" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="36R" Position="-31.684267+116.016622" ExtendedCentrelineTrack="173.51" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
-    </Runway>
-    <Runway Name="18R/36L">
-      <Threshold Name="18R" Position="-31.668781+116.013333" />
-      <Threshold Name="36L" Position="-31.684389+116.015411" />
-    </Runway>
-    <Runway Name="05/23">
-      <Threshold Name="05" Position="-31.672319+116.008692" ExtendedCentrelineTrack="224.73" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="23" Position="-31.661486+116.021242" ExtendedCentrelineTrack="44.74" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
-    </Runway>
     <!--YPJT-->
     <Runway Name="06L/24R">
       <Threshold Name="06L" Position="-32.099961+115.874572" ExtendedCentrelineTrack="234.44" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
       <Threshold Name="24R" Position="-32.094047+115.884292" ExtendedCentrelineTrack="54.45" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <Runway Name="06R/24L">
-      <Threshold Name="06R" Position="-32.100864+115.876914" ExtendedCentrelineTrack="234.43" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="24L" Position="-32.094831+115.886825" ExtendedCentrelineTrack="54.43" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="06R" Position="-32.100864+115.876914" />
+      <Threshold Name="24L" Position="-32.094831+115.886825" />
     </Runway>
     <Runway Name="12/30">
       <Threshold Name="12" Position="-32.099961+115.872475" ExtendedCentrelineTrack="294.43" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
@@ -193,6 +180,124 @@
       <Point>YGB</Point>
       <Point>ORKT</Point>
     </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="IN_BRICK_WORKS">CDM</Point>
+      <Point Name="IN_NW">-31.776111+115.724167</Point>
+      <Point Name="IN_OAKFORD">OAKF</Point>
+      <Point Name="OUT_ARMADALE">-32.115814+115.936056</Point>
+      <Point Name="OUT_LAKE_THOMSON">YGB</Point>
+      <Point Name="OUT_VICTOR_65">NORT</Point>
+      <Point Name="VIA_CANNING_DAM">-31.663889+116.633333</Point>
+      <Point Name="VIA_VICTOR_66">TLMI</Point>
+      <Point Name="JURIEN_BAY_1">-30.302628+115.055164</Point>
+      <Point Name="ROUTE_1">-30.504259+115.059149</Point>
+      <Point Name="ROUTE_2">-30.504328+115.059111</Point>
+      <Point Name="ROUTE_3">-31.026828+115.328617</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="SE">
+      <Point Name="JURIEN_BAY_2">-30.302628+115.055164</Point>
+      <Point Name="ROUTE_4">-31.026828+115.328617</Point>
+    </Label>
+    <!--IN_BRICK_WORKS-->
+    <Line Pattern="Dotted">
+      CDM/
+      BRIC/
+      FDL/
+      -32.139281+115.913278
+    </Line>
+    <!--IN_NW-->
+    <Line Pattern="Dotted">
+      -31.776111+115.724167/
+      MUP/
+      OBC/
+      CYB/
+      CTE/
+      FRE/
+      POWR/
+      ADWD
+    </Line>
+    <!--IN_OAKFORD-->
+    <Line Pattern="Dotted">
+      OAKF/
+      FDL/
+      -32.139281+115.913278
+    </Line>
+    <!--OUT_ARMADALE-->
+    <Line Pattern="Dotted">
+      -32.115814+115.936056/
+      ARE/
+      CDM
+    </Line>
+    <!--OUT_LAKE_THOMSON-->
+    <Line Pattern="Dotted">
+      YGB/
+      TOML
+    </Line>
+    <!--OUT_VICTOR_65-->
+    <Line Pattern="Dotted">
+      NORT/
+      FREM/
+      CTE/
+      -31.959751+115.876447/
+      HKE
+    </Line>
+    <!--VIA_CANNING_DAM-->
+    <Line Pattern="Dotted">
+      -31.663889+116.633333/
+      MUE/
+      CDM
+    </Line>
+    <!--VIA_VICTOR_66-->
+    <Line Pattern="Dotted">
+      TLMI/
+      HRR/
+      CDM
+    </Line>
+    <!--JURIEN_BAY_1-->
+    <Line Pattern="Dotted">
+      -30.302628+115.055164/
+      -30.574609+115.246972/
+      -30.743333+115.323333
+    </Line>
+    <!--JURIEN_BAY_2-->
+    <Line Pattern="Dotted">
+      -30.302628+115.055164/
+      -30.656602+115.463254
+    </Line>
+    <!--ROUTE_1-->
+    <Line Pattern="Dotted">
+      -30.504259+115.059149/
+      -30.743333+115.323333/
+      -30.91+115.425/
+      -31.026828+115.328617
+    </Line>
+    <!--ROUTE_2-->
+    <Line Pattern="Dotted">
+      -30.504328+115.059111/
+      -30.656594+115.463252/
+      -30.742407+115.557281/
+      -30.823408+115.605738/
+      -30.869335+115.624287/
+      -31.026828+115.328617
+    </Line>
+    <!--ROUTE_3-->
+    <Line Pattern="Dotted">
+      -31.026828+115.328617/
+      -30.819775+115.190264/
+      -30.504259+115.059149
+    </Line>
+    <!--ROUTE_4-->
+    <Line Pattern="Dotted">
+      -31.026828+115.328617/
+      -31.110611+115.371263/
+      -31.278149+115.440016/
+      -31.362882+115.502463/
+      -31.410186+115.539048/
+      -31.463793+115.562274/
+      TOS/
+      BUB/
+      -31.776111+115.724167
+    </Line>
   </Map>
   <Map Type="System" Name="YPPH_ALLRWYS" Priority="2" Centre="-31.940278+115.966944">
     <Runway Name="03/21">
@@ -202,6 +307,18 @@
     <Runway Name="06/24">
       <Threshold Name="06" Position="-31.940989+115.959203" ExtendedCentrelineTrack="238.89" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="24" Position="-31.930908+115.978792" ExtendedCentrelineTrack="58.90" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="18L/36R">
+      <Threshold Name="18L" Position="-31.662411+116.013714" ExtendedCentrelineTrack="353.51" ExtendedCentrelineLength="12" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="36R" Position="-31.684267+116.016622" ExtendedCentrelineTrack="173.51" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <Runway Name="18R/36L">
+      <Threshold Name="18R" Position="-31.668781+116.013333" />
+      <Threshold Name="36L" Position="-31.684389+116.015411" ExtendedCentrelineTrack="173.51" ExtendedCentrelineLength="0" ExtendedCentrelineTickInterval="0" />
+    </Runway>
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-31.672319+116.008692" ExtendedCentrelineTrack="224.73" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="23" Position="-31.661486+116.021242" ExtendedCentrelineTrack="44.74" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
     </Runway>
   </Map>
 </Maps>

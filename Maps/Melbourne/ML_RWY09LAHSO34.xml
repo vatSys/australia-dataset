@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="ML_RWY09A16D" Priority="1" Centre="-37.673333+144.843333">
+  <Map Type="System" Name="ML_RWY09LAHSO34" Priority="1" Centre="-37.673333+144.843333">
     <!--YMML-->
     <Runway Name="09/27">
       <Threshold Name="09" Position="-37.660756+144.822247" ExtendedCentrelineTrack="274.18" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
@@ -8,66 +8,60 @@
     </Runway>
     <Runway Name="16/34">
       <Threshold Name="16" Position="-37.653192+144.834911" />
-      <Threshold Name="34" Position="-37.685789+144.840994" />
+      <Threshold Name="34" Position="-37.685789+144.840994" ExtendedCentrelineTrack="171.56" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy16 CORRS9-->
-      -37.685789+144.840994/
-      YARRA/
+      <!--Rwy34 CORRS9-->
+      -37.653192+144.834911/
+      ROKDL/
+      POREM/
+      GEDEN/
       CORRS
     </Line>
     <Line>
-      <!--Rwy16 CRENA1-->
-      -37.685789+144.840994/
-      HORSH/
-      ALBAK/
-      VIDAR/
-      MARSH/
+      <!--Rwy34 CRENA1-->
+      -37.653192+144.834911/
+      -37.583418+144.820212/
+      HOPLA/
       CRENA
     </Line>
     <Line>
-      <!--Rwy16 DOSEL1-->
-      ALBAK/
-      CHIMU/
+      <!--Rwy34 DOSEL1-->
+      ROKDL/
       SALLY/
       DOSEL
     </Line>
     <Line>
-      <!--Rwy16 ESDIG3-->
-      MARSH/
+      <!--Rwy34 ESDIG3-->
+      HOPLA/
       ESDIG
     </Line>
     <Line>
-      <!--Rwy16 KAGMU1-->
-      HORSH/
-      KAGMU
-    </Line>
-    <Line>
-      <!--Rwy16 KEPPA2-->
-      ALBAK/
-      ABVOG/
+      <!--Rwy34 KEPPA2-->
+      -37.653192+144.834911/
+      OKMEL/
       KEPPA
     </Line>
     <Line>
-      <!--Rwy16 MNG3-->
+      <!--Rwy34 MNG3-->
       SALLY/
       MNG VOR
     </Line>
     <Line>
-      <!--Rwy16 NEVIS7-->
-      ALBAK/
-      LILMI/
+      <!--Rwy34 NEVIS7-->
+      OKMEL/
       NEVIS
     </Line>
     <Line>
-      <!--Rwy16 NONIX3-->
+      <!--Rwy34 NONIX3-->
       SALLY/
       NONIX
     </Line>
     <Line>
-      <!--Rwy16 SUNTI3-->
-      YARRA/
+      <!--Rwy34 SUNTI3-->
+      GEDEN/
+      PEBAL/
       SUNTI
     </Line>
     <!--STARs-->
@@ -135,32 +129,105 @@
       TEENA/
       RIPMO
     </Line>
+    <Line>
+      <!--Rwy34 ARBE6A-->
+      TUNKA/
+      BELTA/
+      OVNER/
+      RENER/
+      GOSKO/
+      LAVER/
+      OBGAL/
+      AKDEL
+    </Line>
+    <Line>
+      <!--Rwy34 BOYS7A-->
+      BOYSE/
+      MAXAL/
+      OLTUR/
+      VENVO/
+      GOOLA/
+      BOLTY/
+      AKDEL
+    </Line>
+    <Line>
+      <!--Rwy34 BOYS7V-->
+      MAXAL/
+      ARTHA/
+      EMRIG/
+      MONTY/
+      EGEKA/
+      SHEED
+    </Line>
+    <Line>
+      <!--Rwy34 LIZI8A-->
+      LIZZI/
+      VEPUD/
+      AKSID/
+      GOOLA
+    </Line>
+    <Line>
+      <!--Rwy34 LIZI8V-->
+      LIZZI/
+      MAITE/
+      IGPON/
+      MONTY
+    </Line>
+    <Line>
+      <!--Rwy34 PORT6A.MILLA-->
+      
+    </Line>
+    <Line>
+      <!--Rwy34 PORT6A.ONAGI-->
+      
+    </Line>
+    <Line>
+      <!--Rwy34 PORT6A-->
+      PORTS/
+      ESLOK/
+      AKDEL
+    </Line>
+    <Line>
+      <!--Rwy34 WARE7A-->
+      MICHM/
+      UPKID/
+      GOOLA
+    </Line>
+    <Line>
+      <!--Rwy34 WARE7V-->
+      
+    </Line>
+    <Line>
+      <!--Rwy34 WEND9A-->
+      TEENA/
+      MEMEG/
+      LAVER
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>GUPUG</Point>
+      <Point>AKDEL</Point>
+      <Point>SHEED</Point>
     </Symbol>
     <Symbol Type="SolidStar">
-      <Point>HORSH</Point>
+      <Point>POREM</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>MNG VOR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>YARRA</Point>
+      <Point>ROKDL</Point>
+      <Point>GEDEN</Point>
       <Point>CORRS</Point>
-      <Point>ALBAK</Point>
-      <Point>VIDAR</Point>
-      <Point>MARSH</Point>
+      <Point>HOPLA</Point>
       <Point>CRENA</Point>
-      <Point>CHIMU</Point>
       <Point>SALLY</Point>
       <Point>DOSEL</Point>
       <Point>ESDIG</Point>
-      <Point>KAGMU</Point>
-      <Point>ABVOG</Point>
+      <Point>OKMEL</Point>
       <Point>KEPPA</Point>
-      <Point>LILMI</Point>
       <Point>NEVIS</Point>
       <Point>NONIX</Point>
+      <Point>PEBAL</Point>
       <Point>SUNTI</Point>
       <Point>ARBEY</Point>
       <Point>TUNKA</Point>
@@ -194,28 +261,45 @@
       <Point>WENDY</Point>
       <Point>NIXEN</Point>
       <Point>TEENA</Point>
+      <Point>OVNER</Point>
+      <Point>RENER</Point>
+      <Point>GOSKO</Point>
+      <Point>LAVER</Point>
+      <Point>OBGAL</Point>
+      <Point>MAXAL</Point>
+      <Point>OLTUR</Point>
+      <Point>VENVO</Point>
+      <Point>GOOLA</Point>
+      <Point>BOLTY</Point>
+      <Point>ARTHA</Point>
+      <Point>EMRIG</Point>
+      <Point>EGEKA</Point>
+      <Point>VEPUD</Point>
+      <Point>AKSID</Point>
+      <Point>MAITE</Point>
+      <Point>IGPON</Point>
+      <Point>ESLOK</Point>
+      <Point>UPKID</Point>
+      <Point>MEMEG</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="ML_RWY09A16D_NAMES" Priority="2" Centre="-37.673333+144.843333">
+  <Map Type="System" Name="ML_RWY09LAHSO34_NAMES" Priority="2" Centre="-37.673333+144.843333">
     <Label>
-      <Point>YARRA</Point>
+      <Point>ROKDL</Point>
+      <Point>POREM</Point>
+      <Point>GEDEN</Point>
       <Point>CORRS</Point>
-      <Point>HORSH</Point>
-      <Point>ALBAK</Point>
-      <Point>VIDAR</Point>
-      <Point>MARSH</Point>
+      <Point>HOPLA</Point>
       <Point>CRENA</Point>
-      <Point>CHIMU</Point>
       <Point>SALLY</Point>
       <Point>DOSEL</Point>
       <Point>ESDIG</Point>
-      <Point>KAGMU</Point>
-      <Point>ABVOG</Point>
+      <Point>OKMEL</Point>
       <Point>KEPPA</Point>
       <Point>MNG VOR</Point>
-      <Point>LILMI</Point>
       <Point>NEVIS</Point>
       <Point>NONIX</Point>
+      <Point>PEBAL</Point>
       <Point>SUNTI</Point>
       <Point>ARBEY</Point>
       <Point>TUNKA</Point>
@@ -250,6 +334,28 @@
       <Point>WENDY</Point>
       <Point>NIXEN</Point>
       <Point>TEENA</Point>
+      <Point>OVNER</Point>
+      <Point>RENER</Point>
+      <Point>GOSKO</Point>
+      <Point>LAVER</Point>
+      <Point>OBGAL</Point>
+      <Point>AKDEL</Point>
+      <Point>MAXAL</Point>
+      <Point>OLTUR</Point>
+      <Point>VENVO</Point>
+      <Point>GOOLA</Point>
+      <Point>BOLTY</Point>
+      <Point>ARTHA</Point>
+      <Point>EMRIG</Point>
+      <Point>EGEKA</Point>
+      <Point>SHEED</Point>
+      <Point>VEPUD</Point>
+      <Point>AKSID</Point>
+      <Point>MAITE</Point>
+      <Point>IGPON</Point>
+      <Point>ESLOK</Point>
+      <Point>UPKID</Point>
+      <Point>MEMEG</Point>
       <Point>KACEY</Point>
       <Point>NATYA</Point>
       <Point>FRANZ</Point>

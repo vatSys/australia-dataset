@@ -52,7 +52,7 @@
       <!--Rwy23 ATPIP3-->
       ATPIP/
       KASBU/
-      AD
+      AD VOR
     </Line>
     <Line>
       <!--Rwy23 BLAC3A-->
@@ -185,7 +185,7 @@
       <!--Rwy23 RUSSL3-->
       RUSSL/
       LUFFY/
-      AD
+      AD VOR
     </Line>
     <Line>
       <!--Rwy23 SALT3A.AGROS-->
@@ -246,7 +246,7 @@
       <!--Rwy23 SURGN3-->
       SURGN/
       GRIGS/
-      AD
+      AD VOR
     </Line>
     <Line>
       <!--Rwy12 ATPIP3-->
@@ -308,12 +308,15 @@
       
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>AD</Point>
       <Point>GULLY</Point>
       <Point>MOPRI</Point>
       <Point>PORTA</Point>
       <Point>MALIK</Point>
       <Point>MULDR</Point>
+    </Symbol>
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle">
+      <Point>AD VOR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>COLPY</Point>
@@ -392,7 +395,7 @@
       <Point>SEDAN</Point>
       <Point>ATPIP</Point>
       <Point>KASBU</Point>
-      <Point>AD</Point>
+      <Point>AD VOR</Point>
       <Point>BLACK</Point>
       <Point>PLEZN</Point>
       <Point>KERRS</Point>

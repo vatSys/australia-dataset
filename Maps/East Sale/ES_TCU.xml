@@ -3,6 +3,9 @@
   <Map Type="System" Name="ES_TCU" Priority="1" Centre="-38.098889+147.149444">
     <!--Routes-->
   </Map>
+  <Map Type="System" Name="ES_TCU_NAMES" Priority="2" Centre="-38.098889+147.149444">
+    <Label />
+  </Map>
   <Map Type="System2" Name="ES_VFR" Priority="1" Centre="-38.098889+147.149444">
     <Symbol Type="HollowSquare">
       <Point>COWR</Point>
@@ -30,7 +33,7 @@
   <Map Type="System" Name="YMES_ALLRWYS" Priority="2" Centre="-38.098889+147.149444">
     <Runway Name="04/22">
       <Threshold Name="04" Position="-38.10605+147.138561" ExtendedCentrelineTrack="233.86" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="22" Position="-38.093103+147.161006" ExtendedCentrelineTrack="53.88" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="22" Position="-38.093103+147.161006" ExtendedCentrelineTrack="53.88" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <Runway Name="09/27">
       <Threshold Name="09" Position="-38.095681+147.1283" ExtendedCentrelineTrack="278.89" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />

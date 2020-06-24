@@ -7,21 +7,21 @@
       <Threshold Name="36" Position="-34.717353+138.613444" />
     </Runway>
     <Runway Name="04/22">
-      <Threshold Name="04" Position="-34.711153+138.6162" ExtendedCentrelineTrack="228.01" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="22" Position="-34.699319+138.632119" ExtendedCentrelineTrack="48.01" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="04" Position="-34.711153+138.6162" />
+      <Threshold Name="22" Position="-34.699319+138.632119" />
     </Runway>
     <!--YPPF-->
     <Runway Name="03R/21L">
-      <Threshold Name="03R" Position="-34.802164+138.634342" ExtendedCentrelineTrack="208.23" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="21L" Position="-34.792003+138.640956" ExtendedCentrelineTrack="28.23" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="03R" Position="-34.802164+138.634342" />
+      <Threshold Name="21L" Position="-34.792003+138.640956" />
     </Runway>
     <Runway Name="08L/26R">
       <Threshold Name="08L" Position="-34.79355+138.624764" ExtendedCentrelineTrack="264.80" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
       <Threshold Name="26R" Position="-34.792767+138.635197" ExtendedCentrelineTrack="84.80" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <Runway Name="08R/26L">
-      <Threshold Name="08R" Position="-34.795589+138.623317" ExtendedCentrelineTrack="264.79" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="26L" Position="-34.794778+138.634111" ExtendedCentrelineTrack="84.80" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="08R" Position="-34.795589+138.623317" />
+      <Threshold Name="26L" Position="-34.794778+138.634111" />
     </Runway>
     <Runway Name="03L/21R">
       <Threshold Name="03L" Position="-34.803778+138.630644" ExtendedCentrelineTrack="208.24" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
@@ -256,6 +256,53 @@
       <Point>WRR</Point>
       <Point>WHPL</Point>
     </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="HOPE_VALLEY">MLIT</Point>
+      <Point Name="IN_EAST">WRR</Point>
+      <Point Name="IN_NORTHWEST">DUB</Point>
+      <Point Name="OUT_EAST">-34.762487+138.675967</Point>
+      <Point Name="OUT_NORTHWEST">-34.781439+138.564353</Point>
+      <Point Name="ROUTE_1">BENDO</Point>
+    </Label>
+    <!--HOPE_VALLEY-->
+    <Line Pattern="Dotted">
+      MLIT/
+      WTC/
+      HVR/
+      -34.823427+138.659117
+    </Line>
+    <!--IN_EAST-->
+    <Line Pattern="Dotted">
+      WRR/
+      DMW/
+      -34.768926+138.682043
+    </Line>
+    <!--IN_NORTHWEST-->
+    <Line Pattern="Dotted">
+      DUB/
+      RMH/
+      OHB/
+      -34.795228+138.551806
+    </Line>
+    <!--OUT_EAST-->
+    <Line Pattern="Dotted">
+      -34.762487+138.675967/
+      SUB/
+      SPR
+    </Line>
+    <!--OUT_NORTHWEST-->
+    <Line Pattern="Dotted">
+      -34.781439+138.564353/
+      -34.744034+138.525048/
+      DUB
+    </Line>
+    <!--ROUTE_1-->
+    <Line Pattern="Dotted">
+      BENDO/
+      SYN/
+      PNL/
+      MLIT
+    </Line>
   </Map>
   <Map Type="System" Name="YPAD_ALLRWYS" Priority="2" Centre="-34.945+138.530556">
     <Runway Name="05/23">

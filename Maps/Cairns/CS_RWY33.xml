@@ -4,7 +4,7 @@
     <!--YBCS-->
     <Runway Name="15/33">
       <Threshold Name="15" Position="-16.865831+145.743561" />
-      <Threshold Name="33" Position="-16.891983+145.755383" ExtendedCentrelineTrack="156.48" ExtendedCentrelineLength="24" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="33" Position="-16.891983+145.755383" ExtendedCentrelineTrack="156.48" ExtendedCentrelineLength="25" ExtendedCentrelineTickInterval="5" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -209,6 +209,8 @@
       <Point>BASIL</Point>
       <Point>LEBAD</Point>
     </Symbol>
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle" />
     <Symbol Type="HollowStar">
       <Point>CANNU</Point>
       <Point>HAKIT</Point>

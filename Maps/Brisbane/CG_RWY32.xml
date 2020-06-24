@@ -1,51 +1,194 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="CG_RWY32" Priority="1" Center="-27.40+153.118">
-	<Runway Name="14/32">
+  <Map Type="System" Name="CG_RWY32" Priority="1" Centre="-28.164444+153.504722">
+    <!--YBCG-->
+    <Runway Name="14/32">
       <Threshold Name="14" Position="-28.156511+153.500706" />
-      <Threshold Name="32" Position="-28.172569+153.510919" ExtendedCentrelineTrack="150.7" ExtendedCentrelineLength="10"  ExtendedCentrelineTickInterval="5" />
-	</Runway>
-	<!-- STARs -->
-	<Line>
-	  BERNI/
-	  ELDUX/
-	  VANSU/
-	  ROONY/
-	  FIKUL/
-	  JAAPI
-	</Line>
-	<Line>
-	  LAMSI/
-	  IGLAP/
-	  VIDUM/
-	  FIKUL
+      <Threshold Name="32" Position="-28.172569+153.510919" ExtendedCentrelineTrack="150.58" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy32 APAGI4-->
+      -28.156511+153.500706/
+      STIMP/
+      MICKS/
+      APAGI
     </Line>
-   <Symbol Type="HollowStar">
-	<Point>BERNI</Point>
-	<Point>ELDUX</Point>
-	<Point>VANSU</Point>
-	<Point>ROONY</Point>
-	<Point>JAAPI</Point>
-	<Point>LAMSI</Point>
-	<Point>IGLAP</Point>
-	<Point>VIDUM</Point>
-    </Symbol>
+    <Line>
+      <!--Rwy32 BURLI4-->
+      -28.156511+153.500706/
+      -28.150004+153.497071/
+      LUVLY/
+      -28.133278+153.490733/
+      -28.120864+153.494879/
+      -28.111941+153.505506/
+      -28.108899+153.519766/
+      -28.112552+153.533841/
+      -28.118955+153.541781/
+      MEETA/
+      -28.142446+153.560856/
+      MAIDS/
+      -28.192151+153.600949/
+      BURLI/
+      -28.224711+153.614401/
+      -28.25876+153.608026/
+      -28.285437+153.583169/
+      -28.287423+153.579743/
+      APAGI
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy32 BERN1A-->
+      BERNI/
+      ELDUX/
+      VANSU/
+      ROONY/
+      FIKUL
+    </Line>
+    <Line>
+      <!--Rwy32 BERN1V-->
+      FIKUL/
+      JAAPI
+    </Line>
+    <Line>
+      <!--Rwy32 LAMS1A-->
+      LAMSI/
+      IGLAP/
+      VIDUM/
+      FIKUL
+    </Line>
+    <Line>
+      <!--Rwy32 LAMS1Y-->
+      LAMSI/
+      OVSOT/
+      ADMAK/
+      TENIP/
+      ATKEN
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>FIKUL</Point>
-	  <Point>OOLSI</Point>
+      <Point>JAAPI</Point>
+      <Point>ATKEN</Point>
     </Symbol>
-	<!-- SIDs -->
-	<Line>
-	  -28.156511+153.500706/ <!-- Threshold 14 -->
-	  -280744.0+1532909.0/
-	  STIMP/
-	  MICKS/
-	  APAGI
-	</Line>
-   <Symbol Type="HollowStar">
-     <Point>STIMP</Point>
-     <Point>MICKS</Point>
-	 <Point>APAGI</Point>
-	</Symbol>
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle" />
+    <Symbol Type="HollowStar">
+      <Point>STIMP</Point>
+      <Point>MICKS</Point>
+      <Point>APAGI</Point>
+      <Point>LUVLY</Point>
+      <Point>MEETA</Point>
+      <Point>MAIDS</Point>
+      <Point>BURLI</Point>
+      <Point>BERNI</Point>
+      <Point>ELDUX</Point>
+      <Point>VANSU</Point>
+      <Point>ROONY</Point>
+      <Point>LAMSI</Point>
+      <Point>IGLAP</Point>
+      <Point>VIDUM</Point>
+      <Point>OVSOT</Point>
+      <Point>ADMAK</Point>
+      <Point>TENIP</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="CG_RWY32_NAMES" Priority="2" Centre="-28.164444+153.504722">
+    <Label>
+      <Point>STIMP</Point>
+      <Point>MICKS</Point>
+      <Point>APAGI</Point>
+      <Point>LUVLY</Point>
+      <Point>MEETA</Point>
+      <Point>MAIDS</Point>
+      <Point>BURLI</Point>
+      <Point>BERNI</Point>
+      <Point>ELDUX</Point>
+      <Point>VANSU</Point>
+      <Point>ROONY</Point>
+      <Point>FIKUL</Point>
+      <Point>JAAPI</Point>
+      <Point>LAMSI</Point>
+      <Point>IGLAP</Point>
+      <Point>VIDUM</Point>
+      <Point>OVSOT</Point>
+      <Point>ADMAK</Point>
+      <Point>TENIP</Point>
+      <Point>ATKEN</Point>
+      <Point>MEPEM</Point>
+      <Point>GUMKI</Point>
+      <Point>MIMMI</Point>
+      <Point>MORRO</Point>
+      <Point>WOODY</Point>
+      <Point>UGTUG</Point>
+      <Point>SAVER</Point>
+      <Point>BONEY</Point>
+      <Point>SANEG</Point>
+      <Point>HUUGO</Point>
+      <Point>TESSI</Point>
+      <Point>ADMAR</Point>
+      <Point>TOJAM</Point>
+      <Point>GOMOL</Point>
+      <Point>SCOTT</Point>
+      <Point>CHEWY</Point>
+      <Point>KATEB</Point>
+      <Point>ITIDE</Point>
+      <Point>GUDSO</Point>
+      <Point>ISKIM</Point>
+      <Point>BIXAD</Point>
+      <Point>TAPET</Point>
+      <Point>LOAFA</Point>
+      <Point>MAKRU</Point>
+      <Point>BICKL</Point>
+      <Point>SU VOR</Point>
+      <Point>SAMVI</Point>
+      <Point>RUDEY</Point>
+      <Point>MESED</Point>
+      <Point>ATROP</Point>
+      <Point>HARVS</Point>
+      <Point>SETER</Point>
+      <Point>TEBOT</Point>
+      <Point>HAWKE</Point>
+      <Point>COOLA</Point>
+      <Point>WACKO</Point>
+      <Point>IBUNA</Point>
+      <Point>LEBIT</Point>
+      <Point>ATVIL</Point>
+      <Point>UNVAT</Point>
+      <Point>SUSGI</Point>
+      <Point>OTLEB</Point>
+      <Point>MORBI</Point>
+      <Point>AKOBA</Point>
+      <Point>SAGLI</Point>
+      <Point>MAGPI</Point>
+      <Point>ALDAR</Point>
+      <Point>ARM NDB</Point>
+      <Point>GAMBL</Point>
+      <Point>CFS VOR</Point>
+      <Point>BUD NDB</Point>
+      <Point>SOSTU</Point>
+      <Point>HOLIS</Point>
+      <Point>RIDVO</Point>
+      <Point>OK VOR</Point>
+      <Point>MATVI</Point>
+      <Point>DAMIN</Point>
+      <Point>BANDA</Point>
+      <Point>BEPNA</Point>
+      <Point>YCCA</Point>
+      <Point>OPIPO</Point>
+      <Point>NODOR</Point>
+      <Point>EAGLE</Point>
+      <Point>LAMUG</Point>
+      <Point>SMOKA</Point>
+      <Point>BN VOR</Point>
+      <Point>DUNNI</Point>
+      <Point>ESTER</Point>
+      <Point>AGIVA</Point>
+      <Point>PARRY</Point>
+      <Point>ELENI</Point>
+      <Point>AMB NDB</Point>
+      <Point>SUKTU</Point>
+      <Point>EDPEG</Point>
+      <Point>ENLIP</Point>
+    </Label>
   </Map>
 </Maps>

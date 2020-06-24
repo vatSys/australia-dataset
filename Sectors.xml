@@ -171,6 +171,7 @@
   <Sector FullName="Avalon Surface Movement Control" Frequency="129.300" Callsign="AV_GND" Name="AV SMC" >
   </Sector>
   <Sector FullName="East Sale Approach" Frequency="123.300" Callsign="ES_APP" Name="ESA" >
+    <Volumes>ESA</Volumes>
   </Sector>
   <Sector FullName="East Sale Tower" Frequency="118.300" Callsign="ES_TWR" Name="ES ADC" >
   </Sector>
@@ -220,6 +221,7 @@
   <Sector FullName="Richmond Surface Movement Control" Frequency="128.250" Callsign="RI_GND" Name="RI SMC" >
   </Sector>
   <Sector FullName="Nowra Approach" Frequency="123.500" Callsign="NW_APP" Name="NWA" >
+    <Volumes>NWA-A,NWA-B</Volumes>
   </Sector>
   <Sector FullName="Nowra Tower" Frequency="118.850" Callsign="NW_TWR" Name="NW ADC" >
   </Sector>
@@ -239,16 +241,20 @@
   <Sector FullName="Canberra Surface Movement Control" Frequency="121.700" Callsign="CB_GND" Name="CB SMC" >
   </Sector>
   <Sector FullName="Albury Tower" Frequency="124.200" Callsign="AY_TWR" Name="AY ADC" >
+    <Volumes>AYTWR</Volumes>
   </Sector>
   <Sector FullName="Albury Surface Movement Control" Frequency="121.800" Callsign="AY_GND" Name="AY SMC" >
   </Sector>
   <Sector FullName="Hobart Tower" Frequency="118.100" Callsign="HB_TWR" Name="HB ADC" >
+      <Volumes>HBTWR</Volumes>
   </Sector>
   <Sector FullName="Hobart Surface Movement Control" Frequency="121.700" Callsign="HB_GND" Name="HB SMC" >
   </Sector>
   <Sector FullName="Launceston Tower" Frequency="118.700" Callsign="LT_TWR" Name="LT ADC" >
+      <Volumes>LTTWR</Volumes>
   </Sector>
   <Sector FullName="Alice Springs Tower" Frequency="118.300" Callsign="AS_TWR" Name="AS ADC" >
+      <Volumes>ASTWR</Volumes>
   </Sector>
   <Sector FullName="Adelaide Approach West" Frequency="124.200" Callsign="AD_APP" Name="AAW" >
     <Volumes>ADA</Volumes>
@@ -272,6 +278,7 @@
   <Sector FullName="Parafield Surface Movement Control" Frequency="119.900" Callsign="PF_GND" Name="PF SMC" >
   </Sector>
   <Sector FullName="Woomera Tower" Frequency="118.300" Callsign="WR_TWR" Name="WR ADC" >
+    <Volumes>WRTWR</Volumes>
   </Sector>
   <Sector FullName="Perth Approach" Frequency="123.600" Callsign="PH_APP" Name="PHA" >
     <Volumes>PHANE,PHASW</Volumes>
@@ -301,6 +308,7 @@
   <Sector FullName="Gingin Tower" Frequency="118.500" Callsign="GIG_TWR" Name="GIG ADC" >
   </Sector>
   <Sector FullName="Karratha Tower" Frequency="127.350" Callsign="KA_TWR" Name="KA ADC" >
+    <Volumes>KATWR</Volumes>
   </Sector>
   <Sector FullName="Downs" Frequency="135.600" Callsign="BN-DOS_CTR" Name="DOS" >
     <Volumes>DOS</Volumes>
@@ -403,10 +411,12 @@
   <Sector FullName="Gold Coast Surface Movement Control" Frequency="121.800" Callsign="CG_GND" Name="CG SMC" >
   </Sector>
   <Sector FullName="Sunshine Coast Tower" Frequency="124.400" Callsign="SU_TWR" Name="SU ADC" >
+    <Volumes>SUTWR</Volumes>
   </Sector>
   <Sector FullName="Sunshine Coast Surface Movement Control" Frequency="121.100" Callsign="SU_GND" Name="SU SMC" >
   </Sector>
   <Sector FullName="Amberley Approach" Frequency="126.200" Callsign="AMB_APP" Name="AMB" >
+    <Volumes>AMBAPP</Volumes>
   </Sector>
   <Sector FullName="Amberley Tower" Frequency="118.300" Callsign="AMB_TWR" Name="AMB ADC" >
   </Sector>
@@ -419,12 +429,14 @@
   <Sector FullName="Archerfield Surface Movement Control" Frequency="119.900" Callsign="AF_GND" Name="AF SMC" >
   </Sector>
   <Sector FullName="Oakey Approach" Frequency="125.400" Callsign="OK_APP" Name="OKA" >
+    <Volumes>OKA</Volumes>
   </Sector>
   <Sector FullName="Oakey Tower " Frequency="120.100" Callsign="OK_TWR" Name="OK ADC" >
   </Sector>
   <Sector FullName="Oakey Surface Movement Control" Frequency="121.900" Callsign="OK_GND" Name="OK SMC" >
   </Sector>
   <Sector FullName="Williamtown Approach" Frequency="135.700" Callsign="WLM_APP" Name="WLM" >
+    <Volumes>WLMAPP</Volumes>
   </Sector>
   <Sector FullName="Williamtown Tower" Frequency="118.300" Callsign="WLM_TWR" Name="WLM ADC" >
   </Sector>
@@ -433,16 +445,21 @@
   <Sector FullName="Williamtown Clearance Delivery" Frequency="130.150" Callsign="WLM_DEL" Name="WLM COORD" >
   </Sector>
   <Sector FullName="Tamworth Tower" Frequency="119.400" Callsign="TW_TWR" Name="TW ADC" >
+    <Volumes>TWTWR</Volumes>
   </Sector>
   <Sector FullName="Tamworth Surface Movement Control" Frequency="121.900" Callsign="TW_GND" Name="TW SMC" >
   </Sector>
   <Sector FullName="Coffs Harbour Tower" Frequency="118.200" Callsign="CFS_TWR" Name="CFS ADC" >
+      <Volumes>CFSTWR</Volumes>
   </Sector>
   <Sector FullName="Rockhampton Tower" Frequency="118.100" Callsign="RK_TWR" Name="RK ADC" >
+      <Volumes>RKTWR</Volumes>
   </Sector>
   <Sector FullName="Mackay Tower" Frequency="124.500" Callsign="MK_TWR" Name="MK ADC" >
+    <Volumes>MKTWR</Volumes>
   </Sector>
   <Sector FullName="Hamilton Island Tower" Frequency="118.700" Callsign="HM_TWR" Name="HM ADC" >
+    <Volumes>HMTWR</Volumes>
   </Sector>
   <Sector FullName="Townsville Approach" Frequency="126.800" Callsign="TL_APP" Name="TLA" >
     <Volumes>TLA</Volumes>
@@ -474,7 +491,7 @@
   <Sector FullName="Darwin Clearance Delivery" Frequency="126.800" Callsign="DN_DEL" Name="DN COORD" >
   </Sector>
   <Sector FullName="Tindal Approach" Frequency="121.900" Callsign="TN_APP" Name="TNA" >
-    <Volumes>TNA</Volumes>
+    <Volumes>TNA-A,TNA-B,TNA-C</Volumes>
   </Sector>
   <Sector FullName="Tindal Tower" Frequency="119.700" Callsign="TN_TWR" Name="TN ADC" >
   </Sector>
@@ -483,6 +500,7 @@
   <Sector FullName="Tindal Clearance Delivery" Frequency="128.100" Callsign="TN_DEL" Name="TN COORD" >
   </Sector>
   <Sector FullName="Broome Tower" Frequency="126.000" Callsign="BRM_TWR" Name="BRM ADC" >
+    <Volumes>BRMTWR</Volumes>
   </Sector>
   <Sector FullName="Broome Surface Movement Control" Frequency="121.700" Callsign="BRM_GND" Name="BRM SMC" >
   </Sector>
