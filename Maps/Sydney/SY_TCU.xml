@@ -291,14 +291,9 @@
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="IN_2RN">TWRN</Point>
-      <Point Name="IN_PROSPECT">BBG</Point>
+      <Point Name="IN_SOUTH">BBG</Point>
       <Point Name="OUT_NORTH">-33.875023+150.996584</Point>
-      <Point Name="IN_BRINGELLY">BRY</Point>
-      <Point Name="IN_MAYFIELD">MYF</Point>
-      <Point Name="IN_MENANGLE">MEG</Point>
-      <Point Name="IN_PICTON">PIC</Point>
-      <Point Name="IN_THE_OAKS">THK</Point>
-      <Point Name="ROUTE">WSFR</Point>
+      <Point Name="RIC_ROUTE">WSFR</Point>
       <Point Name="HARB_SCENIC_1">LRF</Point>
       <Point Name="HARB_SCENIC_2">CHAT</Point>
       <Point Name="VICTOR_1">-34.085079+151.18635</Point>
@@ -308,7 +303,7 @@
       TWRN/
       -33.931729+150.94686
     </Line>
-    <!--IN_PROSPECT-->
+    <!--IN_SOUTH-->
     <Line Pattern="Dotted">
       BBG/
       -33.700639+151.018866/
@@ -323,32 +318,7 @@
       HSY/
       PAA
     </Line>
-    <!--IN_BRINGELLY-->
-    <Line Pattern="Dotted">
-      BRY/
-      YSCN
-    </Line>
-    <!--IN_MAYFIELD-->
-    <Line Pattern="Dotted">
-      MYF/
-      YSCN
-    </Line>
-    <!--IN_MENANGLE-->
-    <Line Pattern="Dotted">
-      MEG/
-      YSCN
-    </Line>
-    <!--IN_PICTON-->
-    <Line Pattern="Dotted">
-      PIC/
-      YSCN
-    </Line>
-    <!--IN_THE_OAKS-->
-    <Line Pattern="Dotted">
-      THK/
-      YSCN
-    </Line>
-    <!--ROUTE-->
+    <!--RIC_ROUTE-->
     <Line Pattern="Dotted">
       WSFR/
       KRMD/
