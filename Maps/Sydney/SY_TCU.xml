@@ -290,7 +290,6 @@
       <Point>WSFR</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="IN_2RN">TWRN</Point>
       <Point Name="IN_SOUTH">BBG</Point>
       <Point Name="OUT_NORTH">-33.875023+150.996584</Point>
       <Point Name="RIC_ROUTE">WSFR</Point>
@@ -298,11 +297,6 @@
       <Point Name="HARB_SCENIC_2">CHAT</Point>
       <Point Name="VICTOR_1">-34.085079+151.18635</Point>
     </Label>
-    <!--IN_2RN-->
-    <Line Pattern="Dotted">
-      TWRN/
-      -33.931729+150.94686
-    </Line>
     <!--IN_SOUTH-->
     <Line Pattern="Dotted">
       BBG/
@@ -323,6 +317,7 @@
       WSFR/
       KRMD/
       GRRV/
+      -33.716527+150.648827/
       NPBR
     </Line>
     <!--HARB_SCENIC_1-->
