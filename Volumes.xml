@@ -234,9 +234,10 @@
 -271455.293+1520208.883/
 -270902.281+1520722.132/
 -270427.000+1521259.000</Boundary>
-  <Boundary Name="ARAFURA">-072338.000+1334000.000/
+  <Boundary Name="ARAFURA">
+-072338.000+1334000.000/
 -070000.000+1350000.000/
--073654.000+1399999.000/
+-073654.000+1360000.000/
 -095000.000+1394000.000/
 -095000.000+1410000.000/
 -093700.000+1410200.000/
@@ -5471,6 +5472,9 @@
   </Volume>
   <Volume Name="MLD" LowerLimit="0" UpperLimit="99999">
     <Boundaries>MAITLAND</Boundaries>
+  </Volume>
+  <Volume Name="MKTWR" LowerLimit="0" UpperLimit="4500">
+    <Boundaries>MACKAY_CTA_D3</Boundaries>
   </Volume>
   <Volume Name="MOR" LowerLimit="0" UpperLimit="99999">
     <Boundaries>MORRIS</Boundaries>

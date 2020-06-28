@@ -1,11 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="ML_TCU" Priority="1" Centre="-37.673333+144.843333">
-    <!--YMAV-->
-    <Runway Name="18/36">
-      <Threshold Name="18" Position="-38.027239+144.469425" ExtendedCentrelineTrack="7.59" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="36" Position="-38.054456+144.464839" />
-    </Runway>
     <!--YMEN-->
     <Runway Name="08/26">
       <Threshold Name="08" Position="-37.731392+144.892881" />
@@ -100,12 +95,6 @@
       OWENS/
       RAVEN/
       CHITT
-    </Line>
-    <Line>
-      <!--W15-->
-      LLOYD/
-      TEMPL/
-      AV VOR
     </Line>
     <Line>
       <!--W405-->
@@ -324,6 +313,10 @@
     <Runway Name="09/27">
       <Threshold Name="09" Position="-37.660756+144.822247" ExtendedCentrelineTrack="274.18" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="27" Position="-37.662261+144.848089" ExtendedCentrelineTrack="94.20" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="18/36">
+      <Threshold Name="18" Position="-38.027239+144.469425" ExtendedCentrelineTrack="7.59" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="36" Position="-38.054456+144.464839" ExtendedCentrelineTrack="187.59" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
     </Runway>
   </Map>
 </Maps>

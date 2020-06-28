@@ -8,7 +8,7 @@
     </Runway>
     <Runway Name="05/23">
       <Threshold Name="05" Position="-34.957681+138.518456" />
-      <Threshold Name="23" Position="-34.940644+138.54325" ExtendedCentrelineTrack="50.16" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="23" Position="-34.940644+138.54325" ExtendedCentrelineTrack="50.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -52,7 +52,7 @@
       <!--Rwy23 ATPIP3-->
       ATPIP/
       KASBU/
-      AD VOR
+      AD
     </Line>
     <Line>
       <!--Rwy23 BLAC3A-->
@@ -185,7 +185,7 @@
       <!--Rwy23 RUSSL3-->
       RUSSL/
       LUFFY/
-      AD VOR
+      AD
     </Line>
     <Line>
       <!--Rwy23 SALT3A.AGROS-->
@@ -246,7 +246,7 @@
       <!--Rwy23 SURGN3-->
       SURGN/
       GRIGS/
-      AD VOR
+      AD
     </Line>
     <Line>
       <!--Rwy12 ATPIP3-->
@@ -316,7 +316,7 @@
     </Symbol>
     <Symbol Type="SolidStar" />
     <Symbol Type="Circle">
-      <Point>AD VOR</Point>
+      <Point>AD</Point>
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>COLPY</Point>
@@ -395,7 +395,7 @@
       <Point>SEDAN</Point>
       <Point>ATPIP</Point>
       <Point>KASBU</Point>
-      <Point>AD VOR</Point>
+      <Point>AD</Point>
       <Point>BLACK</Point>
       <Point>PLEZN</Point>
       <Point>KERRS</Point>
