@@ -83,10 +83,10 @@
     <Message Response="R">EXPECT TO CROSS [POSITION] AT AND MAINTAIN [LEVEL]</Message>
   </Category>
   <Category name="Divert">
-    <Message Response="NE">WHEN CAN YOU ACCEPT [DIRECTION] [DISTANCE] OFFSET</Message>
-    <Message Response="WU">OFFSET [DIRECTION] [DISTANCE] OF ROUTE</Message>
-    <Message Response="WU">AT [POSITION] OFFSET [DIRECTION] [DISTANCE] OF ROUTE</Message>
-    <Message Response="WU">AT [TIME] OFFSET [DIRECTION] [DISTANCE] OF ROUTE</Message>
+    <Message Response="NE">WHEN CAN YOU ACCEPT [DISTANCE] [DIRECTION] OFFSET</Message>
+    <Message Response="WU">OFFSET [DISTANCE] [DIRECTION] OF ROUTE</Message>
+    <Message Response="WU">AT [POSITION] OFFSET [DISTANCE] [DIRECTION] OF ROUTE</Message>
+    <Message Response="WU">AT [TIME] OFFSET [DISTANCE] [DIRECTION] OF ROUTE</Message>
     <Message Response="WU">PROCEED BACK ON ROUTE</Message>
     <Message Response="WU">REJOIN ROUTE BY [POSITION]</Message>
     <Message Response="WU">REJOIN ROUTE BY [TIME]</Message>
