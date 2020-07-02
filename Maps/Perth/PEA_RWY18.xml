@@ -26,8 +26,7 @@
     </Line>
     <Line>
       <!--Rwy18L PEA3G-->
-      GOSNL/
-      PH VOR
+      GOSNL
     </Line>
     <Line>
       <!--Rwy18L PEA3R.BEVLY-->
@@ -47,8 +46,7 @@
     </Line>
     <Line>
       <!--Rwy18L PEA3R-->
-      ROLOB/
-      PH VOR
+      ROLOB
     </Line>
     <Line>
       <!--Rwy18L PEA3W.HAMTN-->
@@ -59,8 +57,7 @@
     <Line>
       <!--Rwy18L PEA3W-->
       WUNGO/
-      HARMN/
-      PH VOR
+      HARMN
     </Line>
     <Line>
       <!--Rwy18R PEA3G.BEVLY-->
@@ -72,7 +69,7 @@
     </Line>
     <Line>
       <!--Rwy18R PEA3G-->
-      
+      GOSNL
     </Line>
     <Line>
       <!--Rwy18R PEA3R.BEVLY-->
@@ -84,7 +81,7 @@
     </Line>
     <Line>
       <!--Rwy18R PEA3R-->
-      
+      ROLOB
     </Line>
     <Line>
       <!--Rwy18R PEA3W.HAMTN-->
@@ -96,9 +93,7 @@
     </Line>
     <Symbol Type="HollowTriangle" />
     <Symbol Type="SolidStar" />
-    <Symbol Type="Circle">
-      <Point>PH VOR</Point>
-    </Symbol>
+    <Symbol Type="Circle" />
     <Symbol Type="HollowStar">
       <Point>BEVLY</Point>
       <Point>KYEMA</Point>
@@ -124,7 +119,6 @@
       <Point>GOSNL</Point>
       <Point>GRENE</Point>
       <Point>BOOKA</Point>
-      <Point>PH VOR</Point>
       <Point>PONYS</Point>
       <Point>DELAK</Point>
       <Point>ROLOB</Point>
@@ -150,8 +144,7 @@
       <Point>BLN NDB</Point>
       <Point>SOLUS</Point>
       <Point>JOSBU</Point>
-      <Point>PEA NDB</Point>
-      <Point>GIG NDB</Point>
+      <Point>ABA NDB</Point>
       <Point>AVNEX</Point>
       <Point>ESDEG</Point>
       <Point>AMANA</Point>
@@ -161,6 +154,8 @@
       <Point>RAVON</Point>
       <Point>NORIC</Point>
       <Point>DUTAK</Point>
+      <Point>STURT</Point>
+      <Point>BUNGL</Point>
       <Point>YAHMO</Point>
       <Point>KELLA</Point>
     </Label>

@@ -1,7 +1,41 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="HB_TCU" Priority="1" Centre="-42.836111+147.510278">
-    <!--Routes-->
+    <!--Airway Routes-->
+    <Line>
+      <!--H111-->
+      KANLI/
+      LATUM/
+      LT VOR
+    </Line>
+    <Line>
+      <!--J163-->
+      KAREN/
+      NUNPA
+    </Line>
+    <Line>
+      <!--T234-->
+      DOTVU/
+      SALEM/
+      CLARK
+    </Line>
+    <Line>
+      <!--V33-->
+      IRSOM/
+      LIFFY/
+      MORGO
+    </Line>
+    <Line>
+      <!--W407-->
+      NUNPA/
+      MOTRA/
+      IPLET
+    </Line>
+    <Line>
+      <!--W462-->
+      GOMOM/
+      BROAD
+    </Line>
   </Map>
   <Map Type="System2" Name="HB_VFR" Priority="1" Centre="-42.836111+147.510278">
     <Symbol Type="HollowSquare">
@@ -135,8 +169,8 @@
   </Map>
   <Map Type="System" Name="YMHB_ALLRWYS" Priority="2" Centre="-42.836111+147.510278">
     <Runway Name="12/30">
-      <Threshold Name="12" Position="-42.828983+147.502047" ExtendedCentrelineTrack="315.01" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="30" Position="-42.845589+147.524594" ExtendedCentrelineTrack="135.03" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="12" Position="-42.828983+147.502047" ExtendedCentrelineTrack="315.01" ExtendedCentrelineLength="17" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30" Position="-42.845589+147.524594" ExtendedCentrelineTrack="135.03" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
   </Map>
 </Maps>

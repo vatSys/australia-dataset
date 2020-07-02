@@ -3,10 +3,10 @@
   <SystemRunways>
     <Airport Name="YAMB">
       <Runway Name="15" DataRunway="15">
-        <SID Name="AMB3" />
+        <SID Name="AMB3" Default="True" />
       </Runway>
       <Runway Name="33" DataRunway="33">
-        <SID Name="AMB3" />
+        <SID Name="AMB3" Default="True" />
       </Runway>
     </Airport>
     <Airport Name="YBAF">
@@ -10451,17 +10451,6 @@ YTMN
     <Point Name="NUVTO" Type="Fix">-264447.180+1531535.420</Point>
     <Point Name="NW81C" Type="Fix">-360924.000+1531654.000</Point>
     <Point Name="NW82C" Type="Fix">-353224.000+1502930.000</Point>
-    <Point Name="NWNEA" Type="Fix">-231408.400+1195635.200</Point>
-    <Point Name="NWNEB" Type="Fix">-231611.000+1200224.600</Point>
-    <Point Name="NWNEC" Type="Fix">-232156.300+1200219.400</Point>
-    <Point Name="NWNEF" Type="Fix">-232149.400+1195325.400</Point>
-    <Point Name="NWNEH" Type="Fix">-232620.000+1194613.800</Point>
-    <Point Name="NWNEM" Type="Fix">-232438.600+1194855.700</Point>
-    <Point Name="NWNWE" Type="Fix">-233243.300+1193228.800</Point>
-    <Point Name="NWNWF" Type="Fix">-232808.500+1194209.600</Point>
-    <Point Name="NWNWG" Type="Fix">-232701.200+1193320.000</Point>
-    <Point Name="NWNWH" Type="Fix">-232428.600+1194954.000</Point>
-    <Point Name="NWNWI" Type="Fix">-233025.900+1193719.300</Point>
     <Point Name="NYNED" Type="Fix">-312237.600+1472152.000</Point>
     <Point Name="NYNEE" Type="Fix">-312459.100+1472758.200</Point>
     <Point Name="NYNEF" Type="Fix">-313006.800+1471755.600</Point>
@@ -13416,6 +13405,12 @@ YTMN
     <Point Name="ZBOSI" Type="Fix">-200805.700+1480437.800</Point>
     <Point Name="ZBOSM" Type="Fix">-200124.000+1481232.700</Point>
     <Point Name="ZIPPY" Type="Fix">-331415.700+1380539.600</Point>
+    <Point Name="ZNEEA" Type="Fix">-231408.400+1195635.200</Point>
+    <Point Name="ZNEEB" Type="Fix">-231611.000+1200224.600</Point>
+    <Point Name="ZNEEC" Type="Fix">-232156.300+1200219.400</Point>
+    <Point Name="ZNEEF" Type="Fix">-232149.400+1195325.400</Point>
+    <Point Name="ZNEEH" Type="Fix">-232620.000+1194613.800</Point>
+    <Point Name="ZNEEI" Type="Fix">-231900.199+1195755.001</Point>
     <Point Name="ZNEWD" Type="Fix">-233517.340+1194101.130</Point>
     <Point Name="ZNEWE" Type="Fix">-233314.230+1193511.140</Point>
     <Point Name="ZNEWF" Type="Fix">-232814.560+1194310.770</Point>

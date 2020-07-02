@@ -4,7 +4,7 @@
     <!--YBAS-->
     <Runway Name="12/30">
       <Threshold Name="12" Position="-23.801031+133.893361" />
-      <Threshold Name="30" Position="-23.812119+133.914028" ExtendedCentrelineTrack="120.25" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="30" Position="-23.812119+133.914028" ExtendedCentrelineTrack="120.25" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -221,7 +221,7 @@
       <!--Rwy30 TNK3-->
       -23.707503+133.837311/
       -23.680289+133.880853/
-      TNK
+      TNK VOR
     </Line>
     <!--STARs-->
     <Symbol Type="HollowTriangle" />
@@ -230,6 +230,7 @@
     </Symbol>
     <Symbol Type="Circle">
       <Point>AS VOR</Point>
+      <Point>TNK VOR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>KIMIL</Point>
@@ -256,7 +257,6 @@
       <Point>OSINA</Point>
       <Point>SCHEE</Point>
       <Point>STEEL</Point>
-      <Point>TNK</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="AS_RWY30_NAMES" Priority="2" Centre="-23.808333+133.900833">
@@ -287,13 +287,17 @@
       <Point>OSINA</Point>
       <Point>SCHEE</Point>
       <Point>STEEL</Point>
-      <Point>TNK</Point>
-      <Point>HERMA</Point>
-      <Point>LISZT</Point>
+      <Point>TNK VOR</Point>
       <Point>AYE NDB</Point>
+      <Point>ANZAC</Point>
+      <Point>GOMUL</Point>
+      <Point>MITTS</Point>
       <Point>CINDA</Point>
       <Point>DERAK</Point>
+      <Point>WILLS</Point>
+      <Point>TREBL</Point>
       <Point>WINAL</Point>
+      <Point>HERMA</Point>
     </Label>
   </Map>
 </Maps>

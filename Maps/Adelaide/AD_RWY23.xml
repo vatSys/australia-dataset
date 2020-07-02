@@ -3,8 +3,8 @@
   <Map Type="System" Name="AD_RWY23" Priority="1" Centre="-34.945+138.530556">
     <!--YPAD-->
     <Runway Name="12/30">
-      <Threshold Name="12" Position="-34.941186+138.521906" ExtendedCentrelineTrack="303.51" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="30" Position="-34.949408+138.536986" ExtendedCentrelineTrack="123.49" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="12" Position="-34.941186+138.521906" ExtendedCentrelineTrack="303.51" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30" Position="-34.949408+138.536986" ExtendedCentrelineTrack="123.49" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <Runway Name="05/23">
       <Threshold Name="05" Position="-34.957681+138.518456" />
@@ -51,8 +51,7 @@
     <Line>
       <!--Rwy23 ATPIP3-->
       ATPIP/
-      KASBU/
-      AD
+      KASBU
     </Line>
     <Line>
       <!--Rwy23 BLAC3A-->
@@ -184,8 +183,7 @@
     <Line>
       <!--Rwy23 RUSSL3-->
       RUSSL/
-      LUFFY/
-      AD
+      LUFFY
     </Line>
     <Line>
       <!--Rwy23 SALT3A.AGROS-->
@@ -245,8 +243,7 @@
     <Line>
       <!--Rwy23 SURGN3-->
       SURGN/
-      GRIGS/
-      AD
+      GRIGS
     </Line>
     <Line>
       <!--Rwy12 ATPIP3-->
@@ -315,9 +312,7 @@
       <Point>MULDR</Point>
     </Symbol>
     <Symbol Type="SolidStar" />
-    <Symbol Type="Circle">
-      <Point>AD</Point>
-    </Symbol>
+    <Symbol Type="Circle" />
     <Symbol Type="HollowStar">
       <Point>COLPY</Point>
       <Point>SULLY</Point>
@@ -395,7 +390,6 @@
       <Point>SEDAN</Point>
       <Point>ATPIP</Point>
       <Point>KASBU</Point>
-      <Point>AD</Point>
       <Point>BLACK</Point>
       <Point>PLEZN</Point>
       <Point>KERRS</Point>
@@ -439,6 +433,7 @@
       <Point>MULDR</Point>
       <Point>MUTHA</Point>
       <Point>FRAZA</Point>
+      <Point>ABTOD</Point>
       <Point>WHA NDB</Point>
       <Point>BOGAL</Point>
       <Point>NINEP</Point>
@@ -446,7 +441,9 @@
       <Point>NIMEK</Point>
       <Point>ORBUN</Point>
       <Point>ISROV</Point>
+      <Point>CAPET</Point>
       <Point>BOLAM</Point>
+      <Point>NATYA</Point>
       <Point>MIA VOR</Point>
       <Point>TUMAN</Point>
       <Point>BORTO</Point>
@@ -457,22 +454,25 @@
       <Point>AKDAV</Point>
       <Point>VAVPA</Point>
       <Point>GITOP</Point>
+      <Point>SWH NDB</Point>
+      <Point>MTG VOR</Point>
       <Point>RUVUS</Point>
       <Point>SILVN</Point>
       <Point>EEMUE</Point>
       <Point>COMAC</Point>
       <Point>WAKEN</Point>
-      <Point>EDN NDB</Point>
       <Point>AVPAS</Point>
       <Point>ACTIN</Point>
       <Point>HOLIT</Point>
       <Point>HOBBS</Point>
       <Point>ALTRO</Point>
+      <Point>BHI VOR</Point>
       <Point>VILAD</Point>
       <Point>TRUMP</Point>
       <Point>KONDO</Point>
       <Point>ALBUT</Point>
       <Point>SWELL</Point>
+      <Point>NOGIP</Point>
     </Label>
   </Map>
 </Maps>

@@ -7,7 +7,7 @@
       <Threshold Name="34R" Position="-33.970758+151.193811" />
     </Runway>
     <Runway Name="16R/34L">
-      <Threshold Name="16R" Position="-33.9301+151.171783" ExtendedCentrelineTrack="347.80" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="16R" Position="-33.9301+151.171783" ExtendedCentrelineTrack="347.80" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="34L" Position="-33.964267+151.180644" />
     </Runway>
     <Runway Name="07/25">
@@ -16,7 +16,7 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy16L ABBEY-->
+      <!--Rwy16L ABBEY3-->
       -33.970758+151.193811/
       -33.98981+151.200117/
       -34.003694+151.240716/
@@ -43,25 +43,25 @@
       ENTRA
     </Line>
     <Line>
-      <!--Rwy16R DEENA-->
+      <!--Rwy16R DEENA7-->
       -33.964267+151.180644/
       -33.966456+151.181106/
       DUNES/
       DEENA
     </Line>
     <Line>
-      <!--Rwy16R DEENA.KADOM-->
+      <!--Rwy16R DEENA7.KADOM-->
       DEENA/
       ANKUB/
       KADOM
     </Line>
     <Line>
-      <!--Rwy16R DEENA.RIC-->
+      <!--Rwy16R DEENA7.RIC-->
       ANKUB/
       RIC NDB
     </Line>
     <Line>
-      <!--Rwy16R DEENA.WOL-->
+      <!--Rwy16R DEENA7.WOL-->
       DEENA/
       KAMPI/
       WOL NDB
@@ -236,6 +236,7 @@
       <Point>INVUS</Point>
       <Point>ATNAT</Point>
       <Point>SOTKI</Point>
+      <Point>DALAS</Point>
       <Point>SCO NDB</Point>
       <Point>CORKY</Point>
       <Point>SADLO</Point>
@@ -243,6 +244,7 @@
       <Point>CB VOR</Point>
       <Point>MARTO</Point>
       <Point>WLM NDB</Point>
+      <Point>BANDA</Point>
       <Point>BOYSY</Point>
       <Point>MISIT</Point>
       <Point>MUDGI</Point>
@@ -256,11 +258,14 @@
       <Point>KAMBA</Point>
       <Point>TOOKI</Point>
       <Point>LATUT</Point>
+      <Point>CFS VOR</Point>
       <Point>CORDO</Point>
       <Point>EXETA</Point>
       <Point>BUNGO</Point>
+      <Point>DUBUS</Point>
       <Point>SOFAL</Point>
       <Point>DU NDB</Point>
+      <Point>ENPAG</Point>
       <Point>GAZEL</Point>
       <Point>SCATZ</Point>
       <Point>ANBAN</Point>
@@ -268,10 +273,13 @@
       <Point>HAPPI</Point>
       <Point>AKMIR</Point>
       <Point>WELSH</Point>
+      <Point>ARM NDB</Point>
       <Point>MONDO</Point>
       <Point>LOWEP</Point>
       <Point>DONIC</Point>
       <Point>EGEVO</Point>
+      <Point>EBONY</Point>
+      <Point>ARRAN</Point>
       <Point>NONUP</Point>
       <Point>CULIN</Point>
       <Point>TARAL</Point>

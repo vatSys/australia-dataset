@@ -1,10 +1,88 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="ES_TCU" Priority="1" Centre="-38.098889+147.149444">
-    <!--Routes-->
+    <!--Airway Routes-->
+    <Line>
+      <!--V434-->
+      DUNNE/
+      MONTY
+    </Line>
+    <Line>
+      <!--W218-->
+      ANTLA/
+      NOLAN/
+      LT VOR
+    </Line>
+    <Line>
+      <!--W290-->
+      CB VOR/
+      COM NDB/
+      TAMBO
+    </Line>
+    <Line>
+      <!--W297-->
+      GIPPS/
+      MER NDB
+    </Line>
+    <Line>
+      <!--W407-->
+      NUNPA/
+      MOTRA
+    </Line>
+    <Line>
+      <!--W449-->
+      LTV NDB/
+      BRONS/
+      WAREN/
+      MB NDB/
+      SAMIG/
+      TEMPL
+    </Line>
+    <Line>
+      <!--W649-->
+      MNG VOR/
+      MAKIV
+    </Line>
+    <Line>
+      <!--W695-->
+      TYERS/
+      OTKED
+    </Line>
+    <Line>
+      <!--W847-->
+      VALDU/
+      DUBUS/
+      WG VOR
+    </Line>
   </Map>
   <Map Type="System" Name="ES_TCU_NAMES" Priority="2" Centre="-38.098889+147.149444">
-    <Label />
+    <Label>
+      <Point>DUNNE</Point>
+      <Point>MONTY</Point>
+      <Point>ANTLA</Point>
+      <Point>NOLAN</Point>
+      <Point>LT VOR</Point>
+      <Point>CB VOR</Point>
+      <Point>COM NDB</Point>
+      <Point>TAMBO</Point>
+      <Point>GIPPS</Point>
+      <Point>MER NDB</Point>
+      <Point>NUNPA</Point>
+      <Point>MOTRA</Point>
+      <Point>LTV NDB</Point>
+      <Point>BRONS</Point>
+      <Point>WAREN</Point>
+      <Point>MB NDB</Point>
+      <Point>SAMIG</Point>
+      <Point>TEMPL</Point>
+      <Point>MNG VOR</Point>
+      <Point>MAKIV</Point>
+      <Point>TYERS</Point>
+      <Point>OTKED</Point>
+      <Point>VALDU</Point>
+      <Point>DUBUS</Point>
+      <Point>WG VOR</Point>
+    </Label>
   </Map>
   <Map Type="System2" Name="ES_VFR" Priority="1" Centre="-38.098889+147.149444">
     <Symbol Type="HollowSquare">
@@ -36,8 +114,8 @@
       <Threshold Name="22" Position="-38.093103+147.161006" ExtendedCentrelineTrack="53.88" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <Runway Name="09/27">
-      <Threshold Name="09" Position="-38.095681+147.1283" ExtendedCentrelineTrack="278.89" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="27" Position="-38.098789+147.153425" ExtendedCentrelineTrack="98.91" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="09" Position="-38.095681+147.1283" ExtendedCentrelineTrack="278.89" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="27" Position="-38.098789+147.153425" ExtendedCentrelineTrack="98.91" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
   </Map>
 </Maps>

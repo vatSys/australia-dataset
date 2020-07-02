@@ -18,7 +18,7 @@
       <Threshold Name="04R" Position="-27.571689+153.004367" />
       <Threshold Name="22L" Position="-27.565517+153.013094" />
     </Runway>
-    <!--Routes-->
+    <!--Airway Routes-->
     <Line>
       <!--B578-->
       MEPEM/
@@ -26,6 +26,7 @@
     </Line>
     <Line>
       <!--G326-->
+      ROM NDB/
       MIMMI/
       MORRO/
       WOODY
@@ -46,8 +47,8 @@
     </Line>
     <Line>
       <!--H185-->
-      TOJAM/
-      GOMOL
+      BANDA/
+      TOJAM
     </Line>
     <Line>
       <!--J208-->
@@ -56,7 +57,6 @@
     </Line>
     <Line>
       <!--Q47-->
-      SCOTT/
       KATEB/
       ITIDE/
       GUDSO
@@ -64,33 +64,39 @@
     <Line>
       <!--Q53-->
       APAGI/
-      ISKIM
+      ISKIM/
+      NBR NDB
     </Line>
     <Line>
       <!--Q67-->
       BIXAD/
       GUDSO/
       TAPET/
-      LOAFA
+      LOAFA/
+      GLA VOR
     </Line>
     <Line>
       <!--Q69-->
-      MAKRU/
       ITIDE/
       BICKL/
       SU VOR
     </Line>
     <Line>
       <!--Q484-->
-      SAMVI/
       RUDEY/
       MESED/
-      MORRO
+      MORRO/
+      ROM NDB
     </Line>
     <Line>
       <!--R587-->
       ATROP/
       HARVS
+    </Line>
+    <Line>
+      <!--T53-->
+      MISLY/
+      LAROS
     </Line>
     <Line>
       <!--UH224-->
@@ -105,7 +111,6 @@
     </Line>
     <Line>
       <!--V250-->
-      WACKO/
       IBUNA/
       LEBIT/
       ATVIL/
@@ -113,6 +118,7 @@
     </Line>
     <Line>
       <!--V307-->
+      MILTY/
       SUSGI/
       OTLEB/
       MORBI
@@ -121,20 +127,46 @@
       <!--V308-->
       AKOBA/
       SAGLI/
-      MAGPI
+      MAGPI/
+      GEESE/
+      DADBO
     </Line>
     <Line>
       <!--W180-->
       ALDAR/
-      ARM NDB
+      ARM NDB/
+      SANAD
+    </Line>
+    <Line>
+      <!--W192-->
+      TW VOR/
+      SANAD/
+      CFS VOR/
+      TUCAB/
+      TUCKI
+    </Line>
+    <Line>
+      <!--W196-->
+      UNVAT/
+      JEDDA/
+      AMB NDB
+    </Line>
+    <Line>
+      <!--W196-->
+      BNA NDB/
+      CFS VOR/
+      KADSI/
+      UGPOT
     </Line>
     <Line>
       <!--W214-->
       GAMBL/
-      CFS VOR
+      CFS VOR/
+      SORTI
     </Line>
     <Line>
       <!--W247-->
+      RUROX/
       BUD NDB/
       SOSTU/
       SAGLI/
@@ -151,7 +183,8 @@
       RUDEY/
       OK VOR/
       MATVI/
-      DAMIN
+      DAMIN/
+      ROM NDB
     </Line>
     <Line>
       <!--Y43-->
@@ -160,6 +193,8 @@
     </Line>
     <Line>
       <!--Y79-->
+      ROM NDB/
+      KANKO/
       BEPNA/
       YCCA/
       OPIPO/
@@ -168,15 +203,14 @@
     </Line>
     <Line>
       <!--Y177-->
+      RUROX/
       EAGLE/
       LAMUG/
-      SMOKA/
-      BN VOR/
-      DUNNI/
-      ESTER
+      SMOKA
     </Line>
     <Line>
       <!--Y195-->
+      ROM NDB/
       OK VOR/
       AGIVA/
       PARRY/
@@ -185,9 +219,16 @@
     </Line>
     <Line>
       <!--Y465-->
+      RACHL/
       SUKTU/
       EDPEG/
       ENLIP
+    </Line>
+    <Line>
+      <!--ZZ932-->
+      RISON/
+      PERSA/
+      YAMB
     </Line>
   </Map>
   <Map Type="System2" Name="BN_VFR" Priority="1" Centre="-27.384167+153.1175">
@@ -554,11 +595,11 @@
     </Runway>
     <Runway Name="14/32">
       <Threshold Name="14" Position="-28.156511+153.500706" ExtendedCentrelineTrack="330.59" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="32" Position="-28.172569+153.510919" ExtendedCentrelineTrack="150.58" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="32" Position="-28.172569+153.510919" ExtendedCentrelineTrack="150.58" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <Runway Name="17/35">
-      <Threshold Name="17" Position="-28.164356+153.506753" ExtendedCentrelineTrack="4.09" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="35" Position="-28.169594+153.506331" ExtendedCentrelineTrack="184.09" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="17" Position="-28.164356+153.506753" ExtendedCentrelineTrack="4.09" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="35" Position="-28.169594+153.506331" ExtendedCentrelineTrack="184.09" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
     </Runway>
   </Map>
 </Maps>

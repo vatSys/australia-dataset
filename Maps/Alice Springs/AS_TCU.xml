@@ -1,11 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="AS_TCU" Priority="1" Centre="-23.808333+133.900833">
-    <!--Routes-->
+    <!--Airway Routes-->
     <Line>
-      <!--UY93-->
-      HERMA/
-      LISZT
+      <!--A461-->
+      ELLOW/
+      IDANU
+    </Line>
+    <Line>
+      <!--J64-->
+      AYE NDB/
+      ARNTU
+    </Line>
+    <Line>
+      <!--J64-->
+      ANZAC/
+      GAFER
+    </Line>
+    <Line>
+      <!--J251-->
+      SADEL/
+      SARAH/
+      GOMUL
+    </Line>
+    <Line>
+      <!--T11-->
+      MITTS/
+      PULOL
     </Line>
     <Line>
       <!--V112-->
@@ -16,6 +37,16 @@
       <!--W177-->
       CINDA/
       DERAK
+    </Line>
+    <Line>
+      <!--W344-->
+      STEEL/
+      WILLS
+    </Line>
+    <Line>
+      <!--W584-->
+      DESET/
+      TREBL
     </Line>
     <Line>
       <!--Y69-->
@@ -144,8 +175,8 @@
   </Map>
   <Map Type="System" Name="YBAS_ALLRWYS" Priority="2" Centre="-23.808333+133.900833">
     <Runway Name="12/30">
-      <Threshold Name="12" Position="-23.801031+133.893361" ExtendedCentrelineTrack="300.25" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="30" Position="-23.812119+133.914028" ExtendedCentrelineTrack="120.25" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="12" Position="-23.801031+133.893361" ExtendedCentrelineTrack="300.25" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30" Position="-23.812119+133.914028" ExtendedCentrelineTrack="120.25" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <Runway Name="17/35">
       <Threshold Name="17" Position="-23.797278+133.886539" ExtendedCentrelineTrack="358.24" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />

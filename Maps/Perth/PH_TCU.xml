@@ -3,8 +3,8 @@
   <Map Type="System" Name="PH_TCU" Priority="1" Centre="-31.940278+115.966944">
     <!--YGIG-->
     <Runway Name="08/26">
-      <Threshold Name="08" Position="-31.466489+115.853731" />
-      <Threshold Name="26" Position="-31.462219+115.872314" />
+      <Threshold Name="08" Position="-31.466489+115.853731" ExtendedCentrelineTrack="254.99" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="26" Position="-31.462219+115.872314" ExtendedCentrelineTrack="75.00" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <!--YPJT-->
     <Runway Name="06L/24R">
@@ -19,7 +19,7 @@
       <Threshold Name="12" Position="-32.099961+115.872475" ExtendedCentrelineTrack="294.43" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
       <Threshold Name="30" Position="-32.105586+115.887019" ExtendedCentrelineTrack="114.44" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
-    <!--Routes-->
+    <!--Airway Routes-->
     <Line>
       <!--Q17-->
       OTLED/
@@ -53,12 +53,8 @@
     <Line>
       <!--W172-->
       SOLUS/
-      JOSBU
-    </Line>
-    <Line>
-      <!--W839-->
-      PEA NDB/
-      GIG NDB
+      JOSBU/
+      ABA NDB
     </Line>
     <Line>
       <!--Y15-->
@@ -76,10 +72,12 @@
       <!--Z19-->
       RAVON/
       NORIC/
-      DUTAK
+      DUTAK/
+      STURT
     </Line>
     <Line>
       <!--Z38-->
+      BUNGL/
       YAHMO/
       KELLA/
       GRENE
@@ -305,7 +303,7 @@
       <Threshold Name="21" Position="-31.928594+115.968464" ExtendedCentrelineTrack="13.95" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <Runway Name="06/24">
-      <Threshold Name="06" Position="-31.940989+115.959203" ExtendedCentrelineTrack="238.89" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="06" Position="-31.940989+115.959203" ExtendedCentrelineTrack="238.89" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="24" Position="-31.930908+115.978792" ExtendedCentrelineTrack="58.90" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <Runway Name="18L/36R">
@@ -314,7 +312,7 @@
     </Runway>
     <Runway Name="18R/36L">
       <Threshold Name="18R" Position="-31.668781+116.013333" />
-      <Threshold Name="36L" Position="-31.684389+116.015411" ExtendedCentrelineTrack="173.51" ExtendedCentrelineLength="0" ExtendedCentrelineTickInterval="0" />
+      <Threshold Name="36L" Position="-31.684389+116.015411" />
     </Runway>
     <Runway Name="05/23">
       <Threshold Name="05" Position="-31.672319+116.008692" ExtendedCentrelineTrack="224.73" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />

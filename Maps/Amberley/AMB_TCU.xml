@@ -1,7 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="AMB_TCU" Priority="1" Centre="-27.640556+152.711944">
-    <!--Routes-->
+    <!--Airway Routes-->
+    <Line>
+      <!--W196-->
+      UNVAT/
+      JEDDA
+    </Line>
+    <Line>
+      <!--W196-->
+      GOMOL/
+      BNA NDB/
+      CFS VOR/
+      KADSI
+    </Line>
     <Line>
       <!--W256-->
       BNA NDB/
@@ -10,19 +22,15 @@
     </Line>
     <Line>
       <!--W270-->
-      GERBL/
       OK VOR/
-      UNVAT
+      UNVAT/
+      OVENS
     </Line>
     <Line>
       <!--W326-->
       VONDO/
-      MASMI
-    </Line>
-    <Line>
-      <!--W354-->
-      BN VOR/
-      VIMOL
+      MASMI/
+      TW VOR
     </Line>
     <Line>
       <!--W625-->
@@ -31,9 +39,16 @@
     </Line>
     <Line>
       <!--W760-->
+      GDH NDB/
       ALDAR/
       GAMBL/
       HUUGO
+    </Line>
+    <Line>
+      <!--Y195-->
+      ROM NDB/
+      OK VOR/
+      AGIVA
     </Line>
     <Line>
       <!--ZZ933-->
@@ -43,21 +58,27 @@
   </Map>
   <Map Type="System" Name="AMB_TCU_NAMES" Priority="2" Centre="-27.640556+152.711944">
     <Label>
+      <Point>UNVAT</Point>
+      <Point>JEDDA</Point>
+      <Point>GOMOL</Point>
       <Point>BNA NDB</Point>
+      <Point>CFS VOR</Point>
+      <Point>KADSI</Point>
       <Point>LOSKU</Point>
       <Point>ARM NDB</Point>
-      <Point>GERBL</Point>
       <Point>OK VOR</Point>
-      <Point>UNVAT</Point>
+      <Point>OVENS</Point>
       <Point>VONDO</Point>
       <Point>MASMI</Point>
-      <Point>BN VOR</Point>
-      <Point>VIMOL</Point>
+      <Point>TW VOR</Point>
       <Point>DEJAY</Point>
       <Point>MOR NDB</Point>
+      <Point>GDH NDB</Point>
       <Point>ALDAR</Point>
       <Point>GAMBL</Point>
       <Point>HUUGO</Point>
+      <Point>ROM NDB</Point>
+      <Point>AGIVA</Point>
       <Point>PIGGY</Point>
     </Label>
   </Map>
@@ -268,12 +289,12 @@
   </Map>
   <Map Type="System" Name="YAMB_ALLRWYS" Priority="2" Centre="-27.640556+152.711944">
     <Runway Name="04/22">
-      <Threshold Name="04" Position="-27.644611+152.707869" ExtendedCentrelineTrack="234.32" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="22" Position="-27.636589+152.720414" ExtendedCentrelineTrack="54.32" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="04" Position="-27.644611+152.707869" ExtendedCentrelineTrack="234.32" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="22" Position="-27.636589+152.720414" ExtendedCentrelineTrack="54.32" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
     </Runway>
     <Runway Name="15/33">
-      <Threshold Name="15" Position="-27.621714+152.705267" ExtendedCentrelineTrack="338.74" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="33" Position="-27.647344+152.716464" ExtendedCentrelineTrack="158.74" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="15" Position="-27.621714+152.705267" ExtendedCentrelineTrack="338.74" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="33" Position="-27.647344+152.716464" ExtendedCentrelineTrack="158.74" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
     </Runway>
   </Map>
 </Maps>

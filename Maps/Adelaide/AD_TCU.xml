@@ -1,15 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="AD_TCU" Priority="1" Centre="-34.945+138.530556">
-    <!--YPED-->
-    <Runway Name="18/36">
-      <Threshold Name="18" Position="-34.694536+138.617583" ExtendedCentrelineTrack="8.52" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="36" Position="-34.717353+138.613444" />
-    </Runway>
-    <Runway Name="04/22">
-      <Threshold Name="04" Position="-34.711153+138.6162" />
-      <Threshold Name="22" Position="-34.699319+138.632119" />
-    </Runway>
     <!--YPPF-->
     <Runway Name="03R/21L">
       <Threshold Name="03R" Position="-34.802164+138.634342" />
@@ -27,12 +18,13 @@
       <Threshold Name="03L" Position="-34.803778+138.630644" ExtendedCentrelineTrack="208.24" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
       <Threshold Name="21R" Position="-34.793056+138.637625" ExtendedCentrelineTrack="28.24" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
-    <!--Routes-->
+    <!--Airway Routes-->
     <Line>
       <!--A585-->
       HAWKY/
       MUTHA/
-      FRAZA
+      FRAZA/
+      ABTOD
     </Line>
     <Line>
       <!--H84-->
@@ -50,12 +42,14 @@
     <Line>
       <!--H246-->
       ORBUN/
-      ISROV
+      ISROV/
+      CAPET
     </Line>
     <Line>
       <!--H247-->
       PANKI/
-      BOLAM
+      BOLAM/
+      NATYA
     </Line>
     <Line>
       <!--H309-->
@@ -92,7 +86,13 @@
       ELROX
     </Line>
     <Line>
+      <!--V255-->
+      BENDO/
+      SWH NDB
+    </Line>
+    <Line>
       <!--V259-->
+      MTG VOR/
       RUVUS/
       ATPIP
     </Line>
@@ -111,8 +111,7 @@
       <!--W142-->
       WHA NDB/
       COMAC/
-      WAKEN/
-      EDN NDB
+      WAKEN
     </Line>
     <Line>
       <!--W238-->
@@ -125,18 +124,22 @@
       <!--W325-->
       RUSSL/
       HOBBS/
-      ALTRO
+      ALTRO/
+      BHI VOR
     </Line>
     <Line>
       <!--W426-->
       VILAD/
       TRUMP/
-      KONDO
+      KONDO/
+      BHI VOR
     </Line>
     <Line>
       <!--W519-->
       ALBUT/
-      SWELL
+      SWELL/
+      MTG VOR/
+      NOGIP
     </Line>
   </Map>
   <Map Type="System2" Name="AD_VFR" Priority="1" Centre="-34.945+138.530556">
@@ -307,11 +310,19 @@
   <Map Type="System" Name="YPAD_ALLRWYS" Priority="2" Centre="-34.945+138.530556">
     <Runway Name="05/23">
       <Threshold Name="05" Position="-34.957681+138.518456" ExtendedCentrelineTrack="230.15" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="23" Position="-34.940644+138.54325" ExtendedCentrelineTrack="50.16" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="23" Position="-34.940644+138.54325" ExtendedCentrelineTrack="50.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <Runway Name="12/30">
-      <Threshold Name="12" Position="-34.941186+138.521906" ExtendedCentrelineTrack="303.51" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="30" Position="-34.949408+138.536986" ExtendedCentrelineTrack="123.49" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="12" Position="-34.941186+138.521906" ExtendedCentrelineTrack="303.51" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30" Position="-34.949408+138.536986" ExtendedCentrelineTrack="123.49" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="18/36">
+      <Threshold Name="18" Position="-34.694536+138.617583" ExtendedCentrelineTrack="8.52" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="36" Position="-34.717353+138.613444" ExtendedCentrelineTrack="188.52" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <Runway Name="04/22">
+      <Threshold Name="04" Position="-34.711153+138.6162" ExtendedCentrelineTrack="228.01" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="22" Position="-34.699319+138.632119" ExtendedCentrelineTrack="48.01" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
   </Map>
 </Maps>

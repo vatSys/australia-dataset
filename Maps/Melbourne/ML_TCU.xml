@@ -31,7 +31,7 @@
       <Threshold Name="17R" Position="-37.973736+145.097031" />
       <Threshold Name="35L" Position="-37.981756+145.097736" />
     </Runway>
-    <!--Routes-->
+    <!--Airway Routes-->
     <Line>
       <!--H66-->
       NONIX/
@@ -52,7 +52,14 @@
     <Line>
       <!--H169-->
       SUNTI/
-      BENZO
+      BENZO/
+      IRSOM
+    </Line>
+    <Line>
+      <!--H345-->
+      NEVIS/
+      BORTO/
+      DUKES
     </Line>
     <Line>
       <!--N759-->
@@ -61,6 +68,7 @@
     </Line>
     <Line>
       <!--Q29-->
+      TANTA/
       RUMIE/
       NABBA/
       BULLA/
@@ -94,7 +102,15 @@
       <!--V376-->
       OWENS/
       RAVEN/
-      CHITT
+      CHITT/
+      MIA VOR
+    </Line>
+    <Line>
+      <!--W291-->
+      PUBAP/
+      UBGUT/
+      ESDIG/
+      WENDY
     </Line>
     <Line>
       <!--W405-->
@@ -102,6 +118,11 @@
       TAITE/
       ROHAN/
       KII NDB
+    </Line>
+    <Line>
+      <!--W635-->
+      NOGIP/
+      IBOBO
     </Line>
   </Map>
   <Map Type="System2" Name="ML_VFR" Priority="1" Centre="-37.673333+144.843333">

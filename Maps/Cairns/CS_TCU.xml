@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="CS_TCU" Priority="1" Centre="-16.885833+145.755278">
-    <!--Routes-->
+    <!--Airway Routes-->
     <Line>
       <!--A216-->
       LOCKA/
@@ -13,7 +13,13 @@
       LAKED
     </Line>
     <Line>
+      <!--G342-->
+      NONIR/
+      DOTOD
+    </Line>
+    <Line>
       <!--J61-->
+      GULOP/
       ANDEE/
       KONDA
     </Line>
@@ -21,8 +27,7 @@
       <!--J64-->
       BIDAG/
       BULOK/
-      MUSEY/
-      NONUM
+      MUSEY
     </Line>
     <Line>
       <!--J151-->
@@ -32,8 +37,7 @@
     <Line>
       <!--Q67-->
       SWALO/
-      BARIA/
-      UPOLO
+      BARIA
     </Line>
     <Line>
       <!--R204-->
@@ -52,7 +56,8 @@
       IBUXI/
       BINUN/
       TL VOR/
-      WALTA
+      WALTA/
+      ALBUX
     </Line>
     <Line>
       <!--V264-->
@@ -61,6 +66,7 @@
     </Line>
     <Line>
       <!--V308-->
+      ALISN/
       POROB/
       TL VOR/
       ADLAG/
@@ -69,8 +75,14 @@
     </Line>
     <Line>
       <!--W281-->
+      KOW NDB/
       ELNOT/
       DAMIL
+    </Line>
+    <Line>
+      <!--W309-->
+      TAMED/
+      COE NDB
     </Line>
     <Line>
       <!--W567-->
@@ -85,7 +97,8 @@
     <Line>
       <!--Z11-->
       NORIS/
-      MASHA
+      MASHA/
+      KOW NDB
     </Line>
   </Map>
   <Map Type="System2" Name="CS_VFR" Priority="1" Centre="-16.885833+145.755278">
@@ -225,7 +238,7 @@
   <Map Type="System" Name="YBCS_ALLRWYS" Priority="2" Centre="-16.885833+145.755278">
     <Runway Name="15/33">
       <Threshold Name="15" Position="-16.865831+145.743561" ExtendedCentrelineTrack="336.48" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="33" Position="-16.891983+145.755383" ExtendedCentrelineTrack="156.48" ExtendedCentrelineLength="25" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="33" Position="-16.891983+145.755383" ExtendedCentrelineTrack="156.48" ExtendedCentrelineLength="25" ExtendedCentrelineTickInterval="2" />
     </Runway>
   </Map>
 </Maps>

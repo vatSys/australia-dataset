@@ -4,11 +4,11 @@
     <!--YSCB-->
     <Runway Name="12/30">
       <Threshold Name="12" Position="-35.300683+149.185153" />
-      <Threshold Name="30" Position="-35.31+149.198758" ExtendedCentrelineTrack="129.88" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="30" Position="-35.31+149.198758" ExtendedCentrelineTrack="129.88" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <Runway Name="17/35">
       <Threshold Name="17" Position="-35.290622+149.194447" />
-      <Threshold Name="35" Position="-35.3148+149.194447" ExtendedCentrelineTrack="180.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="35" Position="-35.3148+149.194447" ExtendedCentrelineTrack="180.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -244,9 +244,14 @@
       <Point>BIBRU</Point>
       <Point>TESAT</Point>
       <Point>WOL NDB</Point>
+      <Point>AY VOR</Point>
+      <Point>CORDO</Point>
+      <Point>EXETA</Point>
+      <Point>WAZZA</Point>
+      <Point>TEMIS</Point>
+      <Point>BOYSE</Point>
       <Point>CWR NDB</Point>
       <Point>MUDGI</Point>
-      <Point>CORDO</Point>
       <Point>GLB NDB</Point>
       <Point>YHOT</Point>
       <Point>SNOWY</Point>
@@ -262,6 +267,8 @@
       <Point>IGDEL</Point>
       <Point>PEAKE</Point>
       <Point>MER NDB</Point>
+      <Point>LTV NDB</Point>
+      <Point>DAVOS</Point>
     </Label>
   </Map>
 </Maps>

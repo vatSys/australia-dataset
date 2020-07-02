@@ -3,7 +3,7 @@
   <Map Type="System" Name="TL_RWY01" Priority="1" Centre="-19.2525+146.765278">
     <!--YBTL-->
     <Runway Name="01/19">
-      <Threshold Name="01" Position="-19.258306+146.764722" ExtendedCentrelineTrack="204.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="01" Position="-19.258306+146.764722" ExtendedCentrelineTrack="204.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="19" Position="-19.238203+146.774217" />
     </Runway>
     <!--SIDs-->
@@ -55,17 +55,6 @@
       SWIFT
     </Line>
     <Line>
-      <!--Rwy01 TLE3-->
-      -19.238203+146.774217/
-      -19.190628+146.797675/
-      PCA
-    </Line>
-    <Line>
-      <!--Rwy01 TLN4-->
-      -19.190628+146.797675/
-      -19.146529+146.737782
-    </Line>
-    <Line>
       <!--Rwy01 WALTA1-->
       VILUN/
       WALTA
@@ -74,7 +63,7 @@
     <Line>
       <!--Rwy01 IBUX1A-->
       IBUXI/
-      TL/
+      TL VOR/
       AGPOK/
       KIRAN
     </Line>
@@ -122,7 +111,9 @@
       <Point>LEDOG</Point>
       <Point>TUVNO</Point>
     </Symbol>
-    <Symbol Type="Circle" />
+    <Symbol Type="Circle">
+      <Point>TL VOR</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>AVMAT</Point>
       <Point>VEBTO</Point>
@@ -140,10 +131,8 @@
       <Point>PEWEE</Point>
       <Point>ADNOD</Point>
       <Point>SWIFT</Point>
-      <Point>PCA</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
-      <Point>TL</Point>
       <Point>AGPOK</Point>
       <Point>POROB</Point>
       <Point>LAPES</Point>
@@ -180,10 +169,9 @@
       <Point>PEWEE</Point>
       <Point>ADNOD</Point>
       <Point>SWIFT</Point>
-      <Point>PCA</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
-      <Point>TL</Point>
+      <Point>TL VOR</Point>
       <Point>AGPOK</Point>
       <Point>KIRAN</Point>
       <Point>POROB</Point>
@@ -201,22 +189,53 @@
       <Point>BEBUD</Point>
       <Point>ALBEE</Point>
       <Point>WISKA</Point>
+      <Point>RUSSO</Point>
       <Point>BOXER</Point>
+      <Point>WYNOT</Point>
+      <Point>ABTOX</Point>
       <Point>EKOKU</Point>
       <Point>SWALO</Point>
+      <Point>CS VOR</Point>
+      <Point>IFL NDB</Point>
+      <Point>BINUN</Point>
+      <Point>ALBUX</Point>
+      <Point>DAGSI</Point>
+      <Point>MK VOR</Point>
+      <Point>POONA</Point>
+      <Point>MURPH</Point>
+      <Point>PROBO</Point>
+      <Point>WELKE</Point>
+      <Point>CLIFT</Point>
+      <Point>ALISN</Point>
+      <Point>ADLAG</Point>
+      <Point>BARIA</Point>
+      <Point>OLDER</Point>
+      <Point>LUKPU</Point>
       <Point>LINSU</Point>
+      <Point>SIMAS</Point>
+      <Point>THOMO</Point>
+      <Point>ISMUN</Point>
+      <Point>TORIA</Point>
+      <Point>ENDET</Point>
+      <Point>LINBO</Point>
+      <Point>PN VOR</Point>
       <Point>MARON</Point>
       <Point>FORMA</Point>
       <Point>DOBGO</Point>
       <Point>HUG NDB</Point>
+      <Point>PENNY</Point>
+      <Point>KIPPA</Point>
+      <Point>ESLAR</Point>
       <Point>NIPOM</Point>
       <Point>CHARD</Point>
+      <Point>CARBY</Point>
+      <Point>VATKO</Point>
       <Point>BOWLY</Point>
       <Point>FOYLE</Point>
       <Point>DOTTE</Point>
-      <Point>ISMUN</Point>
       <Point>ITORT</Point>
       <Point>EYSAW</Point>
+      <Point>APUSS</Point>
     </Label>
   </Map>
 </Maps>
