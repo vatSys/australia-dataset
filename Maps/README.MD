@@ -57,6 +57,14 @@ Each `<Line>` element draws a line between all children `<Point>`'s. Lines may s
     None
 }
 ```
+
+Lines may set attribute `Width` to any floating value to change the stroke width (in pixels) of the rendered line:
+```
+<Line..Width="1.67">
+	...
+</Line>
+```
+Default stroke width is `1.0`.
 			
 Airway lines may be coded using a special syntax within `<Point>`
 
