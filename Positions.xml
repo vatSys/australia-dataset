@@ -1021,6 +1021,14 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
+	<Position Name="YMES" Type="ASMGCS" ASMGCSAirport="YMES" DefaultCenter="-38.098889+147.149444" DefaultRange="2" MagneticVariation="-12.8">
+		<Maps>
+			<Map Name="ASMGCS_YMES_RWY" />
+			<Map Name="ASMGCS_YMES_APR" />
+			<Map Name="ASMGCS_YMES_TWY" />
+			<Map Name="ASMGCS_YMES_BLD" />
+		</Maps>
+	</Position>
   <Position Name="Hamilton Island Tower" Type="ASD" DefaultCenter="-20.358056+148.951667" DefaultRange="80" MagneticVariation="-8.1">
     <Sectors>
       <Sector Name="HM ADC" />
