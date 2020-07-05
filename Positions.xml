@@ -934,6 +934,14 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
+	<Position Name="YAMB" Type="ASMGCS" ASMGCSAirport="YAMB" DefaultCenter="-27.640556+152.711944" DefaultRange="2" MagneticVariation="-11" >
+		<Maps>
+			<Map Name="ASMGCS_YAMB_RWY" />
+			<Map Name="ASMGCS_YAMB_APR" />
+			<Map Name="ASMGCS_YAMB_TWY" />
+			<Map Name="ASMGCS_YAMB_BLD" />
+		</Maps>
+	</Position>
   <Position Name="Broome Tower" Type="ASD" DefaultCenter="-17.949444+122.227778" DefaultRange="120" MagneticVariation="-1.7">
     <Sectors>
       <Sector Name="BRM ADC" />
