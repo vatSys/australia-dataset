@@ -30,6 +30,63 @@
 			<Line>ATC feedback - feedback.vatpac.org</Line>
 		</ControllerInfo>
 	</Position>
+	
+	<Position Name="Tasman" Type="ASD" DefaultCenter="-281500.0+1590545.0" DefaultRange="4500">
+		<Sectors>
+			<Sector Name="TSN"/>
+			<Sector Name="HWE"/>
+			<Sector Name="FLD"/>
+			<Sector Name="COL"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES_HIGH" />
+			<Map Name="ALL_POINTS_HIGH" />
+			<Map Name="FIR_BDRY" />
+			<Map Name="UPPER_SECTOR_FREQS" />
+		</Maps>
+		<Strips Mode="State" Sort="Alpha">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<CFL QuickLevel="29000" />
+		<ControllerInfo>
+			<Line>Brisbane Radio | CPDLC available on YBBB</Line>
+			<Line>Oceanic Reporting  www.vatpac.org/pilots/pilot-tools/oceanic-reporting-tool</Line>
+			<Line>Squawk 2000 entering OCEANIC region. Check your Sim Zulu time is correct.</Line>
+		</ControllerInfo>
+	</Position>
+	
+		<Position Name="Indian" Type="ASD" DefaultCenter="-155400.0+0971040.0" DefaultRange="5000">
+		<Sectors>
+			<Sector Name="IND"/>
+			<Sector Name="INS"/>
+			<Sector Name="INE"/>
+		</Sectors>
+		<Maps>
+			<Map Name="ALL_CTA" />
+			<Map Name="ALL_SECTORS" />
+			<Map Name="COAST_ALL" />
+			<Map Name="ALL_ROUTES_HIGH" />
+			<Map Name="ALL_POINTS_HIGH" />
+			<Map Name="FIR_BDRY" />
+			<Map Name="UPPER_SECTOR_FREQS" />
+		</Maps>
+		<Strips Mode="State" Sort="Alpha">
+			<Window Type="State" State="Jurisdiction" Visible="true" />
+			<Window Type="State" State="Announced" Visible="true" />
+			<Window Type="State" State="Preactive" Visible="true" />
+		</Strips>
+		<CFL QuickLevel="29000" />
+		<ControllerInfo>
+			<Line>Brisbane Radio | CPDLC available on YBBB</Line>
+			<Line>Oceanic Reporting  www.vatpac.org/pilots/pilot-tools/oceanic-reporting-tool</Line>
+			<Line>Squawk 2000 entering OCEANIC region. Check your Sim Zulu time is correct.</Line>
+		</ControllerInfo>
+	</Position>
 
 	<Position Name="Tasmania" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="600">
 		<Sectors>
