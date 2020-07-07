@@ -83,10 +83,10 @@
     <Message Response="R">EXPECT TO CROSS [POSITION] AT AND MAINTAIN [LEVEL]</Message>
   </Category>
   <Category name="Divert">
-    <Message Response="NE">WHEN CAN YOU ACCEPT [DIRECTION] [DISTANCE] OFFSET</Message>
-    <Message Response="WU">OFFSET [DIRECTION] [DISTANCE] OF ROUTE</Message>
-    <Message Response="WU">AT [POSITION] OFFSET [DIRECTION] [DISTANCE] OF ROUTE</Message>
-    <Message Response="WU">AT [TIME] OFFSET [DIRECTION] [DISTANCE] OF ROUTE</Message>
+    <Message Response="NE">WHEN CAN YOU ACCEPT [DISTANCE] [DIRECTION] OFFSET</Message>
+    <Message Response="WU">OFFSET [DISTANCE] [DIRECTION] OF ROUTE</Message>
+    <Message Response="WU">AT [POSITION] OFFSET [DISTANCE] [DIRECTION] OF ROUTE</Message>
+    <Message Response="WU">AT [TIME] OFFSET [DISTANCE] [DIRECTION] OF ROUTE</Message>
     <Message Response="WU">PROCEED BACK ON ROUTE</Message>
     <Message Response="WU">REJOIN ROUTE BY [POSITION]</Message>
     <Message Response="WU">REJOIN ROUTE BY [TIME]</Message>
@@ -102,10 +102,10 @@
     <Message Response="WU">AT [LEVEL] PROCEED DIRECT TO [POSITION]</Message>
     <Message Response="WU">CLEARED TO [POSITION] VIA [ROUTE]</Message>
     <Message Response="WU">CLEARED [ROUTE]</Message>
-    <Message Response="WU">CLEARED [STAR]</Message>
-    <Message Response="WU">CLEARED TO DEVIATE UP TO [DIRECTION] [DISTANCE] OF ROUTE</Message>
+    <Message Response="WU">CLEARED [STAR] [TEXT]</Message>
+    <Message Response="WU">CLEARED TO DEVIATE UP TO [DISTANCE] [DIRECTION] OF ROUTE</Message>
     <Message Response="WU">AT [POSITION] CLEARED [ROUTE]</Message>
-    <Message Response="WU">AT [POSITION] CLEARED [STAR]</Message>
+    <Message Response="WU">AT [POSITION] CLEARED [STAR] [TEXT]</Message>
     <Message Response="WU">HOLD AT [POSITION] MAINTAIN [LEVEL] INBOUND TRACK [DEGREES] [DIRECTION] TURN LEG TIME [TIME]</Message>
     <Message Response="WU">HOLD AT [POSITION] AS PUBLISHED MAINTAIN [LEVEL]</Message>
     <Message Response="WU">TURN [DIRECTION] HEADING [DEGREES]</Message>
@@ -120,9 +120,10 @@
     <Message Response="R">AT [TIME] EXPECT DIRECT TO [POSITION]</Message>
     <Message Response="R">AT [LEVEL] EXPECT DIRECT TO [POSITION]</Message>
     <Message Response="R">EXPECT FURTHER CLEARANCE AT [TIME]</Message>
-    <Message Response="R">EXPECT [STAR]</Message>
+    <Message Response="R">EXPECT [STAR] [TEXT]</Message>
   </Category>
-  <Category name="PDC" AutoloadElements="true"> SendViaTM="true">
+
+  <Category name="PDC" AutoloadElements="true" SendViaTM="true">
     <Message Response="NE">PDC [TIMESTAMP]</Message>
     <Message Response="NE">[CALLSIGN] [ATYPE] [ADES] [ETD]</Message>
     <Message Response="NE">CLEARED TO [ADES] VIA [SID] DEP [TEXT]</Message>
@@ -130,6 +131,7 @@
     <Message Response="NE">CLIMB VIA SID TO [LEVEL]</Message>
     <Message Response="NE">DEP FREQ [FREQUENCY]</Message>
     <Message Response="NE">SQUAWK [SSR]</Message>
+	<Message Response="NE">PDC READBACK FREQ [FREQUENCY]</Message>
   </Category>
   <Category name="Speed">
     <Message Response="WU">MAINTAIN [SPEED]</Message>
