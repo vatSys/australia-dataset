@@ -714,12 +714,12 @@
         <SID Name="YNRV2" Type="Jet" />
         <STAR Name="BEVL5A" />
         <STAR Name="BEVL5X" OpDataFlag="X" />
-        <STAR Name="CONI4A" />
-        <STAR Name="CONI4X" OpDataFlag="X" />
-        <STAR Name="DAYL4A" />
-        <STAR Name="DAYL4X" OpDataFlag="X" />
-        <STAR Name="GREN5A" />
-        <STAR Name="GREN5X" OpDataFlag="X" />
+        <STAR Name="CONI4A" Type="NonJet" />
+        <STAR Name="CONI4X" Type="NonJet" OpDataFlag="X" />
+        <STAR Name="DAYL4A" Type="NonJet" />
+        <STAR Name="DAYL4X" Type="NonJet" OpDataFlag="X" />
+        <STAR Name="GREN5A" Type="NonJet" />
+        <STAR Name="GREN5X" Type="NonJet" OpDataFlag="X" />
         <STAR Name="JULI5A" />
         <STAR Name="JULI5X" OpDataFlag="X" />
         <STAR Name="SOLU2A" />
@@ -742,9 +742,9 @@
         <SID Name="SOLUS3" />
         <SID Name="YNRV2" Type="Jet" />
         <STAR Name="BEVL5A" />
-        <STAR Name="CONI4A" />
-        <STAR Name="DAYL4A" />
-        <STAR Name="GREN5A" />
+        <STAR Name="CONI4A" Type="NonJet" />
+        <STAR Name="DAYL4A" Type="NonJet" />
+        <STAR Name="GREN5A" Type="NonJet" />
         <STAR Name="JULI5A" />
         <STAR Name="SOLU2A" />
         <STAR Name="WAVE3A" />
@@ -765,8 +765,8 @@
         <SID Name="SOLUS3" />
         <SID Name="YNRV2" Type="Jet" />
         <STAR Name="BEVL5A" />
-        <STAR Name="CONI4A" />
-        <STAR Name="GREN5A" />
+        <STAR Name="CONI4A" Type="NonJet" />
+        <STAR Name="GREN5A" Type="NonJet" />
         <STAR Name="JULI5A" />
         <STAR Name="SOLU2A" />
         <STAR Name="WAVE3A" />
@@ -787,25 +787,25 @@
         <SID Name="SOLUS3" />
         <SID Name="YNRV2" Type="Jet" />
         <STAR Name="BEVL5A" />
-        <STAR Name="CONI4A" />
-        <STAR Name="GREN5A" />
+        <STAR Name="CONI4A" Type="NonJet" />
+        <STAR Name="GREN5A" Type="NonJet" />
         <STAR Name="JULI5A" />
         <STAR Name="SOLU2A" />
         <STAR Name="WAVE3A" />
       </Runway>
       <Runway Name="03V" DataRunway="03">
         <STAR Name="BEVL5V" />
-        <STAR Name="CONI4V" />
-        <STAR Name="DAYL4V" />
-        <STAR Name="GREN5V" />
+        <STAR Name="CONI4V" Type="NonJet" />
+        <STAR Name="DAYL4V" Type="NonJet" />
+        <STAR Name="GREN5V" Type="NonJet" />
         <STAR Name="JULI5V" />
         <STAR Name="SOLU2V" />
       </Runway>
       <Runway Name="06V" DataRunway="06">
         <STAR Name="BEVL5V" />
-        <STAR Name="CONI4V" />
-        <STAR Name="DAYL4V" />
-        <STAR Name="GREN5V" />
+        <STAR Name="CONI4V" Type="NonJet" />
+        <STAR Name="DAYL4V" Type="NonJet" />
+        <STAR Name="GREN5V" Type="NonJet" />
         <STAR Name="JULI5V" />
         <STAR Name="SOLU2V" />
       </Runway>
