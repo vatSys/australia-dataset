@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="ML_RWY09LAHSO34" Priority="1" Centre="-37.673333+144.843333">
+    <!--YMML-->
+    <Runway Name="09/27">
+      <Threshold Name="09" Position="-37.660756+144.822247" ExtendedCentrelineTrack="274.18" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="27" Position="-37.662261+144.848089" />
+    </Runway>
+    <Runway Name="16/34">
+      <Threshold Name="16" Position="-37.653192+144.834911" />
+      <Threshold Name="34" Position="-37.685789+144.840994" ExtendedCentrelineTrack="171.56" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy34 CORRS9-->
+      -37.653192+144.834911/
+      ROKDL/
+      POREM/
+      GEDEN/
+      CORRS
+    </Line>
+    <Line>
+      <!--Rwy34 CRENA1-->
+      -37.653192+144.834911/
+      -37.583418+144.820212/
+      HOPLA/
+      CRENA
+    </Line>
+    <Line>
+      <!--Rwy34 DOSEL1-->
+      ROKDL/
+      SALLY/
+      DOSEL
+    </Line>
+    <Line>
+      <!--Rwy34 ESDIG3-->
+      HOPLA/
+      ESDIG
+    </Line>
+    <Line>
+      <!--Rwy34 KEPPA2-->
+      -37.653192+144.834911/
+      OKMEL/
+      KEPPA
+    </Line>
+    <Line>
+      <!--Rwy34 MNG3-->
+      SALLY/
+      MNG VOR
+    </Line>
+    <Line>
+      <!--Rwy34 NEVIS7-->
+      OKMEL/
+      NEVIS
+    </Line>
+    <Line>
+      <!--Rwy34 NONIX3-->
+      SALLY/
+      NONIX
+    </Line>
+    <Line>
+      <!--Rwy34 SUNTI3-->
+      GEDEN/
+      PEBAL/
+      SUNTI
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy09 ARBE6A-->
+      ARBEY/
+      TUNKA/
+      DABUX/
+      OPAVA/
+      UPKAN/
+      GUPUG
+    </Line>
+    <Line>
+      <!--Rwy09 BOYS7A-->
+      BOYSE/
+      VALES/
+      LUSTU/
+      ANBEL/
+      BUVIV/
+      NEFER/
+      BELTA/
+      OPAVA
+    </Line>
+    <Line>
+      <!--Rwy09 LIZI8A-->
+      LIZZI/
+      HORUS/
+      ENSEG/
+      NEFER
+    </Line>
+    <Line>
+      <!--Rwy09 PORT6A.MILLA-->
+      MILLA/
+      EKKAS/
+      PORTS
+    </Line>
+    <Line>
+      <!--Rwy09 PORT6A.ONAGI-->
+      ONAGI/
+      LATTA/
+      PORTS
+    </Line>
+    <Line>
+      <!--Rwy09 PORT6A-->
+      PORTS/
+      KEVEK/
+      MISCH/
+      RIPMO/
+      AVPIX/
+      GUPUG
+    </Line>
+    <Line>
+      <!--Rwy09 WARE7A-->
+      WAREN/
+      MICHM/
+      MONTY/
+      SANDR/
+      AGTEV/
+      BELTA
+    </Line>
+    <Line>
+      <!--Rwy09 WEND9A-->
+      WENDY/
+      NIXEN/
+      TEENA/
+      RIPMO
+    </Line>
+    <Line>
+      <!--Rwy34 ARBE6A-->
+      TUNKA/
+      BELTA/
+      OVNER/
+      RENER/
+      GOSKO/
+      LAVER/
+      OBGAL/
+      AKDEL
+    </Line>
+    <Line>
+      <!--Rwy34 BOYS7A-->
+      BOYSE/
+      MAXAL/
+      OLTUR/
+      VENVO/
+      GOOLA/
+      BOLTY/
+      AKDEL
+    </Line>
+    <Line>
+      <!--Rwy34 BOYS7V-->
+      MAXAL/
+      ARTHA/
+      EMRIG/
+      MONTY/
+      EGEKA/
+      SHEED
+    </Line>
+    <Line>
+      <!--Rwy34 LIZI8A-->
+      LIZZI/
+      VEPUD/
+      AKSID/
+      GOOLA
+    </Line>
+    <Line>
+      <!--Rwy34 LIZI8V-->
+      LIZZI/
+      MAITE/
+      IGPON/
+      MONTY
+    </Line>
+    <Line>
+      <!--Rwy34 PORT6A.MILLA-->
+      
+    </Line>
+    <Line>
+      <!--Rwy34 PORT6A.ONAGI-->
+      
+    </Line>
+    <Line>
+      <!--Rwy34 PORT6A-->
+      PORTS/
+      ESLOK/
+      AKDEL
+    </Line>
+    <Line>
+      <!--Rwy34 WARE7A-->
+      MICHM/
+      UPKID/
+      GOOLA
+    </Line>
+    <Line>
+      <!--Rwy34 WARE7V-->
+      
+    </Line>
+    <Line>
+      <!--Rwy34 WEND9A-->
+      TEENA/
+      MEMEG/
+      LAVER
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>GUPUG</Point>
+      <Point>AKDEL</Point>
+      <Point>SHEED</Point>
+    </Symbol>
+    <Symbol Type="SolidStar">
+      <Point>POREM</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>MNG VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ROKDL</Point>
+      <Point>GEDEN</Point>
+      <Point>CORRS</Point>
+      <Point>HOPLA</Point>
+      <Point>CRENA</Point>
+      <Point>SALLY</Point>
+      <Point>DOSEL</Point>
+      <Point>ESDIG</Point>
+      <Point>OKMEL</Point>
+      <Point>KEPPA</Point>
+      <Point>NEVIS</Point>
+      <Point>NONIX</Point>
+      <Point>PEBAL</Point>
+      <Point>SUNTI</Point>
+      <Point>ARBEY</Point>
+      <Point>TUNKA</Point>
+      <Point>DABUX</Point>
+      <Point>OPAVA</Point>
+      <Point>UPKAN</Point>
+      <Point>BOYSE</Point>
+      <Point>VALES</Point>
+      <Point>LUSTU</Point>
+      <Point>ANBEL</Point>
+      <Point>BUVIV</Point>
+      <Point>NEFER</Point>
+      <Point>BELTA</Point>
+      <Point>LIZZI</Point>
+      <Point>HORUS</Point>
+      <Point>ENSEG</Point>
+      <Point>MILLA</Point>
+      <Point>EKKAS</Point>
+      <Point>PORTS</Point>
+      <Point>ONAGI</Point>
+      <Point>LATTA</Point>
+      <Point>KEVEK</Point>
+      <Point>MISCH</Point>
+      <Point>RIPMO</Point>
+      <Point>AVPIX</Point>
+      <Point>WAREN</Point>
+      <Point>MICHM</Point>
+      <Point>MONTY</Point>
+      <Point>SANDR</Point>
+      <Point>AGTEV</Point>
+      <Point>WENDY</Point>
+      <Point>NIXEN</Point>
+      <Point>TEENA</Point>
+      <Point>OVNER</Point>
+      <Point>RENER</Point>
+      <Point>GOSKO</Point>
+      <Point>LAVER</Point>
+      <Point>OBGAL</Point>
+      <Point>MAXAL</Point>
+      <Point>OLTUR</Point>
+      <Point>VENVO</Point>
+      <Point>GOOLA</Point>
+      <Point>BOLTY</Point>
+      <Point>ARTHA</Point>
+      <Point>EMRIG</Point>
+      <Point>EGEKA</Point>
+      <Point>VEPUD</Point>
+      <Point>AKSID</Point>
+      <Point>MAITE</Point>
+      <Point>IGPON</Point>
+      <Point>ESLOK</Point>
+      <Point>UPKID</Point>
+      <Point>MEMEG</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="ML_RWY09LAHSO34_NAMES" Priority="2" Centre="-37.673333+144.843333">
+    <Label>
+      <Point>ROKDL</Point>
+      <Point>POREM</Point>
+      <Point>GEDEN</Point>
+      <Point>CORRS</Point>
+      <Point>HOPLA</Point>
+      <Point>CRENA</Point>
+      <Point>SALLY</Point>
+      <Point>DOSEL</Point>
+      <Point>ESDIG</Point>
+      <Point>OKMEL</Point>
+      <Point>KEPPA</Point>
+      <Point>MNG VOR</Point>
+      <Point>NEVIS</Point>
+      <Point>NONIX</Point>
+      <Point>PEBAL</Point>
+      <Point>SUNTI</Point>
+      <Point>ARBEY</Point>
+      <Point>TUNKA</Point>
+      <Point>DABUX</Point>
+      <Point>OPAVA</Point>
+      <Point>UPKAN</Point>
+      <Point>GUPUG</Point>
+      <Point>BOYSE</Point>
+      <Point>VALES</Point>
+      <Point>LUSTU</Point>
+      <Point>ANBEL</Point>
+      <Point>BUVIV</Point>
+      <Point>NEFER</Point>
+      <Point>BELTA</Point>
+      <Point>LIZZI</Point>
+      <Point>HORUS</Point>
+      <Point>ENSEG</Point>
+      <Point>MILLA</Point>
+      <Point>EKKAS</Point>
+      <Point>PORTS</Point>
+      <Point>ONAGI</Point>
+      <Point>LATTA</Point>
+      <Point>KEVEK</Point>
+      <Point>MISCH</Point>
+      <Point>RIPMO</Point>
+      <Point>AVPIX</Point>
+      <Point>WAREN</Point>
+      <Point>MICHM</Point>
+      <Point>MONTY</Point>
+      <Point>SANDR</Point>
+      <Point>AGTEV</Point>
+      <Point>WENDY</Point>
+      <Point>NIXEN</Point>
+      <Point>TEENA</Point>
+      <Point>OVNER</Point>
+      <Point>RENER</Point>
+      <Point>GOSKO</Point>
+      <Point>LAVER</Point>
+      <Point>OBGAL</Point>
+      <Point>AKDEL</Point>
+      <Point>MAXAL</Point>
+      <Point>OLTUR</Point>
+      <Point>VENVO</Point>
+      <Point>GOOLA</Point>
+      <Point>BOLTY</Point>
+      <Point>ARTHA</Point>
+      <Point>EMRIG</Point>
+      <Point>EGEKA</Point>
+      <Point>SHEED</Point>
+      <Point>VEPUD</Point>
+      <Point>AKSID</Point>
+      <Point>MAITE</Point>
+      <Point>IGPON</Point>
+      <Point>ESLOK</Point>
+      <Point>UPKID</Point>
+      <Point>MEMEG</Point>
+      <Point>KACEY</Point>
+      <Point>NATYA</Point>
+      <Point>FRANZ</Point>
+      <Point>CANTY</Point>
+      <Point>JAMOR</Point>
+      <Point>BENZO</Point>
+      <Point>IRSOM</Point>
+      <Point>BORTO</Point>
+      <Point>DUKES</Point>
+      <Point>BADGR</Point>
+      <Point>FARRA</Point>
+      <Point>TANTA</Point>
+      <Point>RUMIE</Point>
+      <Point>NABBA</Point>
+      <Point>BULLA</Point>
+      <Point>TAREX</Point>
+      <Point>NOGIP</Point>
+      <Point>DUBUS</Point>
+      <Point>WAZZA</Point>
+      <Point>TEMIS</Point>
+      <Point>BURRA</Point>
+      <Point>UBGUT</Point>
+      <Point>STONE</Point>
+      <Point>OWENS</Point>
+      <Point>RAVEN</Point>
+      <Point>CHITT</Point>
+      <Point>MIA VOR</Point>
+      <Point>PUBAP</Point>
+      <Point>SIMON</Point>
+      <Point>TAITE</Point>
+      <Point>ROHAN</Point>
+      <Point>KII NDB</Point>
+      <Point>IBOBO</Point>
+    </Label>
+  </Map>
+</Maps>

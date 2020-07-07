@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="CB_TCU" Priority="1" Centre="-35.306944+149.195">
+    <!--Airway Routes-->
+    <Line>
+      <!--H65-->
+      TESAT/
+      WOL NDB/
+      RAZZI
+    </Line>
+    <Line>
+      <!--J42-->
+      ARRAN/
+      AY VOR
+    </Line>
+    <Line>
+      <!--V169-->
+      TESAT/
+      CORDO/
+      EXETA/
+      BUNGO
+    </Line>
+    <Line>
+      <!--V169-->
+      DUBUS/
+      WAZZA/
+      TEMIS/
+      BOYSE
+    </Line>
+    <Line>
+      <!--W137-->
+      AVBEG/
+      CWR NDB/
+      MUDGI
+    </Line>
+    <Line>
+      <!--W138-->
+      CORDO/
+      GLB NDB
+    </Line>
+    <Line>
+      <!--W222-->
+      YHOT/
+      SNOWY
+    </Line>
+    <Line>
+      <!--W266-->
+      HOWLY/
+      BORLI
+    </Line>
+    <Line>
+      <!--W290-->
+      COM NDB/
+      TAMBO/
+      ESL NDB
+    </Line>
+    <Line>
+      <!--W377-->
+      UGVER/
+      WOLBI
+    </Line>
+    <Line>
+      <!--W423-->
+      BTH NDB/
+      CULIN
+    </Line>
+    <Line>
+      <!--W545-->
+      WG VOR/
+      POPLA/
+      IGDEL
+    </Line>
+    <Line>
+      <!--W643-->
+      PEAKE/
+      MER NDB
+    </Line>
+    <Line>
+      <!--Z54-->
+      LTV NDB/
+      DAVOS
+    </Line>
+  </Map>
+  <Map Type="System2" Name="CB_VFR" Priority="1" Centre="-35.306944+149.195">
+    <Symbol Type="HollowSquare">
+      <Point>BIDG</Point>
+      <Point>BDGE</Point>
+      <Point>BKM</Point>
+      <Point>OBSTM</Point>
+      <Point>BEN</Point>
+      <Point>URG</Point>
+      <Point>BJK</Point>
+      <Point>RCSE</Point>
+      <Point>CAPT</Point>
+      <Point>CPNG</Point>
+      <Point>CVR</Point>
+      <Point>COTR</Point>
+      <Point>GLEN</Point>
+      <Point>GGV</Point>
+      <Point>GUNN</Point>
+      <Point>HALL</Point>
+      <Point>HST</Point>
+      <Point>KIAN</Point>
+      <Point>LBT</Point>
+      <Point>LGGN</Point>
+      <Point>LGGS</Point>
+      <Point>LGDA</Point>
+      <Point>MHGO</Point>
+      <Point>MCRO</Point>
+      <Point>TCR</Point>
+      <Point>MTM</Point>
+      <Point>MPG</Point>
+      <Point>MUM</Point>
+      <Point>MTLR</Point>
+      <Point>MMM</Point>
+      <Point>QBN</Point>
+      <Point>SUE</Point>
+      <Point>TAGO</Point>
+      <Point>THW</Point>
+      <Point>TGC</Point>
+      <Point>ASST</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>BIDG</Point>
+      <Point>BDGE</Point>
+      <Point>BKM</Point>
+      <Point>OBSTM</Point>
+      <Point>BEN</Point>
+      <Point>URG</Point>
+      <Point>BJK</Point>
+      <Point>RCSE</Point>
+      <Point>CAPT</Point>
+      <Point>CPNG</Point>
+      <Point>CVR</Point>
+      <Point>COTR</Point>
+      <Point>GLEN</Point>
+      <Point>GGV</Point>
+      <Point>GUNN</Point>
+      <Point>HALL</Point>
+      <Point>HST</Point>
+      <Point>KIAN</Point>
+      <Point>LBT</Point>
+      <Point>LGGN</Point>
+      <Point>LGGS</Point>
+      <Point>LGDA</Point>
+      <Point>MHGO</Point>
+      <Point>MCRO</Point>
+      <Point>TCR</Point>
+      <Point>MTM</Point>
+      <Point>MPG</Point>
+      <Point>MUM</Point>
+      <Point>MTLR</Point>
+      <Point>MMM</Point>
+      <Point>QBN</Point>
+      <Point>SUE</Point>
+      <Point>TAGO</Point>
+      <Point>THW</Point>
+      <Point>TGC</Point>
+      <Point>ASST</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="CITY_ONE_ROUTE">BKM</Point>
+      <Point Name="CITY_TWO_ROUTE">LGDA</Point>
+      <Point Name="SW_ROUTE">THW</Point>
+    </Label>
+    <!--CITY_ONE_ROUTE-->
+    <Line Pattern="Dotted">
+      BKM/
+      MTM/
+      YSCB/
+      RCSE/
+      BKM
+    </Line>
+    <!--CITY_TWO_ROUTE-->
+    <Line Pattern="Dotted">
+      LGDA/
+      CPNG/
+      MTLR/
+      MTM/
+      YSCB/
+      RCSE/
+      LGDA
+    </Line>
+    <!--SW_ROUTE-->
+    <Line Pattern="Dotted">
+      THW/
+      BIDG/
+      COTR
+    </Line>
+  </Map>
+  <Map Type="System" Name="YSCB_ALLRWYS" Priority="2" Centre="-35.306944+149.195">
+    <Runway Name="17/35">
+      <Threshold Name="17" Position="-35.290622+149.194447" ExtendedCentrelineTrack="0.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="35" Position="-35.3148+149.194447" ExtendedCentrelineTrack="180.00" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-35.300683+149.185153" ExtendedCentrelineTrack="309.87" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="30" Position="-35.31+149.198758" ExtendedCentrelineTrack="129.88" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+  </Map>
+</Maps>

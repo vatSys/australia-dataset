@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="SU_RWY13" Priority="1" Centre="-26.603333+153.091111">
+    <!--YBSU-->
+    <Runway Name="13/31">
+      <Threshold Name="13" Position="-26.583214+153.074517" ExtendedCentrelineTrack="322.5" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="31" Position="-26.600728+153.089547" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy13 MOOLO1-->
+      -26.600728+153.089547/
+      KASGU/
+      MOOLO
+    </Line>
+    <Line>
+      <!--Rwy13 TAPET1-->
+      KASGU/
+      NUVTO/
+      LUXAV/
+      ELNAX/
+      DUKEL/
+      TAPET
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy13 ITID1W-->
+      ITIDE/
+      BUKRA
+    </Line>
+    <Line>
+      <!--Rwy13 ITID1Z-->
+      BUKRA/
+      DUKEL/
+      METUK/
+      UPLOT
+    </Line>
+    <Line>
+      <!--Rwy13 REBE1Z-->
+      REBEG/
+      PASPO/
+      METUK
+    </Line>
+    <Line>
+      <!--Rwy13 SEBV1Z-->
+      SEBVA/
+      OLTUD
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BUKRA</Point>
+      <Point>UPLOT</Point>
+      <Point>OLTUD</Point>
+    </Symbol>
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle" />
+    <Symbol Type="HollowStar">
+      <Point>KASGU</Point>
+      <Point>MOOLO</Point>
+      <Point>NUVTO</Point>
+      <Point>LUXAV</Point>
+      <Point>ELNAX</Point>
+      <Point>DUKEL</Point>
+      <Point>TAPET</Point>
+      <Point>ITIDE</Point>
+      <Point>METUK</Point>
+      <Point>REBEG</Point>
+      <Point>PASPO</Point>
+      <Point>SEBVA</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="SU_RWY13_NAMES" Priority="2" Centre="-26.603333+153.091111">
+    <Label>
+      <Point>KASGU</Point>
+      <Point>MOOLO</Point>
+      <Point>NUVTO</Point>
+      <Point>LUXAV</Point>
+      <Point>ELNAX</Point>
+      <Point>DUKEL</Point>
+      <Point>TAPET</Point>
+      <Point>ITIDE</Point>
+      <Point>BUKRA</Point>
+      <Point>METUK</Point>
+      <Point>UPLOT</Point>
+      <Point>REBEG</Point>
+      <Point>PASPO</Point>
+      <Point>SEBVA</Point>
+      <Point>OLTUD</Point>
+      <Point>GOMOL</Point>
+      <Point>MAKRU</Point>
+      <Point>MUDDL</Point>
+      <Point>SANEG</Point>
+      <Point>ISKIM</Point>
+      <Point>SURPO</Point>
+      <Point>OK VOR</Point>
+      <Point>IVL NDB</Point>
+      <Point>RUROX</Point>
+      <Point>BUD NDB</Point>
+      <Point>SOSTU</Point>
+      <Point>UNVAT</Point>
+      <Point>SANDI</Point>
+      <Point>SUSGI</Point>
+      <Point>CREDY</Point>
+      <Point>HAAVI</Point>
+    </Label>
+  </Map>
+</Maps>

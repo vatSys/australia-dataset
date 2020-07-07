@@ -122,6 +122,7 @@
     <Message Response="R">EXPECT FURTHER CLEARANCE AT [TIME]</Message>
     <Message Response="R">EXPECT [STAR] [TEXT]</Message>
   </Category>
+
   <Category name="PDC" AutoloadElements="true" SendViaTM="true">
     <Message Response="NE">PDC [TIMESTAMP]</Message>
     <Message Response="NE">[CALLSIGN] [ATYPE] [ADES] [ETD]</Message>

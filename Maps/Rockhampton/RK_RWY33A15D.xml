@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="RK_RWY33A15D" Priority="1" Centre="-23.381944+150.475278">
+    <!--YBRK-->
+    <Runway Name="15/33">
+      <Threshold Name="15" Position="-23.369219+150.470561" />
+      <Threshold Name="33" Position="-23.390681+150.480117" ExtendedCentrelineTrack="157.66" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy15 BUDGI2-->
+      -23.390681+150.480117/
+      -23.390681+150.480117/
+      -23.471597+150.515793/
+      BUDGI
+    </Line>
+    <Line>
+      <!--Rwy15 TARES2-->
+      -23.390681+150.480117/
+      -23.424766+150.495675/
+      -23.432508+150.494544/
+      -23.438925+150.489691/
+      ADLOS/
+      MUGLU/
+      IPNET/
+      TARES
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy33 ABVAS1-->
+      ABVAS/
+      RELEM/
+      PADVU/
+      POPEX/
+      LALIS
+    </Line>
+    <Line>
+      <!--Rwy33 DADBO1-->
+      DADBO/
+      SARUS
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>LALIS</Point>
+      <Point>SARUS</Point>
+    </Symbol>
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle" />
+    <Symbol Type="HollowStar">
+      <Point>BUDGI</Point>
+      <Point>ADLOS</Point>
+      <Point>MUGLU</Point>
+      <Point>IPNET</Point>
+      <Point>TARES</Point>
+      <Point>ABVAS</Point>
+      <Point>RELEM</Point>
+      <Point>PADVU</Point>
+      <Point>POPEX</Point>
+      <Point>DADBO</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="RK_RWY33A15D_NAMES" Priority="2" Centre="-23.381944+150.475278">
+    <Label>
+      <Point>BUDGI</Point>
+      <Point>ADLOS</Point>
+      <Point>MUGLU</Point>
+      <Point>IPNET</Point>
+      <Point>TARES</Point>
+      <Point>ABVAS</Point>
+      <Point>RELEM</Point>
+      <Point>PADVU</Point>
+      <Point>POPEX</Point>
+      <Point>LALIS</Point>
+      <Point>DADBO</Point>
+      <Point>SARUS</Point>
+      <Point>ALBUX</Point>
+      <Point>DAGSI</Point>
+      <Point>MK VOR</Point>
+      <Point>POONA</Point>
+      <Point>MURPH</Point>
+      <Point>MILTY</Point>
+      <Point>SUSGI</Point>
+      <Point>OTLEB</Point>
+      <Point>MORBI</Point>
+      <Point>REMOR</Point>
+      <Point>GAYLA</Point>
+      <Point>AKOBA</Point>
+      <Point>SAGLI</Point>
+      <Point>MAGPI</Point>
+      <Point>GEESE</Point>
+      <Point>PROBO</Point>
+      <Point>WELKE</Point>
+      <Point>CLIFT</Point>
+      <Point>ALISN</Point>
+      <Point>BURTO</Point>
+      <Point>LUKPU</Point>
+      <Point>ESLAR</Point>
+      <Point>MINNI</Point>
+      <Point>NIPOM</Point>
+      <Point>PLUTO</Point>
+      <Point>BUD NDB</Point>
+      <Point>GLA VOR</Point>
+      <Point>KANBU</Point>
+      <Point>CARON</Point>
+    </Label>
+  </Map>
+</Maps>

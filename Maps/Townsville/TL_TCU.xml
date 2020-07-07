@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="TL_TCU" Priority="1" Centre="-19.2525+146.765278">
+    <!--Airway Routes-->
+    <Line>
+      <!--J184-->
+      ALBEE/
+      WISKA/
+      RUSSO
+    </Line>
+    <Line>
+      <!--Q30-->
+      ANRUB/
+      BOXER
+    </Line>
+    <Line>
+      <!--R213-->
+      WYNOT/
+      ABTOX
+    </Line>
+    <Line>
+      <!--R346-->
+      EKOKU/
+      SWALO/
+      SWIFT
+    </Line>
+    <Line>
+      <!--V153-->
+      CS VOR/
+      IFL NDB/
+      SPARO/
+      IBUXI/
+      BINUN
+    </Line>
+    <Line>
+      <!--V153-->
+      WALTA/
+      ALBUX/
+      DAGSI/
+      MK VOR/
+      POONA/
+      MURPH
+    </Line>
+    <Line>
+      <!--V308-->
+      PROBO/
+      WELKE/
+      MK VOR/
+      CLIFT/
+      ALISN/
+      POROB
+    </Line>
+    <Line>
+      <!--V308-->
+      ADLAG/
+      PEWEE/
+      BARIA/
+      CS VOR
+    </Line>
+    <Line>
+      <!--W232-->
+      OLDER/
+      LUKPU
+    </Line>
+    <Line>
+      <!--W258-->
+      JEMMA/
+      LINSU/
+      MURPH
+    </Line>
+    <Line>
+      <!--W265-->
+      SIMAS/
+      THOMO
+    </Line>
+    <Line>
+      <!--W387-->
+      ISMUN/
+      TORIA/
+      ENDET/
+      CARMN
+    </Line>
+    <Line>
+      <!--W387-->
+      LINBO/
+      ALBUX/
+      PN VOR/
+      MK VOR
+    </Line>
+    <Line>
+      <!--W469-->
+      MARON/
+      FORMA/
+      DOBGO/
+      HUG NDB
+    </Line>
+    <Line>
+      <!--W528-->
+      PENNY/
+      KIPPA
+    </Line>
+    <Line>
+      <!--W613-->
+      ESLAR/
+      NIPOM/
+      CHARD
+    </Line>
+    <Line>
+      <!--W637-->
+      CARBY/
+      VATKO
+    </Line>
+    <Line>
+      <!--W660-->
+      BOWLY/
+      FOYLE
+    </Line>
+    <Line>
+      <!--W841-->
+      DOTTE/
+      ISMUN
+    </Line>
+    <Line>
+      <!--ZZ929-->
+      ITORT/
+      EYSAW/
+      APUSS
+    </Line>
+  </Map>
+  <Map Type="System2" Name="TL_VFR" Priority="1" Centre="-19.2525+146.765278">
+    <Symbol Type="HollowSquare">
+      <Point>ANI</Point>
+      <Point>ANP</Point>
+      <Point>CCL</Point>
+      <Point>CEN</Point>
+      <Point>DOP</Point>
+      <Point>GIRU</Point>
+      <Point>HVI</Point>
+      <Point>KSPT</Point>
+      <Point>LNDA</Point>
+      <Point>MBC</Point>
+      <Point>MTBL</Point>
+      <Point>MBKR</Point>
+      <Point>MBHR</Point>
+      <Point>MMT</Point>
+      <Point>MUEE</Point>
+      <Point>MRTL</Point>
+      <Point>NOME</Point>
+      <Point>ORKS</Point>
+      <Point>PLU</Point>
+      <Point>PCA</Point>
+      <Point>RDRS</Point>
+      <Point>RKI</Point>
+      <Point>RGS</Point>
+      <Point>RRDM</Point>
+      <Point>RMT</Point>
+      <Point>SPN</Point>
+      <Point>SUA</Point>
+      <Point>SUNZ</Point>
+      <Point>TCNR</Point>
+      <Point>TNP</Point>
+      <Point>TOOU</Point>
+      <Point>WEP</Point>
+      <Point>WTRK</Point>
+      <Point>YBU</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ANI</Point>
+      <Point>ANP</Point>
+      <Point>CCL</Point>
+      <Point>CEN</Point>
+      <Point>DOP</Point>
+      <Point>GIRU</Point>
+      <Point>HVI</Point>
+      <Point>KSPT</Point>
+      <Point>LNDA</Point>
+      <Point>MBC</Point>
+      <Point>MTBL</Point>
+      <Point>MBKR</Point>
+      <Point>MBHR</Point>
+      <Point>MMT</Point>
+      <Point>MUEE</Point>
+      <Point>MRTL</Point>
+      <Point>NOME</Point>
+      <Point>ORKS</Point>
+      <Point>PLU</Point>
+      <Point>PCA</Point>
+      <Point>RDRS</Point>
+      <Point>RKI</Point>
+      <Point>RGS</Point>
+      <Point>RRDM</Point>
+      <Point>RMT</Point>
+      <Point>SPN</Point>
+      <Point>SUA</Point>
+      <Point>SUNZ</Point>
+      <Point>TCNR</Point>
+      <Point>TNP</Point>
+      <Point>TOOU</Point>
+      <Point>WEP</Point>
+      <Point>WTRK</Point>
+      <Point>YBU</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="CLEVEDON">GIRU</Point>
+      <Point Name="ROLLINGSTONE">-19.047222+146.413889</Point>
+      <Point Name="STUART">DOP</Point>
+      <Point Name="THORNTON_NORTH">TNP</Point>
+      <Point Name="UPPER_ROSS">-19.569333+146.841417</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="SE">
+      <Point Name="THORNTON_SOUTH">TNP</Point>
+    </Label>
+    <!--CLEVEDON-->
+    <Line Pattern="Dotted">
+      GIRU/
+      CEN/
+      -19.360278+146.983611/
+      TL
+    </Line>
+    <!--ROLLINGSTONE-->
+    <Line Pattern="Dotted">
+      -19.047222+146.413889/
+      TOOU/
+      -19.197903+146.598885/
+      -19.219077+146.70685/
+      TL
+    </Line>
+    <!--STUART-->
+    <Line Pattern="Dotted">
+      DOP/
+      ANP/
+      -19.416833+146.829741/
+      -19.393832+146.826829/
+      -19.365919+146.832686/
+      SUA/
+      -19.324157+146.82821/
+      TL
+    </Line>
+    <!--THORNTON_NORTH-->
+    <Line Pattern="Dotted">
+      TNP/
+      MBC/
+      TL
+    </Line>
+    <!--THORNTON_SOUTH-->
+    <Line Pattern="Dotted">
+      TNP/
+      MMT/
+      -19.3+146.666667/
+      TL
+    </Line>
+    <!--UPPER_ROSS-->
+    <Line Pattern="Dotted">
+      -19.569333+146.841417/
+      -19.473976+146.713056/
+      RRDM/
+      TCNR/
+      -19.308671+146.739665/
+      -19.291088+146.739934/
+      -19.281811+146.742592/
+      -19.273353+146.746954/
+      TL
+    </Line>
+  </Map>
+  <Map Type="System" Name="YBTL_ALLRWYS" Priority="2" Centre="-19.2525+146.765278">
+    <Runway Name="01/19">
+      <Threshold Name="01" Position="-19.258306+146.764722" ExtendedCentrelineTrack="204.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="19" Position="-19.238203+146.774217" ExtendedCentrelineTrack="24.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="07/25">
+      <Threshold Name="07" Position="-19.255808+146.755544" ExtendedCentrelineTrack="253.97" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="25" Position="-19.253072+146.765575" ExtendedCentrelineTrack="73.98" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+  </Map>
+</Maps>

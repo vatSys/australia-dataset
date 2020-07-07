@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="HB_RWY30" Priority="1" Centre="-42.836111+147.510278">
+    <!--YMHB-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-42.828983+147.502047" />
+      <Threshold Name="30" Position="-42.845589+147.524594" ExtendedCentrelineTrack="135.03" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy30 CLARK2-->
+      -42.828983+147.502047/
+      TOKAX/
+      IKETU/
+      CLARK
+    </Line>
+    <Line>
+      <!--Rwy30 KANLI3-->
+      TOKAX/
+      NOPET/
+      RUNAG/
+      KANLI
+    </Line>
+    <Line>
+      <!--Rwy30 LATUM2-->
+      IKETU/
+      PIDIX/
+      KANLI/
+      LATUM
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy30 IPLE5A-->
+      IPLET/
+      RUMUM/
+      SAKUT/
+      PIDOS
+    </Line>
+    <Line>
+      <!--Rwy30 IPLE5V-->
+      RUMUM/
+      BAVUR
+    </Line>
+    <Line>
+      <!--Rwy30 IPLE5W-->
+      
+    </Line>
+    <Line>
+      <!--Rwy30 MORG1A-->
+      MORGO/
+      POXID/
+      GULEB/
+      SORVI/
+      LIMDU/
+      BAVUR/
+      SAKUT
+    </Line>
+    <Line>
+      <!--Rwy30 MORG1V-->
+      
+    </Line>
+    <Line>
+      <!--Rwy30 MORG1W-->
+      
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>PIDOS</Point>
+      <Point>BAVUR</Point>
+    </Symbol>
+    <Symbol Type="SolidStar">
+      <Point>TOKAX</Point>
+    </Symbol>
+    <Symbol Type="Circle" />
+    <Symbol Type="HollowStar">
+      <Point>IKETU</Point>
+      <Point>CLARK</Point>
+      <Point>NOPET</Point>
+      <Point>RUNAG</Point>
+      <Point>KANLI</Point>
+      <Point>PIDIX</Point>
+      <Point>LATUM</Point>
+      <Point>IPLET</Point>
+      <Point>RUMUM</Point>
+      <Point>SAKUT</Point>
+      <Point>MORGO</Point>
+      <Point>POXID</Point>
+      <Point>GULEB</Point>
+      <Point>SORVI</Point>
+      <Point>LIMDU</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="HB_RWY30_NAMES" Priority="2" Centre="-42.836111+147.510278">
+    <Label>
+      <Point>TOKAX</Point>
+      <Point>IKETU</Point>
+      <Point>CLARK</Point>
+      <Point>NOPET</Point>
+      <Point>RUNAG</Point>
+      <Point>KANLI</Point>
+      <Point>PIDIX</Point>
+      <Point>LATUM</Point>
+      <Point>IPLET</Point>
+      <Point>RUMUM</Point>
+      <Point>SAKUT</Point>
+      <Point>PIDOS</Point>
+      <Point>BAVUR</Point>
+      <Point>MORGO</Point>
+      <Point>POXID</Point>
+      <Point>GULEB</Point>
+      <Point>SORVI</Point>
+      <Point>LIMDU</Point>
+      <Point>LT VOR</Point>
+      <Point>KAREN</Point>
+      <Point>NUNPA</Point>
+      <Point>DOTVU</Point>
+      <Point>SALEM</Point>
+      <Point>IRSOM</Point>
+      <Point>LIFFY</Point>
+      <Point>MOTRA</Point>
+      <Point>GOMOM</Point>
+      <Point>BROAD</Point>
+    </Label>
+  </Map>
+</Maps>

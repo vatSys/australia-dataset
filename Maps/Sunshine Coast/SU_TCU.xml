@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="SU_TCU" Priority="1" Centre="-26.603333+153.091111">
+    <!--Airway Routes-->
+    <Line>
+      <!--Q69-->
+      GOMOL/
+      MAKRU
+    </Line>
+    <Line>
+      <!--Q923-->
+      MUDDL/
+      SANEG/
+      ISKIM
+    </Line>
+    <Line>
+      <!--W207-->
+      SURPO/
+      OK VOR/
+      IVL NDB
+    </Line>
+    <Line>
+      <!--W247-->
+      RUROX/
+      BUD NDB/
+      SOSTU
+    </Line>
+    <Line>
+      <!--W504-->
+      UNVAT/
+      SANDI
+    </Line>
+    <Line>
+      <!--W534-->
+      SEBVA/
+      SUSGI
+    </Line>
+    <Line>
+      <!--Z84-->
+      CREDY/
+      HAAVI/
+      BUD NDB
+    </Line>
+  </Map>
+  <Map Type="System2" Name="SU_VFR" Priority="1" Centre="-26.603333+153.091111">
+    <Symbol Type="HollowSquare">
+      <Point>AEN</Point>
+      <Point>BLHS</Point>
+      <Point>BCM</Point>
+      <Point>BLIC</Point>
+      <Point>BONG</Point>
+      <Point>BOON</Point>
+      <Point>BOAR</Point>
+      <Point>BBBG</Point>
+      <Point>BBI</Point>
+      <Point>CABO</Point>
+      <Point>CRDZ</Point>
+      <Point>CALT</Point>
+      <Point>CPMN</Point>
+      <Point>CRPT</Point>
+      <Point>COOL</Point>
+      <Point>CORO</Point>
+      <Point>DBO</Point>
+      <Point>DIBE</Point>
+      <Point>DOOM</Point>
+      <Point>DLP</Point>
+      <Point>EMI</Point>
+      <Point>EMD</Point>
+      <Point>FISH</Point>
+      <Point>GGN</Point>
+      <Point>HAVY</Point>
+      <Point>HBVT</Point>
+      <Point>KLCY</Point>
+      <Point>KBCH</Point>
+      <Point>LCDI</Point>
+      <Point>LVE</Point>
+      <Point>MFBH</Point>
+      <Point>MFH</Point>
+      <Point>MBH</Point>
+      <Point>MTC</Point>
+      <Point>MGLO</Point>
+      <Point>MIY</Point>
+      <Point>MUDI</Point>
+      <Point>NMB</Point>
+      <Point>NOSA</Point>
+      <Point>NUDG</Point>
+      <Point>PEG</Point>
+      <Point>PTI</Point>
+      <Point>RIT</Point>
+      <Point>SSV</Point>
+      <Point>SAND</Point>
+      <Point>SMD</Point>
+      <Point>SHIS</Point>
+      <Point>STUM</Point>
+      <Point>SBCH</Point>
+      <Point>TWT</Point>
+      <Point>THB</Point>
+      <Point>WYPT</Point>
+      <Point>WRM</Point>
+      <Point>YNA</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>AEN</Point>
+      <Point>BLHS</Point>
+      <Point>BCM</Point>
+      <Point>BLIC</Point>
+      <Point>BONG</Point>
+      <Point>BOON</Point>
+      <Point>BOAR</Point>
+      <Point>BBBG</Point>
+      <Point>BBI</Point>
+      <Point>CABO</Point>
+      <Point>CRDZ</Point>
+      <Point>CALT</Point>
+      <Point>CPMN</Point>
+      <Point>CRPT</Point>
+      <Point>COOL</Point>
+      <Point>CORO</Point>
+      <Point>DBO</Point>
+      <Point>DIBE</Point>
+      <Point>DOOM</Point>
+      <Point>DLP</Point>
+      <Point>EMI</Point>
+      <Point>EMD</Point>
+      <Point>FISH</Point>
+      <Point>GGN</Point>
+      <Point>HAVY</Point>
+      <Point>HBVT</Point>
+      <Point>KLCY</Point>
+      <Point>KBCH</Point>
+      <Point>LCDI</Point>
+      <Point>LVE</Point>
+      <Point>MFBH</Point>
+      <Point>MFH</Point>
+      <Point>MBH</Point>
+      <Point>MTC</Point>
+      <Point>MGLO</Point>
+      <Point>MIY</Point>
+      <Point>MUDI</Point>
+      <Point>NMB</Point>
+      <Point>NOSA</Point>
+      <Point>NUDG</Point>
+      <Point>PEG</Point>
+      <Point>PTI</Point>
+      <Point>RIT</Point>
+      <Point>SSV</Point>
+      <Point>SAND</Point>
+      <Point>SMD</Point>
+      <Point>SHIS</Point>
+      <Point>STUM</Point>
+      <Point>SBCH</Point>
+      <Point>TWT</Point>
+      <Point>THB</Point>
+      <Point>WYPT</Point>
+      <Point>WRM</Point>
+      <Point>YNA</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="COAST">-26.801115+153.154636</Point>
+      <Point Name="INLAND">-26.723045+153.041064</Point>
+    </Label>
+    <!--COAST-->
+    <Line Pattern="Dotted">
+      -26.801115+153.154636/
+      -26.785896+153.145838/
+      -26.731178+153.143/
+      -26.676409+153.143853/
+      -26.661574+153.116628/
+      -26.589388+153.105555/
+      -26.544207+153.110111/
+      -26.510153+153.101686/
+      -26.375104+153.124969
+    </Line>
+    <!--INLAND-->
+    <Line Pattern="Dotted">
+      -26.723045+153.041064/
+      -26.713659+153.02156/
+      -26.704226+153.014906/
+      -26.690852+153.002177/
+      -26.673811+152.9963/
+      -26.651046+152.987854/
+      -26.639653+152.985181/
+      -26.623913+152.986059/
+      -26.615154+152.975598/
+      -26.589681+152.965896/
+      -26.581083+152.959436/
+      -26.564299+152.953549/
+      -26.537685+152.95418/
+      -26.50088+152.948108/
+      -26.469406+152.93732
+    </Line>
+  </Map>
+  <Map Type="System" Name="YBSU_ALLRWYS" Priority="2" Centre="-26.603333+153.091111">
+    <Runway Name="13/31">
+      <Threshold Name="13" Position="-26.583214+153.074517" ExtendedCentrelineTrack="322.5" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="31" Position="-26.600728+153.089547" ExtendedCentrelineTrack="142.5" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+  </Map>
+</Maps>

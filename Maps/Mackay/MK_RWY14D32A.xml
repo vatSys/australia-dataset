@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="MK_RWY14D32A" Priority="1" Centre="-21.171389+149.179722">
+    <!--YBMK-->
+    <Runway Name="14/32">
+      <Threshold Name="14" Position="-21.163192+149.177464" />
+      <Threshold Name="32" Position="-21.178325+149.187667" ExtendedCentrelineTrack="147.69" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy14 CLIFT2-->
+      -21.178325+149.187667/
+      -21.178325+149.187667/
+      -21.194793+149.199138/
+      -21.216203+149.219818/
+      POONA/
+      TANUD/
+      MIBEK/
+      CLIFT
+    </Line>
+    <Line>
+      <!--Rwy14 POONA2-->
+      -21.178325+149.187667/
+      -21.231155+149.223177/
+      POONA
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy32 DAGSI1-->
+      DAGSI/
+      LUMVA/
+      SADID/
+      BURNO
+    </Line>
+    <Line>
+      <!--Rwy32 WELKE1-->
+      WELKE/
+      BAVAM
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BURNO</Point>
+      <Point>BAVAM</Point>
+    </Symbol>
+    <Symbol Type="SolidStar">
+      <Point>TANUD</Point>
+    </Symbol>
+    <Symbol Type="Circle" />
+    <Symbol Type="HollowStar">
+      <Point>POONA</Point>
+      <Point>MIBEK</Point>
+      <Point>CLIFT</Point>
+      <Point>DAGSI</Point>
+      <Point>LUMVA</Point>
+      <Point>SADID</Point>
+      <Point>WELKE</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="MK_RWY14D32A_NAMES" Priority="2" Centre="-21.171389+149.179722">
+    <Label>
+      <Point>POONA</Point>
+      <Point>TANUD</Point>
+      <Point>MIBEK</Point>
+      <Point>CLIFT</Point>
+      <Point>DAGSI</Point>
+      <Point>LUMVA</Point>
+      <Point>SADID</Point>
+      <Point>BURNO</Point>
+      <Point>WELKE</Point>
+      <Point>BAVAM</Point>
+      <Point>IBUXI</Point>
+      <Point>BINUN</Point>
+      <Point>TL VOR</Point>
+      <Point>WALTA</Point>
+      <Point>ALBUX</Point>
+      <Point>MURPH</Point>
+      <Point>ABVAS</Point>
+      <Point>RK VOR</Point>
+      <Point>GEESE</Point>
+      <Point>DADBO</Point>
+      <Point>PROBO</Point>
+      <Point>ALISN</Point>
+      <Point>POROB</Point>
+      <Point>ADLAG</Point>
+      <Point>PEWEE</Point>
+      <Point>CARMN</Point>
+      <Point>LINBO</Point>
+      <Point>PN VOR</Point>
+      <Point>ISAAK</Point>
+      <Point>EML NDB</Point>
+      <Point>NIPOM</Point>
+      <Point>CARON</Point>
+    </Label>
+  </Map>
+</Maps>

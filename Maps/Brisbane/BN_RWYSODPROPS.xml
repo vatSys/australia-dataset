@@ -1,0 +1,399 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="BN_RWYSODPROPS" Priority="1" Centre="-27.384167+153.1175">
+    <!--YBBN-->
+    <Runway Name="01R/19L">
+      <Threshold Name="01R" Position="-27.402803+153.118217" />
+      <Threshold Name="19L" Position="-27.374672+153.134306" />
+    </Runway>
+    <Runway Name="01L/19R">
+      <Threshold Name="01L" Position="-27.383086+153.106853" />
+      <Threshold Name="19R" Position="-27.35655+153.121969" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy01R ASISO1-->
+      -27.374672+153.134306/
+      ASISO
+    </Line>
+    <Line>
+      <!--Rwy01R ASISO1.BIXAD-->
+      ASISO/
+      ENDAB/
+      DOXET/
+      BUKBU/
+      BIXAD
+    </Line>
+    <Line>
+      <!--Rwy01R ASISO1.GUMKI-->
+      ASISO/
+      IDKOS/
+      GUMKI
+    </Line>
+    <Line>
+      <!--Rwy01R ASISO1.SANEG-->
+      ASISO/
+      POTOV/
+      SUGUR/
+      SANEG
+    </Line>
+    <Line>
+      <!--Rwy01R ASISO1.SCOTT-->
+      ASISO/
+      BEMAN/
+      NOPAS/
+      SCOTT
+    </Line>
+    <Line>
+      <!--Rwy01R ASISO1.WACKO-->
+      SUGUR/
+      MANLI/
+      CARSL/
+      LAWNN/
+      WACKO
+    </Line>
+    <Line>
+      <!--Rwy01R GUMKI1-->
+      -27.374672+153.134306/
+      ISRIB/
+      IDKOS/
+      GUMKI
+    </Line>
+    <Line>
+      <!--Rwy01R SANEG1-->
+      ISRIB/
+      LUMDI/
+      MAVPI/
+      SANEG
+    </Line>
+    <Line>
+      <!--Rwy01R SCOTT3-->
+      LUMDI/
+      PIPEL/
+      NOPAS/
+      SCOTT
+    </Line>
+    <Line>
+      <!--Rwy01R WACKO3-->
+      LUMDI/
+      BAABA/
+      CARSL/
+      LAWNN/
+      WACKO
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy19R BLAK4A-->
+      BLAKA/
+      SUNUB/
+      LAGOB/
+      AMITY/
+      ESLUB/
+      OSEGU/
+      PILIG/
+      LAVIN/
+      OSOKO
+    </Line>
+    <Line>
+      <!--Rwy19R ENLI1A-->
+      ENLIP/
+      DULIN/
+      ALBUB/
+      RITVU/
+      APUKU/
+      DRAIN/
+      PAMBU/
+      ATRAX/
+      LAVIN
+    </Line>
+    <Line>
+      <!--Rwy19R ENLI1X-->
+      DRAIN/
+      LUVNA
+    </Line>
+    <Line>
+      <!--Rwy19R GOMO1A-->
+      GOMOL/
+      IRMEL/
+      AMITY
+    </Line>
+    <Line>
+      <!--Rwy19R MORB1A-->
+      MORBI/
+      REMOR/
+      GAYLA/
+      LUTKO/
+      IGBON/
+      PAMBU
+    </Line>
+    <Line>
+      <!--Rwy19R MORB1V-->
+      GAYLA/
+      TOLAX
+    </Line>
+    <Line>
+      <!--Rwy19R SMOK9A-->
+      SMOKA/
+      OTGAT/
+      GARTH/
+      BURPA/
+      IGBON
+    </Line>
+    <Line>
+      <!--Rwy19R SMOK9X-->
+      GARTH/
+      DAYBO/
+      PAMGO/
+      RUTAX/
+      DRAIN
+    </Line>
+    <Line>
+      <!--Rwy19R TEBO1A-->
+      TEBOT/
+      URBIN/
+      DOLSU/
+      PILIG
+    </Line>
+    <Line>
+      <!--Rwy19R UGTU1A-->
+      UGTUG/
+      ENAID/
+      DUBOM/
+      OSEGU
+    </Line>
+    <Line>
+      <!--Rwy19R WODY1A-->
+      WOODY/
+      ATVON/
+      TEGIL/
+      PAMGO/
+      IGBON
+    </Line>
+    <Line>
+      <!--Rwy19R WODY1V-->
+      
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>OSOKO</Point>
+      <Point>LUVNA</Point>
+      <Point>TOLAX</Point>
+      <Point>PAMGO</Point>
+    </Symbol>
+    <Symbol Type="SolidStar">
+      <Point>ASISO</Point>
+      <Point>ISRIB</Point>
+      <Point>LUMDI</Point>
+    </Symbol>
+    <Symbol Type="Circle" />
+    <Symbol Type="HollowStar">
+      <Point>ENDAB</Point>
+      <Point>DOXET</Point>
+      <Point>BUKBU</Point>
+      <Point>BIXAD</Point>
+      <Point>IDKOS</Point>
+      <Point>GUMKI</Point>
+      <Point>POTOV</Point>
+      <Point>SUGUR</Point>
+      <Point>SANEG</Point>
+      <Point>BEMAN</Point>
+      <Point>NOPAS</Point>
+      <Point>SCOTT</Point>
+      <Point>MANLI</Point>
+      <Point>CARSL</Point>
+      <Point>LAWNN</Point>
+      <Point>WACKO</Point>
+      <Point>MAVPI</Point>
+      <Point>PIPEL</Point>
+      <Point>BAABA</Point>
+      <Point>BLAKA</Point>
+      <Point>SUNUB</Point>
+      <Point>LAGOB</Point>
+      <Point>AMITY</Point>
+      <Point>ESLUB</Point>
+      <Point>OSEGU</Point>
+      <Point>PILIG</Point>
+      <Point>LAVIN</Point>
+      <Point>ENLIP</Point>
+      <Point>DULIN</Point>
+      <Point>ALBUB</Point>
+      <Point>RITVU</Point>
+      <Point>APUKU</Point>
+      <Point>DRAIN</Point>
+      <Point>PAMBU</Point>
+      <Point>ATRAX</Point>
+      <Point>GOMOL</Point>
+      <Point>IRMEL</Point>
+      <Point>MORBI</Point>
+      <Point>REMOR</Point>
+      <Point>GAYLA</Point>
+      <Point>LUTKO</Point>
+      <Point>IGBON</Point>
+      <Point>SMOKA</Point>
+      <Point>OTGAT</Point>
+      <Point>GARTH</Point>
+      <Point>BURPA</Point>
+      <Point>DAYBO</Point>
+      <Point>RUTAX</Point>
+      <Point>TEBOT</Point>
+      <Point>URBIN</Point>
+      <Point>DOLSU</Point>
+      <Point>UGTUG</Point>
+      <Point>ENAID</Point>
+      <Point>DUBOM</Point>
+      <Point>WOODY</Point>
+      <Point>ATVON</Point>
+      <Point>TEGIL</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="BN_RWYSODPROPS_NAMES" Priority="2" Centre="-27.384167+153.1175">
+    <Label>
+      <Point>ASISO</Point>
+      <Point>ENDAB</Point>
+      <Point>DOXET</Point>
+      <Point>BUKBU</Point>
+      <Point>BIXAD</Point>
+      <Point>IDKOS</Point>
+      <Point>GUMKI</Point>
+      <Point>POTOV</Point>
+      <Point>SUGUR</Point>
+      <Point>SANEG</Point>
+      <Point>BEMAN</Point>
+      <Point>NOPAS</Point>
+      <Point>SCOTT</Point>
+      <Point>MANLI</Point>
+      <Point>CARSL</Point>
+      <Point>LAWNN</Point>
+      <Point>WACKO</Point>
+      <Point>ISRIB</Point>
+      <Point>LUMDI</Point>
+      <Point>MAVPI</Point>
+      <Point>PIPEL</Point>
+      <Point>BAABA</Point>
+      <Point>BLAKA</Point>
+      <Point>SUNUB</Point>
+      <Point>LAGOB</Point>
+      <Point>AMITY</Point>
+      <Point>ESLUB</Point>
+      <Point>OSEGU</Point>
+      <Point>PILIG</Point>
+      <Point>LAVIN</Point>
+      <Point>OSOKO</Point>
+      <Point>ENLIP</Point>
+      <Point>DULIN</Point>
+      <Point>ALBUB</Point>
+      <Point>RITVU</Point>
+      <Point>APUKU</Point>
+      <Point>DRAIN</Point>
+      <Point>PAMBU</Point>
+      <Point>ATRAX</Point>
+      <Point>LUVNA</Point>
+      <Point>GOMOL</Point>
+      <Point>IRMEL</Point>
+      <Point>MORBI</Point>
+      <Point>REMOR</Point>
+      <Point>GAYLA</Point>
+      <Point>LUTKO</Point>
+      <Point>IGBON</Point>
+      <Point>TOLAX</Point>
+      <Point>SMOKA</Point>
+      <Point>OTGAT</Point>
+      <Point>GARTH</Point>
+      <Point>BURPA</Point>
+      <Point>DAYBO</Point>
+      <Point>PAMGO</Point>
+      <Point>RUTAX</Point>
+      <Point>TEBOT</Point>
+      <Point>URBIN</Point>
+      <Point>DOLSU</Point>
+      <Point>UGTUG</Point>
+      <Point>ENAID</Point>
+      <Point>DUBOM</Point>
+      <Point>WOODY</Point>
+      <Point>ATVON</Point>
+      <Point>TEGIL</Point>
+      <Point>MEPEM</Point>
+      <Point>ROM NDB</Point>
+      <Point>MIMMI</Point>
+      <Point>MORRO</Point>
+      <Point>SAVER</Point>
+      <Point>BONEY</Point>
+      <Point>HUUGO</Point>
+      <Point>APAGI</Point>
+      <Point>TESSI</Point>
+      <Point>ADMAR</Point>
+      <Point>BANDA</Point>
+      <Point>TOJAM</Point>
+      <Point>CHEWY</Point>
+      <Point>KATEB</Point>
+      <Point>ITIDE</Point>
+      <Point>GUDSO</Point>
+      <Point>ISKIM</Point>
+      <Point>NBR NDB</Point>
+      <Point>TAPET</Point>
+      <Point>LOAFA</Point>
+      <Point>GLA VOR</Point>
+      <Point>BICKL</Point>
+      <Point>SU VOR</Point>
+      <Point>RUDEY</Point>
+      <Point>MESED</Point>
+      <Point>ATROP</Point>
+      <Point>HARVS</Point>
+      <Point>MISLY</Point>
+      <Point>LAROS</Point>
+      <Point>SETER</Point>
+      <Point>HAWKE</Point>
+      <Point>COOLA</Point>
+      <Point>IBUNA</Point>
+      <Point>LEBIT</Point>
+      <Point>ATVIL</Point>
+      <Point>UNVAT</Point>
+      <Point>MILTY</Point>
+      <Point>SUSGI</Point>
+      <Point>OTLEB</Point>
+      <Point>AKOBA</Point>
+      <Point>SAGLI</Point>
+      <Point>MAGPI</Point>
+      <Point>GEESE</Point>
+      <Point>DADBO</Point>
+      <Point>ALDAR</Point>
+      <Point>ARM NDB</Point>
+      <Point>SANAD</Point>
+      <Point>TW VOR</Point>
+      <Point>CFS VOR</Point>
+      <Point>TUCAB</Point>
+      <Point>TUCKI</Point>
+      <Point>JEDDA</Point>
+      <Point>AMB NDB</Point>
+      <Point>BNA NDB</Point>
+      <Point>KADSI</Point>
+      <Point>UGPOT</Point>
+      <Point>GAMBL</Point>
+      <Point>SORTI</Point>
+      <Point>RUROX</Point>
+      <Point>BUD NDB</Point>
+      <Point>SOSTU</Point>
+      <Point>HOLIS</Point>
+      <Point>RIDVO</Point>
+      <Point>OK VOR</Point>
+      <Point>MATVI</Point>
+      <Point>DAMIN</Point>
+      <Point>BERNI</Point>
+      <Point>KANKO</Point>
+      <Point>BEPNA</Point>
+      <Point>YCCA</Point>
+      <Point>OPIPO</Point>
+      <Point>NODOR</Point>
+      <Point>EAGLE</Point>
+      <Point>LAMUG</Point>
+      <Point>AGIVA</Point>
+      <Point>PARRY</Point>
+      <Point>ELENI</Point>
+      <Point>RACHL</Point>
+      <Point>SUKTU</Point>
+      <Point>EDPEG</Point>
+      <Point>RISON</Point>
+      <Point>PERSA</Point>
+      <Point>YAMB</Point>
+    </Label>
+  </Map>
+</Maps>

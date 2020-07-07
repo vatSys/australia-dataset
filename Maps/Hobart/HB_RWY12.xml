@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="HB_RWY12" Priority="1" Centre="-42.836111+147.510278">
+    <!--YMHB-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-42.828983+147.502047" ExtendedCentrelineTrack="315.01" ExtendedCentrelineLength="17" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30" Position="-42.845589+147.524594" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy12 CLARK2-->
+      -42.845589+147.524594/
+      KADON/
+      BIVED/
+      IDRUG/
+      DUMIT/
+      NUVTA/
+      CLARK
+    </Line>
+    <Line>
+      <!--Rwy12 KANLI3-->
+      -42.845589+147.524594/
+      OREBA/
+      ISTIG/
+      OMKUL/
+      GIVOT/
+      SORVI/
+      TOSUG/
+      VILAL/
+      MIBAL/
+      KANLI
+    </Line>
+    <Line>
+      <!--Rwy12 LATUM2-->
+      NUVTA/
+      TASED/
+      LATUM
+    </Line>
+    <Line>
+      <!--Rwy12 LAVOP1-->
+      OREBA/
+      LAVOP
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy12 IPLE5A-->
+      IPLET/
+      SUNEK/
+      BEBEK/
+      UNTAP/
+      BUSKA
+    </Line>
+    <Line>
+      <!--Rwy12 IPLE5V-->
+      IPLET/
+      ATIGU/
+      PIMOV/
+      VETOR
+    </Line>
+    <Line>
+      <!--Rwy12 IPLE5W-->
+      
+    </Line>
+    <Line>
+      <!--Rwy12 MORG1A-->
+      MORGO/
+      VAVMO/
+      IKOBI/
+      BUSKA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>BUSKA</Point>
+      <Point>VETOR</Point>
+    </Symbol>
+    <Symbol Type="SolidStar">
+      <Point>OREBA</Point>
+    </Symbol>
+    <Symbol Type="Circle" />
+    <Symbol Type="HollowStar">
+      <Point>KADON</Point>
+      <Point>BIVED</Point>
+      <Point>IDRUG</Point>
+      <Point>DUMIT</Point>
+      <Point>NUVTA</Point>
+      <Point>CLARK</Point>
+      <Point>ISTIG</Point>
+      <Point>OMKUL</Point>
+      <Point>GIVOT</Point>
+      <Point>SORVI</Point>
+      <Point>TOSUG</Point>
+      <Point>VILAL</Point>
+      <Point>MIBAL</Point>
+      <Point>KANLI</Point>
+      <Point>TASED</Point>
+      <Point>LATUM</Point>
+      <Point>LAVOP</Point>
+      <Point>IPLET</Point>
+      <Point>SUNEK</Point>
+      <Point>BEBEK</Point>
+      <Point>UNTAP</Point>
+      <Point>ATIGU</Point>
+      <Point>PIMOV</Point>
+      <Point>MORGO</Point>
+      <Point>VAVMO</Point>
+      <Point>IKOBI</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="HB_RWY12_NAMES" Priority="2" Centre="-42.836111+147.510278">
+    <Label>
+      <Point>KADON</Point>
+      <Point>BIVED</Point>
+      <Point>IDRUG</Point>
+      <Point>DUMIT</Point>
+      <Point>NUVTA</Point>
+      <Point>CLARK</Point>
+      <Point>OREBA</Point>
+      <Point>ISTIG</Point>
+      <Point>OMKUL</Point>
+      <Point>GIVOT</Point>
+      <Point>SORVI</Point>
+      <Point>TOSUG</Point>
+      <Point>VILAL</Point>
+      <Point>MIBAL</Point>
+      <Point>KANLI</Point>
+      <Point>TASED</Point>
+      <Point>LATUM</Point>
+      <Point>LAVOP</Point>
+      <Point>IPLET</Point>
+      <Point>SUNEK</Point>
+      <Point>BEBEK</Point>
+      <Point>UNTAP</Point>
+      <Point>BUSKA</Point>
+      <Point>ATIGU</Point>
+      <Point>PIMOV</Point>
+      <Point>VETOR</Point>
+      <Point>MORGO</Point>
+      <Point>VAVMO</Point>
+      <Point>IKOBI</Point>
+      <Point>LT VOR</Point>
+      <Point>KAREN</Point>
+      <Point>NUNPA</Point>
+      <Point>DOTVU</Point>
+      <Point>SALEM</Point>
+      <Point>IRSOM</Point>
+      <Point>LIFFY</Point>
+      <Point>MOTRA</Point>
+      <Point>GOMOM</Point>
+      <Point>BROAD</Point>
+    </Label>
+  </Map>
+</Maps>

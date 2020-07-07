@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="TN_RWY14" Priority="1" Centre="-14.521111+132.377778">
+    <!--YPTN-->
+    <Runway Name="14/32">
+      <Threshold Name="14" Position="-14.512197+132.368858" ExtendedCentrelineTrack="318.90" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="32" Position="-14.530878+132.385583" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy14 DAPMA2-->
+      -14.530878+132.385583/
+      -14.54138+132.395014/
+      -14.546015+132.401869/
+      -14.546975+132.410171/
+      -14.52689+132.454788/
+      DAPMA
+    </Line>
+    <Line>
+      <!--Rwy14 DN4-->
+      -14.530878+132.385583/
+      -14.513298+132.369871/
+      -14.51803+132.37409/
+      -14.526887+132.381966/
+      -14.538236+132.392151/
+      -14.550549+132.400903/
+      -14.56491+132.405959/
+      -14.579915+132.403037/
+      -14.591967+132.392606/
+      -14.597683+132.377331/
+      -14.595679+132.360661/
+      -14.586149+132.346514/
+      DN
+    </Line>
+    <Line>
+      <!--Rwy14 DOSAM4-->
+      -14.530878+132.385583/
+      -14.577139+132.391276/
+      DOSAM
+    </Line>
+    <Line>
+      <!--Rwy14 GREGA4-->
+      -14.577139+132.391276/
+      -14.61676+132.382665/
+      GREGA
+    </Line>
+    <Line>
+      <!--Rwy14 LARAB4-->
+      -14.54138+132.395014/
+      -14.548679+132.398822/
+      -14.556853+132.398582/
+      -14.563931+132.394352/
+      -14.568207+132.38715/
+      -14.56865+132.378713/
+      -14.565153+132.371076/
+      -14.488649+132.331526/
+      LARAB
+    </Line>
+    <Line>
+      <!--Rwy14 MIGAX3-->
+      -14.54138+132.395014/
+      MIGAX
+    </Line>
+    <Line>
+      <!--Rwy14 MILIV4-->
+      -14.530878+132.385583/
+      MILIV
+    </Line>
+    <!--STARs-->
+    <Symbol Type="HollowTriangle" />
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle" />
+    <Symbol Type="HollowStar">
+      <Point>DAPMA</Point>
+      <Point>DN</Point>
+      <Point>DOSAM</Point>
+      <Point>GREGA</Point>
+      <Point>LARAB</Point>
+      <Point>MIGAX</Point>
+      <Point>MILIV</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="TN_RWY14_NAMES" Priority="2" Centre="-14.521111+132.377778">
+    <Label>
+      <Point>DAPMA</Point>
+      <Point>DN</Point>
+      <Point>DOSAM</Point>
+      <Point>GREGA</Point>
+      <Point>LARAB</Point>
+      <Point>MIGAX</Point>
+      <Point>MILIV</Point>
+      <Point>AGUST</Point>
+      <Point>DN VOR</Point>
+      <Point>LAKUP</Point>
+      <Point>ANGED</Point>
+      <Point>BONES</Point>
+      <Point>STOES</Point>
+      <Point>ALLEE</Point>
+      <Point>VEGPU</Point>
+      <Point>ITTSA</Point>
+      <Point>BEBUX</Point>
+      <Point>DUMPA</Point>
+      <Point>TRUKA</Point>
+      <Point>NUTTA</Point>
+      <Point>KU VOR</Point>
+      <Point>GTE NDB</Point>
+      <Point>SUNIX</Point>
+      <Point>BOBIK</Point>
+      <Point>OVMIS</Point>
+      <Point>HOO NDB</Point>
+      <Point>PETRL</Point>
+      <Point>BARON</Point>
+    </Label>
+  </Map>
+</Maps>

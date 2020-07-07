@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="CS_TCU" Priority="1" Centre="-16.885833+145.755278">
+    <!--Airway Routes-->
+    <Line>
+      <!--A216-->
+      LOCKA/
+      MEMIG
+    </Line>
+    <Line>
+      <!--B473-->
+      MEMOS/
+      LAKED
+    </Line>
+    <Line>
+      <!--G342-->
+      NONIR/
+      DOTOD
+    </Line>
+    <Line>
+      <!--J61-->
+      GULOP/
+      ANDEE/
+      KONDA
+    </Line>
+    <Line>
+      <!--J64-->
+      BIDAG/
+      BULOK/
+      MUSEY
+    </Line>
+    <Line>
+      <!--J151-->
+      CARBA/
+      KOOKA
+    </Line>
+    <Line>
+      <!--Q67-->
+      SWALO/
+      BARIA
+    </Line>
+    <Line>
+      <!--R204-->
+      KIMMI/
+      DREWS
+    </Line>
+    <Line>
+      <!--R210-->
+      ZANEY/
+      PUPEB
+    </Line>
+    <Line>
+      <!--V153-->
+      IFL NDB/
+      SPARO/
+      IBUXI/
+      BINUN/
+      TL VOR/
+      WALTA/
+      ALBUX
+    </Line>
+    <Line>
+      <!--V264-->
+      PAWSO/
+      SPARO
+    </Line>
+    <Line>
+      <!--V308-->
+      ALISN/
+      POROB/
+      TL VOR/
+      ADLAG/
+      PEWEE/
+      BARIA
+    </Line>
+    <Line>
+      <!--W281-->
+      KOW NDB/
+      ELNOT/
+      DAMIL
+    </Line>
+    <Line>
+      <!--W309-->
+      TAMED/
+      COE NDB
+    </Line>
+    <Line>
+      <!--W567-->
+      BENTA/
+      GUPDA
+    </Line>
+    <Line>
+      <!--Y177-->
+      SWIFT/
+      WALTA
+    </Line>
+    <Line>
+      <!--Z11-->
+      NORIS/
+      MASHA/
+      KOW NDB
+    </Line>
+  </Map>
+  <Map Type="System2" Name="CS_VFR" Priority="1" Centre="-16.885833+145.755278">
+    <Symbol Type="HollowSquare">
+      <Point>ADI</Point>
+      <Point>ALBA</Point>
+      <Point>ATN</Point>
+      <Point>BADA</Point>
+      <Point>BRGE</Point>
+      <Point>BESI</Point>
+      <Point>BRIN</Point>
+      <Point>BUCP</Point>
+      <Point>CBLT</Point>
+      <Point>CGF</Point>
+      <Point>CPL</Point>
+      <Point>DAIN</Point>
+      <Point>DOU</Point>
+      <Point>EARH</Point>
+      <Point>EARV</Point>
+      <Point>EDT</Point>
+      <Point>FCP</Point>
+      <Point>FID</Point>
+      <Point>FRWV</Point>
+      <Point>GNR</Point>
+      <Point>GOV</Point>
+      <Point>GNIS</Point>
+      <Point>GRNH</Point>
+      <Point>HVTG</Point>
+      <Point>KOPP</Point>
+      <Point>KRN</Point>
+      <Point>LMGE</Point>
+      <Point>LWI</Point>
+      <Point>MACB</Point>
+      <Point>MBA</Point>
+      <Point>MARQ</Point>
+      <Point>MMA</Point>
+      <Point>MMY</Point>
+      <Point>PCVE</Point>
+      <Point>PFRM</Point>
+      <Point>PTD</Point>
+      <Point>REDL</Point>
+      <Point>SADD</Point>
+      <Point>SMIF</Point>
+      <Point>SDG</Point>
+      <Point>SCRK</Point>
+      <Point>SUTR</Point>
+      <Point>SWLD</Point>
+      <Point>THSM</Point>
+      <Point>TBRT</Point>
+      <Point>TRIN</Point>
+      <Point>WAT</Point>
+      <Point>YBH</Point>
+      <Point>YKS</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ADI</Point>
+      <Point>ALBA</Point>
+      <Point>ATN</Point>
+      <Point>BADA</Point>
+      <Point>BRGE</Point>
+      <Point>BESI</Point>
+      <Point>BRIN</Point>
+      <Point>BUCP</Point>
+      <Point>CBLT</Point>
+      <Point>CGF</Point>
+      <Point>CPL</Point>
+      <Point>DAIN</Point>
+      <Point>DOU</Point>
+      <Point>EARH</Point>
+      <Point>EARV</Point>
+      <Point>EDT</Point>
+      <Point>FCP</Point>
+      <Point>FID</Point>
+      <Point>FRWV</Point>
+      <Point>GNR</Point>
+      <Point>GOV</Point>
+      <Point>GNIS</Point>
+      <Point>GRNH</Point>
+      <Point>HVTG</Point>
+      <Point>KOPP</Point>
+      <Point>KRN</Point>
+      <Point>LMGE</Point>
+      <Point>LWI</Point>
+      <Point>MACB</Point>
+      <Point>MBA</Point>
+      <Point>MARQ</Point>
+      <Point>MMA</Point>
+      <Point>MMY</Point>
+      <Point>PCVE</Point>
+      <Point>PFRM</Point>
+      <Point>PTD</Point>
+      <Point>REDL</Point>
+      <Point>SADD</Point>
+      <Point>SMIF</Point>
+      <Point>SDG</Point>
+      <Point>SCRK</Point>
+      <Point>SUTR</Point>
+      <Point>SWLD</Point>
+      <Point>THSM</Point>
+      <Point>TBRT</Point>
+      <Point>TRIN</Point>
+      <Point>WAT</Point>
+      <Point>YBH</Point>
+      <Point>YKS</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="EAST_ROUTE">-17.04756+145.806135</Point>
+      <Point Name="WEST_ROUTE">-16.658801+145.575894</Point>
+    </Label>
+    <!--EAST_ROUTE-->
+    <Line Pattern="Dotted">
+      -17.04756+145.806135/
+      TBRT/
+      -16.918516+145.791392
+    </Line>
+    <!--WEST_ROUTE-->
+    <Line Pattern="Dotted">
+      -16.658801+145.575894/
+      -16.678754+145.582577/
+      -16.687852+145.592857/
+      -16.700319+145.628375/
+      -16.730108+145.659605/
+      -16.73793+145.665733/
+      -16.754162+145.665443/
+      -16.772023+145.67689/
+      -16.803516+145.694327/
+      -16.837761+145.696437/
+      -16.861557+145.696599/
+      -16.941711+145.743031/
+      -16.953851+145.748083/
+      -16.978766+145.739673/
+      -16.999933+145.738336/
+      -17.028798+145.739826/
+      -17.071897+145.759473
+    </Line>
+  </Map>
+  <Map Type="System" Name="YBCS_ALLRWYS" Priority="2" Centre="-16.885833+145.755278">
+    <Runway Name="15/33">
+      <Threshold Name="15" Position="-16.865831+145.743561" ExtendedCentrelineTrack="336.48" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="33" Position="-16.891983+145.755383" ExtendedCentrelineTrack="156.48" ExtendedCentrelineLength="25" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+  </Map>
+</Maps>

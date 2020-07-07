@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="HB_TCU" Priority="1" Centre="-42.836111+147.510278">
+    <!--Airway Routes-->
+    <Line>
+      <!--H111-->
+      KANLI/
+      LATUM/
+      LT VOR
+    </Line>
+    <Line>
+      <!--J163-->
+      KAREN/
+      NUNPA
+    </Line>
+    <Line>
+      <!--T234-->
+      DOTVU/
+      SALEM/
+      CLARK
+    </Line>
+    <Line>
+      <!--V33-->
+      IRSOM/
+      LIFFY/
+      MORGO
+    </Line>
+    <Line>
+      <!--W407-->
+      NUNPA/
+      MOTRA/
+      IPLET
+    </Line>
+    <Line>
+      <!--W462-->
+      GOMOM/
+      BROAD
+    </Line>
+  </Map>
+  <Map Type="System2" Name="HB_VFR" Priority="1" Centre="-42.836111+147.510278">
+    <Symbol Type="HollowSquare">
+      <Point>BOWB</Point>
+      <Point>BKD</Point>
+      <Point>CPA</Point>
+      <Point>COY</Point>
+      <Point>CBV</Point>
+      <Point>CREM</Point>
+      <Point>DRP</Point>
+      <Point>DLY</Point>
+      <Point>EAN</Point>
+      <Point>HCTY</Point>
+      <Point>LAUD</Point>
+      <Point>MGL</Point>
+      <Point>MRL</Point>
+      <Point>MAYD</Point>
+      <Point>MORN</Point>
+      <Point>OAT</Point>
+      <Point>PRS</Point>
+      <Point>PSF</Point>
+      <Point>RADT</Point>
+      <Point>RCH</Point>
+      <Point>SLP</Point>
+      <Point>SORL</Point>
+      <Point>TAS</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>BOWB</Point>
+      <Point>BKD</Point>
+      <Point>CPA</Point>
+      <Point>COY</Point>
+      <Point>CBV</Point>
+      <Point>CREM</Point>
+      <Point>DRP</Point>
+      <Point>DLY</Point>
+      <Point>EAN</Point>
+      <Point>HCTY</Point>
+      <Point>LAUD</Point>
+      <Point>MGL</Point>
+      <Point>MRL</Point>
+      <Point>MAYD</Point>
+      <Point>MORN</Point>
+      <Point>OAT</Point>
+      <Point>PRS</Point>
+      <Point>PSF</Point>
+      <Point>RADT</Point>
+      <Point>RCH</Point>
+      <Point>SLP</Point>
+      <Point>SORL</Point>
+      <Point>TAS</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="IN_DUNALLEY">DLY</Point>
+      <Point Name="IN_PROSSERS_SGLF">PSF</Point>
+      <Point Name="IN_VICTOR_NW">-42.547418+147.36976</Point>
+      <Point Name="IN_VICTOR_SOUTH">CREM</Point>
+      <Point Name="IN_VICTOR_SW">DRP</Point>
+      <Point Name="MANGALORE">MGL</Point>
+      <Point Name="VICTOR_EAST">-42.865881+147.833051</Point>
+      <Point Name="VICTOR_NE">CBV</Point>
+      <Point Name="VICTOR_WEST">BOWB</Point>
+    </Label>
+    <!--IN_DUNALLEY-->
+    <Line Pattern="Dotted">
+      DLY/
+      PRS/
+      YMHB
+    </Line>
+    <!--IN_PROSSERS_SGLF-->
+    <Line Pattern="Dotted">
+      PSF/
+      SORL/
+      YCBG
+    </Line>
+    <!--IN_VICTOR_NW-->
+    <Line Pattern="Dotted">
+      -42.547418+147.36976/
+      -42.554775+147.374898/
+      -42.566403+147.37773/
+      -42.577218+147.384493/
+      -42.593406+147.388029/
+      -42.610776+147.411509/
+      -42.644725+147.432141/
+      -42.662976+147.420897/
+      -42.737842+147.422258/
+      -42.775918+147.407126/
+      -42.81309+147.42151/
+      -42.825089+147.444656
+    </Line>
+    <!--IN_VICTOR_SOUTH-->
+    <Line Pattern="Dotted">
+      CREM/
+      -42.930397+147.483704/
+      YCBG
+    </Line>
+    <!--IN_VICTOR_SW-->
+    <Line Pattern="Dotted">
+      DRP/
+      -42.842833+147.426/
+      YCBG
+    </Line>
+    <!--MANGALORE-->
+    <Line Pattern="Dotted">
+      MGL/
+      YCBG
+    </Line>
+    <!--VICTOR_EAST-->
+    <Line Pattern="Dotted">
+      -42.865881+147.833051/
+      -42.816849+147.806929/
+      -42.810922+147.781834/
+      -42.817104+147.740672/
+      -42.819566+147.683047/
+      -42.806695+147.637918/
+      -42.796592+147.613416/
+      -42.784874+147.607952/
+      -42.781415+147.599598/
+      SORL
+    </Line>
+    <!--VICTOR_NE-->
+    <Line Pattern="Dotted">
+      CBV/
+      SORL
+    </Line>
+    <!--VICTOR_WEST-->
+    <Line Pattern="Dotted">
+      BOWB/
+      YCBG
+    </Line>
+  </Map>
+  <Map Type="System" Name="YMHB_ALLRWYS" Priority="2" Centre="-42.836111+147.510278">
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-42.828983+147.502047" ExtendedCentrelineTrack="315.01" ExtendedCentrelineLength="17" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30" Position="-42.845589+147.524594" ExtendedCentrelineTrack="135.03" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+  </Map>
+</Maps>

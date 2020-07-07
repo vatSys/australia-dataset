@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="SU_RWY31" Priority="1" Centre="-26.603333+153.091111">
+    <!--YBSU-->
+    <Runway Name="13/31">
+      <Threshold Name="13" Position="-26.583214+153.074517" />
+      <Threshold Name="31" Position="-26.600728+153.089547" ExtendedCentrelineTrack="142.5" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy31 MOOLO1-->
+      -26.583214+153.074517/
+      IGOLO/
+      NOGAM/
+      VEKNU/
+      AGSAL/
+      MOOLO
+    </Line>
+    <Line>
+      <!--Rwy31 TAPET1-->
+      -26.583214+153.074517/
+      VISIB/
+      BIDKI/
+      TAPET
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy31 ITID1W-->
+      ITIDE/
+      AKERO/
+      SAKAP
+    </Line>
+    <Line>
+      <!--Rwy31 ITID1Z-->
+      ITIDE/
+      GUVIX/
+      OVRUL
+    </Line>
+    <Line>
+      <!--Rwy31 REBE1X-->
+      REBEG/
+      DUKEL/
+      IKISA
+    </Line>
+    <Line>
+      <!--Rwy31 REBE1Z-->
+      IKISA/
+      DOVMI/
+      OVRUL
+    </Line>
+    <Line>
+      <!--Rwy31 SEBV1X-->
+      SEBVA/
+      METUK/
+      DUKEL
+    </Line>
+    <Line>
+      <!--Rwy31 SEBV1Z-->
+      
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>SAKAP</Point>
+      <Point>OVRUL</Point>
+      <Point>IKISA</Point>
+    </Symbol>
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle" />
+    <Symbol Type="HollowStar">
+      <Point>IGOLO</Point>
+      <Point>NOGAM</Point>
+      <Point>VEKNU</Point>
+      <Point>AGSAL</Point>
+      <Point>MOOLO</Point>
+      <Point>VISIB</Point>
+      <Point>BIDKI</Point>
+      <Point>TAPET</Point>
+      <Point>ITIDE</Point>
+      <Point>AKERO</Point>
+      <Point>GUVIX</Point>
+      <Point>REBEG</Point>
+      <Point>DUKEL</Point>
+      <Point>DOVMI</Point>
+      <Point>SEBVA</Point>
+      <Point>METUK</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="SU_RWY31_NAMES" Priority="2" Centre="-26.603333+153.091111">
+    <Label>
+      <Point>IGOLO</Point>
+      <Point>NOGAM</Point>
+      <Point>VEKNU</Point>
+      <Point>AGSAL</Point>
+      <Point>MOOLO</Point>
+      <Point>VISIB</Point>
+      <Point>BIDKI</Point>
+      <Point>TAPET</Point>
+      <Point>ITIDE</Point>
+      <Point>AKERO</Point>
+      <Point>SAKAP</Point>
+      <Point>GUVIX</Point>
+      <Point>OVRUL</Point>
+      <Point>REBEG</Point>
+      <Point>DUKEL</Point>
+      <Point>IKISA</Point>
+      <Point>DOVMI</Point>
+      <Point>SEBVA</Point>
+      <Point>METUK</Point>
+      <Point>GOMOL</Point>
+      <Point>MAKRU</Point>
+      <Point>MUDDL</Point>
+      <Point>SANEG</Point>
+      <Point>ISKIM</Point>
+      <Point>SURPO</Point>
+      <Point>OK VOR</Point>
+      <Point>IVL NDB</Point>
+      <Point>RUROX</Point>
+      <Point>BUD NDB</Point>
+      <Point>SOSTU</Point>
+      <Point>UNVAT</Point>
+      <Point>SANDI</Point>
+      <Point>SUSGI</Point>
+      <Point>CREDY</Point>
+      <Point>HAAVI</Point>
+    </Label>
+  </Map>
+</Maps>

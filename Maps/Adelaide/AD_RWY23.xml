@@ -1,15 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="AD_RWY23" Priority="1" Center="-34.947+138.525">
-    <Runway Name="23/05">
-      <Threshold Name="23" Position="-34.940640+138.543240" ExtendedCentrelineTrack="049.725" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="05" Position="-34.957681+138.518456" />
-    </Runway>
+  <Map Type="System" Name="AD_RWY23" Priority="1" Centre="-34.945+138.530556">
+    <!--YPAD-->
     <Runway Name="12/30">
-      <Threshold Name="12" Position="-34.941186+138.521833" ExtendedCentrelineTrack="303.655" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="30" Position="-34.949408+138.536986" ExtendedCentrelineTrack="123.655" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="12" Position="-34.941186+138.521906" ExtendedCentrelineTrack="303.51" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30" Position="-34.949408+138.536986" ExtendedCentrelineTrack="123.49" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-34.957681+138.518456" />
+      <Threshold Name="23" Position="-34.940644+138.54325" ExtendedCentrelineTrack="50.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--SIDs-->
     <Line>
+      <!--Rwy23 BENDO2-->
       -34.957681+138.518456/
       COLPY/
       SULLY/
@@ -17,73 +20,52 @@
       CLARY/
       BARKA/
       MURRY/
-      PANKI
+      BENDO
     </Line>
     <Line>
-      MURRY/
-      BENDO/
-      HINDY
-    </Line>
-    <Line>
-      CLARY/
-      URADA/
-      SEDAN/
-      UBDIB
-    </Line>
-    <Line>
-      SILVN/
-      SEDAN
-    </Line>
-    <Line>
-      COLPY/
+      <!--Rwy23 GILES4-->
+      -34.957681+138.518456/
       CORNS/
       KEEFO/
       DERWY/
-      GILES/
-      LONLY
+      GILES
     </Line>
     <Line>
+      <!--Rwy23 HAWKY5-->
       KEEFO/
       BIGAL/
-      HAWKY/
-      KAMBI
+      HAWKY
     </Line>
     <Line>
-      HAWKY/
-      MUTHA
+      <!--Rwy23 PANKI3-->
+      MURRY/
+      PANKI
     </Line>
     <Line>
-      HAWKY/
-      SPOTA/
-      WHA
+      <!--Rwy23 SEDAN2-->
+      CLARY/
+      URADA/
+      SEDAN
     </Line>
+    <!--STARs-->
     <Line>
-      RUVUS/
-      ALEXI/
+      <!--Rwy23 ATPIP3-->
       ATPIP/
       KASBU
     </Line>
     <Line>
-      PRICE/
-      BLACK
-    </Line>
-    <Line>
-      TUMAN/
-      BLACK
-    </Line>
-    <Line>
-      WOONA/
+      <!--Rwy23 BLAC3A-->
       BLACK/
       PLEZN/
       KERRS/
       GULLY
     </Line>
     <Line>
-      GULLY/
-      MOPRI
+      <!--Rwy23 BLAC3Z-->
+      
     </Line>
     <Line>
-      DUKES/
+      <!--Rwy23 DRIN9A-->
       DRINA/
       COMLY/
       DISHA/
@@ -92,263 +74,318 @@
       GULLY
     </Line>
     <Line>
+      <!--Rwy23 DRIN9V-->
       BRAKI/
       TUSGO/
       MOPRI
     </Line>
     <Line>
+      <!--Rwy23 DRIN9Z-->
+      
+    </Line>
+    <Line>
+      <!--Rwy23 ELRO4V-->
       ELROX/
       TROUB/
       RUDIE/
       BIMOP/
-      PORTA/
-      -345509.0+1383427.0
+      PORTA
     </Line>
     <Line>
+      <!--Rwy23 GULF7V.RIKAB-->
       RIKAB/
       GULFS
     </Line>
     <Line>
+      <!--Rwy23 GULF7V-->
       GULFS/
       VEKMI/
       PORTA
     </Line>
     <Line>
-      WHA/
-      BOGAL/
-      NINEP/
-      MARGO/
-      ISKOT/
-      PAMMY/
-      SALTY/
-      GLOBE
-    </Line>
-    <Line>
-      PAMMY/
-      PORTA
-    </Line>
-    <Line>
-      AKDAV/
+      <!--Rwy23 PAMY6V.AGROS-->
       AGROS/
-      ROGUE/
-      SALTY
-    </Line>
-    <Line>
       ROGUE/
       EKEGA/
       PAMMY
     </Line>
     <Line>
+      <!--Rwy23 PAMY6V.MARGO-->
+      MARGO/
+      ISKOT/
+      PAMMY
+    </Line>
+    <Line>
+      <!--Rwy23 PAMY6V-->
+      PAMMY/
+      PORTA
+    </Line>
+    <Line>
+      <!--Rwy23 RAYN2A.KLAVA-->
+      KLAVA/
+      RAYNA
+    </Line>
+    <Line>
+      <!--Rwy23 RAYN2A.OJJAY-->
       OJJAY/
       ZIPPY/
       ERITH/
+      RAYNA
+    </Line>
+    <Line>
+      <!--Rwy23 RAYN2A-->
       RAYNA/
       ELIZA/
       GULLY
     </Line>
     <Line>
-      KLAVA/
-      RAYNA
+      <!--Rwy23 RAYN2V.KLAVA-->
+      
     </Line>
     <Line>
+      <!--Rwy23 RAYN2V.OJJAY-->
+      
+    </Line>
+    <Line>
+      <!--Rwy23 RAYN2V-->
       RAYNA/
       MOPRI
     </Line>
     <Line>
-      AKDAV/
-      RIKAB
+      <!--Rwy23 RAYN2Z.KLAVA-->
+      
     </Line>
     <Line>
-      FRAZA/
-      RIKAB
+      <!--Rwy23 RAYN2Z.OJJAY-->
+      
     </Line>
     <Line>
-      WINCH/
-      RIKAB
+      <!--Rwy23 RAYN2Z-->
+      
     </Line>
     <Line>
-      ROGAS/
-      RIKAB
-    </Line>
-    <Line>
+      <!--Rwy23 RIKA8A-->
+      RIKAB/
+      GULFS/
       GLOBE/
       ELIZA
     </Line>
     <Line>
+      <!--Rwy23 RIKA8V-->
       GULFS/
       URBUN/
-      MALIK/
-      OKTON
+      MALIK
     </Line>
     <Line>
-      BHI/
-      HOBBS/
+      <!--Rwy23 RIKA8Z-->
+      
+    </Line>
+    <Line>
+      <!--Rwy23 RUSSL3-->
       RUSSL/
       LUFFY
     </Line>
     <Line>
-      GULLY/
-      VILAD/
-      TRUMP/
-      BHI
+      <!--Rwy23 SALT3A.AGROS-->
+      ROGUE/
+      SALTY
     </Line>
     <Line>
+      <!--Rwy23 SALT3A.MARGO-->
+      MARGO/
+      SALTY
+    </Line>
+    <Line>
+      <!--Rwy23 SALT3A-->
+      SALTY/
+      GLOBE
+    </Line>
+    <Line>
+      <!--Rwy23 SALT3V.AGROS-->
+      
+    </Line>
+    <Line>
+      <!--Rwy23 SALT3V.KLAVA-->
+      KLAVA/
+      VICMA/
+      SALTY
+    </Line>
+    <Line>
+      <!--Rwy23 SALT3V.MARGO-->
+      
+    </Line>
+    <Line>
+      <!--Rwy23 SALT3V-->
+      SALTY/
+      MALIK
+    </Line>
+    <Line>
+      <!--Rwy23 SALT3Z.AGROS-->
+      
+    </Line>
+    <Line>
+      <!--Rwy23 SALT3Z.KLAVA-->
+      
+    </Line>
+    <Line>
+      <!--Rwy23 SALT3Z.MARGO-->
+      
+    </Line>
+    <Line>
+      <!--Rwy23 SALT3Z-->
+      
+    </Line>
+    <Line>
+      <!--Rwy23 SURGN3.BLACK-->
       BLACK/
       SURGN
     </Line>
     <Line>
-      ACTIN/
-      WAKEN/
-      HOLIT
+      <!--Rwy23 SURGN3-->
+      SURGN/
+      GRIGS
     </Line>
     <Line>
-      ORBUN/
-      ISROV
+      <!--Rwy12 ATPIP3-->
+      
     </Line>
     <Line>
-      NIMEK/
-      KLAVA
+      <!--Rwy12 ELRO4V-->
+      RUDIE/
+      MULDR
     </Line>
     <Line>
-      AD VOR227015/
-      EEMUE/
-      VAVPA
+      <!--Rwy12 GULF7V.RIKAB-->
+      
     </Line>
     <Line>
-      VAVPA/
-      GITOP/
-      ELROX
+      <!--Rwy12 GULF7V-->
+      GULFS/
+      MULDR
     </Line>
     <Line>
-      AD VOR271015/
-      YORKE/
-      LEWIS/
-      PLC
+      <!--Rwy12 PAMY6V.AGROS-->
+      
     </Line>
     <Line>
-      AD VOR138015/
-      ALBUT/
-      SWELL
+      <!--Rwy12 PAMY6V.MARGO-->
+      
     </Line>
-    <Symbol Type="HollowStar">
-      <!--SID EAST-->
-      <Point>COLPY</Point>
-      <Point>SULLY</Point>
-      <Point>MORPH</Point>
-      <Point>BARKA</Point>
-      <Point>BENDO</Point>
-      <Point>PANKI</Point>
-      <!--SID WEST-->
-      <Point>CORNS</Point>
-      <Point>KEEFO</Point>
-      <Point>GILES</Point>
-      <Point>HAWKY</Point>
-      <!--SID SEDAN-->
-      <Point>URADA</Point>
-      <Point>SEDAN</Point>
-      <!--STARS-->
-      <Point>ATPIP</Point>
-      <Point>KASBU</Point>
-      <Point>BLACK</Point>
-      <Point>PLEZN</Point>
-      <Point>KERRS</Point>
-      <Point>GULLY</Point>
-      <Point>DRINA</Point>
-      <Point>COMLY</Point>
-      <Point>BRAKI</Point>
-      <Point>ELROX</Point>
-      <Point>TROUB</Point>
-      <Point>RUDIE</Point>
-      <Point>MULDR</Point>
-      <Point>PORTA</Point>
-      <Point>RIKAB</Point>
-      <Point>GULFS</Point>
-      <Point>AGROS</Point>
-      <Point>MARGO</Point>
-      <Point>PAMMY</Point>
-      <Point>OJJAY</Point>
-      <Point>KLAVA</Point>
-      <Point>RAYNA</Point>
-      <Point>ELIZA</Point>
-      <Point>AKDAV</Point>
-      <Point>FRAZA</Point>
-      <Point>WINCH</Point>
-      <Point>ROGAS</Point>
-      <Point>RIKAB</Point>
-      <Point>RUSSL</Point>
-      <Point>LUFFY</Point>
-      <Point>SURGN</Point>
-      <Point>MALIK</Point>
-      <Point>SALTY</Point>
-      <Point>WAKEN</Point>
-      <Point>ALBUT</Point>
-      <Point>VAVPA</Point>
-      <Point>ORBUN</Point>
-      <Point>YORKE</Point>
-      <Point>PLC</Point>
-      <Point>VILAD</Point>
-      <Point>ALEXI</Point>
-      <Point>WHA</Point>
-    </Symbol>
-    <Symbol Type="SolidSquare">
-      <Point>CLARY</Point>
-      <Point>MURRY</Point>
-      <Point>BIGAL</Point>
-      <Point>DERWY</Point>
-      <Point>DISHA</Point>
-      <Point>OMDIN</Point>
-      <Point>TUSGO</Point>
-      <Point>BIMOP</Point>
-      <Point>ISKOT</Point>
-      <Point>EKEGA</Point>
-      <Point>ROGUE</Point>
-      <Point>ZIPPY</Point>
-      <Point>ERITH</Point>
-      <Point>GLOBE</Point>
-      <Point>HOLIT</Point>
-      <Point>EEMUE</Point>
-      <Point>GITOP</Point>
-      <Point>NIMEK</Point>
-      <Point>ISROV</Point>
-      <Point>LEWIS</Point>
-      <Point>TRUMP</Point>
-      <Point>HOBBS</Point>
-      <Point>SILVN</Point>
-      <Point>SWELL</Point>
-      <Point>TUMAN</Point>
-      <Point>WOONA</Point>
-      <Point>UBDIB</Point>
-      <Point>PRICE</Point>
-      <Point>RUVUS</Point>
-      <Point>BOGAL</Point>
-      <Point>NINEP</Point>
-      <Point>MUTHA</Point>
-      <Point>KAMBI</Point>
-      <Point>LONLY</Point>
-      <Point>HINDY</Point>
-      <Point>SPOTA</Point>
-      <Point>ACTIN</Point>
-      <Point>DUKES</Point>
-    </Symbol>
+    <Line>
+      <!--Rwy12 PAMY6V-->
+      PAMMY/
+      MULDR
+    </Line>
+    <Line>
+      <!--Rwy12 RUSSL3-->
+      
+    </Line>
+    <Line>
+      <!--Rwy12 SURGN3.BLACK-->
+      
+    </Line>
+    <Line>
+      <!--Rwy12 SURGN3-->
+      
+    </Line>
+    <Line>
+      <!--Rwy30 ATPIP3-->
+      
+    </Line>
+    <Line>
+      <!--Rwy30 RUSSL3-->
+      
+    </Line>
+    <Line>
+      <!--Rwy30 SURGN3.BLACK-->
+      
+    </Line>
+    <Line>
+      <!--Rwy30 SURGN3-->
+      
+    </Line>
     <Symbol Type="HollowTriangle">
+      <Point>GULLY</Point>
       <Point>MOPRI</Point>
-      <Point>DALBU</Point>
-      <Point>DARGA</Point>
-      <Point>GUSKO</Point>
+      <Point>PORTA</Point>
+      <Point>MALIK</Point>
+      <Point>MULDR</Point>
+    </Symbol>
+    <Symbol Type="SolidStar" />
+    <Symbol Type="Circle" />
+    <Symbol Type="HollowStar">
+      <Point>COLPY</Point>
+      <Point>SULLY</Point>
+      <Point>MORPH</Point>
+      <Point>CLARY</Point>
+      <Point>BARKA</Point>
+      <Point>MURRY</Point>
+      <Point>BENDO</Point>
+      <Point>CORNS</Point>
+      <Point>KEEFO</Point>
+      <Point>DERWY</Point>
+      <Point>GILES</Point>
+      <Point>BIGAL</Point>
+      <Point>HAWKY</Point>
+      <Point>PANKI</Point>
+      <Point>URADA</Point>
+      <Point>SEDAN</Point>
+      <Point>ATPIP</Point>
+      <Point>KASBU</Point>
+      <Point>BLACK</Point>
+      <Point>PLEZN</Point>
+      <Point>KERRS</Point>
+      <Point>DRINA</Point>
+      <Point>COMLY</Point>
+      <Point>DISHA</Point>
+      <Point>BRAKI</Point>
+      <Point>OMDIN</Point>
+      <Point>TUSGO</Point>
+      <Point>ELROX</Point>
+      <Point>TROUB</Point>
+      <Point>RUDIE</Point>
+      <Point>BIMOP</Point>
+      <Point>RIKAB</Point>
+      <Point>GULFS</Point>
+      <Point>VEKMI</Point>
+      <Point>AGROS</Point>
+      <Point>ROGUE</Point>
+      <Point>EKEGA</Point>
+      <Point>PAMMY</Point>
+      <Point>MARGO</Point>
+      <Point>ISKOT</Point>
+      <Point>KLAVA</Point>
+      <Point>RAYNA</Point>
+      <Point>OJJAY</Point>
+      <Point>ZIPPY</Point>
+      <Point>ERITH</Point>
+      <Point>ELIZA</Point>
+      <Point>GLOBE</Point>
+      <Point>URBUN</Point>
+      <Point>RUSSL</Point>
+      <Point>LUFFY</Point>
+      <Point>SALTY</Point>
+      <Point>VICMA</Point>
+      <Point>SURGN</Point>
+      <Point>GRIGS</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="AD_RWY23_NAMES" Priority="2" Center="-34.947+138.525">
+  <Map Type="System" Name="AD_RWY23_NAMES" Priority="2" Centre="-34.945+138.530556">
     <Label>
       <Point>COLPY</Point>
       <Point>SULLY</Point>
       <Point>MORPH</Point>
+      <Point>CLARY</Point>
       <Point>BARKA</Point>
+      <Point>MURRY</Point>
       <Point>BENDO</Point>
-      <Point>PANKI</Point>
       <Point>CORNS</Point>
       <Point>KEEFO</Point>
+      <Point>DERWY</Point>
       <Point>GILES</Point>
+      <Point>BIGAL</Point>
       <Point>HAWKY</Point>
+      <Point>PANKI</Point>
       <Point>URADA</Point>
       <Point>SEDAN</Point>
       <Point>ATPIP</Point>
@@ -359,103 +396,83 @@
       <Point>GULLY</Point>
       <Point>DRINA</Point>
       <Point>COMLY</Point>
+      <Point>DISHA</Point>
       <Point>BRAKI</Point>
+      <Point>OMDIN</Point>
+      <Point>TUSGO</Point>
+      <Point>MOPRI</Point>
       <Point>ELROX</Point>
       <Point>TROUB</Point>
       <Point>RUDIE</Point>
-      <Point>MULDR</Point>
+      <Point>BIMOP</Point>
       <Point>PORTA</Point>
       <Point>RIKAB</Point>
       <Point>GULFS</Point>
+      <Point>VEKMI</Point>
       <Point>AGROS</Point>
-      <Point>MARGO</Point>
+      <Point>ROGUE</Point>
+      <Point>EKEGA</Point>
       <Point>PAMMY</Point>
-      <Point>OJJAY</Point>
+      <Point>MARGO</Point>
+      <Point>ISKOT</Point>
       <Point>KLAVA</Point>
       <Point>RAYNA</Point>
-      <Point>ELIZA</Point>
-      <Point>AKDAV</Point>
-      <Point>FRAZA</Point>
-      <Point>WINCH</Point>
-      <Point>ROGAS</Point>
-      <Point>RIKAB</Point>
-      <Point>RUSSL</Point>
-      <Point>LUFFY</Point>
-      <Point>SURGN</Point>
-      <Point>MALIK</Point>
-      <Point>SALTY</Point>
-      <Point>WAKEN</Point>
-      <Point>ALBUT</Point>
-      <Point>VAVPA</Point>
-      <Point>ORBUN</Point>
-      <Point>YORKE</Point>
-      <Point>PLC</Point>
-      <Point>VILAD</Point>
-      <Point>ALEXI</Point>
-      <Point>WHA</Point>
-      <Point>CLARY</Point>
-      <Point>MURRY</Point>
-      <Point>BIGAL</Point>
-      <Point>DERWY</Point>
-      <Point>DISHA</Point>
-      <Point>OMDIN</Point>
-      <Point>TUSGO</Point>
-      <Point>BIMOP</Point>
-      <Point>ISKOT</Point>
-      <Point>EKEGA</Point>
-      <Point>ROGUE</Point>
+      <Point>OJJAY</Point>
       <Point>ZIPPY</Point>
       <Point>ERITH</Point>
+      <Point>ELIZA</Point>
       <Point>GLOBE</Point>
-      <Point>HOLIT</Point>
-      <Point>EEMUE</Point>
-      <Point>GITOP</Point>
-      <Point>NIMEK</Point>
-      <Point>ISROV</Point>
-      <Point>LEWIS</Point>
-      <Point>TRUMP</Point>
-      <Point>HOBBS</Point>
-      <Point>SILVN</Point>
-      <Point>SWELL</Point>
-      <Point>TUMAN</Point>
-      <Point>WOONA</Point>
-      <Point>UBDIB</Point>
-      <Point>PRICE</Point>
-      <Point>RUVUS</Point>
+      <Point>URBUN</Point>
+      <Point>MALIK</Point>
+      <Point>RUSSL</Point>
+      <Point>LUFFY</Point>
+      <Point>SALTY</Point>
+      <Point>VICMA</Point>
+      <Point>SURGN</Point>
+      <Point>GRIGS</Point>
+      <Point>MULDR</Point>
+      <Point>MUTHA</Point>
+      <Point>FRAZA</Point>
+      <Point>ABTOD</Point>
+      <Point>WHA NDB</Point>
       <Point>BOGAL</Point>
       <Point>NINEP</Point>
-      <Point>MUTHA</Point>
-      <Point>KAMBI</Point>
-      <Point>LONLY</Point>
-      <Point>HINDY</Point>
-      <Point>SPOTA</Point>
-      <Point>ACTIN</Point>
+      <Point>PARDA</Point>
+      <Point>NIMEK</Point>
+      <Point>ORBUN</Point>
+      <Point>ISROV</Point>
+      <Point>CAPET</Point>
+      <Point>BOLAM</Point>
+      <Point>NATYA</Point>
+      <Point>MIA VOR</Point>
+      <Point>TUMAN</Point>
+      <Point>BORTO</Point>
       <Point>DUKES</Point>
-      <Point>MOPRI</Point>
-      <Point>DALBU</Point>
-      <Point>DARGA</Point>
-      <Point>GUSKO</Point>
-    </Label>
-  </Map>
-  <Map Type="System" Name="AD_RWY23_LEVELS" Priority="1" Center="-34.947+138.525">
-    <Label>
-      <Point Name="ABV025">COLPY</Point>
-      <Point Name="ABV050">SULLY</Point>
-      <Point Name="ABV060">MORPH</Point>
-      <Point Name="ABV140">BARKA</Point>
-      <Point Name="ABV050">CORNS</Point>
-      <Point Name="ABV080">KEEFO</Point>
-      <Point Name="ABV120">COLPY</Point>
-      <Point Name="BLW050">KASBU</Point>
-      <Point Name="BLW090">PLEZN</Point>
-      <Point Name="BLW050">KERRS</Point>
-      <Point Name="BLW130">COMLY</Point>
-      <Point Name="BLW090">BRAKI</Point>
-      <Point Name="ABV050">TROUB</Point>
-      <Point Name="BLW040">RUDIE</Point>
-      <Point Name="BLW070">GULFS</Point>
-      <Point Name="BLW070">PAMMY</Point>
-      <Point Name="BLW110">SURGN</Point>
+      <Point>KAMBI</Point>
+      <Point>WINCH</Point>
+      <Point>LONLY</Point>
+      <Point>AKDAV</Point>
+      <Point>VAVPA</Point>
+      <Point>GITOP</Point>
+      <Point>SWH NDB</Point>
+      <Point>MTG VOR</Point>
+      <Point>RUVUS</Point>
+      <Point>SILVN</Point>
+      <Point>EEMUE</Point>
+      <Point>COMAC</Point>
+      <Point>WAKEN</Point>
+      <Point>AVPAS</Point>
+      <Point>ACTIN</Point>
+      <Point>HOLIT</Point>
+      <Point>HOBBS</Point>
+      <Point>ALTRO</Point>
+      <Point>BHI VOR</Point>
+      <Point>VILAD</Point>
+      <Point>TRUMP</Point>
+      <Point>KONDO</Point>
+      <Point>ALBUT</Point>
+      <Point>SWELL</Point>
+      <Point>NOGIP</Point>
     </Label>
   </Map>
 </Maps>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="MK_TCU" Priority="1" Centre="-21.171389+149.179722">
+    <!--Airway Routes-->
+    <Line>
+      <!--V153-->
+      IBUXI/
+      BINUN/
+      TL VOR/
+      WALTA/
+      ALBUX/
+      DAGSI
+    </Line>
+    <Line>
+      <!--V153-->
+      MURPH/
+      ABVAS/
+      RK VOR
+    </Line>
+    <Line>
+      <!--V308-->
+      GEESE/
+      DADBO/
+      RK VOR/
+      PROBO/
+      WELKE
+    </Line>
+    <Line>
+      <!--V308-->
+      CLIFT/
+      ALISN/
+      POROB/
+      TL VOR/
+      ADLAG/
+      PEWEE
+    </Line>
+    <Line>
+      <!--W387-->
+      CARMN/
+      TL VOR/
+      LINBO/
+      ALBUX/
+      PN VOR
+    </Line>
+    <Line>
+      <!--W472-->
+      ISAAK/
+      EML NDB
+    </Line>
+    <Line>
+      <!--W592-->
+      EML NDB/
+      NIPOM
+    </Line>
+    <Line>
+      <!--W889-->
+      RK VOR/
+      CARON
+    </Line>
+  </Map>
+  <Map Type="System2" Name="MK_VFR" Priority="1" Centre="-21.171389+149.179722">
+    <Symbol Type="HollowSquare">
+      <Point>BCT</Point>
+      <Point>BKIS</Point>
+      <Point>BPI</Point>
+      <Point>CALEN</Point>
+      <Point>CPY</Point>
+      <Point>CPH</Point>
+      <Point>COWI</Point>
+      <Point>ETON</Point>
+      <Point>GOI</Point>
+      <Point>GRL</Point>
+      <Point>HPT</Point>
+      <Point>HBU</Point>
+      <Point>KSI</Point>
+      <Point>LEM</Point>
+      <Point>MII</Point>
+      <Point>MBK</Point>
+      <Point>MFN</Point>
+      <Point>RIL</Point>
+      <Point>SRIN</Point>
+      <Point>SHI</Point>
+      <Point>SLPT</Point>
+      <Point>WKT</Point>
+      <Point>ALBO</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>BCT</Point>
+      <Point>BKIS</Point>
+      <Point>BPI</Point>
+      <Point>CALEN</Point>
+      <Point>CPY</Point>
+      <Point>CPH</Point>
+      <Point>COWI</Point>
+      <Point>ETON</Point>
+      <Point>GOI</Point>
+      <Point>GRL</Point>
+      <Point>HPT</Point>
+      <Point>HBU</Point>
+      <Point>KSI</Point>
+      <Point>LEM</Point>
+      <Point>MII</Point>
+      <Point>MBK</Point>
+      <Point>MFN</Point>
+      <Point>RIL</Point>
+      <Point>SRIN</Point>
+      <Point>SHI</Point>
+      <Point>SLPT</Point>
+      <Point>WKT</Point>
+      <Point>ALBO</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YBMK_ALLRWYS" Priority="2" Centre="-21.171389+149.179722">
+    <Runway Name="14/32">
+      <Threshold Name="14" Position="-21.163192+149.177464" ExtendedCentrelineTrack="327.69" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="32" Position="-21.178325+149.187667" ExtendedCentrelineTrack="147.69" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+  </Map>
+</Maps>

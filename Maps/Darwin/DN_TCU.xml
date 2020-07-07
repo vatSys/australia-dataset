@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="DN_TCU" Priority="1" Centre="-12.414722+130.876667">
+    <!--Airway Routes-->
+    <Line>
+      <!--A458-->
+      BELKI/
+      ZAARS
+    </Line>
+    <Line>
+      <!--A461-->
+      BUTPA/
+      ADKUL/
+      OCTOB
+    </Line>
+    <Line>
+      <!--B598-->
+      UNTER/
+      IGOPO
+    </Line>
+    <Line>
+      <!--J61-->
+      CURLY/
+      JULIE
+    </Line>
+    <Line>
+      <!--J61-->
+      CRAIG/
+      JANUS/
+      SOCAR
+    </Line>
+    <Line>
+      <!--J72-->
+      KU VOR/
+      JULUP/
+      WANGI
+    </Line>
+    <Line>
+      <!--J151-->
+      COLLA/
+      RAGER
+    </Line>
+    <Line>
+      <!--J151-->
+      HELLI/
+      ZAMMI/
+      TOBIE
+    </Line>
+    <Line>
+      <!--J251-->
+      LAKUP/
+      ANGED/
+      TN VOR/
+      BONES
+    </Line>
+    <Line>
+      <!--M766-->
+      LARAB/
+      JACKI
+    </Line>
+    <Line>
+      <!--M768-->
+      SHEPP/
+      DONYA
+    </Line>
+    <Line>
+      <!--Q23-->
+      TN VOR/
+      FERGI/
+      STOES/
+      ALLEE/
+      VEGPU
+    </Line>
+    <Line>
+      <!--W193-->
+      HODDA/
+      KARSI
+    </Line>
+    <Line>
+      <!--W237-->
+      SIDER/
+      NAILA
+    </Line>
+    <Line>
+      <!--W287-->
+      EGUMI/
+      TOMAS/
+      BIRDY
+    </Line>
+    <Line>
+      <!--W356-->
+      NICOL/
+      TRUKA
+    </Line>
+    <Line>
+      <!--W364-->
+      WOOFA/
+      MGD NDB/
+      YMGB
+    </Line>
+    <Line>
+      <!--W473-->
+      RUSKA/
+      DUMPA
+    </Line>
+    <Line>
+      <!--W483-->
+      MGD NDB/
+      YJAB/
+      KARRA
+    </Line>
+    <Line>
+      <!--W614-->
+      OVMIS/
+      NUTTA/
+      JOSHU
+    </Line>
+    <Line>
+      <!--W843-->
+      MILEM/
+      PERKS/
+      HANNA
+    </Line>
+    <Line>
+      <!--W849-->
+      BLAIR/
+      YCKI
+    </Line>
+    <Line>
+      <!--W853-->
+      ACKER/
+      YGBI
+    </Line>
+    <Line>
+      <!--Y25-->
+      PALGA/
+      ADKIV/
+      OPEKO/
+      BEBUX
+    </Line>
+    <Line>
+      <!--Z35-->
+      OVMIS/
+      JULES/
+      LOUIE
+    </Line>
+    <Line>
+      <!--ZZ989-->
+      MUNRO/
+      DICKO
+    </Line>
+  </Map>
+  <Map Type="System2" Name="DN_VFR" Priority="1" Centre="-12.414722+130.876667">
+    <Symbol Type="HollowSquare">
+      <Point>ADB</Point>
+      <Point>BTI</Point>
+      <Point>BYNO</Point>
+      <Point>CGR</Point>
+      <Point>CTT</Point>
+      <Point>CHI</Point>
+      <Point>CHAP</Point>
+      <Point>DND</Point>
+      <Point>EAM</Point>
+      <Point>ETP</Point>
+      <Point>ERB</Point>
+      <Point>GUP</Point>
+      <Point>HPI</Point>
+      <Point>JAC</Point>
+      <Point>LAD</Point>
+      <Point>LFS</Point>
+      <Point>LPT</Point>
+      <Point>MADO</Point>
+      <Point>MTD</Point>
+      <Point>STR</Point>
+      <Point>TCH</Point>
+      <Point>WSM</Point>
+      <Point>WIKP</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ADB</Point>
+      <Point>BTI</Point>
+      <Point>BYNO</Point>
+      <Point>CGR</Point>
+      <Point>CTT</Point>
+      <Point>CHI</Point>
+      <Point>CHAP</Point>
+      <Point>DND</Point>
+      <Point>EAM</Point>
+      <Point>ETP</Point>
+      <Point>ERB</Point>
+      <Point>GUP</Point>
+      <Point>HPI</Point>
+      <Point>JAC</Point>
+      <Point>LAD</Point>
+      <Point>LFS</Point>
+      <Point>LPT</Point>
+      <Point>MADO</Point>
+      <Point>MTD</Point>
+      <Point>STR</Point>
+      <Point>TCH</Point>
+      <Point>WSM</Point>
+      <Point>WIKP</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="ROUTE_1">CGR</Point>
+      <Point Name="ROUTE_2">CTT</Point>
+      <Point Name="ROUTE_3">ADB</Point>
+      <Point Name="ROUTE_4">MTD</Point>
+      <Point Name="ROUTE_5">BYNO</Point>
+    </Label>
+    <!--ROUTE_1-->
+    <Line Pattern="Dotted">
+      CGR/
+      -12.11152+131.031527/
+      -12.268877+131.043211/
+      HPI/
+      LPT/
+      -12.408346+130.871167
+    </Line>
+    <!--ROUTE_2-->
+    <Line Pattern="Dotted">
+      CTT/
+      HPI/
+      LPT/
+      -12.408346+130.871167
+    </Line>
+    <!--ROUTE_3-->
+    <Line Pattern="Dotted">
+      ADB/
+      -12.71991+131.02/
+      EAM/
+      -12.422107+130.871202
+    </Line>
+    <!--ROUTE_4-->
+    <Line Pattern="Dotted">
+      MTD/
+      -12.71991+131.02/
+      EAM/
+      -12.422107+130.871202
+    </Line>
+    <!--ROUTE_5-->
+    <Line Pattern="Dotted">
+      BYNO/
+      WSM/
+      -12.422107+130.871202
+    </Line>
+  </Map>
+  <Map Type="System" Name="YPDN_ALLRWYS" Priority="2" Centre="-12.414722+130.876667">
+    <Runway Name="11/29">
+      <Threshold Name="11" Position="-12.409403+130.865261" ExtendedCentrelineTrack="288.91" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="29" Position="-12.419228+130.894442" ExtendedCentrelineTrack="108.91" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="18/36">
+      <Threshold Name="18" Position="-12.408842+130.870653" ExtendedCentrelineTrack="359.85" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="36" Position="-12.422625+130.870689" ExtendedCentrelineTrack="179.85" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+  </Map>
+</Maps>

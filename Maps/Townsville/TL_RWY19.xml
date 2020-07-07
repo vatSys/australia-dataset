@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="TL_RWY19" Priority="1" Centre="-19.2525+146.765278">
+    <!--YBTL-->
+    <Runway Name="01/19">
+      <Threshold Name="01" Position="-19.258306+146.764722" />
+      <Threshold Name="19" Position="-19.238203+146.774217" ExtendedCentrelineTrack="24.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy19 ANRUB1-->
+      -19.258306+146.764722/
+      VARBI/
+      DAPLA/
+      SATCO/
+      ANRUB
+    </Line>
+    <Line>
+      <!--Rwy19 CATEY1-->
+      VARBI/
+      IGBIK/
+      ENSOM/
+      CATEY
+    </Line>
+    <Line>
+      <!--Rwy19 IGBIK1-->
+      
+    </Line>
+    <Line>
+      <!--Rwy19 JEMMA2-->
+      SATCO/
+      ODOTA/
+      PINIP/
+      JEMMA
+    </Line>
+    <Line>
+      <!--Rwy19 KVALM1-->
+      -19.258306+146.764722/
+      -19.265737+146.761648/
+      -19.270618+146.759696/
+      -19.275689+146.758324/
+      -19.280868+146.757523/
+      -19.281826+146.757474/
+      -19.296296+146.754343/
+      -19.309513+146.747304/
+      -19.309763+146.747073/
+      KVALM/
+      -19.351127+146.714193/
+      -19.362457+146.708446/
+      -19.374292+146.703985/
+      -19.376525+146.703395/
+      -19.430591+146.685538/
+      -19.45197+146.681556/
+      -19.473636+146.683635/
+      -19.476568+146.684456/
+      -19.496676+146.693128/
+      -19.513989+146.707101/
+      -19.525277+146.721967/
+      JEMMA
+    </Line>
+    <Line>
+      <!--Rwy19 PEWEE5-->
+      -19.258306+146.764722/
+      -19.258333+146.764722/
+      -19.270636+146.759207/
+      -19.289448+146.808819/
+      -19.284765+146.819958/
+      -19.272777+146.816903/
+      TL VOR/
+      PEWEE
+    </Line>
+    <Line>
+      <!--Rwy19 RURTO1-->
+      -19.258306+146.764722/
+      ORORO/
+      RURTO
+    </Line>
+    <Line>
+      <!--Rwy19 SWIFT1-->
+      IGBIK/
+      LEDOG/
+      AVMAT/
+      ADNOD/
+      SWIFT
+    </Line>
+    <Line>
+      <!--Rwy19 WALTA1-->
+      ORORO/
+      WALTA
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy19 IBUX1Z-->
+      IBUXI/
+      BOMTA/
+      RUTED/
+      ADNOD
+    </Line>
+    <Line>
+      <!--Rwy19 PORO1B-->
+      POROB/
+      NOLAM/
+      GUMUT/
+      WESTY
+    </Line>
+    <Line>
+      <!--Rwy19 PORO1P-->
+      GUMUT/
+      VILUN
+    </Line>
+    <Line>
+      <!--Rwy19 PORO1Z-->
+      WESTY/
+      LEBOT
+    </Line>
+    <Line>
+      <!--Rwy19 VOMP1B-->
+      VOMPA/
+      OLNUT/
+      LAPES/
+      RURTO/
+      VILUN/
+      WESTY
+    </Line>
+    <Line>
+      <!--Rwy19 VOMP1P-->
+      
+    </Line>
+    <Line>
+      <!--Rwy19 VOMP1Z-->
+      
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>ADNOD</Point>
+      <Point>WESTY</Point>
+      <Point>VILUN</Point>
+      <Point>LEBOT</Point>
+    </Symbol>
+    <Symbol Type="SolidStar">
+      <Point>VARBI</Point>
+      <Point>IGBIK</Point>
+      <Point>RURTO</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>TL VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>DAPLA</Point>
+      <Point>SATCO</Point>
+      <Point>ANRUB</Point>
+      <Point>ENSOM</Point>
+      <Point>CATEY</Point>
+      <Point>ODOTA</Point>
+      <Point>PINIP</Point>
+      <Point>JEMMA</Point>
+      <Point>KVALM</Point>
+      <Point>PEWEE</Point>
+      <Point>ORORO</Point>
+      <Point>LEDOG</Point>
+      <Point>AVMAT</Point>
+      <Point>SWIFT</Point>
+      <Point>WALTA</Point>
+      <Point>IBUXI</Point>
+      <Point>BOMTA</Point>
+      <Point>RUTED</Point>
+      <Point>POROB</Point>
+      <Point>NOLAM</Point>
+      <Point>GUMUT</Point>
+      <Point>VOMPA</Point>
+      <Point>OLNUT</Point>
+      <Point>LAPES</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="TL_RWY19_NAMES" Priority="2" Centre="-19.2525+146.765278">
+    <Label>
+      <Point>VARBI</Point>
+      <Point>DAPLA</Point>
+      <Point>SATCO</Point>
+      <Point>ANRUB</Point>
+      <Point>IGBIK</Point>
+      <Point>ENSOM</Point>
+      <Point>CATEY</Point>
+      <Point>ODOTA</Point>
+      <Point>PINIP</Point>
+      <Point>JEMMA</Point>
+      <Point>KVALM</Point>
+      <Point>TL VOR</Point>
+      <Point>PEWEE</Point>
+      <Point>ORORO</Point>
+      <Point>RURTO</Point>
+      <Point>LEDOG</Point>
+      <Point>AVMAT</Point>
+      <Point>ADNOD</Point>
+      <Point>SWIFT</Point>
+      <Point>WALTA</Point>
+      <Point>IBUXI</Point>
+      <Point>BOMTA</Point>
+      <Point>RUTED</Point>
+      <Point>POROB</Point>
+      <Point>NOLAM</Point>
+      <Point>GUMUT</Point>
+      <Point>WESTY</Point>
+      <Point>VILUN</Point>
+      <Point>LEBOT</Point>
+      <Point>VOMPA</Point>
+      <Point>OLNUT</Point>
+      <Point>LAPES</Point>
+      <Point>ALBEE</Point>
+      <Point>WISKA</Point>
+      <Point>RUSSO</Point>
+      <Point>BOXER</Point>
+      <Point>WYNOT</Point>
+      <Point>ABTOX</Point>
+      <Point>EKOKU</Point>
+      <Point>SWALO</Point>
+      <Point>CS VOR</Point>
+      <Point>IFL NDB</Point>
+      <Point>SPARO</Point>
+      <Point>BINUN</Point>
+      <Point>ALBUX</Point>
+      <Point>DAGSI</Point>
+      <Point>MK VOR</Point>
+      <Point>POONA</Point>
+      <Point>MURPH</Point>
+      <Point>PROBO</Point>
+      <Point>WELKE</Point>
+      <Point>CLIFT</Point>
+      <Point>ALISN</Point>
+      <Point>ADLAG</Point>
+      <Point>BARIA</Point>
+      <Point>OLDER</Point>
+      <Point>LUKPU</Point>
+      <Point>LINSU</Point>
+      <Point>SIMAS</Point>
+      <Point>THOMO</Point>
+      <Point>ISMUN</Point>
+      <Point>TORIA</Point>
+      <Point>ENDET</Point>
+      <Point>CARMN</Point>
+      <Point>LINBO</Point>
+      <Point>PN VOR</Point>
+      <Point>MARON</Point>
+      <Point>FORMA</Point>
+      <Point>DOBGO</Point>
+      <Point>HUG NDB</Point>
+      <Point>PENNY</Point>
+      <Point>KIPPA</Point>
+      <Point>ESLAR</Point>
+      <Point>NIPOM</Point>
+      <Point>CHARD</Point>
+      <Point>CARBY</Point>
+      <Point>VATKO</Point>
+      <Point>BOWLY</Point>
+      <Point>FOYLE</Point>
+      <Point>DOTTE</Point>
+      <Point>ITORT</Point>
+      <Point>EYSAW</Point>
+      <Point>APUSS</Point>
+    </Label>
+  </Map>
+</Maps>

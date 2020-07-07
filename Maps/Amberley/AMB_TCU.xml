@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="AMB_TCU" Priority="1" Centre="-27.640556+152.711944">
+    <!--Airway Routes-->
+    <Line>
+      <!--W196-->
+      UNVAT/
+      JEDDA
+    </Line>
+    <Line>
+      <!--W196-->
+      GOMOL/
+      BNA NDB/
+      CFS VOR/
+      KADSI
+    </Line>
+    <Line>
+      <!--W256-->
+      BNA NDB/
+      LOSKU/
+      ARM NDB
+    </Line>
+    <Line>
+      <!--W270-->
+      OK VOR/
+      UNVAT/
+      OVENS
+    </Line>
+    <Line>
+      <!--W326-->
+      VONDO/
+      MASMI/
+      TW VOR
+    </Line>
+    <Line>
+      <!--W625-->
+      DEJAY/
+      MOR NDB
+    </Line>
+    <Line>
+      <!--W760-->
+      GDH NDB/
+      ALDAR/
+      GAMBL/
+      HUUGO
+    </Line>
+    <Line>
+      <!--Y195-->
+      ROM NDB/
+      OK VOR/
+      AGIVA
+    </Line>
+    <Line>
+      <!--ZZ933-->
+      GAMBL/
+      PIGGY
+    </Line>
+  </Map>
+  <Map Type="System" Name="AMB_TCU_NAMES" Priority="2" Centre="-27.640556+152.711944">
+    <Label>
+      <Point>UNVAT</Point>
+      <Point>JEDDA</Point>
+      <Point>GOMOL</Point>
+      <Point>BNA NDB</Point>
+      <Point>CFS VOR</Point>
+      <Point>KADSI</Point>
+      <Point>LOSKU</Point>
+      <Point>ARM NDB</Point>
+      <Point>OK VOR</Point>
+      <Point>OVENS</Point>
+      <Point>VONDO</Point>
+      <Point>MASMI</Point>
+      <Point>TW VOR</Point>
+      <Point>DEJAY</Point>
+      <Point>MOR NDB</Point>
+      <Point>GDH NDB</Point>
+      <Point>ALDAR</Point>
+      <Point>GAMBL</Point>
+      <Point>HUUGO</Point>
+      <Point>ROM NDB</Point>
+      <Point>AGIVA</Point>
+      <Point>PIGGY</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="AMB_VFR" Priority="1" Centre="-27.640556+152.711944">
+    <Symbol Type="HollowSquare">
+      <Point>TVT</Point>
+      <Point>BLHS</Point>
+      <Point>BSL</Point>
+      <Point>BCM</Point>
+      <Point>BENT</Point>
+      <Point>BUVY</Point>
+      <Point>BONG</Point>
+      <Point>BOON</Point>
+      <Point>BBBG</Point>
+      <Point>BBI</Point>
+      <Point>BCTY</Point>
+      <Point>OGABA</Point>
+      <Point>BLGH</Point>
+      <Point>CABO</Point>
+      <Point>CALT</Point>
+      <Point>CARIN</Point>
+      <Point>CRPT</Point>
+      <Point>CBRG</Point>
+      <Point>CVD</Point>
+      <Point>CBYC</Point>
+      <Point>CNT</Point>
+      <Point>DBO</Point>
+      <Point>DOOM</Point>
+      <Point>DRLD</Point>
+      <Point>FNVL</Point>
+      <Point>FISH</Point>
+      <Point>FPK</Point>
+      <Point>GWB</Point>
+      <Point>GON</Point>
+      <Point>GOW</Point>
+      <Point>GNM</Point>
+      <Point>HMN</Point>
+      <Point>HED</Point>
+      <Point>HDWL</Point>
+      <Point>HBVT</Point>
+      <Point>JPP</Point>
+      <Point>JUP</Point>
+      <Point>KLCY</Point>
+      <Point>KGT</Point>
+      <Point>LDLY</Point>
+      <Point>LKON</Point>
+      <Point>LMC</Point>
+      <Point>LOOH</Point>
+      <Point>LWD</Point>
+      <Point>MCOO</Point>
+      <Point>MGLO</Point>
+      <Point>MVT</Point>
+      <Point>MTWK</Point>
+      <Point>MUDI</Point>
+      <Point>MEER</Point>
+      <Point>MUNM</Point>
+      <Point>MHY</Point>
+      <Point>NEN</Point>
+      <Point>NUDG</Point>
+      <Point>OFD</Point>
+      <Point>PLW</Point>
+      <Point>SFG</Point>
+      <Point>PKR</Point>
+      <Point>PCKD</Point>
+      <Point>PTI</Point>
+      <Point>PRP</Point>
+      <Point>PBF</Point>
+      <Point>QE2</Point>
+      <Point>Q1</Point>
+      <Point>RBY</Point>
+      <Point>RTY</Point>
+      <Point>REDB</Point>
+      <Point>ROTC</Point>
+      <Point>RSWD</Point>
+      <Point>RUIS</Point>
+      <Point>SSV</Point>
+      <Point>SAU</Point>
+      <Point>SAND</Point>
+      <Point>SMD</Point>
+      <Point>SPT</Point>
+      <Point>SPMT</Point>
+      <Point>SBK</Point>
+      <Point>SHIS</Point>
+      <Point>SBD</Point>
+      <Point>SUPA</Point>
+      <Point>SBCH</Point>
+      <Point>TAR</Point>
+      <Point>TORN</Point>
+      <Point>TING</Point>
+      <Point>UQLD</Point>
+      <Point>WTBG</Point>
+      <Point>WCP</Point>
+      <Point>WELL</Point>
+      <Point>WNFE</Point>
+      <Point>WHDW</Point>
+      <Point>WYPT</Point>
+      <Point>WRM</Point>
+      <Point>WYR</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>TVT</Point>
+      <Point>BLHS</Point>
+      <Point>BSL</Point>
+      <Point>BCM</Point>
+      <Point>BENT</Point>
+      <Point>BUVY</Point>
+      <Point>BONG</Point>
+      <Point>BOON</Point>
+      <Point>BBBG</Point>
+      <Point>BBI</Point>
+      <Point>BCTY</Point>
+      <Point>OGABA</Point>
+      <Point>BLGH</Point>
+      <Point>CABO</Point>
+      <Point>CALT</Point>
+      <Point>CARIN</Point>
+      <Point>CRPT</Point>
+      <Point>CBRG</Point>
+      <Point>CVD</Point>
+      <Point>CBYC</Point>
+      <Point>CNT</Point>
+      <Point>DBO</Point>
+      <Point>DOOM</Point>
+      <Point>DRLD</Point>
+      <Point>FNVL</Point>
+      <Point>FISH</Point>
+      <Point>FPK</Point>
+      <Point>GWB</Point>
+      <Point>GON</Point>
+      <Point>GOW</Point>
+      <Point>GNM</Point>
+      <Point>HMN</Point>
+      <Point>HED</Point>
+      <Point>HDWL</Point>
+      <Point>HBVT</Point>
+      <Point>JPP</Point>
+      <Point>JUP</Point>
+      <Point>KLCY</Point>
+      <Point>KGT</Point>
+      <Point>LDLY</Point>
+      <Point>LKON</Point>
+      <Point>LMC</Point>
+      <Point>LOOH</Point>
+      <Point>LWD</Point>
+      <Point>MCOO</Point>
+      <Point>MGLO</Point>
+      <Point>MVT</Point>
+      <Point>MTWK</Point>
+      <Point>MUDI</Point>
+      <Point>MEER</Point>
+      <Point>MUNM</Point>
+      <Point>MHY</Point>
+      <Point>NEN</Point>
+      <Point>NUDG</Point>
+      <Point>OFD</Point>
+      <Point>PLW</Point>
+      <Point>SFG</Point>
+      <Point>PKR</Point>
+      <Point>PCKD</Point>
+      <Point>PTI</Point>
+      <Point>PRP</Point>
+      <Point>PBF</Point>
+      <Point>QE2</Point>
+      <Point>Q1</Point>
+      <Point>RBY</Point>
+      <Point>RTY</Point>
+      <Point>REDB</Point>
+      <Point>ROTC</Point>
+      <Point>RSWD</Point>
+      <Point>RUIS</Point>
+      <Point>SSV</Point>
+      <Point>SAU</Point>
+      <Point>SAND</Point>
+      <Point>SMD</Point>
+      <Point>SPT</Point>
+      <Point>SPMT</Point>
+      <Point>SBK</Point>
+      <Point>SHIS</Point>
+      <Point>SBD</Point>
+      <Point>SUPA</Point>
+      <Point>SBCH</Point>
+      <Point>TAR</Point>
+      <Point>TORN</Point>
+      <Point>TING</Point>
+      <Point>UQLD</Point>
+      <Point>WTBG</Point>
+      <Point>WCP</Point>
+      <Point>WELL</Point>
+      <Point>WNFE</Point>
+      <Point>WHDW</Point>
+      <Point>WYPT</Point>
+      <Point>WRM</Point>
+      <Point>WYR</Point>
+    </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="TRANSIT_NTH">LKON</Point>
+    </Label>
+    <!--TRANSIT_NTH-->
+    <Line Pattern="Dotted">
+      LKON/
+      -27.466647+152.461706/
+      -27.455031+152.603381/
+      -27.447806+152.649047/
+      -27.45815+152.687289/
+      -27.465608+152.711292/
+      LMC
+    </Line>
+  </Map>
+  <Map Type="System" Name="YAMB_ALLRWYS" Priority="2" Centre="-27.640556+152.711944">
+    <Runway Name="04/22">
+      <Threshold Name="04" Position="-27.644611+152.707869" ExtendedCentrelineTrack="234.32" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="22" Position="-27.636589+152.720414" ExtendedCentrelineTrack="54.32" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <Runway Name="15/33">
+      <Threshold Name="15" Position="-27.621714+152.705267" ExtendedCentrelineTrack="338.74" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="33" Position="-27.647344+152.716464" ExtendedCentrelineTrack="158.74" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+  </Map>
+</Maps>
