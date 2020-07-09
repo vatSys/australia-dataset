@@ -98,7 +98,7 @@ Each `<Symbol>` element must have attribute `Type` to select one of the followin
 Each `<Symbol>` can have multiple `<Point>` children. Each Point InnerText is either an otherwise defined waypoint/navaid/airport or latlong in standard format of where to place the Symbol.
 
 ## Label Element
-Each `<Label>` element of a map can have attributes `HasLeader="bool"`, `LabelOrientation="enum"` and `Alignment="enum"` - these attributes specify if there is a line drawn from the point location to the text label and which compass direction or not, and the alignment of the text.
+Each `<Label>` element of a map can have attributes `HasLeader="bool"`, `LabelOrientation="enum"`, `Alignment="enum"` and `VerticalAlignment="enum"` - these attributes specify if there is a line drawn from the point location to the text label and which compass direction or not, and the alignment of the text.
 
 ```
 LabelOrientation
@@ -113,13 +113,22 @@ LabelOrientation
 	NW
 }
 ```
-Westerly `LabelOrientation` directions are Right aligned by default, otherwise default text alignment is Left.
+Westerly `LabelOrientation` directions are Right aligned by default, otherwise default text alignment is **Left**.
 ```
 Alignment
 {
 	Left,
 	Center,
 	Right
+}
+```
+Southerly `LabelOrientation` directions are Top aligned by default, otherwise default text vertical alignment is **Bottom**.
+```
+VerticalAlignment
+{
+	Top,
+	Middle,
+	Bottom
 }
 ```
 
