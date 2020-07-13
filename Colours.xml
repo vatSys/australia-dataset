@@ -1,12 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Colours xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-	<!--<Colour id="SecondWindowBorder">
-		<Use>Second Window Border</Use>
-		<Name>PaleGreen</Name>
-		<R>130</R>
-		<G>155</G>
-		<B>155</B>
-	</Colour>-->
   <Colour id="GenericText">
 		<Use>Window Text</Use>
 		<Name>DarkRed</Name>
@@ -27,6 +20,13 @@
 		<R>220</R>
 		<G>220</G>
 		<B>220</B>
+	</Colour>
+	<Colour id="PopupASDWindowBorderFocused">
+		<Use>Popup ASD Window borders when focused</Use>
+		<Name>PaleGreen</Name>
+		<R>130</R>
+		<G>155</G>
+		<B>155</B>
 	</Colour>
   <Colour id="StripBackground">
 		<Use>Strip Backgrounds</Use>
