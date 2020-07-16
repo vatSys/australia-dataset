@@ -1238,6 +1238,14 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
+  <Position Name="YBOK" Type="ASMGCS" ASMGCSAirport="YBOK" DefaultCenter="-27.411389+151.735278" DefaultRange="2" MagneticVariation="-10.6">
+    <Maps>
+      <Map Name="ASMGCS_YBOK_RWY" />
+      <Map Name="ASMGCS_YBOK_APR" />
+      <Map Name="ASMGCS_YBOK_TWY" />
+      <Map Name="ASMGCS_YBOK_BLD" />
+    </Maps>
+  </Position>
   <Position Name="Rockhampton Tower" Type="ASD" DefaultCenter="-23.381944+150.475278" DefaultRange="80" MagneticVariation="-9.2">
     <Sectors>
       <Sector Name="RK ADC" />
