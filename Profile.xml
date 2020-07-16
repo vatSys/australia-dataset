@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Profile Name="Australia" FullName="Eurocat Australia (YMMM/YBBB)">
-	<Version AIRAC="2006" Revision="d" PublishDate="20200715" UpdateURL="http://vatsys.sawbe.com/downloads/data/Australia" />
+	<Version AIRAC="2007" Revision="b" PublishDate="20200713" UpdateURL="http://vatsys.sawbe.com/downloads/data/Australia" />
+	<Servers>
+		<VATSIMStatus url="http://status.vatsim.net/" />
+		<GRIB url="http://sawbe.com/GRIB/" />
+		<G2G url="antifaff.vatsys.sawbe.com" port="64738" />
+	</Servers>	
 </Profile>

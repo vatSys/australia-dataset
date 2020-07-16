@@ -100,7 +100,7 @@
     <Translation String="GLS" Spoken="G L S" />
     <Translation String="DME" Spoken="D M E" />
     <Translation String="RNP" Spoken="R N P" />
-    <Translation String="RNAV" Spoken="are-nav" />
+    <Translation String="RNAV" Spoken="ɑ&#x02D0;næv&#x02D0;" Alphabet="IPA" FallbackSpoken="are-navv" />
     <Translation String="OPR" Spoken="operational" />
     <Translation String="EXP" Spoken="expect" />
     <Translation String="EIA" Spoken="expect instrument approach" />
@@ -108,6 +108,7 @@
     <Translation String="HIAL" Spoken="high intensity approach lighting" />
     <Translation String="OPS" Spoken="operations" />
     <Translation String="PROG" Spoken="progress" />
+    <Translation String="INDEP" Spoken="independent" />
     <Translation String="AVBL" Spoken="available" />
     <Translation String="REQ" Spoken="request" />  
     <Translation String="REQD" Spoken="required" />  
@@ -178,9 +179,7 @@
     <Translation String="RVR" Spoken="runway visual range" />
     <Translation String="GT" Spoken="greater than" />
 
-    <!--<Translation String="CAVOK" Spoken="ˈkævˈoʊˈkeɪ" IPA="true" />-->
-	<!--<Translation String="CAVOK" Spoken="K AA V . O K" IPA="true" />-->
-	<Translation String="CAVOK" Spoken="kuv-okay" Alphabet="Text"/>
+	<Translation String="CAVOK" Spoken="ˈkævˈoʊˈkeɪ" Alphabet="IPA" FallbackSpoken="kuv-okay"/>
 	<Translation String="NSC" Spoken="nil significant cloud" />
     <Translation Regex="\+([A-Z]+)" Spoken="heavy $1" />
     <Translation Regex="\-([A-Z]+)" Spoken="light $1" />

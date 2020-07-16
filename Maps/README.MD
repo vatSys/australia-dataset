@@ -60,7 +60,7 @@ Each `<Line>` element draws a line between all children `<Point>`'s. Lines may s
 
 Lines may set attribute `Width` to any floating value to change the stroke width (in pixels) of the rendered line:
 ```
-<Line..Width="1.67">
+<Line .. Width="1.67">
 	...
 </Line>
 ```
@@ -98,9 +98,10 @@ Each `<Symbol>` element must have attribute `Type` to select one of the followin
 Each `<Symbol>` can have multiple `<Point>` children. Each Point InnerText is either an otherwise defined waypoint/navaid/airport or latlong in standard format of where to place the Symbol.
 
 ## Label Element
-Each `<Label>` element of a map can have attributes `HasLeader="bool"` and `LabelOrientation="enum"` - these attributes specify if there is a line drawn from the point location to the text label and which compass direction or not.
+Each `<Label>` element of a map can have attributes `HasLeader="bool"`, `LabelOrientation="enum"`, `Alignment="enum"` and `VerticalAlignment="enum"` - these attributes specify if there is a line drawn from the point location to the text label and which compass direction or not, and the alignment of the text.
 
 ```
+LabelOrientation
 {
 	N,
 	NE,
@@ -110,6 +111,24 @@ Each `<Label>` element of a map can have attributes `HasLeader="bool"` and `Labe
 	SW,
 	W,
 	NW
+}
+```
+Westerly `LabelOrientation` directions are Right aligned by default, otherwise default text alignment is **Left**.
+```
+Alignment
+{
+	Left,
+	Center,
+	Right
+}
+```
+Southerly `LabelOrientation` directions are Top aligned by default, otherwise default text vertical alignment is **Bottom**.
+```
+VerticalAlignment
+{
+	Top,
+	Middle,
+	Bottom
 }
 ```
 
