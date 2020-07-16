@@ -8,14 +8,7 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy14 APAGI4-->
-      -28.172569+153.510919/
-      SMALL/
-      CUDGN/
-      APAGI
-    </Line>
-    <Line>
-      <!--Rwy14 CUDGN3-->
+      <!--Rwy14 APAGI5-->
       -28.172569+153.510919/
       -28.194364+153.525133/
       SMALL/
@@ -29,6 +22,10 @@
       -28.281512+153.534568/
       -28.288895+153.524925/
       APAGI
+    </Line>
+    <Line>
+      <!--Rwy14 CUDGN3-->
+      
     </Line>
     <!--STARs-->
     <Line>
@@ -74,11 +71,12 @@
       <Point>NIKKI</Point>
       <Point>KERRI</Point>
     </Symbol>
-    <Symbol Type="SolidStar" />
-    <Symbol Type="Circle" />
-    <Symbol Type="HollowStar">
+    <Symbol Type="SolidStar">
       <Point>SMALL</Point>
       <Point>CUDGN</Point>
+    </Symbol>
+    <Symbol Type="Circle" />
+    <Symbol Type="HollowStar">
       <Point>APAGI</Point>
       <Point>BERNI</Point>
       <Point>ELDUX</Point>
