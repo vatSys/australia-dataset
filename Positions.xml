@@ -536,15 +536,18 @@
 		<ATIS>
 			<Editor Airport="YMML" Frequency="118.0" />
 			<Window Airport="YMML"/>
+            <Window Airport="YMAV"/>
 		</ATIS>
 		<Strips Mode="Beacon" Sort="Alpha">
 			<Window Type="ADEP" Beacon="YMML" Visible="true" />
+            <Window Type="ADEP" Beacon="YMAV" Visible="true" />
 		</Strips>
 		<CFL QuickLevel="24000">
 			<AdditionalLevels>1600,1900,2100,2300,2700,2800,2900,3100,3300</AdditionalLevels>
 		</CFL>
 		<ArrivalLists>
 			<Airport Name="YMML" />
+            <Airport Name="YMAV" />
 		</ArrivalLists>
 		<ControllerInfo>
 			<Line>Melbourne Approach</Line>
@@ -945,7 +948,7 @@
 			<Map Name="Alice Springs/AS_RWY12" />
 		</Maps>
 		<ATIS>
-			<Editor Airport="YBAS" Frequency="133.85" />
+			<Editor Airport="YBAS" Frequency="123.000" />
 			<Window Airport="YBAS"/>
 		</ATIS>
 		<Strips Mode="Beacon" Sort="Alpha">
@@ -955,11 +958,11 @@
 			<AdditionalLevels>3400</AdditionalLevels>
 		</CFL>
 		<ArrivalLists>
-			<Airport Name="YMAY" />
+			<Airport Name="YBAS" />
 		</ArrivalLists>
 		<ControllerInfo>
-			<Line>Albury Tower</Line>
-			<Line>ATIS available on 133.85</Line>
+			<Line>Alice Tower</Line>
+			<Line>ATIS available on 123.0</Line>
 			<Line>ATC feedback - feedback.vatpac.org</Line>
 		</ControllerInfo>
 	</Position>
