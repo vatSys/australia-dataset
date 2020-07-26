@@ -125,7 +125,7 @@
 
   <Category name="PDC" AutoloadElements="true" SendViaTM="true">
     <Message Response="NE">PDC [TIMESTAMP]</Message>
-    <Message Response="NE">[CALLSIGN] [ATYPE] [ADES] [ETD]</Message>
+    <Message Response="NE">[CALLSIGN] [ATYPE] [ADEP] [ETD]</Message>
     <Message Response="NE">CLEARED TO [ADES] VIA [SID] DEP [TEXT]</Message>
     <Message Response="NE">ROUTE [ROUTE]</Message>
     <Message Response="NE">CLIMB VIA SID TO [LEVEL]</Message>
