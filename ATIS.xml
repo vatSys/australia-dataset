@@ -178,6 +178,7 @@
     <Translation String="VIS" Spoken="visibility" />
     <Translation String="RED" Spoken="reduced" />
     <Translation Regex="[0]{0,3}(\d+)M" Spoken="$1 meters" />
+	<Translation String="10KM" Spoken="1 0 kilometres" />
     <Translation Regex="[0]{0,1}(\d+)KM" Spoken="$1 kilometres" />
     <Translation String="RVR" Spoken="runway visual range" />
     <Translation String="GT" Spoken="greater than" />
@@ -243,4 +244,7 @@
     <Input name="SIGWX" NameIsSpoken="false" InputType="Edit" NumbersSpokenGrouped="true" />
     <Input name="OFCW_NOTIFY" value="ground or approach" InputType="Edit" />
   </Editor>
+  <Frequencies>
+	<Frequency Airport="YMML" Frequency="118.0" />
+  </Frequencies>  
 </ATIS>
