@@ -96,7 +96,7 @@
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="IN_DUNALLEY">DLY</Point>
       <Point Name="IN_PROSSERS_SGLF">PSF</Point>
-      <Point Name="IN_VICTOR_NW">-42.547418+147.36976</Point>
+      <Point Name="IN_VICTOR_NW">-42.547418+147.369760</Point>
       <Point Name="IN_VICTOR_SOUTH">CREM</Point>
       <Point Name="IN_VICTOR_SW">DRP</Point>
       <Point Name="MANGALORE">MGL</Point>
@@ -118,9 +118,9 @@
     </Line>
     <!--IN_VICTOR_NW-->
     <Line Pattern="Dotted">
-      -42.547418+147.36976/
+      -42.547418+147.369760/
       -42.554775+147.374898/
-      -42.566403+147.37773/
+      -42.566403+147.377730/
       -42.577218+147.384493/
       -42.593406+147.388029/
       -42.610776+147.411509/
@@ -128,7 +128,7 @@
       -42.662976+147.420897/
       -42.737842+147.422258/
       -42.775918+147.407126/
-      -42.81309+147.42151/
+      -42.813090+147.421510/
       -42.825089+147.444656
     </Line>
     <!--IN_VICTOR_SOUTH-->
@@ -140,7 +140,7 @@
     <!--IN_VICTOR_SW-->
     <Line Pattern="Dotted">
       DRP/
-      -42.842833+147.426/
+      -42.842833+147.426000/
       YCBG
     </Line>
     <!--MANGALORE-->
@@ -173,6 +173,7 @@
     </Line>
   </Map>
   <Map Type="System" Name="YMHB_ALLRWYS" Priority="2" Centre="-42.836111+147.510278">
+    <!--YMHB-->
     <Runway Name="12/30">
       <Threshold Name="12" Position="-42.828983+147.502047" ExtendedCentrelineTrack="315.01" ExtendedCentrelineLength="17" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="30" Position="-42.845589+147.524594" ExtendedCentrelineTrack="135.03" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />

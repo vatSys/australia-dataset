@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="SY_TCU" Priority="1" Centre="-33.946+151.177111">
+  <Map Type="System" Name="SY_TCU" Priority="1" Centre="-33.946000+151.177111">
     <!--YSBK-->
     <Runway Name="11R/29L">
       <Threshold Name="11R" Position="-33.921631+150.985203" />
       <Threshold Name="29L" Position="-33.926833+150.994492" />
     </Runway>
     <Runway Name="11C/29C">
-      <Threshold Name="11C" Position="-33.920119+150.984556" ExtendedCentrelineTrack="303.90" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="29C" Position="-33.926453+150.995861" ExtendedCentrelineTrack="123.90" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="11C" Position="-33.920119+150.984556" ExtendedCentrelineTrack="303.9" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="29C" Position="-33.926453+150.995861" ExtendedCentrelineTrack="123.9" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <Runway Name="11L/29R">
       <Threshold Name="11L" Position="-33.920122+150.986647" />
@@ -16,7 +16,7 @@
     </Runway>
     <!--YSCN-->
     <Runway Name="06/24">
-      <Threshold Name="06" Position="-34.040619+150.680619" ExtendedCentrelineTrack="244.80" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="06" Position="-34.040619+150.680619" ExtendedCentrelineTrack="244.8" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
       <Threshold Name="24" Position="-34.036186+150.691939" ExtendedCentrelineTrack="64.81" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <Runway Name="10/28">
@@ -25,7 +25,7 @@
     </Runway>
     <!--YSRI-->
     <Runway Name="10/28">
-      <Threshold Name="10" Position="-33.601614+150.771247" ExtendedCentrelineTrack="287.10" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="10" Position="-33.601614+150.771247" ExtendedCentrelineTrack="287.1" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="28" Position="-33.607272+150.793219" ExtendedCentrelineTrack="107.11" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--YSSY-->
@@ -34,7 +34,7 @@
       <Threshold Name="25" Position="-33.937778+151.188908" />
     </Runway>
     <Runway Name="16R/34L">
-      <Threshold Name="16R" Position="-33.9301+151.171783" />
+      <Threshold Name="16R" Position="-33.930100+151.171783" />
       <Threshold Name="34L" Position="-33.964267+151.180644" />
     </Runway>
     <Runway Name="16L/34R">
@@ -169,7 +169,7 @@
       TONIM
     </Line>
   </Map>
-  <Map Type="System2" Name="SY_VFR" Priority="1" Centre="-33.946+151.177111">
+  <Map Type="System2" Name="SY_VFR" Priority="1" Centre="-33.946000+151.177111">
     <Symbol Type="HollowSquare">
       <Point>APPN</Point>
       <Point>BRNJ</Point>
@@ -316,7 +316,7 @@
       <Point Name="RIC_ROUTE">WSFR</Point>
       <Point Name="HARB_SCENIC_1">LRF</Point>
       <Point Name="HARB_SCENIC_2">CHAT</Point>
-      <Point Name="VICTOR_1">-34.085079+151.18635</Point>
+      <Point Name="VICTOR_1">-34.085079+151.186350</Point>
     </Label>
     <!--IN_SOUTH-->
     <Line Pattern="Dotted">
@@ -358,7 +358,7 @@
     </Line>
     <!--VICTOR_1-->
     <Line Pattern="Dotted">
-      -34.085079+151.18635/
+      -34.085079+151.186350/
       -34.059883+151.172033/
       -34.049288+151.180372/
       -34.052966+151.207065/
@@ -373,7 +373,7 @@
       -33.744554+151.333566
     </Line>
   </Map>
-  <Map Type="System2" Name="SY_HELO" Priority="1" Centre="-33.946+151.177111">
+  <Map Type="System2" Name="SY_HELO" Priority="1" Centre="-33.946000+151.177111">
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="HELO_BARRACKS">-33.871847+151.233956</Point>
       <Point Name="HELO_BONDI">-33.855653+151.304626</Point>
@@ -383,7 +383,7 @@
       <Point Name="HELO_GEORGES_RVR">CSTH</Point>
       <Point Name="HELO_MAROUBRA">MRBR</Point>
       <Point Name="HELO_ROSEHILL">RSH</Point>
-      <Point Name="HELO_WANDA">-34.044764+151.1859</Point>
+      <Point Name="HELO_WANDA">-34.044764+151.185900</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="SE">
       <Point Name="HELO_HARB_BRIDGE">APST</Point>
@@ -392,19 +392,19 @@
     <Line Pattern="Dotted">
       -33.871847+151.233956/
       -33.885769+151.224328/
-      -33.902433+151.2154/
+      -33.902433+151.215400/
       -33.935694+151.207778
     </Line>
     <!--HELO_BONDI-->
     <Line Pattern="Dotted">
       -33.855653+151.304626/
       -33.893517+151.304453/
-      -33.971119+151.28575
+      -33.971119+151.285750
     </Line>
     <!--HELO_CAPE_BANKS-IN-->
     <Line Pattern="Dotted">
       CAPS/
-      -33.969361+151.20675
+      -33.969361+151.206750
     </Line>
     <!--HELO_CAPE_BANKS-OUT-->
     <Line Pattern="Dotted">
@@ -416,7 +416,7 @@
       APST/
       ERSK/
       REDF/
-      -33.883611+151.2059/
+      -33.883611+151.205900/
       DHH
     </Line>
     <!--HELO_GEORGES_RVR-->
@@ -424,7 +424,7 @@
       CSTH/
       PNP/
       GRB/
-      -34.012706+151.13455/
+      -34.012706+151.134550/
       -33.999725+151.158153/
       -33.961269+151.167497
     </Line>
@@ -433,7 +433,7 @@
       APST/
       ERSK/
       REDF/
-      -33.883611+151.2059/
+      -33.883611+151.205900/
       DHH/
       HBB
     </Line>
@@ -453,24 +453,27 @@
     </Line>
     <!--HELO_WANDA-->
     <Line Pattern="Dotted">
-      -34.044764+151.1859/
+      -34.044764+151.185900/
       -34.003592+151.166519/
       -33.999725+151.158153/
       -33.961269+151.167497
     </Line>
   </Map>
-  <Map Type="System" Name="YSSY_ALLRWYS" Priority="2" Centre="-33.946+151.177111">
+  <Map Type="System" Name="YSSY_ALLRWYS" Priority="2" Centre="-33.946000+151.177111">
+    <!--YSSY-->
     <Runway Name="07/25">
-      <Threshold Name="07" Position="-33.943739+151.163628" ExtendedCentrelineTrack="254.20" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="07" Position="-33.943739+151.163628" ExtendedCentrelineTrack="254.2" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="25" Position="-33.937778+151.188908" ExtendedCentrelineTrack="74.21" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
+    <!--YSSY-->
     <Runway Name="16R/34L">
-      <Threshold Name="16R" Position="-33.9301+151.171783" ExtendedCentrelineTrack="347.80" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="16R" Position="-33.930100+151.171783" ExtendedCentrelineTrack="347.8" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="34L" Position="-33.964267+151.180644" ExtendedCentrelineTrack="167.81" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
     </Runway>
+    <!--YSSY-->
     <Runway Name="16L/34R">
       <Threshold Name="16L" Position="-33.951636+151.188847" ExtendedCentrelineTrack="347.79" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="34R" Position="-33.970758+151.193811" ExtendedCentrelineTrack="167.80" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="34R" Position="-33.970758+151.193811" ExtendedCentrelineTrack="167.8" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
     </Runway>
   </Map>
 </Maps>

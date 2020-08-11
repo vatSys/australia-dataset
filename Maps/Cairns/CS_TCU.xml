@@ -210,12 +210,12 @@
       <Point>YKS</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="EAST_ROUTE">-17.04756+145.806135</Point>
+      <Point Name="EAST_ROUTE">-17.047560+145.806135</Point>
       <Point Name="WEST_ROUTE">-16.658801+145.575894</Point>
     </Label>
     <!--EAST_ROUTE-->
     <Line Pattern="Dotted">
-      -17.04756+145.806135/
+      -17.047560+145.806135/
       TBRT/
       -16.918516+145.791392
     </Line>
@@ -226,9 +226,9 @@
       -16.687852+145.592857/
       -16.700319+145.628375/
       -16.730108+145.659605/
-      -16.73793+145.665733/
+      -16.737930+145.665733/
       -16.754162+145.665443/
-      -16.772023+145.67689/
+      -16.772023+145.676890/
       -16.803516+145.694327/
       -16.837761+145.696437/
       -16.861557+145.696599/
@@ -241,6 +241,7 @@
     </Line>
   </Map>
   <Map Type="System" Name="YBCS_ALLRWYS" Priority="2" Centre="-16.885833+145.755278">
+    <!--YBCS-->
     <Runway Name="15/33">
       <Threshold Name="15" Position="-16.865831+145.743561" ExtendedCentrelineTrack="336.48" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
       <Threshold Name="33" Position="-16.891983+145.755383" ExtendedCentrelineTrack="156.48" ExtendedCentrelineLength="25" ExtendedCentrelineTickInterval="2" />

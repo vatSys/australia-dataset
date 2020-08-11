@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="BN_RWY19" Priority="1" Centre="-27.384167+153.1175">
+  <Map Type="System" Name="BN_RWY19PROPS" Priority="1" Centre="-27.384167+153.117500">
     <!--YBBN-->
     <Runway Name="01R/19L">
       <Threshold Name="01R" Position="-27.402803+153.118217" />
@@ -8,7 +8,7 @@
     </Runway>
     <Runway Name="01L/19R">
       <Threshold Name="01L" Position="-27.383086+153.106853" />
-      <Threshold Name="19R" Position="-27.35655+153.121969" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="19R" Position="-27.356550+153.121969" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -330,8 +330,20 @@
       <Point>ENAID</Point>
       <Point>DUBOM</Point>
     </Symbol>
+    <!--(BN) RWY19PROPS Airspace-->
+    <Line Width="1.7" Pattern="Solid">
+-272311.460+1534205.560/-272146.616+1532914.160/-273805.056+1532806.763/-274729.398+1533006.351</Line>
+    <Line Width="1.7" Pattern="Solid">
+-271325.000+1524103.000/-271231.248+1525504.058/-272126.601+1530717.910/-272222.933+1530805.287/-272706.563+1531637.883/-273836.412+1531641.066/-275140.536+1531243.157</Line>
+    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
+      <Point Name="BDN">-27.581602+152.905597</Point>
+      <Point Name="BDN/BAN">-26.959428+153.246671</Point>
+      <Point Name="BDS">-27.486336+153.578341</Point>
+      <Point Name="BDS">-27.715979+153.092582</Point>
+      <Point Name="BDS/BAS">-27.181279+153.564636</Point>
+    </Label>
   </Map>
-  <Map Type="System" Name="BN_RWY19_NAMES" Priority="2" Centre="-27.384167+153.1175">
+  <Map Type="System" Name="BN_RWY19PROPS_NAMES" Priority="2" Centre="-27.384167+153.117500">
     <Label>
       <Point>CITEE</Point>
       <Point>TOGIN</Point>

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="SY_RWY25" Priority="1" Centre="-33.946+151.177111">
+  <Map Type="System" Name="SY_RWY25" Priority="1" Centre="-33.946000+151.177111">
     <!--YSSY-->
     <Runway Name="07/25">
       <Threshold Name="07" Position="-33.943739+151.163628" />
@@ -92,17 +92,17 @@
 -340540.000+1501753.000/-335753.000+1505719.000/-335358.000+1510720.000/-335416.000+1511004.000/-340617.000+1511300.000/-340650.000+1511027.000/-340509.000+1505704.000/-342008.000+1502443.000</Line>
     <Line Width="1.7" Pattern="Solid">
 -334429.000+1512040.000/-334229.000+1512750.000/-334342.490+1512919.465/-334505.150+1513036.713/-334633.084+1513145.043/-334805.625+1513243.930/-334942.074+1513332.921/-335121.699+1513411.635/-335303.746+1513439.768/-335353.013+1513448.304</Line>
-    <Label HasLeader="false" Alignment="Center">
-      <Point Name="SFW 60/SAN 70">-33.997706+151.412713</Point>
-      <Point Name="SFE">-33.814183+151.428416</Point>
-      <Point Name="SAN 60/SDN 50">-33.459648+151.076605</Point>
-      <Point Name="SAS 60/SDS 50">-34.137584+150.544901</Point>
-      <Point Name="SDS">-34.397777+151.229722</Point>
+    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
+      <Point Name="SAN 60/SDN 50">-33.650811+151.128693</Point>
+      <Point Name="SAS 60/SDS 50">-34.141096+150.719003</Point>
       <Point Name="SDN">-33.628888+150.639444</Point>
       <Point Name="SDN">-33.641889+151.694849</Point>
+      <Point Name="SDS">-34.397777+151.229722</Point>
+      <Point Name="SFE">-33.814183+151.428416</Point>
+      <Point Name="SFW 60/SAN 70">-33.997706+151.412713</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="SY_RWY25_NAMES" Priority="2" Centre="-33.946+151.177111">
+  <Map Type="System" Name="SY_RWY25_NAMES" Priority="2" Centre="-33.946000+151.177111">
     <Label>
       <Point>BOREE</Point>
       <Point>BEKLO</Point>

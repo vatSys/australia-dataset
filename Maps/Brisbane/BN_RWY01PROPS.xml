@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="BN_RWY01" Priority="1" Centre="-27.384167+153.1175">
+  <Map Type="System" Name="BN_RWY01PROPS" Priority="1" Centre="-27.384167+153.117500">
     <!--YBBN-->
     <Runway Name="01L/19R">
       <Threshold Name="01L" Position="-27.383086+153.106853" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="19R" Position="-27.35655+153.121969" />
+      <Threshold Name="19R" Position="-27.356550+153.121969" />
     </Runway>
     <Runway Name="01R/19L">
       <Threshold Name="01R" Position="-27.402803+153.118217" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
@@ -13,7 +13,7 @@
     <!--SIDs-->
     <Line>
       <!--Rwy01L BIXAD1-->
-      -27.35655+153.121969/
+      -27.356550+153.121969/
       OSOKO/
       BUKBU/
       BIXAD
@@ -349,8 +349,20 @@
       <Point>SAGTA</Point>
       <Point>NUNDI</Point>
     </Symbol>
+    <!--(BN) RWY01PROPS Airspace-->
+    <Line Width="1.7" Pattern="Solid">
+-265424.516+1525512.931/-271339.910+1525845.740/-271938.830+1530043.300/-272259.231+1530624.529/-272412.172+1530704.463/-274741.180+1532918.699</Line>
+    <Line Width="1.7" Pattern="Solid">
+-265516.191+1532337.251/-272313.164+1530737.396</Line>
+    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
+      <Point Name="BDN">-26.951312+153.111766</Point>
+      <Point Name="BDN/BAN">-27.044049+152.820974</Point>
+      <Point Name="BDN/BAN">-27.628021+152.898737</Point>
+      <Point Name="BDS">-27.178270+153.521934</Point>
+      <Point Name="BDS/BAS">-27.740573+153.007998</Point>
+    </Label>
   </Map>
-  <Map Type="System" Name="BN_RWY01_NAMES" Priority="2" Centre="-27.384167+153.1175">
+  <Map Type="System" Name="BN_RWY01PROPS_NAMES" Priority="2" Centre="-27.384167+153.117500">
     <Label>
       <Point>OSOKO</Point>
       <Point>BUKBU</Point>

@@ -24,12 +24,6 @@
       KADSI
     </Line>
     <Line>
-      <!--W256-->
-      BNA NDB/
-      LOSKU/
-      ARM NDB
-    </Line>
-    <Line>
       <!--W270-->
       OK VOR/
       UNVAT/
@@ -73,8 +67,6 @@
       <Point>BNA NDB</Point>
       <Point>CFS VOR</Point>
       <Point>KADSI</Point>
-      <Point>LOSKU</Point>
-      <Point>ARM NDB</Point>
       <Point>OK VOR</Point>
       <Point>OVENS</Point>
       <Point>VONDO</Point>
@@ -291,16 +283,18 @@
       -27.466647+152.461706/
       -27.455031+152.603381/
       -27.447806+152.649047/
-      -27.45815+152.687289/
+      -27.458150+152.687289/
       -27.465608+152.711292/
       LMC
     </Line>
   </Map>
   <Map Type="System" Name="YAMB_ALLRWYS" Priority="2" Centre="-27.640556+152.711944">
+    <!--YAMB-->
     <Runway Name="04/22">
       <Threshold Name="04" Position="-27.644611+152.707869" ExtendedCentrelineTrack="234.32" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="22" Position="-27.636589+152.720414" ExtendedCentrelineTrack="54.32" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
     </Runway>
+    <!--YAMB-->
     <Runway Name="15/33">
       <Threshold Name="15" Position="-27.621714+152.705267" ExtendedCentrelineTrack="338.74" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="33" Position="-27.647344+152.716464" ExtendedCentrelineTrack="158.74" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />

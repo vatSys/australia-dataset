@@ -4,12 +4,12 @@
     <!--YMAY-->
     <Runway Name="07/25">
       <Threshold Name="07" Position="-36.068075+146.948892" ExtendedCentrelineTrack="261.18" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="25" Position="-36.06545+146.969742" />
+      <Threshold Name="25" Position="-36.065450+146.969742" />
     </Runway>
     <!--SIDs-->
     <Line>
       <!--Rwy07 DUGGI1-->
-      -36.06545+146.969742/
+      -36.065450+146.969742/
       ANUGO/
       RUMES/
       DUGGI
@@ -51,6 +51,16 @@
       <Point>POKIT</Point>
       <Point>VEGRU</Point>
     </Symbol>
+    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
+      <Point Name="SAN 60/SDN 50">-33.981437+151.301630</Point>
+      <Point Name="SAN 60/SDN 50">-33.477754+151.112072</Point>
+      <Point Name="SAS">-34.169444+150.455833</Point>
+      <Point Name="SDN">-33.656944+150.628055</Point>
+      <Point Name="SDN">-33.714841+151.639321</Point>
+      <Point Name="SDS">-34.404444+151.188611</Point>
+      <Point Name="SFW">-34.113391+150.689324</Point>
+      <Point Name="SFW/SDN">-33.908240+150.979356</Point>
+    </Label>
   </Map>
   <Map Type="System" Name="AY_RWY07_NAMES" Priority="2" Centre="-36.067778+146.958056">
     <Label>
