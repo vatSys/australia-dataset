@@ -1,0 +1,22 @@
+on:
+  release:
+    types: [published]
+    
+# Zips the profile and uploads to the vatsys ftp server
+name: Publish Profile
+jobs:
+  zip-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@master
+    - name: Archive Release
+      uses: thedoctor0/zip-release@master
+      with:
+        filename: 'profile.zip'
+        exclusions: '*.git* /*node_modules/* .editorconfig *.md'
+    - name: FTP-Deploy-Action
+      uses: SamKirkland/FTP-Deploy-Action@3.0.0
+      with:
+        ftp-server: ftp://ftp.sawbe.com/
+        ftp-username: vatsys-aus-profile@sawbe.com
+        ftp-password: ${{ secrets.FTP_PASSWORD }}
