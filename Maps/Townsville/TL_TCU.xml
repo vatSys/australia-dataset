@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="TL_TCU" Priority="1" Centre="-19.2525+146.765278">
+  <Map Type="System" Name="TL_TCU" Priority="1" Centre="-19.252500+146.765278">
     <!--YBTL-->
     <Runway Name="01/19">
       <Threshold Name="01" Position="-19.258306+146.764722" />
@@ -136,7 +136,7 @@
       APUSS
     </Line>
   </Map>
-  <Map Type="System2" Name="TL_VFR" Priority="1" Centre="-19.2525+146.765278">
+  <Map Type="System2" Name="TL_VFR" Priority="1" Centre="-19.252500+146.765278">
     <Symbol Type="HollowSquare">
       <Point>ANI</Point>
       <Point>ANP</Point>
@@ -231,7 +231,7 @@
       -19.047222+146.413889/
       TOOU/
       -19.197903+146.598885/
-      -19.219077+146.70685/
+      -19.219077+146.706850/
       TL
     </Line>
     <!--STUART-->
@@ -242,7 +242,7 @@
       -19.393832+146.826829/
       -19.365919+146.832686/
       SUA/
-      -19.324157+146.82821/
+      -19.324157+146.828210/
       TL
     </Line>
     <!--THORNTON_NORTH-->
@@ -255,7 +255,7 @@
     <Line Pattern="Dotted">
       TNP/
       MMT/
-      -19.3+146.666667/
+      -19.300000+146.666667/
       TL
     </Line>
     <!--UPPER_ROSS-->
@@ -271,11 +271,13 @@
       TL
     </Line>
   </Map>
-  <Map Type="System" Name="YBTL_ALLRWYS" Priority="2" Centre="-19.2525+146.765278">
+  <Map Type="System" Name="YBTL_ALLRWYS" Priority="2" Centre="-19.252500+146.765278">
+    <!--YBTL-->
     <Runway Name="01/19">
       <Threshold Name="01" Position="-19.258306+146.764722" ExtendedCentrelineTrack="204.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="19" Position="-19.238203+146.774217" ExtendedCentrelineTrack="24.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
+    <!--YBTL-->
     <Runway Name="07/25">
       <Threshold Name="07" Position="-19.255808+146.755544" ExtendedCentrelineTrack="253.97" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="25" Position="-19.253072+146.765575" ExtendedCentrelineTrack="73.98" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />

@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="TL_RWY19" Priority="1" Centre="-19.2525+146.765278">
+  <Map Type="System" Name="TL_RWY19" Priority="1" Centre="-19.252500+146.765278">
     <!--YBTL-->
     <Runway Name="01/19">
       <Threshold Name="01" Position="-19.258306+146.764722" />
@@ -50,7 +50,7 @@
       -19.374292+146.703985/
       -19.376525+146.703395/
       -19.430591+146.685538/
-      -19.45197+146.681556/
+      -19.451970+146.681556/
       -19.473636+146.683635/
       -19.476568+146.684456/
       -19.496676+146.693128/
@@ -170,8 +170,15 @@
       <Point>OLNUT</Point>
       <Point>LAPES</Point>
     </Symbol>
+    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
+      <Point Name="BDN">-27.581602+152.905597</Point>
+      <Point Name="BDN/BAN">-26.959428+153.246671</Point>
+      <Point Name="BDS">-27.486336+153.578341</Point>
+      <Point Name="BDS">-27.715979+153.092582</Point>
+      <Point Name="BDS/BAS">-27.181279+153.564636</Point>
+    </Label>
   </Map>
-  <Map Type="System" Name="TL_RWY19_NAMES" Priority="2" Centre="-19.2525+146.765278">
+  <Map Type="System" Name="TL_RWY19_NAMES" Priority="2" Centre="-19.252500+146.765278">
     <Label>
       <Point>VARBI</Point>
       <Point>DAPLA</Point>

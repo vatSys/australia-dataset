@@ -7,7 +7,7 @@
       <Threshold Name="21" Position="-30.324153+153.120656" />
     </Runway>
     <Runway Name="10/28">
-      <Threshold Name="10" Position="-30.31645+153.114094" />
+      <Threshold Name="10" Position="-30.316450+153.114094" />
       <Threshold Name="28" Position="-30.318708+153.122564" />
     </Runway>
     <!--Airway Routes-->
@@ -189,12 +189,14 @@
     </Label>
   </Map>
   <Map Type="System" Name="YCFS_ALLRWYS" Priority="2" Centre="-30.320556+153.116389">
+    <!--YCFS-->
     <Runway Name="03/21">
       <Threshold Name="03" Position="-30.338375+153.106547" ExtendedCentrelineTrack="220.71" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="21" Position="-30.324153+153.120656" ExtendedCentrelineTrack="40.72" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
+    <!--YCFS-->
     <Runway Name="10/28">
-      <Threshold Name="10" Position="-30.31645+153.114094" ExtendedCentrelineTrack="287.08" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="10" Position="-30.316450+153.114094" ExtendedCentrelineTrack="287.08" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="28" Position="-30.318708+153.122564" ExtendedCentrelineTrack="107.09" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
     </Runway>
   </Map>

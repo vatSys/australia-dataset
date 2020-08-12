@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="SY_RWY07" Priority="1" Centre="-33.946+151.177111">
+  <Map Type="System" Name="SY_RWY07" Priority="1" Centre="-33.946000+151.177111">
     <!--YSSY-->
     <Runway Name="07/25">
-      <Threshold Name="07" Position="-33.943739+151.163628" ExtendedCentrelineTrack="254.20" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="07" Position="-33.943739+151.163628" ExtendedCentrelineTrack="254.2" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="25" Position="-33.937778+151.188908" />
     </Runway>
     <!--SIDs-->
@@ -30,7 +30,7 @@
       -33.918324+151.423704/
       -33.931138+151.434199/
       -33.946515+151.437553/
-      -33.95947+151.434381/
+      -33.959470+151.434381/
       -33.971903+151.425081/
       WOL NDB
     </Line>
@@ -123,18 +123,18 @@
 -342007.000+1502443.000/-341327.242+1504057.530/-341018.000+1504839.000/-340914.000+1505219.000/-340428.000+1510849.000</Line>
     <Line Width="1.7" Pattern="Solid">
 -341327.242+1504057.530/-341113.340+1503918.359/-340852.741+1503753.846/-340626.570+1503644.534/-340355.948+1503550.931/-340122.027+1503513.425/-340108.302+1503511.580</Line>
-    <Label HasLeader="false" Alignment="Center">
+    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
+      <Point Name="SAN 60/SDN 50">-33.981437+151.301630</Point>
       <Point Name="SAN 60/SDN 50">-33.477754+151.112072</Point>
-      <Point Name="SDN">-33.714841+151.639321</Point>
-      <Point Name="SAN 60/SDN 50">-33.981437+151.30163</Point>
-      <Point Name="SFW/SDN">-33.90824+150.979356</Point>
-      <Point Name="SDS">-34.404444+151.188611</Point>
-      <Point Name="SFW">-34.113391+150.689324</Point>
       <Point Name="SAS">-34.169444+150.455833</Point>
       <Point Name="SDN">-33.656944+150.628055</Point>
+      <Point Name="SDN">-33.714841+151.639321</Point>
+      <Point Name="SDS">-34.404444+151.188611</Point>
+      <Point Name="SFW">-34.113391+150.689324</Point>
+      <Point Name="SFW/SDN">-33.908240+150.979356</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="SY_RWY07_NAMES" Priority="2" Centre="-33.946+151.177111">
+  <Map Type="System" Name="SY_RWY07_NAMES" Priority="2" Centre="-33.946000+151.177111">
     <Label>
       <Point>FISHA</Point>
       <Point>ENTRA</Point>

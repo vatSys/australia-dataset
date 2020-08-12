@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="TL_RWY01" Priority="1" Centre="-19.2525+146.765278">
+  <Map Type="System" Name="TL_RWY01" Priority="1" Centre="-19.252500+146.765278">
     <!--YBTL-->
     <Runway Name="01/19">
       <Threshold Name="01" Position="-19.258306+146.764722" ExtendedCentrelineTrack="204.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
@@ -45,7 +45,7 @@
       -19.238203+146.774217/
       -19.238201+146.774209/
       -19.187657+146.793714/
-      -19.030833+146.715/
+      -19.030833+146.715000/
       PEWEE
     </Line>
     <Line>
@@ -146,8 +146,15 @@
       <Point>SASMO</Point>
       <Point>BEBUD</Point>
     </Symbol>
+    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
+      <Point Name="BDN">-26.951312+153.111766</Point>
+      <Point Name="BDN/BAN">-27.044049+152.820974</Point>
+      <Point Name="BDN/BAN">-27.628021+152.898737</Point>
+      <Point Name="BDS">-27.178270+153.521934</Point>
+      <Point Name="BDS/BAS">-27.740573+153.007998</Point>
+    </Label>
   </Map>
-  <Map Type="System" Name="TL_RWY01_NAMES" Priority="2" Centre="-19.2525+146.765278">
+  <Map Type="System" Name="TL_RWY01_NAMES" Priority="2" Centre="-19.252500+146.765278">
     <Label>
       <Point>AGSIR</Point>
       <Point>AVMAT</Point>

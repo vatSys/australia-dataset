@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="BN_TCU" Priority="1" Centre="-27.384167+153.1175">
+  <Map Type="System" Name="BN_TCU" Priority="1" Centre="-27.384167+153.117500">
     <!--YBAF-->
     <Runway Name="10L/28R">
       <Threshold Name="10L" Position="-27.570394+152.997217" ExtendedCentrelineTrack="287.73" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="28R" Position="-27.5743+153.010919" ExtendedCentrelineTrack="107.75" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="28R" Position="-27.574300+153.010919" ExtendedCentrelineTrack="107.75" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <Runway Name="10R/28L">
       <Threshold Name="10R" Position="-27.572197+152.998061" />
@@ -34,7 +34,7 @@
     </Runway>
     <Runway Name="01L/19R">
       <Threshold Name="01L" Position="-27.383086+153.106853" />
-      <Threshold Name="19R" Position="-27.35655+153.121969" />
+      <Threshold Name="19R" Position="-27.356550+153.121969" />
     </Runway>
     <!--Airway Routes-->
     <Line>
@@ -249,7 +249,7 @@
       YAMB
     </Line>
   </Map>
-  <Map Type="System2" Name="BN_VFR" Priority="1" Centre="-27.384167+153.1175">
+  <Map Type="System2" Name="BN_VFR" Priority="1" Centre="-27.384167+153.117500">
     <Symbol Type="HollowSquare">
       <Point>TVT</Point>
       <Point>AEN</Point>
@@ -497,10 +497,10 @@
       <Point Name="IN_TARGET">TAR</Point>
       <Point Name="IN_TV_TOWERS">TVT</Point>
       <Point Name="OUT_EAST_DEP">-27.591667+153.105556</Point>
-      <Point Name="OUT_NORTH_DEP">-27.5+152.966667</Point>
+      <Point Name="OUT_NORTH_DEP">-27.500000+152.966667</Point>
       <Point Name="OUT_SOUTH_DEP">-27.655691+153.073016</Point>
       <Point Name="COAST_NTH">-27.810459+153.437959</Point>
-      <Point Name="COAST_STH">-27.08535+153.20648</Point>
+      <Point Name="COAST_STH">-27.085350+153.206480</Point>
       <Point Name="UNIVAT">-27.489732+153.000133</Point>
     </Label>
     <!--INLAND-->
@@ -519,12 +519,12 @@
     <!--IN_PARK_RIDGE-->
     <Line Pattern="Dotted">
       PKR/
-      -27.6194+153.013941
+      -27.619400+153.013941
     </Line>
     <!--IN_TARGET-->
     <Line Pattern="Dotted">
       TAR/
-      -27.59743+153.053363
+      -27.597430+153.053363
     </Line>
     <!--IN_TV_TOWERS-->
     <Line Pattern="Dotted">
@@ -539,7 +539,7 @@
     </Line>
     <!--OUT_NORTH_DEP-->
     <Line Pattern="Dotted">
-      -27.5+152.966667/
+      -27.500000+152.966667/
       YBAF
     </Line>
     <!--OUT_SOUTH_DEP-->
@@ -562,10 +562,10 @@
       -27.286716+153.422404/
       -27.270891+153.420504/
       -27.222835+153.420404/
-      -27.205358+153.4225/
+      -27.205358+153.422500/
       -27.170729+153.427797/
       -27.127396+153.437502/
-      -27.086308+153.45125/
+      -27.086308+153.451250/
       -27.074784+153.450102/
       -27.062941+153.442408/
       -27.047664+153.418966/
@@ -575,7 +575,7 @@
     </Line>
     <!--COAST_STH-->
     <Line Pattern="Dotted">
-      -27.08535+153.20648/
+      -27.085350+153.206480/
       -27.077762+153.263857/
       -27.079708+153.299134/
       -27.087729+153.327391/
@@ -583,7 +583,7 @@
       -27.129254+153.362952/
       -27.177082+153.369163/
       -27.222118+153.376737/
-      -27.26079+153.385157/
+      -27.260790+153.385157/
       -27.306813+153.399794/
       -27.352228+153.415798/
       -27.405338+153.435998/
@@ -593,7 +593,7 @@
       -27.558361+153.412061/
       -27.626964+153.410836/
       -27.697166+153.403651/
-      -27.787086+153.38435/
+      -27.787086+153.384350/
       -27.821551+153.378575
     </Line>
     <!--UNIVAT-->
@@ -602,19 +602,23 @@
       -27.560014+153.102985
     </Line>
   </Map>
-  <Map Type="System" Name="YBBN_ALLRWYS" Priority="2" Centre="-27.384167+153.1175">
+  <Map Type="System" Name="YBBN_ALLRWYS" Priority="2" Centre="-27.384167+153.117500">
+    <!--YBBN-->
     <Runway Name="01R/19L">
       <Threshold Name="01R" Position="-27.402803+153.118217" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
       <Threshold Name="19L" Position="-27.374672+153.134306" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
     </Runway>
+    <!--YBBN-->
     <Runway Name="01L/19R">
       <Threshold Name="01L" Position="-27.383086+153.106853" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="19R" Position="-27.35655+153.121969" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="19R" Position="-27.356550+153.121969" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
     </Runway>
+    <!--YBCG-->
     <Runway Name="14/32">
       <Threshold Name="14" Position="-28.156511+153.500706" ExtendedCentrelineTrack="330.59" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="32" Position="-28.172569+153.510919" ExtendedCentrelineTrack="150.58" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
+    <!--YBCG-->
     <Runway Name="17/35">
       <Threshold Name="17" Position="-28.164356+153.506753" ExtendedCentrelineTrack="4.09" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="35" Position="-28.169594+153.506331" ExtendedCentrelineTrack="184.09" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
