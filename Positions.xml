@@ -484,8 +484,8 @@
       <Sector Name="GRN" />
       <Sector Name="MDE" />
       <Sector Name="ARM" />
-      <Sector Name="MLD" />       
-      <Sector Name="OCN" /> 
+      <Sector Name="MLD" />
+      <Sector Name="OCN" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -528,19 +528,19 @@
       <Sector Name="OXL" />
       <Sector Name="ASP" />
       <Sector Name="WAR" />
-      <Sector Name="FOR" />       
-      <Sector Name="ESP" /> 
-      <Sector Name="CRS" /> 
-      <Sector Name="LEA" /> 
-      <Sector Name="GVE" /> 
-      <Sector Name="PIY" /> 
-      <Sector Name="HYD" /> 
-      <Sector Name="JAR" /> 
-      <Sector Name="MOR" /> 
-      <Sector Name="TFR" /> 
-      <Sector Name="GEL" /> 
-      <Sector Name="BIL" /> 
-      <Sector Name="ORE" /> 
+      <Sector Name="FOR" />
+      <Sector Name="ESP" />
+      <Sector Name="CRS" />
+      <Sector Name="LEA" />
+      <Sector Name="GVE" />
+      <Sector Name="PIY" />
+      <Sector Name="HYD" />
+      <Sector Name="JAR" />
+      <Sector Name="MOR" />
+      <Sector Name="TFR" />
+      <Sector Name="GEL" />
+      <Sector Name="BIL" />
+      <Sector Name="ORE" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -593,7 +593,7 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YPAD" Type="ASMGCS" ASMGCSAirport="YPAD" DefaultCenter="-34.947162+138.532305" DefaultRange="2" MagneticVariation="-8">
+  <Position Name="YPAD" Type="ASMGCS" ASMGCSAirport="YPAD" DefaultCenter="-34.947162+138.532305" DefaultRange="2" MagneticVariation="-8" Rotation="-173">
     <Maps>
       <Map Name="ASMGCS_YPAD_RWY" />
       <Map Name="ASMGCS_YPAD_TWY" />
@@ -636,7 +636,7 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YMML" Type="ASMGCS" ASMGCSAirport="YMML" DefaultCenter="-37.673+144.843" DefaultRange="3" MagneticVariation="-11">
+  <Position Name="YMML" Type="ASMGCS" ASMGCSAirport="YMML" DefaultCenter="-37.673+144.843" DefaultRange="3" MagneticVariation="-11" Rotation="-50">
     <Maps>
       <Map Name="ASMGCS_YMML_RWY" />
       <Map Name="ASMGCS_YMML_TWY" />
@@ -678,7 +678,7 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YSSY" Type="ASMGCS" ASMGCSAirport="YSSY" DefaultCenter="-33.9461+151.1772" DefaultRange="3" MagneticVariation="-13">
+  <Position Name="YSSY" Type="ASMGCS" ASMGCSAirport="YSSY" DefaultCenter="-33.9461+151.1772" DefaultRange="3" MagneticVariation="-13" Rotation="115">
     <Maps>
       <Map Name="ASMGCS_YSSY_RWY" />
       <Map Name="ASMGCS_YSSY_TWY" />
@@ -698,7 +698,7 @@
       <Map Name="ALL_CTA" />
       <Map Name="Brisbane/BN_COAST" />
       <Map Name="Brisbane/BN_TCU" />
-      <Map Name="Brisbane/BN_RWY01" />
+      <Map Name="Brisbane/BN_RWY01PROPS" />
       <Map Name="Brisbane/CG_RWY32" />
     </Maps>
     <ATIS>
@@ -723,14 +723,14 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YBBN" Type="ASMGCS" ASMGCSAirport="YBBN" DefaultCenter="-27.3942+153.1218" DefaultRange="5" MagneticVariation="-11">
+  <Position Name="YBBN" Type="ASMGCS" ASMGCSAirport="YBBN" DefaultCenter="-27.3942+153.1218" DefaultRange="5" MagneticVariation="-11" Rotation="-15">
     <Maps>
       <Map Name="ASMGCS_YBBN_RWY" />
       <Map Name="ASMGCS_YBBN_TWY" />
       <Map Name="ASMGCS_YBBN_BLD" />
     </Maps>
   </Position>
-  <Position Name="YBCG" Type="ASMGCS" ASMGCSAirport="YBCG" DefaultCenter="-28.164444+153.504722" DefaultRange="2" MagneticVariation="-11">
+  <Position Name="YBCG" Type="ASMGCS" ASMGCSAirport="YBCG" DefaultCenter="-28.164444+153.504722" DefaultRange="2" MagneticVariation="-11" Rotation="130">
     <Maps>
       <Map Name="ASMGCS_YBCG_RWY" />
       <Map Name="ASMGCS_YBCG_TWY" />
@@ -765,7 +765,7 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YSCB" Type="ASMGCS" ASMGCSAirport="YSCB" DefaultCenter="-35.306090+149.193797" DefaultRange="3" MagneticVariation="-12">
+  <Position Name="YSCB" Type="ASMGCS" ASMGCSAirport="YSCB" DefaultCenter="-35.306090+149.193797" DefaultRange="3" MagneticVariation="-12" Rotation="130">
     <Maps>
       <Map Name="ASMGCS_YSCB_RWY" />
       <Map Name="ASMGCS_YSCB_TWY" />
@@ -802,7 +802,7 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YPPH" Type="ASMGCS" ASMGCSAirport="YPPH" DefaultCenter="-31.9402+115.966944" DefaultRange="3" MagneticVariation="1.6">
+  <Position Name="YPPH" Type="ASMGCS" ASMGCSAirport="YPPH" DefaultCenter="-31.9402+115.966944" DefaultRange="3" MagneticVariation="1.6" Rotation="70">
     <Maps>
       <Map Name="ASMGCS_YPPH_RWY" />
       <Map Name="ASMGCS_YPPH_TWY" />
@@ -836,7 +836,7 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YBCS" Type="ASMGCS" ASMGCSAirport="YBCS" DefaultCenter="-16.878476+145.750094" DefaultRange="2" MagneticVariation="-7">
+  <Position Name="YBCS" Type="ASMGCS" ASMGCSAirport="YBCS" DefaultCenter="-16.878476+145.750094" DefaultRange="2" MagneticVariation="-7" Rotation="120.4">
     <Maps>
       <Map Name="ASMGCS_YBCS_RWY" />
       <Map Name="ASMGCS_YBCS_TWY" />
@@ -872,7 +872,7 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YBTL" Type="ASMGCS" ASMGCSAirport="YBTL" DefaultCenter="-19.248112+146.769076" DefaultRange="2" MagneticVariation="-7">
+  <Position Name="YBTL" Type="ASMGCS" ASMGCSAirport="YBTL" DefaultCenter="-19.248112+146.769076" DefaultRange="2" MagneticVariation="-7" Rotation="-107">
     <Maps>
       <Map Name="ASMGCS_YBTL_RWY" />
       <Map Name="ASMGCS_YBTL_TWY" />
@@ -880,7 +880,7 @@
       <Map Name="ASMGCS_YBTL_BLD" />
     </Maps>
   </Position>
-  <Position Name="YPED" Type="ASMGCS" ASMGCSAirport="YPED" DefaultCenter="-34.706446+138.621013" DefaultRange="2" MagneticVariation="-8">
+  <Position Name="YPED" Type="ASMGCS" ASMGCSAirport="YPED" DefaultCenter="-34.706446+138.621013" DefaultRange="2" MagneticVariation="-8" Rotation="90">
     <Maps>
       <Map Name="ASMGCS_YPED_RWY" />
       <Map Name="ASMGCS_YPED_TWY" />
@@ -916,14 +916,14 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YPTN" Type="ASMGCS" ASMGCSAirport="YPTN" DefaultCenter="-14.520112+132.380218" DefaultRange="2" MagneticVariation="-3">
+  <Position Name="YPTN" Type="ASMGCS" ASMGCSAirport="YPTN" DefaultCenter="-14.520112+132.380218" DefaultRange="2" MagneticVariation="-3" Rotation="134">
     <Maps>
       <Map Name="ASMGCS_YPTN_RWY" />
       <Map Name="ASMGCS_YPTN_TWY" />
       <Map Name="ASMGCS_YPTN_BLD" />
     </Maps>
   </Position>
-  <Position Name="YWLM" Type="ASMGCS" ASMGCSAirport="YWLM" DefaultCenter="-32.795211+151.835095" DefaultRange="2" MagneticVariation="-12">
+  <Position Name="YWLM" Type="ASMGCS" ASMGCSAirport="YWLM" DefaultCenter="-32.795211+151.835095" DefaultRange="2" MagneticVariation="-12" Rotation="152">
     <Maps>
       <Map Name="ASMGCS_YWLM_RWY" />
       <Map Name="ASMGCS_YWLM_TWY" />
@@ -957,7 +957,7 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YPDN" Type="ASMGCS" ASMGCSAirport="YPDN" DefaultCenter="-12.415119+130.879154" DefaultRange="2" MagneticVariation="-3">
+  <Position Name="YPDN" Type="ASMGCS" ASMGCSAirport="YPDN" DefaultCenter="-12.415119+130.879154" DefaultRange="2" MagneticVariation="-3" Rotation="164">
     <Maps>
       <Map Name="ASMGCS_YPDN_RWY" />
       <Map Name="ASMGCS_YPDN_TWY" />
@@ -1048,7 +1048,7 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YAMB" Type="ASMGCS" ASMGCSAirport="YAMB" DefaultCenter="-27.640556+152.711944" DefaultRange="2" MagneticVariation="-11">
+  <Position Name="YAMB" Type="ASMGCS" ASMGCSAirport="YAMB" DefaultCenter="-27.640556+152.711944" DefaultRange="2" MagneticVariation="-11" Rotation="-58.2">
     <Maps>
       <Map Name="ASMGCS_YAMB_RWY" />
       <Map Name="ASMGCS_YAMB_APR" />
@@ -1143,7 +1143,7 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YMES" Type="ASMGCS" ASMGCSAirport="YMES" DefaultCenter="-38.098889+147.149444" DefaultRange="2" MagneticVariation="-12.8">
+  <Position Name="YMES" Type="ASMGCS" ASMGCSAirport="YMES" DefaultCenter="-38.098889+147.149444" DefaultRange="2" MagneticVariation="-12.8" Rotation="0">
     <Maps>
       <Map Name="ASMGCS_YMES_RWY" />
       <Map Name="ASMGCS_YMES_APR" />
@@ -1295,7 +1295,7 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YBOK" Type="ASMGCS" ASMGCSAirport="YBOK" DefaultCenter="-27.411389+151.735278" DefaultRange="2" MagneticVariation="-10.6">
+  <Position Name="YBOK" Type="ASMGCS" ASMGCSAirport="YBOK" DefaultCenter="-27.411389+151.735278" DefaultRange="2" MagneticVariation="-10.6" Rotation="0">
     <Maps>
       <Map Name="ASMGCS_YBOK_RWY" />
       <Map Name="ASMGCS_YBOK_APR" />

@@ -89,5 +89,50 @@
         </Departure>
       </Rules>
     </RuleSet>
+    <RuleSet Name="YBBN_DEPS">
+      <Rules>
+        <Departure Values="YBBN">
+          <Rules>
+            <Runway Values="19L">
+              <Rules>
+                <Route Values="BIXAD,WACKO">
+                  <AssignSector Order="BDN,BDS,BAN,BAS" />
+                </Route>
+                <Route Values="GUMKI,GUMKI,SANEG,SCOTT">
+                  <AssignSector Order="BDS,BDN,BAS,BAN" />
+                </Route>
+              </Rules>
+            </Runway>
+            <Runway Values="19R">
+              <Rules>
+                <Route Values="BIXAD,WACKO">
+                  <AssignSector Order="BDN,BDS,BAN,BAS" />
+                </Route>
+              </Rules>
+            </Runway>
+            <Runway Values="01L">
+              <Rules>
+                <Route Values="BIXAD,WACKO">
+                  <AssignSector Order="BDN,BDS,BAN,BAS" />
+                </Route>
+              </Rules>
+            </Runway>
+            <Runway Values="01R">
+              <Rules>
+                <Route Values="ASISO,GUMKI,SANEG,SCOTT,WACKO">
+                  <AssignSector Order="BDS,BDN,BAS,BAN" />
+                </Route>
+              </Rules>
+            </Runway>
+            <Route Values="YBSU">
+              <AssignSector Order="BDN,BDS,BAN,BAS" />
+            </Route>
+            <Default>
+              <AssignSector Order="BDS,BDN,BAS,BAN"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
   </RuleSets>
 </DefaultJurisdiction>
