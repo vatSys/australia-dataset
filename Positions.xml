@@ -593,12 +593,20 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YPAD" Type="ASMGCS" ASMGCSAirport="YPAD" DefaultCenter="-34.947162+138.532305" DefaultRange="2" MagneticVariation="-8" Rotation="-173">
+  <Position Name="YPAD" Type="ASMGCS" ASMGCSAirport="YPAD" DefaultCenter="-34.947162+138.532305" DefaultRange="2" MagneticVariation="-8" Rotation="-132">
     <Maps>
-      <Map Name="ASMGCS_YPAD_RWY" />
-      <Map Name="ASMGCS_YPAD_TWY" />
-      <Map Name="ASMGCS_YPAD_APR" />
-      <Map Name="ASMGCS_YPAD_BLD" />
+      <Map Name="Adelaide/ASMGCS_YPAD_RWY" />
+      <Map Name="Adelaide/ASMGCS_YPAD_TWY" />
+      <Map Name="Adelaide/ASMGCS_YPAD_APR" />
+      <Map Name="Adelaide/ASMGCS_YPAD_BLD" />
+    </Maps>
+  </Position>
+    <Position Name="YPED" Type="ASMGCS" ASMGCSAirport="YPED" DefaultCenter="-34.706446+138.621013" DefaultRange="2" MagneticVariation="-8" Rotation="90">
+    <Maps>
+      <Map Name="Adelaide/ASMGCS_YPED_RWY" />
+      <Map Name="Adelaide/ASMGCS_YPED_TWY" />
+      <Map Name="Adelaide/ASMGCS_YPED_APR" />
+      <Map Name="Adelaide/ASMGCS_YPED_BLD" />
     </Maps>
   </Position>
   <Position Name="Melbourne TCU" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="150" MagneticVariation="-11">
@@ -636,12 +644,12 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YMML" Type="ASMGCS" ASMGCSAirport="YMML" DefaultCenter="-37.673+144.843" DefaultRange="3" MagneticVariation="-11" Rotation="-50">
+  <Position Name="YMML" Type="ASMGCS" ASMGCSAirport="YMML" DefaultCenter="-37.673+144.843" DefaultRange="3" MagneticVariation="-11" Rotation="-70">
     <Maps>
-      <Map Name="ASMGCS_YMML_RWY" />
-      <Map Name="ASMGCS_YMML_TWY" />
-      <Map Name="ASMGCS_YMML_BLD" />
-      <Map Name="ASMGCS_YMML_APR" />
+      <Map Name="Melbourne/ASMGCS_YMML_RWY" />
+      <Map Name="Melbourne/ASMGCS_YMML_TWY" />
+      <Map Name="Melbourne/ASMGCS_YMML_BLD" />
+      <Map Name="Melbourne/ASMGCS_YMML_APR" />
     </Maps>
   </Position>
   <Position Name="Sydney TCU" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="150" MagneticVariation="-13">
@@ -678,12 +686,12 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YSSY" Type="ASMGCS" ASMGCSAirport="YSSY" DefaultCenter="-33.9461+151.1772" DefaultRange="3" MagneticVariation="-13" Rotation="115">
+  <Position Name="YSSY" Type="ASMGCS" ASMGCSAirport="YSSY" DefaultCenter="-33.9461+151.1772" DefaultRange="3" MagneticVariation="-13" Rotation="25">
     <Maps>
-      <Map Name="ASMGCS_YSSY_RWY" />
-      <Map Name="ASMGCS_YSSY_TWY" />
-      <Map Name="ASMGCS_YSSY_BLD" />
-      <Map Name="ASMGCS_YSSY_APR" />
+      <Map Name="Sydney/ASMGCS_YSSY_RWY" />
+      <Map Name="Sydney/ASMGCS_YSSY_TWY" />
+      <Map Name="Sydney/ASMGCS_YSSY_BLD" />
+      <Map Name="Sydney/ASMGCS_YSSY_APR" />
     </Maps>
   </Position>
   <Position Name="Brisbane TCU" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="150" MagneticVariation="-11">
@@ -725,17 +733,16 @@
   </Position>
   <Position Name="YBBN" Type="ASMGCS" ASMGCSAirport="YBBN" DefaultCenter="-27.3942+153.1218" DefaultRange="5" MagneticVariation="-11" Rotation="-15">
     <Maps>
-      <Map Name="ASMGCS_YBBN_RWY" />
-      <Map Name="ASMGCS_YBBN_TWY" />
-      <Map Name="ASMGCS_YBBN_BLD" />
+      <Map Name="Brisbane/ASMGCS_YBBN_RWY" />
+      <Map Name="Brisbane/ASMGCS_YBBN_TWY" />
+      <Map Name="Brisbane/ASMGCS_YBBN_BLD" />
     </Maps>
   </Position>
   <Position Name="YBCG" Type="ASMGCS" ASMGCSAirport="YBCG" DefaultCenter="-28.164444+153.504722" DefaultRange="2" MagneticVariation="-11" Rotation="130">
     <Maps>
-      <Map Name="ASMGCS_YBCG_RWY" />
-      <Map Name="ASMGCS_YBCG_TWY" />
-      <Map Name="ASMGCS_YBCG_BLD" />
-      <Map Name="ASMGCS_YBCG_APR" />
+      <Map Name="Brisbane/ASMGCS_YBCG_RWY" />
+      <Map Name="Brisbane/ASMGCS_YBCG_TWY" />
+      <Map Name="Brisbane/ASMGCS_YBCG_BLD" />
     </Maps>
   </Position>
   <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" MagneticVariation="-12.5">
@@ -765,11 +772,11 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YSCB" Type="ASMGCS" ASMGCSAirport="YSCB" DefaultCenter="-35.306090+149.193797" DefaultRange="3" MagneticVariation="-12" Rotation="130">
+  <Position Name="YSCB" Type="ASMGCS" ASMGCSAirport="YSCB" DefaultCenter="-35.306090+149.193797" DefaultRange="3" MagneticVariation="-12" Rotation="102">
     <Maps>
-      <Map Name="ASMGCS_YSCB_RWY" />
-      <Map Name="ASMGCS_YSCB_TWY" />
-      <Map Name="ASMGCS_YSCB_BLD" />
+      <Map Name="Canberra/ASMGCS_YSCB_RWY" />
+      <Map Name="Canberra/ASMGCS_YSCB_TWY" />
+      <Map Name="Canberra/ASMGCS_YSCB_BLD" />
     </Maps>
   </Position>
   <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" MagneticVariation="1.6">
@@ -802,11 +809,11 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="YPPH" Type="ASMGCS" ASMGCSAirport="YPPH" DefaultCenter="-31.9402+115.966944" DefaultRange="3" MagneticVariation="1.6" Rotation="70">
+  <Position Name="YPPH" Type="ASMGCS" ASMGCSAirport="YPPH" DefaultCenter="-31.9402+115.966944" DefaultRange="3" MagneticVariation="1.6" Rotation="74">
     <Maps>
-      <Map Name="ASMGCS_YPPH_RWY" />
-      <Map Name="ASMGCS_YPPH_TWY" />
-      <Map Name="ASMGCS_YPPH_BLD" />
+      <Map Name="Perth/ASMGCS_YPPH_RWY" />
+      <Map Name="Perth/ASMGCS_YPPH_TWY" />
+      <Map Name="Perth/ASMGCS_YPPH_BLD" />
     </Maps>
   </Position>
   <Position Name="Cairns TCU" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="150" MagneticVariation="-6.7">
@@ -838,9 +845,9 @@
   </Position>
   <Position Name="YBCS" Type="ASMGCS" ASMGCSAirport="YBCS" DefaultCenter="-16.878476+145.750094" DefaultRange="2" MagneticVariation="-7" Rotation="120.4">
     <Maps>
-      <Map Name="ASMGCS_YBCS_RWY" />
-      <Map Name="ASMGCS_YBCS_TWY" />
-      <Map Name="ASMGCS_YBCS_BLD" />
+      <Map Name="Cairns/ASMGCS_YBCS_RWY" />
+      <Map Name="Cairns/ASMGCS_YBCS_TWY" />
+      <Map Name="Cairns/ASMGCS_YBCS_BLD" />
     </Maps>
   </Position>
   <Position Name="Townsville TCU" Type="ASD" DefaultCenter="-19.2525+146.765278" DefaultRange="150" MagneticVariation="-7">
@@ -874,18 +881,10 @@
   </Position>
   <Position Name="YBTL" Type="ASMGCS" ASMGCSAirport="YBTL" DefaultCenter="-19.248112+146.769076" DefaultRange="2" MagneticVariation="-7" Rotation="-107">
     <Maps>
-      <Map Name="ASMGCS_YBTL_RWY" />
-      <Map Name="ASMGCS_YBTL_TWY" />
-      <Map Name="ASMGCS_YBTL_APR" />
-      <Map Name="ASMGCS_YBTL_BLD" />
-    </Maps>
-  </Position>
-  <Position Name="YPED" Type="ASMGCS" ASMGCSAirport="YPED" DefaultCenter="-34.706446+138.621013" DefaultRange="2" MagneticVariation="-8" Rotation="90">
-    <Maps>
-      <Map Name="ASMGCS_YPED_RWY" />
-      <Map Name="ASMGCS_YPED_TWY" />
-      <Map Name="ASMGCS_YPED_APR" />
-      <Map Name="ASMGCS_YPED_BLD" />
+      <Map Name="Townsville/ASMGCS_YBTL_RWY" />
+      <Map Name="Townsville/ASMGCS_YBTL_TWY" />
+      <Map Name="Townsville/ASMGCS_YBTL_APR" />
+      <Map Name="Townsville/ASMGCS_YBTL_BLD" />
     </Maps>
   </Position>
   <Position Name="Tindal TCU" Type="ASD" DefaultCenter="-14.521111+132.377778" DefaultRange="150" MagneticVariation="-3">
@@ -918,16 +917,9 @@
   </Position>
   <Position Name="YPTN" Type="ASMGCS" ASMGCSAirport="YPTN" DefaultCenter="-14.520112+132.380218" DefaultRange="2" MagneticVariation="-3" Rotation="134">
     <Maps>
-      <Map Name="ASMGCS_YPTN_RWY" />
-      <Map Name="ASMGCS_YPTN_TWY" />
-      <Map Name="ASMGCS_YPTN_BLD" />
-    </Maps>
-  </Position>
-  <Position Name="YWLM" Type="ASMGCS" ASMGCSAirport="YWLM" DefaultCenter="-32.795211+151.835095" DefaultRange="2" MagneticVariation="-12" Rotation="152">
-    <Maps>
-      <Map Name="ASMGCS_YWLM_RWY" />
-      <Map Name="ASMGCS_YWLM_TWY" />
-      <Map Name="ASMGCS_YWLM_BLD" />
+      <Map Name="Tindal/ASMGCS_YPTN_RWY" />
+      <Map Name="Tindal/ASMGCS_YPTN_TWY" />
+      <Map Name="Tindal/ASMGCS_YPTN_BLD" />
     </Maps>
   </Position>
   <Position Name="Darwin TCU" Type="ASD" DefaultCenter="-12.414722+130.876667" DefaultRange="200" MagneticVariation="-3">
@@ -959,9 +951,9 @@
   </Position>
   <Position Name="YPDN" Type="ASMGCS" ASMGCSAirport="YPDN" DefaultCenter="-12.415119+130.879154" DefaultRange="2" MagneticVariation="-3" Rotation="164">
     <Maps>
-      <Map Name="ASMGCS_YPDN_RWY" />
-      <Map Name="ASMGCS_YPDN_TWY" />
-      <Map Name="ASMGCS_YPDN_BLD" />
+      <Map Name="Darwin/ASMGCS_YPDN_RWY" />
+      <Map Name="Darwin/ASMGCS_YPDN_TWY" />
+      <Map Name="Darwin/ASMGCS_YPDN_BLD" />
     </Maps>
   </Position>
   <Position Name="Albury Tower" Type="ASD" DefaultCenter="-36.067778+146.958056" DefaultRange="80" MagneticVariation="-11.9">
@@ -1050,10 +1042,10 @@
   </Position>
   <Position Name="YAMB" Type="ASMGCS" ASMGCSAirport="YAMB" DefaultCenter="-27.640556+152.711944" DefaultRange="2" MagneticVariation="-11" Rotation="-58.2">
     <Maps>
-      <Map Name="ASMGCS_YAMB_RWY" />
-      <Map Name="ASMGCS_YAMB_APR" />
-      <Map Name="ASMGCS_YAMB_TWY" />
-      <Map Name="ASMGCS_YAMB_BLD" />
+      <Map Name="Amberley/ASMGCS_YAMB_RWY" />
+      <Map Name="Amberley/ASMGCS_YAMB_APR" />
+      <Map Name="Amberley/ASMGCS_YAMB_TWY" />
+      <Map Name="Amberley/ASMGCS_YAMB_BLD" />
     </Maps>
   </Position>
   <Position Name="Broome Tower" Type="ASD" DefaultCenter="-17.949444+122.227778" DefaultRange="120" MagneticVariation="-1.7">
@@ -1145,10 +1137,10 @@
   </Position>
   <Position Name="YMES" Type="ASMGCS" ASMGCSAirport="YMES" DefaultCenter="-38.098889+147.149444" DefaultRange="2" MagneticVariation="-12.8" Rotation="0">
     <Maps>
-      <Map Name="ASMGCS_YMES_RWY" />
-      <Map Name="ASMGCS_YMES_APR" />
-      <Map Name="ASMGCS_YMES_TWY" />
-      <Map Name="ASMGCS_YMES_BLD" />
+      <Map Name="East Sale/ASMGCS_YMES_RWY" />
+      <Map Name="East Sale/ASMGCS_YMES_APR" />
+      <Map Name="East Sale/ASMGCS_YMES_TWY" />
+      <Map Name="East Sale/ASMGCS_YMES_BLD" />
     </Maps>
   </Position>
   <Position Name="Hamilton Island Tower" Type="ASD" DefaultCenter="-20.358056+148.951667" DefaultRange="80" MagneticVariation="-8.1">
@@ -1297,10 +1289,10 @@
   </Position>
   <Position Name="YBOK" Type="ASMGCS" ASMGCSAirport="YBOK" DefaultCenter="-27.411389+151.735278" DefaultRange="2" MagneticVariation="-10.6" Rotation="0">
     <Maps>
-      <Map Name="ASMGCS_YBOK_RWY" />
-      <Map Name="ASMGCS_YBOK_APR" />
-      <Map Name="ASMGCS_YBOK_TWY" />
-      <Map Name="ASMGCS_YBOK_BLD" />
+      <Map Name="Oakey/ASMGCS_YBOK_RWY" />
+      <Map Name="Oakey/ASMGCS_YBOK_APR" />
+      <Map Name="Oakey/ASMGCS_YBOK_TWY" />
+      <Map Name="Oakey/ASMGCS_YBOK_BLD" />
     </Maps>
   </Position>
   <Position Name="Rockhampton Tower" Type="ASD" DefaultCenter="-23.381944+150.475278" DefaultRange="80" MagneticVariation="-9.2">
@@ -1503,5 +1495,12 @@
       <Line>ATIS available on 134.45</Line>
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
+   </Position>
+   <Position Name="YWLM" Type="ASMGCS" ASMGCSAirport="YWLM" DefaultCenter="-32.795211+151.835095" DefaultRange="2" MagneticVariation="-12" Rotation="152">
+    <Maps>
+      <Map Name="Williamtown/ASMGCS_YWLM_RWY" />
+      <Map Name="Williamtown/ASMGCS_YWLM_TWY" />
+      <Map Name="Williamtown/ASMGCS_YWLM_BLD" />
+    </Maps>
   </Position>
 </Positions>
