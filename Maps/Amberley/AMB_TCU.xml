@@ -24,6 +24,12 @@
       KADSI
     </Line>
     <Line>
+      <!--W256-->
+      BNA NDB/
+      LOSKU/
+      ARM NDB
+    </Line>
+    <Line>
       <!--W270-->
       OK VOR/
       UNVAT/
@@ -53,11 +59,6 @@
       OK VOR/
       AGIVA
     </Line>
-    <Line>
-      <!--ZZ933-->
-      GAMBL/
-      PIGGY
-    </Line>
   </Map>
   <Map Type="System" Name="AMB_TCU_NAMES" Priority="2" Centre="-27.640556+152.711944">
     <Label>
@@ -67,6 +68,8 @@
       <Point>BNA NDB</Point>
       <Point>CFS VOR</Point>
       <Point>KADSI</Point>
+      <Point>LOSKU</Point>
+      <Point>ARM NDB</Point>
       <Point>OK VOR</Point>
       <Point>OVENS</Point>
       <Point>VONDO</Point>
@@ -80,7 +83,6 @@
       <Point>HUUGO</Point>
       <Point>ROM NDB</Point>
       <Point>AGIVA</Point>
-      <Point>PIGGY</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="AMB_VFR" Priority="1" Centre="-27.640556+152.711944">
