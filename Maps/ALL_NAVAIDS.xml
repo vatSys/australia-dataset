@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="ALL_NAVAIDS" Priority="0" Center="-2380.8+13390.1">
+  <Map Type="System" Name="ALL_NAVAIDS_NAMES" Priority="0" Center="-2380.8+13390.1">
     <Label HasLeader="true">
       <Point Name="ABA">-345707.800+1174837.900</Point>
       <Point Name="ARM">-303138.300+1513654.100</Point>
@@ -199,6 +199,8 @@
       <Point Name="WP">-124024.800+1415520.900</Point>
       <Point Name="XMX">-102548.800+1054121.600</Point>
     </Label>
+  </Map>
+  <Map Type="System" Name="ALL_NAVAIDS" Priority="0" Center="-2380.8+13390.1">
     <Symbol Type="DotFillCircle">
       <Point>-345707.800+1174837.900</Point>
       <Point>-303138.300+1513654.100</Point>
