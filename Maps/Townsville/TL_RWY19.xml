@@ -59,14 +59,11 @@
       JEMMA
     </Line>
     <Line>
-      <!--Rwy19 PEWEE5-->
-      -19.258306+146.764722/
-      -19.258333+146.764722/
-      -19.270636+146.759207/
-      -19.289448+146.808819/
-      -19.284765+146.819958/
-      -19.272777+146.816903/
-      TL VOR/
+      <!--Rwy19 PEWEE6-->
+      IGBIK/
+      LEDOG/
+      AVMAT/
+      ADNOD/
       PEWEE
     </Line>
     <Line>
@@ -77,9 +74,6 @@
     </Line>
     <Line>
       <!--Rwy19 SWIFT1-->
-      IGBIK/
-      LEDOG/
-      AVMAT/
       ADNOD/
       SWIFT
     </Line>
@@ -141,9 +135,7 @@
       <Point>IGBIK</Point>
       <Point>RURTO</Point>
     </Symbol>
-    <Symbol Type="Circle">
-      <Point>TL VOR</Point>
-    </Symbol>
+    <Symbol Type="Circle" />
     <Symbol Type="HollowStar">
       <Point>DAPLA</Point>
       <Point>SATCO</Point>
@@ -154,10 +146,10 @@
       <Point>PINIP</Point>
       <Point>JEMMA</Point>
       <Point>KVALM</Point>
-      <Point>PEWEE</Point>
-      <Point>ORORO</Point>
       <Point>LEDOG</Point>
       <Point>AVMAT</Point>
+      <Point>PEWEE</Point>
+      <Point>ORORO</Point>
       <Point>SWIFT</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
@@ -170,13 +162,6 @@
       <Point>OLNUT</Point>
       <Point>LAPES</Point>
     </Symbol>
-    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
-      <Point Name="BDN">-27.581602+152.905597</Point>
-      <Point Name="BDN/BAN">-26.959428+153.246671</Point>
-      <Point Name="BDS">-27.486336+153.578341</Point>
-      <Point Name="BDS">-27.715979+153.092582</Point>
-      <Point Name="BDS/BAS">-27.181279+153.564636</Point>
-    </Label>
   </Map>
   <Map Type="System" Name="TL_RWY19_NAMES" Priority="2" Centre="-19.252500+146.765278">
     <Label>
@@ -191,13 +176,12 @@
       <Point>PINIP</Point>
       <Point>JEMMA</Point>
       <Point>KVALM</Point>
-      <Point>TL VOR</Point>
-      <Point>PEWEE</Point>
-      <Point>ORORO</Point>
-      <Point>RURTO</Point>
       <Point>LEDOG</Point>
       <Point>AVMAT</Point>
       <Point>ADNOD</Point>
+      <Point>PEWEE</Point>
+      <Point>ORORO</Point>
+      <Point>RURTO</Point>
       <Point>SWIFT</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
