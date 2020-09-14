@@ -67,7 +67,9 @@
       MILIV
     </Line>
     <!--STARs-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>ATOTU</Point>
+    </Symbol>
     <Symbol Type="SolidStar" />
     <Symbol Type="Circle" />
     <Symbol Type="HollowStar">
@@ -110,6 +112,7 @@
       <Point>HOO NDB</Point>
       <Point>PETRL</Point>
       <Point>BARON</Point>
+      <Point>ATOTU</Point>
     </Label>
   </Map>
 </Maps>
