@@ -8,7 +8,9 @@
     </Runway>
     <!--SIDs-->
     <!--STARs-->
-    <Symbol Type="HollowTriangle" />
+    <Symbol Type="HollowTriangle">
+      <Point>UPTUN</Point>
+    </Symbol>
     <Symbol Type="SolidStar" />
     <Symbol Type="Circle" />
     <Symbol Type="HollowStar" />
@@ -71,6 +73,7 @@
       <Point>ALBUT</Point>
       <Point>SWELL</Point>
       <Point>NOGIP</Point>
+      <Point>UPTUN</Point>
     </Label>
   </Map>
 </Maps>
