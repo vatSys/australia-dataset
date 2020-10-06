@@ -324,9 +324,35 @@
   <Position Name="Ore" Type="ASD" DefaultCenter="-2350.000+11900.000" DefaultRange="1500">
     <Sectors>
       <Sector Name="ORE" />
+      <Sector Name="ORN" />
       <Sector Name="BIL" />
       <Sector Name="MOR" />
       <Sector Name="TFR" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="ALL_SECTORS" />
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="COAST_ALL" />
+      <Map Name="ALL_ROUTES_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="UPPER_SECTOR_FREQS" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="25000" />
+    <ControllerInfo>
+      <Line>Melbourne Centre</Line>
+      <Line>ATC feedback - feedback.vatpac.org</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Ore North" Type="ASD" DefaultCenter="-19.063051+118.292555" DefaultRange="1000">
+    <Sectors>
+      <Sector Name="ORN" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -831,6 +857,14 @@
       <Map Name="Perth/ASMGCS_YPPH_RWY" />
       <Map Name="Perth/ASMGCS_YPPH_TWY" />
       <Map Name="Perth/ASMGCS_YPPH_BLD" />
+    </Maps>
+  </Position>
+  <Position Name="YPEA" Type="ASMGCS" ASMGCSAirport="YPEA" DefaultCenter="-31.673953+116.016917" DefaultRange="2" MagneticVariation="1.5" Rotation="5">
+    <Maps>
+      <Map Name="Perth/ASMGCS_YPEA_RWY" />
+      <Map Name="Perth/ASMGCS_YPEA_APR" />
+      <Map Name="Perth/ASMGCS_YPEA_TWY" />
+      <Map Name="Perth/ASMGCS_YPEA_BLD" />
     </Maps>
   </Position>
   <Position Name="Cairns TCU" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="150" MagneticVariation="-6.7">
@@ -1461,6 +1495,14 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
+  <Position Name="YSNW" Type="ASMGCS" ASMGCSAirport="YSNW" DefaultCenter="-34.943366+150.541717" DefaultRange="2" MagneticVariation="-12.8" Rotation="-31">
+    <Maps>
+      <Map Name="Nowra/ASMGCS_YSNW_RWY" />
+      <Map Name="Nowra/ASMGCS_YSNW_APR" />
+      <Map Name="Nowra/ASMGCS_YSNW_TWY" />
+      <Map Name="Nowra/ASMGCS_YSNW_BLD" />
+    </Maps>
+  </Position>
   <Position Name="Tamworth Tower" Type="ASD" DefaultCenter="-31.083889+150.846667" DefaultRange="80" MagneticVariation="-11.5">
     <Sectors>
       <Sector Name="TW ADC" />
@@ -1523,6 +1565,44 @@
       <Map Name="Williamtown/ASMGCS_YWLM_RWY" />
       <Map Name="Williamtown/ASMGCS_YWLM_TWY" />
       <Map Name="Williamtown/ASMGCS_YWLM_BLD" />
+    </Maps>
+  </Position>
+    <Position Name="Port Headland TCU" Type="ASD" DefaultCenter="-20.377778+118.626389" DefaultRange="200" MagneticVariation="-1.2">
+    <Sectors>
+      <Sector Name="PDA" />
+      <Sector Name="PDD" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="Port Headland/PD_COAST" />
+      <Map Name="Port Headland/PD_TCU" />
+            <Map Name="Port Headland/YPPD_ALLRWYS" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="YPPD" Frequency="133.65" />
+      <Window Airport="YPPD" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="YPPD" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="18000">
+      <AdditionalLevels>1600,1800</AdditionalLevels>
+    </CFL>
+    <ArrivalLists>
+      <Airport Name="YPPD" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Port Headland Approach</Line>
+      <Line>ATIS available on 133.65</Line>
+      <Line>ATC feedback - feedback.vatpac.org</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="YPPD" Type="ASMGCS" ASMGCSAirport="YPPD" DefaultCenter="-20.381558+118.630273" DefaultRange="2" MagneticVariation="-1.2" Rotation="-47">
+    <Maps>
+      <Map Name="Port Headland/ASMGCS_YPPD_RWY" />
+      <Map Name="Port Headland/ASMGCS_YPPD_APR" />
+      <Map Name="Port Headland/ASMGCS_YPPD_TWY" />
+      <Map Name="Port Headland/ASMGCS_YPPD_BLD" />
     </Maps>
   </Position>
 </Positions>

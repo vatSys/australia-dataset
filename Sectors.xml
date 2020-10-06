@@ -35,6 +35,9 @@
   <Sector FullName="Carnarvon" Frequency="133.800" Callsign="BN-CVN_CTR" Name="CVN">
     <Volumes>CVN</Volumes>
   </Sector>
+  <Sector FullName="Colombo" Frequency="124.900" Callsign="VCCF_CTR" Name="VCCF" DisplayInSectorsWindow="False">
+    <Volumes>VCCF</Volumes>
+  </Sector>
   <Sector FullName="Cross" Frequency="135.800" Callsign="ML-CRS_CTR" Name="CRS">
     <Volumes>CRS</Volumes>
   </Sector>
@@ -74,6 +77,9 @@
     <Volumes>ISA</Volumes>
     <ResponsibleSectors>WEG</ResponsibleSectors>
   </Sector>
+  <Sector FullName="Jakarta" Frequency="132.300" Callsign="WIIF_CTR" Name="WIIF" DisplayInSectorsWindow="False">
+    <Volumes>WIIF</Volumes>
+  </Sector>
   <Sector FullName="Jarrah" Frequency="120.300" Callsign="ML-JAR_CTR" Name="JAR">
     <Volumes>JAR</Volumes>
   </Sector>
@@ -95,6 +101,12 @@
   <Sector FullName="Maitland" Frequency="132.350" Callsign="BN-MLD_CTR" Name="MLD">
     <Volumes>MLD</Volumes>
   </Sector>
+  <Sector FullName="Male" Frequency="123.900" Callsign="VRMF_CTR" Name="VRMF" DisplayInSectorsWindow="False">
+    <Volumes>VRMF</Volumes>
+  </Sector>
+  <Sector FullName="Mauritius" Frequency="129.300" Callsign="FIMM_CTR" Name="FIMM" DisplayInSectorsWindow="False">
+    <Volumes>FIMM</Volumes>
+  </Sector>
   <Sector FullName="Melbourne Upper" Frequency="134.200" Callsign="YMMM_FSS" Name="MMM">
     <ResponsibleSectors>BIK,KAT,WOL,BKE,WRA,GTH,SNO,ELW,YWE,WON,HUM,TAS,TBD,AUG,MUN,OXL,ASP,WAR,FOR,ESP,LEA,GVE,PIY,CRS,HYD,JAR,MOR,TFR,GEL,BIL,ORE</ResponsibleSectors>
   </Sector>
@@ -112,8 +124,11 @@
     <Volumes>OCN</Volumes>
   </Sector>
   <Sector FullName="Ore" Frequency="127.000" Callsign="ML-ORE_CTR" Name="ORE">
-    <Volumes>ORE</Volumes>
-    <ResponsibleSectors>BIL,MOR,TFR</ResponsibleSectors>
+    <Volumes>ORS</Volumes>
+    <ResponsibleSectors>ORN,BIL,MOR,TFR</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Ore North" Frequency="118.100" Callsign="ML-ORN_CTR" Name="ORN">
+    <Volumes>ORN</Volumes>
   </Sector>
   <Sector FullName="Oxley" Frequency="128.500" Callsign="ML-OXL_CTR" Name="OXL">
     <Volumes>OXL</Volumes>
@@ -121,8 +136,12 @@
   <Sector FullName="Pingelly" Frequency="133.900" Callsign="ML-PIY_CTR" Name="PIY">
     <Volumes>PIY</Volumes>
   </Sector>
-  <Sector FullName="Port Moresby Area" Frequency="123.400" Callsign="AYPM_CTR" Name="AYPM" />
-  <Sector FullName="Port Vila Centre" Frequency="120.700" Callsign="NVVV_CTR" Name="NVVV" />
+  <Sector FullName="Port Moresby Area" Frequency="123.400" Callsign="AYPM_CTR" Name="AYPM" DisplayInSectorsWindow="False">
+    <Volumes>AYPM</Volumes>
+  </Sector>
+  <Sector FullName="Port Vila Centre" Frequency="120.700" Callsign="NVVV_CTR" Name="NVVV" DisplayInSectorsWindow="False">
+    <Volumes>NVVV</Volumes>
+  </Sector>
   <Sector FullName="Snowy" Frequency="124.000" Callsign="ML-SNO_CTR" Name="SNO">
     <Volumes>SNO</Volumes>
     <ResponsibleSectors>YWE,ELW,WON,HUM</ResponsibleSectors>
@@ -154,6 +173,9 @@
     <Volumes>TRT</Volumes>
     <ResponsibleSectors>KIY,STR</ResponsibleSectors>
   </Sector>
+  <Sector FullName="Ujung Pandang" Frequency="128.100" Callsign="WAAF_CTR" Name="WAAF" DisplayInSectorsWindow="False">
+    <Volumes>WAAF</Volumes>
+  </Sector>
   <Sector FullName="Warburton" Frequency="124.900" Callsign="ML-WAR_CTR" Name="WAR">
     <Volumes>WAR</Volumes>
   </Sector>
@@ -173,8 +195,8 @@
   <Sector FullName="Yarrowee" Frequency="134.320" Callsign="ML-YWE_CTR" Name="YWE">
     <Volumes>YWE</Volumes>
   </Sector>
-  <Sector FullName="Auckland Oceanic" Frequency="128.900" Callsign="NZZO_FSS" Name="NZZO">
-    <Volumes />
+  <Sector FullName="Auckland Oceanic" Frequency="128.900" Callsign="NZZO_FSS" Name="NZZO" DisplayInSectorsWindow="False">
+    <Volumes>NZZO</Volumes>
   </Sector>
   <Sector FullName="Coral Oceanic" Frequency="129.600" Callsign="BN-COL_FSS" Name="COL">
     <Volumes>COL</Volumes>
@@ -192,20 +214,23 @@
   <Sector FullName="Indian South Oceanic" Frequency="123.200" Callsign="ML-INS_FSS" Name="INS">
     <Volumes>INS</Volumes>
   </Sector>
+  <Sector FullName="Johannesburg Oceanic" Frequency="120.850" Callsign="FAJO_FSS" Name="FAJO" DisplayInSectorsWindow="False">
+    <Volumes>FAJO</Volumes>
+  </Sector>
   <Sector FullName="Lord Howe Oceanic" Frequency="124.600" Callsign="BN-HWE_FSS" Name="HWE">
     <Volumes>HWE</Volumes>
   </Sector>
-  <Sector FullName="McMurdo Oceanic" Frequency="128.700" Callsign="NZCM_FSS" Name="NZCM">
-    <Volumes />
+  <Sector FullName="McMurdo Oceanic" Frequency="128.700" Callsign="NZCM_FSS" Name="NZCM" DisplayInSectorsWindow="False">
+    <Volumes>NZCM</Volumes>
   </Sector>
-  <Sector FullName="Nadi Oceanic" Frequency="123.600" Callsign="NFFF_FSS" Name="NFFF">
-    <Volumes />
+  <Sector FullName="Nadi Oceanic" Frequency="123.600" Callsign="NFFF_FSS" Name="NFFF" DisplayInSectorsWindow="False">
+    <Volumes>NFFF</Volumes>
   </Sector>
-  <Sector FullName="Oakland Oceanic East" Frequency="131.950" Callsign="KZAK-E_FSS" Name="KZAK-E">
-    <Volumes />
+  <Sector FullName="Oakland Oceanic East" Frequency="131.950" Callsign="KZAK-E_FSS" Name="KZAK-E" DisplayInSectorsWindow="False">
+    <Volumes>KZAK-E</Volumes>
   </Sector>
-  <Sector FullName="Oakland Oceanic West" Frequency="122.500" Callsign="KZAK-W_FSS" Name="KZAK-W">
-    <Volumes />
+  <Sector FullName="Oakland Oceanic West" Frequency="122.500" Callsign="KZAK-W_FSS" Name="KZAK-W" DisplayInSectorsWindow="False">
+    <Volumes>KZAK-W</Volumes>
   </Sector>
   <Sector FullName="Tasman Oceanic" Frequency="128.600" Callsign="BN-TSN_FSS" Name="TSN">
     <Volumes>TSN</Volumes>
@@ -286,6 +311,12 @@
   </Sector>
   <Sector FullName="Perth Departures" Frequency="118.700" Callsign="PH_DEP" Name="PHD">
     <Volumes>PHDNE,PHDSW</Volumes>
+  </Sector>
+  <Sector FullName="Port Headland Approach" Frequency="133.200" Callsign="PD_APP" Name="PDA">
+    <Volumes>PDAPP</Volumes>
+  </Sector>
+  <Sector FullName="Port Headland Departures" Frequency="123.800" Callsign="PD_DEP" Name="PDD">
+    <Volumes>PDAPP</Volumes>
   </Sector>
   <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" />
   <Sector FullName="Sydney Approach North" Frequency="124.400" Callsign="SY_APP" Name="SAN">
@@ -418,6 +449,9 @@
   <Sector FullName="Perth Surface Movement Control" Frequency="121.700" Callsign="PH_GND" Name="PH SMC" />
   <Sector FullName="Perth Surface Movement Control East" Frequency="122.200" Callsign="PH-E_GND" Name="PH SMCE" />
   <Sector FullName="Perth Tower" Frequency="127.400" Callsign="PH_TWR" Name="PH ADC" />
+  <Sector FullName="Port Headland Clearance Delivery" Frequency="128.100" Callsign="PD_DEL" Name="PD COORD" />
+  <Sector FullName="Port Headland Surface Movement Control" Frequency="125.850" Callsign="PD_GND" Name="PD SMC" />
+  <Sector FullName="Port Headland Tower" Frequency="119.900" Callsign="PD_TWR" Name="PD ADC" />
   <Sector FullName="Port Moresby Ground" Frequency="121.700" Callsign="AYPY_GND" Name="AYPY SMC" />
   <Sector FullName="Port Moresby Tower" Frequency="118.100" Callsign="AYPY_TWR" Name="AYPY ADC" />
   <Sector FullName="Port Vila Tower" Frequency="118.300" Callsign="NVVV_TWR" Name="NVVV ADC" />
