@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="SY_RWY25" Priority="1" Centre="-33.946000+151.177111">
+  <Map Type="System" Name="SY_RWY25" Priority="1" Centre="-33.946111+151.177222">
     <!--YSSY-->
     <Runway Name="07/25">
       <Threshold Name="07" Position="-33.943739+151.163628" />
@@ -9,9 +9,9 @@
     <!--SIDs-->
     <!--STARs-->
     <Line>
-      <!--Rwy25 BORE2A-->
+      <!--Rwy25 BORE3A-->
       BOREE/
-      BEKLO/
+      VASRA/
       BEROW/
       OVILS
     </Line>
@@ -59,7 +59,7 @@
     <Symbol Type="Circle" />
     <Symbol Type="HollowStar">
       <Point>BOREE</Point>
-      <Point>BEKLO</Point>
+      <Point>VASRA</Point>
       <Point>BEROW</Point>
       <Point>OVILS</Point>
       <Point>MARLN</Point>
@@ -102,10 +102,10 @@
       <Point Name="SFW 60/SAN 70">-33.997706+151.412713</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="SY_RWY25_NAMES" Priority="2" Centre="-33.946000+151.177111">
+  <Map Type="System" Name="SY_RWY25_NAMES" Priority="2" Centre="-33.946111+151.177222">
     <Label>
       <Point>BOREE</Point>
-      <Point>BEKLO</Point>
+      <Point>VASRA</Point>
       <Point>BEROW</Point>
       <Point>OVILS</Point>
       <Point>MARLN</Point>

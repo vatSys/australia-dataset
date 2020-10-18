@@ -38,6 +38,9 @@
   <Sector FullName="Colombo" Frequency="124.900" Callsign="VCCF_CTR" Name="VCCF" DisplayInSectorsWindow="False">
     <Volumes>VCCF</Volumes>
   </Sector>
+  <Sector FullName="Colombo Training" Frequency="124.900" Callsign="VCCF_T_CTR" Name="VCCF_T" DisplayInSectorsWindow="False">
+    <Volumes>VCCF</Volumes>
+  </Sector>
   <Sector FullName="Cross" Frequency="135.800" Callsign="ML-CRS_CTR" Name="CRS">
     <Volumes>CRS</Volumes>
   </Sector>
@@ -80,6 +83,9 @@
   <Sector FullName="Jakarta" Frequency="132.300" Callsign="WIIF_CTR" Name="WIIF" DisplayInSectorsWindow="False">
     <Volumes>WIIF</Volumes>
   </Sector>
+  <Sector FullName="Jakarta Training" Frequency="132.300" Callsign="WIIF_T_CTR" Name="WIIF_T" DisplayInSectorsWindow="False">
+    <Volumes>WIIF</Volumes>
+  </Sector>
   <Sector FullName="Jarrah" Frequency="120.300" Callsign="ML-JAR_CTR" Name="JAR">
     <Volumes>JAR</Volumes>
   </Sector>
@@ -104,6 +110,9 @@
   <Sector FullName="Male" Frequency="123.900" Callsign="VRMF_CTR" Name="VRMF" DisplayInSectorsWindow="False">
     <Volumes>VRMF</Volumes>
   </Sector>
+  <Sector FullName="Male Training" Frequency="123.900" Callsign="VRMF_T_CTR" Name="VRMF_T" DisplayInSectorsWindow="False">
+    <Volumes>VRMF</Volumes>
+  </Sector>
   <Sector FullName="Mauritius" Frequency="129.300" Callsign="FIMM_CTR" Name="FIMM" DisplayInSectorsWindow="False">
     <Volumes>FIMM</Volumes>
   </Sector>
@@ -124,11 +133,8 @@
     <Volumes>OCN</Volumes>
   </Sector>
   <Sector FullName="Ore" Frequency="127.000" Callsign="ML-ORE_CTR" Name="ORE">
-    <Volumes>ORS</Volumes>
-    <ResponsibleSectors>ORN,BIL,MOR,TFR</ResponsibleSectors>
-  </Sector>
-  <Sector FullName="Ore North" Frequency="118.100" Callsign="ML-ORN_CTR" Name="ORN">
-    <Volumes>ORN</Volumes>
+    <Volumes>ORE</Volumes>
+    <ResponsibleSectors>BIL,MOR,TFR</ResponsibleSectors>
   </Sector>
   <Sector FullName="Oxley" Frequency="128.500" Callsign="ML-OXL_CTR" Name="OXL">
     <Volumes>OXL</Volumes>
@@ -174,6 +180,9 @@
     <ResponsibleSectors>KIY,STR</ResponsibleSectors>
   </Sector>
   <Sector FullName="Ujung Pandang" Frequency="128.100" Callsign="WAAF_CTR" Name="WAAF" DisplayInSectorsWindow="False">
+    <Volumes>WAAF</Volumes>
+  </Sector>
+  <Sector FullName="Ujung Pandang Training" Frequency="128.100" Callsign="WAAF_T_CTR" Name="WAAF_T" DisplayInSectorsWindow="False">
     <Volumes>WAAF</Volumes>
   </Sector>
   <Sector FullName="Warburton" Frequency="124.900" Callsign="ML-WAR_CTR" Name="WAR">
@@ -312,12 +321,6 @@
   <Sector FullName="Perth Departures" Frequency="118.700" Callsign="PH_DEP" Name="PHD">
     <Volumes>PHDNE,PHDSW</Volumes>
   </Sector>
-  <Sector FullName="Port Headland Approach" Frequency="133.200" Callsign="PD_APP" Name="PDA">
-    <Volumes>PDAPP</Volumes>
-  </Sector>
-  <Sector FullName="Port Headland Departures" Frequency="123.800" Callsign="PD_DEP" Name="PDD">
-    <Volumes>PDAPP</Volumes>
-  </Sector>
   <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" />
   <Sector FullName="Sydney Approach North" Frequency="124.400" Callsign="SY_APP" Name="SAN">
     <Volumes>SYA</Volumes>
@@ -449,9 +452,6 @@
   <Sector FullName="Perth Surface Movement Control" Frequency="121.700" Callsign="PH_GND" Name="PH SMC" />
   <Sector FullName="Perth Surface Movement Control East" Frequency="122.200" Callsign="PH-E_GND" Name="PH SMCE" />
   <Sector FullName="Perth Tower" Frequency="127.400" Callsign="PH_TWR" Name="PH ADC" />
-  <Sector FullName="Port Headland Clearance Delivery" Frequency="128.100" Callsign="PD_DEL" Name="PD COORD" />
-  <Sector FullName="Port Headland Surface Movement Control" Frequency="125.850" Callsign="PD_GND" Name="PD SMC" />
-  <Sector FullName="Port Headland Tower" Frequency="119.900" Callsign="PD_TWR" Name="PD ADC" />
   <Sector FullName="Port Moresby Ground" Frequency="121.700" Callsign="AYPY_GND" Name="AYPY SMC" />
   <Sector FullName="Port Moresby Tower" Frequency="118.100" Callsign="AYPY_TWR" Name="AYPY ADC" />
   <Sector FullName="Port Vila Tower" Frequency="118.300" Callsign="NVVV_TWR" Name="NVVV ADC" />

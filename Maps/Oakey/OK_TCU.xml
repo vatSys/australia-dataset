@@ -2,6 +2,10 @@
 <Maps>
   <Map Type="System" Name="OK_TCU" Priority="1" Centre="-27.411389+151.735278">
     <!--YBOK-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-27.406086+151.730889" />
+      <Threshold Name="23" Position="-27.401339+151.738456" />
+    </Runway>
     <Runway Name="09/27">
       <Threshold Name="09" Position="-27.409100+151.724728" />
       <Threshold Name="27" Position="-27.410736+151.735592" />
@@ -9,10 +13,6 @@
     <Runway Name="14/32">
       <Threshold Name="14" Position="-27.402669+151.737094" />
       <Threshold Name="32" Position="-27.414881+151.746639" />
-    </Runway>
-    <Runway Name="05/23">
-      <Threshold Name="05" Position="-27.406086+151.730889" />
-      <Threshold Name="23" Position="-27.401339+151.738456" />
     </Runway>
     <!--Airway Routes-->
     <Line>
@@ -37,7 +37,7 @@
     </Line>
     <Line>
       <!--W279-->
-      VIMOL/
+      ENKOG/
       IMATI
     </Line>
     <Line>
@@ -105,7 +105,7 @@
       <Point>GERBL</Point>
       <Point>UNVAT</Point>
       <Point>OVENS</Point>
-      <Point>VIMOL</Point>
+      <Point>ENKOG</Point>
       <Point>IMATI</Point>
       <Point>BARTA</Point>
       <Point>SGE NDB</Point>
@@ -216,6 +216,11 @@
   </Map>
   <Map Type="System" Name="YBOK_ALLRWYS" Priority="2" Centre="-27.411389+151.735278">
     <!--YBOK-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-27.406086+151.730889" ExtendedCentrelineTrack="234.89" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="23" Position="-27.401339+151.738456" ExtendedCentrelineTrack="54.9" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--YBOK-->
     <Runway Name="09/27">
       <Threshold Name="09" Position="-27.409100+151.724728" ExtendedCentrelineTrack="279.58" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="27" Position="-27.410736+151.735592" ExtendedCentrelineTrack="99.58" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
@@ -224,11 +229,6 @@
     <Runway Name="14/32">
       <Threshold Name="14" Position="-27.402669+151.737094" ExtendedCentrelineTrack="325.1" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="32" Position="-27.414881+151.746639" ExtendedCentrelineTrack="145.1" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
-    </Runway>
-    <!--YBOK-->
-    <Runway Name="05/23">
-      <Threshold Name="05" Position="-27.406086+151.730889" ExtendedCentrelineTrack="234.89" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="23" Position="-27.401339+151.738456" ExtendedCentrelineTrack="54.9" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
   </Map>
 </Maps>
