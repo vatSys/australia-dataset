@@ -1567,16 +1567,16 @@
       <Map Name="Williamtown/ASMGCS_YWLM_BLD" />
     </Maps>
   </Position>
-    <Position Name="Port Headland TCU" Type="ASD" DefaultCenter="-20.377778+118.626389" DefaultRange="200" MagneticVariation="-1.2">
+    <Position Name="Port Hedland TCU" Type="ASD" DefaultCenter="-20.377778+118.626389" DefaultRange="200" MagneticVariation="-1.2">
     <Sectors>
       <Sector Name="PDA" />
       <Sector Name="PDD" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
-      <Map Name="Port Headland/PD_COAST" />
-      <Map Name="Port Headland/PD_TCU" />
-            <Map Name="Port Headland/YPPD_ALLRWYS" />
+      <Map Name="Port Hedland/PD_COAST" />
+      <Map Name="Port Hedland/PD_TCU" />
+            <Map Name="Port Hedland/YPPD_ALLRWYS" />
     </Maps>
     <ATIS>
       <Editor Airport="YPPD" Frequency="133.65" />
@@ -1592,17 +1592,17 @@
       <Airport Name="YPPD" />
     </ArrivalLists>
     <ControllerInfo>
-      <Line>Port Headland Approach</Line>
+      <Line>Hedland Approach</Line>
       <Line>ATIS available on 133.65</Line>
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
   <Position Name="YPPD" Type="ASMGCS" ASMGCSAirport="YPPD" DefaultCenter="-20.381558+118.630273" DefaultRange="2" MagneticVariation="-1.2" Rotation="-47">
     <Maps>
-      <Map Name="Port Headland/ASMGCS_YPPD_RWY" />
-      <Map Name="Port Headland/ASMGCS_YPPD_APR" />
-      <Map Name="Port Headland/ASMGCS_YPPD_TWY" />
-      <Map Name="Port Headland/ASMGCS_YPPD_BLD" />
+      <Map Name="Port Hedland/ASMGCS_YPPD_RWY" />
+      <Map Name="Port Hedland/ASMGCS_YPPD_APR" />
+      <Map Name="Port Hedland/ASMGCS_YPPD_TWY" />
+      <Map Name="Port Hedland/ASMGCS_YPPD_BLD" />
     </Maps>
   </Position>
 </Positions>

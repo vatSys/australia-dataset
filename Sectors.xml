@@ -20,7 +20,7 @@
     <Volumes>BIL</Volumes>
   </Sector>
   <Sector FullName="Bindook" Frequency="129.800" Callsign="ML-BIK_CTR" Name="BIK">
-    <Volumes>BIK</Volumes>
+    <Volumes>BIK,BIKTMA</Volumes>
   </Sector>
   <Sector FullName="Bourke" Frequency="128.200" Callsign="ML-BKE_CTR" Name="BKE">
     <Volumes>BKE</Volumes>
@@ -46,7 +46,7 @@
     <ResponsibleSectors>CVN,KPL,GRN,SDY,BUR</ResponsibleSectors>
   </Sector>
   <Sector FullName="Eildon Weir" Frequency="123.750" Callsign="ML-ELW_CTR" Name="ELW">
-    <Volumes>ELW</Volumes>
+    <Volumes>ELW,ELWTMA</Volumes>
   </Sector>
   <Sector FullName="Esperance" Frequency="123.950" Callsign="ML-ESP_CTR" Name="ESP">
     <Volumes>ESP</Volumes>
@@ -59,7 +59,7 @@
     <Volumes>GEL</Volumes>
   </Sector>
   <Sector FullName="Grafton" Frequency="120.300" Callsign="BN-GRN_CTR" Name="GRN">
-    <Volumes>GRN_A,GRN_B</Volumes>
+    <Volumes>GRN_A,GRN_B,GRNBNTMA,GRNGCATMA,GRNGCBTMA</Volumes>
   </Sector>
   <Sector FullName="Griffith" Frequency="122.750" Callsign="ML-GTH_CTR" Name="GTH">
     <Volumes>GTH</Volumes>
@@ -68,7 +68,7 @@
     <Volumes>GVE</Volumes>
   </Sector>
   <Sector FullName="Hume" Frequency="132.200" Callsign="ML-HUM_CTR" Name="HUM">
-    <Volumes>HUM</Volumes>
+    <Volumes>HUM,HUMCB</Volumes>
   </Sector>
   <Sector FullName="Hyden" Frequency="118.200" Callsign="ML-HYD_CTR" Name="HYD">
     <Volumes>HYD</Volumes>
@@ -87,7 +87,7 @@
     <Volumes>KAT</Volumes>
   </Sector>
   <Sector FullName="Kennedy" Frequency="120.150" Callsign="BN-KEN_CTR" Name="KEN">
-    <Volumes>KEN</Volumes>
+    <Volumes>KEN,KENTMA</Volumes>
   </Sector>
   <Sector FullName="Keppel" Frequency="125.900" Callsign="BN-KPL_CTR" Name="KPL">
     <Volumes>KPL</Volumes>
@@ -134,7 +134,7 @@
     <Volumes>OXL</Volumes>
   </Sector>
   <Sector FullName="Pingelly" Frequency="133.900" Callsign="ML-PIY_CTR" Name="PIY">
-    <Volumes>PIY</Volumes>
+    <Volumes>PIY,PIYTMA</Volumes>
   </Sector>
   <Sector FullName="Port Moresby Area" Frequency="123.400" Callsign="AYPM_CTR" Name="AYPM" DisplayInSectorsWindow="False">
     <Volumes>AYPM</Volumes>
@@ -160,7 +160,7 @@
     <ResponsibleSectors>BAR,KEN,SWY</ResponsibleSectors>
   </Sector>
   <Sector FullName="Tailem Bend" Frequency="125.300" Callsign="ML-TBD_CTR" Name="TBD">
-    <Volumes>TBD</Volumes>
+    <Volumes>TBD,TBDTMA</Volumes>
     <ResponsibleSectors>AUG,MUN,OXL</ResponsibleSectors>
   </Sector>
   <Sector FullName="Tasmania" Frequency="123.800" Callsign="ML-TAS_CTR" Name="TAS">
@@ -306,16 +306,16 @@
   </Sector>
   <Sector FullName="Pearce Approach" Frequency="130.200" Callsign="PEA_APP" Name="PEA" />
   <Sector FullName="Perth Approach" Frequency="123.600" Callsign="PH_APP" Name="PHA">
-    <Volumes>PHANE,PHASW</Volumes>
+    <Volumes>PHA</Volumes>
     <ResponsibleSectors>PHD</ResponsibleSectors>
   </Sector>
   <Sector FullName="Perth Departures" Frequency="118.700" Callsign="PH_DEP" Name="PHD">
-    <Volumes>PHDNE,PHDSW</Volumes>
+    <Volumes>PHA</Volumes>
   </Sector>
-  <Sector FullName="Port Headland Approach" Frequency="133.200" Callsign="PD_APP" Name="PDA">
+  <Sector FullName="Port Hedland Approach" Frequency="133.200" Callsign="PD_APP" Name="PDA">
     <Volumes>PDAPP</Volumes>
   </Sector>
-  <Sector FullName="Port Headland Departures" Frequency="123.800" Callsign="PD_DEP" Name="PDD">
+  <Sector FullName="Port Hedland Departures" Frequency="123.800" Callsign="PD_DEP" Name="PDD">
     <Volumes>PDAPP</Volumes>
   </Sector>
   <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" />
@@ -339,7 +339,7 @@
     <Volumes>SYA</Volumes>
   </Sector>
   <Sector FullName="Tindal Approach" Frequency="120.950" Callsign="TN_APP" Name="TNA">
-    <Volumes>TNA-A,TNA-B,TNA-C</Volumes>
+    <Volumes>TNA</Volumes>
   </Sector>
   <Sector FullName="Townsville Approach" Frequency="126.800" Callsign="TL_APP" Name="TLA">
     <Volumes>TLA</Volumes>
@@ -449,9 +449,9 @@
   <Sector FullName="Perth Surface Movement Control" Frequency="121.700" Callsign="PH_GND" Name="PH SMC" />
   <Sector FullName="Perth Surface Movement Control East" Frequency="122.200" Callsign="PH-E_GND" Name="PH SMCE" />
   <Sector FullName="Perth Tower" Frequency="127.400" Callsign="PH_TWR" Name="PH ADC" />
-  <Sector FullName="Port Headland Clearance Delivery" Frequency="128.100" Callsign="PD_DEL" Name="PD COORD" />
-  <Sector FullName="Port Headland Surface Movement Control" Frequency="125.850" Callsign="PD_GND" Name="PD SMC" />
-  <Sector FullName="Port Headland Tower" Frequency="119.900" Callsign="PD_TWR" Name="PD ADC" />
+  <Sector FullName="Port Hedland Clearance Delivery" Frequency="128.100" Callsign="PD_DEL" Name="PD COORD" />
+  <Sector FullName="Port Hedland Surface Movement Control" Frequency="125.850" Callsign="PD_GND" Name="PD SMC" />
+  <Sector FullName="Port Hedland Tower" Frequency="119.900" Callsign="PD_TWR" Name="PD ADC" />
   <Sector FullName="Port Moresby Ground" Frequency="121.700" Callsign="AYPY_GND" Name="AYPY SMC" />
   <Sector FullName="Port Moresby Tower" Frequency="118.100" Callsign="AYPY_TWR" Name="AYPY ADC" />
   <Sector FullName="Port Vila Tower" Frequency="118.300" Callsign="NVVV_TWR" Name="NVVV ADC" />
