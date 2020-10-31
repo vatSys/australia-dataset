@@ -46,7 +46,7 @@
               <AssignSector Order="AAE,AAW" />
             </Route>
             <Route Values="EEMUE, YORKE, HAWKY, WAKEN, ORBUN, VILAD">
-              <AssignSector Order="AAW"/>
+              <AssignSector Order="AAE,AAW"/>
             </Route>
             <Default>
               <AssignSector Order="AAW"/>
@@ -129,6 +129,28 @@
             </Route>
             <Default>
               <AssignSector Order="BDS,BDN,BAS,BAN"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YPPH_DEPS">
+      <Rules>
+        <Departure Values="YPPH">
+          <Rules>
+            <Default>
+              <AssignSector Order="PHD,PHA"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YPPD_DEPS">
+      <Rules>
+        <Departure Values="YPPD">
+          <Rules>
+            <Default>
+              <AssignSector Order="PDD,PDA"/>
             </Default>
           </Rules>
         </Departure>
