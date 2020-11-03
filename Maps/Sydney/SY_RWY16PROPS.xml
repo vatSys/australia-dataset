@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="SY_RWY16PROPS" Priority="1" Centre="-33.946000+151.177111">
+  <Map Type="System" Name="SY_RWY16PROPS" Priority="1" Centre="-33.946111+151.177222">
     <!--YSSY-->
     <Runway Name="16L/34R">
       <Threshold Name="16L" Position="-33.951636+151.188847" ExtendedCentrelineTrack="347.79" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
@@ -29,7 +29,7 @@
       <!--Rwy16L KEVIN6.ENTRA-->
       KEVIN/
       -34.139300+151.373932/
-      -34.154594+151.396813/
+      -34.154594+151.396812/
       -34.158846+151.420831/
       -34.159913+151.472017/
       -34.160817+151.501156/
@@ -69,9 +69,9 @@
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy16L BORE2A-->
+      <!--Rwy16L BORE3A-->
       BOREE/
-      BEKLO/
+      VASRA/
       BEROW/
       OVILS
     </Line>
@@ -113,12 +113,12 @@
       TESAT
     </Line>
     <Line>
-      <!--Rwy16R BORE2A-->
+      <!--Rwy16R BORE3A-->
       
     </Line>
     <Line>
-      <!--Rwy16R BORE2P-->
-      BEKLO/
+      <!--Rwy16R BORE3P-->
+      VASRA/
       DALAR/
       DUMOP/
       URDEN
@@ -164,7 +164,7 @@
       <Point>ANKUB</Point>
       <Point>KADOM</Point>
       <Point>BOREE</Point>
-      <Point>BEKLO</Point>
+      <Point>VASRA</Point>
       <Point>BEROW</Point>
       <Point>OVILS</Point>
       <Point>MARLN</Point>
@@ -213,7 +213,7 @@
       <Point Name="SFW">-33.742420+150.966231</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="SY_RWY16PROPS_NAMES" Priority="2" Centre="-33.946000+151.177111">
+  <Map Type="System" Name="SY_RWY16PROPS_NAMES" Priority="2" Centre="-33.946111+151.177222">
     <Label>
       <Point>KEVIN</Point>
       <Point>JULIA</Point>
@@ -227,7 +227,7 @@
       <Point>RIC NDB</Point>
       <Point>KAMPI</Point>
       <Point>BOREE</Point>
-      <Point>BEKLO</Point>
+      <Point>VASRA</Point>
       <Point>BEROW</Point>
       <Point>OVILS</Point>
       <Point>MARLN</Point>

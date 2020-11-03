@@ -324,35 +324,9 @@
   <Position Name="Ore" Type="ASD" DefaultCenter="-2350.000+11900.000" DefaultRange="1500">
     <Sectors>
       <Sector Name="ORE" />
-      <Sector Name="ORN" />
       <Sector Name="BIL" />
       <Sector Name="MOR" />
       <Sector Name="TFR" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="ALL_NAVAIDS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="ALL_POINTS_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="25000" />
-    <ControllerInfo>
-      <Line>Melbourne Centre</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Ore North" Type="ASD" DefaultCenter="-19.063051+118.292555" DefaultRange="1000">
-    <Sectors>
-      <Sector Name="ORN" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -641,7 +615,7 @@
       <Map Name="Adelaide/ASMGCS_YPAD_BLD" />
     </Maps>
   </Position>
-    <Position Name="YPED" Type="ASMGCS" ASMGCSAirport="YPED" DefaultCenter="-34.706446+138.621013" DefaultRange="2" MagneticVariation="-8" Rotation="90">
+  <Position Name="YPED" Type="ASMGCS" ASMGCSAirport="YPED" DefaultCenter="-34.706446+138.621013" DefaultRange="2" MagneticVariation="-8" Rotation="90">
     <Maps>
       <Map Name="Adelaide/ASMGCS_YPED_RWY" />
       <Map Name="Adelaide/ASMGCS_YPED_TWY" />
@@ -1008,6 +982,7 @@
   <Position Name="YPDN" Type="ASMGCS" ASMGCSAirport="YPDN" DefaultCenter="-12.415119+130.879154" DefaultRange="2" MagneticVariation="-3" Rotation="164">
     <Maps>
       <Map Name="Darwin/ASMGCS_YPDN_RWY" />
+      <Map Name="Darwin/ASMGCS_YPDN_APR" />
       <Map Name="Darwin/ASMGCS_YPDN_TWY" />
       <Map Name="Darwin/ASMGCS_YPDN_BLD" />
     </Maps>
@@ -1115,7 +1090,7 @@
       <Map Name="Broome/YBRM_ALLRWYS" />
     </Maps>
     <ATIS>
-      <Editor Airport="YBRM" Frequency="133.05" />
+      <Editor Airport="YBRM" Frequency="128.2" />
       <Window Airport="YBRM" />
     </ATIS>
     <Strips Mode="Beacon" Sort="Alpha">
@@ -1129,7 +1104,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Broome Tower</Line>
-      <Line>ATIS available on 133.05</Line>
+      <Line>ATIS available on 128.2</Line>
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
@@ -1559,50 +1534,13 @@
       <Line>ATIS available on 134.45</Line>
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
-   </Position>
-   <Position Name="YWLM" Type="ASMGCS" ASMGCSAirport="YWLM" DefaultCenter="-32.795211+151.835095" DefaultRange="2" MagneticVariation="-12" Rotation="152">
+  </Position>
+  <Position Name="YWLM" Type="ASMGCS" ASMGCSAirport="YWLM" DefaultCenter="-32.795211+151.835095" DefaultRange="2" MagneticVariation="-12" Rotation="152">
     <Maps>
       <Map Name="Williamtown/ASMGCS_YWLM_RWY" />
+      <Map Name="Williamtown/ASMGCS_YWLM_APR" />
       <Map Name="Williamtown/ASMGCS_YWLM_TWY" />
       <Map Name="Williamtown/ASMGCS_YWLM_BLD" />
-    </Maps>
-  </Position>
-    <Position Name="Port Hedland TCU" Type="ASD" DefaultCenter="-20.377778+118.626389" DefaultRange="200" MagneticVariation="-1.2">
-    <Sectors>
-      <Sector Name="PDA" />
-      <Sector Name="PDD" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Port Hedland/PD_COAST" />
-      <Map Name="Port Hedland/PD_TCU" />
-            <Map Name="Port Hedland/YPPD_ALLRWYS" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YPPD" Frequency="133.65" />
-      <Window Airport="YPPD" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YPPD" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="18000">
-      <AdditionalLevels>1600,1800</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YPPD" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Hedland Approach</Line>
-      <Line>ATIS available on 133.65</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="YPPD" Type="ASMGCS" ASMGCSAirport="YPPD" DefaultCenter="-20.381558+118.630273" DefaultRange="2" MagneticVariation="-1.2" Rotation="-47">
-    <Maps>
-      <Map Name="Port Hedland/ASMGCS_YPPD_RWY" />
-      <Map Name="Port Hedland/ASMGCS_YPPD_APR" />
-      <Map Name="Port Hedland/ASMGCS_YPPD_TWY" />
-      <Map Name="Port Hedland/ASMGCS_YPPD_BLD" />
     </Maps>
   </Position>
 </Positions>

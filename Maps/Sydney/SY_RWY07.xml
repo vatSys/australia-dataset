@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="SY_RWY07" Priority="1" Centre="-33.946000+151.177111">
+  <Map Type="System" Name="SY_RWY07" Priority="1" Centre="-33.946111+151.177222">
     <!--YSSY-->
     <Runway Name="07/25">
       <Threshold Name="07" Position="-33.943739+151.163628" ExtendedCentrelineTrack="254.2" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
@@ -10,7 +10,7 @@
     <Line>
       <!--Rwy07 FISHA8-->
       -33.937778+151.188908/
-      -33.936122+151.226533/
+      -33.936122+151.226532/
       FISHA
     </Line>
     <Line>
@@ -36,9 +36,9 @@
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy07 BORE2A-->
+      <!--Rwy07 BORE3A-->
       BOREE/
-      BEKLO/
+      VASRA/
       BEROW/
       OVILS
     </Line>
@@ -91,7 +91,7 @@
     <Symbol Type="HollowStar">
       <Point>ENTRA</Point>
       <Point>BOREE</Point>
-      <Point>BEKLO</Point>
+      <Point>VASRA</Point>
       <Point>BEROW</Point>
       <Point>OVILS</Point>
       <Point>MARLN</Point>
@@ -134,13 +134,13 @@
       <Point Name="SFW/SDN">-33.908240+150.979356</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="SY_RWY07_NAMES" Priority="2" Centre="-33.946000+151.177111">
+  <Map Type="System" Name="SY_RWY07_NAMES" Priority="2" Centre="-33.946111+151.177222">
     <Label>
       <Point>FISHA</Point>
       <Point>ENTRA</Point>
       <Point>WOL NDB</Point>
       <Point>BOREE</Point>
-      <Point>BEKLO</Point>
+      <Point>VASRA</Point>
       <Point>BEROW</Point>
       <Point>OVILS</Point>
       <Point>MARLN</Point>

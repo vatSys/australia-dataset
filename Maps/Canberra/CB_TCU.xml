@@ -2,13 +2,13 @@
 <Maps>
   <Map Type="System" Name="CB_TCU" Priority="1" Centre="-35.306944+149.195000">
     <!--YSCB-->
-    <Runway Name="17/35">
-      <Threshold Name="17" Position="-35.290622+149.194447" />
-      <Threshold Name="35" Position="-35.314800+149.194447" />
-    </Runway>
     <Runway Name="12/30">
       <Threshold Name="12" Position="-35.300683+149.185153" />
       <Threshold Name="30" Position="-35.310000+149.198758" />
+    </Runway>
+    <Runway Name="17/35">
+      <Threshold Name="17" Position="-35.290622+149.194447" />
+      <Threshold Name="35" Position="-35.314800+149.194447" />
     </Runway>
     <!--Airway Routes-->
     <Line>
@@ -199,14 +199,14 @@
   </Map>
   <Map Type="System" Name="YSCB_ALLRWYS" Priority="2" Centre="-35.306944+149.195000">
     <!--YSCB-->
-    <Runway Name="17/35">
-      <Threshold Name="17" Position="-35.290622+149.194447" ExtendedCentrelineTrack="0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="35" Position="-35.314800+149.194447" ExtendedCentrelineTrack="180" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
-    </Runway>
-    <!--YSCB-->
     <Runway Name="12/30">
       <Threshold Name="12" Position="-35.300683+149.185153" ExtendedCentrelineTrack="309.87" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="30" Position="-35.310000+149.198758" ExtendedCentrelineTrack="129.88" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--YSCB-->
+    <Runway Name="17/35">
+      <Threshold Name="17" Position="-35.290622+149.194447" ExtendedCentrelineTrack="0" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="35" Position="-35.314800+149.194447" ExtendedCentrelineTrack="180" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
   </Map>
 </Maps>
