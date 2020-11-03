@@ -129,6 +129,7 @@
   <Sector FullName="Mungo" Frequency="132.600" Callsign="ML-MUN_CTR" Name="MUN">
     <Volumes>MUN</Volumes>
   </Sector>
+  <Sector FullName="Nadi Centre" Frequency="120.900" Callsign="NFFN_CTR" Name="NFFN" />
   <Sector FullName="Ocean" Frequency="133.600" Callsign="BN-OCN_CTR" Name="OCN">
     <Volumes>OCN</Volumes>
   </Sector>
@@ -235,11 +236,14 @@
   <Sector FullName="Nadi Oceanic" Frequency="123.600" Callsign="NFFF_FSS" Name="NFFF" DisplayInSectorsWindow="False">
     <Volumes>NFFF</Volumes>
   </Sector>
-  <Sector FullName="Oakland Oceanic East" Frequency="131.950" Callsign="KZAK-E_FSS" Name="KZAK-E" DisplayInSectorsWindow="False">
-    <Volumes>KZAK-E</Volumes>
+  <Sector FullName="Oakland Oceanic East" Frequency="131.950" Callsign="ZAK_E_FSS" Name="KZAK-E" DisplayInSectorsWindow="False">
+    <Volumes>KZAK_E</Volumes>
   </Sector>
-  <Sector FullName="Oakland Oceanic West" Frequency="122.500" Callsign="KZAK-W_FSS" Name="KZAK-W" DisplayInSectorsWindow="False">
-    <Volumes>KZAK-W</Volumes>
+  <Sector FullName="Oakland Oceanic West" Frequency="122.500" Callsign="ZAK_W_FSS" Name="KZAK-W" DisplayInSectorsWindow="False">
+    <Volumes>KZAK_W</Volumes>
+  </Sector>
+  <Sector FullName="South East Asia Upper" Frequency="135.350" Callsign="ASEA_FSS" Name="ASEA" DisplayInSectorsWindow="False">
+    <Volumes>WIIF,WAAF</Volumes>
   </Sector>
   <Sector FullName="Tasman Oceanic" Frequency="128.600" Callsign="BN-TSN_FSS" Name="TSN">
     <Volumes>TSN</Volumes>
@@ -321,7 +325,7 @@
   <Sector FullName="Perth Departures" Frequency="118.700" Callsign="PH_DEP" Name="PHD">
     <Volumes>PHA</Volumes>
   </Sector>
-  <Sector FullName="PNG Port Moresby Departures" Frequency="124.100" Callsign="AYPY_DEP" Name="AYPYA" />
+  <Sector FullName="PNG Port Moresby Departures" Frequency="124.100" Callsign="AYPY_DEP" Name="AYPYD" />
   <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" />
   <Sector FullName="Sydney Approach North" Frequency="124.400" Callsign="SY_APP" Name="SAN">
     <Volumes>SYA</Volumes>

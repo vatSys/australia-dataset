@@ -134,5 +134,27 @@
         </Departure>
       </Rules>
     </RuleSet>
+    <RuleSet Name="YPPH_DEPS">
+      <Rules>
+        <Departure Values="YPPH">
+          <Rules>
+            <Default>
+              <AssignSector Order="PHD,PHA"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBCS_DEPS">
+      <Rules>
+        <Departure Values="YBCS">
+          <Rules>
+            <Default>
+              <AssignSector Order="CSD,CSA"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
   </RuleSets>
 </DefaultJurisdiction>
