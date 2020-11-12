@@ -80,10 +80,16 @@
     <Volumes>ISA</Volumes>
     <ResponsibleSectors>WEG</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Jakarta" Frequency="132.300" Callsign="WIIF_CTR" Name="WIIF" DisplayInSectorsWindow="False">
+  <Sector FullName="Jakarta Control" Frequency="132.300" Callsign="WIIF_CTR" Name="WIIF" DisplayInSectorsWindow="False">
     <Volumes>WIIF</Volumes>
   </Sector>
-  <Sector FullName="Jakarta Training" Frequency="132.300" Callsign="WIIF_T_CTR" Name="WIIF_T" DisplayInSectorsWindow="False">
+  <Sector FullName="Jakarta Control" Frequency="120.900" Callsign="WIIF_E_CTR" Name="WIIF_E" DisplayInSectorsWindow="False">
+    <Volumes>WIIF-E</Volumes>
+  </Sector>
+  <Sector FullName="Jakarta Control" Frequency="135.900" Callsign="WIIF_W_CTR" Name="WIIF_W" DisplayInSectorsWindow="False">
+    <Volumes>WIIF-W</Volumes>
+  </Sector>
+  <Sector FullName="Jakarta Control (Training)" Frequency="132.300" Callsign="WIIF_T_CTR" Name="WIIF_T" DisplayInSectorsWindow="False">
     <Volumes>WIIF</Volumes>
   </Sector>
   <Sector FullName="Jarrah" Frequency="120.300" Callsign="ML-JAR_CTR" Name="JAR">
@@ -180,10 +186,16 @@
     <Volumes>TRT</Volumes>
     <ResponsibleSectors>KIY,STR</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Ujung Pandang" Frequency="128.100" Callsign="WAAF_CTR" Name="WAAF" DisplayInSectorsWindow="False">
+  <Sector FullName="Ujung Pandang Control" Frequency="128.100" Callsign="WAAF_CTR" Name="WAAF" DisplayInSectorsWindow="False">
     <Volumes>WAAF</Volumes>
   </Sector>
-  <Sector FullName="Ujung Pandang Training" Frequency="128.100" Callsign="WAAF_T_CTR" Name="WAAF_T" DisplayInSectorsWindow="False">
+  <Sector FullName="Ujung Pandang Control" Frequency="120.700" Callsign="WAAF_B_CTR" Name="WAAF_B" DisplayInSectorsWindow="False">
+    <Volumes>WAAF-B</Volumes>
+  </Sector>
+  <Sector FullName="Ujung Pandang Control" Frequency="132.500" Callsign="WAAF_E_CTR" Name="WAAF_E" DisplayInSectorsWindow="False">
+    <Volumes>WAAF-E</Volumes>
+  </Sector>
+  <Sector FullName="Ujung Pandang Control (Training)" Frequency="128.100" Callsign="WAAF_T_CTR" Name="WAAF_T" DisplayInSectorsWindow="False">
     <Volumes>WAAF</Volumes>
   </Sector>
   <Sector FullName="Warburton" Frequency="124.900" Callsign="ML-WAR_CTR" Name="WAR">
@@ -325,7 +337,6 @@
   <Sector FullName="Perth Departures" Frequency="118.700" Callsign="PH_DEP" Name="PHD">
     <Volumes>PHA</Volumes>
   </Sector>
-  <Sector FullName="PNG Port Moresby Departures" Frequency="124.100" Callsign="AYPY_DEP" Name="AYPYD" />
   <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" />
   <Sector FullName="Sydney Approach North" Frequency="124.400" Callsign="SY_APP" Name="SAN">
     <Volumes>SYA</Volumes>
@@ -457,7 +468,6 @@
   <Sector FullName="Perth Surface Movement Control" Frequency="121.700" Callsign="PH_GND" Name="PH SMC" />
   <Sector FullName="Perth Surface Movement Control East" Frequency="122.200" Callsign="PH-E_GND" Name="PH SMCE" />
   <Sector FullName="Perth Tower" Frequency="127.400" Callsign="PH_TWR" Name="PH ADC" />
-  <Sector FullName="PNG Port Moresby Delivery" Frequency="123.900" Callsign="AYPY_DEL" Name="AYPY COORD" />
   <Sector FullName="Port Moresby Ground" Frequency="121.700" Callsign="AYPY_GND" Name="AYPY SMC" />
   <Sector FullName="Port Moresby Tower" Frequency="118.100" Callsign="AYPY_TWR" Name="AYPY ADC" />
   <Sector FullName="Port Vila Tower" Frequency="118.300" Callsign="NVVV_TWR" Name="NVVV ADC" />
