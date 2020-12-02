@@ -38,7 +38,7 @@
   <Sector FullName="Colombo" Frequency="124.900" Callsign="VCCF_CTR" Name="VCCF" DisplayInSectorsWindow="False">
     <Volumes>VCCF</Volumes>
   </Sector>
-  <Sector FullName="Colombo Training" Frequency="124.900" Callsign="VCCF_T_CTR" Name="VCCF_T" DisplayInSectorsWindow="False">
+  <Sector FullName="Colombo Training" Frequency="124.900" Callsign="VCCF_T_CTR" Name="VCCFT" DisplayInSectorsWindow="False">
     <Volumes>VCCF</Volumes>
   </Sector>
   <Sector FullName="Cross" Frequency="135.800" Callsign="ML-CRS_CTR" Name="CRS">
@@ -80,10 +80,16 @@
     <Volumes>ISA</Volumes>
     <ResponsibleSectors>WEG</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Jakarta" Frequency="132.300" Callsign="WIIF_CTR" Name="WIIF" DisplayInSectorsWindow="False">
+  <Sector FullName="Jakarta Control" Frequency="132.300" Callsign="WIIF_CTR" Name="WIIF" DisplayInSectorsWindow="False">
     <Volumes>WIIF</Volumes>
   </Sector>
-  <Sector FullName="Jakarta Training" Frequency="132.300" Callsign="WIIF_T_CTR" Name="WIIF_T" DisplayInSectorsWindow="False">
+  <Sector FullName="Jakarta Control" Frequency="120.900" Callsign="WIIF_E_CTR" Name="WIIFE" DisplayInSectorsWindow="False">
+    <Volumes>WIIF-E</Volumes>
+  </Sector>
+  <Sector FullName="Jakarta Control" Frequency="135.900" Callsign="WIIF_W_CTR" Name="WIIFW" DisplayInSectorsWindow="False">
+    <Volumes>WIIF-W</Volumes>
+  </Sector>
+  <Sector FullName="Jakarta Control (Training)" Frequency="132.300" Callsign="WIIF_T_CTR" Name="WIIFT" DisplayInSectorsWindow="False">
     <Volumes>WIIF</Volumes>
   </Sector>
   <Sector FullName="Jarrah" Frequency="120.300" Callsign="ML-JAR_CTR" Name="JAR">
@@ -110,7 +116,7 @@
   <Sector FullName="Male" Frequency="123.900" Callsign="VRMF_CTR" Name="VRMF" DisplayInSectorsWindow="False">
     <Volumes>VRMF</Volumes>
   </Sector>
-  <Sector FullName="Male Training" Frequency="123.900" Callsign="VRMF_T_CTR" Name="VRMF_T" DisplayInSectorsWindow="False">
+  <Sector FullName="Male Training" Frequency="123.900" Callsign="VRMF_T_CTR" Name="VRMFT" DisplayInSectorsWindow="False">
     <Volumes>VRMF</Volumes>
   </Sector>
   <Sector FullName="Mauritius" Frequency="129.300" Callsign="FIMM_CTR" Name="FIMM" DisplayInSectorsWindow="False">
@@ -180,10 +186,16 @@
     <Volumes>TRT</Volumes>
     <ResponsibleSectors>KIY,STR</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Ujung Pandang" Frequency="128.100" Callsign="WAAF_CTR" Name="WAAF" DisplayInSectorsWindow="False">
+  <Sector FullName="Ujung Pandang Control" Frequency="128.100" Callsign="WAAF_CTR" Name="WAAF" DisplayInSectorsWindow="False">
     <Volumes>WAAF</Volumes>
   </Sector>
-  <Sector FullName="Ujung Pandang Training" Frequency="128.100" Callsign="WAAF_T_CTR" Name="WAAF_T" DisplayInSectorsWindow="False">
+  <Sector FullName="Ujung Pandang Control" Frequency="120.700" Callsign="WAAF_B_CTR" Name="WAAFB" DisplayInSectorsWindow="False">
+    <Volumes>WAAF-B</Volumes>
+  </Sector>
+  <Sector FullName="Ujung Pandang Control" Frequency="132.500" Callsign="WAAF_E_CTR" Name="WAAFE" DisplayInSectorsWindow="False">
+    <Volumes>WAAF-E</Volumes>
+  </Sector>
+  <Sector FullName="Ujung Pandang Control (Training)" Frequency="128.100" Callsign="WAAF_T_CTR" Name="WAAFT" DisplayInSectorsWindow="False">
     <Volumes>WAAF</Volumes>
   </Sector>
   <Sector FullName="Warburton" Frequency="124.900" Callsign="ML-WAR_CTR" Name="WAR">
@@ -236,10 +248,10 @@
   <Sector FullName="Nadi Oceanic" Frequency="123.600" Callsign="NFFF_FSS" Name="NFFF" DisplayInSectorsWindow="False">
     <Volumes>NFFF</Volumes>
   </Sector>
-  <Sector FullName="Oakland Oceanic East" Frequency="131.950" Callsign="ZAK_E_FSS" Name="KZAK-E" DisplayInSectorsWindow="False">
+  <Sector FullName="Oakland Oceanic East" Frequency="131.950" Callsign="ZAK_E_FSS" Name="KZAKE" DisplayInSectorsWindow="False">
     <Volumes>KZAK_E</Volumes>
   </Sector>
-  <Sector FullName="Oakland Oceanic West" Frequency="122.500" Callsign="ZAK_W_FSS" Name="KZAK-W" DisplayInSectorsWindow="False">
+  <Sector FullName="Oakland Oceanic West" Frequency="122.500" Callsign="ZAK_W_FSS" Name="KZAKW" DisplayInSectorsWindow="False">
     <Volumes>KZAK_W</Volumes>
   </Sector>
   <Sector FullName="South East Asia Upper" Frequency="135.350" Callsign="ASEA_FSS" Name="ASEA" DisplayInSectorsWindow="False">
@@ -248,6 +260,9 @@
   <Sector FullName="Tasman Oceanic" Frequency="128.600" Callsign="BN-TSN_FSS" Name="TSN">
     <Volumes>TSN</Volumes>
     <ResponsibleSectors>COL,FLD,HWE</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="West Asia Control" Frequency="135.40" Callsign="ASIA_W_FSS" Name="ASIAW" DisplayInSectorsWindow="False">
+    <Volumes>VCCF,VRMF</Volumes>
   </Sector>
   <Sector FullName="Adelaide Approach East" Frequency="118.200" Callsign="AD_DEP" Name="AAE">
     <Volumes>ADD</Volumes>
@@ -325,7 +340,6 @@
   <Sector FullName="Perth Departures" Frequency="118.700" Callsign="PH_DEP" Name="PHD">
     <Volumes>PHA</Volumes>
   </Sector>
-  <Sector FullName="PNG Port Moresby Departures" Frequency="124.100" Callsign="AYPY_DEP" Name="AYPYD" />
   <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" />
   <Sector FullName="Sydney Approach North" Frequency="124.400" Callsign="SY_APP" Name="SAN">
     <Volumes>SYA</Volumes>
@@ -457,7 +471,6 @@
   <Sector FullName="Perth Surface Movement Control" Frequency="121.700" Callsign="PH_GND" Name="PH SMC" />
   <Sector FullName="Perth Surface Movement Control East" Frequency="122.200" Callsign="PH-E_GND" Name="PH SMCE" />
   <Sector FullName="Perth Tower" Frequency="127.400" Callsign="PH_TWR" Name="PH ADC" />
-  <Sector FullName="PNG Port Moresby Delivery" Frequency="123.900" Callsign="AYPY_DEL" Name="AYPY COORD" />
   <Sector FullName="Port Moresby Ground" Frequency="121.700" Callsign="AYPY_GND" Name="AYPY SMC" />
   <Sector FullName="Port Moresby Tower" Frequency="118.100" Callsign="AYPY_TWR" Name="AYPY ADC" />
   <Sector FullName="Port Vila Tower" Frequency="118.300" Callsign="NVVV_TWR" Name="NVVV ADC" />
