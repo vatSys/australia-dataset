@@ -15,9 +15,11 @@
     <Message Response="AN">CAN YOU ACCEPT [LEVEL] AT [TIME]</Message>
     <Message Response="WU">MAINTAIN [LEVEL]</Message>
     <Message Response="WU">CLIMB TO AND MAINTAIN [LEVEL]</Message>
+	<Message Response="WU">CLIMB VIA SID TO [LEVEL]</Message>
     <Message Response="WU">AT [TIME] CLIMB TO AND MAINTAIN [LEVEL]</Message>
     <Message Response="WU">AT [POSITION] CLIMB TO AND MAINTAIN [LEVEL]</Message>
     <Message Response="WU">DESCEND TO AND MAINTAIN [LEVEL]</Message>
+	<Message Response="WU">DESCEND VIA STAR TO [LEVEL]</Message>
     <Message Response="WU">AT [TIME] DESCEND TO AND MAINTAIN [LEVEL]</Message>
     <Message Response="WU">AT [POSITION] DESCEND TO AND MAINTAIN [LEVEL]</Message>
     <Message Response="WU">CLIMB TO REACH [LEVEL] BY [TIME]</Message>
@@ -168,6 +170,7 @@
     <Message Response="WU">SQUAWK IDENT</Message>
     <Message Response="R">ALTIMETER [QNH]</Message>
     <Message Response="R">IDENTIFICATION</Message>
+    <Message Response="R">IDENTIFIED</Message>
     <Message Response="R">IDENTIFICATION TERMINATED</Message>
     <Message Response="R">TRANSMIT ADS-B IDENT</Message>
     <Message Response="R">CONFIRM ADS-C EMERGENCY</Message>
