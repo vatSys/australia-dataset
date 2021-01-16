@@ -275,7 +275,6 @@
       <Point>ISRIB</Point>
       <Point>LUMDI</Point>
     </Symbol>
-    <Symbol Type="Circle" />
     <Symbol Type="HollowStar">
       <Point>OSOKO</Point>
       <Point>BIXAD</Point>
@@ -361,6 +360,10 @@
       <Point Name="BDS">-27.178270+153.521934</Point>
       <Point Name="BDS/BAS">-27.740573+153.007998</Point>
     </Label>
+  </Map>
+  <Map Type="REST_NTZ_DAIW" Name="BN_RWY01PROPS NTZ" Priority="0">
+    <Line Pattern="Solid">
+-272359.856+1530642.839/-272826.954+1530409.433/-272817.988+1530349.600/-272826.954+1530409.433/-273814.508+1525831.437/-273805.542+1525811.575/-272350.514+1530622.133/-272359.856+1530642.839</Line>
   </Map>
   <Map Type="System" Name="BN_RWY01PROPS_NAMES" Priority="2" Centre="-27.384167+153.117500">
     <Label>

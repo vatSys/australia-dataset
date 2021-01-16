@@ -109,10 +109,9 @@
     <Symbol Type="HollowSquare">
       <Point>ADWD</Point>
       <Point>AKMW</Point>
-      <Point>ARE</Point>
+      <Point>SHOP</Point>
       <Point>BARB</Point>
       <Point>BOAT</Point>
-      <Point>BRIC</Point>
       <Point>BUB</Point>
       <Point>BYFD</Point>
       <Point>CNB</Point>
@@ -141,6 +140,7 @@
       <Point>REDC</Point>
       <Point>ROHM</Point>
       <Point>RLY</Point>
+      <Point>RUSS</Point>
       <Point>SWY</Point>
       <Point>SEL</Point>
       <Point>TLMI</Point>
@@ -150,16 +150,16 @@
       <Point>VPH</Point>
       <Point>WMP</Point>
       <Point>WUN</Point>
+      <Point>WUNG</Point>
       <Point>YGB</Point>
       <Point>ORKT</Point>
     </Symbol>
     <Label HasLeader="True">
       <Point>ADWD</Point>
       <Point>AKMW</Point>
-      <Point>ARE</Point>
+      <Point>SHOP</Point>
       <Point>BARB</Point>
       <Point>BOAT</Point>
-      <Point>BRIC</Point>
       <Point>BUB</Point>
       <Point>BYFD</Point>
       <Point>CNB</Point>
@@ -188,6 +188,7 @@
       <Point>REDC</Point>
       <Point>ROHM</Point>
       <Point>RLY</Point>
+      <Point>RUSS</Point>
       <Point>SWY</Point>
       <Point>SEL</Point>
       <Point>TLMI</Point>
@@ -197,14 +198,15 @@
       <Point>VPH</Point>
       <Point>WMP</Point>
       <Point>WUN</Point>
+      <Point>WUNG</Point>
       <Point>YGB</Point>
       <Point>ORKT</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="IN_BRICK_WORKS">CDM</Point>
+      <Point Name="IN_MOUNT_DALE">MUE</Point>
       <Point Name="IN_NW">-31.776111+115.724167</Point>
       <Point Name="IN_OAKFORD">OAKF</Point>
-      <Point Name="OUT_ARMADALE">-32.115814+115.936056</Point>
+      <Point Name="OUT_ARMADALESHOP">-32.115814+115.936056</Point>
       <Point Name="OUT_LAKE_THOMSON">YGB</Point>
       <Point Name="OUT_VICTOR_65">NORT</Point>
       <Point Name="VIA_CANNING_DAM">-31.663889+116.633333</Point>
@@ -218,10 +220,11 @@
       <Point Name="JURIEN_BAY_2">-30.302628+115.055164</Point>
       <Point Name="ROUTE_4">-31.026827+115.328617</Point>
     </Label>
-    <!--IN_BRICK_WORKS-->
+    <!--IN_MOUNT_DALE-->
     <Line Pattern="Dotted">
-      CDM/
-      BRIC/
+      MUE/
+      WUNG/
+      RUSS/
       FDL/
       -32.139281+115.913277
     </Line>
@@ -242,10 +245,10 @@
       FDL/
       -32.139281+115.913277
     </Line>
-    <!--OUT_ARMADALE-->
+    <!--OUT_ARMADALESHOP-->
     <Line Pattern="Dotted">
       -32.115814+115.936056/
-      ARE/
+      SHOP/
       CDM
     </Line>
     <!--OUT_LAKE_THOMSON-->
@@ -271,7 +274,8 @@
     <Line Pattern="Dotted">
       TLMI/
       HRR/
-      CDM
+      CDM/
+      WUNG
     </Line>
     <!--JURIEN_BAY_1-->
     <Line Pattern="Dotted">

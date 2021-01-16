@@ -31,61 +31,6 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Tasman Oceanic" Type="ASD" DefaultCenter="-281500.0+1590545.0" DefaultRange="4500">
-    <Sectors>
-      <Sector Name="TSN" />
-      <Sector Name="HWE" />
-      <Sector Name="FLD" />
-      <Sector Name="COL" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="ALL_POINTS_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Alpha">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="29000" />
-    <ControllerInfo>
-      <Line>Brisbane Radio | CPDLC available on YBBB</Line>
-      <Line>Oceanic Reporting  www.vatpac.org/pilots/pilot-tools/oceanic-reporting-tool</Line>
-      <Line>Squawk 2000 entering OCEANIC region. Check your Sim Zulu time is correct.</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Indian Oceanic" Type="ASD" DefaultCenter="-155400.0+0971040.0" DefaultRange="5000">
-    <Sectors>
-      <Sector Name="IND" />
-      <Sector Name="INS" />
-      <Sector Name="INE" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="ALL_POINTS_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Alpha">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="29000" />
-    <ControllerInfo>
-      <Line>Brisbane Radio | CPDLC available on YBBB</Line>
-      <Line>Oceanic Reporting  www.vatpac.org/pilots/pilot-tools/oceanic-reporting-tool</Line>
-      <Line>Squawk 2000 entering OCEANIC region. Check your Sim Zulu time is correct.</Line>
-    </ControllerInfo>
-  </Position>
   <Position Name="Tasmania" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="600">
     <Sectors>
       <Sector Name="TAS" />
@@ -576,37 +521,1252 @@
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Adelaide TCU" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="150" MagneticVariation="-8">
+  <Group Name="Procedural">
+    <Position Name="Albury Tower" Type="ASD" DefaultCenter="-36.067778+146.958056" DefaultRange="95" MagneticVariation="-11.9">
+      <Sectors>
+        <Sector Name="AY ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Albury/AY_TCU" />
+        <Map Name="Albury/AY_RWY07" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMAY" Frequency="133.85" />
+        <Window Airport="YMAY" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YMAY" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>3400,5400</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YMAY" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Albury Tower</Line>
+        <Line>ATIS available on 133.85</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Alice Springs Tower" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="80" MagneticVariation="-4.6">
+      <Sectors>
+        <Sector Name="AS ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Alice Springs/AS_TCU" />
+        <Map Name="Alice Springs/AS_RWY12" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBAS" Frequency="123.000" />
+        <Window Airport="YBAS" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBAS" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>5200</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBAS" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Alice Tower</Line>
+        <Line>ATIS available on 123.0</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Broome Tower" Type="ASD" DefaultCenter="-17.949444+122.227778" DefaultRange="140" MagneticVariation="-1.7">
+      <Sectors>
+        <Sector Name="BRM ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Broome/BRM_COAST" />
+        <Map Name="Broome/BRM_TCU" />
+        <Map Name="Broome/YBRM_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBRM" Frequency="128.2" />
+        <Window Airport="YBRM" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBRM" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="5500">
+        <AdditionalLevels>2100</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBRM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Broome Tower</Line>
+        <Line>ATIS available on 128.2</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Coffs Harbour Tower" Type="ASD" DefaultCenter="-30.320556+153.116389" DefaultRange="100" MagneticVariation="-12">
+      <Sectors>
+        <Sector Name="CFS ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Coffs Harbour/CFS_COAST" />
+        <Map Name="Coffs Harbour/CFS_TCU" />
+        <Map Name="Coffs Harbour/YCFS_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YCFS" Frequency="130.3" />
+        <Window Airport="YCFS" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YCFS" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>2500,3300,5500</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YCFS" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Coffs Harbour Tower</Line>
+        <Line>ATIS available on 130.3</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Hamilton Island Tower" Type="ASD" DefaultCenter="-20.358056+148.951667" DefaultRange="100" MagneticVariation="-8.1">
+      <Sectors>
+        <Sector Name="HM ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Hamilton Island/HM_COAST" />
+        <Map Name="Hamilton Island/HM_TCU" />
+        <Map Name="Hamilton Island/YBHM_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBHM" Frequency="128.35" />
+        <Window Airport="YBHM" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBHM" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>2800,3900</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBHM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Hamilton Island Tower</Line>
+        <Line>ATIS available on 128.35</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Hobart Tower" Type="ASD" DefaultCenter="-42.836111+147.510278" DefaultRange="90" MagneticVariation="-15.3">
+      <Sectors>
+        <Sector Name="HB ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Hobart/HB_COAST" />
+        <Map Name="Hobart/HB_TCU" />
+        <Map Name="Hobart/HB_RWY12" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMHB" Frequency="128.45" />
+        <Window Airport="YMHB" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YMHB" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>3900,4200,5600</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YMHB" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Hobart Tower</Line>
+        <Line>ATIS available on 128.45</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Launceston Tower" Type="ASD" DefaultCenter="-41.545278+147.214167" DefaultRange="90" MagneticVariation="-14.4">
+      <Sectors>
+        <Sector Name="LT ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Launceston/LT_COAST" />
+        <Map Name="Launceston/LT_TCU" />
+        <Map Name="Launceston/LT_RWY32L" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMLT" Frequency="134.75" />
+        <Window Airport="YMLT" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YMLT" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>3200,5800,6300</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YMLT" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Launy Tower</Line>
+        <Line>ATIS available on 134.75</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Mackay Tower" Type="ASD" DefaultCenter="-21.171389+149.179722" DefaultRange="95" MagneticVariation="-8.4">
+      <Sectors>
+        <Sector Name="MK ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Mackay/MK_COAST" />
+        <Map Name="Mackay/MK_TCU" />
+        <Map Name="Mackay/MK_RWY14" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBMK" Frequency="128.0" />
+        <Window Airport="YBMK" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBMK" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>2500</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBMK" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Mackay Tower</Line>
+        <Line>ATIS available on 128.0</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Rockhampton Tower" Type="ASD" DefaultCenter="-23.381944+150.475278" DefaultRange="95" MagneticVariation="-9.2">
+      <Sectors>
+        <Sector Name="RK ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Rockhampton/RK_COAST" />
+        <Map Name="Rockhampton/RK_TCU" />
+        <Map Name="Rockhampton/RK_RWY15" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBRK" Frequency="128.5" />
+        <Window Airport="YBRK" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBRK" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>3500</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBRK" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Rocky Tower</Line>
+        <Line>ATIS available on 128.5</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Sunshine Coast Tower" Type="ASD" DefaultCenter="-26.603333+153.091111" DefaultRange="90" MagneticVariation="-10.8">
+      <Sectors>
+        <Sector Name="SU ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Sunshine Coast/SU_COAST" />
+        <Map Name="Sunshine Coast/SU_TCU" />
+        <Map Name="Sunshine Coast/SU_RWY13" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBSU" Frequency="119.8" />
+        <Window Airport="YBSU" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBSU" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>1900,2800,4100</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBSU" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Sunshine Coast Tower</Line>
+        <Line>ATIS available on 119.8</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Karratha Tower" Type="ASD" DefaultCenter="-20.712222+116.773333" DefaultRange="130" MagneticVariation="-0.9">
+      <Sectors>
+        <Sector Name="KA ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Karratha/KA_COAST" />
+        <Map Name="Karratha/KA_TCU" />
+        <Map Name="Karratha/YPKA_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPKA" Frequency="134.55" />
+        <Window Airport="YPKA" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPKA" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="5500">
+        <AdditionalLevels>2000,2200</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YPKA" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Karratha Tower</Line>
+        <Line>ATIS available on 134.55</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Woomera Tower" Type="ASD" DefaultCenter="-31.144167+136.816944" DefaultRange="90" MagneticVariation="-6.6">
+      <Sectors>
+        <Sector Name="WR ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Woomera/WR_TCU" />
+        <Map Name="Woomera/YPWR_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPWR" Frequency="134.0" />
+        <Window Airport="YPWR" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPWR" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>2000</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YPWR" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Woomera Tower</Line>
+        <Line>ATIS available on 134.0</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Tamworth Tower" Type="ASD" DefaultCenter="-31.083889+150.846667" DefaultRange="80" MagneticVariation="-11.5">
+      <Sectors>
+        <Sector Name="TW ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Tamworth/TW_TCU" />
+        <Map Name="Tamworth/YSTW_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YSTW" Frequency="123.8" />
+        <Window Airport="YSTW" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YSTW" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>4300</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YSTW" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Tamworth Tower</Line>
+        <Line>ATIS available on 123.8</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+  <Group Name="Oceanic">
+    <Position Name="Tasman Oceanic" Type="ASD" DefaultCenter="-204939.000+1561328.100" DefaultRange="5700">
+      <Sectors>
+        <Sector Name="TSN" />
+        <Sector Name="HWE" />
+        <Sector Name="FLD" />
+        <Sector Name="COL" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Alpha">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="29000" />
+      <ControllerInfo>
+        <Line>Brisbane Radio | CPDLC available on YBBB</Line>
+        <Line>Oceanic Reporting  www.vatpac.org/pilots/pilot-tools/oceanic-reporting-tool</Line>
+        <Line>Squawk 2000 entering OCEANIC region. Check your Sim Zulu time is correct.</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Indian Oceanic" Type="ASD" DefaultCenter="-155400.0+0971040.0" DefaultRange="5000">
+      <Sectors>
+        <Sector Name="IND" />
+        <Sector Name="INS" />
+        <Sector Name="INE" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Alpha">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="29000" />
+      <ControllerInfo>
+        <Line>Brisbane Radio | CPDLC available on YBBB</Line>
+        <Line>Oceanic Reporting  www.vatpac.org/pilots/pilot-tools/oceanic-reporting-tool</Line>
+        <Line>Squawk 2000 entering OCEANIC region. Check your Sim Zulu time is correct.</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+   <Group Name="TCU">
+    <Position Name="Adelaide TCU" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="150" MagneticVariation="-8">
+      <Sectors>
+        <Sector Name="AAW" />
+        <Sector Name="AAE" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Adelaide/AD_COAST" />
+        <Map Name="Adelaide/AD_TCU" />
+        <Map Name="Adelaide/AD_RWY23" />
+        <Map Name="Adelaide/ED_RWY18" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPAD" Frequency="134.5" Server="rw1.vatpac.org" />
+        <Window Airport="YPAD" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPAD" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YPAD" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Adelaide Approach</Line>
+        <Line>ATIS available on 134.5</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Amberley TCU" Type="ASD" DefaultCenter="-27.640556+152.711944" DefaultRange="150" MagneticVariation="-11">
+      <Sectors>
+        <Sector Name="AMB" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Amberley/AMB_TCU" />
+        <Map Name="Amberley/YAMB_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YAMB" Frequency="123.3" />
+        <Window Airport="YAMB" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YAMB" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="8500">
+        <AdditionalLevels>3400,3800,5100</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YAMB" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Amberley Approach</Line>
+        <Line>ATIS available on 123.3</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="East Sale TCU" Type="ASD" DefaultCenter="-38.098889+147.149444" DefaultRange="150" MagneticVariation="-12.8">
+      <Sectors>
+        <Sector Name="ESA" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="East Sale/ES_COAST" />
+        <Map Name="East Sale/ES_TCU" />
+        <Map Name="East Sale/YMES_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMES" Frequency="125.4" />
+        <Window Airport="YMES" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YMES" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="21000">
+        <AdditionalLevels>1900,3400,3500,4400</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YMES" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>East Sale Approach</Line>
+        <Line>ATIS available on 125.4</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Melbourne TCU" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="150" MagneticVariation="-11">
+      <Sectors>
+        <Sector Name="MAE" />
+        <Sector Name="MDN" />
+        <Sector Name="MDS" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Melbourne/ML_COAST" />
+        <Map Name="Melbourne/ML_TCU" />
+        <Map Name="Melbourne/ML_RWY16" />
+        <Map Name="Melbourne/AV_RWY18" />
+        <Map Name="Melbourne/EN_RWY17" />
+        <Map Name="Melbourne/EN_RWY26" />
+        <Map Name="Melbourne/EN_RWY35" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMML" Frequency="118.0" />
+        <Window Airport="YMML" />
+        <Window Airport="YMAV" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YMML" Visible="true" />
+        <Window Type="ADEP" Beacon="YMAV" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1600,1900,2300,2600,2700,2900,3100,3700,3300,4100,4700</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YMML" />
+        <Airport Name="YMAV" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Melbourne Approach</Line>
+        <Line>ATIS available on 118.0</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Sydney TCU" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="150" MagneticVariation="-13">
+      <Sectors>
+        <Sector Name="SAN" />
+        <Sector Name="SAS" />
+        <Sector Name="SDN" />
+        <Sector Name="SDS" />
+        <Sector Name="SFW" />
+        <Sector Name="SFE" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Sydney/SY_COAST" />
+        <Map Name="Sydney/SY_TCU" />
+        <Map Name="Sydney/SY_RWY34PROPS" />
+        <Map Name="Sydney/RI_RWY28" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YSSY" Frequency="126.25" />
+        <Window Airport="YSSY" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YSSY" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="28000">
+        <AdditionalLevels>1600,1800,2100,2200,2700,3700</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YSSY" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Sydney Approach</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Brisbane TCU" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="150" MagneticVariation="-11">
+      <Sectors>
+        <Sector Name="BAN" />
+        <Sector Name="BAS" />
+        <Sector Name="BDN" />
+        <Sector Name="BDS" />
+        <Sector Name="BAG" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Brisbane/BN_COAST" />
+        <Map Name="Brisbane/BN_TCU" />
+        <Map Name="Brisbane/BN_RWY01PROPS" />
+        <Map Name="Brisbane/CG_RWY32" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBBN" Frequency="125.5" />
+        <Window Airport="YBBN" />
+        <Window Airport="YBCG" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBBN" Visible="true" />
+        <Window Type="ADEP" Beacon="YBCG" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="18000">
+        <AdditionalLevels>1700,1800,1900,2400,2900,3400,3800,4400,5100</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBBN" />
+        <Airport Name="YBCG" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Brisbane Approach</Line>
+        <Line>ATIS available on 125.5</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" MagneticVariation="-12.5">
+      <Sectors>
+        <Sector Name="CAE" />
+        <Sector Name="CAW" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Canberra/CB_COAST" />
+        <Map Name="Canberra/CB_TCU" />
+        <Map Name="Canberra/CB_RWY1712" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YSCB" Frequency="127.45" />
+        <Window Airport="YSCB" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YSCB" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>4300,4400,4800,5100,5400,6200,6700,7700</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YSCB" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Canberra Approach</Line>
+        <Line>ATIS available on 127.45</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" MagneticVariation="1.6">
+      <Sectors>
+        <Sector Name="PHA" />
+        <Sector Name="PHD" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Perth/PH_COAST" />
+        <Map Name="Perth/PH_TCU" />
+        <Map Name="Perth/PH_RWY0306" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPPH" Frequency="123.8" />
+        <Window Airport="YPPH" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPPH" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="18000">
+        <AdditionalLevels>1900,2700,2800,3100,3300</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YPPH" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Perth Approach</Line>
+        <Line>ATIS available on 123.8</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Cairns TCU" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="150" MagneticVariation="-6.7">
+      <Sectors>
+        <Sector Name="CSA" />
+        <Sector Name="CSD" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Cairns/CS_COAST" />
+        <Map Name="Cairns/CS_TCU" />
+        <Map Name="Cairns/CS_RWY15" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBCS" Frequency="131.1" />
+        <Window Airport="YBCS" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBCS" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="18000">
+        <AdditionalLevels>3300,3900,4700,4900,5200,5400,5800,6800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBCS" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Cairns Approach</Line>
+        <Line>ATIS available on 131.1</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Townsville TCU" Type="ASD" DefaultCenter="-19.2525+146.765278" DefaultRange="150" MagneticVariation="-7">
+      <Sectors>
+        <Sector Name="TLA" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Townsville/TL_COAST" />
+        <Map Name="Townsville/TL_TCU" />
+        <Map Name="Townsville/TL_RWY01" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBTL" Frequency="133.5" />
+        <Window Airport="YBTL" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBTL" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="18000">
+        <AdditionalLevels>2700,3600,4700,5100,5200</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBTL" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Townsville Approach</Line>
+        <Line>ATIS available on 133.5</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Tindal TCU" Type="ASD" DefaultCenter="-14.521111+132.377778" DefaultRange="150" MagneticVariation="-3">
+      <Sectors>
+        <Sector Name="TNA" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Tindal/TN_TCU" />
+        <Map Name="Tindal/TN_RWY14" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPTN" Frequency="124.000" />
+        <Window Airport="YPTN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPTN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="10000">
+        <AdditionalLevels>2300</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YPTN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Tindal Approach</Line>
+        <Line>ATIS available on 124.0</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Darwin TCU" Type="ASD" DefaultCenter="-12.414722+130.876667" DefaultRange="200" MagneticVariation="-3">
+      <Sectors>
+        <Sector Name="DNA" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Darwin/DN_COAST" />
+        <Map Name="Darwin/DN_TCU" />
+        <Map Name="Darwin/DN_RWY11" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPDN" Frequency="128.25" />
+        <Window Airport="YPDN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPDN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="18000">
+        <AdditionalLevels>1700</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YPDN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Darwin Approach</Line>
+        <Line>ATIS available on 128.25</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Williamtown TCU" Type="ASD" DefaultCenter="-32.795+151.834444" DefaultRange="120" MagneticVariation="-12.4">
+      <Sectors>
+        <Sector Name="WLM" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Williamtown/WLM_COAST" />
+        <Map Name="Williamtown/WLM_TCU" />
+        <Map Name="Williamtown/WLM_RWY12" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YWLM" Frequency="134.45" />
+        <Window Airport="YWLM" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YWLM" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="12000">
+        <AdditionalLevels>1600,3100</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YWLM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Willy Approach</Line>
+        <Line>ATIS available on 134.45</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Nowra TCU" Type="ASD" DefaultCenter="-34.948889+150.536944" DefaultRange="100" MagneticVariation="-12.8">
+      <Sectors>
+        <Sector Name="NWA" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Nowra/NW_COAST" />
+        <Map Name="Nowra/NW_TCU" />
+        <Map Name="Nowra/YSNW_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YSNW" Frequency="125.65" />
+        <Window Airport="YSNW" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YSNW" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="12500">
+        <AdditionalLevels>2300,4300</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YSNW" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Nowra Approach</Line>
+        <Line>ATIS available on 125.65</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Oakey TCU" Type="ASD" DefaultCenter="-27.411389+151.735278" DefaultRange="150" MagneticVariation="-10.6">
+      <Sectors>
+        <Sector Name="OKA" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Oakey/OK_TCU" />
+        <Map Name="Oakey/YBOK_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBOK" Frequency="124.3" />
+        <Window Airport="YBOK" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBOK" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="12500">
+        <AdditionalLevels>3700,4600</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBOK" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Oakey Approach</Line>
+        <Line>ATIS available on 124.3</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Avalon Tower" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="50" MagneticVariation="-11.6">
+      <Sectors>
+        <Sector Name="AV ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Melbourne/ML_COAST" />
+        <Map Name="Melbourne/ML_TCU" />
+        <Map Name="Melbourne/AV_RWY18" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMAV" Frequency="118.2" />
+        <Window Airport="YMAV" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YMAV" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="5000" />
+      <ArrivalLists>
+        <Airport Name="YMAV" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Avalon Tower</Line>
+        <Line>ATIS available on 118.2</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Edinburgh Tower" Type="ASD" DefaultCenter="-34.702500+138.620833" DefaultRange="60" MagneticVariation="-8">
+      <Sectors>
+        <Sector Name="ED ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Adelaide/AD_COAST" />
+        <Map Name="Adelaide/AD_TCU" />
+        <Map Name="Adelaide/ED_RWY18" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPED" Frequency="126.25" />
+        <Window Airport="YPED" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPED" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="5000" />
+      <ArrivalLists>
+        <Airport Name="YPED" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Edinburgh Tower</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Essendon Tower" Type="ASD" DefaultCenter="-37.728056+144.901944" DefaultRange="40" MagneticVariation="-11.7">
+      <Sectors>
+        <Sector Name="EN ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="C_LL_LABELS" />
+        <Map Name="Melbourne/ML_COAST" />
+        <Map Name="Melbourne/ML_TCU" />
+        <Map Name="Melbourne/EN_RWY26" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMEN" Frequency="119.8" />
+        <Window Airport="YMEN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YMEN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="5000" />
+      <ArrivalLists>
+        <Airport Name="YMEN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Essendon Tower</Line>
+        <Line>ATIS available on 119.8</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="GinGin Tower" Type="ASD" DefaultCenter="-31.465278+115.863333" DefaultRange="30" MagneticVariation="1.5">
+      <Sectors>
+        <Sector Name="GIG ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Perth/PH_TCU" />
+        <Map Name="Perth/GIG_RWY08" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YGIG" Frequency="134.0" />
+        <Window Airport="YGIG" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YGIG" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="5000" />
+      <ArrivalLists>
+        <Airport Name="YGIG" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>GinGin Tower</Line>
+        <Line>ATIS available on 134.0</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Gold Coast Tower" Type="ASD" DefaultCenter="-28.164444+153.504722" DefaultRange="45" MagneticVariation="-11.4">
+      <Sectors>
+        <Sector Name="CG ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Brisbane/BN_COAST" />
+        <Map Name="Brisbane/BN_TCU" />
+        <Map Name="Brisbane/CG_RWY14" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBCG" Frequency="134.5" />
+        <Window Airport="YBCG" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBCG" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="5000" />
+      <ArrivalLists>
+        <Airport Name="YBCG" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Gold Coast Tower</Line>
+        <Line>ATIS available on 134.5</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Pearce Tower" Type="ASD" DefaultCenter="-31.667778+116.015000" DefaultRange="60" MagneticVariation="1.5">
+      <Sectors>
+        <Sector Name="PEA ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Perth/PH_COAST" />
+        <Map Name="Perth/PH_TCU" />
+        <Map Name="Perth/PEA_RWY18" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPEA" Frequency="134.0" />
+        <Window Airport="YPEA" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPEA" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="5000" />
+      <ArrivalLists>
+        <Airport Name="YPEA" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Pearce Tower</Line>
+        <Line>ATIS available on 134.0</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Richmond Tower" Type="ASD" DefaultCenter="-33.600556+150.780833" DefaultRange="40" MagneticVariation="-12.4">
+      <Sectors>
+        <Sector Name="RI ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Sydney/SY_TCU" />
+        <Map Name="Sydney/RI_RWY28" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YSRI" Frequency="126.3" />
+        <Window Airport="YSRI" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YSRI" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="5000" />
+      <ArrivalLists>
+        <Airport Name="YSRI" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Richmond Tower</Line>
+        <Line>ATIS available on 126.3</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+  <Group Name="Metro">
+    <Position Name="Archerfield Tower" Type="ASD" DefaultCenter="-27.570278+153.008056" DefaultRange="30" MagneticVariation="-11">
+      <Sectors>
+        <Sector Name="AF ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="C_LL_LABELS" />
+        <Map Name="Brisbane/BN_TCU" />
+        <Map Name="Brisbane/BN_VFR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBAF" Frequency="120.9" />
+        <Window Airport="YBAF" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBAF" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="1000" />
+      <ArrivalLists>
+        <Airport Name="YBAF" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Archer Tower</Line>
+        <Line>ATIS available on 120.9</Line>
+        <Line>ATC feedback - feedback.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+  <Position Name="Bankstown Tower" Type="ASD" DefaultCenter="-33.924444+150.988333" DefaultRange="30" MagneticVariation="-12.6">
     <Sectors>
-      <Sector Name="AAW" />
-      <Sector Name="AAE" />
+      <Sector Name="BK ADC" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="C_LL_LABELS" />
+      <Map Name="Sydney/SY_TCU" />
+      <Map Name="Sydney/SY_VFR" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="YSBK" Frequency="120.9" />
+      <Window Airport="YSBK" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="YSBK" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="5000" />
+    <ArrivalLists>
+      <Airport Name="YSBK" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Bankstown Tower</Line>
+      <Line>ATIS available on 120.9</Line>
+      <Line>ATC feedback - feedback.vatpac.org</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Camden Tower" Type="ASD" DefaultCenter="-34.040278+150.686667" DefaultRange="30" MagneticVariation="-12.5">
+    <Sectors>
+      <Sector Name="CN ADC" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="C_LL_LABELS" />
+      <Map Name="Sydney/SY_TCU" />
+      <Map Name="Sydney/SY_VFR" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="YSCN" Frequency="125.1" />
+      <Window Airport="YSCN" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="YSCN" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="5000" />
+    <ArrivalLists>
+      <Airport Name="YSCN" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Camden Tower</Line>
+      <Line>ATIS available on 125.1</Line>
+      <Line>ATC feedback - feedback.vatpac.org</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Jandakot Tower" Type="ASD" DefaultCenter="-32.097500+115.881111" DefaultRange="30" MagneticVariation="1.7">
+    <Sectors>
+      <Sector Name="JT ADC" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="Perth/PH_COAST" />
+      <Map Name="Perth/PH_TCU" />
+      <Map Name="Perth/PH_VFR" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="YPJT" Frequency="128.65" />
+      <Window Airport="YPJT" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="YPJT" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="5000" />
+    <ArrivalLists>
+      <Airport Name="YPJT" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Jandakot Tower</Line>
+      <Line>ATIS available on 128.65</Line>
+      <Line>ATC feedback - feedback.vatpac.org</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Moorabbin Tower" Type="ASD" DefaultCenter="-37.975833+145.102222" DefaultRange="30" MagneticVariation="-11.8">
+    <Sectors>
+      <Sector Name="MB ADC" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="Melbourne/ML_COAST" />
+      <Map Name="Melbourne/ML_TCU" />
+      <Map Name="Melbourne/ML_VFR" />
+    </Maps>
+    <ATIS>
+      <Editor Airport="YMMB" Frequency="120.9" />
+      <Window Airport="YMMB" />
+    </ATIS>
+    <Strips Mode="Beacon" Sort="Alpha">
+      <Window Type="ADEP" Beacon="YMMB" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="5000" />
+    <ArrivalLists>
+      <Airport Name="YMMB" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Moorabbin Tower</Line>
+      <Line>ATIS available on 120.9</Line>
+      <Line>ATC feedback - feedback.vatpac.org</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Parafield Tower" Type="ASD" DefaultCenter="-34.793333+138.633056" DefaultRange="30" MagneticVariation="-8">
+    <Sectors>
+      <Sector Name="PF ADC" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="Adelaide/AD_COAST" />
-      <Map Name="Adelaide/AD_TCU" />
-      <Map Name="Adelaide/AD_RWY23" />
-      <Map Name="Adelaide/ED_RWY18" />
+      <Map Name="Adelaide/AD_TCU" />>
+      <Map Name="Adelaide/AD_VFR" />>
     </Maps>
     <ATIS>
-      <Editor Airport="YPAD" Frequency="134.5" Server="rw1.vatpac.org" />
-      <Window Airport="YPAD" />
+      <Editor Airport="YPPF" Frequency="120.9" />
+      <Window Airport="YPPF" />
     </ATIS>
     <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YPAD" Visible="true" />
+      <Window Type="ADEP" Beacon="YPPF" Visible="true" />
     </Strips>
-    <CFL QuickLevel="24000">
-      <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
-    </CFL>
+    <CFL QuickLevel="5000" />
     <ArrivalLists>
-      <Airport Name="YPAD" />
+      <Airport Name="YPPF" />
     </ArrivalLists>
     <ControllerInfo>
-      <Line>Adelaide Approach</Line>
-      <Line>ATIS available on 134.5</Line>
+      <Line>Parafield Tower</Line>
+      <Line>ATIS available on 120.9</Line>
       <Line>ATC feedback - feedback.vatpac.org</Line>
     </ControllerInfo>
   </Position>
+  </Group>
   <Position Name="YPAD" Type="ASMGCS" ASMGCSAirport="YPAD" DefaultCenter="-34.947162+138.532305" DefaultRange="2" MagneticVariation="-8" Rotation="-132">
     <Maps>
       <Map Name="Adelaide/ASMGCS_YPAD_RWY" />
@@ -623,40 +1783,21 @@
       <Map Name="Adelaide/ASMGCS_YPED_BLD" />
     </Maps>
   </Position>
-  <Position Name="Melbourne TCU" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="150" MagneticVariation="-11">
-    <Sectors>
-      <Sector Name="MAE" />
-      <Sector Name="MDN" />
-      <Sector Name="MDS" />
-    </Sectors>
+  <Position Name="YAMB" Type="ASMGCS" ASMGCSAirport="YAMB" DefaultCenter="-27.640556+152.711944" DefaultRange="2" MagneticVariation="-11" Rotation="-58.2">
     <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Melbourne/ML_COAST" />
-      <Map Name="Melbourne/ML_TCU" />
-      <Map Name="Melbourne/ML_RWY16" />
-      <Map Name="Melbourne/AV_RWY18" />
+      <Map Name="Amberley/ASMGCS_YAMB_RWY" />
+      <Map Name="Amberley/ASMGCS_YAMB_APR" />
+      <Map Name="Amberley/ASMGCS_YAMB_TWY" />
+      <Map Name="Amberley/ASMGCS_YAMB_BLD" />
     </Maps>
-    <ATIS>
-      <Editor Airport="YMML" Frequency="118.0" />
-      <Window Airport="YMML" />
-      <Window Airport="YMAV" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YMML" Visible="true" />
-      <Window Type="ADEP" Beacon="YMAV" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="24000">
-      <AdditionalLevels>1600,1900,2300,2600,2700,2900,3100,3700,3300,4100,4700</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YMML" />
-      <Airport Name="YMAV" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Melbourne Approach</Line>
-      <Line>ATIS available on 118.0</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
+  </Position>
+  <Position Name="YMES" Type="ASMGCS" ASMGCSAirport="YMES" DefaultCenter="-38.098889+147.149444" DefaultRange="2" MagneticVariation="-12.8" Rotation="0">
+    <Maps>
+      <Map Name="East Sale/ASMGCS_YMES_RWY" />
+      <Map Name="East Sale/ASMGCS_YMES_APR" />
+      <Map Name="East Sale/ASMGCS_YMES_TWY" />
+      <Map Name="East Sale/ASMGCS_YMES_BLD" />
+    </Maps>
   </Position>
   <Position Name="YMML" Type="ASMGCS" ASMGCSAirport="YMML" DefaultCenter="-37.673+144.843" DefaultRange="3" MagneticVariation="-11" Rotation="-70">
     <Maps>
@@ -665,41 +1806,6 @@
       <Map Name="Melbourne/ASMGCS_YMML_BLD" />
       <Map Name="Melbourne/ASMGCS_YMML_APR" />
     </Maps>
-  </Position>
-  <Position Name="Sydney TCU" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="150" MagneticVariation="-13">
-    <Sectors>
-      <Sector Name="SAN" />
-      <Sector Name="SAS" />
-      <Sector Name="SDN" />
-      <Sector Name="SDS" />
-      <Sector Name="SFW" />
-      <Sector Name="SFE" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Sydney/SY_COAST" />
-      <Map Name="Sydney/SY_TCU" />
-      <Map Name="Sydney/SY_RWY34PROPS" />
-      <Map Name="Sydney/RI_RWY28" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YSSY" Frequency="126.25" />
-      <Window Airport="YSSY" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YSSY" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="28000">
-      <AdditionalLevels>1600,1800,2100,2200,2700,3700</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YSSY" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Sydney Approach</Line>
-      <Line>ATIS available on 126.25</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
   </Position>
   <Position Name="YSSY" Type="ASMGCS" ASMGCSAirport="YSSY" DefaultCenter="-33.9461+151.1772" DefaultRange="3" MagneticVariation="-13" Rotation="25">
     <Maps>
@@ -717,43 +1823,6 @@
       <Map Name="Sydney/ASMGCS_YSRI_BLD" />
     </Maps>
   </Position>
-  <Position Name="Brisbane TCU" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="150" MagneticVariation="-11">
-    <Sectors>
-      <Sector Name="BAN" />
-      <Sector Name="BAS" />
-      <Sector Name="BDN" />
-      <Sector Name="BDS" />
-      <Sector Name="BAG" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Brisbane/BN_COAST" />
-      <Map Name="Brisbane/BN_TCU" />
-      <Map Name="Brisbane/BN_RWY01PROPS" />
-      <Map Name="Brisbane/CG_RWY32" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YBBN" Frequency="125.5" />
-      <Window Airport="YBBN" />
-      <Window Airport="YBCG" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YBBN" Visible="true" />
-      <Window Type="ADEP" Beacon="YBCG" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="18000">
-      <AdditionalLevels>1700,1800,1900,2400,2900,3400,3800,4400,5100</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YBBN" />
-      <Airport Name="YBCG" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Brisbane Approach</Line>
-      <Line>ATIS available on 125.5</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
   <Position Name="YBBN" Type="ASMGCS" ASMGCSAirport="YBBN" DefaultCenter="-27.3942+153.1218" DefaultRange="5" MagneticVariation="-11" Rotation="-15">
     <Maps>
       <Map Name="Brisbane/ASMGCS_YBBN_RWY" />
@@ -770,36 +1839,6 @@
       <Map Name="Brisbane/ASMGCS_YBCG_BLD" />
     </Maps>
   </Position>
-  <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" MagneticVariation="-12.5">
-    <Sectors>
-      <Sector Name="CAE" />
-      <Sector Name="CAW" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Canberra/CB_COAST" />
-      <Map Name="Canberra/CB_TCU" />
-      <Map Name="Canberra/CB_RWY1712" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YSCB" Frequency="127.45" />
-      <Window Airport="YSCB" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YSCB" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="24000">
-      <AdditionalLevels>4300,4400,4800,5100,5400,6200,6700,7700</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YSCB" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Canberra Approach</Line>
-      <Line>ATIS available on 127.45</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
   <Position Name="YSCB" Type="ASMGCS" ASMGCSAirport="YSCB" DefaultCenter="-35.306090+149.193797" DefaultRange="3" MagneticVariation="-12" Rotation="102">
     <Maps>
       <Map Name="Canberra/ASMGCS_YSCB_RWY" />
@@ -807,36 +1846,6 @@
       <Map Name="Canberra/ASMGCS_YSCB_TWY" />
       <Map Name="Canberra/ASMGCS_YSCB_BLD" />
     </Maps>
-  </Position>
-  <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" MagneticVariation="1.6">
-    <Sectors>
-      <Sector Name="PHA" />
-      <Sector Name="PHD" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Perth/PH_COAST" />
-      <Map Name="Perth/PH_TCU" />
-      <Map Name="Perth/PH_RWY0306" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YPPH" Frequency="123.8" />
-      <Window Airport="YPPH" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YPPH" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="18000">
-      <AdditionalLevels>1900,2700,2800,3100,3300</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YPPH" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Perth Approach</Line>
-      <Line>ATIS available on 123.8</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
   </Position>
   <Position Name="YPPH" Type="ASMGCS" ASMGCSAirport="YPPH" DefaultCenter="-31.9402+115.966944" DefaultRange="3" MagneticVariation="1.6" Rotation="74">
     <Maps>
@@ -854,36 +1863,6 @@
       <Map Name="Perth/ASMGCS_YPEA_BLD" />
     </Maps>
   </Position>
-  <Position Name="Cairns TCU" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="150" MagneticVariation="-6.7">
-    <Sectors>
-      <Sector Name="CSA" />
-      <Sector Name="CSD" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Cairns/CS_COAST" />
-      <Map Name="Cairns/CS_TCU" />
-      <Map Name="Cairns/CS_RWY15" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YBCS" Frequency="131.1" />
-      <Window Airport="YBCS" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YBCS" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="18000">
-      <AdditionalLevels>3300,3900,4700,4900,5200,5400,5800,6800</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YBCS" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Cairns Approach</Line>
-      <Line>ATIS available on 131.1</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
   <Position Name="YBCS" Type="ASMGCS" ASMGCSAirport="YBCS" DefaultCenter="-16.878476+145.750094" DefaultRange="2" MagneticVariation="-7" Rotation="120.4">
     <Maps>
       <Map Name="Cairns/ASMGCS_YBCS_RWY" />
@@ -891,35 +1870,6 @@
       <Map Name="Cairns/ASMGCS_YBCS_TWY" />
       <Map Name="Cairns/ASMGCS_YBCS_BLD" />
     </Maps>
-  </Position>
-  <Position Name="Townsville TCU" Type="ASD" DefaultCenter="-19.2525+146.765278" DefaultRange="150" MagneticVariation="-7">
-    <Sectors>
-      <Sector Name="TLA" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Townsville/TL_COAST" />
-      <Map Name="Townsville/TL_TCU" />
-      <Map Name="Townsville/TL_RWY01" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YBTL" Frequency="133.5" />
-      <Window Airport="YBTL" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YBTL" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="18000">
-      <AdditionalLevels>2700,3600,4700,5100,5200</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YBTL" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Townsville Approach</Line>
-      <Line>ATIS available on 133.5</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
   </Position>
   <Position Name="YBTL" Type="ASMGCS" ASMGCSAirport="YBTL" DefaultCenter="-19.248112+146.769076" DefaultRange="2" MagneticVariation="-7" Rotation="-107">
     <Maps>
@@ -929,34 +1879,6 @@
       <Map Name="Townsville/ASMGCS_YBTL_BLD" />
     </Maps>
   </Position>
-  <Position Name="Tindal TCU" Type="ASD" DefaultCenter="-14.521111+132.377778" DefaultRange="150" MagneticVariation="-3">
-    <Sectors>
-      <Sector Name="TNA" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Tindal/TN_TCU" />
-      <Map Name="Tindal/TN_RWY14" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YPTN" Frequency="124.000" />
-      <Window Airport="YPTN" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YPTN" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="10000">
-      <AdditionalLevels>2300</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YPTN" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Tindal Approach</Line>
-      <Line>ATIS available on 124.0</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
   <Position Name="YPTN" Type="ASMGCS" ASMGCSAirport="YPTN" DefaultCenter="-14.520112+132.380218" DefaultRange="2" MagneticVariation="-3" Rotation="134">
     <Maps>
       <Map Name="Tindal/ASMGCS_YPTN_RWY" />
@@ -964,35 +1886,6 @@
       <Map Name="Tindal/ASMGCS_YPTN_TWY" />
       <Map Name="Tindal/ASMGCS_YPTN_BLD" />
     </Maps>
-  </Position>
-  <Position Name="Darwin TCU" Type="ASD" DefaultCenter="-12.414722+130.876667" DefaultRange="200" MagneticVariation="-3">
-    <Sectors>
-      <Sector Name="DNA" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Darwin/DN_COAST" />
-      <Map Name="Darwin/DN_TCU" />
-      <Map Name="Darwin/DN_RWY11" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YPDN" Frequency="128.25" />
-      <Window Airport="YPDN" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YPDN" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="18000">
-      <AdditionalLevels>1700</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YPDN" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Darwin Approach</Line>
-      <Line>ATIS available on 128.25</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
   </Position>
   <Position Name="YPDN" Type="ASMGCS" ASMGCSAirport="YPDN" DefaultCenter="-12.415119+130.879154" DefaultRange="2" MagneticVariation="-3" Rotation="164">
     <Maps>
@@ -1002,488 +1895,13 @@
       <Map Name="Darwin/ASMGCS_YPDN_BLD" />
     </Maps>
   </Position>
-  <Position Name="Albury Tower" Type="ASD" DefaultCenter="-36.067778+146.958056" DefaultRange="80" MagneticVariation="-11.9">
-    <Sectors>
-      <Sector Name="AY ADC" />
-    </Sectors>
+  <Position Name="YWLM" Type="ASMGCS" ASMGCSAirport="YWLM" DefaultCenter="-32.795211+151.835095" DefaultRange="2" MagneticVariation="-12" Rotation="152">
     <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Albury/AY_TCU" />
-      <Map Name="Albury/AY_RWY07" />
+      <Map Name="Williamtown/ASMGCS_YWLM_RWY" />
+      <Map Name="Williamtown/ASMGCS_YWLM_APR" />
+      <Map Name="Williamtown/ASMGCS_YWLM_TWY" />
+      <Map Name="Williamtown/ASMGCS_YWLM_BLD" />
     </Maps>
-    <ATIS>
-      <Editor Airport="YMAY" Frequency="133.85" />
-      <Window Airport="YMAY" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YMAY" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="4500">
-      <AdditionalLevels>3400,5400</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YMAY" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Albury Tower</Line>
-      <Line>ATIS available on 133.85</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Alice Springs Tower" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="80" MagneticVariation="-4.6">
-    <Sectors>
-      <Sector Name="AS ADC" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Alice Springs/AS_TCU" />
-      <Map Name="Alice Springs/AS_RWY12" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YBAS" Frequency="123.000" />
-      <Window Airport="YBAS" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YBAS" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="4500">
-      <AdditionalLevels>5200</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YBAS" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Alice Tower</Line>
-      <Line>ATIS available on 123.0</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Amberley TCU" Type="ASD" DefaultCenter="-27.640556+152.711944" DefaultRange="150" MagneticVariation="-11">
-    <Sectors>
-      <Sector Name="AMB" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Amberley/AMB_TCU" />
-      <Map Name="Amberley/YAMB_ALLRWYS" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YAMB" Frequency="123.3" />
-      <Window Airport="YAMB" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YAMB" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="8500">
-      <AdditionalLevels>3400,3800,5100</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YAMB" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Amberley Approach</Line>
-      <Line>ATIS available on 123.3</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="YAMB" Type="ASMGCS" ASMGCSAirport="YAMB" DefaultCenter="-27.640556+152.711944" DefaultRange="2" MagneticVariation="-11" Rotation="-58.2">
-    <Maps>
-      <Map Name="Amberley/ASMGCS_YAMB_RWY" />
-      <Map Name="Amberley/ASMGCS_YAMB_APR" />
-      <Map Name="Amberley/ASMGCS_YAMB_TWY" />
-      <Map Name="Amberley/ASMGCS_YAMB_BLD" />
-    </Maps>
-  </Position>
-  <Position Name="Broome Tower" Type="ASD" DefaultCenter="-17.949444+122.227778" DefaultRange="120" MagneticVariation="-1.7">
-    <Sectors>
-      <Sector Name="BRM ADC" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Broome/BRM_COAST" />
-      <Map Name="Broome/BRM_TCU" />
-      <Map Name="Broome/YBRM_ALLRWYS" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YBRM" Frequency="128.2" />
-      <Window Airport="YBRM" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YBRM" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="5500">
-      <AdditionalLevels>2100</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YBRM" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Broome Tower</Line>
-      <Line>ATIS available on 128.2</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Coffs Harbour Tower" Type="ASD" DefaultCenter="-30.320556+153.116389" DefaultRange="80" MagneticVariation="-12">
-    <Sectors>
-      <Sector Name="CFS ADC" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Coffs Harbour/CFS_COAST" />
-      <Map Name="Coffs Harbour/CFS_TCU" />
-      <Map Name="Coffs Harbour/YCFS_ALLRWYS" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YCFS" Frequency="130.3" />
-      <Window Airport="YCFS" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YCFS" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="4500">
-      <AdditionalLevels>2500,3300,5500</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YCFS" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Coffs Harbour Tower</Line>
-      <Line>ATIS available on 130.3</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="East Sale TCU" Type="ASD" DefaultCenter="-38.098889+147.149444" DefaultRange="150" MagneticVariation="-12.8">
-    <Sectors>
-      <Sector Name="ESA" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="East Sale/ES_COAST" />
-      <Map Name="East Sale/ES_TCU" />
-      <Map Name="East Sale/YMES_ALLRWYS" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YMES" Frequency="125.4" />
-      <Window Airport="YMES" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YMES" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="21000">
-      <AdditionalLevels>1900,3400,3500,4400</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YMES" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>East Sale Approach</Line>
-      <Line>ATIS available on 125.4</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="YMES" Type="ASMGCS" ASMGCSAirport="YMES" DefaultCenter="-38.098889+147.149444" DefaultRange="2" MagneticVariation="-12.8" Rotation="0">
-    <Maps>
-      <Map Name="East Sale/ASMGCS_YMES_RWY" />
-      <Map Name="East Sale/ASMGCS_YMES_APR" />
-      <Map Name="East Sale/ASMGCS_YMES_TWY" />
-      <Map Name="East Sale/ASMGCS_YMES_BLD" />
-    </Maps>
-  </Position>
-  <Position Name="Hamilton Island Tower" Type="ASD" DefaultCenter="-20.358056+148.951667" DefaultRange="80" MagneticVariation="-8.1">
-    <Sectors>
-      <Sector Name="HM ADC" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Hamilton Island/HM_COAST" />
-      <Map Name="Hamilton Island/HM_TCU" />
-      <Map Name="Hamilton Island/YBHM_ALLRWYS" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YBHM" Frequency="128.35" />
-      <Window Airport="YBHM" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YBHM" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="4500">
-      <AdditionalLevels>2800,3900</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YBHM" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Hamilton Island Tower</Line>
-      <Line>ATIS available on 128.35</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Hobart Tower" Type="ASD" DefaultCenter="-42.836111+147.510278" DefaultRange="80" MagneticVariation="-15.3">
-    <Sectors>
-      <Sector Name="HB ADC" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Hobart/HB_COAST" />
-      <Map Name="Hobart/HB_TCU" />
-      <Map Name="Hobart/HB_RWY12" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YMHB" Frequency="128.45" />
-      <Window Airport="YMHB" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YMHB" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="4500">
-      <AdditionalLevels>3900,4200,5600</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YMHB" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Hobart Tower</Line>
-      <Line>ATIS available on 128.45</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Launceston Tower" Type="ASD" DefaultCenter="-41.545278+147.214167" DefaultRange="80" MagneticVariation="-14.4">
-    <Sectors>
-      <Sector Name="LT ADC" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Launceston/LT_COAST" />
-      <Map Name="Launceston/LT_TCU" />
-      <Map Name="Launceston/LT_RWY32L" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YMLT" Frequency="134.75" />
-      <Window Airport="YMLT" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YMLT" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="4500">
-      <AdditionalLevels>3200,5800,6300</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YMLT" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Launy Tower</Line>
-      <Line>ATIS available on 134.75</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Mackay Tower" Type="ASD" DefaultCenter="-21.171389+149.179722" DefaultRange="80" MagneticVariation="-8.4">
-    <Sectors>
-      <Sector Name="MK ADC" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Mackay/MK_COAST" />
-      <Map Name="Mackay/MK_TCU" />
-      <Map Name="Mackay/MK_RWY14" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YBMK" Frequency="128.0" />
-      <Window Airport="YBMK" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YBMK" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="4500">
-      <AdditionalLevels>2500</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YBMK" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Mackay Tower</Line>
-      <Line>ATIS available on 128.0</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Oakey TCU" Type="ASD" DefaultCenter="-27.411389+151.735278" DefaultRange="150" MagneticVariation="-10.6">
-    <Sectors>
-      <Sector Name="OKA" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Oakey/OK_TCU" />
-      <Map Name="Oakey/YBOK_ALLRWYS" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YBOK" Frequency="124.3" />
-      <Window Airport="YBOK" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YBOK" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="12500">
-      <AdditionalLevels>3700,4600</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YBOK" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Oakey Approach</Line>
-      <Line>ATIS available on 124.3</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="YBOK" Type="ASMGCS" ASMGCSAirport="YBOK" DefaultCenter="-27.411389+151.735278" DefaultRange="2" MagneticVariation="-10.6" Rotation="0">
-    <Maps>
-      <Map Name="Oakey/ASMGCS_YBOK_RWY" />
-      <Map Name="Oakey/ASMGCS_YBOK_APR" />
-      <Map Name="Oakey/ASMGCS_YBOK_TWY" />
-      <Map Name="Oakey/ASMGCS_YBOK_BLD" />
-    </Maps>
-  </Position>
-  <Position Name="Rockhampton Tower" Type="ASD" DefaultCenter="-23.381944+150.475278" DefaultRange="80" MagneticVariation="-9.2">
-    <Sectors>
-      <Sector Name="RK ADC" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Rockhampton/RK_COAST" />
-      <Map Name="Rockhampton/RK_TCU" />
-      <Map Name="Rockhampton/RK_RWY15" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YBRK" Frequency="128.5" />
-      <Window Airport="YBRK" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YBRK" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="4500">
-      <AdditionalLevels>3500</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YBRK" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Rocky Tower</Line>
-      <Line>ATIS available on 128.5</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Sunshine Coast Tower" Type="ASD" DefaultCenter="-26.603333+153.091111" DefaultRange="80" MagneticVariation="-10.8">
-    <Sectors>
-      <Sector Name="SU ADC" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Sunshine Coast/SU_COAST" />
-      <Map Name="Sunshine Coast/SU_TCU" />
-      <Map Name="Sunshine Coast/SU_RWY13" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YBSU" Frequency="119.8" />
-      <Window Airport="YBSU" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YBSU" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="4500">
-      <AdditionalLevels>1900,2800,4100</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YBSU" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Sunshine Coast Tower</Line>
-      <Line>ATIS available on 119.8</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Karratha Tower" Type="ASD" DefaultCenter="-20.712222+116.773333" DefaultRange="120" MagneticVariation="-0.9">
-    <Sectors>
-      <Sector Name="KA ADC" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Karratha/KA_COAST" />
-      <Map Name="Karratha/KA_TCU" />
-      <Map Name="Karratha/YPKA_ALLRWYS" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YPKA" Frequency="134.55" />
-      <Window Airport="YPKA" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YPKA" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="5500">
-      <AdditionalLevels>2000,2200</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YPKA" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Karratha Tower</Line>
-      <Line>ATIS available on 134.55</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Woomera Tower" Type="ASD" DefaultCenter="-31.144167+136.816944" DefaultRange="80" MagneticVariation="-6.6">
-    <Sectors>
-      <Sector Name="WR ADC" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Woomera/WR_TCU" />
-      <Map Name="Woomera/YPWR_ALLRWYS" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YPWR" Frequency="134.0" />
-      <Window Airport="YPWR" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YPWR" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="4500">
-      <AdditionalLevels>2000</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YPWR" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Woomera Tower</Line>
-      <Line>ATIS available on 134.0</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Nowra TCU" Type="ASD" DefaultCenter="-34.948889+150.536944" DefaultRange="100" MagneticVariation="-12.8">
-    <Sectors>
-      <Sector Name="NWA" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Nowra/NW_COAST" />
-      <Map Name="Nowra/NW_TCU" />
-      <Map Name="Nowra/YSNW_ALLRWYS" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YSNW" Frequency="125.65" />
-      <Window Airport="YSNW" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YSNW" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="12500">
-      <AdditionalLevels>2300,4300</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YSNW" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Nowra Approach</Line>
-      <Line>ATIS available on 125.65</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
   </Position>
   <Position Name="YSNW" Type="ASMGCS" ASMGCSAirport="YSNW" DefaultCenter="-34.943366+150.541717" DefaultRange="2" MagneticVariation="-12.8" Rotation="-31">
     <Maps>
@@ -1493,69 +1911,12 @@
       <Map Name="Nowra/ASMGCS_YSNW_BLD" />
     </Maps>
   </Position>
-  <Position Name="Tamworth Tower" Type="ASD" DefaultCenter="-31.083889+150.846667" DefaultRange="80" MagneticVariation="-11.5">
-    <Sectors>
-      <Sector Name="TW ADC" />
-    </Sectors>
+  <Position Name="YBOK" Type="ASMGCS" ASMGCSAirport="YBOK" DefaultCenter="-27.411389+151.735278" DefaultRange="2" MagneticVariation="-10.6" Rotation="0">
     <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Tamworth/TW_TCU" />
-      <Map Name="Tamworth/YSTW_ALLRWYS" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YSTW" Frequency="123.8" />
-      <Window Airport="YSTW" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YSTW" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="4500">
-      <AdditionalLevels>4300</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YSTW" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Tamworth Tower</Line>
-      <Line>ATIS available on 123.8</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Williamtown TCU" Type="ASD" DefaultCenter="-32.795+151.834444" DefaultRange="120" MagneticVariation="-12.4">
-    <Sectors>
-      <Sector Name="WLM" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="Williamtown/WLM_COAST" />
-      <Map Name="Williamtown/WLM_TCU" />
-      <Map Name="Williamtown/WLM_RWY12" />
-    </Maps>
-    <ATIS>
-      <Editor Airport="YWLM" Frequency="134.45" />
-      <Window Airport="YWLM" />
-    </ATIS>
-    <Strips Mode="Beacon" Sort="Alpha">
-      <Window Type="ADEP" Beacon="YWLM" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="12000">
-      <AdditionalLevels>1600,3100</AdditionalLevels>
-    </CFL>
-    <ArrivalLists>
-      <Airport Name="YWLM" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Willy Approach</Line>
-      <Line>ATIS available on 134.45</Line>
-      <Line>ATC feedback - feedback.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="YWLM" Type="ASMGCS" ASMGCSAirport="YWLM" DefaultCenter="-32.795211+151.835095" DefaultRange="2" MagneticVariation="-12" Rotation="152">
-    <Maps>
-      <Map Name="Williamtown/ASMGCS_YWLM_RWY" />
-      <Map Name="Williamtown/ASMGCS_YWLM_APR" />
-      <Map Name="Williamtown/ASMGCS_YWLM_TWY" />
-      <Map Name="Williamtown/ASMGCS_YWLM_BLD" />
+      <Map Name="Oakey/ASMGCS_YBOK_RWY" />
+      <Map Name="Oakey/ASMGCS_YBOK_APR" />
+      <Map Name="Oakey/ASMGCS_YBOK_TWY" />
+      <Map Name="Oakey/ASMGCS_YBOK_BLD" />
     </Maps>
   </Position>
 </Positions>

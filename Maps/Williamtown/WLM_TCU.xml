@@ -106,7 +106,6 @@
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="COASTAL">-32.930346+151.794142</Point>
       <Point Name="INLAND">-32.732282+151.540608</Point>
-      <Point Name="OVERHEAD">-32.445315+152.606986</Point>
     </Label>
     <!--COASTAL-->
     <Line Pattern="Dotted">
@@ -193,14 +192,6 @@
       -31.919231+152.024838/
       -31.913181+152.044788/
       -31.896023+152.090440
-    </Line>
-    <!--OVERHEAD-->
-    <Line Pattern="Dotted">
-      -32.445315+152.606986/
-      -32.563699+152.376565/
-      BRI/
-      YWLM/
-      HXB
     </Line>
   </Map>
   <Map Type="System" Name="YWLM_ALLRWYS" Priority="2" Centre="-32.795000+151.834444">

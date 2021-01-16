@@ -1203,6 +1203,14 @@
       <Point>KBYWC</Point>
       <Point>KBYWF</Point>
       <Point>KBYWI</Point>
+      <Point>KD2ED</Point>
+      <Point>KD2EE</Point>
+      <Point>KD2EF</Point>
+      <Point>KD2EI</Point>
+      <Point>KD2WB</Point>
+      <Point>KD2WC</Point>
+      <Point>KD2WF</Point>
+      <Point>KD2WI</Point>
       <Point>KERND</Point>
       <Point>KERNF</Point>
       <Point>KERNG</Point>
@@ -1873,6 +1881,11 @@
       <Point>OLZSC</Point>
       <Point>OLZSF</Point>
       <Point>OLZSI</Point>
+      <Point>OO2ED</Point>
+      <Point>OO2EE</Point>
+      <Point>OO2EF</Point>
+      <Point>OO2EG</Point>
+      <Point>OO2EI</Point>
       <Point>OOLNI</Point>
       <Point>OOLSI</Point>
       <Point>ORBEA</Point>
@@ -3280,6 +3293,8 @@
       <Point>JZCSF</Point>
       <Point>KBYEF</Point>
       <Point>KBYWF</Point>
+      <Point>KD2EF</Point>
+      <Point>KD2WF</Point>
       <Point>KERNF</Point>
       <Point>KERSF</Point>
       <Point>KIIEF</Point>
@@ -3420,6 +3435,7 @@
       <Point>OLDWF</Point>
       <Point>OLWNF</Point>
       <Point>OLZSF</Point>
+      <Point>OO2EF</Point>
       <Point>OOLNF</Point>
       <Point>OOLSF</Point>
       <Point>ORBEF</Point>
@@ -3911,6 +3927,8 @@
       <Point>JZCSI</Point>
       <Point>KBYEI</Point>
       <Point>KBYWI</Point>
+      <Point>KD2EI</Point>
+      <Point>KD2WI</Point>
       <Point>KERNI</Point>
       <Point>KERSI</Point>
       <Point>KIIEI</Point>
@@ -4050,6 +4068,7 @@
       <Point>OLDWI</Point>
       <Point>OLWNI</Point>
       <Point>OLZSI</Point>
+      <Point>OO2EI</Point>
       <Point>OOLNI</Point>
       <Point>OOLSI</Point>
       <Point>ORBEI</Point>
@@ -4980,6 +4999,10 @@
       <Point>KBYWA</Point>
       <Point>KBYWB</Point>
       <Point>KBYWC</Point>
+      <Point>KD2ED</Point>
+      <Point>KD2EE</Point>
+      <Point>KD2WB</Point>
+      <Point>KD2WC</Point>
       <Point>KERND</Point>
       <Point>KERNG</Point>
       <Point>KERNK</Point>
@@ -5376,6 +5399,9 @@
       <Point>OLWNG</Point>
       <Point>OLZSA</Point>
       <Point>OLZSC</Point>
+      <Point>OO2ED</Point>
+      <Point>OO2EE</Point>
+      <Point>OO2EG</Point>
       <Point>ORBEA</Point>
       <Point>ORBEB</Point>
       <Point>ORBEC</Point>
@@ -7291,6 +7317,14 @@
     <Line>KBYWC/KBYWI</Line>
     <Line>KBYWI/KBYWF</Line>
     <Line>KBYWM/KBYWF</Line>
+    <Line>KD2ED/KD2EI</Line>
+    <Line>KD2EE/KD2EI</Line>
+    <Line>KD2EI/KD2EF</Line>
+    <Line>-223030.810+1190511.430/KD2EF</Line>
+    <Line>KD2WB/KD2WI</Line>
+    <Line>KD2WC/KD2WI</Line>
+    <Line>KD2WI/KD2WF</Line>
+    <Line>-222959.930+1190402.020/KD2WF</Line>
     <Line>KERND/KERNI</Line>
     <Line>KERNG/KERNI</Line>
     <Line>KERNK/KERNI</Line>
@@ -7979,6 +8013,11 @@
     <Line>OLZSC/OLZSI</Line>
     <Line>OLZSI/OLZSF</Line>
     <Line>OLZSM/OLZSF</Line>
+    <Line>OO2ED/OO2EI</Line>
+    <Line>OO2EE/OO2EI</Line>
+    <Line>OO2EG/OO2EI</Line>
+    <Line>OO2EI/OO2EF</Line>
+    <Line>-280612.820+1401216.680/OO2EF</Line>
     <Line>KEGAN/OOLNI</Line>
     <Line>OOLNC/OOLNI</Line>
     <Line>OOLNI/OOLNF</Line>
@@ -8752,12 +8791,12 @@
     <Line>WGAEE/WGAEI</Line>
     <Line>WGAEG/WGAEI</Line>
     <Line>WGAEI/WGAEF</Line>
-    <Line>WGAEM/WGAEF</Line>
+    <Line>-350934.580+1472838.320/WGAEF</Line>
     <Line>WGAWA/WGAWI</Line>
     <Line>WGAWB/WGAWI</Line>
     <Line>WGAWC/WGAWI</Line>
     <Line>WGAWI/WGAWF</Line>
-    <Line>WGAWM/WGAWF</Line>
+    <Line>-351001.440+1472736.490/WGAWF</Line>
     <Line>WGTNA/WGTNI</Line>
     <Line>WGTNC/WGTNI</Line>
     <Line>WGTNI/WGTNF</Line>

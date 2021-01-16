@@ -1021,7 +1021,7 @@ IKUMA/
 ELBIS
 </Airway>
     <Airway Name="A346">
-HM VOR/
+OVRON/
 ELDEK/
 LEEAM/
 PADDY/
@@ -1180,7 +1180,7 @@ KILAN
 </Airway>
     <Airway Name="B462">
 MK VOR/
-HM VOR/
+OVRON/
 NONIR/
 APISO/
 PY VOR/
@@ -1323,7 +1323,7 @@ GUPOX/
 KADEM
 </Airway>
     <Airway Name="G205">
-HM VOR/
+OVRON/
 LAMEK/
 PIPPA/
 WEENA/
@@ -1445,7 +1445,7 @@ MUDGI/
 NBR NDB/
 HACHI/
 NITTA/
-HM VOR
+OVRON
 </Airway>
     <Airway Name="H111">
 TASUM/
@@ -2398,7 +2398,7 @@ TAPET/
 LOAFA/
 GLA VOR/
 CAPRI/
-HM VOR/
+OVRON/
 SWALO/
 BARIA/
 UPOLO/
@@ -3329,7 +3329,7 @@ PMQ NDB/
 KADSI
 </Airway>
     <Airway Name="W112">
-HM VOR/
+OVRON/
 ALBUX
 </Airway>
     <Airway Name="W113">
@@ -4956,7 +4956,7 @@ HUG NDB/
 BOWLY/
 LINSU/
 PN VOR/
-HM VOR
+OVRON
 </Airway>
     <Airway Name="W687">
 WAREN/
@@ -5754,7 +5754,7 @@ BOU NDB
 </Airway>
     <Airway Name="Z17">
 SWIFT/
-HM VOR
+OVRON
 </Airway>
     <Airway Name="Z19">
 PH VOR/
@@ -6166,6 +6166,7 @@ YTMN
     <Point Name="ANGAS" Type="Fix">-250758.500+1322622.200</Point>
     <Point Name="ANGAV" Type="Fix">-350008.000+1382104.000</Point>
     <Point Name="ANGED" Type="Fix">-133555.800+1314325.800</Point>
+    <Point Name="ANGIB" Type="Fix">-350616.170+1473614.080</Point>
     <Point Name="ANGIT" Type="Fix">-203625.800+1490706.300</Point>
     <Point Name="ANGUS" Type="Fix">-121708.500+1301421.400</Point>
     <Point Name="ANIRI" Type="Fix">-271749.300+1533508.400</Point>
@@ -6809,6 +6810,7 @@ YTMN
     <Point Name="BOGAL" Type="Fix">-333553.000+1374337.400</Point>
     <Point Name="BOGES" Type="Fix">-365109.900+1454418.500</Point>
     <Point Name="BOGGY" Type="Fix">-382609.200+1470942.100</Point>
+    <Point Name="BOGUD" Type="Fix">-350400.780+1474124.110</Point>
     <Point Name="BOILS" Type="Fix">-050000.000-1795048.001</Point>
     <Point Name="BOING" Type="Fix">-221424.000+1271502.000</Point>
     <Point Name="BOKED" Type="Fix">-373140.400+1581109.900</Point>
@@ -6937,8 +6939,8 @@ YTMN
     <Point Name="BRYWB" Type="Fix">-223620.000+1185329.300</Point>
     <Point Name="BRYWC" Type="Fix">-223238.800+1185814.900</Point>
     <Point Name="BRYWF" Type="Fix">-223857.300+1190355.300</Point>
-    <Point Name="BRYWH" Type="Fix">-223157.800+1191043.800</Point>
     <Point Name="BRYWI" Type="Fix">-223738.700+1185842.200</Point>
+    <Point Name="BRYWZ" Type="Fix">-224107.460+1191235.170</Point>
     <Point Name="BSGEA" Type="Fix">-123957.700+1421842.800</Point>
     <Point Name="BSGEB" Type="Fix">-124542.700+1421903.500</Point>
     <Point Name="BSGEC" Type="Fix">-124759.800+1421340.200</Point>
@@ -9226,6 +9228,16 @@ YTMN
     <Point Name="KBYWH" Type="Fix">-325151.800+1341958.400</Point>
     <Point Name="KBYWI" Type="Fix">-324332.900+1340806.100</Point>
     <Point Name="KBYWM" Type="Fix">-324956.800+1341713.800</Point>
+    <Point Name="KD2ED" Type="Fix">-223019.000+1191716.160</Point>
+    <Point Name="KD2EE" Type="Fix">-223700.130+1191948.810</Point>
+    <Point Name="KD2EF" Type="Fix">-223240.870+1191004.040</Point>
+    <Point Name="KD2EH" Type="Fix">-222846.770+1190117.700</Point>
+    <Point Name="KD2EI" Type="Fix">-223450.680+1191456.570</Point>
+    <Point Name="KD2WB" Type="Fix">-222322.240+1184910.610</Point>
+    <Point Name="KD2WC" Type="Fix">-222033.050+1185434.130</Point>
+    <Point Name="KD2WF" Type="Fix">-222742.910+1185854.380</Point>
+    <Point Name="KD2WH" Type="Fix">-223117.920+1190657.360</Point>
+    <Point Name="KD2WI" Type="Fix">-222532.650+1185402.420</Point>
     <Point Name="KEATS" Type="Fix">-353236.300+1485247.200</Point>
     <Point Name="KEBAB" Type="Fix">-331621.000+1542933.600</Point>
     <Point Name="KEDDY" Type="Fix">-343433.500+1492734.000</Point>
@@ -10788,6 +10800,12 @@ YTMN
     <Point Name="ONOXA" Type="Fix">-120000.000+1205244.600</Point>
     <Point Name="ONSLO" Type="Fix">-213959.400+1150643.400</Point>
     <Point Name="ONUMA" Type="Fix">-305828.000+1482248.900</Point>
+    <Point Name="OO2ED" Type="Fix">-281258.220+1402547.680</Point>
+    <Point Name="OO2EE" Type="Fix">-281828.790+1402355.920</Point>
+    <Point Name="OO2EF" Type="Fix">-281036.670+1401654.870</Point>
+    <Point Name="OO2EG" Type="Fix">-281848.670+1401726.660</Point>
+    <Point Name="OO2EH" Type="Fix">-280357.580+1402112.520</Point>
+    <Point Name="OO2EI" Type="Fix">-281432.780+1402025.270</Point>
     <Point Name="OOLNC" Type="Fix">-275618.400+1532813.100</Point>
     <Point Name="OOLNF" Type="Fix">-280620.000+1532805.900</Point>
     <Point Name="OOLNH" Type="Fix">-281200.700+1533142.600</Point>
@@ -13130,14 +13148,12 @@ YTMN
     <Point Name="WGAEG" Type="Fix">-350814.000+1474356.200</Point>
     <Point Name="WGAEH" Type="Fix">-351059.000+1472524.200</Point>
     <Point Name="WGAEI" Type="Fix">-350453.000+1473924.400</Point>
-    <Point Name="WGAEM" Type="Fix">-350934.600+1472838.300</Point>
     <Point Name="WGAWA" Type="Fix">-351939.800+1471738.800</Point>
     <Point Name="WGAWB" Type="Fix">-351702.000+1471124.900</Point>
     <Point Name="WGAWC" Type="Fix">-351120.100+1471218.000</Point>
     <Point Name="WGAWF" Type="Fix">-351221.900+1472213.000</Point>
     <Point Name="WGAWH" Type="Fix">-350837.100+1473050.600</Point>
     <Point Name="WGAWI" Type="Fix">-351442.100+1471649.100</Point>
-    <Point Name="WGAWM" Type="Fix">-351001.400+1472736.500</Point>
     <Point Name="WGTNA" Type="Fix">-361157.000+1461457.400</Point>
     <Point Name="WGTNC" Type="Fix">-360921.900+1462117.000</Point>
     <Point Name="WGTNF" Type="Fix">-361916.600+1461930.900</Point>
@@ -13665,7 +13681,6 @@ YTMN
     <Point Name="APPN" Type="Fix">-341200.000+1504718.000</Point>
     <Point Name="APST" Type="Fix">-335552.000+1511108.000</Point>
     <Point Name="ARCD" Type="Fix">-205200.000+1380400.000</Point>
-    <Point Name="ARE" Type="Fix">-320836.000+1160048.000</Point>
     <Point Name="ASST" Type="Fix">-345100.000+1485500.000</Point>
     <Point Name="ASU" Type="Fix">-351230.000+1472400.000</Point>
     <Point Name="ATG" Type="Fix">-305600.000+1505020.000</Point>
@@ -13737,7 +13752,6 @@ YTMN
     <Point Name="BRGE" Type="Fix">-165100.000+1453900.000</Point>
     <Point Name="BRH" Type="Fix">-283230.000+1533300.000</Point>
     <Point Name="BRI" Type="Fix">-323630.000+1521830.000</Point>
-    <Point Name="BRIC" Type="Fix">-320950.000+1160053.000</Point>
     <Point Name="BRIN" Type="Fix">-165430.000+1454230.000</Point>
     <Point Name="BRNJ" Type="Fix">-333448.000+1511936.000</Point>
     <Point Name="BRR" Type="Fix">-290100.000+1454200.000</Point>
@@ -14431,6 +14445,7 @@ YTMN
     <Point Name="RSWD" Type="Fix">-273810.000+1523535.000</Point>
     <Point Name="RTY" Type="Fix">-281300.000+1525200.000</Point>
     <Point Name="RUIS" Type="Fix">-274000.000+1532300.000</Point>
+    <Point Name="RUSS" Type="Fix">-321111.000+1160032.000</Point>
     <Point Name="RVB" Type="Fix">-334600.000+1511200.000</Point>
     <Point Name="RVTN" Type="Fix">-340954.000+1384448.000</Point>
     <Point Name="RYB" Type="Fix">-334930.000+1510530.000</Point>
@@ -14464,6 +14479,7 @@ YTMN
     <Point Name="SHIS" Type="Fix">-272242.000+1531400.000</Point>
     <Point Name="SHL" Type="Fix">-115300.000+1430100.000</Point>
     <Point Name="SHOAL" Type="Fix">-380400.000+1450200.000</Point>
+    <Point Name="SHOP" Type="Fix">-320854.000+1160057.000</Point>
     <Point Name="SIS" Type="Fix">-334218.000+1511100.000</Point>
     <Point Name="SJI" Type="Fix">-222600.000+1481700.000</Point>
     <Point Name="SKI" Type="Fix">-344430.000+1383150.000</Point>
@@ -14659,6 +14675,7 @@ YTMN
     <Point Name="WTRK" Type="Fix">-184619.000+1464306.000</Point>
     <Point Name="WTS" Type="Fix">-373100.000+1450700.000</Point>
     <Point Name="WUN" Type="Fix">-314600.000+1162236.000</Point>
+    <Point Name="WUNG" Type="Fix">-321206.000+1160346.000</Point>
     <Point Name="WUTUL" Type="Fix">-270145.000+1514830.000</Point>
     <Point Name="WWN" Type="Fix">-242500.000+1480300.000</Point>
     <Point Name="WYPT" Type="Fix">-271553.000+1530611.000</Point>
@@ -14829,7 +14846,6 @@ YTMN
     <Point Name="GLA" Type="Navaid" NavaidType="VOR" Frequency="116.300">-235154.900+1511215.900</Point>
     <Point Name="GV" Type="Navaid" NavaidType="VOR" Frequency="114.100">-121554.100+1364859.100</Point>
     <Point Name="HB" Type="Navaid" NavaidType="VOR" Frequency="112.700">-424958.000+1473038.400</Point>
-    <Point Name="HM" Type="Navaid" NavaidType="VOR" Frequency="114.400">-202104.200+1485721.200</Point>
     <Point Name="HN" Type="Navaid" NavaidType="VOR" Frequency="000.000">-092606.479+1600214.201</Point>
     <Point Name="KA" Type="Navaid" NavaidType="VOR" Frequency="117.300">-204254.300+1164626.200</Point>
     <Point Name="KG" Type="Navaid" NavaidType="VOR" Frequency="114.100">-304723.400+1212710.000</Point>
@@ -17535,6 +17551,10 @@ YTMN
     <Airport ICAO="YKCH" Position="-310136.000+1241100.000" />
     <Airport ICAO="YKCS" Position="-242513.000+1314908.000" Elevation="2017" />
     <Airport ICAO="YKCY" Position="-265816.000+1523355.000" Elevation="400" />
+    <Airport ICAO="YKDD" Position="-223019.000+1190434.000" Elevation="1473">
+      <Runway Name="12" Position="-222959.930+1190402.020" />
+      <Runway Name="30" Position="-223030.810+1190511.430" />
+    </Airport>
     <Airport ICAO="YKDI" Position="-335812.000+1373936.000" Elevation="138" />
     <Airport ICAO="YKDM" Position="-160657.000+1305712.000" Elevation="290" />
     <Airport ICAO="YKDN" Position="-322803.000+1181611.000" Elevation="965" />

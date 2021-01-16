@@ -252,7 +252,6 @@
       <Point>BOSVU</Point>
       <Point>DAMDA</Point>
     </Symbol>
-    <Symbol Type="Circle" />
     <Symbol Type="HollowStar">
       <Point>ALBUB</Point>
       <Point>AMBLE</Point>
@@ -342,6 +341,10 @@
       <Point Name="BDS">-27.715979+153.092582</Point>
       <Point Name="BDS/BAS">-27.181279+153.564636</Point>
     </Label>
+  </Map>
+  <Map Type="REST_NTZ_DAIW" Name="BN_RWY19PROPS NTZ" Priority="0">
+    <Line Pattern="Solid">
+-272133.840+1530741.879/-271706.695+1531015.024/-271715.661+1531034.824/-271706.695+1531015.024/-270718.916+1531551.449/-270727.882+1531611.220/-272142.434+1530800.820/-272133.840+1530741.879</Line>
   </Map>
   <Map Type="System" Name="BN_RWY19PROPS_NAMES" Priority="2" Centre="-27.384167+153.117500">
     <Label>
