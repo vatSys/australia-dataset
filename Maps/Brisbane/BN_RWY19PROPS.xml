@@ -330,21 +330,23 @@
       <Point>DUBOM</Point>
     </Symbol>
     <!--(BN) RWY19PROPS Airspace-->
-    <Line Width="1.7" Pattern="Solid">
+    <Line Width="1.7" Pattern="Dotted">
 -272311.460+1534205.560/-272146.616+1532914.160/-273805.056+1532806.763/-274729.398+1533006.351</Line>
-    <Line Width="1.7" Pattern="Solid">
+    <Line Width="1.7" Pattern="Dotted">
 -271325.000+1524103.000/-271231.248+1525504.058/-272126.601+1530717.910/-272222.933+1530805.287/-272706.563+1531637.883/-273836.412+1531641.066/-275140.536+1531243.157</Line>
+    <Line Width="1.7" Pattern="Dotted">
+-265516.191+1532337.251/-274840.645+1525303.590</Line>
     <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
       <Point Name="BDN">-27.581602+152.905597</Point>
       <Point Name="BDN/BAN">-26.959428+153.246671</Point>
-      <Point Name="BDS">-27.486336+153.578341</Point>
       <Point Name="BDS">-27.715979+153.092582</Point>
+      <Point Name="BDS">-27.486336+153.578341</Point>
       <Point Name="BDS/BAS">-27.181279+153.564636</Point>
     </Label>
   </Map>
-  <Map Type="REST_NTZ_DAIW" Name="BN_RWY19PROPS NTZ" Priority="0">
+  <Map Type="REST_NTZ_DAIW" Name="BN_RWY19PROPS_NTZ" Priority="0">
     <Line Pattern="Solid">
--272133.840+1530741.879/-271706.695+1531015.024/-271715.661+1531034.824/-271706.695+1531015.024/-270718.916+1531551.449/-270727.882+1531611.220/-272142.434+1530800.820/-272133.840+1530741.879</Line>
+-272133.825+1530741.644/-271706.680+1531014.789/-271715.646+1531034.589/-271706.680+1531014.789/-270532.008+1531652.276/-270540.974+1531712.042/-272142.312+1530800.342/-272133.825+1530741.644</Line>
   </Map>
   <Map Type="System" Name="BN_RWY19PROPS_NAMES" Priority="2" Centre="-27.384167+153.117500">
     <Label>
