@@ -296,6 +296,14 @@
       <Point>BERSI</Point>
       <Point>FOGGI</Point>
     </Symbol>
+    <!--(CS) RWY15 Airspace-->
+    <Line Width="1.7" Pattern="Dotted">
+-172203.720+1460325.244/-171433.000+1455804.000/-171003.000+1455723.000/-170552.000+1455453.000/-170357.000+1455244.000/-165942.000+1455351.000/-165254.000+1454503.000/-161956.050+1452557.227</Line>
+    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
+      <Point Name="APP CLL-180">-16.484167+146.055833</Point>
+      <Point Name="DEP BLW CLL">-16.619167+146.167222</Point>
+      <Point Name="DEP">-17.101111+145.369444</Point>
+    </Label>
   </Map>
   <Map Type="System" Name="CS_RWY15_NAMES" Priority="2" Centre="-16.885833+145.755278">
     <Label>
