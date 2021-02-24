@@ -133,7 +133,7 @@
     <Message Response="NE">CLIMB VIA SID TO [LEVEL]</Message>
     <Message Response="NE">DEP FREQ [FREQUENCY]</Message>
     <Message Response="NE">SQUAWK [SSR]</Message>
-	<Message Response="NE">PDC READBACK FREQ [FREQUENCY]</Message>
+	<Message Response="NE">PDC READBACK ONLY SID SQUAWK CODE AND BAY NUMBER TO FREQ [FREQUENCY]</Message>
   </Category>
   <Category name="Speed">
     <Message Response="WU">MAINTAIN [SPEED]</Message>
