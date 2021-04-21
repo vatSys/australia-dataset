@@ -14,7 +14,7 @@
       -38.073328+144.476352/
       -38.068891+144.491827/
       JUSTY/
-      ML
+      ML VOR
     </Line>
     <!--STARs-->
     <Line>
@@ -30,7 +30,7 @@
     </Line>
     <Line>
       <!--Rwy18 JAYBI5.ML-->
-      ML/
+      ML VOR/
       JAYBI
     </Line>
     <Line>
@@ -42,9 +42,11 @@
     <Symbol Type="HollowTriangle">
       <Point>TEMPL</Point>
     </Symbol>
+    <Symbol Type="Circle">
+      <Point>ML VOR</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>JUSTY</Point>
-      <Point>ML</Point>
       <Point>APPLE</Point>
       <Point>SOAPY</Point>
       <Point>JAYBI</Point>
@@ -55,7 +57,7 @@
   <Map Type="System" Name="AV_RWY18_NAMES" Priority="2" Centre="-38.039444+144.469444">
     <Label>
       <Point>JUSTY</Point>
-      <Point>ML</Point>
+      <Point>ML VOR</Point>
       <Point>APPLE</Point>
       <Point>SOAPY</Point>
       <Point>JAYBI</Point>

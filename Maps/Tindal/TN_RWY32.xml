@@ -23,7 +23,7 @@
       <!--Rwy32 DN4-->
       -14.512197+132.368858/
       -14.501491+132.359024/
-      DN
+      DN VOR
     </Line>
     <Line>
       <!--Rwy32 DOSAM4-->
@@ -52,7 +52,7 @@
     <Line>
       <!--Rwy32 MIGAX3-->
       -14.477637+132.383105/
-      -14.539692+132.399221/
+      -14.539693+132.399221/
       MIGAX
     </Line>
     <Line>
@@ -62,9 +62,11 @@
       MILIV
     </Line>
     <!--STARs-->
+    <Symbol Type="Circle">
+      <Point>DN VOR</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>DAPMA</Point>
-      <Point>DN</Point>
       <Point>DOSAM</Point>
       <Point>GREGA</Point>
       <Point>LARAB</Point>
@@ -75,14 +77,13 @@
   <Map Type="System" Name="TN_RWY32_NAMES" Priority="2" Centre="-14.521111+132.377778">
     <Label>
       <Point>DAPMA</Point>
-      <Point>DN</Point>
+      <Point>DN VOR</Point>
       <Point>DOSAM</Point>
       <Point>GREGA</Point>
       <Point>LARAB</Point>
       <Point>MIGAX</Point>
       <Point>MILIV</Point>
       <Point>AGUST</Point>
-      <Point>DN VOR</Point>
       <Point>LAKUP</Point>
       <Point>ANGED</Point>
       <Point>BONES</Point>

@@ -12,17 +12,6 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy19L BIXAD1-->
-      -27.402803+153.118217/
-      CITEE/
-      TOGIN/
-      ALBUB/
-      AMBLE/
-      DEBAY/
-      BUKBU/
-      BIXAD
-    </Line>
-    <Line>
       <!--Rwy19L GUMKI1-->
       -27.402803+153.118217/
       BOSVU/
@@ -46,20 +35,21 @@
       SCOTT
     </Line>
     <Line>
-      <!--Rwy19L WACKO3-->
-      TOGIN/
-      IGMAS/
-      WACKO
-    </Line>
-    <Line>
       <!--Rwy19R BIXAD1-->
       -27.383081+153.106853/
       DAMDA/
-      TOGIN
+      TOGIN/
+      ALBUB/
+      AMBLE/
+      DEBAY/
+      BUKBU/
+      BIXAD
     </Line>
     <Line>
       <!--Rwy19R WACKO3-->
-      
+      TOGIN/
+      IGMAS/
+      WACKO
     </Line>
     <!--STARs-->
     <Line>
@@ -113,25 +103,6 @@
       PUBIV
     </Line>
     <Line>
-      <!--Rwy19L MORB1A-->
-      MORBI/
-      REMOR/
-      GAYLA/
-      LUTKO/
-      IGBON/
-      EMSIT/
-      IRVUL/
-      BETSO
-    </Line>
-    <Line>
-      <!--Rwy19L SMOK9A-->
-      SMOKA/
-      OTGAT/
-      GARTH/
-      BURPA/
-      IGBON
-    </Line>
-    <Line>
       <!--Rwy19L TEBO1A-->
       TEBOT/
       URBIN/
@@ -152,52 +123,16 @@
       ATSEP
     </Line>
     <Line>
-      <!--Rwy19L WODY1A-->
-      WOODY/
-      ATVON/
-      TEGIL/
-      PAMGO/
-      IGBON
-    </Line>
-    <Line>
-      <!--Rwy19R BLAK4A-->
-      BLAKA/
-      SUNUB/
-      LAGOB/
-      AMITY/
-      ESLUB/
-      OSEGU/
-      PILIG/
-      LAVIN/
-      OSOKO
-    </Line>
-    <Line>
-      <!--Rwy19R ENLI1A-->
-      ENLIP/
-      DULIN/
-      ALBUB/
-      RITVU/
-      APUKU/
-      DRAIN/
+      <!--Rwy19R MORB1A-->
+      MORBI/
+      REMOR/
+      GAYLA/
+      LUTKO/
+      IGBON/
       PAMBU/
       ATRAX/
-      LAVIN
-    </Line>
-    <Line>
-      <!--Rwy19R ENLI1X-->
-      DRAIN/
-      LUVNA
-    </Line>
-    <Line>
-      <!--Rwy19R GOMO1A-->
-      GOMOL/
-      IRMEL/
-      AMITY
-    </Line>
-    <Line>
-      <!--Rwy19R MORB1A-->
-      IGBON/
-      PAMBU
+      LAVIN/
+      OSOKO
     </Line>
     <Line>
       <!--Rwy19R MORB1V-->
@@ -206,7 +141,11 @@
     </Line>
     <Line>
       <!--Rwy19R SMOK9A-->
-      
+      SMOKA/
+      OTGAT/
+      GARTH/
+      BURPA/
+      IGBON
     </Line>
     <Line>
       <!--Rwy19R SMOK9X-->
@@ -214,24 +153,16 @@
       DAYBO/
       PAMGO/
       RUTAX/
-      DRAIN
-    </Line>
-    <Line>
-      <!--Rwy19R TEBO1A-->
-      URBIN/
-      DOLSU/
-      PILIG
-    </Line>
-    <Line>
-      <!--Rwy19R UGTU1A-->
-      UGTUG/
-      ENAID/
-      DUBOM/
-      OSEGU
+      DRAIN/
+      LUVNA
     </Line>
     <Line>
       <!--Rwy19R WODY1A-->
-      
+      WOODY/
+      ATVON/
+      TEGIL/
+      PAMGO/
+      IGBON
     </Line>
     <Line>
       <!--Rwy19R WODY1V-->
@@ -242,22 +173,16 @@
       <Point>ATSEP</Point>
       <Point>OLVUN</Point>
       <Point>OSOKO</Point>
-      <Point>LUVNA</Point>
       <Point>TOLAX</Point>
+      <Point>LUVNA</Point>
       <Point>PAMGO</Point>
     </Symbol>
     <Symbol Type="SolidStar">
-      <Point>CITEE</Point>
-      <Point>TOGIN</Point>
       <Point>BOSVU</Point>
       <Point>DAMDA</Point>
+      <Point>TOGIN</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>ALBUB</Point>
-      <Point>AMBLE</Point>
-      <Point>DEBAY</Point>
-      <Point>BUKBU</Point>
-      <Point>BIXAD</Point>
       <Point>DADAN</Point>
       <Point>DENIS</Point>
       <Point>LILEE</Point>
@@ -268,6 +193,11 @@
       <Point>GUMKI</Point>
       <Point>SANEG</Point>
       <Point>SCOTT</Point>
+      <Point>ALBUB</Point>
+      <Point>AMBLE</Point>
+      <Point>DEBAY</Point>
+      <Point>BUKBU</Point>
+      <Point>BIXAD</Point>
       <Point>IGMAS</Point>
       <Point>WACKO</Point>
       <Point>BLAKA</Point>
@@ -288,17 +218,6 @@
       <Point>SALEL</Point>
       <Point>SALGA</Point>
       <Point>VALVO</Point>
-      <Point>MORBI</Point>
-      <Point>REMOR</Point>
-      <Point>GAYLA</Point>
-      <Point>LUTKO</Point>
-      <Point>IGBON</Point>
-      <Point>EMSIT</Point>
-      <Point>IRVUL</Point>
-      <Point>SMOKA</Point>
-      <Point>OTGAT</Point>
-      <Point>GARTH</Point>
-      <Point>BURPA</Point>
       <Point>TEBOT</Point>
       <Point>URBIN</Point>
       <Point>KALTO</Point>
@@ -306,28 +225,24 @@
       <Point>IPGAV</Point>
       <Point>TEMUL</Point>
       <Point>BUGSO</Point>
+      <Point>MORBI</Point>
+      <Point>REMOR</Point>
+      <Point>GAYLA</Point>
+      <Point>LUTKO</Point>
+      <Point>IGBON</Point>
+      <Point>PAMBU</Point>
+      <Point>ATRAX</Point>
+      <Point>LAVIN</Point>
+      <Point>SMOKA</Point>
+      <Point>OTGAT</Point>
+      <Point>GARTH</Point>
+      <Point>BURPA</Point>
+      <Point>DAYBO</Point>
+      <Point>RUTAX</Point>
+      <Point>DRAIN</Point>
       <Point>WOODY</Point>
       <Point>ATVON</Point>
       <Point>TEGIL</Point>
-      <Point>SUNUB</Point>
-      <Point>LAGOB</Point>
-      <Point>AMITY</Point>
-      <Point>ESLUB</Point>
-      <Point>OSEGU</Point>
-      <Point>PILIG</Point>
-      <Point>LAVIN</Point>
-      <Point>DULIN</Point>
-      <Point>RITVU</Point>
-      <Point>APUKU</Point>
-      <Point>DRAIN</Point>
-      <Point>PAMBU</Point>
-      <Point>ATRAX</Point>
-      <Point>IRMEL</Point>
-      <Point>DAYBO</Point>
-      <Point>RUTAX</Point>
-      <Point>DOLSU</Point>
-      <Point>ENAID</Point>
-      <Point>DUBOM</Point>
     </Symbol>
     <!--(BN) RWY19PROPS Airspace-->
     <Line Width="1.7" Pattern="Dotted">
@@ -350,13 +265,6 @@
   </Map>
   <Map Type="System" Name="BN_RWY19PROPS_NAMES" Priority="2" Centre="-27.384167+153.117500">
     <Label>
-      <Point>CITEE</Point>
-      <Point>TOGIN</Point>
-      <Point>ALBUB</Point>
-      <Point>AMBLE</Point>
-      <Point>DEBAY</Point>
-      <Point>BUKBU</Point>
-      <Point>BIXAD</Point>
       <Point>BOSVU</Point>
       <Point>DADAN</Point>
       <Point>DENIS</Point>
@@ -368,9 +276,15 @@
       <Point>GUMKI</Point>
       <Point>SANEG</Point>
       <Point>SCOTT</Point>
+      <Point>DAMDA</Point>
+      <Point>TOGIN</Point>
+      <Point>ALBUB</Point>
+      <Point>AMBLE</Point>
+      <Point>DEBAY</Point>
+      <Point>BUKBU</Point>
+      <Point>BIXAD</Point>
       <Point>IGMAS</Point>
       <Point>WACKO</Point>
-      <Point>DAMDA</Point>
       <Point>BLAKA</Point>
       <Point>DOGMU</Point>
       <Point>LAGEV</Point>
@@ -392,17 +306,6 @@
       <Point>SALGA</Point>
       <Point>OLVUN</Point>
       <Point>VALVO</Point>
-      <Point>MORBI</Point>
-      <Point>REMOR</Point>
-      <Point>GAYLA</Point>
-      <Point>LUTKO</Point>
-      <Point>IGBON</Point>
-      <Point>EMSIT</Point>
-      <Point>IRVUL</Point>
-      <Point>SMOKA</Point>
-      <Point>OTGAT</Point>
-      <Point>GARTH</Point>
-      <Point>BURPA</Point>
       <Point>TEBOT</Point>
       <Point>URBIN</Point>
       <Point>KALTO</Point>
@@ -410,32 +313,28 @@
       <Point>IPGAV</Point>
       <Point>TEMUL</Point>
       <Point>BUGSO</Point>
+      <Point>MORBI</Point>
+      <Point>REMOR</Point>
+      <Point>GAYLA</Point>
+      <Point>LUTKO</Point>
+      <Point>IGBON</Point>
+      <Point>PAMBU</Point>
+      <Point>ATRAX</Point>
+      <Point>LAVIN</Point>
+      <Point>OSOKO</Point>
+      <Point>TOLAX</Point>
+      <Point>SMOKA</Point>
+      <Point>OTGAT</Point>
+      <Point>GARTH</Point>
+      <Point>BURPA</Point>
+      <Point>DAYBO</Point>
+      <Point>PAMGO</Point>
+      <Point>RUTAX</Point>
+      <Point>DRAIN</Point>
+      <Point>LUVNA</Point>
       <Point>WOODY</Point>
       <Point>ATVON</Point>
       <Point>TEGIL</Point>
-      <Point>PAMGO</Point>
-      <Point>SUNUB</Point>
-      <Point>LAGOB</Point>
-      <Point>AMITY</Point>
-      <Point>ESLUB</Point>
-      <Point>OSEGU</Point>
-      <Point>PILIG</Point>
-      <Point>LAVIN</Point>
-      <Point>OSOKO</Point>
-      <Point>DULIN</Point>
-      <Point>RITVU</Point>
-      <Point>APUKU</Point>
-      <Point>DRAIN</Point>
-      <Point>PAMBU</Point>
-      <Point>ATRAX</Point>
-      <Point>LUVNA</Point>
-      <Point>IRMEL</Point>
-      <Point>TOLAX</Point>
-      <Point>DAYBO</Point>
-      <Point>RUTAX</Point>
-      <Point>DOLSU</Point>
-      <Point>ENAID</Point>
-      <Point>DUBOM</Point>
       <Point>MEPEM</Point>
       <Point>ROM NDB</Point>
       <Point>MIMMI</Point>
@@ -488,6 +387,7 @@
       <Point>TUCAB</Point>
       <Point>TUCKI</Point>
       <Point>JEDDA</Point>
+      <Point>DULIN</Point>
       <Point>BNA NDB</Point>
       <Point>KADSI</Point>
       <Point>UGPOT</Point>
@@ -515,9 +415,12 @@
       <Point>RACHL</Point>
       <Point>SUKTU</Point>
       <Point>EDPEG</Point>
+      <Point>SPARK</Point>
+      <Point>ENAID</Point>
+      <Point>YAMB</Point>
+      <Point>LAGOB</Point>
       <Point>RISON</Point>
       <Point>PERSA</Point>
-      <Point>YAMB</Point>
     </Label>
   </Map>
 </Maps>

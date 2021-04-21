@@ -16,7 +16,7 @@
       -35.314800+149.194447/
       -35.335182+149.195815/
       -35.351258+149.195089/
-      -35.360197+149.193245/
+      -35.360198+149.193245/
       -35.380476+149.187399/
       -35.394580+149.183068/
       -35.414049+149.185305/
@@ -49,7 +49,7 @@
     <Line>
       <!--Rwy17 HOWLY8-->
       -35.314800+149.194447/
-      -35.332206+149.193887/
+      -35.332206+149.193888/
       BIDGI/
       KEATS/
       HOWLY
@@ -68,7 +68,7 @@
     <Line>
       <!--Rwy17 WG1-->
       KEATS/
-      WG
+      WG VOR
     </Line>
     <!--STARs-->
     <Line>
@@ -96,7 +96,7 @@
     </Line>
     <Line>
       <!--Rwy17 MAND2A.WG-->
-      WG/
+      WG VOR/
       MANDA
     </Line>
     <Line>
@@ -142,6 +142,9 @@
       <Point>VADMA</Point>
       <Point>SAPIT</Point>
     </Symbol>
+    <Symbol Type="Circle">
+      <Point>WG VOR</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>OGORA</Point>
       <Point>OKERU</Point>
@@ -160,7 +163,6 @@
       <Point>NONUP</Point>
       <Point>KELLY</Point>
       <Point>TANTA</Point>
-      <Point>WG</Point>
       <Point>GOONY</Point>
       <Point>BUNGO</Point>
       <Point>GEORG</Point>
@@ -191,7 +193,7 @@
       <Point>NONUP</Point>
       <Point>KELLY</Point>
       <Point>TANTA</Point>
-      <Point>WG</Point>
+      <Point>WG VOR</Point>
       <Point>GOONY</Point>
       <Point>TALAG</Point>
       <Point>BUNGO</Point>
@@ -224,7 +226,6 @@
       <Point>UGVER</Point>
       <Point>WOLBI</Point>
       <Point>BTH NDB</Point>
-      <Point>WG VOR</Point>
       <Point>POPLA</Point>
       <Point>IGDEL</Point>
       <Point>PEAKE</Point>

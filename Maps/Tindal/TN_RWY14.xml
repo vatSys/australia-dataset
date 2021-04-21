@@ -30,7 +30,7 @@
       -14.597683+132.377331/
       -14.595679+132.360661/
       -14.586149+132.346514/
-      DN
+      DN VOR
     </Line>
     <Line>
       <!--Rwy14 DOSAM4-->
@@ -70,9 +70,11 @@
     <Symbol Type="HollowTriangle">
       <Point>ATOTU</Point>
     </Symbol>
+    <Symbol Type="Circle">
+      <Point>DN VOR</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>DAPMA</Point>
-      <Point>DN</Point>
       <Point>DOSAM</Point>
       <Point>GREGA</Point>
       <Point>LARAB</Point>
@@ -83,14 +85,13 @@
   <Map Type="System" Name="TN_RWY14_NAMES" Priority="2" Centre="-14.521111+132.377778">
     <Label>
       <Point>DAPMA</Point>
-      <Point>DN</Point>
+      <Point>DN VOR</Point>
       <Point>DOSAM</Point>
       <Point>GREGA</Point>
       <Point>LARAB</Point>
       <Point>MIGAX</Point>
       <Point>MILIV</Point>
       <Point>AGUST</Point>
-      <Point>DN VOR</Point>
       <Point>LAKUP</Point>
       <Point>ANGED</Point>
       <Point>BONES</Point>

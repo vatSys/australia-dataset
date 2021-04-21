@@ -12,7 +12,7 @@
       -38.027239+144.469425/
       -38.017355+144.471183/
       JUSTY/
-      ML
+      ML VOR
     </Line>
     <!--STARs-->
     <Line>
@@ -28,34 +28,39 @@
     </Line>
     <Line>
       <!--Rwy36 JAYBI5.ML-->
-      ML/
+      ML VOR/
       JAYBI
     </Line>
     <Line>
       <!--Rwy36 JAYBI5-->
       JAYBI/
+      BEKKA/
       TEMPL
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>TEMPL</Point>
     </Symbol>
+    <Symbol Type="Circle">
+      <Point>ML VOR</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>JUSTY</Point>
-      <Point>ML</Point>
       <Point>APPLE</Point>
       <Point>SOAPY</Point>
       <Point>JAYBI</Point>
       <Point>CANTY</Point>
+      <Point>BEKKA</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="AV_RWY36_NAMES" Priority="2" Centre="-38.039444+144.469444">
     <Label>
       <Point>JUSTY</Point>
-      <Point>ML</Point>
+      <Point>ML VOR</Point>
       <Point>APPLE</Point>
       <Point>SOAPY</Point>
       <Point>JAYBI</Point>
       <Point>CANTY</Point>
+      <Point>BEKKA</Point>
       <Point>TEMPL</Point>
       <Point>NONIX</Point>
       <Point>KACEY</Point>

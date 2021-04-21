@@ -2797,6 +2797,12 @@
 -050000.000+1885000.000/
 -135508.000+1845337.000/
 -250000.000+1800000.000</Boundary>
+  <Boundary Name="NVVV_CTA">
+-140000.000+1630000.000/
+-130001.154+1644539.870/
+-130000.000+1703000.000/
+-210000.000+1703000.000/
+-140000.000+1630000.000</Boundary>
   <Boundary Name="NZCM_WEST">
     -900000.000+1630000.000/
     -600000.000+1630000.000/
@@ -4743,6 +4749,9 @@
   </Volume>
   <Volume Name="NFFF" LowerLimit="9500" UpperLimit="99999">
     <Boundaries>NFFF-A,NFFF-B</Boundaries>
+  </Volume>
+  <Volume Name="NVVV" LowerLimit="0" UpperLimit="24500">
+    <Boundaries>NVVV_CTA</Boundaries>
   </Volume>
   <Volume Name="NWA-A" LowerLimit="0" UpperLimit="12500">
     <Boundaries>R421A_NOWRA</Boundaries>

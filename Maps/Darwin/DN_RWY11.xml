@@ -10,7 +10,7 @@
     <Line>
       <!--Rwy11 BIRDY4-->
       -12.419228+130.894442/
-      DN/
+      DN VOR/
       UPROX/
       PEBBL/
       UBDIG/
@@ -38,7 +38,7 @@
     </Line>
     <Line>
       <!--Rwy11 LAKUP5-->
-      DN/
+      DN VOR/
       ONALI/
       OTGAX/
       LAKUP
@@ -64,7 +64,7 @@
     </Line>
     <Line>
       <!--Rwy11 VANDI6-->
-      DN/
+      DN VOR/
       PAMGA/
       BAXIB/
       VANDI
@@ -135,8 +135,10 @@
       <Point>KITTY</Point>
       <Point>UPSEN</Point>
     </Symbol>
+    <Symbol Type="Circle">
+      <Point>DN VOR</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
-      <Point>DN</Point>
       <Point>UPROX</Point>
       <Point>PEBBL</Point>
       <Point>UBDIG</Point>
@@ -186,7 +188,7 @@
   </Map>
   <Map Type="System" Name="DN_RWY11_NAMES" Priority="2" Centre="-12.414722+130.876667">
     <Label>
-      <Point>DN</Point>
+      <Point>DN VOR</Point>
       <Point>UPROX</Point>
       <Point>PEBBL</Point>
       <Point>UBDIG</Point>

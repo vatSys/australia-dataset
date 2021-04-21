@@ -108,6 +108,7 @@
       <!--V259-->
       MTG VOR/
       RUVUS/
+      ALEXI/
       ATPIP
     </Line>
     <Line>
@@ -280,47 +281,32 @@
       <Point Name="IN_EAST">WRR</Point>
       <Point Name="IN_NORTHWEST">DUB</Point>
       <Point Name="OUT_EAST">-34.762487+138.675967</Point>
-      <Point Name="OUT_NORTHWEST">-34.781439+138.564352</Point>
+      <Point Name="OUT_NORTHWEST">-34.781439+138.564353</Point>
       <Point Name="ROUTE_1">BENDO</Point>
     </Label>
     <!--HOPE_VALLEY-->
     <Line Pattern="Dotted">
-      MLIT/
-      WTC/
-      HVR/
-      -34.823427+138.659117
+      MLIT/WTC/HVR/-34.823427+138.659117
     </Line>
     <!--IN_EAST-->
     <Line Pattern="Dotted">
-      WRR/
-      DMW/
-      -34.768926+138.682043
+      WRR/DMW/-34.768926+138.682043
     </Line>
     <!--IN_NORTHWEST-->
     <Line Pattern="Dotted">
-      DUB/
-      RMH/
-      OHB/
-      -34.795228+138.551806
+      DUB/RMH/OHB/-34.795228+138.551806
     </Line>
     <!--OUT_EAST-->
     <Line Pattern="Dotted">
-      -34.762487+138.675967/
-      SUB/
-      SPR
+      -34.762487+138.675967/SUB/SPR
     </Line>
     <!--OUT_NORTHWEST-->
     <Line Pattern="Dotted">
-      -34.781439+138.564352/
-      -34.744034+138.525048/
-      DUB
+      -34.781439+138.564353/-34.744034+138.525048/DUB
     </Line>
     <!--ROUTE_1-->
     <Line Pattern="Dotted">
-      BENDO/
-      SYN/
-      PNL/
-      MLIT
+      BENDO/SYN/PNL/MLIT
     </Line>
   </Map>
   <Map Type="System" Name="YPAD_ALLRWYS" Priority="2" Centre="-34.945000+138.530556">
