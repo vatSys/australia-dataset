@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="KA_TCU" Priority="1" Centre="-20.712222+116.773333">
+  <Map Type="System" Name="KA_TCU" Priority="1" Center="-20.712222+116.773333">
     <!--YPKA-->
     <Runway Name="08/26">
       <Threshold Name="08" Position="-20.714025+116.764711" />
@@ -33,7 +33,7 @@
       POGAV
     </Line>
   </Map>
-  <Map Type="System" Name="KA_TCU_NAMES" Priority="2" Centre="-20.712222+116.773333">
+  <Map Type="System" Name="KA_TCU_NAMES" Priority="2" Center="-20.712222+116.773333">
     <Label>
       <Point>LM VOR</Point>
       <Point>ONSLO</Point>
@@ -47,7 +47,7 @@
       <Point>POGAV</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="KA_VFR" Priority="1" Centre="-20.712222+116.773333">
+  <Map Type="System2" Name="KA_VFR" Priority="1" Center="-20.712222+116.773333">
     <Symbol Type="HollowSquare">
       <Point>CMB</Point>
       <Point>COSS</Point>
@@ -65,7 +65,7 @@
       <Point>WBK</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="YPKA_ALLRWYS" Priority="2" Centre="-20.712222+116.773333">
+  <Map Type="System" Name="YPKA_ALLRWYS" Priority="2" Center="-20.712222+116.773333">
     <!--YPKA-->
     <Runway Name="08/26">
       <Threshold Name="08" Position="-20.714025+116.764711" ExtendedCentrelineTrack="263.65" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />

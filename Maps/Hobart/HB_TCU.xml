@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="HB_TCU" Priority="1" Centre="-42.836111+147.510278">
+  <Map Type="System" Name="HB_TCU" Priority="1" Center="-42.836111+147.510278">
     <!--YMHB-->
     <Runway Name="12/30">
       <Threshold Name="12" Position="-42.828983+147.502047" />
@@ -42,7 +42,7 @@
       BROAD
     </Line>
   </Map>
-  <Map Type="System2" Name="HB_VFR" Priority="1" Centre="-42.836111+147.510278">
+  <Map Type="System2" Name="HB_VFR" Priority="1" Center="-42.836111+147.510278">
     <Symbol Type="HollowSquare">
       <Point>BOWB</Point>
       <Point>BKD</Point>
@@ -141,7 +141,7 @@
       BOWB/YCBG
     </Line>
   </Map>
-  <Map Type="System" Name="YMHB_ALLRWYS" Priority="2" Centre="-42.836111+147.510278">
+  <Map Type="System" Name="YMHB_ALLRWYS" Priority="2" Center="-42.836111+147.510278">
     <!--YMHB-->
     <Runway Name="12/30">
       <Threshold Name="12" Position="-42.828983+147.502047" ExtendedCentrelineTrack="315.01" ExtendedCentrelineLength="17" ExtendedCentrelineTickInterval="1" />

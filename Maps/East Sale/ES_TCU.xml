@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="ES_TCU" Priority="1" Centre="-38.098889+147.149444">
+  <Map Type="System" Name="ES_TCU" Priority="1" Center="-38.098889+147.149444">
     <!--YMES-->
     <Runway Name="04/22">
       <Threshold Name="04" Position="-38.106050+147.138561" />
@@ -64,7 +64,7 @@
       WG VOR
     </Line>
   </Map>
-  <Map Type="System" Name="ES_TCU_NAMES" Priority="2" Centre="-38.098889+147.149444">
+  <Map Type="System" Name="ES_TCU_NAMES" Priority="2" Center="-38.098889+147.149444">
     <Label>
       <Point>DUNNE</Point>
       <Point>MONTY</Point>
@@ -93,7 +93,7 @@
       <Point>WG VOR</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="ES_VFR" Priority="1" Centre="-38.098889+147.149444">
+  <Map Type="System2" Name="ES_VFR" Priority="1" Center="-38.098889+147.149444">
     <Symbol Type="HollowSquare">
       <Point>COWR</Point>
       <Point>DARL</Point>
@@ -117,7 +117,7 @@
       <Point>WELS</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="YMES_ALLRWYS" Priority="2" Centre="-38.098889+147.149444">
+  <Map Type="System" Name="YMES_ALLRWYS" Priority="2" Center="-38.098889+147.149444">
     <!--YMES-->
     <Runway Name="04/22">
       <Threshold Name="04" Position="-38.106050+147.138561" ExtendedCentrelineTrack="233.86" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />

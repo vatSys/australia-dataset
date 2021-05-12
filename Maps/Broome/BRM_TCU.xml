@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="BRM_TCU" Priority="1" Centre="-17.949444+122.227778">
+  <Map Type="System" Name="BRM_TCU" Priority="1" Center="-17.949444+122.227778">
     <!--YBRM-->
     <Runway Name="10/28">
       <Threshold Name="10" Position="-17.945981+122.216883" />
@@ -29,7 +29,7 @@
       KAPNI
     </Line>
   </Map>
-  <Map Type="System" Name="BRM_TCU_NAMES" Priority="2" Centre="-17.949444+122.227778">
+  <Map Type="System" Name="BRM_TCU_NAMES" Priority="2" Center="-17.949444+122.227778">
     <Label>
       <Point>BUDLO</Point>
       <Point>DONDI</Point>
@@ -42,7 +42,7 @@
       <Point>KAPNI</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="BRM_VFR" Priority="1" Centre="-17.949444+122.227778">
+  <Map Type="System2" Name="BRM_VFR" Priority="1" Center="-17.949444+122.227778">
     <Symbol Type="HollowSquare">
       <Point>ABKL</Point>
       <Point>BHCP</Point>
@@ -58,7 +58,7 @@
       <Point>WICK</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="YBRM_ALLRWYS" Priority="2" Centre="-17.949444+122.227778">
+  <Map Type="System" Name="YBRM_ALLRWYS" Priority="2" Center="-17.949444+122.227778">
     <!--YBRM-->
     <Runway Name="10/28">
       <Threshold Name="10" Position="-17.945981+122.216883" ExtendedCentrelineTrack="285.52" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />

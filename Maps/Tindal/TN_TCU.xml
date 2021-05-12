@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="TN_TCU" Priority="1" Centre="-14.521111+132.377778">
+  <Map Type="System" Name="TN_TCU" Priority="1" Center="-14.521111+132.377778">
     <!--YPTN-->
     <Runway Name="14/32">
       <Threshold Name="14" Position="-14.512197+132.368858" />
@@ -63,7 +63,7 @@
       BARON
     </Line>
   </Map>
-  <Map Type="System2" Name="TN_VFR" Priority="1" Centre="-14.521111+132.377778">
+  <Map Type="System2" Name="TN_VFR" Priority="1" Center="-14.521111+132.377778">
     <Symbol Type="HollowSquare">
       <Point>RESC</Point>
       <Point>STC</Point>
@@ -73,7 +73,7 @@
       <Point>STC</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="YPTN_ALLRWYS" Priority="2" Centre="-14.521111+132.377778">
+  <Map Type="System" Name="YPTN_ALLRWYS" Priority="2" Center="-14.521111+132.377778">
     <!--YPTN-->
     <Runway Name="14/32">
       <Threshold Name="14" Position="-14.512197+132.368858" ExtendedCentrelineTrack="318.9" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />

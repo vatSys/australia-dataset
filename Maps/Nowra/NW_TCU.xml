@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="NW_TCU" Priority="1" Centre="-34.948889+150.536944">
+  <Map Type="System" Name="NW_TCU" Priority="1" Center="-34.948889+150.536944">
     <!--YSNW-->
     <Runway Name="03/21">
       <Threshold Name="03" Position="-34.948853+150.536458" />
@@ -37,7 +37,7 @@
       AVBEG
     </Line>
   </Map>
-  <Map Type="System" Name="NW_TCU_NAMES" Priority="2" Centre="-34.948889+150.536944">
+  <Map Type="System" Name="NW_TCU_NAMES" Priority="2" Center="-34.948889+150.536944">
     <Label>
       <Point>RIC TAC</Point>
       <Point>RAKSO</Point>
@@ -54,7 +54,7 @@
       <Point>AVBEG</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="NW_VFR" Priority="1" Centre="-34.948889+150.536944">
+  <Map Type="System2" Name="NW_VFR" Priority="1" Center="-34.948889+150.536944">
     <Symbol Type="HollowSquare">
       <Point>APPN</Point>
       <Point>BATB</Point>
@@ -90,7 +90,7 @@
       <Point>WOI</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="YSNW_ALLRWYS" Priority="2" Centre="-34.948889+150.536944">
+  <Map Type="System" Name="YSNW_ALLRWYS" Priority="2" Center="-34.948889+150.536944">
     <!--YSNW-->
     <Runway Name="03/21">
       <Threshold Name="03" Position="-34.948853+150.536458" ExtendedCentrelineTrack="224.38" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
