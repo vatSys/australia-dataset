@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="OK_TCU" Priority="1" Centre="-27.411389+151.735278">
+  <Map Type="System" Name="OK_TCU" Priority="1" Center="-27.411389+151.735278">
     <!--YBOK-->
     <Runway Name="05/23">
       <Threshold Name="05" Position="-27.406086+151.730889" />
@@ -95,7 +95,7 @@
       COLLY
     </Line>
   </Map>
-  <Map Type="System" Name="OK_TCU_NAMES" Priority="2" Centre="-27.411389+151.735278">
+  <Map Type="System" Name="OK_TCU_NAMES" Priority="2" Center="-27.411389+151.735278">
     <Label>
       <Point>SU VOR</Point>
       <Point>SURPO</Point>
@@ -130,7 +130,7 @@
       <Point>COLLY</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="OK_VFR" Priority="1" Centre="-27.411389+151.735278">
+  <Map Type="System2" Name="OK_VFR" Priority="1" Center="-27.411389+151.735278">
     <Symbol Type="HollowSquare">
       <Point>ACLD</Point>
       <Point>BSL</Point>
@@ -214,7 +214,7 @@
       <Point>WYR</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="YBOK_ALLRWYS" Priority="2" Centre="-27.411389+151.735278">
+  <Map Type="System" Name="YBOK_ALLRWYS" Priority="2" Center="-27.411389+151.735278">
     <!--YBOK-->
     <Runway Name="05/23">
       <Threshold Name="05" Position="-27.406086+151.730889" ExtendedCentrelineTrack="234.89" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />

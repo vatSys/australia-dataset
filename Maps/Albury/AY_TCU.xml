@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="AY_TCU" Priority="1" Centre="-36.067778+146.958056">
+  <Map Type="System" Name="AY_TCU" Priority="1" Center="-36.067778+146.958056">
     <!--YMAY-->
     <Runway Name="07/25">
       <Threshold Name="07" Position="-36.068075+146.948892" />
@@ -71,7 +71,7 @@
       WATLE
     </Line>
   </Map>
-  <Map Type="System2" Name="AY_VFR" Priority="1" Centre="-36.067778+146.958056">
+  <Map Type="System2" Name="AY_VFR" Priority="1" Center="-36.067778+146.958056">
     <Symbol Type="HollowSquare">
       <Point>APM</Point>
       <Point>BDT</Point>
@@ -139,7 +139,7 @@
       <Point>YKH</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="YMAY_ALLRWYS" Priority="2" Centre="-36.067778+146.958056">
+  <Map Type="System" Name="YMAY_ALLRWYS" Priority="2" Center="-36.067778+146.958056">
     <!--YMAY-->
     <Runway Name="07/25">
       <Threshold Name="07" Position="-36.068075+146.948892" ExtendedCentrelineTrack="261.18" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />

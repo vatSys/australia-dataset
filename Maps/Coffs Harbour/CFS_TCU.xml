@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="CFS_TCU" Priority="1" Centre="-30.320556+153.116389">
+  <Map Type="System" Name="CFS_TCU" Priority="1" Center="-30.320556+153.116389">
     <!--YCFS-->
     <Runway Name="03/21">
       <Threshold Name="03" Position="-30.338375+153.106547" />
@@ -103,7 +103,7 @@
       POSUM
     </Line>
   </Map>
-  <Map Type="System" Name="CFS_TCU_NAMES" Priority="2" Centre="-30.320556+153.116389">
+  <Map Type="System" Name="CFS_TCU_NAMES" Priority="2" Center="-30.320556+153.116389">
     <Label>
       <Point>BANDA</Point>
       <Point>JOKER</Point>
@@ -148,7 +148,7 @@
       <Point>GALON</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="CFS_VFR" Priority="1" Centre="-30.320556+153.116389">
+  <Map Type="System2" Name="CFS_VFR" Priority="1" Center="-30.320556+153.116389">
     <Symbol Type="HollowSquare">
       <Point>BLR</Point>
       <Point>BLIG</Point>
@@ -188,7 +188,7 @@
       <Point>WGG</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="YCFS_ALLRWYS" Priority="2" Centre="-30.320556+153.116389">
+  <Map Type="System" Name="YCFS_ALLRWYS" Priority="2" Center="-30.320556+153.116389">
     <!--YCFS-->
     <Runway Name="03/21">
       <Threshold Name="03" Position="-30.338375+153.106547" ExtendedCentrelineTrack="220.71" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />

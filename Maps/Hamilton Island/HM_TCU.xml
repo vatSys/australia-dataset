@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="HM_TCU" Priority="1" Centre="-20.358056+148.951667">
+  <Map Type="System" Name="HM_TCU" Priority="1" Center="-20.358056+148.951667">
     <!--YBHM-->
     <Runway Name="14/32">
       <Threshold Name="14" Position="-20.351342+148.946717" />
@@ -23,7 +23,7 @@
       LINSU
     </Line>
   </Map>
-  <Map Type="System" Name="HM_TCU_NAMES" Priority="2" Centre="-20.358056+148.951667">
+  <Map Type="System" Name="HM_TCU_NAMES" Priority="2" Center="-20.358056+148.951667">
     <Label>
       <Point>GLA VOR</Point>
       <Point>CAPRI</Point>
@@ -33,7 +33,7 @@
       <Point>LINSU</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="HM_VFR" Priority="1" Centre="-20.358056+148.951667">
+  <Map Type="System2" Name="HM_VFR" Priority="1" Center="-20.358056+148.951667">
     <Symbol Type="HollowSquare">
       <Point>BCT</Point>
       <Point>BKIS</Point>
@@ -89,7 +89,7 @@
       <Point>ALBO</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="YBHM_ALLRWYS" Priority="2" Centre="-20.358056+148.951667">
+  <Map Type="System" Name="YBHM_ALLRWYS" Priority="2" Center="-20.358056+148.951667">
     <!--YBHM-->
     <Runway Name="14/32">
       <Threshold Name="14" Position="-20.351342+148.946717" ExtendedCentrelineTrack="322.88" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />

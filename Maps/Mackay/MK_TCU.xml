@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="MK_TCU" Priority="1" Centre="-21.171389+149.179722">
+  <Map Type="System" Name="MK_TCU" Priority="1" Center="-21.171389+149.179722">
     <!--YBMK-->
     <Runway Name="14/32">
       <Threshold Name="14" Position="-21.163192+149.177464" />
@@ -63,7 +63,7 @@
       CARON
     </Line>
   </Map>
-  <Map Type="System2" Name="MK_VFR" Priority="1" Centre="-21.171389+149.179722">
+  <Map Type="System2" Name="MK_VFR" Priority="1" Center="-21.171389+149.179722">
     <Symbol Type="HollowSquare">
       <Point>BCT</Point>
       <Point>BKIS</Point>
@@ -115,7 +115,7 @@
       <Point>ALBO</Point>
     </Label>
   </Map>
-  <Map Type="System" Name="YBMK_ALLRWYS" Priority="2" Centre="-21.171389+149.179722">
+  <Map Type="System" Name="YBMK_ALLRWYS" Priority="2" Center="-21.171389+149.179722">
     <!--YBMK-->
     <Runway Name="14/32">
       <Threshold Name="14" Position="-21.163192+149.177464" ExtendedCentrelineTrack="327.69" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />

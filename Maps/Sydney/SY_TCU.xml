@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="SY_TCU" Priority="1" Centre="-33.946111+151.177222">
+  <Map Type="System" Name="SY_TCU" Priority="1" Center="-33.946111+151.177222">
     <!--YSBK-->
     <Runway Name="11C/29C">
       <Threshold Name="11C" Position="-33.920119+150.984556" ExtendedCentrelineTrack="303.9" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
@@ -183,7 +183,7 @@
       TONIM
     </Line>
   </Map>
-  <Map Type="System2" Name="SY_VFR" Priority="1" Centre="-33.946111+151.177222">
+  <Map Type="System2" Name="SY_VFR" Priority="1" Center="-33.946111+151.177222">
     <Symbol Type="HollowSquare">
       <Point>APPN</Point>
       <Point>BRNJ</Point>
@@ -361,7 +361,7 @@
       -34.085079+151.186350/-34.059883+151.172033/-34.049288+151.180372/-34.052966+151.207065/-34.044018+151.237799/-34.006264+151.271231/-33.964459+151.288379/-33.894202+151.299601/-33.874295+151.297393/-33.845544+151.305024/-33.811282+151.321025/-33.785455+151.308649/-33.744554+151.333566
     </Line>
   </Map>
-  <Map Type="System2" Name="SY_HELO" Priority="1" Centre="-33.946111+151.177222">
+  <Map Type="System2" Name="SY_HELO" Priority="1" Center="-33.946111+151.177222">
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="HELO_BARRACKS">-33.871847+151.233956</Point>
       <Point Name="HELO_BONDI">-33.855653+151.304626</Point>
@@ -417,7 +417,7 @@
       -34.044764+151.185900/-34.003592+151.166519/-33.999725+151.158153/-33.961269+151.167497
     </Line>
   </Map>
-  <Map Type="System" Name="YSSY_ALLRWYS" Priority="2" Centre="-33.946111+151.177222">
+  <Map Type="System" Name="YSSY_ALLRWYS" Priority="2" Center="-33.946111+151.177222">
     <!--YSSY-->
     <Runway Name="07/25">
       <Threshold Name="07" Position="-33.943739+151.163628" ExtendedCentrelineTrack="254.2" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
