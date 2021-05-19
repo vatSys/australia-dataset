@@ -7737,16 +7737,14 @@ YTMN
     <Point Name="DESET" Type="Fix">-245042.000+1344612.000</Point>
     <Point Name="DEWEY" Type="Fix">-280000.000+1543000.000</Point>
     <Point Name="DEZZI" Type="Fix">-290315.900+1675743.800</Point>
-    <Point Name="DGUEC" Type="Fix">-252833.900+1193146.500</Point>
-    <Point Name="DGUED" Type="Fix">-253759.400+1193157.300</Point>
-    <Point Name="DGUEF" Type="Fix">-253324.300+1192328.700</Point>
-    <Point Name="DGUEI" Type="Fix">-253318.400+1192958.500</Point>
-    <Point Name="DGUEM" Type="Fix">-253329.700+1191749.400</Point>
-    <Point Name="DGUWA" Type="Fix">-253826.900+1190242.800</Point>
-    <Point Name="DGUWB" Type="Fix">-252901.400+1190232.100</Point>
-    <Point Name="DGUWF" Type="Fix">-253336.000+1191058.900</Point>
-    <Point Name="DGUWI" Type="Fix">-253341.600+1190430.900</Point>
-    <Point Name="DGUWM" Type="Fix">-253330.800+1191640.700</Point>
+    <Point Name="DG2EC" Type="Fix">-252833.930+1193146.530</Point>
+    <Point Name="DG2ED" Type="Fix">-253759.390+1193157.330</Point>
+    <Point Name="DG2EF" Type="Fix">-253324.250+1192328.720</Point>
+    <Point Name="DG2EI" Type="Fix">-253318.430+1192958.480</Point>
+    <Point Name="DG2WA" Type="Fix">-253826.860+1190242.780</Point>
+    <Point Name="DG2WB" Type="Fix">-252901.430+1190232.130</Point>
+    <Point Name="DG2WF" Type="Fix">-253335.960+1191058.870</Point>
+    <Point Name="DG2WI" Type="Fix">-253341.610+1190430.930</Point>
     <Point Name="DICKO" Type="Fix">-161809.600+1301822.900</Point>
     <Point Name="DIGER" Type="Fix">-300331.800+1210138.600</Point>
     <Point Name="DIGLA" Type="Fix">-211817.200+1331127.300</Point>
@@ -11838,6 +11836,8 @@ YTMN
     <Point Name="RTL07" Type="Fix">-192444.700+1464925.800</Point>
     <Point Name="RTL14" Type="Fix">-191526.800+1465847.700</Point>
     <Point Name="RTL15" Type="Fix">-192513.500+1464719.200</Point>
+    <Point Name="RTL20" Type="Fix">-191708.760+1464834.930</Point>
+    <Point Name="RTL21" Type="Fix">-192719.310+1464605.640</Point>
     <Point Name="RTL23" Type="Fix">-191911.900+1465704.400</Point>
     <Point Name="RTL24" Type="Fix">-192329.300+1464738.100</Point>
     <Point Name="RTL39" Type="Fix">-191916.900+1465535.500</Point>
@@ -12597,13 +12597,16 @@ YTMN
     <Point Name="TIPAM" Type="Fix">-193000.000+1141456.500</Point>
     <Point Name="TL11C" Type="Fix">-193612.000+1450524.000</Point>
     <Point Name="TL12C" Type="Fix">-183406.000+1451206.000</Point>
+    <Point Name="TL410" Type="Fix">-191554.790+1464541.240</Point>
     <Point Name="TL412" Type="Fix">-191554.800+1464541.200</Point>
     <Point Name="TL414" Type="Fix">-191651.300+1464525.500</Point>
     <Point Name="TL416" Type="Fix">-191832.200+1464444.600</Point>
     <Point Name="TL419" Type="Fix">-192233.500+1464207.800</Point>
     <Point Name="TL430" Type="Fix">-192548.600+1464102.800</Point>
     <Point Name="TL432" Type="Fix">-192833.100+1464057.600</Point>
+    <Point Name="TL436" Type="Fix">-192833.050+1464057.680</Point>
     <Point Name="TL451" Type="Fix">-193130.800+1464310.400</Point>
+    <Point Name="TL455" Type="Fix">-193130.750+1464310.650</Point>
     <Point Name="TL462" Type="Fix">-192447.300+1464223.200</Point>
     <Point Name="TL464" Type="Fix">-192620.500+1464248.800</Point>
     <Point Name="TL466" Type="Fix">-192505.400+1465158.400</Point>
@@ -15107,7 +15110,7 @@ YTMN
       <Route Runway="19">VARBI/DAPLA/SATCO/ODOTA/PINIP/JEMMA</Route>
     </SID>
     <SID Name="KVALM1" Airport="YBTL" Runways="19">
-      <Route Runway="19">KVALM/JEMMA</Route>
+      <Route Runway="19">TL410/TL414/TL416/KVALM/TL419/TL430/TL436/TL455/JEMMA</Route>
     </SID>
     <SID Name="PEWEE6" Airport="YBTL" Runways="01,19">
       <Route Runway="01">AGSIR/AVMAT/ADNOD/PEWEE</Route>
