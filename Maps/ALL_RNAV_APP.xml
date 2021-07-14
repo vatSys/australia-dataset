@@ -1889,8 +1889,6 @@
       <Point>OKYSK</Point>
       <Point>OKYSL</Point>
       <Point>OKYSN</Point>
-      <Point>OLDEI</Point>
-      <Point>OLDWI</Point>
       <Point>OLWND</Point>
       <Point>OLWNF</Point>
       <Point>OLWNG</Point>
@@ -1926,6 +1924,8 @@
       <Point>OSBWC</Point>
       <Point>OSBWF</Point>
       <Point>OSBWI</Point>
+      <Point>OY2EI</Point>
+      <Point>OY2WI</Point>
       <Point>PADEF</Point>
       <Point>PADEI</Point>
       <Point>PADEK</Point>
@@ -2754,11 +2754,11 @@
       <Point>WLUSC</Point>
       <Point>WLUSF</Point>
       <Point>WLUSI</Point>
-      <Point>WOLNA</Point>
-      <Point>WOLNC</Point>
-      <Point>WOLND</Point>
-      <Point>WOLNF</Point>
-      <Point>WOLNI</Point>
+      <Point>WO2NA</Point>
+      <Point>WO2NC</Point>
+      <Point>WO2ND</Point>
+      <Point>WO2NF</Point>
+      <Point>WO2NI</Point>
       <Point>WOLSE</Point>
       <Point>WOLSF</Point>
       <Point>WOLSG</Point>
@@ -3015,7 +3015,7 @@
       <Point>AKDEL</Point>
       <Point>BOSGI</Point>
       <Point>OMKEK</Point>
-      <Point>OLDEF</Point>
+      <Point>OY2EF</Point>
       <Point>KEGAN</Point>
       <Point>OOLNC</Point>
       <Point>OOLNF</Point>
@@ -3055,7 +3055,7 @@
       <Point>WVZWB</Point>
       <Point>WVZWF</Point>
       <Point>MINUR</Point>
-      <Point>OLDWF</Point>
+      <Point>OY2WF</Point>
       <Point>ESDIG</Point>
       <Point>BLZSC</Point>
       <Point>BLZSA</Point>
@@ -3477,8 +3477,6 @@
       <Point>OKYEF</Point>
       <Point>OKYNF</Point>
       <Point>OKYSF</Point>
-      <Point>OLDEF</Point>
-      <Point>OLDWF</Point>
       <Point>OLWNF</Point>
       <Point>OLZSF</Point>
       <Point>OO2EF</Point>
@@ -3488,6 +3486,8 @@
       <Point>ORBWF</Point>
       <Point>OSBEF</Point>
       <Point>OSBWF</Point>
+      <Point>OY2EF</Point>
+      <Point>OY2WF</Point>
       <Point>PADEF</Point>
       <Point>PADNF</Point>
       <Point>PADSF</Point>
@@ -3666,7 +3666,7 @@
       <Point>WLPSF</Point>
       <Point>WLUNF</Point>
       <Point>WLUSF</Point>
-      <Point>WOLNF</Point>
+      <Point>WO2NF</Point>
       <Point>WOLSF</Point>
       <Point>WSLWF</Point>
       <Point>WTBSF</Point>
@@ -4120,8 +4120,6 @@
       <Point>OKYEI</Point>
       <Point>OKYNI</Point>
       <Point>OKYSI</Point>
-      <Point>OLDEI</Point>
-      <Point>OLDWI</Point>
       <Point>OLWNI</Point>
       <Point>OLZSI</Point>
       <Point>OO2EI</Point>
@@ -4131,6 +4129,8 @@
       <Point>ORBWI</Point>
       <Point>OSBEI</Point>
       <Point>OSBWI</Point>
+      <Point>OY2EI</Point>
+      <Point>OY2WI</Point>
       <Point>PADEI</Point>
       <Point>PADNI</Point>
       <Point>PADSI</Point>
@@ -4308,7 +4308,7 @@
       <Point>WLPSI</Point>
       <Point>WLUNI</Point>
       <Point>WLUSI</Point>
-      <Point>WOLNI</Point>
+      <Point>WO2NI</Point>
       <Point>WOLSI</Point>
       <Point>WSLWI</Point>
       <Point>WTBSI</Point>
@@ -5962,9 +5962,9 @@
       <Point>WLUSA</Point>
       <Point>WLUSB</Point>
       <Point>WLUSC</Point>
-      <Point>WOLNA</Point>
-      <Point>WOLNC</Point>
-      <Point>WOLND</Point>
+      <Point>WO2NA</Point>
+      <Point>WO2NC</Point>
+      <Point>WO2ND</Point>
       <Point>WOLSE</Point>
       <Point>WOLSG</Point>
       <Point>WOLSJ</Point>
@@ -8098,12 +8098,6 @@
     <Line>OKYSN/OKYSI</Line>
     <Line>OKYSI/OKYSF</Line>
     <Line>OKYSM/OKYSF</Line>
-    <Line>OMKEK/OLDEI</Line>
-    <Line>OLDEI/OLDEF</Line>
-    <Line>-302852.490+1365306.480/OLDEF</Line>
-    <Line>MINUR/OLDWI</Line>
-    <Line>OLDWI/OLDWF</Line>
-    <Line>-302912.640+1365200.740/OLDWF</Line>
     <Line>OLWND/OLWNI</Line>
     <Line>OLWNG/OLWNI</Line>
     <Line>OLWNI/OLWNF</Line>
@@ -8146,6 +8140,12 @@
     <Line>OSBWC/OSBWI</Line>
     <Line>OSBWI/OSBWF</Line>
     <Line>OSBWM/OSBWF</Line>
+    <Line>OMKEK/OY2EI</Line>
+    <Line>OY2EI/OY2EF</Line>
+    <Line>-302852.490+1365306.480/OY2EF</Line>
+    <Line>MINUR/OY2WI</Line>
+    <Line>OY2WI/OY2WF</Line>
+    <Line>-302912.640+1365200.740/OY2WF</Line>
     <Line>PADEK/PADEI</Line>
     <Line>PADEL/PADEI</Line>
     <Line>PADEN/PADEI</Line>
@@ -9002,11 +9002,11 @@
     <Line>WLUSC/WLUSI</Line>
     <Line>WLUSI/WLUSF</Line>
     <Line>WLUSM/WLUSF</Line>
-    <Line>WOLNA/WOLNI</Line>
-    <Line>WOLNC/WOLNI</Line>
-    <Line>WOLND/WOLNI</Line>
-    <Line>WOLNI/WOLNF</Line>
-    <Line>WOLNM/WOLNF</Line>
+    <Line>WO2NA/WO2NI</Line>
+    <Line>WO2NC/WO2NI</Line>
+    <Line>WO2ND/WO2NI</Line>
+    <Line>WO2NI/WO2NF</Line>
+    <Line>WO2NM/WO2NF</Line>
     <Line>WOLSE/WOLSI</Line>
     <Line>WOLSG/WOLSI</Line>
     <Line>WOLSJ/WOLSI</Line>
