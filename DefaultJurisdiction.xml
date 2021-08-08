@@ -1,6 +1,265 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <DefaultJurisdiction>
   <RuleSets>
+    <RuleSet Name="YAMB_DEPS">
+      <Rules>
+        <Departure Values="YAMB">
+          <Rules>
+            <Default>
+              <AssignSector Order="AMB,DOS"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBAF_DEPS">
+      <Rules>
+        <Departure Values="YBAF">
+          <Rules>
+            <Route Values="BN,YBBN">
+              <AssignSector Order="BAN,BAS,BDN,BDS" />
+            </Route>
+            <Default>
+              <AssignSector Order="BDN,BDS,BAN,BAS"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBAS_DEPS">
+      <Rules>
+        <Departure Values="YBAS">
+          <Rules>
+            <Default>
+              <AssignSector Order="ASP"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBBN_DEPS">
+      <Rules>
+        <Departure Values="YBBN">
+          <Rules>
+            <Runway Values="19L">
+              <Rules>
+                <Default>
+                  <AssignSector Order="BDS,BDN,BAS,BAN"/>
+                </Default>
+              </Rules>
+            </Runway>
+            <Runway Values="19R">
+              <Rules>
+                <Default>
+                  <AssignSector Order="BDN,BDS,BAN,BAS"/>
+                </Default>
+              </Rules>
+            </Runway>
+            <Runway Values="01L">
+              <Rules>
+                <Default>
+                  <AssignSector Order="BDN,BDS,BAN,BAS" />
+                </Default>
+              </Rules>
+            </Runway>
+            <Runway Values="01R">
+              <Rules>
+                <Default>
+                  <AssignSector Order="BDS,BDN,BAS,BAN" />
+                </Default>
+              </Rules>
+            </Runway>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+      <RuleSet Name="YBCG_DEPS">
+      <Rules>
+        <Departure Values="YBCG">
+          <Rules>
+            <Default>
+              <AssignSector Order="BAG,BAS,BDS,BDN,BAN"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBCS_DEPS">
+      <Rules>
+        <Departure Values="YBCS">
+          <Rules>
+            <Default>
+              <AssignSector Order="CSD,CSA"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBHM_DEPS">
+      <Rules>
+        <Departure Values="YBHM">
+          <Rules>
+            <Default>
+              <AssignSector Order="SWY"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBMK_DEPS">
+      <Rules>
+        <Departure Values="YBMK">
+          <Rules>
+            <Default>
+              <AssignSector Order="SWY"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBOK_DEPS">
+      <Rules>
+        <Departure Values="YBOK">
+          <Rules>
+            <Default>
+              <AssignSector Order="OKA,DOS"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBRK_DEPS">
+      <Rules>
+        <Departure Values="YBRK">
+          <Rules>
+            <Default>
+              <AssignSector Order="KPL"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBRM_DEPS">
+      <Rules>
+        <Departure Values="YBRM">
+          <Rules>
+            <Default>
+              <AssignSector Order="KIY"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBSU_DEPS">
+      <Rules>
+        <Departure Values="YBSU">
+          <Rules>
+            <Default>
+              <AssignSector Order="BUR"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBTL_DEPS">
+      <Rules>
+        <Departure Values="YBTL">
+          <Rules>
+            <Default>
+              <AssignSector Order="TLA,TBP"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YCFS_DEPS">
+      <Rules>
+        <Departure Values="YCFS">
+          <Rules>
+            <Default>
+              <AssignSector Order="GRN"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YGIG_DEPS">
+      <Rules>
+        <Departure Values="YGIG">
+          <Rules>
+            <Default>
+              <AssignSector Order="PHA"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YMAV_DEPS">
+      <Rules>
+        <Departure Values="YMAV">
+          <Rules>
+            <Default>
+              <AssignSector Order="MDS"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YMAY_DEPS">
+      <Rules>
+        <Departure Values="YMAY">
+          <Rules>
+            <Default>
+              <AssignSector Order="HUM"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YMEN_DEPS">
+      <Rules>
+        <Departure Values="YMEN">
+          <Rules>
+            <Default>
+              <AssignSector Order="MAE"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YMES_DEPS">
+      <Rules>
+        <Departure Values="YMES">
+          <Rules>
+            <Default>
+              <AssignSector Order="ESA,WON"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="TAS_DEPS">
+      <Rules>
+        <Departure Values="YMHB,YMLT">
+          <Rules>
+            <Default>
+              <AssignSector Order="TAS"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YMMB_DEPS">
+      <Rules>
+        <Departure Values="YMMB">
+          <Rules>
+            <Default>
+              <AssignSector Order="MDS"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
     <RuleSet Name="YMML_DEPS">
       <Rules>
         <Departure Values="YMML">
@@ -42,14 +301,152 @@
             <Runway Values="12">
               <AssignSector Order="AAE,AAW" />
             </Runway>
-            <Route Values="BENDO, SEDAN, ALBUT">
+            <Route Values="BENDO, SEDAN, ALBUT, PANKI">
               <AssignSector Order="AAE,AAW" />
             </Route>
-            <Route Values="EEMUE, YORKE, HAWKY, WAKEN, ORBUN, VILAD">
+            <Route Values="EEMUE, YORKE, HAWKY, WAKEN, ORBUN, VILAD, GILES">
               <AssignSector Order="AAW"/>
             </Route>
             <Default>
               <AssignSector Order="AAW"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YPDN_DEPS">
+      <Rules>
+        <Departure Values="YPDN">
+          <Rules>
+            <Default>
+              <AssignSector Order="DNA"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YPEA_DEPS">
+      <Rules>
+        <Departure Values="YPEA">
+          <Rules>
+            <Default>
+              <AssignSector Order="PEA,PHD,PHA"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YPED_DEPS">
+      <Rules>
+        <Departure Values="YPED">
+          <Rules>
+            <Default>
+              <AssignSector Order="AAW"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YPKA_DEPS">
+      <Rules>
+        <Departure Values="YPKA">
+          <Rules>
+            <Default>
+              <AssignSector Order="ORE"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YPPF_DEPS">
+      <Rules>
+        <Departure Values="YPPF">
+          <Rules>
+            <Default>
+              <AssignSector Order="AAW"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YPPH_DEPS">
+      <Rules>
+        <Departure Values="YPPH,YPJT">
+          <Rules>
+            <Default>
+              <AssignSector Order="PHD,PHA"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YPTN_DEPS">
+      <Rules>
+        <Departure Values="YPTN">
+          <Rules>
+            <Default>
+              <AssignSector Order="TNA,TRT"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YSBK_DEPS">
+      <Rules>
+        <Departure Values="YSBK">
+          <Rules>
+            <Default>
+              <AssignSector Order="SDN"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YSCB_DEPS">
+      <Rules>
+        <Departure Values="YSCB">
+          <Rules>
+            <Route Values="AVBEG,CULIN">
+              <AssignSector Order="CAE,CAW"/>
+            </Route>
+            <Route Values="HOWLY,WG,NONUP,TANTA">
+              <AssignSector Order="CAW,CAE"/>
+            </Route>
+            <Default>
+              <AssignSector Order="CAE,CAW"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YSCN_DEPS">
+      <Rules>
+        <Departure Values="YSCN">
+          <Rules>
+            <Default>
+              <AssignSector Order="SDS"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YSNW_DEPS">
+      <Rules>
+        <Departure Values="YSNW">
+          <Rules>
+            <Default>
+              <AssignSector Order="NWA.WOL"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YSRI_DEPS">
+      <Rules>
+        <Departure Values="YSRI">
+          <Rules>
+            <Default>
+              <AssignSector Order="SDN"/>
             </Default>
           </Rules>
         </Departure>
@@ -89,68 +486,23 @@
         </Departure>
       </Rules>
     </RuleSet>
-    <RuleSet Name="YBBN_DEPS">
+    <RuleSet Name="YSTW_DEPS">
       <Rules>
-        <Departure Values="YBBN">
+        <Departure Values="YSTW">
           <Rules>
-            <Runway Values="19L">
-              <Rules>
-                <Route Values="BIXAD,WACKO">
-                  <AssignSector Order="BDN,BDS,BAN,BAS" />
-                </Route>
-                <Route Values="GUMKI,GUMKI,SANEG,SCOTT">
-                  <AssignSector Order="BDS,BDN,BAS,BAN" />
-                </Route>
-              </Rules>
-            </Runway>
-            <Runway Values="19R">
-              <Rules>
-                <Route Values="BIXAD,WACKO">
-                  <AssignSector Order="BDN,BDS,BAN,BAS" />
-                </Route>
-              </Rules>
-            </Runway>
-            <Runway Values="01L">
-              <Rules>
-                <Route Values="BIXAD,WACKO">
-                  <AssignSector Order="BDN,BDS,BAN,BAS" />
-                </Route>
-              </Rules>
-            </Runway>
-            <Runway Values="01R">
-              <Rules>
-                <Route Values="ASISO,GUMKI,SANEG,SCOTT,WACKO">
-                  <AssignSector Order="BDS,BDN,BAS,BAN" />
-                </Route>
-              </Rules>
-            </Runway>
-            <Route Values="YBSU">
-              <AssignSector Order="BDN,BDS,BAN,BAS" />
-            </Route>
             <Default>
-              <AssignSector Order="BDS,BDN,BAS,BAN"/>
+              <AssignSector Order="MDE"/>
             </Default>
           </Rules>
         </Departure>
       </Rules>
     </RuleSet>
-    <RuleSet Name="YPPH_DEPS">
+    <RuleSet Name="YWLM_DEPS">
       <Rules>
-        <Departure Values="YPPH">
+        <Departure Values="YWLM">
           <Rules>
             <Default>
-              <AssignSector Order="PHD,PHA"/>
-            </Default>
-          </Rules>
-        </Departure>
-      </Rules>
-    </RuleSet>
-    <RuleSet Name="YBCS_DEPS">
-      <Rules>
-        <Departure Values="YBCS">
-          <Rules>
-            <Default>
-              <AssignSector Order="CSD,CSA"/>
+              <AssignSector Order="WLM,MDE"/>
             </Default>
           </Rules>
         </Departure>

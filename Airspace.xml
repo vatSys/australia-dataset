@@ -2,17 +2,25 @@
 <Airspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SystemRunways>
     <Airport Name="YAMB">
+      <Runway Name="04" DataRunway="04" />
       <Runway Name="15" DataRunway="15">
         <SID Name="AMB3" Default="True" />
       </Runway>
+      <Runway Name="22" DataRunway="22" />
       <Runway Name="33" DataRunway="33">
         <SID Name="AMB3" Default="True" />
       </Runway>
     </Airport>
     <Airport Name="YBAF">
+      <Runway Name="04L" DataRunway="04L" />
+      <Runway Name="04R" DataRunway="04R" />
       <Runway Name="10L" DataRunway="10L">
         <SID Name="AF3" />
       </Runway>
+      <Runway Name="10R" DataRunway="10R" />
+      <Runway Name="22L" DataRunway="22L" />
+      <Runway Name="22R" DataRunway="22R" />
+      <Runway Name="28L" DataRunway="28L" />
       <Runway Name="28R" DataRunway="28R">
         <SID Name="AF3" />
       </Runway>
@@ -38,6 +46,7 @@
         <SID Name="STEEL3" />
         <SID Name="TNK3" />
       </Runway>
+      <Runway Name="17" DataRunway="17" />
       <Runway Name="30" DataRunway="30">
         <SID Name="ANGAS5" />
         <SID Name="ARNTU4" />
@@ -58,8 +67,25 @@
         <SID Name="STEEL3" />
         <SID Name="TNK3" />
       </Runway>
+      <Runway Name="35" DataRunway="35" />
     </Airport>
     <Airport Name="YBBN">
+      <Runway Name="01L" DataRunway="01L">
+        <SID Name="BIXAD1" />
+        <SID Name="BN4" Default="True" />
+        <SID Name="WACKO3" />
+        <STAR Name="BLAK4A" />
+        <STAR Name="ENLI1A" />
+        <STAR Name="GOMO1A" />
+        <STAR Name="MORB1A" />
+        <STAR Name="MORB1V" />
+        <STAR Name="SMOK9A" />
+        <STAR Name="SMOK9X" OpDataFlag="X" />
+        <STAR Name="TEBO1A" />
+        <STAR Name="UGTU1A" />
+        <STAR Name="WODY1A" />
+        <STAR Name="WODY1V" />
+      </Runway>
       <Runway Name="01R" DataRunway="01R">
         <SID Name="ASISO1" />
         <SID Name="BN4" Default="True" />
@@ -81,22 +107,6 @@
         <STAR Name="UGTU1A" />
         <STAR Name="UGTU1X" OpDataFlag="X" />
         <STAR Name="WODY1A" />
-      </Runway>
-      <Runway Name="01L" DataRunway="01L">
-        <SID Name="BIXAD1" />
-        <SID Name="BN4" Default="True" />
-        <SID Name="WACKO3" />
-        <STAR Name="BLAK4A" />
-        <STAR Name="ENLI1A" />
-        <STAR Name="GOMO1A" />
-        <STAR Name="MORB1A" />
-        <STAR Name="MORB1V" />
-        <STAR Name="SMOK9A" />
-        <STAR Name="SMOK9X" OpDataFlag="X" />
-        <STAR Name="TEBO1A" />
-        <STAR Name="UGTU1A" />
-        <STAR Name="WODY1A" />
-        <STAR Name="WODY1V" />
       </Runway>
       <Runway Name="19L" DataRunway="19L">
         <SID Name="BIXAD1" />
@@ -141,23 +151,24 @@
       <Runway Name="14" DataRunway="14">
         <SID Name="APAGI5" Type="Jet" />
         <SID Name="CG5" Default="True" />
-        <SID Name="CUDGN3" />
+        <SID Name="CUDGN4" />
         <STAR Name="BERN1A" />
         <STAR Name="BERN1Y" OpDataFlag="Y" />
-        <STAR Name="LAMS1A" />
-        <STAR Name="LAMS1Y" OpDataFlag="Y" />
-      </Runway>
-      <Runway Name="32" DataRunway="32">
-        <SID Name="APAGI5" Type="Jet" />
-        <SID Name="BURLI4" />
-        <SID Name="CG5" Default="True" />
-        <STAR Name="BERN1A" />
         <STAR Name="LAMS1A" />
         <STAR Name="LAMS1Y" OpDataFlag="Y" />
       </Runway>
       <Runway Name="17" DataRunway="17">
         <SID Name="CG5" Default="True" />
       </Runway>
+      <Runway Name="32" DataRunway="32">
+        <SID Name="APAGI5" Type="Jet" />
+        <SID Name="BURLI5" />
+        <SID Name="CG5" Default="True" />
+        <STAR Name="BERN1A" />
+        <STAR Name="LAMS1A" />
+        <STAR Name="LAMS1Y" OpDataFlag="Y" />
+      </Runway>
+      <Runway Name="35" DataRunway="35" />
       <Runway Name="14V" DataRunway="14">
         <STAR Name="BERN1V" />
       </Runway>
@@ -202,6 +213,10 @@
         <STAR Name="UPOL8V" />
       </Runway>
     </Airport>
+    <Airport Name="YBHM">
+      <Runway Name="14" DataRunway="14" />
+      <Runway Name="32" DataRunway="32" />
+    </Airport>
     <Airport Name="YBMK">
       <Runway Name="14" DataRunway="14">
         <SID Name="CLIFT2" />
@@ -228,11 +243,14 @@
       <Runway Name="14" DataRunway="14">
         <SID Name="OK6" Default="True" />
       </Runway>
+      <Runway Name="23" DataRunway="23" />
+      <Runway Name="27" DataRunway="27" />
       <Runway Name="32" DataRunway="32">
         <SID Name="OK6" Default="True" />
       </Runway>
     </Airport>
     <Airport Name="YBRK">
+      <Runway Name="04" DataRunway="04" />
       <Runway Name="15" DataRunway="15">
         <SID Name="BUDGI2" />
         <SID Name="RK3" Default="True" />
@@ -240,6 +258,7 @@
         <STAR Name="ABVAS1" />
         <STAR Name="DADBO1" />
       </Runway>
+      <Runway Name="22" DataRunway="22" />
       <Runway Name="33" DataRunway="33">
         <SID Name="BUDGI2" />
         <SID Name="RK3" Default="True" />
@@ -247,6 +266,10 @@
         <STAR Name="ABVAS1" />
         <STAR Name="DADBO1" />
       </Runway>
+    </Airport>
+    <Airport Name="YBRM">
+      <Runway Name="10" DataRunway="10" />
+      <Runway Name="28" DataRunway="28" />
     </Airport>
     <Airport Name="YBSU">
       <Runway Name="13" DataRunway="13">
@@ -286,6 +309,7 @@
         <STAR Name="VOMP1A" />
         <STAR Name="VOMP1P" OpDataFlag="P" />
       </Runway>
+      <Runway Name="07" DataRunway="07" />
       <Runway Name="19" DataRunway="19">
         <SID Name="ANRUB1" />
         <SID Name="CATEY1" />
@@ -304,6 +328,17 @@
         <STAR Name="VOMP1P" OpDataFlag="P" />
         <STAR Name="VOMP1Z" OpDataFlag="Z" />
       </Runway>
+      <Runway Name="25" DataRunway="25" />
+    </Airport>
+    <Airport Name="YCFS">
+      <Runway Name="03" DataRunway="03" />
+      <Runway Name="10" DataRunway="10" />
+      <Runway Name="21" DataRunway="21" />
+      <Runway Name="28" DataRunway="28" />
+    </Airport>
+    <Airport Name="YGIG">
+      <Runway Name="08" DataRunway="08" />
+      <Runway Name="26" DataRunway="26" />
     </Airport>
     <Airport Name="YMAV">
       <Runway Name="18" DataRunway="18">
@@ -387,6 +422,7 @@
       </Runway>
     </Airport>
     <Airport Name="YMLT">
+      <Runway Name="14L" DataRunway="14L" />
       <Runway Name="14R" DataRunway="14R">
         <SID Name="IRONS2" />
         <SID Name="IRSO1A" />
@@ -402,6 +438,7 @@
         <SID Name="ONAG1B" />
         <SID Name="TASUM1" />
       </Runway>
+      <Runway Name="18" DataRunway="18" />
       <Runway Name="32L" DataRunway="32L">
         <SID Name="IRONS2" />
         <SID Name="IRSO1A" />
@@ -413,8 +450,31 @@
         <SID Name="ONAG1A" />
         <SID Name="TASUM1" />
       </Runway>
+      <Runway Name="32R" DataRunway="32R" />
+      <Runway Name="36" DataRunway="36" />
+    </Airport>
+    <Airport Name="YMMB">
+      <Runway Name="04" DataRunway="04" />
+      <Runway Name="13L" DataRunway="13L" />
+      <Runway Name="13R" DataRunway="13R" />
+      <Runway Name="17L" DataRunway="17L" />
+      <Runway Name="17R" DataRunway="17R" />
+      <Runway Name="22" DataRunway="22" />
+      <Runway Name="31L" DataRunway="31L" />
+      <Runway Name="31R" DataRunway="31R" />
+      <Runway Name="35L" DataRunway="35L" />
+      <Runway Name="35R" DataRunway="35R" />
     </Airport>
     <Airport Name="YMML">
+      <Runway Name="09" DataRunway="09">
+        <SID Name="ML6" Default="True" />
+        <STAR Name="ARBE6A" />
+        <STAR Name="BOYS7A" />
+        <STAR Name="LIZI8A" />
+        <STAR Name="PORT6A" />
+        <STAR Name="WARE7A" />
+        <STAR Name="WEND9A" />
+      </Runway>
       <Runway Name="16" DataRunway="16">
         <SID Name="CORRS9" Type="Jet" />
         <SID Name="CRENA1" Type="Jet" />
@@ -463,15 +523,6 @@
         <SID Name="NEVIS7" Type="Jet" />
         <SID Name="NONIX3" Type="Jet" />
         <SID Name="SUNTI3" Type="Jet" />
-        <STAR Name="ARBE6A" />
-        <STAR Name="BOYS7A" />
-        <STAR Name="LIZI8A" />
-        <STAR Name="PORT6A" />
-        <STAR Name="WARE7A" />
-        <STAR Name="WEND9A" />
-      </Runway>
-      <Runway Name="09" DataRunway="09">
-        <SID Name="ML6" Default="True" />
         <STAR Name="ARBE6A" />
         <STAR Name="BOYS7A" />
         <STAR Name="LIZI8A" />
@@ -585,6 +636,9 @@
         <STAR Name="WANG1P" OpDataFlag="P" />
         <STAR Name="WANG1U" OpDataFlag="U" />
       </Runway>
+      <Runway Name="18" DataRunway="18">
+        <SID Name="DN7" Default="True" />
+      </Runway>
       <Runway Name="29" DataRunway="29">
         <SID Name="BIRDY4" Type="NonJet" />
         <SID Name="DN7" Default="True" />
@@ -604,9 +658,6 @@
         <STAR Name="WANG1A" />
         <STAR Name="WANG1P" OpDataFlag="P" />
         <STAR Name="WANG1U" OpDataFlag="U" />
-      </Runway>
-      <Runway Name="18" DataRunway="18">
-        <SID Name="DN7" Default="True" />
       </Runway>
       <Runway Name="36" DataRunway="36">
         <SID Name="DN7" />
@@ -644,6 +695,10 @@
         <STAR Name="PEA3W" OpDataFlag="W" />
       </Runway>
     </Airport>
+    <Airport Name="YPED">
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="36" DataRunway="36" />
+    </Airport>
     <Airport Name="YPJT">
       <Runway Name="06L" DataRunway="06L">
         <SID Name="MANTL1" />
@@ -653,10 +708,20 @@
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
       </Runway>
+      <Runway Name="06R" DataRunway="06R">
+        <STAR Name="JT2G" OpDataFlag="G" />
+        <STAR Name="JT2R" OpDataFlag="R" />
+        <STAR Name="JT2W" OpDataFlag="W" />
+      </Runway>
       <Runway Name="12" DataRunway="12">
         <SID Name="MANTL1" />
         <SID Name="SCARP4" />
         <SID Name="TONEG2" />
+        <STAR Name="JT2G" OpDataFlag="G" />
+        <STAR Name="JT2R" OpDataFlag="R" />
+        <STAR Name="JT2W" OpDataFlag="W" />
+      </Runway>
+      <Runway Name="24L" DataRunway="24L">
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
@@ -677,24 +742,24 @@
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
       </Runway>
-      <Runway Name="06R" DataRunway="06R">
-        <STAR Name="JT2G" OpDataFlag="G" />
-        <STAR Name="JT2R" OpDataFlag="R" />
-        <STAR Name="JT2W" OpDataFlag="W" />
-      </Runway>
-      <Runway Name="24L" DataRunway="24L">
-        <STAR Name="JT2G" OpDataFlag="G" />
-        <STAR Name="JT2R" OpDataFlag="R" />
-        <STAR Name="JT2W" OpDataFlag="W" />
-      </Runway>
+    </Airport>
+    <Airport Name="YPKA">
+      <Runway Name="08" DataRunway="08" />
+      <Runway Name="26" DataRunway="26" />
     </Airport>
     <Airport Name="YPPF">
       <Runway Name="03L" DataRunway="03L">
         <SID Name="PF1" Default="True" />
       </Runway>
+      <Runway Name="03R" DataRunway="03R" />
+      <Runway Name="08L" DataRunway="08L" />
+      <Runway Name="08R" DataRunway="08R" />
+      <Runway Name="21L" DataRunway="21L" />
       <Runway Name="21R" DataRunway="21R">
         <SID Name="PF1" Default="True" />
       </Runway>
+      <Runway Name="26L" DataRunway="26L" />
+      <Runway Name="26R" DataRunway="26R" />
     </Airport>
     <Airport Name="YPPH">
       <Runway Name="03" DataRunway="03">
@@ -832,15 +897,26 @@
         <SID Name="TN3" Default="True" />
       </Runway>
     </Airport>
+    <Airport Name="YPWR">
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="36" DataRunway="36" />
+    </Airport>
     <Airport Name="YSBK">
       <Runway Name="11C" DataRunway="11C">
         <SID Name="BK8" Default="True" />
       </Runway>
+      <Runway Name="11L" DataRunway="11L" />
+      <Runway Name="11R" DataRunway="11R" />
       <Runway Name="29C" DataRunway="29C">
         <SID Name="BK8" Default="True" />
       </Runway>
+      <Runway Name="29L" DataRunway="29L" />
+      <Runway Name="29R" DataRunway="29R" />
     </Airport>
     <Airport Name="YSCB">
+      <Runway Name="12" DataRunway="12">
+        <SID Name="CB2" Default="True" />
+      </Runway>
       <Runway Name="17" DataRunway="17">
         <SID Name="AKMIR2" Type="NonJet" />
         <SID Name="AVBEG2" Type="Jet" />
@@ -859,6 +935,7 @@
         <STAR Name="RAZI6W" OpDataFlag="W" />
         <STAR Name="RAZI6Y" OpDataFlag="Y" />
       </Runway>
+      <Runway Name="30" DataRunway="30" />
       <Runway Name="35" DataRunway="35">
         <SID Name="AKMIR2" Type="NonJet" />
         <SID Name="AVBEG2" Type="Jet" />
@@ -877,9 +954,6 @@
         <STAR Name="RAZI6W" OpDataFlag="W" />
         <STAR Name="RAZI6Y" OpDataFlag="Y" />
       </Runway>
-      <Runway Name="12" DataRunway="12">
-        <SID Name="CB2" Default="True" />
-      </Runway>
       <Runway Name="30V" DataRunway="30">
         <STAR Name="BUNG3V" />
       </Runway>
@@ -887,6 +961,12 @@
         <STAR Name="BUNG3V" />
         <STAR Name="RAZI6V" />
       </Runway>
+    </Airport>
+    <Airport Name="YSCN">
+      <Runway Name="06" DataRunway="06" />
+      <Runway Name="10" DataRunway="10" />
+      <Runway Name="24" DataRunway="24" />
+      <Runway Name="28" DataRunway="28" />
     </Airport>
     <Airport Name="YSNW">
       <Runway Name="03" DataRunway="03">
@@ -911,6 +991,15 @@
       </Runway>
     </Airport>
     <Airport Name="YSSY">
+      <Runway Name="07" DataRunway="07">
+        <SID Name="FISHA8" Type="Jet" />
+        <SID Name="SY2" Default="True" />
+        <STAR Name="BORE3A" />
+        <STAR Name="MARLN5" />
+        <STAR Name="MEPIL3" Type="NonJet" />
+        <STAR Name="ODALE7" Type="NonJet" />
+        <STAR Name="RIVET3" />
+      </Runway>
       <Runway Name="16L" DataRunway="16L">
         <SID Name="ABBEY3" Type="Jet" />
         <SID Name="KEVIN6" />
@@ -932,18 +1021,7 @@
         <STAR Name="ODALE7" Type="NonJet" />
         <STAR Name="RIVET3" />
       </Runway>
-      <Runway Name="34R" DataRunway="34R">
-        <SID Name="ENTRA5" Type="Jet" />
-        <SID Name="MARUB6" Type="Jet" />
-        <SID Name="SY2" Default="True" />
-        <STAR Name="BORE3A" />
-        <STAR Name="MARLN5" />
-        <STAR Name="MEPIL3" Type="NonJet" />
-        <STAR Name="ODALE7" Type="NonJet" />
-        <STAR Name="RIVET3" />
-      </Runway>
-      <Runway Name="07" DataRunway="07">
-        <SID Name="FISHA8" Type="Jet" />
+      <Runway Name="25" DataRunway="25">
         <SID Name="SY2" Default="True" />
         <STAR Name="BORE3A" />
         <STAR Name="MARLN5" />
@@ -962,7 +1040,9 @@
         <STAR Name="ODALE7" Type="NonJet" />
         <STAR Name="RIVET3" />
       </Runway>
-      <Runway Name="25" DataRunway="25">
+      <Runway Name="34R" DataRunway="34R">
+        <SID Name="ENTRA5" Type="Jet" />
+        <SID Name="MARUB6" Type="Jet" />
         <SID Name="SY2" Default="True" />
         <STAR Name="BORE3A" />
         <STAR Name="MARLN5" />
@@ -971,17 +1051,17 @@
         <STAR Name="RIVET3" />
       </Runway>
     </Airport>
+    <Airport Name="YSTW">
+      <Runway Name="06" DataRunway="06" />
+      <Runway Name="12L" DataRunway="12L" />
+      <Runway Name="12R" DataRunway="12R" />
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="24" DataRunway="24" />
+      <Runway Name="30L" DataRunway="30L" />
+      <Runway Name="30R" DataRunway="30R" />
+      <Runway Name="36" DataRunway="36" />
+    </Airport>
     <Airport Name="YWLM">
-      <Runway Name="30" DataRunway="30">
-        <SID Name="BUBRI1" />
-        <SID Name="EGEVO1" />
-        <SID Name="GUTEX1" />
-        <SID Name="IKIMO1" />
-        <SID Name="LATUT1" />
-        <SID Name="OMBUP1" />
-        <SID Name="WLM3" Default="True" />
-        <SID Name="WONKA1" />
-      </Runway>
       <Runway Name="12" DataRunway="12">
         <SID Name="BUBR1A" />
         <SID Name="BUBR1B" />
@@ -996,6 +1076,16 @@
         <SID Name="WLM3" Default="True" />
         <SID Name="WONK1A" />
         <SID Name="WONK1B" />
+      </Runway>
+      <Runway Name="30" DataRunway="30">
+        <SID Name="BUBRI1" />
+        <SID Name="EGEVO1" />
+        <SID Name="GUTEX1" />
+        <SID Name="IKIMO1" />
+        <SID Name="LATUT1" />
+        <SID Name="OMBUP1" />
+        <SID Name="WLM3" Default="True" />
+        <SID Name="WONKA1" />
       </Runway>
     </Airport>
   </SystemRunways>
@@ -7269,10 +7359,10 @@ BOFOR
     <Point Name="CG450" Type="Fix">-280709.100+1532837.200</Point>
     <Point Name="CG460" Type="Fix">-280342.400+1532800.200</Point>
     <Point Name="CG470" Type="Fix">-275847.400+1532906.800</Point>
-    <Point Name="CG617" Type="Fix">-281714.500+1533447.600</Point>
+    <Point Name="CG612" Type="Fix">-281714.380+1533447.780</Point>
     <Point Name="CG815" Type="Fix">-281759.000+1533717.100</Point>
     <Point Name="CG847" Type="Fix">-281253.200+1533206.800</Point>
-    <Point Name="CG855" Type="Fix">-281722.500+1533129.400</Point>
+    <Point Name="CG851" Type="Fix">-281722.480+1533129.540</Point>
     <Point Name="CG859" Type="Fix">-282209.600+1534432.800</Point>
     <Point Name="CG863" Type="Fix">-283302.700+1535319.000</Point>
     <Point Name="CG913" Type="Fix">-280441.100+1533332.900</Point>
@@ -11643,8 +11733,8 @@ BOFOR
     <Point Name="RCG08" Type="Fix">-281510.600+1532948.200</Point>
     <Point Name="RCG09" Type="Fix">-281237.800+1533830.600</Point>
     <Point Name="RCG10" Type="Fix">-282811.400+1533456.500</Point>
-    <Point Name="RCG11" Type="Fix">-280802.100+1533108.700</Point>
     <Point Name="RCG12" Type="Fix">-281352.100+1533220.400</Point>
+    <Point Name="RCG23" Type="Fix">-280802.120+1533108.700</Point>
     <Point Name="RDN11" Type="Fix">-121712.300+1304415.500</Point>
     <Point Name="RDN12" Type="Fix">-122351.800+1310403.600</Point>
     <Point Name="RDN13" Type="Fix">-122432.200+1305946.300</Point>
@@ -15077,19 +15167,19 @@ BOFOR
       <Route Runway="19R">DAMDA/TOGIN/IGMAS/WACKO</Route>
     </SID>
     <SID Name="APAGI5" Airport="YBCG" Runways="14,32">
-      <Route Runway="14">SMALL/CUDGN/APAGI</Route>
-      <Route Runway="32">STIMP/MICKS/APAGI</Route>
+      <Route Runway="14">SMALL/CG847/CUDGN/APAGI</Route>
+      <Route Runway="32">STIMP/MICKS/CG612/APAGI</Route>
     </SID>
-    <SID Name="BURLI4" Airport="YBCG" Runways="32">
-      <Route Runway="32">LUVLY/MEETA/MAIDS/BURLI/APAGI</Route>
+    <SID Name="BURLI5" Airport="YBCG" Runways="32">
+      <Route Runway="32">LUVLY/MEETA/MAIDS/BURLI/CG612/APAGI</Route>
     </SID>
     <SID Name="CG5" Airport="YBCG" Runways="14,17,32">
       <Route Runway="14" />
       <Route Runway="17" />
       <Route Runway="32" />
     </SID>
-    <SID Name="CUDGN3" Airport="YBCG" Runways="14">
-      <Route Runway="14">SMALL/CUDGN/APAGI</Route>
+    <SID Name="CUDGN4" Airport="YBCG" Runways="14">
+      <Route Runway="14">SMALL/CG847/CUDGN/APAGI</Route>
     </SID>
     <SID Name="CS2" Airport="YBCS" Runways="15,33">
       <Route Runway="15" />
@@ -17966,10 +18056,7 @@ BOFOR
     <Airport ICAO="YMMN" FullName="Millmerran" Position="-275148.000+1511630.000" Elevation="1312" />
     <Airport ICAO="YMMO" FullName="Moama" Position="-360428.000+1444552.000" Elevation="310" />
     <Airport ICAO="YMMR" FullName="Mandemar" Position="-342641.000+1501723.000" />
-    <Airport ICAO="YMMU" FullName="Middlemount" Position="-224809.000+1484217.000" Elevation="547">
-      <Runway Name="11" Position="-224752.960+1484156.420" />
-      <Runway Name="29" Position="-224813.470+1484246.090" />
-    </Airport>
+    <Airport ICAO="YMMU" FullName="Middlemount" Position="-224809.000+1484217.000" Elevation="547" />
     <Airport ICAO="YMND" FullName="Maitland (NSW)" Position="-324215.000+1512920.000" Elevation="85">
       <Runway Name="05" Position="-324211.200+1512922.370" />
       <Runway Name="23" Position="-324151.180+1512958.580" />
@@ -18054,8 +18141,6 @@ BOFOR
     <Airport ICAO="YMTI" FullName="Mornington Island" Position="-163945.000+1391041.000" Elevation="33">
       <Runway Name="09" Position="-163937.850+1390946.830" />
       <Runway Name="27" Position="-163945.030+1391037.490" />
-      <Runway Name="12" Position="-163924.380+1390941.690" />
-      <Runway Name="30" Position="-163943.310+1391001.560" />
     </Airport>
     <Airport ICAO="YMTJ" FullName="Montejinni" Position="-164217.000+1314403.000" />
     <Airport ICAO="YMTO" FullName="Monto" Position="-245332.000+1510607.000" Elevation="757" />
@@ -18954,8 +19039,6 @@ BOFOR
       <Runway Name="30" Position="-324817.850+1515050.990" />
     </Airport>
     <Airport ICAO="YWLU" FullName="Wiluna" Position="-263745.000+1201314.000" Elevation="1653">
-      <Runway Name="03" Position="-263814.010+1201257.010" />
-      <Runway Name="21" Position="-263740.820+1201321.320" />
       <Runway Name="15" Position="-263733.310+1201300.980" />
       <Runway Name="33" Position="-263822.410+1201337.010" />
     </Airport>

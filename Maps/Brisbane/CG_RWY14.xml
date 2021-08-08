@@ -10,21 +10,22 @@
     <Line>
       <!--Rwy14 APAGI5-->
       -28.172569+153.510919/
-      -28.194364+153.525133/
+      -28.195610+153.525909/
       SMALL/
       -28.205766+153.531502/
-      -28.214181+153.535119/
-      -28.237859+153.544164/
+      -28.211044+153.533848/
+      CG847/
       CUDGN/
-      -28.250130+153.546753/
-      -28.261417+153.545884/
-      -28.272120+153.541729/
-      -28.281512+153.534568/
-      -28.288895+153.524925/
+      -28.239071+153.544256/
+      -28.250146+153.546759/
+      -28.261433+153.545890/
+      -28.272136+153.541735/
+      -28.281528+153.534574/
+      -28.284804+153.530879/
       APAGI
     </Line>
     <Line>
-      <!--Rwy14 CUDGN3-->
+      <!--Rwy14 CUDGN4-->
       
     </Line>
     <!--STARs-->
@@ -77,6 +78,7 @@
       <Point>CUDGN</Point>
     </Symbol>
     <Symbol Type="HollowStar">
+      <Point>CG847</Point>
       <Point>APAGI</Point>
       <Point>BERNI</Point>
       <Point>ELDUX</Point>
@@ -98,6 +100,7 @@
   <Map Type="System" Name="CG_RWY14_NAMES" Priority="2" Center="-28.164444+153.504722">
     <Label>
       <Point>SMALL</Point>
+      <Point>CG847</Point>
       <Point>CUDGN</Point>
       <Point>APAGI</Point>
       <Point>BERNI</Point>
