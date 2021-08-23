@@ -74,16 +74,16 @@
         <SID Name="BIXAD1" />
         <SID Name="BN4" Default="True" />
         <SID Name="WACKO3" />
-        <STAR Name="BLAK4A" />
-        <STAR Name="ENLI1A" />
-        <STAR Name="GOMO1A" />
-        <STAR Name="MORB1A" />
+        <STAR Name="BLAK4A" ApproachName="GNSSZ" />
+        <STAR Name="ENLI1A" ApproachName="GNSSZ" />
+        <STAR Name="GOMO1A" ApproachName="GNSSZ" />
+        <STAR Name="MORB1A" ApproachName="GNSSZ" />
         <STAR Name="MORB1V" />
-        <STAR Name="SMOK9A" />
-        <STAR Name="SMOK9X" OpDataFlag="X" />
-        <STAR Name="TEBO1A" />
-        <STAR Name="UGTU1A" />
-        <STAR Name="WODY1A" />
+        <STAR Name="SMOK9A" ApproachName="GNSSZ" />
+        <STAR Name="SMOK9X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="TEBO1A" ApproachName="GNSSZ" />
+        <STAR Name="UGTU1A" ApproachName="GNSSZ" />
+        <STAR Name="WODY1A" ApproachName="GNSSZ" />
         <STAR Name="WODY1V" />
       </Runway>
       <Runway Name="01R" DataRunway="01R">
@@ -93,20 +93,20 @@
         <SID Name="SANEG1" />
         <SID Name="SCOTT3" />
         <SID Name="WACKO3" />
-        <STAR Name="BLAK4A" />
-        <STAR Name="BLAK4X" OpDataFlag="X" />
-        <STAR Name="ENLI1A" />
-        <STAR Name="GOMO1A" />
+        <STAR Name="BLAK4A" ApproachName="GNSSZ" />
+        <STAR Name="BLAK4X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="ENLI1A" ApproachName="GNSSZ" />
+        <STAR Name="GOMO1A" ApproachName="GNSSZ" />
         <STAR Name="GOMO1V" />
-        <STAR Name="GOMO1X" OpDataFlag="X" />
-        <STAR Name="MORB1A" />
-        <STAR Name="SMOK9A" />
-        <STAR Name="SMOK9M" OpDataFlag="M" />
-        <STAR Name="TEBO1A" />
-        <STAR Name="TEBO1X" OpDataFlag="X" />
-        <STAR Name="UGTU1A" />
-        <STAR Name="UGTU1X" OpDataFlag="X" />
-        <STAR Name="WODY1A" />
+        <STAR Name="GOMO1X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="MORB1A" ApproachName="GNSSZ" />
+        <STAR Name="SMOK9A" ApproachName="GNSSZ" />
+        <STAR Name="SMOK9M" OpDataFlag="M" ApproachName="RNPM" />
+        <STAR Name="TEBO1A" ApproachName="GNSSZ" />
+        <STAR Name="TEBO1X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="UGTU1A" ApproachName="GNSSZ" />
+        <STAR Name="UGTU1X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="WODY1A" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="19L" DataRunway="19L">
         <SID Name="BIXAD1" />
@@ -115,35 +115,35 @@
         <SID Name="SANEG1" />
         <SID Name="SCOTT3" />
         <SID Name="WACKO3" />
-        <STAR Name="BLAK4A" />
-        <STAR Name="BLAK4X" OpDataFlag="X" />
-        <STAR Name="ENLI1A" />
-        <STAR Name="ENLI1X" OpDataFlag="X" />
-        <STAR Name="GOMO1A" />
+        <STAR Name="BLAK4A" ApproachName="GNSSZ" />
+        <STAR Name="BLAK4X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="ENLI1A" ApproachName="GNSSZ" />
+        <STAR Name="ENLI1X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="GOMO1A" ApproachName="GNSSZ" />
         <STAR Name="GOMO1V" />
-        <STAR Name="GOMO1X" OpDataFlag="X" />
-        <STAR Name="MORB1A" />
-        <STAR Name="SMOK9A" />
-        <STAR Name="TEBO1A" />
-        <STAR Name="UGTU1A" />
-        <STAR Name="UGTU1X" OpDataFlag="X" />
-        <STAR Name="WODY1A" />
+        <STAR Name="GOMO1X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="MORB1A" ApproachName="GNSSZ" />
+        <STAR Name="SMOK9A" ApproachName="GNSSZ" />
+        <STAR Name="TEBO1A" ApproachName="GNSSZ" />
+        <STAR Name="UGTU1A" ApproachName="GNSSZ" />
+        <STAR Name="UGTU1X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="WODY1A" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="19R" DataRunway="19R">
         <SID Name="BIXAD1" />
         <SID Name="BN4" Default="True" />
         <SID Name="WACKO3" />
-        <STAR Name="BLAK4A" />
-        <STAR Name="ENLI1A" />
-        <STAR Name="ENLI1X" OpDataFlag="X" />
-        <STAR Name="GOMO1A" />
-        <STAR Name="MORB1A" />
+        <STAR Name="BLAK4A" ApproachName="GNSSZ" />
+        <STAR Name="ENLI1A" ApproachName="GNSSZ" />
+        <STAR Name="ENLI1X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="GOMO1A" ApproachName="GNSSZ" />
+        <STAR Name="MORB1A" ApproachName="GNSSZ" />
         <STAR Name="MORB1V" />
-        <STAR Name="SMOK9A" />
-        <STAR Name="SMOK9X" OpDataFlag="X" />
-        <STAR Name="TEBO1A" />
-        <STAR Name="UGTU1A" />
-        <STAR Name="WODY1A" />
+        <STAR Name="SMOK9A" ApproachName="GNSSZ" />
+        <STAR Name="SMOK9X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="TEBO1A" ApproachName="GNSSZ" />
+        <STAR Name="UGTU1A" ApproachName="GNSSZ" />
+        <STAR Name="WODY1A" ApproachName="GNSSZ" />
         <STAR Name="WODY1V" />
       </Runway>
     </Airport>
@@ -152,10 +152,10 @@
         <SID Name="APAGI5" Type="Jet" />
         <SID Name="CG5" Default="True" />
         <SID Name="CUDGN4" />
-        <STAR Name="BERN1A" />
-        <STAR Name="BERN1Y" OpDataFlag="Y" />
-        <STAR Name="LAMS1A" />
-        <STAR Name="LAMS1Y" OpDataFlag="Y" />
+        <STAR Name="BERN1A" ApproachName="GNSSZ" />
+        <STAR Name="BERN1Y" OpDataFlag="Y" ApproachName="RNPY" />
+        <STAR Name="LAMS1A" ApproachName="GNSSZ" />
+        <STAR Name="LAMS1Y" OpDataFlag="Y" ApproachName="RNPY" />
       </Runway>
       <Runway Name="17" DataRunway="17">
         <SID Name="CG5" Default="True" />
@@ -164,9 +164,9 @@
         <SID Name="APAGI5" Type="Jet" />
         <SID Name="BURLI5" />
         <SID Name="CG5" Default="True" />
-        <STAR Name="BERN1A" />
-        <STAR Name="LAMS1A" />
-        <STAR Name="LAMS1Y" OpDataFlag="Y" />
+        <STAR Name="BERN1A" ApproachName="GNSSZ" />
+        <STAR Name="LAMS1A" ApproachName="GNSSZ" />
+        <STAR Name="LAMS1Y" OpDataFlag="Y" ApproachName="RNPY" />
       </Runway>
       <Runway Name="35" DataRunway="35" />
       <Runway Name="14V" DataRunway="14">
@@ -181,28 +181,28 @@
         <SID Name="CS2" Default="True" />
         <SID Name="NONUM1" Type="NonJet" />
         <SID Name="SWIFT8" Type="Jet" />
-        <STAR Name="CODI7A" />
-        <STAR Name="CODI7X" OpDataFlag="X" />
-        <STAR Name="CODI7Z" OpDataFlag="Z" />
-        <STAR Name="NONU3A" />
-        <STAR Name="NONU3B" OpDataFlag="B" />
-        <STAR Name="NONU3W" OpDataFlag="W" />
-        <STAR Name="NONU3Z" OpDataFlag="Z" />
-        <STAR Name="SUNY6B" OpDataFlag="B" />
-        <STAR Name="UPOL8A" />
-        <STAR Name="UPOL8B" OpDataFlag="B" />
-        <STAR Name="UPOL8X" OpDataFlag="X" />
-        <STAR Name="UPOL8Z" OpDataFlag="Z" />
+        <STAR Name="CODI7A" ApproachName="LOC" />
+        <STAR Name="CODI7X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="CODI7Z" OpDataFlag="Z" ApproachName="GNSSZ" />
+        <STAR Name="NONU3A" ApproachName="LOC" />
+        <STAR Name="NONU3B" OpDataFlag="B" ApproachName="VOR" />
+        <STAR Name="NONU3W" OpDataFlag="W" ApproachName="RNPW" />
+        <STAR Name="NONU3Z" OpDataFlag="Z" ApproachName="GNSSZ" />
+        <STAR Name="SUNY6B" OpDataFlag="B" ApproachName="VOR" />
+        <STAR Name="UPOL8A" ApproachName="LOC" />
+        <STAR Name="UPOL8B" OpDataFlag="B" ApproachName="VOR" />
+        <STAR Name="UPOL8X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="UPOL8Z" OpDataFlag="Z" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="33" DataRunway="33">
         <SID Name="CS2" Default="True" />
         <SID Name="EAZEE2" Type="Jet" />
-        <STAR Name="HEND8A" />
-        <STAR Name="HEND8Y" OpDataFlag="Y" />
-        <STAR Name="KEWI2A" />
-        <STAR Name="KEWI2X" OpDataFlag="X" />
-        <STAR Name="KEWI2Y" OpDataFlag="Y" />
-        <STAR Name="TOTY4W" OpDataFlag="W" />
+        <STAR Name="HEND8A" ApproachName="LOC" />
+        <STAR Name="HEND8Y" OpDataFlag="Y" ApproachName="RNPY" />
+        <STAR Name="KEWI2A" ApproachName="LOC" />
+        <STAR Name="KEWI2X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="KEWI2Y" OpDataFlag="Y" ApproachName="RNPY" />
+        <STAR Name="TOTY4W" OpDataFlag="W" ApproachName="RNPW" />
       </Runway>
       <Runway Name="33V" DataRunway="33">
         <STAR Name="KEWI2V" />
@@ -222,15 +222,15 @@
         <SID Name="CLIFT2" />
         <SID Name="MK2" Default="True" />
         <SID Name="POONA2" />
-        <STAR Name="DAGSI1" />
-        <STAR Name="WELKE1" />
+        <STAR Name="DAGSI1" ApproachName="GNSSZ" />
+        <STAR Name="WELKE1" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="32" DataRunway="32">
         <SID Name="CLIFT2" />
         <SID Name="MK2" Default="True" />
         <SID Name="POONA2" />
-        <STAR Name="DAGSI1" />
-        <STAR Name="WELKE1" />
+        <STAR Name="DAGSI1" ApproachName="GNSSZ" />
+        <STAR Name="WELKE1" ApproachName="GNSSZ" />
       </Runway>
     </Airport>
     <Airport Name="YBOK">
@@ -255,16 +255,16 @@
         <SID Name="BUDGI2" />
         <SID Name="RK3" Default="True" />
         <SID Name="TARES2" />
-        <STAR Name="ABVAS1" />
-        <STAR Name="DADBO1" />
+        <STAR Name="ABVAS1" ApproachName="GNSSZ" />
+        <STAR Name="DADBO1" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="22" DataRunway="22" />
       <Runway Name="33" DataRunway="33">
         <SID Name="BUDGI2" />
         <SID Name="RK3" Default="True" />
         <SID Name="TARES2" />
-        <STAR Name="ABVAS1" />
-        <STAR Name="DADBO1" />
+        <STAR Name="ABVAS1" ApproachName="GNSSZ" />
+        <STAR Name="DADBO1" ApproachName="GNSSZ" />
       </Runway>
     </Airport>
     <Airport Name="YBRM">
@@ -275,20 +275,20 @@
       <Runway Name="13" DataRunway="13">
         <SID Name="MOOLO1" />
         <SID Name="TAPET1" />
-        <STAR Name="ITID1W" OpDataFlag="W" />
-        <STAR Name="ITID1Z" OpDataFlag="Z" />
-        <STAR Name="REBE1Z" OpDataFlag="Z" />
-        <STAR Name="SEBV1Z" OpDataFlag="Z" />
+        <STAR Name="ITID1W" OpDataFlag="W" ApproachName="RNPW" />
+        <STAR Name="ITID1Z" OpDataFlag="Z" ApproachName="GNSSZ" />
+        <STAR Name="REBE1Z" OpDataFlag="Z" ApproachName="GNSSZ" />
+        <STAR Name="SEBV1Z" OpDataFlag="Z" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="31" DataRunway="31">
         <SID Name="MOOLO1" />
         <SID Name="TAPET1" />
-        <STAR Name="ITID1W" OpDataFlag="W" />
-        <STAR Name="ITID1Z" OpDataFlag="Z" />
-        <STAR Name="REBE1X" OpDataFlag="X" />
-        <STAR Name="REBE1Z" OpDataFlag="Z" />
-        <STAR Name="SEBV1X" OpDataFlag="X" />
-        <STAR Name="SEBV1Z" OpDataFlag="Z" />
+        <STAR Name="ITID1W" OpDataFlag="W" ApproachName="RNPW" />
+        <STAR Name="ITID1Z" OpDataFlag="Z" ApproachName="GNSSZ" />
+        <STAR Name="REBE1X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="REBE1Z" OpDataFlag="Z" ApproachName="GNSSZ" />
+        <STAR Name="SEBV1X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="SEBV1Z" OpDataFlag="Z" ApproachName="GNSSZ" />
       </Runway>
     </Airport>
     <Airport Name="YBTL">
@@ -302,12 +302,12 @@
         <SID Name="TLE3" Default="True" />
         <SID Name="TLN4" Default="True" />
         <SID Name="WALTA1" />
-        <STAR Name="IBUX1A" />
-        <STAR Name="PORO1A" />
-        <STAR Name="PORO1P" OpDataFlag="P" />
-        <STAR Name="SPAR1A" />
-        <STAR Name="VOMP1A" />
-        <STAR Name="VOMP1P" OpDataFlag="P" />
+        <STAR Name="IBUX1A" ApproachName="GNSSZ" />
+        <STAR Name="PORO1A" ApproachName="GNSSZ" />
+        <STAR Name="PORO1P" OpDataFlag="P" ApproachName="RNPP" />
+        <STAR Name="SPAR1A" ApproachName="GNSSZ" />
+        <STAR Name="VOMP1A" ApproachName="GNSSZ" />
+        <STAR Name="VOMP1P" OpDataFlag="P" ApproachName="RNPP" />
       </Runway>
       <Runway Name="07" DataRunway="07" />
       <Runway Name="19" DataRunway="19">
@@ -320,13 +320,13 @@
         <SID Name="RURTO1" />
         <SID Name="SWIFT1" />
         <SID Name="WALTA1" />
-        <STAR Name="IBUX1Z" OpDataFlag="Z" />
-        <STAR Name="PORO1B" OpDataFlag="B" />
-        <STAR Name="PORO1P" OpDataFlag="P" />
-        <STAR Name="PORO1Z" OpDataFlag="Z" />
-        <STAR Name="VOMP1B" OpDataFlag="B" />
-        <STAR Name="VOMP1P" OpDataFlag="P" />
-        <STAR Name="VOMP1Z" OpDataFlag="Z" />
+        <STAR Name="IBUX1Z" OpDataFlag="Z" ApproachName="GNSSZ" />
+        <STAR Name="PORO1B" OpDataFlag="B" ApproachName="VOR" />
+        <STAR Name="PORO1P" OpDataFlag="P" ApproachName="RNPP" />
+        <STAR Name="PORO1Z" OpDataFlag="Z" ApproachName="GNSSZ" />
+        <STAR Name="VOMP1B" OpDataFlag="B" ApproachName="VOR" />
+        <STAR Name="VOMP1P" OpDataFlag="P" ApproachName="RNPP" />
+        <STAR Name="VOMP1Z" OpDataFlag="Z" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="25" DataRunway="25" />
     </Airport>
@@ -344,7 +344,7 @@
       <Runway Name="18" DataRunway="18">
         <SID Name="AV5" Default="True" />
         <SID Name="JUSTY2" />
-        <STAR Name="JAYBI5" />
+        <STAR Name="JAYBI5" ApproachName="LOC" />
       </Runway>
       <Runway Name="36" DataRunway="36">
         <SID Name="AV5" Default="True" />
@@ -356,14 +356,14 @@
       <Runway Name="07" DataRunway="07">
         <SID Name="DUGGI1" />
         <SID Name="UGVER1" />
-        <STAR Name="ARRAN1" />
-        <STAR Name="VEGRU1" />
+        <STAR Name="ARRAN1" ApproachName="GNSSZ" />
+        <STAR Name="VEGRU1" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="25" DataRunway="25">
         <SID Name="DUGGI1" />
         <SID Name="UGVER1" />
-        <STAR Name="ARRAN1" />
-        <STAR Name="VEGRU1" />
+        <STAR Name="ARRAN1" ApproachName="GNSSZ" />
+        <STAR Name="VEGRU1" ApproachName="GNSSZ" />
       </Runway>
     </Airport>
     <Airport Name="YMEN">
@@ -400,18 +400,18 @@
         <SID Name="KANLI3" Type="NonJet" />
         <SID Name="LATUM2" Type="Jet" />
         <SID Name="LAVOP1" />
-        <STAR Name="IPLE5A" />
-        <STAR Name="IPLE5W" OpDataFlag="W" />
-        <STAR Name="MORG1A" />
+        <STAR Name="IPLE5A" ApproachName="GNSSZ" />
+        <STAR Name="IPLE5W" OpDataFlag="W" ApproachName="RNPW" />
+        <STAR Name="MORG1A" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="30" DataRunway="30">
         <SID Name="CLARK2" />
         <SID Name="KANLI3" Type="NonJet" />
         <SID Name="LATUM2" Type="Jet" />
-        <STAR Name="IPLE5A" />
-        <STAR Name="IPLE5W" OpDataFlag="W" />
-        <STAR Name="MORG1A" />
-        <STAR Name="MORG1W" OpDataFlag="W" />
+        <STAR Name="IPLE5A" ApproachName="GNSSZ" />
+        <STAR Name="IPLE5W" OpDataFlag="W" ApproachName="RNPW" />
+        <STAR Name="MORG1A" ApproachName="GNSSZ" />
+        <STAR Name="MORG1W" OpDataFlag="W" ApproachName="RNPW" />
       </Runway>
       <Runway Name="12V" DataRunway="12">
         <STAR Name="IPLE5V" />
@@ -468,12 +468,12 @@
     <Airport Name="YMML">
       <Runway Name="09" DataRunway="09">
         <SID Name="ML6" Default="True" />
-        <STAR Name="ARBE6A" />
-        <STAR Name="BOYS7A" />
-        <STAR Name="LIZI8A" />
-        <STAR Name="PORT6A" />
-        <STAR Name="WARE7A" />
-        <STAR Name="WEND9A" />
+        <STAR Name="ARBE6A" ApproachName="GNSSZ" />
+        <STAR Name="BOYS7A" ApproachName="GNSSZ" />
+        <STAR Name="LIZI8A" ApproachName="GNSSZ" />
+        <STAR Name="PORT6A" ApproachName="GNSSZ" />
+        <STAR Name="WARE7A" ApproachName="GNSSZ" />
+        <STAR Name="WEND9A" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="16" DataRunway="16">
         <SID Name="CORRS9" Type="Jet" />
@@ -487,13 +487,13 @@
         <SID Name="NEVIS7" Type="Jet" />
         <SID Name="NONIX3" Type="Jet" />
         <SID Name="SUNTI3" Type="Jet" />
-        <STAR Name="ARBE6A" />
-        <STAR Name="BOYS7A" />
-        <STAR Name="LIZI8A" />
-        <STAR Name="WARE7A" />
-        <STAR Name="WARE7M" OpDataFlag="M" />
-        <STAR Name="WEND9A" />
-        <STAR Name="WEND9P" OpDataFlag="P" />
+        <STAR Name="ARBE6A" ApproachName="GNSSZ" />
+        <STAR Name="BOYS7A" ApproachName="GNSSZ" />
+        <STAR Name="LIZI8A" ApproachName="GNSSZ" />
+        <STAR Name="WARE7A" ApproachName="GNSSZ" />
+        <STAR Name="WARE7M" OpDataFlag="M" ApproachName="RNPM" />
+        <STAR Name="WEND9A" ApproachName="GNSSZ" />
+        <STAR Name="WEND9P" OpDataFlag="P" ApproachName="RNPP" />
       </Runway>
       <Runway Name="27" DataRunway="27">
         <SID Name="CORRS9" Type="Jet" />
@@ -506,11 +506,11 @@
         <SID Name="NEVIS7" Type="Jet" />
         <SID Name="NONIX3" Type="Jet" />
         <SID Name="SUNTI3" Type="Jet" />
-        <STAR Name="ARBE6A" />
-        <STAR Name="BOYS7A" />
-        <STAR Name="LIZI8A" />
-        <STAR Name="WARE7A" />
-        <STAR Name="WEND9A" />
+        <STAR Name="ARBE6A" ApproachName="GNSSZ" />
+        <STAR Name="BOYS7A" ApproachName="GNSSZ" />
+        <STAR Name="LIZI8A" ApproachName="GNSSZ" />
+        <STAR Name="WARE7A" ApproachName="GNSSZ" />
+        <STAR Name="WEND9A" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="34" DataRunway="34">
         <SID Name="CORRS9" Type="Jet" />
@@ -523,12 +523,12 @@
         <SID Name="NEVIS7" Type="Jet" />
         <SID Name="NONIX3" Type="Jet" />
         <SID Name="SUNTI3" Type="Jet" />
-        <STAR Name="ARBE6A" />
-        <STAR Name="BOYS7A" />
-        <STAR Name="LIZI8A" />
-        <STAR Name="PORT6A" />
-        <STAR Name="WARE7A" />
-        <STAR Name="WEND9A" />
+        <STAR Name="ARBE6A" ApproachName="GNSSZ" />
+        <STAR Name="BOYS7A" ApproachName="GNSSZ" />
+        <STAR Name="LIZI8A" ApproachName="GNSSZ" />
+        <STAR Name="PORT6A" ApproachName="GNSSZ" />
+        <STAR Name="WARE7A" ApproachName="GNSSZ" />
+        <STAR Name="WEND9A" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="34V" DataRunway="34">
         <STAR Name="BOYS7V" />
@@ -545,16 +545,16 @@
         <SID Name="ORBUN5" Type="Jet" />
         <SID Name="PANKI3" Type="Jet" />
         <SID Name="SEDAN2" Type="Jet" />
-        <STAR Name="ALEX3X" OpDataFlag="X" />
-        <STAR Name="ALEX3Z" OpDataFlag="Z" />
+        <STAR Name="ALEX3X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="ALEX3Z" OpDataFlag="Z" ApproachName="GNSSZ" />
         <STAR Name="ATPIP3" Type="NonJet" />
-        <STAR Name="BLAC3X" OpDataFlag="X" />
-        <STAR Name="BLAC3Z" OpDataFlag="Z" />
-        <STAR Name="RIKA8W" OpDataFlag="W" />
-        <STAR Name="RIKA8Z" OpDataFlag="Z" />
+        <STAR Name="BLAC3X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="BLAC3Z" OpDataFlag="Z" ApproachName="GNSSZ" />
+        <STAR Name="RIKA8W" OpDataFlag="W" ApproachName="RNPW" />
+        <STAR Name="RIKA8Z" OpDataFlag="Z" ApproachName="GNSSZ" />
         <STAR Name="RUSSL3" Type="NonJet" />
-        <STAR Name="SALT3W" OpDataFlag="W" />
-        <STAR Name="SALT3Z" OpDataFlag="Z" />
+        <STAR Name="SALT3W" OpDataFlag="W" ApproachName="RNPW" />
+        <STAR Name="SALT3Z" OpDataFlag="Z" ApproachName="GNSSZ" />
         <STAR Name="SURGN3" Type="NonJet" />
       </Runway>
       <Runway Name="12" DataRunway="12">
@@ -571,17 +571,17 @@
         <SID Name="PANKI3" Type="Jet" />
         <SID Name="SEDAN2" Type="Jet" />
         <STAR Name="ATPIP3" Type="NonJet" />
-        <STAR Name="BLAC3A" />
-        <STAR Name="BLAC3Z" OpDataFlag="Z" />
-        <STAR Name="DRIN9A" />
-        <STAR Name="DRIN9Z" OpDataFlag="Z" />
-        <STAR Name="RAYN2A" />
-        <STAR Name="RAYN2Z" OpDataFlag="Z" />
-        <STAR Name="RIKA8A" />
-        <STAR Name="RIKA8Z" OpDataFlag="Z" />
+        <STAR Name="BLAC3A" ApproachName="GNSSZ" />
+        <STAR Name="BLAC3Z" OpDataFlag="Z" ApproachName="GNSSZ" />
+        <STAR Name="DRIN9A" ApproachName="GNSSZ" />
+        <STAR Name="DRIN9Z" OpDataFlag="Z" ApproachName="GNSSZ" />
+        <STAR Name="RAYN2A" ApproachName="GNSSZ" />
+        <STAR Name="RAYN2Z" OpDataFlag="Z" ApproachName="GNSSZ" />
+        <STAR Name="RIKA8A" ApproachName="GNSSZ" />
+        <STAR Name="RIKA8Z" OpDataFlag="Z" ApproachName="GNSSZ" />
         <STAR Name="RUSSL3" Type="NonJet" />
-        <STAR Name="SALT3A" />
-        <STAR Name="SALT3Z" OpDataFlag="Z" />
+        <STAR Name="SALT3A" ApproachName="GNSSZ" />
+        <STAR Name="SALT3Z" OpDataFlag="Z" ApproachName="GNSSZ" />
         <STAR Name="SURGN3" Type="NonJet" />
       </Runway>
       <Runway Name="30" DataRunway="30">
@@ -625,16 +625,16 @@
         <SID Name="PALGA7" Type="Jet" />
         <SID Name="RUSKA6" Type="NonJet" />
         <SID Name="VANDI6" Type="NonJet" />
-        <STAR Name="DONY8A" />
-        <STAR Name="DONY8U" OpDataFlag="U" />
-        <STAR Name="GATO8A" />
-        <STAR Name="GATO8U" OpDataFlag="U" />
-        <STAR Name="VEGP6A" />
-        <STAR Name="VEGP6P" OpDataFlag="P" />
-        <STAR Name="VEGP6U" OpDataFlag="U" />
-        <STAR Name="WANG1A" />
-        <STAR Name="WANG1P" OpDataFlag="P" />
-        <STAR Name="WANG1U" OpDataFlag="U" />
+        <STAR Name="DONY8A" ApproachName="RNPU" />
+        <STAR Name="DONY8U" OpDataFlag="U" ApproachName="RNPU" />
+        <STAR Name="GATO8A" ApproachName="RNPU" />
+        <STAR Name="GATO8U" OpDataFlag="U" ApproachName="RNPU" />
+        <STAR Name="VEGP6A" ApproachName="RNPU" />
+        <STAR Name="VEGP6P" OpDataFlag="P" ApproachName="RNPP" />
+        <STAR Name="VEGP6U" OpDataFlag="U" ApproachName="RNPU" />
+        <STAR Name="WANG1A" ApproachName="RNPU" />
+        <STAR Name="WANG1P" OpDataFlag="P" ApproachName="RNPP" />
+        <STAR Name="WANG1U" OpDataFlag="U" ApproachName="RNPU" />
       </Runway>
       <Runway Name="18" DataRunway="18">
         <SID Name="DN7" Default="True" />
@@ -649,15 +649,15 @@
         <SID Name="PALGA7" Type="Jet" />
         <SID Name="RUSKA6" Type="NonJet" />
         <SID Name="VANDI6" Type="NonJet" />
-        <STAR Name="DONY8A" />
-        <STAR Name="DONY8U" OpDataFlag="U" />
-        <STAR Name="GATO8A" />
-        <STAR Name="GATO8U" OpDataFlag="U" />
-        <STAR Name="VEGP6A" />
-        <STAR Name="VEGP6U" OpDataFlag="U" />
-        <STAR Name="WANG1A" />
-        <STAR Name="WANG1P" OpDataFlag="P" />
-        <STAR Name="WANG1U" OpDataFlag="U" />
+        <STAR Name="DONY8A" ApproachName="LOC" />
+        <STAR Name="DONY8U" OpDataFlag="U" ApproachName="RNPU" />
+        <STAR Name="GATO8A" ApproachName="LOC" />
+        <STAR Name="GATO8U" OpDataFlag="U" ApproachName="RNPU" />
+        <STAR Name="VEGP6A" ApproachName="LOC" />
+        <STAR Name="VEGP6U" OpDataFlag="U" ApproachName="RNPU" />
+        <STAR Name="WANG1A" ApproachName="LOC" />
+        <STAR Name="WANG1P" OpDataFlag="P" ApproachName="RNPP" />
+        <STAR Name="WANG1U" OpDataFlag="U" ApproachName="RNPU" />
       </Runway>
       <Runway Name="36" DataRunway="36">
         <SID Name="DN7" />
@@ -777,19 +777,19 @@
         <SID Name="RAVON3" Type="NonJet" />
         <SID Name="SOLUS3" />
         <SID Name="YNRV2" Type="Jet" />
-        <STAR Name="BEVL5A" />
-        <STAR Name="BEVL5X" OpDataFlag="X" />
-        <STAR Name="CONI4A" Type="NonJet" />
-        <STAR Name="CONI4X" Type="NonJet" OpDataFlag="X" />
-        <STAR Name="DAYL4A" Type="NonJet" />
-        <STAR Name="DAYL4X" Type="NonJet" OpDataFlag="X" />
-        <STAR Name="GREN5A" Type="NonJet" />
-        <STAR Name="GREN5X" Type="NonJet" OpDataFlag="X" />
-        <STAR Name="JULI5A" />
-        <STAR Name="JULI5X" OpDataFlag="X" />
-        <STAR Name="SOLU2A" />
-        <STAR Name="SOLU2X" OpDataFlag="X" />
-        <STAR Name="WAVE3A" />
+        <STAR Name="BEVL5A" ApproachName="GNSSZ" />
+        <STAR Name="BEVL5X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="CONI4A" Type="NonJet" ApproachName="GNSSZ" />
+        <STAR Name="CONI4X" Type="NonJet" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="DAYL4A" Type="NonJet" ApproachName="GNSSZ" />
+        <STAR Name="DAYL4X" Type="NonJet" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="GREN5A" Type="NonJet" ApproachName="GNSSZ" />
+        <STAR Name="GREN5X" Type="NonJet" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="JULI5A" ApproachName="GNSSZ" />
+        <STAR Name="JULI5X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="SOLU2A" ApproachName="GNSSZ" />
+        <STAR Name="SOLU2X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="WAVE3A" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="06" DataRunway="06">
         <SID Name="AMANA2" Type="Jet" />
@@ -806,13 +806,13 @@
         <SID Name="RAVON3" Type="NonJet" />
         <SID Name="SOLUS3" />
         <SID Name="YNRV2" Type="Jet" />
-        <STAR Name="BEVL5A" />
-        <STAR Name="CONI4A" Type="NonJet" />
-        <STAR Name="DAYL4A" Type="NonJet" />
-        <STAR Name="GREN5A" Type="NonJet" />
-        <STAR Name="JULI5A" />
-        <STAR Name="SOLU2A" />
-        <STAR Name="WAVE3A" />
+        <STAR Name="BEVL5A" ApproachName="GNSSZ" />
+        <STAR Name="CONI4A" Type="NonJet" ApproachName="GNSSZ" />
+        <STAR Name="DAYL4A" Type="NonJet" ApproachName="GNSSZ" />
+        <STAR Name="GREN5A" Type="NonJet" ApproachName="GNSSZ" />
+        <STAR Name="JULI5A" ApproachName="GNSSZ" />
+        <STAR Name="SOLU2A" ApproachName="GNSSZ" />
+        <STAR Name="WAVE3A" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="21" DataRunway="21">
         <SID Name="AMANA2" Type="Jet" />
@@ -829,12 +829,12 @@
         <SID Name="RAVON3" Type="NonJet" />
         <SID Name="SOLUS3" />
         <SID Name="YNRV2" Type="Jet" />
-        <STAR Name="BEVL5A" />
-        <STAR Name="CONI4A" Type="NonJet" />
-        <STAR Name="GREN5A" Type="NonJet" />
-        <STAR Name="JULI5A" />
+        <STAR Name="BEVL5A" ApproachName="GNSSZ" />
+        <STAR Name="CONI4A" Type="NonJet" ApproachName="GNSSZ" />
+        <STAR Name="GREN5A" Type="NonJet" ApproachName="GNSSZ" />
+        <STAR Name="JULI5A" ApproachName="GNSSZ" />
         <STAR Name="SOLU2A" />
-        <STAR Name="WAVE3A" />
+        <STAR Name="WAVE3A" ApproachName="GNSSZ" />
       </Runway>
       <Runway Name="24" DataRunway="24">
         <SID Name="AMANA2" Type="Jet" />
@@ -851,10 +851,10 @@
         <SID Name="RAVON3" Type="NonJet" />
         <SID Name="SOLUS3" />
         <SID Name="YNRV2" Type="Jet" />
-        <STAR Name="BEVL5A" />
-        <STAR Name="CONI4A" Type="NonJet" />
-        <STAR Name="GREN5A" Type="NonJet" />
-        <STAR Name="JULI5A" />
+        <STAR Name="BEVL5A" ApproachName="GNSSZ" />
+        <STAR Name="CONI4A" Type="NonJet" ApproachName="GNSSZ" />
+        <STAR Name="GREN5A" Type="NonJet" ApproachName="GNSSZ" />
+        <STAR Name="JULI5A" ApproachName="GNSSZ" />
         <STAR Name="SOLU2A" />
         <STAR Name="WAVE3A" />
       </Runway>
@@ -927,13 +927,13 @@
         <SID Name="NONUP8" Type="Jet" />
         <SID Name="TANTA2" Type="Jet" />
         <SID Name="WG1" Type="Jet" />
-        <STAR Name="AVBE4A" />
-        <STAR Name="BUNG3A" />
-        <STAR Name="MAND2A" />
-        <STAR Name="MAND2X" OpDataFlag="X" />
-        <STAR Name="RAZI6A" />
-        <STAR Name="RAZI6W" OpDataFlag="W" />
-        <STAR Name="RAZI6Y" OpDataFlag="Y" />
+        <STAR Name="AVBE4A" ApproachName="RNPW" />
+        <STAR Name="BUNG3A" ApproachName="RNPW" />
+        <STAR Name="MAND2A" ApproachName="RNPW" />
+        <STAR Name="MAND2X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="RAZI6A" ApproachName="RNPW" />
+        <STAR Name="RAZI6W" OpDataFlag="W" ApproachName="RNPW" />
+        <STAR Name="RAZI6Y" OpDataFlag="Y" ApproachName="RNPY" />
       </Runway>
       <Runway Name="30" DataRunway="30" />
       <Runway Name="35" DataRunway="35">
@@ -946,13 +946,13 @@
         <SID Name="NONUP8" Type="Jet" />
         <SID Name="TANTA2" Type="Jet" />
         <SID Name="WG1" Type="Jet" />
-        <STAR Name="AVBE4A" />
-        <STAR Name="BUNG3A" />
-        <STAR Name="POLI7A" />
-        <STAR Name="POLI7X" OpDataFlag="X" />
-        <STAR Name="RAZI6A" />
-        <STAR Name="RAZI6W" OpDataFlag="W" />
-        <STAR Name="RAZI6Y" OpDataFlag="Y" />
+        <STAR Name="AVBE4A" ApproachName="GNSSZ" />
+        <STAR Name="BUNG3A" ApproachName="GNSSZ" />
+        <STAR Name="POLI7A" ApproachName="GNSSZ" />
+        <STAR Name="POLI7X" OpDataFlag="X" ApproachName="RNPX" />
+        <STAR Name="RAZI6A" ApproachName="GNSSZ" />
+        <STAR Name="RAZI6W" OpDataFlag="W" ApproachName="RNPW" />
+        <STAR Name="RAZI6Y" OpDataFlag="Y" ApproachName="RNPY" />
       </Runway>
       <Runway Name="30V" DataRunway="30">
         <STAR Name="BUNG3V" />
@@ -1015,7 +1015,7 @@
         <SID Name="KAMPI5" />
         <SID Name="SY2" Default="True" />
         <STAR Name="BORE3A" />
-        <STAR Name="BORE3P" OpDataFlag="P" />
+        <STAR Name="BORE3P" OpDataFlag="P" ApproachName="GNSSZ" />
         <STAR Name="MARLN5" />
         <STAR Name="MEPIL3" Type="NonJet" />
         <STAR Name="ODALE7" Type="NonJet" />
@@ -1024,7 +1024,7 @@
       <Runway Name="25" DataRunway="25">
         <SID Name="SY2" Default="True" />
         <STAR Name="BORE3A" />
-        <STAR Name="MARLN5" />
+        <STAR Name="MARLN5" ApproachName="GNSSZ" />
         <STAR Name="MEPIL3" Type="NonJet" />
         <STAR Name="ODALE7" Type="NonJet" />
         <STAR Name="RIVET3" />
@@ -14973,6 +14973,170 @@ BOFOR
     <Point Name="TDL" Type="Navaid" NavaidType="TAC" Frequency="112.300">-143124.200+1322222.800</Point>
     <Point Name="TVL" Type="Navaid" NavaidType="TAC" Frequency="113.500">-191644.400+1464433.100</Point>
     <Point Name="WLM" Type="Navaid" NavaidType="TAC" Frequency="113.300">-324749.400+1514959.500</Point>
+    <Point Name="AD05T" Type="Fix">-345727.650+1383106.440</Point>
+    <Point Name="AD12T" Type="Fix">-345628.270+1383118.860</Point>
+    <Point Name="AD23T" Type="Fix">-345626.320+1383235.700</Point>
+    <Point Name="AD30T" Type="Fix">-345657.870+1383213.150</Point>
+    <Point Name="AF04L" Type="Fix">-273415.530+1530006.700</Point>
+    <Point Name="AF04R" Type="Fix">-273418.080+1530015.720</Point>
+    <Point Name="AF10L" Type="Fix">-273413.420+1525949.980</Point>
+    <Point Name="AF10R" Type="Fix">-273419.910+1525953.020</Point>
+    <Point Name="AF22L" Type="Fix">-273355.860+1530047.140</Point>
+    <Point Name="AF22R" Type="Fix">-273356.250+1530033.990</Point>
+    <Point Name="AF28L" Type="Fix">-273430.810+1530031.230</Point>
+    <Point Name="AF28R" Type="Fix">-273427.480+1530039.310</Point>
+    <Point Name="AM04T" Type="Fix">-273840.600+1524228.330</Point>
+    <Point Name="AM15T" Type="Fix">-273718.170+1524218.960</Point>
+    <Point Name="AM22T" Type="Fix">-273811.720+1524313.490</Point>
+    <Point Name="AM33T" Type="Fix">-273850.440+1524259.270</Point>
+    <Point Name="AS12T" Type="Fix">-234803.710+1335336.100</Point>
+    <Point Name="AS17T" Type="Fix">-234750.200+1335311.540</Point>
+    <Point Name="AS30T" Type="Fix">-234843.630+1335450.500</Point>
+    <Point Name="AS35T" Type="Fix">-234826.940+1335312.770</Point>
+    <Point Name="AV18T" Type="Fix">-380138.060+1442809.930</Point>
+    <Point Name="AV36T" Type="Fix">-380316.040+1442753.420</Point>
+    <Point Name="AY07T" Type="Fix">-360405.070+1465656.010</Point>
+    <Point Name="AY25T" Type="Fix">-360355.620+1465811.070</Point>
+    <Point Name="BK11C" Type="Fix">-335512.430+1505904.400</Point>
+    <Point Name="BK11L" Type="Fix">-335512.440+1505911.930</Point>
+    <Point Name="BK11R" Type="Fix">-335517.870+1505906.730</Point>
+    <Point Name="BK29C" Type="Fix">-335535.230+1505945.100</Point>
+    <Point Name="BK29L" Type="Fix">-335536.600+1505940.170</Point>
+    <Point Name="BK29R" Type="Fix">-335532.350+1505947.480</Point>
+    <Point Name="BN01L" Type="Fix">-272259.090+1530624.470</Point>
+    <Point Name="BN01R" Type="Fix">-272410.090+1530705.580</Point>
+    <Point Name="BN19L" Type="Fix">-272228.820+1530803.500</Point>
+    <Point Name="BN19R" Type="Fix">-272123.610+1530719.070</Point>
+    <Point Name="BR10T" Type="Fix">-175645.530+1221300.780</Point>
+    <Point Name="BR28T" Type="Fix">-175704.710+1221412.940</Point>
+    <Point Name="CB12T" Type="Fix">-351802.460+1491106.550</Point>
+    <Point Name="CB17T" Type="Fix">-351726.240+1491140.010</Point>
+    <Point Name="CB30T" Type="Fix">-351836.000+1491155.530</Point>
+    <Point Name="CB35T" Type="Fix">-351853.280+1491140.010</Point>
+    <Point Name="CF03T" Type="Fix">-302018.150+1530623.570</Point>
+    <Point Name="CF10T" Type="Fix">-301900.400+1530655.220</Point>
+    <Point Name="CF21T" Type="Fix">-301926.950+1530714.360</Point>
+    <Point Name="CF28T" Type="Fix">-301907.350+1530721.230</Point>
+    <Point Name="CG14T" Type="Fix">-280923.440+1533002.540</Point>
+    <Point Name="CG17T" Type="Fix">-280951.680+1533024.310</Point>
+    <Point Name="CG32T" Type="Fix">-281021.250+1533039.310</Point>
+    <Point Name="CG35T" Type="Fix">-281010.540+1533022.790</Point>
+    <Point Name="CN06T" Type="Fix">-340226.230+1504050.230</Point>
+    <Point Name="CN10T" Type="Fix">-340229.410+1504054.250</Point>
+    <Point Name="CN24T" Type="Fix">-340210.270+1504130.980</Point>
+    <Point Name="CN28T" Type="Fix">-340237.800+1504120.570</Point>
+    <Point Name="CS15T" Type="Fix">-165156.990+1454436.820</Point>
+    <Point Name="CS33T" Type="Fix">-165331.140+1454519.380</Point>
+    <Point Name="DN11T" Type="Fix">-122433.850+1305154.940</Point>
+    <Point Name="DN18T" Type="Fix">-122431.830+1305214.350</Point>
+    <Point Name="DN29T" Type="Fix">-122509.220+1305339.990</Point>
+    <Point Name="DN36T" Type="Fix">-122521.450+1305214.480</Point>
+    <Point Name="ED18T" Type="Fix">-344140.330+1383703.300</Point>
+    <Point Name="ED36T" Type="Fix">-344302.470+1383648.400</Point>
+    <Point Name="EN08T" Type="Fix">-374353.010+1445334.370</Point>
+    <Point Name="EN17T" Type="Fix">-374313.530+1445402.730</Point>
+    <Point Name="EN26T" Type="Fix">-374350.880+1445452.780</Point>
+    <Point Name="EN35T" Type="Fix">-374402.260+1445405.110</Point>
+    <Point Name="ES04T" Type="Fix">-380621.780+1470818.820</Point>
+    <Point Name="ES09T" Type="Fix">-380544.450+1470741.880</Point>
+    <Point Name="ES22T" Type="Fix">-380535.170+1470939.620</Point>
+    <Point Name="ES27T" Type="Fix">-380555.640+1470912.330</Point>
+    <Point Name="GI08T" Type="Fix">-312759.360+1155113.430</Point>
+    <Point Name="GI26T" Type="Fix">-312743.990+1155220.330</Point>
+    <Point Name="HB12T" Type="Fix">-424944.340+1473007.370</Point>
+    <Point Name="HB30T" Type="Fix">-425044.120+1473128.540</Point>
+    <Point Name="HM14T" Type="Fix">-202104.830+1485648.180</Point>
+    <Point Name="HM32T" Type="Fix">-202149.030+1485723.620</Point>
+    <Point Name="JT06L" Type="Fix">-320559.860+1155228.460</Point>
+    <Point Name="JT06R" Type="Fix">-320603.110+1155236.890</Point>
+    <Point Name="JT12T" Type="Fix">-320559.860+1155220.910</Point>
+    <Point Name="JT24L" Type="Fix">-320541.390+1155312.570</Point>
+    <Point Name="JT24R" Type="Fix">-320538.570+1155303.450</Point>
+    <Point Name="JT30T" Type="Fix">-320620.110+1155313.270</Point>
+    <Point Name="KA08T" Type="Fix">-204250.490+1164552.960</Point>
+    <Point Name="KA26T" Type="Fix">-204242.290+1164711.300</Point>
+    <Point Name="LT14L" Type="Fix">-413228.330+1471251.660</Point>
+    <Point Name="LT14R" Type="Fix">-413213.440+1471214.750</Point>
+    <Point Name="LT18T" Type="Fix">-413221.620+1471303.780</Point>
+    <Point Name="LT32L" Type="Fix">-413307.470+1471300.960</Point>
+    <Point Name="LT32R" Type="Fix">-413247.620+1471307.570</Point>
+    <Point Name="LT36T" Type="Fix">-413243.100+1471255.460</Point>
+    <Point Name="MB04T" Type="Fix">-375846.270+1450553.260</Point>
+    <Point Name="MB13L" Type="Fix">-375822.470+1450555.120</Point>
+    <Point Name="MB13R" Type="Fix">-375832.540+1450553.960</Point>
+    <Point Name="MB17L" Type="Fix">-375827.370+1450558.280</Point>
+    <Point Name="MB17R" Type="Fix">-375825.400+1450549.330</Point>
+    <Point Name="MB22T" Type="Fix">-375835.940+1450607.440</Point>
+    <Point Name="MB31L" Type="Fix">-375851.670+1450612.840</Point>
+    <Point Name="MB31R" Type="Fix">-375849.040+1450621.340</Point>
+    <Point Name="MB35L" Type="Fix">-375854.270+1450551.870</Point>
+    <Point Name="MB35R" Type="Fix">-375855.710+1450600.750</Point>
+    <Point Name="MK14T" Type="Fix">-210947.490+1491038.870</Point>
+    <Point Name="MK32T" Type="Fix">-211041.970+1491115.600</Point>
+    <Point Name="ML09T" Type="Fix">-373938.700+1444920.110</Point>
+    <Point Name="ML16T" Type="Fix">-373911.450+1445005.690</Point>
+    <Point Name="ML27T" Type="Fix">-373944.120+1445053.130</Point>
+    <Point Name="ML34T" Type="Fix">-374108.800+1445027.600</Point>
+    <Point Name="NW03T" Type="Fix">-345655.870+1503211.250</Point>
+    <Point Name="NW08T" Type="Fix">-345652.370+1503135.730</Point>
+    <Point Name="NW21T" Type="Fix">-345608.420+1503307.650</Point>
+    <Point Name="NW26T" Type="Fix">-345657.560+1503258.030</Point>
+    <Point Name="OK05T" Type="Fix">-272421.910+1514351.200</Point>
+    <Point Name="OK09T" Type="Fix">-272432.760+1514329.020</Point>
+    <Point Name="OK14T" Type="Fix">-272409.610+1514413.540</Point>
+    <Point Name="OK23T" Type="Fix">-272404.820+1514418.440</Point>
+    <Point Name="OK27T" Type="Fix">-272438.650+1514408.130</Point>
+    <Point Name="OK32T" Type="Fix">-272453.570+1514447.900</Point>
+    <Point Name="PE05T" Type="Fix">-314020.350+1160031.290</Point>
+    <Point Name="PE18L" Type="Fix">-313944.680+1160049.370</Point>
+    <Point Name="PE18R" Type="Fix">-314007.610+1160048.000</Point>
+    <Point Name="PE23T" Type="Fix">-313941.350+1160116.470</Point>
+    <Point Name="PE36L" Type="Fix">-314103.800+1160055.480</Point>
+    <Point Name="PE36R" Type="Fix">-314103.360+1160059.840</Point>
+    <Point Name="PF03L" Type="Fix">-344813.600+1383750.320</Point>
+    <Point Name="PF03R" Type="Fix">-344807.790+1383803.630</Point>
+    <Point Name="PF08L" Type="Fix">-344736.780+1383729.150</Point>
+    <Point Name="PF08R" Type="Fix">-344744.120+1383723.940</Point>
+    <Point Name="PF21L" Type="Fix">-344731.210+1383827.440</Point>
+    <Point Name="PF21R" Type="Fix">-344735.000+1383815.450</Point>
+    <Point Name="PF26L" Type="Fix">-344741.200+1383802.800</Point>
+    <Point Name="PF26R" Type="Fix">-344733.960+1383806.710</Point>
+    <Point Name="PH03T" Type="Fix">-315731.460+1155734.860</Point>
+    <Point Name="PH06T" Type="Fix">-315627.560+1155733.130</Point>
+    <Point Name="PH21T" Type="Fix">-315542.940+1155806.470</Point>
+    <Point Name="PH24T" Type="Fix">-315551.270+1155843.650</Point>
+    <Point Name="RI10T" Type="Fix">-333605.810+1504616.490</Point>
+    <Point Name="RI28T" Type="Fix">-333626.180+1504735.590</Point>
+    <Point Name="RK04T" Type="Fix">-232256.850+1502755.400</Point>
+    <Point Name="RK15T" Type="Fix">-232209.190+1502814.020</Point>
+    <Point Name="RK22T" Type="Fix">-232240.970+1502817.720</Point>
+    <Point Name="RK33T" Type="Fix">-232326.450+1502848.420</Point>
+    <Point Name="SU13T" Type="Fix">-263459.570+1530428.260</Point>
+    <Point Name="SU31T" Type="Fix">-263602.620+1530522.370</Point>
+    <Point Name="SY07T" Type="Fix">-335637.460+1510949.060</Point>
+    <Point Name="SY16L" Type="Fix">-335705.890+1511119.850</Point>
+    <Point Name="SY16R" Type="Fix">-335548.360+1511018.420</Point>
+    <Point Name="SY25T" Type="Fix">-335616.000+1511120.070</Point>
+    <Point Name="SY34L" Type="Fix">-335751.360+1511050.320</Point>
+    <Point Name="SY34R" Type="Fix">-335814.730+1511137.720</Point>
+    <Point Name="TL01T" Type="Fix">-191529.900+1464553.000</Point>
+    <Point Name="TL07T" Type="Fix">-191520.910+1464519.960</Point>
+    <Point Name="TL19T" Type="Fix">-191417.530+1464627.180</Point>
+    <Point Name="TL25T" Type="Fix">-191511.060+1464556.070</Point>
+    <Point Name="TN14T" Type="Fix">-143043.910+1322207.890</Point>
+    <Point Name="TN32T" Type="Fix">-143151.160+1322308.100</Point>
+    <Point Name="TW06T" Type="Fix">-310459.450+1505034.450</Point>
+    <Point Name="TW12L" Type="Fix">-310415.780+1505013.110</Point>
+    <Point Name="TW12R" Type="Fix">-310452.760+1504958.320</Point>
+    <Point Name="TW18T" Type="Fix">-310437.630+1505047.770</Point>
+    <Point Name="TW24T" Type="Fix">-310451.530+1505104.780</Point>
+    <Point Name="TW30L" Type="Fix">-310517.270+1505029.010</Point>
+    <Point Name="TW30R" Type="Fix">-310504.370+1505113.940</Point>
+    <Point Name="TW36T" Type="Fix">-310510.430+1505042.240</Point>
+    <Point Name="WM12T" Type="Fix">-324713.640+1514921.340</Point>
+    <Point Name="WM30T" Type="Fix">-324817.850+1515050.990</Point>
+    <Point Name="WR18T" Type="Fix">-310806.440+1364849.930</Point>
+    <Point Name="WR36T" Type="Fix">-310923.080+1364840.850</Point>
     <Point Name="AD" Type="Navaid" NavaidType="VOR" Frequency="116.400">-345649.100+1383128.300</Point>
     <Point Name="ARG" Type="Navaid" NavaidType="VOR" Frequency="113.900">-163754.100+1282655.500</Point>
     <Point Name="AS" Type="Navaid" NavaidType="VOR" Frequency="115.900">-234734.400+1335241.600</Point>
@@ -16583,6 +16747,309 @@ BOFOR
       <Route Runway="34L">RIVET/BIGEM/TAMMI/BOOGI/DUDOK/NASHO</Route>
       <Route Runway="34R">RIVET/BIGEM/TAMMI/BOOGI/DUDOK/NASHO</Route>
     </STAR>
+    <Approach Name="GNSSZ" Airport="YBBN" Runway="01L">
+      <Transition Name="TANIK">TANIK</Transition>
+      <Route>AKTOB/LUTSI/BN01L</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBBN" Runway="01R">
+      <Transition Name="GLENN">GLENN</Transition>
+      <Route>NOMEV/GOGEX/BN01R</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBBN" Runway="19L">
+      <Transition Name="BETSO">BETSO</Transition>
+      <Route>PIKON/OGATU/BN19L</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBBN" Runway="19R">
+      <Transition Name="OSOKO">OSOKO</Transition>
+      <Route>OKVIS/SAKBO/BN19R</Route>
+    </Approach>
+    <Approach Name="RNPM" Airport="YBBN" Runway="01R">
+      <Route>BIPUD/BN505/BN515/BN01R</Route>
+    </Approach>
+    <Approach Name="RNPX" Airport="YBBN" Runway="01L">
+      <Transition Name="RUSVA">RUSVA</Transition>
+      <Route>BN500/BN510/BN520/BN01L</Route>
+    </Approach>
+    <Approach Name="RNPX" Airport="YBBN" Runway="01R">
+      <Transition Name="SORVA">SORVA</Transition>
+      <Route>BN525/BN535/BN545/BN01R</Route>
+    </Approach>
+    <Approach Name="RNPX" Airport="YBBN" Runway="19L">
+      <Transition Name="ATSEP">ATSEP</Transition>
+      <Route>BN405/BN415/BN425/BN19L</Route>
+    </Approach>
+    <Approach Name="RNPX" Airport="YBBN" Runway="19R">
+      <Transition Name="LUVNA">LUVNA</Transition>
+      <Route>BN400/BN411/BN421/BN19R</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBCG" Runway="14">
+      <Transition Name="KEGAN">KEGAN</Transition>
+      <Transition Name="OOLNC">OOLNC</Transition>
+      <Route>OOLNI/OOLNF/CG14T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBCG" Runway="32">
+      <Transition Name="FIKUL">FIKUL</Transition>
+      <Transition Name="OOLSA">OOLSA</Transition>
+      <Transition Name="OOLSC">OOLSC</Transition>
+      <Route>OOLSI/OOLSF/CG32T</Route>
+    </Approach>
+    <Approach Name="RNPY" Airport="YBCG" Runway="14">
+      <Transition Name="KERRI">KERRI</Transition>
+      <Route>CG045/-28.093209+153.567099/-28.082610+153.554675/-28.075254+153.539563/-28.071598+153.522809/-28.071582+153.508653/CG004/CG332/CG14T</Route>
+    </Approach>
+    <Approach Name="RNPY" Airport="YBCG" Runway="32">
+      <Transition Name="ATKEN">ATKEN</Transition>
+      <Route>CG421/CG422/CG440/CG32T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBCS" Runway="15">
+      <Transition Name="ATOSU">ATOSU</Transition>
+      <Transition Name="GUNRO">GUNRO</Transition>
+      <Transition Name="PULAX">PULAX</Transition>
+      <Route>CNSNI/CNSNF/CNSNM</Route>
+    </Approach>
+    <Approach Name="LOC" Airport="YBCS" Runway="15">
+      <Transition Name="GUNRO">GUNRO</Transition>
+      <Transition Name="RAINY">RAINY</Transition>
+      <Transition Name="SUNNY">SUNNY</Transition>
+      <Route>-16.621095+145.632915/KASNA/CS15T</Route>
+    </Approach>
+    <Approach Name="LOC" Airport="YBCS" Runway="33">
+      <Route>HENDO/CS33T</Route>
+    </Approach>
+    <Approach Name="RNPW" Airport="YBCS" Runway="15">
+      <Transition Name="EPGAG">EPGAG</Transition>
+      <Route>CS401/CS403/CS405/CS407/CS15T</Route>
+    </Approach>
+    <Approach Name="RNPW" Airport="YBCS" Runway="33">
+      <Transition Name="LEBAD">LEBAD/CS510</Transition>
+      <Route>CS511/CS512/CS513/CS540/CS541/CS33T</Route>
+    </Approach>
+    <Approach Name="RNPX" Airport="YBCS" Runway="15">
+      <Transition Name="GUNRO">GUNRO/CS400</Transition>
+      <Transition Name="TODEG">TODEG/CS402/CS404</Transition>
+      <Route>CS405/CS407/CS15T</Route>
+    </Approach>
+    <Approach Name="RNPX" Airport="YBCS" Runway="33">
+      <Transition Name="LAVUP">LAVUP</Transition>
+      <Route>CS530/CS531/CS532/CS541/CS33T</Route>
+    </Approach>
+    <Approach Name="RNPY" Airport="YBCS" Runway="33">
+      <Transition Name="BASIL">BASIL/CS520/-17.155845+146.002876/-17.168903+145.984709/-17.176985+145.963570/-17.179562+145.940960/-17.176458+145.918423/-17.171333+145.904363/CS521/CS523</Transition>
+      <Transition Name="HENDO">HENDO/CS522/CS523</Transition>
+      <Route>CS540/CS541/CS33T</Route>
+    </Approach>
+    <Approach Name="VOR" Airport="YBCS" Runway="15">
+      <Transition Name="RAINY">RAINY</Transition>
+      <Transition Name="UPOLO">UPOLO</Transition>
+      <Route>SUNNY/BENJI/CS15T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBMK" Runway="14">
+      <Transition Name="BMKNA">BMKNA</Transition>
+      <Transition Name="LEDUS">LEDUS</Transition>
+      <Transition Name="LUMVA">LUMVA</Transition>
+      <Route>BMKNI/BMKNF/BMKNM</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBMK" Runway="32">
+      <Transition Name="BAVAM">BAVAM</Transition>
+      <Transition Name="BMKSJ">BMKSJ</Transition>
+      <Transition Name="BURNO">BURNO</Transition>
+      <Route>BMKSI/BMKSF/BMKSM</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBRK" Runway="15">
+      <Transition Name="BASOB">BASOB</Transition>
+      <Transition Name="BRKNC">BRKNC</Transition>
+      <Transition Name="GOKUN">GOKUN</Transition>
+      <Route>BRKNI/BRKNF/BRKNM</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBRK" Runway="33">
+      <Transition Name="BRKSJ">BRKSJ</Transition>
+      <Transition Name="LALIS">LALIS</Transition>
+      <Transition Name="SARUS">SARUS</Transition>
+      <Route>BRKSI/BRKSF/RK33T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBSU" Runway="13">
+      <Transition Name="OLTUD">OLTUD</Transition>
+      <Transition Name="UPLOT">UPLOT</Transition>
+      <Route>BSZNI/BSZNF/SU13T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBSU" Runway="31">
+      <Transition Name="BSZSC">BSZSC</Transition>
+      <Transition Name="OVRUL">OVRUL</Transition>
+      <Route>BSZSI/BSZSF/BSZSM</Route>
+    </Approach>
+    <Approach Name="RNPW" Airport="YBSU" Runway="13">
+      <Transition Name="BUKRA">BUKRA/SU410</Transition>
+      <Route>SU420/SU430/-26.453476+153.062010/-26.466064+153.036767/-26.488291+153.021952/-26.514170+153.021536/-26.526316+153.026978/SU440/SU13T</Route>
+    </Approach>
+    <Approach Name="RNPW" Airport="YBSU" Runway="31">
+      <Transition Name="SAKAP">SAKAP</Transition>
+      <Route>SU630/SU640/SU650/SU31T</Route>
+    </Approach>
+    <Approach Name="RNPX" Airport="YBSU" Runway="31">
+      <Transition Name="IKISA">IKISA/SU615/-26.529486+153.316594/-26.567215+153.333031/-26.607290+153.326124/-26.638904+153.297721/-26.646632+153.283002/SU625</Transition>
+      <Route>SU630/SU640/SU650/SU31T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBTL" Runway="01">
+      <Transition Name="FREDY">FREDY</Transition>
+      <Transition Name="KIRAN">KIRAN</Transition>
+      <Transition Name="SATCO">SATCO</Transition>
+      <Route>GOTSI/TSVSF/TL01T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YBTL" Runway="19">
+      <Transition Name="ADNOD">ADNOD</Transition>
+      <Transition Name="LEBOT">LEBOT</Transition>
+      <Transition Name="TSVNE">TSVNE</Transition>
+      <Route>TSVNI/TSVNF/TSVNM</Route>
+    </Approach>
+    <Approach Name="RNPP" Airport="YBTL" Runway="01">
+      <Route>GUGAN/KIRAN/TL788/TL780/ESDAM/TL01T</Route>
+    </Approach>
+    <Approach Name="RNPP" Airport="YBTL" Runway="19">
+      <Route>VILUN/TL688/TL684/BIXAX/TL671/AGVIT/TL670/TL19T</Route>
+    </Approach>
+    <Approach Name="VOR" Airport="YBTL" Runway="19">
+      <Transition Name="NELLY">NELLY</Transition>
+      <Transition Name="WESTY">WESTY</Transition>
+      <Route>NIKKY/TL19T</Route>
+    </Approach>
+    <Approach Name="LOC" Airport="YMAV" Runway="18">
+      <Route>TEMPL/IKANO/AV18T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YMAY" Runway="07">
+      <Transition Name="RURLA">RURLA</Transition>
+      <Transition Name="UPDUR">UPDUR</Transition>
+      <Route>ABXWI/ABXWF/AY07T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YMAY" Runway="25">
+      <Transition Name="AB2EA">AB2EA</Transition>
+      <Transition Name="BEMGI">BEMGI</Transition>
+      <Transition Name="OLRUT">OLRUT</Transition>
+      <Route>AB2EI/AB2EF/AY25T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YMHB" Runway="12">
+      <Transition Name="BUSKA">BUSKA</Transition>
+      <Transition Name="HBZWD">HBZWD</Transition>
+      <Transition Name="HBZWG">HBZWG</Transition>
+      <Route>HBZWI/HBZWF/HBZWM</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YMHB" Runway="30">
+      <Transition Name="HBTEB">HBTEB</Transition>
+      <Transition Name="HBTEC">HBTEC</Transition>
+      <Transition Name="PIDOS">PIDOS</Transition>
+      <Route>HBTEI/HBTEF/HBTEM</Route>
+    </Approach>
+    <Approach Name="RNPW" Airport="YMHB" Runway="12">
+      <Route>VETOR/HB410/-42.693819+147.432459/-42.709744+147.420458/-42.727486+147.414499/-42.745756+147.414992/-42.763309+147.421909/-42.777636+147.433469/HB420/HB12T</Route>
+    </Approach>
+    <Approach Name="RNPW" Airport="YMHB" Runway="30">
+      <Route>BAVUR/HB510/-42.868736+147.667376/-42.878311+147.655346/-42.885271+147.640277/-42.889134+147.623260/-42.889635+147.605458/-42.886741+147.588087/-42.880741+147.572589/HB520/HB30T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YMML" Runway="09">
+      <Route>GUPUG/MMLWF/MMLWM</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YMML" Runway="16">
+      <Transition Name="BELTA">BELTA</Transition>
+      <Route>ANBEM/MMLNF/ML16T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YMML" Runway="27">
+      <Route>VISAS/MMLEF/MMLEM</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YMML" Runway="34">
+      <Route>AKDEL/BOSGI/MMLSM</Route>
+    </Approach>
+    <Approach Name="RNPM" Airport="YMML" Runway="16">
+      <Route>LUVKA/AREXO/-37.548889+144.846667/-37.571389+144.829167/ML420/ML16T</Route>
+    </Approach>
+    <Approach Name="RNPP" Airport="YMML" Runway="16">
+      <Transition Name="EMSEK">EMSEK</Transition>
+      <Route>SUSAK/-37.580928+144.952971/-37.557159+144.943029/-37.540556+144.919422/-37.535528+144.888513/-37.536564+144.879271/AREXO/-37.548889+144.846667/-37.571389+144.829167/ML420/ML16T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YPAD" Runway="05">
+      <Transition Name="LUNGA">LUNGA</Transition>
+      <Transition Name="PADSE">PADSE</Transition>
+      <Transition Name="SIGUL">SIGUL</Transition>
+      <Route>PADSI/PADSF/PADSM</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YPAD" Runway="23">
+      <Transition Name="GULLY">GULLY</Transition>
+      <Transition Name="PADNJ">PADNJ</Transition>
+      <Route>PADNI/PADNF/PADNM</Route>
+    </Approach>
+    <Approach Name="RNPW" Airport="YPAD" Runway="05">
+      <Transition Name="SADMI">SADMI</Transition>
+      <Route>AD010/AD030/AD05T</Route>
+    </Approach>
+    <Approach Name="RNPX" Airport="YPAD" Runway="05">
+      <Transition Name="OGUGU">OGUGU</Transition>
+      <Route>AD020/AD030/AD05T</Route>
+    </Approach>
+    <Approach Name="LOC" Airport="YPDN" Runway="29">
+      <Route>LAPAR/TOROT/DN29T</Route>
+    </Approach>
+    <Approach Name="RNPP" Airport="YPDN" Runway="11">
+      <Transition Name="KITTY">KITTY/TOSOB/DN412/-12.457633+130.746873/-12.452720+130.736936/-12.445441+130.728659/-12.436318+130.722594/-12.435755+130.722356</Transition>
+      <Transition Name="UPSEN">UPSEN/IGBOV</Transition>
+      <Route>DN407/-12.427845+130.719496/-12.406297+130.720434/-12.388108+130.732301/-12.378150+130.751889/-12.377548+130.766692/DN404/DN11T</Route>
+    </Approach>
+    <Approach Name="RNPP" Airport="YPDN" Runway="29">
+      <Route>KITTY/GUMUR/DN448/-12.533533+130.973599/-12.535252+130.995614/-12.525965+131.015556/-12.508188+131.028068/-12.486686+131.029797/-12.467221+131.020284/-12.459046+131.010557/DN444/DN432/DN29T</Route>
+    </Approach>
+    <Approach Name="RNPU" Airport="YPDN" Runway="11">
+      <Route>NASUX/DN404/DN11T</Route>
+    </Approach>
+    <Approach Name="RNPU" Airport="YPDN" Runway="29">
+      <Route>LAPAR/DN432/DN29T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YPPH" Runway="03">
+      <Route>TIMMY/PERSF/PH03T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YPPH" Runway="06">
+      <Route>LENNY/PERWF/PH06T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YPPH" Runway="21">
+      <Transition Name="KOORI">KOORI</Transition>
+      <Transition Name="WOOFY">WOOFY/PERND</Transition>
+      <Route>HAIGH/PERNF/PERNM</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YPPH" Runway="24">
+      <Route>KOORI/PEREF/PH24T</Route>
+    </Approach>
+    <Approach Name="RNPX" Airport="YPPH" Runway="03">
+      <Route>KARGO/PH010/PH020/-32.048441+115.990231/-32.037890+115.965736/-32.018349+115.950780/-31.995087+115.949356/-31.994137+115.949644/PH030/PH03T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YSCB" Runway="35">
+      <Transition Name="CBRSD">CBRSD</Transition>
+      <Transition Name="CBRSG">CBRSG</Transition>
+      <Transition Name="MENZI">MENZI</Transition>
+      <Route>CBRSI/CBRSF/CBRSM</Route>
+    </Approach>
+    <Approach Name="RNPW" Airport="YSCB" Runway="17">
+      <Route>TALAG/CB403/CB402/CB401/CB17T</Route>
+    </Approach>
+    <Approach Name="RNPW" Airport="YSCB" Runway="35">
+      <Transition Name="FOXLO">FOXLO/CB430</Transition>
+      <Route>CB431/CB432/CB444/CB445/CB446/CB35T</Route>
+    </Approach>
+    <Approach Name="RNPX" Airport="YSCB" Runway="17">
+      <Route>VADMA/CB407/-35.103859+149.123798/-35.108800+149.160203/-35.127997+149.188698/-35.156273+149.201652/-35.171254+149.201014/CB402/CB401/CB17T</Route>
+    </Approach>
+    <Approach Name="RNPX" Airport="YSCB" Runway="35">
+      <Transition Name="KALKA">KALKA</Transition>
+      <Route>CB421/CB422/CB444/CB445/CB446/CB35T</Route>
+    </Approach>
+    <Approach Name="RNPY" Airport="YSCB" Runway="17">
+      <Route>SAPIT/CB405/-35.112560+149.280925/-35.122917+149.252266/-35.139056+149.227858/-35.159809+149.209380/-35.171413+149.202898/CB402/CB401/CB17T</Route>
+    </Approach>
+    <Approach Name="RNPY" Airport="YSCB" Runway="35">
+      <Transition Name="BIBRU">BIBRU/CB441</Transition>
+      <Route>CB442/CB443/CB444/CB445/CB446/CB35T</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YSSY" Runway="16R">
+      <Route>URDEN/SYDNF/SYDNM</Route>
+    </Approach>
+    <Approach Name="GNSSZ" Airport="YSSY" Runway="25">
+      <Route>JELLI/SSYEF/SSYEM</Route>
+    </Approach>
   </SIDSTARs>
   <Airports>
     <Airport ICAO="YAAL" FullName="Yarralin" Position="-162641.000+1305250.000" />
