@@ -16,10 +16,6 @@
       <Point>PFTNC</Point>
       <Point>PFTNA</Point>
       <Point>PFTNF</Point>
-      <Point>PJTED</Point>
-      <Point>KALAM</Point>
-      <Point>PJTEG</Point>
-      <Point>PJTEF</Point>
       <Point>TRAEG</Point>
       <Point>TRAEH</Point>
       <Point>TRAEJ</Point>
@@ -169,6 +165,13 @@
       <Point>DRWSA</Point>
       <Point>DRWSB</Point>
       <Point>DRWSC</Point>
+      <Point>PJTWA</Point>
+      <Point>PJTWB</Point>
+      <Point>KALAM</Point>
+      <Point>PJTED</Point>
+      <Point>PJTEG</Point>
+      <Point>PJTSK</Point>
+      <Point>PJTSL</Point>
       <Point>PPFNA</Point>
       <Point>PPFND</Point>
       <Point>TIMMY</Point>
@@ -238,6 +241,8 @@
       <Point>DRWWF</Point>
       <Point>DRWEF</Point>
       <Point>DRWSF</Point>
+      <Point>PJTWF</Point>
+      <Point>PJTEF</Point>
       <Point>PPFNF</Point>
       <Point>PERSF</Point>
       <Point>PERWF</Point>
@@ -298,6 +303,9 @@
       <Point>DRWWI</Point>
       <Point>DRWEI</Point>
       <Point>DRWSI</Point>
+      <Point>PJTWI</Point>
+      <Point>PJTEI</Point>
+      <Point>PJTSI</Point>
       <Point>PPFNI</Point>
       <Point>HAIGH</Point>
       <Point>KOORI</Point>
@@ -2169,15 +2177,6 @@
       <Point>PIRWC</Point>
       <Point>PIRWF</Point>
       <Point>PIRWI</Point>
-      <Point>PJTEI</Point>
-      <Point>PJTSK</Point>
-      <Point>PJTSL</Point>
-      <Point>PJTSF</Point>
-      <Point>PJTSI</Point>
-      <Point>PJTWA</Point>
-      <Point>PJTWB</Point>
-      <Point>PJTWF</Point>
-      <Point>PJTWI</Point>
       <Point>PKAEA</Point>
       <Point>PKAEB</Point>
       <Point>PKAEC</Point>
@@ -3132,6 +3131,8 @@
       <Point>DRWWF</Point>
       <Point>DRWEF</Point>
       <Point>DRWSF</Point>
+      <Point>PJTWF</Point>
+      <Point>PJTEF</Point>
       <Point>PPFNF</Point>
       <Point>PERSF</Point>
       <Point>PERWF</Point>
@@ -3532,9 +3533,6 @@
       <Point>PGVWF</Point>
       <Point>PIREF</Point>
       <Point>PIRWF</Point>
-      <Point>PJTEF</Point>
-      <Point>PJTSF</Point>
-      <Point>PJTWF</Point>
       <Point>PKAEF</Point>
       <Point>PKAWF</Point>
       <Point>PKEEF</Point>
@@ -3775,6 +3773,9 @@
       <Point>DRWWI</Point>
       <Point>DRWEI</Point>
       <Point>DRWSI</Point>
+      <Point>PJTWI</Point>
+      <Point>PJTEI</Point>
+      <Point>PJTSI</Point>
       <Point>PPFNI</Point>
       <Point>HAIGH</Point>
       <Point>KOORI</Point>
@@ -4167,9 +4168,6 @@
       <Point>PGVWI</Point>
       <Point>PIREI</Point>
       <Point>PIRWI</Point>
-      <Point>PJTEI</Point>
-      <Point>PJTSI</Point>
-      <Point>PJTWI</Point>
       <Point>PKAEI</Point>
       <Point>PKAWI</Point>
       <Point>PKEEI</Point>
@@ -4373,9 +4371,6 @@
       <Point>COMND</Point>
       <Point>PFTNC</Point>
       <Point>PFTNA</Point>
-      <Point>PJTED</Point>
-      <Point>KALAM</Point>
-      <Point>PJTEG</Point>
       <Point>TRAEG</Point>
       <Point>TRAEH</Point>
       <Point>TRAEJ</Point>
@@ -4517,6 +4512,13 @@
       <Point>DRWSA</Point>
       <Point>DRWSB</Point>
       <Point>DRWSC</Point>
+      <Point>PJTWA</Point>
+      <Point>PJTWB</Point>
+      <Point>KALAM</Point>
+      <Point>PJTED</Point>
+      <Point>PJTEG</Point>
+      <Point>PJTSK</Point>
+      <Point>PJTSL</Point>
       <Point>PPFNA</Point>
       <Point>PPFND</Point>
       <Point>TIMMY</Point>
@@ -5636,10 +5638,6 @@
       <Point>PIRWA</Point>
       <Point>PIRWB</Point>
       <Point>PIRWC</Point>
-      <Point>PJTSK</Point>
-      <Point>PJTSL</Point>
-      <Point>PJTWA</Point>
-      <Point>PJTWB</Point>
       <Point>PKAEA</Point>
       <Point>PKAEB</Point>
       <Point>PKAEC</Point>
@@ -8054,19 +8052,6 @@
     <Line>PIRWC/PIRWI</Line>
     <Line>PIRWI/PIRWF</Line>
     <Line>PIRWM/PIRWF</Line>
-    <Line>PJTED/PJTEI</Line>
-    <Line>KALAM/PJTEI</Line>
-    <Line>PJTEG/PJTEI</Line>
-    <Line>PJTEI/PJTEF</Line>
-    <Line>-32.094047+115.884292/PJTEF</Line>
-    <Line>PJTSK/PJTSI</Line>
-    <Line>PJTSL/PJTSI</Line>
-    <Line>PJTSI/PJTSF</Line>
-    <Line>-320620.110+1155313.270/PJTSF</Line>
-    <Line>PJTWA/PJTWI</Line>
-    <Line>PJTWB/PJTWI</Line>
-    <Line>PJTWI/PJTWF</Line>
-    <Line>PJTWM/PJTWF</Line>
     <Line>PKAEA/PKAEI</Line>
     <Line>PKAEB/PKAEI</Line>
     <Line>PKAEC/PKAEI</Line>
@@ -9173,6 +9158,16 @@
     <Line>DRWSA/DRWSI</Line>
     <Line>DRWSB/DRWSI</Line>
     <Line>DRWSC/DRWSI</Line>
+    <Line>PJTWI/PJTWF/PJTWM</Line>
+    <Line>PJTWA/PJTWI</Line>
+    <Line>PJTWB/PJTWI</Line>
+    <Line>PJTEI/PJTEF/JT24R</Line>
+    <Line>KALAM/PJTEI</Line>
+    <Line>PJTED/PJTEI</Line>
+    <Line>PJTEG/PJTEI</Line>
+    <Line>PJTSI/PJTSF/JT30T</Line>
+    <Line>PJTSK/PJTSI</Line>
+    <Line>PJTSL/PJTSI</Line>
     <Line>PPFNI/PPFNF/PF21R</Line>
     <Line>PPFNA/PPFNI</Line>
     <Line>PPFND/PPFNI</Line>
