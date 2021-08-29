@@ -1,83 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="SY_RWY34PROPS" Priority="1" Center="-33.946111+151.177222">
+  <Map Type="System" Name="SY_RWYSODPROPS" Priority="1" Center="-33.946111+151.177222">
     <!--YSSY-->
     <Runway Name="16R/34L">
       <Threshold Name="16R" Position="-33.930100+151.171783" />
       <Threshold Name="34L" Position="-33.964267+151.180644" ExtendedCentrelineTrack="167.81" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
     </Runway>
-    <Runway Name="16L/34R">
-      <Threshold Name="16L" Position="-33.951636+151.188847" />
-      <Threshold Name="34R" Position="-33.970758+151.193811" ExtendedCentrelineTrack="167.8" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
-    </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy34L KADOM1-->
-      -33.930100+151.171783/
-      -33.932885+151.172703/
-      -33.915634+151.167665/
-      -33.903611+151.157234/
-      -33.834230+151.027383/
+      <!--Rwy16R DEENA7-->
+      -33.964267+151.180644/
+      -33.966456+151.181106/
+      DUNES/
+      DEENA
+    </Line>
+    <Line>
+      <!--Rwy16R DEENA7.KADOM-->
+      DEENA/
+      ANKUB/
       KADOM
     </Line>
     <Line>
-      <!--Rwy34L RIC5-->
-      -33.915634+151.167665/
-      -33.902202+151.158774/
-      -33.794092+151.023004
-    </Line>
-    <Line>
-      <!--Rwy34L RIC5.RIC-->
-      -33.794092+151.023004/
+      <!--Rwy16R DEENA7.RIC-->
+      ANKUB/
       RIC NDB
     </Line>
     <Line>
-      <!--Rwy34L WOL2-->
-      -33.834230+151.027383/
-      -33.831836+150.962031/
-      -33.835012+150.957348/
-      -33.847409+150.948079/
-      -33.860565+150.942565/
-      -33.876377+150.939229/
-      -33.897821+150.939442/
-      -33.926649+150.946929/
-      ANKUB/
+      <!--Rwy16R DEENA7.WOL-->
+      DEENA/
+      KAMPI/
       WOL NDB
     </Line>
     <Line>
-      <!--Rwy34R ENTRA5-->
-      -33.951636+151.188847/
-      -33.940611+151.186039/
-      -33.930802+151.187547/
-      -33.921462+151.192023/
-      HALAS/
-      -33.819834+151.357694/
-      -33.806041+151.380163/
-      ENTRA
-    </Line>
-    <Line>
-      <!--Rwy34R MARUB6-->
-      -33.930802+151.187547/
-      -33.919286+151.201529/
-      -33.927672+151.221958/
-      -33.935964+151.232587/
-      -33.941320+151.247154/
-      -33.932762+151.450828/
-      MARUB
-    </Line>
-    <Line>
-      <!--Rwy34R MARUB6.WOL-->
-      MARUB/
-      -33.931522+151.485226/
-      -33.939743+151.529321/
-      -33.957777+151.551293/
-      -33.979078+151.561181/
-      -34.132654+151.636056/
-      -34.132508+151.636077/
-      -34.159726+151.645114/
-      -34.189817+151.637072/
-      -34.216413+151.610027/
-      WOL NDB
+      <!--Rwy16R KAMPI5-->
+      DUNES/
+      KAMPI
     </Line>
     <!--STARs-->
     <Line>
@@ -128,53 +85,22 @@
       BOOGI/
       DUDOK
     </Line>
-    <Line>
-      <!--Rwy34R BORE3A-->
-      OVILS/
-      MAJAR/
-      DIPPA/
-      JAKLN
-    </Line>
-    <Line>
-      <!--Rwy34R MARLN5-->
-      PRAWN/
-      MANFA/
-      JAKLN
-    </Line>
-    <Line>
-      <!--Rwy34R MEPIL3.SANAD-->
-      
-    </Line>
-    <Line>
-      <!--Rwy34R MEPIL3-->
-      
-    </Line>
-    <Line>
-      <!--Rwy34R ODALE7-->
-      
-    </Line>
-    <Line>
-      <!--Rwy34R RIVET3-->
-      
-    </Line>
     <Symbol Type="HollowTriangle">
       <Point>SOSIJ</Point>
-      <Point>ENDEV</Point>
     </Symbol>
     <Symbol Type="SolidStar">
-      <Point>MARUB</Point>
+      <Point>DEENA</Point>
+      <Point>KAMPI</Point>
       <Point>NASHO</Point>
-      <Point>JAKLN</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>RIC NDB</Point>
       <Point>WOL NDB</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>KADOM</Point>
+      <Point>DUNES</Point>
       <Point>ANKUB</Point>
-      <Point>HALAS</Point>
-      <Point>ENTRA</Point>
+      <Point>KADOM</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
       <Point>BEROW</Point>
@@ -199,42 +125,17 @@
       <Point>BIGEM</Point>
       <Point>TAMMI</Point>
       <Point>BOOGI</Point>
-      <Point>MAJAR</Point>
-      <Point>DIPPA</Point>
-      <Point>MANFA</Point>
     </Symbol>
-    <!--(SY) RWY34PROPS Airspace-->
-    <Line Width="1.7" Pattern="Dotted">
--340540.000+1501753.000/-335709.000+1510102.000/-334932.000+1510518.000/-334548.000+1510443.000/-333309.000+1510031.000/-331422.000+1505212.000</Line>
-    <Line Width="1.7" Pattern="Dotted">
--331210.000+1511816.000/-334251.000+1511329.000/-334818.000+1512116.000/-335615.000+1512409.000/-335959.000+1520455.000</Line>
-    <Line Width="1.7" Pattern="Dotted">
--340351.000+1505947.000/-342008.000+1502443.000</Line>
-    <Line Width="1.7" Pattern="Dotted">
--343731.000+1513340.000/-340008.000+1512444.000/-335835.000+1511111.000/-340351.000+1505947.000/-341116.000+1510303.000/-344137.000+1511018.000</Line>
-    <Line Width="1.7" Pattern="Dotted">
--340401.000+1520420.000/-340008.000+1512444.000</Line>
-    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
-      <Point Name="SAN 60/SDN 50">-33.565168+151.150003</Point>
-      <Point Name="SAN 60/SDN 50">-33.898951+151.241922</Point>
-      <Point Name="SAS 60/SDS 50">-34.124911+150.719557</Point>
-      <Point Name="SDN">-33.643419+151.690090</Point>
-      <Point Name="SDN">-33.628888+150.639444</Point>
-      <Point Name="SDS">-34.255213+151.724123</Point>
-      <Point Name="SDS">-34.415281+150.771534</Point>
-      <Point Name="SFE">-34.293247+151.375046</Point>
-      <Point Name="SFW">-34.311956+151.174309</Point>
-    </Label>
   </Map>
-  <Map Type="System" Name="SY_RWY34PROPS_NAMES" Priority="2" Center="-33.946111+151.177222">
+  <Map Type="System" Name="SY_RWYSODPROPS_NAMES" Priority="2" Center="-33.946111+151.177222">
     <Label>
+      <Point>DUNES</Point>
+      <Point>DEENA</Point>
+      <Point>ANKUB</Point>
       <Point>KADOM</Point>
       <Point>RIC NDB</Point>
-      <Point>ANKUB</Point>
+      <Point>KAMPI</Point>
       <Point>WOL NDB</Point>
-      <Point>HALAS</Point>
-      <Point>ENTRA</Point>
-      <Point>MARUB</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
       <Point>BEROW</Point>
@@ -260,10 +161,6 @@
       <Point>BIGEM</Point>
       <Point>TAMMI</Point>
       <Point>BOOGI</Point>
-      <Point>MAJAR</Point>
-      <Point>DIPPA</Point>
-      <Point>JAKLN</Point>
-      <Point>MANFA</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>
       <Point>ABARB</Point>
@@ -283,6 +180,7 @@
       <Point>LOVGO</Point>
       <Point>VAPKI</Point>
       <Point>NBR NDB</Point>
+      <Point>ENTRA</Point>
       <Point>MARTO</Point>
       <Point>SUMSA</Point>
       <Point>WLM NDB</Point>
@@ -336,7 +234,6 @@
       <Point>OPTIC</Point>
       <Point>TONIM</Point>
       <Point>SOSIJ</Point>
-      <Point>ENDEV</Point>
     </Label>
   </Map>
 </Maps>
