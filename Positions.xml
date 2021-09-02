@@ -422,105 +422,6 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Brisbane Upper" Type="ASD" DefaultCenter="-212104.763+1361802.191" DefaultRange="3900">
-    <Sectors>
-      <Sector Name="BBB" />
-      <Sector Name="KIY" />
-      <Sector Name="TRT" />
-      <Sector Name="STR" />
-      <Sector Name="ARA" />
-      <Sector Name="ISA" />
-      <Sector Name="WEG" />
-      <Sector Name="BAR" />
-      <Sector Name="KEN" />
-      <Sector Name="TBP" />
-      <Sector Name="SWY" />
-      <Sector Name="CVN" />
-      <Sector Name="KPL" />
-      <Sector Name="BUR" />
-      <Sector Name="DOS" />
-      <Sector Name="SDY" />
-      <Sector Name="GRN" />
-      <Sector Name="MDE" />
-      <Sector Name="ARM" />
-      <Sector Name="MLD" />
-      <Sector Name="OCN" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Alpha">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="25000" />
-    <ControllerInfo>
-      <Line>Brisbane Centre</Line>
-      <Line>Control service for YBBB FIR FL245 and ABV when local sector is offline</Line>
-      <Line>ATC feedback - helpdesk.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Melbourne Upper" Type="ASD" DefaultCenter="-320328.315+1323501.359" DefaultRange="3700">
-    <Sectors>
-      <Sector Name="MMM" />
-      <Sector Name="BIK" />
-      <Sector Name="KAT" />
-      <Sector Name="WOL" />
-      <Sector Name="BKE" />
-      <Sector Name="WRA" />
-      <Sector Name="GTH" />
-      <Sector Name="SNO" />
-      <Sector Name="ELW" />
-      <Sector Name="YWE" />
-      <Sector Name="WON" />
-      <Sector Name="HUM" />
-      <Sector Name="TAS" />
-      <Sector Name="TBD" />
-      <Sector Name="AUG" />
-      <Sector Name="MUN" />
-      <Sector Name="OXL" />
-      <Sector Name="ASP" />
-      <Sector Name="WAR" />
-      <Sector Name="FOR" />
-      <Sector Name="ESP" />
-      <Sector Name="CRS" />
-      <Sector Name="LEA" />
-      <Sector Name="GVE" />
-      <Sector Name="PIY" />
-      <Sector Name="HYD" />
-      <Sector Name="JAR" />
-      <Sector Name="MOR" />
-      <Sector Name="TFR" />
-      <Sector Name="GEL" />
-      <Sector Name="BIL" />
-      <Sector Name="ORE" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Alpha">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="25000" />
-    <ControllerInfo>
-      <Line>Melbourne Centre</Line>
-      <Line>Control service for YMMM FIR FL245 and ABV when local sector is offline</Line>
-      <Line>ATC feedback - helpdesk.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
   <Position Name="YPAD" Type="ASMGCS" ASMGCSAirport="YPAD" DefaultCenter="-34.945000+138.526389" DefaultRange="2" MagneticVariation="-8" Rotation="-132">
     <Maps>
       <Map Name="Adelaide/ASMGCS_YPAD_RWY" />
@@ -857,6 +758,7 @@
     <Position Name="Albury Tower" Type="ASD" DefaultCenter="-36.067778+146.958056" DefaultRange="95" MagneticVariation="-11.9">
       <Sectors>
         <Sector Name="AY ADC" />
+        <Sector Name="AY SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -878,6 +780,11 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Albury Tower</Line>
+        <Line>ATIS available on 133.85</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="AY_GND">
+        <Line>Albury Ground</Line>
         <Line>ATIS available on 133.85</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -913,6 +820,7 @@
     <Position Name="Broome Tower" Type="ASD" DefaultCenter="-17.949444+122.227778" DefaultRange="140" MagneticVariation="-1.7">
       <Sectors>
         <Sector Name="BRM ADC" />
+        <Sector Name="BRM SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -938,7 +846,12 @@
         <Line>ATIS available on 128.2</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-    </Position>
+      <ControllerInfo Callsign="BRM_GND">
+        <Line>Broome Ground</Line>
+        <Line>ATIS available on 128.2</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      </Position>
     <Position Name="Coffs Harbour Tower" Type="ASD" DefaultCenter="-30.320556+153.116389" DefaultRange="100" MagneticVariation="-12">
       <Sectors>
         <Sector Name="CFS ADC" />
@@ -1000,6 +913,7 @@
     <Position Name="Hobart Tower" Type="ASD" DefaultCenter="-42.836111+147.510278" DefaultRange="90" MagneticVariation="-15.3">
       <Sectors>
         <Sector Name="HB ADC" />
+        <Sector Name="HB SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1022,6 +936,11 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Hobart Tower</Line>
+        <Line>ATIS available on 128.45</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="HB_GND">
+        <Line>Hobart Ground</Line>
         <Line>ATIS available on 128.45</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -1058,6 +977,7 @@
     <Position Name="Mackay Tower" Type="ASD" DefaultCenter="-21.171389+149.179722" DefaultRange="95" MagneticVariation="-8.4">
       <Sectors>
         <Sector Name="MK ADC" />
+        <Sector Name="MK SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1083,10 +1003,16 @@
         <Line>ATIS available on 128.0</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="MK_GND">
+        <Line>Mackay Ground</Line>
+        <Line>ATIS available on 128.0</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Rockhampton Tower" Type="ASD" DefaultCenter="-23.381944+150.475278" DefaultRange="95" MagneticVariation="-9.2">
       <Sectors>
         <Sector Name="RK ADC" />
+        <Sector Name="RK SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1111,11 +1037,17 @@
         <Line>Rocky Tower</Line>
         <Line>ATIS available on 128.5</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
+     </ControllerInfo>
+      <ControllerInfo Callsign="RK_GND">
+        <Line>Rocky Ground</Line>
+        <Line>ATIS available on 128.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
     <Position Name="Sunshine Coast Tower" Type="ASD" DefaultCenter="-26.603333+153.091111" DefaultRange="90" MagneticVariation="-10.8">
       <Sectors>
         <Sector Name="SU ADC" />
+        <Sector Name="SU SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1141,10 +1073,16 @@
         <Line>ATIS available on 119.8</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="SU_GND">
+        <Line>Sunshine Coast Ground</Line>
+        <Line>ATIS available on 119.8</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Karratha Tower" Type="ASD" DefaultCenter="-20.712222+116.773333" DefaultRange="130" MagneticVariation="-0.9">
       <Sectors>
         <Sector Name="KA ADC" />
+        <Sector Name="KA SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1167,6 +1105,11 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Karratha Tower</Line>
+        <Line>ATIS available on 134.55</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="KA_GND">
+        <Line>Karratha Ground</Line>
         <Line>ATIS available on 134.55</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -1202,6 +1145,7 @@
     <Position Name="Tamworth Tower" Type="ASD" DefaultCenter="-31.083889+150.846667" DefaultRange="80" MagneticVariation="-11.5">
       <Sectors>
         <Sector Name="TW ADC" />
+        <Sector Name="TW SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1223,6 +1167,11 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Tamworth Tower</Line>
+        <Line>ATIS available on 123.8</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="TW_GND">
+        <Line>Tamworth Ground</Line>
         <Line>ATIS available on 123.8</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -1411,6 +1360,16 @@
         <Line>ATIS available on 118.0</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="ML_DEP">
+        <Line>Melbourne Departures</Line>
+        <Line>ATIS available on 118.0</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="ML-S_DEP">
+        <Line>Melbourne Departures</Line>
+        <Line>ATIS available on 118.0</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Sydney TCU" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="150" MagneticVariation="-13">
       <Sectors>
@@ -1443,6 +1402,26 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Sydney Approach</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="SY_DEP">
+        <Line>Sydney Departures</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="SY-S_DEP">
+        <Line>Sydney Departures</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="SY-DE_APP">
+        <Line>Sydney Director</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="SY-D_APP">
+        <Line>Sydney Director</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -1480,6 +1459,21 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Brisbane Approach</Line>
+        <Line>ATIS available on 125.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="BN_DEP" >
+        <Line>Brisbane Departures</Line>
+        <Line>ATIS available on 125.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="BN-S_DEP" >
+        <Line>Brisbane Departures</Line>
+        <Line>ATIS available on 125.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="BN-F_APP" >
+        <Line>Brisbane Finals</Line>
         <Line>ATIS available on 125.5</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -1540,6 +1534,11 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Perth Approach</Line>
+        <Line>ATIS available on 123.8</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="PH_DEP" >
+        <Line>Perth Departures</Line>
         <Line>ATIS available on 123.8</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -1751,6 +1750,7 @@
     <Position Name="Archerfield Tower" Type="ASD" DefaultCenter="-27.570278+153.008056" DefaultRange="30" MagneticVariation="-11">
       <Sectors>
         <Sector Name="AF ADC" />
+        <Sector Name="AF SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1774,10 +1774,16 @@
         <Line>ATIS available on 120.9</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="AF_GND" >
+        <Line>Archer Ground</Line>
+        <Line>ATIS available on 120.9</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Bankstown Tower" Type="ASD" DefaultCenter="-33.924444+150.988333" DefaultRange="30" MagneticVariation="-12.6">
       <Sectors>
         <Sector Name="BK ADC" />
+        <Sector Name="BK SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1801,10 +1807,16 @@
         <Line>ATIS available on 120.9</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="BK_GND" >
+        <Line>Bankstown Ground</Line>
+        <Line>ATIS available on 120.9</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Camden Tower" Type="ASD" DefaultCenter="-34.040278+150.686667" DefaultRange="30" MagneticVariation="-12.5">
       <Sectors>
         <Sector Name="CN ADC" />
+        <Sector Name="CN SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1828,10 +1840,16 @@
         <Line>ATIS available on 125.1</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="CN_GND" >
+        <Line>Camden Ground</Line>
+        <Line>ATIS available on 125.1</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Jandakot Tower" Type="ASD" DefaultCenter="-32.097500+115.881111" DefaultRange="30" MagneticVariation="1.7">
       <Sectors>
         <Sector Name="JT ADC" />
+        <Sector Name="JT SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1855,10 +1873,16 @@
         <Line>ATIS available on 128.65</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="JT_GND" >
+        <Line>Jandakot Ground</Line>
+        <Line>ATIS available on 128.65</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Moorabbin Tower" Type="ASD" DefaultCenter="-37.975833+145.102222" DefaultRange="30" MagneticVariation="-11.8">
       <Sectors>
         <Sector Name="MB ADC" />
+        <Sector Name="MB SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1882,10 +1906,16 @@
         <Line>ATIS available on 120.9</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="MB_GND" >
+        <Line>Moorabbin Ground</Line>
+        <Line>ATIS available on 120.9</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Parafield Tower" Type="ASD" DefaultCenter="-34.793333+138.633056" DefaultRange="30" MagneticVariation="-8">
       <Sectors>
         <Sector Name="PF ADC" />
+        <Sector Name="PF SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1909,12 +1939,19 @@
         <Line>ATIS available on 120.9</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="PF_GND" >
+        <Line>Parafield Ground</Line>
+        <Line>ATIS available on 120.9</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
   </Group>
   <Group Name="Radar TWR">
     <Position Name="Adelaide Tower" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="60" MagneticVariation="-8">
       <Sectors>
         <Sector Name="AD ADC" />
+        <Sector Name="AD SMC" />
+        <Sector Name="AD COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1938,11 +1975,23 @@
         <Line>ATIS available on 134.5</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="AD_GND" >
+        <Line>Adelaide Ground</Line>
+        <Line>ATIS available on 134.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="AD_DEL" >
+        <Line>Adelaide Delivery</Line>
+        <Line>ATIS available on 134.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Amberley Tower" Type="ASD" DefaultCenter="-27.640556+152.711944" DefaultRange="60" MagneticVariation="-11">
       <Sectors>
         <Sector Name="AMB ADC" />
-      </Sectors>
+        <Sector Name="AMB SMC" />
+        <Sector Name="AMB COORD" />
+        </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Amberley/AMB_TCU" />
@@ -1964,11 +2013,22 @@
         <Line>ATIS available on 123.3</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="AMB_GND" >
+        <Line>Amberley Ground</Line>
+        <Line>ATIS available on 123.3</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="AMB_DEL" >
+        <Line>Amberley Delivery</Line>
+        <Line>ATIS available on 123.3</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Avalon Tower" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="50" MagneticVariation="-11.6">
       <Sectors>
         <Sector Name="AV ADC" />
-      </Sectors>
+        <Sector Name="AV SMC" />
+        </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Melbourne/ML_COAST" />
@@ -1991,11 +2051,18 @@
         <Line>ATIS available on 118.2</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="AV_GND" >
+        <Line>Avalon Ground</Line>
+        <Line>ATIS available on 118.2</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="East Sale Tower" Type="ASD" DefaultCenter="-38.098889+147.149444" DefaultRange="60" MagneticVariation="-12.8">
       <Sectors>
         <Sector Name="ES ADC" />
-      </Sectors>
+        <Sector Name="ES SMC" />
+        <Sector Name="ES COORD" />
+        </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="East Sale/ES_COAST" />
@@ -2018,10 +2085,21 @@
         <Line>ATIS available on 125.4</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="ES_GND" >
+        <Line>East Sale Ground</Line>
+        <Line>ATIS available on 125.4</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="ES_DEL" >
+        <Line>East Sale Delivery</Line>
+        <Line>ATIS available on 125.4</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Essendon Tower" Type="ASD" DefaultCenter="-37.728056+144.901944" DefaultRange="40" MagneticVariation="-11.7">
       <Sectors>
         <Sector Name="EN ADC" />
+        <Sector Name="EN SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2046,10 +2124,17 @@
         <Line>ATIS available on 119.8</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="EN_GND">
+        <Line>Essendon Ground</Line>
+        <Line>ATIS available on 119.8</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Melbourne Tower" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="60" MagneticVariation="-11">
       <Sectors>
         <Sector Name="ML ADC" />
+        <Sector Name="ML SMC" />
+        <Sector Name="ML COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2075,10 +2160,24 @@
         <Line>ATIS available on 118.0</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="ML_GND">
+        <Line>Melbourne Ground</Line>
+        <Line>ATIS available on 118.0</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="ML_DEL">
+        <Line>Melbourne Delivery</Line>
+        <Line>ATIS available on 118.0</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Sydney Tower" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="60" MagneticVariation="-13">
       <Sectors>
-        <Sector Name="SY ADCW" />
+        <Sector Name="SY ADC" />
+        <Sector Name="SY ADCE" />
+        <Sector Name="SY SMC" />
+        <Sector Name="SY SMCE" />
+        <Sector Name="SY COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2104,11 +2203,31 @@
         <Line>ATIS available on 126.25</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="SY_GND">
+        <Line>Sydney Ground</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="SY-E_GND">
+        <Line>Sydney Ground</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="SY_DEL">
+        <Line>Sydney Delivery</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Brisbane Tower" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="60" MagneticVariation="-11">
       <Sectors>
         <Sector Name="BN ADC" />
-      </Sectors>
+        <Sector Name="BN ADCW" />
+        <Sector Name="BN SMC" />
+        <Sector Name="BN SMCN" />
+        <Sector Name="BN SMCS" />
+        <Sector Name="BN COORD" />
+        </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Brisbane/BN_COAST" />
@@ -2133,10 +2252,31 @@
         <Line>ATIS available on 125.5</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="BN_GND">
+        <Line>Brisbane Ground</Line>
+        <Line>ATIS available on 125.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="BN-N_GND">
+        <Line>Brisbane Ground</Line>
+        <Line>ATIS available on 125.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="BN-S_GND">
+        <Line>Brisbane Ground</Line>
+        <Line>ATIS available on 125.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="BN_DEL">
+        <Line>Brisbane Delivery</Line>
+        <Line>ATIS available on 125.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Canberra Tower" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="60" MagneticVariation="-12.5">
       <Sectors>
         <Sector Name="CB ADC" />
+        <Sector Name="CB SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2160,10 +2300,18 @@
         <Line>ATIS available on 127.45</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="CB_GND">
+        <Line>Canberra Ground</Line>
+        <Line>ATIS available on 127.45</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Perth Tower" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="60" MagneticVariation="1.6">
       <Sectors>
         <Sector Name="PH ADC" />
+        <Sector Name="PH SMC" />
+        <Sector Name="PH SMCE" />
+        <Sector Name="PH COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2187,10 +2335,27 @@
         <Line>ATIS available on 123.8</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="PH_GND">
+        <Line>Perth Ground</Line>
+        <Line>ATIS available on 123.8</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="PH-E_GND">
+        <Line>Perth Ground</Line>
+        <Line>ATIS available on 123.8</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="PH_DEL">
+        <Line>Perth Delivery</Line>
+        <Line>ATIS available on 123.8</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Cairns Tower" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="60" MagneticVariation="-6.7">
       <Sectors>
         <Sector Name="CS ADC" />
+        <Sector Name="CS SMC" />
+        <Sector Name="CS COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2214,10 +2379,22 @@
         <Line>ATIS available on 131.1</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="CS_GND">
+        <Line>Cairns Ground</Line>
+        <Line>ATIS available on 131.1</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="CS_DEL">
+        <Line>Cairns Delivery</Line>
+        <Line>ATIS available on 131.1</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Townsville Tower" Type="ASD" DefaultCenter="-19.2525+146.765278" DefaultRange="60" MagneticVariation="-7">
       <Sectors>
         <Sector Name="TL ADC" />
+        <Sector Name="TL SMC" />
+        <Sector Name="TL COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2241,10 +2418,22 @@
         <Line>ATIS available on 133.5</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="TL_GND">
+        <Line>Townsville Ground</Line>
+        <Line>ATIS available on 133.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="TL_DEL">
+        <Line>Townsville Delivery</Line>
+        <Line>ATIS available on 133.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Tindal Tower" Type="ASD" DefaultCenter="-14.521111+132.377778" DefaultRange="60" MagneticVariation="-3">
       <Sectors>
         <Sector Name="TN ADC" />
+        <Sector Name="TN SMC" />
+        <Sector Name="TN COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2267,10 +2456,22 @@
         <Line>ATIS available on 124.0</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="TN_GND">
+        <Line>Tindal Ground</Line>
+        <Line>ATIS available on 124.0</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="TN_DEL">
+        <Line>Tindal Delivery</Line>
+        <Line>ATIS available on 124.0</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Darwin Tower" Type="ASD" DefaultCenter="-12.414722+130.876667" DefaultRange="60" MagneticVariation="-3">
       <Sectors>
         <Sector Name="DN ADC" />
+        <Sector Name="DN SMC" />
+        <Sector Name="DN COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2294,10 +2495,22 @@
         <Line>ATIS available on 128.25</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="DN_GND">
+        <Line>Darwin Ground</Line>
+        <Line>ATIS available on 128.25</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="DN_DEL">
+        <Line>Darwin Delivery</Line>
+        <Line>ATIS available on 128.25</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Williamtown Tower" Type="ASD" DefaultCenter="-32.795+151.834444" DefaultRange="60" MagneticVariation="-12.4">
       <Sectors>
         <Sector Name="WLM ADC" />
+        <Sector Name="WLM SMC" />
+        <Sector Name="WLM COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2321,10 +2534,22 @@
         <Line>ATIS available on 134.45</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="WLM_GND">
+        <Line>Willy Ground</Line>
+        <Line>ATIS available on 134.45</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="WLM_DEL">
+        <Line>Willy Delivery</Line>
+        <Line>ATIS available on 134.45</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Nowra Tower" Type="ASD" DefaultCenter="-34.948889+150.536944" DefaultRange="60" MagneticVariation="-12.8">
       <Sectors>
         <Sector Name="NW ADC" />
+        <Sector Name="NW SMC" />
+        <Sector Name="NW COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2348,10 +2573,21 @@
         <Line>ATIS available on 125.65</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="NW_GND">
+        <Line>Nowra Ground</Line>
+        <Line>ATIS available on 125.65</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="NW_DEL">
+        <Line>Nowra Delivery</Line>
+        <Line>ATIS available on 125.65</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Oakey Tower" Type="ASD" DefaultCenter="-27.411389+151.735278" DefaultRange="60" MagneticVariation="-10.6">
       <Sectors>
         <Sector Name="OK ADC" />
+        <Sector Name="OK SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2374,10 +2610,16 @@
         <Line>ATIS available on 124.3</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="OK_GND">
+        <Line>Oakey Ground</Line>
+        <Line>ATIS available on 124.3</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Edinburgh Tower" Type="ASD" DefaultCenter="-34.702500+138.620833" DefaultRange="60" MagneticVariation="-8">
       <Sectors>
         <Sector Name="ED ADC" />
+        <Sector Name="ED SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2398,6 +2640,11 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Edinburgh Tower</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="ED_GND">
+        <Line>Edinburgh Ground</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -2431,6 +2678,8 @@
     <Position Name="Gold Coast Tower" Type="ASD" DefaultCenter="-28.164444+153.504722" DefaultRange="45" MagneticVariation="-11.4">
       <Sectors>
         <Sector Name="CG ADC" />
+        <Sector Name="CG SMC" />
+        <Sector Name="CG COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2454,10 +2703,22 @@
         <Line>ATIS available on 134.5</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="CG_GND">
+        <Line>Gold Coast Ground</Line>
+        <Line>ATIS available on 134.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="CG_DEL">
+        <Line>Gold Coast Delivery</Line>
+        <Line>ATIS available on 134.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Pearce Tower" Type="ASD" DefaultCenter="-31.667778+116.015000" DefaultRange="60" MagneticVariation="1.5">
       <Sectors>
         <Sector Name="PEA ADC" />
+        <Sector Name="PEA SMC" />
+        <Sector Name="PEA COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2481,10 +2742,21 @@
         <Line>ATIS available on 134.0</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="PEA_GND">
+        <Line>Pearce Ground</Line>
+        <Line>ATIS available on 134.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="PEA_DEL">
+        <Line>Pearce Delivery</Line>
+        <Line>ATIS available on 134.5</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Richmond Tower" Type="ASD" DefaultCenter="-33.600556+150.780833" DefaultRange="40" MagneticVariation="-12.4">
       <Sectors>
         <Sector Name="RI ADC" />
+        <Sector Name="RI SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2504,6 +2776,11 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Richmond Tower</Line>
+        <Line>ATIS available on 126.3</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="RI_GND">
+        <Line>Richmond Ground</Line>
         <Line>ATIS available on 126.3</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
