@@ -422,6 +422,105 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
+  <Position Name="Brisbane Upper" Type="ASD" DefaultCenter="-212104.763+1361802.191" DefaultRange="3900">
+    <Sectors>
+      <Sector Name="BBB" />
+      <Sector Name="KIY" />
+      <Sector Name="TRT" />
+      <Sector Name="STR" />
+      <Sector Name="ARA" />
+      <Sector Name="ISA" />
+      <Sector Name="WEG" />
+      <Sector Name="BAR" />
+      <Sector Name="KEN" />
+      <Sector Name="TBP" />
+      <Sector Name="SWY" />
+      <Sector Name="CVN" />
+      <Sector Name="KPL" />
+      <Sector Name="BUR" />
+      <Sector Name="DOS" />
+      <Sector Name="SDY" />
+      <Sector Name="GRN" />
+      <Sector Name="MDE" />
+      <Sector Name="ARM" />
+      <Sector Name="MLD" />
+      <Sector Name="OCN" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="ALL_SECTORS" />
+      <Map Name="COAST_ALL" />
+      <Map Name="ALL_ROUTES_HIGH" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="UPPER_SECTOR_FREQS" />
+    </Maps>
+    <Strips Mode="State" Sort="Alpha">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="25000" />
+    <ControllerInfo>
+      <Line>Brisbane Centre</Line>
+      <Line>Control service for YBBB FIR FL245 and ABV when local sector is offline</Line>
+      <Line>ATC feedback - helpdesk.vatpac.org</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Melbourne Upper" Type="ASD" DefaultCenter="-320328.315+1323501.359" DefaultRange="3700">
+    <Sectors>
+      <Sector Name="MMM" />
+      <Sector Name="BIK" />
+      <Sector Name="KAT" />
+      <Sector Name="WOL" />
+      <Sector Name="BKE" />
+      <Sector Name="WRA" />
+      <Sector Name="GTH" />
+      <Sector Name="SNO" />
+      <Sector Name="ELW" />
+      <Sector Name="YWE" />
+      <Sector Name="WON" />
+      <Sector Name="HUM" />
+      <Sector Name="TAS" />
+      <Sector Name="TBD" />
+      <Sector Name="AUG" />
+      <Sector Name="MUN" />
+      <Sector Name="OXL" />
+      <Sector Name="ASP" />
+      <Sector Name="WAR" />
+      <Sector Name="FOR" />
+      <Sector Name="ESP" />
+      <Sector Name="CRS" />
+      <Sector Name="LEA" />
+      <Sector Name="GVE" />
+      <Sector Name="PIY" />
+      <Sector Name="HYD" />
+      <Sector Name="JAR" />
+      <Sector Name="MOR" />
+      <Sector Name="TFR" />
+      <Sector Name="GEL" />
+      <Sector Name="BIL" />
+      <Sector Name="ORE" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="ALL_SECTORS" />
+      <Map Name="COAST_ALL" />
+      <Map Name="ALL_ROUTES_HIGH" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="UPPER_SECTOR_FREQS" />
+    </Maps>
+    <Strips Mode="State" Sort="Alpha">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="25000" />
+    <ControllerInfo>
+      <Line>Melbourne Centre</Line>
+      <Line>Control service for YMMM FIR FL245 and ABV when local sector is offline</Line>
+      <Line>ATC feedback - helpdesk.vatpac.org</Line>
+    </ControllerInfo>
+  </Position>
   <Position Name="YPAD" Type="ASMGCS" ASMGCSAirport="YPAD" DefaultCenter="-34.945000+138.526389" DefaultRange="2" MagneticVariation="-8" Rotation="-132">
     <Maps>
       <Map Name="Adelaide/ASMGCS_YPAD_RWY" />
