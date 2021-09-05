@@ -20,9 +20,6 @@
       <Point>TRAEH</Point>
       <Point>TRAEJ</Point>
       <Point>TRAEF</Point>
-      <Point>WVZWA</Point>
-      <Point>WVZWB</Point>
-      <Point>WVZWF</Point>
       <Point>MINUR</Point>
       <Point>OY2WF</Point>
       <Point>ESDIG</Point>
@@ -45,6 +42,9 @@
       <Point>WGAWB</Point>
       <Point>WGAWC</Point>
       <Point>WGAWF</Point>
+      <Point>WV2WA</Point>
+      <Point>WV2WB</Point>
+      <Point>WV2WF</Point>
       <Point>BAFWE</Point>
       <Point>BAFWD</Point>
       <Point>BAFWG</Point>
@@ -2932,7 +2932,7 @@
       <Point>WUDSC</Point>
       <Point>WUDSF</Point>
       <Point>WUDSI</Point>
-      <Point>WVZWI</Point>
+      <Point>WV2WI</Point>
       <Point>WWLEA</Point>
       <Point>WWLEB</Point>
       <Point>WWLEC</Point>
@@ -3693,7 +3693,7 @@
       <Point>WTNNF</Point>
       <Point>WTNSF</Point>
       <Point>WUDSF</Point>
-      <Point>WVZWF</Point>
+      <Point>WV2WF</Point>
       <Point>WWLEF</Point>
       <Point>WWLWF</Point>
       <Point>WYMEF</Point>
@@ -4328,7 +4328,7 @@
       <Point>WTNNI</Point>
       <Point>WTNSI</Point>
       <Point>WUDSI</Point>
-      <Point>WVZWI</Point>
+      <Point>WV2WI</Point>
       <Point>WWLEI</Point>
       <Point>WWLWI</Point>
       <Point>WYMEI</Point>
@@ -4374,8 +4374,6 @@
       <Point>TRAEG</Point>
       <Point>TRAEH</Point>
       <Point>TRAEJ</Point>
-      <Point>WVZWA</Point>
-      <Point>WVZWB</Point>
       <Point>MINUR</Point>
       <Point>ESDIG</Point>
       <Point>BLZSC</Point>
@@ -4392,6 +4390,8 @@
       <Point>WGAWA</Point>
       <Point>WGAWB</Point>
       <Point>WGAWC</Point>
+      <Point>WV2WA</Point>
+      <Point>WV2WB</Point>
       <Point>BAFWE</Point>
       <Point>BAFWD</Point>
       <Point>BAFWG</Point>
@@ -8825,9 +8825,9 @@
     <Line>WUDSC/WUDSI</Line>
     <Line>WUDSI/WUDSF</Line>
     <Line>WUDSM/WUDSF</Line>
-    <Line>WVZWA/WVZWB/WVZWI</Line>
-    <Line>WVZWI/WVZWF</Line>
-    <Line>WVZWM/WVZWF</Line>
+    <Line>WV2WA/WV2WB/WV2WI</Line>
+    <Line>WV2WI/WV2WF</Line>
+    <Line>WV2WM/WV2WF</Line>
     <Line>WWLEA/WWLEI</Line>
     <Line>WWLEB/WWLEI</Line>
     <Line>WWLEC/WWLEI</Line>
@@ -9135,14 +9135,14 @@
     <Line>LUNGA/PADSI</Line>
     <Line>PADSE/PADSI</Line>
     <Line>SIGUL/PADSI</Line>
-    <Line>PADWI/PADWF/PADWM</Line>
+    <Line>PADWI/PADWF/AD12T</Line>
     <Line>PADWO/PADWI</Line>
     <Line>PADWP/PADWI</Line>
     <Line>PADWQ/PADWI</Line>
     <Line>PADNI/PADNF/PADNM</Line>
     <Line>GULLY/PADNI</Line>
     <Line>PADNJ/PADNI</Line>
-    <Line>PADEI/PADEF/PADEM</Line>
+    <Line>PADEI/PADEF/AD30T</Line>
     <Line>PADEK/PADEI</Line>
     <Line>PADEL/PADEI</Line>
     <Line>PADEN/PADEI</Line>
