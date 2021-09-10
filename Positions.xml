@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Position Name="Mudgee" Type="ASD" DefaultCenter="-3178.000+15102.000" DefaultRange="789">
+  <Position Name="Armidale" Type="ASD" DefaultCenter="-323253.0+1504046.0" DefaultRange="950">
     <Sectors>
-      <Sector Name="MDE" />
       <Sector Name="ARM" />
+      <Sector Name="MDE" />
       <Sector Name="MLD" />
       <Sector Name="OCN" />
     </Sectors>
@@ -61,32 +61,6 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Bourke" Type="ASD" DefaultCenter="-3030.000+14105.000" DefaultRange="1000">
-    <Sectors>
-      <Sector Name="BKE" />
-      <Sector Name="WRA" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="ALL_NAVAIDS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="ALL_POINTS_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="25000" />
-    <ControllerInfo>
-      <Line>Melbourne Centre</Line>
-      <Line>ATC feedback - helpdesk.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
   <Position Name="Mt Isa" Type="ASD" DefaultCenter="-2200.000+14160.000" DefaultRange="1700">
     <Sectors>
       <Sector Name="ISA" />
@@ -113,13 +87,13 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Downs" Type="ASD" DefaultCenter="-2625.000+15060.000" DefaultRange="1200">
+  <Position Name="Grafton" Type="ASD" DefaultCenter="-2625.000+15060.000" DefaultRange="1200">
     <Sectors>
+      <Sector Name="GRN" />
       <Sector Name="DOS" />
       <Sector Name="CVN" />
       <Sector Name="KPL" />
       <Sector Name="BUR" />
-      <Sector Name="GRN" />
       <Sector Name="SDY" />
     </Sectors>
     <Maps>
@@ -171,7 +145,7 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="1700">
+  <Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="1870">
     <Sectors>
       <Sector Name="TRT" />
       <Sector Name="KIY" />
@@ -201,11 +175,13 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Alice Springs" Type="ASD" DefaultCenter="-3000.000+13200.000" DefaultRange="2000">
+  <Position Name="Alice Springs" Type="ASD" DefaultCenter="-314420.0+1320806.0" DefaultRange="2400">
     <Sectors>
       <Sector Name="ASP" />
+      <Sector Name="ASW" />
       <Sector Name="WAR" />
       <Sector Name="FOR" />
+      <Sector Name="WRA" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -231,16 +207,17 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Esperence" Type="ASD" DefaultCenter="-3200.000+11850.000" DefaultRange="1200">
+  <Position Name="Pingelly" Type="ASD" DefaultCenter="-3200.000+11850.000" DefaultRange="1350">
     <Sectors>
+      <Sector Name="PIY" />
       <Sector Name="ESP" />
       <Sector Name="JAR" />
       <Sector Name="HYD" />
       <Sector Name="CRS" />
       <Sector Name="GVE" />
-      <Sector Name="PIY" />
       <Sector Name="LEA" />
       <Sector Name="GEL" />
+      <Sector Name="MZI" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -266,12 +243,14 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Ore" Type="ASD" DefaultCenter="-2350.000+11900.000" DefaultRange="1500">
+  <Position Name="Onslow" Type="ASD" DefaultCenter="-2350.000+11900.000" DefaultRange="1500">
     <Sectors>
-      <Sector Name="ORE" />
-      <Sector Name="BIL" />
-      <Sector Name="MOR" />
-      <Sector Name="TFR" />
+      <Sector Name="OLW" />
+      <Sector Name="POT" />
+      <Sector Name="MEK" />
+      <Sector Name="PAR" />
+      <Sector Name="NEW" />
+      <Sector Name="MTK" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -294,11 +273,11 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Tabletop" Type="ASD" DefaultCenter="-1850.000+14800.000" DefaultRange="1100">
+  <Position Name="Kennedy" Type="ASD" DefaultCenter="-1850.000+14800.000" DefaultRange="1100">
     <Sectors>
+      <Sector Name="KEN" />
       <Sector Name="TBP" />
       <Sector Name="SWY" />
-      <Sector Name="KEN" />
       <Sector Name="BAR" />
     </Sectors>
     <Maps>
@@ -325,12 +304,13 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Tailem Bend" Type="ASD" DefaultCenter="-3534.000+14230.000" DefaultRange="750">
+  <Position Name="Tailem Bend" Type="ASD" DefaultCenter="-332635.0+1414135.0" DefaultRange="1350">
     <Sectors>
       <Sector Name="TBD" />
       <Sector Name="AUG" />
       <Sector Name="MUN" />
       <Sector Name="OXL" />
+      <Sector Name="BKE" />
     </Sectors>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -357,11 +337,11 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Snowy" Type="ASD" DefaultCenter="-3719.000+14742.000" DefaultRange="600">
+  <Position Name="Eildon Weir" Type="ASD" DefaultCenter="-374216.0+1464305.0" DefaultRange="700">
     <Sectors>
+      <Sector Name="ELW" />
       <Sector Name="SNO" />
       <Sector Name="YWE" />
-      <Sector Name="ELW" />
       <Sector Name="WON" />
       <Sector Name="HUM" />
     </Sectors>
@@ -390,10 +370,10 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Wollongong" Type="ASD" DefaultCenter="-3452.000+14939.000" DefaultRange="450">
+  <Position Name="Bindook" Type="ASD" DefaultCenter="-342906.0+1490734.0" DefaultRange="580">
     <Sectors>
-      <Sector Name="WOL" />
       <Sector Name="BIK" />
+      <Sector Name="WOL" />
       <Sector Name="KAT" />
       <Sector Name="GTH" />
     </Sectors>
@@ -419,105 +399,6 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Melbourne Centre</Line>
-      <Line>ATC feedback - helpdesk.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Brisbane Upper" Type="ASD" DefaultCenter="-212104.763+1361802.191" DefaultRange="3900">
-    <Sectors>
-      <Sector Name="BBB" />
-      <Sector Name="KIY" />
-      <Sector Name="TRT" />
-      <Sector Name="STR" />
-      <Sector Name="ARA" />
-      <Sector Name="ISA" />
-      <Sector Name="WEG" />
-      <Sector Name="BAR" />
-      <Sector Name="KEN" />
-      <Sector Name="TBP" />
-      <Sector Name="SWY" />
-      <Sector Name="CVN" />
-      <Sector Name="KPL" />
-      <Sector Name="BUR" />
-      <Sector Name="DOS" />
-      <Sector Name="SDY" />
-      <Sector Name="GRN" />
-      <Sector Name="MDE" />
-      <Sector Name="ARM" />
-      <Sector Name="MLD" />
-      <Sector Name="OCN" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Alpha">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="25000" />
-    <ControllerInfo>
-      <Line>Brisbane Centre</Line>
-      <Line>Control service for YBBB FIR FL245 and ABV when local sector is offline</Line>
-      <Line>ATC feedback - helpdesk.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Melbourne Upper" Type="ASD" DefaultCenter="-320328.315+1323501.359" DefaultRange="3700">
-    <Sectors>
-      <Sector Name="MMM" />
-      <Sector Name="BIK" />
-      <Sector Name="KAT" />
-      <Sector Name="WOL" />
-      <Sector Name="BKE" />
-      <Sector Name="WRA" />
-      <Sector Name="GTH" />
-      <Sector Name="SNO" />
-      <Sector Name="ELW" />
-      <Sector Name="YWE" />
-      <Sector Name="WON" />
-      <Sector Name="HUM" />
-      <Sector Name="TAS" />
-      <Sector Name="TBD" />
-      <Sector Name="AUG" />
-      <Sector Name="MUN" />
-      <Sector Name="OXL" />
-      <Sector Name="ASP" />
-      <Sector Name="WAR" />
-      <Sector Name="FOR" />
-      <Sector Name="ESP" />
-      <Sector Name="CRS" />
-      <Sector Name="LEA" />
-      <Sector Name="GVE" />
-      <Sector Name="PIY" />
-      <Sector Name="HYD" />
-      <Sector Name="JAR" />
-      <Sector Name="MOR" />
-      <Sector Name="TFR" />
-      <Sector Name="GEL" />
-      <Sector Name="BIL" />
-      <Sector Name="ORE" />
-    </Sectors>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Alpha">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="25000" />
-    <ControllerInfo>
-      <Line>Melbourne Centre</Line>
-      <Line>Control service for YMMM FIR FL245 and ABV when local sector is offline</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
