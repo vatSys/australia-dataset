@@ -1158,13 +1158,17 @@
     </Position>
   </Group>
   <Group Name="Oceanic">
-    <Position Name="Tasman Oceanic" Type="ASD" DefaultCenter="-204939.000+1561328.100" DefaultRange="5700">
+    <Position Name="Tasman Oceanic" Type="ASD" DefaultCenter="-204939.000+1561328.100" DefaultRange="5700" VisibilityRange="1000">
       <Sectors>
         <Sector Name="TSN" />
         <Sector Name="HWE" />
         <Sector Name="FLD" />
         <Sector Name="COL" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-09.300+163.000</Point>
+        <Point>-33.700+163.000</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="ALL_SECTORS" />
@@ -1181,7 +1185,7 @@
       </Strips>
       <CFL QuickLevel="29000" />
       <ControllerInfo>
-        <Line>Brisbane Radio | CPDLC available on YBBB</Line>
+        <Line>Brisbane Radio</Line>
         <Line>Squawk 2000 entering OCEANIC region. Check your Sim Zulu time is correct.</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -1208,7 +1212,7 @@
       </Strips>
       <CFL QuickLevel="29000" />
       <ControllerInfo>
-        <Line>Brisbane Radio | CPDLC available on YBBB</Line>
+        <Line>Brisbane Radio</Line>
         <Line>Squawk 2000 entering OCEANIC region. Check your Sim Zulu time is correct.</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
