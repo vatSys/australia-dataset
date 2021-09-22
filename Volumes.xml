@@ -4981,22 +4981,22 @@
   <Volume Name="AMBTWR" LowerLimit="0" UpperLimit="1600">
     <Boundaries>AMBERLEY_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
-  <Volume Name="ARA" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="ARA" LowerLimit="0" UpperLimit="60000">
     <Boundaries>ARAFURA</Boundaries>
   </Volume>
-  <Volume Name="ARM" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="ARM" LowerLimit="0" UpperLimit="60000">
     <Boundaries>ARMIDALE</Boundaries>
   </Volume>
-  <Volume Name="ASP" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="ASP" LowerLimit="0" UpperLimit="60000">
     <Boundaries>ALICE_SPRINGS</Boundaries>
   </Volume>
-  <Volume Name="ASW" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="ASW" LowerLimit="0" UpperLimit="60000">
     <Boundaries>ALICE_SPRINGS_WEST</Boundaries>
   </Volume>
   <Volume Name="ASTWR" LowerLimit="0" UpperLimit="4500">
     <Boundaries>ALICE_SPRINGS_CTA_D1</Boundaries>
   </Volume>
-  <Volume Name="AUG" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="AUG" LowerLimit="0" UpperLimit="60000">
     <Boundaries>AUGUSTA</Boundaries>
   </Volume>
   <Volume Name="AVCTR" LowerLimit="700" UpperLimit="1500">
@@ -5011,22 +5011,22 @@
   <Volume Name="AYTWR" LowerLimit="0" UpperLimit="4500">
     <Boundaries>ALBURY_CTA_D3</Boundaries>
   </Volume>
-   <Volume Name="AYPM" LowerLimit="0" UpperLimit="99999">
+   <Volume Name="AYPM" LowerLimit="0" UpperLimit="60000">
     <Boundaries>AYPM_FIR</Boundaries>
   </Volume>
-  <Volume Name="BAR" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="BAR" LowerLimit="0" UpperLimit="60000">
     <Boundaries>BARRA</Boundaries>
   </Volume>
-  <Volume Name="BIK" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="BIK" LowerLimit="0" UpperLimit="60000">
     <Boundaries>BINDOOK</Boundaries>
   </Volume>
-  <Volume Name="BIKTMA" LowerLimit="28000" UpperLimit="99999">
+  <Volume Name="BIKTMA" LowerLimit="28000" UpperLimit="60000">
     <Boundaries>SY_TMA</Boundaries>
   </Volume>
-  <Volume Name="BIK_CB_CAP" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="BIK_CB_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>BINDOOK_CB_CAP</Boundaries>
   </Volume>
-  <Volume Name="BKE" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="BKE" LowerLimit="0" UpperLimit="60000">
     <Boundaries>BOURKE</Boundaries>
   </Volume>
   <Volume Name="BKTWR" LowerLimit="0" UpperLimit="1500">
@@ -5041,7 +5041,7 @@
   <Volume Name="BNTWR" LowerLimit="0" UpperLimit="1500">
     <Boundaries>BRISBANE_CONTROL_ZONE_B_(C)</Boundaries>
   </Volume>
-  <Volume Name="BUR" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="BUR" LowerLimit="0" UpperLimit="60000">
     <Boundaries>BURNETT</Boundaries>
   </Volume>
   <Volume Name="CBE" LowerLimit="0" UpperLimit="24500">
@@ -5068,10 +5068,10 @@
   <Volume Name="CGTWR" LowerLimit="0" UpperLimit="1500">
     <Boundaries>GOLD_COAST_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
-  <Volume Name="COL" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="COL" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>YCOL-AGGG-ANAU</Boundaries>
   </Volume>
-  <Volume Name="CRS" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="CRS" LowerLimit="0" UpperLimit="60000">
     <Boundaries>CROSS</Boundaries>
   </Volume>
   <Volume Name="CSA" LowerLimit="0" UpperLimit="18000">
@@ -5080,7 +5080,7 @@
   <Volume Name="CSTWR" LowerLimit="0" UpperLimit="1500">
     <Boundaries>CAIRNS_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
-  <Volume Name="CVN" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="CVN" LowerLimit="0" UpperLimit="60000">
     <Boundaries>CARNARVON</Boundaries>
   </Volume>
   <Volume Name="DNA" LowerLimit="0" UpperLimit="18000">
@@ -5089,7 +5089,7 @@
   <Volume Name="DNTWR" LowerLimit="0" UpperLimit="1600">
     <Boundaries>DARWIN_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
-  <Volume Name="DOS" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="DOS" LowerLimit="0" UpperLimit="60000">
     <Boundaries>DOWNS</Boundaries>
   </Volume>
   <Volume Name="EDTWR" LowerLimit="0" UpperLimit="1500">
@@ -5104,49 +5104,49 @@
   <Volume Name="ESTWR" LowerLimit="0" UpperLimit="1500">
     <Boundaries>EAST_SALE_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
-  <Volume Name="ELW" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="ELW" LowerLimit="0" UpperLimit="60000">
     <Boundaries>EILDON_WEIR</Boundaries>
   </Volume>
-    <Volume Name="ELWTMA" LowerLimit="24500" UpperLimit="99000" >
+    <Volume Name="ELWTMA" LowerLimit="24500" UpperLimit="60000" >
     <Boundaries>ML_APP4</Boundaries>
   </Volume>
-  <Volume Name="ESP" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="ESP" LowerLimit="0" UpperLimit="60000">
     <Boundaries>ESPERANCE</Boundaries>
   </Volume>
-  <Volume Name="FAJO" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="FAJO" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>FAJO</Boundaries>
   </Volume>
-  <Volume Name="FIMM" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="FIMM" LowerLimit="0" UpperLimit="60000">
     <Boundaries>FIMM</Boundaries>
   </Volume>
-  <Volume Name="FLD" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="FLD" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>FLINDERS</Boundaries>
   </Volume>
-  <Volume Name="FOR" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="FOR" LowerLimit="0" UpperLimit="60000">
     <Boundaries>FORREST</Boundaries>
   </Volume>
-  <Volume Name="GEL" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="GEL" LowerLimit="0" UpperLimit="60000">
     <Boundaries>GERALDTON</Boundaries>
   </Volume>
   <Volume Name="GIGTWR" LowerLimit="0" UpperLimit="1700">
     <Boundaries>GIG_CTZ</Boundaries>
   </Volume>
-  <Volume Name="GRN_A" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="INL_A" LowerLimit="0" UpperLimit="60000">
     <Boundaries>GRAFTON_A,GRAFTON_B</Boundaries>
   </Volume>
-  <Volume Name="GRNBNTMA" LowerLimit="18000" UpperLimit="99999">
+  <Volume Name="INLBNTMA" LowerLimit="18000" UpperLimit="60000">
     <Boundaries>BN_APP</Boundaries>
   </Volume>
-  <Volume Name="GRNGCATMA" LowerLimit="7500" UpperLimit="99999">
+  <Volume Name="INLGCATMA" LowerLimit="7500" UpperLimit="60000">
     <Boundaries>CG_APP_A</Boundaries>
   </Volume>
-  <Volume Name="GRNGCBTMA" LowerLimit="12500" UpperLimit="99999">
+  <Volume Name="INLGCBTMA" LowerLimit="12500" UpperLimit="60000">
     <Boundaries>CG_APP_B,CG_APP_C</Boundaries>
   </Volume>
-  <Volume Name="GTH" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="GTH" LowerLimit="0" UpperLimit="60000">
     <Boundaries>GRIFFITH</Boundaries>
   </Volume>
-  <Volume Name="GVE" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="GVE" LowerLimit="0" UpperLimit="60000">
     <Boundaries>GROVE</Boundaries>
   </Volume>
   <Volume Name="HBTWR" LowerLimit="0" UpperLimit="4500">
@@ -5155,31 +5155,31 @@
   <Volume Name="HMTWR" LowerLimit="0" UpperLimit="4500">
     <Boundaries>HAMILTON_IS_CTA_D4</Boundaries>
   </Volume>
-  <Volume Name="HUM" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="BLA" LowerLimit="0" UpperLimit="60000">
     <Boundaries>HUME</Boundaries>
   </Volume>
-  <Volume Name="HUM_CB_CAP" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="BLA_CB_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>HUME_CB_CAP</Boundaries>
   </Volume>
-  <Volume Name="HWE" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="HWE" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>LORD_HOWE</Boundaries>
   </Volume>
-  <Volume Name="HYD" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="HYD" LowerLimit="0" UpperLimit="60000">
     <Boundaries>HYDEN</Boundaries>
   </Volume>
-  <Volume Name="IND" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="IND" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>INDIAN</Boundaries>
   </Volume>
-  <Volume Name="INE" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="INE" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>INDIAN_EAST</Boundaries>
   </Volume>
-  <Volume Name="INS" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="INS" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>INDIAN_SOUTH</Boundaries>
   </Volume>
-  <Volume Name="ISA" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="ISA" LowerLimit="0" UpperLimit="60000">
     <Boundaries>ISA</Boundaries>
   </Volume>
-  <Volume Name="JAR" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="JAR" LowerLimit="0" UpperLimit="60000">
     <Boundaries>JARRAH</Boundaries>
   </Volume>
   <Volume Name="JTTWR" LowerLimit="0" UpperLimit="1500">
@@ -5188,31 +5188,31 @@
   <Volume Name="KATWR" LowerLimit="0" UpperLimit="5500">
     <Boundaries>KARRATHA_CTA_D4</Boundaries>
   </Volume>
-  <Volume Name="KAT" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="KAT" LowerLimit="0" UpperLimit="60000">
     <Boundaries>KATOOMBA</Boundaries>
   </Volume>
-  <Volume Name="KEN" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="KEN" LowerLimit="0" UpperLimit="60000">
     <Boundaries>KENNEDY</Boundaries>
   </Volume>
-  <Volume Name="KENTMA" LowerLimit="18000" UpperLimit="99999">
+  <Volume Name="KENTMA" LowerLimit="18000" UpperLimit="60000">
     <Boundaries>CS_APP</Boundaries>
   </Volume>
-  <Volume Name="KIY" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="KIY" LowerLimit="0" UpperLimit="60000">
     <Boundaries>KIMBERLEY</Boundaries>
   </Volume>
-  <Volume Name="KPL" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="KPL" LowerLimit="0" UpperLimit="60000">
     <Boundaries>KEPPEL</Boundaries>
   </Volume>
-  <Volume Name="KZAK_E" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="KZAK_E" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>KZAK_EAST</Boundaries>
   </Volume>
-  <Volume Name="KZAK_W" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="KZAK_W" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>KZAK_WEST</Boundaries>
   </Volume>
   <Volume Name="LTTWR" LowerLimit="0" UpperLimit="4500">
     <Boundaries>LAUNCESTON_CTA_D3</Boundaries>
   </Volume>
-  <Volume Name="LEA" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="LEA" LowerLimit="0" UpperLimit="60000">
     <Boundaries>LEEMAN</Boundaries>
   </Volume>
   <Volume Name="MBTWR" LowerLimit="0" UpperLimit="2500">
@@ -5224,31 +5224,31 @@
   <Volume Name="MLTWR" LowerLimit="0" UpperLimit="1900">
     <Boundaries>MELBOURNE_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
-  <Volume Name="MDE" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="MDE" LowerLimit="0" UpperLimit="60000">
     <Boundaries>MUDGEE</Boundaries>
   </Volume>
-  <Volume Name="MEK" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="MEK" LowerLimit="0" UpperLimit="60000">
     <Boundaries>MEEKATHARRA</Boundaries>
   </Volume>
-  <Volume Name="MLD" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="MLD" LowerLimit="0" UpperLimit="60000">
     <Boundaries>MAITLAND</Boundaries>
   </Volume>
   <Volume Name="MKTWR" LowerLimit="0" UpperLimit="4500">
     <Boundaries>MACKAY_CTA_D3</Boundaries>
   </Volume>
-  <Volume Name="MTK" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="MTK" LowerLimit="0" UpperLimit="60000">
     <Boundaries>MOUNT</Boundaries>
   </Volume>
-  <Volume Name="MUN" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="MUN" LowerLimit="0" UpperLimit="60000">
     <Boundaries>MUNGO</Boundaries>
   </Volume>
-  <Volume Name="MZI" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="MZI" LowerLimit="0" UpperLimit="60000">
     <Boundaries>MENZIES</Boundaries>
   </Volume>
-  <Volume Name="NEW" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="NEW" LowerLimit="0" UpperLimit="60000">
     <Boundaries>NEWMAN</Boundaries>
   </Volume>
-  <Volume Name="NFFF" LowerLimit="9500" UpperLimit="99999">
+  <Volume Name="NFFF" LowerLimit="9500" UpperLimit="60000">
     <Boundaries>NFFF</Boundaries>
   </Volume>
   <Volume Name="NVVV" LowerLimit="0" UpperLimit="24500">
@@ -5263,10 +5263,10 @@
   <Volume Name="NWTWR" LowerLimit="0" UpperLimit="1900">
     <Boundaries>NOWRA_CTZ</Boundaries>
   </Volume>
-  <Volume Name="NZCM" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="NZCM" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>NZCM_WEST</Boundaries>
   </Volume>
-  <Volume Name="NZZO" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="NZZO" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>NZZO_WEST</Boundaries>
   </Volume>
   <Volume Name="OKA" LowerLimit="0" UpperLimit="12500">
@@ -5275,16 +5275,16 @@
   <Volume Name="OKTWR" LowerLimit="0" UpperLimit="1800">
     <Boundaries>OAKEY_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
-  <Volume Name="OCN" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="OCN" LowerLimit="0" UpperLimit="60000">
     <Boundaries>OCEAN</Boundaries>
   </Volume>
-  <Volume Name="OLW" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="OLW" LowerLimit="0" UpperLimit="60000">
     <Boundaries>ONSLOW</Boundaries>
   </Volume>
-  <Volume Name="OXL" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="OXL" LowerLimit="0" UpperLimit="60000">
     <Boundaries>OXLEY</Boundaries>
   </Volume>
-  <Volume Name="PAR" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="PAR" LowerLimit="0" UpperLimit="60000">
     <Boundaries>PARABURDOO</Boundaries>
   </Volume>
   <Volume Name="PEATWR" LowerLimit="0" UpperLimit="1700">
@@ -5296,16 +5296,16 @@
   <Volume Name="PHA" LowerLimit="0" UpperLimit="18000">
     <Boundaries>PERTH_APPROACH</Boundaries>
   </Volume>
-  <Volume Name="PIY" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="PIY" LowerLimit="0" UpperLimit="60000">
     <Boundaries>PINGELLY</Boundaries>
   </Volume>
-  <Volume Name="PIYTMA" LowerLimit="18000" UpperLimit="99999">
+  <Volume Name="PIYTMA" LowerLimit="18000" UpperLimit="60000">
     <Boundaries>PERTH_APPROACH</Boundaries>
   </Volume>
   <Volume Name="PHTWR" LowerLimit="0" UpperLimit="1500">
     <Boundaries>PERTH_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
-  <Volume Name="POT" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="POT" LowerLimit="0" UpperLimit="60000">
     <Boundaries>PORT</Boundaries>
   </Volume>
   <Volume Name="RITWR" LowerLimit="0" UpperLimit="1500">
@@ -5320,37 +5320,37 @@
   <Volume Name="SYTWR" LowerLimit="0" UpperLimit="1500">
     <Boundaries>SYDNEY_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
-  <Volume Name="SNO" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="SNO" LowerLimit="0" UpperLimit="60000">
     <Boundaries>SNOWY</Boundaries>
   </Volume>
-  <Volume Name="SNO_CB_CAP" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="SNO_CB_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>SNOWY_CB_CAP</Boundaries>
   </Volume>
-  <Volume Name="STR" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="STR" LowerLimit="0" UpperLimit="60000">
     <Boundaries>STURT</Boundaries>
   </Volume>
-  <Volume Name="SDY" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="SDY" LowerLimit="0" UpperLimit="60000">
     <Boundaries>STRADDY</Boundaries>
   </Volume>
   <Volume Name="SUTWR" LowerLimit="0" UpperLimit="4500">
     <Boundaries>SUNSHINE_COAST_CTA_D3</Boundaries>
   </Volume>
-  <Volume Name="SWY" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="SWY" LowerLimit="0" UpperLimit="60000">
     <Boundaries>SWAMPY</Boundaries>
   </Volume>
-  <Volume Name="TAS" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="TAS" LowerLimit="0" UpperLimit="60000">
     <Boundaries>TASMANIA</Boundaries>
   </Volume>
-  <Volume Name="TBD" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="TBD" LowerLimit="0" UpperLimit="60000">
     <Boundaries>TAILEM_BEND</Boundaries>
   </Volume>
-    <Volume Name="TBDTMA" LowerLimit="24500" UpperLimit="99999">
+    <Volume Name="TBDTMA" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>AD_APP,AD_DEP</Boundaries>
   </Volume>
-  <Volume Name="TBP" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="TBP" LowerLimit="0" UpperLimit="60000">
     <Boundaries>TABLETOP</Boundaries>
   </Volume>
-    <Volume Name="TBPTMA" LowerLimit="10000" UpperLimit="99000">
+    <Volume Name="TBPTMA" LowerLimit="10000" UpperLimit="60000">
     <Boundaries>TL_APP</Boundaries>
   </Volume>
   <Volume Name="TLA" LowerLimit="0" UpperLimit="10000">
@@ -5365,46 +5365,46 @@
   <Volume Name="TNTWR" LowerLimit="0" UpperLimit="2000">
     <Boundaries>TINDAL_A_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
-  <Volume Name="TRT" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="TRT" LowerLimit="0" UpperLimit="60000">
     <Boundaries>TERRITORY</Boundaries>
   </Volume>
-  <Volume Name="TRTTMA" LowerLimit="18000" UpperLimit="99999">
+  <Volume Name="TRTTMA" LowerLimit="18000" UpperLimit="60000">
     <Boundaries>DARWIN_CTA_C4</Boundaries>
   </Volume>
-  <Volume Name="TSN" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="TSN" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>TASMAN</Boundaries>
   </Volume>
   <Volume Name="TWTWR" LowerLimit="0" UpperLimit="4500">
     <Boundaries>TAMWORTH_CTA_D1</Boundaries>
   </Volume>
-  <Volume Name="VCCF" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="VCCF" LowerLimit="0" UpperLimit="60000">
     <Boundaries>VCCF</Boundaries>
   </Volume>
-  <Volume Name="VRMF" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="VRMF" LowerLimit="0" UpperLimit="60000">
     <Boundaries>VRMF</Boundaries>
   </Volume>
-  <Volume Name="WAAF-E" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="WAAF-E" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WAAF-E</Boundaries>
   </Volume>
-  <Volume Name="WAAF-B" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="WAAF-B" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WAAF-B</Boundaries>
   </Volume>
-  <Volume Name="WAAF" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="WAAF" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WAAF</Boundaries>
   </Volume>
-  <Volume Name="WAR" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="WAR" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WARBURTON</Boundaries>
   </Volume>
-  <Volume Name="WEG" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="WEG" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WARREGO</Boundaries>
   </Volume>
-  <Volume Name="WIIF-E" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="WIIF-E" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WIIF-E</Boundaries>
   </Volume>
-  <Volume Name="WIIF-W" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="WIIF-W" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WIIF-W</Boundaries>
   </Volume>
-  <Volume Name="WIIF" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="WIIF" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WIIF</Boundaries>
   </Volume>
   <Volume Name="WLMAPP" LowerLimit="0" UpperLimit="12500">
@@ -5419,22 +5419,22 @@
   <Volume Name="WLMTWR" LowerLimit="0" UpperLimit="1500">
     <Boundaries>WILLIAMTOWN_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
-  <Volume Name="WOL" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="WOL" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WOLLONGONG</Boundaries>
   </Volume>
-  <Volume Name="WOL_CB_CAP" LowerLimit="24500" UpperLimit="99999">
+  <Volume Name="WOL_CB_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>WOLLONGONG_CB_CAP</Boundaries>
   </Volume>
-  <Volume Name="WON" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="WON" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WONTHAGGI</Boundaries>
   </Volume>
-  <Volume Name="WRA" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="WRA" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WOOMERA</Boundaries>
   </Volume>
     <Volume Name="WRTWR" LowerLimit="0" UpperLimit="4500">
     <Boundaries>R222F_WOOMERA_CTZ</Boundaries>
   </Volume>
-  <Volume Name="YWE" LowerLimit="0" UpperLimit="99999">
+  <Volume Name="YWE" LowerLimit="0" UpperLimit="60000">
     <Boundaries>YARROWEE</Boundaries>
   </Volume>
 </Volumes>

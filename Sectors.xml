@@ -20,6 +20,9 @@
   <Sector FullName="Barra" Frequency="123.800" Callsign="BN-BAR_CTR" Name="BAR">
     <Volumes>BAR</Volumes>
   </Sector>
+  <Sector FullName="Benalla" Frequency="132.200" Callsign="ML-BLA_CTR" Name="BLA">
+    <Volumes>BLA,BLA_CB_CAP</Volumes>
+  </Sector>
   <Sector FullName="Bindook" Frequency="129.800" Callsign="ML-BIK_CTR" Name="BIK">
     <Volumes>BIK,BIKTMA,BIK_CB_CAP</Volumes>
     <ResponsibleSectors>WOL,KAT,GTH</ResponsibleSectors>
@@ -47,7 +50,7 @@
   </Sector>
   <Sector FullName="Eildon Weir" Frequency="123.750" Callsign="ML-ELW_CTR" Name="ELW">
     <Volumes>ELW,ELWTMA</Volumes>
-    <ResponsibleSectors>YWE,SNO,WON,HUM</ResponsibleSectors>
+    <ResponsibleSectors>YWE,SNO,WON,BLA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Esperance" Frequency="123.950" Callsign="ML-ESP_CTR" Name="ESP">
     <Volumes>ESP</Volumes>
@@ -58,21 +61,18 @@
   <Sector FullName="Geraldton" Frequency="134.200" Callsign="ML-GEL_CTR" Name="GEL">
     <Volumes>GEL</Volumes>
   </Sector>
-  <Sector FullName="Grafton" Frequency="120.300" Callsign="BN-GRN_CTR" Name="GRN">
-    <Volumes>GRN_A,GRNBNTMA,GRNGCATMA,GRNGCBTMA</Volumes>
-    <ResponsibleSectors>CVN,KPL,DOS,SDY,BUR</ResponsibleSectors>
-  </Sector>
   <Sector FullName="Griffith" Frequency="122.750" Callsign="ML-GTH_CTR" Name="GTH">
     <Volumes>GTH</Volumes>
   </Sector>
   <Sector FullName="Grove" Frequency="133.800" Callsign="ML-GVE_CTR" Name="GVE">
     <Volumes>GVE</Volumes>
   </Sector>
-  <Sector FullName="Hume" Frequency="132.200" Callsign="ML-HUM_CTR" Name="HUM">
-    <Volumes>HUM,HUM_CB_CAP</Volumes>
-  </Sector>
   <Sector FullName="Hyden" Frequency="118.200" Callsign="ML-HYD_CTR" Name="HYD">
     <Volumes>HYD</Volumes>
+  </Sector>
+  <Sector FullName="Inverell" Frequency="134.200" Callsign="BN-INL_CTR" Name="INL">
+    <Volumes>INL_A,INLBNTMA,INLGCATMA,INLGCBTMA</Volumes>
+    <ResponsibleSectors>CVN,KPL,DOS,SDY,BUR</ResponsibleSectors>
   </Sector>
   <Sector FullName="Isa" Frequency="125.200" Callsign="BN-ISA_CTR" Name="ISA">
     <Volumes>ISA</Volumes>
@@ -169,7 +169,7 @@
   <Sector FullName="Snowy" Frequency="124.000" Callsign="ML-SNO_CTR" Name="SNO">
     <Volumes>SNO,SNO_CB_CAP</Volumes>
   </Sector>
-  <Sector FullName="Straddy" Frequency="134.400" Callsign="BN-SDY_CTR" Name="SDY">
+  <Sector FullName="Straddy" Frequency="134.300" Callsign="BN-SDY_CTR" Name="SDY">
     <Volumes>SDY</Volumes>
   </Sector>
   <Sector FullName="Sturt" Frequency="134.400" Callsign="BN-STR_CTR" Name="STR">
