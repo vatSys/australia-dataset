@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Position Name="Armidale" Type="ASD" DefaultCenter="-323253.0+1504046.0" DefaultRange="950">
+  <Position Name="Armidale" Type="ASD" DefaultCenter="-3233.200+15056.266" DefaultRange="950">
     <Sectors>
       <Sector Name="ARM" />
       <Sector Name="MDE" />
       <Sector Name="MLD" />
       <Sector Name="OCN" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-32.405+150.710</Point>
+      <Point>-24.802+150.787</Point>
+      <Point>-19.656+140.362</Point>
+      <Point>-32.507+140.712</Point>
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -31,10 +37,15 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Tasmania" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="600">
+  <Position Name="Tasmania" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="800">
     <Sectors>
       <Sector Name="TAS" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-41.115+146.038</Point>
+      <Point>-33.804+148.270</Point>
+      <Point>-33.158+140.723</Point>
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -61,11 +72,17 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Mt Isa" Type="ASD" DefaultCenter="-2200.000+14160.000" DefaultRange="1700">
+  <Position Name="Mt Isa" Type="ASD" DefaultCenter="-2205.280+14142.600" DefaultRange="1770">
     <Sectors>
       <Sector Name="ISA" />
       <Sector Name="WEG" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-22.088+141.710</Point>
+      <Point>-31.091+149.719</Point>
+      <Point>-22.162+151.836</Point>
+      <Point>-17.386+142.007</Point>
+    </ManualVisibility>   
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -96,6 +113,12 @@
       <Sector Name="BUR" />
       <Sector Name="SDY" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-25.725+150.343</Point>
+      <Point>-31.391+150.777</Point>
+      <Point>-19.010+147.268</Point>
+      <Point>-23.163+141.507</Point>
+    </ManualVisibility>  
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -120,10 +143,16 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Arafura" Type="ASD" DefaultCenter="-1200.000+14050.000" DefaultRange="1300">
+  <Position Name="Arafura" Type="ASD" DefaultCenter="-1200.000+14050.000" DefaultRange="1600">
     <Sectors>
       <Sector Name="ARA" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-11.992+140.829</Point>
+      <Point>-10.089+133.551</Point>
+      <Point>-13.260+146.426</Point>
+      <Point>-18.060+148.020</Point>
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -145,12 +174,18 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="1870">
+  <Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="2000">
     <Sectors>
       <Sector Name="TRT" />
       <Sector Name="KIY" />
       <Sector Name="STR" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-16.000+126.986</Point>
+      <Point>-14.930+119.923</Point>
+      <Point>-13.403+129.478</Point>
+      <Point>-19.447+130.986</Point>
+    </ManualVisibility>  
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -175,7 +210,7 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Alice Springs" Type="ASD" DefaultCenter="-314420.0+1320806.0" DefaultRange="2400">
+  <Position Name="Alice Springs" Type="ASD" DefaultCenter="-314420.0+1320806.0" DefaultRange="2610">
     <Sectors>
       <Sector Name="ASP" />
       <Sector Name="ASW" />
@@ -183,6 +218,12 @@
       <Sector Name="FOR" />
       <Sector Name="WRA" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-26.549+130.062</Point>
+      <Point>-26.812+136.693</Point>
+      <Point>-32.714+128.966</Point>
+      <Point>-37.440+136.910</Point>
+    </ManualVisibility>   
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -219,6 +260,12 @@
       <Sector Name="GEL" />
       <Sector Name="MZI" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-32.999+119.788</Point>
+      <Point>-27.353+116.633</Point>
+      <Point>-25.820+123.212</Point>
+      <Point>-22.015+116.355</Point>
+    </ManualVisibility>   
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -243,7 +290,7 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Onslow" Type="ASD" DefaultCenter="-2350.000+11900.000" DefaultRange="1500">
+  <Position Name="Onslow" Type="ASD" DefaultCenter="-2350.000+11900.000" DefaultRange="1600">
     <Sectors>
       <Sector Name="OLW" />
       <Sector Name="POT" />
@@ -252,6 +299,12 @@
       <Sector Name="NEW" />
       <Sector Name="MTK" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-32.999+119.788</Point>
+      <Point>-27.353+116.633</Point>
+      <Point>-25.820+123.212</Point>
+      <Point>-22.015+116.355</Point>
+    </ManualVisibility>  
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -280,6 +333,12 @@
       <Sector Name="SWY" />
       <Sector Name="BAR" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-18.565+147.837</Point>
+      <Point>-24.786+150.307</Point>
+      <Point>-23.655+142.199</Point>
+      <Point>-18.697+140.953</Point>
+    </ManualVisibility>  
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -304,7 +363,7 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Tailem Bend" Type="ASD" DefaultCenter="-332635.0+1414135.0" DefaultRange="1350">
+  <Position Name="Tailem Bend" Type="ASD" DefaultCenter="-3327.100+14240.466" DefaultRange="1620">
     <Sectors>
       <Sector Name="TBD" />
       <Sector Name="AUG" />
@@ -312,6 +371,11 @@
       <Sector Name="OXL" />
       <Sector Name="BKE" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-33.293+141.617</Point>
+      <Point>-38.600+145.876</Point>
+      <Point>-32.691+150.237</Point>
+    </ManualVisibility>  
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -337,7 +401,7 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Eildon Weir" Type="ASD" DefaultCenter="-374216.0+1464305.0" DefaultRange="700">
+  <Position Name="Eildon Weir" Type="ASD" DefaultCenter="-3728.766+14725.083" DefaultRange="800">
     <Sectors>
       <Sector Name="ELW" />
       <Sector Name="SNO" />
@@ -345,6 +409,11 @@
       <Sector Name="WON" />
       <Sector Name="BLA" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-33.293+141.617</Point>
+      <Point>-38.600+145.876</Point>
+      <Point>-32.691+150.237</Point>
+    </ManualVisibility> 
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -370,13 +439,18 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Bindook" Type="ASD" DefaultCenter="-342906.0+1490734.0" DefaultRange="580">
+  <Position Name="Bindook" Type="ASD" DefaultCenter="-342906.0+1490734.0" DefaultRange="700">
     <Sectors>
       <Sector Name="BIK" />
       <Sector Name="WOL" />
       <Sector Name="KAT" />
       <Sector Name="GTH" />
     </Sectors>
+    <ManualVisibility>
+      <Point>-33.293+141.617</Point>
+      <Point>-38.600+145.876</Point>
+      <Point>-32.691+150.237</Point>
+    </ManualVisibility>    
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -1355,7 +1429,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Sydney TCU" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="150" MagneticVariation="-13">
+    <Position Name="Sydney TCU" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="190" MagneticVariation="-13">
       <Sectors>
         <Sector Name="SAN" />
         <Sector Name="SAS" />
@@ -1364,6 +1438,12 @@
         <Sector Name="SFW" />
         <Sector Name="SFE" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-33.933+151.172</Point>
+        <Point>-34.335+150.107</Point>
+        <Point>-33.078+150.905</Point>
+        <Point>-33.725+152.445</Point>
+      </ManualVisibility>    
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Sydney/SY_COAST" />
