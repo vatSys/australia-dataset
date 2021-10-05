@@ -1293,11 +1293,14 @@
     </Position>
   </Group>
   <Group Name="TCU">
-    <Position Name="Adelaide TCU" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="200" MagneticVariation="-8">
+    <Position Name="Adelaide TCU" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="200" VisibilityRange="100" MagneticVariation="-8">
       <Sectors>
         <Sector Name="AAW" />
         <Sector Name="AAE" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-34.947+138.525</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Adelaide/AD_COAST" />
@@ -1381,12 +1384,15 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Melbourne TCU" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="150" MagneticVariation="-11">
+    <Position Name="Melbourne TCU" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="150" VisibilityRange="100" MagneticVariation="-11">
       <Sectors>
         <Sector Name="MAE" />
         <Sector Name="MDN" />
         <Sector Name="MDS" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-3740.4+14450.6</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Melbourne/ML_COAST" />
@@ -1429,7 +1435,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Sydney TCU" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="190" MagneticVariation="-13">
+    <Position Name="Sydney TCU" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="190" VisibilityRange="100" MagneticVariation="-13">
       <Sectors>
         <Sector Name="SAN" />
         <Sector Name="SAS" />
@@ -1439,11 +1445,8 @@
         <Sector Name="SFE" />
       </Sectors>
       <ManualVisibility>
-        <Point>-33.933+151.172</Point>
-        <Point>-34.335+150.107</Point>
-        <Point>-33.078+150.905</Point>
-        <Point>-33.725+152.445</Point>
-      </ManualVisibility>    
+        <Point>-33.9461+151.1772</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Sydney/SY_COAST" />
@@ -1490,7 +1493,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Brisbane TCU" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="150" MagneticVariation="-11">
+    <Position Name="Brisbane TCU" Type="ASD" DefaultCenter="-27.648889+153.039167" DefaultRange="220" VisibilityRange="100" MagneticVariation="-11">
       <Sectors>
         <Sector Name="BAN" />
         <Sector Name="BAS" />
@@ -1498,6 +1501,10 @@
         <Sector Name="BDS" />
         <Sector Name="BAG" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-27.3942+153.1218</Point>
+        <Point>-28.166667+153.500</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Brisbane/BN_COAST" />
@@ -1542,11 +1549,14 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" MagneticVariation="-12.5">
+    <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" VisibilityRange="100" MagneticVariation="-12.5">
       <Sectors>
         <Sector Name="CAE" />
         <Sector Name="CAW" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-35.306944+149.195</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Canberra/CB_COAST" />
@@ -1572,11 +1582,14 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" MagneticVariation="1.6">
+    <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" VisibilityRange="100" MagneticVariation="1.6">
       <Sectors>
         <Sector Name="PHA" />
         <Sector Name="PHD" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-31.940278+115.966944</Point>
+      </ManualVisibility>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Perth/PH_COAST" />
