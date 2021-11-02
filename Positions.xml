@@ -82,7 +82,7 @@
       <Point>-31.091+149.719</Point>
       <Point>-22.162+151.836</Point>
       <Point>-17.386+142.007</Point>
-    </ManualVisibility>   
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -118,7 +118,7 @@
       <Point>-31.391+150.777</Point>
       <Point>-19.010+147.268</Point>
       <Point>-23.163+141.507</Point>
-    </ManualVisibility>  
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -185,7 +185,7 @@
       <Point>-14.930+119.923</Point>
       <Point>-13.403+129.478</Point>
       <Point>-19.447+130.986</Point>
-    </ManualVisibility>  
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -216,6 +216,7 @@
       <Sector Name="ASW" />
       <Sector Name="WAR" />
       <Sector Name="FOR" />
+      <Sector Name="FOE" />
       <Sector Name="WRA" />
     </Sectors>
     <ManualVisibility>
@@ -223,7 +224,7 @@
       <Point>-26.812+136.693</Point>
       <Point>-32.714+128.966</Point>
       <Point>-37.440+136.910</Point>
-    </ManualVisibility>   
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -265,7 +266,7 @@
       <Point>-27.353+116.633</Point>
       <Point>-25.820+123.212</Point>
       <Point>-22.015+116.355</Point>
-    </ManualVisibility>   
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -304,7 +305,7 @@
       <Point>-27.353+116.633</Point>
       <Point>-25.820+123.212</Point>
       <Point>-22.015+116.355</Point>
-    </ManualVisibility>  
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -338,7 +339,7 @@
       <Point>-24.786+150.307</Point>
       <Point>-23.655+142.199</Point>
       <Point>-18.697+140.953</Point>
-    </ManualVisibility>  
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -375,7 +376,7 @@
       <Point>-33.293+141.617</Point>
       <Point>-38.600+145.876</Point>
       <Point>-32.691+150.237</Point>
-    </ManualVisibility>  
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -408,12 +409,13 @@
       <Sector Name="YWE" />
       <Sector Name="WON" />
       <Sector Name="BLA" />
+      <Sector Name="DOK" />
     </Sectors>
     <ManualVisibility>
       <Point>-33.293+141.617</Point>
       <Point>-38.600+145.876</Point>
       <Point>-32.691+150.237</Point>
-    </ManualVisibility> 
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -450,7 +452,7 @@
       <Point>-33.293+141.617</Point>
       <Point>-38.600+145.876</Point>
       <Point>-32.691+150.237</Point>
-    </ManualVisibility>    
+    </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
       <Map Name="ALL_SECTORS" />
@@ -1232,7 +1234,7 @@
     </Position>
   </Group>
   <Group Name="Oceanic">
-    <Position Name="Tasman Oceanic" Type="ASD" DefaultCenter="-204939.000+1561328.100" DefaultRange="5700" VisibilityRange="1000">
+    <Position Name="Tasman Oceanic" Type="ASD" DefaultCenter="-204939.000+1561328.100" DefaultRange="5700" VisibilityRange="1500">
       <Sectors>
         <Sector Name="TSN" />
         <Sector Name="HWE" />
@@ -1240,8 +1242,7 @@
         <Sector Name="COL" />
       </Sectors>
       <ManualVisibility>
-        <Point>-09.300+163.000</Point>
-        <Point>-33.700+163.000</Point>
+        <Point>-12.466+170.066</Point>
       </ManualVisibility>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1329,7 +1330,7 @@
     </Position>
     <Position Name="Amberley TCU" Type="ASD" DefaultCenter="-27.640556+152.711944" DefaultRange="150" MagneticVariation="-11">
       <Sectors>
-        <Sector Name="AMB" />
+        <Sector Name="AMA" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1355,7 +1356,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="East Sale TCU" Type="ASD" DefaultCenter="-38.098889+147.149444" DefaultRange="150" MagneticVariation="-12.8">
+    <Position Name="East Sale TCU" Type="ASD" DefaultCenter="-38.098889+147.149444" DefaultRange="220" MagneticVariation="-12.8">
       <Sectors>
         <Sector Name="ESA" />
       </Sectors>
@@ -1586,6 +1587,7 @@
       <Sectors>
         <Sector Name="PHA" />
         <Sector Name="PHD" />
+        <Sector Name="PEA" />
       </Sectors>
       <ManualVisibility>
         <Point>-31.940278+115.966944</Point>
@@ -1617,6 +1619,11 @@
       <ControllerInfo Callsign="PH_DEP">
         <Line>Perth Departures</Line>
         <Line>ATIS available on 123.8</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="PE_APP">
+        <Line>Pearce Approach</Line>
+        <Line>ATIS available on 134.0</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2065,13 +2072,13 @@
     </Position>
     <Position Name="Amberley Tower" Type="ASD" DefaultCenter="-27.640556+152.711944" DefaultRange="60" MagneticVariation="-11">
       <Sectors>
-        <Sector Name="AMB ADC" />
-        <Sector Name="AMB SMC" />
-        <Sector Name="AMB COORD" />
+        <Sector Name="AM ADC" />
+        <Sector Name="AM SMC" />
+        <Sector Name="AM COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
-        <Map Name="Amberley/AMB_TCU" />
+        <Map Name="Amberley/AM_TCU" />
         <Map Name="Amberley/YAMB_ALLRWYS" />
       </Maps>
       <ATIS>
@@ -2090,12 +2097,12 @@
         <Line>ATIS available on 123.3</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="AMB_GND">
+      <ControllerInfo Callsign="AM_GND">
         <Line>Amberley Ground</Line>
         <Line>ATIS available on 123.3</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="AMB_DEL">
+      <ControllerInfo Callsign="AM_DEL">
         <Line>Amberley Delivery</Line>
         <Line>ATIS available on 123.3</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -2506,7 +2513,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Tindal Tower" Type="ASD" DefaultCenter="-14.521111+132.377778" DefaultRange="60" MagneticVariation="-3">
+    <Position Name="Tindal Tower" Type="ASD" DefaultCenter="-14.521111+132.377778" DefaultRange="100" MagneticVariation="-3">
       <Sectors>
         <Sector Name="TN ADC" />
         <Sector Name="TN SMC" />
@@ -2793,15 +2800,15 @@
     </Position>
     <Position Name="Pearce Tower" Type="ASD" DefaultCenter="-31.667778+116.015000" DefaultRange="60" MagneticVariation="1.5">
       <Sectors>
-        <Sector Name="PEA ADC" />
-        <Sector Name="PEA SMC" />
-        <Sector Name="PEA COORD" />
+        <Sector Name="PE ADC" />
+        <Sector Name="PE SMC" />
+        <Sector Name="PE COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Perth/PH_COAST" />
         <Map Name="Perth/PH_TCU" />
-        <Map Name="Perth/PEA_RWY18" />
+        <Map Name="Perth/PE_RWY18" />
       </Maps>
       <ATIS>
         <Editor Airport="YPEA" Frequency="134.0" />
@@ -2819,12 +2826,12 @@
         <Line>ATIS available on 134.0</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="PEA_GND">
+      <ControllerInfo Callsign="PE_GND">
         <Line>Pearce Ground</Line>
         <Line>ATIS available on 134.0</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="PEA_DEL">
+      <ControllerInfo Callsign="PE_DEL">
         <Line>Pearce Delivery</Line>
         <Line>ATIS available on 134.0</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
