@@ -2,7 +2,7 @@
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="Alice Springs" Frequency="128.850" Callsign="ML-ASP_CTR" Name="ASP">
     <Volumes>ASP</Volumes>
-    <ResponsibleSectors>FOR,WAR,ASW,WRA,FOE</ResponsibleSectors>
+    <ResponsibleSectors>FOR,WAR,ASW,WRA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Alice Springs West" Frequency="131.800" Callsign="ML-ASW_CTR" Name="ASW">
     <Volumes>ASW</Volumes>
@@ -22,11 +22,10 @@
   </Sector>
   <Sector FullName="Benalla" Frequency="132.200" Callsign="ML-BLA_CTR" Name="BLA">
     <Volumes>BLA,BLA_CB_CAP</Volumes>
-    <ResponsibleSectors>DOK</ResponsibleSectors>
   </Sector>
   <Sector FullName="Bindook" Frequency="129.800" Callsign="ML-BIK_CTR" Name="BIK">
-    <Volumes>BIK,BIKTMA</Volumes>
-    <ResponsibleSectors>WOL,KAT,GTH,GUN-WF</ResponsibleSectors>
+    <Volumes>BIK,BIKTMA,BIK_CB_CAP</Volumes>
+    <ResponsibleSectors>WOL,KAT,GTH</ResponsibleSectors>
   </Sector>
   <Sector FullName="Bourke" Frequency="128.200" Callsign="ML-BKE_CTR" Name="BKE">
     <Volumes>BKE</Volumes>
@@ -46,25 +45,18 @@
   <Sector FullName="Cross" Frequency="135.800" Callsign="ML-CRS_CTR" Name="CRS">
     <Volumes>CRS</Volumes>
   </Sector>
-  <Sector FullName="Dookie" Frequency="123.350" Callsign="ML-DOK_CTR" Name="DOK">
-    <Volumes>DOK-WF</Volumes>
-  </Sector>
   <Sector FullName="Downs" Frequency="135.600" Callsign="BN-DOS_CTR" Name="DOS">
     <Volumes>DOS</Volumes>
   </Sector>
   <Sector FullName="Eildon Weir" Frequency="123.750" Callsign="ML-ELW_CTR" Name="ELW">
     <Volumes>ELW,ELWTMA</Volumes>
-    <ResponsibleSectors>YWE,SNO,WON,BLA,DOK</ResponsibleSectors>
+    <ResponsibleSectors>YWE,SNO,WON,BLA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Esperance" Frequency="123.950" Callsign="ML-ESP_CTR" Name="ESP">
     <Volumes>ESP</Volumes>
   </Sector>
   <Sector FullName="Forest" Frequency="132.700" Callsign="ML-FOR_CTR" Name="FOR">
     <Volumes>FOR</Volumes>
-    <ResponsibleSectors>FOE</ResponsibleSectors>
-  </Sector>
-  <Sector FullName="Forest East" Frequency="135.000" Callsign="ML-FOE_CTR" Name="FOE">
-    <Volumes>FOE-WF</Volumes>
   </Sector>
   <Sector FullName="Geraldton" Frequency="134.200" Callsign="ML-GEL_CTR" Name="GEL">
     <Volumes>GEL</Volumes>
@@ -74,9 +66,6 @@
   </Sector>
   <Sector FullName="Grove" Frequency="133.800" Callsign="ML-GVE_CTR" Name="GVE">
     <Volumes>GVE</Volumes>
-  </Sector>
-  <Sector FullName="Gundagai" Frequency="128.400" Callsign="ML-GUN_CTR" Name="GUN">
-    <Volumes>GUN-WF,BIK_CB_CAP</Volumes>
   </Sector>
   <Sector FullName="Hyden" Frequency="118.200" Callsign="ML-HYD_CTR" Name="HYD">
     <Volumes>HYD</Volumes>
