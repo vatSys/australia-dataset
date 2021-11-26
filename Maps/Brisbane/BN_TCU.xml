@@ -11,8 +11,8 @@
       <Threshold Name="22L" Position="-27.565517+153.013094" />
     </Runway>
     <Runway Name="10L/28R">
-      <Threshold Name="10L" Position="-27.570394+152.997217" ExtendedCentrelineTrack="287.73" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="28R" Position="-27.574300+153.010919" ExtendedCentrelineTrack="107.75" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="10L" Position="-27.570606+152.997217" ExtendedCentrelineTrack="287.73" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="28R" Position="-27.574317+153.011153" ExtendedCentrelineTrack="107.74" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <Runway Name="10R/28L">
       <Threshold Name="10R" Position="-27.572197+152.998061" />
@@ -29,12 +29,12 @@
     </Runway>
     <!--YBBN-->
     <Runway Name="01L/19R">
-      <Threshold Name="01L" Position="-27.383081+153.106853" />
-      <Threshold Name="19R" Position="-27.356558+153.121964" />
+      <Threshold Name="01L" Position="-27.383069+153.106853" />
+      <Threshold Name="19R" Position="-27.356544+153.121969" />
     </Runway>
     <Runway Name="01R/19L">
-      <Threshold Name="01R" Position="-27.402803+153.118217" />
-      <Threshold Name="19L" Position="-27.374672+153.134306" />
+      <Threshold Name="01R" Position="-27.402797+153.118217" />
+      <Threshold Name="19L" Position="-27.374664+153.134306" />
     </Runway>
     <!--Airway Routes-->
     <Line>
@@ -148,7 +148,7 @@
       AKOBA/
       SAGLI/
       MAGPI/
-      GEESE/
+      OLDIB/
       DADBO
     </Line>
     <Line>
@@ -224,7 +224,7 @@
     <Line>
       <!--Y177-->
       RUROX/
-      EAGLE/
+      NIROK/
       LAMUG/
       SMOKA
     </Line>
@@ -329,8 +329,8 @@
       <Point>PTI</Point>
       <Point>PRP</Point>
       <Point>PBF</Point>
-      <Point>QE2</Point>
       <Point>Q1</Point>
+      <Point>QSAC</Point>
       <Point>RBY</Point>
       <Point>REDB</Point>
       <Point>RIT</Point>
@@ -449,8 +449,8 @@
       <Point>PTI</Point>
       <Point>PRP</Point>
       <Point>PBF</Point>
-      <Point>QE2</Point>
       <Point>Q1</Point>
+      <Point>QSAC</Point>
       <Point>RBY</Point>
       <Point>REDB</Point>
       <Point>RIT</Point>
@@ -564,13 +564,13 @@
   <Map Type="System" Name="YBBN_ALLRWYS" Priority="2" Center="-27.384167+153.117500">
     <!--YBBN-->
     <Runway Name="01L/19R">
-      <Threshold Name="01L" Position="-27.383081+153.106853" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="19R" Position="-27.356558+153.121964" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="01L" Position="-27.383069+153.106853" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="19R" Position="-27.356544+153.121969" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--YBBN-->
     <Runway Name="01R/19L">
-      <Threshold Name="01R" Position="-27.402803+153.118217" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="19L" Position="-27.374672+153.134306" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="01R" Position="-27.402797+153.118217" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="19L" Position="-27.374664+153.134306" ExtendedCentrelineTrack="27.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--YBCG-->
     <Runway Name="14/32">

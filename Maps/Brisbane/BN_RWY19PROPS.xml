@@ -3,17 +3,17 @@
   <Map Type="System" Name="BN_RWY19PROPS" Priority="1" Center="-27.384167+153.117500">
     <!--YBBN-->
     <Runway Name="01R/19L">
-      <Threshold Name="01R" Position="-27.402803+153.118217" />
-      <Threshold Name="19L" Position="-27.374672+153.134306" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="01R" Position="-27.402797+153.118217" />
+      <Threshold Name="19L" Position="-27.374664+153.134306" ExtendedCentrelineTrack="27.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <Runway Name="01L/19R">
-      <Threshold Name="01L" Position="-27.383081+153.106853" />
-      <Threshold Name="19R" Position="-27.356558+153.121964" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="01L" Position="-27.383069+153.106853" />
+      <Threshold Name="19R" Position="-27.356544+153.121969" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--SIDs-->
     <Line>
       <!--Rwy19L GUMKI1-->
-      -27.402803+153.118217/
+      -27.402797+153.118217/
       BOSVU/
       DADAN/
       DENIS/
@@ -36,7 +36,7 @@
     </Line>
     <Line>
       <!--Rwy19R BIXAD1-->
-      -27.383081+153.106853/
+      -27.383069+153.106853/
       DAMDA/
       TOGIN/
       ALBUB/
@@ -84,20 +84,20 @@
       
     </Line>
     <Line>
-      <!--Rwy19L GOMO1A-->
+      <!--Rwy19L GOMO2A-->
       GOMOL/
-      ABVET/
+      MEKUG/
       SALEL/
       SALGA/
       ISPON
     </Line>
     <Line>
-      <!--Rwy19L GOMO1V-->
+      <!--Rwy19L GOMO2V-->
       SALEL/
       OLVUN
     </Line>
     <Line>
-      <!--Rwy19L GOMO1X-->
+      <!--Rwy19L GOMO2X-->
       SALEL/
       VALVO/
       PUBIV
@@ -214,7 +214,7 @@
       <Point>SORVA</Point>
       <Point>RUTAT</Point>
       <Point>GOMOL</Point>
-      <Point>ABVET</Point>
+      <Point>MEKUG</Point>
       <Point>SALEL</Point>
       <Point>SALGA</Point>
       <Point>VALVO</Point>
@@ -254,8 +254,8 @@
     <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
       <Point Name="BDN">-27.581602+152.905597</Point>
       <Point Name="BDN/BAN">-26.959428+153.246671</Point>
-      <Point Name="BDS">-27.486336+153.578341</Point>
       <Point Name="BDS">-27.715979+153.092582</Point>
+      <Point Name="BDS">-27.486336+153.578341</Point>
       <Point Name="BDS/BAS">-27.181279+153.564636</Point>
     </Label>
   </Map>
@@ -301,7 +301,7 @@
       <Point>SORVA</Point>
       <Point>RUTAT</Point>
       <Point>GOMOL</Point>
-      <Point>ABVET</Point>
+      <Point>MEKUG</Point>
       <Point>SALEL</Point>
       <Point>SALGA</Point>
       <Point>OLVUN</Point>
@@ -378,7 +378,7 @@
       <Point>AKOBA</Point>
       <Point>SAGLI</Point>
       <Point>MAGPI</Point>
-      <Point>GEESE</Point>
+      <Point>OLDIB</Point>
       <Point>DADBO</Point>
       <Point>ALDAR</Point>
       <Point>ARM NDB</Point>
@@ -408,7 +408,7 @@
       <Point>YCCA</Point>
       <Point>OPIPO</Point>
       <Point>NODOR</Point>
-      <Point>EAGLE</Point>
+      <Point>NIROK</Point>
       <Point>LAMUG</Point>
       <Point>AGIVA</Point>
       <Point>PARRY</Point>
