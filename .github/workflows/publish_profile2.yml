@@ -18,6 +18,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp.sawbe.com
+        server: sftp://ftp.sawbe.com
         username: vatsys-aus-profile@sawbe.com
         password: ${{ secrets.FTP_PASSWORD }}
