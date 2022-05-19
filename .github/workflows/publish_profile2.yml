@@ -15,8 +15,8 @@ jobs:
         filename: 'profile.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig *.md'
     - name: FTP-Deploy-Action
-      uses: SamKirkland/FTP-Deploy-Action@3.0.0
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        ftp-server: ftp://ftp.sawbe.com/
+        ftp-server: ftp.sawbe.com/
         ftp-username: vatsys-aus-profile@sawbe.com
         ftp-password: ${{ secrets.FTP_PASSWORD }}
