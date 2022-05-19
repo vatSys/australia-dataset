@@ -1,6 +1,7 @@
 on:
   release:
     types: [published]
+  workflow_dispatch:
     
 # Zips the profile and uploads to the vatsys ftp server
 name: Publish Profile
@@ -17,6 +18,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        ftp-server: ftp.sawbe.com/
+        ftp-server: ftp.sawbe.com
         ftp-username: vatsys-aus-profile@sawbe.com
         ftp-password: ${{ secrets.FTP_PASSWORD }}
