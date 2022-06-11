@@ -4808,7 +4808,9 @@
 -322500.000+1523300.000/
 -320000.000+1524552.000/
 -310021.000+1531604.000</Area>
-      <Activations />
+      <Activations>
+        <Activation H24="false" Start="0600" End="1600" />
+      </Activations>
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R578A WILLIAMTOWN" AltitudeFloor="5000" AltitudeCeiling="12500" DAIWEnabled="true" LinePattern="Dashed">
       <Area>-324722.000+1513730.000/
@@ -5006,7 +5008,7 @@
 -323602.000+1512351.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R587A WILLIAMTOWN" AltitudeFloor="12500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R587A WILLIAMTOWN" AltitudeFloor="4500" AltitudeCeiling="12500" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-320943.000+1520143.000/
 -315957.000+1522210.000/
 -320000.000+1522500.000/
@@ -5033,7 +5035,9 @@
 -322311.683+1515507.448/
 -322349.000+1515827.000/
 -320943.000+1520143.000</Area>
-      <Activations />
+      <Activations>
+        <Activation H24="false" Start="0600" End="1600" />
+      </Activations>
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R587B WILLIAMTOWN" AltitudeFloor="12500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-313443.000+1522302.000/
@@ -5794,7 +5798,7 @@
 -271312.000+1544429.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R654A OAKEY" AltitudeFloor="0" AltitudeCeiling="8500" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R654A OAKEY" AltitudeFloor="0" AltitudeCeiling="6500" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-272356.000+1513840.000/
 -271314.000+1512127.000/
 -271227.212+1512153.202/
@@ -5839,7 +5843,7 @@
 -272356.000+1513840.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R654B OAKEY" AltitudeFloor="0" AltitudeCeiling="8500" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R654B OAKEY" AltitudeFloor="0" AltitudeCeiling="6500" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-271314.000+1512127.000/
 -272356.000+1513840.000/
 -272335.000+1511827.000/
@@ -5848,11 +5852,9 @@
 -271314.000+1512127.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R654C OAKEY" AltitudeFloor="8500" AltitudeCeiling="12500" DAIWEnabled="true" LinePattern="Dashed">
+    <RestrictedArea Type="Restricted" Name="R654C OAKEY" AltitudeFloor="6500" AltitudeCeiling="12500" DAIWEnabled="true" LinePattern="Dashed">
       <Area>-272356.000+1513840.000/
--272335.000+1511827.000/
--271957.048+1511847.168/
--271604.905+1511958.100/
+-271314.000+1512127.000/
 -271227.212+1512153.202/
 -270910.556+1512428.925/
 -270620.876+1512740.508/
@@ -5868,7 +5870,8 @@
 -271054.000+1520532.000/
 -271649.708+1520049.038/
 -272336.164+1515712.399/
--272952.000+1515517.000/
+-272523.000+1515637.000/
+-272851.000+1515323.000/
 -272633.000+1514906.000/
 -272711.770+1514835.978/
 -272748.767+1514754.328/
@@ -5886,6 +5889,15 @@
 -272450.985+1513844.183/
 -272358.887+1513839.093/
 -272356.000+1513840.000</Area>
+      <Activations />
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R654D OAKEY" AltitudeFloor="6500" AltitudeCeiling="12500" DAIWEnabled="true" LinePattern="Dashed">
+      <Area>-272335.000+1511827.000/
+-271957.048+1511847.168/
+-271604.905+1511958.100/
+-271314.000+1512127.000/
+-272356.000+1513840.000/
+-272335.000+1511827.000</Area>
       <Activations />
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R662A AMBERLEY" AltitudeFloor="5000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
