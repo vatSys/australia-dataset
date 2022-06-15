@@ -67,6 +67,9 @@
   <Sector FullName="Grove" Frequency="133.800" Callsign="ML-GVE_CTR" Name="GVE">
     <Volumes>GVE</Volumes>
   </Sector>
+  <Sector FullName="Huon" Frequency="123.800" Callsign="ML-HUO_CTR" Name="HUO">
+    <Volumes>HUO</Volumes>
+  </Sector>
   <Sector FullName="Hyden" Frequency="118.200" Callsign="ML-HYD_CTR" Name="HYD">
     <Volumes>HYD</Volumes>
   </Sector>
@@ -178,12 +181,9 @@
   <Sector FullName="Tabletop" Frequency="120.550" Callsign="BN-TBP_CTR" Name="TBP">
     <Volumes>TBP,TBPTMA</Volumes>
   </Sector>
-  <Sector FullName="Tailem Bend" Frequency="125.300" Callsign="ML-TBD_CTR" Name="TBD">
+  <Sector FullName="Tailem Bend" Frequency="123.050" Callsign="ML-TBD_CTR" Name="TBD">
     <Volumes>TBD,TBDTMA</Volumes>
     <ResponsibleSectors>AUG,MUN,OXL,BKE</ResponsibleSectors>
-  </Sector>
-  <Sector FullName="Tasmania" Frequency="123.800" Callsign="ML-TAS_CTR" Name="TAS">
-    <Volumes>TAS</Volumes>
   </Sector>
   <Sector FullName="Territory" Frequency="133.200" Callsign="BN-TRT_CTR" Name="TRT">
     <Volumes>TRT,TRTTMA</Volumes>
@@ -338,7 +338,16 @@
   <Sector FullName="Gold Coast Approach" Frequency="123.500" Callsign="CG_APP" Name="BAG">
     <Volumes>BAG_NORTH,BAG_SOUTH</Volumes>
   </Sector>
+  <Sector FullName="Hobart Approach" Frequency="125.550" Callsign="HB_APP" Name="HBA">
+    <Volumes>HBA</Volumes>
+  </Sector>
   <Sector FullName="Kwajalein Approach" Frequency="126.200" Callsign="PKWA_APP" Name="PKWAA" />
+  <Sector FullName="Launceston Approach" Frequency="123.800" Callsign="LT_APP" Name="LTA">
+    <Volumes>LTA</Volumes>
+  </Sector>
+  <Sector FullName="Mackay Approach" Frequency="125.650" Callsign="MK_APP" Name="MKA">
+    <Volumes>MKA</Volumes>
+  </Sector>
   <Sector FullName="Melbourne Approach East" Frequency="132.000" Callsign="ML_APP" Name="MAE">
     <Volumes>MLA</Volumes>
     <ResponsibleSectors>MDN,MDS</ResponsibleSectors>
@@ -369,6 +378,9 @@
     <Volumes>PHA</Volumes>
   </Sector>
   <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" />
+  <Sector FullName="Rockhampton Approach" Frequency="123.750" Callsign="RK_APP" Name="RKA">
+    <Volumes>RKA</Volumes>
+  </Sector>
   <Sector FullName="Sydney Approach North" Frequency="124.400" Callsign="SY_APP" Name="SAN">
     <Volumes>SYA</Volumes>
     <ResponsibleSectors>SAS,SFW,SFE,SDS,SDN</ResponsibleSectors>
