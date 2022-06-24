@@ -1368,6 +1368,15 @@
       <Point>HSMWG</Point>
       <Point>HSMWF</Point>
       <Point>HSMWI</Point>
+      <Point>HT2ED</Point>
+      <Point>HT2EE</Point>
+      <Point>HT2EF</Point>
+      <Point>HT2EI</Point>
+      <Point>HT2WA</Point>
+      <Point>HT2WB</Point>
+      <Point>HT2WC</Point>
+      <Point>HT2WF</Point>
+      <Point>HT2WI</Point>
       <Point>HXXND</Point>
       <Point>HXXNE</Point>
       <Point>HXXNG</Point>
@@ -3365,6 +3374,8 @@
       <Point>HOZEF</Point>
       <Point>HSMEF</Point>
       <Point>HSMWF</Point>
+      <Point>HT2EF</Point>
+      <Point>HT2WF</Point>
       <Point>HXXNF</Point>
       <Point>HXXSF</Point>
       <Point>IA2EF</Point>
@@ -4001,6 +4012,8 @@
       <Point>HOZEI</Point>
       <Point>HSMEI</Point>
       <Point>HSMWI</Point>
+      <Point>HT2EI</Point>
+      <Point>HT2WI</Point>
       <Point>HXXNI</Point>
       <Point>HXXSI</Point>
       <Point>IA2EI</Point>
@@ -5161,6 +5174,11 @@
       <Point>HSMWD</Point>
       <Point>HSMWE</Point>
       <Point>HSMWG</Point>
+      <Point>HT2ED</Point>
+      <Point>HT2EE</Point>
+      <Point>HT2WA</Point>
+      <Point>HT2WB</Point>
+      <Point>HT2WC</Point>
       <Point>HXXND</Point>
       <Point>HXXNE</Point>
       <Point>HXXNG</Point>
@@ -7151,6 +7169,15 @@
     <Line>HSMWG/HSMWI</Line>
     <Line>HSMWI/HSMWF</Line>
     <Line>HSMWM/HSMWF</Line>
+    <Line>HT2ED/HT2EI</Line>
+    <Line>HT2EE/HT2EI</Line>
+    <Line>HT2EI/HT2EF</Line>
+    <Line>-200224.270+1461651.570/HT2EF</Line>
+    <Line>HT2WA/HT2WI</Line>
+    <Line>HT2WB/HT2WI</Line>
+    <Line>HT2WC/HT2WI</Line>
+    <Line>HT2WI/HT2WF</Line>
+    <Line>-200251.060+1461558.990/HT2WF</Line>
     <Line>HXXND/HXXNI</Line>
     <Line>HXXNE/HXXNI</Line>
     <Line>HXXNG/HXXNI</Line>

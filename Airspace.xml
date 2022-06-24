@@ -626,15 +626,15 @@
         <SID Name="RUSKA6" Type="NonJet" />
         <SID Name="VANDI6" Type="NonJet" />
         <STAR Name="DONY9A" ApproachName="RNPX" />
-        <STAR Name="DONY9U" OpDataFlag="U" ApproachName="RNP-ARU" />
+        <STAR Name="DONY9U" OpDataFlag="U" />
         <STAR Name="GATO9A" ApproachName="RNPX" />
-        <STAR Name="GATO9U" OpDataFlag="U" ApproachName="RNP-ARU" />
+        <STAR Name="GATO9U" OpDataFlag="U" />
         <STAR Name="VEGP7A" ApproachName="RNPX" />
-        <STAR Name="VEGP7P" OpDataFlag="P" ApproachName="RNP-ARP" />
-        <STAR Name="VEGP7U" OpDataFlag="U" ApproachName="RNP-ARU" />
+        <STAR Name="VEGP7P" OpDataFlag="P" />
+        <STAR Name="VEGP7U" OpDataFlag="U" />
         <STAR Name="WANG2A" ApproachName="RNPX" />
-        <STAR Name="WANG2P" OpDataFlag="P" ApproachName="RNP-ARP" />
-        <STAR Name="WANG2U" OpDataFlag="U" ApproachName="RNP-ARU" />
+        <STAR Name="WANG2P" OpDataFlag="P" />
+        <STAR Name="WANG2U" OpDataFlag="U" />
       </Runway>
       <Runway Name="18" DataRunway="18">
         <SID Name="DN7" Default="True" />
@@ -650,14 +650,14 @@
         <SID Name="RUSKA6" Type="NonJet" />
         <SID Name="VANDI6" Type="NonJet" />
         <STAR Name="DONY9A" ApproachName="LOC" />
-        <STAR Name="DONY9U" OpDataFlag="U" ApproachName="RNP-ARU" />
+        <STAR Name="DONY9U" OpDataFlag="U" ApproachName="LOC" />
         <STAR Name="GATO9A" ApproachName="LOC" />
-        <STAR Name="GATO9U" OpDataFlag="U" ApproachName="RNP-ARU" />
+        <STAR Name="GATO9U" OpDataFlag="U" ApproachName="LOC" />
         <STAR Name="VEGP7A" ApproachName="LOC" />
-        <STAR Name="VEGP7U" OpDataFlag="U" ApproachName="RNP-ARU" />
+        <STAR Name="VEGP7U" OpDataFlag="U" ApproachName="LOC" />
         <STAR Name="WANG2A" ApproachName="LOC" />
-        <STAR Name="WANG2P" OpDataFlag="P" ApproachName="RNP-ARP" />
-        <STAR Name="WANG2U" OpDataFlag="U" ApproachName="RNP-ARU" />
+        <STAR Name="WANG2P" OpDataFlag="P" />
+        <STAR Name="WANG2U" OpDataFlag="U" ApproachName="LOC" />
       </Runway>
       <Runway Name="36" DataRunway="36">
         <SID Name="DN7" />
@@ -7937,10 +7937,6 @@ BOFOR
     <Point Name="DN438" Type="Fix">-122208.900+1310035.600</Point>
     <Point Name="DN444" Type="Fix">-122717.200+1310002.300</Point>
     <Point Name="DN448" Type="Fix">-123200.700+1305824.900</Point>
-    <Point Name="DN450" Type="Fix">-121734.700+1305932.600</Point>
-    <Point Name="DN458" Type="Fix">-121410.700+1304927.300</Point>
-    <Point Name="DN460" Type="Fix">-121255.700+1304545.000</Point>
-    <Point Name="DN464" Type="Fix">-121935.700+1310532.700</Point>
     <Point Name="DN81C" Type="Fix">-094524.000+1321530.000</Point>
     <Point Name="DN82C" Type="Fix">-140900.000+1282600.000</Point>
     <Point Name="DN83C" Type="Fix">-120730.000+1275230.000</Point>
@@ -8941,6 +8937,17 @@ BOFOR
     <Point Name="HSMWH" Type="Fix">-363320.300+1421121.200</Point>
     <Point Name="HSMWI" Type="Fix">-364010.400+1415728.600</Point>
     <Point Name="HSMWM" Type="Fix">-364008.100+1420954.600</Point>
+    <Point Name="HT2ED" Type="Fix">-200058.090+1463010.690</Point>
+    <Point Name="HT2EE" Type="Fix">-195514.800+1463052.620</Point>
+    <Point Name="HT2EF" Type="Fix">-200001.240+1462132.060</Point>
+    <Point Name="HT2EH" Type="Fix">-200350.030+1461403.210</Point>
+    <Point Name="HT2EI" Type="Fix">-195738.090+1462612.410</Point>
+    <Point Name="HT2WA" Type="Fix">-201234.760+1460723.470</Point>
+    <Point Name="HT2WB" Type="Fix">-200959.300+1460156.620</Point>
+    <Point Name="HT2WC" Type="Fix">-200416.160+1460239.620</Point>
+    <Point Name="HT2WF" Type="Fix">-200513.940+1461118.340</Point>
+    <Point Name="HT2WH" Type="Fix">-200125.270+1461847.310</Point>
+    <Point Name="HT2WI" Type="Fix">-200736.680+1460637.550</Point>
     <Point Name="HTINA" Type="Fix">-201254.400+1484359.900</Point>
     <Point Name="HTINC" Type="Fix">-200725.800+1484552.900</Point>
     <Point Name="HTIND" Type="Fix">-200713.500+1485158.300</Point>
@@ -11747,13 +11754,9 @@ BOFOR
     <Point Name="RCG10" Type="Fix">-282811.400+1533456.500</Point>
     <Point Name="RCG12" Type="Fix">-281352.100+1533220.400</Point>
     <Point Name="RCG23" Type="Fix">-280802.100+1533108.700</Point>
-    <Point Name="RDN11" Type="Fix">-121712.300+1304415.500</Point>
-    <Point Name="RDN12" Type="Fix">-122351.800+1310403.600</Point>
     <Point Name="RDN13" Type="Fix">-122432.200+1305946.300</Point>
     <Point Name="RDN14" Type="Fix">-123214.500+1304451.300</Point>
-    <Point Name="RDN16" Type="Fix">-121827.300+1304757.800</Point>
     <Point Name="RDN17" Type="Fix">-122020.800+1304718.200</Point>
-    <Point Name="RDN19" Type="Fix">-122151.200+1305803.300</Point>
     <Point Name="RDN22" Type="Fix">-122938.900+1305913.400</Point>
     <Point Name="RDN23" Type="Fix">-122505.700+1304538.800</Point>
     <Point Name="REBEG" Type="Fix">-255829.400+1530646.000</Point>
@@ -17043,20 +17046,6 @@ BOFOR
       <Transition Name="UPSEN">UPSEN/IGBOV/DN407/-12.427845+130.719496/-12.406284+130.720009/-12.387876+130.731518/-12.377552+130.750906/-12.378079+130.772981/-12.378420+130.774016/DN404</Transition>
       <Transition Name="WOKKI">WOKKI/GUPOD/DN422/-12.299439+130.802345/-12.298133+130.780316/-12.307789+130.760577/-12.325794+130.748422/-12.347324+130.747109/-12.366610+130.756993/-12.378485+130.775426/-12.378693+130.776182/DN404</Transition>
       <Route>NASUX/DN404</Route>
-    </Approach>
-    <Approach Name="RNP-ARP" Airport="YPDN" Runway="11">
-      <Transition Name="KITTY">KITTY/TOSOB/DN412/-12.457633+130.746873/-12.452737+130.736928/-12.445472+130.728637/-12.436359+130.722556/-12.435797+130.722317</Transition>
-      <Transition Name="UPSEN">UPSEN/IGBOV</Transition>
-      <Route>DN407/-12.427845+130.719496/-12.406295+130.720395/-12.388086+130.732230/-12.378095+130.751800/-12.377467+130.766602/DN404/DN11T</Route>
-    </Approach>
-    <Approach Name="RNP-ARP" Airport="YPDN" Runway="29">
-      <Route>KITTY/GUMUR/DN448/-12.533533+130.973599/-12.535214+130.995618/-12.525893+131.015543/-12.508096+131.028022/-12.486591+131.029714/-12.467141+131.020166/-12.458983+131.010424/DN444/DN432/DN29T</Route>
-    </Approach>
-    <Approach Name="RNP-ARU" Airport="YPDN" Runway="11">
-      <Route>NASUX/DN404/DN11T</Route>
-    </Approach>
-    <Approach Name="RNP-ARU" Airport="YPDN" Runway="29">
-      <Route>LAPAR/DN432/DN29T</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YPPH" Runway="03">
       <Route>TIMMY/PERSF/PH03T</Route>
