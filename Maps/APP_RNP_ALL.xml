@@ -174,6 +174,9 @@
       <Point>PADEK</Point>
       <Point>PADEL</Point>
       <Point>PADEN</Point>
+      <Point>KITTY</Point>
+      <Point>UPSEN</Point>
+      <Point>WOKKI</Point>
       <Point>DRWWD</Point>
       <Point>DRWWE</Point>
       <Point>DRWWG</Point>
@@ -228,12 +231,12 @@
       <Point>STWEA</Point>
       <Point>STWEB</Point>
       <Point>STWEC</Point>
-      <Point>WM2WA</Point>
-      <Point>WM2WB</Point>
-      <Point>WM2WC</Point>
       <Point>WM2ED</Point>
       <Point>WM2EE</Point>
       <Point>WM2EG</Point>
+      <Point>WM2WA</Point>
+      <Point>WM2WB</Point>
+      <Point>WM2WC</Point>
       <Point>BAFWF</Point>
       <Point>BAFEF</Point>
       <Point>BASWF</Point>
@@ -286,6 +289,8 @@
       <Point>PADWF</Point>
       <Point>PADNF</Point>
       <Point>PADEF</Point>
+      <Point>DN404</Point>
+      <Point>DN432</Point>
       <Point>DRWWF</Point>
       <Point>DRWEF</Point>
       <Point>DRWSF</Point>
@@ -311,8 +316,8 @@
       <Point>SSYSF</Point>
       <Point>STWWF</Point>
       <Point>STWEF</Point>
-      <Point>WM2WF</Point>
       <Point>WM2EF</Point>
+      <Point>WM2WF</Point>
       <Point>BAFWI</Point>
       <Point>BAFEI</Point>
       <Point>BASWI</Point>
@@ -362,6 +367,8 @@
       <Point>PADWI</Point>
       <Point>PADNI</Point>
       <Point>PADEI</Point>
+      <Point>NASUX</Point>
+      <Point>LAPAR</Point>
       <Point>DRWWI</Point>
       <Point>DRWEI</Point>
       <Point>DRWSI</Point>
@@ -380,8 +387,8 @@
       <Point>SCNWI</Point>
       <Point>STWWI</Point>
       <Point>STWEI</Point>
-      <Point>WM2WI</Point>
       <Point>WM2EI</Point>
+      <Point>WM2WI</Point>
       <Point>AG2ND</Point>
       <Point>AG2NE</Point>
       <Point>AG2NG</Point>
@@ -3127,6 +3134,8 @@
       <Point>PADWF</Point>
       <Point>PADNF</Point>
       <Point>PADEF</Point>
+      <Point>DN404</Point>
+      <Point>DN432</Point>
       <Point>DRWWF</Point>
       <Point>DRWEF</Point>
       <Point>DRWSF</Point>
@@ -3152,8 +3161,8 @@
       <Point>SSYSF</Point>
       <Point>STWWF</Point>
       <Point>STWEF</Point>
-      <Point>WM2WF</Point>
       <Point>WM2EF</Point>
+      <Point>WM2WF</Point>
       <Point>AG2NF</Point>
       <Point>AG2SF</Point>
       <Point>ALHWF</Point>
@@ -3768,6 +3777,8 @@
       <Point>PADWI</Point>
       <Point>PADNI</Point>
       <Point>PADEI</Point>
+      <Point>NASUX</Point>
+      <Point>LAPAR</Point>
       <Point>DRWWI</Point>
       <Point>DRWEI</Point>
       <Point>DRWSI</Point>
@@ -3786,8 +3797,8 @@
       <Point>SCNWI</Point>
       <Point>STWWI</Point>
       <Point>STWEI</Point>
-      <Point>WM2WI</Point>
       <Point>WM2EI</Point>
+      <Point>WM2WI</Point>
       <Point>AG2NI</Point>
       <Point>AG2SI</Point>
       <Point>ALHWI</Point>
@@ -4512,6 +4523,9 @@
       <Point>PADEK</Point>
       <Point>PADEL</Point>
       <Point>PADEN</Point>
+      <Point>KITTY</Point>
+      <Point>UPSEN</Point>
+      <Point>WOKKI</Point>
       <Point>DRWWD</Point>
       <Point>DRWWE</Point>
       <Point>DRWWG</Point>
@@ -4565,12 +4579,12 @@
       <Point>STWEA</Point>
       <Point>STWEB</Point>
       <Point>STWEC</Point>
-      <Point>WM2WA</Point>
-      <Point>WM2WB</Point>
-      <Point>WM2WC</Point>
       <Point>WM2ED</Point>
       <Point>WM2EE</Point>
       <Point>WM2EG</Point>
+      <Point>WM2WA</Point>
+      <Point>WM2WB</Point>
+      <Point>WM2WC</Point>
       <Point>AG2ND</Point>
       <Point>AG2NE</Point>
       <Point>AG2NG</Point>
@@ -9083,6 +9097,13 @@
     <Line>PADEK/PADEI</Line>
     <Line>PADEL/PADEI</Line>
     <Line>PADEN/PADEI</Line>
+    <Line>NASUX/DN404</Line>
+    <Line>KITTY/TOSOB/DN412/-12.457634+130.746873/-12.445785+130.728423/-12.426499+130.718536/-12.404968+130.719849/-12.386964+130.732008/-12.377308+130.751753/-12.378339+130.772910/DN404/NASUX</Line>
+    <Line>UPSEN/IGBOV/DN407/-12.427845+130.719496/-12.406284+130.720009/-12.387876+130.731518/-12.377552+130.750906/-12.378079+130.772981/-12.378420+130.774016/DN404/NASUX</Line>
+    <Line>WOKKI/GUPOD/DN422/-12.299439+130.802345/-12.298133+130.780316/-12.307789+130.760577/-12.325794+130.748422/-12.347324+130.747109/-12.366610+130.756993/-12.378485+130.775426/-12.378693+130.776182/DN404/NASUX</Line>
+    <Line>LAPAR/DN444/DN432</Line>
+    <Line>KITTY/GUMUR/DN448/-12.533533+130.973599/-12.534838+130.995644/-12.525180+131.015399/-12.507172+131.027559/-12.485641+131.028866/-12.466358+131.018972/-12.454806+131.001392/DN444/DN432/LAPAR</Line>
+    <Line>WOKKI/ADBER/DN438/-12.369144+131.009905/-12.380988+131.028348/-12.400272+131.038238/-12.421803+131.036932/-12.439810+131.024776/-12.449469+131.005028/-12.448190+130.982979/-12.447914+130.982246/DN432/LAPAR</Line>
     <Line>DRWWI/DRWWF/DN11T</Line>
     <Line>DRWWD/DRWWI</Line>
     <Line>DRWWE/DRWWI</Line>
@@ -9168,13 +9189,13 @@
     <Line>STWEA/STWEI</Line>
     <Line>STWEB/STWEI</Line>
     <Line>STWEC/STWEI</Line>
-    <Line>WM2WI/WM2WF/WL12T</Line>
-    <Line>WM2WA/WM2WI</Line>
-    <Line>WM2WB/WM2WI</Line>
-    <Line>WM2WC/WM2WI</Line>
     <Line>WM2EI/WM2EF/WL30T</Line>
     <Line>WM2ED/WM2EI</Line>
     <Line>WM2EE/WM2EI</Line>
     <Line>WM2EG/WM2EI</Line>
+    <Line>WM2WI/WM2WF/WL12T</Line>
+    <Line>WM2WA/WM2WI</Line>
+    <Line>WM2WB/WM2WI</Line>
+    <Line>WM2WC/WM2WI</Line>
   </Map>
 </Maps>
