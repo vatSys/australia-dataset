@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <DefaultJurisdiction>
   <RuleSets>
     <RuleSet Name="YAMB_DEPS">
@@ -238,12 +238,23 @@
         </Departure>
       </Rules>
     </RuleSet>
-    <RuleSet Name="TAS_DEPS">
+    <RuleSet Name="LT_DEPS">
       <Rules>
-        <Departure Values="YMHB,YMLT">
+        <Departure Values="YMLT">
           <Rules>
             <Default>
-              <AssignSector Order="TAS"/>
+              <AssignSector Order="HBA,HUO"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="HB_DEPS">
+      <Rules>
+        <Departure Values="YMHB">
+          <Rules>
+            <Default>
+              <AssignSector Order="LTA,HUO"/>
             </Default>
           </Rules>
         </Departure>
