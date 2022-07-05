@@ -349,7 +349,7 @@
       <Runway Name="36" DataRunway="36">
         <SID Name="AV5" Default="True" />
         <SID Name="JUSTY2" />
-        <STAR Name="JAYBI5" />
+        <STAR Name="JAYBI5" ApproachName="RNP-ARU" />
       </Runway>
     </Airport>
     <Airport Name="YMAY">
@@ -626,15 +626,15 @@
         <SID Name="RUSKA6" Type="NonJet" />
         <SID Name="VANDI6" Type="NonJet" />
         <STAR Name="DONY9A" ApproachName="RNPX" />
-        <STAR Name="DONY9U" OpDataFlag="U" />
+        <STAR Name="DONY9U" OpDataFlag="U" ApproachName="RNPX" />
         <STAR Name="GATO9A" ApproachName="RNPX" />
-        <STAR Name="GATO9U" OpDataFlag="U" />
+        <STAR Name="GATO9U" OpDataFlag="U" ApproachName="RNPX" />
         <STAR Name="VEGP7A" ApproachName="RNPX" />
-        <STAR Name="VEGP7P" OpDataFlag="P" />
-        <STAR Name="VEGP7U" OpDataFlag="U" />
+        <STAR Name="VEGP7P" OpDataFlag="P" ApproachName="RNPX" />
+        <STAR Name="VEGP7U" OpDataFlag="U" ApproachName="RNPX" />
         <STAR Name="WANG2A" ApproachName="RNPX" />
-        <STAR Name="WANG2P" OpDataFlag="P" />
-        <STAR Name="WANG2U" OpDataFlag="U" />
+        <STAR Name="WANG2P" OpDataFlag="P" ApproachName="RNPX" />
+        <STAR Name="WANG2U" OpDataFlag="U" ApproachName="RNPX" />
       </Runway>
       <Runway Name="18" DataRunway="18">
         <SID Name="DN7" Default="True" />
@@ -656,7 +656,7 @@
         <STAR Name="VEGP7A" ApproachName="LOC" />
         <STAR Name="VEGP7U" OpDataFlag="U" ApproachName="LOC" />
         <STAR Name="WANG2A" ApproachName="LOC" />
-        <STAR Name="WANG2P" OpDataFlag="P" />
+        <STAR Name="WANG2P" OpDataFlag="P" ApproachName="RNPX" />
         <STAR Name="WANG2U" OpDataFlag="U" ApproachName="LOC" />
       </Runway>
       <Runway Name="36" DataRunway="36">
@@ -928,7 +928,7 @@
         <SID Name="TANTA2" Type="Jet" />
         <SID Name="WG1" Type="Jet" />
         <STAR Name="AVBE4A" ApproachName="RNP-ARW" />
-        <STAR Name="BUNG4A" ApproachName="RNP-ARW" />
+        <STAR Name="BUNG4A" Type="NonJet" ApproachName="RNP-ARW" />
         <STAR Name="BUNG4Y" Type="NonJet" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="MAND2A" ApproachName="RNP-ARW" />
         <STAR Name="MAND2X" OpDataFlag="X" ApproachName="RNP-ARX" />
@@ -948,7 +948,7 @@
         <SID Name="TANTA2" Type="Jet" />
         <SID Name="WG1" Type="Jet" />
         <STAR Name="AVBE4A" ApproachName="RNPZ" />
-        <STAR Name="BUNG4A" ApproachName="RNPZ" />
+        <STAR Name="BUNG4A" Type="NonJet" ApproachName="RNPZ" />
         <STAR Name="BUNG4W" Type="NonJet" OpDataFlag="W" ApproachName="RNP-ARW" />
         <STAR Name="BUNG4Y" Type="NonJet" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="POLI8A" ApproachName="RNPZ" />
@@ -958,10 +958,10 @@
         <STAR Name="RAZI6Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="30V" DataRunway="30">
-        <STAR Name="BUNG4V" />
+        <STAR Name="BUNG4V" Type="NonJet" />
       </Runway>
       <Runway Name="35V" DataRunway="35">
-        <STAR Name="BUNG4V" />
+        <STAR Name="BUNG4V" Type="NonJet" />
         <STAR Name="RAZI6V" />
       </Runway>
     </Airport>
@@ -15255,7 +15255,7 @@ BOFOR
     </SID>
     <SID Name="DIGLA3" Airport="YBAS" Runways="12,30">
       <Route Runway="12">DIGLA</Route>
-      <Route Runway="30">DIGLA</Route>
+      <Route Runway="30">OCTAV/AS456/AS466/DIGLA</Route>
     </SID>
     <SID Name="ELLOW3" Airport="YBAS" Runways="12,30">
       <Route Runway="12">ELLOW</Route>
@@ -15263,7 +15263,7 @@ BOFOR
     </SID>
     <SID Name="GAFER3" Airport="YBAS" Runways="12,30">
       <Route Runway="12">GAFER</Route>
-      <Route Runway="30">OCTAV/NAMIT/GAFER</Route>
+      <Route Runway="30">OCTAV/AS456/NAMIT/AS476/GAFER</Route>
     </SID>
     <SID Name="HONGI3" Airport="YBAS" Runways="12,30">
       <Route Runway="12">HONGI</Route>
@@ -15304,7 +15304,7 @@ BOFOR
     </SID>
     <SID Name="PULOL3" Airport="YBAS" Runways="12,30">
       <Route Runway="12">PULOL</Route>
-      <Route Runway="30">PULOL</Route>
+      <Route Runway="30">OCTAV/AS456/NAMIT/JIRRA/AS488/AS492/AS496/AS552/PULOL</Route>
     </SID>
     <SID Name="PUMAK1" Airport="YBAS" Runways="12,30">
       <Route Runway="12">PUNED/BODAS/OLREB/PUMAK</Route>
@@ -15372,7 +15372,7 @@ BOFOR
       <Route Runway="19R">DAMDA/TOGIN/IGMAS/WACKO</Route>
     </SID>
     <SID Name="APAGI5" Airport="YBCG" Runways="14,32">
-      <Route Runway="14">SMALL/CG847/CUDGN/APAGI</Route>
+      <Route Runway="14">SMALL/CG847/CUDGN/CG851/APAGI</Route>
       <Route Runway="32">STIMP/MICKS/CG612/APAGI</Route>
     </SID>
     <SID Name="BURLI5" Airport="YBCG" Runways="32">
@@ -15384,7 +15384,7 @@ BOFOR
       <Route Runway="32" />
     </SID>
     <SID Name="CUDGN4" Airport="YBCG" Runways="14">
-      <Route Runway="14">SMALL/CG847/CUDGN/APAGI</Route>
+      <Route Runway="14">SMALL/CG847/CUDGN/CG851/APAGI</Route>
     </SID>
     <SID Name="CS2" Airport="YBCS" Runways="15,33">
       <Route Runway="15" />
@@ -16850,11 +16850,11 @@ BOFOR
     </Approach>
     <Approach Name="RNP-ARY" Airport="YBCG" Runway="14">
       <Transition Name="KERRI">KERRI</Transition>
-      <Route>CG045/-28.093209+153.567099/-28.082610+153.554675/-28.075254+153.539563/-28.071598+153.522809/-28.071582+153.508653/CG004/CG332/CG14T</Route>
+      <Route>CG045/-28.082675+153.554630/-28.075382+153.539479/-28.071795+153.522706/-28.072040+153.506677/CG004/-28.081202+153.483487/-28.095841+153.473135/-28.113085+153.472465/-28.114667+153.472953/CG332/CG14T</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="YBCG" Runway="32">
       <Transition Name="ATKEN">ATKEN</Transition>
-      <Route>CG421/CG422/CG440/CG32T</Route>
+      <Route>CG421/CG422/-28.219253+153.543047/-28.210766+153.535312/CG440/CG32T</Route>
     </Approach>
     <Approach Name="LOC" Airport="YBCS" Runway="15">
       <Transition Name="GUNRO">GUNRO</Transition>
@@ -16873,23 +16873,23 @@ BOFOR
     </Approach>
     <Approach Name="RNP-ARW" Airport="YBCS" Runway="15">
       <Transition Name="EPGAG">EPGAG</Transition>
-      <Route>CS401/CS403/CS405/CS407/CS15T</Route>
+      <Route>CS401/-16.718006+145.569408/-16.707495+145.587722/-16.701881+145.608252/-16.701282+145.614457/CS403/-16.703932+145.641334/-16.711462+145.659216/-16.723166+145.674456/-16.736923+145.685177/CS405/CS407/CS15T</Route>
     </Approach>
     <Approach Name="RNP-ARW" Airport="YBCS" Runway="33">
       <Transition Name="LEBAD">LEBAD/CS510</Transition>
-      <Route>CS511/CS512/CS513/CS540/CS541/CS33T</Route>
+      <Route>CS511/-17.162765+145.807215/-17.155213+145.815831/CS512/-17.133992+145.831415/-17.122199+145.836254/CS513/-17.097988+145.840280/-17.076401+145.837468/-17.069382+145.835143/CS540/CS541/CS33T</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="YBCS" Runway="15">
       <Transition Name="GUNRO">GUNRO/CS400</Transition>
-      <Transition Name="TODEG">TODEG/CS402/CS404</Transition>
+      <Transition Name="TODEG">TODEG/CS402/-16.644563+145.745178/-16.649939+145.726475/-16.659768+145.709859/-16.663241+145.705805/CS404/-16.683334+145.690389/-16.701013+145.683998/-16.719674+145.682601/-16.736556+145.685849/CS405</Transition>
       <Route>CS405/CS407/CS15T</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="YBCS" Runway="33">
       <Transition Name="LAVUP">LAVUP</Transition>
-      <Route>CS530/CS531/CS532/CS541/CS33T</Route>
+      <Route>CS530/CS531/-17.011622+145.860764/-17.014007+145.847344/-17.013011+145.834019/CS532/-17.006527+145.817196/-16.998288+145.806610/-16.987930+145.798781/CS541/CS33T</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="YBCS" Runway="33">
-      <Transition Name="BASIL">BASIL/CS520/-17.155845+146.002876/-17.168933+145.984733/-17.177051+145.963609/-17.179666+145.941003/-17.176599+145.918461/-17.171497+145.904391/CS521/CS523</Transition>
+      <Transition Name="BASIL">BASIL/CS520/-17.168851+145.984691/-17.176887+145.963531/-17.179414+145.940915/-17.176260+145.918386/-17.172223+145.906869/CS521/-17.152715+145.878620/-17.135014+145.865385/-17.133777+145.864775/CS523</Transition>
       <Transition Name="HENDO">HENDO/CS522/CS523</Transition>
       <Route>CS540/CS541/CS33T</Route>
     </Approach>
@@ -16934,15 +16934,15 @@ BOFOR
     </Approach>
     <Approach Name="RNP-ARW" Airport="YBSU" Runway="13">
       <Transition Name="BUKRA">BUKRA/SU410</Transition>
-      <Route>SU420/SU430/-26.453476+153.062010/-26.466064+153.036767/-26.488291+153.021952/-26.514170+153.021536/-26.526316+153.026978/SU440/SU13T</Route>
+      <Route>SU420/SU430/-26.465970+153.036729/-26.488144+153.021816/-26.514022+153.021285/-26.524716+153.025797/SU440/SU13T</Route>
     </Approach>
     <Approach Name="RNP-ARW" Airport="YBSU" Runway="31">
       <Transition Name="SAKAP">SAKAP</Transition>
-      <Route>SU630/SU640/SU650/SU31T</Route>
+      <Route>SU630/SU640/-26.659880+153.145713/-26.652979+153.135076/-26.650499+153.132414/SU650/SU31T</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="YBSU" Runway="31">
-      <Transition Name="IKISA">IKISA/SU615/-26.529486+153.316594/-26.567215+153.333031/-26.607290+153.326124/-26.638904+153.297721/-26.646632+153.283002/SU625</Transition>
-      <Route>SU630/SU640/SU650/SU31T</Route>
+      <Transition Name="IKISA">IKISA/SU615/-26.567215+153.332981/-26.607284+153.326031/-26.638874+153.297595/-26.643689+153.289159/SU625</Transition>
+      <Route>SU630/SU640/-26.659880+153.145713/-26.652979+153.135076/-26.650499+153.132414/SU650/SU31T</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YBTL" Runway="01">
       <Transition Name="FREDY">FREDY</Transition>
@@ -16970,6 +16970,12 @@ BOFOR
     <Approach Name="LOC" Airport="YMAV" Runway="18">
       <Route>TEMPL/IKANO/AV18T</Route>
     </Approach>
+    <Approach Name="RNP-ARU" Airport="YMAV" Runway="36">
+      <Transition Name="PEGLI">PEGLI/SUMRU</Transition>
+      <Transition Name="SUMRU">SUMRU</Transition>
+      <Transition Name="TEMPL">TEMPL/SUMRU</Transition>
+      <Route>AV630/AV626/AV622/AV620/ESNAB/AV36T</Route>
+    </Approach>
     <Approach Name="RNPZ" Airport="YMAY" Runway="07">
       <Transition Name="RURLA">RURLA</Transition>
       <Transition Name="UPDUR">UPDUR</Transition>
@@ -16994,10 +17000,10 @@ BOFOR
       <Route>HBTEI/HBTEF/HBTEM</Route>
     </Approach>
     <Approach Name="RNP-ARW" Airport="YMHB" Runway="12">
-      <Route>VETOR/HB410/-42.693819+147.432459/-42.709729+147.420420/-42.727463+147.414419/-42.745733+147.414869/-42.763296+147.421744/-42.777637+147.433270/HB420/HB12T</Route>
+      <Route>VETOR/HB410/-42.709782+147.420597/-42.727548+147.414778/-42.745816+147.415415/-42.763339+147.422471/-42.776420+147.432913/HB420/HB12T</Route>
     </Approach>
     <Approach Name="RNP-ARW" Airport="YMHB" Runway="30">
-      <Route>BAVUR/HB510/-42.868736+147.667376/-42.878295+147.655323/-42.885236+147.640238/-42.889077+147.623212/-42.889556+147.605408/-42.886639+147.588044/-42.880619+147.572561/HB520/HB30T</Route>
+      <Route>BAVUR/HB510/-42.878308+147.655375/-42.885281+147.640317/-42.889159+147.623307/-42.889676+147.605506/-42.886797+147.588129/-42.881001+147.572995/HB520/HB30T</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YMML" Runway="09">
       <Route>GUPUG/MMLWF/MMLWM</Route>
@@ -17013,11 +17019,11 @@ BOFOR
       <Route>AKDEL/BOSGI/MMLSM</Route>
     </Approach>
     <Approach Name="RNP-ARM" Airport="YMML" Runway="16">
-      <Route>LUVKA/AREXO/-37.548889+144.846667/-37.571389+144.829167/ML420/ML16T</Route>
+      <Route>LUVKA/AREXO/-37.544525+144.853387/-37.554575+144.839695/-37.567091+144.829747/-37.581221+144.824222/-37.590833+144.823243/ML420/ML16T</Route>
     </Approach>
     <Approach Name="RNP-ARP" Airport="YMML" Runway="16">
       <Transition Name="EMSEK">EMSEK</Transition>
-      <Route>SUSAK/-37.580928+144.952971/-37.557146+144.943081/-37.540510+144.919511/-37.535439+144.888614/-37.536462+144.879369/AREXO/-37.548889+144.846667/-37.571389+144.829167/ML420/ML16T</Route>
+      <Route>SUSAK/-37.557174+144.943039/-37.540565+144.919438/-37.535530+144.888531/-37.536395+144.880317/AREXO/-37.544663+144.853480/-37.554827+144.839923/-37.567426+144.830143/-37.581601+144.824807/-37.591222+144.823957/ML420/ML16T</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YPAD" Runway="05">
       <Transition Name="LUNGA">LUNGA</Transition>
@@ -17042,10 +17048,17 @@ BOFOR
       <Route>LAPAR/TOROT/DN29T</Route>
     </Approach>
     <Approach Name="RNPX" Airport="YPDN" Runway="11">
-      <Transition Name="KITTY">KITTY/TOSOB/DN412/-12.457634+130.746873/-12.445785+130.728423/-12.426499+130.718536/-12.404968+130.719849/-12.386964+130.732008/-12.377308+130.751753/-12.378339+130.772910/DN404</Transition>
-      <Transition Name="UPSEN">UPSEN/IGBOV/DN407/-12.427845+130.719496/-12.406284+130.720009/-12.387876+130.731518/-12.377552+130.750906/-12.378079+130.772981/-12.378420+130.774016/DN404</Transition>
-      <Transition Name="WOKKI">WOKKI/GUPOD/DN422/-12.299439+130.802345/-12.298133+130.780316/-12.307789+130.760577/-12.325794+130.748422/-12.347324+130.747109/-12.366610+130.756993/-12.378485+130.775426/-12.378693+130.776182/DN404</Transition>
-      <Route>NASUX/DN404</Route>
+      <Transition Name="KITTY">KITTY/TOSOB/DN412/-12.452776+130.736926/-12.445539+130.728611/-12.436447+130.722497/-12.432029+130.720653/DN407/-12.406303+130.720135/-12.387957+130.731748/-12.377739+130.751194/-12.376883+130.765479/DN404</Transition>
+      <Transition Name="NASUX">NASUX</Transition>
+      <Transition Name="UPSEN">UPSEN/IGBOV/DN407/-12.406304+130.720163/-12.387972+130.731797/-12.377776+130.751256/-12.376938+130.765542/DN404</Transition>
+      <Transition Name="WOKKI">WOKKI/GUPOD/DN422/-12.297843+130.780353/-12.307234+130.760480/-12.325075+130.748073/-12.346585+130.746459/-12.366002+130.756071/-12.372354+130.763156/DN404</Transition>
+      <Route>DN404/DN11T</Route>
+    </Approach>
+    <Approach Name="RNPX" Airport="YPDN" Runway="29">
+      <Transition Name="KITTY">KITTY/GUMUR/DN448/-12.534934+130.995622/-12.525365+131.015423/-12.507413+131.027668/-12.485888+131.029078/-12.466559+131.019276/-12.461169+131.013359/DN444</Transition>
+      <Transition Name="LAPAR">LAPAR/DN444</Transition>
+      <Transition Name="WOKKI">WOKKI/ADBER/DN438/-12.381107+131.028247/-12.400458+131.038001/-12.421979+131.036541/-12.439904+131.024259/-12.449429+131.004442/-12.450176+130.994852/DN432</Transition>
+      <Route>DN432/DN29T</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YPPH" Runway="03">
       <Route>TIMMY/PERSF/PH03T</Route>
@@ -17062,7 +17075,7 @@ BOFOR
       <Route>KOORI/PEREF/PH24T</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="YPPH" Runway="03">
-      <Route>KARGO/PH010/PH020/-32.048441+115.990231/-32.037745+115.965823/-32.018116+115.951029/-31.994846+115.949796/-31.993898+115.950092/PH030/PH03T</Route>
+      <Route>KARGO/PH010/PH020/-32.044455+115.977214/-32.037715+115.965863/-32.028714+115.956958/-32.018066+115.951106/-32.006497+115.948705/-31.999417+115.949038/PH030/PH03T</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YSCB" Runway="35">
       <Transition Name="CBRSD">CBRSD</Transition>
@@ -17078,18 +17091,18 @@ BOFOR
       <Route>CB431/CB432/CB444/CB445/CB446/CB35T</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="YSCB" Runway="17">
-      <Route>VADMA/CB407/-35.103859+149.123798/-35.108852+149.160192/-35.128089+149.188646/-35.156384+149.201540/-35.171364+149.200871/CB402/CB401/CB17T</Route>
+      <Route>VADMA/CB407/-35.108865+149.160169/-35.128111+149.188615/-35.156410+149.201496/-35.168255+149.201344/CB402/CB401/CB17T</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="YSCB" Runway="35">
       <Transition Name="KALKA">KALKA</Transition>
       <Route>CB421/CB422/CB444/CB445/CB446/CB35T</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="YSCB" Runway="17">
-      <Route>SAPIT/CB405/-35.112560+149.280925/-35.122876+149.252244/-35.138981+149.227801/-35.159707+149.209279/-35.171301+149.202773/CB402/CB401/CB17T</Route>
+      <Route>SAPIT/CB405/-35.122852+149.252253/-35.138940+149.227794/-35.159654+149.209251/-35.169851+149.203411/CB402/CB401/CB17T</Route>
     </Approach>
     <Approach Name="RNP-ARY" Airport="YSCB" Runway="35">
-      <Transition Name="BIBRU">BIBRU/CB441</Transition>
-      <Route>CB442/CB443/CB444/CB445/CB446/CB35T</Route>
+      <Transition Name="BIBRU">BIBRU/CB441/-35.463016+149.250477/-35.460383+149.240903/CB442</Transition>
+      <Route>CB442/-35.449162+149.217693/-35.435534+149.201960/-35.427917+149.196154/CB443/CB444/CB445/CB446/CB35T</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YSSY" Runway="16R">
       <Route>URDEN/SYDNF/SYDNM</Route>
@@ -17107,7 +17120,7 @@ BOFOR
       <Runway Name="14" Position="-345624.370+1174812.420" />
       <Runway Name="32" Position="-345705.490+1174902.840" />
     </Airport>
-    <Airport ICAO="YABB" FullName="Upperrrego/Babbiloora" Position="-251139.000+1470832.000" />
+    <Airport ICAO="YABB" FullName="Upper Warrego/Babbiloora" Position="-251139.000+1470832.000" />
     <Airport ICAO="YABC" FullName="ABC TV Studios Gore Hill" Position="-334908.000+1511111.000" />
     <Airport ICAO="YABD" FullName="Aberdeen" Position="-280400.000+1503900.000" />
     <Airport ICAO="YABG" FullName="Abbieglassie" Position="-271500.000+1473500.000" />
@@ -17273,10 +17286,10 @@ BOFOR
     <Airport ICAO="YBEB" FullName="Bellburn" Position="-173241.000+1281818.000" Elevation="800" />
     <Airport ICAO="YBEE" FullName="Beverley Mine" Position="-301112.000+1393330.000" Elevation="382" />
     <Airport ICAO="YBEG" FullName="Bening Field" Position="-193919.000+1461738.000" />
-    <Airport ICAO="YBEI" FullName="Littlendy Desert/Beyondie" Position="-244437.000+1201925.000" />
+    <Airport ICAO="YBEI" FullName="Little Sandy Desert/Beyondie" Position="-244437.000+1201925.000" />
     <Airport ICAO="YBEO" FullName="Betoota" Position="-254142.000+1404412.000" Elevation="248" />
     <Airport ICAO="YBES" FullName="Beswick" Position="-143536.000+1330630.000" />
-    <Airport ICAO="YBEV" FullName="Beverley (Wa)" Position="-320729.000+1165700.000" Elevation="720" />
+    <Airport ICAO="YBEV" FullName="Beverley (WA)" Position="-320729.000+1165700.000" Elevation="720" />
     <Airport ICAO="YBFM" FullName="Beef Machine" Position="-334512.000+1222144.000" />
     <Airport ICAO="YBFT" FullName="Beaufort" Position="-372940.000+1432548.000" Elevation="1300" />
     <Airport ICAO="YBGD" FullName="Boolgeeda" Position="-223228.000+1171610.000" Elevation="1870">
@@ -17337,7 +17350,7 @@ BOFOR
       <Runway Name="21" Position="-334038.290+1152428.180" />
     </Airport>
     <Airport ICAO="YBLO" FullName="Bullio" Position="-342124.000+1501000.000" />
-    <Airport ICAO="YBLP" FullName="Blueter Park" Position="-191130.000+1462936.000" Elevation="110" />
+    <Airport ICAO="YBLP" FullName="Blue Water Park" Position="-191130.000+1462936.000" Elevation="110" />
     <Airport ICAO="YBLT" FullName="Ballarat" Position="-373042.000+1434728.000" Elevation="1433">
       <Runway Name="05" Position="-373045.330+1434711.280" />
       <Runway Name="23" Position="-373025.930+1434756.680" />
@@ -17827,7 +17840,7 @@ BOFOR
       <Runway Name="27" Position="-154449.520+1315527.030" />
     </Airport>
     <Airport ICAO="YDWN" FullName="Marion Downs" Position="-170423.000+1265053.000" />
-    <Airport ICAO="YDWP" FullName="Deepter Point" Position="-164100.000+1230500.000" />
+    <Airport ICAO="YDWP" FullName="Deep Water Point" Position="-164100.000+1230500.000" />
     <Airport ICAO="YDYP" FullName="Dyke Point" Position="-325515.000+1514629.000" />
     <Airport ICAO="YDYS" FullName="Dysart" Position="-223720.000+1482150.000" Elevation="682" />
     <Airport ICAO="YEAT" FullName="Yea" Position="-371257.000+1452551.000" />
@@ -18421,7 +18434,7 @@ BOFOR
       <Runway Name="04" Position="-232616.760+1441614.430" />
       <Runway Name="22" Position="-232533.520+1441703.900" />
     </Airport>
-    <Airport ICAO="YLSB" FullName="Lifever Base/Sydney" Position="-335940.000+1511458.000" />
+    <Airport ICAO="YLSB" FullName="Life Saver Base/Sydney" Position="-335940.000+1511458.000" />
     <Airport ICAO="YLSK" FullName="Luskintyre" Position="-323959.000+1512509.000" />
     <Airport ICAO="YLST" FullName="Leinster" Position="-275036.000+1204212.000" Elevation="1631">
       <Runway Name="10" Position="-275033.690+1204142.580" />
@@ -18442,7 +18455,7 @@ BOFOR
       <Runway Name="27" Position="-381222.110+1462832.830" />
     </Airport>
     <Airport ICAO="YLUL" FullName="Moolelulooloo" Position="-313800.000+1403100.000" />
-    <Airport ICAO="YLWB" FullName="Lockyerters/Breefield" Position="-272814.000+1522317.000" />
+    <Airport ICAO="YLWB" FullName="Lockyer Waters/Breefield" Position="-272814.000+1522317.000" />
     <Airport ICAO="YLYK" FullName="Lyndoch" Position="-343718.000+1385451.000" Elevation="800" />
     <Airport ICAO="YLZI" FullName="Lizard Island" Position="-144022.000+1452715.000" Elevation="70" />
     <Airport ICAO="YMAA" FullName="Mabuiag Island" Position="-095706.000+1421147.000" Elevation="30" />
@@ -18511,13 +18524,13 @@ BOFOR
       <Runway Name="03" Position="-365446.300+1495347.710" />
       <Runway Name="21" Position="-365403.210+1495423.890" />
     </Airport>
-    <Airport ICAO="YMES" FullName="Eastle" Position="-380556.000+1470858.000" Elevation="23">
+    <Airport ICAO="YMES" FullName="East Sale" Position="-380556.000+1470858.000" Elevation="23">
       <Runway Name="04" Position="-380621.780+1470818.820" />
       <Runway Name="22" Position="-380535.170+1470939.620" />
       <Runway Name="09" Position="-380544.450+1470741.880" />
       <Runway Name="27" Position="-380555.640+1470912.330" />
     </Airport>
-    <Airport ICAO="YMET" FullName="Melvilleter Aerodrome" Position="-315839.000+1155029.000" />
+    <Airport ICAO="YMET" FullName="Melville Water Aerodrome" Position="-315839.000+1155029.000" />
     <Airport ICAO="YMFA" FullName="Missen Flat/Auburnvale" Position="-275444.000+1515707.000" />
     <Airport ICAO="YMFD" FullName="Mansfield" Position="-370400.000+1460700.000" Elevation="1050" />
     <Airport ICAO="YMGB" FullName="Milingimbi" Position="-120540.000+1345337.000" Elevation="53">
@@ -18561,7 +18574,7 @@ BOFOR
     </Airport>
     <Airport ICAO="YMKA" FullName="Mataranka Hs Resort" Position="-145548.000+1330800.000" />
     <Airport ICAO="YMKT" FullName="Emkaytee" Position="-123636.000+1310310.000" Elevation="80" />
-    <Airport ICAO="YMLD" FullName="Maitland (Sa)" Position="-342334.000+1374226.000" Elevation="559" />
+    <Airport ICAO="YMLD" FullName="Maitland (SA)" Position="-342334.000+1374226.000" Elevation="559" />
     <Airport ICAO="YMLL" FullName="Millungera" Position="-195139.000+1413403.000" />
     <Airport ICAO="YMLS" FullName="Miles" Position="-264822.000+1501011.000" Elevation="1002">
       <Runway Name="04" Position="-264840.170+1500945.580" />
@@ -18674,7 +18687,7 @@ BOFOR
       <Runway Name="18" Position="-355319.780+1500853.920" />
       <Runway Name="36" Position="-355408.180+1500841.490" />
     </Airport>
-    <Airport ICAO="YMSF" FullName="Mountnford Station" Position="-165842.000+1303318.000" Elevation="759" />
+    <Airport ICAO="YMSF" FullName="Mount Sanford Station" Position="-165842.000+1303318.000" Elevation="759" />
     <Airport ICAO="YMTB" FullName="Muttaburra" Position="-223500.000+1443200.000" Elevation="753" />
     <Airport ICAO="YMTG" FullName="Mount Gambier" Position="-374444.000+1404707.000" Elevation="212">
       <Runway Name="06" Position="-374458.080+1404646.750" />
@@ -19152,8 +19165,8 @@ BOFOR
       <Runway Name="29L" Position="-335536.600+1505940.170" />
     </Airport>
     <Airport ICAO="YSBY" FullName="Seabuoy" Position="-202548.000+1164251.000" />
-    <Airport ICAO="YSCA" FullName="Scotianctuary" Position="-331218.000+1411001.000" Elevation="180" />
-    <Airport ICAO="YSCB" FullName="Canberra Act" Position="-351825.000+1491142.000" Elevation="1886">
+    <Airport ICAO="YSCA" FullName="Scotia Sanctuary" Position="-331218.000+1411001.000" Elevation="180" />
+    <Airport ICAO="YSCB" FullName="Canberra" Position="-351825.000+1491142.000" Elevation="1886">
       <Runway Name="12" Position="-351802.460+1491106.550" />
       <Runway Name="30" Position="-351835.990+1491155.540" />
       <Runway Name="17" Position="-351726.260+1491139.990" />
@@ -19312,7 +19325,7 @@ BOFOR
     <Airport ICAO="YSUM" FullName="Summerhill Road Helipad" Position="-351604.000+1385512.000" />
     <Airport ICAO="YSVN" FullName="Strathaven" Position="-145400.000+1425800.000" />
     <Airport ICAO="YSWB" FullName="Swan Bay" Position="-290257.000+1531804.000" Elevation="15" />
-    <Airport ICAO="YSWG" FullName="Waggagga" Position="-350955.000+1472759.000" Elevation="724">
+    <Airport ICAO="YSWG" FullName="Wagga Wagga" Position="-350955.000+1472759.000" Elevation="724">
       <Runway Name="05" Position="-351001.420+1472736.490" />
       <Runway Name="23" Position="-350934.560+1472838.330" />
       <Runway Name="12" Position="-350951.220+1472747.030" />
@@ -19616,7 +19629,7 @@ BOFOR
     </Airport>
     <Airport ICAO="YWRO" FullName="Wallaroo" Position="-335537.000+1373816.000" />
     <Airport ICAO="YWSG" FullName="Watts Bridge" Position="-270544.000+1522735.000" Elevation="300" />
-    <Airport ICAO="YWSL" FullName="Westle" Position="-380530.000+1465755.000" Elevation="93">
+    <Airport ICAO="YWSL" FullName="West Sale" Position="-380530.000+1465755.000" Elevation="93">
       <Runway Name="05" Position="-380541.250+1465742.730" />
       <Runway Name="23" Position="-380532.230+1465759.840" />
       <Runway Name="09" Position="-380522.940+1465724.230" />
@@ -19697,7 +19710,7 @@ BOFOR
     <Airport ICAO="YXBT" FullName="Ballarat Health Service" Position="-373333.000+1435044.000" />
     <Airport ICAO="YXBU" FullName="Bulwer/Moreton Island" Position="-270421.000+1532203.000" />
     <Airport ICAO="YXBY" FullName="Alonnah Medical" Position="-431900.000+1471442.000" />
-    <Airport ICAO="YXCB" FullName="Canberra Hospital Act" Position="-352038.000+1490600.000" />
+    <Airport ICAO="YXCB" FullName="Canberra Hospital" Position="-352038.000+1490600.000" />
     <Airport ICAO="YXCH" FullName="Cherbourg Hospital" Position="-261728.000+1515726.000" />
     <Airport ICAO="YXCI" FullName="Chinchilla Hospital" Position="-264426.000+1503803.000" />
     <Airport ICAO="YXCM" FullName="Cooma Hospital" Position="-361432.000+1490749.000" />
@@ -19761,7 +19774,7 @@ BOFOR
     <Airport ICAO="YXMM" FullName="Mannum Hospital" Position="-345500.000+1391830.000" />
     <Airport ICAO="YXMO" FullName="Mossman Hospital" Position="-162748.000+1452205.000" />
     <Airport ICAO="YXMP" FullName="Mount Perry Health Care Centre" Position="-251054.000+1513845.000" />
-    <Airport ICAO="YXMQ" FullName="Maitland Hospital (Sa)" Position="-342216.000+1374034.000" />
+    <Airport ICAO="YXMQ" FullName="Maitland Hospital (SA)" Position="-342216.000+1374034.000" />
     <Airport ICAO="YXMR" FullName="Moura Hospital" Position="-243434.000+1495833.000" />
     <Airport ICAO="YXMS" FullName="Miles Hospital" Position="-263929.000+1501147.000" />
     <Airport ICAO="YXMV" FullName="Mona Vale Hospital" Position="-334106.000+1511830.000" />
@@ -19792,7 +19805,7 @@ BOFOR
     <Airport ICAO="YXRK" FullName="Rockhampton Hospital" Position="-232249.000+1502940.000" />
     <Airport ICAO="YXRM" FullName="Renmark Hospital" Position="-340950.000+1404441.000" />
     <Airport ICAO="YXRU" FullName="Russell Island Hls" Position="-273927.000+1532200.000" />
-    <Airport ICAO="YXSB" FullName="Southcare Base Act" Position="-352243.000+1491018.000" />
+    <Airport ICAO="YXSB" FullName="Southcare Base" Position="-352243.000+1491018.000" />
     <Airport ICAO="YXSD" FullName="St Helens District Hospital" Position="-411906.000+1481431.000" />
     <Airport ICAO="YXSG" FullName="St George Hospital" Position="-335801.000+1510757.000" />
     <Airport ICAO="YXSI" FullName="Singleton Hospital" Position="-323401.000+1511113.000" />
@@ -19812,7 +19825,7 @@ BOFOR
     <Airport ICAO="YXTX" FullName="Texas Hospital" Position="-285120.000+1511046.000" />
     <Airport ICAO="YXVL" FullName="Bowraville Medical" Position="-303852.000+1525053.000" />
     <Airport ICAO="YXWA" FullName="Warwick Hospital" Position="-281326.000+1520100.000" />
-    <Airport ICAO="YXWG" FullName="Waggagga Hospital" Position="-350709.000+1472126.000" />
+    <Airport ICAO="YXWG" FullName="Wagga Wagga Hospital" Position="-350709.000+1472126.000" />
     <Airport ICAO="YXWL" FullName="Wollongong Hospital" Position="-342527.000+1505256.000" />
     <Airport ICAO="YXWM" FullName="Westmead Childrens Hospital" Position="-334808.000+1505937.000" />
     <Airport ICAO="YXWS" FullName="Westmead Casb" Position="-334809.000+1505924.000" />
