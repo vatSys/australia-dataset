@@ -1430,7 +1430,7 @@
 -125507.000+1314106.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R225A TINDAL" AltitudeFloor="9500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R225F TINDAL" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-132217.000+1303407.000/
 -132429.093+1304340.382/
 -132524.000+1305423.000/
@@ -1438,9 +1438,11 @@
 -140000.000+1310000.000/
 -140000.000+1301941.000/
 -132217.000+1303407.000</Area>
-      <Activations />
+      <Activations>
+        <Activation H24="true" Start="0000">
+      </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R225B TINDAL" AltitudeFloor="9500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R225F TINDAL" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-132524.000+1310000.000/
 -132429.093+1310505.618/
 -132146.061+1311528.479/
@@ -1448,7 +1450,9 @@
 -140000.000+1315249.000/
 -140000.000+1310000.000/
 -132524.000+1310000.000</Area>
-      <Activations />
+      <Activations>
+        <Activation H24="true" Start="0000">
+      </Activations>
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R225C TINDAL" AltitudeFloor="9500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-140000.000+1301941.000/
@@ -4808,9 +4812,7 @@
 -322500.000+1523300.000/
 -320000.000+1524552.000/
 -310021.000+1531604.000</Area>
-      <Activations>
-        <Activation H24="false" Start="0600" End="1600" />
-      </Activations>
+      <Activations />
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R578A WILLIAMTOWN" AltitudeFloor="5000" AltitudeCeiling="12500" DAIWEnabled="true" LinePattern="Dashed">
       <Area>-324722.000+1513730.000/
@@ -5008,7 +5010,7 @@
 -323602.000+1512351.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R587A WILLIAMTOWN" AltitudeFloor="4500" AltitudeCeiling="12500" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R587A WILLIAMTOWN" AltitudeFloor="12500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-320943.000+1520143.000/
 -315957.000+1522210.000/
 -320000.000+1522500.000/
@@ -5035,9 +5037,7 @@
 -322311.683+1515507.448/
 -322349.000+1515827.000/
 -320943.000+1520143.000</Area>
-      <Activations>
-        <Activation H24="false" Start="0600" End="1600" />
-      </Activations>
+      <Activations />
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R587B WILLIAMTOWN" AltitudeFloor="12500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-313443.000+1522302.000/
