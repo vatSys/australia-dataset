@@ -1430,7 +1430,7 @@
 -125507.000+1314106.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R225A TINDAL" AltitudeFloor="9500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R225A TINDAL" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-132217.000+1303407.000/
 -132429.093+1304340.382/
 -132524.000+1305423.000/
@@ -1438,9 +1438,11 @@
 -140000.000+1310000.000/
 -140000.000+1301941.000/
 -132217.000+1303407.000</Area>
-      <Activations />
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R225B TINDAL" AltitudeFloor="9500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R225B TINDAL" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-132524.000+1310000.000/
 -132429.093+1310505.618/
 -132146.061+1311528.479/
@@ -1448,9 +1450,11 @@
 -140000.000+1315249.000/
 -140000.000+1310000.000/
 -132524.000+1310000.000</Area>
-      <Activations />
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R225C TINDAL" AltitudeFloor="9500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R225C TINDAL" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-140000.000+1301941.000/
 -140000.000+1310000.000/
 -153359.000+1310000.000/
@@ -1482,9 +1486,11 @@
 -151520.000+1295433.000/
 -150544.000+1295421.000/
 -140000.000+1301941.000</Area>
-      <Activations />
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R225D TINDAL" AltitudeFloor="9500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R225D TINDAL" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-140000.000+1310000.000/
 -140000.000+1315249.000/
 -141033.000+1320014.000/
@@ -1511,9 +1517,11 @@
 -153432.000+1310225.000/
 -153359.000+1310000.000/
 -140000.000+1310000.000</Area>
-      <Activations />
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R225E TINDAL" AltitudeFloor="9500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R225E TINDAL" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-152600.000+1295820.000/
 -152416.000+1300511.000/
 -152326.000+1301423.000/
@@ -1545,9 +1553,11 @@
 -160709.936+1302304.284/
 -154536.563+1300741.808/
 -152600.000+1295820.000</Area>
-      <Activations />
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R225F TINDAL" AltitudeFloor="9500" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R225F TINDAL" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-153359.000+1310000.000/
 -153432.000+1310225.000/
 -153519.076+1310308.455/
@@ -1562,7 +1572,9 @@
 -164056.759+1310423.360/
 -163849.000+1310000.000/
 -153359.000+1310000.000</Area>
-      <Activations />
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R226A TINDAL" AltitudeFloor="9500" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-140511.000+1323808.000/
