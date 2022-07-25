@@ -2,39 +2,41 @@
 <Maps>
   <Map Type="System" Name="SY_RWYSODPROPS" Priority="1" Center="-33.946111+151.177222">
     <!--YSSY-->
+    <Runway Name="16L/34R">
+      <Threshold Name="16L" Position="-33.951636+151.188847" />
+      <Threshold Name="34R" Position="-33.970756+151.193811" />
+    </Runway>
     <Runway Name="16R/34L">
       <Threshold Name="16R" Position="-33.930097+151.171783" />
       <Threshold Name="34L" Position="-33.964264+151.180647" ExtendedCentrelineTrack="167.81" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy16R DEENA7-->
-      -33.964264+151.180647/
-      -33.966456+151.181106/
-      DUNES/
-      DEENA
-    </Line>
-    <Line>
-      <!--Rwy16R DEENA7.KADOM-->
-      DEENA/
-      ANKUB/
-      KADOM
-    </Line>
-    <Line>
-      <!--Rwy16R DEENA7.RIC-->
-      ANKUB/
-      RIC NDB
-    </Line>
-    <Line>
-      <!--Rwy16R DEENA7.WOL-->
-      DEENA/
-      KAMPI/
+      <!--Rwy16L ABBEY3-->
+      -33.970756+151.193811/
+      -33.989810+151.200117/
+      -34.003694+151.240716/
+      KEVIN/
+      JULIA/
+      ABBEY/
       WOL NDB
     </Line>
     <Line>
-      <!--Rwy16R KAMPI5-->
-      DUNES/
-      KAMPI
+      <!--Rwy16L KEVIN6-->
+      
+    </Line>
+    <Line>
+      <!--Rwy16L KEVIN6.ENTRA-->
+      KEVIN/
+      -34.139300+151.373932/
+      -34.154594+151.396813/
+      -34.158846+151.420831/
+      -34.159913+151.472017/
+      -34.160817+151.501156/
+      -34.157632+151.528183/
+      -34.144953+151.554326/
+      -34.122323+151.574298/
+      ENTRA
     </Line>
     <!--STARs-->
     <Line>
@@ -89,18 +91,16 @@
       <Point>SOSIJ</Point>
     </Symbol>
     <Symbol Type="SolidStar">
-      <Point>DEENA</Point>
-      <Point>KAMPI</Point>
+      <Point>KEVIN</Point>
       <Point>NASHO</Point>
     </Symbol>
     <Symbol Type="Circle">
-      <Point>RIC NDB</Point>
       <Point>WOL NDB</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>DUNES</Point>
-      <Point>ANKUB</Point>
-      <Point>KADOM</Point>
+      <Point>JULIA</Point>
+      <Point>ABBEY</Point>
+      <Point>ENTRA</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
       <Point>BEROW</Point>
@@ -121,6 +121,7 @@
       <Point>ODALE</Point>
       <Point>KABLO</Point>
       <Point>MITSA</Point>
+      <Point>ANKUB</Point>
       <Point>RIVET</Point>
       <Point>BIGEM</Point>
       <Point>TAMMI</Point>
@@ -129,13 +130,11 @@
   </Map>
   <Map Type="System" Name="SY_RWYSODPROPS_NAMES" Priority="2" Center="-33.946111+151.177222">
     <Label>
-      <Point>DUNES</Point>
-      <Point>DEENA</Point>
-      <Point>ANKUB</Point>
-      <Point>KADOM</Point>
-      <Point>RIC NDB</Point>
-      <Point>KAMPI</Point>
+      <Point>KEVIN</Point>
+      <Point>JULIA</Point>
+      <Point>ABBEY</Point>
       <Point>WOL NDB</Point>
+      <Point>ENTRA</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
       <Point>BEROW</Point>
@@ -157,10 +156,12 @@
       <Point>ODALE</Point>
       <Point>KABLO</Point>
       <Point>MITSA</Point>
+      <Point>ANKUB</Point>
       <Point>RIVET</Point>
       <Point>BIGEM</Point>
       <Point>TAMMI</Point>
       <Point>BOOGI</Point>
+      <Point>KADOM</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>
       <Point>ABARB</Point>
@@ -180,7 +181,6 @@
       <Point>LOVGO</Point>
       <Point>VAPKI</Point>
       <Point>NBR NDB</Point>
-      <Point>ENTRA</Point>
       <Point>MARTO</Point>
       <Point>SUMSA</Point>
       <Point>WLM NDB</Point>
