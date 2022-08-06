@@ -649,7 +649,7 @@
       <Map Name="Oakey/ASMGCS_YBOK_BLD" />
     </Maps>
   </Position>
-  <Group Name="Metro D">
+  <Group Name="Class D">
     <Position Name="YBAF" Type="ASMGCS" ASMGCSAirport="YBAF" DefaultCenter="-27.568889+153.006389" DefaultRange="1" MagneticVariation="-11" Rotation="-7">
       <Maps>
         <Map Name="Brisbane/ASMGCS_YBAF_RWY" />
@@ -698,8 +698,40 @@
         <Map Name="Sydney/ASMGCS_YSCN_BLD" />
       </Maps>
     </Position>
+    <Position Name="YBMK" Type="ASMGCS" ASMGCSAirport="YBMK" DefaultCenter="-21.171111+149.180000" DefaultRange="2" MagneticVariation="-8.4" Rotation="-49">
+      <Maps>
+        <Map Name="Mackay/ASMGCS_YBMK_RWY" />
+        <Map Name="Mackay/ASMGCS_YBMK_APR" />
+        <Map Name="Mackay/ASMGCS_YBMK_TWY" />
+        <Map Name="Mackay/ASMGCS_YBMK_BLD" />
+      </Maps>
+    </Position>
+    <Position Name="YBRK" Type="ASMGCS" ASMGCSAirport="YBRK" DefaultCenter="-23.380556+150.473333" DefaultRange="2" MagneticVariation="-9.2" Rotation="122">
+      <Maps>
+        <Map Name="Rockhampton/ASMGCS_YBRK_RWY" />
+        <Map Name="Rockhampton/ASMGCS_YBRK_APR" />
+        <Map Name="Rockhampton/ASMGCS_YBRK_TWY" />
+        <Map Name="Rockhampton/ASMGCS_YBRK_BLD" />
+      </Maps>
+    </Position>
+    <Position Name="YMHB" Type="ASMGCS" ASMGCSAirport="YMHB" DefaultCenter="-42.838889+147.510278" DefaultRange="2" MagneticVariation="-15.3" Rotation="-30">
+      <Maps>
+        <Map Name="Hobart/ASMGCS_YMHB_RWY" />
+        <Map Name="Hobart/ASMGCS_YMHB_APR" />
+        <Map Name="Hobart/ASMGCS_YMHB_TWY" />
+        <Map Name="Hobart/ASMGCS_YMHB_BLD" />
+      </Maps>
+    </Position>
+    <Position Name="YMLT" Type="ASMGCS" ASMGCSAirport="YMLT" DefaultCenter="-41.545278+147.208889" DefaultRange="2" MagneticVariation="-14.4" Rotation="-43">
+      <Maps>
+        <Map Name="Launceston/ASMGCS_YMLT_RWY" />
+        <Map Name="Launceston/ASMGCS_YMLT_APR" />
+        <Map Name="Launceston/ASMGCS_YMLT_TWY" />
+        <Map Name="Launceston/ASMGCS_YMLT_BLD" />
+      </Maps>
+    </Position>
   </Group>
-  <Group Name="Class D">
+  <Group Name="Procedural">
     <Position Name="YMAY" Type="ASMGCS" ASMGCSAirport="YMAY" DefaultCenter="-36.069444+146.960000" DefaultRange="1" MagneticVariation="-11.9" Rotation="21">
       <Maps>
         <Map Name="Albury/ASMGCS_YMAY_RWY" />
@@ -722,22 +754,6 @@
         <Map Name="Hamilton Island/ASMGCS_YBHM_APR" />
         <Map Name="Hamilton Island/ASMGCS_YBHM_TWY" />
         <Map Name="Hamilton Island/ASMGCS_YBHM_BLD" />
-      </Maps>
-    </Position>
-    <Position Name="YBMK" Type="ASMGCS" ASMGCSAirport="YBMK" DefaultCenter="-21.171111+149.180000" DefaultRange="2" MagneticVariation="-8.4" Rotation="-49">
-      <Maps>
-        <Map Name="Mackay/ASMGCS_YBMK_RWY" />
-        <Map Name="Mackay/ASMGCS_YBMK_APR" />
-        <Map Name="Mackay/ASMGCS_YBMK_TWY" />
-        <Map Name="Mackay/ASMGCS_YBMK_BLD" />
-      </Maps>
-    </Position>
-    <Position Name="YBRK" Type="ASMGCS" ASMGCSAirport="YBRK" DefaultCenter="-23.380556+150.473333" DefaultRange="2" MagneticVariation="-9.2" Rotation="122">
-      <Maps>
-        <Map Name="Rockhampton/ASMGCS_YBRK_RWY" />
-        <Map Name="Rockhampton/ASMGCS_YBRK_APR" />
-        <Map Name="Rockhampton/ASMGCS_YBRK_TWY" />
-        <Map Name="Rockhampton/ASMGCS_YBRK_BLD" />
       </Maps>
     </Position>
     <Position Name="YBRM" Type="ASMGCS" ASMGCSAirport="YBRM" DefaultCenter="-17.948611+122.226944" DefaultRange="2" MagneticVariation="-1.7" Rotation="166">
@@ -778,22 +794,6 @@
         <Map Name="Melbourne/ASMGCS_YMAV_APR" />
         <Map Name="Melbourne/ASMGCS_YMAV_TWY" />
         <Map Name="Melbourne/ASMGCS_YMAV_BLD" />
-      </Maps>
-    </Position>
-    <Position Name="YMHB" Type="ASMGCS" ASMGCSAirport="YMHB" DefaultCenter="-42.838889+147.510278" DefaultRange="2" MagneticVariation="-15.3" Rotation="-30">
-      <Maps>
-        <Map Name="Hobart/ASMGCS_YMHB_RWY" />
-        <Map Name="Hobart/ASMGCS_YMHB_APR" />
-        <Map Name="Hobart/ASMGCS_YMHB_TWY" />
-        <Map Name="Hobart/ASMGCS_YMHB_BLD" />
-      </Maps>
-    </Position>
-    <Position Name="YMLT" Type="ASMGCS" ASMGCSAirport="YMLT" DefaultCenter="-41.545278+147.208889" DefaultRange="2" MagneticVariation="-14.4" Rotation="-43">
-      <Maps>
-        <Map Name="Launceston/ASMGCS_YMLT_RWY" />
-        <Map Name="Launceston/ASMGCS_YMLT_APR" />
-        <Map Name="Launceston/ASMGCS_YMLT_TWY" />
-        <Map Name="Launceston/ASMGCS_YMLT_BLD" />
       </Maps>
     </Position>
     <Position Name="YPKA" Type="ASMGCS" ASMGCSAirport="YPKA" DefaultCenter="-20.710833+116.772778" DefaultRange="2" MagneticVariation="-0.9" Rotation="-173">
@@ -980,145 +980,6 @@
       <ControllerInfo>
         <Line>Hamilton Island Tower</Line>
         <Line>ATIS available on 128.35</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Hobart Tower" Type="ASD" DefaultCenter="-42.836111+147.510278" DefaultRange="65" MagneticVariation="-15.3">
-      <Sectors>
-        <Sector Name="HB ADC" />
-        <Sector Name="HB SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Hobart/HB_COAST" />
-        <Map Name="Hobart/HB_TCU" />
-        <Map Name="Hobart/HB_RWY12" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YMHB" Frequency="128.45" />
-        <Window Airport="YMHB" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YMHB" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="4500">
-        <AdditionalLevels>3900,4200,5600</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="YMHB" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Hobart Tower</Line>
-        <Line>ATIS available on 128.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="HB_GND">
-        <Line>Hobart Ground</Line>
-        <Line>ATIS available on 128.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Launceston Tower" Type="ASD" DefaultCenter="-41.545278+147.214167" DefaultRange="65" MagneticVariation="-14.4">
-      <Sectors>
-        <Sector Name="LT ADC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Launceston/LT_COAST" />
-        <Map Name="Launceston/LT_TCU" />
-        <Map Name="Launceston/LT_RWY32L" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YMLT" Frequency="134.75" />
-        <Window Airport="YMLT" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YMLT" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="4500">
-        <AdditionalLevels>3200,5800,6300</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="YMLT" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Launy Tower</Line>
-        <Line>ATIS available on 134.75</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Mackay Tower" Type="ASD" DefaultCenter="-21.171389+149.179722" DefaultRange="65" MagneticVariation="-8.4">
-      <Sectors>
-        <Sector Name="MK ADC" />
-        <Sector Name="MK SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Mackay/MK_COAST" />
-        <Map Name="Mackay/MK_TCU" />
-        <Map Name="Mackay/MK_RWY14" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YBMK" Frequency="128.0" />
-        <Window Airport="YBMK" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBMK" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="4500">
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="YBMK" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Mackay Tower</Line>
-        <Line>ATIS available on 128.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="MK_GND">
-        <Line>Mackay Ground</Line>
-        <Line>ATIS available on 128.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Rockhampton Tower" Type="ASD" DefaultCenter="-23.381944+150.475278" DefaultRange="65" MagneticVariation="-9.2">
-      <Sectors>
-        <Sector Name="RK ADC" />
-        <Sector Name="RK SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Rockhampton/RK_COAST" />
-        <Map Name="Rockhampton/RK_TCU" />
-        <Map Name="Rockhampton/RK_RWY15" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YBRK" Frequency="128.5" />
-        <Window Airport="YBRK" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBRK" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="4500">
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="YBRK" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Rocky Tower</Line>
-        <Line>ATIS available on 128.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="RK_GND">
-        <Line>Rocky Ground</Line>
-        <Line>ATIS available on 128.5</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -2005,7 +1866,7 @@
       </ControllerInfo>
     </Position>
   </Group>
-  <Group Name="Metro D TWR">
+  <Group Name="Class D TWR">
     <Position Name="Archerfield Tower" Type="ASD" DefaultCenter="-27.570278+153.008056" DefaultRange="30" MagneticVariation="-11">
       <Sectors>
         <Sector Name="AF ADC" />
@@ -2111,6 +1972,43 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Hobart Tower" Type="ASD" DefaultCenter="-42.836111+147.510278" DefaultRange="65" MagneticVariation="-15.3">
+      <Sectors>
+        <Sector Name="HB ADC" />
+        <Sector Name="HB SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Hobart/HB_COAST" />
+        <Map Name="Hobart/HB_TCU" />
+        <Map Name="Hobart/HB_RWY12" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMHB" Frequency="128.45" />
+        <Window Airport="YMHB" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YMHB" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>3900,4200,5600</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YMHB" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Hobart Tower</Line>
+        <Line>ATIS available on 128.45</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="HB_GND">
+        <Line>Hobart Ground</Line>
+        <Line>ATIS available on 128.45</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Jandakot Tower" Type="ASD" DefaultCenter="-32.097500+115.881111" DefaultRange="30" MagneticVariation="1.7">
       <Sectors>
         <Sector Name="JT ADC" />
@@ -2142,6 +2040,72 @@
       <ControllerInfo Callsign="JT_GND">
         <Line>Jandakot Ground</Line>
         <Line>ATIS available on 128.65</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Launceston Tower" Type="ASD" DefaultCenter="-41.545278+147.214167" DefaultRange="65" MagneticVariation="-14.4">
+      <Sectors>
+        <Sector Name="LT ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Launceston/LT_COAST" />
+        <Map Name="Launceston/LT_TCU" />
+        <Map Name="Launceston/LT_RWY32L" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMLT" Frequency="134.75" />
+        <Window Airport="YMLT" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YMLT" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+        <AdditionalLevels>3200,5800,6300</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YMLT" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Launy Tower</Line>
+        <Line>ATIS available on 134.75</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Mackay Tower" Type="ASD" DefaultCenter="-21.171389+149.179722" DefaultRange="65" MagneticVariation="-8.4">
+      <Sectors>
+        <Sector Name="MK ADC" />
+        <Sector Name="MK SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Mackay/MK_COAST" />
+        <Map Name="Mackay/MK_TCU" />
+        <Map Name="Mackay/MK_RWY14" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBMK" Frequency="128.0" />
+        <Window Airport="YBMK" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBMK" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBMK" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Mackay Tower</Line>
+        <Line>ATIS available on 128.0</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="MK_GND">
+        <Line>Mackay Ground</Line>
+        <Line>ATIS available on 128.0</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -2212,6 +2176,42 @@
       <ControllerInfo Callsign="PF_GND">
         <Line>Parafield Ground</Line>
         <Line>ATIS available on 120.9</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Rockhampton Tower" Type="ASD" DefaultCenter="-23.381944+150.475278" DefaultRange="65" MagneticVariation="-9.2">
+      <Sectors>
+        <Sector Name="RK ADC" />
+        <Sector Name="RK SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Rockhampton/RK_COAST" />
+        <Map Name="Rockhampton/RK_TCU" />
+        <Map Name="Rockhampton/RK_RWY15" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBRK" Frequency="128.5" />
+        <Window Airport="YBRK" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBRK" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4500">
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBRK" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Rocky Tower</Line>
+        <Line>ATIS available on 128.5</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="RK_GND">
+        <Line>Rocky Ground</Line>
+        <Line>ATIS available on 128.5</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>

@@ -127,6 +127,25 @@
       <Point>TAMMI</Point>
       <Point>BOOGI</Point>
     </Symbol>
+    <!--(SY) RWYSODPROPS Airspace-->
+    <Line Width="1.7" Pattern="Dotted">
+-340035.569+1520454.840/-335508.526+1511258.527/-333606.700+1511413.996/-331220.086+1511918.831</Line>
+    <Line Width="1.7" Pattern="Dotted">
+-340349.005+1520404.317/-335905.719+1512158.491/-340514.672+1511517.967/-344023.287+1512420.515</Line>
+    <Line Width="1.7" Pattern="Dotted">
+-342019.851+1502447.097/-340742.251+1505031.823/-341044.425+1510416.632/-344151.328+1511215.758</Line>
+    <Line Width="1.7" Pattern="Dotted">
+-340032.309+1501701.746/-335734.023+1505832.552/-334451.160+1510558.515/-333928.243+1510145.524/-333734.988+1510216.445/-333509.370+1510217.555/-333231.476+1510147.927/-331429.467+1505205.877</Line>
+    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
+      <Point Name="SAN">-33.333347+151.021383</Point>
+      <Point Name="SAN 60/SDN 50">-33.959116+151.489149</Point>
+      <Point Name="SAS">-34.407832+151.177713</Point>
+      <Point Name="SAS 60/SDS 50">-34.092121+150.807353</Point>
+      <Point Name="SDN">-33.688707+150.692613</Point>
+      <Point Name="SDN">-33.742571+151.629919</Point>
+      <Point Name="SDS">-34.388572+151.686998</Point>
+      <Point Name="SDS">-34.486632+150.809659</Point>
+    </Label>
   </Map>
   <Map Type="System" Name="SY_RWYSODPROPS_NAMES" Priority="2" Center="-33.946111+151.177222">
     <Label>
