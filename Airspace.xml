@@ -625,16 +625,16 @@
         <SID Name="PALGA7" Type="Jet" />
         <SID Name="RUSKA6" Type="NonJet" />
         <SID Name="VANDI6" Type="NonJet" />
-        <STAR Name="DONY9A" ApproachName="RNPX" />
-        <STAR Name="DONY9U" OpDataFlag="U" ApproachName="RNPX" />
-        <STAR Name="GATO9A" ApproachName="RNPX" />
-        <STAR Name="GATO9U" OpDataFlag="U" ApproachName="RNPX" />
-        <STAR Name="VEGP7A" ApproachName="RNPX" />
-        <STAR Name="VEGP7P" OpDataFlag="P" ApproachName="RNPX" />
-        <STAR Name="VEGP7U" OpDataFlag="U" ApproachName="RNPX" />
-        <STAR Name="WANG2A" ApproachName="RNPX" />
-        <STAR Name="WANG2P" OpDataFlag="P" ApproachName="RNPX" />
-        <STAR Name="WANG2U" OpDataFlag="U" ApproachName="RNPX" />
+        <STAR Name="DONY9A" ApproachName="RNP-ARX" />
+        <STAR Name="DONY9U" OpDataFlag="U" ApproachName="RNP-ARX" />
+        <STAR Name="GATO9A" ApproachName="RNP-ARX" />
+        <STAR Name="GATO9U" OpDataFlag="U" ApproachName="RNP-ARX" />
+        <STAR Name="VEGP7A" ApproachName="RNP-ARX" />
+        <STAR Name="VEGP7P" OpDataFlag="P" ApproachName="RNP-ARX" />
+        <STAR Name="VEGP7U" OpDataFlag="U" ApproachName="RNP-ARX" />
+        <STAR Name="WANG2A" ApproachName="RNP-ARX" />
+        <STAR Name="WANG2P" OpDataFlag="P" ApproachName="RNP-ARX" />
+        <STAR Name="WANG2U" OpDataFlag="U" ApproachName="RNP-ARX" />
       </Runway>
       <Runway Name="18" DataRunway="18">
         <SID Name="DN7" Default="True" />
@@ -656,7 +656,7 @@
         <STAR Name="VEGP7A" ApproachName="LOC" />
         <STAR Name="VEGP7U" OpDataFlag="U" ApproachName="LOC" />
         <STAR Name="WANG2A" ApproachName="LOC" />
-        <STAR Name="WANG2P" OpDataFlag="P" ApproachName="RNPX" />
+        <STAR Name="WANG2P" OpDataFlag="P" ApproachName="RNP-ARX" />
         <STAR Name="WANG2U" OpDataFlag="U" ApproachName="LOC" />
       </Runway>
       <Runway Name="36" DataRunway="36">
@@ -932,9 +932,9 @@
         <STAR Name="BUNG4Y" Type="NonJet" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="MAND2A" ApproachName="RNP-ARW" />
         <STAR Name="MAND2X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="RAZI6A" ApproachName="RNP-ARW" />
-        <STAR Name="RAZI6W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="RAZI6Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="RAZI6A" Type="Jet" ApproachName="RNP-ARW" />
+        <STAR Name="RAZI6W" Type="Jet" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="RAZI6Y" Type="Jet" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="30" DataRunway="30" />
       <Runway Name="35" DataRunway="35">
@@ -953,16 +953,16 @@
         <STAR Name="BUNG4Y" Type="NonJet" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="POLI8A" ApproachName="RNPZ" />
         <STAR Name="POLI8X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="RAZI6A" ApproachName="RNPZ" />
-        <STAR Name="RAZI6W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="RAZI6Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="RAZI6A" Type="Jet" ApproachName="RNPZ" />
+        <STAR Name="RAZI6W" Type="Jet" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="RAZI6Y" Type="Jet" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="30V" DataRunway="30">
         <STAR Name="BUNG4V" Type="NonJet" />
       </Runway>
       <Runway Name="35V" DataRunway="35">
         <STAR Name="BUNG4V" Type="NonJet" />
-        <STAR Name="RAZI6V" />
+        <STAR Name="RAZI6V" Type="Jet" />
       </Runway>
     </Airport>
     <Airport Name="YSCN">
@@ -6187,6 +6187,16 @@ BOFOR
     <Point Name="ADMAK" Type="Fix">-282037.600+1535209.600</Point>
     <Point Name="ADMAR" Type="Fix">-301922.000+1515442.700</Point>
     <Point Name="ADNOD" Type="Fix">-190102.800+1464748.500</Point>
+    <Point Name="AE2EA" Type="Fix">-243610.900+1185057.020</Point>
+    <Point Name="AE2EB" Type="Fix">-244137.200+1185300.430</Point>
+    <Point Name="AE2EC" Type="Fix">-244514.730+1184806.930</Point>
+    <Point Name="AE2EF" Type="Fix">-243851.680+1184227.120</Point>
+    <Point Name="AE2EI" Type="Fix">-244014.530+1184743.720</Point>
+    <Point Name="AE2WD" Type="Fix">-243846.380+1182328.790</Point>
+    <Point Name="AE2WE" Type="Fix">-243319.680+1182126.710</Point>
+    <Point Name="AE2WF" Type="Fix">-243606.680+1183159.090</Point>
+    <Point Name="AE2WG" Type="Fix">-242943.010+1182620.510</Point>
+    <Point Name="AE2WI" Type="Fix">-243443.270+1182642.840</Point>
     <Point Name="AG2ND" Type="Fix">-162409.000+1282728.200</Point>
     <Point Name="AG2NE" Type="Fix">-162248.200+1283316.300</Point>
     <Point Name="AG2NF" Type="Fix">-163208.800+1282927.800</Point>
@@ -8893,6 +8903,15 @@ BOFOR
     <Point Name="HM841" Type="Fix">-201720.900+1485348.700</Point>
     <Point Name="HM842" Type="Fix">-201331.700+1485656.000</Point>
     <Point Name="HM843" Type="Fix">-201624.600+1485830.400</Point>
+    <Point Name="HO2EA" Type="Fix">-320044.800+1195922.300</Point>
+    <Point Name="HO2EB" Type="Fix">-320507.470+1200344.690</Point>
+    <Point Name="HO2EC" Type="Fix">-321007.310+1200024.490</Point>
+    <Point Name="HO2EF" Type="Fix">-320603.610+1195201.480</Point>
+    <Point Name="HO2EI" Type="Fix">-320535.680+1195753.120</Point>
+    <Point Name="HO2WE" Type="Fix">-320757.420+1192731.550</Point>
+    <Point Name="HO2WF" Type="Fix">-320703.540+1193915.240</Point>
+    <Point Name="HO2WG" Type="Fix">-320258.440+1193053.460</Point>
+    <Point Name="HO2WI" Type="Fix">-320730.610+1193323.420</Point>
     <Point Name="HOBAT" Type="Fix">-203948.359-1761932.948</Point>
     <Point Name="HOBAY" Type="Fix">-375936.000+1445142.000</Point>
     <Point Name="HOBBO" Type="Fix">-120000.000+1530932.700</Point>
@@ -9624,6 +9643,16 @@ BOFOR
     <Point Name="KSCSJ" Type="Fix">-355046.300+1372110.100</Point>
     <Point Name="KURRT" Type="Fix">-385418.000+1502456.000</Point>
     <Point Name="KVALM" Type="Fix">-192025.900+1464316.300</Point>
+    <Point Name="KW2ND" Type="Fix">-233553.170+1200424.450</Point>
+    <Point Name="KW2NE" Type="Fix">-233138.920+1201034.820</Point>
+    <Point Name="KW2NF" Type="Fix">-234134.590+1200900.400</Point>
+    <Point Name="KW2NG" Type="Fix">-233720.170+1201510.880</Point>
+    <Point Name="KW2NI" Type="Fix">-233636.760+1200947.640</Point>
+    <Point Name="KW2SA" Type="Fix">-235933.230+1201119.990</Point>
+    <Point Name="KW2SB" Type="Fix">-240208.290+1200544.160</Point>
+    <Point Name="KW2SC" Type="Fix">-235811.290+1200110.850</Point>
+    <Point Name="KW2SF" Type="Fix">-235212.680+1200719.020</Point>
+    <Point Name="KW2SI" Type="Fix">-235710.490+1200631.620</Point>
     <Point Name="KWMED" Type="Fix">-153113.600+1415840.100</Point>
     <Point Name="KWMEE" Type="Fix">-153657.800+1415911.900</Point>
     <Point Name="KWMEF" Type="Fix">-153157.500+1415013.000</Point>
@@ -13846,6 +13875,16 @@ BOFOR
     <Point Name="ZOCCA" Type="Fix">-111442.900+1271313.000</Point>
     <Point Name="ZONKA" Type="Fix">-335729.200+1510645.200</Point>
     <Point Name="ZORBA" Type="Fix">-170010.500+1460312.300</Point>
+    <Point Name="ZW2EA" Type="Fix">-300011.630+1193810.170</Point>
+    <Point Name="ZW2EB" Type="Fix">-300532.300+1194036.380</Point>
+    <Point Name="ZW2EC" Type="Fix">-300921.450+1193539.750</Point>
+    <Point Name="ZW2EF" Type="Fix">-300313.150+1192923.640</Point>
+    <Point Name="ZW2EI" Type="Fix">-300422.900+1193459.700</Point>
+    <Point Name="ZW2WD" Type="Fix">-300341.040+1190817.710</Point>
+    <Point Name="ZW2WE" Type="Fix">-295820.210+1190552.020</Point>
+    <Point Name="ZW2WF" Type="Fix">-300039.830+1191704.090</Point>
+    <Point Name="ZW2WG" Type="Fix">-295431.280+1191048.350</Point>
+    <Point Name="ZW2WI" Type="Fix">-295930.020+1191128.020</Point>
     <Point Name="ZWEKY" Type="Fix">-114705.400+1304157.000</Point>
     <Point Name="ABKL" Type="Fix">-174419.000+1224407.000</Point>
     <Point Name="ACE" Type="Fix">-375345.000+1451050.000</Point>
@@ -17047,14 +17086,14 @@ BOFOR
     <Approach Name="LOC" Airport="YPDN" Runway="29">
       <Route>LAPAR/TOROT/DN29T</Route>
     </Approach>
-    <Approach Name="RNPX" Airport="YPDN" Runway="11">
+    <Approach Name="RNP-ARX" Airport="YPDN" Runway="11">
       <Transition Name="KITTY">KITTY/TOSOB/DN412/-12.452776+130.736926/-12.445539+130.728611/-12.436447+130.722497/-12.432029+130.720653/DN407/-12.406303+130.720135/-12.387957+130.731748/-12.377739+130.751194/-12.376883+130.765479/DN404</Transition>
       <Transition Name="NASUX">NASUX</Transition>
       <Transition Name="UPSEN">UPSEN/IGBOV/DN407/-12.406304+130.720163/-12.387972+130.731797/-12.377776+130.751256/-12.376938+130.765542/DN404</Transition>
       <Transition Name="WOKKI">WOKKI/GUPOD/DN422/-12.297843+130.780353/-12.307234+130.760480/-12.325075+130.748073/-12.346585+130.746459/-12.366002+130.756071/-12.372354+130.763156/DN404</Transition>
       <Route>DN404/DN11T</Route>
     </Approach>
-    <Approach Name="RNPX" Airport="YPDN" Runway="29">
+    <Approach Name="RNP-ARX" Airport="YPDN" Runway="29">
       <Transition Name="KITTY">KITTY/GUMUR/DN448/-12.534934+130.995622/-12.525365+131.015423/-12.507413+131.027668/-12.485888+131.029078/-12.466559+131.019276/-12.461169+131.013359/DN444</Transition>
       <Transition Name="LAPAR">LAPAR/DN444</Transition>
       <Transition Name="WOKKI">WOKKI/ADBER/DN438/-12.381107+131.028247/-12.400458+131.038001/-12.421979+131.036541/-12.439904+131.024259/-12.449429+131.004442/-12.450176+130.994852/DN432</Transition>
@@ -17126,6 +17165,10 @@ BOFOR
     <Airport ICAO="YABG" FullName="Abbieglassie" Position="-271500.000+1473500.000" />
     <Airport ICAO="YABI" FullName="Abingdon Downs" Position="-173630.000+1431045.000" />
     <Airport ICAO="YABP" FullName="Mooga/Brindley Park" Position="-261931.000+1485548.000" />
+    <Airport ICAO="YABR" FullName="Abra Mine" Position="-243727.000+1183713.000" Elevation="1730">
+      <Runway Name="11" Position="-243720.900+1183641.200" />
+      <Runway Name="29" Position="-243737.060+1183742.710" />
+    </Airport>
     <Airport ICAO="YACI" FullName="Arcadia" Position="-251242.000+1484006.000" />
     <Airport ICAO="YACR" FullName="Lotus Creek/Croydon" Position="-222824.000+1490922.000" />
     <Airport ICAO="YADA" FullName="Adavale" Position="-255342.000+1443412.000" />
@@ -18347,6 +18390,10 @@ BOFOR
     <Airport ICAO="YKUM" FullName="Kumbarilla/Ruby Jo" Position="-271346.000+1505219.000" />
     <Airport ICAO="YKUP" FullName="Kupunn" Position="-271137.000+1510648.000" />
     <Airport ICAO="YKUW" FullName="Kurweeton" Position="-380252.000+1430919.000" />
+    <Airport ICAO="YKWA" FullName="Karlawinda Mine" Position="-234652.000+1200806.000" Elevation="1928">
+      <Runway Name="01" Position="-234725.030+1200804.740" />
+      <Runway Name="19" Position="-234620.750+1200814.950" />
+    </Airport>
     <Airport ICAO="YKWG" FullName="Kangaroo Well" Position="-314706.000+1353818.000" />
     <Airport ICAO="YKYN" FullName="Kynuna" Position="-213600.000+1415500.000" />
     <Airport ICAO="YLAH" FullName="Lawn Hill" Position="-183435.000+1383505.000" Elevation="400" />
@@ -18549,7 +18596,10 @@ BOFOR
       <Runway Name="12" Position="-424944.300+1473007.380" />
       <Runway Name="30" Position="-425044.080+1473128.550" />
     </Airport>
-    <Airport ICAO="YMHL" FullName="Mount Holland" Position="-320706.000+1194606.000" Elevation="1476" />
+    <Airport ICAO="YMHL" FullName="Mount Holland" Position="-320630.000+1194536.000" Elevation="1462">
+      <Runway Name="08" Position="-320636.250+1194506.260" />
+      <Runway Name="26" Position="-320631.500+1194607.000" />
+    </Airport>
     <Airport ICAO="YMHO" FullName="Mount House" Position="-170304.000+1254248.000" Elevation="948" />
     <Airport ICAO="YMHU" FullName="Mcarthur River Mine" Position="-162636.000+1360436.000" Elevation="136">
       <Runway Name="06" Position="-162655.480+1360351.010" />
@@ -19548,7 +19598,10 @@ BOFOR
       <Runway Name="09" Position="-280854.130+1515605.650" />
       <Runway Name="27" Position="-280902.440+1515705.230" />
     </Airport>
-    <Airport ICAO="YWDG" FullName="Windarling" Position="-300155.000+1192314.000" Elevation="1502" />
+    <Airport ICAO="YWDG" FullName="Windarling" Position="-300155.000+1192314.000" Elevation="1502">
+      <Runway Name="10" Position="-300149.630+1192240.260" />
+      <Runway Name="28" Position="-300203.540+1192347.390" />
+    </Airport>
     <Airport ICAO="YWDH" FullName="Windorah" Position="-252447.000+1424002.000" Elevation="452">
       <Runway Name="04" Position="-252452.030+1423948.490" />
       <Runway Name="22" Position="-252423.480+1424026.300" />
