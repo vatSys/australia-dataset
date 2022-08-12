@@ -658,6 +658,14 @@
         <Map Name="Brisbane/ASMGCS_YBAF_BLD" />
       </Maps>
     </Position>
+    <Position Name="YMAV" Type="ASMGCS" ASMGCSAirport="YMAV" DefaultCenter="-38.038056+144.474722" DefaultRange="3" MagneticVariation="-11.6" Rotation="94">
+      <Maps>
+        <Map Name="Melbourne/ASMGCS_YMAV_RWY" />
+        <Map Name="Melbourne/ASMGCS_YMAV_APR" />
+        <Map Name="Melbourne/ASMGCS_YMAV_TWY" />
+        <Map Name="Melbourne/ASMGCS_YMAV_BLD" />
+      </Maps>
+    </Position>
     <Position Name="YMMB" Type="ASMGCS" ASMGCSAirport="YMMB" DefaultCenter="-37.977778+145.096944" DefaultRange="1" MagneticVariation="-11.8" Rotation="-74">
       <Maps>
         <Map Name="Melbourne/ASMGCS_YMMB_RWY" />
@@ -786,14 +794,6 @@
         <Map Name="Perth/ASMGCS_YGIG_APR" />
         <Map Name="Perth/ASMGCS_YGIG_TWY" />
         <Map Name="Perth/ASMGCS_YGIG_BLD" />
-      </Maps>
-    </Position>
-    <Position Name="YMAV" Type="ASMGCS" ASMGCSAirport="YMAV" DefaultCenter="-38.038056+144.474722" DefaultRange="3" MagneticVariation="-11.6" Rotation="94">
-      <Maps>
-        <Map Name="Melbourne/ASMGCS_YMAV_RWY" />
-        <Map Name="Melbourne/ASMGCS_YMAV_APR" />
-        <Map Name="Melbourne/ASMGCS_YMAV_TWY" />
-        <Map Name="Melbourne/ASMGCS_YMAV_BLD" />
       </Maps>
     </Position>
     <Position Name="YPKA" Type="ASMGCS" ASMGCSAirport="YPKA" DefaultCenter="-20.710833+116.772778" DefaultRange="2" MagneticVariation="-0.9" Rotation="-173">

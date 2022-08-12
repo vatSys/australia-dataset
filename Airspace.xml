@@ -703,7 +703,7 @@
       <Runway Name="06L" DataRunway="06L">
         <SID Name="MANTL1" />
         <SID Name="SCARP4" />
-        <SID Name="TONEG2" />
+        <SID Name="TONEG3" />
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
@@ -716,7 +716,7 @@
       <Runway Name="12" DataRunway="12">
         <SID Name="MANTL1" />
         <SID Name="SCARP4" />
-        <SID Name="TONEG2" />
+        <SID Name="TONEG3" />
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
@@ -729,7 +729,7 @@
       <Runway Name="24R" DataRunway="24R">
         <SID Name="MANTL1" />
         <SID Name="SCARP4" />
-        <SID Name="TONEG2" />
+        <SID Name="TONEG3" />
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
@@ -737,7 +737,7 @@
       <Runway Name="30" DataRunway="30">
         <SID Name="MANTL1" />
         <SID Name="SCARP4" />
-        <SID Name="TONEG2" />
+        <SID Name="TONEG3" />
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
@@ -7974,6 +7974,7 @@ BOFOR
     <Point Name="DOREN" Type="Fix">-373636.000+1450803.900</Point>
     <Point Name="DORIS" Type="Fix">-315403.200+1164255.300</Point>
     <Point Name="DORKO" Type="Fix">-163012.300+1454102.800</Point>
+    <Point Name="DORNU" Type="Fix">-230931.100+1501457.900</Point>
     <Point Name="DOSAM" Type="Fix">-165410.300+1331200.300</Point>
     <Point Name="DOSEL" Type="Fix">-370954.400+1452343.100</Point>
     <Point Name="DOTAP" Type="Fix">-200916.800+1364325.700</Point>
@@ -9008,8 +9009,6 @@ BOFOR
     <Point Name="IA2EJ" Type="Fix">-223936.600+1201644.700</Point>
     <Point Name="IA2EM" Type="Fix">-223453.800+1200252.100</Point>
     <Point Name="IA2WB" Type="Fix">-223936.500+1194732.700</Point>
-    <Point Name="IA2WC" Type="Fix">-223453.600+1194359.500</Point>
-    <Point Name="IA2WD" Type="Fix">-223010.700+1194732.800</Point>
     <Point Name="IA2WF" Type="Fix">-223453.700+1195550.500</Point>
     <Point Name="IA2WI" Type="Fix">-223453.600+1194923.600</Point>
     <Point Name="IA2WM" Type="Fix">-223453.800+1200124.600</Point>
@@ -11567,6 +11566,7 @@ BOFOR
     <Point Name="PTNNG" Type="Fix">-141833.700+1321739.900</Point>
     <Point Name="PTNNH" Type="Fix">-143247.900+1322358.900</Point>
     <Point Name="PTNNI" Type="Fix">-142257.500+1321510.500</Point>
+    <Point Name="PTNNM" Type="Fix">-143043.910+1322207.890</Point>
     <Point Name="PTNSA" Type="Fix">-143748.900+1323454.600</Point>
     <Point Name="PTNSB" Type="Fix">-144324.500+1323329.400</Point>
     <Point Name="PTNSC" Type="Fix">-144401.200+1322736.300</Point>
@@ -15749,7 +15749,7 @@ BOFOR
       <Route Runway="24R">SCARP</Route>
       <Route Runway="30">SCARP</Route>
     </SID>
-    <SID Name="TONEG2" Airport="YPJT" Runways="06L,12,24R,30">
+    <SID Name="TONEG3" Airport="YPJT" Runways="06L,12,24R,30">
       <Route Runway="06L">TONEG</Route>
       <Route Runway="12">TONEG</Route>
       <Route Runway="24R">TONEG</Route>
@@ -19099,7 +19099,7 @@ BOFOR
     <Airport ICAO="YPTB" FullName="Peterborough" Position="-330018.000+1385054.000" Elevation="1838" />
     <Airport ICAO="YPTG" FullName="Port George" Position="-152300.000+1244000.000" />
     <Airport ICAO="YPTN" FullName="Tindal" Position="-143116.000+1322240.000" Elevation="443">
-      <Runway Name="14" Position="-143043.910+1322207.890" />
+      <Runway Name="14" Position="-143051.200+1322214.410" />
       <Runway Name="32" Position="-143151.160+1322308.100" />
     </Airport>
     <Airport ICAO="YPTT" FullName="Pernatty" Position="-312900.000+1372900.000" />
