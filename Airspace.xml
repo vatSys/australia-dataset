@@ -277,16 +277,16 @@
       <Runway Name="13" DataRunway="13">
         <SID Name="MOOLO1" />
         <SID Name="TAPET1" />
-        <STAR Name="ITID1W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="ITID1Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="ITID2W" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="ITID2Z" OpDataFlag="Z" ApproachName="RNPZ" />
         <STAR Name="REBE2Z" OpDataFlag="Z" ApproachName="RNPZ" />
         <STAR Name="SEBV1Z" OpDataFlag="Z" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="31" DataRunway="31">
         <SID Name="MOOLO1" />
         <SID Name="TAPET1" />
-        <STAR Name="ITID1W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="ITID1Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="ITID2W" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="ITID2Z" OpDataFlag="Z" ApproachName="RNPZ" />
         <STAR Name="REBE2X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="REBE2Z" OpDataFlag="Z" ApproachName="RNPZ" />
         <STAR Name="SEBV1X" OpDataFlag="X" ApproachName="RNP-ARX" />
@@ -932,9 +932,9 @@
         <STAR Name="BUNG4Y" Type="NonJet" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="MAND2A" ApproachName="RNP-ARW" />
         <STAR Name="MAND2X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="RAZI6A" Type="Jet" ApproachName="RNP-ARW" />
-        <STAR Name="RAZI6W" Type="Jet" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="RAZI6Y" Type="Jet" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="RAZI7A" Type="Jet" ApproachName="RNP-ARW" />
+        <STAR Name="RAZI7W" Type="Jet" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="RAZI7Y" Type="Jet" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="30" DataRunway="30" />
       <Runway Name="35" DataRunway="35">
@@ -953,16 +953,16 @@
         <STAR Name="BUNG4Y" Type="NonJet" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="POLI8A" ApproachName="RNPZ" />
         <STAR Name="POLI8X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="RAZI6A" Type="Jet" ApproachName="RNPZ" />
-        <STAR Name="RAZI6W" Type="Jet" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="RAZI6Y" Type="Jet" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="RAZI7A" Type="Jet" ApproachName="RNPZ" />
+        <STAR Name="RAZI7W" Type="Jet" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="RAZI7Y" Type="Jet" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="30V" DataRunway="30">
         <STAR Name="BUNG4V" Type="NonJet" />
       </Runway>
       <Runway Name="35V" DataRunway="35">
         <STAR Name="BUNG4V" Type="NonJet" />
-        <STAR Name="RAZI6V" Type="Jet" />
+        <STAR Name="RAZI7V" Type="Jet" />
       </Runway>
     </Airport>
     <Airport Name="YSCN">
@@ -10974,6 +10974,7 @@ BOFOR
     <Point Name="OMBUP" Type="Fix">-323303.300+1515317.300</Point>
     <Point Name="OMDEL" Type="Fix">-194454.000+1485742.000</Point>
     <Point Name="OMDIN" Type="Fix">-345152.000+1385034.600</Point>
+    <Point Name="OMDUN" Type="Fix">-262631.000+1530652.000</Point>
     <Point Name="OMGIL" Type="Fix">-262300.400+1313608.000</Point>
     <Point Name="OMGUV" Type="Fix">-270721.100+1532047.000</Point>
     <Point Name="OMKAX" Type="Fix">-291713.600+1530652.100</Point>
@@ -13223,6 +13224,7 @@ BOFOR
     <Point Name="VIDIT" Type="Fix">-330630.900+1380452.800</Point>
     <Point Name="VIDUM" Type="Fix">-282433.500+1534906.200</Point>
     <Point Name="VIGUT" Type="Fix">-292938.600+1504912.600</Point>
+    <Point Name="VIKIL" Type="Fix">-262559.000+1531349.000</Point>
     <Point Name="VIKIS" Type="Fix">-315055.100+1155930.200</Point>
     <Point Name="VIKUV" Type="Fix">-122127.100+1305826.300</Point>
     <Point Name="VILAD" Type="Fix">-342331.700+1392059.100</Point>
@@ -15043,7 +15045,7 @@ BOFOR
     <Point Name="WP" Type="Navaid" NavaidType="NDB" Frequency="377.000">-123941.900+1415355.700</Point>
     <Point Name="WR" Type="Navaid" NavaidType="NDB" Frequency="248.000">-310836.500+1364829.700</Point>
     <Point Name="WYY" Type="Navaid" NavaidType="NDB" Frequency="302.000">-405952.700+1454229.600</Point>
-    <Point Name="AMB" Type="Navaid" NavaidType="TAC" Frequency="108.100">-273829.500+1524258.000</Point>
+    <Point Name="AMB" Type="Navaid" NavaidType="TAC" Frequency="110.300">-273829.500+1524258.000</Point>
     <Point Name="CTN" Type="Navaid" NavaidType="TAC" Frequency="000.000">-173440.700+1234945.400</Point>
     <Point Name="DAR" Type="Navaid" NavaidType="TAC" Frequency="113.700">-122449.400+1305259.700</Point>
     <Point Name="EDN" Type="Navaid" NavaidType="TAC" Frequency="110.300">-344217.100+1383644.600</Point>
@@ -16283,11 +16285,11 @@ BOFOR
       <Route Runway="15">DADBO/DADIS/GOKUN</Route>
       <Route Runway="33">DADBO/SARUS</Route>
     </STAR>
-    <STAR Name="ITID1W" Airport="YBSU" Runways="13,31">
-      <Route Runway="13">ITIDE/BUKRA</Route>
+    <STAR Name="ITID2W" Airport="YBSU" Runways="13,31">
+      <Route Runway="13">ITIDE/BUKRA/VIKIL/OMDUN</Route>
       <Route Runway="31">ITIDE/AKERO/SAKAP</Route>
     </STAR>
-    <STAR Name="ITID1Z" Airport="YBSU" Runways="13,31">
+    <STAR Name="ITID2Z" Airport="YBSU" Runways="13,31">
       <Route Runway="13">ITIDE/BUKRA/DUKEL/METUK/UPLOT</Route>
       <Route Runway="31">ITIDE/GUVIX/OVRUL</Route>
     </STAR>
@@ -16782,18 +16784,18 @@ BOFOR
       <Transition Name="WG">WG VOR</Transition>
       <Route Runway="35">POLLI/GOMAN/HONEY/ANREP/KALKA</Route>
     </STAR>
-    <STAR Name="RAZI6A" Airport="YSCB" Runways="17,35">
+    <STAR Name="RAZI7A" Airport="YSCB" Runways="17,35">
       <Route Runway="17">RAZZI/GEORG/GOONY/TALAG</Route>
       <Route Runway="35">RAZZI/SLICK/FOXLO/GIBIL/MENZI</Route>
     </STAR>
-    <STAR Name="RAZI6V" Airport="YSCB" Runways="35">
+    <STAR Name="RAZI7V" Airport="YSCB" Runways="35">
       <Route Runway="35">RAZZI/SLICK/PILOS</Route>
     </STAR>
-    <STAR Name="RAZI6W" Airport="YSCB" Runways="17,35">
+    <STAR Name="RAZI7W" Airport="YSCB" Runways="17,35">
       <Route Runway="17">RAZZI/GEORG/GOONY/TALAG</Route>
       <Route Runway="35">RAZZI/SLICK/FOXLO</Route>
     </STAR>
-    <STAR Name="RAZI6Y" Airport="YSCB" Runways="17,35">
+    <STAR Name="RAZI7Y" Airport="YSCB" Runways="17,35">
       <Route Runway="17">RAZZI/GEORG/SAPIT</Route>
       <Route Runway="35">RAZZI/SLICK/BIBRU</Route>
     </STAR>
@@ -16973,7 +16975,7 @@ BOFOR
     </Approach>
     <Approach Name="RNP-ARW" Airport="YBSU" Runway="13">
       <Transition Name="BUKRA">BUKRA/SU410</Transition>
-      <Route>SU420/SU430/-26.465970+153.036729/-26.488144+153.021816/-26.514022+153.021285/-26.524716+153.025797/SU440/SU13T</Route>
+      <Route>OMDUN/SU430/-26.465907+153.036690/-26.488044+153.021708/-26.513920+153.021096/-26.524626+153.025575/SU440/SU13T</Route>
     </Approach>
     <Approach Name="RNP-ARW" Airport="YBSU" Runway="31">
       <Transition Name="SAKAP">SAKAP</Transition>
@@ -18002,7 +18004,7 @@ BOFOR
       <Runway Name="10" Position="-113857.540+1332207.930" />
       <Runway Name="28" Position="-113904.970+1332252.890" />
     </Airport>
-    <Airport ICAO="YGBK" FullName="Glenbrook Hls" Position="-334542.000+1503810.000" />
+    <Airport ICAO="YGBK" FullName="Glenbrook Hls" Position="-334542.000+1503810.000" Elevation="645" />
     <Airport ICAO="YGDA" FullName="Goodooga" Position="-290424.000+1472234.000" Elevation="459">
       <Runway Name="12" Position="-290411.120+1472250.870" />
       <Runway Name="30" Position="-290433.010+1472319.660" />
@@ -18206,7 +18208,7 @@ BOFOR
     </Airport>
     <Airport ICAO="YHVF" FullName="Angaston/Hutton Vale" Position="-343059.000+1390631.000" />
     <Airport ICAO="YHYL" FullName="Hoyleton" Position="-340132.000+1383129.000" />
-    <Airport ICAO="YIBO" FullName="Iron Bridge Mine" Position="-211712.000+1185259.000" Elevation="665">
+    <Airport ICAO="YIBO" FullName="Iron Bridge Mine" Position="-211712.000+1185259.000" Elevation="666">
       <Runway Name="12" Position="-211655.080+1185213.320" />
       <Runway Name="30" Position="-211731.110+1185331.060" />
     </Airport>
@@ -18596,7 +18598,7 @@ BOFOR
       <Runway Name="12" Position="-424944.300+1473007.380" />
       <Runway Name="30" Position="-425044.080+1473128.550" />
     </Airport>
-    <Airport ICAO="YMHL" FullName="Mount Holland" Position="-320630.000+1194536.000" Elevation="1462">
+    <Airport ICAO="YMHL" FullName="Mount Holland" Position="-320630.000+1194536.000" Elevation="1476">
       <Runway Name="08" Position="-320636.250+1194506.260" />
       <Runway Name="26" Position="-320631.500+1194607.000" />
     </Airport>
@@ -19493,7 +19495,7 @@ BOFOR
       <Runway Name="36" Position="-354855.590+1453613.830" />
     </Airport>
     <Airport ICAO="YTOO" FullName="Maryland Too" Position="-332212.000+1205254.000" />
-    <Airport ICAO="YTOT" FullName="Tottenham" Position="-321522.000+1472208.000" Elevation="780" />
+    <Airport ICAO="YTOT" FullName="Tottenham" Position="-321522.000+1472208.000" Elevation="793" />
     <Airport ICAO="YTPK" FullName="Turtle Park" Position="-211230.000+1485842.000" Elevation="120" />
     <Airport ICAO="YTPL" FullName="Toopuntul" Position="-342103.000+1440400.000" />
     <Airport ICAO="YTQY" FullName="Torquay" Position="-381800.000+1442154.000" Elevation="30" />
@@ -19509,7 +19511,7 @@ BOFOR
     </Airport>
     <Airport ICAO="YTRG" FullName="Traeger" Position="-301234.000+1351352.000" />
     <Airport ICAO="YTRS" FullName="Three Rocks" Position="-205601.000+1494507.000" />
-    <Airport ICAO="YTST" FullName="Truscott-Mungalalu" Position="-140523.000+1262251.000" Elevation="181">
+    <Airport ICAO="YTST" FullName="Truscott-Mungalalu" Position="-140523.000+1262251.000" Elevation="180">
       <Runway Name="12" Position="-140457.220+1262224.890" />
       <Runway Name="30" Position="-140533.540+1262311.930" />
     </Airport>
