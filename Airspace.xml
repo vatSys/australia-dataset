@@ -252,7 +252,7 @@
       <Runway Name="15" DataRunway="15">
         <SID Name="BUDGI2" />
         <SID Name="RK3" Default="True" />
-        <SID Name="TARES3" />
+        <SID Name="TARES4" />
         <STAR Name="ABVAS1" ApproachName="RNPZ" />
         <STAR Name="DADBO1" ApproachName="RNPZ" />
       </Runway>
@@ -260,7 +260,7 @@
       <Runway Name="33" DataRunway="33">
         <SID Name="BUDGI2" />
         <SID Name="RK3" Default="True" />
-        <SID Name="TARES3" />
+        <SID Name="TARES4" />
         <STAR Name="ABVAS1" ApproachName="RNPZ" />
         <STAR Name="DADBO1" ApproachName="RNPZ" />
       </Runway>
@@ -277,16 +277,16 @@
       <Runway Name="13" DataRunway="13">
         <SID Name="MOOLO1" />
         <SID Name="TAPET1" />
-        <STAR Name="ITID1W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="ITID1Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="ITID2W" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="ITID2Z" OpDataFlag="Z" ApproachName="RNPZ" />
         <STAR Name="REBE2Z" OpDataFlag="Z" ApproachName="RNPZ" />
         <STAR Name="SEBV1Z" OpDataFlag="Z" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="31" DataRunway="31">
         <SID Name="MOOLO1" />
         <SID Name="TAPET1" />
-        <STAR Name="ITID1W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="ITID1Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="ITID2W" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="ITID2Z" OpDataFlag="Z" ApproachName="RNPZ" />
         <STAR Name="REBE2X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="REBE2Z" OpDataFlag="Z" ApproachName="RNPZ" />
         <STAR Name="SEBV1X" OpDataFlag="X" ApproachName="RNP-ARX" />
@@ -334,7 +334,9 @@
     </Airport>
     <Airport Name="YCFS">
       <Runway Name="03" DataRunway="03" />
+      <Runway Name="10" DataRunway="10" />
       <Runway Name="21" DataRunway="21" />
+      <Runway Name="28" DataRunway="28" />
     </Airport>
     <Airport Name="YGIG">
       <Runway Name="08" DataRunway="08" />
@@ -703,7 +705,7 @@
       <Runway Name="06L" DataRunway="06L">
         <SID Name="MANTL1" />
         <SID Name="SCARP4" />
-        <SID Name="TONEG2" />
+        <SID Name="TONEG3" />
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
@@ -716,7 +718,7 @@
       <Runway Name="12" DataRunway="12">
         <SID Name="MANTL1" />
         <SID Name="SCARP4" />
-        <SID Name="TONEG2" />
+        <SID Name="TONEG3" />
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
@@ -729,7 +731,7 @@
       <Runway Name="24R" DataRunway="24R">
         <SID Name="MANTL1" />
         <SID Name="SCARP4" />
-        <SID Name="TONEG2" />
+        <SID Name="TONEG3" />
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
@@ -737,7 +739,7 @@
       <Runway Name="30" DataRunway="30">
         <SID Name="MANTL1" />
         <SID Name="SCARP4" />
-        <SID Name="TONEG2" />
+        <SID Name="TONEG3" />
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
@@ -932,9 +934,9 @@
         <STAR Name="BUNG4Y" Type="NonJet" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="MAND2A" ApproachName="RNP-ARW" />
         <STAR Name="MAND2X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="RAZI6A" Type="Jet" ApproachName="RNP-ARW" />
-        <STAR Name="RAZI6W" Type="Jet" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="RAZI6Y" Type="Jet" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="RAZI7A" Type="Jet" ApproachName="RNP-ARW" />
+        <STAR Name="RAZI7W" Type="Jet" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="RAZI7Y" Type="Jet" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="30" DataRunway="30" />
       <Runway Name="35" DataRunway="35">
@@ -953,16 +955,16 @@
         <STAR Name="BUNG4Y" Type="NonJet" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="POLI8A" ApproachName="RNPZ" />
         <STAR Name="POLI8X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="RAZI6A" Type="Jet" ApproachName="RNPZ" />
-        <STAR Name="RAZI6W" Type="Jet" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="RAZI6Y" Type="Jet" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="RAZI7A" Type="Jet" ApproachName="RNPZ" />
+        <STAR Name="RAZI7W" Type="Jet" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="RAZI7Y" Type="Jet" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="30V" DataRunway="30">
         <STAR Name="BUNG4V" Type="NonJet" />
       </Runway>
       <Runway Name="35V" DataRunway="35">
         <STAR Name="BUNG4V" Type="NonJet" />
-        <STAR Name="RAZI6V" Type="Jet" />
+        <STAR Name="RAZI7V" Type="Jet" />
       </Runway>
     </Airport>
     <Airport Name="YSCN">
@@ -6886,19 +6888,6 @@ BOFOR
     <Point Name="BLAKA" Type="Fix">-281200.000+1531318.000</Point>
     <Point Name="BLIGH" Type="Fix">-280212.000+1160400.000</Point>
     <Point Name="BLITZ" Type="Fix">-265252.000+1533544.000</Point>
-    <Point Name="BLUNA" Type="Fix">-272343.300+1203209.800</Point>
-    <Point Name="BLUNC" Type="Fix">-272101.800+1203751.400</Point>
-    <Point Name="BLUND" Type="Fix">-272453.000+1204238.500</Point>
-    <Point Name="BLUNF" Type="Fix">-273058.900+1203628.300</Point>
-    <Point Name="BLUNH" Type="Fix">-273136.700+1203028.700</Point>
-    <Point Name="BLUNI" Type="Fix">-272600.300+1203709.900</Point>
-    <Point Name="BLUNM" Type="Fix">-273557.400+1203546.700</Point>
-    <Point Name="BLUSE" Type="Fix">-274932.000+1203913.100</Point>
-    <Point Name="BLUSF" Type="Fix">-274216.600+1203453.700</Point>
-    <Point Name="BLUSG" Type="Fix">-275213.600+1203330.100</Point>
-    <Point Name="BLUSH" Type="Fix">-273854.000+1202502.800</Point>
-    <Point Name="BLUSI" Type="Fix">-274715.100+1203411.000</Point>
-    <Point Name="BLUSJ" Type="Fix">-274822.100+1202842.200</Point>
     <Point Name="BLZND" Type="Fix">-371806.500+1434406.900</Point>
     <Point Name="BLZNE" Type="Fix">-371534.300+1435033.800</Point>
     <Point Name="BLZNF" Type="Fix">-372528.000+1434839.200</Point>
@@ -7737,19 +7726,6 @@ BOFOR
     <Point Name="CTLWG" Type="Fix">-261240.200+1461023.500</Point>
     <Point Name="CTLWH" Type="Fix">-262724.600+1461829.700</Point>
     <Point Name="CTLWI" Type="Fix">-261708.300+1460752.100</Point>
-    <Point Name="CTMNA" Type="Fix">-342458.800+1475443.700</Point>
-    <Point Name="CTMNC" Type="Fix">-342109.900+1475954.600</Point>
-    <Point Name="CTMNF" Type="Fix">-343106.900+1480118.400</Point>
-    <Point Name="CTMNH" Type="Fix">-343934.400+1480229.800</Point>
-    <Point Name="CTMNI" Type="Fix">-342608.400+1480036.500</Point>
-    <Point Name="CTMNM" Type="Fix">-343605.400+1480200.300</Point>
-    <Point Name="CTMSE" Type="Fix">-344909.600+1480935.700</Point>
-    <Point Name="CTMSF" Type="Fix">-344301.800+1480259.000</Point>
-    <Point Name="CTMSG" Type="Fix">-345258.700+1480423.500</Point>
-    <Point Name="CTMSH" Type="Fix">-343504.200+1480151.700</Point>
-    <Point Name="CTMSI" Type="Fix">-344800.300+1480341.200</Point>
-    <Point Name="CTMSJ" Type="Fix">-345014.900+1475815.400</Point>
-    <Point Name="CTMSM" Type="Fix">-343803.300+1480216.900</Point>
     <Point Name="CUBBY" Type="Fix">-313316.800+1160727.600</Point>
     <Point Name="CUDGN" Type="Fix">-281420.600+1533239.300</Point>
     <Point Name="CUFFY" Type="Fix">-050000.000-1743904.601</Point>
@@ -7974,6 +7950,7 @@ BOFOR
     <Point Name="DOREN" Type="Fix">-373636.000+1450803.900</Point>
     <Point Name="DORIS" Type="Fix">-315403.200+1164255.300</Point>
     <Point Name="DORKO" Type="Fix">-163012.300+1454102.800</Point>
+    <Point Name="DORNU" Type="Fix">-230931.100+1501457.900</Point>
     <Point Name="DOSAM" Type="Fix">-165410.300+1331200.300</Point>
     <Point Name="DOSEL" Type="Fix">-370954.400+1452343.100</Point>
     <Point Name="DOTAP" Type="Fix">-200916.800+1364325.700</Point>
@@ -8490,18 +8467,18 @@ BOFOR
     <Point Name="GERBL" Type="Fix">-273429.600+1522538.400</Point>
     <Point Name="GEROS" Type="Fix">-350105.500+1545954.600</Point>
     <Point Name="GETON" Type="Fix">-350358.200+1384437.600</Point>
-    <Point Name="GFFEA" Type="Fix">-340556.800+1461440.400</Point>
-    <Point Name="GFFEB" Type="Fix">-340853.100+1462036.700</Point>
-    <Point Name="GFFEC" Type="Fix">-341431.800+1461919.400</Point>
-    <Point Name="GFFEF" Type="Fix">-341259.900+1460937.200</Point>
-    <Point Name="GFFEH" Type="Fix">-341641.900+1455943.200</Point>
-    <Point Name="GFFEI" Type="Fix">-341056.500+1461507.000</Point>
-    <Point Name="GFFWD" Type="Fix">-342431.900+1455232.600</Point>
-    <Point Name="GFFWE" Type="Fix">-342135.300+1454635.500</Point>
-    <Point Name="GFFWF" Type="Fix">-341729.100+1455736.300</Point>
-    <Point Name="GFFWG" Type="Fix">-341556.700+1454753.600</Point>
-    <Point Name="GFFWH" Type="Fix">-341347.300+1460730.600</Point>
-    <Point Name="GFFWI" Type="Fix">-341932.200+1455206.000</Point>
+    <Point Name="GF2EA" Type="Fix">-340556.800+1461440.400</Point>
+    <Point Name="GF2EB" Type="Fix">-340853.100+1462036.700</Point>
+    <Point Name="GF2EC" Type="Fix">-341431.800+1461919.400</Point>
+    <Point Name="GF2EF" Type="Fix">-341259.900+1460937.200</Point>
+    <Point Name="GF2EH" Type="Fix">-341641.900+1455943.200</Point>
+    <Point Name="GF2EI" Type="Fix">-341056.500+1461507.000</Point>
+    <Point Name="GF2WD" Type="Fix">-342431.900+1455232.600</Point>
+    <Point Name="GF2WE" Type="Fix">-342135.300+1454635.500</Point>
+    <Point Name="GF2WF" Type="Fix">-341729.100+1455736.300</Point>
+    <Point Name="GF2WG" Type="Fix">-341556.700+1454753.600</Point>
+    <Point Name="GF2WH" Type="Fix">-341347.300+1460730.600</Point>
+    <Point Name="GF2WI" Type="Fix">-341932.200+1455206.000</Point>
     <Point Name="GFNNA" Type="Fix">-293226.400+1525748.500</Point>
     <Point Name="GFNNC" Type="Fix">-292935.100+1530330.900</Point>
     <Point Name="GFNND" Type="Fix">-293317.700+1530832.200</Point>
@@ -9008,8 +8985,6 @@ BOFOR
     <Point Name="IA2EJ" Type="Fix">-223936.600+1201644.700</Point>
     <Point Name="IA2EM" Type="Fix">-223453.800+1200252.100</Point>
     <Point Name="IA2WB" Type="Fix">-223936.500+1194732.700</Point>
-    <Point Name="IA2WC" Type="Fix">-223453.600+1194359.500</Point>
-    <Point Name="IA2WD" Type="Fix">-223010.700+1194732.800</Point>
     <Point Name="IA2WF" Type="Fix">-223453.700+1195550.500</Point>
     <Point Name="IA2WI" Type="Fix">-223453.600+1194923.600</Point>
     <Point Name="IA2WM" Type="Fix">-223453.800+1200124.600</Point>
@@ -9680,6 +9655,7 @@ BOFOR
     <Point Name="LAKOT" Type="Fix">-213024.100+1453422.200</Point>
     <Point Name="LAKUP" Type="Fix">-130610.500+1312239.900</Point>
     <Point Name="LALIS" Type="Fix">-233245.500+1503829.100</Point>
+    <Point Name="LAMAK" Type="Fix">-225056.000+1663953.000</Point>
     <Point Name="LAMAP" Type="Fix">-140000.000+1591000.000</Point>
     <Point Name="LAMAX" Type="Fix">-372706.000+1452442.000</Point>
     <Point Name="LAMEK" Type="Fix">-180916.600+1500235.500</Point>
@@ -9942,6 +9918,19 @@ BOFOR
     <Point Name="LTVWF" Type="Fix">-381639.100+1462309.600</Point>
     <Point Name="LTVWH" Type="Fix">-381100.200+1463021.500</Point>
     <Point Name="LTVWI" Type="Fix">-382010.800+1461839.300</Point>
+    <Point Name="LU2NA" Type="Fix">-272343.300+1203209.800</Point>
+    <Point Name="LU2NC" Type="Fix">-272101.800+1203751.400</Point>
+    <Point Name="LU2ND" Type="Fix">-272453.000+1204238.500</Point>
+    <Point Name="LU2NF" Type="Fix">-273058.900+1203628.300</Point>
+    <Point Name="LU2NH" Type="Fix">-273136.700+1203028.700</Point>
+    <Point Name="LU2NI" Type="Fix">-272600.300+1203709.900</Point>
+    <Point Name="LU2NM" Type="Fix">-273557.400+1203546.700</Point>
+    <Point Name="LU2SE" Type="Fix">-274932.000+1203913.100</Point>
+    <Point Name="LU2SF" Type="Fix">-274216.600+1203453.700</Point>
+    <Point Name="LU2SG" Type="Fix">-275213.600+1203330.100</Point>
+    <Point Name="LU2SH" Type="Fix">-273854.000+1202502.800</Point>
+    <Point Name="LU2SI" Type="Fix">-274715.100+1203411.000</Point>
+    <Point Name="LU2SJ" Type="Fix">-274822.100+1202842.200</Point>
     <Point Name="LUCAS" Type="Fix">-264128.000+1534122.200</Point>
     <Point Name="LUCRE" Type="Fix">-341318.000+1250000.000</Point>
     <Point Name="LUFFY" Type="Fix">-344139.200+1384720.700</Point>
@@ -10478,21 +10467,21 @@ BOFOR
     <Point Name="MPZSG" Type="Fix">-380815.300+1444033.200</Point>
     <Point Name="MPZSH" Type="Fix">-375937.700+1444953.600</Point>
     <Point Name="MPZSI" Type="Fix">-380610.100+1444618.700</Point>
+    <Point Name="MR2ND" Type="Fix">-290414.400+1154934.500</Point>
+    <Point Name="MR2NE" Type="Fix">-285858.600+1155212.500</Point>
+    <Point Name="MR2NF" Type="Fix">-290732.700+1155808.000</Point>
+    <Point Name="MR2NG" Type="Fix">-285920.900+1155844.100</Point>
+    <Point Name="MR2NH" Type="Fix">-291515.300+1160328.300</Point>
+    <Point Name="MR2NI" Type="Fix">-290315.600+1155510.200</Point>
+    <Point Name="MR2NM" Type="Fix">-291312.200+1160202.200</Point>
+    <Point Name="MR2SA" Type="Fix">-292050.700+1161332.100</Point>
+    <Point Name="MR2SB" Type="Fix">-292605.900+1161051.900</Point>
+    <Point Name="MR2SC" Type="Fix">-292541.700+1160418.700</Point>
+    <Point Name="MR2SF" Type="Fix">-291730.200+1160458.500</Point>
+    <Point Name="MR2SH" Type="Fix">-291037.400+1160016.600</Point>
+    <Point Name="MR2SI" Type="Fix">-292148.100+1160755.100</Point>
+    <Point Name="MR2SM" Type="Fix">-291312.200+1160202.200</Point>
     <Point Name="MRDAK" Type="Fix">-150836.000+1382042.000</Point>
-    <Point Name="MRWND" Type="Fix">-290414.400+1154934.500</Point>
-    <Point Name="MRWNE" Type="Fix">-285858.600+1155212.500</Point>
-    <Point Name="MRWNF" Type="Fix">-290732.700+1155808.000</Point>
-    <Point Name="MRWNG" Type="Fix">-285920.900+1155844.100</Point>
-    <Point Name="MRWNH" Type="Fix">-291515.300+1160328.300</Point>
-    <Point Name="MRWNI" Type="Fix">-290315.600+1155510.200</Point>
-    <Point Name="MRWNM" Type="Fix">-291149.700+1160105.800</Point>
-    <Point Name="MRWSA" Type="Fix">-292050.700+1161332.100</Point>
-    <Point Name="MRWSB" Type="Fix">-292605.900+1161051.900</Point>
-    <Point Name="MRWSC" Type="Fix">-292541.700+1160418.700</Point>
-    <Point Name="MRWSF" Type="Fix">-291730.200+1160458.500</Point>
-    <Point Name="MRWSH" Type="Fix">-291037.400+1160016.600</Point>
-    <Point Name="MRWSI" Type="Fix">-292148.100+1160755.100</Point>
-    <Point Name="MRWSM" Type="Fix">-291312.200+1160202.200</Point>
     <Point Name="MRYNA" Type="Fix">-354037.300+1500615.600</Point>
     <Point Name="MRYNC" Type="Fix">-353821.600+1501243.700</Point>
     <Point Name="MRYND" Type="Fix">-354232.700+1501733.200</Point>
@@ -10975,6 +10964,7 @@ BOFOR
     <Point Name="OMBUP" Type="Fix">-323303.300+1515317.300</Point>
     <Point Name="OMDEL" Type="Fix">-194454.000+1485742.000</Point>
     <Point Name="OMDIN" Type="Fix">-345152.000+1385034.600</Point>
+    <Point Name="OMDUN" Type="Fix">-262630.500+1530652.000</Point>
     <Point Name="OMGIL" Type="Fix">-262300.400+1313608.000</Point>
     <Point Name="OMGUV" Type="Fix">-270721.100+1532047.000</Point>
     <Point Name="OMKAX" Type="Fix">-291713.600+1530652.100</Point>
@@ -11073,6 +11063,19 @@ BOFOR
     <Point Name="OSUMA" Type="Fix">-272648.400+1175507.100</Point>
     <Point Name="OSVAR" Type="Fix">-280753.200+1674126.300</Point>
     <Point Name="OSVOL" Type="Fix">-201503.600+1220255.600</Point>
+    <Point Name="OT2NA" Type="Fix">-342458.800+1475443.700</Point>
+    <Point Name="OT2NC" Type="Fix">-342109.900+1475954.600</Point>
+    <Point Name="OT2NF" Type="Fix">-343106.900+1480118.400</Point>
+    <Point Name="OT2NH" Type="Fix">-343934.400+1480229.800</Point>
+    <Point Name="OT2NI" Type="Fix">-342608.400+1480036.500</Point>
+    <Point Name="OT2NM" Type="Fix">-343605.400+1480200.300</Point>
+    <Point Name="OT2SE" Type="Fix">-344909.600+1480935.700</Point>
+    <Point Name="OT2SF" Type="Fix">-344301.800+1480259.000</Point>
+    <Point Name="OT2SG" Type="Fix">-345258.700+1480423.500</Point>
+    <Point Name="OT2SH" Type="Fix">-343504.200+1480151.700</Point>
+    <Point Name="OT2SI" Type="Fix">-344800.300+1480341.200</Point>
+    <Point Name="OT2SJ" Type="Fix">-345014.900+1475815.400</Point>
+    <Point Name="OT2SM" Type="Fix">-343803.300+1480216.900</Point>
     <Point Name="OTBOK" Type="Fix">-360833.300+1350000.000</Point>
     <Point Name="OTGAT" Type="Fix">-265803.000+1524337.000</Point>
     <Point Name="OTGAX" Type="Fix">-123726.700+1310242.500</Point>
@@ -11567,6 +11570,7 @@ BOFOR
     <Point Name="PTNNG" Type="Fix">-141833.700+1321739.900</Point>
     <Point Name="PTNNH" Type="Fix">-143247.900+1322358.900</Point>
     <Point Name="PTNNI" Type="Fix">-142257.500+1321510.500</Point>
+    <Point Name="PTNNM" Type="Fix">-143043.910+1322207.890</Point>
     <Point Name="PTNSA" Type="Fix">-143748.900+1323454.600</Point>
     <Point Name="PTNSB" Type="Fix">-144324.500+1323329.400</Point>
     <Point Name="PTNSC" Type="Fix">-144401.200+1322736.300</Point>
@@ -12374,6 +12378,7 @@ BOFOR
     <Point Name="SOSTU" Type="Fix">-253110.900+1524235.800</Point>
     <Point Name="SOTKI" Type="Fix">-335040.700+1551107.600</Point>
     <Point Name="SOVRA" Type="Fix">-193124.000-1772406.000</Point>
+    <Point Name="SOVRU" Type="Fix">-363206.000+1475042.000</Point>
     <Point Name="SP2WD" Type="Fix">-284139.400+1514434.100</Point>
     <Point Name="SP2WE" Type="Fix">-283652.600+1514056.500</Point>
     <Point Name="SP2WF" Type="Fix">-283705.100+1515218.100</Point>
@@ -12489,8 +12494,6 @@ BOFOR
     <Point Name="STWWH" Type="Fix">-310607.500+1505232.900</Point>
     <Point Name="STWWI" Type="Fix">-305715.400+1504127.900</Point>
     <Point Name="STWWM" Type="Fix">-310404.800+1504959.300</Point>
-    <Point Name="SU410" Type="Fix">-262558.900+1531349.100</Point>
-    <Point Name="SU420" Type="Fix">-262630.500+1530652.000</Point>
     <Point Name="SU430" Type="Fix">-262712.500+1530343.300</Point>
     <Point Name="SU440" Type="Fix">-263158.000+1530152.500</Point>
     <Point Name="SU450" Type="Fix">-263722.600+1530631.000</Point>
@@ -13223,6 +13226,7 @@ BOFOR
     <Point Name="VIDIT" Type="Fix">-330630.900+1380452.800</Point>
     <Point Name="VIDUM" Type="Fix">-282433.500+1534906.200</Point>
     <Point Name="VIGUT" Type="Fix">-292938.600+1504912.600</Point>
+    <Point Name="VIKIL" Type="Fix">-262558.900+1531349.100</Point>
     <Point Name="VIKIS" Type="Fix">-315055.100+1155930.200</Point>
     <Point Name="VIKUV" Type="Fix">-122127.100+1305826.300</Point>
     <Point Name="VILAD" Type="Fix">-342331.700+1392059.100</Point>
@@ -13806,17 +13810,17 @@ BOFOR
     <Point Name="YM2WH" Type="Fix">-153139.300+1281102.000</Point>
     <Point Name="YM2WI" Type="Fix">-152310.600+1275811.800</Point>
     <Point Name="YM2WM" Type="Fix">-152957.700+1280827.900</Point>
-    <Point Name="YNGND" Type="Fix">-340132.300+1481349.200</Point>
-    <Point Name="YNGNE" Type="Fix">-340013.500+1481937.400</Point>
-    <Point Name="YNGNF" Type="Fix">-340954.700+1481633.000</Point>
-    <Point Name="YNGNG" Type="Fix">-340436.700+1482405.000</Point>
-    <Point Name="YNGNH" Type="Fix">-341739.600+1481405.200</Point>
-    <Point Name="YNGNI" Type="Fix">-340504.100+1481805.300</Point>
-    <Point Name="YNGSB" Type="Fix">-343026.600+1481000.700</Point>
-    <Point Name="YNGSC" Type="Fix">-342827.400+1481631.400</Point>
-    <Point Name="YNGSF" Type="Fix">-342045.500+1481306.000</Point>
-    <Point Name="YNGSH" Type="Fix">-341300.600+1481534.000</Point>
-    <Point Name="YNGSI" Type="Fix">-342536.000+1481133.400</Point>
+    <Point Name="YN2ND" Type="Fix">-340132.300+1481349.200</Point>
+    <Point Name="YN2NE" Type="Fix">-340013.500+1481937.400</Point>
+    <Point Name="YN2NF" Type="Fix">-340954.700+1481633.000</Point>
+    <Point Name="YN2NG" Type="Fix">-340436.700+1482405.000</Point>
+    <Point Name="YN2NH" Type="Fix">-341739.600+1481405.200</Point>
+    <Point Name="YN2NI" Type="Fix">-340504.100+1481805.300</Point>
+    <Point Name="YN2SB" Type="Fix">-343026.600+1481000.700</Point>
+    <Point Name="YN2SC" Type="Fix">-342827.400+1481631.400</Point>
+    <Point Name="YN2SF" Type="Fix">-342045.500+1481306.000</Point>
+    <Point Name="YN2SH" Type="Fix">-341300.600+1481534.000</Point>
+    <Point Name="YN2SI" Type="Fix">-342536.000+1481133.400</Point>
     <Point Name="YOGGI" Type="Fix">-323309.000+1515350.400</Point>
     <Point Name="YOKRA" Type="Fix">-300447.100+1191933.600</Point>
     <Point Name="YORKE" Type="Fix">-345441.500+1373648.200</Point>
@@ -13879,11 +13883,13 @@ BOFOR
     <Point Name="ZW2EB" Type="Fix">-300532.300+1194036.380</Point>
     <Point Name="ZW2EC" Type="Fix">-300921.450+1193539.750</Point>
     <Point Name="ZW2EF" Type="Fix">-300313.150+1192923.640</Point>
+    <Point Name="ZW2EH" Type="Fix">-300121.900+1192025.600</Point>
     <Point Name="ZW2EI" Type="Fix">-300422.900+1193459.700</Point>
     <Point Name="ZW2WD" Type="Fix">-300341.040+1190817.710</Point>
     <Point Name="ZW2WE" Type="Fix">-295820.210+1190552.020</Point>
     <Point Name="ZW2WF" Type="Fix">-300039.830+1191704.090</Point>
     <Point Name="ZW2WG" Type="Fix">-295431.280+1191048.350</Point>
+    <Point Name="ZW2WH" Type="Fix">-300231.300+1192602.000</Point>
     <Point Name="ZW2WI" Type="Fix">-295930.020+1191128.020</Point>
     <Point Name="ZWEKY" Type="Fix">-114705.400+1304157.000</Point>
     <Point Name="ABKL" Type="Fix">-174419.000+1224407.000</Point>
@@ -15043,7 +15049,7 @@ BOFOR
     <Point Name="WP" Type="Navaid" NavaidType="NDB" Frequency="377.000">-123941.900+1415355.700</Point>
     <Point Name="WR" Type="Navaid" NavaidType="NDB" Frequency="248.000">-310836.500+1364829.700</Point>
     <Point Name="WYY" Type="Navaid" NavaidType="NDB" Frequency="302.000">-405952.700+1454229.600</Point>
-    <Point Name="AMB" Type="Navaid" NavaidType="TAC" Frequency="108.100">-273829.500+1524258.000</Point>
+    <Point Name="AMB" Type="Navaid" NavaidType="TAC" Frequency="110.300">-273829.500+1524258.000</Point>
     <Point Name="CTN" Type="Navaid" NavaidType="TAC" Frequency="000.000">-173440.700+1234945.400</Point>
     <Point Name="DAR" Type="Navaid" NavaidType="TAC" Frequency="113.700">-122449.400+1305259.700</Point>
     <Point Name="EDN" Type="Navaid" NavaidType="TAC" Frequency="110.300">-344217.100+1383644.600</Point>
@@ -15207,7 +15213,7 @@ BOFOR
     <Point Name="TL07T" Type="Fix">-191520.910+1464519.960</Point>
     <Point Name="TL19T" Type="Fix">-191417.530+1464627.180</Point>
     <Point Name="TL25T" Type="Fix">-191511.060+1464556.070</Point>
-    <Point Name="TN14T" Type="Fix">-143043.910+1322207.890</Point>
+    <Point Name="TN14T" Type="Fix">-143051.200+1322214.410</Point>
     <Point Name="TN32T" Type="Fix">-143151.160+1322308.100</Point>
     <Point Name="TW06T" Type="Fix">-310459.410+1505034.460</Point>
     <Point Name="TW12L" Type="Fix">-310415.780+1505013.110</Point>
@@ -15464,8 +15470,8 @@ BOFOR
       <Route Runway="15" />
       <Route Runway="33" />
     </SID>
-    <SID Name="TARES3" Airport="YBRK" Runways="15,33">
-      <Route Runway="15">ADLOS/MUGLU/IPNET/TARES</Route>
+    <SID Name="TARES4" Airport="YBRK" Runways="15,33">
+      <Route Runway="15">ADLOS/MUGLU/DORNU/IPNET/TARES</Route>
       <Route Runway="33">JITRA/IPNET/TARES</Route>
     </SID>
     <SID Name="ASINO1" Airport="YBRM" Runways="10">
@@ -15749,7 +15755,7 @@ BOFOR
       <Route Runway="24R">SCARP</Route>
       <Route Runway="30">SCARP</Route>
     </SID>
-    <SID Name="TONEG2" Airport="YPJT" Runways="06L,12,24R,30">
+    <SID Name="TONEG3" Airport="YPJT" Runways="06L,12,24R,30">
       <Route Runway="06L">TONEG</Route>
       <Route Runway="12">TONEG</Route>
       <Route Runway="24R">TONEG</Route>
@@ -16283,11 +16289,11 @@ BOFOR
       <Route Runway="15">DADBO/DADIS/GOKUN</Route>
       <Route Runway="33">DADBO/SARUS</Route>
     </STAR>
-    <STAR Name="ITID1W" Airport="YBSU" Runways="13,31">
-      <Route Runway="13">ITIDE/BUKRA</Route>
+    <STAR Name="ITID2W" Airport="YBSU" Runways="13,31">
+      <Route Runway="13">ITIDE/BUKRA/VIKIL/OMDUN</Route>
       <Route Runway="31">ITIDE/AKERO/SAKAP</Route>
     </STAR>
-    <STAR Name="ITID1Z" Airport="YBSU" Runways="13,31">
+    <STAR Name="ITID2Z" Airport="YBSU" Runways="13,31">
       <Route Runway="13">ITIDE/BUKRA/DUKEL/METUK/UPLOT</Route>
       <Route Runway="31">ITIDE/GUVIX/OVRUL</Route>
     </STAR>
@@ -16782,18 +16788,18 @@ BOFOR
       <Transition Name="WG">WG VOR</Transition>
       <Route Runway="35">POLLI/GOMAN/HONEY/ANREP/KALKA</Route>
     </STAR>
-    <STAR Name="RAZI6A" Airport="YSCB" Runways="17,35">
+    <STAR Name="RAZI7A" Airport="YSCB" Runways="17,35">
       <Route Runway="17">RAZZI/GEORG/GOONY/TALAG</Route>
       <Route Runway="35">RAZZI/SLICK/FOXLO/GIBIL/MENZI</Route>
     </STAR>
-    <STAR Name="RAZI6V" Airport="YSCB" Runways="35">
+    <STAR Name="RAZI7V" Airport="YSCB" Runways="35">
       <Route Runway="35">RAZZI/SLICK/PILOS</Route>
     </STAR>
-    <STAR Name="RAZI6W" Airport="YSCB" Runways="17,35">
+    <STAR Name="RAZI7W" Airport="YSCB" Runways="17,35">
       <Route Runway="17">RAZZI/GEORG/GOONY/TALAG</Route>
       <Route Runway="35">RAZZI/SLICK/FOXLO</Route>
     </STAR>
-    <STAR Name="RAZI6Y" Airport="YSCB" Runways="17,35">
+    <STAR Name="RAZI7Y" Airport="YSCB" Runways="17,35">
       <Route Runway="17">RAZZI/GEORG/SAPIT</Route>
       <Route Runway="35">RAZZI/SLICK/BIBRU</Route>
     </STAR>
@@ -16972,8 +16978,7 @@ BOFOR
       <Route>BSZSI/BSZSF/BSZSM</Route>
     </Approach>
     <Approach Name="RNP-ARW" Airport="YBSU" Runway="13">
-      <Transition Name="BUKRA">BUKRA/SU410</Transition>
-      <Route>SU420/SU430/-26.465970+153.036729/-26.488144+153.021816/-26.514022+153.021285/-26.524716+153.025797/SU440/SU13T</Route>
+      <Route>OMDUN/SU430/-26.465970+153.036729/-26.488144+153.021816/-26.514022+153.021285/-26.524716+153.025797/SU440/SU13T</Route>
     </Approach>
     <Approach Name="RNP-ARW" Airport="YBSU" Runway="31">
       <Transition Name="SAKAP">SAKAP</Transition>
@@ -17643,6 +17648,8 @@ BOFOR
     <Airport ICAO="YCFS" FullName="Coffs Harbour" Position="-301914.000+1530659.000" Elevation="18">
       <Runway Name="03" Position="-302018.150+1530623.570" />
       <Runway Name="21" Position="-301926.950+1530714.360" />
+      <Runway Name="10" Position="-301900.400+1530655.220" />
+      <Runway Name="28" Position="-301907.350+1530721.230" />
     </Airport>
     <Airport ICAO="YCGO" FullName="Chillagoe" Position="-170827.000+1443142.000" Elevation="1123">
       <Runway Name="17" Position="-170800.450+1443142.210" />
@@ -18002,7 +18009,7 @@ BOFOR
       <Runway Name="10" Position="-113857.540+1332207.930" />
       <Runway Name="28" Position="-113904.970+1332252.890" />
     </Airport>
-    <Airport ICAO="YGBK" FullName="Glenbrook Hls" Position="-334542.000+1503810.000" />
+    <Airport ICAO="YGBK" FullName="Glenbrook Hls" Position="-334542.000+1503810.000" Elevation="645" />
     <Airport ICAO="YGDA" FullName="Goodooga" Position="-290424.000+1472234.000" Elevation="459">
       <Runway Name="12" Position="-290411.120+1472250.870" />
       <Runway Name="30" Position="-290433.010+1472319.660" />
@@ -18206,7 +18213,7 @@ BOFOR
     </Airport>
     <Airport ICAO="YHVF" FullName="Angaston/Hutton Vale" Position="-343059.000+1390631.000" />
     <Airport ICAO="YHYL" FullName="Hoyleton" Position="-340132.000+1383129.000" />
-    <Airport ICAO="YIBO" FullName="Iron Bridge Mine" Position="-211712.000+1185259.000" Elevation="665">
+    <Airport ICAO="YIBO" FullName="Iron Bridge Mine" Position="-211712.000+1185259.000" Elevation="666">
       <Runway Name="12" Position="-211655.080+1185213.320" />
       <Runway Name="30" Position="-211731.110+1185331.060" />
     </Airport>
@@ -18596,7 +18603,7 @@ BOFOR
       <Runway Name="12" Position="-424944.300+1473007.380" />
       <Runway Name="30" Position="-425044.080+1473128.550" />
     </Airport>
-    <Airport ICAO="YMHL" FullName="Mount Holland" Position="-320630.000+1194536.000" Elevation="1462">
+    <Airport ICAO="YMHL" FullName="Mount Holland" Position="-320630.000+1194536.000" Elevation="1476">
       <Runway Name="08" Position="-320636.250+1194506.260" />
       <Runway Name="26" Position="-320631.500+1194607.000" />
     </Airport>
@@ -19099,7 +19106,7 @@ BOFOR
     <Airport ICAO="YPTB" FullName="Peterborough" Position="-330018.000+1385054.000" Elevation="1838" />
     <Airport ICAO="YPTG" FullName="Port George" Position="-152300.000+1244000.000" />
     <Airport ICAO="YPTN" FullName="Tindal" Position="-143116.000+1322240.000" Elevation="443">
-      <Runway Name="14" Position="-143043.910+1322207.890" />
+      <Runway Name="14" Position="-143051.200+1322214.410" />
       <Runway Name="32" Position="-143151.160+1322308.100" />
     </Airport>
     <Airport ICAO="YPTT" FullName="Pernatty" Position="-312900.000+1372900.000" />
@@ -19493,7 +19500,7 @@ BOFOR
       <Runway Name="36" Position="-354855.590+1453613.830" />
     </Airport>
     <Airport ICAO="YTOO" FullName="Maryland Too" Position="-332212.000+1205254.000" />
-    <Airport ICAO="YTOT" FullName="Tottenham" Position="-321522.000+1472208.000" Elevation="780" />
+    <Airport ICAO="YTOT" FullName="Tottenham" Position="-321522.000+1472208.000" Elevation="793" />
     <Airport ICAO="YTPK" FullName="Turtle Park" Position="-211230.000+1485842.000" Elevation="120" />
     <Airport ICAO="YTPL" FullName="Toopuntul" Position="-342103.000+1440400.000" />
     <Airport ICAO="YTQY" FullName="Torquay" Position="-381800.000+1442154.000" Elevation="30" />
@@ -19509,7 +19516,7 @@ BOFOR
     </Airport>
     <Airport ICAO="YTRG" FullName="Traeger" Position="-301234.000+1351352.000" />
     <Airport ICAO="YTRS" FullName="Three Rocks" Position="-205601.000+1494507.000" />
-    <Airport ICAO="YTST" FullName="Truscott-Mungalalu" Position="-140523.000+1262251.000" Elevation="181">
+    <Airport ICAO="YTST" FullName="Truscott-Mungalalu" Position="-140523.000+1262251.000" Elevation="180">
       <Runway Name="12" Position="-140457.220+1262224.890" />
       <Runway Name="30" Position="-140533.540+1262311.930" />
     </Airport>
