@@ -12,7 +12,10 @@
   </Sector>
   <Sector FullName="Armidale" Frequency="130.900" Callsign="BN-ARL_CTR" Name="ARL">
     <Volumes>ARL</Volumes>
-    <ResponsibleSectors>MDE,MLD,OCN</ResponsibleSectors>
+    <ResponsibleSectors>MDE,MLD,OCN,MNN,CNK</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Cessnock" Frequency="123.400" Callsign="BN-CNK_CTR" Name="CNK">
+    <Volumes>CNK</Volumes>
   </Sector>
   <Sector FullName="Augusta" Frequency="127.050" Callsign="ML-AUG_CTR" Name="AUG">
     <Volumes>AUG</Volumes>
@@ -78,8 +81,11 @@
     <Volumes>HYD</Volumes>
   </Sector>
   <Sector FullName="Inverell" Frequency="134.200" Callsign="BN-INL_CTR" Name="INL">
-    <Volumes>INL_A,INLBNTMA,INLGCATMA,INLGCBTMA</Volumes>
-    <ResponsibleSectors>CVN,KPL,DOS,SDY,BUR</ResponsibleSectors>
+    <Volumes>INL</Volumes>
+    <ResponsibleSectors>CVN,KPL,DOS,SDY,BUR,GOL</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Gold Coast" Frequency="130.400" Callsign="BN-GOL_CTR" Name="GOL">
+    <Volumes>GOL,INLBNTMA,INLGCATMA,INLGCBTMA</Volumes>
   </Sector>
   <Sector FullName="Isa" Frequency="125.200" Callsign="BN-ISA_CTR" Name="ISA">
     <Volumes>ISA</Volumes>
@@ -115,6 +121,10 @@
   </Sector>
   <Sector FullName="Leeman" Frequency="122.400" Callsign="ML-LEA_CTR" Name="LEA">
     <Volumes>LEA</Volumes>
+  </Sector>
+  <Sector FullName="Manning" Frequency="130.100" Callsign="BN-MNN_CTR" Name="MNN">
+    <Volumes>MNN</Volumes>
+    <ResponsibleSectors>MLD</ResponsibleSectors>
   </Sector>
   <Sector FullName="Maitland" Frequency="132.350" Callsign="BN-MLD_CTR" Name="MLD">
     <Volumes>MLD</Volumes>
