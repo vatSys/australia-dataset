@@ -35,7 +35,7 @@
     <Volumes>BKE</Volumes>
   </Sector>
   <Sector FullName="Burnett" Frequency="123.000" Callsign="BN-BUR_CTR" Name="BUR">
-    <Volumes>BUR</Volumes>
+    <Volumes>BUR,BUR_BN_CAP</Volumes>
   </Sector>
   <Sector FullName="Carnarvon" Frequency="133.800" Callsign="BN-CVN_CTR" Name="CVN">
     <Volumes>CVN</Volumes>
@@ -85,7 +85,7 @@
     <ResponsibleSectors>CVN,KPL,DOS,SDY,BUR,GOL</ResponsibleSectors>
   </Sector>
   <Sector FullName="Gold Coast" Frequency="130.400" Callsign="BN-GOL_CTR" Name="GOL">
-    <Volumes>GOL,GOL_BN_CAP</Volumes>
+    <Volumes>GOLD_COAST_A,GOLD_COAST_B,GOLD_COAST_C,GOLD_COAST_D,GOLD_COAST_E,GOLD_COAST_F,GRAFTON_E</Volumes>
   </Sector>
   <Sector FullName="Isa" Frequency="125.200" Callsign="BN-ISA_CTR" Name="ISA">
     <Volumes>ISA</Volumes>
@@ -349,7 +349,7 @@
   <Sector FullName="East Sale Approach" Frequency="123.300" Callsign="ES_APP" Name="ESA">
     <Volumes>ESA</Volumes>
   </Sector>
-  <Sector FullName="Gold Coast Approach" Frequency="123.500" Callsign="CG_APP" Name="BAG">
+  <Sector FullName="Brisbane Approach Gold Coast" Frequency="123.500" Callsign="BN-C_APP" Name="BAG">
     <Volumes>BAG_NORTH,BAG_SOUTH</Volumes>
   </Sector>
   <Sector FullName="Hobart Approach" Frequency="125.550" Callsign="HB_APP" Name="HBA">
