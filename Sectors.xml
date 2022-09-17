@@ -37,6 +37,9 @@
   <Sector FullName="Burnett" Frequency="123.000" Callsign="BN-BUR_CTR" Name="BUR">
     <Volumes>BUR,BUR_BN_CAP</Volumes>
   </Sector>
+  <Sector FullName="Noosa" Frequency="124.100" Callsign="BN-NSA_CTR" Name="NSA">
+    <Volumes>NSA,NSA_BN_CAP</Volumes>
+  </Sector>
   <Sector FullName="Carnarvon" Frequency="133.800" Callsign="BN-CVN_CTR" Name="CVN">
     <Volumes>CVN</Volumes>
   </Sector>
@@ -82,7 +85,7 @@
   </Sector>
   <Sector FullName="Inverell" Frequency="134.200" Callsign="BN-INL_CTR" Name="INL">
     <Volumes>INL</Volumes>
-    <ResponsibleSectors>CVN,KPL,DOS,SDY,BUR,GOL</ResponsibleSectors>
+    <ResponsibleSectors>CVN,KPL,DOS,SDY,BUR,GOL,NSA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Gold Coast" Frequency="130.400" Callsign="BN-GOL_CTR" Name="GOL">
     <Volumes>GOLD_COAST_A,GOLD_COAST_B,GOLD_COAST_C,GOLD_COAST_D,GOLD_COAST_E,GOLD_COAST_F,GRAFTON_E</Volumes>
