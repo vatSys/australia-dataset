@@ -76,16 +76,18 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Mt Isa" Type="ASD" DefaultCenter="-2205.280+14142.600" DefaultRange="1770">
+  <Position Name="Mt Isa" Type="ASD" DefaultCenter="-194924.2967+1405500.9521" DefaultRange="2751" VisibilityRange="600">
     <Sectors>
       <Sector Name="ISA" />
       <Sector Name="WEG" />
+      <Sector Name="ARA" />
+      <Sector Name="STR" />
     </Sectors>
     <ManualVisibility>
-      <Point>-22.088+141.710</Point>
-      <Point>-31.091+149.719</Point>
-      <Point>-22.162+151.836</Point>
-      <Point>-17.386+142.007</Point>
+      <Point>-152747.6868+1234623.9905</Point>
+      <Point>-152103.1805+1362648.3435</Point>
+      <Point>-203937.2766+1464854.3384</Point>
+      <Point>-272304.1469+1543929.8608</Point>
     </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -150,43 +152,10 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Arafura" Type="ASD" DefaultCenter="-1200.000+14050.000" DefaultRange="1600">
-    <Sectors>
-      <Sector Name="ARA" />
-    </Sectors>
-    <ManualVisibility>
-      <Point>-11.992+140.829</Point>
-      <Point>-10.089+133.551</Point>
-      <Point>-13.260+146.426</Point>
-      <Point>-18.060+148.020</Point>
-    </ManualVisibility>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="ALL_NAVAIDS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="ALL_POINTS_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="25000" />
-    <ControllerInfo>
-      <Line>Brisbane Centre</Line>
-      <Line>Charts - vats.im/pac/charts</Line>
-      <Line>ATC feedback - helpdesk.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
   <Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="2000">
     <Sectors>
       <Sector Name="TRT" />
       <Sector Name="KIY" />
-      <Sector Name="STR" />
     </Sectors>
     <ManualVisibility>
       <Point>-16.000+126.986</Point>
