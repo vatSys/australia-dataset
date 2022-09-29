@@ -6,6 +6,8 @@
       <Sector Name="MDE" />
       <Sector Name="MLD" />
       <Sector Name="OCN" />
+      <Sector Name="CNK" />
+      <Sector Name="MNN" />
     </Sectors>
     <ManualVisibility>
       <Point>-32.405+150.710</Point>
@@ -66,7 +68,6 @@
     <ArrivalLists>
       <Airport Name="YMHB" />
       <Airport Name="YMLT" />
-      <Airport Name="YMML" />
     </ArrivalLists>
     <ControllerInfo>
       <Line>Melbourne Centre</Line>
@@ -74,16 +75,18 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Mt Isa" Type="ASD" DefaultCenter="-2205.280+14142.600" DefaultRange="1770">
+  <Position Name="Mt Isa" Type="ASD" DefaultCenter="-194924.2967+1405500.9521" DefaultRange="2751" VisibilityRange="600">
     <Sectors>
       <Sector Name="ISA" />
       <Sector Name="WEG" />
+      <Sector Name="ARA" />
+      <Sector Name="STR" />
     </Sectors>
     <ManualVisibility>
-      <Point>-22.088+141.710</Point>
-      <Point>-31.091+149.719</Point>
-      <Point>-22.162+151.836</Point>
-      <Point>-17.386+142.007</Point>
+      <Point>-152747.6868+1234623.9905</Point>
+      <Point>-152103.1805+1362648.3435</Point>
+      <Point>-203937.2766+1464854.3384</Point>
+      <Point>-272304.1469+1543929.8608</Point>
     </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -115,6 +118,13 @@
       <Sector Name="KPL" />
       <Sector Name="BUR" />
       <Sector Name="SDY" />
+      <Sector Name="GOL" />
+      <Sector Name="NSA" />
+      <Sector Name="BAN" />
+      <Sector Name="BAS" />
+      <Sector Name="BDN" />
+      <Sector Name="BDS" />
+      <Sector Name="BAG" />
     </Sectors>
     <ManualVisibility>
       <Point>-25.725+150.343</Point>
@@ -147,43 +157,11 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Arafura" Type="ASD" DefaultCenter="-1200.000+14050.000" DefaultRange="1600">
-    <Sectors>
-      <Sector Name="ARA" />
-    </Sectors>
-    <ManualVisibility>
-      <Point>-11.992+140.829</Point>
-      <Point>-10.089+133.551</Point>
-      <Point>-13.260+146.426</Point>
-      <Point>-18.060+148.020</Point>
-    </ManualVisibility>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="ALL_NAVAIDS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="ALL_POINTS_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="25000" />
-    <ControllerInfo>
-      <Line>Brisbane Centre</Line>
-      <Line>Charts - vats.im/pac/charts</Line>
-      <Line>ATC feedback - helpdesk.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
   <Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="2000">
     <Sectors>
       <Sector Name="TRT" />
       <Sector Name="KIY" />
-      <Sector Name="STR" />
+      <Sector Name="DNA" />
     </Sectors>
     <ManualVisibility>
       <Point>-16.000+126.986</Point>
@@ -266,6 +244,9 @@
       <Sector Name="LEA" />
       <Sector Name="GEL" />
       <Sector Name="MZI" />
+      <Sector Name="PHD" />
+      <Sector Name="PHA" />
+      <Sector Name="PEA" />
     </Sectors>
     <ManualVisibility>
       <Point>-32.999+119.788</Point>
@@ -341,6 +322,8 @@
       <Sector Name="TBP" />
       <Sector Name="SWY" />
       <Sector Name="BAR" />
+      <Sector Name="CSA" />
+      <Sector Name="CSD" />
     </Sectors>
     <ManualVisibility>
       <Point>-18.565+147.837</Point>
@@ -380,6 +363,9 @@
       <Sector Name="MUN" />
       <Sector Name="OXL" />
       <Sector Name="BKE" />
+      <Sector Name="YWE" />
+      <Sector Name="AAE" />
+      <Sector Name="AAW" />
     </Sectors>
     <ManualVisibility>
       <Point>-33.293+141.617</Point>
@@ -416,9 +402,13 @@
     <Sectors>
       <Sector Name="ELW" />
       <Sector Name="SNO" />
-      <Sector Name="YWE" />
       <Sector Name="WON" />
       <Sector Name="BLA" />
+      <Sector Name="CAE" />
+      <Sector Name="CAW" />
+      <Sector Name="MDS" />
+      <Sector Name="MDN" />
+      <Sector Name="MAE" />
     </Sectors>
     <ManualVisibility>
       <Point>-33.293+141.617</Point>
@@ -457,6 +447,13 @@
       <Sector Name="WOL" />
       <Sector Name="KAT" />
       <Sector Name="GTH" />
+      <Sector Name="GUN" />
+      <Sector Name="SAN" />
+      <Sector Name="SAS" />
+      <Sector Name="SDS" />
+      <Sector Name="SDN" />
+      <Sector Name="SFW" />
+      <Sector Name="SFE" />
     </Sectors>
     <ManualVisibility>
       <Point>-33.293+141.617</Point>
@@ -1745,62 +1742,39 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Hobart TCU" Type="ASD" DefaultCenter="-42.597500+147.588889" DefaultRange="230" VisibilityRange="100" MagneticVariation="-15.3">
+    <Position Name="Tasmania TCU" Type="ASD" DefaultCenter="-421229.8444+1471902.7979" DefaultRange="319" VisibilityRange="150" MagneticVariation="-14.8">
       <Sectors>
         <Sector Name="HBA" />
+        <Sector Name="LTA" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Hobart/HB_COAST" />
         <Map Name="Hobart/HB_TCU" />
         <Map Name="Hobart/HB_RWY12" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YMHB" Frequency="128.45" />
-        <Window Airport="YMHB" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YMHB" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="24000">
-        <AdditionalLevels>3700,4200,5600</AdditionalLevels>
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="YMHB" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Hobart Approach</Line>
-        <Line>ATIS available on 128.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Launceston TCU" Type="ASD" DefaultCenter="-41.545278+147.214167" DefaultRange="165" MagneticVariation="-14.4">
-      <Sectors>
-        <Sector Name="LTA" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
         <Map Name="Launceston/LT_COAST" />
         <Map Name="Launceston/LT_TCU" />
         <Map Name="Launceston/LT_RWY32L" />
       </Maps>
       <ATIS>
-        <Editor Airport="YMLT" Frequency="134.75" />
-        <Window Airport="YMLT" />
+        <Editor Airport="YMHB" Frequency="128.45" />
+        <Window Airport="YMHB" />
+        <Window Airport="YMAV" />
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YMHB" Visible="true" />
         <Window Type="ADEP" Beacon="YMLT" Visible="true" />
       </Strips>
       <CFL QuickLevel="24000">
-        <AdditionalLevels>3200,5100,5800,6300</AdditionalLevels>
+        <AdditionalLevels>3200,3700,4200,5100,5600,5800,6300</AdditionalLevels>
       </CFL>
       <ArrivalLists>
+        <Airport Name="YMHB" />
         <Airport Name="YMLT" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Launy Approach</Line>
-        <Line>ATIS available on 134.75</Line>
+        <Line>Hobart/Launceston Approach</Line>
+        <Line>ATIS available on 128.45 (HB) and 134.75 (LT)</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
