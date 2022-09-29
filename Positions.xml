@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Position Name="Armidale" Type="ASD" DefaultCenter="-3233.200+15056.266" DefaultRange="950">
+  <Position Name="Armidale" Type="ASD" DefaultCenter="-3233.200+15056.266" DefaultRange="950" VisibilityRange="600">
     <Sectors>
       <Sector Name="ARL" />
       <Sector Name="MDE" />
@@ -40,7 +40,7 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Huon" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="800">
+  <Position Name="Huon" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="800" VisibilityRange="600">
     <Sectors>
       <Sector Name="HUO" />
     </Sectors>
@@ -81,6 +81,7 @@
       <Sector Name="WEG" />
       <Sector Name="ARA" />
       <Sector Name="STR" />
+      <Sector Name="CVN" />
     </Sectors>
     <ManualVisibility>
       <Point>-152747.6868+1234623.9905</Point>
@@ -110,11 +111,10 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Inverell" Type="ASD" DefaultCenter="-2625.000+15060.000" DefaultRange="1200">
+  <Position Name="Inverell" Type="ASD" DefaultCenter="-2625.000+15060.000" DefaultRange="1200" VisibilityRange="600">
     <Sectors>
       <Sector Name="INL" />
       <Sector Name="DOS" />
-      <Sector Name="CVN" />
       <Sector Name="KPL" />
       <Sector Name="BUR" />
       <Sector Name="SDY" />
@@ -157,7 +157,7 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="2000">
+  <Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="2000" VisibilityRange="600">
     <Sectors>
       <Sector Name="TRT" />
       <Sector Name="KIY" />
@@ -194,19 +194,21 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Alice Springs" Type="ASD" DefaultCenter="-314420.0+1320806.0" DefaultRange="2610">
+  <Position Name="Alice Springs" Type="ASD" DefaultCenter="-302041.5031+1342547.7539" DefaultRange="2610" VisibilityRange="600">
     <Sectors>
       <Sector Name="ASP" />
       <Sector Name="ASW" />
       <Sector Name="WAR" />
+      <Sector Name="BKE" />
       <Sector Name="FOR" />
       <Sector Name="WRA" />
+      <Sector Name="ESP" />
     </Sectors>
     <ManualVisibility>
-      <Point>-26.549+130.062</Point>
-      <Point>-26.812+136.693</Point>
-      <Point>-32.714+128.966</Point>
-      <Point>-37.440+136.910</Point>
+      <Point>-270442.0946+1175658.5059</Point>
+      <Point>-290512.410+1264202.2137</Point>
+      <Point>-302918.4442+1332130.6189</Point>
+      <Point>-360329.0012+1424738.5877</Point>
     </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -233,17 +235,15 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Pingelly" Type="ASD" DefaultCenter="-3200.000+11850.000" DefaultRange="1350">
+  <Position Name="Pingelly" Type="ASD" DefaultCenter="-3200.000+11850.000" DefaultRange="1350" VisibilityRange="600">
     <Sectors>
       <Sector Name="PIY" />
-      <Sector Name="ESP" />
       <Sector Name="JAR" />
       <Sector Name="HYD" />
       <Sector Name="CRS" />
       <Sector Name="GVE" />
       <Sector Name="LEA" />
       <Sector Name="GEL" />
-      <Sector Name="MZI" />
       <Sector Name="PHD" />
       <Sector Name="PHA" />
       <Sector Name="PEA" />
@@ -279,7 +279,7 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Onslow" Type="ASD" DefaultCenter="-2350.000+11900.000" DefaultRange="1600">
+  <Position Name="Onslow" Type="ASD" DefaultCenter="-243721.9113+1183247.2943" DefaultRange="1800" VisibilityRange="600">
     <Sectors>
       <Sector Name="OLW" />
       <Sector Name="POT" />
@@ -287,6 +287,7 @@
       <Sector Name="PAR" />
       <Sector Name="NEW" />
       <Sector Name="MTK" />
+      <Sector Name="MZI" />
     </Sectors>
     <ManualVisibility>
       <Point>-32.999+119.788</Point>
@@ -316,7 +317,7 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Kennedy" Type="ASD" DefaultCenter="-1850.000+14800.000" DefaultRange="1100">
+  <Position Name="Kennedy" Type="ASD" DefaultCenter="-1850.000+14800.000" DefaultRange="1100" VisibilityRange="600">
     <Sectors>
       <Sector Name="KEN" />
       <Sector Name="TBP" />
@@ -356,21 +357,18 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Tailem Bend" Type="ASD" DefaultCenter="-3327.100+14240.466" DefaultRange="1620">
+  <Position Name="Tailem Bend" Type="ASD" DefaultCenter="-343343.9975+1374743.4216" DefaultRange="800" VisibilityRange="600">
     <Sectors>
       <Sector Name="TBD" />
       <Sector Name="AUG" />
-      <Sector Name="MUN" />
-      <Sector Name="OXL" />
-      <Sector Name="BKE" />
-      <Sector Name="YWE" />
       <Sector Name="AAE" />
       <Sector Name="AAW" />
     </Sectors>
     <ManualVisibility>
-      <Point>-33.293+141.617</Point>
-      <Point>-38.600+145.876</Point>
-      <Point>-32.691+150.237</Point>
+      <Point>-270442.0946+1175658.5059</Point>
+      <Point>-290512.410+1264202.2137</Point>
+      <Point>-302918.4442+1332130.6189</Point>
+      <Point>-360329.0012+1424738.5877</Point>
     </ManualVisibility>
     <Maps>
       <Map Name="ALL_CTA" />
@@ -398,11 +396,10 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Eildon Weir" Type="ASD" DefaultCenter="-3728.766+14725.083" DefaultRange="800">
+  <Position Name="Eildon Weir" Type="ASD" DefaultCenter="-371932.1176+1474022.0459" DefaultRange="700" VisibilityRange="600">
     <Sectors>
       <Sector Name="ELW" />
       <Sector Name="SNO" />
-      <Sector Name="WON" />
       <Sector Name="BLA" />
       <Sector Name="CAE" />
       <Sector Name="CAW" />
@@ -441,12 +438,51 @@
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
   </Position>
-  <Position Name="Bindook" Type="ASD" DefaultCenter="-342906.0+1490734.0" DefaultRange="700">
+  <Position Name="Yarrowee" Type="ASD" DefaultCenter="-353339.8227+1451131.8091" DefaultRange="1000" VisibilityRange="600">
+    <Sectors>
+      <Sector Name="YWE" />
+      <Sector Name="WON" />
+      <Sector Name="MUN" />
+      <Sector Name="OXL" />
+      <Sector Name="GTH" />
+      <Sector Name="KAT" />
+    </Sectors>
+    <ManualVisibility>
+      <Point>-300442.431+1322101.2305</Point>
+      <Point>-370345.000+1403044.7693</Point>
+      <Point>-383518.8782+1455829.7473</Point>
+      <Point>-324203.7518+1501444.2346</Point>
+    </ManualVisibility>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="ALL_SECTORS" />
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="COAST_ALL" />
+      <Map Name="ALL_ROUTES_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="UPPER_SECTOR_FREQS" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="9000" />
+    <ArrivalLists>
+      <Airport Name="YPAD" />
+      <Airport Name="YMML" />
+    </ArrivalLists>
+    <ControllerInfo>
+      <Line>Melbourne Centre</Line>
+      <Line>Charts - vats.im/pac/charts</Line>
+      <Line>ATC feedback - helpdesk.vatpac.org</Line>
+    </ControllerInfo>
+  </Position>
+  <Position Name="Bindook" Type="ASD" DefaultCenter="-344958.4436+1501835.7166" DefaultRange="600" VisibilityRange="600">
     <Sectors>
       <Sector Name="BIK" />
       <Sector Name="WOL" />
-      <Sector Name="KAT" />
-      <Sector Name="GTH" />
       <Sector Name="GUN" />
       <Sector Name="SAN" />
       <Sector Name="SAS" />

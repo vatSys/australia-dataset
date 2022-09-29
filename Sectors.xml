@@ -2,7 +2,7 @@
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="Alice Springs" Frequency="128.850" Callsign="ML-ASP_CTR" Name="ASP">
     <Volumes>ASP</Volumes>
-    <ResponsibleSectors>FOR,WAR,ASW,WRA</ResponsibleSectors>
+    <ResponsibleSectors>FOR,WAR,ASW,WRA,BKE,ESP</ResponsibleSectors>
   </Sector>
   <Sector FullName="Alice Springs West" Frequency="131.800" Callsign="ML-ASW_CTR" Name="ASW">
     <Volumes>ASW</Volumes>
@@ -29,7 +29,7 @@
   </Sector>
   <Sector FullName="Bindook" Frequency="129.800" Callsign="ML-BIK_CTR" Name="BIK">
     <Volumes>BIK,BIKTMA</Volumes>
-    <ResponsibleSectors>WOL,KAT,GTH,GUN,SAN</ResponsibleSectors>
+    <ResponsibleSectors>WOL,GUN,SAN</ResponsibleSectors>
   </Sector>
   <Sector FullName="Bourke" Frequency="128.200" Callsign="ML-BKE_CTR" Name="BKE">
     <Volumes>BKE</Volumes>
@@ -58,7 +58,7 @@
   </Sector>
   <Sector FullName="Eildon Weir" Frequency="123.750" Callsign="ML-ELW_CTR" Name="ELW">
     <Volumes>ELW,ELW_ML_CAP</Volumes>
-    <ResponsibleSectors>SNO,WON,BLA,MDN,MDS,MAE</ResponsibleSectors>
+    <ResponsibleSectors>SNO,BLA,MDN,MDS,MAE</ResponsibleSectors>
   </Sector>
   <Sector FullName="Esperance" Frequency="123.950" Callsign="ML-ESP_CTR" Name="ESP">
     <Volumes>ESP</Volumes>
@@ -86,14 +86,14 @@
   </Sector>
   <Sector FullName="Inverell" Frequency="134.200" Callsign="BN-INL_CTR" Name="INL">
     <Volumes>INL</Volumes>
-    <ResponsibleSectors>CVN,KPL,DOS,SDY,BUR,GOL,NSA</ResponsibleSectors>
+    <ResponsibleSectors>KPL,DOS,SDY,BUR,GOL,NSA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Gold Coast" Frequency="130.400" Callsign="BN-GOL_CTR" Name="GOL">
     <Volumes>GOLD_COAST_A,GOLD_COAST_B,GOLD_COAST_C,GOLD_COAST_D,GOLD_COAST_E,GOLD_COAST_F,GRAFTON_E</Volumes>
   </Sector>
   <Sector FullName="Isa" Frequency="125.200" Callsign="BN-ISA_CTR" Name="ISA">
     <Volumes>ISA</Volumes>
-    <ResponsibleSectors>WEG,ARA,STR</ResponsibleSectors>
+    <ResponsibleSectors>WEG,ARA,STR,CVN</ResponsibleSectors>
   </Sector>
   <Sector FullName="Jakarta Control" Frequency="132.300" Callsign="WIIF_CTR" Name="WIIF" DisplayInSectorsWindow="False">
     <Volumes>WIIF</Volumes>
@@ -163,7 +163,7 @@
   </Sector>
   <Sector FullName="Onslow" Frequency="134.000" Callsign="ML-OLW_CTR" Name="OLW">
     <Volumes>OLW</Volumes>
-    <ResponsibleSectors>POT,PAR,MEK,MTK,NEW</ResponsibleSectors>
+    <ResponsibleSectors>POT,PAR,MEK,MTK,NEW,MZI</ResponsibleSectors>
   </Sector>
   <Sector FullName="Oxley" Frequency="128.500" Callsign="ML-OXL_CTR" Name="OXL">
     <Volumes>OXL</Volumes>
@@ -173,7 +173,7 @@
   </Sector>
   <Sector FullName="Pingelly" Frequency="133.900" Callsign="ML-PIY_CTR" Name="PIY">
     <Volumes>PIY,PIYTMA</Volumes>
-    <ResponsibleSectors>JAR,HYD,CRS,GVE,ESP,GEL,LEA,MZI,PHD,PHA,PEA</ResponsibleSectors>
+    <ResponsibleSectors>JAR,HYD,CRS,GVE,GEL,LEA,PHD,PHA,PEA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Port" Frequency="127.000" Callsign="ML-POT_CTR" Name="POT">
     <Volumes>POT</Volumes>
@@ -201,7 +201,7 @@
   </Sector>
   <Sector FullName="Tailem Bend" Frequency="123.050" Callsign="ML-TBD_CTR" Name="TBD">
     <Volumes>TBD,TBDTMA</Volumes>
-    <ResponsibleSectors>AUG,MUN,OXL,BKE,YWE,AAE,AAW</ResponsibleSectors>
+    <ResponsibleSectors>AUG,AAE,AAW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Territory" Frequency="133.200" Callsign="BN-TRT_CTR" Name="TRT">
     <Volumes>TRT,TRTTMA</Volumes>
@@ -242,6 +242,7 @@
   </Sector>
   <Sector FullName="Yarrowee" Frequency="134.325" Callsign="ML-YWE_CTR" Name="YWE">
     <Volumes>YWE</Volumes>
+    <ResponsibleSectors>WON,MUN,OXL,GTH,KAT</ResponsibleSectors>
   </Sector>
   <Sector FullName="Auckland Oceanic" Frequency="129.000" Callsign="NZZO_FSS" Name="NZZO" DisplayInSectorsWindow="False">
     <Volumes>NZZO</Volumes>
