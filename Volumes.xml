@@ -1674,36 +1674,6 @@
     -274408.112+1534710.820/
     -274253.000+1534434.000
   </Boundary>
-  <Boundary Name="GOLD_COAST_F">
-    -282613.000+1523635.000/
-    -282827.000+1530316.000/
-    -282922.534+1530405.141/
-    -283305.129+1530816.803/
-    -283605.785+1531308.916/
-    -283818.950+1531832.556/
-    -283940.526+1532417.791/
-    -284008.000+1533014.000/
-    -283940.526+1533610.209/
-    -283818.950+1534155.444/
-    -283605.785+1534719.084/
-    -283305.129+1535211.197/
-    -282922.534+1535622.859/
-    -282504.830+1535946.424/
-    -282439.000+1540000.000/
-    -282950.000+1540000.000/
-    -285526.000+1535434.000/
-    -285705.689+1534946.566/
-    -285922.065+1534009.543/
-    -290008.000+1533014.000/
-    -285922.065+1532018.457/
-    -285705.689+1531041.434/
-    -285323.113+1530140.834/
-    -284821.244+1525333.354/
-    -284209.432+1524633.944/
-    -283459.164+1524055.337/
-    -282703.685+1523647.661/
-    -282613.000+1523635.000
-  </Boundary>
   <Boundary Name="GRAFTON_E">
     -282613.000+1523635.000/
     -282827.000+1530316.000/
@@ -3626,18 +3596,6 @@
     -372237.000+1474033.000/
     -360704.000+1481400.000
   </Boundary>
-  <Boundary Name="SNOWY_CB_CAP">
-    -353601.028+1484324.274/
-    -352540.000+1490337.000/
-    -352624.389+1490459.954/
-    -352657.000+1490624.000/
-    -354549.000+1490148.000/
-    -354503.790+1485906.427/
-    -354250.444+1485316.554/
-    -353949.566+1484800.902/
-    -353606.735+1484329.134/
-    -353601.028+1484324.274
-  </Boundary>
   <Boundary Name="CESSNOCK">
     -331617.000+1504654.000/
     -323202.000+1503349.000/
@@ -4029,44 +3987,6 @@
     -403402.000+1503839.000/
     -400000.000+1503354.000/
     -381119.000+1501914.000
-  </Boundary>
-  <Boundary Name="HUON">
-    -385404.000+1410000.000/
-    -385404.000+1432539.000/
-    -385543.677+1432754.528/
-    -390554.791+1434606.650/
-    -391326.011+1440623.312/
-    -391802.743+1442805.778/
-    -391936.000+1445032.000/
-    -391849.000+1450733.000/
-    -394736.000+1450730.000/
-    -400000.000+1451201.000/
-    -400000.000+1463549.000/
-    -395938.141+1463637.847/
-    -394252.640+1470623.368/
-    -392218.628+1473139.581/
-    -391933.000+1473351.000/
-    -393748.000+1474428.000/
-    -393716.788+1474614.767/
-    -393556.149+1475248.351/
-    -393529.000+1475934.000/
-    -393556.149+1480619.649/
-    -393716.788+1481253.233/
-    -393928.517+1481903.022/
-    -394227.411+1482437.953/
-    -394608.129+1482927.944/
-    -395024.068+1483324.187/
-    -395507.547+1483619.419/
-    -400002.000+1483758.000/
-    -403402.000+1503839.000/
-    -430000.000+1510000.000/
-    -435103.000+1503953.000/
-    -433115.000+1492130.000/
-    -434348.000+1455148.000/
-    -422100.000+1410000.000/
-    -411800.000+1410000.000/
-    -403000.000+1410000.000/
-    -385404.000+1410000.000
   </Boundary>
   <Boundary Name="HUON_B_MODIFIED">
     -385404.000+1410000.000/
@@ -5020,9 +4940,6 @@
   <Volume Name="ARL" LowerLimit="0" UpperLimit="60000">
     <Boundaries>ARMIDALE</Boundaries>
   </Volume>
-  <Volume Name="CNK" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>CESSNOCK</Boundaries>
-  </Volume>
   <Volume Name="ASP" LowerLimit="0" UpperLimit="60000">
     <Boundaries>ALICE_SPRINGS</Boundaries>
   </Volume>
@@ -5056,10 +4973,10 @@
   <Volume Name="BIK" LowerLimit="0" UpperLimit="60000">
     <Boundaries>BINDOOK</Boundaries>
   </Volume>
-  <Volume Name="BIKTMA" LowerLimit="28500" UpperLimit="60000">
+  <Volume Name="BIK_SY_TMA_CAP" LowerLimit="28500" UpperLimit="60000">
     <Boundaries>SY_TMA_FULL</Boundaries>
   </Volume>
-  <Volume Name="GUN_CB_CAP" LowerLimit="24500" UpperLimit="60000">
+  <Volume Name="GUN_CB_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>GUNDAGAI_CB_CAP</Boundaries>
   </Volume>
   <Volume Name="BKE" LowerLimit="0" UpperLimit="60000">
@@ -5071,7 +4988,7 @@
   <Volume Name="BLA" LowerLimit="0" UpperLimit="60000">
     <Boundaries>BENALLA</Boundaries>
   </Volume>
-  <Volume Name="BLA_CB_CAP" LowerLimit="24500" UpperLimit="60000">
+  <Volume Name="BLA_CB_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>BENALLA_CB_CAP</Boundaries>
   </Volume>
   <Volume Name="BRMTWR" LowerLimit="0" UpperLimit="5500">
@@ -5086,13 +5003,13 @@
   <Volume Name="BUR" LowerLimit="0" UpperLimit="60000">
     <Boundaries>BURNETT_B_C_D</Boundaries>
   </Volume>
-  <Volume Name="BUR_BN_CAP" LowerLimit="18500" UpperLimit="60000">
+  <Volume Name="BUR_BN_TMA_CAP" LowerLimit="18500" UpperLimit="60000">
     <Boundaries>BURNETT_A</Boundaries>
   </Volume>
   <Volume Name="NSA" LowerLimit="0" UpperLimit="60000">
     <Boundaries>NOOSA_B_C</Boundaries>
   </Volume>
-  <Volume Name="NSA_BN_CAP" LowerLimit="18500" UpperLimit="60000">
+  <Volume Name="NSA_BN_TMA_CAP" LowerLimit="18500" UpperLimit="60000">
     <Boundaries>NOOSA_A</Boundaries>
   </Volume>
   <Volume Name="CBE" LowerLimit="0" UpperLimit="24500">
@@ -5179,7 +5096,7 @@
   <Volume Name="ELW" LowerLimit="0" UpperLimit="60000">
     <Boundaries>EILDON_WEIR</Boundaries>
   </Volume>
-  <Volume Name="ELW_ML_CAP" LowerLimit="24500" UpperLimit="60000" >
+  <Volume Name="ELW_ML_TMA_CAP" LowerLimit="24500" UpperLimit="60000" >
     <Boundaries>ML_TMA_FULL</Boundaries>
   </Volume>
   <Volume Name="ESP" LowerLimit="0" UpperLimit="60000">
@@ -5207,7 +5124,7 @@
     <Boundaries>INVERELL</Boundaries>
   </Volume>
   <Volume Name="CNK" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>CESNOCK</Boundaries>
+    <Boundaries>CESSNOCK</Boundaries>
   </Volume>
   <Volume Name="MNN" LowerLimit="0" UpperLimit="60000">
     <Boundaries>MANNING</Boundaries>
@@ -5215,26 +5132,11 @@
   <Volume Name="GUN" LowerLimit="0" UpperLimit="60000">
     <Boundaries>GUNDAGAI</Boundaries>
   </Volume>
-  <Volume Name="INLBNTMA" LowerLimit="18000" UpperLimit="60000">
-    <Boundaries>BRISBANE_APPROACH</Boundaries>
-  </Volume>
-  <Volume Name="INLGCATMA" LowerLimit="7500" UpperLimit="60000">
-    <Boundaries>CG_APP_A</Boundaries>
-  </Volume>
-  <Volume Name="INLGCBTMA" LowerLimit="12500" UpperLimit="60000">
-    <Boundaries>CG_APP_B,CG_APP_C</Boundaries>
-  </Volume>
   <Volume Name="GTH" LowerLimit="0" UpperLimit="60000">
     <Boundaries>GRIFFITH</Boundaries>
   </Volume>
   <Volume Name="GVE" LowerLimit="0" UpperLimit="60000">
     <Boundaries>GROVE</Boundaries>
-  </Volume>
-  <Volume Name="GOL" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>GOLD_COAST</Boundaries>
-  </Volume>
-  <Volume Name="GOL_BN_CAP" LowerLimit="18500" UpperLimit="60000">
-    <Boundaries>GOLD_COAST_BN_CAP</Boundaries>
   </Volume>
   <Volume Name="HBA" LowerLimit="0" UpperLimit="24500">
     <Boundaries>HOBART_APPROACH</Boundaries>
@@ -5245,10 +5147,10 @@
   <Volume Name="HMTWR" LowerLimit="0" UpperLimit="4500">
     <Boundaries>HAMILTON_IS_CTA_D4</Boundaries>
   </Volume>
-  <Volume Name="HUON" LowerLimit="0" UpperLimit="60000">
+  <Volume Name="HUO" LowerLimit="0" UpperLimit="60000">
     <Boundaries>HUON_B_MODIFIED,HUON_C</Boundaries>
   </Volume>
-  <Volume Name="HUON_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
+  <Volume Name="HUO_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>HOBART_APPROACH,LAUNCESTON_APPROACH</Boundaries>
   </Volume>
   <Volume Name="HWE" LowerLimit="24500" UpperLimit="60000">
@@ -5284,7 +5186,7 @@
   <Volume Name="KEN" LowerLimit="0" UpperLimit="60000">
     <Boundaries>KENNEDY</Boundaries>
   </Volume>
-  <Volume Name="KENTMA" LowerLimit="18000" UpperLimit="60000">
+  <Volume Name="KEN_CS_TMA_CAP" LowerLimit="18000" UpperLimit="60000">
     <Boundaries>CAIRNS_APPROACH</Boundaries>
   </Volume>
   <Volume Name="KIY" LowerLimit="0" UpperLimit="60000">
@@ -5401,7 +5303,7 @@
   <Volume Name="PIY" LowerLimit="0" UpperLimit="60000">
     <Boundaries>PINGELLY</Boundaries>
   </Volume>
-  <Volume Name="PIYTMA" LowerLimit="24500" UpperLimit="60000">
+  <Volume Name="PIY_PH_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>PERTH_TMA_FULL</Boundaries>
   </Volume>
   <Volume Name="PHTWR" LowerLimit="0" UpperLimit="1500">
@@ -5446,7 +5348,7 @@
   <Volume Name="TBD" LowerLimit="0" UpperLimit="60000">
     <Boundaries>TAILEM_BEND</Boundaries>
   </Volume>
-    <Volume Name="TBDTMA" LowerLimit="24500" UpperLimit="60000">
+    <Volume Name="TBD_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>AD_APP,AD_DEP</Boundaries>
   </Volume>
   <Volume Name="TBP" LowerLimit="0" UpperLimit="60000">
@@ -5524,7 +5426,7 @@
   <Volume Name="WOL" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WOLLONGONG</Boundaries>
   </Volume>
-  <Volume Name="WOL_CB_CAP" LowerLimit="24500" UpperLimit="60000">
+  <Volume Name="WOL_CB_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>WOLLONGONG_CB_CAP</Boundaries>
   </Volume>
   <Volume Name="WON" LowerLimit="0" UpperLimit="60000">
