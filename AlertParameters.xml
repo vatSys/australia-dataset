@@ -7,13 +7,19 @@
       <Vertical LowerLevel="41001" UpperLevel="99999" Height="1600" HeightWithRVSM="1600"/>
       <Volumes>ADA,ADD,AVCTR,AVCTA,BNA,CBE,CBW,BAG_NORTH,BAG_SOUTH,CSA,DNA,MLA,PHA,SYA,WLMAPP,WLMAPPE,WLMAPPFG</Volumes>
 	  <InhibitionAreas>
-		<InhibitionArea Name="YSSY" LowerLevel="0" UpperLevel="3000">
-      -334244.4699+1510848.9368/
-      -341033.458+1511605.0391/
-      -341113.613+1511308.0493/
-      -334321.3702+1510550.5188/
-      -334244.4699+1510848.9368
-		</InhibitionArea>
+  		<InhibitionArea Name="YSSY" LowerLevel="0" UpperLevel="3000">
+        -334244.4699+1510848.9368/
+        -341033.458+1511605.0391/
+        -341113.613+1511308.0493/
+        -334321.3702+1510550.5188/
+        -334244.4699+1510848.9368
+  		</InhibitionArea>
+      <InhibitionArea Name="YBBN" LowerLevel="0" UpperLevel="3000">
+        -271012.7007+1531626.9019/
+        -273657.3706+1530104.4897/
+        -273521.7964+1525750.3613/
+        -270844.4392+1531258.3814
+      </InhibitionArea>
 	  </InhibitionAreas>
     </STCA>
     <STCA Name="ENR" LateralNM="4.8" SecondsLookahead="90" AlertPriority="1">
