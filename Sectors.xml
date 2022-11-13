@@ -14,9 +14,6 @@
     <Volumes>ARL</Volumes>
     <ResponsibleSectors>MDE,MLD,OCN,MNN,CNK</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Cessnock" Frequency="123.400" Callsign="BN-CNK_CTR" Name="CNK">
-    <Volumes>CNK</Volumes>
-  </Sector>
   <Sector FullName="Augusta" Frequency="127.050" Callsign="ML-AUG_CTR" Name="AUG">
     <Volumes>AUG</Volumes>
   </Sector>
@@ -37,12 +34,11 @@
   <Sector FullName="Burnett" Frequency="123.000" Callsign="BN-BUR_CTR" Name="BUR">
     <Volumes>BUR,BUR_BN_TMA_CAP</Volumes>
   </Sector>
-  <Sector FullName="Noosa" Frequency="124.100" Callsign="BN-NSA_CTR" Name="NSA">
-    <Volumes>NSA,NSA_BN_TMA_CAP</Volumes>
-    <ResponsibleSectors>BAN,BAS,BDN,BDS,BAG</ResponsibleSectors>
-  </Sector>
   <Sector FullName="Carnarvon" Frequency="133.800" Callsign="BN-CVN_CTR" Name="CVN">
     <Volumes>CVN</Volumes>
+  </Sector>
+  <Sector FullName="Cessnock" Frequency="123.400" Callsign="BN-CNK_CTR" Name="CNK">
+    <Volumes>CNK</Volumes>
   </Sector>
   <Sector FullName="Colombo" Frequency="124.900" Callsign="VCCF_CTR" Name="VCCF" DisplayInSectorsWindow="False">
     <Volumes>VCCF</Volumes>
@@ -69,6 +65,9 @@
   <Sector FullName="Geraldton" Frequency="134.200" Callsign="ML-GEL_CTR" Name="GEL">
     <Volumes>GEL</Volumes>
   </Sector>
+  <Sector FullName="Gold Coast" Frequency="130.400" Callsign="BN-GOL_CTR" Name="GOL">
+    <Volumes>GOLD_COAST_A,GOLD_COAST_B,GOLD_COAST_C,GOLD_COAST_D,GOLD_COAST_E,GOLD_COAST_F,GRAFTON_E</Volumes>
+  </Sector>
   <Sector FullName="Griffith" Frequency="122.750" Callsign="ML-GTH_CTR" Name="GTH">
     <Volumes>GTH</Volumes>
   </Sector>
@@ -87,9 +86,6 @@
   <Sector FullName="Inverell" Frequency="134.200" Callsign="BN-INL_CTR" Name="INL">
     <Volumes>INL</Volumes>
     <ResponsibleSectors>KPL,DOS,SDY,BUR,GOL,NSA</ResponsibleSectors>
-  </Sector>
-  <Sector FullName="Gold Coast" Frequency="130.400" Callsign="BN-GOL_CTR" Name="GOL">
-    <Volumes>GOLD_COAST_A,GOLD_COAST_B,GOLD_COAST_C,GOLD_COAST_D,GOLD_COAST_E,GOLD_COAST_F,GRAFTON_E</Volumes>
   </Sector>
   <Sector FullName="Isa" Frequency="125.200" Callsign="BN-ISA_CTR" Name="ISA">
     <Volumes>ISA</Volumes>
@@ -126,15 +122,15 @@
   <Sector FullName="Leeman" Frequency="122.400" Callsign="ML-LEA_CTR" Name="LEA">
     <Volumes>LEA</Volumes>
   </Sector>
-  <Sector FullName="Manning" Frequency="130.100" Callsign="BN-MNN_CTR" Name="MNN">
-    <Volumes>MNN</Volumes>
-    <ResponsibleSectors>MLD</ResponsibleSectors>
-  </Sector>
   <Sector FullName="Maitland" Frequency="132.350" Callsign="BN-MLD_CTR" Name="MLD">
     <Volumes>MLD</Volumes>
   </Sector>
   <Sector FullName="Male" Frequency="123.900" Callsign="VRMF_CTR" Name="VRMF" DisplayInSectorsWindow="False">
     <Volumes>VRMF</Volumes>
+  </Sector>
+  <Sector FullName="Manning" Frequency="130.100" Callsign="BN-MNN_CTR" Name="MNN">
+    <Volumes>MNN</Volumes>
+    <ResponsibleSectors>MLD</ResponsibleSectors>
   </Sector>
   <Sector FullName="Mauritius" Frequency="129.300" Callsign="FIMM_CTR" Name="FIMM" DisplayInSectorsWindow="False">
     <Volumes>FIMM</Volumes>
@@ -157,6 +153,10 @@
   <Sector FullName="Nadi Centre" Frequency="120.900" Callsign="NFFN_CTR" Name="NFFN" />
   <Sector FullName="Newman" Frequency="125.400" Callsign="ML-NEW_CTR" Name="NEW">
     <Volumes>NEW</Volumes>
+  </Sector>
+  <Sector FullName="Noosa" Frequency="124.100" Callsign="BN-NSA_CTR" Name="NSA">
+    <Volumes>NSA,NSA_BN_TMA_CAP</Volumes>
+    <ResponsibleSectors>BAN,BAS,BDN,BDS,BAG</ResponsibleSectors>
   </Sector>
   <Sector FullName="Ocean" Frequency="128.600" Callsign="BN-OCN_CTR" Name="OCN">
     <Volumes>OCN</Volumes>
@@ -319,6 +319,9 @@
   <Sector FullName="Amberley Approach" Frequency="126.200" Callsign="AM_APP" Name="AMA">
     <Volumes>AMBAPP</Volumes>
   </Sector>
+  <Sector FullName="Brisbane Approach Gold Coast" Frequency="123.500" Callsign="BN-C_APP" Name="BAG">
+    <Volumes>BAG_NORTH,BAG_SOUTH</Volumes>
+  </Sector>
   <Sector FullName="Brisbane Approach North" Frequency="124.700" Callsign="BN_APP" Name="BAN">
     <Volumes>BNA</Volumes>
     <ResponsibleSectors>BAS,BDN,BDS</ResponsibleSectors>
@@ -353,9 +356,6 @@
   </Sector>
   <Sector FullName="East Sale Approach" Frequency="123.300" Callsign="ES_APP" Name="ESA">
     <Volumes>ESA</Volumes>
-  </Sector>
-  <Sector FullName="Brisbane Approach Gold Coast" Frequency="123.500" Callsign="BN-C_APP" Name="BAG">
-    <Volumes>BAG_NORTH,BAG_SOUTH</Volumes>
   </Sector>
   <Sector FullName="Hobart Approach" Frequency="125.550" Callsign="HB_APP" Name="HBA">
     <Volumes>HBA</Volumes>
