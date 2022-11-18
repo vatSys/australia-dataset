@@ -3240,7 +3240,7 @@
     -314710.259+1155105.774/
     -314722.000+1155043.000
   </Boundary>
-  <Boundary Name="PERTH_TMA_FULL">
+  <Boundary Name="PH_TMA_FULL">
     -312042.000+1155734.000/
     -312114.605+1160453.212/
     -312251.448+1161159.329/
@@ -5291,7 +5291,7 @@
     <Boundaries>PINGELLY</Boundaries>
   </Volume>
   <Volume Name="PIY_PH_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
-    <Boundaries>PERTH_TMA_FULL</Boundaries>
+    <Boundaries>PERTH_TMA_LESS_R155A,R155A_PEARCE</Boundaries>
   </Volume>
   <Volume Name="PHTWR" LowerLimit="0" UpperLimit="1500">
     <Boundaries>PERTH_CONTROL_ZONE_(C)</Boundaries>
