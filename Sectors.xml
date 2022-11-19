@@ -54,7 +54,7 @@
   </Sector>
   <Sector FullName="Eildon Weir" Frequency="123.750" Callsign="ML-ELW_CTR" Name="ELW">
     <Volumes>ELW,ELW_ML_TMA_CAP</Volumes>
-    <ResponsibleSectors>SNO,BLA,MDN,MDS,MAE</ResponsibleSectors>
+    <ResponsibleSectors>SNO,BLA,MAE</ResponsibleSectors>
   </Sector>
   <Sector FullName="Esperance" Frequency="123.950" Callsign="ML-ESP_CTR" Name="ESP">
     <Volumes>ESP</Volumes>
@@ -111,7 +111,7 @@
   </Sector>
   <Sector FullName="Kennedy" Frequency="120.150" Callsign="BN-KEN_CTR" Name="KEN">
     <Volumes>KEN,KEN_CS_TMA_CAP</Volumes>
-    <ResponsibleSectors>BAR,TBP,SWY,CSA,CSD</ResponsibleSectors>
+    <ResponsibleSectors>BAR,TBP,SWY,CSA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Keppel" Frequency="125.900" Callsign="BN-KPL_CTR" Name="KPL">
     <Volumes>KPL</Volumes>
@@ -156,7 +156,7 @@
   </Sector>
   <Sector FullName="Noosa" Frequency="124.100" Callsign="BN-NSA_CTR" Name="NSA">
     <Volumes>NSA,NSA_BN_TMA_CAP</Volumes>
-    <ResponsibleSectors>BAN,BAS,BDN,BDS,BAG</ResponsibleSectors>
+    <ResponsibleSectors>BAN</ResponsibleSectors>
   </Sector>
   <Sector FullName="Ocean" Frequency="128.600" Callsign="BN-OCN_CTR" Name="OCN">
     <Volumes>OCN</Volumes>
@@ -173,7 +173,7 @@
   </Sector>
   <Sector FullName="Pingelly" Frequency="133.900" Callsign="ML-PIY_CTR" Name="PIY">
     <Volumes>PIY,PIY_PH_TMA_CAP</Volumes>
-    <ResponsibleSectors>JAR,HYD,CRS,GVE,GEL,LEA,PHD,PHA,PEA</ResponsibleSectors>
+    <ResponsibleSectors>JAR,HYD,CRS,GVE,GEL,LEA,PHA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Port" Frequency="127.000" Callsign="ML-POT_CTR" Name="POT">
     <Volumes>POT</Volumes>
@@ -201,7 +201,7 @@
   </Sector>
   <Sector FullName="Tailem Bend" Frequency="123.050" Callsign="ML-TBD_CTR" Name="TBD">
     <Volumes>TBD,TBD_TMA_CAP</Volumes>
-    <ResponsibleSectors>AUG,AAE,AAW</ResponsibleSectors>
+    <ResponsibleSectors>AUG,AAW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Territory" Frequency="133.200" Callsign="BN-TRT_CTR" Name="TRT">
     <Volumes>TRT,TRTTMA</Volumes>
@@ -235,7 +235,7 @@
     <Volumes>WOL,WOL_CB_TMA_CAP</Volumes>
   </Sector>
   <Sector FullName="Wonthaggi" Frequency="135.300" Callsign="ML-WON_CTR" Name="WON">
-    <Volumes>WON</Volumes>
+    <Volumes>WON,WON_ML_TMA_CAP</Volumes>
   </Sector>
   <Sector FullName="Woomera" Frequency="132.900" Callsign="ML-WRA_CTR" Name="WRA">
     <Volumes>WRA</Volumes>
@@ -345,13 +345,16 @@
     <Volumes>CSA</Volumes>
   </Sector>
   <Sector FullName="Canberra Approach East" Frequency="124.500" Callsign="CB_APP" Name="CAE">
-    <Volumes>CBE</Volumes>
+    <Volumes>CBA</Volumes>
     <ResponsibleSectors>CAW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Canberra Approach West" Frequency="125.900" Callsign="CB-W_APP" Name="CAW">
-    <Volumes>CBW</Volumes>
+    <Volumes>CBA</Volumes>
   </Sector>
-  <Sector FullName="Darwin Approach" Frequency="134.100" Callsign="DN_APP" Name="DNA">
+  <Sector FullName="Darwin Approach East" Frequency="125.200" Callsign="DN_APP" Name="DAE">
+    <Volumes>DNA</Volumes>
+  </Sector>
+  <Sector FullName="Darwin Approach West" Frequency="134.100" Callsign="DN-W_APP" Name="DAW">
     <Volumes>DNA</Volumes>
   </Sector>
   <Sector FullName="East Sale Approach" Frequency="123.300" Callsign="ES_APP" Name="ESA">
@@ -364,7 +367,7 @@
   <Sector FullName="Launceston Approach" Frequency="123.800" Callsign="LT_APP" Name="LTA">
     <Volumes>LTA</Volumes>
   </Sector>
-  <Sector FullName="Mackay Approach" Frequency="125.650" Callsign="MK_APP" Name="MKA">
+  <Sector FullName="Coral Approach (Mackay)" Frequency="125.650" Callsign="MK_APP" Name="MKA">
     <Volumes>MKA</Volumes>
   </Sector>
   <Sector FullName="Melbourne Approach East" Frequency="132.000" Callsign="ML_APP" Name="MAE">
@@ -375,7 +378,7 @@
     <Volumes>MLA</Volumes>
   </Sector>
   <Sector FullName="Melbourne Departures South" Frequency="129.400" Callsign="ML-S_DEP" Name="MDS">
-    <Volumes>MLA,AVCTR,AVCTA</Volumes>
+    <Volumes>MLA</Volumes>
   </Sector>
   <Sector FullName="Nadi Approach" Frequency="119.100" Callsign="NFFN_APP" Name="NFFNA" />
   <Sector FullName="Nadzab Approach" Frequency="118.600" Callsign="AYNZ_APP" Name="AYNZ" />
@@ -397,7 +400,7 @@
     <Volumes>PHA</Volumes>
   </Sector>
   <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" />
-  <Sector FullName="Rockhampton Approach" Frequency="123.750" Callsign="RK_APP" Name="RKA">
+  <Sector FullName="Coral Approach (Rocky)" Frequency="123.750" Callsign="RK_APP" Name="RKA">
     <Volumes>RKA</Volumes>
   </Sector>
   <Sector FullName="Sydney Approach North" Frequency="124.400" Callsign="SY_APP" Name="SAN">
