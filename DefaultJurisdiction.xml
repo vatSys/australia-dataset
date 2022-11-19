@@ -31,7 +31,7 @@
         <Departure Values="YBAS">
           <Rules>
             <Default>
-              <AssignSector Order="ASP"/>
+              <AssignSector Order="AS ADC,ASP"/>
             </Default>
           </Rules>
         </Departure>
@@ -100,7 +100,7 @@
         <Departure Values="YBHM">
           <Rules>
             <Default>
-              <AssignSector Order="SWY"/>
+              <AssignSector Order="HM ADC,SWY"/>
             </Default>
           </Rules>
         </Departure>
@@ -111,7 +111,7 @@
         <Departure Values="YBMK">
           <Rules>
             <Default>
-              <AssignSector Order="SWY"/>
+              <AssignSector Order="MK ADC,MKA,SWY"/>
             </Default>
           </Rules>
         </Departure>
@@ -133,7 +133,7 @@
         <Departure Values="YBRK">
           <Rules>
             <Default>
-              <AssignSector Order="KPL"/>
+              <AssignSector Order="RK ADC,RKA,KPL"/>
             </Default>
           </Rules>
         </Departure>
@@ -144,7 +144,7 @@
         <Departure Values="YBRM">
           <Rules>
             <Default>
-              <AssignSector Order="KIY"/>
+              <AssignSector Order="BRM ADC,KIY"/>
             </Default>
           </Rules>
         </Departure>
@@ -155,7 +155,7 @@
         <Departure Values="YBSU">
           <Rules>
             <Default>
-              <AssignSector Order="BUR"/>
+              <AssignSector Order="NSA"/>
             </Default>
           </Rules>
         </Departure>
@@ -177,7 +177,7 @@
         <Departure Values="YCFS">
           <Rules>
             <Default>
-              <AssignSector Order="GRN"/>
+              <AssignSector Order="CFS ADC,INL"/>
             </Default>
           </Rules>
         </Departure>
@@ -188,7 +188,7 @@
         <Departure Values="YGIG">
           <Rules>
             <Default>
-              <AssignSector Order="PHA"/>
+              <AssignSector Order="PEA,PHD,PHA"/>
             </Default>
           </Rules>
         </Departure>
@@ -199,7 +199,7 @@
         <Departure Values="YMAV">
           <Rules>
             <Default>
-              <AssignSector Order="MDS"/>
+              <AssignSector Order="MDS,MAE,ELW"/>
             </Default>
           </Rules>
         </Departure>
@@ -210,7 +210,7 @@
         <Departure Values="YMAY">
           <Rules>
             <Default>
-              <AssignSector Order="HUM"/>
+              <AssignSector Order="AY ADC,BLA"/>
             </Default>
           </Rules>
         </Departure>
@@ -330,7 +330,7 @@
         <Departure Values="YPDN">
           <Rules>
             <Default>
-              <AssignSector Order="DNA"/>
+              <AssignSector Order="DAE,TRT"/>
             </Default>
           </Rules>
         </Departure>
@@ -502,7 +502,7 @@
         <Departure Values="YSTW">
           <Rules>
             <Default>
-              <AssignSector Order="MDE"/>
+              <AssignSector Order="TW ADC,ARL"/>
             </Default>
           </Rules>
         </Departure>
@@ -513,7 +513,7 @@
         <Departure Values="YWLM">
           <Rules>
             <Default>
-              <AssignSector Order="WLM,MDE"/>
+              <AssignSector Order="WLM,MLD"/>
             </Default>
           </Rules>
         </Departure>
