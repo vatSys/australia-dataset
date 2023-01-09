@@ -126,7 +126,7 @@
       <Sector Name="BAS" />
       <Sector Name="BDN" />
       <Sector Name="BDS" />
-      <Sector Name="BAG" />
+      <Sector Name="BAC" />
     </Sectors>
     <ManualVisibility>
       <Point>-25.725+150.343</Point>
@@ -163,7 +163,8 @@
     <Sectors>
       <Sector Name="TRT" />
       <Sector Name="KIY" />
-      <Sector Name="DNA" />
+      <Sector Name="DAE" />
+      <Sector Name="DAW" />
     </Sectors>
     <ManualVisibility>
       <Point>-16.000+126.986</Point>
@@ -325,8 +326,8 @@
       <Sector Name="TBP" />
       <Sector Name="SWY" />
       <Sector Name="BAR" />
-      <Sector Name="CSA" />
-      <Sector Name="CSD" />
+      <Sector Name="CS1" />
+      <Sector Name="CS2" />
     </Sectors>
     <ManualVisibility>
       <Point>-18.565+147.837</Point>
@@ -1437,7 +1438,7 @@
         <Sector Name="BAS" />
         <Sector Name="BDN" />
         <Sector Name="BDS" />
-        <Sector Name="BAG" />
+        <Sector Name="BAC" />
       </Sectors>
       <ManualVisibility>
         <Point>-27.3942+153.1218</Point>
@@ -1574,8 +1575,8 @@
     </Position>
     <Position Name="Cairns TCU" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="150" MagneticVariation="-6.7">
       <Sectors>
-        <Sector Name="CSA" />
-        <Sector Name="CSD" />
+        <Sector Name="CS1" />
+        <Sector Name="CS2" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1664,7 +1665,8 @@
     </Position>
     <Position Name="Darwin TCU" Type="ASD" DefaultCenter="-12.414722+130.876667" DefaultRange="200" MagneticVariation="-3">
       <Sectors>
-        <Sector Name="DNA" />
+        <Sector Name="DAW" />
+        <Sector Name="DAE" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
