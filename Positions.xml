@@ -1242,6 +1242,7 @@
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YPAD" Visible="true" />
+        <Window Type="ADEP" Beacon="YPPF" Visible="true" />
       </Strips>
       <CFL QuickLevel="24000">
         <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
@@ -1328,20 +1329,22 @@
         <Map Name="ALL_CTA" />
         <Map Name="Melbourne/ML_COAST" />
         <Map Name="Melbourne/ML_TCU" />
-        <Map Name="Melbourne/ML_RWY16" />
+        <Map Name="Melbourne/ML_RWY16A27D" />
         <Map Name="Melbourne/AV_RWY18" />
         <Map Name="Melbourne/EN_RWY17" />
-        <Map Name="Melbourne/EN_RWY26" />
-        <Map Name="Melbourne/EN_RWY35" />
       </Maps>
       <ATIS>
         <Editor Airport="YMML" Frequency="118.0" />
         <Window Airport="YMML" />
         <Window Airport="YMAV" />
+        <Window Airport="YMEN" />
+        <Window Airport="YMMB" />
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YMML" Visible="true" />
         <Window Type="ADEP" Beacon="YMAV" Visible="true" />
+        <Window Type="ADEP" Beacon="YMEN" Visible="true" />
+        <Window Type="ADEP" Beacon="YMMB" Visible="true" />
       </Strips>
       <CFL QuickLevel="24000">
         <AdditionalLevels>1600,1900,2300,2600,2700,2900,3100,3700,3300,4100,4700</AdditionalLevels>
@@ -1394,6 +1397,7 @@
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YSSY" Visible="true" />
+        <Window Type="ADEP" Beacon="YSBK" Visible="true" />
       </Strips>
       <CFL QuickLevel="28000">
         <AdditionalLevels>1600,1800,2100,2200,2700,3700</AdditionalLevels>
@@ -1459,6 +1463,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YBBN" Visible="true" />
         <Window Type="ADEP" Beacon="YBCG" Visible="true" />
+        <Window Type="ADEP" Beacon="YBAF" Visible="true" />
       </Strips>
       <CFL QuickLevel="18000">
         <AdditionalLevels>1700,1800,1900,2400,2900,3400,3800,4400,5100</AdditionalLevels>
@@ -1504,7 +1509,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Canberra/CB_COAST" />
         <Map Name="Canberra/CB_TCU" />
-        <Map Name="Canberra/CB_RWY1712" />
+        <Map Name="Canberra/CB_RWY3530" />
       </Maps>
       <ATIS>
         <Editor Airport="YSCB" Frequency="127.45" />
@@ -1539,7 +1544,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Perth/PH_COAST" />
         <Map Name="Perth/PH_TCU" />
-        <Map Name="Perth/PH_RWY0306" />
+        <Map Name="Perth/PH_RWY2124" />
       </Maps>
       <ATIS>
         <Editor Airport="YPPH" Frequency="123.8" />
@@ -1547,6 +1552,7 @@
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YPPH" Visible="true" />
+        <Window Type="ADEP" Beacon="YPJT" Visible="true" />
       </Strips>
       <CFL QuickLevel="18000">
         <AdditionalLevels>1900,2700,2800,3100,3300</AdditionalLevels>
