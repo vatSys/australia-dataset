@@ -211,25 +211,25 @@
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="CLEVEDON">GIRU</Point>
-      <Point Name="ROLLINGSTONE">-19.047222+146.413889</Point>
+      <Point Name="ROLLINGSTONE">-190250.000+1462450.000</Point>
       <Point Name="STUART">DOP</Point>
       <Point Name="THORNTON_NORTH">TNP</Point>
-      <Point Name="UPPER_ROSS">-19.569333+146.841417</Point>
+      <Point Name="UPPER_ROSS">-193409.600+1465029.100</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="SE">
       <Point Name="THORNTON_SOUTH">TNP</Point>
     </Label>
     <!--CLEVEDON-->
     <Line Pattern="Dotted">
-      GIRU/CEN/-19.360278+146.983611/TL VOR
+      GIRU/CEN/-192137.000+1465901.000/TL VOR
     </Line>
     <!--ROLLINGSTONE-->
     <Line Pattern="Dotted">
-      -19.047222+146.413889/TOOU/-19.197903+146.598885/-19.219077+146.706850/TL VOR
+      -190250.000+1462450.000/TOOU/-191152.449+1463555.987/-191308.678+1464224.659/TL VOR
     </Line>
     <!--STUART-->
     <Line Pattern="Dotted">
-      DOP/ANP/-19.416833+146.829741/-19.393832+146.826829/-19.365919+146.832686/SUA/-19.324157+146.828210/TL VOR
+      DOP/ANP/-192500.598+1464947.066/-192337.795+1464936.585/-192157.310+1464957.670/SUA/-191926.966+1464941.555/TL VOR
     </Line>
     <!--THORNTON_NORTH-->
     <Line Pattern="Dotted">
@@ -237,11 +237,11 @@
     </Line>
     <!--THORNTON_SOUTH-->
     <Line Pattern="Dotted">
-      TNP/MMT/-19.300000+146.666667/TL VOR
+      TNP/MMT/-191800.000+1464000.000/TL VOR
     </Line>
     <!--UPPER_ROSS-->
     <Line Pattern="Dotted">
-      -19.569333+146.841417/-19.473976+146.713056/RRDM/TCNR/-19.308671+146.739665/-19.291088+146.739934/-19.281811+146.742592/-19.273353+146.746954/TL VOR
+      -193409.600+1465029.100/-192826.313+1464247.000/RRDM/TCNR/-191831.217+1464422.793/-191727.916+1464423.763/-191654.521+1464433.332/-191624.069+1464449.036/TL VOR
     </Line>
   </Map>
   <Map Type="System2" Name="TL_VFR_FULL_NAME" Priority="1" Center="-19.252500+146.765278">
