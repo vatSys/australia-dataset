@@ -11,7 +11,7 @@
       <Threshold Name="22L" Position="-27.565517+153.013094" />
     </Runway>
     <Runway Name="10L/28R">
-      <Threshold Name="10L" Position="-27.570606+152.997217" ExtendedCentrelineTrack="287.73" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="10L" Position="-27.570606+152.998131" ExtendedCentrelineTrack="287.73" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
       <Threshold Name="28R" Position="-27.574317+153.011153" ExtendedCentrelineTrack="107.74" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <Runway Name="10R/28L">
@@ -29,11 +29,11 @@
     </Runway>
     <!--YBBN-->
     <Runway Name="01L/19R">
-      <Threshold Name="01L" Position="-27.383069+153.106853" />
+      <Threshold Name="01L" Position="-27.383069+153.106803" />
       <Threshold Name="19R" Position="-27.356544+153.121969" />
     </Runway>
     <Runway Name="01R/19L">
-      <Threshold Name="01R" Position="-27.402797+153.118217" />
+      <Threshold Name="01R" Position="-27.402797+153.118219" />
       <Threshold Name="19L" Position="-27.374664+153.134306" />
     </Runway>
     <!--Airway Routes-->
@@ -510,56 +510,56 @@
       <Point Name="IN_PARK_RIDGE">PKR</Point>
       <Point Name="IN_TARGET">TAR</Point>
       <Point Name="IN_TV_TOWERS">TVT</Point>
-      <Point Name="OUT_EAST_DEP">-27.591667+153.105556</Point>
-      <Point Name="OUT_NORTH_DEP">-27.500000+152.966667</Point>
-      <Point Name="OUT_SOUTH_DEP">-27.655691+153.073016</Point>
-      <Point Name="COAST_NTH">-27.810459+153.437959</Point>
-      <Point Name="COAST_STH">-27.085350+153.206480</Point>
-      <Point Name="UNIVAT">-27.489732+153.000133</Point>
+      <Point Name="OUT_EAST_DEP">-273530.000+1530620.000</Point>
+      <Point Name="OUT_NORTH_DEP">-273000.000+1525800.000</Point>
+      <Point Name="OUT_SOUTH_DEP">-273920.487+1530422.857</Point>
+      <Point Name="COAST_NTH">-274837.651+1532616.654</Point>
+      <Point Name="COAST_STH">-270507.260+1531223.327</Point>
+      <Point Name="UNIVAT">-272923.035+1530000.477</Point>
     </Label>
     <!--INLAND-->
     <Line Pattern="Dotted">
-      NEN/-28.078445+153.368942/STOT/-28.333975+153.519742/-28.416667+153.516667
+      NEN/-280442.401+1532208.190/STOT/-282002.310+1533111.071/-282500.000+1533100.000
     </Line>
     <!--IN_GOODNA-->
     <Line Pattern="Dotted">
-      GON/-27.587172+152.956906
+      GON/-273513.820+1525724.860
     </Line>
     <!--IN_PARK_RIDGE-->
     <Line Pattern="Dotted">
-      PKR/-27.619400+153.013941
+      PKR/-273709.839+1530050.188
     </Line>
     <!--IN_TARGET-->
     <Line Pattern="Dotted">
-      TAR/-27.597430+153.053363
+      TAR/-273550.748+1530312.105
     </Line>
     <!--IN_TV_TOWERS-->
     <Line Pattern="Dotted">
-      TVT/-27.509867+152.926357/-27.538952+152.962907
+      TVT/-273035.521+1525534.885/-273220.227+1525746.465
     </Line>
     <!--OUT_EAST_DEP-->
     <Line Pattern="Dotted">
-      -27.591667+153.105556/YBAF
+      -273530.000+1530620.000/YBAF
     </Line>
     <!--OUT_NORTH_DEP-->
     <Line Pattern="Dotted">
-      -27.500000+152.966667/YBAF
+      -273000.000+1525800.000/YBAF
     </Line>
     <!--OUT_SOUTH_DEP-->
     <Line Pattern="Dotted">
-      -27.655691+153.073016/YBAF
+      -273920.487+1530422.857/YBAF
     </Line>
     <!--COAST_NTH-->
     <Line Pattern="Dotted">
-      -27.810459+153.437959/-27.781123+153.441794/-27.735742+153.451735/-27.687028+153.457003/-27.628632+153.468244/-27.540801+153.494883/-27.462461+153.528322/-27.434333+153.543032/-27.380134+153.524403/-27.322492+153.433784/-27.286716+153.422404/-27.270891+153.420504/-27.222835+153.420404/-27.205358+153.422500/-27.170729+153.427797/-27.127396+153.437502/-27.086308+153.451250/-27.074784+153.450102/-27.062941+153.442408/-27.047664+153.418966/-27.037473+153.403398/-27.028524+153.372371/-27.015079+153.172051
+      -274837.651+1532616.654/-274652.044+1532630.460/-274408.671+1532706.245/-274113.302+1532725.212/-273743.076+1532805.679/-273226.882+1532941.580/-272744.859+1533141.960/-272603.598+1533234.914/-272248.483+1533127.852/-271920.971+1532601.622/-271712.179+1532520.655/-271615.206+1532513.814/-271322.207+1532513.454/-271219.290+1532521.000/-271014.625+1532540.069/-270738.625+1532615.006/-270510.708+1532704.500/-270429.223+1532700.366/-270346.588+1532632.667/-270251.589+1532508.276/-270214.903+1532412.232/-270142.688+1532220.535/-270054.283+1531019.384
     </Line>
     <!--COAST_STH-->
     <Line Pattern="Dotted">
-      -27.085350+153.206480/-27.077762+153.263857/-27.079708+153.299134/-27.087729+153.327391/-27.110309+153.356906/-27.129254+153.362952/-27.177082+153.369163/-27.222118+153.376737/-27.260790+153.385157/-27.306813+153.399794/-27.352228+153.415798/-27.405338+153.435998/-27.454261+153.428148/-27.482355+153.418167/-27.510946+153.414068/-27.558361+153.412061/-27.626964+153.410836/-27.697166+153.403651/-27.787086+153.384350/-27.821551+153.378575
+      -270507.260+1531223.327/-270439.944+1531549.884/-270446.948+1531756.883/-270515.825+1531938.607/-270637.112+1532124.862/-270745.315+1532146.628/-271037.494+1532208.986/-271319.623+1532236.253/-271538.844+1532306.566/-271824.526+1532359.259/-272108.022+1532456.872/-272419.215+1532609.591/-272715.338+1532541.334/-272856.479+1532505.402/-273039.406+1532450.643/-273330.098+1532443.419/-273737.072+1532439.010/-274149.796+1532413.143/-274713.509+1532303.661/-274917.585+1532242.870
     </Line>
     <!--UNIVAT-->
     <Line Pattern="Dotted">
-      -27.489732+153.000133/-27.560014+153.102985
+      -272923.035+1530000.477/-273336.052+1530610.746
     </Line>
   </Map>
   <Map Type="System2" Name="BN_VFR_FULL_NAME" Priority="1" Center="-27.384167+153.117500">
@@ -687,12 +687,12 @@
   <Map Type="System" Name="YBBN_ALLRWYS" Priority="2" Center="-27.384167+153.117500">
     <!--YBBN-->
     <Runway Name="01L/19R">
-      <Threshold Name="01L" Position="-27.383069+153.106853" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="01L" Position="-27.383069+153.106803" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
       <Threshold Name="19R" Position="-27.356544+153.121969" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--YBBN-->
     <Runway Name="01R/19L">
-      <Threshold Name="01R" Position="-27.402797+153.118217" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="01R" Position="-27.402797+153.118219" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
       <Threshold Name="19L" Position="-27.374664+153.134306" ExtendedCentrelineTrack="27.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--YBCG-->

@@ -38,7 +38,7 @@
       <Threshold Name="34R" Position="-33.970756+151.193811" />
     </Runway>
     <Runway Name="16R/34L">
-      <Threshold Name="16R" Position="-33.930097+151.171783" />
+      <Threshold Name="16R" Position="-33.930097+151.171786" />
       <Threshold Name="34L" Position="-33.964264+151.180647" />
     </Runway>
     <!--Airway Routes-->
@@ -345,22 +345,22 @@
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="RIC_ROUTE">WSFR</Point>
       <Point Name="IN_SOUTH">BBG</Point>
-      <Point Name="OUT_NORTH">-33.875023+150.996584</Point>
+      <Point Name="OUT_NORTH">-335230.084+1505947.701</Point>
       <Point Name="HARB_SCENIC_1">LRF</Point>
       <Point Name="HARB_SCENIC_2">CHAT</Point>
-      <Point Name="VICTOR_1">-34.085079+151.186350</Point>
+      <Point Name="VICTOR_1">-340506.284+1511110.861</Point>
     </Label>
     <!--RIC_ROUTE-->
     <Line Pattern="Dotted">
-      WSFR/KRMD/GRRV/-33.716527+150.648827/NPBR
+      WSFR/KRMD/GRRV/-334259.498+1503855.777/NPBR
     </Line>
     <!--IN_SOUTH-->
     <Line Pattern="Dotted">
-      BBG/-33.700639+151.018866/PSP/-33.881261+150.958294
+      BBG/-334202.299+1510107.919/PSP/-335252.538+1505729.859
     </Line>
     <!--OUT_NORTH-->
     <Line Pattern="Dotted">
-      -33.875023+150.996584/PRT/PENH/HSY/PAA
+      -335230.084+1505947.701/PRT/PENH/HSY/PAA
     </Line>
     <!--HARB_SCENIC_1-->
     <Line Pattern="Dotted">
@@ -372,7 +372,7 @@
     </Line>
     <!--VICTOR_1-->
     <Line Pattern="Dotted">
-      -34.085079+151.186350/-34.059883+151.172033/-34.049288+151.180372/-34.052966+151.207065/-34.044018+151.237799/-34.006264+151.271231/-33.964459+151.288379/-33.894202+151.299601/-33.874295+151.297393/-33.845544+151.305024/-33.811282+151.321025/-33.785455+151.308649/-33.744554+151.333566
+      -340506.284+1511110.861/-340335.577+1511019.319/-340257.437+1511049.340/-340310.676+1511225.434/-340238.465+1511416.076/-340022.549+1511616.430/-335752.052+1511718.164/-335339.126+1511758.562/-335227.462+1511750.614/-335043.958+1511818.085/-334840.614+1511915.691/-334707.637+1511831.136/-334440.393+1512000.837
     </Line>
   </Map>
   <Map Type="System2" Name="SY_VFR_FULL_NAME" Priority="1" Center="-33.946111+151.177222">
@@ -451,58 +451,58 @@
   </Map>
   <Map Type="System2" Name="SY_HELO" Priority="1" Center="-33.946111+151.177222">
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="HELO_BARRACKS">-33.871847+151.233956</Point>
-      <Point Name="HELO_BONDI">-33.855653+151.304626</Point>
+      <Point Name="HELO_BARRACKS">-335218.650+1511402.240</Point>
+      <Point Name="HELO_BONDI">-335120.350+1511816.652</Point>
       <Point Name="HELO_CAPE_BANKS-IN">CAPS</Point>
-      <Point Name="HELO_CAPE_BANKS-OUT">-33.944572+151.188222</Point>
+      <Point Name="HELO_CAPE_BANKS-OUT">-335640.460+1511117.600</Point>
       <Point Name="HELO_ERSKINEVILLE">APST</Point>
       <Point Name="HELO_GEORGES_RVR">CSTH</Point>
       <Point Name="HELO_MAROUBRA">MRBR</Point>
       <Point Name="HELO_ROSEHILL">RSH</Point>
-      <Point Name="HELO_WANDA">-34.044764+151.185900</Point>
+      <Point Name="HELO_WANDA">-340241.150+1511109.240</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="SE">
       <Point Name="HELO_HARB_BRIDGE">APST</Point>
     </Label>
     <!--HELO_BARRACKS-->
     <Line Pattern="Dotted">
-      -33.871847+151.233956/-33.885769+151.224328/-33.902433+151.215400/-33.935694+151.207778
+      -335218.650+1511402.240/-335308.770+1511327.580/-335408.760+1511255.440/-335608.500+1511228.000
     </Line>
     <!--HELO_BONDI-->
     <Line Pattern="Dotted">
-      -33.855653+151.304626/-33.893517+151.304453/-33.971119+151.285750
+      -335120.350+1511816.652/-335336.660+1511816.030/-335816.030+1511708.700
     </Line>
     <!--HELO_CAPE_BANKS-IN-->
     <Line Pattern="Dotted">
-      CAPS/-33.969361+151.206750
+      CAPS/-335809.700+1511224.300
     </Line>
     <!--HELO_CAPE_BANKS-OUT-->
     <Line Pattern="Dotted">
-      -33.944572+151.188222/-33.955239+151.192567
+      -335640.460+1511117.600/-335718.860+1511133.240
     </Line>
     <!--HELO_ERSKINEVILLE-->
     <Line Pattern="Dotted">
-      APST/ERSK/REDF/-33.883611+151.205900/DHH
+      APST/ERSK/REDF/-335301.000+1511221.240/DHH
     </Line>
     <!--HELO_GEORGES_RVR-->
     <Line Pattern="Dotted">
-      CSTH/PNP/GRB/-34.012706+151.134550/-33.999725+151.158153/-33.961269+151.167497
+      CSTH/PNP/GRB/-340045.740+1510804.380/-335959.010+1510929.350/-335740.570+1511002.990
     </Line>
     <!--HELO_HARB_BRIDGE-->
     <Line Pattern="Dotted">
-      APST/ERSK/REDF/-33.883611+151.205900/DHH/HBB
+      APST/ERSK/REDF/-335301.000+1511221.240/DHH/HBB
     </Line>
     <!--HELO_MAROUBRA-->
     <Line Pattern="Dotted">
-      MRBR/-33.942758+151.225742/-33.935694+151.207778
+      MRBR/-335633.930+1511332.670/-335608.500+1511228.000
     </Line>
     <!--HELO_ROSEHILL-->
     <Line Pattern="Dotted">
-      RSH/RKWC/-33.879928+151.056533/CBY/-33.930117+151.154528
+      RSH/RKWC/-335247.740+1510323.520/CBY/-335548.420+1510916.300
     </Line>
     <!--HELO_WANDA-->
     <Line Pattern="Dotted">
-      -34.044764+151.185900/-34.003592+151.166519/-33.999725+151.158153/-33.961269+151.167497
+      -340241.150+1511109.240/-340012.930+1510959.470/-335959.010+1510929.350/-335740.570+1511002.990
     </Line>
   </Map>
   <Map Type="System" Name="YSSY_ALLRWYS" Priority="2" Center="-33.946111+151.177222">
@@ -518,7 +518,7 @@
     </Runway>
     <!--YSSY-->
     <Runway Name="16R/34L">
-      <Threshold Name="16R" Position="-33.930097+151.171783" ExtendedCentrelineTrack="347.8" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="16R" Position="-33.930097+151.171786" ExtendedCentrelineTrack="347.8" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="34L" Position="-33.964264+151.180647" ExtendedCentrelineTrack="167.81" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--YSRI-->

@@ -210,9 +210,6 @@
       <Point>PTNSA</Point>
       <Point>PTNSB</Point>
       <Point>PTNSC</Point>
-      <Point>PWRNA</Point>
-      <Point>PWRNC</Point>
-      <Point>PWRND</Point>
       <Point>RAKSO</Point>
       <Point>SBKWB</Point>
       <Point>CBREA</Point>
@@ -307,7 +304,8 @@
       <Point>PERWF</Point>
       <Point>PERNF</Point>
       <Point>PEREF</Point>
-      <Point>PWRNF</Point>
+      <Point>PTNNF</Point>
+      <Point>PTNSF</Point>
       <Point>SBKWF</Point>
       <Point>CBREF</Point>
       <Point>CBRSF</Point>
@@ -384,7 +382,6 @@
       <Point>KOORI</Point>
       <Point>PTNNI</Point>
       <Point>PTNSI</Point>
-      <Point>PWRNI</Point>
       <Point>SBKWI</Point>
       <Point>CBREI</Point>
       <Point>CBRSI</Point>
@@ -2367,6 +2364,11 @@
       <Point>PU2ND</Point>
       <Point>PU2NF</Point>
       <Point>PU2NI</Point>
+      <Point>PWRNA</Point>
+      <Point>PWRNC</Point>
+      <Point>PWRND</Point>
+      <Point>PWRNF</Point>
+      <Point>PWRNI</Point>
       <Point>PWRSB</Point>
       <Point>PWRSE</Point>
       <Point>PWRSJ</Point>
@@ -3183,7 +3185,8 @@
       <Point>PERWF</Point>
       <Point>PERNF</Point>
       <Point>PEREF</Point>
-      <Point>PWRNF</Point>
+      <Point>PTNNF</Point>
+      <Point>PTNSF</Point>
       <Point>SBKWF</Point>
       <Point>CBREF</Point>
       <Point>CBRSF</Point>
@@ -3607,6 +3610,7 @@
       <Point>PQQSF</Point>
       <Point>PR2WF</Point>
       <Point>PU2NF</Point>
+      <Point>PWRNF</Point>
       <Point>PWRSF</Point>
       <Point>PZANF</Point>
       <Point>QB2NF</Point>
@@ -3833,7 +3837,6 @@
       <Point>KOORI</Point>
       <Point>PTNNI</Point>
       <Point>PTNSI</Point>
-      <Point>PWRNI</Point>
       <Point>SBKWI</Point>
       <Point>CBREI</Point>
       <Point>CBRSI</Point>
@@ -4251,6 +4254,7 @@
       <Point>PQQSI</Point>
       <Point>PR2WI</Point>
       <Point>PU2NI</Point>
+      <Point>PWRNI</Point>
       <Point>PWRSI</Point>
       <Point>PZANI</Point>
       <Point>QB2NI</Point>
@@ -4609,9 +4613,6 @@
       <Point>PTNSA</Point>
       <Point>PTNSB</Point>
       <Point>PTNSC</Point>
-      <Point>PWRNA</Point>
-      <Point>PWRNC</Point>
-      <Point>PWRND</Point>
       <Point>RAKSO</Point>
       <Point>SBKWB</Point>
       <Point>CBREA</Point>
@@ -5805,6 +5806,9 @@
       <Point>PU2NA</Point>
       <Point>PU2NC</Point>
       <Point>PU2ND</Point>
+      <Point>PWRNA</Point>
+      <Point>PWRNC</Point>
+      <Point>PWRND</Point>
       <Point>PWRSB</Point>
       <Point>PWRSE</Point>
       <Point>PWRSJ</Point>
@@ -8238,6 +8242,11 @@
     <Line>PU2ND/PU2NI</Line>
     <Line>PU2NI/PU2NF</Line>
     <Line>PU2NM/PU2NF</Line>
+    <Line>PWRNA/PWRNI</Line>
+    <Line>PWRNC/PWRNI</Line>
+    <Line>PWRND/PWRNI</Line>
+    <Line>PWRNI/PWRNF</Line>
+    <Line>PWRNM/PWRNF</Line>
     <Line>PWRSB/PWRSI</Line>
     <Line>PWRSE/PWRSI</Line>
     <Line>PWRSJ/PWRSI</Line>
@@ -9013,48 +9022,43 @@
     <Line>GLZWA/MUDAN</Line>
     <Line>MUDAN/GLZWF</Line>
     <Line>-235200.900+1511301.210/GLZWF</Line>
-    <Line>BAFWI/BAFWF/AF10L</Line>
+    <Line>BAFWI/BAFWF/-273414.180+1525953.270</Line>
     <Line>BAFWE/BAFWI</Line>
-    <Line>BAFWI/BAFWF/AF10L</Line>
     <Line>BAFWD/BAFWI</Line>
-    <Line>BAFWE/BAFWI</Line>
     <Line>BAFWG/BAFWI</Line>
     <Line>BAFEI/BAFEF/BAFEM</Line>
     <Line>BAFEA/BAFEI</Line>
     <Line>BAFEB/BAFEI</Line>
     <Line>BAFEC/BAFEI</Line>
-    <Line>BASWI/BASWF/AS12T</Line>
+    <Line>BASWI/BASWF/-234803.710+1335336.100</Line>
     <Line>BASWD/BASWI</Line>
     <Line>BASWE/BASWI</Line>
     <Line>BASWG/BASWI</Line>
-    <Line>BASEI/BASEF/AS30T</Line>
+    <Line>BASEI/BASEF/-234843.630+1335450.500</Line>
     <Line>BASEA/BASEI</Line>
     <Line>BASEB/BASEI</Line>
     <Line>BASEC/BASEI</Line>
-    <Line>AKTOB/LUTSI/BN01L</Line>
+    <Line>AKTOB/LUTSI/-272259.050+1530624.490</Line>
     <Line>TANIK/AKTOB</Line>
-    <Line>NOMEV/GOGEX/BN01R</Line>
+    <Line>NOMEV/GOGEX/-272410.070+1530705.590</Line>
     <Line>GLENN/NOMEV</Line>
-    <Line>PIKON/OGATU/BN19L</Line>
+    <Line>PIKON/OGATU/-272228.790+1530803.500</Line>
     <Line>BETSO/PIKON</Line>
-    <Line>OKVIS/SAKBO/BN19R</Line>
+    <Line>OKVIS/SAKBO/-272123.560+1530719.090</Line>
     <Line>OSOKO/OKVIS</Line>
-    <Line>CG2NI/CG2NF/CG14T</Line>
+    <Line>CG2NI/CG2NF/-280923.440+1533002.540</Line>
     <Line>CG2NC/CG2NI</Line>
     <Line>KEGAN/CG2NI</Line>
-    <Line>CG2SI/CG2SF/CG32T</Line>
+    <Line>CG2SI/CG2SF/-281021.250+1533039.310</Line>
     <Line>CG2SA/CG2SI</Line>
     <Line>CG2SC/CG2SI</Line>
     <Line>FIKUL/CG2SI</Line>
-    <Line>CNSNI/CNSNF/CNSNZ</Line>
+    <Line>CNSNI/CNSNF/CNSNZ/-165156.940+1454436.850</Line>
     <Line>ATOSU/CNSNI</Line>
     <Line>GUNRO/CNSNI</Line>
     <Line>PULAX/CNSNI</Line>
     <Line>CNSNI/CNSNF/CNSNM</Line>
-    <Line>ATOSU/CNSNI</Line>
-    <Line>GUNRO/CNSNI</Line>
-    <Line>PULAX/CNSNI</Line>
-    <Line>HTISI/HTISF/HM32T</Line>
+    <Line>HTISI/HTISF/-202149.010+1485723.690</Line>
     <Line>HTISE/HTISI</Line>
     <Line>HTISG/HTISI</Line>
     <Line>HTISJ/HTISI</Line>
@@ -9063,9 +9067,6 @@
     <Line>HTINC/HTINI</Line>
     <Line>HTIND/HTINI</Line>
     <Line>HTISI/HTISF/HTISM</Line>
-    <Line>HTISE/HTISI</Line>
-    <Line>HTISG/HTISI</Line>
-    <Line>HTISJ/HTISI</Line>
     <Line>BMKNI/BMKNF/BMKNM</Line>
     <Line>BMKNA/BMKNI</Line>
     <Line>LEDUS/BMKNI</Line>
@@ -9086,7 +9087,7 @@
     <Line>BASOB/BRKNI</Line>
     <Line>BRKNC/BRKNI</Line>
     <Line>GOKUN/BRKNI</Line>
-    <Line>BRKSI/BRKSF/RK33T</Line>
+    <Line>BRKSI/BRKSF/-232326.450+1502848.420</Line>
     <Line>BRKSJ/BRKSI</Line>
     <Line>LALIS/BRKSI</Line>
     <Line>SARUS/BRKSI</Line>
@@ -9098,20 +9099,18 @@
     <Line>BRMEA/BRMEI</Line>
     <Line>BRMEB/BRMEI</Line>
     <Line>BRMEC/BRMEI</Line>
-    <Line>BSZSI/BSZSF/SU31T</Line>
+    <Line>BSZSI/BSZSF/-263602.620+1530522.370</Line>
     <Line>BSZSC/BSZSI</Line>
     <Line>OVRUL/BSZSI</Line>
-    <Line>BSZNI/BSZNF/SU13T</Line>
+    <Line>BSZNI/BSZNF/-263459.570+1530428.260</Line>
     <Line>OLTUD/BSZNI</Line>
     <Line>UPLOT/BSZNI</Line>
     <Line>BSZSI/BSZSF/BSZSM</Line>
-    <Line>BSZSC/BSZSI</Line>
-    <Line>OVRUL/BSZSI</Line>
-    <Line>GOTSI/TSVSF/TL01T</Line>
+    <Line>GOTSI/TSVSF/-191529.900+1464553.000</Line>
     <Line>FREDY/GOTSI</Line>
     <Line>KIRAN/GOTSI</Line>
     <Line>SATCO/GOTSI</Line>
-    <Line>TSVWI/VEBTO/TSVWM</Line>
+    <Line>TSVWI/VEBTO/TSVWM/-191520.910+1464519.960</Line>
     <Line>SARGA/TSVWI</Line>
     <Line>TSVWA/TSVWI</Line>
     <Line>TSVWB/TSVWI</Line>
@@ -9119,11 +9118,11 @@
     <Line>ADNOD/TSVNI</Line>
     <Line>LEBOT/TSVNI</Line>
     <Line>TSVNE/TSVNI</Line>
-    <Line>CFSSI/CFSSF/CF03T</Line>
+    <Line>CFSSI/CFSSF/-302018.150+1530623.570</Line>
     <Line>CFSSE/CFSSI</Line>
     <Line>CFSSG/CFSSI</Line>
     <Line>CFSSJ/CFSSI</Line>
-    <Line>CFSNI/CFSNF/CF21T</Line>
+    <Line>CFSNI/CFSNF/-301926.950+1530714.360</Line>
     <Line>CFSNA/CFSNI</Line>
     <Line>CFSNC/CFSNI</Line>
     <Line>CFSND/CFSNI</Line>
@@ -9134,32 +9133,32 @@
     <Line>AVVSA/AVVSI</Line>
     <Line>AVVSB/AVVSI</Line>
     <Line>AVVSC/AVVSI</Line>
-    <Line>AB2WI/AB2WF/AY07T</Line>
+    <Line>AB2WI/AB2WF/-360405.070+1465656.010</Line>
     <Line>RURLA/AB2WI</Line>
     <Line>UPDUR/AB2WI</Line>
-    <Line>BUXAM/IGURI/AY07T</Line>
+    <Line>BUXAM/IGURI/-360405.070+1465656.010</Line>
     <Line>RURLA/BUXAM</Line>
     <Line>UPDUR/BUXAM</Line>
-    <Line>AB2EI/AB2EF/AY25T</Line>
+    <Line>AB2EI/AB2EF/-360355.620+1465811.070</Line>
     <Line>AB2EA/AB2EI</Line>
     <Line>BEMGI/AB2EI</Line>
     <Line>OLRUT/AB2EI</Line>
-    <Line>MENNI/MENNF/EN17T</Line>
+    <Line>MENNI/MENNF/-374313.490+1445402.740</Line>
     <Line>MENNE/MENNI</Line>
     <Line>MENNG/MENNI</Line>
-    <Line>MONTY/MENEF/EN26T</Line>
+    <Line>MONTY/MENEF/-374350.840+1445452.800</Line>
     <Line>ATIBO/MONTY</Line>
     <Line>MENEA/MONTY</Line>
     <Line>MENEC/MONTY</Line>
-    <Line>MESWI/MESWF/ES09T</Line>
+    <Line>MESWI/MESWF/-380544.450+1470741.880</Line>
     <Line>MESWO/MESWI</Line>
     <Line>MESWP/MESWI</Line>
     <Line>MESWQ/MESWI</Line>
-    <Line>MESNI/MESNF/ES22T</Line>
+    <Line>MESNI/MESNF/-380535.170+1470939.620</Line>
     <Line>MESNA/MESNI</Line>
     <Line>MESNC/MESNI</Line>
     <Line>MESND/MESNI</Line>
-    <Line>MESEI/MESEF/ES27T</Line>
+    <Line>MESEI/MESEF/-380555.640+1470912.330</Line>
     <Line>MESEE/MESEI</Line>
     <Line>MESEG/MESEI</Line>
     <Line>MESEJ/MESEI</Line>
@@ -9171,11 +9170,11 @@
     <Line>HBTEB/HBTEI</Line>
     <Line>HBTEC/HBTEI</Line>
     <Line>PIDOS/HBTEI</Line>
-    <Line>MLTNI/MLTNF/LT14R</Line>
+    <Line>MLTNI/MLTNF/-413213.440+1471214.750</Line>
     <Line>MLTND/MLTNI</Line>
     <Line>MLTNE/MLTNI</Line>
     <Line>MLTNG/MLTNI</Line>
-    <Line>MLTSI/MLTSF/LT32L</Line>
+    <Line>MLTSI/MLTSF/-413307.470+1471300.960</Line>
     <Line>MLTSA/MLTSI</Line>
     <Line>MLTSB/MLTSI</Line>
     <Line>MLTSC/MLTSI</Line>
@@ -9183,50 +9182,50 @@
     <Line>HARRO/MMBNI</Line>
     <Line>MMBNG/MMBNI</Line>
     <Line>MONTY/MMBNI</Line>
-    <Line>MMBSI/MMBSF/MB35R</Line>
+    <Line>MMBSI/MMBSF/-375855.710+1450600.750</Line>
     <Line>MMBSA/MMBSI</Line>
     <Line>MMBSB/MMBSI</Line>
     <Line>MMBSC/MMBSI</Line>
-    <Line>ANBEM/MMLNF/ML16T</Line>
+    <Line>ANBEM/MMLNF/-373911.450+1445005.690</Line>
     <Line>BELTA/ANBEM</Line>
     <Line>GUPUG/MMLWF/MMLWM</Line>
     <Line>VISAS/MMLEF/MMLEM</Line>
-    <Line>AKDEL/BOSGI/MMLSM</Line>
+    <Line>AKDEL/BOSGI/MMLSM/-374108.800+1445027.600</Line>
     <Line>PADSI/PADSF/PADSM</Line>
     <Line>LUNGA/PADSI</Line>
     <Line>PADSE/PADSI</Line>
     <Line>SIGUL/PADSI</Line>
-    <Line>PADWI/PADWF/AD12T</Line>
+    <Line>PADWI/PADWF/-345628.170+1383118.900</Line>
     <Line>PADWO/PADWI</Line>
     <Line>PADWP/PADWI</Line>
     <Line>PADWQ/PADWI</Line>
     <Line>PADNI/PADNF/PADNM</Line>
     <Line>GULLY/PADNI</Line>
     <Line>PADNJ/PADNI</Line>
-    <Line>PADEI/PADEF/AD30T</Line>
+    <Line>PADEI/PADEF/-345657.770+1383213.190</Line>
     <Line>PADEK/PADEI</Line>
     <Line>PADEL/PADEI</Line>
     <Line>PADEN/PADEI</Line>
-    <Line>DRWSI/DRWSF/DN36T</Line>
+    <Line>DRWSI/DRWSF/-122521.450+1305214.480</Line>
     <Line>DRWSA/DRWSI</Line>
     <Line>DRWSB/DRWSI</Line>
     <Line>DRWSC/DRWSI</Line>
-    <Line>DRWWI/DRWWF/DN11T</Line>
+    <Line>DRWWI/DRWWF/-122433.850+1305154.940</Line>
     <Line>DRWWD/DRWWI</Line>
     <Line>DRWWE/DRWWI</Line>
     <Line>DRWWG/DRWWI</Line>
-    <Line>DRWEI/DRWEF/DN29T</Line>
+    <Line>DRWEI/DRWEF/-122509.220+1305339.990</Line>
     <Line>DRWEA/DRWEI</Line>
     <Line>DRWEB/DRWEI</Line>
     <Line>DRWEC/DRWEI</Line>
     <Line>PJTWI/PJTWF/PJTWM</Line>
     <Line>PJTWA/PJTWI</Line>
     <Line>PJTWB/PJTWI</Line>
-    <Line>PJTEI/PJTEF/JT24R</Line>
+    <Line>PJTEI/PJTEF/-320538.610+1155303.530</Line>
     <Line>KALAM/PJTEI</Line>
     <Line>PJTED/PJTEI</Line>
     <Line>PJTEG/PJTEI</Line>
-    <Line>PJTSI/PJTSF/JT30T</Line>
+    <Line>PJTSI/PJTSF/-320620.090+1155313.280</Line>
     <Line>PJTSK/PJTSI</Line>
     <Line>PJTSL/PJTSI</Line>
     <Line>PKAWI/PKAWF/PKAWM</Line>
@@ -9237,27 +9236,23 @@
     <Line>PKAEA/PKAEI</Line>
     <Line>PKAEB/PKAEI</Line>
     <Line>PKAEC/PKAEI</Line>
-    <Line>PPFNI/PPFNF/PF21R</Line>
+    <Line>PPFNI/PPFNF/-344734.960+1383815.420</Line>
     <Line>PPFNA/PPFNI</Line>
     <Line>PPFND/PPFNI</Line>
-    <Line>TIMMY/PERSF/PH03T</Line>
-    <Line>LENNY/PERWF/PH06T</Line>
+    <Line>TIMMY/PERSF/-315731.460+1155734.860</Line>
+    <Line>LENNY/PERWF/-315627.560+1155733.130</Line>
     <Line>HAIGH/PERNF/PERNM</Line>
     <Line>KOORI/HAIGH</Line>
     <Line>WOOFY/PERND/HAIGH</Line>
-    <Line>KOORI/PEREF/PH24T</Line>
-    <Line>PTNNI/PTNNF</Line>
+    <Line>KOORI/PEREF/-315551.270+1155843.650</Line>
+    <Line>PTNNI/PTNNF/-143051.200+1322214.410</Line>
     <Line>PTNND/PTNNI</Line>
     <Line>PTNNE/PTNNI</Line>
     <Line>PTNNG/PTNNI</Line>
-    <Line>PTNSI/PTNSF</Line>
+    <Line>PTNSI/PTNSF/-143151.160+1322308.100</Line>
     <Line>PTNSA/PTNSI</Line>
     <Line>PTNSB/PTNSI</Line>
     <Line>PTNSC/PTNSI</Line>
-    <Line>PWRNI/PWRNF/PWRNM</Line>
-    <Line>PWRNA/PWRNI</Line>
-    <Line>PWRNC/PWRNI</Line>
-    <Line>PWRND/PWRNI</Line>
     <Line>SBKWI/SBKWF/SBKWM</Line>
     <Line>RAKSO/SBKWI</Line>
     <Line>SBKWB/SBKWI</Line>
@@ -9269,18 +9264,6 @@
     <Line>CBRSD/CBRSI</Line>
     <Line>CBRSG/CBRSI</Line>
     <Line>MENZI/CBRSI</Line>
-    <Line>SC2WI/SC2WF/SC2WM</Line>
-    <Line>SC2WA/SC2WI</Line>
-    <Line>SC2WB/SC2WI</Line>
-    <Line>SC2WC/SC2WI</Line>
-    <Line>SC2WI/SC2WF/SC2WM</Line>
-    <Line>SC2WA/SC2WI</Line>
-    <Line>SC2WB/SC2WI</Line>
-    <Line>SC2WC/SC2WI</Line>
-    <Line>SC2WI/SC2WF/SC2WM</Line>
-    <Line>SC2WA/SC2WI</Line>
-    <Line>SC2WB/SC2WI</Line>
-    <Line>SC2WC/SC2WI</Line>
     <Line>SC2WI/SC2WF/SC2WM</Line>
     <Line>SC2WA/SC2WI</Line>
     <Line>SC2WB/SC2WI</Line>
@@ -9300,11 +9283,11 @@
     <Line>STWEA/STWEI</Line>
     <Line>STWEB/STWEI</Line>
     <Line>STWEC/STWEI</Line>
-    <Line>WM2WI/WM2WF/WL12T</Line>
+    <Line>WM2WI/WM2WF/-324713.640+1514921.340</Line>
     <Line>WM2WA/WM2WI</Line>
     <Line>WM2WB/WM2WI</Line>
     <Line>WM2WC/WM2WI</Line>
-    <Line>WM2EI/WM2EF/WL30T</Line>
+    <Line>WM2EI/WM2EF/-324817.850+1515050.990</Line>
     <Line>WM2ED/WM2EI</Line>
     <Line>WM2EE/WM2EI</Line>
     <Line>WM2EG/WM2EI</Line>

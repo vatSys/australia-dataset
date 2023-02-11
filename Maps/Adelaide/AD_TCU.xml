@@ -3,19 +3,19 @@
   <Map Type="System" Name="AD_TCU" Priority="1" Center="-34.945000+138.530556">
     <!--YPPF-->
     <Runway Name="03L/21R">
-      <Threshold Name="03L" Position="-34.803756+138.630644" ExtendedCentrelineTrack="208.25" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="03L" Position="-34.803756+138.630639" ExtendedCentrelineTrack="208.25" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
       <Threshold Name="21R" Position="-34.793044+138.637617" ExtendedCentrelineTrack="28.25" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <Runway Name="03R/21L">
-      <Threshold Name="03R" Position="-34.802147+138.634342" />
+      <Threshold Name="03R" Position="-34.802147+138.634336" />
       <Threshold Name="21L" Position="-34.791981+138.640953" />
     </Runway>
     <Runway Name="08L/26R">
-      <Threshold Name="08L" Position="-34.793525+138.624764" ExtendedCentrelineTrack="264.8" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="08L" Position="-34.793525+138.624761" ExtendedCentrelineTrack="264.8" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
       <Threshold Name="26R" Position="-34.792742+138.635192" ExtendedCentrelineTrack="84.8" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <Runway Name="08R/26L">
-      <Threshold Name="08R" Position="-34.795558+138.623317" />
+      <Threshold Name="08R" Position="-34.795558+138.623314" />
       <Threshold Name="26L" Position="-34.794747+138.634108" />
     </Runway>
     <!--YPED-->
@@ -25,11 +25,11 @@
     </Runway>
     <!--YPAD-->
     <Runway Name="05/23">
-      <Threshold Name="05" Position="-34.957650+138.518456" />
+      <Threshold Name="05" Position="-34.957650+138.518472" />
       <Threshold Name="23" Position="-34.940619+138.543264" />
     </Runway>
     <Runway Name="12/30">
-      <Threshold Name="12" Position="-34.941158+138.521906" />
+      <Threshold Name="12" Position="-34.941158+138.521917" />
       <Threshold Name="30" Position="-34.949381+138.536997" />
     </Runway>
     <!--Airway Routes-->
@@ -156,9 +156,10 @@
       MTG VOR/
       NOGIP
     </Line>
-    <Line Width="1.7" Pattern="Dotted">
-      <!--AAW/AAE Split-->
-      -34.565000+139.086945/-35.163056+138.215000/-35.182148+138.237082/-35.216200+138.285573/-35.224445+138.301389/-35.445833+138.121111</Line>
+    <!--(AD) TCU Airspace-->
+    <Line Name="(AD) TCU-AAW/AAE_Split" Width="1.7" Pattern="Dotted">
+      -343354.000+1390513.000/-350947.000+1381254.000/-351055.733+1381413.495/-351258.320+1381708.063/-351328.000+1381805.000/-352645.000+1380716.000
+    </Line>
   </Map>
   <Map Type="System2" Name="AD_VFR" Priority="1" Center="-34.945000+138.530556">
     <Symbol Type="HollowSquare">
@@ -283,29 +284,29 @@
       <Point Name="HOPE_VALLEY">MLIT</Point>
       <Point Name="IN_EAST">WRR</Point>
       <Point Name="IN_NORTHWEST">DUB</Point>
-      <Point Name="OUT_EAST">-34.762487+138.675967</Point>
-      <Point Name="OUT_NORTHWEST">-34.781439+138.564353</Point>
+      <Point Name="OUT_EAST">-344544.954+1384033.480</Point>
+      <Point Name="OUT_NORTHWEST">-344653.182+1383351.669</Point>
       <Point Name="ROUTE_1">BENDO</Point>
     </Label>
     <!--HOPE_VALLEY-->
     <Line Pattern="Dotted">
-      MLIT/WTC/HVR/-34.823427+138.659117
+      MLIT/WTC/HVR/-344924.336+1383932.821
     </Line>
     <!--IN_EAST-->
     <Line Pattern="Dotted">
-      WRR/DMW/-34.768926+138.682043
+      WRR/DMW/-344608.133+1384055.354
     </Line>
     <!--IN_NORTHWEST-->
     <Line Pattern="Dotted">
-      DUB/RMH/OHB/-34.795228+138.551806
+      DUB/RMH/OHB/-344742.820+1383306.502
     </Line>
     <!--OUT_EAST-->
     <Line Pattern="Dotted">
-      -34.762487+138.675967/SUB/SPR
+      -344544.954+1384033.480/SUB/SPR
     </Line>
     <!--OUT_NORTHWEST-->
     <Line Pattern="Dotted">
-      -34.781439+138.564353/-34.744034+138.525048/DUB
+      -344653.182+1383351.669/-344438.523+1383130.173/DUB
     </Line>
     <!--ROUTE_1-->
     <Line Pattern="Dotted">
@@ -376,12 +377,12 @@
   <Map Type="System" Name="YPAD_ALLRWYS" Priority="2" Center="-34.945000+138.530556">
     <!--YPAD-->
     <Runway Name="05/23">
-      <Threshold Name="05" Position="-34.957650+138.518456" ExtendedCentrelineTrack="230.15" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="05" Position="-34.957650+138.518472" ExtendedCentrelineTrack="230.15" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="23" Position="-34.940619+138.543264" ExtendedCentrelineTrack="50.17" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--YPAD-->
     <Runway Name="12/30">
-      <Threshold Name="12" Position="-34.941158+138.521906" ExtendedCentrelineTrack="303.51" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="12" Position="-34.941158+138.521917" ExtendedCentrelineTrack="303.51" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="30" Position="-34.949381+138.536997" ExtendedCentrelineTrack="123.51" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--YPED-->
