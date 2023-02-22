@@ -3,7 +3,7 @@
   <Map Type="System" Name="CS_TCU" Priority="1" Center="-16.885833+145.755278">
     <!--YBCS-->
     <Runway Name="15/33">
-      <Threshold Name="15" Position="-16.865817+145.743561" />
+      <Threshold Name="15" Position="-16.865817+145.743569" />
       <Threshold Name="33" Position="-16.891969+145.755392" />
     </Runway>
     <!--Airway Routes-->
@@ -210,16 +210,16 @@
       <Point>YKS</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="EAST_ROUTE">-17.047560+145.806135</Point>
-      <Point Name="WEST_ROUTE">-16.658801+145.575894</Point>
+      <Point Name="EAST_ROUTE">-170251.217+1454822.086</Point>
+      <Point Name="WEST_ROUTE">-163931.682+1453433.218</Point>
     </Label>
     <!--EAST_ROUTE-->
     <Line Pattern="Dotted">
-      -17.047560+145.806135/TBRT/-16.918516+145.791392
+      -170251.217+1454822.086/TBRT/-165506.657+1454729.012
     </Line>
     <!--WEST_ROUTE-->
     <Line Pattern="Dotted">
-      -16.658801+145.575894/-16.678754+145.582577/-16.687852+145.592857/-16.700319+145.628375/-16.730108+145.659605/-16.737930+145.665733/-16.754162+145.665443/-16.772023+145.676890/-16.803516+145.694327/-16.837761+145.696437/-16.861557+145.696599/-16.941711+145.743031/-16.953851+145.748083/-16.978766+145.739673/-16.999933+145.738336/-17.028798+145.739826/-17.071897+145.759473
+      -163931.682+1453433.218/-164043.515+1453457.277/-164116.268+1453534.285/-164201.150+1453742.151/-164348.387+1453934.577/-164416.548+1453956.638/-164514.984+1453955.594/-164619.282+1454036.803/-164812.658+1454139.578/-165015.940+1454147.172/-165141.604+1454147.756/-165630.158+1454434.912/-165713.864+1454453.098/-165843.557+1454422.822/-165959.758+1454418.009/-170143.672+1454423.373/-170418.829+1454534.101
     </Line>
   </Map>
   <Map Type="System2" Name="CS_VFR_FULL_NAME" Priority="1" Center="-16.885833+145.755278">
@@ -278,7 +278,7 @@
   <Map Type="System" Name="YBCS_ALLRWYS" Priority="2" Center="-16.885833+145.755278">
     <!--YBCS-->
     <Runway Name="15/33">
-      <Threshold Name="15" Position="-16.865817+145.743561" ExtendedCentrelineTrack="336.48" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="15" Position="-16.865817+145.743569" ExtendedCentrelineTrack="336.48" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
       <Threshold Name="33" Position="-16.891969+145.755392" ExtendedCentrelineTrack="156.48" ExtendedCentrelineLength="25" ExtendedCentrelineTickInterval="2" />
     </Runway>
   </Map>

@@ -841,14 +841,6 @@
         <Map Name="Karratha/ASMGCS_YPKA_BLD" />
       </Maps>
     </Position>
-    <Position Name="YPWR" Type="ASMGCS" ASMGCSAirport="YPWR" DefaultCenter="-31.146389+136.808889" DefaultRange="2" MagneticVariation="-6.6" Rotation="-89">
-      <Maps>
-        <Map Name="Woomera/ASMGCS_YPWR_RWY" />
-        <Map Name="Woomera/ASMGCS_YPWR_APR" />
-        <Map Name="Woomera/ASMGCS_YPWR_TWY" />
-        <Map Name="Woomera/ASMGCS_YPWR_BLD" />
-      </Maps>
-    </Position>
     <Position Name="YSTW" Type="ASMGCS" ASMGCSAirport="YSTW" DefaultCenter="-31.081111+150.841944" DefaultRange="2" MagneticVariation="-11.5" Rotation="-32">
       <Maps>
         <Map Name="Tamworth/ASMGCS_YSTW_RWY" />
@@ -1091,34 +1083,6 @@
       <ControllerInfo Callsign="KA_GND">
         <Line>Karratha Ground</Line>
         <Line>ATIS available on 134.55</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Woomera Tower" Type="ASD" DefaultCenter="-31.144167+136.816944" DefaultRange="90" MagneticVariation="-6.6">
-      <Sectors>
-        <Sector Name="WR ADC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Woomera/WR_TCU" />
-        <Map Name="Woomera/YPWR_ALLRWYS" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YPWR" Frequency="134.0" />
-        <Window Airport="YPWR" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPWR" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="4500">
-      </CFL>
-      <ArrivalLists>
-        <Airport Name="YPWR" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Woomera Tower</Line>
-        <Line>ATIS available on 134.0</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>

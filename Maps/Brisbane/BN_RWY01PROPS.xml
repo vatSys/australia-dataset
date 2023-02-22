@@ -3,17 +3,17 @@
   <Map Type="System" Name="BN_RWY01PROPS" Priority="1" Center="-27.384167+153.117500">
     <!--YBBN-->
     <Runway Name="01L/19R">
-      <Threshold Name="01L" Position="-27.383069+153.106853" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="01L" Position="-27.383069+153.106803" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
       <Threshold Name="19R" Position="-27.356544+153.121969" />
     </Runway>
     <Runway Name="01R/19L">
-      <Threshold Name="01R" Position="-27.402797+153.118217" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="01R" Position="-27.402797+153.118219" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
       <Threshold Name="19L" Position="-27.374664+153.134306" />
     </Runway>
     <!--SIDs-->
     <Line>
       <!--Rwy01L BIXAD1-->
-      -27.356544+153.121969/
+      -272123.560+1530719.090/
       OSOKO/
       BUKBU/
       BIXAD
@@ -27,7 +27,7 @@
     </Line>
     <Line>
       <!--Rwy01R GUMKI1-->
-      -27.374664+153.134306/
+      -272228.790+1530803.500/
       ISRIB/
       IDKOS/
       GUMKI
@@ -227,21 +227,28 @@
       <Point>IRTED</Point>
     </Symbol>
     <!--(BN) RWY01PROPS Airspace-->
-    <Line Width="1.7" Pattern="Dotted">
--265424.516+1525512.931/-271339.910+1525845.740/-271938.830+1530043.300/-272259.231+1530624.529/-272412.172+1530704.463/-274741.180+1532918.699</Line>
-    <Line Width="1.7" Pattern="Dotted">
--265516.191+1532337.251/-274840.645+1525303.590</Line>
+    <Line Name="(BN) RWY01PROPS" Width="1.7" Pattern="Dotted">
+      -265424.516+1525512.931/-271339.910+1525845.740/-271938.830+1530043.300/-272259.231+1530624.529/-272412.172+1530704.463/-274741.180+1532918.699
+    </Line>
+    <Line Name="(BN) RWY01PROPS_1" Width="1.7" Pattern="Dotted">
+      -265516.191+1532337.251/-274840.645+1525303.590
+    </Line>
+    <Line Name="(BN) RWY01PROPS-NTZ" Width="1.7" Pattern="Dotted">
+      -272359.874+1530643.000/-272826.972+1530409.592/-272818.006+1530349.759/-272826.972+1530409.592/-274001.329+1525730.034/-273952.363+1525710.166/-272350.422+1530622.043/-272359.874+1530643.000
+    </Line>
     <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
+      <!--(BN) RWY01PROPS Labels-->
       <Point Name="BDN">-26.951312+153.111766</Point>
-      <Point Name="BDN/BAN">-27.628021+152.898737</Point>
       <Point Name="BDN/BAN">-27.044049+152.820974</Point>
+      <Point Name="BDN/BAN">-27.628021+152.898737</Point>
       <Point Name="BDS">-27.178270+153.521934</Point>
       <Point Name="BDS/BAS">-27.740573+153.007998</Point>
     </Label>
   </Map>
-  <Map Type="REST_NTZ_DAIW" Name="BN_RWY01PROPS_NTZ" Priority="0">
+  <Map Type="REST_NTZ_DAIW" Name="BN_RWY01PROPS-NTZ" Priority="0">
     <Line Pattern="Solid">
--272359.874+1530643.000/-272826.972+1530409.592/-272818.006+1530349.759/-272826.972+1530409.592/-274001.329+1525730.034/-273952.363+1525710.166/-272350.422+1530622.043/-272359.874+1530643.000</Line>
+      -272359.874+1530643.000/-272826.972+1530409.592/-272818.006+1530349.759/-272826.972+1530409.592/-274001.329+1525730.034/-273952.363+1525710.166/-272350.422+1530622.043/-272359.874+1530643.000
+    </Line>
   </Map>
   <Map Type="System" Name="BN_RWY01PROPS_NAMES" Priority="2" Center="-27.384167+153.117500">
     <Label>
