@@ -8,15 +8,15 @@
     </Runway>
     <!--YPJT-->
     <Runway Name="06L/24R">
-      <Threshold Name="06L" Position="-32.099978+115.874572" ExtendedCentrelineTrack="234.42" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="06L" Position="-32.099978+115.874594" ExtendedCentrelineTrack="234.42" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
       <Threshold Name="24R" Position="-32.094058+115.884314" ExtendedCentrelineTrack="54.42" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <Runway Name="06R/24L">
-      <Threshold Name="06R" Position="-32.100881+115.876914" />
+      <Threshold Name="06R" Position="-32.100881+115.876939" />
       <Threshold Name="24L" Position="-32.094844+115.886847" />
     </Runway>
     <Runway Name="12/30">
-      <Threshold Name="12" Position="-32.099947+115.872475" ExtendedCentrelineTrack="294.48" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="12" Position="-32.099947+115.872486" ExtendedCentrelineTrack="294.48" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
       <Threshold Name="30" Position="-32.105581+115.887022" ExtendedCentrelineTrack="114.48" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <!--YPEA-->
@@ -216,37 +216,37 @@
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="IN_MOUNT_DALE">MUE</Point>
-      <Point Name="IN_NW">-31.776111+115.724167</Point>
+      <Point Name="IN_NW">-314634.000+1154327.000</Point>
       <Point Name="IN_OAKFORD">OAKF</Point>
-      <Point Name="OUT_ARMADALESHOP">-32.115814+115.936056</Point>
+      <Point Name="OUT_ARMADALESHOP">-320656.932+1155609.801</Point>
       <Point Name="OUT_LAKE_THOMSON">YGB</Point>
       <Point Name="OUT_VICTOR_65">NORT</Point>
-      <Point Name="VIA_CANNING_DAM">-31.663889+116.633333</Point>
+      <Point Name="VIA_CANNING_DAM">-313950.000+1163800.000</Point>
       <Point Name="VIA_VICTOR_66">TLMI</Point>
-      <Point Name="JURIEN_BAY_1">-30.302628+115.055164</Point>
-      <Point Name="ROUTE_1">-30.504259+115.059149</Point>
-      <Point Name="ROUTE_2">-30.504328+115.059111</Point>
-      <Point Name="ROUTE_3">-31.026828+115.328617</Point>
+      <Point Name="JURIEN_BAY_1">-301809.461+1150318.590</Point>
+      <Point Name="ROUTE_1">-303015.333+1150332.936</Point>
+      <Point Name="ROUTE_2">-303015.580+1150332.801</Point>
+      <Point Name="ROUTE_3">-310136.579+1151943.020</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="SE">
-      <Point Name="JURIEN_BAY_2">-30.302628+115.055164</Point>
-      <Point Name="ROUTE_4">-31.026828+115.328617</Point>
+      <Point Name="JURIEN_BAY_2">-301809.461+1150318.590</Point>
+      <Point Name="ROUTE_4">-310136.579+1151943.020</Point>
     </Label>
     <!--IN_MOUNT_DALE-->
     <Line Pattern="Dotted">
-      MUE/WUNG/RUSS/FDL/-32.139281+115.913278
+      MUE/WUNG/RUSS/FDL/-320821.411+1155447.799
     </Line>
     <!--IN_NW-->
     <Line Pattern="Dotted">
-      -31.776111+115.724167/MUP/OBC/CYB/CTE/FRE/POWR/ADWD
+      -314634.000+1154327.000/MUP/OBC/CYB/CTE/FRE/POWR/ADWD
     </Line>
     <!--IN_OAKFORD-->
     <Line Pattern="Dotted">
-      OAKF/FDL/-32.139281+115.913278
+      OAKF/FDL/-320821.411+1155447.799
     </Line>
     <!--OUT_ARMADALESHOP-->
     <Line Pattern="Dotted">
-      -32.115814+115.936056/SHOP/CDM
+      -320656.932+1155609.801/SHOP/CDM
     </Line>
     <!--OUT_LAKE_THOMSON-->
     <Line Pattern="Dotted">
@@ -254,11 +254,11 @@
     </Line>
     <!--OUT_VICTOR_65-->
     <Line Pattern="Dotted">
-      NORT/FREM/CTE/-31.959751+115.876447/HKE
+      NORT/FREM/CTE/-315735.102+1155235.209/HKE
     </Line>
     <!--VIA_CANNING_DAM-->
     <Line Pattern="Dotted">
-      -31.663889+116.633333/MUE/CDM
+      -313950.000+1163800.000/MUE/CDM
     </Line>
     <!--VIA_VICTOR_66-->
     <Line Pattern="Dotted">
@@ -266,27 +266,27 @@
     </Line>
     <!--JURIEN_BAY_1-->
     <Line Pattern="Dotted">
-      -30.302628+115.055164/-30.574609+115.246972/-30.743333+115.323333
+      -301809.461+1150318.590/-303428.593+1151449.098/-304436.000+1151924.000
     </Line>
     <!--JURIEN_BAY_2-->
     <Line Pattern="Dotted">
-      -30.302628+115.055164/-30.656602+115.463254
+      -301809.461+1150318.590/-303923.768+1152747.715
     </Line>
     <!--ROUTE_1-->
     <Line Pattern="Dotted">
-      -30.504259+115.059149/-30.743333+115.323333/-30.910000+115.425000/-31.026828+115.328617
+      -303015.333+1150332.936/-304436.000+1151924.000/-305436.000+1152530.000/-310136.579+1151943.020
     </Line>
     <!--ROUTE_2-->
     <Line Pattern="Dotted">
-      -30.504328+115.059111/-30.656594+115.463252/-30.742407+115.557281/-30.823408+115.605738/-30.869335+115.624287/-31.026828+115.328617
+      -303015.580+1150332.801/-303923.737+1152747.708/-304432.666+1153326.213/-304924.267+1153620.655/-305209.606+1153727.433/-310136.579+1151943.020
     </Line>
     <!--ROUTE_3-->
     <Line Pattern="Dotted">
-      -31.026828+115.328617/-30.819775+115.190264/-30.504259+115.059149
+      -310136.579+1151943.020/-304911.191+1151124.949/-303015.333+1150332.936
     </Line>
     <!--ROUTE_4-->
     <Line Pattern="Dotted">
-      -31.026828+115.328617/-31.110611+115.371263/-31.278149+115.440016/-31.362882+115.502463/-31.410186+115.539048/-31.463793+115.562274/TOS/BUB/-31.776111+115.724167
+      -310136.579+1151943.020/-310638.198+1152216.546/-311641.335+1152624.059/-312146.376+1153008.867/-312436.668+1153220.571/-312749.653+1153344.187/TOS/BUB/-314634.000+1154327.000
     </Line>
   </Map>
   <Map Type="System2" Name="PH_VFR_FULL_NAME" Priority="1" Center="-31.940278+115.966944">

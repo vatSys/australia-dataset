@@ -4594,36 +4594,6 @@
     -380533.316+1443128.447/
     -380722.000+1443605.000
   </Boundary>
-  <Boundary Name="R222F_WOOMERA_CTZ">
-    -310844.000+1363722.000/
-    -305120.000+1363717.000/
-    -305119.245+1363722.081/
-    -304951.124+1364103.033/
-    -304857.168+1364458.368/
-    -304839.000+1364901.000/
-    -304857.168+1365303.632/
-    -304951.124+1365658.967/
-    -305115.000+1370035.000/
-    -310950.000+1370035.000/
-    -311022.677+1370031.602/
-    -311203.746+1370000.160/
-    -311338.604+1365908.654/
-    -311504.362+1365758.637/
-    -311618.408+1365632.229/
-    -311718.483+1365452.056/
-    -311802.754+1365301.168/
-    -311829.869+1365102.946/
-    -311839.000+1364901.000/
-    -311829.869+1364659.054/
-    -311802.754+1364500.832/
-    -311718.483+1364309.944/
-    -311618.408+1364129.771/
-    -311504.362+1364003.363/
-    -311338.604+1363853.346/
-    -311203.746+1363801.840/
-    -311022.677+1363730.398/
-    -310844.000+1363722.000
-  </Boundary>
   <Boundary Name="WAAF">
     +011300.000+1133500.000/
     +011444.000+1133506.000/
@@ -5225,7 +5195,7 @@
     <Boundaries>ML_TMA</Boundaries>
   </Volume>
   <Volume Name="MLA_AV" LowerLimit="0" UpperLimit="24500">
-    <Boundaries>ML_TMA,WONTHAGGI_ML_CAP</Boundaries>
+    <Boundaries>WONTHAGGI_ML_CAP</Boundaries>
   </Volume>
   <Volume Name="MLTWR" LowerLimit="0" UpperLimit="1900">
     <Boundaries>MELBOURNE_CONTROL_ZONE_(C)</Boundaries>
@@ -5448,9 +5418,6 @@
   </Volume>
   <Volume Name="WRA" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WOOMERA</Boundaries>
-  </Volume>
-    <Volume Name="WRTWR" LowerLimit="0" UpperLimit="4500">
-    <Boundaries>R222F_WOOMERA_CTZ</Boundaries>
   </Volume>
   <Volume Name="YWE" LowerLimit="0" UpperLimit="60000">
     <Boundaries>YARROWEE</Boundaries>

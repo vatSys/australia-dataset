@@ -7,7 +7,7 @@
       <Threshold Name="30" Position="-35.309997+149.198761" />
     </Runway>
     <Runway Name="17/35">
-      <Threshold Name="17" Position="-35.290628+149.194447" />
+      <Threshold Name="17" Position="-35.290628+149.194442" />
       <Threshold Name="35" Position="-35.314808+149.194444" />
     </Runway>
     <!--Airway Routes-->
@@ -89,11 +89,10 @@
       LTV NDB/
       DADER
     </Line>
-    <Line Width="1.7" Pattern="Dotted">
-    <!--CBE/CBW Split-->
-      -345224.0811+1491137.7966/-354040.0223+1491141.6419
+    <!--(CB) TCU Airspace-->
+    <Line Name="(CB) TCU-CBE/CBW_Split" Width="1.7" Pattern="Dotted">
+      -345224.081+1491137.797/-354040.022+1491141.642
     </Line>
-    
   </Map>
   <Map Type="System2" Name="CB_VFR" Priority="1" Center="-35.306944+149.195000">
     <Symbol Type="HollowSquare">
@@ -238,7 +237,7 @@
     </Runway>
     <!--YSCB-->
     <Runway Name="17/35">
-      <Threshold Name="17" Position="-35.290628+149.194447" ExtendedCentrelineTrack="359.99" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="17" Position="-35.290628+149.194442" ExtendedCentrelineTrack="359.99" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="35" Position="-35.314808+149.194444" ExtendedCentrelineTrack="179.99" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
     </Runway>
   </Map>

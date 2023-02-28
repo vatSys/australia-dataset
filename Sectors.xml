@@ -111,7 +111,7 @@
   </Sector>
   <Sector FullName="Kennedy" Frequency="120.150" Callsign="BN-KEN_CTR" Name="KEN">
     <Volumes>KEN,KEN_CS_TMA_CAP</Volumes>
-    <ResponsibleSectors>BAR,TBP,SWY,CSA</ResponsibleSectors>
+    <ResponsibleSectors>BAR,TBP,SWY,CS1</ResponsibleSectors>
   </Sector>
   <Sector FullName="Keppel" Frequency="125.900" Callsign="BN-KPL_CTR" Name="KPL">
     <Volumes>KPL</Volumes>
@@ -140,6 +140,9 @@
   </Sector>
   <Sector FullName="Menzies" Frequency="134.300" Callsign="ML-MZI_CTR" Name="MZI">
     <Volumes>MZI</Volumes>
+  </Sector>
+  <Sector FullName="Moresby Centre" Frequency="123.400" Callsign="AYPM_CTR" Name="AYPM" DisplayInSectorsWindow="False">
+    <Volumes>AYPM</Volumes>
   </Sector>
   <Sector FullName="Mount" Frequency="133.700" Callsign="ML-MTK_CTR" Name="MTK">
     <Volumes>MTK</Volumes>
@@ -178,9 +181,6 @@
   <Sector FullName="Port" Frequency="127.000" Callsign="ML-POT_CTR" Name="POT">
     <Volumes>POT</Volumes>
   </Sector>
-  <Sector FullName="Moresby Centre" Frequency="123.400" Callsign="AYPM_CTR" Name="AYPM" DisplayInSectorsWindow="False">
-    <Volumes>AYPM</Volumes>
-  </Sector>
   <Sector FullName="Port Vila Centre" Frequency="120.700" Callsign="NVVV_CTR" Name="NVVV" DisplayInSectorsWindow="False">
     <Volumes>NVVV</Volumes>
   </Sector>
@@ -205,7 +205,7 @@
   </Sector>
   <Sector FullName="Territory" Frequency="133.200" Callsign="BN-TRT_CTR" Name="TRT">
     <Volumes>TRT,TRTTMA</Volumes>
-    <ResponsibleSectors>KIY,DNA</ResponsibleSectors>
+    <ResponsibleSectors>KIY,DAE</ResponsibleSectors>
   </Sector>
   <Sector FullName="Tontouta Centre" Frequency="128.200" Callsign="NWWW_CTR" Name="NWWW" DisplayInSectorsWindow="False">
     <Volumes>NWWW</Volumes>
@@ -247,6 +247,10 @@
   <Sector FullName="Auckland Radio" Frequency="129.000" Callsign="NZZO_FSS" Name="NZZO" DisplayInSectorsWindow="False">
     <Volumes>NZZO</Volumes>
   </Sector>
+  <Sector FullName="Brisbane Radio" Frequency="124.650" Callsign="BN-TSN_FSS" Name="TSN">
+    <Volumes>TSN</Volumes>
+    <ResponsibleSectors>COL,FLD,HWE</ResponsibleSectors>
+  </Sector>
   <Sector FullName="Brisbane Radio (Coral)" Frequency="133.150" Callsign="BN-COL_FSS" Name="COL">
     <Volumes>COL</Volumes>
   </Sector>
@@ -256,18 +260,18 @@
   <Sector FullName="Brisbane Radio (Indian East)" Frequency="123.650" Callsign="ML-INE_FSS" Name="INE">
     <Volumes>INE</Volumes>
   </Sector>
+  <Sector FullName="Brisbane Radio (Indian South)" Frequency="123.200" Callsign="ML-INS_FSS" Name="INS">
+    <Volumes>INS</Volumes>
+  </Sector>
   <Sector FullName="Brisbane Radio (Indian)" Frequency="129.250" Callsign="ML-IND_FSS" Name="IND">
     <Volumes>IND</Volumes>
     <ResponsibleSectors>INE,INS</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Brisbane Radio (Indian South)" Frequency="123.200" Callsign="ML-INS_FSS" Name="INS">
-    <Volumes>INS</Volumes>
+  <Sector FullName="Brisbane Radio (Lord Howe)" Frequency="124.950" Callsign="BN-HWE_FSS" Name="HWE">
+    <Volumes>HWE</Volumes>
   </Sector>
   <Sector FullName="Johannesburg Oceanic" Frequency="120.850" Callsign="FAJO_FSS" Name="FAJO" DisplayInSectorsWindow="False">
     <Volumes>FAJO</Volumes>
-  </Sector>
-  <Sector FullName="Brisbane Radio (Lord Howe)" Frequency="124.950" Callsign="BN-HWE_FSS" Name="HWE">
-    <Volumes>HWE</Volumes>
   </Sector>
   <Sector FullName="Mauritius Upper" Frequency="133.050" Callsign="FIMM_FSS" Name="FIMMU" DisplayInSectorsWindow="False">
     <Volumes>FIMM</Volumes>
@@ -301,10 +305,6 @@
   </Sector>
   <Sector FullName="South Africa Upper" Frequency="134.575" Callsign="AFRS_FSS" Name="AFRS" DisplayInSectorsWindow="False">
     <Volumes>FIMM</Volumes>
-  </Sector>
-  <Sector FullName="Brisbane Radio" Frequency="124.650" Callsign="BN-TSN_FSS" Name="TSN">
-    <Volumes>TSN</Volumes>
-    <ResponsibleSectors>COL,FLD,HWE</ResponsibleSectors>
   </Sector>
   <Sector FullName="West Asia Control" Frequency="135.40" Callsign="ASIA_W_FSS" Name="ASIAW" DisplayInSectorsWindow="False">
     <Volumes>VCCF,VRMF</Volumes>
@@ -358,8 +358,8 @@
     <Volumes>RKA</Volumes>
   </Sector>
   <Sector FullName="Darwin Approach (East)" Frequency="125.200" Callsign="DN_APP" Name="DAE">
-    <ResponsibleSectors>DAW</ResponsibleSectors>
     <Volumes>DNA</Volumes>
+    <ResponsibleSectors>DAW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Darwin Approach (West)" Frequency="134.100" Callsign="DN-W_APP" Name="DAW">
     <Volumes>DNA</Volumes>
@@ -375,11 +375,11 @@
     <Volumes>LTA</Volumes>
   </Sector>
   <Sector FullName="Melbourne Approach" Frequency="132.000" Callsign="ML_APP" Name="MAE">
-    <Volumes>MLA,MLA_AV</Volumes>
+    <Volumes>MLA</Volumes>
     <ResponsibleSectors>MDN,MDS</ResponsibleSectors>
   </Sector>
   <Sector FullName="Melbourne Departures (North)" Frequency="118.900" Callsign="ML_DEP" Name="MDN">
-    <Volumes>MLA,MLA_AV</Volumes>
+    <Volumes>MLA</Volumes>
   </Sector>
   <Sector FullName="Melbourne Departures (South)" Frequency="129.400" Callsign="ML-S_DEP" Name="MDS">
     <Volumes>MLA,MLA_AV</Volumes>
@@ -735,8 +735,5 @@
   </Sector>
   <Sector FullName="Williamtown Tower" Frequency="118.300" Callsign="WLM_TWR" Name="WLM ADC" DisplayInHandoffWindow="False">
     <Volumes>WLMTWR</Volumes>
-  </Sector>
-  <Sector FullName="Woomera Tower" Frequency="118.300" Callsign="WR_TWR" Name="WR ADC">
-    <Volumes>WRTWR</Volumes>
   </Sector>
 </Sectors>
