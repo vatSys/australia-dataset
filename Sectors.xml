@@ -406,7 +406,7 @@
   <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" />
   <Sector FullName="Sydney Approach (North)" Frequency="124.400" Callsign="SY_APP" Name="SAN">
     <Volumes>SYA</Volumes>
-    <ResponsibleSectors>SAS,SFW,SFE,SDS,SDN</ResponsibleSectors>
+    <ResponsibleSectors>SAS,SFW,SFE,SDS,SDN,SRI</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sydney Approach (South)" Frequency="128.300" Callsign="SY-S_APP" Name="SAS">
     <Volumes>SYA</Volumes>
@@ -421,6 +421,9 @@
     <Volumes>SYA</Volumes>
   </Sector>
   <Sector FullName="Sydney Director (West)" Frequency="126.100" Callsign="SY-D_APP" Name="SFW">
+    <Volumes>SYA</Volumes>
+  </Sector>
+  <Sector FullName="Sydney Radar (Centre)" Frequency="124.550" Callsign="SY-C_DEP" Name="SRI">
     <Volumes>SYA</Volumes>
   </Sector>
   <Sector FullName="Tindal Approach" Frequency="120.950" Callsign="TN_APP" Name="TNA">
