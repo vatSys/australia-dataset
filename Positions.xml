@@ -1341,6 +1341,7 @@
         <Sector Name="SDS" />
         <Sector Name="SFW" />
         <Sector Name="SFE" />
+        <Sector Name="SRI" />
       </Sectors>
       <ManualVisibility>
         <Point>-33.9461+151.1772</Point>
@@ -1391,6 +1392,12 @@
       </ControllerInfo>
       <ControllerInfo Callsign="SY-D_APP">
         <Line>Sydney Director</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="SY-C_DEP">
+        <Line>Sydney Centre</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
