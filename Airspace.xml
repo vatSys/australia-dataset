@@ -150,10 +150,10 @@
         <SID Name="APAGI5" Type="Jet" />
         <SID Name="CG6" Default="True" />
         <SID Name="CUDGN4" />
-        <STAR Name="BERN1A" ApproachName="RNPZ" />
-        <STAR Name="BERN1Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
-        <STAR Name="LAMS1A" ApproachName="RNPZ" />
-        <STAR Name="LAMS1Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="BERN2A" ApproachName="RNPZ" />
+        <STAR Name="BERN2Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="LAMS2A" ApproachName="RNPZ" />
+        <STAR Name="LAMS2Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="17" DataRunway="17">
         <SID Name="CG6" Default="True" />
@@ -162,16 +162,16 @@
         <SID Name="APAGI5" Type="Jet" />
         <SID Name="BURLI5" />
         <SID Name="CG6" Default="True" />
-        <STAR Name="BERN1A" ApproachName="RNPZ" />
-        <STAR Name="LAMS1A" ApproachName="RNPZ" />
-        <STAR Name="LAMS1Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="BERN2A" ApproachName="RNPZ" />
+        <STAR Name="LAMS2A" ApproachName="RNPZ" />
+        <STAR Name="LAMS2Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="35" DataRunway="35" />
       <Runway Name="14V" DataRunway="14">
-        <STAR Name="BERN1V" />
+        <STAR Name="BERN2V" />
       </Runway>
       <Runway Name="32V" DataRunway="32">
-        <STAR Name="BERN1V" />
+        <STAR Name="BERN2V" />
       </Runway>
     </Airport>
     <Airport Name="YBCS">
@@ -402,24 +402,24 @@
         <SID Name="KANLI3" Type="NonJet" />
         <SID Name="LATUM2" Type="Jet" />
         <SID Name="LAVOP1" />
-        <STAR Name="IPLE5A" ApproachName="RNPZ" />
-        <STAR Name="IPLE5W" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="IPLE6A" ApproachName="RNPZ" />
+        <STAR Name="IPLE6W" OpDataFlag="W" ApproachName="RNP-ARW" />
         <STAR Name="MORG1A" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="30" DataRunway="30">
         <SID Name="CLARK2" />
         <SID Name="KANLI3" Type="NonJet" />
         <SID Name="LATUM2" Type="Jet" />
-        <STAR Name="IPLE5A" ApproachName="RNPZ" />
-        <STAR Name="IPLE5W" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="IPLE6A" ApproachName="RNPZ" />
+        <STAR Name="IPLE6W" OpDataFlag="W" ApproachName="RNP-ARW" />
         <STAR Name="MORG1A" ApproachName="RNPZ" />
         <STAR Name="MORG1W" OpDataFlag="W" ApproachName="RNP-ARW" />
       </Runway>
       <Runway Name="12V" DataRunway="12">
-        <STAR Name="IPLE5V" />
+        <STAR Name="IPLE6V" />
       </Runway>
       <Runway Name="30V" DataRunway="30">
-        <STAR Name="IPLE5V" />
+        <STAR Name="IPLE6V" />
         <STAR Name="MORG1V" />
       </Runway>
     </Airport>
@@ -466,12 +466,12 @@
     <Airport Name="YMML">
       <Runway Name="09" DataRunway="09">
         <SID Name="ML6" Default="True" />
-        <STAR Name="ARBE6A" ApproachName="RNPZ" />
-        <STAR Name="BOYS7A" ApproachName="RNPZ" />
-        <STAR Name="LIZI8A" ApproachName="RNPZ" />
-        <STAR Name="PORT6A" ApproachName="RNPZ" />
-        <STAR Name="WARE7A" ApproachName="RNPZ" />
-        <STAR Name="WEND9A" ApproachName="RNPZ" />
+        <STAR Name="ARBE7A" ApproachName="RNPZ" />
+        <STAR Name="BOYS8A" Type="NonJet" ApproachName="RNPZ" />
+        <STAR Name="LIZI9A" ApproachName="RNPZ" />
+        <STAR Name="PORT7A" ApproachName="RNPZ" />
+        <STAR Name="WARE8A" ApproachName="RNPZ" />
+        <STAR Name="WEND1A" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="16" DataRunway="16">
         <SID Name="CORRS9" Type="Jet" />
@@ -485,13 +485,13 @@
         <SID Name="NEVIS7" Type="Jet" />
         <SID Name="NONIX3" Type="Jet" />
         <SID Name="SUNTI3" Type="Jet" />
-        <STAR Name="ARBE6A" ApproachName="RNPT" />
-        <STAR Name="BOYS7A" ApproachName="RNPT" />
-        <STAR Name="LIZI8A" ApproachName="RNPT" />
-        <STAR Name="WARE7A" ApproachName="RNPT" />
-        <STAR Name="WARE7M" OpDataFlag="M" ApproachName="RNP-ARM" />
-        <STAR Name="WEND9A" ApproachName="RNPT" />
-        <STAR Name="WEND9P" OpDataFlag="P" ApproachName="RNP-ARP" />
+        <STAR Name="ARBE7A" ApproachName="RNPT" />
+        <STAR Name="BOYS8A" Type="NonJet" ApproachName="RNPT" />
+        <STAR Name="LIZI9A" ApproachName="RNPT" />
+        <STAR Name="WARE8A" ApproachName="RNPT" />
+        <STAR Name="WARE8M" OpDataFlag="M" ApproachName="RNP-ARM" />
+        <STAR Name="WEND1A" ApproachName="RNPT" />
+        <STAR Name="WEND1P" OpDataFlag="P" ApproachName="RNP-ARP" />
       </Runway>
       <Runway Name="27" DataRunway="27">
         <SID Name="CORRS9" Type="Jet" />
@@ -504,11 +504,11 @@
         <SID Name="NEVIS7" Type="Jet" />
         <SID Name="NONIX3" Type="Jet" />
         <SID Name="SUNTI3" Type="Jet" />
-        <STAR Name="ARBE6A" ApproachName="RNPZ" />
-        <STAR Name="BOYS7A" ApproachName="RNPZ" />
-        <STAR Name="LIZI8A" ApproachName="RNPZ" />
-        <STAR Name="WARE7A" ApproachName="RNPZ" />
-        <STAR Name="WEND9A" ApproachName="RNPZ" />
+        <STAR Name="ARBE7A" ApproachName="RNPZ" />
+        <STAR Name="BOYS8A" Type="NonJet" ApproachName="RNPZ" />
+        <STAR Name="LIZI9A" ApproachName="RNPZ" />
+        <STAR Name="WARE8A" ApproachName="RNPZ" />
+        <STAR Name="WEND1A" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="34" DataRunway="34">
         <SID Name="CORRS9" Type="Jet" />
@@ -521,17 +521,17 @@
         <SID Name="NEVIS7" Type="Jet" />
         <SID Name="NONIX3" Type="Jet" />
         <SID Name="SUNTI3" Type="Jet" />
-        <STAR Name="ARBE6A" ApproachName="RNPZ" />
-        <STAR Name="BOYS7A" ApproachName="RNPZ" />
-        <STAR Name="LIZI8A" ApproachName="RNPZ" />
-        <STAR Name="PORT6A" ApproachName="RNPZ" />
-        <STAR Name="WARE7A" ApproachName="RNPZ" />
-        <STAR Name="WEND9A" ApproachName="RNPZ" />
+        <STAR Name="ARBE7A" ApproachName="RNPZ" />
+        <STAR Name="BOYS8A" Type="NonJet" ApproachName="RNPZ" />
+        <STAR Name="LIZI9A" ApproachName="RNPZ" />
+        <STAR Name="PORT7A" ApproachName="RNPZ" />
+        <STAR Name="WARE8A" ApproachName="RNPZ" />
+        <STAR Name="WEND1A" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="34V" DataRunway="34">
-        <STAR Name="BOYS7V" />
-        <STAR Name="LIZI8V" />
-        <STAR Name="WARE7V" />
+        <STAR Name="BOYS8V" />
+        <STAR Name="LIZI9V" />
+        <STAR Name="WARE8V" />
       </Runway>
     </Airport>
     <Airport Name="YPAD">
@@ -699,9 +699,9 @@
     </Airport>
     <Airport Name="YPJT">
       <Runway Name="06L" DataRunway="06L">
-        <SID Name="MANTL1" />
-        <SID Name="SCARP4" />
-        <SID Name="TONEG3" />
+        <SID Name="MANTL2" />
+        <SID Name="SCARP5" />
+        <SID Name="TONEG4" />
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
@@ -712,9 +712,9 @@
         <STAR Name="JT2W" OpDataFlag="W" />
       </Runway>
       <Runway Name="12" DataRunway="12">
-        <SID Name="MANTL1" />
-        <SID Name="SCARP4" />
-        <SID Name="TONEG3" />
+        <SID Name="MANTL2" />
+        <SID Name="SCARP5" />
+        <SID Name="TONEG4" />
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
@@ -725,17 +725,17 @@
         <STAR Name="JT2W" OpDataFlag="W" />
       </Runway>
       <Runway Name="24R" DataRunway="24R">
-        <SID Name="MANTL1" />
-        <SID Name="SCARP4" />
-        <SID Name="TONEG3" />
+        <SID Name="MANTL2" />
+        <SID Name="SCARP5" />
+        <SID Name="TONEG4" />
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
       </Runway>
       <Runway Name="30" DataRunway="30">
-        <SID Name="MANTL1" />
-        <SID Name="SCARP4" />
-        <SID Name="TONEG3" />
+        <SID Name="MANTL2" />
+        <SID Name="SCARP5" />
+        <SID Name="TONEG4" />
         <STAR Name="JT2G" OpDataFlag="G" />
         <STAR Name="JT2R" OpDataFlag="R" />
         <STAR Name="JT2W" OpDataFlag="W" />
@@ -15657,19 +15657,19 @@ BOFOR
       <Route Runway="11">-122509.220+1305339.990/DN VOR/PAMGA/BAXIB/VANDI</Route>
       <Route Runway="29">-122433.850+1305154.940/-122350.344+1304945.880/BELUN/MIGIP/LEGUL/OTGAX/TEGIT/DUGAM/BURBA/VANDI</Route>
     </SID>
-    <SID Name="MANTL1" Airport="YPJT" Runways="06L,12,24R,30">
+    <SID Name="MANTL2" Airport="YPJT" Runways="06L,12,24R,30">
       <Route Runway="06L">-320538.610+1155303.530/-320535.183+1155308.907/-320439.108+1155432.400/-320421.360+1155439.239/-320403.144+1155434.559/-320349.284+1155419.800/-320343.523+1155358.919/-320347.411+1155337.319/MANTL</Route>
       <Route Runway="12">-320620.090+1155313.280/-320613.095+1155255.245/-320646.404+1155434.199/-320642.515+1155455.799/-320630.060+1155512.000/-320612.311+1155518.839/-320554.095+1155514.159/-320540.235+1155459.399/MANTL</Route>
       <Route Runway="24R">-320559.920+1155228.540/-320601.752+1155224.444/-320654.359+1155058.200/-320655.007+1155035.879/-320646.260+1155016.440/-320630.456+1155004.919/-320611.844+1155004.200/MANTL</Route>
       <Route Runway="30">-320559.810+1155220.950/-320559.770+1155220.878/-320529.292+1155056.400/-320446.127+1155045.240/MANTL</Route>
     </SID>
-    <SID Name="SCARP4" Airport="YPJT" Runways="06L,12,24R,30">
+    <SID Name="SCARP5" Airport="YPJT" Runways="06L,12,24R,30">
       <Route Runway="06L">-320538.610+1155303.530/-320535.183+1155308.907/-320453.436+1155418.360/-320452.788+1155440.679/-320501.535+1155459.760/-320517.339+1155511.639/SCARP</Route>
       <Route Runway="12">-320620.090+1155313.280/-320613.095+1155255.245/-320643.596+1155419.800/-320706.203+1155556.279/SCARP</Route>
       <Route Runway="24R">-320559.920+1155228.540/-320601.752+1155224.444/-320657.852+1155101.080/-320715.600+1155054.239/-320733.816+1155058.919/-320747.676+1155113.680/-320753.435+1155134.560/-320706.203+1155556.279/SCARP</Route>
       <Route Runway="30">-320559.810+1155220.950/-320559.770+1155220.878/-320526.484+1155042.000/-320530.371+1155020.399/-320542.828+1155004.200/-320600.576+1154957.359/-320618.792+1155002.039/-320632.652+1155016.799/SCARP</Route>
     </SID>
-    <SID Name="TONEG3" Airport="YPJT" Runways="06L,12,24R,30">
+    <SID Name="TONEG4" Airport="YPJT" Runways="06L,12,24R,30">
       <Route Runway="06L">-320538.610+1155303.530/-320535.183+1155308.907/-320439.108+1155432.400/-320421.360+1155439.239/-320403.144+1155434.559/-320349.284+1155419.800/-320343.523+1155358.919/-320347.411+1155337.319/TONEG</Route>
       <Route Runway="12">-320620.090+1155313.280/-320613.095+1155255.245/-320650.436+1155432.400/-320706.240+1155443.919/-320724.852+1155444.640/-320741.304+1155434.199/-320751.167+1155415.839/-320731.691+1155043.439/TONEG</Route>
       <Route Runway="24R">-320559.920+1155228.540/-320601.752+1155224.444/-320648.707+1155111.159/-320731.691+1155043.439/TONEG</Route>
@@ -16039,22 +16039,22 @@ BOFOR
       <Route Runway="01L">WOODY/NUSBU/NODUG/RUKNO</Route>
       <Route Runway="19R">WOODY/ATVON/TEGIL/PAMGO</Route>
     </STAR>
-    <STAR Name="BERN1A" Airport="YBCG" Runways="14,32">
+    <STAR Name="BERN2A" Airport="YBCG" Runways="14,32">
       <Route Runway="14">BERNI/ELDUX/VANSU/ROONY/FIKUL/CHOOK/AGTEK/KEGAN</Route>
       <Route Runway="32">BERNI/ELDUX/VANSU/ROONY/FIKUL</Route>
     </STAR>
-    <STAR Name="BERN1V" Airport="YBCG" Runways="14,32">
+    <STAR Name="BERN2V" Airport="YBCG" Runways="14,32">
       <Route Runway="14">BERNI/ELDUX/VANSU/ROONY/FIKUL/CHOOK/KERRI/SAILA/NIKKI</Route>
       <Route Runway="32">BERNI/ELDUX/VANSU/ROONY/FIKUL/JAAPI</Route>
     </STAR>
-    <STAR Name="BERN1Y" Airport="YBCG" Runways="14">
+    <STAR Name="BERN2Y" Airport="YBCG" Runways="14">
       <Route Runway="14">BERNI/ELDUX/VANSU/ROONY/FIKUL/CHOOK/KERRI</Route>
     </STAR>
-    <STAR Name="LAMS1A" Airport="YBCG" Runways="14,32">
+    <STAR Name="LAMS2A" Airport="YBCG" Runways="14,32">
       <Route Runway="14">LAMSI/PATSU/TELOG/LOTMA/KEGAN</Route>
       <Route Runway="32">LAMSI/IGLAP/VIDUM/FIKUL</Route>
     </STAR>
-    <STAR Name="LAMS1Y" Airport="YBCG" Runways="14,32">
+    <STAR Name="LAMS2Y" Airport="YBCG" Runways="14,32">
       <Route Runway="14">LAMSI/MIMUD/KAKVI/ENRIM/KERRI</Route>
       <Route Runway="32">LAMSI/OVSOT/ADMAK/TENIP/ATKEN</Route>
     </STAR>
@@ -16275,15 +16275,15 @@ BOFOR
       <Route Runway="07">VEGRU/UPDUR</Route>
       <Route Runway="25">VEGRU/UPDUR/IVRAX/BEMGI</Route>
     </STAR>
-    <STAR Name="IPLE5A" Airport="YMHB" Runways="12,30">
+    <STAR Name="IPLE6A" Airport="YMHB" Runways="12,30">
       <Route Runway="12">IPLET/SUNEK/BEBEK/UNTAP/BUSKA</Route>
       <Route Runway="30">IPLET/RUMUM/SAKUT/PIDOS</Route>
     </STAR>
-    <STAR Name="IPLE5V" Airport="YMHB" Runways="12,30">
+    <STAR Name="IPLE6V" Airport="YMHB" Runways="12,30">
       <Route Runway="12">IPLET/ATIGU/PIMOV/VETOR</Route>
       <Route Runway="30">IPLET/RUMUM/BAVUR</Route>
     </STAR>
-    <STAR Name="IPLE5W" Airport="YMHB" Runways="12,30">
+    <STAR Name="IPLE6W" Airport="YMHB" Runways="12,30">
       <Route Runway="12">IPLET/ATIGU/PIMOV/VETOR</Route>
       <Route Runway="30">IPLET/RUMUM/BAVUR</Route>
     </STAR>
@@ -16297,55 +16297,55 @@ BOFOR
     <STAR Name="MORG1W" Airport="YMHB" Runways="30">
       <Route Runway="30">MORGO/POXID/GULEB/SORVI/LIMDU/BAVUR</Route>
     </STAR>
-    <STAR Name="ARBE6A" Airport="YMML" Runways="09,16,27,34">
+    <STAR Name="ARBE7A" Airport="YMML" Runways="09,16,27,34">
       <Route Runway="09">ARBEY/TUNKA/DABUX/OPAVA/UPKAN/GUPUG</Route>
       <Route Runway="16">ARBEY/TUNKA/LASOL/BELTA</Route>
       <Route Runway="27">ARBEY/TUNKA/BELTA/LAKEP/BOBEL/PAULA/VISAS</Route>
       <Route Runway="34">ARBEY/TUNKA/BELTA/OVNER/RENER/GOSKO/LAVER/OBGAL/AKDEL</Route>
     </STAR>
-    <STAR Name="BOYS7A" Airport="YMML" Runways="09,16,27,34">
+    <STAR Name="BOYS8A" Airport="YMML" Runways="09,16,27,34">
       <Route Runway="09">BOYSE/VALES/LUSTU/ANBEL/BUVIV/NEFER/BELTA/OPAVA/UPKAN/GUPUG</Route>
       <Route Runway="16">BOYSE/VALES/ANBEL/BUVIV/NEFER/BELTA</Route>
       <Route Runway="27">BOYSE/MAXAL/HAYES/DOREN/VISAS</Route>
       <Route Runway="34">BOYSE/MAXAL/OLTUR/VENVO/GOOLA/BOLTY/AKDEL</Route>
     </STAR>
-    <STAR Name="BOYS7V" Airport="YMML" Runways="34">
+    <STAR Name="BOYS8V" Airport="YMML" Runways="34">
       <Route Runway="34">BOYSE/MAXAL/ARTHA/EMRIG/MONTY/EGEKA/SHEED</Route>
     </STAR>
-    <STAR Name="LIZI8A" Airport="YMML" Runways="09,16,27,34">
-      <Route Runway="09">LIZZI/HORUS/ENSEG/NEFER/BELTA/OPAVA/UPKAN/GUPUG</Route>
-      <Route Runway="16">LIZZI/HORUS/ENSEG/NEFER/BELTA</Route>
-      <Route Runway="27">LIZZI/MAITE/VISAS</Route>
-      <Route Runway="34">LIZZI/VEPUD/AKSID/GOOLA/BOLTY/AKDEL</Route>
+    <STAR Name="LIZI9A" Airport="YMML" Runways="09,16,27,34">
+      <Route Runway="09">LIZZI/MAXAL/HORUS/ENSEG/NEFER/BELTA/OPAVA/UPKAN/GUPUG</Route>
+      <Route Runway="16">LIZZI/MAXAL/HORUS/ENSEG/NEFER/BELTA</Route>
+      <Route Runway="27">LIZZI/ATPER/MAITE/ENDUM/VISAS</Route>
+      <Route Runway="34">LIZZI/IBARU/VEPUD/AKSID/GOOLA/BOLTY/AKDEL</Route>
     </STAR>
-    <STAR Name="LIZI8V" Airport="YMML" Runways="34">
-      <Route Runway="34">LIZZI/MAITE/IGPON/MONTY/EGEKA/SHEED</Route>
+    <STAR Name="LIZI9V" Airport="YMML" Runways="34">
+      <Route Runway="34">LIZZI/ATPER/MAITE/IGPON/MONTY/EGEKA/SHEED</Route>
     </STAR>
-    <STAR Name="PORT6A" Airport="YMML" Runways="09,34">
+    <STAR Name="PORT7A" Airport="YMML" Runways="09,34">
       <Transition Name="MILLA">MILLA/EKKAS</Transition>
       <Transition Name="ONAGI">ONAGI/LATTA</Transition>
       <Route Runway="09">PORTS/KEVEK/MISCH/RIPMO/AVPIX/GUPUG</Route>
-      <Route Runway="34">PORTS/ESLOK/AKDEL</Route>
+      <Route Runway="34">PORTS/ATOKU/ESLOK/AKDEL</Route>
     </STAR>
-    <STAR Name="WARE7A" Airport="YMML" Runways="09,16,27,34">
+    <STAR Name="WARE8A" Airport="YMML" Runways="09,16,27,34">
       <Route Runway="09">WAREN/MICHM/MONTY/SANDR/AGTEV/BELTA/OPAVA/UPKAN/GUPUG</Route>
       <Route Runway="16">WAREN/MICHM/MONTY/SANDR/LAGUG/NEFER/BELTA</Route>
       <Route Runway="27">WAREN/MICHM/MONTY/VISAS</Route>
       <Route Runway="34">WAREN/MICHM/UPKID/GOOLA/BOLTY/AKDEL</Route>
     </STAR>
-    <STAR Name="WARE7M" Airport="YMML" Runways="16">
+    <STAR Name="WARE8M" Airport="YMML" Runways="16">
       <Route Runway="16">WAREN/MICHM/MONTY/DUGOT/VENPU/LUVKA</Route>
     </STAR>
-    <STAR Name="WARE7V" Airport="YMML" Runways="34">
+    <STAR Name="WARE8V" Airport="YMML" Runways="34">
       <Route Runway="34">WAREN/MICHM/MONTY/EGEKA/SHEED</Route>
     </STAR>
-    <STAR Name="WEND9A" Airport="YMML" Runways="09,16,27,34">
+    <STAR Name="WEND1A" Airport="YMML" Runways="09,16,27,34">
       <Route Runway="09">WENDY/NIXEN/TEENA/RIPMO/AVPIX/GUPUG</Route>
       <Route Runway="16">WENDY/TEENA/KEELA/PASCO/JADEL/KIKEX/NEFER/BELTA</Route>
       <Route Runway="27">WENDY/TEENA/KEELA/NOMID/ROCEL/VISAS</Route>
       <Route Runway="34">WENDY/NIXEN/TEENA/MEMEG/LAVER/OBGAL/AKDEL</Route>
     </STAR>
-    <STAR Name="WEND9P" Airport="YMML" Runways="16">
+    <STAR Name="WEND1P" Airport="YMML" Runways="16">
       <Route Runway="16">WENDY/TEENA/KEELA/PASCO/EMSEK</Route>
     </STAR>
     <STAR Name="ALEX3V" Airport="YPAD" Runways="05">
