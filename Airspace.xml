@@ -388,12 +388,21 @@
       </Runway>
       <Runway Name="09" DataRunway="09">
         <SID Name="ESL5" Default="True" />
+        <STAR Name="ANOSO1" ApproachName="RNPZ" />
+        <STAR Name="PAPDO1" ApproachName="RNPZ" />
+        <STAR Name="TREVR4" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="22" DataRunway="22">
         <SID Name="ESL5" Default="True" />
+        <STAR Name="ANOSO1" ApproachName="LOCZ" />
+        <STAR Name="LAREX1" ApproachName="LOCZ" />
+        <STAR Name="PAPDO1" ApproachName="LOCZ" />
+        <STAR Name="TREVR4" ApproachName="LOCZ" />
       </Runway>
       <Runway Name="27" DataRunway="27">
         <SID Name="ESL5" Default="True" />
+        <STAR Name="ANOSO1" ApproachName="RNPZ" />
+        <STAR Name="LAREX1" ApproachName="RNPZ" />
       </Runway>
     </Airport>
     <Airport Name="YMHB">
@@ -16293,6 +16302,30 @@ BOFOR
       <Route Runway="07">VEGRU/UPDUR</Route>
       <Route Runway="25">VEGRU/UPDUR/IVRAX/BEMGI</Route>
     </STAR>
+    <STAR Name="ANOSO1" Airport="YMES" Runways="09,22,27">
+      <Route Runway="09">ANOSO/MESWO</Route>
+      <Route Runway="22">ANOSO/WEIRD/-381129.379+1471959.032/-381056.841+1472023.304/-381023.162+1472044.934/-380948.476+1472103.838/-380912.921+1472119.941/-380836.638+1472133.181/-380759.769+1472143.506/-380722.461+1472150.878/-380644.860+1472155.268/-380607.116+1472156.661/-380529.377+1472155.051/-380451.793+1472150.448/-380414.511+1472142.869/-380337.678+1472132.347/-380301.440+1472118.923/-380225.939+1472102.653/-380151.315+1472043.601/-380117.705+1472021.843/-380045.240+1471957.466/-380014.049+1471930.566/ROESA</Route>
+      <Route Runway="27">ANOSO/MESEJ</Route>
+    </STAR>
+    <STAR Name="LAREX1" Airport="YMES" Runways="22,27">
+      <Transition Name="GIPPS">GIPPS</Transition>
+      <Transition Name="TYERS">TYERS</Transition>
+      <Transition Name="VISER">VISER</Transition>
+      <Route Runway="22">LAREX/RASHI/WEIRD/-381129.379+1471959.032/-381056.841+1472023.304/-381023.162+1472044.934/-380948.476+1472103.838/-380912.921+1472119.941/-380836.638+1472133.181/-380759.769+1472143.506/-380722.461+1472150.878/-380644.860+1472155.268/-380607.116+1472156.661/-380529.377+1472155.051/-380451.793+1472150.448/-380414.511+1472142.869/-380337.678+1472132.347/-380301.440+1472118.923/-380225.939+1472102.653/-380151.315+1472043.601/-380117.705+1472021.843/-380045.240+1471957.466/-380014.049+1471930.566/ROESA</Route>
+      <Route Runway="27">LAREX/MESEG</Route>
+    </STAR>
+    <STAR Name="PAPDO1" Airport="YMES" Runways="09,22">
+      <Transition Name="BULKO">BULKO</Transition>
+      <Transition Name="LTV NDB">LTV NDB</Transition>
+      <Transition Name="MOZZA">MOZZA</Transition>
+      <Route Runway="09">PAPDO/MESWP</Route>
+      <Route Runway="22">PAPDO/RUSIR/AMELI/ROESA</Route>
+    </STAR>
+    <STAR Name="TREVR4" Airport="YMES" Runways="09,22">
+      <Transition Name="VISER">VISER</Transition>
+      <Route Runway="09">TREVR/MESWQ</Route>
+      <Route Runway="22">TREVR/AMELI/ROESA</Route>
+    </STAR>
     <STAR Name="IPLE6A" Airport="YMHB" Runways="12,30">
       <Route Runway="12">IPLET/SUNEK/BEBEK/UNTAP/BUSKA</Route>
       <Route Runway="30">IPLET/RUMUM/SAKUT/PIDOS</Route>
@@ -16982,6 +17015,22 @@ BOFOR
       <Transition Name="BEMGI">BEMGI</Transition>
       <Transition Name="OLRUT">OLRUT</Transition>
       <Route>AB2EI/AB2EF/-360355.620+1465811.070</Route>
+    </Approach>
+    <Approach Name="LOCZ" Airport="YMES" Runway="22">
+      <Transition Name="KELAN">KELAN</Transition>
+      <Route>ROESA/-380320.760+1471332.410/-380535.170+1470939.620</Route>
+    </Approach>
+    <Approach Name="RNPZ" Airport="YMES" Runway="09">
+      <Transition Name="MESWO">MESWO</Transition>
+      <Transition Name="MESWP">MESWP</Transition>
+      <Transition Name="MESWQ">MESWQ</Transition>
+      <Route>MESWI/MESWF/-380544.450+1470741.880</Route>
+    </Approach>
+    <Approach Name="RNPZ" Airport="YMES" Runway="27">
+      <Transition Name="MESEE">MESEE</Transition>
+      <Transition Name="MESEG">MESEG</Transition>
+      <Transition Name="MESEJ">MESEJ</Transition>
+      <Route>MESEI/MESEF/-380555.640+1470912.330</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YMHB" Runway="12">
       <Transition Name="BUSKA">BUSKA</Transition>
