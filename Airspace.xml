@@ -695,6 +695,7 @@
     </Airport>
     <Airport Name="YPED">
       <Runway Name="18" DataRunway="18">
+        <SID Name="ED4" />
         <STAR Name="AD1E" OpDataFlag="E" ApproachName="LOCZ" />
         <STAR Name="BLAC1E" OpDataFlag="E" ApproachName="LOCZ" />
         <STAR Name="KLAV1E" OpDataFlag="E" ApproachName="LOCZ" />
@@ -702,6 +703,7 @@
         <STAR Name="RUSL1E" OpDataFlag="E" ApproachName="LOCZ" />
       </Runway>
       <Runway Name="36" DataRunway="36">
+        <SID Name="ED4" Default="True" />
         <STAR Name="AD1E" OpDataFlag="E" />
         <STAR Name="BLAC1E" OpDataFlag="E" />
         <STAR Name="KLAV1E" OpDataFlag="E" />
@@ -15668,6 +15670,10 @@ BOFOR
     <SID Name="VANDI6" Airport="YPDN" Runways="11,29">
       <Route Runway="11">-122509.220+1305339.990/DN VOR/PAMGA/BAXIB/VANDI</Route>
       <Route Runway="29">-122433.850+1305154.940/-122350.344+1304945.880/BELUN/MIGIP/LEGUL/OTGAX/TEGIT/DUGAM/BURBA/VANDI</Route>
+    </SID>
+    <SID Name="ED4" Airport="YPED" Runways="18,36">
+      <Route Runway="18">-344302.470+1383648.400/-344302.470+1383648.400/-344542.890+1383619.240</Route>
+      <Route Runway="36" />
     </SID>
     <SID Name="MANTL2" Airport="YPJT" Runways="06L,12,24R,30">
       <Route Runway="06L">-320538.610+1155303.530/-320535.183+1155308.907/-320439.108+1155432.400/-320421.360+1155439.239/-320403.144+1155434.559/-320349.284+1155419.800/-320343.523+1155358.919/-320347.411+1155337.319/MANTL</Route>
