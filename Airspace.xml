@@ -695,11 +695,11 @@
     </Airport>
     <Airport Name="YPED">
       <Runway Name="18" DataRunway="18">
-        <STAR Name="AD1E" OpDataFlag="E" />
-        <STAR Name="BLAC1E" OpDataFlag="E" />
-        <STAR Name="KLAV1E" OpDataFlag="E" />
-        <STAR Name="RIKA1E" OpDataFlag="E" />
-        <STAR Name="RUSL1E" OpDataFlag="E" />
+        <STAR Name="AD1E" OpDataFlag="E" ApproachName="LOCZ" />
+        <STAR Name="BLAC1E" OpDataFlag="E" ApproachName="LOCZ" />
+        <STAR Name="KLAV1E" OpDataFlag="E" ApproachName="LOCZ" />
+        <STAR Name="RIKA1E" OpDataFlag="E" ApproachName="LOCZ" />
+        <STAR Name="RUSL1E" OpDataFlag="E" ApproachName="LOCZ" />
       </Runway>
       <Runway Name="36" DataRunway="36">
         <STAR Name="AD1E" OpDataFlag="E" />
@@ -17049,6 +17049,9 @@ BOFOR
       <Transition Name="LAPAR">LAPAR/DN444</Transition>
       <Transition Name="WOKKI">WOKKI/ADBER/DN438/-122251.986+1310141.689/-122401.648+1310216.802/-122519.124+1310211.549/-122623.654+1310127.331/-122657.944+1310015.991/-122700.632+1305941.468/DN432</Transition>
       <Route>DN432/-122509.220+1305339.990</Route>
+    </Approach>
+    <Approach Name="LOCZ" Airport="YPED" Runway="18">
+      <Route>UPTUN/NIPOL/-344140.330+1383703.300</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YPPH" Runway="03">
       <Route>TIMMY/PH2SF/-315731.460+1155734.860</Route>
