@@ -694,8 +694,20 @@
       </Runway>
     </Airport>
     <Airport Name="YPED">
-      <Runway Name="18" DataRunway="18" />
-      <Runway Name="36" DataRunway="36" />
+      <Runway Name="18" DataRunway="18">
+        <STAR Name="AD1E" OpDataFlag="E" />
+        <STAR Name="BLAC1E" OpDataFlag="E" />
+        <STAR Name="KLAV1E" OpDataFlag="E" />
+        <STAR Name="RIKA1E" OpDataFlag="E" />
+        <STAR Name="RUSL1E" OpDataFlag="E" />
+      </Runway>
+      <Runway Name="36" DataRunway="36">
+        <STAR Name="AD1E" OpDataFlag="E" />
+        <STAR Name="BLAC1E" OpDataFlag="E" />
+        <STAR Name="KLAV1E" OpDataFlag="E" />
+        <STAR Name="RIKA1E" OpDataFlag="E" />
+        <STAR Name="RUSL1E" OpDataFlag="E" />
+      </Runway>
     </Airport>
     <Airport Name="YPJT">
       <Runway Name="06L" DataRunway="06L">
@@ -16540,6 +16552,26 @@ BOFOR
       <Route Runway="23">WUNGO/HARMN/PH VOR</Route>
       <Route Runway="36L">WUNGO/HARMN/PH VOR</Route>
       <Route Runway="36R">WUNGO/HARMN/PH VOR</Route>
+    </STAR>
+    <STAR Name="AD1E" Airport="YPED" Runways="18,36">
+      <Route Runway="18">AD VOR/POTUS/PAVSA/TUPSI/APOKI/UPTUN</Route>
+      <Route Runway="36">AD VOR/POTUS/PAVSA/TUPSI/APOKI/UPTUN</Route>
+    </STAR>
+    <STAR Name="BLAC1E" Airport="YPED" Runways="18,36">
+      <Route Runway="18">BLACK/SADAK/ELATA/NONAK/RUPIK/APOKI/UPTUN</Route>
+      <Route Runway="36">BLACK/SADAK/ELATA/NONAK/RUPIK/APOKI/UPTUN</Route>
+    </STAR>
+    <STAR Name="KLAV1E" Airport="YPED" Runways="18,36">
+      <Route Runway="18">KLAVA/APOKI/UPTUN</Route>
+      <Route Runway="36">KLAVA/APOKI/UPTUN</Route>
+    </STAR>
+    <STAR Name="RIKA1E" Airport="YPED" Runways="18,36">
+      <Route Runway="18">RIKAB/GULFS/LATUL/UGUXA/PAVSA/TUPSI/APOKI/UPTUN</Route>
+      <Route Runway="36">RIKAB/GULFS/LATUL/UGUXA/PAVSA/TUPSI/APOKI/UPTUN</Route>
+    </STAR>
+    <STAR Name="RUSL1E" Airport="YPED" Runways="18,36">
+      <Route Runway="18">RUSSL/BUPLO/APOKI/UPTUN</Route>
+      <Route Runway="36">RUSSL/BUPLO/APOKI/UPTUN</Route>
     </STAR>
     <STAR Name="JT2G" Airport="YPJT" Runways="06L,06R,12,24L,24R,30">
       <Transition Name="BEVLY">BEVLY/KYEMA</Transition>
