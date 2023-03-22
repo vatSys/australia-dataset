@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="ES_RWY09" Priority="1" Center="-38.098889+147.149444">
+    <!--YMES-->
+    <Runway Name="09/27">
+      <Threshold Name="09" Position="-38.095681+147.128300" ExtendedCentrelineTrack="278.89" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="27" Position="-38.098789+147.153425" />
+    </Runway>
+    <!--SIDs-->
+    <!--STARs-->
+    <Line>
+      <!--Rwy09 ANOSO1-->
+      ANOSO/
+      MESWO
+    </Line>
+    <Line>
+      <!--Rwy09 PAPDO1.BULKO-->
+      BULKO/
+      PAPDO
+    </Line>
+    <Line>
+      <!--Rwy09 PAPDO1.LTV NDB-->
+      LTV NDB/
+      PAPDO
+    </Line>
+    <Line>
+      <!--Rwy09 PAPDO1.MOZZA-->
+      MOZZA/
+      PAPDO
+    </Line>
+    <Line>
+      <!--Rwy09 PAPDO1-->
+      PAPDO/
+      MESWP
+    </Line>
+    <Line>
+      <!--Rwy09 TREVR4.VISER-->
+      VISER/
+      TREVR
+    </Line>
+    <Line>
+      <!--Rwy09 TREVR4-->
+      TREVR/
+      MESWQ
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>MESWO</Point>
+      <Point>MESWP</Point>
+      <Point>MESWQ</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ANOSO</Point>
+      <Point>BULKO</Point>
+      <Point>PAPDO</Point>
+      <Point>LTV NDB</Point>
+      <Point>MOZZA</Point>
+      <Point>VISER</Point>
+      <Point>TREVR</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="ES_RWY09_NAMES" Priority="2" Center="-38.098889+147.149444">
+    <Label>
+      <Point>ANOSO</Point>
+      <Point>MESWO</Point>
+      <Point>BULKO</Point>
+      <Point>PAPDO</Point>
+      <Point>LTV NDB</Point>
+      <Point>MOZZA</Point>
+      <Point>MESWP</Point>
+      <Point>VISER</Point>
+      <Point>TREVR</Point>
+      <Point>MESWQ</Point>
+      <Point>DUNNE</Point>
+      <Point>MONTY</Point>
+      <Point>ANTLA</Point>
+      <Point>NOLAN</Point>
+      <Point>LT VOR</Point>
+      <Point>CB VOR</Point>
+      <Point>COM NDB</Point>
+      <Point>GIPPS</Point>
+      <Point>MER NDB</Point>
+      <Point>NUNPA</Point>
+      <Point>MOTRA</Point>
+      <Point>WAREN</Point>
+      <Point>MB NDB</Point>
+      <Point>SAMIG</Point>
+      <Point>TEMPL</Point>
+      <Point>MNG VOR</Point>
+      <Point>MAKIV</Point>
+      <Point>TYERS</Point>
+      <Point>OTKED</Point>
+      <Point>VALDU</Point>
+      <Point>DUBUS</Point>
+      <Point>WG VOR</Point>
+    </Label>
+  </Map>
+</Maps>

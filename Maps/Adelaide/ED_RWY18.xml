@@ -8,12 +8,86 @@
     </Runway>
     <!--SIDs-->
     <!--STARs-->
+    <Line>
+      <!--Rwy18 AD1E-->
+      AD VOR/
+      POTUS/
+      PAVSA/
+      TUPSI/
+      APOKI/
+      UPTUN
+    </Line>
+    <Line>
+      <!--Rwy18 BLAC1E-->
+      BLACK/
+      SADAK/
+      ELATA/
+      NONAK/
+      RUPIK/
+      APOKI
+    </Line>
+    <Line>
+      <!--Rwy18 KLAV1E-->
+      KLAVA/
+      APOKI
+    </Line>
+    <Line>
+      <!--Rwy18 RIKA1E-->
+      RIKAB/
+      GULFS/
+      LATUL/
+      UGUXA/
+      PAVSA
+    </Line>
+    <Line>
+      <!--Rwy18 RUSL1E-->
+      RUSSL/
+      BUPLO/
+      APOKI
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>UPTUN</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>AD VOR</Point>
+      <Point>POTUS</Point>
+      <Point>PAVSA</Point>
+      <Point>TUPSI</Point>
+      <Point>APOKI</Point>
+      <Point>BLACK</Point>
+      <Point>SADAK</Point>
+      <Point>ELATA</Point>
+      <Point>NONAK</Point>
+      <Point>RUPIK</Point>
+      <Point>KLAVA</Point>
+      <Point>RIKAB</Point>
+      <Point>GULFS</Point>
+      <Point>LATUL</Point>
+      <Point>UGUXA</Point>
+      <Point>RUSSL</Point>
+      <Point>BUPLO</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="ED_RWY18_NAMES" Priority="2" Center="-34.702500+138.620833">
     <Label>
+      <Point>AD VOR</Point>
+      <Point>POTUS</Point>
+      <Point>PAVSA</Point>
+      <Point>TUPSI</Point>
+      <Point>APOKI</Point>
+      <Point>UPTUN</Point>
+      <Point>BLACK</Point>
+      <Point>SADAK</Point>
+      <Point>ELATA</Point>
+      <Point>NONAK</Point>
+      <Point>RUPIK</Point>
+      <Point>KLAVA</Point>
+      <Point>RIKAB</Point>
+      <Point>GULFS</Point>
+      <Point>LATUL</Point>
+      <Point>UGUXA</Point>
+      <Point>RUSSL</Point>
+      <Point>BUPLO</Point>
       <Point>HAWKY</Point>
       <Point>MUTHA</Point>
       <Point>FRAZA</Point>
@@ -24,7 +98,6 @@
       <Point>MARGO</Point>
       <Point>PARDA</Point>
       <Point>NIMEK</Point>
-      <Point>KLAVA</Point>
       <Point>ORBUN</Point>
       <Point>ISROV</Point>
       <Point>CAPET</Point>
@@ -33,13 +106,11 @@
       <Point>NATYA</Point>
       <Point>MIA VOR</Point>
       <Point>TUMAN</Point>
-      <Point>BLACK</Point>
       <Point>BORTO</Point>
       <Point>DUKES</Point>
       <Point>DRINA</Point>
       <Point>KAMBI</Point>
       <Point>WINCH</Point>
-      <Point>RIKAB</Point>
       <Point>GILES</Point>
       <Point>LONLY</Point>
       <Point>AGROS</Point>
@@ -61,7 +132,6 @@
       <Point>AVPAS</Point>
       <Point>ACTIN</Point>
       <Point>HOLIT</Point>
-      <Point>RUSSL</Point>
       <Point>HOBBS</Point>
       <Point>ALTRO</Point>
       <Point>BHI VOR</Point>
@@ -71,7 +141,6 @@
       <Point>ALBUT</Point>
       <Point>SWELL</Point>
       <Point>NOGIP</Point>
-      <Point>UPTUN</Point>
     </Label>
   </Map>
 </Maps>

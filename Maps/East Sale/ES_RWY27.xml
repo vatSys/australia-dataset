@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="ES_RWY27" Priority="1" Center="-38.098889+147.149444">
+    <!--YMES-->
+    <Runway Name="09/27">
+      <Threshold Name="09" Position="-38.095681+147.128300" />
+      <Threshold Name="27" Position="-38.098789+147.153425" ExtendedCentrelineTrack="98.91" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--SIDs-->
+    <!--STARs-->
+    <Line>
+      <!--Rwy27 ANOSO1-->
+      ANOSO/
+      MESEJ
+    </Line>
+    <Line>
+      <!--Rwy27 LAREX1.GIPPS-->
+      GIPPS/
+      LAREX
+    </Line>
+    <Line>
+      <!--Rwy27 LAREX1.TYERS-->
+      TYERS/
+      LAREX
+    </Line>
+    <Line>
+      <!--Rwy27 LAREX1.VISER-->
+      VISER/
+      LAREX
+    </Line>
+    <Line>
+      <!--Rwy27 LAREX1-->
+      LAREX/
+      MESEG
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>MESEJ</Point>
+      <Point>MESEG</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ANOSO</Point>
+      <Point>GIPPS</Point>
+      <Point>LAREX</Point>
+      <Point>TYERS</Point>
+      <Point>VISER</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="ES_RWY27_NAMES" Priority="2" Center="-38.098889+147.149444">
+    <Label>
+      <Point>ANOSO</Point>
+      <Point>MESEJ</Point>
+      <Point>GIPPS</Point>
+      <Point>LAREX</Point>
+      <Point>TYERS</Point>
+      <Point>VISER</Point>
+      <Point>MESEG</Point>
+      <Point>DUNNE</Point>
+      <Point>MONTY</Point>
+      <Point>ANTLA</Point>
+      <Point>NOLAN</Point>
+      <Point>LT VOR</Point>
+      <Point>CB VOR</Point>
+      <Point>COM NDB</Point>
+      <Point>MER NDB</Point>
+      <Point>NUNPA</Point>
+      <Point>MOTRA</Point>
+      <Point>LTV NDB</Point>
+      <Point>BULKO</Point>
+      <Point>WAREN</Point>
+      <Point>MB NDB</Point>
+      <Point>SAMIG</Point>
+      <Point>TEMPL</Point>
+      <Point>MNG VOR</Point>
+      <Point>MAKIV</Point>
+      <Point>OTKED</Point>
+      <Point>VALDU</Point>
+      <Point>DUBUS</Point>
+      <Point>WG VOR</Point>
+    </Label>
+  </Map>
+</Maps>
