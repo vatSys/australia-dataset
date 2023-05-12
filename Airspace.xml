@@ -413,7 +413,7 @@
         <SID Name="LAVOP1" />
         <STAR Name="IPLE6A" ApproachName="RNPZ" />
         <STAR Name="IPLE6W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="MORG1A" ApproachName="RNPZ" />
+        <STAR Name="MORG2A" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="30" DataRunway="30">
         <SID Name="CLARK2" />
@@ -421,15 +421,15 @@
         <SID Name="LATUM2" Type="Jet" />
         <STAR Name="IPLE6A" ApproachName="RNPZ" />
         <STAR Name="IPLE6W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="MORG1A" ApproachName="RNPZ" />
-        <STAR Name="MORG1W" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="MORG2A" ApproachName="RNPZ" />
+        <STAR Name="MORG2W" OpDataFlag="W" ApproachName="RNP-ARW" />
       </Runway>
       <Runway Name="12V" DataRunway="12">
         <STAR Name="IPLE6V" />
       </Runway>
       <Runway Name="30V" DataRunway="30">
         <STAR Name="IPLE6V" />
-        <STAR Name="MORG1V" />
+        <STAR Name="MORG2V" />
       </Runway>
     </Airport>
     <Airport Name="YMLT">
@@ -16338,14 +16338,14 @@ BOFOR
       <Route Runway="12">IPLET/ATIGU/PIMOV/VETOR</Route>
       <Route Runway="30">IPLET/RUMUM/BAVUR</Route>
     </STAR>
-    <STAR Name="MORG1A" Airport="YMHB" Runways="12,30">
+    <STAR Name="MORG2A" Airport="YMHB" Runways="12,30">
       <Route Runway="12">MORGO/VAVMO/IKOBI/BUSKA</Route>
       <Route Runway="30">MORGO/POXID/GULEB/SORVI/LIMDU/BAVUR/SAKUT/PIDOS</Route>
     </STAR>
-    <STAR Name="MORG1V" Airport="YMHB" Runways="30">
+    <STAR Name="MORG2V" Airport="YMHB" Runways="30">
       <Route Runway="30">MORGO/POXID/GULEB/SORVI/LIMDU/BAVUR</Route>
     </STAR>
-    <STAR Name="MORG1W" Airport="YMHB" Runways="30">
+    <STAR Name="MORG2W" Airport="YMHB" Runways="30">
       <Route Runway="30">MORGO/POXID/GULEB/SORVI/LIMDU/BAVUR</Route>
     </STAR>
     <STAR Name="ARBE7A" Airport="YMML" Runways="09,16,27,34">
