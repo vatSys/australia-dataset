@@ -1227,7 +1227,7 @@
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Amberley/AMB_TCU" />
-        <Map Name="Amberley/YAMB_ALLRWYS" />
+        <Map Name="Amberley/AM_RWY15" />
       </Maps>
       <ATIS>
         <Editor Airport="YAMB" Frequency="123.3" />
@@ -1236,7 +1236,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YAMB" Visible="true" />
       </Strips>
-      <CFL QuickLevel="8000">
+      <CFL QuickLevel="21000">
         <AdditionalLevels>3400,3800,5100</AdditionalLevels>
       </CFL>
       <ArrivalLists>
@@ -2263,7 +2263,7 @@
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Amberley/AM_TCU" />
-        <Map Name="Amberley/YAMB_ALLRWYS" />
+        <Map Name="Amberley/AM_RWY15" />
       </Maps>
       <ATIS>
         <Editor Airport="YAMB" Frequency="123.3" />
