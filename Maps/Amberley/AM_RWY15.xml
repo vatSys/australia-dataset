@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="AM_RWY15" Priority="1" Center="-27.640556+152.711944">
+    <!--YAMB-->
+    <Runway Name="04/22">
+      <Threshold Name="04" Position="-27.644611+152.707869" ExtendedCentrelineTrack="234.32" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="22" Position="-27.636589+152.720414" ExtendedCentrelineTrack="54.32" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <Runway Name="15/33">
+      <Threshold Name="15" Position="-27.621714+152.705267" ExtendedCentrelineTrack="338.74" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="33" Position="-27.647344+152.716464" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy15 BOBOP4-->
+      -273850.440+1524259.270/
+      -274351.880+1524508.760/
+      -274426.554+1524518.147/
+      -274502.251+1524516.976/
+      -274536.464+1524505.404/
+      -274606.859+1524444.217/
+      -274631.365+1524414.858/
+      -274639.009+1524401.282/
+      -274648.310+1524339.328/
+      -275046.570+1523314.030/
+      BOBOP
+    </Line>
+    <Line>
+      <!--Rwy15 BRISY2-->
+      -274351.880+1524508.760/
+      -274449.304+1524555.448/
+      -274518.321+1524708.438/
+      -274511.141+1524828.044/
+      -274429.690+1524932.917/
+      -274325.082+1525005.667/
+      -274256.684+1525007.354/
+      -274206.030+1524951.960/
+      -273704.770+1524754.190/
+      -273645.595+1524749.690/
+      -273626.050+1524751.000/
+      -273607.473+1524757.977/
+      -273551.128+1524810.140/
+      -273538.129+1524826.661/
+      -273533.214+1524836.247/
+      BN VOR
+    </Line>
+    <Line>
+      <!--Rwy15 JEDDA4-->
+      -274351.880+1524508.760/
+      -274502.251+1524516.976/
+      -274606.859+1524444.217/
+      -274648.310+1524339.328/
+      -274655.490+1524219.702/
+      -274626.473+1524106.694/
+      -274606.242+1524044.107/
+      -274519.580+1524018.040/
+      -273245.380+1523339.990/
+      JEDDA
+    </Line>
+    <Line>
+      <!--Rwy15 MESED4-->
+      -274519.580+1524018.040/
+      -273340.410+1523021.670/
+      MESED
+    </Line>
+    <Line>
+      <!--Rwy15 TATEN1-->
+      -274351.880+1524508.760/
+      -274427.010+1524518.270/
+      -274503.177+1524517.084/
+      -274537.839+1524505.360/
+      -274556.915+1524453.449/
+      -274606.859+1524444.217/
+      -275029.840+1524026.690/
+      TATEN
+    </Line>
+    <!--STARs-->
+    <Symbol Type="HollowTriangle">
+      <Point>OREBI</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>BN VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>BOBOP</Point>
+      <Point>JEDDA</Point>
+      <Point>MESED</Point>
+      <Point>TATEN</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="AM_RWY15_NAMES" Priority="2" Center="-27.640556+152.711944">
+    <Label>
+      <Point>BOBOP</Point>
+      <Point>BN VOR</Point>
+      <Point>JEDDA</Point>
+      <Point>MESED</Point>
+      <Point>TATEN</Point>
+      <Point>UNVAT</Point>
+      <Point>GOMOL</Point>
+      <Point>BNA NDB</Point>
+      <Point>CFS VOR</Point>
+      <Point>KADSI</Point>
+      <Point>LOSKU</Point>
+      <Point>ARM NDB</Point>
+      <Point>OK VOR</Point>
+      <Point>OVENS</Point>
+      <Point>VONDO</Point>
+      <Point>MASMI</Point>
+      <Point>TW VOR</Point>
+      <Point>DEJAY</Point>
+      <Point>MOR NDB</Point>
+      <Point>GDH NDB</Point>
+      <Point>ALDAR</Point>
+      <Point>IDNER</Point>
+      <Point>HUUGO</Point>
+      <Point>ROM NDB</Point>
+      <Point>AGIVA</Point>
+      <Point>OREBI</Point>
+    </Label>
+  </Map>
+</Maps>

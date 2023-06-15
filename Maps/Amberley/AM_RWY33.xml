@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="AM_RWY33" Priority="1" Center="-27.640556+152.711944">
+    <!--YAMB-->
+    <Runway Name="04/22">
+      <Threshold Name="04" Position="-27.644611+152.707869" ExtendedCentrelineTrack="234.32" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="22" Position="-27.636589+152.720414" ExtendedCentrelineTrack="54.32" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <Runway Name="15/33">
+      <Threshold Name="15" Position="-27.621714+152.705267" />
+      <Threshold Name="33" Position="-27.647344+152.716464" ExtendedCentrelineTrack="158.74" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy33 BOBOP4-->
+      -273718.170+1524218.960/
+      -273447.990+1524113.430/
+      -273412.846+1524044.543/
+      -273355.264+1523959.681/
+      -273359.918+1523910.913/
+      -273423.198+1523833.613/
+      -273428.440+1523828.550/
+      -275046.570+1523314.030/
+      BOBOP
+    </Line>
+    <Line>
+      <!--Rwy33 BRISY2-->
+      -273447.990+1524113.430/
+      -272834.360+1524119.880/
+      -272814.976+1524123.042/
+      -272757.005+1524131.802/
+      -272741.658+1524145.503/
+      -272729.980+1524203.214/
+      -272722.767+1524223.726/
+      -272721.050+1524234.616/
+      BN VOR
+    </Line>
+    <Line>
+      <!--Rwy33 JEDDA4-->
+      -273447.990+1524113.430/
+      -273416.717+1524054.269/
+      -273350.995+1524026.579/
+      -273332.499+1523952.326/
+      -273322.491+1523913.842/
+      -273322.130+1523910.288/
+      -273321.010+1523902.400/
+      -273252.030+1523350.640/
+      JEDDA
+    </Line>
+    <Line>
+      <!--Rwy33 MESED4-->
+      -273321.010+1523902.400/
+      -273410.600+1523137.110/
+      MESED
+    </Line>
+    <Line>
+      <!--Rwy33 TATEN1-->
+      -273447.990+1524113.430/
+      -273355.265+1524030.090/
+      -273328.895+1523922.800/
+      -273335.875+1523809.652/
+      -273414.335+1523710.231/
+      -273513.978+1523640.453/
+      -273540.425+1523639.068/
+      -273611.150+1523643.960/
+      -274721.990+1524106.700/
+      TATEN
+    </Line>
+    <!--STARs-->
+    <Symbol Type="Circle">
+      <Point>BN VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>BOBOP</Point>
+      <Point>JEDDA</Point>
+      <Point>MESED</Point>
+      <Point>TATEN</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="AM_RWY33_NAMES" Priority="2" Center="-27.640556+152.711944">
+    <Label>
+      <Point>BOBOP</Point>
+      <Point>BN VOR</Point>
+      <Point>JEDDA</Point>
+      <Point>MESED</Point>
+      <Point>TATEN</Point>
+      <Point>UNVAT</Point>
+      <Point>GOMOL</Point>
+      <Point>BNA NDB</Point>
+      <Point>CFS VOR</Point>
+      <Point>KADSI</Point>
+      <Point>LOSKU</Point>
+      <Point>ARM NDB</Point>
+      <Point>OK VOR</Point>
+      <Point>OVENS</Point>
+      <Point>VONDO</Point>
+      <Point>MASMI</Point>
+      <Point>TW VOR</Point>
+      <Point>DEJAY</Point>
+      <Point>MOR NDB</Point>
+      <Point>GDH NDB</Point>
+      <Point>ALDAR</Point>
+      <Point>IDNER</Point>
+      <Point>HUUGO</Point>
+      <Point>ROM NDB</Point>
+      <Point>AGIVA</Point>
+    </Label>
+  </Map>
+</Maps>
