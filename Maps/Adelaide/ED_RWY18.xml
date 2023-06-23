@@ -7,6 +7,36 @@
       <Threshold Name="36" Position="-34.717353+138.613444" />
     </Runway>
     <!--SIDs-->
+    <Line>
+      <!--Rwy18 NORTH1-->
+      -344302.470+1383648.400/
+      -344302.470+1383648.400/
+      -344302.470+1383648.400/
+      -344501.221+1383628.088/
+      -344541.235+1383607.494/
+      -344607.409+1383525.227/
+      -344612.709+1383432.690/
+      -344555.715+1383343.968/
+      -344520.983+1383312.125/
+      -344504.000+1383306.287/
+      -343714.790+1383105.098/
+      -343612.731+1383108.969/
+      -343520.646+1383150.088/
+      -343452.456+1383257.320/
+      -343455.705+1383412.664/
+      -343529.525+1383515.951/
+      -343550.644+1383534.334
+    </Line>
+    <Line>
+      <!--Rwy18 NORTH1.DOLVU-->
+      -343550.644+1383534.334/
+      DOLVU
+    </Line>
+    <Line>
+      <!--Rwy18 NORTH1.EDN-->
+      -343550.644+1383534.334/
+      EDN TAC
+    </Line>
     <!--STARs-->
     <Line>
       <!--Rwy18 AD1E-->
@@ -48,7 +78,11 @@
     <Symbol Type="HollowTriangle">
       <Point>UPTUN</Point>
     </Symbol>
+    <Symbol Type="Circle">
+      <Point>EDN TAC</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
+      <Point>DOLVU</Point>
       <Point>AD VOR</Point>
       <Point>POTUS</Point>
       <Point>PAVSA</Point>
@@ -70,6 +104,8 @@
   </Map>
   <Map Type="System" Name="ED_RWY18_NAMES" Priority="2" Center="-34.702500+138.620833">
     <Label>
+      <Point>DOLVU</Point>
+      <Point>EDN TAC</Point>
       <Point>AD VOR</Point>
       <Point>POTUS</Point>
       <Point>PAVSA</Point>
