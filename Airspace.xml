@@ -8918,6 +8918,10 @@ BOFOR
     <Point Name="HUMOK" Type="Fix">-311912.000+1472800.000</Point>
     <Point Name="HUTEL" Type="Fix">+092236.000+1451848.000</Point>
     <Point Name="HUUGO" Type="Fix">-280523.300+1525529.200</Point>
+    <Point Name="HW2SF" Type="Fix">-340306.440+1505426.370</Point>
+    <Point Name="HW2SH" Type="Fix">-340257.660+1505141.080</Point>
+    <Point Name="HW2SI" Type="Fix">-340536.720+1505226.650</Point>
+    <Point Name="HW2SM" Type="Fix">-340036.120+1505625.970</Point>
     <Point Name="HXXND" Type="Fix">-341955.700+1445545.000</Point>
     <Point Name="HXXNE" Type="Fix">-342047.200+1450236.000</Point>
     <Point Name="HXXNF" Type="Fix">-342802.600+1445416.000</Point>
@@ -9174,6 +9178,13 @@ BOFOR
     <Point Name="JBYNF" Type="Fix">-350446.000+1503956.200</Point>
     <Point Name="JBYNI" Type="Fix">-350005.900+1503744.000</Point>
     <Point Name="JBYNM" Type="Fix">-350830.200+1504141.800</Point>
+    <Point Name="JBYWD" Type="Fix">-351055.580+1503227.810</Point>
+    <Point Name="JBYWE" Type="Fix">-350756.650+1503021.530</Point>
+    <Point Name="JBYWF" Type="Fix">-350827.420+1503738.860</Point>
+    <Point Name="JBYWG" Type="Fix">-350517.990+1503302.960</Point>
+    <Point Name="JBYWH" Type="Fix">-351250.080+1504253.170</Point>
+    <Point Name="JBYWI" Type="Fix">-350812.040+1503400.190</Point>
+    <Point Name="JBYWM" Type="Fix">-350842.800+1504117.550</Point>
     <Point Name="JEDDA" Type="Fix">-270925.600+1515710.300</Point>
     <Point Name="JELLI" Type="Fix">-335337.800+1512242.800</Point>
     <Point Name="JEMMA" Type="Fix">-194910.600+1471130.400</Point>
@@ -9747,6 +9758,7 @@ BOFOR
     <Point Name="LIDIT" Type="Fix">-091800.000+1422000.000</Point>
     <Point Name="LIDLI" Type="Fix">-334614.000+1493557.700</Point>
     <Point Name="LIDPO" Type="Fix">-275208.000+1525243.000</Point>
+    <Point Name="LIDVU" Type="Fix">-380814.630+1472805.100</Point>
     <Point Name="LIKTO" Type="Fix">-265153.600+1502338.500</Point>
     <Point Name="LILEE" Type="Fix">-273655.600+1530641.800</Point>
     <Point Name="LILMI" Type="Fix">-374228.700+1443653.500</Point>
@@ -16922,10 +16934,9 @@ BOFOR
       <Route>TEMPL/IKANO/-380138.000+1442809.950</Route>
     </Approach>
     <Approach Name="RNP-ARU" Airport="YMAV" Runway="36">
-      <Transition Name="PEGLI">PEGLI/SUMRU</Transition>
-      <Transition Name="SUMRU">SUMRU</Transition>
-      <Transition Name="TEMPL">TEMPL/SUMRU</Transition>
-      <Route>AV630/AV626/AV622/AV620/ESNAB/-380315.980+1442753.440</Route>
+      <Transition Name="PEGLI">PEGLI</Transition>
+      <Transition Name="TEMPL">TEMPL</Transition>
+      <Route>SUMRU/AV630/-380600.141+1443403.052/-380646.020+1443332.836/AV626/-380725.878+1443256.143/-380749.916+1443226.873/-380759.373+1443213.079/AV622/-380824.242+1443125.347/-380834.441+1443041.415/-380835.345+1442955.624/-380833.763+1442942.542/AV620/-380816.679+1442844.551/-380755.783+1442810.495/AV618/-380725.039+1442741.916/-380654.224+1442727.293/-380621.481+1442723.308/-380617.851+1442723.646/ESNAB/-380315.980+1442753.440</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YMAY" Runway="07">
       <Transition Name="RURLA">RURLA</Transition>

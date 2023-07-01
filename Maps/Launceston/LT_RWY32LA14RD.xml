@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="LT_RWY32LA14RD" Priority="1" Center="-41.545278+147.214167">
+    <!--YMLT-->
+    <Runway Name="14R/32L">
+      <Threshold Name="14R" Position="-41.537067+147.204097" />
+      <Threshold Name="32L" Position="-41.552075+147.216933" ExtendedCentrelineTrack="147.28" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy14R IRONS2-->
+      -413307.470+1471300.960/
+      -413307.423+1471301.010/
+      -413357.973+1471339.845/
+      -413404.888+1470805.879/
+      IRONS
+    </Line>
+    <Line>
+      <!--Rwy14R IRSO1A-->
+      -413307.423+1471301.010/
+      -413608.642+1470952.167/
+      IRSOM
+    </Line>
+    <Line>
+      <!--Rwy14R KAREN2-->
+      -413357.973+1471339.845/
+      KAREN
+    </Line>
+    <Line>
+      <!--Rwy14R MORGO1-->
+      -413357.973+1471339.845/
+      -413513.054+1471217.058/
+      MORGO
+    </Line>
+    <Line>
+      <!--Rwy14R MOTR1A-->
+      -413608.642+1470952.167/
+      LT NDB/
+      MOTRA
+    </Line>
+    <Line>
+      <!--Rwy14R MOTR1B-->
+      -413307.470+1471300.960/
+      -413630.995+1471551.119/
+      -413447.747+1471908.399/
+      -413055.907+1472031.559/
+      MOTRA
+    </Line>
+    <Line>
+      <!--Rwy14R NOLA5A-->
+      LT NDB/
+      NOLAN
+    </Line>
+    <Line>
+      <!--Rwy14R NOLA5B-->
+      -413630.995+1471551.119/
+      -412454.360+1471533.119/
+      NOLAN
+    </Line>
+    <Line>
+      <!--Rwy14R NUNP1A-->
+      LT NDB/
+      NUNPA
+    </Line>
+    <Line>
+      <!--Rwy14R NUNP1B-->
+      -413447.747+1471908.399/
+      -412938.112+1471418.599/
+      NUNPA
+    </Line>
+    <Line>
+      <!--Rwy14R ONAG1A-->
+      -413608.642+1470952.167/
+      ONAGI
+    </Line>
+    <Line>
+      <!--Rwy14R ONAG1B-->
+      -413447.747+1471908.399/
+      -413107.499+1471207.920/
+      ONAGI
+    </Line>
+    <Line>
+      <!--Rwy14R TASUM1-->
+      -413357.973+1471339.845/
+      -413420.820+1471314.552/
+      TASUM
+    </Line>
+    <!--STARs-->
+    <Symbol Type="HollowTriangle">
+      <Point>ISMIR</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>LT NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>IRONS</Point>
+      <Point>IRSOM</Point>
+      <Point>KAREN</Point>
+      <Point>MORGO</Point>
+      <Point>MOTRA</Point>
+      <Point>NOLAN</Point>
+      <Point>NUNPA</Point>
+      <Point>ONAGI</Point>
+      <Point>TASUM</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="LT_RWY32LA14RD_NAMES" Priority="2" Center="-41.545278+147.214167">
+    <Label>
+      <Point>IRONS</Point>
+      <Point>IRSOM</Point>
+      <Point>KAREN</Point>
+      <Point>MORGO</Point>
+      <Point>LT NDB</Point>
+      <Point>MOTRA</Point>
+      <Point>NOLAN</Point>
+      <Point>NUNPA</Point>
+      <Point>ONAGI</Point>
+      <Point>TASUM</Point>
+      <Point>KANLI</Point>
+      <Point>LATUM</Point>
+      <Point>FLIKI</Point>
+      <Point>EXROM</Point>
+      <Point>WAREN</Point>
+      <Point>DOTVU</Point>
+      <Point>WYY NDB</Point>
+      <Point>CLARK</Point>
+      <Point>ESL NDB</Point>
+      <Point>ANTLA</Point>
+      <Point>LTV NDB</Point>
+      <Point>ELMOR</Point>
+      <Point>GOMOM</Point>
+      <Point>ISMIR</Point>
+    </Label>
+  </Map>
+</Maps>

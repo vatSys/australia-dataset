@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="ES_RWY22" Priority="1" Center="-38.098889+147.149444">
+  <Map Type="System" Name="ES_RWY22A27D" Priority="1" Center="-38.098889+147.149444">
     <!--YMES-->
     <Runway Name="04/22">
       <Threshold Name="04" Position="-38.106050+147.138561" />
       <Threshold Name="22" Position="-38.093103+147.161006" ExtendedCentrelineTrack="53.88" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="09/27">
+      <Threshold Name="09" Position="-38.095681+147.128300" />
+      <Threshold Name="27" Position="-38.098789+147.153425" />
     </Runway>
     <!--SIDs-->
     <!--STARs-->
@@ -108,7 +112,7 @@
       <Point>TREVR</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="ES_RWY22_NAMES" Priority="2" Center="-38.098889+147.149444">
+  <Map Type="System" Name="ES_RWY22A27D_NAMES" Priority="2" Center="-38.098889+147.149444">
     <Label>
       <Point>ANOSO</Point>
       <Point>WEIRD</Point>
