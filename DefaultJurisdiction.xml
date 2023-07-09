@@ -519,5 +519,49 @@
         </Departure>
       </Rules>
     </RuleSet>
+    <!--<RuleSet Name="YPLM_DEPS">
+        <Rules>
+          <Departure Values="YPLM">
+            <Rules>
+              <Default>
+                <AssignSector Order="LMA,OLW"/>
+              </Default>
+            </Rules>
+          </Departure>
+        </Rules>
+      </RuleSet>
+      <RuleSet Name="YCIN_DEPS">
+        <Rules>
+          <Departure Values="YCIN">
+            <Rules>
+              <Default>
+                <AssignSector Order="CIA,KIY"/>
+              </Default>
+            </Rules>
+          </Departure>
+        </Rules>
+      </RuleSet>
+      <RuleSet Name="YBSG_DEPS">
+        <Rules>
+          <Departure Values="YBSG">
+            <Rules>
+              <Default>
+                <AssignSector Order="SGA,ARA"/>
+              </Default>
+            </Rules>
+          </Departure>
+        </Rules>
+      </RuleSet>
+      <RuleSet Name="YPWR_DEPS">
+        <Rules>
+          <Departure Values="YBSG">
+            <Rules>
+              <Default>
+                <AssignSector Order="WR ADC,WRA"/>
+              </Default>
+            </Rules>
+          </Departure>
+        </Rules>
+      </RuleSet>-->
   </RuleSets>
 </DefaultJurisdiction>

@@ -685,6 +685,14 @@
       <Map Name="Oakey/ASMGCS_YBOK_BLD" />
     </Maps>
   </Position>
+  <Position Name="YGIG" Type="ASMGCS" ASMGCSAirport="YGIG" DefaultCenter="-31.465278+115.863333" DefaultRange="2" MagneticVariation="1.5" Rotation="14">
+    <Maps>
+      <Map Name="Perth/ASMGCS_YGIG_RWY" />
+      <Map Name="Perth/ASMGCS_YGIG_APR" />
+      <Map Name="Perth/ASMGCS_YGIG_TWY" />
+      <Map Name="Perth/ASMGCS_YGIG_BLD" />
+    </Maps>
+  </Position>
   <Group Name="Class D">
     <Position Name="YBAF" Type="ASMGCS" ASMGCSAirport="YBAF" DefaultCenter="-27.568889+153.006389" DefaultRange="1" MagneticVariation="-11" Rotation="-7">
       <Maps>
@@ -823,14 +831,6 @@
         <Map Name="Coffs Harbour/ASMGCS_YCFS_APR" />
         <Map Name="Coffs Harbour/ASMGCS_YCFS_TWY" />
         <Map Name="Coffs Harbour/ASMGCS_YCFS_BLD" />
-      </Maps>
-    </Position>
-    <Position Name="YGIG" Type="ASMGCS" ASMGCSAirport="YGIG" DefaultCenter="-31.465278+115.863333" DefaultRange="2" MagneticVariation="1.5" Rotation="14">
-      <Maps>
-        <Map Name="Perth/ASMGCS_YGIG_RWY" />
-        <Map Name="Perth/ASMGCS_YGIG_APR" />
-        <Map Name="Perth/ASMGCS_YGIG_TWY" />
-        <Map Name="Perth/ASMGCS_YGIG_BLD" />
       </Maps>
     </Position>
     <Position Name="YPKA" Type="ASMGCS" ASMGCSAirport="YPKA" DefaultCenter="-20.710833+116.772778" DefaultRange="2" MagneticVariation="-0.9" Rotation="-173">
@@ -2989,7 +2989,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="GinGin Tower" Type="ASD" DefaultCenter="-31.465278+115.863333" DefaultRange="30" MagneticVariation="1.5">
+    <Position Name="Gingin Tower" Type="ASD" DefaultCenter="-31.465278+115.863333" DefaultRange="30" MagneticVariation="1.5">
       <Sectors>
         <Sector Name="GIG ADC" />
       </Sectors>
@@ -3010,7 +3010,7 @@
         <Airport Name="YGIG" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>GinGin Tower</Line>
+        <Line>Gingin Tower</Line>
         <Line>ATIS available on 134.5</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
