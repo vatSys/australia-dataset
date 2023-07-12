@@ -235,8 +235,8 @@
   <Map Type="System" Name="YSTW_ALLRWYS" Priority="2" Center="-31.083889+150.846667">
     <!--YSTW-->
     <Runway Name="06/24">
-      <Threshold Name="06" Position="-31.083169+150.842906" ExtendedCentrelineTrack="253.07" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="24" Position="-31.080958+150.851344" ExtendedCentrelineTrack="73.07" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="06" Position="-31.083169+150.842906" />
+      <Threshold Name="24" Position="-31.080958+150.851344" />
     </Runway>
     <!--YSTW-->
     <Runway Name="12L/30R">
@@ -245,13 +245,13 @@
     </Runway>
     <!--YSTW-->
     <Runway Name="12R/30L">
-      <Threshold Name="12R" Position="-31.081306+150.832869" />
-      <Threshold Name="30L" Position="-31.088119+150.841397" />
+      <Threshold Name="12R" Position="-31.081306+150.832869" ExtendedCentrelineTrack="312.87" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="30L" Position="-31.088119+150.841397" ExtendedCentrelineTrack="132.88" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--YSTW-->
     <Runway Name="18/36">
-      <Threshold Name="18" Position="-31.077431+150.846553" ExtendedCentrelineTrack="8.26" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="36" Position="-31.086214+150.845072" ExtendedCentrelineTrack="188.25" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="18" Position="-31.077431+150.846553" />
+      <Threshold Name="36" Position="-31.086214+150.845072" />
     </Runway>
   </Map>
 </Maps>
