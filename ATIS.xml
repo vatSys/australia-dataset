@@ -41,6 +41,10 @@
     <Frequency Airport="YSSY" Frequency="126.25" />
     <Frequency Airport="YSTW" Frequency="123.8" />
     <Frequency Airport="YWLM" Frequency="134.45" />
+    <Frequency Airport="YBSG" Frequency="132.25" />
+    <Frequency Airport="YCIN" Frequency="134.8" />
+    <Frequency Airport="YPLM" Frequency="123.3" />
+    <Frequency Airport="YPWR" Frequency="118.1" />
   </Frequencies>
   <Translations>
     <Translation String="AYGA" Spoken="Goroka" />
@@ -101,6 +105,9 @@
 	<Translation String="YMMM" Spoken="Melbourne" />
 	<Translation String="YBBB" Spoken="Brisbane" />
 
+    <Translation String="ML" Spoken="Melbourne" />
+	<Translation String="BN" Spoken="Brisbane" />
+
     <Translation String="ATIS" Spoken="terminal information" />
 
     <Translation String="A" Spoken="alpha" />
@@ -158,6 +165,8 @@
     <Translation String="LAHSO" Spoken="land and hold short operations" />
     <Translation String="FM" Spoken="from" />
     <Translation String="THRU" Spoken="through" />
+    <Translation String="CEN" Spoken="centre" />
+    <Translation String="GND" Spoken="ground" />
 	<Translation String="CL" Spoken="centre line" />
 	<Translation String="PARL" Spoken="parallel" />
     <Translation String="ABV" Spoken="above" />
@@ -170,10 +179,13 @@
     <Translation String="FREQ" Spoken="frequency" />
     <Translation String="ARR" Spoken="arrivals" />
     <Translation String="ARRS" Spoken="arrivals" />
+    <Translation String="APPS" Spoken="approaches" />
     <Translation String="DEP" Spoken="departures" />
     <Translation String="DEPS" Spoken="departures" />
     <Translation String="ACFT" Spoken="aircraft" />
+    <Translation String="CTC" Spoken="contact" />
     <Translation String="CCT" Spoken="circuit" />
+    <Translation String="CCTS" Spoken="circuits" />
     <Translation String="TURB" Spoken="turbulence" />
     <Translation String="MOD" Spoken="moderate" />
     <Translation String="SEV" Spoken="severe" />
@@ -189,9 +201,13 @@
     <Translation String="NE" Spoken="north east" />
     <Translation String="PDC" Spoken="pre departute clearance" />
     <Translation String="TIL" Spoken="until" />
+    <Translation String="TFC" Spoken="traffic" />
     <Translation String="HLDG" Spoken="holding" />
     <Translation String="MINS" Spoken="minutes" />
     <Translation String="TRL" Spoken="transition level" />
+
+    <Translation String="AWY" Spoken="airway" />
+    <Translation String="CLR" Spoken="clearance" />
 
     <Translation String="RWY" Spoken="runway" />
     <Translation String="RWYS" Spoken="runways" />

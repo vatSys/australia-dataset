@@ -2,10 +2,6 @@
 <Maps>
   <Map Type="System" Name="AD_RWY05" Priority="1" Center="-34.945000+138.530556">
     <!--YPAD-->
-    <Runway Name="12/30">
-      <Threshold Name="12" Position="-34.941158+138.521917" ExtendedCentrelineTrack="303.51" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="30" Position="-34.949381+138.536997" ExtendedCentrelineTrack="123.51" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-    </Runway>
     <Runway Name="05/23">
       <Threshold Name="05" Position="-34.957650+138.518472" ExtendedCentrelineTrack="230.15" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="23" Position="-34.940619+138.543264" />
@@ -64,7 +60,6 @@
     </Line>
     <Line>
       <!--Rwy05 ALEX3X.DUKES-->
-      
     </Line>
     <Line>
       <!--Rwy05 ALEX3X-->
@@ -74,11 +69,9 @@
     </Line>
     <Line>
       <!--Rwy05 ALEX3Z.DUKES-->
-      
     </Line>
     <Line>
       <!--Rwy05 ALEX3Z-->
-      
     </Line>
     <Line>
       <!--Rwy05 ATPIP3-->
@@ -170,12 +163,6 @@
       SALTY
     </Line>
     <Line>
-      <!--Rwy05 SALT3V.KLAVA-->
-      KLAVA/
-      VICMA/
-      SALTY
-    </Line>
-    <Line>
       <!--Rwy05 SALT3V.MARGO-->
       MARGO/
       SALTY
@@ -187,38 +174,43 @@
       FINNS
     </Line>
     <Line>
+      <!--Rwy05 SALT3V.KLAVA-->
+      KLAVA/
+      VICMA/
+      SALTY
+    </Line>
+    <Line>
+      <!--Rwy05 SALT3V-->
+    </Line>
+    <Line>
       <!--Rwy05 SALT3W.AGROS-->
-      
     </Line>
     <Line>
       <!--Rwy05 SALT3W.KLAVA-->
-      
     </Line>
     <Line>
       <!--Rwy05 SALT3W.MARGO-->
-      
     </Line>
     <Line>
       <!--Rwy05 SALT3W-->
-      
     </Line>
     <Line>
       <!--Rwy05 SALT3Z.AGROS-->
-      
-    </Line>
-    <Line>
-      <!--Rwy05 SALT3Z.KLAVA-->
-      
     </Line>
     <Line>
       <!--Rwy05 SALT3Z.MARGO-->
-      
     </Line>
     <Line>
       <!--Rwy05 SALT3Z-->
       SALTY/
       AGSAX/
       SIGUL
+    </Line>
+    <Line>
+      <!--Rwy05 SALT3Z.KLAVA-->
+    </Line>
+    <Line>
+      <!--Rwy05 SALT3Z-->
     </Line>
     <Line>
       <!--Rwy05 SURGN3.BLACK-->
@@ -230,65 +222,6 @@
       SURGN/
       GRIGS
     </Line>
-    <Line>
-      <!--Rwy12 ATPIP3-->
-      
-    </Line>
-    <Line>
-      <!--Rwy12 ELRO4V-->
-      RUDIE/
-      MULDR
-    </Line>
-    <Line>
-      <!--Rwy12 GULF7V.RIKAB-->
-      
-    </Line>
-    <Line>
-      <!--Rwy12 GULF7V-->
-      GULFS/
-      MULDR
-    </Line>
-    <Line>
-      <!--Rwy12 PAMY6V.AGROS-->
-      
-    </Line>
-    <Line>
-      <!--Rwy12 PAMY6V.MARGO-->
-      
-    </Line>
-    <Line>
-      <!--Rwy12 PAMY6V-->
-      PAMMY/
-      MULDR
-    </Line>
-    <Line>
-      <!--Rwy12 RUSSL3-->
-      
-    </Line>
-    <Line>
-      <!--Rwy12 SURGN3.BLACK-->
-      
-    </Line>
-    <Line>
-      <!--Rwy12 SURGN3-->
-      
-    </Line>
-    <Line>
-      <!--Rwy30 ATPIP3-->
-      
-    </Line>
-    <Line>
-      <!--Rwy30 RUSSL3-->
-      
-    </Line>
-    <Line>
-      <!--Rwy30 SURGN3.BLACK-->
-      
-    </Line>
-    <Line>
-      <!--Rwy30 SURGN3-->
-      
-    </Line>
     <Symbol Type="HollowTriangle">
       <Point>PANVO</Point>
       <Point>OGUGU</Point>
@@ -298,7 +231,6 @@
       <Point>ANGAV</Point>
       <Point>SADMI</Point>
       <Point>SIGUL</Point>
-      <Point>MULDR</Point>
     </Symbol>
     <Symbol Type="SolidStar">
       <Point>KNOBL</Point>
@@ -345,9 +277,9 @@
       <Point>RUSSL</Point>
       <Point>LUFFY</Point>
       <Point>SALTY</Point>
+      <Point>NOBEV</Point>
       <Point>KLAVA</Point>
       <Point>VICMA</Point>
-      <Point>NOBEV</Point>
       <Point>AGSAX</Point>
       <Point>SURGN</Point>
       <Point>GRIGS</Point>
@@ -405,13 +337,12 @@
       <Point>RUSSL</Point>
       <Point>LUFFY</Point>
       <Point>SALTY</Point>
+      <Point>NOBEV</Point>
       <Point>KLAVA</Point>
       <Point>VICMA</Point>
-      <Point>NOBEV</Point>
       <Point>AGSAX</Point>
       <Point>SURGN</Point>
       <Point>GRIGS</Point>
-      <Point>MULDR</Point>
       <Point>VEPOK</Point>
       <Point>FRAZA</Point>
       <Point>ABTOD</Point>

@@ -283,6 +283,10 @@
         <SID Name="LULDI1" />
       </Runway>
     </Airport>
+    <Airport Name="YBSG">
+      <Runway Name="12" DataRunway="12" />
+      <Runway Name="30" DataRunway="30" />
+    </Airport>
     <Airport Name="YBSU">
       <Runway Name="13" DataRunway="13">
         <SID Name="MOOLO1" />
@@ -347,6 +351,10 @@
       <Runway Name="10" DataRunway="10" />
       <Runway Name="21" DataRunway="21" />
       <Runway Name="28" DataRunway="28" />
+    </Airport>
+    <Airport Name="YCIN">
+      <Runway Name="11" DataRunway="11" />
+      <Runway Name="29" DataRunway="29" />
     </Airport>
     <Airport Name="YGIG">
       <Runway Name="08" DataRunway="08" />
@@ -715,6 +723,7 @@
     <Airport Name="YPED">
       <Runway Name="18" DataRunway="18">
         <SID Name="ED4" />
+        <SID Name="NORTH1" />
         <STAR Name="AD1E" OpDataFlag="E" ApproachName="LOCZ" />
         <STAR Name="BLAC1E" OpDataFlag="E" ApproachName="LOCZ" />
         <STAR Name="KLAV1E" OpDataFlag="E" ApproachName="LOCZ" />
@@ -723,6 +732,7 @@
       </Runway>
       <Runway Name="36" DataRunway="36">
         <SID Name="ED4" Default="True" />
+        <SID Name="NORTH1" />
         <STAR Name="AD1E" OpDataFlag="E" />
         <STAR Name="BLAC1E" OpDataFlag="E" />
         <STAR Name="KLAV1E" OpDataFlag="E" />
@@ -777,6 +787,10 @@
     <Airport Name="YPKA">
       <Runway Name="08" DataRunway="08" />
       <Runway Name="26" DataRunway="26" />
+    </Airport>
+    <Airport Name="YPLM">
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="36" DataRunway="36" />
     </Airport>
     <Airport Name="YPPF">
       <Runway Name="03L" DataRunway="03L">
@@ -927,6 +941,10 @@
         <SID Name="MILIV4" />
         <SID Name="TN3" Default="True" />
       </Runway>
+    </Airport>
+    <Airport Name="YPWR">
+      <Runway Name="18" DataRunway="18" />
+      <Runway Name="36" DataRunway="36" />
     </Airport>
     <Airport Name="YSBK">
       <Runway Name="11C" DataRunway="11C">
@@ -6312,10 +6330,10 @@ BOFOR
     <Point Name="AKVOG" Type="Fix">-281256.200+1533218.000</Point>
     <Point Name="AL2ED" Type="Fix">-350034.800+1180015.500</Point>
     <Point Name="AL2EE" Type="Fix">-350614.700+1180018.300</Point>
-    <Point Name="AL2EF" Type="Fix">-350325.800+1175650.200</Point>
+    <Point Name="AL2EF" Type="Fix">-350036.900+1175322.300</Point>
     <Point Name="AL2EG" Type="Fix">-350616.800+1175324.700</Point>
-    <Point Name="AL2EH" Type="Fix">-350036.900+1175322.300</Point>
-    <Point Name="AL2EI" Type="Fix">-345458.600+1174627.300</Point>
+    <Point Name="AL2EH" Type="Fix">-345458.600+1174627.300</Point>
+    <Point Name="AL2EI" Type="Fix">-350325.800+1175650.200</Point>
     <Point Name="AL2WA" Type="Fix">-345102.000+1173324.400</Point>
     <Point Name="AL2WB" Type="Fix">-344522.000+1173433.100</Point>
     <Point Name="AL2WC" Type="Fix">-344418.700+1174123.700</Point>
@@ -8916,6 +8934,10 @@ BOFOR
     <Point Name="HUMOK" Type="Fix">-311912.000+1472800.000</Point>
     <Point Name="HUTEL" Type="Fix">+092236.000+1451848.000</Point>
     <Point Name="HUUGO" Type="Fix">-280523.300+1525529.200</Point>
+    <Point Name="HW2SF" Type="Fix">-340306.440+1505426.370</Point>
+    <Point Name="HW2SH" Type="Fix">-340257.660+1505141.080</Point>
+    <Point Name="HW2SI" Type="Fix">-340536.720+1505226.650</Point>
+    <Point Name="HW2SM" Type="Fix">-340036.120+1505625.970</Point>
     <Point Name="HXXND" Type="Fix">-341955.700+1445545.000</Point>
     <Point Name="HXXNE" Type="Fix">-342047.200+1450236.000</Point>
     <Point Name="HXXNF" Type="Fix">-342802.600+1445416.000</Point>
@@ -9172,6 +9194,13 @@ BOFOR
     <Point Name="JBYNF" Type="Fix">-350446.000+1503956.200</Point>
     <Point Name="JBYNI" Type="Fix">-350005.900+1503744.000</Point>
     <Point Name="JBYNM" Type="Fix">-350830.200+1504141.800</Point>
+    <Point Name="JBYWD" Type="Fix">-351055.580+1503227.810</Point>
+    <Point Name="JBYWE" Type="Fix">-350756.650+1503021.530</Point>
+    <Point Name="JBYWF" Type="Fix">-350827.420+1503738.860</Point>
+    <Point Name="JBYWG" Type="Fix">-350517.990+1503302.960</Point>
+    <Point Name="JBYWH" Type="Fix">-351250.080+1504253.170</Point>
+    <Point Name="JBYWI" Type="Fix">-350812.040+1503400.190</Point>
+    <Point Name="JBYWM" Type="Fix">-350842.800+1504117.550</Point>
     <Point Name="JEDDA" Type="Fix">-270925.600+1515710.300</Point>
     <Point Name="JELLI" Type="Fix">-335337.800+1512242.800</Point>
     <Point Name="JEMMA" Type="Fix">-194910.600+1471130.400</Point>
@@ -9745,6 +9774,7 @@ BOFOR
     <Point Name="LIDIT" Type="Fix">-091800.000+1422000.000</Point>
     <Point Name="LIDLI" Type="Fix">-334614.000+1493557.700</Point>
     <Point Name="LIDPO" Type="Fix">-275208.000+1525243.000</Point>
+    <Point Name="LIDVU" Type="Fix">-380814.630+1472805.100</Point>
     <Point Name="LIKTO" Type="Fix">-265153.600+1502338.500</Point>
     <Point Name="LILEE" Type="Fix">-273655.600+1530641.800</Point>
     <Point Name="LILMI" Type="Fix">-374228.700+1443653.500</Point>
@@ -15598,6 +15628,12 @@ BOFOR
       <Route Runway="18">-344302.470+1383648.400/-344302.470+1383648.400/-344542.890+1383619.240</Route>
       <Route Runway="36" />
     </SID>
+    <SID Name="NORTH1" Airport="YPED" Runways="18,36">
+      <Route Runway="18">-344302.470+1383648.400/-344302.470+1383648.400/-344302.470+1383648.400/-344501.221+1383628.088/-344541.235+1383607.494/-344607.409+1383525.227/-344612.709+1383432.690/-344555.715+1383343.968/-344520.983+1383312.125/-344504.000+1383306.287/-343714.790+1383105.098/-343612.731+1383108.969/-343520.646+1383150.088/-343452.456+1383257.320/-343455.705+1383412.664/-343529.525+1383515.951/-343550.644+1383534.334</Route>
+      <Route Runway="36">-344140.330+1383703.300/-344140.330+1383703.300/-344140.330+1383703.300/-343941.578+1383723.591/-343152.368+1383522.532/-343050.309+1383526.399/-342958.224+1383607.473/-342930.034+1383714.633/-342933.283+1383829.896/-343007.104+1383933.115/-343102.440+1384007.361/-343156.938+1384005.983</Route>
+      <Transition Name="DOLVU">DOLVU</Transition>
+      <Transition Name="EDN">EDN TAC</Transition>
+    </SID>
     <SID Name="ISPET1" Airport="YPJT" Runways="06L,12,24R,30">
       <Route Runway="06L">-320538.610+1155303.530/-320535.183+1155308.907/-320439.108+1155432.400/-320421.360+1155439.239/-320403.144+1155434.559/-320349.284+1155419.800/-320343.523+1155358.919/-320347.411+1155337.319/ISPET</Route>
       <Route Runway="12">-320620.090+1155313.280/-320613.095+1155255.245/-320646.404+1155434.199/-320642.515+1155455.799/-320630.060+1155512.000/-320612.311+1155518.839/-320554.095+1155514.159/-320540.235+1155459.399/ISPET</Route>
@@ -16230,7 +16266,7 @@ BOFOR
     </STAR>
     <STAR Name="PAPDO1" Airport="YMES" Runways="09,22">
       <Transition Name="BULKO">BULKO</Transition>
-      <Transition Name="LTV NDB">LTV NDB</Transition>
+      <Transition Name="LTV">LTV NDB</Transition>
       <Transition Name="MOZZA">MOZZA</Transition>
       <Route Runway="09">PAPDO/MESWP</Route>
       <Route Runway="22">PAPDO/RUSIR/AMELI/ROESA</Route>
@@ -16413,10 +16449,13 @@ BOFOR
     </STAR>
     <STAR Name="SALT3V" Airport="YPAD" Runways="05,23">
       <Transition Name="AGROS">AGROS/ROGUE</Transition>
-      <Transition Name="KLAVA">KLAVA/VICMA</Transition>
       <Transition Name="MARGO">MARGO</Transition>
       <Route Runway="05">SALTY/NOBEV/FINNS/ANGAV</Route>
       <Route Runway="23">SALTY/MALIK</Route>
+    </STAR>
+    <STAR Name="SALT3V" Airport="YPAD" Runways="05">
+      <Transition Name="KLAVA">KLAVA/VICMA</Transition>
+      <Route Runway="05">SALTY/NOBEV/FINNS/ANGAV</Route>
     </STAR>
     <STAR Name="SALT3W" Airport="YPAD" Runways="05">
       <Transition Name="AGROS">AGROS/ROGUE</Transition>
@@ -16426,10 +16465,13 @@ BOFOR
     </STAR>
     <STAR Name="SALT3Z" Airport="YPAD" Runways="05,23">
       <Transition Name="AGROS">AGROS/ROGUE</Transition>
-      <Transition Name="KLAVA">KLAVA/VICMA</Transition>
       <Transition Name="MARGO">MARGO</Transition>
       <Route Runway="05">SALTY/AGSAX/SIGUL</Route>
       <Route Runway="23">SALTY/GLOBE/ELIZA/GULLY</Route>
+    </STAR>
+    <STAR Name="SALT3Z" Airport="YPAD" Runways="05">
+      <Transition Name="KLAVA">KLAVA/VICMA</Transition>
+      <Route Runway="05">SALTY/AGSAX/SIGUL</Route>
     </STAR>
     <STAR Name="SURGN3" Airport="YPAD" Runways="05,12,23,30">
       <Transition Name="BLACK">BLACK</Transition>
@@ -16674,8 +16716,8 @@ BOFOR
       <Route Runway="17">MANDA/MEKON/VADMA</Route>
     </STAR>
     <STAR Name="POLI8A" Airport="YSCB" Runways="35">
-      <Transition Name="ARRAN">ARRAN</Transition>
       <Transition Name="EBONY">EBONY</Transition>
+      <Transition Name="ARRAN">ARRAN</Transition>
       <Transition Name="KACEY">KACEY</Transition>
       <Transition Name="WG">WG VOR</Transition>
       <Route Runway="35">POLLI/GOMAN/HONEY/DALEY/MENZI</Route>
@@ -16763,23 +16805,23 @@ BOFOR
       <Route>OKVIS/SAKBO/-272123.560+1530719.090</Route>
     </Approach>
     <Approach Name="RNP-ARM" Airport="YBBN" Runway="01R">
-      <Route>BIPUD/BN505/BN515/-272410.070+1530705.590</Route>
+      <Route>BIPUD/BN505/-272628.679+1530246.578/-272651.534+1530351.662/-272642.439+1530500.903/-272606.111+1530553.663/BN515/-272410.070+1530705.590</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="YBBN" Runway="01L">
       <Transition Name="RUSVA">RUSVA</Transition>
-      <Route>BN500/BN510/BN520/-272259.050+1530624.490</Route>
+      <Route>BN500/BN510/-272759.312+1530218.363/-272745.905+1530301.701/-272723.000+1530339.648/-272653.235+1530408.670/BN520/-272259.050+1530624.490</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="YBBN" Runway="01R">
       <Transition Name="SORVA">SORVA</Transition>
-      <Route>BN525/BN535/BN545/-272410.070+1530705.590</Route>
+      <Route>BN525/BN535/-272839.501+1530559.407/-272749.597+1530544.234/-272657.908+1530544.137/-272615.034+1530556.168/BN545/-272410.070+1530705.590</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="YBBN" Runway="19L">
       <Transition Name="ATSEP">ATSEP</Transition>
-      <Route>BN405/BN415/BN425/-272228.790+1530803.500</Route>
+      <Route>BN405/BN415/-271853.054+1531014.485/-271921.483+1530950.793/BN425/-272228.790+1530803.500</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="YBBN" Runway="19R">
       <Transition Name="LUVNA">LUVNA</Transition>
-      <Route>BN400/BN411/BN421/-272123.560+1530719.090</Route>
+      <Route>BN400/BN411/-271629.097+1530954.040/-271705.757+1530944.687/-271715.881+1530939.858/BN421/-272123.560+1530719.090</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YBCG" Runway="14">
       <Transition Name="CG2NC">CG2NC</Transition>
@@ -16914,10 +16956,9 @@ BOFOR
       <Route>TEMPL/IKANO/-380138.000+1442809.950</Route>
     </Approach>
     <Approach Name="RNP-ARU" Airport="YMAV" Runway="36">
-      <Transition Name="PEGLI">PEGLI/SUMRU</Transition>
-      <Transition Name="SUMRU">SUMRU</Transition>
-      <Transition Name="TEMPL">TEMPL/SUMRU</Transition>
-      <Route>AV630/AV626/AV622/AV620/ESNAB/-380315.980+1442753.440</Route>
+      <Transition Name="PEGLI">PEGLI</Transition>
+      <Transition Name="TEMPL">TEMPL</Transition>
+      <Route>SUMRU/AV630/-380600.141+1443403.052/-380646.020+1443332.836/AV626/-380725.878+1443256.143/-380749.916+1443226.873/-380759.373+1443213.079/AV622/-380824.242+1443125.347/-380834.441+1443041.415/-380835.345+1442955.624/-380833.763+1442942.542/AV620/-380816.679+1442844.551/-380755.783+1442810.495/AV618/-380725.039+1442741.916/-380654.224+1442727.293/-380621.481+1442723.308/-380617.851+1442723.646/ESNAB/-380315.980+1442753.440</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YMAY" Runway="07">
       <Transition Name="RURLA">RURLA</Transition>
@@ -16997,11 +17038,11 @@ BOFOR
     </Approach>
     <Approach Name="RNP-ARW" Airport="YPAD" Runway="05">
       <Transition Name="SADMI">SADMI</Transition>
-      <Route>AD010/AD030/-345727.540+1383106.500</Route>
+      <Route>AD010/-350053.505+1382322.755/-350102.945+1382418.960/-350100.143+1382516.233/-350045.288+1382610.665/-350037.193+1382628.489/AD030/-345727.540+1383106.500</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="YPAD" Runway="05">
       <Transition Name="OGUGU">OGUGU</Transition>
-      <Route>AD020/AD030/-345727.540+1383106.500</Route>
+      <Route>AD020/-350133.117+1382545.867/-350047.005+1382622.070/-350032.725+1382638.517/AD030/-345727.540+1383106.500</Route>
     </Approach>
     <Approach Name="LOC" Airport="YPDN" Runway="29">
       <Route>LAPAR/TOROT/-122509.220+1305339.990</Route>
