@@ -857,7 +857,7 @@
         <STAR Name="GREN5A" Type="NonJet" ApproachName="RNPZ" />
         <STAR Name="JULI5A" ApproachName="RNPZ" />
         <STAR Name="SOLU2A" ApproachName="RNPZ" />
-        <STAR Name="WAVE3A" ApproachName="RNPZ" />
+        <STAR Name="WAVE4A" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="21" DataRunway="21">
         <SID Name="AMANA2" Type="Jet" />
@@ -16781,15 +16781,12 @@ BOFOR
     <STAR Name="SOLU2X" Airport="YPPH" Runways="03">
       <Route Runway="03">SOLUS/MESAM/KARGO</Route>
     </STAR>
-    <STAR Name="WAVE4A" Airport="YPPH" Runways="03,21,24">
+    <STAR Name="WAVE4A" Airport="YPPH" Runways="03,06,21,24">
       <Transition Name="BRIGG">BRIGG/BITAP/SAILS/TEMAP</Transition>
       <Route Runway="03">WAVES/HAYCO/SADOL/HARMN/TIMMY</Route>
+      <Route Runway="06">WAVES/VANRU/ORIDO/LENNY</Route>
       <Route Runway="21">WAVES/BARFF/WOOFY</Route>
       <Route Runway="24">WAVES/BARFF/WOOFY</Route>
-    </STAR>
-    <STAR Name="WAVE3A" Airport="YPPH" Runways="06">
-      <Transition Name="BRIGG">BRIGG/BITAP/SAILS/TEMAP</Transition>
-      <Route Runway="06">WAVES/VANRU/ORIDO/LENNY</Route>
     </STAR>
     <STAR Name="AVBE5A" Airport="YSCB" Runways="17,35">
       <Route Runway="17">AVBEG/OMDAL/DOGRO/GOONY/TALAG</Route>
@@ -16823,15 +16820,15 @@ BOFOR
       <Route Runway="17">MANDA/IGMET/MEKON/VADMA</Route>
     </STAR>
     <STAR Name="POLI9A" Airport="YSCB" Runways="35">
-      <Transition Name="EBONY">EBONY</Transition>
       <Transition Name="ARRAN">ARRAN</Transition>
+      <Transition Name="EBONY">EBONY</Transition>
       <Transition Name="KACEY">KACEY</Transition>
       <Transition Name="WG">WG VOR</Transition>
       <Route Runway="35">POLLI/BIXAV/GOMAN/HONEY/DALEY/MENZI</Route>
     </STAR>
     <STAR Name="POLI9X" Airport="YSCB" Runways="35">
-      <Transition Name="EBONY">EBONY</Transition>
       <Transition Name="ARRAN">ARRAN</Transition>
+      <Transition Name="EBONY">EBONY</Transition>
       <Transition Name="KACEY">KACEY</Transition>
       <Transition Name="WG">WG VOR</Transition>
       <Route Runway="35">POLLI/BIXAV/GOMAN/HONEY/ANREP/KALKA</Route>
