@@ -1206,6 +1206,7 @@
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YPAD" Visible="true" />
+        <Window Type="ADEP" Beacon="YPPF" Visible="true" />
       </Strips>
       <CFL QuickLevel="24000">
         <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
@@ -1306,6 +1307,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YMML" Visible="true" />
         <Window Type="ADEP" Beacon="YMAV" Visible="true" />
+        <Window Type="ADEP" Beacon="YMMB" Visible="true" />
       </Strips>
       <CFL QuickLevel="24000">
         <AdditionalLevels>1600,1900,2300,2600,2700,2900,3100,3700,3300,4100,4700</AdditionalLevels>
@@ -1359,6 +1361,8 @@
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YSSY" Visible="true" />
+        <Window Type="ADEP" Beacon="YSBK" Visible="true" />
+        <Window Type="ADEP" Beacon="YSCN" Visible="true" />
       </Strips>
       <CFL QuickLevel="28000">
         <AdditionalLevels>1600,1800,2100,2200,2700,3700</AdditionalLevels>
@@ -1430,6 +1434,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YBBN" Visible="true" />
         <Window Type="ADEP" Beacon="YBCG" Visible="true" />
+        <Window Type="ADEP" Beacon="YBAF" Visible="true" />
       </Strips>
       <CFL QuickLevel="18000">
         <AdditionalLevels>1700,1800,1900,2400,2900,3400,3800,4400,5100</AdditionalLevels>
@@ -1512,6 +1517,7 @@
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YPPH" Visible="true" />
+        <Window Type="ADEP" Beacon="YPJT" Visible="true" />
       </Strips>
       <CFL QuickLevel="18000">
         <AdditionalLevels>1900,2700,2800,3100,3300</AdditionalLevels>
