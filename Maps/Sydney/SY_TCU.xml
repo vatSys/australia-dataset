@@ -527,4 +527,21 @@
       <Threshold Name="28" Position="-33.607272+150.793219" ExtendedCentrelineTrack="107.11" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
   </Map>
+  <!--YSSY 5 & 10NM Final Marks-->
+  <Map Type="System2" Name="YSSY_5_10nm" Priority="2" Center="-33.946111+151.177222">
+    <Symbol Type="Circle">
+      <Point>-335055.0095+1510901.8457</Point>
+      <Point>-335113.9334+1510947.8784</Point>
+      <Point>-335453.9209+1511707.3315</Point>
+      <Point>-335758.9032+1510401.1499</Point>
+      <Point>-340239.0683+1511206.416</Point>
+      <Point>-340304.8587+1511253.9319</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>-334601.2076+1510745.1611</Point>
+      <Point>-334620.1453+1510831.853</Point>
+      <Point>-340736.4133+1511322.771</Point>
+      <Point>-340800.3497+1511410.7813</Point>
+    </Symbol>
+  </Map>
 </Maps>
