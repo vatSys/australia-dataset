@@ -77,8 +77,14 @@
   <Sector FullName="Gundagai" Frequency="128.400" Callsign="ML-GUN_CTR" Name="GUN">
     <Volumes>GUN,GUN_CB_TMA_CAP</Volumes>
   </Sector>
+  <!--WF HUO AMMENDED-->
   <Sector FullName="Huon" Frequency="122.600" Callsign="ML-HUO_CTR" Name="HUO">
     <Volumes>HUO,HUO_TMA_CAP</Volumes>
+    <ResponsibleSectors>HUS</ResponsibleSectors>
+  </Sector>
+  <!--WF HUS-->
+  <Sector FullName="Huon South" Frequency="127.800" Callsign="ML-HUS_CTR" Name="HUS">
+    <Volumes>HUS</Volumes>
   </Sector>
   <Sector FullName="Hyden" Frequency="118.200" Callsign="ML-HYD_CTR" Name="HYD">
     <Volumes>HYD</Volumes>
