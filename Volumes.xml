@@ -2069,6 +2069,34 @@
     -900000.000+1200000.000/
     -364312.000+1200000.000
   </Boundary>
+  <!--INDIAN NORTH WF-->
+  <Boundary Name="INDIAN_NORTH">
+    -422059.9533+1405959.7253/
+    -434347.9572+1455148.0322/
+    -433114.6796+1492130.1794/
+    -435102.851+1503952.6025/
+    -443357.0987+1495959.6704/
+    -450000.000+1495959.7803/
+    -533409.5544+1435204.5667/
+    -502304.1949+1334139.2798/
+    -422059.9533+1405959.7253
+  </Boundary>
+  <!--INDIAN_CENTRAL-->
+  <Boundary Name="INDIAN_CENTRAL">
+    -502304.1949+1334139.2798/
+    -533409.5544+1435204.5667/
+    -630242.8037+1322600.498/
+    -590106.6458+1212911.358/
+    -502304.1949+1334139.2798
+  </Boundary>
+  <!--INDIAN_ANTARCTICA-->
+  <Boundary Name="INDIAN_ANTRACTICA">
+    -590106.6458+1212911.358/
+    -630242.8037+1322600.498/
+    -701843.5718+1133902.2028/
+    -651315.6574+1043657.865/
+    -590106.6458+1212911.358
+  </Boundary>
   <Boundary Name="ISA">
     -172018.000+1370918.000/
     -163557.000+1371056.000/
@@ -5465,6 +5493,17 @@
   <Volume Name="INS" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>INDIAN_SOUTH</Boundaries>
   </Volume>
+  <!--WF INDIAN VOLUMES-->
+  <Volume Name="INN" LowerLimit="0" UpperLimit="60000">
+    <Boundaries>INDIAN_NORTH</Boundaries>
+  </Volume>
+  <Volume Name="INC" LowerLimit="0" UpperLimit="60000">
+    <Boundaries>INDIAN_CENTRAL</Boundaries>
+  </Volume>
+  <Volume Name="INA" LowerLimit="0" UpperLimit="60000">
+    <Boundaries>INDIAN_ANTRACTICA</Boundaries>
+  </Volume>
+  <!--END WF VOLUME-->
   <Volume Name="ISA" LowerLimit="0" UpperLimit="60000">
     <Boundaries>ISA</Boundaries>
   </Volume>

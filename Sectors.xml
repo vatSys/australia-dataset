@@ -274,8 +274,19 @@
   </Sector>
   <Sector FullName="Brisbane Radio (Indian)" Frequency="129.250" Callsign="ML-IND_FSS" Name="IND">
     <Volumes>IND</Volumes>
-    <ResponsibleSectors>INE,INS</ResponsibleSectors>
+    <ResponsibleSectors>INE,INS,INN,INC,INA</ResponsibleSectors>
   </Sector>
+  <!--WF OCEANIC SECTORS-->
+  <Sector FullName="Brisbane Radio (Indian North)" Frequency="123.900" Callsign="ML-INN_FSS" Name="INN">
+    <Volumes>INN</Volumes>
+  </Sector>
+  <Sector FullName="Brisbane Radio (Indian Central)" Frequency="124.800" Callsign="ML-INC_FSS" Name="INC">
+    <Volumes>INC</Volumes>
+  </Sector>
+  <Sector FullName="Brisbane Radio (Indian Antractica)" Frequency="125.700" Callsign="ML-INA_FSS" Name="INA">
+    <Volumes>INA</Volumes>
+  </Sector>
+  <!--END WF OCEANIC SECTORS-->
   <Sector FullName="Brisbane Radio (Lord Howe)" Frequency="124.950" Callsign="BN-HWE_FSS" Name="HWE">
     <Volumes>HWE</Volumes>
   </Sector>
