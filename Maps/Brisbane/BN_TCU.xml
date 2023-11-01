@@ -706,4 +706,19 @@
       <Threshold Name="35" Position="-28.169594+153.506331" ExtendedCentrelineTrack="184.09" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
     </Runway>
   </Map>
+    <!--YBBN 5 & 10 NM FINAL MARKS-->
+    <Map Type="System2" Name="YBBN_5_10nm" Priority="2" Center="-27.384167+153.117500">
+    <Symbol Type="Circle">
+      <Point>-272726.1433+1530351.2622</Point>
+      <Point>-272834.1075+1530434.7681</Point>
+      <Point>-271658.1854+1530948.208</Point>
+      <Point>-271759.6883+1531037.262</Point>
+    </Symbol>
+    <Symbol Type="HollowTriangle">
+      <Point>-273154.4707+1530117.7832</Point>
+      <Point>-273301.9748+1530158.5425</Point>
+      <Point>-271229.0204+1531224.0491</Point>
+      <Point>-271332.6518+1531311.2354</Point>
+    </Symbol>
+  </Map>
 </Maps>
