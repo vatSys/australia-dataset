@@ -77,14 +77,8 @@
   <Sector FullName="Gundagai" Frequency="128.400" Callsign="ML-GUN_CTR" Name="GUN">
     <Volumes>GUN,GUN_CB_TMA_CAP</Volumes>
   </Sector>
-  <!--WF HUO AMMENDED-->
   <Sector FullName="Huon" Frequency="122.600" Callsign="ML-HUO_CTR" Name="HUO">
     <Volumes>HUO,HUO_TMA_CAP</Volumes>
-    <ResponsibleSectors>HUS</ResponsibleSectors>
-  </Sector>
-  <!--WF HUS-->
-  <Sector FullName="Huon South" Frequency="127.800" Callsign="ML-HUS_CTR" Name="HUS">
-    <Volumes>HUS</Volumes>
   </Sector>
   <Sector FullName="Hyden" Frequency="118.200" Callsign="ML-HYD_CTR" Name="HYD">
     <Volumes>HYD</Volumes>
@@ -274,19 +268,8 @@
   </Sector>
   <Sector FullName="Brisbane Radio (Indian)" Frequency="129.250" Callsign="ML-IND_FSS" Name="IND">
     <Volumes>IND</Volumes>
-    <ResponsibleSectors>INE,INS,INN,INC,INA</ResponsibleSectors>
+    <ResponsibleSectors>INE,INS</ResponsibleSectors>
   </Sector>
-  <!--WF OCEANIC SECTORS-->
-  <Sector FullName="Brisbane Radio (Indian North)" Frequency="123.900" Callsign="ML-INN_CTR" Name="INN">
-    <Volumes>INN</Volumes>
-  </Sector>
-  <Sector FullName="Brisbane Radio (Indian Central)" Frequency="124.800" Callsign="ML-INC_CTR" Name="INC">
-    <Volumes>INC</Volumes>
-  </Sector>
-  <Sector FullName="Brisbane Radio (Indian Antractica)" Frequency="125.700" Callsign="ML-INA_CTR" Name="INA">
-    <Volumes>INA</Volumes>
-  </Sector>
-  <!--END WF OCEANIC SECTORS-->
   <Sector FullName="Brisbane Radio (Lord Howe)" Frequency="124.950" Callsign="BN-HWE_FSS" Name="HWE">
     <Volumes>HWE</Volumes>
   </Sector>
