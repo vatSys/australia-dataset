@@ -2069,34 +2069,6 @@
     -900000.000+1200000.000/
     -364312.000+1200000.000
   </Boundary>
-  <!--INDIAN NORTH WF-->
-  <Boundary Name="INDIAN_NORTH">
-    -422059.9533+1405959.7253/
-    -434347.9572+1455148.0322/
-    -433114.6796+1492130.1794/
-    -435102.851+1503952.6025/
-    -443357.0987+1495959.6704/
-    -450000.000+1495959.7803/
-    -533409.5544+1435204.5667/
-    -502304.1949+1334139.2798/
-    -422059.9533+1405959.7253
-  </Boundary>
-  <!--INDIAN_CENTRAL-->
-  <Boundary Name="INDIAN_CENTRAL">
-    -502304.1949+1334139.2798/
-    -533409.5544+1435204.5667/
-    -630242.8037+1322600.498/
-    -590106.6458+1212911.358/
-    -502304.1949+1334139.2798
-  </Boundary>
-  <!--INDIAN_ANTARCTICA-->
-  <Boundary Name="INDIAN_ANTRACTICA">
-    -590106.6458+1212911.358/
-    -630242.8037+1322600.498/
-    -701843.5718+1133902.2028/
-    -651315.6574+1043657.865/
-    -590106.6458+1212911.358
-  </Boundary>
   <Boundary Name="ISA">
     -172018.000+1370918.000/
     -163557.000+1371056.000/
@@ -4107,54 +4079,6 @@
     -434348.000+1455148.000/
     -424756.000+1422850.000
   </Boundary>
-  <!--WF HUO-->
-  <Boundary Name="HUON">
-    -38.901111+141.000000/
-    -38.901111+143.427500/
-    -39.000811+143.605120/
-    -39.140036+143.886656/
-    -39.242181+144.191766/
-    -39.304565+144.512930/
-    -39.325544+144.842222/
-    -39.313611+145.125833/
-    -39.793333+145.125000/
-    -40.000000+145.200278/
-    -40.000000+146.596945/
-    -39.833078+146.855001/
-    -39.549248+147.263154/
-    -39.325833+147.564167/
-    -39.630000+147.741111/
-    -39.616008+147.790937/
-    -39.597833+147.890599/
-    -39.591726+147.992778/
-    -39.597833+148.094957/
-    -39.616008+148.194619/
-    -39.645812+148.289310/
-    -39.686525+148.376698/
-    -39.737164+148.454631/
-    -39.796502+148.521191/
-    -39.863098+148.574739/
-    -39.935331+148.613958/
-    -40.000556+148.632778/
-    -40.567222+150.644167/
-    -41.543900+147.212997/
-    -40.500000+141.000000/
-    -38.901111+141.000000
-  </Boundary>
-  <!--WF HUS-->
-  <Boundary Name="HUON_South">
-    -43.000000+151.000000/
-    -43.850833+150.664722/
-    -43.520833+149.358333/
-    -43.730000+145.863333/
-    -42.798889+142.480556/
-    -42.350000+141.000000/
-    -41.300000+141.000000/
-    -40.500000+141.000000/
-    -41.543900+147.212997/
-    -40.567222+150.644167/
-    -43.000000+151.000000
-  </Boundary>
   <Boundary Name="TRT_A">
     -123955.000+1280111.000/
     -122603.000+1261925.000/
@@ -5467,13 +5391,8 @@
   <Volume Name="HMTWR" LowerLimit="0" UpperLimit="4500">
     <Boundaries>HAMILTON_IS_CTA_D4</Boundaries>
   </Volume>
-  <!--WF HUON AMMENDED-->
   <Volume Name="HUO" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>HUON</Boundaries>
-  </Volume>
-    <!--WF HUS-->
-  <Volume Name="HUS" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>HUON_South</Boundaries>
+    <Boundaries>HUON_B_MODIFIED,HUON_C</Boundaries>
   </Volume>
   <Volume Name="HUO_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>HOBART_APPROACH,LAUNCESTON_APPROACH</Boundaries>
@@ -5493,17 +5412,6 @@
   <Volume Name="INS" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>INDIAN_SOUTH</Boundaries>
   </Volume>
-  <!--WF INDIAN VOLUMES-->
-  <Volume Name="INN" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>INDIAN_NORTH</Boundaries>
-  </Volume>
-  <Volume Name="INC" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>INDIAN_CENTRAL</Boundaries>
-  </Volume>
-  <Volume Name="INA" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>INDIAN_ANTRACTICA</Boundaries>
-  </Volume>
-  <!--END WF VOLUME-->
   <Volume Name="ISA" LowerLimit="0" UpperLimit="60000">
     <Boundaries>ISA</Boundaries>
   </Volume>

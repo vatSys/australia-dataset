@@ -43,7 +43,6 @@
   <Position Name="Huon" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="800" VisibilityRange="600">
     <Sectors>
       <Sector Name="HUO" />
-      <Sector Name="HUS" />
       <Sector Name="HBA" />
       <Sector Name="LTA" />
     </Sectors>
@@ -74,12 +73,6 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Melbourne Centre</Line>
-      <Line>Charts - vats.im/pac/charts</Line>
-      <Line>ATC feedback - helpdesk.vatpac.org</Line>
-    </ControllerInfo>
-    <ControllerInfo Callsign="ML-HUS_CTR">
-      <Line>Melbourne Centre</Line>
-      <Line>WORLDFLIGHT ATC POSITION</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -1168,9 +1161,6 @@
         <Sector Name="IND" />
         <Sector Name="INS" />
         <Sector Name="INE" />
-        <Sector Name="INN" />
-        <Sector Name="INC" />
-        <Sector Name="INA" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1190,21 +1180,6 @@
       <ControllerInfo>
         <Line>Brisbane Radio</Line>
         <Line>Squawk 2000 entering OCEANIC region. Check your Sim Zulu time is correct.</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="ML-INN_CTR">
-        <Line>Brisbane Radio</Line>
-        <Line>WORLDFLIGHT ATC. THIS POSITION IS RADAR CONTROLLED.</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="ML-INC_CTR">
-        <Line>Brisbane Radio</Line>
-        <Line>WORLDFLIGHT ATC. THIS POSITION IS RADAR CONTROLLED.</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="ML-INA_CTR">
-        <Line>Brisbane Radio</Line>
-        <Line>WORLDFLIGHT ATC. THIS POSITION IS RADAR CONTROLLED.</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
