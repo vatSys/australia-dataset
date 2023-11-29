@@ -8,16 +8,6 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy12 CLARK2-->
-      -425044.080+1473128.550/
-      KADON/
-      BIVED/
-      IDRUG/
-      DUMIT/
-      NUVTA/
-      CLARK
-    </Line>
-    <Line>
       <!--Rwy12 KANLI3-->
       -425044.080+1473128.550/
       OREBA/
@@ -32,6 +22,11 @@
     </Line>
     <Line>
       <!--Rwy12 LATUM2-->
+      -425044.080+1473128.550/
+      KADON/
+      BIVED/
+      IDRUG/
+      DUMIT/
       NUVTA/
       TASED/
       LATUM
@@ -40,6 +35,11 @@
       <!--Rwy12 LAVOP1-->
       OREBA/
       LAVOP
+    </Line>
+    <Line>
+      <!--Rwy12 RIBLI2-->
+      NUVTA/
+      RIBLI
     </Line>
     <!--STARs-->
     <Line>
@@ -75,12 +75,6 @@
       <Point>OREBA</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>KADON</Point>
-      <Point>BIVED</Point>
-      <Point>IDRUG</Point>
-      <Point>DUMIT</Point>
-      <Point>NUVTA</Point>
-      <Point>CLARK</Point>
       <Point>ISTIG</Point>
       <Point>OMKUL</Point>
       <Point>GIVOT</Point>
@@ -89,9 +83,15 @@
       <Point>VILAL</Point>
       <Point>MIBAL</Point>
       <Point>KANLI</Point>
+      <Point>KADON</Point>
+      <Point>BIVED</Point>
+      <Point>IDRUG</Point>
+      <Point>DUMIT</Point>
+      <Point>NUVTA</Point>
       <Point>TASED</Point>
       <Point>LATUM</Point>
       <Point>LAVOP</Point>
+      <Point>RIBLI</Point>
       <Point>IPLET</Point>
       <Point>SUNEK</Point>
       <Point>BEBEK</Point>
@@ -105,12 +105,6 @@
   </Map>
   <Map Type="System" Name="HB_RWY12_NAMES" Priority="2" Center="-42.836111+147.510278">
     <Label>
-      <Point>KADON</Point>
-      <Point>BIVED</Point>
-      <Point>IDRUG</Point>
-      <Point>DUMIT</Point>
-      <Point>NUVTA</Point>
-      <Point>CLARK</Point>
       <Point>OREBA</Point>
       <Point>ISTIG</Point>
       <Point>OMKUL</Point>
@@ -120,9 +114,15 @@
       <Point>VILAL</Point>
       <Point>MIBAL</Point>
       <Point>KANLI</Point>
+      <Point>KADON</Point>
+      <Point>BIVED</Point>
+      <Point>IDRUG</Point>
+      <Point>DUMIT</Point>
+      <Point>NUVTA</Point>
       <Point>TASED</Point>
       <Point>LATUM</Point>
       <Point>LAVOP</Point>
+      <Point>RIBLI</Point>
       <Point>IPLET</Point>
       <Point>SUNEK</Point>
       <Point>BEBEK</Point>
@@ -135,7 +135,7 @@
       <Point>VAVMO</Point>
       <Point>IKOBI</Point>
       <Point>LT VOR</Point>
-      <Point>KAREN</Point>
+      <Point>VEKLO</Point>
       <Point>NUNPA</Point>
       <Point>DOTVU</Point>
       <Point>URBEN</Point>

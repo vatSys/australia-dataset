@@ -8,9 +8,15 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy01 ANRUB1-->
+      <!--Rwy01 AKROM1-->
       -191417.530+1464627.180/
       AGSIR/
+      AVMAT/
+      ADNOD/
+      AKROM
+    </Line>
+    <Line>
+      <!--Rwy01 ANRUB1-->
       AVMAT/
       LEDOG/
       VEBTO/
@@ -31,10 +37,10 @@
       CATEY
     </Line>
     <Line>
-      <!--Rwy01 JEMMA2-->
+      <!--Rwy01 JEMMA3-->
       -191417.530+1464627.180/
       TUVNO/
-      MAGGY/
+      TELAP/
       VILUN/
       GUMUT/
       SUKBU/
@@ -42,64 +48,58 @@
     </Line>
     <Line>
       <!--Rwy01 PEWEE6-->
-      AVMAT/
       ADNOD/
       PEWEE
     </Line>
     <Line>
-      <!--Rwy01 SWIFT1-->
-      ADNOD/
-      SWIFT
-    </Line>
-    <Line>
-      <!--Rwy01 WALTA1-->
+      <!--Rwy01 WALTA2-->
       VILUN/
       WALTA
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy01 IBUX1A-->
+      <!--Rwy01 IBUX2A-->
       IBUXI/
       TL VOR/
       AGPOK/
-      KIRAN
+      PARPO
     </Line>
     <Line>
-      <!--Rwy01 IGIK1A-->
+      <!--Rwy01 IGIK2A-->
       IGIKI/
       AKBUG/
       SARGA/
       MOSDU/
-      FREDY
+      KAKRO
     </Line>
     <Line>
-      <!--Rwy01 PORO1A-->
+      <!--Rwy01 PORO2A-->
       POROB/
       LAPES/
       BOKES/
       SATCO
     </Line>
     <Line>
-      <!--Rwy01 PORO1P-->
+      <!--Rwy01 PORO2P-->
       POROB/
       POVED/
       GUGAN
     </Line>
     <Line>
-      <!--Rwy01 VOMP1A-->
+      <!--Rwy01 VOMP2A-->
       VOMPA/
       SASMO/
       BOKES
     </Line>
     <Line>
-      <!--Rwy01 VOMP1P-->
+      <!--Rwy01 VOMP2P-->
       VOMPA/
       BEBUD/
       GUGAN
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>KIRAN</Point>
-      <Point>FREDY</Point>
+      <Point>PARPO</Point>
+      <Point>KAKRO</Point>
       <Point>SATCO</Point>
       <Point>GUGAN</Point>
     </Symbol>
@@ -113,6 +113,8 @@
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>AVMAT</Point>
+      <Point>ADNOD</Point>
+      <Point>AKROM</Point>
       <Point>VEBTO</Point>
       <Point>ANRUB</Point>
       <Point>BILER</Point>
@@ -120,14 +122,12 @@
       <Point>CARMN</Point>
       <Point>ENSOM</Point>
       <Point>CATEY</Point>
-      <Point>MAGGY</Point>
+      <Point>TELAP</Point>
       <Point>VILUN</Point>
       <Point>GUMUT</Point>
       <Point>SUKBU</Point>
       <Point>JEMMA</Point>
-      <Point>ADNOD</Point>
       <Point>PEWEE</Point>
-      <Point>SWIFT</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
       <Point>AGPOK</Point>
@@ -148,6 +148,8 @@
     <Label>
       <Point>AGSIR</Point>
       <Point>AVMAT</Point>
+      <Point>ADNOD</Point>
+      <Point>AKROM</Point>
       <Point>LEDOG</Point>
       <Point>VEBTO</Point>
       <Point>SATCO</Point>
@@ -158,24 +160,22 @@
       <Point>ENSOM</Point>
       <Point>CATEY</Point>
       <Point>TUVNO</Point>
-      <Point>MAGGY</Point>
+      <Point>TELAP</Point>
       <Point>VILUN</Point>
       <Point>GUMUT</Point>
       <Point>SUKBU</Point>
       <Point>JEMMA</Point>
-      <Point>ADNOD</Point>
       <Point>PEWEE</Point>
-      <Point>SWIFT</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
       <Point>TL VOR</Point>
       <Point>AGPOK</Point>
-      <Point>KIRAN</Point>
+      <Point>PARPO</Point>
       <Point>IGIKI</Point>
       <Point>AKBUG</Point>
       <Point>SARGA</Point>
       <Point>MOSDU</Point>
-      <Point>FREDY</Point>
+      <Point>KAKRO</Point>
       <Point>POROB</Point>
       <Point>LAPES</Point>
       <Point>BOKES</Point>
@@ -198,7 +198,7 @@
       <Point>ALBUX</Point>
       <Point>DAGSI</Point>
       <Point>MK VOR</Point>
-      <Point>POONA</Point>
+      <Point>MUNAR</Point>
       <Point>LERKI</Point>
       <Point>EMSUP</Point>
       <Point>WELKE</Point>

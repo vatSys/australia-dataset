@@ -8,23 +8,23 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy32 CLIFT2-->
+      <!--Rwy32 CLIFT3-->
       -210947.430+1491038.920/
       -210947.491+1491038.870/
       -210539.300+1490752.025/
       CLIFT
     </Line>
     <Line>
-      <!--Rwy32 POONA2-->
+      <!--Rwy32 MUNAR1-->
       -210947.491+1491038.870/
       -210840.188+1490950.843/
-      HARPO/
+      AVKIK/
       -210023.792+1484631.927/
       -210027.796+1484559.550/
       -210046.147+1484533.467/
       -210114.098+1484520.422/
       RUVAL/
-      POONA
+      MUNAR
     </Line>
     <!--STARs-->
     <Line>
@@ -44,12 +44,12 @@
       <Point>BAVAM</Point>
     </Symbol>
     <Symbol Type="SolidStar">
-      <Point>HARPO</Point>
+      <Point>AVKIK</Point>
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>CLIFT</Point>
       <Point>RUVAL</Point>
-      <Point>POONA</Point>
+      <Point>MUNAR</Point>
       <Point>DAGSI</Point>
       <Point>LUMVA</Point>
       <Point>SADID</Point>
@@ -59,15 +59,17 @@
   <Map Type="System" Name="MK_RWY32_NAMES" Priority="2" Center="-21.171389+149.179722">
     <Label>
       <Point>CLIFT</Point>
-      <Point>HARPO</Point>
+      <Point>AVKIK</Point>
       <Point>RUVAL</Point>
-      <Point>POONA</Point>
+      <Point>MUNAR</Point>
       <Point>DAGSI</Point>
       <Point>LUMVA</Point>
       <Point>SADID</Point>
       <Point>BURNO</Point>
       <Point>WELKE</Point>
       <Point>BAVAM</Point>
+      <Point>MAGRA</Point>
+      <Point>ALAXU</Point>
       <Point>IBUXI</Point>
       <Point>BINUN</Point>
       <Point>TL VOR</Point>

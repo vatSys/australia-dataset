@@ -8,105 +8,271 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy30 BUBRI1-->
+      <!--Rwy30 CLSIC1-->
       -324713.640+1514921.340/
-      -324544.555+1514911.453/
-      ENVOL/
-      BUBRI
+      -324646.324+1514843.436/
+      -324246.406+1514947.172/
+      UKDIP
     </Line>
     <Line>
-      <!--Rwy30 EGEVO1-->
+      <!--Rwy30 KEXAR1-->
       -324713.640+1514921.340/
-      -324705.267+1514902.791/
-      -324702.258+1514826.742/
-      -324714.525+1514753.583/
-      -324738.903+1514731.867/
-      -324809.105+1514727.198/
-      ABVUX/
-      EGEVO
+      URDAX/
+      MATLA/
+      IRPES/
+      KEXAR
     </Line>
     <Line>
-      <!--Rwy30 GUTEX1-->
-      ENVOL/
-      GUTEX
-    </Line>
-    <Line>
-      <!--Rwy30 IKIMO1-->
+      <!--Rwy30 LIMLO1-->
       -324713.640+1514921.340/
-      -324705.556+1514903.698/
-      -324701.972+1514829.143/
-      -324712.566+1514756.686/
-      IKIMO
+      -324713.640+1514921.340/
+      -324437.508+1514544.835/
+      -324417.326+1514454.915/
+      -324420.899+1514359.692/
+      -324447.214+1514313.986/
+      -324529.223+1514250.038/
+      -324615.674+1514254.274/
+      IKEBU/
+      IGMUP/
+      LIMLO
     </Line>
     <Line>
-      <!--Rwy30 LATUT1-->
-      ENVOL/
-      LATUT
+      <!--Rwy30 MONDO1-->
+      URDAX/
+      UGISU/
+      ATSUG/
+      IGBAK/
+      MONDO
     </Line>
     <Line>
-      <!--Rwy30 OMBUP1-->
-      ENVOL/
-      OMBUP
+      <!--Rwy30 PEPPR1-->
+      -324646.324+1514843.436/
+      -324153.740+1515001.150
     </Line>
     <Line>
-      <!--Rwy30 WONKA1-->
-      LATUT/
-      WONKA
+      <!--Rwy30 PEPPR1.ERVEV-->
+      -324153.740+1515001.150/
+      -324049.373+1515018.244/
+      ERVEV
+    </Line>
+    <Line>
+      <!--Rwy30 PEPPR1.OLVEP-->
+      -324153.740+1515001.150/
+      OLVEP
+    </Line>
+    <Line>
+      <!--Rwy30 UBSO1A-->
+      -324713.640+1514921.340/
+      OBKUP/
+      OBDIB/
+      UBSON
     </Line>
     <!--STARs-->
+    <Line>
+      <!--Rwy30 ASUVA1-->
+      ASUVA/
+      UPVIB
+    </Line>
+    <Line>
+      <!--Rwy30 EKIPU1-->
+      EKIPU/
+      IVTAG/
+      DOXAP
+    </Line>
+    <Line>
+      <!--Rwy30 IVTA1R.EKIPU-->
+      EKIPU/
+      IVTAG
+    </Line>
+    <Line>
+      <!--Rwy30 IVTA1R.OVLUX-->
+      OVLUX/
+      IVTAG
+    </Line>
+    <Line>
+      <!--Rwy30 IVTA1R.PUDUT-->
+      PUDUT/
+      IVTAG
+    </Line>
+    <Line>
+      <!--Rwy30 IVTA1R-->
+      IVTAG/
+      UBGIM
+    </Line>
+    <Line>
+      <!--Rwy30 IVTA1V.EKIPU-->
+    </Line>
+    <Line>
+      <!--Rwy30 IVTA1V.OVLUX-->
+    </Line>
+    <Line>
+      <!--Rwy30 IVTA1V.PUDUT-->
+    </Line>
+    <Line>
+      <!--Rwy30 IVTA1V-->
+      UBGIM/
+      UBMAX/
+      ELKOV
+    </Line>
+    <Line>
+      <!--Rwy30 LAXU1A-->
+      LAXUM/
+      IPGUX/
+      ENVIR/
+      UBNIL/
+      AVGOP/
+      AKLOL
+    </Line>
+    <Line>
+      <!--Rwy30 LAXU1B-->
+      LAXUM/
+      IDPEP/
+      ISVUP/
+      UGVOK/
+      IDSOM/
+      IVTAG
+    </Line>
+    <Line>
+      <!--Rwy30 LAXU1R-->
+      IPGUX/
+      IVSES/
+      IDSAX
+    </Line>
+    <Line>
+      <!--Rwy30 LAXU1V-->
+      IDSAX/
+      AKRUS/
+      UDEPO/
+      OVPEV
+    </Line>
+    <Line>
+      <!--Rwy30 OVLUX1-->
+      OVLUX/
+      IVTAG
+    </Line>
+    <Line>
+      <!--Rwy30 PUDUT1-->
+      PUDUT/
+      IVTAG
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>UPVIB</Point>
+      <Point>DOXAP</Point>
+      <Point>UBGIM</Point>
+      <Point>ELKOV</Point>
+      <Point>AKLOL</Point>
+      <Point>IDSAX</Point>
+      <Point>OVPEV</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
-      <Point>ENVOL</Point>
-      <Point>BUBRI</Point>
-      <Point>ABVUX</Point>
-      <Point>EGEVO</Point>
-      <Point>GUTEX</Point>
-      <Point>IKIMO</Point>
-      <Point>LATUT</Point>
-      <Point>OMBUP</Point>
-      <Point>WONKA</Point>
+      <Point>UKDIP</Point>
+      <Point>URDAX</Point>
+      <Point>MATLA</Point>
+      <Point>IRPES</Point>
+      <Point>KEXAR</Point>
+      <Point>IKEBU</Point>
+      <Point>IGMUP</Point>
+      <Point>LIMLO</Point>
+      <Point>UGISU</Point>
+      <Point>ATSUG</Point>
+      <Point>IGBAK</Point>
+      <Point>MONDO</Point>
+      <Point>ERVEV</Point>
+      <Point>OLVEP</Point>
+      <Point>OBKUP</Point>
+      <Point>OBDIB</Point>
+      <Point>UBSON</Point>
+      <Point>ASUVA</Point>
+      <Point>EKIPU</Point>
+      <Point>IVTAG</Point>
+      <Point>OVLUX</Point>
+      <Point>PUDUT</Point>
+      <Point>UBMAX</Point>
+      <Point>LAXUM</Point>
+      <Point>IPGUX</Point>
+      <Point>ENVIR</Point>
+      <Point>UBNIL</Point>
+      <Point>AVGOP</Point>
+      <Point>IDPEP</Point>
+      <Point>ISVUP</Point>
+      <Point>UGVOK</Point>
+      <Point>IDSOM</Point>
+      <Point>IVSES</Point>
+      <Point>AKRUS</Point>
+      <Point>UDEPO</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="WLM_RWY30_NAMES" Priority="2" Center="-32.795000+151.834444">
     <Label>
-      <Point>ENVOL</Point>
-      <Point>BUBRI</Point>
-      <Point>ABVUX</Point>
-      <Point>EGEVO</Point>
-      <Point>GUTEX</Point>
-      <Point>IKIMO</Point>
-      <Point>LATUT</Point>
-      <Point>OMBUP</Point>
-      <Point>WONKA</Point>
+      <Point>UKDIP</Point>
+      <Point>URDAX</Point>
+      <Point>MATLA</Point>
+      <Point>IRPES</Point>
+      <Point>KEXAR</Point>
+      <Point>IKEBU</Point>
+      <Point>IGMUP</Point>
+      <Point>LIMLO</Point>
+      <Point>UGISU</Point>
+      <Point>ATSUG</Point>
+      <Point>IGBAK</Point>
+      <Point>MONDO</Point>
+      <Point>ERVEV</Point>
+      <Point>OLVEP</Point>
+      <Point>OBKUP</Point>
+      <Point>OBDIB</Point>
+      <Point>UBSON</Point>
+      <Point>ASUVA</Point>
+      <Point>UPVIB</Point>
+      <Point>EKIPU</Point>
+      <Point>IVTAG</Point>
+      <Point>DOXAP</Point>
+      <Point>OVLUX</Point>
+      <Point>PUDUT</Point>
+      <Point>UBGIM</Point>
+      <Point>UBMAX</Point>
+      <Point>ELKOV</Point>
+      <Point>LAXUM</Point>
+      <Point>IPGUX</Point>
+      <Point>ENVIR</Point>
+      <Point>UBNIL</Point>
+      <Point>AVGOP</Point>
+      <Point>AKLOL</Point>
+      <Point>IDPEP</Point>
+      <Point>ISVUP</Point>
+      <Point>UGVOK</Point>
+      <Point>IDSOM</Point>
+      <Point>IVSES</Point>
+      <Point>IDSAX</Point>
+      <Point>AKRUS</Point>
+      <Point>UDEPO</Point>
+      <Point>OVPEV</Point>
       <Point>TESAT</Point>
-      <Point>ENTRA</Point>
-      <Point>MARTO</Point>
-      <Point>SUMSA</Point>
+      <Point>OLSEM</Point>
+      <Point>UPNEX</Point>
       <Point>BANDA</Point>
       <Point>OMKAX</Point>
+      <Point>OMGAB</Point>
+      <Point>OMLAV</Point>
+      <Point>ABASS</Point>
+      <Point>NWA TAC</Point>
+      <Point>NONID</Point>
       <Point>KAMBA</Point>
       <Point>TOOKI</Point>
-      <Point>LOWEP</Point>
       <Point>MAKOR</Point>
-      <Point>TIMBO</Point>
-      <Point>TW VOR</Point>
-      <Point>GDH NDB</Point>
+      <Point>LOWEP</Point>
       <Point>NBR NDB</Point>
-      <Point>LOSKU</Point>
+      <Point>GDH NDB</Point>
+      <Point>TW VOR</Point>
+      <Point>TIMBO</Point>
       <Point>NICLA</Point>
-      <Point>DONIC</Point>
+      <Point>LOSKU</Point>
+      <Point>IVL NDB</Point>
+      <Point>SANAD</Point>
+      <Point>COOPA</Point>
+      <Point>IDSEB</Point>
       <Point>CFS VOR</Point>
       <Point>UGPOT</Point>
-      <Point>VONNI</Point>
-      <Point>MEPIL</Point>
-      <Point>COOPA</Point>
-      <Point>SANAD</Point>
-      <Point>IVL NDB</Point>
-      <Point>CRAVN</Point>
-      <Point>JAFFA</Point>
       <Point>ARM NDB</Point>
-      <Point>QDI NDB</Point>
-      <Point>SCO NDB</Point>
-      <Point>OLTIN</Point>
     </Label>
   </Map>
 </Maps>

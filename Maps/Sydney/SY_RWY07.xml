@@ -8,21 +8,21 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy07 FISHA8-->
+      <!--Rwy07 FISHA9-->
       -335615.990+1511120.070/
       -335610.038+1511335.517/
       FISHA
     </Line>
     <Line>
-      <!--Rwy07 FISHA8.ENTRA-->
+      <!--Rwy07 FISHA9.OLSEM-->
       FISHA/
       -335433.974+1512248.524/
       -335416.928+1512353.474/
       -335334.313+1512452.536/
-      ENTRA
+      OLSEM
     </Line>
     <Line>
-      <!--Rwy07 FISHA8.WOL-->
+      <!--Rwy07 FISHA9.WOL-->
       FISHA/
       -335435.277+1512240.086/
       -335430.055+1512350.730/
@@ -89,7 +89,7 @@
       <Point>WOL NDB</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>ENTRA</Point>
+      <Point>OLSEM</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
       <Point>BEROW</Point>
@@ -143,7 +143,7 @@
   <Map Type="System" Name="SY_RWY07_NAMES" Priority="2" Center="-33.946111+151.177222">
     <Label>
       <Point>FISHA</Point>
-      <Point>ENTRA</Point>
+      <Point>OLSEM</Point>
       <Point>WOL NDB</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
@@ -176,28 +176,27 @@
       <Point>INVUS</Point>
       <Point>ATNAT</Point>
       <Point>SOTKI</Point>
-      <Point>EMTEL</Point>
-      <Point>VIREN</Point>
-      <Point>SCO NDB</Point>
-      <Point>IGDAM</Point>
-      <Point>SADLO</Point>
       <Point>RAZZI</Point>
       <Point>CB VOR</Point>
+      <Point>EMSUR</Point>
       <Point>OVMIN</Point>
-      <Point>LOVGO</Point>
-      <Point>VAPKI</Point>
-      <Point>NBR NDB</Point>
-      <Point>MARTO</Point>
-      <Point>SUMSA</Point>
+      <Point>UPVEN</Point>
+      <Point>UPNEX</Point>
+      <Point>EKIPU</Point>
       <Point>WLM NDB</Point>
       <Point>BANDA</Point>
       <Point>BOYSY</Point>
+      <Point>IDSUP</Point>
       <Point>EMROT</Point>
-      <Point>MISIT</Point>
       <Point>MUDGI</Point>
-      <Point>MOVBU</Point>
-      <Point>DAMAG</Point>
-      <Point>BIDNO</Point>
+      <Point>UNSAR</Point>
+      <Point>LASUD</Point>
+      <Point>IDGIG</Point>
+      <Point>IPGOK</Point>
+      <Point>IDOGI</Point>
+      <Point>SCO NDB</Point>
+      <Point>IGDAM</Point>
+      <Point>SADLO</Point>
       <Point>EVONN</Point>
       <Point>GEROS</Point>
       <Point>PLUGA</Point>
@@ -205,9 +204,12 @@
       <Point>AKALU</Point>
       <Point>NONID</Point>
       <Point>RIKNI</Point>
+      <Point>UBLOM</Point>
+      <Point>ISREV</Point>
+      <Point>DUUKE</Point>
       <Point>KAMBA</Point>
       <Point>TOOKI</Point>
-      <Point>REVGU</Point>
+      <Point>OVLUX</Point>
       <Point>LATUT</Point>
       <Point>CFS VOR</Point>
       <Point>PEGSU</Point>
@@ -220,18 +222,18 @@
       <Point>RUTOS</Point>
       <Point>SCATZ</Point>
       <Point>ANBAN</Point>
+      <Point>SORTI</Point>
+      <Point>IDSEB</Point>
+      <Point>MAKOR</Point>
       <Point>WG VOR</Point>
       <Point>HAPPI</Point>
       <Point>AKMIR</Point>
       <Point>WELSH</Point>
+      <Point>BTH NDB</Point>
       <Point>ARM NDB</Point>
+      <Point>EKIBI</Point>
       <Point>MONDO</Point>
       <Point>LOWEP</Point>
-      <Point>SORTI</Point>
-      <Point>MAKOR</Point>
-      <Point>DONIC</Point>
-      <Point>EGEVO</Point>
-      <Point>BTH NDB</Point>
       <Point>EBONY</Point>
       <Point>ARRAN</Point>
       <Point>NONUP</Point>

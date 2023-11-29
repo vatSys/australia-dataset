@@ -21,6 +21,12 @@
     <!--Airway Routes-->
     <Line>
       <!--H66-->
+      MUDGI/
+      UPVEN/
+      URKER
+    </Line>
+    <Line>
+      <!--H66-->
       PEBDO/
       WHITI/
       IDNER/
@@ -29,16 +35,34 @@
       LAGOB
     </Line>
     <Line>
-      <!--W174-->
-      WLM NDB/
-      BUBRI/
-      IGMOB/
-      TIMBO
+      <!--V258-->
+      KAMBA/
+      GUNTA/
+      PUDUT/
+      MATLA/
+      KEXAR/
+      EKIBI
     </Line>
     <Line>
-      <!--W174-->
-      GDH NDB/
+      <!--V258-->
+      UGEDA/
       NBR NDB
+    </Line>
+    <Line>
+      <!--V417-->
+      NBR NDB/
+      GDH NDB
+    </Line>
+    <Line>
+      <!--V417-->
+      TIMBO/
+      LAXUM/
+      WLM NDB
+    </Line>
+    <Line>
+      <!--W130-->
+      OLTIN/
+      UBLOM
     </Line>
     <Line>
       <!--W192-->
@@ -56,18 +80,6 @@
       ENKOG
     </Line>
     <Line>
-      <!--W220-->
-      KAMBA/
-      GUNTA/
-      MATLA
-    </Line>
-    <Line>
-      <!--W326-->
-      DULIN/
-      VONDO/
-      MASMI
-    </Line>
-    <Line>
       <!--W330-->
       LOSKU/
       CFS VOR
@@ -78,14 +90,28 @@
       QDI NDB
     </Line>
     <Line>
+      <!--W411-->
+      DULIN/
+      VONDO/
+      MASMI
+    </Line>
+    <Line>
+      <!--W411-->
+      OSRAR/
+      UNSAR/
+      DU NDB
+    </Line>
+    <Line>
       <!--W434-->
       ARM NDB/
       GFN NDB
     </Line>
     <Line>
-      <!--Y23-->
-      OLRIP/
-      BERNI
+      <!--W542-->
+      MOR NDB/
+      OVNOM/
+      OLKUR/
+      OMGOS
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>BRADD</Point>
@@ -93,19 +119,29 @@
   </Map>
   <Map Type="System" Name="TW_TCU_NAMES" Priority="2" Center="-31.083889+150.846667">
     <Label>
+      <Point>MUDGI</Point>
+      <Point>UPVEN</Point>
+      <Point>URKER</Point>
       <Point>PEBDO</Point>
       <Point>WHITI</Point>
       <Point>IDNER</Point>
       <Point>BLAKA</Point>
       <Point>MOOVI</Point>
       <Point>LAGOB</Point>
-      <Point>WLM NDB</Point>
-      <Point>BUBRI</Point>
-      <Point>IGMOB</Point>
-      <Point>TIMBO</Point>
-      <Point>GDH NDB</Point>
+      <Point>KAMBA</Point>
+      <Point>GUNTA</Point>
+      <Point>PUDUT</Point>
+      <Point>MATLA</Point>
+      <Point>KEXAR</Point>
+      <Point>EKIBI</Point>
+      <Point>UGEDA</Point>
       <Point>NBR NDB</Point>
-      <Point>MUDGI</Point>
+      <Point>GDH NDB</Point>
+      <Point>TIMBO</Point>
+      <Point>LAXUM</Point>
+      <Point>WLM NDB</Point>
+      <Point>OLTIN</Point>
+      <Point>UBLOM</Point>
       <Point>ANBAN</Point>
       <Point>SANAD</Point>
       <Point>CFS VOR</Point>
@@ -113,18 +149,20 @@
       <Point>TUCKI</Point>
       <Point>GOMOL</Point>
       <Point>ENKOG</Point>
-      <Point>KAMBA</Point>
-      <Point>GUNTA</Point>
-      <Point>MATLA</Point>
+      <Point>LOSKU</Point>
+      <Point>QDI NDB</Point>
       <Point>DULIN</Point>
       <Point>VONDO</Point>
       <Point>MASMI</Point>
-      <Point>LOSKU</Point>
-      <Point>QDI NDB</Point>
+      <Point>OSRAR</Point>
+      <Point>UNSAR</Point>
+      <Point>DU NDB</Point>
       <Point>ARM NDB</Point>
       <Point>GFN NDB</Point>
-      <Point>OLRIP</Point>
-      <Point>BERNI</Point>
+      <Point>MOR NDB</Point>
+      <Point>OVNOM</Point>
+      <Point>OLKUR</Point>
+      <Point>OMGOS</Point>
       <Point>BRADD</Point>
     </Label>
   </Map>

@@ -8,119 +8,142 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy14R IRONS2-->
+      <!--Rwy14R IRSO2A-->
       -413307.470+1471300.960/
-      -413307.423+1471301.010/
-      -413357.973+1471339.845/
-      -413404.888+1470805.879/
-      IRONS
-    </Line>
-    <Line>
-      <!--Rwy14R IRSO1A-->
-      -413307.423+1471301.010/
-      -413608.642+1470952.167/
+      -413603.570+1471532.100/
+      -413647.892+1471551.099/
+      -413733.412+1471537.833/
+      -413807.872+1471455.888/
+      -413822.032+1471356.502/
+      -413812.094+1471255.600/
+      -413742.315+1471211.012/
+      -412826.000+1470319.000/
       IRSOM
     </Line>
     <Line>
-      <!--Rwy14R KAREN2-->
-      -413357.973+1471339.845/
-      KAREN
+      <!--Rwy14R IRSO2C-->
     </Line>
     <Line>
-      <!--Rwy14R MORGO1-->
-      -413357.973+1471339.845/
-      -413513.054+1471217.058/
+      <!--Rwy14R MIKIS3-->
+      -413822.032+1471356.502/
+      -413633.000+1470004.000/
+      MIKIS
+    </Line>
+    <Line>
+      <!--Rwy14R MORG2A-->
+      -413807.872+1471455.888/
+      -414150.000+1471051.000/
       MORGO
     </Line>
     <Line>
-      <!--Rwy14R MOTR1A-->
-      -413608.642+1470952.167/
-      LT NDB/
+      <!--Rwy14R MORG2C-->
+    </Line>
+    <Line>
+      <!--Rwy14R MOTR2A-->
+      -413742.315+1471211.012/
+      -413705.000+1471155.000/
+      LT VOR/
       MOTRA
     </Line>
     <Line>
-      <!--Rwy14R MOTR1B-->
-      -413307.470+1471300.960/
-      -413630.995+1471551.119/
-      -413447.747+1471908.399/
-      -413055.907+1472031.559/
+      <!--Rwy14R MOTR2B-->
+      -413603.570+1471532.100/
+      -413634.948+1471618.074/
+      -413644.885+1471718.950/
+      -413630.725+1471818.311/
+      -413556.266+1471900.239/
+      -413107.000+1472042.000/
       MOTRA
     </Line>
     <Line>
-      <!--Rwy14R NOLA5A-->
-      LT NDB/
-      NOLAN
-    </Line>
-    <Line>
-      <!--Rwy14R NOLA5B-->
-      -413630.995+1471551.119/
-      -412454.360+1471533.119/
-      NOLAN
-    </Line>
-    <Line>
-      <!--Rwy14R NUNP1A-->
-      LT NDB/
+      <!--Rwy14R NUNP2A-->
+      LT VOR/
       NUNPA
     </Line>
     <Line>
-      <!--Rwy14R NUNP1B-->
-      -413447.747+1471908.399/
-      -412938.112+1471418.599/
+      <!--Rwy14R NUNP2B-->
+      -413556.266+1471900.239/
+      -413510.746+1471913.499/
+      -413428.044+1471855.866/
+      -412945.000+1471425.000/
       NUNPA
     </Line>
     <Line>
-      <!--Rwy14R ONAG1A-->
-      -413608.642+1470952.167/
+      <!--Rwy14R ONAG2A-->
+      LT VOR/
       ONAGI
     </Line>
     <Line>
-      <!--Rwy14R ONAG1B-->
-      -413447.747+1471908.399/
-      -413107.499+1471207.920/
+      <!--Rwy14R ONAG2B-->
+      -413428.044+1471855.866/
+      -413046.000+1471144.000/
       ONAGI
     </Line>
     <Line>
-      <!--Rwy14R TASUM1-->
-      -413357.973+1471339.845/
-      -413420.820+1471314.552/
+      <!--Rwy14R ONAG2C-->
+      -413705.000+1471155.000/
+      ONAGI
+    </Line>
+    <Line>
+      <!--Rwy14R TASUM2-->
+      -413647.892+1471551.099/
       TASUM
+    </Line>
+    <Line>
+      <!--Rwy14R VEKLO1-->
+      -413603.570+1471532.100/
+      VEKLO
+    </Line>
+    <Line>
+      <!--Rwy14R VIMA1A-->
+      LT VOR/
+      VIMAP
+    </Line>
+    <Line>
+      <!--Rwy14R VIMA1B-->
+      -412945.000+1471425.000/
+      -412919.000+1471401.000/
+      -412454.000+1471536.000/
+      -411740.000+1471232.000/
+      VIMAP
     </Line>
     <!--STARs-->
     <Symbol Type="Circle">
-      <Point>LT NDB</Point>
+      <Point>LT VOR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>IRONS</Point>
       <Point>IRSOM</Point>
-      <Point>KAREN</Point>
+      <Point>MIKIS</Point>
       <Point>MORGO</Point>
       <Point>MOTRA</Point>
-      <Point>NOLAN</Point>
       <Point>NUNPA</Point>
       <Point>ONAGI</Point>
       <Point>TASUM</Point>
+      <Point>VEKLO</Point>
+      <Point>VIMAP</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="LT_RWY14R_NAMES" Priority="2" Center="-41.545278+147.214167">
     <Label>
-      <Point>IRONS</Point>
       <Point>IRSOM</Point>
-      <Point>KAREN</Point>
+      <Point>MIKIS</Point>
       <Point>MORGO</Point>
-      <Point>LT NDB</Point>
+      <Point>LT VOR</Point>
       <Point>MOTRA</Point>
-      <Point>NOLAN</Point>
       <Point>NUNPA</Point>
       <Point>ONAGI</Point>
       <Point>TASUM</Point>
+      <Point>VEKLO</Point>
+      <Point>VIMAP</Point>
       <Point>KANLI</Point>
       <Point>LATUM</Point>
       <Point>FLIKI</Point>
+      <Point>AKTAM</Point>
       <Point>EXROM</Point>
       <Point>WAREN</Point>
       <Point>DOTVU</Point>
       <Point>WYY NDB</Point>
-      <Point>CLARK</Point>
+      <Point>RIBLI</Point>
       <Point>ESL NDB</Point>
       <Point>ANTLA</Point>
       <Point>LTV NDB</Point>

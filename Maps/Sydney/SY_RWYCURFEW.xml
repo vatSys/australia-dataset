@@ -8,33 +8,34 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy16R DEENA7-->
+      <!--Rwy16R KAMPI6-->
       -335751.350+1511050.330/
       -335759.243+1511051.980/
       DUNES/
-      DEENA
+      DEENA/
+      KAMPI
     </Line>
     <Line>
-      <!--Rwy16R DEENA7.KADOM-->
-      DEENA/
+      <!--Rwy16R KAMPI6.KADOM-->
+      KAMPI/
+      EXUGI/
+      IGEMA/
+      URGIS/
+      EGOPO/
       ANKUB/
       KADOM
     </Line>
     <Line>
-      <!--Rwy16R DEENA7.RIC-->
+      <!--Rwy16R KAMPI6.RIC-->
       ANKUB/
+      UPMAR/
       RIC NDB
     </Line>
     <Line>
-      <!--Rwy16R DEENA7.WOL-->
-      DEENA/
-      KAMPI/
+      <!--Rwy16R KAMPI6.WOL-->
+      EXUGI/
+      ISBEX/
       WOL NDB
-    </Line>
-    <Line>
-      <!--Rwy16R KAMPI5-->
-      DUNES/
-      KAMPI
     </Line>
     <!--STARs-->
     <Line>
@@ -89,8 +90,8 @@
       <Point>SOSIJ</Point>
     </Symbol>
     <Symbol Type="SolidStar">
-      <Point>DEENA</Point>
       <Point>KAMPI</Point>
+      <Point>KADOM</Point>
       <Point>NASHO</Point>
     </Symbol>
     <Symbol Type="Circle">
@@ -99,8 +100,14 @@
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>DUNES</Point>
+      <Point>DEENA</Point>
+      <Point>EXUGI</Point>
+      <Point>IGEMA</Point>
+      <Point>URGIS</Point>
+      <Point>EGOPO</Point>
       <Point>ANKUB</Point>
-      <Point>KADOM</Point>
+      <Point>UPMAR</Point>
+      <Point>ISBEX</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
       <Point>BEROW</Point>
@@ -131,10 +138,16 @@
     <Label>
       <Point>DUNES</Point>
       <Point>DEENA</Point>
+      <Point>KAMPI</Point>
+      <Point>EXUGI</Point>
+      <Point>IGEMA</Point>
+      <Point>URGIS</Point>
+      <Point>EGOPO</Point>
       <Point>ANKUB</Point>
       <Point>KADOM</Point>
+      <Point>UPMAR</Point>
       <Point>RIC NDB</Point>
-      <Point>KAMPI</Point>
+      <Point>ISBEX</Point>
       <Point>WOL NDB</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
@@ -169,29 +182,28 @@
       <Point>INVUS</Point>
       <Point>ATNAT</Point>
       <Point>SOTKI</Point>
-      <Point>EMTEL</Point>
-      <Point>VIREN</Point>
-      <Point>SCO NDB</Point>
-      <Point>IGDAM</Point>
-      <Point>SADLO</Point>
       <Point>RAZZI</Point>
       <Point>CB VOR</Point>
+      <Point>EMSUR</Point>
       <Point>OVMIN</Point>
-      <Point>LOVGO</Point>
-      <Point>VAPKI</Point>
-      <Point>NBR NDB</Point>
-      <Point>ENTRA</Point>
-      <Point>MARTO</Point>
-      <Point>SUMSA</Point>
+      <Point>UPVEN</Point>
+      <Point>OLSEM</Point>
+      <Point>UPNEX</Point>
+      <Point>EKIPU</Point>
       <Point>WLM NDB</Point>
       <Point>BANDA</Point>
       <Point>BOYSY</Point>
+      <Point>IDSUP</Point>
       <Point>EMROT</Point>
-      <Point>MISIT</Point>
       <Point>MUDGI</Point>
-      <Point>MOVBU</Point>
-      <Point>DAMAG</Point>
-      <Point>BIDNO</Point>
+      <Point>UNSAR</Point>
+      <Point>LASUD</Point>
+      <Point>IDGIG</Point>
+      <Point>IPGOK</Point>
+      <Point>IDOGI</Point>
+      <Point>SCO NDB</Point>
+      <Point>IGDAM</Point>
+      <Point>SADLO</Point>
       <Point>EVONN</Point>
       <Point>GEROS</Point>
       <Point>PLUGA</Point>
@@ -199,9 +211,12 @@
       <Point>AKALU</Point>
       <Point>NONID</Point>
       <Point>RIKNI</Point>
+      <Point>UBLOM</Point>
+      <Point>ISREV</Point>
+      <Point>DUUKE</Point>
       <Point>KAMBA</Point>
       <Point>TOOKI</Point>
-      <Point>REVGU</Point>
+      <Point>OVLUX</Point>
       <Point>LATUT</Point>
       <Point>CFS VOR</Point>
       <Point>PEGSU</Point>
@@ -214,18 +229,18 @@
       <Point>RUTOS</Point>
       <Point>SCATZ</Point>
       <Point>ANBAN</Point>
+      <Point>SORTI</Point>
+      <Point>IDSEB</Point>
+      <Point>MAKOR</Point>
       <Point>WG VOR</Point>
       <Point>HAPPI</Point>
       <Point>AKMIR</Point>
       <Point>WELSH</Point>
+      <Point>BTH NDB</Point>
       <Point>ARM NDB</Point>
+      <Point>EKIBI</Point>
       <Point>MONDO</Point>
       <Point>LOWEP</Point>
-      <Point>SORTI</Point>
-      <Point>MAKOR</Point>
-      <Point>DONIC</Point>
-      <Point>EGEVO</Point>
-      <Point>BTH NDB</Point>
       <Point>EBONY</Point>
       <Point>ARRAN</Point>
       <Point>NONUP</Point>

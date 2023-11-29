@@ -693,6 +693,38 @@
       <Map Name="Perth/ASMGCS_YGIG_BLD" />
     </Maps>
   </Position>
+  <Position Name="YBSG" Type="ASMGCS" ASMGCSAirport="YBSG" DefaultCenter="-123733.000+1420511.000" DefaultRange="3" MagneticVariation="-4.9" Rotation="-26.5">
+    <Maps>
+      <Map Name="Scherger/ASMGCS_YBSG_RWY" />
+      <Map Name="Scherger/ASMGCS_YBSG_APR" />
+      <Map Name="Scherger/ASMGCS_YBSG_TWY" />
+      <Map Name="Scherger/ASMGCS_YBSG_BLD" />
+    </Maps>
+  </Position>
+  <Position Name="YCIN" Type="ASMGCS" ASMGCSAirport="YCIN" DefaultCenter="-173453.000+1234942.000" DefaultRange="3" MagneticVariation="-1.7" Rotation="-18.5">
+    <Maps>
+      <Map Name="Curtin/ASMGCS_YCIN_RWY" />
+      <Map Name="Curtin/ASMGCS_YCIN_APR" />
+      <Map Name="Curtin/ASMGCS_YCIN_TWY" />
+      <Map Name="Curtin/ASMGCS_YCIN_BLD" />
+    </Maps>
+  </Position>
+  <Position Name="YPWR" Type="ASMGCS" ASMGCSAirport="YPWR" DefaultCenter="-310851.000+1364840.000" DefaultRange="2" MagneticVariation="-6.5" Rotation="-89">
+    <Maps>
+      <Map Name="Woomera/ASMGCS_YPWR_RWY" />
+      <Map Name="Woomera/ASMGCS_YPWR_APR" />
+      <Map Name="Woomera/ASMGCS_YPWR_TWY" />
+      <Map Name="Woomera/ASMGCS_YPWR_BLD" />
+    </Maps>
+  </Position>
+  <Position Name="YPLM" Type="ASMGCS" ASMGCSAirport="YPLM" DefaultCenter="-221408.000+1140519.000" DefaultRange="3" MagneticVariation="-0.2" Rotation="-93.5">
+    <Maps>
+      <Map Name="Learmonth/ASMGCS_YPLM_RWY" />
+      <Map Name="Learmonth/ASMGCS_YPLM_APR" />
+      <Map Name="Learmonth/ASMGCS_YPLM_TWY" />
+      <Map Name="Learmonth/ASMGCS_YPLM_BLD" />
+    </Maps>
+  </Position>
   <Group Name="Class D">
     <Position Name="YBAF" Type="ASMGCS" ASMGCSAirport="YBAF" DefaultCenter="-27.568889+153.006389" DefaultRange="1" MagneticVariation="-11" Rotation="-7">
       <Maps>
@@ -1777,7 +1809,6 @@
       </CFL>
       <ArrivalLists>
         <Airport Name="YMHB" />
-
       </ArrivalLists>
       <ControllerInfo>
         <Line>Hobart Approach</Line>
@@ -1880,6 +1911,95 @@
       <ControllerInfo>
         <Line>Coral Approach</Line>
         <Line>ATIS available on 128.5</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Curtin TCU" Type="ASD" DefaultCenter="-17.58139+123.82833" DefaultRange="150" VisibilityRange="100" MagneticVariation="-1.7">
+      <Sectors>
+        <Sector Name="CIA" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Curtin/CIN_TCU" />
+        <Map Name="Curtin/YCIN_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YCIN" Frequency="134.8" />
+        <Window Airport="YCIN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPAD" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YCIN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Curtin Approach</Line>
+        <Line>ATIS available on 134.8</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Learmonth TCU" Type="ASD" DefaultCenter="-22.23556+114.08861" DefaultRange="150" VisibilityRange="100" MagneticVariation="-0.2">
+      <Sectors>
+        <Sector Name="LMA" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Learmonth/LM_COAST" />
+        <Map Name="Learmonth/LM_TCU" />
+        <Map Name="Learmonth/YPLM_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPLM" Frequency="123.3" />
+        <Window Airport="YPLM" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPLM" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="27000">
+        <AdditionalLevels>2300</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YPLM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Learmonth Approach</Line>
+        <Line>ATIS available on 123.3</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Scherger TCU" Type="ASD" DefaultCenter="-12.62389+142.08722" DefaultRange="150" VisibilityRange="100" MagneticVariation="-4.9">
+      <Sectors>
+        <Sector Name="SGA" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Scherger/SG_COAST" />
+        <Map Name="Scherger/SG_TCU" />
+        <Map Name="Scherger/YBSG_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBSG" Frequency="132.25" />
+        <Window Airport="YBSG" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBSG" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000">
+        <AdditionalLevels>1700</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBSG" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Scherger Approach</Line>
+        <Line>ATIS available on 132.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -2111,8 +2231,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YBMK" Visible="true" />
       </Strips>
-      <CFL QuickLevel="6000">
-      </CFL>
+      <CFL QuickLevel="6000" />
       <ArrivalLists>
         <Airport Name="YBMK" />
       </ArrivalLists>
@@ -2217,8 +2336,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YBRK" Visible="true" />
       </Strips>
-      <CFL QuickLevel="6000">
-      </CFL>
+      <CFL QuickLevel="6000" />
       <ArrivalLists>
         <Airport Name="YBRK" />
       </ArrivalLists>
@@ -2237,7 +2355,7 @@
     </Position>
   </Group>
   <Group Name="Radar TWR">
-    <Position Name="Adelaide Tower" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="60" MagneticVariation="-8" DynamicInfill="false">
+    <Position Name="Adelaide Tower" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="60" MagneticVariation="-8">
       <Sectors>
         <Sector Name="AD ADC" />
         <Sector Name="AD SMC" />
@@ -2433,7 +2551,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Melbourne Tower" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="60" MagneticVariation="-11" DynamicInfill="false">
+    <Position Name="Melbourne Tower" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="60" MagneticVariation="-11">
       <Sectors>
         <Sector Name="ML ADC" />
         <Sector Name="ML SMC" />
@@ -2452,8 +2570,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YMML" Visible="true" />
       </Strips>
-      <CFL QuickLevel="5000">
-      </CFL>
+      <CFL QuickLevel="5000" />
       <ArrivalLists>
         <Airport Name="YMML" />
       </ArrivalLists>
@@ -2497,8 +2614,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YSSY" Visible="true" />
       </Strips>
-      <CFL QuickLevel="5000">
-      </CFL>
+      <CFL QuickLevel="5000" />
       <ArrivalLists>
         <Airport Name="YSSY" />
       </ArrivalLists>
@@ -2527,7 +2643,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Brisbane Tower" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="60" MagneticVariation="-11" DynamicInfill="false">
+    <Position Name="Brisbane Tower" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="60" MagneticVariation="-11">
       <Sectors>
         <Sector Name="BN ADC" />
         <Sector Name="BN ADCW" />
@@ -2549,8 +2665,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YBBN" Visible="true" />
       </Strips>
-      <CFL QuickLevel="6000">
-      </CFL>
+      <CFL QuickLevel="6000" />
       <ArrivalLists>
         <Airport Name="YBBN" />
       </ArrivalLists>
@@ -2620,7 +2735,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Perth Tower" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="60" MagneticVariation="1.6" DynamicInfill="false">
+    <Position Name="Perth Tower" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="60" MagneticVariation="1.6">
       <Sectors>
         <Sector Name="PH ADC" />
         <Sector Name="PH SMC" />
@@ -3130,6 +3245,124 @@
       <ControllerInfo Callsign="RI_GND">
         <Line>Richmond Ground</Line>
         <Line>ATIS available on 126.3</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Curtin Tower" Type="ASD" DefaultCenter="-17.58139+123.82833" DefaultRange="50" MagneticVariation="-1.7">
+      <Sectors>
+        <Sector Name="CIN ADC" />
+        <Sector Name="CIN SMC" />
+        <Sector Name="CIN COORD" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Curtin/CIN_TCU" />
+        <Map Name="Curtin/CIN_COAST" />
+        <Map Name="Curtin/YCIN_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YCIN" Frequency="134.8" />
+        <Window Airport="YCIN" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YCIN" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4000">
+        <AdditionalLevels>2300</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YCIN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Curtin Tower</Line>
+        <Line>ATIS available on 134.8</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="CIN_GND">
+        <Line>Curtin Ground</Line>
+        <Line>ATIS available on 134.8</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="CIN_DEL">
+        <Line>Curtin Delivery</Line>
+        <Line>ATIS available on 134.8</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Learmonth Tower" Type="ASD" DefaultCenter="-22.23556+114.08861" DefaultRange="50" MagneticVariation="-0.2">
+      <Sectors>
+        <Sector Name="LM ADC" />
+        <Sector Name="LM SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Learmonth/LM_TCU" />
+        <Map Name="Learmonth/LM_COAST" />
+        <Map Name="Learmonth/YPLM_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPLM" Frequency="123.3" />
+        <Window Airport="YPLM" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPLM" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="3000">
+        <AdditionalLevels>2300</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YPLM" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Learmonth Tower</Line>
+        <Line>ATIS available on 123.3</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="LM_GND">
+        <Line>Learmonth Ground</Line>
+        <Line>ATIS available on 123.3</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Scherger Tower" Type="ASD" DefaultCenter="-12.62389+142.08722" DefaultRange="50" MagneticVariation="-4.9">
+      <Sectors>
+        <Sector Name="SG ADC" />
+        <Sector Name="SG SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Scherger/SG_TCU" />
+        <Map Name="Scherger/SG_COAST" />
+        <Map Name="Scherger/YBSG_ALLRWYS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBSG" Frequency="132.25" />
+        <Window Airport="YBSG" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBSG" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="5000">
+        <AdditionalLevels>1600,1700,1800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YBSG" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Scherger Tower</Line>
+        <Line>ATIS available on 132.25</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="SG_GND">
+        <Line>Scherger Ground</Line>
+        <Line>ATIS available on 132.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>

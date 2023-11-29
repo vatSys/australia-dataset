@@ -8,15 +8,6 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy11 BIRDY4-->
-      -122509.220+1305339.990/
-      DN VOR/
-      UPROX/
-      PEBBL/
-      UBDIG/
-      BIRDY
-    </Line>
-    <Line>
       <!--Rwy11 HELLI5-->
       -122509.220+1305339.990/
       LAPAR/
@@ -38,22 +29,31 @@
     </Line>
     <Line>
       <!--Rwy11 LAKUP5-->
+      -122509.220+1305339.990/
       DN VOR/
       ONALI/
       OTGAX/
       LAKUP
     </Line>
     <Line>
-      <!--Rwy11 OCTOB7-->
+      <!--Rwy11 OCTOB8-->
       WUDOF/
-      TUMBL/
+      VATPO/
       OCTOB
     </Line>
     <Line>
-      <!--Rwy11 PALGA7-->
+      <!--Rwy11 OLTAS1-->
+      DN VOR/
+      UPROX/
+      PEBBL/
+      UBDIG/
+      OLTAS
+    </Line>
+    <Line>
+      <!--Rwy11 RUPEG1-->
       LAPAR/
       SNICK/
-      PALGA
+      RUPEG
     </Line>
     <Line>
       <!--Rwy11 RUSKA6-->
@@ -71,15 +71,15 @@
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy11 DONY1A-->
-      DONYA/
+      <!--Rwy11 ANUP1A-->
+      ANUPA/
       SUDAG/
       ENBAB/
       SADAR/
       NASUX
     </Line>
     <Line>
-      <!--Rwy11 DONY1X-->
+      <!--Rwy11 ANUP1X-->
     </Line>
     <Line>
       <!--Rwy11 GATO1A-->
@@ -93,37 +93,37 @@
       <!--Rwy11 GATO1X-->
     </Line>
     <Line>
-      <!--Rwy11 VEGP8A-->
+      <!--Rwy11 VEGP9A-->
       VEGPU/
       ITTSA/
       OLTEG/
       UPROX/
       KITTY/
-      GIVEN/
-      ALLOT/
+      RELOK/
+      RIVTO/
       NASUX
     </Line>
     <Line>
-      <!--Rwy11 VEGP8W-->
+      <!--Rwy11 VEGP9W-->
     </Line>
     <Line>
-      <!--Rwy11 VEGP8X-->
+      <!--Rwy11 VEGP9X-->
     </Line>
     <Line>
-      <!--Rwy11 WANG3A-->
+      <!--Rwy11 WANG4A-->
       WANGI/
       ANONA/
       KIGOS/
-      KINGS/
-      GIVEN
+      SUDLU/
+      RELOK
     </Line>
     <Line>
-      <!--Rwy11 WANG3W-->
-      KINGS/
+      <!--Rwy11 WANG4W-->
+      SUDLU/
       UPSEN
     </Line>
     <Line>
-      <!--Rwy11 WANG3X-->
+      <!--Rwy11 WANG4X-->
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>NASUX</Point>
@@ -134,10 +134,6 @@
       <Point>DN VOR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>UPROX</Point>
-      <Point>PEBBL</Point>
-      <Point>UBDIG</Point>
-      <Point>BIRDY</Point>
       <Point>LAPAR</Point>
       <Point>KAMSO</Point>
       <Point>OLSAN</Point>
@@ -153,17 +149,21 @@
       <Point>ONALI</Point>
       <Point>OTGAX</Point>
       <Point>LAKUP</Point>
-      <Point>TUMBL</Point>
+      <Point>VATPO</Point>
       <Point>OCTOB</Point>
+      <Point>UPROX</Point>
+      <Point>PEBBL</Point>
+      <Point>UBDIG</Point>
+      <Point>OLTAS</Point>
       <Point>SNICK</Point>
-      <Point>PALGA</Point>
+      <Point>RUPEG</Point>
       <Point>PAGSO</Point>
       <Point>VABLI</Point>
       <Point>RUSKA</Point>
       <Point>PAMGA</Point>
       <Point>BAXIB</Point>
       <Point>VANDI</Point>
-      <Point>DONYA</Point>
+      <Point>ANUPA</Point>
       <Point>SUDAG</Point>
       <Point>ENBAB</Point>
       <Point>GATOR</Point>
@@ -173,21 +173,16 @@
       <Point>VEGPU</Point>
       <Point>ITTSA</Point>
       <Point>OLTEG</Point>
-      <Point>GIVEN</Point>
-      <Point>ALLOT</Point>
+      <Point>RELOK</Point>
+      <Point>RIVTO</Point>
       <Point>WANGI</Point>
       <Point>ANONA</Point>
       <Point>KIGOS</Point>
-      <Point>KINGS</Point>
+      <Point>SUDLU</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="DN_RWY11_NAMES" Priority="2" Center="-12.414722+130.876667">
     <Label>
-      <Point>DN VOR</Point>
-      <Point>UPROX</Point>
-      <Point>PEBBL</Point>
-      <Point>UBDIG</Point>
-      <Point>BIRDY</Point>
       <Point>LAPAR</Point>
       <Point>KAMSO</Point>
       <Point>OLSAN</Point>
@@ -200,20 +195,25 @@
       <Point>ARUPU</Point>
       <Point>SADAR</Point>
       <Point>JULIE</Point>
+      <Point>DN VOR</Point>
       <Point>ONALI</Point>
       <Point>OTGAX</Point>
       <Point>LAKUP</Point>
-      <Point>TUMBL</Point>
+      <Point>VATPO</Point>
       <Point>OCTOB</Point>
+      <Point>UPROX</Point>
+      <Point>PEBBL</Point>
+      <Point>UBDIG</Point>
+      <Point>OLTAS</Point>
       <Point>SNICK</Point>
-      <Point>PALGA</Point>
+      <Point>RUPEG</Point>
       <Point>PAGSO</Point>
       <Point>VABLI</Point>
       <Point>RUSKA</Point>
       <Point>PAMGA</Point>
       <Point>BAXIB</Point>
       <Point>VANDI</Point>
-      <Point>DONYA</Point>
+      <Point>ANUPA</Point>
       <Point>SUDAG</Point>
       <Point>ENBAB</Point>
       <Point>NASUX</Point>
@@ -225,12 +225,12 @@
       <Point>ITTSA</Point>
       <Point>OLTEG</Point>
       <Point>KITTY</Point>
-      <Point>GIVEN</Point>
-      <Point>ALLOT</Point>
+      <Point>RELOK</Point>
+      <Point>RIVTO</Point>
       <Point>WANGI</Point>
       <Point>ANONA</Point>
       <Point>KIGOS</Point>
-      <Point>KINGS</Point>
+      <Point>SUDLU</Point>
       <Point>UPSEN</Point>
       <Point>BELKI</Point>
       <Point>ZAARS</Point>
