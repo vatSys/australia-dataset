@@ -8,13 +8,6 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy30 CLSIC1-->
-      -324713.640+1514921.340/
-      -324646.324+1514843.436/
-      -324246.406+1514947.172/
-      UKDIP
-    </Line>
-    <Line>
       <!--Rwy30 KEXAR1-->
       -324713.640+1514921.340/
       URDAX/
@@ -43,22 +36,6 @@
       ATSUG/
       IGBAK/
       MONDO
-    </Line>
-    <Line>
-      <!--Rwy30 PEPPR1-->
-      -324646.324+1514843.436/
-      -324153.740+1515001.150
-    </Line>
-    <Line>
-      <!--Rwy30 PEPPR1.ERVEV-->
-      -324153.740+1515001.150/
-      -324049.373+1515018.244/
-      ERVEV
-    </Line>
-    <Line>
-      <!--Rwy30 PEPPR1.OLVEP-->
-      -324153.740+1515001.150/
-      OLVEP
     </Line>
     <Line>
       <!--Rwy30 UBSO1A-->
@@ -165,7 +142,6 @@
       <Point>OVPEV</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>UKDIP</Point>
       <Point>URDAX</Point>
       <Point>MATLA</Point>
       <Point>IRPES</Point>
@@ -177,8 +153,6 @@
       <Point>ATSUG</Point>
       <Point>IGBAK</Point>
       <Point>MONDO</Point>
-      <Point>ERVEV</Point>
-      <Point>OLVEP</Point>
       <Point>OBKUP</Point>
       <Point>OBDIB</Point>
       <Point>UBSON</Point>
@@ -204,7 +178,6 @@
   </Map>
   <Map Type="System" Name="WLM_RWY30_NAMES" Priority="2" Center="-32.795000+151.834444">
     <Label>
-      <Point>UKDIP</Point>
       <Point>URDAX</Point>
       <Point>MATLA</Point>
       <Point>IRPES</Point>
@@ -216,8 +189,6 @@
       <Point>ATSUG</Point>
       <Point>IGBAK</Point>
       <Point>MONDO</Point>
-      <Point>ERVEV</Point>
-      <Point>OLVEP</Point>
       <Point>OBKUP</Point>
       <Point>OBDIB</Point>
       <Point>UBSON</Point>
