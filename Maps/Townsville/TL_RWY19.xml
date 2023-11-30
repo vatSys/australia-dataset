@@ -8,8 +8,17 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy19 ANRUB1-->
+      <!--Rwy19 AKROM1-->
       -191529.900+1464553.000/
+      VARBI/
+      IGBIK/
+      LEDOG/
+      AVMAT/
+      ADNOD/
+      AKROM
+    </Line>
+    <Line>
+      <!--Rwy19 ANRUB1-->
       VARBI/
       DAPLA/
       SATCO/
@@ -17,7 +26,6 @@
     </Line>
     <Line>
       <!--Rwy19 CATEY1-->
-      VARBI/
       IGBIK/
       ENSOM/
       CATEY
@@ -26,14 +34,14 @@
       <!--Rwy19 IGBIK1-->
     </Line>
     <Line>
-      <!--Rwy19 JEMMA2-->
+      <!--Rwy19 JEMMA3-->
       SATCO/
       ODOTA/
       PINIP/
       JEMMA
     </Line>
     <Line>
-      <!--Rwy19 KVALM1-->
+      <!--Rwy19 KVALM2-->
       -191529.900+1464553.000/
       TL410/
       TL414/
@@ -47,9 +55,6 @@
     </Line>
     <Line>
       <!--Rwy19 PEWEE6-->
-      IGBIK/
-      LEDOG/
-      AVMAT/
       ADNOD/
       PEWEE
     </Line>
@@ -60,18 +65,13 @@
       RURTO
     </Line>
     <Line>
-      <!--Rwy19 SWIFT1-->
-      ADNOD/
-      SWIFT
-    </Line>
-    <Line>
-      <!--Rwy19 WALTA1-->
+      <!--Rwy19 WALTA2-->
       ORORO/
       WALTA
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy19 IBUX1Z-->
+      <!--Rwy19 IBUX2Z-->
       IBUXI/
       BOMTA/
       RUTED/
@@ -82,7 +82,7 @@
       POROB/
       NOLAM/
       GUMUT/
-      WESTY
+      TODOX
     </Line>
     <Line>
       <!--Rwy19 PORO1P-->
@@ -91,27 +91,27 @@
     </Line>
     <Line>
       <!--Rwy19 PORO1Z-->
-      WESTY/
+      TODOX/
       LEBOT
     </Line>
     <Line>
-      <!--Rwy19 VOMP1B-->
+      <!--Rwy19 VOMP2B-->
       VOMPA/
       OLNUT/
       LAPES/
       RURTO/
       VILUN/
-      WESTY
+      TODOX
     </Line>
     <Line>
-      <!--Rwy19 VOMP1P-->
+      <!--Rwy19 VOMP2P-->
     </Line>
     <Line>
-      <!--Rwy19 VOMP1Z-->
+      <!--Rwy19 VOMP2Z-->
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>ADNOD</Point>
-      <Point>WESTY</Point>
+      <Point>TODOX</Point>
       <Point>VILUN</Point>
       <Point>LEBOT</Point>
     </Symbol>
@@ -121,6 +121,9 @@
       <Point>RURTO</Point>
     </Symbol>
     <Symbol Type="HollowStar">
+      <Point>LEDOG</Point>
+      <Point>AVMAT</Point>
+      <Point>AKROM</Point>
       <Point>DAPLA</Point>
       <Point>SATCO</Point>
       <Point>ANRUB</Point>
@@ -137,11 +140,8 @@
       <Point>TL430</Point>
       <Point>TL436</Point>
       <Point>TL455</Point>
-      <Point>LEDOG</Point>
-      <Point>AVMAT</Point>
       <Point>PEWEE</Point>
       <Point>ORORO</Point>
-      <Point>SWIFT</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
       <Point>BOMTA</Point>
@@ -157,10 +157,14 @@
   <Map Type="System" Name="TL_RWY19_NAMES" Priority="2" Center="-19.252500+146.765278">
     <Label>
       <Point>VARBI</Point>
+      <Point>IGBIK</Point>
+      <Point>LEDOG</Point>
+      <Point>AVMAT</Point>
+      <Point>ADNOD</Point>
+      <Point>AKROM</Point>
       <Point>DAPLA</Point>
       <Point>SATCO</Point>
       <Point>ANRUB</Point>
-      <Point>IGBIK</Point>
       <Point>ENSOM</Point>
       <Point>CATEY</Point>
       <Point>ODOTA</Point>
@@ -174,13 +178,9 @@
       <Point>TL430</Point>
       <Point>TL436</Point>
       <Point>TL455</Point>
-      <Point>LEDOG</Point>
-      <Point>AVMAT</Point>
-      <Point>ADNOD</Point>
       <Point>PEWEE</Point>
       <Point>ORORO</Point>
       <Point>RURTO</Point>
-      <Point>SWIFT</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
       <Point>BOMTA</Point>
@@ -188,7 +188,7 @@
       <Point>POROB</Point>
       <Point>NOLAM</Point>
       <Point>GUMUT</Point>
-      <Point>WESTY</Point>
+      <Point>TODOX</Point>
       <Point>VILUN</Point>
       <Point>LEBOT</Point>
       <Point>VOMPA</Point>
@@ -209,7 +209,7 @@
       <Point>ALBUX</Point>
       <Point>DAGSI</Point>
       <Point>MK VOR</Point>
-      <Point>POONA</Point>
+      <Point>MUNAR</Point>
       <Point>LERKI</Point>
       <Point>EMSUP</Point>
       <Point>WELKE</Point>

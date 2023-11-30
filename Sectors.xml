@@ -360,7 +360,9 @@
   <Sector FullName="Coral Approach (Rocky)" Frequency="123.750" Callsign="RK_APP" Name="RKA">
     <Volumes>RKA</Volumes>
   </Sector>
-  <Sector FullName="Curtin Approach" Frequency="121.000" Callsign="CIN_APP" Name="CIA" />
+  <Sector FullName="Curtin Approach" Frequency="121.000" Callsign="CIN_APP" Name="CIA">
+    <Volumes>CIN</Volumes>
+  </Sector>
   <Sector FullName="Darwin Approach (East)" Frequency="125.200" Callsign="DN_APP" Name="DAE">
     <Volumes>DNA</Volumes>
     <ResponsibleSectors>DAW</ResponsibleSectors>
@@ -378,7 +380,9 @@
   <Sector FullName="Launceston Approach" Frequency="123.800" Callsign="LT_APP" Name="LTA">
     <Volumes>LTA</Volumes>
   </Sector>
-  <Sector FullName="Learmonth Approach" Frequency="120.500" Callsign="LM_APP" Name="LMA" />
+  <Sector FullName="Learmonth Approach" Frequency="120.500" Callsign="LM_APP" Name="LMA">
+    <Volumes>LMA</Volumes>
+  </Sector>
   <Sector FullName="Melbourne Approach" Frequency="132.000" Callsign="ML_APP" Name="MAE">
     <Volumes>MLA</Volumes>
     <ResponsibleSectors>MDN,MDS</ResponsibleSectors>
@@ -409,7 +413,9 @@
     <Volumes>PHA</Volumes>
   </Sector>
   <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" />
-  <Sector FullName="Scherger Approach" Frequency="124.200" Callsign="SG_APP" Name="SGA" />
+  <Sector FullName="Scherger Approach" Frequency="124.200" Callsign="SG_APP" Name="SGA">
+    <Volumes>SGA</Volumes>
+  </Sector>
   <Sector FullName="Sydney Approach (North)" Frequency="124.400" Callsign="SY_APP" Name="SAN">
     <Volumes>SYA</Volumes>
     <ResponsibleSectors>SAS,SFW,SFE,SDS,SDN,SRI</ResponsibleSectors>
@@ -440,7 +446,7 @@
     <Volumes>TLA</Volumes>
   </Sector>
   <Sector FullName="Williamtown Approach" Frequency="135.700" Callsign="WLM_APP" Name="WLM">
-    <Volumes>WLMAPP,WLMAPPE,WLMAPPFG</Volumes>
+    <Volumes>WLM_APP</Volumes>
   </Sector>
   <Sector FullName="Adelaide Delivery" Frequency="126.100" Callsign="AD_DEL" Name="AD COORD" DisplayInHandoffWindow="False">
     <Volumes>ADTWR</Volumes>
@@ -535,9 +541,15 @@
   <Sector FullName="Coffs Harbour Tower" Frequency="118.200" Callsign="CFS_TWR" Name="CFS ADC" DisplayInHandoffWindow="False">
     <Volumes>CFSTWR</Volumes>
   </Sector>
-  <Sector FullName="Curtin Delivery" Frequency="136.800" Callsign="CIN_DEL" Name="CIN COORD" />
-  <Sector FullName="Curtin Ground" Frequency="126.200" Callsign="CIN_GND" Name="CIN SMC" />
-  <Sector FullName="Curtin Tower" Frequency="118.300" Callsign="CIN_TWR" Name="CIN ADC" />
+  <Sector FullName="Curtin Delivery" Frequency="136.800" Callsign="CIN_DEL" Name="CIN COORD">
+    <Volumes>CINTWR</Volumes>
+  </Sector>
+  <Sector FullName="Curtin Ground" Frequency="126.200" Callsign="CIN_GND" Name="CIN SMC">
+    <Volumes>CINTWR</Volumes>
+  </Sector>
+  <Sector FullName="Curtin Tower" Frequency="118.300" Callsign="CIN_TWR" Name="CIN ADC">
+    <Volumes>CINTWR</Volumes>
+  </Sector>
   <Sector FullName="Darwin Delivery" Frequency="126.800" Callsign="DN_DEL" Name="DN COORD" DisplayInHandoffWindow="False">
     <Volumes>DNTWR</Volumes>
   </Sector>
@@ -607,8 +619,12 @@
   <Sector FullName="Launceston Tower" Frequency="118.700" Callsign="LT_TWR" Name="LT ADC">
     <Volumes>LTTWR</Volumes>
   </Sector>
-  <Sector FullName="Learmonth Ground" Frequency="126.200" Callsign="LM_GND" Name="LM SMC" />
-  <Sector FullName="Learmonth Tower" Frequency="118.300" Callsign="LM_TWR" Name="LM ADC" />
+  <Sector FullName="Learmonth Ground" Frequency="126.200" Callsign="LM_GND" Name="LM SMC">
+    <Volumes>LMTWR</Volumes>
+  </Sector>
+  <Sector FullName="Learmonth Tower" Frequency="118.300" Callsign="LM_TWR" Name="LM ADC">
+    <Volumes>LMTWR</Volumes>
+  </Sector>
   <Sector FullName="Lifou Tower" Frequency="118.500" Callsign="NWWL_TWR" Name="NWWL ADC" />
   <Sector FullName="Mackay Ground" Frequency="121.700" Callsign="MK_GND" Name="MK SMC" DisplayInHandoffWindow="False">
     <Volumes>MKTWR</Volumes>
@@ -756,5 +772,7 @@
   <Sector FullName="Williamtown Tower" Frequency="118.300" Callsign="WLM_TWR" Name="WLM ADC" DisplayInHandoffWindow="False">
     <Volumes>WLMTWR</Volumes>
   </Sector>
-  <Sector FullName="Woomera Tower" Frequency="118.300" Callsign="WR_TWR" Name="WR ADC" />
+  <Sector FullName="Woomera Tower" Frequency="118.300" Callsign="WR_TWR" Name="WR ADC">
+    <Volumes>WRTWR</Volumes>
+  </Sector>
 </Sectors>

@@ -21,13 +21,13 @@
       KADOM
     </Line>
     <Line>
-      <!--Rwy34L RIC5-->
+      <!--Rwy34L RIC6-->
       -335456.281+1511003.593/
       -335407.926+1510931.588/
       -334738.730+1510122.814
     </Line>
     <Line>
-      <!--Rwy34L RIC5.RIC-->
+      <!--Rwy34L RIC6.RIC-->
       -334738.730+1510122.814/
       RIC NDB
     </Line>
@@ -45,18 +45,9 @@
       WOL NDB
     </Line>
     <Line>
-      <!--Rwy34R ENTRA5-->
+      <!--Rwy34R MARUB7-->
       -335705.890+1511119.850/
       -335626.198+1511109.739/
-      -335550.887+1511115.168/
-      -335517.263+1511131.283/
-      HALAS/
-      -334911.404+1512127.697/
-      -334821.747+1512248.587/
-      ENTRA
-    </Line>
-    <Line>
-      <!--Rwy34R MARUB6-->
       -335550.887+1511115.168/
       -335509.429+1511205.503/
       -335539.620+1511319.050/
@@ -66,7 +57,7 @@
       MARUB
     </Line>
     <Line>
-      <!--Rwy34R MARUB6.WOL-->
+      <!--Rwy34R MARUB7.WOL-->
       MARUB/
       -335553.478+1512906.813/
       -335623.074+1513145.556/
@@ -78,6 +69,15 @@
       -341123.340+1513813.458/
       -341259.087+1513636.097/
       WOL NDB
+    </Line>
+    <Line>
+      <!--Rwy34R OLSEM1-->
+      -335550.887+1511115.168/
+      -335517.263+1511131.283/
+      HALAS/
+      -334911.404+1512127.697/
+      -334821.747+1512248.587/
+      OLSEM
     </Line>
     <!--STARs-->
     <Line>
@@ -170,7 +170,7 @@
       <Point>KADOM</Point>
       <Point>ANKUB</Point>
       <Point>HALAS</Point>
-      <Point>ENTRA</Point>
+      <Point>OLSEM</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
       <Point>BEROW</Point>
@@ -234,9 +234,9 @@
       <Point>RIC NDB</Point>
       <Point>ANKUB</Point>
       <Point>WOL NDB</Point>
-      <Point>HALAS</Point>
-      <Point>ENTRA</Point>
       <Point>MARUB</Point>
+      <Point>HALAS</Point>
+      <Point>OLSEM</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
       <Point>BEROW</Point>
@@ -274,28 +274,27 @@
       <Point>INVUS</Point>
       <Point>ATNAT</Point>
       <Point>SOTKI</Point>
-      <Point>EMTEL</Point>
-      <Point>VIREN</Point>
-      <Point>SCO NDB</Point>
-      <Point>IGDAM</Point>
-      <Point>SADLO</Point>
       <Point>RAZZI</Point>
       <Point>CB VOR</Point>
+      <Point>EMSUR</Point>
       <Point>OVMIN</Point>
-      <Point>LOVGO</Point>
-      <Point>VAPKI</Point>
-      <Point>NBR NDB</Point>
-      <Point>MARTO</Point>
-      <Point>SUMSA</Point>
+      <Point>UPVEN</Point>
+      <Point>UPNEX</Point>
+      <Point>EKIPU</Point>
       <Point>WLM NDB</Point>
       <Point>BANDA</Point>
       <Point>BOYSY</Point>
+      <Point>IDSUP</Point>
       <Point>EMROT</Point>
-      <Point>MISIT</Point>
       <Point>MUDGI</Point>
-      <Point>MOVBU</Point>
-      <Point>DAMAG</Point>
-      <Point>BIDNO</Point>
+      <Point>UNSAR</Point>
+      <Point>LASUD</Point>
+      <Point>IDGIG</Point>
+      <Point>IPGOK</Point>
+      <Point>IDOGI</Point>
+      <Point>SCO NDB</Point>
+      <Point>IGDAM</Point>
+      <Point>SADLO</Point>
       <Point>EVONN</Point>
       <Point>GEROS</Point>
       <Point>PLUGA</Point>
@@ -303,9 +302,12 @@
       <Point>AKALU</Point>
       <Point>NONID</Point>
       <Point>RIKNI</Point>
+      <Point>UBLOM</Point>
+      <Point>ISREV</Point>
+      <Point>DUUKE</Point>
       <Point>KAMBA</Point>
       <Point>TOOKI</Point>
-      <Point>REVGU</Point>
+      <Point>OVLUX</Point>
       <Point>LATUT</Point>
       <Point>CFS VOR</Point>
       <Point>PEGSU</Point>
@@ -318,18 +320,18 @@
       <Point>RUTOS</Point>
       <Point>SCATZ</Point>
       <Point>ANBAN</Point>
+      <Point>SORTI</Point>
+      <Point>IDSEB</Point>
+      <Point>MAKOR</Point>
       <Point>WG VOR</Point>
       <Point>HAPPI</Point>
       <Point>AKMIR</Point>
       <Point>WELSH</Point>
+      <Point>BTH NDB</Point>
       <Point>ARM NDB</Point>
+      <Point>EKIBI</Point>
       <Point>MONDO</Point>
       <Point>LOWEP</Point>
-      <Point>SORTI</Point>
-      <Point>MAKOR</Point>
-      <Point>DONIC</Point>
-      <Point>EGEVO</Point>
-      <Point>BTH NDB</Point>
       <Point>EBONY</Point>
       <Point>ARRAN</Point>
       <Point>NONUP</Point>

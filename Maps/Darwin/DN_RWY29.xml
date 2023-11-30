@@ -8,13 +8,6 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy29 BIRDY4-->
-      -122433.850+1305154.940/
-      -122350.344+1304945.880/
-      BELUN/
-      BIRDY
-    </Line>
-    <Line>
       <!--Rwy29 HELLI5-->
       -122433.850+1305154.940/
       NASUX/
@@ -29,26 +22,33 @@
     </Line>
     <Line>
       <!--Rwy29 LAKUP5-->
+      -122433.850+1305154.940/
+      -122350.344+1304945.880/
       BELUN/
       MIGIP/
       OMUNI/
       LAKUP
     </Line>
     <Line>
-      <!--Rwy29 OCTOB7-->
+      <!--Rwy29 OCTOB8-->
       NASUX/
-      PORKY/
-      TUMBL/
+      RIPMI/
+      VATPO/
       OCTOB
     </Line>
     <Line>
-      <!--Rwy29 PALGA7-->
+      <!--Rwy29 OLTAS1-->
+      BELUN/
+      OLTAS
+    </Line>
+    <Line>
+      <!--Rwy29 RUPEG1-->
       NASUX/
       UBGUX/
       LEMUX/
       BAXIB/
       SNICK/
-      PALGA
+      RUPEG
     </Line>
     <Line>
       <!--Rwy29 RUSKA6-->
@@ -69,8 +69,8 @@
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy29 DONY1A-->
-      DONYA/
+      <!--Rwy29 ANUP1A-->
+      ANUPA/
       SUDAG/
       IDLUD/
       EPDAM/
@@ -80,7 +80,7 @@
       LAPAR
     </Line>
     <Line>
-      <!--Rwy29 DONY1X-->
+      <!--Rwy29 ANUP1X-->
     </Line>
     <Line>
       <!--Rwy29 GATO1A-->
@@ -93,55 +93,55 @@
       <!--Rwy29 GATO1X-->
     </Line>
     <Line>
-      <!--Rwy29 VEGP8A-->
+      <!--Rwy29 VEGP9A-->
       VEGPU/
       ITTSA/
       SARRE
     </Line>
     <Line>
-      <!--Rwy29 VEGP8X-->
+      <!--Rwy29 VEGP9X-->
     </Line>
     <Line>
-      <!--Rwy29 WANG3A-->
+      <!--Rwy29 WANG4A-->
       WANGI/
       ANONA/
       KIGOS/
-      KINGS/
+      SUDLU/
       KITTY/
       NOONA/
       SARRE
     </Line>
     <Line>
-      <!--Rwy29 WANG3W-->
+      <!--Rwy29 WANG4W-->
       ANONA/
       KITTY
     </Line>
     <Line>
-      <!--Rwy29 WANG3X-->
+      <!--Rwy29 WANG4X-->
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>LAPAR</Point>
       <Point>KITTY</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>BELUN</Point>
-      <Point>BIRDY</Point>
       <Point>NASUX</Point>
       <Point>BARNY</Point>
       <Point>HELLI</Point>
       <Point>SADAR</Point>
       <Point>JULIE</Point>
+      <Point>BELUN</Point>
       <Point>MIGIP</Point>
       <Point>OMUNI</Point>
       <Point>LAKUP</Point>
-      <Point>PORKY</Point>
-      <Point>TUMBL</Point>
+      <Point>RIPMI</Point>
+      <Point>VATPO</Point>
       <Point>OCTOB</Point>
+      <Point>OLTAS</Point>
       <Point>UBGUX</Point>
       <Point>LEMUX</Point>
       <Point>BAXIB</Point>
       <Point>SNICK</Point>
-      <Point>PALGA</Point>
+      <Point>RUPEG</Point>
       <Point>LEGUL</Point>
       <Point>OTGAX</Point>
       <Point>TEGIT</Point>
@@ -151,7 +151,7 @@
       <Point>DUGAM</Point>
       <Point>BURBA</Point>
       <Point>VANDI</Point>
-      <Point>DONYA</Point>
+      <Point>ANUPA</Point>
       <Point>SUDAG</Point>
       <Point>IDLUD</Point>
       <Point>EPDAM</Point>
@@ -165,30 +165,30 @@
       <Point>WANGI</Point>
       <Point>ANONA</Point>
       <Point>KIGOS</Point>
-      <Point>KINGS</Point>
+      <Point>SUDLU</Point>
       <Point>NOONA</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="DN_RWY29_NAMES" Priority="2" Center="-12.414722+130.876667">
     <Label>
-      <Point>BELUN</Point>
-      <Point>BIRDY</Point>
       <Point>NASUX</Point>
       <Point>BARNY</Point>
       <Point>HELLI</Point>
       <Point>SADAR</Point>
       <Point>JULIE</Point>
+      <Point>BELUN</Point>
       <Point>MIGIP</Point>
       <Point>OMUNI</Point>
       <Point>LAKUP</Point>
-      <Point>PORKY</Point>
-      <Point>TUMBL</Point>
+      <Point>RIPMI</Point>
+      <Point>VATPO</Point>
       <Point>OCTOB</Point>
+      <Point>OLTAS</Point>
       <Point>UBGUX</Point>
       <Point>LEMUX</Point>
       <Point>BAXIB</Point>
       <Point>SNICK</Point>
-      <Point>PALGA</Point>
+      <Point>RUPEG</Point>
       <Point>LEGUL</Point>
       <Point>OTGAX</Point>
       <Point>TEGIT</Point>
@@ -198,7 +198,7 @@
       <Point>DUGAM</Point>
       <Point>BURBA</Point>
       <Point>VANDI</Point>
-      <Point>DONYA</Point>
+      <Point>ANUPA</Point>
       <Point>SUDAG</Point>
       <Point>IDLUD</Point>
       <Point>EPDAM</Point>
@@ -213,7 +213,7 @@
       <Point>WANGI</Point>
       <Point>ANONA</Point>
       <Point>KIGOS</Point>
-      <Point>KINGS</Point>
+      <Point>SUDLU</Point>
       <Point>KITTY</Point>
       <Point>NOONA</Point>
       <Point>BELKI</Point>

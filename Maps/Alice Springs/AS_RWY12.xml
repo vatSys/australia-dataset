@@ -53,22 +53,28 @@
       KALUG
     </Line>
     <Line>
-      <!--Rwy12 LEESA5-->
+      <!--Rwy12 LUGSA1-->
       -234843.630+1335450.500/
       PUNED/
       BODAS/
       OSINA/
       IGDEB/
-      LEESA
+      LUGSA
     </Line>
     <Line>
-      <!--Rwy12 MINIM2-->
+      <!--Rwy12 MATMA1-->
+      -234855.875+1335513.625/
+      -234930.913+1335838.241/
+      MATMA
+    </Line>
+    <Line>
+      <!--Rwy12 MUDMO1-->
       -234843.630+1335450.500/
-      MINIM
+      MUDMO
     </Line>
     <Line>
-      <!--Rwy12 MINIM2.ELLOW-->
-      MINIM/
+      <!--Rwy12 MUDMO1.ELLOW-->
+      MUDMO/
       -235108.204+1335857.968/
       -235210.676+1335949.611/
       -235323.241+1340021.824/
@@ -82,8 +88,8 @@
       ELLOW
     </Line>
     <Line>
-      <!--Rwy12 MINIM2.GAFER-->
-      MINIM/
+      <!--Rwy12 MUDMO1.GAFER-->
+      MUDMO/
       -235101.795+1340033.844/
       -235022.734+1340318.169/
       -234833.726+1340519.073/
@@ -96,8 +102,8 @@
       GAFER
     </Line>
     <Line>
-      <!--Rwy12 MINIM2.KALUG-->
-      MINIM/
+      <!--Rwy12 MUDMO1.KALUG-->
+      MUDMO/
       -235146.420+1335951.925/
       -235247.556+1340048.229/
       AS414/
@@ -105,8 +111,8 @@
       KALUG
     </Line>
     <Line>
-      <!--Rwy12 MINIM2.PULOL-->
-      MINIM/
+      <!--Rwy12 MUDMO1.PULOL-->
+      MUDMO/
       -235245.116+1340401.433/
       -235336.551+1341043.503/
       -235331.485+1341253.944/
@@ -117,16 +123,7 @@
       PULOL
     </Line>
     <Line>
-      <!--Rwy12 MINIM2.SADEL-->
-      AS500/
-      -240015.820+1335921.203/
-      -240421.314+1335936.885/
-      -240558.898+1340004.065/
-      AS512/
-      SADEL
-    </Line>
-    <Line>
-      <!--Rwy12 MINIM2.SCOTI-->
+      <!--Rwy12 MUDMO1.RUPUS-->
       AS532/
       -234411.992+1340540.027/
       -234317.272+1340508.817/
@@ -135,10 +132,19 @@
       -232039.620+1334822.379/
       -231827.880+1334742.223/
       AS546/
-      SCOTI
+      RUPUS
     </Line>
     <Line>
-      <!--Rwy12 MINIM2.YOTHU-->
+      <!--Rwy12 MUDMO1.SADEL-->
+      AS500/
+      -240015.820+1335921.203/
+      -240421.314+1335936.885/
+      -240558.898+1340004.065/
+      AS512/
+      SADEL
+    </Line>
+    <Line>
+      <!--Rwy12 MUDMO1.YOTHU-->
       AS500/
       -235825.511+1335840.811/
       -235933.513+1335608.008/
@@ -167,28 +173,22 @@
       PUMAK
     </Line>
     <Line>
+      <!--Rwy12 RUPUS1-->
+      -234811.852+1335821.315/
+      -234038.623+1335131.383/
+      -231813.147+1334708.201/
+      RUPUS
+    </Line>
+    <Line>
       <!--Rwy12 SADEL3-->
       -234855.875+1335513.625/
       -235302.394+1335504.332/
       SADEL
     </Line>
     <Line>
-      <!--Rwy12 SARAH3-->
+      <!--Rwy12 SOTMI1-->
       -235302.394+1335504.332/
-      SARAH
-    </Line>
-    <Line>
-      <!--Rwy12 SCOTI3-->
-      -234811.852+1335821.315/
-      -234038.623+1335131.383/
-      -231813.147+1334708.201/
-      SCOTI
-    </Line>
-    <Line>
-      <!--Rwy12 STEEL3-->
-      -234855.875+1335513.625/
-      -234930.913+1335838.241/
-      STEEL
+      SOTMI
     </Line>
     <Line>
       <!--Rwy12 TNK3-->
@@ -219,8 +219,9 @@
       <Point>BODAS</Point>
       <Point>OSINA</Point>
       <Point>IGDEB</Point>
-      <Point>LEESA</Point>
-      <Point>MINIM</Point>
+      <Point>LUGSA</Point>
+      <Point>MATMA</Point>
+      <Point>MUDMO</Point>
       <Point>AS500</Point>
       <Point>AS504</Point>
       <Point>AS532</Point>
@@ -230,19 +231,18 @@
       <Point>AS440</Point>
       <Point>AS484</Point>
       <Point>PULOL</Point>
-      <Point>AS512</Point>
-      <Point>SADEL</Point>
       <Point>AS540</Point>
       <Point>AS544</Point>
       <Point>AS546</Point>
-      <Point>SCOTI</Point>
+      <Point>RUPUS</Point>
+      <Point>AS512</Point>
+      <Point>SADEL</Point>
       <Point>AS508</Point>
       <Point>AS514</Point>
       <Point>YOTHU</Point>
       <Point>OLREB</Point>
       <Point>PUMAK</Point>
-      <Point>SARAH</Point>
-      <Point>STEEL</Point>
+      <Point>SOTMI</Point>
       <Point>TUMSO</Point>
     </Symbol>
   </Map>
@@ -259,8 +259,9 @@
       <Point>BODAS</Point>
       <Point>OSINA</Point>
       <Point>IGDEB</Point>
-      <Point>LEESA</Point>
-      <Point>MINIM</Point>
+      <Point>LUGSA</Point>
+      <Point>MATMA</Point>
+      <Point>MUDMO</Point>
       <Point>AS500</Point>
       <Point>AS504</Point>
       <Point>AS532</Point>
@@ -270,19 +271,18 @@
       <Point>AS440</Point>
       <Point>AS484</Point>
       <Point>PULOL</Point>
-      <Point>AS512</Point>
-      <Point>SADEL</Point>
       <Point>AS540</Point>
       <Point>AS544</Point>
       <Point>AS546</Point>
-      <Point>SCOTI</Point>
+      <Point>RUPUS</Point>
+      <Point>AS512</Point>
+      <Point>SADEL</Point>
       <Point>AS508</Point>
       <Point>AS514</Point>
       <Point>YOTHU</Point>
       <Point>OLREB</Point>
       <Point>PUMAK</Point>
-      <Point>SARAH</Point>
-      <Point>STEEL</Point>
+      <Point>SOTMI</Point>
       <Point>TNK VOR</Point>
       <Point>TUMSO</Point>
       <Point>ANZAC</Point>
