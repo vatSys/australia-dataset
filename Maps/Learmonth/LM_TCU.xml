@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="LM_TCU" Priority="1" Center="-22.235556+114.088611">
+    <!--YPLM-->
+    <Runway Name="18/36">
+      <Threshold Name="18" Position="-22.219969+114.091153" />
+      <Threshold Name="36" Position="-22.247425+114.089161" />
+    </Runway>
+    <!--Airway Routes-->
+    <Line>
+      <!--H16-->
+      WARRA/
+      TOLAG
+    </Line>
+    <Line>
+      <!--J93-->
+      ONSLO/
+      KA VOR
+    </Line>
+    <Line>
+      <!--W321-->
+      WYLOO/
+      PBO VOR
+    </Line>
+  </Map>
+  <Map Type="System" Name="LM_TCU_NAMES" Priority="2" Center="-22.235556+114.088611">
+    <Label>
+      <Point>WARRA</Point>
+      <Point>TOLAG</Point>
+      <Point>ONSLO</Point>
+      <Point>KA VOR</Point>
+      <Point>WYLOO</Point>
+      <Point>PBO VOR</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YPLM_ALLRWYS" Priority="2" Center="-22.235556+114.088611">
+    <!--YPLM-->
+    <Runway Name="18/36">
+      <Threshold Name="18" Position="-22.219969+114.091153" ExtendedCentrelineTrack="3.86" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="36" Position="-22.247425+114.089161" ExtendedCentrelineTrack="183.86" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+  </Map>
+</Maps>

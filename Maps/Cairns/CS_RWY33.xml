@@ -7,13 +7,6 @@
       <Threshold Name="33" Position="-16.891969+145.755392" ExtendedCentrelineTrack="156.48" ExtendedCentrelineLength="25" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--SIDs-->
-    <Line>
-      <!--Rwy33 EAZEE3-->
-      -165156.940+1454436.850/
-      CANNU/
-      BUNPO/
-      EAZEE
-    </Line>
     <!--STARs-->
     <Line>
       <!--Rwy33 HEND9A.ANDOP-->
@@ -189,9 +182,6 @@
       <Point>LEBAD</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>CANNU</Point>
-      <Point>BUNPO</Point>
-      <Point>EAZEE</Point>
       <Point>ANDOP</Point>
       <Point>NONUM</Point>
       <Point>TOTTY</Point>
@@ -224,9 +214,6 @@
   </Map>
   <Map Type="System" Name="CS_RWY33_NAMES" Priority="2" Center="-16.885833+145.755278">
     <Label>
-      <Point>CANNU</Point>
-      <Point>BUNPO</Point>
-      <Point>EAZEE</Point>
       <Point>ANDOP</Point>
       <Point>NONUM</Point>
       <Point>TOTTY</Point>

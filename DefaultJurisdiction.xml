@@ -519,7 +519,7 @@
         </Departure>
       </Rules>
     </RuleSet>
-    <!--<RuleSet Name="YPLM_DEPS">
+    <RuleSet Name="YPLM_DEPS">
         <Rules>
           <Departure Values="YPLM">
             <Rules>
@@ -554,7 +554,7 @@
       </RuleSet>
       <RuleSet Name="YPWR_DEPS">
         <Rules>
-          <Departure Values="YBSG">
+          <Departure Values="YPWR">
             <Rules>
               <Default>
                 <AssignSector Order="WR ADC,WRA"/>
@@ -562,6 +562,6 @@
             </Rules>
           </Departure>
         </Rules>
-      </RuleSet>-->
+      </RuleSet>
   </RuleSets>
 </DefaultJurisdiction>
