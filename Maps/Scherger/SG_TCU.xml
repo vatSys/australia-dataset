@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="SG_TCU" Priority="1" Center="-12.623889+142.087222">
+    <!--YBSG-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-12.615611+142.076047" />
+      <Threshold Name="30" Position="-12.630086+142.099933" />
+    </Runway>
+    <!--Airway Routes-->
+    <Line>
+      <!--G459-->
+      BEGMI/
+      SOVRO
+    </Line>
+    <Line>
+      <!--W292-->
+      KERIN/
+      PUBOX
+    </Line>
+    <Line>
+      <!--W605-->
+      HEALE/
+      HOKOR
+    </Line>
+  </Map>
+  <Map Type="System" Name="SG_TCU_NAMES" Priority="2" Center="-12.623889+142.087222">
+    <Label>
+      <Point>BEGMI</Point>
+      <Point>SOVRO</Point>
+      <Point>KERIN</Point>
+      <Point>PUBOX</Point>
+      <Point>HEALE</Point>
+      <Point>HOKOR</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="SG_VFR" Priority="1" Center="-12.623889+142.087222">
+    <Symbol Type="HollowSquare">
+      <Point>PMG</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>PMG</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="SG_VFR_FULL_NAME" Priority="1" Center="-12.623889+142.087222">
+    <Label HasLeader="True" LabelOrientation="SW">
+      <Point Name="PORT MUSGRAVE">PMG</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YBSG_ALLRWYS" Priority="2" Center="-12.623889+142.087222">
+    <!--YBSG-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-12.615611+142.076047" ExtendedCentrelineTrack="301.67" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="30" Position="-12.630086+142.099933" ExtendedCentrelineTrack="121.68" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+  </Map>
+</Maps>

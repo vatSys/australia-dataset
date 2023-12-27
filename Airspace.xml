@@ -186,8 +186,8 @@
     </Airport>
     <Airport Name="YBCS">
       <Runway Name="15" DataRunway="15">
-        <SID Name="AKROM1" Type="Jet" />
-        <SID Name="CS2" Default="True" />
+        <SID Name="AKROM1" Default="True" Type="Jet" />
+        <SID Name="CS2"/>
         <SID Name="NONUM1" Type="NonJet" />
         <STAR Name="CODI8A" ApproachName="LOC" />
         <STAR Name="CODI8X" OpDataFlag="X" ApproachName="RNP-ARX" />
@@ -203,8 +203,8 @@
         <STAR Name="UPOL8Z" OpDataFlag="Z" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="33" DataRunway="33">
-        <SID Name="CS2" Default="True" />
-        <SID Name="EAZEE3" Type="Jet" />
+        <SID Name="CS2"/>
+        <SID Name="EAZEE3" Default="True" Type="Jet" />
         <STAR Name="HEND9A" ApproachName="LOC" />
         <STAR Name="HEND9Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="KEWI3A" ApproachName="LOC" />

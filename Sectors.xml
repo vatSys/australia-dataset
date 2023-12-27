@@ -319,7 +319,7 @@
   <Sector FullName="Adelaide Departures" Frequency="118.200" Callsign="AD_DEP" Name="AAE">
     <Volumes>ADA</Volumes>
   </Sector>
-  <Sector FullName="Amberley Approach" Frequency="126.200" Callsign="AM_APP" Name="AMA">
+  <Sector FullName="Amberley Approach" Frequency="126.200" Callsign="AMB_APP" Name="AMA">
     <Volumes>AMBAPP</Volumes>
   </Sector>
   <Sector FullName="Brisbane Approach (Gold Coast)" Frequency="123.500" Callsign="BN-C_APP" Name="BAC">
@@ -445,7 +445,10 @@
   <Sector FullName="Townsville Approach" Frequency="126.800" Callsign="TL_APP" Name="TLA">
     <Volumes>TLA</Volumes>
   </Sector>
-  <Sector FullName="Williamtown Approach" Frequency="135.700" Callsign="WLM_APP" Name="WLM">
+  <Sector FullName="Williamtown Approach (High)" Frequency="133.300" Callsign="WLM_APP" Name="WAH">
+    <Volumes>WLM_APP</Volumes>
+  </Sector>
+  <Sector FullName="Williamtown Approach (Low)" Frequency="135.700" Callsign="WLM-L_APP" Name="WAL">
     <Volumes>WLM_APP</Volumes>
   </Sector>
   <Sector FullName="Adelaide Delivery" Frequency="126.100" Callsign="AD_DEL" Name="AD COORD" DisplayInHandoffWindow="False">
@@ -466,13 +469,13 @@
   <Sector FullName="Alice Springs Tower" Frequency="118.300" Callsign="AS_TWR" Name="AS ADC">
     <Volumes>ASTWR</Volumes>
   </Sector>
-  <Sector FullName="Amberley Delivery" Frequency="134.600" Callsign="AM_DEL" Name="AM COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Amberley Delivery" Frequency="134.600" Callsign="AMB_DEL" Name="AMB COORD" DisplayInHandoffWindow="False">
     <Volumes>AMBTWR</Volumes>
   </Sector>
-  <Sector FullName="Amberley Ground" Frequency="129.350" Callsign="AM_GND" Name="AM SMC" DisplayInHandoffWindow="False">
+  <Sector FullName="Amberley Ground" Frequency="129.350" Callsign="AMB_GND" Name="AMB SMC" DisplayInHandoffWindow="False">
     <Volumes>AMBTWR</Volumes>
   </Sector>
-  <Sector FullName="Amberley Tower" Frequency="118.300" Callsign="AM_TWR" Name="AM ADC" DisplayInHandoffWindow="False">
+  <Sector FullName="Amberley Tower" Frequency="118.300" Callsign="AMB_TWR" Name="AMB ADC" DisplayInHandoffWindow="False">
     <Volumes>AMBTWR</Volumes>
   </Sector>
   <Sector FullName="Archerfield Ground" Frequency="119.900" Callsign="AF_GND" Name="AF SMC" DisplayInHandoffWindow="False">
