@@ -8,12 +8,21 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy01 AKROM1-->
+      <!--Rwy01 ADNOD1-->
       -191417.530+1464627.180/
       AGSIR/
       AVMAT/
+      ADNOD
+    </Line>
+    <Line>
+      <!--Rwy01 ADNOD1.AKROM-->
       ADNOD/
       AKROM
+    </Line>
+    <Line>
+      <!--Rwy01 ADNOD1.PEWEE-->
+      ADNOD/
+      PEWEE
     </Line>
     <Line>
       <!--Rwy01 ANRUB1-->
@@ -47,9 +56,15 @@
       JEMMA
     </Line>
     <Line>
-      <!--Rwy01 PEWEE6-->
-      ADNOD/
-      PEWEE
+      <!--Rwy01 TLE3-->
+      -191417.530+1464627.180/
+      -191126.260+1464751.630/
+      PCA
+    </Line>
+    <Line>
+      <!--Rwy01 TLN4-->
+      -191126.260+1464751.630/
+      -190847.504+1464416.015
     </Line>
     <Line>
       <!--Rwy01 WALTA2-->
@@ -115,6 +130,7 @@
       <Point>AVMAT</Point>
       <Point>ADNOD</Point>
       <Point>AKROM</Point>
+      <Point>PEWEE</Point>
       <Point>VEBTO</Point>
       <Point>ANRUB</Point>
       <Point>BILER</Point>
@@ -127,7 +143,7 @@
       <Point>GUMUT</Point>
       <Point>SUKBU</Point>
       <Point>JEMMA</Point>
-      <Point>PEWEE</Point>
+      <Point>PCA</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
       <Point>AGPOK</Point>
@@ -150,6 +166,7 @@
       <Point>AVMAT</Point>
       <Point>ADNOD</Point>
       <Point>AKROM</Point>
+      <Point>PEWEE</Point>
       <Point>LEDOG</Point>
       <Point>VEBTO</Point>
       <Point>SATCO</Point>
@@ -165,7 +182,7 @@
       <Point>GUMUT</Point>
       <Point>SUKBU</Point>
       <Point>JEMMA</Point>
-      <Point>PEWEE</Point>
+      <Point>PCA</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
       <Point>TL VOR</Point>

@@ -8,14 +8,23 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy19 AKROM1-->
+      <!--Rwy19 ADNOD1-->
       -191529.900+1464553.000/
       VARBI/
       IGBIK/
       LEDOG/
       AVMAT/
+      ADNOD
+    </Line>
+    <Line>
+      <!--Rwy19 ADNOD1.AKROM-->
       ADNOD/
       AKROM
+    </Line>
+    <Line>
+      <!--Rwy19 ADNOD1.PEWEE-->
+      ADNOD/
+      PEWEE
     </Line>
     <Line>
       <!--Rwy19 ANRUB1-->
@@ -54,11 +63,6 @@
       JEMMA
     </Line>
     <Line>
-      <!--Rwy19 PEWEE6-->
-      ADNOD/
-      PEWEE
-    </Line>
-    <Line>
       <!--Rwy19 RURTO1-->
       -191529.900+1464553.000/
       ORORO/
@@ -78,19 +82,19 @@
       ADNOD
     </Line>
     <Line>
-      <!--Rwy19 PORO1B-->
+      <!--Rwy19 PORO2B-->
       POROB/
       NOLAM/
       GUMUT/
       TODOX
     </Line>
     <Line>
-      <!--Rwy19 PORO1P-->
+      <!--Rwy19 PORO2P-->
       GUMUT/
       VILUN
     </Line>
     <Line>
-      <!--Rwy19 PORO1Z-->
+      <!--Rwy19 PORO2Z-->
       TODOX/
       LEBOT
     </Line>
@@ -124,6 +128,7 @@
       <Point>LEDOG</Point>
       <Point>AVMAT</Point>
       <Point>AKROM</Point>
+      <Point>PEWEE</Point>
       <Point>DAPLA</Point>
       <Point>SATCO</Point>
       <Point>ANRUB</Point>
@@ -140,7 +145,6 @@
       <Point>TL430</Point>
       <Point>TL436</Point>
       <Point>TL455</Point>
-      <Point>PEWEE</Point>
       <Point>ORORO</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
@@ -162,6 +166,7 @@
       <Point>AVMAT</Point>
       <Point>ADNOD</Point>
       <Point>AKROM</Point>
+      <Point>PEWEE</Point>
       <Point>DAPLA</Point>
       <Point>SATCO</Point>
       <Point>ANRUB</Point>
@@ -178,7 +183,6 @@
       <Point>TL430</Point>
       <Point>TL436</Point>
       <Point>TL455</Point>
-      <Point>PEWEE</Point>
       <Point>ORORO</Point>
       <Point>RURTO</Point>
       <Point>WALTA</Point>
