@@ -410,8 +410,8 @@
       <Runway Name="09" DataRunway="09">
         <SID Name="ESL5" Default="True" />
         <STAR Name="ANOSO2" ApproachName="RNPZ" />
-        <STAR Name="PAPDO1" ApproachName="RNPZ" />
-        <STAR Name="TREVR4" ApproachName="RNPZ" />
+        <STAR Name="PAPDO2" ApproachName="RNPZ" />
+        <STAR Name="TREVR5" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="22" DataRunway="22">
         <SID Name="ESL5" Default="True" />
@@ -419,7 +419,7 @@
       <Runway Name="27" DataRunway="27">
         <SID Name="ESL5" Default="True" />
         <STAR Name="ANOSO1" ApproachName="RNPZ" />
-        <STAR Name="LAREX1" ApproachName="RNPZ" />
+        <STAR Name="LAREX2" ApproachName="RNPZ" />
       </Runway>
     </Airport>
     <Airport Name="YMHB">
@@ -430,7 +430,7 @@
         <SID Name="RIBLI2" />
         <STAR Name="IPLE7A" ApproachName="RNPZ" />
         <STAR Name="IPLE7W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="MORG2A" ApproachName="RNPZ" />
+        <STAR Name="MORG3A" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="30" DataRunway="30">
         <SID Name="KANLI3" Type="NonJet" />
@@ -16572,19 +16572,19 @@ BOFOR
     <STAR Name="ANOSO1" Airport="YMES" Runways="27">
       <Route Runway="27">ANOSO/MESEJ</Route>
     </STAR>
-    <STAR Name="LAREX1" Airport="YMES" Runways="27">
+    <STAR Name="LAREX2" Airport="YMES" Runways="27">
       <Transition Name="GIPPS">GIPPS</Transition>
       <Transition Name="TYERS">TYERS</Transition>
       <Transition Name="VISER">VISER</Transition>
       <Route Runway="27">LAREX/MESEG</Route>
     </STAR>
-    <STAR Name="PAPDO1" Airport="YMES" Runways="09">
+    <STAR Name="PAPDO2" Airport="YMES" Runways="09">
       <Transition Name="BULKO">BULKO</Transition>
       <Transition Name="LTV">LTV NDB</Transition>
       <Transition Name="MOZZA">MOZZA</Transition>
       <Route Runway="09">PAPDO/MESWP</Route>
     </STAR>
-    <STAR Name="TREVR4" Airport="YMES" Runways="09">
+    <STAR Name="TREVR5" Airport="YMES" Runways="09">
       <Transition Name="VISER">VISER</Transition>
       <Route Runway="09">TREVR/MESWQ</Route>
     </STAR>
@@ -16600,10 +16600,8 @@ BOFOR
       <Route Runway="12">IPLET/ATIGU/PIMOV/VETOR</Route>
       <Route Runway="30">IPLET/LEMUK/RUMUM/BAVUR</Route>
     </STAR>
-    <STAR Name="MORG2A" Airport="YMHB" Runways="12">
+    <STAR Name="MORG3A" Airport="YMHB" Runways="12,30">
       <Route Runway="12">MORGO/VAVMO/IKOBI/BUSKA</Route>
-    </STAR>
-    <STAR Name="MORG3A" Airport="YMHB" Runways="30">
       <Route Runway="30">MORGO/POXID/GULEB/SORVI/OBDEB/BAVUR/SAKUT/PIDOS</Route>
     </STAR>
     <STAR Name="MORG3V" Airport="YMHB" Runways="30">
