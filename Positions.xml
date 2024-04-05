@@ -1291,7 +1291,7 @@
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Amberley/AMB_TCU" />
-        <Map Name="Amberley/AM_RWY15" />
+        <Map Name="Amberley/AMB_RWY15" />
         <Map Name="ALL_SECTORS" />
       </Maps>
       <ATIS>
@@ -2100,6 +2100,41 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Avalon Tower" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="50" MagneticVariation="-11.6">
+      <Sectors>
+        <Sector Name="AV ADC" />
+        <Sector Name="AV SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Melbourne/ML_COAST" />
+        <Map Name="Melbourne/ML_TCU" />
+        <Map Name="Melbourne/AV_RWY18" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMAV" Frequency="118.2" />
+        <Window Airport="YMAV" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YMAV" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="4000" />
+      <ArrivalLists>
+        <Airport Name="YMAV" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Avalon Tower</Line>
+        <Line>ATIS available on 118.2</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="AV_GND">
+        <Line>Avalon Ground</Line>
+        <Line>ATIS available on 118.2</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Bankstown Tower" Type="ASD" DefaultCenter="-33.924444+150.988333" DefaultRange="30" MagneticVariation="-12.6">
       <Sectors>
         <Sector Name="BK ADC" />
@@ -2413,8 +2448,8 @@
       </ControllerInfo>
     </Position>
   </Group>
-  <Group Name="Radar TWR">
-    <Position Name="Adelaide Tower" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="60" MagneticVariation="-8">
+  <Group Name="Class C TWR">
+    <Position Name="Adelaide Tower" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="60" MagneticVariation="-8" DynamicInfill="false">
       <Sectors>
         <Sector Name="AD ADC" />
         <Sector Name="AD SMC" />
@@ -2464,8 +2499,8 @@
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
-        <Map Name="Amberley/AM_TCU" />
-        <Map Name="Amberley/AM_RWY15" />
+        <Map Name="Amberley/AMB_TCU" />
+        <Map Name="Amberley/AMB_RWY15" />
       </Maps>
       <ATIS>
         <Editor Airport="YAMB" Frequency="123.3" />
@@ -2484,50 +2519,15 @@
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="AM_GND">
+      <ControllerInfo Callsign="AMB_GND">
         <Line>Amberley Ground</Line>
         <Line>ATIS available on 123.3</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="AM_DEL">
+      <ControllerInfo Callsign="AMB_DEL">
         <Line>Amberley Delivery</Line>
         <Line>ATIS available on 123.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Avalon Tower" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="50" MagneticVariation="-11.6">
-      <Sectors>
-        <Sector Name="AV ADC" />
-        <Sector Name="AV SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Melbourne/ML_COAST" />
-        <Map Name="Melbourne/ML_TCU" />
-        <Map Name="Melbourne/AV_RWY18" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YMAV" Frequency="118.2" />
-        <Window Airport="YMAV" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YMAV" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="4000" />
-      <ArrivalLists>
-        <Airport Name="YMAV" />
-      </ArrivalLists>
-      <ControllerInfo>
-        <Line>Avalon Tower</Line>
-        <Line>ATIS available on 118.2</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="AV_GND">
-        <Line>Avalon Ground</Line>
-        <Line>ATIS available on 118.2</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -2610,7 +2610,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Melbourne Tower" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="60" MagneticVariation="-11">
+    <Position Name="Melbourne Tower" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="60" MagneticVariation="-11" DynamicInfill="false">
       <Sectors>
         <Sector Name="ML ADC" />
         <Sector Name="ML SMC" />
@@ -2702,7 +2702,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Brisbane Tower" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="60" MagneticVariation="-11">
+    <Position Name="Brisbane Tower" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="60" MagneticVariation="-11" DynamicInfill="false">
       <Sectors>
         <Sector Name="BN ADC" />
         <Sector Name="BN ADCW" />
@@ -2794,7 +2794,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Perth Tower" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="60" MagneticVariation="1.6">
+    <Position Name="Perth Tower" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="60" MagneticVariation="1.6" DynamicInfill="false">
       <Sectors>
         <Sector Name="PH ADC" />
         <Sector Name="PH SMC" />
@@ -2854,6 +2854,7 @@
         <Map Name="Cairns/CS_COAST" />
         <Map Name="Cairns/CS_TCU" />
         <Map Name="Cairns/CS_RWY15" />
+        <Map Name="ALL_SECTORS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBCS" Frequency="131.1" />
