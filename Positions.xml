@@ -36,6 +36,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Brisbane Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -73,6 +74,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Melbourne Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -109,6 +111,7 @@
     <CFL QuickLevel="25000" />
     <ControllerInfo>
       <Line>Brisbane Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -155,6 +158,33 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Brisbane Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
+      <Line>Charts - vats.im/pac/charts</Line>
+      <Line>ATC feedback - helpdesk.vatpac.org</Line>
+    </ControllerInfo>
+  </Position>
+    <Position Name="Howe" Type="ASD" DefaultCenter="-302049.482+1585027.3377" DefaultRange="1600" VisibilityRange="600">
+    <Sectors>
+      <Sector Name="HWE" />
+    </Sectors>
+    <Maps>
+      <Map Name="ALL_CTA" />
+      <Map Name="ALL_SECTORS" />
+      <Map Name="ALL_NAVAIDS" />
+      <Map Name="COAST_ALL" />
+      <Map Name="ALL_ROUTES_HIGH" />
+      <Map Name="ALL_POINTS_HIGH" />
+      <Map Name="FIR_BDRY" />
+      <Map Name="UPPER_SECTOR_FREQS" />
+    </Maps>
+    <Strips Mode="State" Sort="Time">
+      <Window Type="State" State="Jurisdiction" Visible="true" />
+      <Window Type="State" State="Announced" Visible="true" />
+      <Window Type="State" State="Preactive" Visible="true" />
+    </Strips>
+    <CFL QuickLevel="25000" />
+    <ControllerInfo>
+      <Line>Brisbane Centre</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -193,6 +223,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Brisbane Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -234,6 +265,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Melbourne Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -278,6 +310,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Melbourne Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -316,6 +349,7 @@
     <CFL QuickLevel="25000" />
     <ControllerInfo>
       <Line>Melbourne Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -356,6 +390,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Brisbane Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -395,6 +430,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Melbourne Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -437,6 +473,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Melbourne Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -478,6 +515,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Melbourne Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -521,6 +559,7 @@
     </ArrivalLists>
     <ControllerInfo>
       <Line>Melbourne Centre</Line>
+      <Line>Airspace - vatpac.org/about/airspace</Line>
       <Line>Charts - vats.im/pac/charts</Line>
       <Line>ATC feedback - helpdesk.vatpac.org</Line>
     </ControllerInfo>
@@ -1187,15 +1226,41 @@
     </Position>
   </Group>
   <Group Name="Oceanic">
-    <Position Name="Tasman Oceanic" Type="ASD" DefaultCenter="-204939.000+1561328.100" DefaultRange="5700" VisibilityRange="1500">
+    <Position Name="Tasman Oceanic" Type="ASD" DefaultCenter="-391632.9993+1570101.3586" DefaultRange="2500" VisibilityRange="1500">
       <Sectors>
         <Sector Name="TSN" />
-        <Sector Name="HWE" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-391632.9993+1570101.3586</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Alpha">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="29000" />
+      <ControllerInfo>
+        <Line>Brisbane Radio</Line>
+        <Line>Squawk 2000 entering OCEANIC region. Check your Sim Zulu time is correct.</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Flinders Oceanic" Type="ASD" DefaultCenter="-130246.9201+1553349.5044" DefaultRange="5700" VisibilityRange="1500">
+      <Sectors>
         <Sector Name="FLD" />
         <Sector Name="COL" />
       </Sectors>
       <ManualVisibility>
-        <Point>-12.466+170.066</Point>
+        <Point>-165543.5379+1563808.7268/</Point>
       </ManualVisibility>
       <Maps>
         <Map Name="ALL_CTA" />
