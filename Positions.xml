@@ -1312,8 +1312,8 @@
   <Group Name="TCU">
     <Position Name="Adelaide TCU" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="200" VisibilityRange="100" MagneticVariation="-8">
       <Sectors>
-        <Sector Name="AAW" />
         <Sector Name="AAE" />
+        <Sector Name="AAW" />
       </Sectors>
       <ManualVisibility>
         <Point>-34.947+138.525</Point>
@@ -1342,6 +1342,12 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Adelaide Approach</Line>
+        <Line>ATIS available on 134.5</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="AD-W_APP">
+        <Line>Adelaide Approach (West)</Line>
         <Line>ATIS available on 134.5</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -1458,7 +1464,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="ML-S_DEP">
-        <Line>Melbourne Departures</Line>
+        <Line>Melbourne Departures (South)</Line>
         <Line>ATIS available on 118.0</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -1506,6 +1512,12 @@
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="SY-S_APP">
+        <Line>Sydney Approach (South)</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
       <ControllerInfo Callsign="SY_DEP">
         <Line>Sydney Departures</Line>
         <Line>ATIS available on 126.25</Line>
@@ -1513,13 +1525,13 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-S_DEP">
-        <Line>Sydney Departures</Line>
+        <Line>Sydney Departures (South)</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-DE_APP">
-        <Line>Sydney Director</Line>
+        <Line>Sydney Director (East)</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -1580,6 +1592,18 @@
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="BN-S_APP">
+        <Line>Brisbane Approach (South)</Line>
+        <Line>ATIS available on 125.5</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="BN-C_APP">
+        <Line>Brisbane Approach (Gold Coast)</Line>
+        <Line>ATIS available on 125.5</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
       <ControllerInfo Callsign="BN_DEP">
         <Line>Brisbane Departures</Line>
         <Line>ATIS available on 125.5</Line>
@@ -1587,7 +1611,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN-S_DEP">
-        <Line>Brisbane Departures</Line>
+        <Line>Brisbane Departures (South)</Line>
         <Line>ATIS available on 125.5</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -1627,10 +1651,17 @@
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="CB-W_APP">
+        <Line>Canberra Approach (West)</Line>
+        <Line>ATIS available on 127.45</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" VisibilityRange="100" MagneticVariation="1.6">
       <Sectors>
         <Sector Name="PHA" />
+        <Sector Name="PNE" />
         <Sector Name="PHD" />
         <Sector Name="PEA" />
       </Sectors>
@@ -1660,6 +1691,12 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Perth Approach</Line>
+        <Line>ATIS available on 123.8</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="PH-N_APP">
+        <Line>Perth Approach (North East)</Line>
         <Line>ATIS available on 123.8</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -1704,6 +1741,12 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Cairns Approach</Line>
+        <Line>ATIS available on 131.1</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="CS-W_APP">
+        <Line>Cairns Approach (West)</Line>
         <Line>ATIS available on 131.1</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -1834,7 +1877,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="WLM-L_APP">
-        <Line>Willy (Lower) Approach</Line>
+        <Line>Willy Approach (Lower)</Line>
         <Line>ATIS available on 134.45</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -2797,6 +2840,12 @@
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="BN-W_TWR">
+        <Line>Brisbane Tower (West)</Line>
+        <Line>ATIS available on 125.5</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
       <ControllerInfo Callsign="BN_GND">
         <Line>Brisbane Ground</Line>
         <Line>ATIS available on 125.5</Line>
@@ -2804,13 +2853,13 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN-N_GND">
-        <Line>Brisbane Ground</Line>
+        <Line>Brisbane Ground (North)</Line>
         <Line>ATIS available on 125.5</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN-S_GND">
-        <Line>Brisbane Ground</Line>
+        <Line>Brisbane Ground (South)</Line>
         <Line>ATIS available on 125.5</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -2894,7 +2943,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="PH-E_GND">
-        <Line>Perth Ground</Line>
+        <Line>Perth Ground (East)</Line>
         <Line>ATIS available on 123.8</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -3230,6 +3279,7 @@
     <Position Name="Gingin Tower" Type="ASD" DefaultCenter="-31.465278+115.863333" DefaultRange="30" MagneticVariation="1.5">
       <Sectors>
         <Sector Name="GIG ADC" />
+        <Sector Name="GIG SMC" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
