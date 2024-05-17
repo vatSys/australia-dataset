@@ -82,6 +82,7 @@
   </Sector>
   <Sector FullName="Huon" Frequency="122.600" Callsign="ML-HUO_CTR" Name="HUO">
     <Volumes>HUO,HUO_TMA_CAP</Volumes>
+    <ResponsibleSectors>HBA,LTA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Hyden" Frequency="118.200" Callsign="ML-HYD_CTR" Name="HYD">
     <Volumes>HYD</Volumes>
@@ -312,11 +313,11 @@
   <Sector FullName="West Asia Control" Frequency="135.40" Callsign="ASIA_W_FSS" Name="ASIAW" DisplayInSectorsWindow="False">
     <Volumes>VCCF,VRMF</Volumes>
   </Sector>
-  <Sector FullName="Adelaide Approach" Frequency="124.200" Callsign="AD_APP" Name="AAW">
+  <Sector FullName="Adelaide Approach (East)" Frequency="118.200" Callsign="AD_APP" Name="AAE">
     <Volumes>ADA</Volumes>
-    <ResponsibleSectors>AAE</ResponsibleSectors>
+    <ResponsibleSectors>AAW</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Adelaide Departures" Frequency="118.200" Callsign="AD_DEP" Name="AAE">
+  <Sector FullName="Adelaide Approach (West)" Frequency="124.200" Callsign="AD-W_APP" Name="AAW">
     <Volumes>ADA</Volumes>
   </Sector>
   <Sector FullName="Amberley Approach" Frequency="126.200" Callsign="AMB_APP" Name="AMA">
@@ -340,11 +341,11 @@
     <Volumes>BNA</Volumes>
   </Sector>
   <Sector FullName="Brisbane Finals" Frequency="119.250" Callsign="BN-F_APP" Name="BN-FA" />
-  <Sector FullName="Cairns Approach" Frequency="118.400" Callsign="CS_APP" Name="CS1">
+  <Sector FullName="Cairns Approach (East)" Frequency="118.400" Callsign="CS_APP" Name="CS1">
     <Volumes>CSA</Volumes>
     <ResponsibleSectors>CS2</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Cairns Departures" Frequency="126.100" Callsign="CS_DEP" Name="CS2">
+  <Sector FullName="Cairns Approach (West)" Frequency="126.100" Callsign="CS-W_APP" Name="CS2">
     <Volumes>CSA</Volumes>
   </Sector>
   <Sector FullName="Canberra Approach (East)" Frequency="124.500" Callsign="CB_APP" Name="CAE">
@@ -408,6 +409,9 @@
   <Sector FullName="Perth Approach" Frequency="123.600" Callsign="PH_APP" Name="PHA">
     <Volumes>PHA</Volumes>
     <ResponsibleSectors>PHD,PEA</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Perth Approach (North East)" Frequency="132.950" Callsign="PH-N_APP" Name="PNE">
+    <Volumes>PHA</Volumes>
   </Sector>
   <Sector FullName="Perth Departures" Frequency="118.700" Callsign="PH_DEP" Name="PHD">
     <Volumes>PHA</Volumes>
@@ -582,6 +586,9 @@
   </Sector>
   <Sector FullName="Essendon Tower" Frequency="125.100" Callsign="EN_TWR" Name="EN ADC" DisplayInHandoffWindow="False">
     <Volumes>ENTWR</Volumes>
+  </Sector>
+  <Sector FullName="Gingin Ground" Frequency="121.650" Callsign="GIG_GND" Name="GIG SMC" DisplayInHandoffWindow="False">
+    <Volumes>GIGTWR</Volumes>
   </Sector>
   <Sector FullName="Gingin Tower" Frequency="118.500" Callsign="GIG_TWR" Name="GIG ADC" DisplayInHandoffWindow="False">
     <Volumes>GIGTWR</Volumes>
