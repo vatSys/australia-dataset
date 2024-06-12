@@ -8,6 +8,15 @@
     </Runway>
     <!--SIDs-->
     <Line>
+      <!--Rwy05 AREPA1-->
+      -345626.230+1383235.750/
+      MOPRI/
+      SARAG/
+      DOPTI/
+      RUPEL/
+      AREPA
+    </Line>
+    <Line>
       <!--Rwy05 BENDO2-->
       -345626.230+1383235.750/
       KNOBL/
@@ -16,18 +25,9 @@
     </Line>
     <Line>
       <!--Rwy05 GILES4-->
-      -345626.230+1383235.750/
-      MOPRI/
-      SALIS/
-      PARKA/
+      DOPTI/
       DERWY/
       GILES
-    </Line>
-    <Line>
-      <!--Rwy05 HAWKY5-->
-      PARKA/
-      BIGAL/
-      HAWKY
     </Line>
     <Line>
       <!--Rwy05 ORBUN5-->
@@ -37,13 +37,13 @@
     <Line>
       <!--Rwy05 PANKI3-->
       ROGGS/
-      PANKI
+      AVDEN
     </Line>
     <Line>
-      <!--Rwy05 SEDAN2-->
+      <!--Rwy05 UPROT1-->
       MOPRI/
       GULLY/
-      SEDAN
+      UPROT
     </Line>
     <!--STARs-->
     <Line>
@@ -236,19 +236,19 @@
       <Point>KNOBL</Point>
     </Symbol>
     <Symbol Type="HollowStar">
+      <Point>MOPRI</Point>
+      <Point>SARAG</Point>
+      <Point>DOPTI</Point>
+      <Point>RUPEL</Point>
+      <Point>AREPA</Point>
       <Point>ROGGS</Point>
       <Point>BENDO</Point>
-      <Point>MOPRI</Point>
-      <Point>SALIS</Point>
-      <Point>PARKA</Point>
       <Point>DERWY</Point>
       <Point>GILES</Point>
-      <Point>BIGAL</Point>
-      <Point>HAWKY</Point>
       <Point>ORBUN</Point>
-      <Point>PANKI</Point>
+      <Point>AVDEN</Point>
       <Point>GULLY</Point>
-      <Point>SEDAN</Point>
+      <Point>UPROT</Point>
       <Point>DUKES</Point>
       <Point>ALEXI</Point>
       <Point>RIDMA</Point>
@@ -287,20 +287,20 @@
   </Map>
   <Map Type="System" Name="AD_RWY05_NAMES" Priority="2" Center="-34.945000+138.530556">
     <Label>
+      <Point>MOPRI</Point>
+      <Point>SARAG</Point>
+      <Point>DOPTI</Point>
+      <Point>RUPEL</Point>
+      <Point>AREPA</Point>
       <Point>KNOBL</Point>
       <Point>ROGGS</Point>
       <Point>BENDO</Point>
-      <Point>MOPRI</Point>
-      <Point>SALIS</Point>
-      <Point>PARKA</Point>
       <Point>DERWY</Point>
       <Point>GILES</Point>
-      <Point>BIGAL</Point>
-      <Point>HAWKY</Point>
       <Point>ORBUN</Point>
-      <Point>PANKI</Point>
+      <Point>AVDEN</Point>
       <Point>GULLY</Point>
-      <Point>SEDAN</Point>
+      <Point>UPROT</Point>
       <Point>DUKES</Point>
       <Point>ALEXI</Point>
       <Point>RIDMA</Point>
@@ -360,7 +360,7 @@
       <Point>BORTO</Point>
       <Point>DRINA</Point>
       <Point>KAMBI</Point>
-      <Point>WINCH</Point>
+      <Point>LUVOK</Point>
       <Point>LONLY</Point>
       <Point>AKDAV</Point>
       <Point>VAVPA</Point>
