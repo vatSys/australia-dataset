@@ -37,12 +37,20 @@
       HECTO
     </Line>
     <Line>
-      <!--Rwy03 MEMUP4-->
+      <!--Rwy03 LENVU1-->
+      -315542.940+1155806.470/
+      -315225.251+1155959.883/
+      HOVEA/
+      BUVOT/
+      LENVU
+    </Line>
+    <Line>
+      <!--Rwy03 MEMUP5-->
       BIRER/
       MEMUP
     </Line>
     <Line>
-      <!--Rwy03 MUBID3-->
+      <!--Rwy03 MUBID4-->
       BIRER/
       MUBID
     </Line>
@@ -73,14 +81,6 @@
       IRNOD/
       LEVKA/
       OTLED
-    </Line>
-    <Line>
-      <!--Rwy03 PIKIL3-->
-      -315542.940+1155806.470/
-      -315225.251+1155959.883/
-      HOVEA/
-      BUVOT/
-      LENVU
     </Line>
     <Line>
       <!--Rwy03 RANGU9-->
@@ -146,10 +146,15 @@
       <!--Rwy06 HECTO4-->
     </Line>
     <Line>
-      <!--Rwy06 MEMUP4-->
+      <!--Rwy06 LENVU1-->
+      -315551.270+1155843.650/
+      HOVEA
     </Line>
     <Line>
-      <!--Rwy06 MUBID3-->
+      <!--Rwy06 MEMUP5-->
+    </Line>
+    <Line>
+      <!--Rwy06 MUBID4-->
     </Line>
     <Line>
       <!--Rwy06 OLMAM1-->
@@ -169,11 +174,6 @@
     </Line>
     <Line>
       <!--Rwy06 OTLED5-->
-    </Line>
-    <Line>
-      <!--Rwy06 PIKIL3-->
-      -315551.270+1155843.650/
-      HOVEA
     </Line>
     <Line>
       <!--Rwy06 RANGU9-->
@@ -241,7 +241,7 @@
       <!--Rwy03 DAYL5X-->
     </Line>
     <Line>
-      <!--Rwy03 IPMO1A.KAGMI-->
+      <!--Rwy03 IPMO2A.KAGMI-->
       KAGMI/
       BITAP/
       KALBO/
@@ -249,14 +249,14 @@
       IPMOR
     </Line>
     <Line>
-      <!--Rwy03 IPMO1A-->
+      <!--Rwy03 IPMO2A-->
       IPMOR/
       HAYCO/
       SADOL/
       HARMN
     </Line>
     <Line>
-      <!--Rwy03 JULI5A-->
+      <!--Rwy03 JULI6A-->
       JULIM/
       YIREE/
       WOORA/
@@ -266,7 +266,7 @@
       MESAM
     </Line>
     <Line>
-      <!--Rwy03 JULI5V-->
+      <!--Rwy03 JULI6V-->
       HERNE/
       RUMAK/
       SAPUG/
@@ -274,7 +274,7 @@
       KARGO
     </Line>
     <Line>
-      <!--Rwy03 JULI5X-->
+      <!--Rwy03 JULI6X-->
     </Line>
     <Line>
       <!--Rwy03 KABL1A-->
@@ -307,31 +307,31 @@
       <!--Rwy03 LAVE1X-->
     </Line>
     <Line>
-      <!--Rwy03 SAPK1A-->
+      <!--Rwy03 SAPK2A-->
       SAPKO/
       OLGEK/
       WOORA
     </Line>
     <Line>
-      <!--Rwy03 SAPK1V-->
+      <!--Rwy03 SAPK2V-->
     </Line>
     <Line>
-      <!--Rwy03 SAPK1X-->
+      <!--Rwy03 SAPK2X-->
     </Line>
     <Line>
-      <!--Rwy03 SOLU2A-->
+      <!--Rwy03 SOLU3A-->
       SOLUS/
       MOCUR/
       HARMN
     </Line>
     <Line>
-      <!--Rwy03 SOLU2V-->
+      <!--Rwy03 SOLU3V-->
       SOLUS/
       MESAM/
       KARGO
     </Line>
     <Line>
-      <!--Rwy03 SOLU2X-->
+      <!--Rwy03 SOLU3X-->
     </Line>
     <Line>
       <!--Rwy06 DAYL5A.MALUP-->
@@ -351,20 +351,20 @@
       SAGAR
     </Line>
     <Line>
-      <!--Rwy06 IPMO1A.KAGMI-->
+      <!--Rwy06 IPMO2A.KAGMI-->
     </Line>
     <Line>
-      <!--Rwy06 IPMO1A-->
+      <!--Rwy06 IPMO2A-->
       IPMOR/
       VANRU/
       ORIDO/
       LENNY
     </Line>
     <Line>
-      <!--Rwy06 JULI5A-->
+      <!--Rwy06 JULI6A-->
     </Line>
     <Line>
-      <!--Rwy06 JULI5V-->
+      <!--Rwy06 JULI6V-->
     </Line>
     <Line>
       <!--Rwy06 KABL1A-->
@@ -379,16 +379,16 @@
       <!--Rwy06 LAVE1V-->
     </Line>
     <Line>
-      <!--Rwy06 SAPK1A-->
+      <!--Rwy06 SAPK2A-->
     </Line>
     <Line>
-      <!--Rwy06 SAPK1V-->
+      <!--Rwy06 SAPK2V-->
     </Line>
     <Line>
-      <!--Rwy06 SOLU2A-->
+      <!--Rwy06 SOLU3A-->
     </Line>
     <Line>
-      <!--Rwy06 SOLU2V-->
+      <!--Rwy06 SOLU3V-->
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>BITUM</Point>
@@ -410,6 +410,9 @@
       <Point>INVIX</Point>
       <Point>BIRER</Point>
       <Point>HECTO</Point>
+      <Point>HOVEA</Point>
+      <Point>BUVOT</Point>
+      <Point>LENVU</Point>
       <Point>MEMUP</Point>
       <Point>MUBID</Point>
       <Point>LUDVO</Point>
@@ -428,9 +431,6 @@
       <Point>IRNOD</Point>
       <Point>LEVKA</Point>
       <Point>OTLED</Point>
-      <Point>HOVEA</Point>
-      <Point>BUVOT</Point>
-      <Point>LENVU</Point>
       <Point>RANGU</Point>
       <Point>BUVEL</Point>
       <Point>TOODY</Point>
@@ -504,6 +504,9 @@
       <Point>INVIX</Point>
       <Point>BIRER</Point>
       <Point>HECTO</Point>
+      <Point>HOVEA</Point>
+      <Point>BUVOT</Point>
+      <Point>LENVU</Point>
       <Point>MEMUP</Point>
       <Point>MUBID</Point>
       <Point>LUDVO</Point>
@@ -522,9 +525,6 @@
       <Point>IRNOD</Point>
       <Point>LEVKA</Point>
       <Point>OTLED</Point>
-      <Point>HOVEA</Point>
-      <Point>BUVOT</Point>
-      <Point>LENVU</Point>
       <Point>RANGU</Point>
       <Point>BUVEL</Point>
       <Point>TOODY</Point>
