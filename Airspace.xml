@@ -567,21 +567,21 @@
       <Runway Name="05" DataRunway="05">
         <SID Name="AD4" Default="True" />
         <SID Name="AREPA1" Type="Jet" />
-        <SID Name="BENDO2" Type="Jet" />
-        <SID Name="GILES4" Type="Jet" />
+        <SID Name="AVDEN1" Type="Jet" />
+        <SID Name="BENDO3" Type="Jet" />
+        <SID Name="GILES5" Type="Jet" />
         <SID Name="ORBUN5" Type="Jet" />
-        <SID Name="PANKI3" Type="Jet" />
         <SID Name="UPROT1" Type="Jet" />
         <STAR Name="ALEX3X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="ALEX3Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="ALEX3Z" ApproachName="RNPZ" />
         <STAR Name="ATPIP3" Type="NonJet" />
         <STAR Name="BLAC3X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="BLAC3Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="BLAC3Z" ApproachName="RNPZ" />
         <STAR Name="RIKA8W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="RIKA8Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="RIKA8Z" ApproachName="RNPZ" />
         <STAR Name="RUSSL3" Type="NonJet" />
         <STAR Name="SALT3W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="SALT3Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="SALT3Z" ApproachName="RNPZ" />
         <STAR Name="SURGN3" Type="NonJet" />
       </Runway>
       <Runway Name="12" DataRunway="12">
@@ -593,9 +593,9 @@
       <Runway Name="23" DataRunway="23">
         <SID Name="AD4" Default="True" />
         <SID Name="AREPA1" Type="Jet" />
-        <SID Name="BENDO2" Type="Jet" />
-        <SID Name="GILES4" Type="Jet" />
-        <SID Name="PANKI3" Type="Jet" />
+        <SID Name="AVDEN1" Type="Jet" />
+        <SID Name="BENDO3" Type="Jet" />
+        <SID Name="GILES5" Type="Jet" />
         <SID Name="UPROT1" Type="Jet" />
         <STAR Name="ATPIP3" Type="NonJet" />
         <STAR Name="BLAC3A" ApproachName="RNPZ" />
@@ -813,113 +813,113 @@
         <SID Name="AMANA5" Type="Jet" />
         <SID Name="AVNEX5" Type="Jet" />
         <SID Name="HECTO4" Type="Jet" />
-        <SID Name="MEMUP4" Type="Jet" />
-        <SID Name="MUBID3" Type="Jet" />
+        <SID Name="LENVU1" Type="NonJet" />
+        <SID Name="MEMUP5" Type="Jet" />
+        <SID Name="MUBID4" Type="Jet" />
         <SID Name="OLMAM1" />
         <SID Name="OPEGA1" />
         <SID Name="OTLED5" Type="NonJet" />
         <SID Name="PH7" Default="True" />
-        <SID Name="PIKIL3" Type="NonJet" />
         <SID Name="RANGU9" Type="NonJet" />
         <SID Name="REPOK1" Type="NonJet" />
         <SID Name="SOLUS6" />
         <SID Name="YNRV4" Type="Jet" />
         <STAR Name="DAYL5A" Type="NonJet" ApproachName="RNPZ" />
         <STAR Name="DAYL5X" Type="NonJet" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="IPMO1A" ApproachName="RNPZ" />
-        <STAR Name="JULI5A" ApproachName="RNPZ" />
-        <STAR Name="JULI5X" OpDataFlag="X" ApproachName="RNP-ARX" />
+        <STAR Name="IPMO2A" ApproachName="RNPZ" />
+        <STAR Name="JULI6A" ApproachName="RNPZ" />
+        <STAR Name="JULI6X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="KABL1A" ApproachName="RNPZ" />
         <STAR Name="KABL1X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="LAVE1A" Type="NonJet" ApproachName="RNPZ" />
         <STAR Name="LAVE1X" Type="NonJet" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="SAPK1A" Type="NonJet" ApproachName="RNPZ" />
-        <STAR Name="SAPK1X" Type="NonJet" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="SOLU2A" ApproachName="RNPZ" />
-        <STAR Name="SOLU2X" OpDataFlag="X" ApproachName="RNP-ARX" />
+        <STAR Name="SAPK2A" Type="NonJet" ApproachName="RNPZ" />
+        <STAR Name="SAPK2X" Type="NonJet" OpDataFlag="X" ApproachName="RNP-ARX" />
+        <STAR Name="SOLU3A" ApproachName="RNPZ" />
+        <STAR Name="SOLU3X" OpDataFlag="X" ApproachName="RNP-ARX" />
       </Runway>
       <Runway Name="06" DataRunway="06">
         <SID Name="AMANA5" Type="Jet" />
         <SID Name="AVNEX5" Type="Jet" />
         <SID Name="HECTO4" Type="Jet" />
-        <SID Name="MEMUP4" Type="Jet" />
-        <SID Name="MUBID3" Type="Jet" />
+        <SID Name="LENVU1" Type="NonJet" />
+        <SID Name="MEMUP5" Type="Jet" />
+        <SID Name="MUBID4" Type="Jet" />
         <SID Name="OLMAM1" />
         <SID Name="OPEGA1" />
         <SID Name="OTLED5" Type="NonJet" />
         <SID Name="PH7" Default="True" />
-        <SID Name="PIKIL3" Type="NonJet" />
         <SID Name="RANGU9" Type="NonJet" />
         <SID Name="REPOK1" Type="NonJet" />
         <SID Name="SOLUS6" />
         <SID Name="YNRV4" Type="Jet" />
         <STAR Name="DAYL5A" Type="NonJet" ApproachName="RNPZ" />
-        <STAR Name="IPMO1A" ApproachName="RNPZ" />
-        <STAR Name="JULI5A" ApproachName="RNPZ" />
+        <STAR Name="IPMO2A" ApproachName="RNPZ" />
+        <STAR Name="JULI6A" ApproachName="RNPZ" />
         <STAR Name="KABL1A" ApproachName="RNPZ" />
         <STAR Name="LAVE1A" Type="NonJet" ApproachName="RNPZ" />
-        <STAR Name="SAPK1A" Type="NonJet" ApproachName="RNPZ" />
-        <STAR Name="SOLU2A" ApproachName="RNPZ" />
+        <STAR Name="SAPK2A" Type="NonJet" ApproachName="RNPZ" />
+        <STAR Name="SOLU3A" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="21" DataRunway="21">
         <SID Name="AMANA5" Type="Jet" />
         <SID Name="AVNEX5" Type="Jet" />
         <SID Name="HECTO4" Type="Jet" />
-        <SID Name="MEMUP4" Type="Jet" />
-        <SID Name="MUBID3" Type="Jet" />
+        <SID Name="MEMUP5" Type="Jet" />
+        <SID Name="MUBID4" Type="Jet" />
         <SID Name="OLMAM1" />
         <SID Name="OPEGA1" />
         <SID Name="OTKUN2" Type="NonJet" />
         <SID Name="OTLED5" Type="NonJet" />
         <SID Name="PH7" Default="True" />
-        <SID Name="PUMRY6" Type="NonJet" />
+        <SID Name="PUMRY7" Type="NonJet" />
         <SID Name="REPOK1" Type="NonJet" />
         <SID Name="SOLUS6" />
         <SID Name="YNRV4" Type="Jet" />
-        <STAR Name="IPMO1A" ApproachName="RNPZ" />
-        <STAR Name="JULI5A" ApproachName="RNPZ" />
+        <STAR Name="IPMO2A" ApproachName="RNPZ" />
+        <STAR Name="JULI6A" ApproachName="RNPZ" />
         <STAR Name="KABL1A" ApproachName="RNPZ" />
         <STAR Name="LAVE1A" Type="NonJet" ApproachName="RNPZ" />
-        <STAR Name="SAPK1A" Type="NonJet" ApproachName="RNPZ" />
-        <STAR Name="SOLU2A" />
+        <STAR Name="SAPK2A" Type="NonJet" ApproachName="RNPZ" />
+        <STAR Name="SOLU3A" />
       </Runway>
       <Runway Name="24" DataRunway="24">
         <SID Name="AMANA5" Type="Jet" />
         <SID Name="AVNEX5" Type="Jet" />
         <SID Name="HECTO4" Type="Jet" />
-        <SID Name="MEMUP4" Type="Jet" />
-        <SID Name="MUBID3" Type="Jet" />
+        <SID Name="MEMUP5" Type="Jet" />
+        <SID Name="MUBID4" Type="Jet" />
         <SID Name="OLMAM1" />
         <SID Name="OPEGA1" />
         <SID Name="OTKUN2" Type="NonJet" />
         <SID Name="OTLED5" Type="NonJet" />
         <SID Name="PH7" Default="True" />
-        <SID Name="PUMRY6" Type="NonJet" />
+        <SID Name="PUMRY7" Type="NonJet" />
         <SID Name="REPOK1" Type="NonJet" />
         <SID Name="SOLUS6" />
         <SID Name="YNRV4" Type="Jet" />
-        <STAR Name="IPMO1A" />
-        <STAR Name="JULI5A" ApproachName="RNPZ" />
+        <STAR Name="IPMO2A" />
+        <STAR Name="JULI6A" ApproachName="RNPZ" />
         <STAR Name="KABL1A" ApproachName="RNPZ" />
         <STAR Name="LAVE1A" Type="NonJet" ApproachName="RNPZ" />
-        <STAR Name="SAPK1A" Type="NonJet" ApproachName="RNPZ" />
-        <STAR Name="SOLU2A" />
+        <STAR Name="SAPK2A" Type="NonJet" ApproachName="RNPZ" />
+        <STAR Name="SOLU3A" />
       </Runway>
       <Runway Name="03V" DataRunway="03">
         <STAR Name="DAYL5V" Type="NonJet" />
-        <STAR Name="JULI5V" />
+        <STAR Name="JULI6V" />
         <STAR Name="KABL1V" />
         <STAR Name="LAVE1V" Type="NonJet" />
-        <STAR Name="SAPK1V" Type="NonJet" />
-        <STAR Name="SOLU2V" />
+        <STAR Name="SAPK2V" Type="NonJet" />
+        <STAR Name="SOLU3V" />
       </Runway>
       <Runway Name="06V" DataRunway="06">
         <STAR Name="DAYL5V" Type="NonJet" />
-        <STAR Name="JULI5V" />
+        <STAR Name="JULI6V" />
         <STAR Name="KABL1V" />
         <STAR Name="LAVE1V" Type="NonJet" />
-        <STAR Name="SAPK1V" Type="NonJet" />
-        <STAR Name="SOLU2V" />
+        <STAR Name="SAPK2V" Type="NonJet" />
+        <STAR Name="SOLU3V" />
       </Runway>
     </Airport>
     <Airport Name="YPTN">
@@ -15866,20 +15866,20 @@ SAGLI
       <Route Runway="05">-345626.230+1383235.750/MOPRI/SARAG/DOPTI/RUPEL/AREPA</Route>
       <Route Runway="23">-345727.540+1383106.500/BOVPU/KEEFO/RUPEL/AREPA</Route>
     </SID>
-    <SID Name="BENDO2" Airport="YPAD" Runways="05,23">
+    <SID Name="AVDEN1" Airport="YPAD" Runways="05,23">
+      <Route Runway="05">-345626.230+1383235.750/KNOBL/ROGGS/AVDEN</Route>
+      <Route Runway="23">-345727.540+1383106.500/COLPY/LEMAT/MORPH/CLARY/KIKOV/RIVGO/AVDEN</Route>
+    </SID>
+    <SID Name="BENDO3" Airport="YPAD" Runways="05,23">
       <Route Runway="05">-345626.230+1383235.750/KNOBL/ROGGS/BENDO</Route>
       <Route Runway="23">-345727.540+1383106.500/COLPY/LEMAT/MORPH/CLARY/KIKOV/RIVGO/BENDO</Route>
     </SID>
-    <SID Name="GILES4" Airport="YPAD" Runways="05,23">
+    <SID Name="GILES5" Airport="YPAD" Runways="05,23">
       <Route Runway="05">-345626.230+1383235.750/MOPRI/SARAG/DOPTI/DERWY/GILES</Route>
       <Route Runway="23">-345727.540+1383106.500/BOVPU/KEEFO/DERWY/GILES</Route>
     </SID>
     <SID Name="ORBUN5" Airport="YPAD" Runways="05">
       <Route Runway="05">-345626.230+1383235.750/MOPRI/ORBUN</Route>
-    </SID>
-    <SID Name="PANKI3" Airport="YPAD" Runways="05,23">
-      <Route Runway="05">-345626.230+1383235.750/KNOBL/ROGGS/AVDEN</Route>
-      <Route Runway="23">-345727.540+1383106.500/COLPY/LEMAT/MORPH/CLARY/KIKOV/RIVGO/AVDEN</Route>
     </SID>
     <SID Name="UPROT1" Airport="YPAD" Runways="05,23">
       <Route Runway="05">-345626.230+1383235.750/MOPRI/GULLY/UPROT</Route>
@@ -15973,13 +15973,17 @@ SAGLI
       <Route Runway="21">-315731.460+1155734.860/AVBAD/DELRU/HIDOT/VEMON/BURGU/HECTO</Route>
       <Route Runway="24">-315627.560+1155733.130/AVBAD/DELRU/HIDOT/VEMON/BURGU/HECTO</Route>
     </SID>
-    <SID Name="MEMUP4" Airport="YPPH" Runways="03,06,21,24">
+    <SID Name="LENVU1" Airport="YPPH" Runways="03,06">
+      <Route Runway="03">-315542.940+1155806.470/-315225.251+1155959.883/HOVEA/BUVOT/LENVU</Route>
+      <Route Runway="06">-315551.270+1155843.650/HOVEA/BUVOT/LENVU</Route>
+    </SID>
+    <SID Name="MEMUP5" Airport="YPPH" Runways="03,06,21,24">
       <Route Runway="03">-315542.940+1155806.470/MIDLA/ALWYN/AMANA/INVIX/BIRER/MEMUP</Route>
       <Route Runway="06">-315551.270+1155843.650/ALWYN/AMANA/INVIX/BIRER/MEMUP</Route>
       <Route Runway="21">-315731.460+1155734.860/AVBAD/DELRU/HIDOT/VEMON/BURGU/MEMUP</Route>
       <Route Runway="24">-315627.560+1155733.130/-315630.332+1155728.202/-315636.943+1155715.381/-315643.860+1155701.854/-315656.392+1155637.029/-315704.106+1155621.211/-315711.449+1155605.702/-315718.858+1155549.616/-315729.044+1155526.738/-315737.228+1155508.687/-315746.804+1155451.392/-315758.554+1155436.580/-315811.734+1155424.827/-315826.478+1155415.418/-315842.519+1155408.557/-315859.769+1155404.452/-315917.392+1155403.333/-315935.093+1155405.209/-315952.547+1155410.170/-320009.067+1155418.082/-320024.538+1155428.804/-320038.784+1155442.314/AVBAD/DELRU/HIDOT/VEMON/BURGU/MEMUP</Route>
     </SID>
-    <SID Name="MUBID3" Airport="YPPH" Runways="03,06,21,24">
+    <SID Name="MUBID4" Airport="YPPH" Runways="03,06,21,24">
       <Route Runway="03">-315542.940+1155806.470/MIDLA/ALWYN/AMANA/INVIX/BIRER/MUBID</Route>
       <Route Runway="06">-315551.270+1155843.650/ALWYN/AMANA/INVIX/BIRER/MUBID</Route>
       <Route Runway="21">-315731.460+1155734.860/AVBAD/DELRU/HIDOT/VEMON/BURGU/MUBID</Route>
@@ -16013,11 +16017,7 @@ SAGLI
       <Route Runway="21" />
       <Route Runway="24" />
     </SID>
-    <SID Name="PIKIL3" Airport="YPPH" Runways="03,06">
-      <Route Runway="03">-315542.940+1155806.470/-315225.251+1155959.883/HOVEA/BUVOT/LENVU</Route>
-      <Route Runway="06">-315551.270+1155843.650/HOVEA/BUVOT/LENVU</Route>
-    </SID>
-    <SID Name="PUMRY6" Airport="YPPH" Runways="21,24">
+    <SID Name="PUMRY7" Airport="YPPH" Runways="21,24">
       <Route Runway="21">-315731.460+1155734.860/JANDO/MEVAD/PUMRY</Route>
       <Route Runway="24">-315627.560+1155733.130/TUVBA/JANDO/MEVAD/PUMRY</Route>
     </SID>
@@ -16886,24 +16886,24 @@ SAGLI
       <Transition Name="MALUP">MALUP</Transition>
       <Route Runway="03">DAYLR/KOIKI/KARGO</Route>
     </STAR>
-    <STAR Name="IPMO1A" Airport="YPPH" Runways="03,06,21,24">
+    <STAR Name="IPMO2A" Airport="YPPH" Runways="03,06,21,24">
       <Transition Name="KAGMI">KAGMI/BITAP/KALBO/TEMAP</Transition>
       <Route Runway="03">IPMOR/HAYCO/SADOL/HARMN/BITUM</Route>
       <Route Runway="06">IPMOR/VANRU/ORIDO/LENNY</Route>
       <Route Runway="21">IPMOR/GORMA/WOOFY</Route>
       <Route Runway="24">IPMOR/GORMA/WOOFY</Route>
     </STAR>
-    <STAR Name="JULI5A" Airport="YPPH" Runways="03,06,21,24">
+    <STAR Name="JULI6A" Airport="YPPH" Runways="03,06,21,24">
       <Route Runway="03">JULIM/YIREE/WOORA/HERNE/GUNGN/PUDUS/MESAM/WUNGO/HARMN/BITUM</Route>
       <Route Runway="06">JULIM/YIREE/WOORA/HERNE/GUNGN/PUDUS/MESAM/WUNGO/HARMN/BIBRA/LENNY</Route>
       <Route Runway="21">JULIM/YIREE/WOORA/HAIGH</Route>
       <Route Runway="24">JULIM/ISRUP/SPUDO/KOORI</Route>
     </STAR>
-    <STAR Name="JULI5V" Airport="YPPH" Runways="03,06">
+    <STAR Name="JULI6V" Airport="YPPH" Runways="03,06">
       <Route Runway="03">JULIM/YIREE/WOORA/HERNE/RUMAK/SAPUG/TOGAM/KARGO</Route>
       <Route Runway="06">JULIM/YIREE/WOORA/HERNE/RUMAK/SAPUG/TOGAM/KARGO/SAGAR</Route>
     </STAR>
-    <STAR Name="JULI5X" Airport="YPPH" Runways="03">
+    <STAR Name="JULI6X" Airport="YPPH" Runways="03">
       <Route Runway="03">JULIM/YIREE/WOORA/HERNE/RUMAK/SAPUG/TOGAM/KARGO</Route>
     </STAR>
     <STAR Name="KABL1A" Airport="YPPH" Runways="03,06,21,24">
@@ -16932,30 +16932,30 @@ SAGLI
     <STAR Name="LAVE1X" Airport="YPPH" Runways="03">
       <Route Runway="03">LAVEX/BOOKA/MATJI/KARGO</Route>
     </STAR>
-    <STAR Name="SAPK1A" Airport="YPPH" Runways="03,06,21,24">
+    <STAR Name="SAPK2A" Airport="YPPH" Runways="03,06,21,24">
       <Route Runway="03">SAPKO/OLGEK/WOORA/HERNE/GUNGN/PUDUS/MESAM/WUNGO/HARMN/BITUM</Route>
       <Route Runway="06">SAPKO/OLGEK/WOORA/HERNE/GUNGN/PUDUS/MESAM/WUNGO/HARMN/BIBRA/LENNY</Route>
       <Route Runway="21">SAPKO/OLGEK/WOORA/HAIGH</Route>
       <Route Runway="24">SAPKO/NIRUL/SPUDO/KOORI</Route>
     </STAR>
-    <STAR Name="SAPK1V" Airport="YPPH" Runways="03,06">
+    <STAR Name="SAPK2V" Airport="YPPH" Runways="03,06">
       <Route Runway="03">SAPKO/OLGEK/WOORA/HERNE/RUMAK/SAPUG/TOGAM/KARGO</Route>
       <Route Runway="06">SAPKO/OLGEK/WOORA/HERNE/RUMAK/SAPUG/TOGAM/KARGO/SAGAR</Route>
     </STAR>
-    <STAR Name="SAPK1X" Airport="YPPH" Runways="03">
+    <STAR Name="SAPK2X" Airport="YPPH" Runways="03">
       <Route Runway="03">SAPKO/OLGEK/WOORA/HERNE/RUMAK/SAPUG/TOGAM/KARGO</Route>
     </STAR>
-    <STAR Name="SOLU2A" Airport="YPPH" Runways="03,06,21,24">
+    <STAR Name="SOLU3A" Airport="YPPH" Runways="03,06,21,24">
       <Route Runway="03">SOLUS/MOCUR/HARMN/BITUM</Route>
       <Route Runway="06">SOLUS/MOCUR/HARMN/BIBRA/LENNY</Route>
       <Route Runway="21">SOLUS/MOCUR</Route>
       <Route Runway="24">SOLUS/MOCUR</Route>
     </STAR>
-    <STAR Name="SOLU2V" Airport="YPPH" Runways="03,06">
+    <STAR Name="SOLU3V" Airport="YPPH" Runways="03,06">
       <Route Runway="03">SOLUS/MESAM/KARGO</Route>
       <Route Runway="06">SOLUS/MESAM/KARGO/SAGAR</Route>
     </STAR>
-    <STAR Name="SOLU2X" Airport="YPPH" Runways="03">
+    <STAR Name="SOLU3X" Airport="YPPH" Runways="03">
       <Route Runway="03">SOLUS/MESAM/KARGO</Route>
     </STAR>
     <STAR Name="AVBE5A" Airport="YSCB" Runways="17,35">
