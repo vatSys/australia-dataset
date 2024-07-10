@@ -235,6 +235,7 @@
         <Sector Name="WAR" />
         <Sector Name="BKE" />
         <Sector Name="FOR" />
+        <Sector Name="FOW" />
         <Sector Name="WRA" />
         <Sector Name="ESP" />
       </Sectors>
@@ -1818,8 +1819,8 @@
     </Position>
     <Position Name="Darwin TCU" Type="ASD" DefaultCenter="-12.414722+130.876667" DefaultRange="200" MagneticVariation="-3">
       <Sectors>
-        <Sector Name="DAW" />
         <Sector Name="DAE" />
+        <Sector Name="DAW" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1843,6 +1844,12 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Darwin Approach</Line>
+        <Line>ATIS available on 128.25</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="DN-W_APP">
+        <Line>Darwin Approach (West)</Line>
         <Line>ATIS available on 128.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -2558,7 +2565,7 @@
     </Position>
   </Group>
   <Group Name="Class C TWR">
-    <Position Name="Adelaide Tower" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="60" MagneticVariation="-8">
+    <Position Name="Adelaide Tower" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="60" MagneticVariation="-8" DynamicInfill="false">
       <Sectors>
         <Sector Name="AD ADC" />
         <Sector Name="AD SMC" />
@@ -2719,7 +2726,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Melbourne Tower" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="60" MagneticVariation="-11">
+    <Position Name="Melbourne Tower" Type="ASD" DefaultCenter="-3740.4+14450.6" DefaultRange="60" MagneticVariation="-11" DynamicInfill="false">
       <Sectors>
         <Sector Name="ML ADC" />
         <Sector Name="ML SMC" />
@@ -2811,7 +2818,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Brisbane Tower" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="60" MagneticVariation="-11">
+    <Position Name="Brisbane Tower" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="60" MagneticVariation="-11" DynamicInfill="false">
       <Sectors>
         <Sector Name="BN ADC" />
         <Sector Name="BN ADCW" />
@@ -2909,7 +2916,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Perth Tower" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="60" MagneticVariation="1.6">
+    <Position Name="Perth Tower" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="60" MagneticVariation="1.6" DynamicInfill="false">
       <Sectors>
         <Sector Name="PH ADC" />
         <Sector Name="PH SMC" />
