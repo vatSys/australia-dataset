@@ -561,13 +561,23 @@
     </Values>
   </PerformanceData>
   <PerformanceData PerfCat="H" TakeoffSpeed="165" MaxSpeed="400" MaxAlt="450" Mach1="false" IsJet="true">
-    <Types>A124/H,A225/H,B52/H,C5/H,C5M/H,IL96/H,L29A/M,L29B/M</Types>
+    <Types>A124/H,B52/H,C5/H,C5M/H,IL96/H,L29A/M,L29B/M</Types>
     <Values Levels="030,050,100,200,250,290,330,390">
       <ClimbRates>2000,2000,2500,1500,1500,1500,1200,0800</ClimbRates>
       <DescentRates>0700,1400,2000,2300,2100,1800,1200,1000</DescentRates>
       <CruiseSpeeds>N0240,N0250,N0250,N0300,N0300,M069,M070,M074</CruiseSpeeds>
       <ClimbSpeeds>N0210,N0210,N0250,N0280,N0290,M071,M072,M071</ClimbSpeeds>
       <DescentSpeeds>N0190,N0210,N0240,N0245,N0250,M068,M072,M074</DescentSpeeds>
+    </Values>
+  </PerformanceData>
+  <PerformanceData PerfCat="S" TakeoffSpeed="165" MaxSpeed="400" MaxAlt="510" Mach1="false" IsJet="true">
+    <Types>A388/S,A225/S</Types>
+    <Values Levels="30,50,100,150,200,250,280,340,380,420">
+      <ClimbRates>1290,2230,2310,2200,2090,1540,1280,1280,0790,0790</ClimbRates>
+      <DescentRates>0900,1300,1600,2000,2200,2500,2800,3000,3200,2500</DescentRates>
+      <CruiseSpeeds>N0250,N0250,N0250,N0315,N0340,M078,M082,M085,M086,M085</CruiseSpeeds>
+      <ClimbSpeeds>N0250,N0250,N0250,N0324,N0324,M084,M084,M084,M084,M084</ClimbSpeeds>
+      <DescentSpeeds>N0160,N0220,N0250,N0300,N0300,M084,M084,M084,M084,M084</DescentSpeeds>
     </Values>
   </PerformanceData>
   <PerformanceData PerfCat="H" TakeoffSpeed="158" MaxSpeed="380" MaxAlt="450" Mach1="false" IsJet="true">

@@ -2,7 +2,7 @@
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="Alice Springs" Frequency="128.850" Callsign="ML-ASP_CTR" Name="ASP">
     <Volumes>ASP</Volumes>
-    <ResponsibleSectors>FOR,FOW,WAR,ASW,WRA,BKE,ESP</ResponsibleSectors>
+    <ResponsibleSectors>FOR,WAR,ASW,WRA,BKE,ESP</ResponsibleSectors>
   </Sector>
   <Sector FullName="Alice Springs West" Frequency="131.800" Callsign="ML-ASW_CTR" Name="ASW">
     <Volumes>ASW</Volumes>
@@ -60,12 +60,14 @@
     <Volumes>ESP</Volumes>
   </Sector>
   <Sector FullName="Forrest" Frequency="132.700" Callsign="ML-FOR_CTR" Name="FOR">
-    <Volumes>FORE</Volumes>
-    <ResponsibleSectors>FOW</ResponsibleSectors>
+    <Volumes>FOR</Volumes>
+    <!--<Volumes>FORE</Volumes>
+    <ResponsibleSectors>FOW</ResponsibleSectors>-->
   </Sector>
+  <!--
   <Sector FullName="Forrest West" Frequency="131.700" Callsign="ML-FOW_CTR" Name="FOW">
     <Volumes>FORW</Volumes>
-  </Sector>
+  </Sector>-->
   <Sector FullName="Geraldton" Frequency="134.200" Callsign="ML-GEL_CTR" Name="GEL">
     <Volumes>GEL</Volumes>
   </Sector>
@@ -399,7 +401,7 @@
     <Volumes>MLA,MLA_AV</Volumes>
   </Sector>
   <Sector FullName="Nadi Approach" Frequency="119.100" Callsign="NFFN_APP" Name="NFFNA" />
-  <Sector FullName="Nadzab Approach" Frequency="118.600" Callsign="AYNZ_APP" Name="AYNZ" />
+  <Sector FullName="Nadzab Approach" Frequency="118.600" Callsign="AYNZ_APP" Name="AYNZA" />
   <Sector FullName="Nausori Approach" Frequency="119.700" Callsign="NFNA_APP" Name="NFNAA" />
   <Sector FullName="Nowra Approach" Frequency="123.500" Callsign="NW_APP" Name="NWA">
     <Volumes>NWA-A,NWA-B</Volumes>
