@@ -1665,7 +1665,6 @@
     <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" VisibilityRange="100" MagneticVariation="1.6">
       <Sectors>
         <Sector Name="PHA" />
-        <Sector Name="PNE" />
         <Sector Name="PHD" />
         <Sector Name="PEA" />
       </Sectors>
@@ -1699,11 +1698,6 @@
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="PH-N_APP">
-        <Line>Perth Approach (North East)</Line>
-        <Line>ATIS available on 123.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="PH_DEP">
         <Line>Perth Departures</Line>
