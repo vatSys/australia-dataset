@@ -59,9 +59,15 @@
   <Sector FullName="Esperance" Frequency="123.950" Callsign="ML-ESP_CTR" Name="ESP">
     <Volumes>ESP</Volumes>
   </Sector>
-  <Sector FullName="Forest" Frequency="132.700" Callsign="ML-FOR_CTR" Name="FOR">
+  <Sector FullName="Forrest" Frequency="132.700" Callsign="ML-FOR_CTR" Name="FOR">
     <Volumes>FOR</Volumes>
+    <!--<Volumes>FORE</Volumes>
+    <ResponsibleSectors>FOW</ResponsibleSectors>-->
   </Sector>
+  <!--
+  <Sector FullName="Forrest West" Frequency="131.700" Callsign="ML-FOW_CTR" Name="FOW">
+    <Volumes>FORW</Volumes>
+  </Sector>-->
   <Sector FullName="Geraldton" Frequency="134.200" Callsign="ML-GEL_CTR" Name="GEL">
     <Volumes>GEL</Volumes>
   </Sector>
@@ -91,7 +97,7 @@
     <Volumes>INL</Volumes>
     <ResponsibleSectors>KPL,DOS,SDY,BUR,GOL,NSA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Isa" Frequency="125.700" Callsign="BN-ISA_CTR" Name="ISA">
+  <Sector FullName="Isa" Frequency="125.200" Callsign="BN-ISA_CTR" Name="ISA">
     <Volumes>ISA</Volumes>
     <ResponsibleSectors>WEG,ARA,STR,CVN</ResponsibleSectors>
   </Sector>
@@ -395,7 +401,7 @@
     <Volumes>MLA,MLA_AV</Volumes>
   </Sector>
   <Sector FullName="Nadi Approach" Frequency="119.100" Callsign="NFFN_APP" Name="NFFNA" />
-  <Sector FullName="Nadzab Approach" Frequency="118.600" Callsign="AYNZ_APP" Name="AYNZ" />
+  <Sector FullName="Nadzab Approach" Frequency="118.600" Callsign="AYNZ_APP" Name="AYNZA" />
   <Sector FullName="Nausori Approach" Frequency="119.700" Callsign="NFNA_APP" Name="NFNAA" />
   <Sector FullName="Nowra Approach" Frequency="123.500" Callsign="NW_APP" Name="NWA">
     <Volumes>NWA-A,NWA-B</Volumes>
@@ -409,9 +415,6 @@
   <Sector FullName="Perth Approach" Frequency="123.600" Callsign="PH_APP" Name="PHA">
     <Volumes>PHA</Volumes>
     <ResponsibleSectors>PHD,PEA</ResponsibleSectors>
-  </Sector>
-  <Sector FullName="Perth Approach (North East)" Frequency="132.950" Callsign="PH-N_APP" Name="PNE">
-    <Volumes>PHA</Volumes>
   </Sector>
   <Sector FullName="Perth Departures" Frequency="118.700" Callsign="PH_DEP" Name="PHD">
     <Volumes>PHA</Volumes>
