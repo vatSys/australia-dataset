@@ -1,166 +1,167 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Position Name="Armidale" Type="ASD" DefaultCenter="-3233.200+15056.266" DefaultRange="950" VisibilityRange="600">
-    <Sectors>
-      <Sector Name="ARL" />
-      <Sector Name="MDE" />
-      <Sector Name="MLD" />
-      <Sector Name="OCN" />
-      <Sector Name="CNK" />
-      <Sector Name="MNN" />
-    </Sectors>
-    <ManualVisibility>
-      <Point>-32.405+150.710</Point>
-      <Point>-24.802+150.787</Point>
-      <Point>-19.656+140.362</Point>
-      <Point>-32.507+140.712</Point>
-    </ManualVisibility>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="ALL_NAVAIDS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="ALL_POINTS_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="10000" />
-    <ArrivalLists>
-      <Airport Name="YSSY" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Brisbane Centre</Line>
-      <Line>Airspace - https://vats.im/pac/airspace</Line>
-      <Line>Charts - vats.im/pac/charts</Line>
-      <Line>ATC feedback - helpdesk.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Huon" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="800" VisibilityRange="600">
-    <Sectors>
-      <Sector Name="HUO" />
-    </Sectors>
-    <ManualVisibility>
-      <Point>-41.115+146.038</Point>
-      <Point>-33.804+148.270</Point>
-      <Point>-33.158+140.723</Point>
-    </ManualVisibility>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="ALL_NAVAIDS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="ALL_POINTS_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="25000" />
-    <ArrivalLists>
-      <Airport Name="YMHB" />
-      <Airport Name="YMLT" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Melbourne Centre</Line>
-      <Line>Airspace - https://vats.im/pac/airspace</Line>
-      <Line>Charts - vats.im/pac/charts</Line>
-      <Line>ATC feedback - helpdesk.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Mt Isa" Type="ASD" DefaultCenter="-194924.2967+1405500.9521" DefaultRange="2751" VisibilityRange="600">
-    <Sectors>
-      <Sector Name="ISA" />
-      <Sector Name="WEG" />
-      <Sector Name="ARA" />
-      <Sector Name="STR" />
-      <Sector Name="CVN" />
-    </Sectors>
-    <ManualVisibility>
-      <Point>-152747.6868+1234623.9905</Point>
-      <Point>-152103.1805+1362648.3435</Point>
-      <Point>-203937.2766+1464854.3384</Point>
-      <Point>-272304.1469+1543929.8608</Point>
-    </ManualVisibility>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="ALL_NAVAIDS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="ALL_POINTS_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="25000" />
-    <ControllerInfo>
-      <Line>Brisbane Centre</Line>
-      <Line>Airspace - https://vats.im/pac/airspace</Line>
-      <Line>Charts - vats.im/pac/charts</Line>
-      <Line>ATC feedback - helpdesk.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
-  <Position Name="Inverell" Type="ASD" DefaultCenter="-2625.000+15060.000" DefaultRange="1200" VisibilityRange="600">
-    <Sectors>
-      <Sector Name="INL" />
-      <Sector Name="DOS" />
-      <Sector Name="KPL" />
-      <Sector Name="BUR" />
-      <Sector Name="SDY" />
-      <Sector Name="GOL" />
-      <Sector Name="NSA" />
-      <Sector Name="BAN" />
-      <Sector Name="BAS" />
-      <Sector Name="BDN" />
-      <Sector Name="BDS" />
-      <Sector Name="BAC" />
-    </Sectors>
-    <ManualVisibility>
-      <Point>-25.725+150.343</Point>
-      <Point>-31.391+150.777</Point>
-      <Point>-19.010+147.268</Point>
-      <Point>-23.163+141.507</Point>
-    </ManualVisibility>
-    <Maps>
-      <Map Name="ALL_CTA" />
-      <Map Name="ALL_SECTORS" />
-      <Map Name="ALL_NAVAIDS" />
-      <Map Name="COAST_ALL" />
-      <Map Name="ALL_ROUTES_HIGH" />
-      <Map Name="ALL_POINTS_HIGH" />
-      <Map Name="FIR_BDRY" />
-      <Map Name="UPPER_SECTOR_FREQS" />
-    </Maps>
-    <Strips Mode="State" Sort="Time">
-      <Window Type="State" State="Jurisdiction" Visible="true" />
-      <Window Type="State" State="Announced" Visible="true" />
-      <Window Type="State" State="Preactive" Visible="true" />
-    </Strips>
-    <CFL QuickLevel="9000" />
-    <ArrivalLists>
-      <Airport Name="YBBN" />
-    </ArrivalLists>
-    <ControllerInfo>
-      <Line>Brisbane Centre</Line>
-      <Line>Airspace - https://vats.im/pac/airspace</Line>
-      <Line>Charts - vats.im/pac/charts</Line>
-      <Line>ATC feedback - helpdesk.vatpac.org</Line>
-    </ControllerInfo>
-  </Position>
+  <Group Name="Enroute">
+    <Position Name="Armidale" Type="ASD" DefaultCenter="-3233.200+15056.266" DefaultRange="950" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="ARL" />
+        <Sector Name="MDE" />
+        <Sector Name="MLD" />
+        <Sector Name="OCN" />
+        <Sector Name="CNK" />
+        <Sector Name="MNN" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-32.405+150.710</Point>
+        <Point>-24.802+150.787</Point>
+        <Point>-19.656+140.362</Point>
+        <Point>-32.507+140.712</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="10000" />
+      <ArrivalLists>
+        <Airport Name="YSSY" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Brisbane Centre</Line>
+        <Line>Airspace - vats.im/pac/airspace</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Huon" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="800" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="HUO" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-41.115+146.038</Point>
+        <Point>-33.804+148.270</Point>
+        <Point>-33.158+140.723</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="25000" />
+      <ArrivalLists>
+        <Airport Name="YMHB" />
+        <Airport Name="YMLT" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Melbourne Centre</Line>
+        <Line>Airspace - vats.im/pac/airspace</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Mt Isa" Type="ASD" DefaultCenter="-194924.2967+1405500.9521" DefaultRange="2751" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="ISA" />
+        <Sector Name="WEG" />
+        <Sector Name="ARA" />
+        <Sector Name="STR" />
+        <Sector Name="CVN" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-152747.6868+1234623.9905</Point>
+        <Point>-152103.1805+1362648.3435</Point>
+        <Point>-203937.2766+1464854.3384</Point>
+        <Point>-272304.1469+1543929.8608</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="25000" />
+      <ControllerInfo>
+        <Line>Brisbane Centre</Line>
+        <Line>Airspace - vats.im/pac/airspace</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Inverell" Type="ASD" DefaultCenter="-2625.000+15060.000" DefaultRange="1200" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="INL" />
+        <Sector Name="DOS" />
+        <Sector Name="KPL" />
+        <Sector Name="BUR" />
+        <Sector Name="SDY" />
+        <Sector Name="GOL" />
+        <Sector Name="NSA" />
+        <Sector Name="BAN" />
+        <Sector Name="BAS" />
+        <Sector Name="BDN" />
+        <Sector Name="BDS" />
+        <Sector Name="BAC" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-25.725+150.343</Point>
+        <Point>-31.391+150.777</Point>
+        <Point>-19.010+147.268</Point>
+        <Point>-23.163+141.507</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="9000" />
+      <ArrivalLists>
+        <Airport Name="YBBN" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Brisbane Centre</Line>
+        <Line>Airspace - vats.im/pac/airspace</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Howe" Type="ASD" DefaultCenter="-302049.482+1585027.3377" DefaultRange="1600" VisibilityRange="600">
     <Sectors>
       <Sector Name="HWE" />
@@ -1400,7 +1401,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YMES" Visible="true" />
       </Strips>
-      <CFL QuickLevel="21000">
+      <CFL QuickLevel="20000">
         <AdditionalLevels>1900,3400,4400</AdditionalLevels>
       </CFL>
       <ArrivalLists>
@@ -1599,7 +1600,7 @@
       </ControllerInfo>
       <ControllerInfo Callsign="BN-C_APP">
         <Line>Brisbane Approach (Gold Coast)</Line>
-        <Line>ATIS available on 125.5</Line>
+        <Line>ATIS available on 134.5</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -1660,7 +1661,6 @@
     <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" VisibilityRange="100" MagneticVariation="1.6">
       <Sectors>
         <Sector Name="PHA" />
-        <Sector Name="PNE" />
         <Sector Name="PHD" />
         <Sector Name="PEA" />
       </Sectors>
@@ -1690,12 +1690,6 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Perth Approach</Line>
-        <Line>ATIS available on 123.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="PH-N_APP">
-        <Line>Perth Approach (North East)</Line>
         <Line>ATIS available on 123.8</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -1799,7 +1793,7 @@
       <Strips Mode="Beacon" Sort="Alpha">
         <Window Type="ADEP" Beacon="YPTN" Visible="true" />
       </Strips>
-      <CFL QuickLevel="10000">
+      <CFL QuickLevel="18000">
         <AdditionalLevels>2300</AdditionalLevels>
       </CFL>
       <ArrivalLists>
@@ -1814,8 +1808,8 @@
     </Position>
     <Position Name="Darwin TCU" Type="ASD" DefaultCenter="-12.414722+130.876667" DefaultRange="200" MagneticVariation="-3">
       <Sectors>
-        <Sector Name="DAW" />
         <Sector Name="DAE" />
+        <Sector Name="DAW" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1839,6 +1833,12 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Darwin Approach</Line>
+        <Line>ATIS available on 128.25</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="DN-W_APP">
+        <Line>Darwin Approach (West)</Line>
         <Line>ATIS available on 128.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
