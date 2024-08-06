@@ -11,6 +11,9 @@
     <DataLine>
       <Item Type="LABEL_ITEM_LEVEL" Colour="" RightClick="Label_Move" />
     </DataLine>
+    <DataLine>
+      <Item Type="LABEL_ITEM_CPDLCAIR" />
+    </DataLine>
   </Label>
   <Label Type="Quicktag" MaximumWidth="11" LabelRectangle="Default">
     <DataLine>
@@ -29,6 +32,9 @@
     </DataLine>
     <DataLine>
       <Item Type="LABEL_ITEM_OPDATA" BackgroundColour="" Colour="" LeftClick="Label_OpData_Popup" MiddleClick="" RightClick="" />
+    </DataLine>
+    <DataLine>
+      <Item Type="LABEL_ITEM_CPDLCAIR" />
     </DataLine>
   </Label>
   <Label Type="Normal" MaximumWidth="11" LabelRectangle="Default">
@@ -107,6 +113,9 @@
     </DataLine>
     <DataLine>
       <Item Type="LABEL_ITEM_OPDATA" BackgroundColour="" Colour="" LeftClick="Label_OpData_Popup" MiddleClick="" RightClick="Label_Toggle_1" />
+    </DataLine>
+    <DataLine>
+      <Item Type="LABEL_ITEM_CPDLCAIR" />
     </DataLine>
   </Label>
   <Label Type="GroundAir" MaximumWidth="11" LabelRectangle="None">
