@@ -1,5 +1,18 @@
-# vatsys-australia-dataset
-Default profile dataset for vatSys
+# Eurocat Australia Dataset
+This is the default profile dataset for vatSys.
+
+## Aeronautical Information Management
+Scheduled AIRAC updates to the dataset occur once every three months according to the [Airservices Document Amendment Calendar](https://www.airservicesaustralia.com/industry-info/aeronautical-information-management/document-amendment-calendar/).
+
+The VATPAC AIS Team may issue intermediate AIRAC Updates as required.
+
+### Community Update Submissions
+
+Community members may contribute to the dataset by making a pull request to the relevant AIRAC draft branch. These requests must be submitted **one week** before the designated AIRAC Effective Date to be considered for integration.
+
+Pull requests to the master branch will not be approved.
+
+# Data Preparation
 
 **`Profile.xml` must be updated for each release**
 
