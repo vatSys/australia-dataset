@@ -83,7 +83,7 @@
   <Sector FullName="Gundagai" Frequency="128.400" Callsign="ML-GUN_CTR" Name="GUN">
     <Volumes>GUN,GUN_CB_TMA_CAP</Volumes>
   </Sector>
-  <Sector FullName="Howe" Frequency="124.950" Callsign="BN-HWE_CTR" Name="HWE">
+  <Sector FullName="Howe" Frequency="124.950" Callsign="BN-HWE_CTR" Name="HWE-D">
     <Volumes>HWE</Volumes>
   </Sector>
   <Sector FullName="Huon" Frequency="122.600" Callsign="ML-HUO_CTR" Name="HUO">
@@ -260,8 +260,12 @@
   <Sector FullName="Auckland Radio" Frequency="129.000" Callsign="NZZO_FSS" Name="NZZO" DisplayInSectorsWindow="False">
     <Volumes>NZZO</Volumes>
   </Sector>
-  <Sector FullName="Brisbane Radio" Frequency="124.650" Callsign="BN-TSN_FSS" Name="TSN">
+  <Sector FullName="Brisbane Radio (Tasman)" Frequency="124.650" Callsign="BN-TSN_FSS" Name="TSN">
     <Volumes>TSN</Volumes>
+    <ResponsibleSectors>HWE,FLD,COL</ResponsibleSectors>
+  </Sector>
+    <Sector FullName="Brisbane Radio (Howe)" Frequency="124.625" Callsign="BN-HWE_FSS" Name="HWE">
+    <Volumes>HWE</Volumes>
   </Sector>
   <Sector FullName="Brisbane Radio (Coral)" Frequency="133.150" Callsign="BN-COL_FSS" Name="COL">
     <Volumes>COL</Volumes>
