@@ -45,6 +45,8 @@
     <Position Name="Huon" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="800" VisibilityRange="600">
       <Sectors>
         <Sector Name="HUO" />
+        <Sector Name="HBA" />
+        <Sector Name="LTA" />
       </Sectors>
       <ManualVisibility>
         <Point>-41.115+146.038</Point>
@@ -1330,6 +1332,11 @@
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="AD_FMP">
+        <Line>Adelaide Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Amberley TCU" Type="ASD" DefaultCenter="-27.640556+152.711944" DefaultRange="150" MagneticVariation="-11">
       <Sectors>
@@ -1447,6 +1454,11 @@
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="ML_FMP">
+        <Line>Melbourne Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Sydney TCU" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="190" VisibilityRange="100" MagneticVariation="-13">
       <Sectors>
@@ -1526,6 +1538,11 @@
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="SY_FMP">
+        <Line>Sydney Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Brisbane TCU" Type="ASD" DefaultCenter="-27.648889+153.039167" DefaultRange="220" VisibilityRange="100" MagneticVariation="-11">
       <Sectors>
@@ -1594,6 +1611,11 @@
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="BN_FMP">
+        <Line>Brisbane Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" VisibilityRange="100" MagneticVariation="-12.5">
       <Sectors>
@@ -1633,6 +1655,11 @@
         <Line>Canberra Approach (West)</Line>
         <Line>ATIS available on 127.45</Line>
         <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="CB_FMP">
+        <Line>Canberra Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1678,6 +1705,11 @@
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="PH_FMP">
+        <Line>Perth Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
       <ControllerInfo Callsign="PE_APP">
         <Line>Pearce Approach</Line>
         <Line>ATIS available on 136.4</Line>
@@ -1720,6 +1752,11 @@
         <Line>Cairns Approach (West)</Line>
         <Line>ATIS available on 131.1</Line>
         <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="CS_FMP">
+        <Line>Cairns Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
