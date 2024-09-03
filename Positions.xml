@@ -156,6 +156,7 @@
       <CFL QuickLevel="9000" />
       <ArrivalLists>
         <Airport Name="YBBN" />
+        <Airport Name="YBCG" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Brisbane Centre</Line>
@@ -429,7 +430,6 @@
       <CFL QuickLevel="9000" />
       <ArrivalLists>
         <Airport Name="YPAD" />
-        <Airport Name="YMML" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Melbourne Centre</Line>
@@ -513,7 +513,6 @@
       </Strips>
       <CFL QuickLevel="9000" />
       <ArrivalLists>
-        <Airport Name="YPAD" />
         <Airport Name="YMML" />
       </ArrivalLists>
       <ControllerInfo>
@@ -1427,13 +1426,13 @@
         <Window Type="ADEP" Beacon="YMML" Visible="true" />
         <Window Type="ADEP" Beacon="YMAV" Visible="true" />
         <Window Type="ADEP" Beacon="YMMB" Visible="true" />
+        <Window Type="ADEP" Beacon="YMEN" Visible="true" />
       </Strips>
       <CFL QuickLevel="24000">
         <AdditionalLevels>1600,1900,2300,2600,2700,2900,3100,3700,3300,4100,4700</AdditionalLevels>
       </CFL>
       <ArrivalLists>
         <Airport Name="YMML" />
-        <Airport Name="YMAV" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Melbourne Approach</Line>
