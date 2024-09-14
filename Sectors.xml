@@ -97,7 +97,7 @@
     <Volumes>INL</Volumes>
     <ResponsibleSectors>KPL,DOS,SDY,BUR,GOL,NSA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Isa" Frequency="125.200" Callsign="BN-ISA_CTR" Name="ISA">
+  <Sector FullName="Isa" Frequency="125.700" Callsign="BN-ISA_CTR" Name="ISA">
     <Volumes>ISA</Volumes>
     <ResponsibleSectors>WEG,ARA,STR,CVN</ResponsibleSectors>
   </Sector>
@@ -260,9 +260,6 @@
   <Sector FullName="Auckland Radio" Frequency="129.000" Callsign="NZZO_FSS" Name="NZZO" DisplayInSectorsWindow="False">
     <Volumes>NZZO</Volumes>
   </Sector>
-  <Sector FullName="Brisbane Radio" Frequency="124.650" Callsign="BN-TSN_FSS" Name="TSN">
-    <Volumes>TSN</Volumes>
-  </Sector>
   <Sector FullName="Brisbane Radio (Coral)" Frequency="133.150" Callsign="BN-COL_FSS" Name="COL">
     <Volumes>COL</Volumes>
   </Sector>
@@ -279,6 +276,10 @@
   <Sector FullName="Brisbane Radio (Indian)" Frequency="129.250" Callsign="ML-IND_FSS" Name="IND">
     <Volumes>IND</Volumes>
     <ResponsibleSectors>INE,INS</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Brisbane Radio (Tasman)" Frequency="124.650" Callsign="BN-TSN_FSS" Name="TSN">
+    <Volumes>TSN,HWE</Volumes>
+    <ResponsibleSectors>FLD,COL</ResponsibleSectors>
   </Sector>
   <Sector FullName="Johannesburg Oceanic" Frequency="120.850" Callsign="FAJO_FSS" Name="FAJO" DisplayInSectorsWindow="False">
     <Volumes>FAJO</Volumes>
