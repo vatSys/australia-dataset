@@ -14,6 +14,9 @@
     <Volumes>ARL</Volumes>
     <ResponsibleSectors>MDE,MLD,OCN,MNN,CNK</ResponsibleSectors>
   </Sector>
+  <Sector FullName="Ashmore" Frequency="133.400" Callsign="BN-ASH_CTR" Name="ASH">
+    <Volumes>ASH,ASH-O</Volumes>
+  </Sector>
   <Sector FullName="Augusta" Frequency="127.050" Callsign="ML-AUG_CTR" Name="AUG">
     <Volumes>AUG</Volumes>
   </Sector>
@@ -60,14 +63,12 @@
     <Volumes>ESP</Volumes>
   </Sector>
   <Sector FullName="Forrest" Frequency="132.700" Callsign="ML-FOR_CTR" Name="FOR">
-    <Volumes>FOR</Volumes>
-    <!--<Volumes>FORE</Volumes>
-    <ResponsibleSectors>FOW</ResponsibleSectors>-->
+    <Volumes>FORE</Volumes>
+    <ResponsibleSectors>FOW</ResponsibleSectors>
   </Sector>
-  <!--
   <Sector FullName="Forrest West" Frequency="131.700" Callsign="ML-FOW_CTR" Name="FOW">
     <Volumes>FORW</Volumes>
-  </Sector>-->
+  </Sector>
   <Sector FullName="Geraldton" Frequency="134.200" Callsign="ML-GEL_CTR" Name="GEL">
     <Volumes>GEL</Volumes>
   </Sector>
@@ -126,7 +127,7 @@
   <Sector FullName="Keppel" Frequency="125.900" Callsign="BN-KPL_CTR" Name="KPL">
     <Volumes>KPL</Volumes>
   </Sector>
-  <Sector FullName="Kimberley" Frequency="133.400" Callsign="BN-KIY_CTR" Name="KIY">
+  <Sector FullName="Kimberley" Frequency="132.100" Callsign="BN-KIY_CTR" Name="KIY">
     <Volumes>KIY</Volumes>
   </Sector>
   <Sector FullName="Leeman" Frequency="122.400" Callsign="ML-LEA_CTR" Name="LEA">
@@ -213,9 +214,12 @@
     <Volumes>TBD,TBD_TMA_CAP</Volumes>
     <ResponsibleSectors>AUG,AAW</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Territory" Frequency="133.200" Callsign="BN-TRT_CTR" Name="TRT">
+  <Sector FullName="Territory North" Frequency="123.850" Callsign="BN-TRT_CTR" Name="TRT">
     <Volumes>TRT,TRTTMA</Volumes>
-    <ResponsibleSectors>KIY,DAE</ResponsibleSectors>
+    <ResponsibleSectors>KIY,DAE,ASH,TRS</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Territory South" Frequency="133.200" Callsign="BN-TRS_CTR" Name="TRS">
+    <Volumes>TRS</Volumes>
   </Sector>
   <Sector FullName="Tontouta Centre" Frequency="128.200" Callsign="NWWW_CTR" Name="NWWW" DisplayInSectorsWindow="False">
     <Volumes>NWWW</Volumes>
