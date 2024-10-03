@@ -217,6 +217,8 @@
       <Point Name="IN_MOUNT_DALE">MUE</Point>
       <Point Name="IN_NW">-314634.000+1154327.000</Point>
       <Point Name="IN_OAKFORD">OAKF</Point>
+      <Point Name="IN_BOATYARD">BOAT</Point>
+      <Point Name="IN_POWERHOUSE">POWR</Point>
       <Point Name="OUT_ARMADALESHOP">-320656.932+1155609.801</Point>
       <Point Name="OUT_LAKE_THOMSON">YGB</Point>
       <Point Name="OUT_VICTOR_65">NORT</Point>
@@ -242,6 +244,10 @@
     <!--IN_OAKFORD-->
     <Line Pattern="Dotted">
       OAKF/FDL/-320821.411+1155447.799
+    </Line>
+    <!--IN_BOATYARD-->
+    <Line Pattern="Dotted">
+      BOAT/ADWD
     </Line>
     <!--OUT_ARMADALESHOP-->
     <Line Pattern="Dotted">
