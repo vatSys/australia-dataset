@@ -281,36 +281,21 @@
       <Point>SHER</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="HOPE_VALLEY">MLIT</Point>
-      <Point Name="IN_EAST">WRR</Point>
-      <Point Name="IN_NORTHWEST">DUB</Point>
-      <Point Name="OUT_EAST">-344544.954+1384033.480</Point>
-      <Point Name="OUT_NORTHWEST">-344653.182+1383351.669</Point>
+      <Point Name="HOPE_VALLEY">PNL</Point>
       <Point Name="ROUTE_1">BENDO</Point>
+      <Point Name="ENTRY_PORT_ADELAIDE">-34.825278+138.561111</Point>
     </Label>
-    <!--HOPE_VALLEY-->
-    <Line Pattern="Dotted">
-      MLIT/WTC/HVR/-344924.336+1383932.821
-    </Line>
-    <!--IN_EAST-->
-    <Line Pattern="Dotted">
-      WRR/DMW/-344608.133+1384055.354
-    </Line>
-    <!--IN_NORTHWEST-->
-    <Line Pattern="Dotted">
-      DUB/RMH/OHB/-344742.820+1383306.502
-    </Line>
-    <!--OUT_EAST-->
-    <Line Pattern="Dotted">
-      -344544.954+1384033.480/SUB/SPR
-    </Line>
-    <!--OUT_NORTHWEST-->
-    <Line Pattern="Dotted">
-      -344653.182+1383351.669/-344438.523+1383130.173/DUB
+    <!--HOPE_VALLEY_ROUTE-->
+    <Line Pattern="Broken">
+      PNL/MLIT/WTC/HVR/-344924.336+1383932.821
     </Line>
     <!--ROUTE_1-->
     <Line Pattern="Dotted">
-      BENDO/SYN/PNL/MLIT
+      BENDO/SYN/PNL
+    </Line>
+    <!--OUT_PORT_ADELAIDE-->
+    <Line Pattern="Broken">
+      PAL/-34.825278+138.561111
     </Line>
   </Map>
   <Map Type="System2" Name="AD_VFR_FULL_NAME" Priority="1" Center="-34.945000+138.530556">
@@ -390,5 +375,66 @@
       <Threshold Name="18" Position="-34.694536+138.617583" ExtendedCentrelineTrack="8.52" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="36" Position="-34.717353+138.613444" ExtendedCentrelineTrack="188.52" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
+  </Map>
+  <Map Type="System2" Name="PF_ARRS_DEPS" Priority="2" Center="-34.793056+138.638056">
+    <Label HasLeader="true">
+      <Point>SKI</Point>
+      <Point>OHB</Point>
+      <Point>SUB</Point>
+      <Point>DMW</Point>
+      <Point>PAL</Point>
+      <Point>HVR</Point>
+    </Label>
+    <Symbol Type="HollowSquare">
+      <Point>SKI</Point>
+      <Point>OHB</Point>
+      <Point>SUB</Point>
+      <Point>DMW</Point>
+      <Point>PAL</Point>
+      <Point>HVR</Point>
+    </Symbol>
+    <Label HasLeader="true" LabelOrientation="SW">
+      <Point Name="IN_HOPE_VALLEY">HVR</Point>
+      <Point Name="OUT_HOPE_VALLEY">-344924.336+1383932.821</Point>
+      <Point Name="OUT_PORT_ADELAIDE">-34.825278+138.561111</Point>
+      <Point Name="OUT_ST_KILDA">-344653.182+1383351.669</Point>
+      <Point Name="IN_OUTER_HARBOR">OHB</Point>
+      <Point Name="IN_DAM_WALL">DMW</Point>
+      <Point Name="OUT_SUB">-344544.954+1384033.480</Point>
+    </Label>
+    <!--IN-OUT_HOPE_VALLEY-->
+    <Line Pattern="Broken">
+      HVR/-344924.336+1383932.821
+    </Line>
+    <!--IN_DAM-WALL-->
+    <Line Pattern="Broken">
+      DMW/-344608.133+1384055.354
+    </Line>
+    <!--IN-OUTERHARB-->
+    <Line Pattern="Broken">
+      OHB/-344742.820+1383306.502
+    </Line>
+    <!--OUT_SUB-->
+    <Line Pattern="Hash">
+      -344544.954+1384033.480/SUB
+    </Line>
+    <!--OUT_ST-KILDA-->
+    <Line Pattern="Hash">
+      -344653.182+1383351.669/-344438.523+1383130.173
+    </Line>
+    <!--OUT_PORT_ADELAIDE-->
+    <Line Pattern="Hash">
+      PAL/-34.825278+138.561111
+    </Line>
+  </Map>
+  <Map Type="System2" Name="PF_NAMES" Priority="2" Center="-34.793056+138.638056">
+    <Label LabelOrientation="NW">
+      <Point Name="ST KILDA">SKI</Point>
+      <Point Name="OUTER HARBOR">OHB</Point>
+      <Point Name="SUBSTATION">SUB</Point>
+      <Point Name="DAM WALL">DMW</Point>
+      <Point Name="PORT ADELAIDE">PAL</Point>
+      <Point Name="HOPE VALLEY RESV">HVR</Point>
+    </Label>
   </Map>
 </Maps>
