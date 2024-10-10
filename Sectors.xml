@@ -14,6 +14,9 @@
     <Volumes>ARL</Volumes>
     <ResponsibleSectors>MDE,MLD,OCN,MNN,CNK</ResponsibleSectors>
   </Sector>
+  <Sector FullName="Ashmore" Frequency="133.400" Callsign="BN-ASH_CTR" Name="ASH">
+    <Volumes>ASH,ASH-O</Volumes>
+  </Sector>
   <Sector FullName="Augusta" Frequency="127.050" Callsign="ML-AUG_CTR" Name="AUG">
     <Volumes>AUG</Volumes>
   </Sector>
@@ -60,14 +63,12 @@
     <Volumes>ESP</Volumes>
   </Sector>
   <Sector FullName="Forrest" Frequency="132.700" Callsign="ML-FOR_CTR" Name="FOR">
-    <Volumes>FOR</Volumes>
-    <!--<Volumes>FORE</Volumes>
-    <ResponsibleSectors>FOW</ResponsibleSectors>-->
+    <Volumes>FORE</Volumes>
+    <ResponsibleSectors>FOW</ResponsibleSectors>
   </Sector>
-  <!--
   <Sector FullName="Forrest West" Frequency="131.700" Callsign="ML-FOW_CTR" Name="FOW">
     <Volumes>FORW</Volumes>
-  </Sector>-->
+  </Sector>
   <Sector FullName="Geraldton" Frequency="134.200" Callsign="ML-GEL_CTR" Name="GEL">
     <Volumes>GEL</Volumes>
   </Sector>
@@ -126,7 +127,7 @@
   <Sector FullName="Keppel" Frequency="125.900" Callsign="BN-KPL_CTR" Name="KPL">
     <Volumes>KPL</Volumes>
   </Sector>
-  <Sector FullName="Kimberley" Frequency="133.400" Callsign="BN-KIY_CTR" Name="KIY">
+  <Sector FullName="Kimberley" Frequency="132.100" Callsign="BN-KIY_CTR" Name="KIY">
     <Volumes>KIY</Volumes>
   </Sector>
   <Sector FullName="Leeman" Frequency="122.400" Callsign="ML-LEA_CTR" Name="LEA">
@@ -213,9 +214,12 @@
     <Volumes>TBD,TBD_TMA_CAP</Volumes>
     <ResponsibleSectors>AUG,AAW</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Territory" Frequency="133.200" Callsign="BN-TRT_CTR" Name="TRT">
+  <Sector FullName="Territory North" Frequency="123.850" Callsign="BN-TRT_CTR" Name="TRT">
     <Volumes>TRT,TRTTMA</Volumes>
-    <ResponsibleSectors>KIY,DAE</ResponsibleSectors>
+    <ResponsibleSectors>KIY,DAE,ASH,TRS</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Territory South" Frequency="133.200" Callsign="BN-TRS_CTR" Name="TRS">
+    <Volumes>TRS</Volumes>
   </Sector>
   <Sector FullName="Tontouta Centre" Frequency="128.200" Callsign="NWWW_CTR" Name="NWWW" DisplayInSectorsWindow="False">
     <Volumes>NWWW</Volumes>
@@ -459,7 +463,7 @@
   <Sector FullName="Williamtown Approach (Low)" Frequency="135.700" Callsign="WLM-L_APP" Name="WAL">
     <Volumes>WLM_APP</Volumes>
   </Sector>
-  <Sector FullName="Adelaide Delivery" Frequency="126.100" Callsign="AD_DEL" Name="AD COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Adelaide Delivery" Frequency="126.100" Callsign="AD_DEL" Name="AD ACD" DisplayInHandoffWindow="False">
     <Volumes>ADTWR</Volumes>
   </Sector>
   <Sector FullName="Adelaide Ground" Frequency="121.700" Callsign="AD_GND" Name="AD SMC" DisplayInHandoffWindow="False">
@@ -477,7 +481,7 @@
   <Sector FullName="Alice Springs Tower" Frequency="118.300" Callsign="AS_TWR" Name="AS ADC">
     <Volumes>ASTWR</Volumes>
   </Sector>
-  <Sector FullName="Amberley Delivery" Frequency="134.600" Callsign="AMB_DEL" Name="AMB COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Amberley Delivery" Frequency="134.600" Callsign="AMB_DEL" Name="AMB ACD" DisplayInHandoffWindow="False">
     <Volumes>AMBTWR</Volumes>
   </Sector>
   <Sector FullName="Amberley Ground" Frequency="129.350" Callsign="AMB_GND" Name="AMB SMC" DisplayInHandoffWindow="False">
@@ -504,7 +508,7 @@
   <Sector FullName="Bankstown Tower" Frequency="132.800" Callsign="BK_TWR" Name="BK ADC" DisplayInHandoffWindow="False">
     <Volumes>BKTWR</Volumes>
   </Sector>
-  <Sector FullName="Brisbane Delivery" Frequency="118.850" Callsign="BN_DEL" Name="BN COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Brisbane Delivery" Frequency="118.850" Callsign="BN_DEL" Name="BN ACD" DisplayInHandoffWindow="False">
     <Volumes>BNTWR</Volumes>
   </Sector>
   <Sector FullName="Brisbane Ground" Frequency="121.700" Callsign="BN_GND" Name="BN SMC" DisplayInHandoffWindow="False">
@@ -528,7 +532,7 @@
   <Sector FullName="Broome Tower" Frequency="126.000" Callsign="BRM_TWR" Name="BRM ADC">
     <Volumes>BRMTWR</Volumes>
   </Sector>
-  <Sector FullName="Cairns Delivery" Frequency="128.750" Callsign="CS_DEL" Name="CS COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Cairns Delivery" Frequency="128.750" Callsign="CS_DEL" Name="CS ACD" DisplayInHandoffWindow="False">
     <Volumes>CSTWR</Volumes>
   </Sector>
   <Sector FullName="Cairns Ground" Frequency="121.700" Callsign="CS_GND" Name="CS SMC" DisplayInHandoffWindow="False">
@@ -552,7 +556,7 @@
   <Sector FullName="Coffs Harbour Tower" Frequency="118.200" Callsign="CFS_TWR" Name="CFS ADC" DisplayInHandoffWindow="False">
     <Volumes>CFSTWR</Volumes>
   </Sector>
-  <Sector FullName="Curtin Delivery" Frequency="136.800" Callsign="CIN_DEL" Name="CIN COORD">
+  <Sector FullName="Curtin Delivery" Frequency="136.800" Callsign="CIN_DEL" Name="CIN ACD">
     <Volumes>CINTWR</Volumes>
   </Sector>
   <Sector FullName="Curtin Ground" Frequency="126.200" Callsign="CIN_GND" Name="CIN SMC">
@@ -561,7 +565,7 @@
   <Sector FullName="Curtin Tower" Frequency="118.300" Callsign="CIN_TWR" Name="CIN ADC">
     <Volumes>CINTWR</Volumes>
   </Sector>
-  <Sector FullName="Darwin Delivery" Frequency="126.800" Callsign="DN_DEL" Name="DN COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Darwin Delivery" Frequency="126.800" Callsign="DN_DEL" Name="DN ACD" DisplayInHandoffWindow="False">
     <Volumes>DNTWR</Volumes>
   </Sector>
   <Sector FullName="Darwin Ground" Frequency="121.800" Callsign="DN_GND" Name="DN SMC" DisplayInHandoffWindow="False">
@@ -570,7 +574,7 @@
   <Sector FullName="Darwin Tower" Frequency="133.100" Callsign="DN_TWR" Name="DN ADC" DisplayInHandoffWindow="False">
     <Volumes>DNTWR</Volumes>
   </Sector>
-  <Sector FullName="East Sale Delivery" Frequency="133.600" Callsign="ES_DEL" Name="ES COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="East Sale Delivery" Frequency="133.600" Callsign="ES_DEL" Name="ES ACD" DisplayInHandoffWindow="False">
     <Volumes>ESTWR</Volumes>
   </Sector>
   <Sector FullName="East Sale Ground" Frequency="127.250" Callsign="ES_GND" Name="ES SMC" DisplayInHandoffWindow="False">
@@ -597,7 +601,7 @@
   <Sector FullName="Gingin Tower" Frequency="118.500" Callsign="GIG_TWR" Name="GIG ADC" DisplayInHandoffWindow="False">
     <Volumes>GIGTWR</Volumes>
   </Sector>
-  <Sector FullName="Gold Coast Delivery" Frequency="128.750" Callsign="CG_DEL" Name="CG COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Gold Coast Delivery" Frequency="128.750" Callsign="CG_DEL" Name="CG ACD" DisplayInHandoffWindow="False">
     <Volumes>CGTWR</Volumes>
   </Sector>
   <Sector FullName="Gold Coast Ground" Frequency="121.800" Callsign="CG_GND" Name="CG SMC" DisplayInHandoffWindow="False">
@@ -648,7 +652,7 @@
   </Sector>
   <Sector FullName="Madang Tower" Frequency="118.100" Callsign="AYMD_TWR" Name="AYMD ADC" />
   <Sector FullName="Magenta Tower" Frequency="118.300" Callsign="NWWM_TWR" Name="NWWM ADC" />
-  <Sector FullName="Melbourne Delivery" Frequency="127.200" Callsign="ML_DEL" Name="ML COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Melbourne Delivery" Frequency="127.200" Callsign="ML_DEL" Name="ML ACD" DisplayInHandoffWindow="False">
     <Volumes>MLTWR</Volumes>
   </Sector>
   <Sector FullName="Melbourne Ground" Frequency="121.700" Callsign="ML_GND" Name="ML SMC" DisplayInHandoffWindow="False">
@@ -668,7 +672,7 @@
   <Sector FullName="Nadzab Tower" Frequency="121.700" Callsign="AYNZ_TWR" Name="AYNZ ADC" />
   <Sector FullName="Nausori Tower" Frequency="119.600" Callsign="NFNA_TWR" Name="NFNA ADC" />
   <Sector FullName="Noumea Tower" Frequency="118.100" Callsign="NWWW_TWR" Name="NWWW ADC" />
-  <Sector FullName="Nowra Delivery" Frequency="128.350" Callsign="NW_DEL" Name="NW COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Nowra Delivery" Frequency="128.350" Callsign="NW_DEL" Name="NW ACD" DisplayInHandoffWindow="False">
     <Volumes>NWTWR</Volumes>
   </Sector>
   <Sector FullName="Nowra Ground" Frequency="135.850" Callsign="NW_GND" Name="NW SMC" DisplayInHandoffWindow="False">
@@ -689,7 +693,7 @@
   <Sector FullName="Parafield Tower" Frequency="118.700" Callsign="PF_TWR" Name="PF ADC" DisplayInHandoffWindow="False">
     <Volumes>PFTWR</Volumes>
   </Sector>
-  <Sector FullName="Pearce Delivery" Frequency="134.100" Callsign="PE_DEL" Name="PE COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Pearce Delivery" Frequency="134.100" Callsign="PE_DEL" Name="PE ACD" DisplayInHandoffWindow="False">
     <Volumes>PEATWR</Volumes>
   </Sector>
   <Sector FullName="Pearce Ground" Frequency="127.250" Callsign="PE_GND" Name="PE SMC" DisplayInHandoffWindow="False">
@@ -698,7 +702,7 @@
   <Sector FullName="Pearce Tower" Frequency="118.300" Callsign="PE_TWR" Name="PE ADC" DisplayInHandoffWindow="False">
     <Volumes>PEATWR</Volumes>
   </Sector>
-  <Sector FullName="Perth Delivery" Frequency="118.550" Callsign="PH_DEL" Name="PH COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Perth Delivery" Frequency="118.550" Callsign="PH_DEL" Name="PH ACD" DisplayInHandoffWindow="False">
     <Volumes>PHTWR</Volumes>
   </Sector>
   <Sector FullName="Perth Ground" Frequency="121.700" Callsign="PH_GND" Name="PH SMC" DisplayInHandoffWindow="False">
@@ -737,13 +741,16 @@
   <Sector FullName="Sunshine Coast Tower" Frequency="124.400" Callsign="SU_TWR" Name="SU ADC">
     <Volumes>SUTWR</Volumes>
   </Sector>
-  <Sector FullName="Sydney Delivery" Frequency="133.800" Callsign="SY_DEL" Name="SY COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Sydney Delivery" Frequency="133.800" Callsign="SY_DEL" Name="SY ACD" DisplayInHandoffWindow="False">
     <Volumes>SYTWR</Volumes>
   </Sector>
-  <Sector FullName="Sydney Ground" Frequency="126.500" Callsign="SY_GND" Name="SY SMC" DisplayInHandoffWindow="False">
+  <Sector FullName="Sydney Coordinator" Frequency="127.600" Callsign="SY-C_GND" Name="SY COORD" DisplayInHandoffWindow="False">
     <Volumes>SYTWR</Volumes>
   </Sector>
-  <Sector FullName="Sydney Ground (East)" Frequency="121.700" Callsign="SY-E_GND" Name="SY SMCE" DisplayInHandoffWindow="False">
+  <Sector FullName="Sydney Ground (West)" Frequency="126.500" Callsign="SY-W_GND" Name="SY SMCW" DisplayInHandoffWindow="False">
+    <Volumes>SYTWR</Volumes>
+  </Sector>
+  <Sector FullName="Sydney Ground" Frequency="121.700" Callsign="SY_GND" Name="SY SMC" DisplayInHandoffWindow="False">
     <Volumes>SYTWR</Volumes>
   </Sector>
   <Sector FullName="Sydney Tower" Frequency="120.500" Callsign="SY_TWR" Name="SY ADC" DisplayInHandoffWindow="False">
@@ -758,7 +765,7 @@
   <Sector FullName="Tamworth Tower" Frequency="119.400" Callsign="TW_TWR" Name="TW ADC">
     <Volumes>TWTWR</Volumes>
   </Sector>
-  <Sector FullName="Tindal Delivery" Frequency="128.100" Callsign="TN_DEL" Name="TN COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Tindal Delivery" Frequency="128.100" Callsign="TN_DEL" Name="TN ACD" DisplayInHandoffWindow="False">
     <Volumes>TNTWR</Volumes>
   </Sector>
   <Sector FullName="Tindal Ground" Frequency="135.850" Callsign="TN_GND" Name="TN SMC" DisplayInHandoffWindow="False">
@@ -768,7 +775,7 @@
     <Volumes>TNTWR</Volumes>
   </Sector>
   <Sector FullName="Tokua Tower" Frequency="118.200" Callsign="AYTK_TWR" Name="AYTK ADC" />
-  <Sector FullName="Townsville Delivery" Frequency="128.100" Callsign="TL_DEL" Name="TL COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Townsville Delivery" Frequency="128.100" Callsign="TL_DEL" Name="TL ACD" DisplayInHandoffWindow="False">
     <Volumes>TLTWR</Volumes>
   </Sector>
   <Sector FullName="Townsville Ground" Frequency="121.800" Callsign="TL_GND" Name="TL SMC" DisplayInHandoffWindow="False">
@@ -777,7 +784,7 @@
   <Sector FullName="Townsville Tower" Frequency="118.300" Callsign="TL_TWR" Name="TL ADC" DisplayInHandoffWindow="False">
     <Volumes>TLTWR</Volumes>
   </Sector>
-  <Sector FullName="Williamtown Delivery" Frequency="130.350" Callsign="WLM_DEL" Name="WLM COORD" DisplayInHandoffWindow="False">
+  <Sector FullName="Williamtown Delivery" Frequency="130.350" Callsign="WLM_DEL" Name="WLM ACD" DisplayInHandoffWindow="False">
     <Volumes>WLMTWR</Volumes>
   </Sector>
   <Sector FullName="Williamtown Ground" Frequency="121.800" Callsign="WLM_GND" Name="WLM SMC" DisplayInHandoffWindow="False">
