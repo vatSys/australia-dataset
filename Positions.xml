@@ -2200,9 +2200,10 @@
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
-        <Map Name="C_LL_LABELS" />
-        <Map Name="Brisbane/BN_TCU" />
-        <Map Name="Brisbane/BN_VFR" />
+        <Map Name="Brisbane/BN_TCU"/>
+        <Map Name="TMA_LL_LABELS" />
+        <Map Name="Brisbane/AF_ARRS_DEPS" />
+        <Map Name="Brisbane/AF_FULL_NAMES" />
       </Maps>
       <ATIS>
         <Editor Airport="YBAF" Frequency="120.9" />
@@ -2272,7 +2273,8 @@
         <Map Name="ALL_CTA" />
         <Map Name="C_LL_LABELS" />
         <Map Name="Sydney/SY_TCU" />
-        <Map Name="Sydney/SY_VFR" />
+        <Map Name="Sydney/BK_ARRS_DEPS" />
+        <Map Name="Sydney/BK_FULL_NAMES" />
       </Maps>
       <ATIS>
         <Editor Airport="YSBK" Frequency="120.9" />
@@ -2379,7 +2381,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Perth/PH_COAST" />
         <Map Name="Perth/PH_TCU" />
-        <Map Name="Perth/PH_VFR" />
+        <Map Name="Perth/YPJT_ARRS_DEPS" />
       </Maps>
       <ATIS>
         <Editor Airport="YPJT" Frequency="128.65" />
@@ -2479,7 +2481,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Melbourne/ML_COAST" />
         <Map Name="Melbourne/ML_TCU" />
-        <Map Name="Melbourne/ML_VFR" />
+        <Map Name="Melbourne/MB_ARRS_DEPS" />
       </Maps>
       <ATIS>
         <Editor Airport="YMMB" Frequency="120.9" />
@@ -2514,7 +2516,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Adelaide/AD_COAST" />
         <Map Name="Adelaide/AD_TCU" />
-        <Map Name="Adelaide/AD_VFR" />
+        <Map Name="Adelaide/PF_ARRS_DEPS" />
       </Maps>
       <ATIS>
         <Editor Airport="YPPF" Frequency="120.9" />

@@ -196,6 +196,55 @@
       TONIM
     </Line>
   </Map>
+  <Map Type="System2" Name="BK_ARRS_DEPS" Priority="1" Center="-33.924445+150.990278">
+    <Symbol Type="HollowSquare">
+      <Point>PSP</Point>
+      <Point>PRT</Point>
+      <Point>TWRN</Point>
+      <Point>WFM</Point>
+      <Point>CSTH</Point>
+      <Point>CNTH</Point>
+      <Point>CWST</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>PSP</Point>
+      <Point>PRT</Point>
+      <Point>TWRN</Point>
+      <Point>WFM</Point>
+      <Point>CSTH</Point>
+      <Point>CNTH</Point>
+      <Point>CWST</Point>
+    </Label>
+    <Label LabelOrientation="NW">
+      <Point Name="IN_NORTH">PSP</Point>
+      <Point Name="OUT_NORTH">-335230.084+1505947.701</Point>
+      <Point Name="IN_TWO_RN">TWRN</Point>
+    </Label>
+    <!--IN_NORTH-->
+    <Line Pattern="Broken">
+      PSP/-335252.538+1505729.859
+    </Line>
+    <!--OUT_NORTH-->
+    <Line Pattern="Hash">
+      -335230.084+1505947.701/PRT
+    </Line>
+    <!--TWO_RN_IN-->
+    <Line Pattern="Broken">
+      TWRN/-33.931945+150.946945
+    </Line>
+
+  </Map>
+  <Map Type="System2" Name="BK_FULL_NAMES" Priority="1" Center="-33.924445+150.990278">
+    <Label LabelOrientation="SW" HasLeader="True">
+      <Point Name="WARWICK FARM">WFM</Point>
+      <Point Name="PROSPECT RESV">PSP</Point>
+      <Point Name="CHOPPERS NORTH">CNTH</Point>
+      <Point Name="CHOPPERS SOUTH">CSTH</Point>
+      <Point Name="CHOPPERS WEST">CWST</Point>
+      <Point Name="TWO RN">TWRN</Point>
+      <Point Name="PARRAMATTA">PRT</Point>
+    </Label>
+  </Map>
   <Map Type="System2" Name="SY_VFR" Priority="1" Center="-33.946111+151.177222">
     <Symbol Type="HollowSquare">
       <Point>APPN</Point>
@@ -262,7 +311,6 @@
       <Point>APST</Point>
       <Point>TWRN</Point>
       <Point>WAD</Point>
-      <Point>WFM</Point>
       <Point>WFL</Point>
       <Point>WST</Point>
       <Point>WSFR</Point>
@@ -334,7 +382,6 @@
       <Point>APST</Point>
       <Point>TWRN</Point>
       <Point>WAD</Point>
-      <Point>WFM</Point>
       <Point>WFL</Point>
       <Point>WST</Point>
       <Point>WSFR</Point>
@@ -343,8 +390,6 @@
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="RIC_ROUTE">WSFR</Point>
-      <Point Name="IN_SOUTH">BBG</Point>
-      <Point Name="OUT_NORTH">-335230.084+1505947.701</Point>
       <Point Name="HARB_SCENIC_1">LRF</Point>
       <Point Name="HARB_SCENIC_2">CHAT</Point>
       <Point Name="VICTOR_1">-340506.284+1511110.861</Point>
@@ -355,22 +400,22 @@
     </Line>
     <!--IN_SOUTH-->
     <Line Pattern="Dotted">
-      BBG/-334202.299+1510107.919/PSP/-335252.538+1505729.859
+      BBG/-334202.299+1510107.919/PSP
     </Line>
     <!--OUT_NORTH-->
     <Line Pattern="Dotted">
-      -335230.084+1505947.701/PRT/PENH/HSY/PAA
+      PRT/PENH/HSY/PAA
     </Line>
     <!--HARB_SCENIC_1-->
-    <Line Pattern="Dotted">
+    <Line Pattern="Broken">
       LRF/HBB/NOHD/MANLY/LRF
     </Line>
     <!--HARB_SCENIC_2-->
-    <Line Pattern="Dotted">
+    <Line Pattern="Dashed">
       CHAT/MANLY/LRF/CHAT
     </Line>
     <!--VICTOR_1-->
-    <Line Pattern="Dotted">
+    <Line Pattern="Broken">
       -340506.284+1511110.861/-340335.577+1511019.319/-340257.437+1511049.340/-340310.676+1511225.434/-340238.465+1511416.076/-340022.549+1511616.430/-335752.052+1511718.164/-335339.126+1511758.562/-335227.462+1511750.614/-335043.958+1511818.085/-334840.614+1511915.691/-334707.637+1511831.136/-334440.393+1512000.837
     </Line>
   </Map>
@@ -440,7 +485,6 @@
       <Point Name="THE STAMFORD (HOTEL)">APST</Point>
       <Point Name="TWO RN">TWRN</Point>
       <Point Name="WARRAGAMBA DAM">WAD</Point>
-      <Point Name="WARWICK FARM">WFM</Point>
       <Point Name="WATERFALL">WFL</Point>
       <Point Name="WESTMEAD">WST</Point>
       <Point Name="WISEMANS FERRY">WSFR</Point>
