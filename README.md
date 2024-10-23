@@ -11,7 +11,8 @@ The majority of files in the dataset are prepared using third-party software whi
 
 The following files are **not** updated in this way, meaning that community members may fork the repo and make direct edits to these files.
 
-```Except for Airspace.xml and RestrictedAreas.xml all other files in the root folder of the profile dataset are manually maintained and not updated as part of a vatSys export.
+```
+Except for Airspace.xml and RestrictedAreas.xml all other files in the root folder of the profile dataset are manually maintained and not updated as part of a vatSys export.
 
 In the Maps folder the following files are manually maintained and not updated as part of a vatSys export:
 a) COAST_ALL.xml 
@@ -20,7 +21,8 @@ c) ALL_CTA.xml
 d) ALL_SECTORS.xml 
 e) ASMGCS_TAXI_ALL.xml 
 f) BAY_NUMBERS.xml
-g) Within each Airport folder, XX RTCC.xml, ASMGCS_XXXX.xml and XX_VOR.xml```
+g) Within each Airport folder, XX RTCC.xml, ASMGCS_XXXX.xml and XX_VOR.xml
+```
 
 Non-AIS Staff/Community members may contribute to the dataset to edit the above mentioned files by making a pull request to the relevant AIRAC draft branch. These requests must be submitted **two weeks** before the designated AIRAC Effective Date to be considered for integration.
 
