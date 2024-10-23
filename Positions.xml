@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Positions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Group Name="Enroute">
-    <Position Name="Armidale" Type="ASD" DefaultCenter="-3233.200+15056.266" DefaultRange="950" VisibilityRange="600">
+    <Position Name="Armidale" Type="ASD" DefaultCenter="-3233.200+15056.266" DefaultRange="950" VisibilityRange="600" MagneticVariation="-12.2">
       <Sectors>
         <Sector Name="ARL" />
         <Sector Name="MDE" />
@@ -42,7 +42,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Huon" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="800" VisibilityRange="600">
+    <Position Name="Huon" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="800" VisibilityRange="600" MagneticVariation="-14.2">
       <Sectors>
         <Sector Name="HUO" />
         <Sector Name="HBA" />
@@ -80,7 +80,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Mt Isa" Type="ASD" DefaultCenter="-194924.2967+1405500.9521" DefaultRange="2751" VisibilityRange="600">
+    <Position Name="Mt Isa" Type="ASD" DefaultCenter="-194924.2967+1405500.9521" DefaultRange="2751" VisibilityRange="600" MagneticVariation="-5.7">
       <Sectors>
         <Sector Name="ISA" />
         <Sector Name="WEG" />
@@ -117,7 +117,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Inverell" Type="ASD" DefaultCenter="-2625.000+15060.000" DefaultRange="1200" VisibilityRange="600">
+    <Position Name="Inverell" Type="ASD" DefaultCenter="-2625.000+15060.000" DefaultRange="1200" VisibilityRange="600" MagneticVariation="-10.2">
       <Sectors>
         <Sector Name="INL" />
         <Sector Name="DOS" />
@@ -165,7 +165,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Howe" Type="ASD" DefaultCenter="-302049.482+1585027.3377" DefaultRange="1600" VisibilityRange="600">
+    <Position Name="Howe" Type="ASD" DefaultCenter="-302049.482+1585027.3377" DefaultRange="1600" VisibilityRange="600" MagneticVariation="-13.8">
       <Sectors>
         <Sector Name="HWE" />
       </Sectors>
@@ -192,7 +192,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="2000" VisibilityRange="600">
+    <Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="2000" VisibilityRange="600" MagneticVariation="-2.0">
       <Sectors>
         <Sector Name="TRT" />
         <Sector Name="KIY" />
@@ -233,7 +233,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Alice Springs" Type="ASD" DefaultCenter="-302041.5031+1342547.7539" DefaultRange="2610" VisibilityRange="600">
+    <Position Name="Alice Springs" Type="ASD" DefaultCenter="-302041.5031+1342547.7539" DefaultRange="2610" VisibilityRange="600" MagneticVariation="-5.5">
       <Sectors>
         <Sector Name="ASP" />
         <Sector Name="ASW" />
@@ -276,7 +276,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Pingelly" Type="ASD" DefaultCenter="-314436.9356+1155549.0723" DefaultRange="1350" VisibilityRange="600">
+    <Position Name="Pingelly" Type="ASD" DefaultCenter="-314436.9356+1155549.0723" DefaultRange="1350" VisibilityRange="600" MagneticVariation="1.5">
       <Sectors>
         <Sector Name="PIY" />
         <Sector Name="JAR" />
@@ -321,7 +321,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Onslow" Type="ASD" DefaultCenter="-243721.9113+1183247.2943" DefaultRange="1800" VisibilityRange="600">
+    <Position Name="Onslow" Type="ASD" DefaultCenter="-243721.9113+1183247.2943" DefaultRange="1800" VisibilityRange="600" MagneticVariation="-0.8">
       <Sectors>
         <Sector Name="OLW" />
         <Sector Name="POT" />
@@ -360,7 +360,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Kennedy" Type="ASD" DefaultCenter="-1850.000+14800.000" DefaultRange="1100" VisibilityRange="600">
+    <Position Name="Kennedy" Type="ASD" DefaultCenter="-1850.000+14800.000" DefaultRange="1100" VisibilityRange="600" MagneticVariation="-7.5">
       <Sectors>
         <Sector Name="KEN" />
         <Sector Name="TBP" />
@@ -401,7 +401,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Tailem Bend" Type="ASD" DefaultCenter="-343343.9975+1374743.4216" DefaultRange="800" VisibilityRange="600">
+    <Position Name="Tailem Bend" Type="ASD" DefaultCenter="-343343.9975+1374743.4216" DefaultRange="800" VisibilityRange="600" MagneticVariation="-7.6">
       <Sectors>
         <Sector Name="TBD" />
         <Sector Name="AUG" />
@@ -440,7 +440,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Eildon Weir" Type="ASD" DefaultCenter="-371932.1176+1474022.0459" DefaultRange="700" VisibilityRange="600">
+    <Position Name="Eildon Weir" Type="ASD" DefaultCenter="-371932.1176+1474022.0459" DefaultRange="700" VisibilityRange="600" MagneticVariation="-12.9">
       <Sectors>
         <Sector Name="ELW" />
         <Sector Name="SNO" />
@@ -483,7 +483,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Yarrowee" Type="ASD" DefaultCenter="-353339.8227+1451131.8091" DefaultRange="1000" VisibilityRange="600">
+    <Position Name="Yarrowee" Type="ASD" DefaultCenter="-353339.8227+1451131.8091" DefaultRange="1000" VisibilityRange="600" MagneticVariation="-11.1">
       <Sectors>
         <Sector Name="YWE" />
         <Sector Name="WON" />
@@ -524,7 +524,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Bindook" Type="ASD" DefaultCenter="-344958.4436+1501835.7166" DefaultRange="600" VisibilityRange="600">
+    <Position Name="Bindook" Type="ASD" DefaultCenter="-344958.4436+1501835.7166" DefaultRange="600" VisibilityRange="600" MagneticVariation="-12.9">
       <Sectors>
         <Sector Name="BIK" />
         <Sector Name="WOL" />
@@ -1231,7 +1231,7 @@
     </Position>
   </Group>
   <Group Name="Oceanic">
-    <Position Name="Tasman Oceanic" Type="ASD" DefaultCenter="-284300.4413+1583827.4585" DefaultRange="5300" VisibilityRange="1500">
+    <Position Name="Tasman Oceanic" Type="ASD" DefaultCenter="-284300.4413+1583827.4585" DefaultRange="5300" VisibilityRange="1500" MagneticVariation="-13.1">
       <Sectors>
         <Sector Name="TSN" />
         <Sector Name="FLD" />
@@ -1261,7 +1261,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Indian Oceanic" Type="ASD" DefaultCenter="-155400.0+0971040.0" DefaultRange="5000">
+    <Position Name="Indian Oceanic" Type="ASD" DefaultCenter="-155400.0+0971040.0" DefaultRange="5000" MagneticVariation="2.5">
       <Sectors>
         <Sector Name="IND" />
         <Sector Name="INS" />
@@ -1303,7 +1303,7 @@
         <Map Name="Adelaide/AD_COAST" />
         <Map Name="Adelaide/AD_TCU" />
         <Map Name="Adelaide/AD_RWY23" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
         <Map Name="ALL_SECTORS" />
       </Maps>
       <ATIS>
@@ -1414,7 +1414,7 @@
         <Map Name="Melbourne/ML_TCU" />
         <Map Name="Melbourne/ML_RWY16" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YMML" Frequency="118.0" />
@@ -1476,7 +1476,7 @@
         <Map Name="Sydney/SY_TCU" />
         <Map Name="Sydney/SY_RWY34PROPS" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YSSY" Frequency="126.25" />
@@ -1560,7 +1560,7 @@
         <Map Name="Brisbane/BN_RWY01PROPS" />
         <Map Name="Brisbane/CG_RWY32" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBBN" Frequency="125.5" />
@@ -1629,7 +1629,7 @@
         <Map Name="Canberra/CB_TCU" />
         <Map Name="Canberra/CB_RWY1712" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YSCB" Frequency="127.45" />
@@ -1677,7 +1677,7 @@
         <Map Name="Perth/PH_TCU" />
         <Map Name="Perth/PH_RWY0306" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YPPH" Frequency="123.8" />
@@ -1728,7 +1728,7 @@
         <Map Name="Cairns/CS_TCU" />
         <Map Name="Cairns/CS_RWY15" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBCS" Frequency="131.1" />
@@ -1771,7 +1771,7 @@
         <Map Name="Townsville/TL_TCU" />
         <Map Name="Townsville/TL_RWY01" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBTL" Frequency="133.5" />
@@ -1834,7 +1834,7 @@
         <Map Name="Darwin/DN_TCU" />
         <Map Name="Darwin/DN_RWY11" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YPDN" Frequency="128.25" />
@@ -1873,7 +1873,7 @@
         <Map Name="Williamtown/WLM_TCU" />
         <Map Name="Williamtown/WLM_RWY12" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YWLM" Frequency="134.45" />
@@ -1972,7 +1972,7 @@
         <Map Name="Hobart/HB_TCU" />
         <Map Name="Hobart/HB_RWY12" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YMHB" Frequency="128.45" />
@@ -2005,7 +2005,7 @@
         <Map Name="Launceston/LT_TCU" />
         <Map Name="Launceston/LT_RWY32L" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YMLT" Frequency="134.75" />
@@ -2041,7 +2041,7 @@
         <Map Name="Mackay/MK_TCU" />
         <Map Name="Mackay/MK_RWY14" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBMK" Frequency="128.0" />
@@ -2077,7 +2077,7 @@
         <Map Name="Rockhampton/RK_TCU" />
         <Map Name="Rockhampton/RK_RWY15" />
         <Map Name="ALL_SECTORS" />
-        <Map Name="TMA_LL_LABELS"/>
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBRK" Frequency="128.5" />
