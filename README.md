@@ -7,8 +7,9 @@ Scheduled AIRAC updates to the dataset occur once every three months according t
 The VATPAC AIS Team may issue intermediate AIRAC Updates as required.
 
 ### Update Submissions
+**IMPORTANT: This dataset is maintained through an in-house software package which overwrites most files each update. Any errors or suggestions should be submitted through the [VATPAC Helpdesk](https://helpdesk.vatpac.org), so they can be properly integrated.**
 
-Non-AIS Staff/Community members may contribute to the dataset by making a pull request to the relevant AIRAC draft branch. These requests must be submitted **two weeks** before the designated AIRAC Effective Date to be considered for integration.
+Non-AIS Staff/Community members who wish to contribute to the dataset should do so by making a pull request to the relevant AIRAC draft branch. These requests must be submitted **two weeks** before the designated AIRAC Effective Date to be considered for integration.
 
 Pull requests to the master branch will not be approved.
 
