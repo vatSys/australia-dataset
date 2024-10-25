@@ -335,7 +335,7 @@
     -08.323333+130.454445/
     -07.393889+133.666667
   </Boundary>
-  <Boundary Name="ARAFURAWEST_WF">
+  <Boundary Name="ARAFURAEAST_WF">
     -09.833333+139.666667/
     -09.833333+141.000000/
     -09.616667+141.033333/
@@ -5363,7 +5363,7 @@
     <Boundaries>ARAFURA_WF</Boundaries>
   </Volume>
   <Volume Name="ARW" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>ARAFURAWEST_WF</Boundaries>
+    <Boundaries>ARAFURAEAST_WF</Boundaries>
   </Volume>
   <Volume Name="ARL" LowerLimit="0" UpperLimit="60000">
     <Boundaries>ARMIDALE</Boundaries>
