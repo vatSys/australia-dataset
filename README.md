@@ -6,11 +6,14 @@ Scheduled AIRAC updates to the dataset occur once every three months according t
 
 The VATPAC AIS Team may issue intermediate AIRAC Updates as required.
 
-### Community Update Submissions
+### Update Submissions
 
-Community members may contribute to the dataset by making a pull request to the relevant AIRAC draft branch. These requests must be submitted **one week** before the designated AIRAC Effective Date to be considered for integration.
+Non-AIS Staff/Community members may contribute to the dataset by making a pull request to the relevant AIRAC draft branch. These requests must be submitted **two weeks** before the designated AIRAC Effective Date to be considered for integration.
 
 Pull requests to the master branch will not be approved.
+
+**Note:** Major changes (E.g. TCU/ENR/Aerodrome changes) must be discussed with the AIS team directly as an [issue](https://github.com/vatSys/australia-dataset/issues) before submitting a pull request.
+
 
 # Data Preparation
 
