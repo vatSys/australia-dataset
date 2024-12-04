@@ -1165,6 +1165,7 @@
     <Position Name="Tamworth Tower" Type="ASD" DefaultCenter="-31.083889+150.846667" DefaultRange="80" MagneticVariation="-11.5">
       <Sectors>
         <Sector Name="TW ADC" />
+        <Sector Name="TW ADCS" />
         <Sector Name="TW SMC" />
       </Sectors>
       <Maps>
@@ -1187,6 +1188,12 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Tamworth Tower</Line>
+        <Line>ATIS available on 123.8</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo>
+        <Line>Tamworth Tower (South)</Line>
         <Line>ATIS available on 123.8</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -1656,7 +1663,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CB_FMP">
-        <Line>Canberra Flow</Line>
+        <Line>Canberra Planner</Line>
         <Line>Tactical planning position - no control service offered</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -2195,6 +2202,7 @@
     <Position Name="Archerfield Tower" Type="ASD" DefaultCenter="-27.570278+153.008056" DefaultRange="30" MagneticVariation="-11">
       <Sectors>
         <Sector Name="AF ADC" />
+        <Sector Name="AF ADC2" />
         <Sector Name="AF SMC" />
       </Sectors>
       <Maps>
@@ -2266,6 +2274,7 @@
     <Position Name="Bankstown Tower" Type="ASD" DefaultCenter="-33.924444+150.988333" DefaultRange="30" MagneticVariation="-12.6">
       <Sectors>
         <Sector Name="BK ADC" />
+        <Sector Name="BK ADC2" />
         <Sector Name="BK SMC" />
       </Sectors>
       <Maps>
@@ -2374,6 +2383,7 @@
     <Position Name="Jandakot Tower" Type="ASD" DefaultCenter="-32.097500+115.881111" DefaultRange="30" MagneticVariation="1.7">
       <Sectors>
         <Sector Name="JT ADC" />
+        <Sector Name="JT ADC2" />
         <Sector Name="JT SMC" />
       </Sectors>
       <Maps>
@@ -2474,6 +2484,7 @@
     <Position Name="Moorabbin Tower" Type="ASD" DefaultCenter="-37.975833+145.102222" DefaultRange="30" MagneticVariation="-11.8">
       <Sectors>
         <Sector Name="MB ADC" />
+        <Sector Name="MB ADC2" />
         <Sector Name="MB SMC" />
       </Sectors>
       <Maps>
@@ -2509,6 +2520,7 @@
     <Position Name="Parafield Tower" Type="ASD" DefaultCenter="-34.793333+138.633056" DefaultRange="30" MagneticVariation="-8">
       <Sectors>
         <Sector Name="PF ADC" />
+        <Sector Name="PF ADC2" />
         <Sector Name="PF SMC" />
       </Sectors>
       <Maps>
@@ -2807,20 +2819,32 @@
       <ArrivalLists>
         <Airport Name="YSSY" />
       </ArrivalLists>
-      <ControllerInfo>
+      <ControllerInfo Callsign="SY-E_TWR">
         <Line>Sydney Tower</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo>
+        <Line>Sydney Tower (East)</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
       <ControllerInfo Callsign="SY-W_GND">
-        <Line>Sydney Ground</Line>
+        <Line>Sydney Ground (West)</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY_GND">
         <Line>Sydney Ground</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="SY-C_GND">
+        <Line>Sydney Coordinator</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
