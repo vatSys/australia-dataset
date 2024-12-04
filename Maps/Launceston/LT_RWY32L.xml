@@ -8,8 +8,15 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy32L IRSO2A-->
+      <!--Rwy32L FLIK1A-->
       -413213.440+1471214.750/
+      -412942.000+1471005.000/
+      -412857.620+1470946.030/
+      -412614.000+1470930.000/
+      FLIKI
+    </Line>
+    <Line>
+      <!--Rwy32L IRSO2A-->
       -412942.000+1471005.000/
       -412910.593+1470919.041/
       -412753.000+1470248.000/
@@ -34,7 +41,6 @@
     </Line>
     <Line>
       <!--Rwy32L MOTR2A-->
-      -412942.000+1471005.000/
       -412857.620+1470946.030/
       -412812.106+1470959.306/
       -412737.661+1471041.165/
@@ -48,12 +54,6 @@
       -412737.661+1471041.165/
       -412454.000+1471823.000/
       NUNPA
-    </Line>
-    <Line>
-      <!--Rwy32L ONAG2A-->
-      -412857.620+1470946.030/
-      -412614.000+1470930.000/
-      ONAGI
     </Line>
     <Line>
       <!--Rwy32L TASUM2-->
@@ -78,12 +78,12 @@
       <Point>ISMIR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
+      <Point>FLIKI</Point>
       <Point>IRSOM</Point>
       <Point>MIKIS</Point>
       <Point>MORGO</Point>
       <Point>MOTRA</Point>
       <Point>NUNPA</Point>
-      <Point>ONAGI</Point>
       <Point>TASUM</Point>
       <Point>VEKLO</Point>
       <Point>VIMAP</Point>
@@ -91,20 +91,20 @@
   </Map>
   <Map Type="System" Name="LT_RWY32L_NAMES" Priority="2" Center="-41.545278+147.214167">
     <Label>
+      <Point>FLIKI</Point>
       <Point>IRSOM</Point>
       <Point>MIKIS</Point>
       <Point>MORGO</Point>
       <Point>MOTRA</Point>
       <Point>NUNPA</Point>
-      <Point>ONAGI</Point>
       <Point>TASUM</Point>
       <Point>VEKLO</Point>
       <Point>VIMAP</Point>
       <Point>KANLI</Point>
       <Point>LATUM</Point>
-      <Point>FLIKI</Point>
       <Point>AKTAM</Point>
       <Point>EXROM</Point>
+      <Point>ONAGI</Point>
       <Point>WAREN</Point>
       <Point>MIMIM</Point>
       <Point>DOTVU</Point>
