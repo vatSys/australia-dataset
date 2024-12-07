@@ -45,6 +45,7 @@
     <Position Name="Huon" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="800" VisibilityRange="600">
       <Sectors>
         <Sector Name="HUO" />
+        <Sector Name="WON" />
         <Sector Name="HBA" />
         <Sector Name="LTA" />
       </Sectors>
@@ -439,13 +440,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Eildon Weir" Type="ASD" DefaultCenter="-371932.1176+1474022.0459" DefaultRange="700" VisibilityRange="600">
+    <Position Name="Eildon Weir" Type="ASD" DefaultCenter="-363344.00+1462459.00" DefaultRange="500" VisibilityRange="600">
       <Sectors>
         <Sector Name="ELW" />
-        <Sector Name="SNO" />
         <Sector Name="BLA" />
-        <Sector Name="CAE" />
-        <Sector Name="CAW" />
         <Sector Name="MAE" />
         <Sector Name="MDN" />
         <Sector Name="MDS" />
@@ -482,14 +480,51 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Yarrowee" Type="ASD" DefaultCenter="-353339.8227+1451131.8091" DefaultRange="1000" VisibilityRange="600">
+    <Position Name="Snowy" Type="ASD" DefaultCenter="-371085.00+1495453.00" DefaultRange="700" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="SNO" />
+        <Sector Name="WOL" />
+        <Sector Name="CAE" />
+        <Sector Name="CAW" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-33.293+141.617</Point>
+        <Point>-38.600+145.876</Point>
+        <Point>-32.691+150.237</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="13000" />
+      <ArrivalLists>
+        <Airport Name="YSCB" />
+        <Airport Name="YSNW" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Melbourne Centre</Line>
+        <Line>Airspace - vats.im/pac/airspace</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Yarrowee" Type="ASD" DefaultCenter="-355225.00+1433923.00" DefaultRange="800" VisibilityRange="600">
       <Sectors>
         <Sector Name="YWE" />
-        <Sector Name="WON" />
         <Sector Name="MUN" />
         <Sector Name="OXL" />
         <Sector Name="GTH" />
-        <Sector Name="KAT" />
       </Sectors>
       <ManualVisibility>
         <Point>-300442.431+1322101.2305</Point>
@@ -523,10 +558,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Bindook" Type="ASD" DefaultCenter="-344958.4436+1501835.7166" DefaultRange="600" VisibilityRange="600">
+    <Position Name="Bindook" Type="ASD" DefaultCenter="-335926.00+1490254.00" DefaultRange="450" VisibilityRange="600">
       <Sectors>
         <Sector Name="BIK" />
-        <Sector Name="WOL" />
+        <Sector Name="KAT" />
         <Sector Name="GUN" />
         <Sector Name="SAN" />
         <Sector Name="SAS" />
