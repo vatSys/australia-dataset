@@ -118,7 +118,9 @@
   </Map>
   <Map Type="System2" Name="PH_VFR" Priority="1" Center="-31.940278+115.966944">
     <Symbol Type="HollowSquare">
+      <Point>ADWD</Point>
       <Point>AKMW</Point>
+      <Point>SHOP</Point>
       <Point>BARB</Point>
       <Point>BOAT</Point>
       <Point>BUB</Point>
@@ -140,6 +142,7 @@
       <Point>MUE</Point>
       <Point>MUP</Point>
       <Point>MWR</Point>
+      <Point>NORT</Point>
       <Point>OAKF</Point>
       <Point>OBC</Point>
       <Point>PCTY</Point>
@@ -150,7 +153,6 @@
       <Point>RLY</Point>
       <Point>RUSS</Point>
       <Point>SWY</Point>
-      <Point>SHOP</Point>
       <Point>SEL</Point>
       <Point>TLMI</Point>
       <Point>TOML</Point>
@@ -160,10 +162,13 @@
       <Point>WMP</Point>
       <Point>WUN</Point>
       <Point>WUNG</Point>
+      <Point>YGB</Point>
       <Point>ORKT</Point>
     </Symbol>
     <Label HasLeader="True">
+      <Point>ADWD</Point>
       <Point>AKMW</Point>
+      <Point>SHOP</Point>
       <Point>BARB</Point>
       <Point>BOAT</Point>
       <Point>BUB</Point>
@@ -185,6 +190,7 @@
       <Point>MUE</Point>
       <Point>MUP</Point>
       <Point>MWR</Point>
+      <Point>NORT</Point>
       <Point>OAKF</Point>
       <Point>OBC</Point>
       <Point>PCTY</Point>
@@ -195,7 +201,6 @@
       <Point>RLY</Point>
       <Point>RUSS</Point>
       <Point>SWY</Point>
-      <Point>SHOP</Point>
       <Point>SEL</Point>
       <Point>TLMI</Point>
       <Point>TOML</Point>
@@ -205,47 +210,58 @@
       <Point>WMP</Point>
       <Point>WUN</Point>
       <Point>WUNG</Point>
+      <Point>YGB</Point>
       <Point>ORKT</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="VICTOR_66">TLMI</Point>
+      <Point Name="IN_MOUNT_DALE">MUE</Point>
+      <Point Name="IN_NW">-314634.000+1154327.000</Point>
+      <Point Name="IN_OAKFORD">OAKF</Point>
+      <Point Name="OUT_ARMADALESHOP">-320656.932+1155609.801</Point>
+      <Point Name="OUT_LAKE_THOMSON">YGB</Point>
+      <Point Name="OUT_VICTOR_65">NORT</Point>
+      <Point Name="VIA_CANNING_DAM">-313950.000+1163800.000</Point>
+      <Point Name="VIA_VICTOR_66">TLMI</Point>
       <Point Name="JURIEN_BAY_1">-301809.461+1150318.590</Point>
       <Point Name="ROUTE_1">-303015.333+1150332.936</Point>
       <Point Name="ROUTE_2">-303015.580+1150332.801</Point>
       <Point Name="ROUTE_3">-310136.579+1151943.020</Point>
-      <Point Name="VICTOR_65">CTE</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="SE">
       <Point Name="JURIEN_BAY_2">-301809.461+1150318.590</Point>
       <Point Name="ROUTE_4">-310136.579+1151943.020</Point>
     </Label>
-    <!--FREM OUT-->
-    <Line Pattern="Dotted">
-      FREM/CTE
-    </Line>
-    <!--CDM WUNG-->
-    <Line Pattern="Dotted">
-      CDM/WUNG
-    </Line>
     <!--IN_MOUNT_DALE-->
     <Line Pattern="Dotted">
-      MUE/WUNG/RUSS
+      MUE/WUNG/RUSS/FDL/-320821.411+1155447.799
     </Line>
     <!--IN_NW-->
     <Line Pattern="Dotted">
-      -314634.000+1154327.000/MUP/OBC/CYB/CTE/FRE/POWR
+      -314634.000+1154327.000/MUP/OBC/CYB/CTE/FRE/POWR/ADWD
     </Line>
-    <!--VICTOR_65-->
-    <Line Pattern="Broken">
-      CTE/-315735.102+1155235.209/HKE
+    <!--IN_OAKFORD-->
+    <Line Pattern="Dotted">
+      OAKF/FDL/-320821.411+1155447.799
+    </Line>
+    <!--OUT_ARMADALESHOP-->
+    <Line Pattern="Dotted">
+      -320656.932+1155609.801/SHOP/CDM
+    </Line>
+    <!--OUT_LAKE_THOMSON-->
+    <Line Pattern="Dotted">
+      YGB/TOML
+    </Line>
+    <!--OUT_VICTOR_65-->
+    <Line Pattern="Dotted">
+      NORT/FREM/CTE/-315735.102+1155235.209/HKE
     </Line>
     <!--VIA_CANNING_DAM-->
     <Line Pattern="Dotted">
-      -313950.000+1163800.000/MUE/CDM/SHOP
+      -313950.000+1163800.000/MUE/CDM
     </Line>
-    <!--VICTOR_66-->
-    <Line Pattern="Broken">
-      TLMI/HRR/CDM
+    <!--VIA_VICTOR_66-->
+    <Line Pattern="Dotted">
+      TLMI/HRR/CDM/WUNG
     </Line>
     <!--JURIEN_BAY_1-->
     <Line Pattern="Dotted">

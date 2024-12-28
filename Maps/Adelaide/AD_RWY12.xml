@@ -14,52 +14,52 @@
       KASBU
     </Line>
     <Line>
-      <!--Rwy12 ELRO4V-->
+      <!--Rwy12 BEVSO1-->
+      BEVSO/
+      DOVAR
+    </Line>
+    <Line>
+      <!--Rwy12 ELRO5V-->
       ELROX/
       TROUB/
-      RUDIE/
+      RIKVI/
       MULDR
     </Line>
     <Line>
-      <!--Rwy12 GULF7V.RIKAB-->
-      RIKAB/
+      <!--Rwy12 GULF8V.ATNAR-->
+      ATNAR/
       GULFS
     </Line>
     <Line>
-      <!--Rwy12 GULF7V-->
+      <!--Rwy12 GULF8V-->
       GULFS/
       MULDR
     </Line>
     <Line>
-      <!--Rwy12 PAMY6V.AGROS-->
+      <!--Rwy12 PAMY7V.AGROS-->
       AGROS/
       ROGUE/
       EKEGA/
       PAMMY
     </Line>
     <Line>
-      <!--Rwy12 PAMY6V.MARGO-->
+      <!--Rwy12 PAMY7V.MARGO-->
       MARGO/
       ISKOT/
       PAMMY
     </Line>
     <Line>
-      <!--Rwy12 PAMY6V-->
+      <!--Rwy12 PAMY7V-->
       PAMMY/
       MULDR
     </Line>
     <Line>
-      <!--Rwy12 RUSSL3-->
-      RUSSL/
-      LUFFY
-    </Line>
-    <Line>
-      <!--Rwy12 SURGN3.BLACK-->
-      BLACK/
+      <!--Rwy12 SURGN4.KAKLU-->
+      KAKLU/
       SURGN
     </Line>
     <Line>
-      <!--Rwy12 SURGN3-->
+      <!--Rwy12 SURGN4-->
       SURGN/
       GRIGS
     </Line>
@@ -69,33 +69,35 @@
     <Symbol Type="HollowStar">
       <Point>ATPIP</Point>
       <Point>KASBU</Point>
+      <Point>BEVSO</Point>
+      <Point>DOVAR</Point>
       <Point>ELROX</Point>
       <Point>TROUB</Point>
-      <Point>RUDIE</Point>
-      <Point>RIKAB</Point>
+      <Point>RIKVI</Point>
       <Point>GULFS</Point>
+      <Point>ATNAR</Point>
+      <Point>PAMMY</Point>
       <Point>AGROS</Point>
       <Point>ROGUE</Point>
       <Point>EKEGA</Point>
-      <Point>PAMMY</Point>
       <Point>MARGO</Point>
       <Point>ISKOT</Point>
-      <Point>RUSSL</Point>
-      <Point>LUFFY</Point>
-      <Point>BLACK</Point>
       <Point>SURGN</Point>
       <Point>GRIGS</Point>
+      <Point>KAKLU</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="AD_RWY12_NAMES" Priority="2" Center="-34.945000+138.530556">
     <Label>
       <Point>ATPIP</Point>
       <Point>KASBU</Point>
+      <Point>BEVSO</Point>
+      <Point>DOVAR</Point>
       <Point>ELROX</Point>
       <Point>TROUB</Point>
-      <Point>RUDIE</Point>
+      <Point>RIKVI</Point>
       <Point>MULDR</Point>
-      <Point>RIKAB</Point>
+      <Point>ATNAR</Point>
       <Point>GULFS</Point>
       <Point>AGROS</Point>
       <Point>ROGUE</Point>
@@ -103,9 +105,7 @@
       <Point>PAMMY</Point>
       <Point>MARGO</Point>
       <Point>ISKOT</Point>
-      <Point>RUSSL</Point>
-      <Point>LUFFY</Point>
-      <Point>BLACK</Point>
+      <Point>KAKLU</Point>
       <Point>SURGN</Point>
       <Point>GRIGS</Point>
       <Point>AREPA</Point>
@@ -127,7 +127,7 @@
       <Point>MIA VOR</Point>
       <Point>TUMAN</Point>
       <Point>BORTO</Point>
-      <Point>DUKES</Point>
+      <Point>MAVTO</Point>
       <Point>DRINA</Point>
       <Point>KAMBI</Point>
       <Point>LUVOK</Point>
@@ -140,7 +140,7 @@
       <Point>SWH NDB</Point>
       <Point>MTG VOR</Point>
       <Point>RUVUS</Point>
-      <Point>ALEXI</Point>
+      <Point>INTOG</Point>
       <Point>UPROT</Point>
       <Point>SILVN</Point>
       <Point>EEMUE</Point>
@@ -149,6 +149,7 @@
       <Point>AVPAS</Point>
       <Point>ACTIN</Point>
       <Point>HOLIT</Point>
+      <Point>BEPKA</Point>
       <Point>DOTBO</Point>
       <Point>ALTRO</Point>
       <Point>BHI VOR</Point>

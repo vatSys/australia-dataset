@@ -45,6 +45,7 @@
     <Position Name="Huon" Type="ASD" DefaultCenter="-4117.000+14626.000" DefaultRange="800" VisibilityRange="600">
       <Sectors>
         <Sector Name="HUO" />
+        <Sector Name="WON" />
         <Sector Name="HBA" />
         <Sector Name="LTA" />
       </Sectors>
@@ -240,7 +241,6 @@
         <Sector Name="WAR" />
         <Sector Name="BKE" />
         <Sector Name="FOR" />
-        <Sector Name="FOW" />
         <Sector Name="WRA" />
         <Sector Name="ESP" />
       </Sectors>
@@ -440,13 +440,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Eildon Weir" Type="ASD" DefaultCenter="-371932.1176+1474022.0459" DefaultRange="700" VisibilityRange="600">
+    <Position Name="Eildon Weir" Type="ASD" DefaultCenter="-363344.00+1462459.00" DefaultRange="500" VisibilityRange="600">
       <Sectors>
         <Sector Name="ELW" />
-        <Sector Name="SNO" />
         <Sector Name="BLA" />
-        <Sector Name="CAE" />
-        <Sector Name="CAW" />
         <Sector Name="MAE" />
         <Sector Name="MDN" />
         <Sector Name="MDS" />
@@ -483,14 +480,51 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Yarrowee" Type="ASD" DefaultCenter="-353339.8227+1451131.8091" DefaultRange="1000" VisibilityRange="600">
+    <Position Name="Snowy" Type="ASD" DefaultCenter="-371085.00+1495453.00" DefaultRange="700" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="SNO" />
+        <Sector Name="WOL" />
+        <Sector Name="CAE" />
+        <Sector Name="CAW" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-33.293+141.617</Point>
+        <Point>-38.600+145.876</Point>
+        <Point>-32.691+150.237</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="13000" />
+      <ArrivalLists>
+        <Airport Name="YSCB" />
+        <Airport Name="YSNW" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Melbourne Centre</Line>
+        <Line>Airspace - vats.im/pac/airspace</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Yarrowee" Type="ASD" DefaultCenter="-355225.00+1433923.00" DefaultRange="800" VisibilityRange="600">
       <Sectors>
         <Sector Name="YWE" />
-        <Sector Name="WON" />
         <Sector Name="MUN" />
         <Sector Name="OXL" />
         <Sector Name="GTH" />
-        <Sector Name="KAT" />
       </Sectors>
       <ManualVisibility>
         <Point>-300442.431+1322101.2305</Point>
@@ -524,10 +558,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Bindook" Type="ASD" DefaultCenter="-344958.4436+1501835.7166" DefaultRange="600" VisibilityRange="600">
+    <Position Name="Bindook" Type="ASD" DefaultCenter="-335926.00+1490254.00" DefaultRange="450" VisibilityRange="600">
       <Sectors>
         <Sector Name="BIK" />
-        <Sector Name="WOL" />
+        <Sector Name="KAT" />
         <Sector Name="GUN" />
         <Sector Name="SAN" />
         <Sector Name="SAS" />
@@ -1166,6 +1200,7 @@
     <Position Name="Tamworth Tower" Type="ASD" DefaultCenter="-31.083889+150.846667" DefaultRange="80" MagneticVariation="-11.5">
       <Sectors>
         <Sector Name="TW ADC" />
+        <Sector Name="TW ADCS" />
         <Sector Name="TW SMC" />
       </Sectors>
       <Maps>
@@ -1188,6 +1223,12 @@
       </ArrivalLists>
       <ControllerInfo>
         <Line>Tamworth Tower</Line>
+        <Line>ATIS available on 123.8</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo>
+        <Line>Tamworth Tower (South)</Line>
         <Line>ATIS available on 123.8</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
@@ -1657,7 +1698,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CB_FMP">
-        <Line>Canberra Flow</Line>
+        <Line>Canberra Planner</Line>
         <Line>Tactical planning position - no control service offered</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -2196,6 +2237,7 @@
     <Position Name="Archerfield Tower" Type="ASD" DefaultCenter="-27.570278+153.008056" DefaultRange="30" MagneticVariation="-11">
       <Sectors>
         <Sector Name="AF ADC" />
+        <Sector Name="AF ADC2" />
         <Sector Name="AF SMC" />
       </Sectors>
       <Maps>
@@ -2267,6 +2309,7 @@
     <Position Name="Bankstown Tower" Type="ASD" DefaultCenter="-33.924444+150.988333" DefaultRange="30" MagneticVariation="-12.6">
       <Sectors>
         <Sector Name="BK ADC" />
+        <Sector Name="BK ADC2" />
         <Sector Name="BK SMC" />
       </Sectors>
       <Maps>
@@ -2375,6 +2418,7 @@
     <Position Name="Jandakot Tower" Type="ASD" DefaultCenter="-32.097500+115.881111" DefaultRange="30" MagneticVariation="1.7">
       <Sectors>
         <Sector Name="JT ADC" />
+        <Sector Name="JT ADC2" />
         <Sector Name="JT SMC" />
       </Sectors>
       <Maps>
@@ -2475,6 +2519,7 @@
     <Position Name="Moorabbin Tower" Type="ASD" DefaultCenter="-37.975833+145.102222" DefaultRange="30" MagneticVariation="-11.8">
       <Sectors>
         <Sector Name="MB ADC" />
+        <Sector Name="MB ADC2" />
         <Sector Name="MB SMC" />
       </Sectors>
       <Maps>
@@ -2510,6 +2555,7 @@
     <Position Name="Parafield Tower" Type="ASD" DefaultCenter="-34.793333+138.633056" DefaultRange="30" MagneticVariation="-8">
       <Sectors>
         <Sector Name="PF ADC" />
+        <Sector Name="PF ADC2" />
         <Sector Name="PF SMC" />
       </Sectors>
       <Maps>
@@ -2808,20 +2854,32 @@
       <ArrivalLists>
         <Airport Name="YSSY" />
       </ArrivalLists>
-      <ControllerInfo>
+      <ControllerInfo Callsign="SY-E_TWR">
         <Line>Sydney Tower</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
+      <ControllerInfo>
+        <Line>Sydney Tower (East)</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
       <ControllerInfo Callsign="SY-W_GND">
-        <Line>Sydney Ground</Line>
+        <Line>Sydney Ground (West)</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY_GND">
         <Line>Sydney Ground</Line>
+        <Line>ATIS available on 126.25</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="SY-C_GND">
+        <Line>Sydney Coordinator</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>

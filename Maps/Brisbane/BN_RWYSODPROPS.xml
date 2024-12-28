@@ -11,53 +11,13 @@
       <Threshold Name="19R" Position="-27.356544+153.121969" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--SIDs-->
-    <Line>
-      <!--Rwy01R ASISO1-->
-      -272228.790+1530803.500/
-      ASISO
-    </Line>
-    <Line>
-      <!--Rwy01R ASISO1.BIXAD-->
-      ASISO/
-      ENDAB/
-      DOXET/
-      BUKBU/
-      BIXAD
-    </Line>
-    <Line>
-      <!--Rwy01R ASISO1.GUMKI-->
-      ASISO/
-      IDKOS/
-      GUMKI
-    </Line>
-    <Line>
-      <!--Rwy01R ASISO1.SANEG-->
-      ASISO/
-      POTOV/
-      SUGUR/
-      SANEG
-    </Line>
-    <Line>
-      <!--Rwy01R ASISO1.SCOTT-->
-      ASISO/
-      BEMAN/
-      NOPAS/
-      SCOTT
-    </Line>
-    <Line>
-      <!--Rwy01R ASISO1.WACKO-->
-      SUGUR/
-      MANLI/
-      CARSL/
-      LAWNN/
-      WACKO
-    </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy19R BLAK5A-->
+      <!--Rwy19R BLAK6A-->
       BLAKA/
       SUNUB/
       LAGOB/
+      OVNEB/
       AMITY/
       ESLUB/
       OSEGU/
@@ -83,7 +43,7 @@
       LUVNA
     </Line>
     <Line>
-      <!--Rwy19R GOMO3A-->
+      <!--Rwy19R GOMO4A-->
       GOMOL/
       IRMEL/
       AMITY
@@ -187,29 +147,11 @@
       <Point>TOLAX</Point>
       <Point>PAMGO</Point>
     </Symbol>
-    <Symbol Type="SolidStar">
-      <Point>ASISO</Point>
-    </Symbol>
     <Symbol Type="HollowStar">
-      <Point>ENDAB</Point>
-      <Point>DOXET</Point>
-      <Point>BUKBU</Point>
-      <Point>BIXAD</Point>
-      <Point>IDKOS</Point>
-      <Point>GUMKI</Point>
-      <Point>POTOV</Point>
-      <Point>SUGUR</Point>
-      <Point>SANEG</Point>
-      <Point>BEMAN</Point>
-      <Point>NOPAS</Point>
-      <Point>SCOTT</Point>
-      <Point>MANLI</Point>
-      <Point>CARSL</Point>
-      <Point>LAWNN</Point>
-      <Point>WACKO</Point>
       <Point>BLAKA</Point>
       <Point>SUNUB</Point>
       <Point>LAGOB</Point>
+      <Point>OVNEB</Point>
       <Point>AMITY</Point>
       <Point>ESLUB</Point>
       <Point>OSEGU</Point>
@@ -225,10 +167,11 @@
       <Point>ATRAX</Point>
       <Point>GOMOL</Point>
       <Point>IRMEL</Point>
+      <Point>ISPON</Point>
+      <Point>OMGUV</Point>
       <Point>DOGMU</Point>
       <Point>LAGEV</Point>
       <Point>PUBIV</Point>
-      <Point>ISPON</Point>
       <Point>ODUTO</Point>
       <Point>ANSOR</Point>
       <Point>PULEX</Point>
@@ -239,7 +182,6 @@
       <Point>SALGA</Point>
       <Point>UGTUG</Point>
       <Point>IPGAV</Point>
-      <Point>OMGUV</Point>
       <Point>MORBI</Point>
       <Point>REMOR</Point>
       <Point>GAYLA</Point>
@@ -263,26 +205,10 @@
   </Map>
   <Map Type="System" Name="BN_RWYSODPROPS_NAMES" Priority="2" Center="-27.384167+153.117500">
     <Label>
-      <Point>ASISO</Point>
-      <Point>ENDAB</Point>
-      <Point>DOXET</Point>
-      <Point>BUKBU</Point>
-      <Point>BIXAD</Point>
-      <Point>IDKOS</Point>
-      <Point>GUMKI</Point>
-      <Point>POTOV</Point>
-      <Point>SUGUR</Point>
-      <Point>SANEG</Point>
-      <Point>BEMAN</Point>
-      <Point>NOPAS</Point>
-      <Point>SCOTT</Point>
-      <Point>MANLI</Point>
-      <Point>CARSL</Point>
-      <Point>LAWNN</Point>
-      <Point>WACKO</Point>
       <Point>BLAKA</Point>
       <Point>SUNUB</Point>
       <Point>LAGOB</Point>
+      <Point>OVNEB</Point>
       <Point>AMITY</Point>
       <Point>ESLUB</Point>
       <Point>OSEGU</Point>
@@ -337,11 +263,13 @@
       <Point>ATVON</Point>
       <Point>TEGIL</Point>
       <Point>MEPEM</Point>
+      <Point>GUMKI</Point>
       <Point>ROM NDB</Point>
       <Point>RILGO</Point>
       <Point>LIKTO</Point>
       <Point>SAVER</Point>
       <Point>BONEY</Point>
+      <Point>SANEG</Point>
       <Point>HUUGO</Point>
       <Point>APAGI</Point>
       <Point>TESSI</Point>
@@ -350,12 +278,14 @@
       <Point>ATROP</Point>
       <Point>BANDA</Point>
       <Point>OMKAX</Point>
+      <Point>SCOTT</Point>
       <Point>KIBAT</Point>
       <Point>ISKIM</Point>
       <Point>PAVBI</Point>
       <Point>OLKUR</Point>
       <Point>IDRAS</Point>
       <Point>ITIDE</Point>
+      <Point>BIXAD</Point>
       <Point>GUDSO</Point>
       <Point>TAPET</Point>
       <Point>LOAFA</Point>
@@ -404,6 +334,7 @@
       <Point>ARM NDB</Point>
       <Point>SPARK</Point>
       <Point>GOPVO</Point>
+      <Point>AVBOS</Point>
       <Point>EMTID</Point>
       <Point>SUKTU</Point>
       <Point>EDPEG</Point>

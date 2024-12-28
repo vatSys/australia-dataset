@@ -69,19 +69,19 @@
       <!--H309-->
       MIA VOR/
       TUMAN/
-      BLACK
+      KAKLU
     </Line>
     <Line>
       <!--H345-->
       BORTO/
-      DUKES/
+      MAVTO/
       DRINA
     </Line>
     <Line>
       <!--N640-->
       KAMBI/
       LUVOK/
-      RIKAB
+      ATNAR
     </Line>
     <Line>
       <!--Q33-->
@@ -108,7 +108,7 @@
       <!--V259-->
       MTG VOR/
       RUVUS/
-      ALEXI/
+      INTOG/
       ATPIP
     </Line>
     <Line>
@@ -137,7 +137,8 @@
     </Line>
     <Line>
       <!--W325-->
-      RUSSL/
+      BEVSO/
+      BEPKA/
       DOTBO/
       ALTRO/
       BHI VOR
@@ -281,21 +282,36 @@
       <Point>SHER</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="HOPE_VALLEY">PNL</Point>
+      <Point Name="HOPE_VALLEY">MLIT</Point>
+      <Point Name="IN_EAST">WRR</Point>
+      <Point Name="IN_NORTHWEST">DUB</Point>
+      <Point Name="OUT_EAST">-344544.954+1384033.480</Point>
+      <Point Name="OUT_NORTHWEST">-344653.182+1383351.669</Point>
       <Point Name="ROUTE_1">BENDO</Point>
-      <Point Name="ENTRY_PORT_ADELAIDE">-34.825278+138.561111</Point>
     </Label>
-    <!--HOPE_VALLEY_ROUTE-->
-    <Line Pattern="Broken">
-      PNL/MLIT/WTC/HVR/-344924.336+1383932.821
+    <!--HOPE_VALLEY-->
+    <Line Pattern="Dotted">
+      MLIT/WTC/HVR/-344924.336+1383932.821
+    </Line>
+    <!--IN_EAST-->
+    <Line Pattern="Dotted">
+      WRR/DMW/-344608.133+1384055.354
+    </Line>
+    <!--IN_NORTHWEST-->
+    <Line Pattern="Dotted">
+      DUB/RMH/OHB/-344742.820+1383306.502
+    </Line>
+    <!--OUT_EAST-->
+    <Line Pattern="Dotted">
+      -344544.954+1384033.480/SUB/SPR
+    </Line>
+    <!--OUT_NORTHWEST-->
+    <Line Pattern="Dotted">
+      -344653.182+1383351.669/-344438.523+1383130.173/DUB
     </Line>
     <!--ROUTE_1-->
     <Line Pattern="Dotted">
-      BENDO/SYN/PNL
-    </Line>
-    <!--OUT_PORT_ADELAIDE-->
-    <Line Pattern="Broken">
-      PAL/-34.825278+138.561111
+      BENDO/SYN/PNL/MLIT
     </Line>
   </Map>
 </Maps>

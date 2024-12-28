@@ -8,7 +8,7 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy14R IRSO2A-->
+      <!--Rwy14R FLIK1A-->
       -413307.470+1471300.960/
       -413603.570+1471532.100/
       -413647.892+1471551.099/
@@ -16,6 +16,30 @@
       -413807.872+1471455.888/
       -413822.032+1471356.502/
       -413812.094+1471255.600/
+      -413742.315+1471211.012/
+      -413705.000+1471155.000/
+      LT VOR/
+      FLIKI
+    </Line>
+    <Line>
+      <!--Rwy14R FLIK1B-->
+      -413603.570+1471532.100/
+      -413634.948+1471618.074/
+      -413644.885+1471718.950/
+      -413630.725+1471818.311/
+      -413556.266+1471900.239/
+      -413510.746+1471913.499/
+      -413428.044+1471855.866/
+      -413046.000+1471144.000/
+      FLIKI
+    </Line>
+    <Line>
+      <!--Rwy14R FLIK1C-->
+      -413705.000+1471155.000/
+      FLIKI
+    </Line>
+    <Line>
+      <!--Rwy14R IRSO2A-->
       -413742.315+1471211.012/
       -412826.000+1470319.000/
       IRSOM
@@ -40,17 +64,11 @@
     </Line>
     <Line>
       <!--Rwy14R MOTR2A-->
-      -413742.315+1471211.012/
-      -413705.000+1471155.000/
       LT VOR/
       MOTRA
     </Line>
     <Line>
       <!--Rwy14R MOTR2B-->
-      -413603.570+1471532.100/
-      -413634.948+1471618.074/
-      -413644.885+1471718.950/
-      -413630.725+1471818.311/
       -413556.266+1471900.239/
       -413107.000+1472042.000/
       MOTRA
@@ -62,27 +80,9 @@
     </Line>
     <Line>
       <!--Rwy14R NUNP2B-->
-      -413556.266+1471900.239/
-      -413510.746+1471913.499/
       -413428.044+1471855.866/
       -412945.000+1471425.000/
       NUNPA
-    </Line>
-    <Line>
-      <!--Rwy14R ONAG2A-->
-      LT VOR/
-      ONAGI
-    </Line>
-    <Line>
-      <!--Rwy14R ONAG2B-->
-      -413428.044+1471855.866/
-      -413046.000+1471144.000/
-      ONAGI
-    </Line>
-    <Line>
-      <!--Rwy14R ONAG2C-->
-      -413705.000+1471155.000/
-      ONAGI
     </Line>
     <Line>
       <!--Rwy14R TASUM2-->
@@ -112,12 +112,12 @@
       <Point>LT VOR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
+      <Point>FLIKI</Point>
       <Point>IRSOM</Point>
       <Point>MIKIS</Point>
       <Point>MORGO</Point>
       <Point>MOTRA</Point>
       <Point>NUNPA</Point>
-      <Point>ONAGI</Point>
       <Point>TASUM</Point>
       <Point>VEKLO</Point>
       <Point>VIMAP</Point>
@@ -125,22 +125,23 @@
   </Map>
   <Map Type="System" Name="LT_RWY14R_NAMES" Priority="2" Center="-41.545278+147.214167">
     <Label>
+      <Point>LT VOR</Point>
+      <Point>FLIKI</Point>
       <Point>IRSOM</Point>
       <Point>MIKIS</Point>
       <Point>MORGO</Point>
-      <Point>LT VOR</Point>
       <Point>MOTRA</Point>
       <Point>NUNPA</Point>
-      <Point>ONAGI</Point>
       <Point>TASUM</Point>
       <Point>VEKLO</Point>
       <Point>VIMAP</Point>
       <Point>KANLI</Point>
       <Point>LATUM</Point>
-      <Point>FLIKI</Point>
       <Point>AKTAM</Point>
       <Point>EXROM</Point>
+      <Point>ONAGI</Point>
       <Point>WAREN</Point>
+      <Point>MIMIM</Point>
       <Point>DOTVU</Point>
       <Point>WYY NDB</Point>
       <Point>RIBLI</Point>
