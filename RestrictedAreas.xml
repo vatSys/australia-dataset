@@ -7152,7 +7152,7 @@
 -144822.000+1315711.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D210 TINDAL" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="false" LinePattern="None">
+    <RestrictedArea Type="Danger" Name="D210 TINDAL" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="false" LinePattern="Dotted">
       <Area>-130327.000+1304117.000/
 -150544.000+1295421.000/
 -151520.000+1295433.000/
@@ -7319,7 +7319,7 @@
 -342957.000+1381123.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D223 PBDS" AltitudeFloor="0" AltitudeCeiling="8500" DAIWEnabled="false" LinePattern="None">
+    <RestrictedArea Type="Danger" Name="D223 PBDS" AltitudeFloor="0" AltitudeCeiling="8500" DAIWEnabled="false" LinePattern="Dotted">
       <Area>-125549.000+1302738.000/
 -125601.216+1302800.173/
 -130001.679+1303351.453/
@@ -7377,7 +7377,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D229 PBDS" AltitudeFloor="0" AltitudeCeiling="8500" DAIWEnabled="false" LinePattern="None">
+    <RestrictedArea Type="Danger" Name="D229 PBDS" AltitudeFloor="0" AltitudeCeiling="8500" DAIWEnabled="false" LinePattern="Dotted">
       <Area>-143432.000+1290013.000/
 -143513.169+1290129.733/
 -145222.520+1292627.790/
@@ -7548,7 +7548,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D257 DARWIN" AltitudeFloor="0" AltitudeCeiling="1500" DAIWEnabled="false" LinePattern="None">
+    <RestrictedArea Type="Danger" Name="D257 DARWIN" AltitudeFloor="0" AltitudeCeiling="1500" DAIWEnabled="false" LinePattern="Dotted">
       <Area>-132753.000+1300426.000/
 -125528.000+1300658.000/
 -123641.000+1302200.000/
@@ -7560,7 +7560,9 @@
 -125635.000+1301002.000/
 -131021.000+1300857.000/
 -132753.000+1300426.000</Area>
-      <Activations />
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
     </RestrictedArea>
     <RestrictedArea Type="Danger" Name="D258A BURRA" AltitudeFloor="0" AltitudeCeiling="8500" DAIWEnabled="false" LinePattern="None">
       <Area>-340650.000+1383522.000/
