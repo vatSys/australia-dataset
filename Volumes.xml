@@ -5385,17 +5385,8 @@
   <Volume Name="AUG" LowerLimit="0" UpperLimit="60000">
     <Boundaries>AUGUSTA</Boundaries>
   </Volume>
-  <Volume Name="AVCTR" LowerLimit="700" UpperLimit="1500">
-    <Boundaries>AVALON_CTA_E1</Boundaries>
-  </Volume>
-  <Volume Name="AVCTA" LowerLimit="1500" UpperLimit="4500">
-    <Boundaries>AVALON_CTA_E2</Boundaries>
-  </Volume>
-  <Volume Name="AVTCU" LowerLimit="1500" UpperLimit="4500">
-    <Boundaries>AVALON_CTA_E2</Boundaries>
-  </Volume>
-  <Volume Name="AVTWR" LowerLimit="0" UpperLimit="2500">
-    <Boundaries>AVALON_CONTROL_ZONE_(D)</Boundaries>
+  <Volume Name="MAV" LowerLimit="700" UpperLimit="4500">
+    <Boundaries>AVALON_CTA_E1,AVALON_CTA_E2,AVALON_CONTROL_ZONE_(D)</Boundaries>
   </Volume>
   <Volume Name="AYTWR" LowerLimit="0" UpperLimit="4500">
     <Boundaries>ALBURY_CTA_D3</Boundaries>
