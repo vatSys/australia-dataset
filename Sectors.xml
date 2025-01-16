@@ -330,6 +330,9 @@
   <Sector FullName="Amberley Approach" Frequency="126.200" Callsign="AMB_APP" Name="AMA">
     <Volumes>AMBAPP</Volumes>
   </Sector>
+  <Sector FullName="Avalon Approach" Frequency="133.550" Callsign="AV_APP" Name="MAV">
+    <Volumes>MAV</Volumes>
+  </Sector>
   <Sector FullName="Brisbane Approach (Gold Coast)" Frequency="123.500" Callsign="BN-C_APP" Name="BAC">
     <Volumes>BAG_NORTH,BAG_SOUTH</Volumes>
   </Sector>
@@ -399,7 +402,8 @@
     <Volumes>MLA</Volumes>
   </Sector>
   <Sector FullName="Melbourne Departures (South)" Frequency="129.400" Callsign="ML-S_DEP" Name="MDS">
-    <Volumes>MLA,MLA_AV</Volumes>
+    <Volumes>MLA</Volumes>
+    <ResponsibleSectors>MAV</ResponsibleSectors>
   </Sector>
   <Sector FullName="Nadi Approach" Frequency="119.100" Callsign="NFFN_APP" Name="NFFNA" />
   <Sector FullName="Nadzab Approach" Frequency="118.600" Callsign="AYNZ_APP" Name="AYNZA" />
