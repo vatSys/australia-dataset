@@ -521,7 +521,7 @@
     -380917.583+1442304.790/
     -380836.000+1442149.000
   </Boundary>
-  <Boundary Name="AVALON_CTA_E2">
+  <!--<Boundary Name="AVALON_CTA_E2">
     -381343.000+1442049.000/
     -375104.000+1442513.000/
     -375057.000+1442733.000/
@@ -543,7 +543,7 @@
     -381446.032+1442453.803/
     -381413.463+1442219.483/
     -381343.000+1442049.000
-  </Boundary>
+  </Boundary>-->
   <Boundary Name="AVALON_CONTROL_ZONE_(D)">
     -380836.000+1442149.000/
     -375454.000+1442429.000/
@@ -5385,8 +5385,11 @@
   <Volume Name="AUG" LowerLimit="0" UpperLimit="60000">
     <Boundaries>AUGUSTA</Boundaries>
   </Volume>
-  <Volume Name="MAV" LowerLimit="700" UpperLimit="4500">
-    <Boundaries>AVALON_CTA_E1,AVALON_CTA_E2,AVALON_CONTROL_ZONE_(D)</Boundaries>
+  <Volume Name="MAV" LowerLimit="0" UpperLimit="4500">
+    <Boundaries>AVALON_CONTROL_ZONE_(D)</Boundaries>
+  </Volume>
+  <Volume Name="AVTWR" LowerLimit="0" UpperLimit="2500">
+    <Boundaries>AVALON_CTA_E1</Boundaries>
   </Volume>
   <Volume Name="AYTWR" LowerLimit="0" UpperLimit="4500">
     <Boundaries>ALBURY_CTA_D3</Boundaries>
