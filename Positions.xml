@@ -1374,7 +1374,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Avalon TCU" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="100" VisibilityRange="150" MagneticVariation="-11.6">
+    <!--<Position Name="Avalon TCU" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="100" VisibilityRange="150" MagneticVariation="-11.6">
       <Sectors>
         <Sector Name="MAV" />
       </Sectors>
@@ -1406,7 +1406,7 @@
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-    </Position>
+    </Position> -->
     <Position Name="East Sale TCU" Type="ASD" DefaultCenter="-38.098889+147.149444" DefaultRange="220" MagneticVariation="-12.8">
       <Sectors>
         <Sector Name="ESA" />
@@ -1443,6 +1443,7 @@
         <Sector Name="MAE" />
         <Sector Name="MDN" />
         <Sector Name="MDS" />
+        <Sector Name="MAV" />
       </Sectors>
       <ManualVisibility>
         <Point>-3740.4+14450.6</Point>
@@ -1493,6 +1494,12 @@
       <ControllerInfo Callsign="ML_FMP">
         <Line>Melbourne Flow</Line>
         <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="AV_APP">
+        <Line>Avalon Approach</Line>
+        <Line>ATIS available on 118.2</Line>
+        <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
