@@ -25,11 +25,10 @@
   </Sector>
   <Sector FullName="Benalla" Frequency="132.200" Callsign="ML-BLA_CTR" Name="BLA">
     <Volumes>BLA,BLA_CB_TMA_CAP</Volumes>
-    <ResponsibleSectors>CAE</ResponsibleSectors>
+    <ResponsibleSectors>ELW,MAE</ResponsibleSectors>
   </Sector>
   <Sector FullName="Bindook" Frequency="129.800" Callsign="ML-BIK_CTR" Name="BIK">
     <Volumes>BIK,BIK_SY_TMA_CAP</Volumes>
-    <ResponsibleSectors>KAT,GUN,SAN</ResponsibleSectors>
   </Sector>
   <Sector FullName="Bourke" Frequency="128.200" Callsign="ML-BKE_CTR" Name="BKE">
     <Volumes>BKE</Volumes>
@@ -57,7 +56,7 @@
   </Sector>
   <Sector FullName="Eildon Weir" Frequency="123.750" Callsign="ML-ELW_CTR" Name="ELW">
     <Volumes>ELW,ELW_ML_TMA_CAP</Volumes>
-    <ResponsibleSectors>BLA,MAE</ResponsibleSectors>
+    <ResponsibleSectors>MAE</ResponsibleSectors>
   </Sector>
   <Sector FullName="Esperance" Frequency="123.950" Callsign="ML-ESP_CTR" Name="ESP">
     <Volumes>ESP</Volumes>
@@ -79,6 +78,7 @@
   </Sector>
   <Sector FullName="Gundagai" Frequency="128.400" Callsign="ML-GUN_CTR" Name="GUN">
     <Volumes>GUN,GUN_CB_TMA_CAP</Volumes>
+    <ResponsibleSectors>KAT,BIK,SAN</ResponsibleSectors>
   </Sector>
   <Sector FullName="Howe" Frequency="124.950" Callsign="BN-HWE_CTR" Name="HWE">
     <Volumes>HWE</Volumes>
@@ -89,6 +89,7 @@
   </Sector>
   <Sector FullName="Hyden" Frequency="118.200" Callsign="ML-HYD_CTR" Name="HYD">
     <Volumes>HYD</Volumes>
+    <ResponsibleSectors>JAR,HYD,CRS,GVE,GEL,LEA,PHA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Inverell" Frequency="134.200" Callsign="BN-INL_CTR" Name="INL">
     <Volumes>INL</Volumes>
@@ -159,6 +160,7 @@
   </Sector>
   <Sector FullName="Mungo" Frequency="132.600" Callsign="ML-MUN_CTR" Name="MUN">
     <Volumes>MUN</Volumes>
+    <ResponsibleSectors>YWE,OXL,GTH</ResponsibleSectors>
   </Sector>
   <Sector FullName="Nadi Centre" Frequency="120.900" Callsign="NFFN_CTR" Name="NFFN" />
   <Sector FullName="Newman" Frequency="125.400" Callsign="ML-NEW_CTR" Name="NEW">
@@ -183,7 +185,6 @@
   </Sector>
   <Sector FullName="Pingelly" Frequency="133.900" Callsign="ML-PIY_CTR" Name="PIY">
     <Volumes>PIY,PIY_PH_TMA_CAP</Volumes>
-    <ResponsibleSectors>JAR,HYD,CRS,GVE,GEL,LEA,PHA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Port" Frequency="127.000" Callsign="ML-POT_CTR" Name="POT">
     <Volumes>POT</Volumes>
@@ -193,7 +194,6 @@
   </Sector>
   <Sector FullName="Snowy" Frequency="124.000" Callsign="ML-SNO_CTR" Name="SNO">
     <Volumes>SNO</Volumes>
-    <ResponsibleSectors>WOL</ResponsibleSectors>
   </Sector>
   <Sector FullName="Straddy" Frequency="134.300" Callsign="BN-SDY_CTR" Name="SDY">
     <Volumes>SDY,SDY_BN_TMA_CAP</Volumes>
@@ -244,6 +244,7 @@
   </Sector>
   <Sector FullName="Wollongong" Frequency="125.000" Callsign="ML-WOL_CTR" Name="WOL">
     <Volumes>WOL,WOL_CB_TMA_CAP</Volumes>
+    <ResponsibleSectors>WOL,CAE,CAW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Wonthaggi" Frequency="135.300" Callsign="ML-WON_CTR" Name="WON">
     <Volumes>WON,WON_ML_TMA_CAP</Volumes>
@@ -253,7 +254,6 @@
   </Sector>
   <Sector FullName="Yarrowee" Frequency="134.325" Callsign="ML-YWE_CTR" Name="YWE">
     <Volumes>YWE</Volumes>
-    <ResponsibleSectors>MUN,OXL,GTH,KAT</ResponsibleSectors>
   </Sector>
   <Sector FullName="Auckland (Tasman) Radio" Frequency="129.500" Callsign="NZZO-TSN_FSS" Name="NZZOT" DisplayInSectorsWindow="False">
     <Volumes>NZZO-TSN</Volumes>
@@ -429,12 +429,12 @@
   <Sector FullName="Scherger Approach" Frequency="124.200" Callsign="SG_APP" Name="SGA">
     <Volumes>SGA</Volumes>
   </Sector>
-  <Sector FullName="Sydney Approach (North)" Frequency="124.400" Callsign="SY_APP" Name="SAN">
+  <Sector FullName="Sydney Approach (North)" Frequency="124.400" Callsign="SY-N_APP" Name="SAN">
+    <Volumes>SYA</Volumes>
+  </Sector>
+  <Sector FullName="Sydney Approach (South)" Frequency="128.300" Callsign="SY_APP" Name="SAS">
     <Volumes>SYA</Volumes>
     <ResponsibleSectors>SAS,SFW,SFE,SDS,SDN,SRI</ResponsibleSectors>
-  </Sector>
-  <Sector FullName="Sydney Approach (South)" Frequency="128.300" Callsign="SY-S_APP" Name="SAS">
-    <Volumes>SYA</Volumes>
   </Sector>
   <Sector FullName="Sydney Departures (North)" Frequency="123.000" Callsign="SY_DEP" Name="SDN">
     <Volumes>SYA</Volumes>

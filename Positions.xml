@@ -276,11 +276,11 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Pingelly" Type="ASD" DefaultCenter="-314436.9356+1155549.0723" DefaultRange="1350" VisibilityRange="600">
+    <Position Name="Hyden" Type="ASD" DefaultCenter="-314436.9356+1155549.0723" DefaultRange="1350" VisibilityRange="600">
       <Sectors>
+        <Sector Name="HYD" />
         <Sector Name="PIY" />
         <Sector Name="JAR" />
-        <Sector Name="HYD" />
         <Sector Name="CRS" />
         <Sector Name="GVE" />
         <Sector Name="LEA" />
@@ -440,10 +440,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Eildon Weir" Type="ASD" DefaultCenter="-363829.000+1465021.000" DefaultRange="700" VisibilityRange="600">
+    <Position Name="Benalla" Type="ASD" DefaultCenter="-363829.000+1465021.000" DefaultRange="700" VisibilityRange="600">
       <Sectors>
-        <Sector Name="ELW" />
         <Sector Name="BLA" />
+        <Sector Name="ELW" />
         <Sector Name="MAE" />
         <Sector Name="MDN" />
         <Sector Name="MDS" />
@@ -480,10 +480,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Yarrowee" Type="ASD" DefaultCenter="-360115.000+1434014.000" DefaultRange="1000" VisibilityRange="600">
+    <Position Name="Mungo" Type="ASD" DefaultCenter="-360115.000+1434014.000" DefaultRange="1000" VisibilityRange="600">
       <Sectors>
-        <Sector Name="YWE" />
         <Sector Name="MUN" />
+        <Sector Name="YWE" />
         <Sector Name="OXL" />
         <Sector Name="GTH" />
       </Sectors>
@@ -519,10 +519,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Snowy" Type="ASD" DefaultCenter="-371932.1176+1474022.0459" DefaultRange="700" VisibilityRange="600">
+    <Position Name="Wollongong" Type="ASD" DefaultCenter="-371932.1176+1474022.0459" DefaultRange="700" VisibilityRange="600">
       <Sectors>
-        <Sector Name="SNO" />
         <Sector Name="WOL" />
+        <Sector Name="SNO" />
         <Sector Name="CAE" />
         <Sector Name="CAW" />
       </Sectors>
@@ -557,11 +557,11 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Bindook" Type="ASD" DefaultCenter="-335322.000+1495413.000" DefaultRange="600" VisibilityRange="600">
+    <Position Name="Gundagai" Type="ASD" DefaultCenter="-335322.000+1495413.000" DefaultRange="600" VisibilityRange="600">
       <Sectors>
+        <Sector Name="GUN" />
         <Sector Name="BIK" />
         <Sector Name="KAT" />
-        <Sector Name="GUN" />
         <Sector Name="SAN" />
         <Sector Name="SAS" />
         <Sector Name="SDS" />
@@ -1539,8 +1539,8 @@
     </Position>
     <Position Name="Sydney TCU" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="190" VisibilityRange="100" MagneticVariation="-13">
       <Sectors>
-        <Sector Name="SAN" />
         <Sector Name="SAS" />
+        <Sector Name="SAN" />
         <Sector Name="SDN" />
         <Sector Name="SDS" />
         <Sector Name="SFW" />
@@ -1574,13 +1574,13 @@
         <Airport Name="YSSY" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Sydney Approach</Line>
+        <Line>Sydney Approach (South)</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="SY-S_APP">
-        <Line>Sydney Approach (South)</Line>
+      <ControllerInfo Callsign="SY-N_APP">
+        <Line>Sydney Approach</Line>
         <Line>ATIS available on 126.25</Line>
         <Line>Charts - vats.im/pac/charts</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
