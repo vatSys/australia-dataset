@@ -78,7 +78,7 @@
   </Sector>
   <Sector FullName="Gundagai" Frequency="128.400" Callsign="ML-GUN_CTR" Name="GUN">
     <Volumes>GUN,GUN_CB_TMA_CAP</Volumes>
-    <ResponsibleSectors>KAT,BIK,SAN</ResponsibleSectors>
+    <ResponsibleSectors>KAT,BIK,SAS</ResponsibleSectors>
   </Sector>
   <Sector FullName="Howe" Frequency="124.950" Callsign="BN-HWE_CTR" Name="HWE">
     <Volumes>HWE</Volumes>
@@ -429,12 +429,12 @@
   <Sector FullName="Scherger Approach" Frequency="124.200" Callsign="SG_APP" Name="SGA">
     <Volumes>SGA</Volumes>
   </Sector>
+    <Sector FullName="Sydney Approach (South)" Frequency="128.300" Callsign="SY_APP" Name="SAS">
+    <Volumes>SYA</Volumes>
+    <ResponsibleSectors>SAN,SFW,SFE,SDS,SDN,SRI</ResponsibleSectors>
+  </Sector>
   <Sector FullName="Sydney Approach (North)" Frequency="124.400" Callsign="SY-N_APP" Name="SAN">
     <Volumes>SYA</Volumes>
-  </Sector>
-  <Sector FullName="Sydney Approach (South)" Frequency="128.300" Callsign="SY_APP" Name="SAS">
-    <Volumes>SYA</Volumes>
-    <ResponsibleSectors>SAS,SFW,SFE,SDS,SDN,SRI</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sydney Departures (North)" Frequency="123.000" Callsign="SY_DEP" Name="SDN">
     <Volumes>SYA</Volumes>
