@@ -25,7 +25,7 @@
   </Sector>
   <Sector FullName="Benalla" Frequency="132.200" Callsign="ML-BLA_CTR" Name="BLA">
     <Volumes>BLA,BLA_CB_TMA_CAP</Volumes>
-    <ResponsibleSectors>ELW,MAE</ResponsibleSectors>
+    <ResponsibleSectors>ELW,MAE,MAV</ResponsibleSectors>
   </Sector>
   <Sector FullName="Bindook" Frequency="129.800" Callsign="ML-BIK_CTR" Name="BIK">
     <Volumes>BIK,BIK_SY_TMA_CAP</Volumes>
@@ -397,7 +397,7 @@
   </Sector>
   <Sector FullName="Melbourne Approach" Frequency="132.000" Callsign="ML_APP" Name="MAE">
     <Volumes>MLA</Volumes>
-    <ResponsibleSectors>MDN,MDS</ResponsibleSectors>
+    <ResponsibleSectors>MDN,MDS,MAV</ResponsibleSectors>
   </Sector>
   <Sector FullName="Melbourne Departures (North)" Frequency="118.900" Callsign="ML_DEP" Name="MDN">
     <Volumes>MLA</Volumes>
@@ -436,10 +436,10 @@
   <Sector FullName="Sydney Approach (North)" Frequency="124.400" Callsign="SY-N_APP" Name="SAN">
     <Volumes>SYA</Volumes>
   </Sector>
-  <Sector FullName="Sydney Departures (North)" Frequency="123.000" Callsign="SY_DEP" Name="SDN">
+  <Sector FullName="Sydney Departures (North)" Frequency="123.000" Callsign="SY-N_DEP" Name="SDN">
     <Volumes>SYA</Volumes>
   </Sector>
-  <Sector FullName="Sydney Departures (South)" Frequency="129.700" Callsign="SY-S_DEP" Name="SDS">
+  <Sector FullName="Sydney Departures (South)" Frequency="129.700" Callsign="SY_DEP" Name="SDS">
     <Volumes>SYA</Volumes>
   </Sector>
   <Sector FullName="Sydney Director (East)" Frequency="125.300" Callsign="SY-DE_APP" Name="SFE">
