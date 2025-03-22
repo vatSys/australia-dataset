@@ -192,7 +192,7 @@
   <Sector FullName="Port Vila Centre" Frequency="120.700" Callsign="NVVV_CTR" Name="NVVV" DisplayInSectorsWindow="False">
     <Volumes>NVVV</Volumes>
   </Sector>
-  <Sector FullName="Snowy" Frequency="124.000" Callsign="ML-SNO_CTR" Name="SNO">
+  <Sector FullName="Snowy" Frequency="120.750" Callsign="ML-SNO_CTR" Name="SNO">
     <Volumes>SNO</Volumes>
   </Sector>
   <Sector FullName="Straddy" Frequency="134.300" Callsign="BN-SDY_CTR" Name="SDY">
@@ -429,12 +429,12 @@
   <Sector FullName="Scherger Approach" Frequency="124.200" Callsign="SG_APP" Name="SGA">
     <Volumes>SGA</Volumes>
   </Sector>
-    <Sector FullName="Sydney Approach (South)" Frequency="128.300" Callsign="SY_APP" Name="SAS">
-    <Volumes>SYA</Volumes>
-    <ResponsibleSectors>SAN,SFW,SFE,SDS,SDN,SRI</ResponsibleSectors>
-  </Sector>
   <Sector FullName="Sydney Approach (North)" Frequency="124.400" Callsign="SY-N_APP" Name="SAN">
     <Volumes>SYA</Volumes>
+  </Sector>
+  <Sector FullName="Sydney Approach (South)" Frequency="128.300" Callsign="SY_APP" Name="SAS">
+    <Volumes>SYA</Volumes>
+    <ResponsibleSectors>SAN,SFW,SFE,SDS,SDN,SRI</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sydney Departures (North)" Frequency="123.000" Callsign="SY-N_DEP" Name="SDN">
     <Volumes>SYA</Volumes>
@@ -497,7 +497,7 @@
   <Sector FullName="Archerfield Tower" Frequency="118.100" Callsign="AF_TWR" Name="AF ADC" DisplayInHandoffWindow="False">
     <Volumes>AFTWR</Volumes>
   </Sector>
-  <Sector FullName="Archerfield Tower" Frequency="123.600" Callsign="AF-2_TWR" Name="AF ADC2" DisplayInHandoffWindow="False">
+  <Sector FullName="Archerfield Tower" Frequency="123.600" Callsign="AF-N_TWR" Name="AF ADCN" DisplayInHandoffWindow="False">
     <Volumes>AFTWR</Volumes>
   </Sector>
   <Sector FullName="Avalon Ground" Frequency="129.300" Callsign="AV_GND" Name="AV SMC" DisplayInHandoffWindow="False">
@@ -512,7 +512,7 @@
   <Sector FullName="Bankstown Tower" Frequency="132.800" Callsign="BK_TWR" Name="BK ADC" DisplayInHandoffWindow="False">
     <Volumes>BKTWR</Volumes>
   </Sector>
-  <Sector FullName="Bankstown Tower" Frequency="123.600" Callsign="BK-2_TWR" Name="BK ADC2" DisplayInHandoffWindow="False">
+  <Sector FullName="Bankstown Tower" Frequency="123.600" Callsign="BK-C_TWR" Name="BK ADCC" DisplayInHandoffWindow="False">
     <Volumes>BKTWR</Volumes>
   </Sector>
   <Sector FullName="Brisbane Delivery" Frequency="118.850" Callsign="BN_DEL" Name="BN ACD" DisplayInHandoffWindow="False">
@@ -633,7 +633,7 @@
   <Sector FullName="Jandakot Tower" Frequency="118.100" Callsign="JT_TWR" Name="JT ADC" DisplayInHandoffWindow="False">
     <Volumes>JTTWR</Volumes>
   </Sector>
-  <Sector FullName="Jandakot Tower" Frequency="119.400" Callsign="JT-2_TWR" Name="JT ADC2" DisplayInHandoffWindow="False">
+  <Sector FullName="Jandakot Tower" Frequency="119.400" Callsign="JT-C_TWR" Name="JT ADCC" DisplayInHandoffWindow="False">
     <Volumes>JTTWR</Volumes>
   </Sector>
   <Sector FullName="Karratha Ground" Frequency="123.550" Callsign="KA_GND" Name="KA SMC" DisplayInHandoffWindow="False">
@@ -677,7 +677,7 @@
   <Sector FullName="Moorabbin Tower" Frequency="118.100" Callsign="MB_TWR" Name="MB ADC" DisplayInHandoffWindow="False">
     <Volumes>MBTWR</Volumes>
   </Sector>
-  <Sector FullName="Moorabbin Tower" Frequency="123.000" Callsign="MB-2_TWR" Name="MB ADC2" DisplayInHandoffWindow="False">
+  <Sector FullName="Moorabbin Tower" Frequency="123.000" Callsign="MB-W_TWR" Name="MB ADCW" DisplayInHandoffWindow="False">
     <Volumes>MBTWR</Volumes>
   </Sector>
   <Sector FullName="Mt Hagen Tower" Frequency="120.500" Callsign="AYMH_TWR" Name="AYMH ADC" />
@@ -706,7 +706,7 @@
   <Sector FullName="Parafield Tower" Frequency="118.700" Callsign="PF_TWR" Name="PF ADC" DisplayInHandoffWindow="False">
     <Volumes>PFTWR</Volumes>
   </Sector>
-  <Sector FullName="Parafield Tower" Frequency="124.600" Callsign="PF-2_TWR" Name="PF ADC2" DisplayInHandoffWindow="False">
+  <Sector FullName="Parafield Tower" Frequency="124.600" Callsign="PF-W_TWR" Name="PF ADCW" DisplayInHandoffWindow="False">
     <Volumes>PFTWR</Volumes>
   </Sector>
   <Sector FullName="Pearce Delivery" Frequency="134.100" Callsign="PE_DEL" Name="PE ACD" DisplayInHandoffWindow="False">
