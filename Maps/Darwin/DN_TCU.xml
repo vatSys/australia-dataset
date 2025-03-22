@@ -179,7 +179,6 @@
       <Point>TCH</Point>
       <Point>WSM</Point>
       <Point>WIKP</Point>
-      <Point>-12.218333+131.243333</Point>
     </Symbol>
     <Label HasLeader="True">
       <Point>ADB</Point>
@@ -205,7 +204,6 @@
       <Point>TCH</Point>
       <Point>WSM</Point>
       <Point>WIKP</Point>
-      <Point Name="ADRM">-12.218333+131.243333</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="ROUTE_1">CGR</Point>
@@ -216,23 +214,23 @@
     </Label>
     <!--ROUTE_1-->
     <Line Pattern="Dotted">
-      CGR/JAC/LPT
+      CGR/-120641.472+1310153.498/-121607.958+1310235.559/HPI/LPT/-122430.045+1305216.201
     </Line>
     <!--ROUTE_2-->
     <Line Pattern="Dotted">
-      -12.218333+131.243333/JAC
+      CTT/HPI/LPT/-122430.045+1305216.201
     </Line>
     <!--ROUTE_3-->
     <Line Pattern="Dotted">
-      ADB/LAD/CHI
+      ADB/-124311.677+1310112.000/EAM/-122519.586+1305216.327
     </Line>
     <!--ROUTE_4-->
     <Line Pattern="Dotted">
-      MTD/LAD
+      MTD/-124311.677+1310112.000/EAM/-122519.586+1305216.327
     </Line>
     <!--ROUTE_5-->
     <Line Pattern="Dotted">
-      BYNO/STR/CHI
+      BYNO/WSM/-122519.586+1305216.327
     </Line>
   </Map>
   <Map Type="System2" Name="DN_VFR_FULL_NAME" Priority="1" Center="-12.414722+130.876667">
@@ -252,7 +250,6 @@
       <Point Name="HOPE INLET">HPI</Point>
       <Point Name="JACKO'S JUNCTION">JAC</Point>
       <Point Name="LAKE DEAN">LAD</Point>
-      <Point Name="ADELAIDE RIVER MOUTH">-12.218333+131.243333</Point>
       <Point Name="LAKE FINNISS">LFS</Point>
       <Point Name="LEE PT">LPT</Point>
       <Point Name="MANDORAH">MADO</Point>

@@ -85,13 +85,13 @@
         <STAR Name="ENLI2A" ApproachName="RNPZ" />
         <STAR Name="GOMO4A" ApproachName="RNPZ" />
         <STAR Name="MORB2A" ApproachName="RNPZ" />
-        <STAR Name="MORB2V" />
+        <STAR Name="MORB2V" OpDataFlag="V" />
         <STAR Name="SMOK1A" ApproachName="RNPZ" />
         <STAR Name="SMOK1X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="TEBO2A" ApproachName="RNPZ" />
         <STAR Name="UGTU2A" ApproachName="RNPZ" />
         <STAR Name="WODY2A" ApproachName="RNPZ" />
-        <STAR Name="WODY2V" />
+        <STAR Name="WODY2V" OpDataFlag="V" />
       </Runway>
       <Runway Name="01R" DataRunway="01R">
         <SID Name="BIXAD2" />
@@ -104,7 +104,7 @@
         <STAR Name="BLAK6X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="ENLI2A" ApproachName="RNPZ" />
         <STAR Name="GOMO4A" ApproachName="RNPZ" />
-        <STAR Name="GOMO4V" />
+        <STAR Name="GOMO4V" OpDataFlag="V" />
         <STAR Name="GOMO4X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="MORB2A" ApproachName="RNPZ" />
         <STAR Name="SMOK1A" ApproachName="RNPZ" />
@@ -127,7 +127,7 @@
         <STAR Name="ENLI2A" ApproachName="RNPZ" />
         <STAR Name="ENLI2X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="GOMO4A" ApproachName="RNPZ" />
-        <STAR Name="GOMO4V" />
+        <STAR Name="GOMO4V" OpDataFlag="V" />
         <STAR Name="GOMO4X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="MORB2A" ApproachName="RNPZ" />
         <STAR Name="SMOK1A" ApproachName="RNPZ" />
@@ -146,13 +146,13 @@
         <STAR Name="GOMO4A" ApproachName="RNPZ" />
         <STAR Name="ISPON2" ApproachName="RNPZ" />
         <STAR Name="MORB2A" ApproachName="RNPZ" />
-        <STAR Name="MORB2V" />
+        <STAR Name="MORB2V" OpDataFlag="V" />
         <STAR Name="SMOK1A" ApproachName="RNPZ" />
         <STAR Name="SMOK1X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="TEBO2A" ApproachName="RNPZ" />
         <STAR Name="UGTU2A" ApproachName="RNPZ" />
         <STAR Name="WODY2A" ApproachName="RNPZ" />
-        <STAR Name="WODY2V" />
+        <STAR Name="WODY2V" OpDataFlag="V" />
       </Runway>
     </Airport>
     <Airport Name="YBCG">
@@ -205,8 +205,8 @@
       <Runway Name="33" DataRunway="33">
         <SID Name="CS2" />
         <SID Name="EAZEE3" Type="Jet" Default="True" />
-        <STAR Name="HEND9A" ApproachName="LOC" />
-        <STAR Name="HEND9Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="HEND1A" ApproachName="LOC" />
+        <STAR Name="HEND1Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="KEWI4A" ApproachName="LOC" />
         <STAR Name="KEWI4X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="KEWI4Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
@@ -292,19 +292,19 @@
         <SID Name="MOOLO2" />
         <SID Name="TAPET1" />
         <STAR Name="ITID2W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="ITID2Z" OpDataFlag="Z" ApproachName="RNPZ" />
-        <STAR Name="REBE2Z" OpDataFlag="Z" ApproachName="RNPZ" />
-        <STAR Name="SEBV1Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="ITID2Z" ApproachName="RNPZ" />
+        <STAR Name="REBE2Z" ApproachName="RNPZ" />
+        <STAR Name="SEBV1Z" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="31" DataRunway="31">
         <SID Name="MOOLO2" />
         <SID Name="TAPET1" />
         <STAR Name="ITID2W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="ITID2Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="ITID2Z" ApproachName="RNPZ" />
         <STAR Name="REBE2X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="REBE2Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="REBE2Z" ApproachName="RNPZ" />
         <STAR Name="SEBV1X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="SEBV1Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="SEBV1Z" ApproachName="RNPZ" />
       </Runway>
     </Airport>
     <Airport Name="YBTL">
@@ -334,13 +334,13 @@
         <SID Name="KVALM2" />
         <SID Name="RURTO1" />
         <SID Name="WALTA2" />
-        <STAR Name="IBUX2Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="IBUX2Z" ApproachName="RNPZ" />
         <STAR Name="PORO2B" OpDataFlag="B" ApproachName="VOR" />
         <STAR Name="PORO2P" OpDataFlag="P" ApproachName="RNP-ARP" />
-        <STAR Name="PORO2Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="PORO2Z" ApproachName="RNPZ" />
         <STAR Name="VOMP2B" OpDataFlag="B" ApproachName="VOR" />
         <STAR Name="VOMP2P" OpDataFlag="P" ApproachName="RNP-ARP" />
-        <STAR Name="VOMP2Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="VOMP2Z" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="25" DataRunway="25" />
     </Airport>
@@ -573,15 +573,15 @@
         <SID Name="ORBUN5" Type="Jet" />
         <SID Name="UPROT2" Type="Jet" />
         <STAR Name="ATNA1W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="ATNA1Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="ATNA1Z" ApproachName="RNPZ" />
         <STAR Name="ATPIP3" Type="NonJet" />
         <STAR Name="BEVSO1" Type="NonJet" />
         <STAR Name="BUGS1W" OpDataFlag="W" ApproachName="RNP-ARW" />
         <STAR Name="BUGS1Z" ApproachName="RNPZ" />
         <STAR Name="INTO1X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="INTO1Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="INTO1Z" ApproachName="RNPZ" />
         <STAR Name="KAKL1X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="KAKL1Z" OpDataFlag="Z" ApproachName="RNPZ" />
+        <STAR Name="KAKL1Z" ApproachName="RNPZ" />
         <STAR Name="SURGN4" Type="NonJet" />
       </Runway>
       <Runway Name="12" DataRunway="12">
@@ -16387,7 +16387,7 @@ SAGLI
       <Transition Name="ZANEY">ZANEY</Transition>
       <Route Runway="15">CODIE/GUNRO</Route>
     </STAR>
-    <STAR Name="HEND9A" Airport="YBCS" Runways="33">
+    <STAR Name="HEND1A" Airport="YBCS" Runways="33">
       <Transition Name="ANDOP">ANDOP/NONUM/TOTTY</Transition>
       <Transition Name="BARIA">BARIA/ROLFE</Transition>
       <Transition Name="ISNER">ISNER</Transition>
@@ -16397,7 +16397,7 @@ SAGLI
       <Transition Name="VEKBI">VEKBI</Transition>
       <Route Runway="33">HENDO</Route>
     </STAR>
-    <STAR Name="HEND9Y" Airport="YBCS" Runways="33">
+    <STAR Name="HEND1Y" Airport="YBCS" Runways="33">
       <Transition Name="ANDOP">ANDOP/NONUM/TOTTY</Transition>
       <Transition Name="BARIA">BARIA/ROLFE</Transition>
       <Transition Name="ISNER">ISNER</Transition>

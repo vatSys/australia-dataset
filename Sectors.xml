@@ -192,7 +192,7 @@
   <Sector FullName="Port Vila Centre" Frequency="120.700" Callsign="NVVV_CTR" Name="NVVV" DisplayInSectorsWindow="False">
     <Volumes>NVVV</Volumes>
   </Sector>
-  <Sector FullName="Snowy" Frequency="124.000" Callsign="ML-SNO_CTR" Name="SNO">
+  <Sector FullName="Snowy" Frequency="120.750" Callsign="ML-SNO_CTR" Name="SNO">
     <Volumes>SNO</Volumes>
   </Sector>
   <Sector FullName="Straddy" Frequency="134.300" Callsign="BN-SDY_CTR" Name="SDY">
@@ -429,12 +429,12 @@
   <Sector FullName="Scherger Approach" Frequency="124.200" Callsign="SG_APP" Name="SGA">
     <Volumes>SGA</Volumes>
   </Sector>
-    <Sector FullName="Sydney Approach (South)" Frequency="128.300" Callsign="SY_APP" Name="SAS">
-    <Volumes>SYA</Volumes>
-    <ResponsibleSectors>SAN,SFW,SFE,SDS,SDN,SRI</ResponsibleSectors>
-  </Sector>
   <Sector FullName="Sydney Approach (North)" Frequency="124.400" Callsign="SY-N_APP" Name="SAN">
     <Volumes>SYA</Volumes>
+  </Sector>
+  <Sector FullName="Sydney Approach (South)" Frequency="128.300" Callsign="SY_APP" Name="SAS">
+    <Volumes>SYA</Volumes>
+    <ResponsibleSectors>SAN,SFW,SFE,SDS,SDN,SRI</ResponsibleSectors>
   </Sector>
   <Sector FullName="Sydney Departures (North)" Frequency="123.000" Callsign="SY-N_DEP" Name="SDN">
     <Volumes>SYA</Volumes>
