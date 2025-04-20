@@ -235,8 +235,8 @@
 	  <Translation String="FCST" Spoken="forecast" />
 	  <Translation String="AD" Spoken="aerodrome" />
 	  <Translation String="MX" Spoken="maxiumum" />
-	  <!--- This is to fix via being rendered as viaduct -->
-	  <Translation String="VIA" Spoken="via" />
+	<!--- This is to fix via being rendered as viaduct -->
+	<Translation String="VIA" Spoken="vɪˈə" Alphabet="IPA" FallbackSpoken="vee-ah" />
     <Translation String="CLSD" Spoken="closed" />
 	  <Translation String="LV" Spoken="light and variable" />
 	  <Translation String="SWS" Spoken="soft wet surface" />
@@ -311,7 +311,9 @@
     <Translation String="CLD" Spoken="cloud" />
 	  
     <!--Changes cloud to abbreviation and altitude * 100 without leading zeros-->
-    <Translation Regex="(FEW|SCT|BKN|OVC)[0]{0,2}(\d+)(TCU|CB)?" Spoken="$1 ${2}00 feet $3" />
+    <Translation Regex="(FEW|SCT|BKN|OVC)[0]{0,2}(\d+)" Spoken="$1 ${2}00 feet" />
+    <Translation Regex="(FEW|SCT|BKN|OVC)[0]{0,2}(\d+)(TCU)" Spoken="$1 ${2}00 feet towering cumulus" />
+    <Translation Regex="(FEW|SCT|BKN|OVC)[0]{0,2}(\d+)(CB)" Spoken="$1 ${2}00 feet cumulonimbus" />
     <Translation String="FT" Spoken="feet" />
     <Translation String="FEW" Spoken="few" />
     <Translation String="SCT" Spoken="scattered" />
@@ -365,7 +367,6 @@
     <Translation String="TSRA" Spoken="thunderstorms and rain" />
     <Translation String="TSRAGS" Spoken="thunderstorms and rain with hail" />
     <Translation String="TCU" Spoken="towering cumulus" />
-    <Translation String="CB" Spoken="cumulonimbus" />
     <Translation String="TMP" Spoken="temperature" />
     <Translation String="QNH" Spoken="Q-N-H" />
     <Translation String="SIGMET" Spoken="sɪɢɱɛt" Alphabet="IPA" FallbackSpoken="sygmet" />
