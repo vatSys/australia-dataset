@@ -85,7 +85,6 @@
         <Sector Name="WEG" />
         <Sector Name="ARA" />
         <Sector Name="STR" />
-        <Sector Name="CVN" />
       </Sectors>
       <ManualVisibility>
         <Point>-152747.6868+1234623.9905</Point>
@@ -115,11 +114,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Inverell" Type="ASD" DefaultCenter="-2625.000+15060.000" DefaultRange="1200" VisibilityRange="600">
+    <Position Name="Inverell" Type="ASD" DefaultCenter="-273810.000+1531547.000" DefaultRange="1200" VisibilityRange="600">
       <Sectors>
         <Sector Name="INL" />
         <Sector Name="DOS" />
-        <Sector Name="KPL" />
         <Sector Name="BUR" />
         <Sector Name="SDY" />
         <Sector Name="GOL" />
@@ -155,6 +153,47 @@
       <ArrivalLists>
         <Airport Name="YBBN" />
         <Airport Name="YBCG" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Brisbane Centre</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>         
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Keppel" Type="ASD" DefaultCenter="-240656.000+1495402.000" DefaultRange="1200" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="KPL" />
+        <Sector Name="CVN" />
+        <Sector Name="SWY" />
+        <Sector Name="MKA" />
+        <Sector Name="RKA" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-25.725+150.343</Point>
+        <Point>-31.391+150.777</Point>
+        <Point>-19.010+147.268</Point>
+        <Point>-23.163+141.507</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="9000" />
+      <ArrivalLists>
+        <Airport Name="YBMK" />
+        <Airport Name="YBRK" />
+        <Airport Name="YBHM" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Brisbane Centre</Line>
@@ -351,11 +390,11 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Kennedy" Type="ASD" DefaultCenter="-1850.000+14800.000" DefaultRange="1100" VisibilityRange="600">
+    <Position Name="Kennedy" Type="ASD" DefaultCenter="-164428.000+1470710.000" DefaultRange="1100" VisibilityRange="600">
       <Sectors>
         <Sector Name="KEN" />
         <Sector Name="TBP" />
-        <Sector Name="SWY" />
+        <Sector Name="WIL" />
         <Sector Name="BAR" />
         <Sector Name="CS1" />
         <Sector Name="CS2" />
