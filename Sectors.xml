@@ -269,8 +269,7 @@
     <Volumes>COL</Volumes>
   </Sector>
   <Sector FullName="Brisbane Radio (Flinders)" Frequency="132.850" Callsign="BN-FLD_FSS" Name="FLD">
-    <Volumes>FLD</Volumes>
-    <ResponsibleSectors>COL</ResponsibleSectors>
+    <Volumes>FLD,COL</Volumes>
   </Sector>
   <Sector FullName="Brisbane Radio (Indian East)" Frequency="123.650" Callsign="ML-INE_FSS" Name="INE">
     <Volumes>INE</Volumes>
@@ -283,8 +282,8 @@
     <ResponsibleSectors>INE,INS</ResponsibleSectors>
   </Sector>
   <Sector FullName="Brisbane Radio (Tasman)" Frequency="124.650" Callsign="BN-TSN_FSS" Name="TSN">
-    <Volumes>TSN,HWE</Volumes>
-    <ResponsibleSectors>FLD,COL</ResponsibleSectors>
+    <Volumes>TSN</Volumes>
+    <ResponsibleSectors>HWE,FLD,COL</ResponsibleSectors>
   </Sector>
   <Sector FullName="Johannesburg Oceanic" Frequency="120.850" Callsign="FAJO_FSS" Name="FAJO" DisplayInSectorsWindow="False">
     <Volumes>FAJO</Volumes>
