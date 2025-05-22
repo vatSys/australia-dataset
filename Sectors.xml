@@ -15,7 +15,7 @@
     <ResponsibleSectors>MDE,MLD,OCN,MNN,CNK</ResponsibleSectors>
   </Sector>
   <Sector FullName="Ashmore" Frequency="133.400" Callsign="BN-ASH_CTR" Name="ASH">
-    <Volumes>ASH,ASH-O</Volumes>
+    <Volumes>ASH</Volumes>
   </Sector>
   <Sector FullName="Augusta" Frequency="127.050" Callsign="ML-AUG_CTR" Name="AUG">
     <Volumes>AUG</Volumes>
@@ -93,11 +93,11 @@
   </Sector>
   <Sector FullName="Inverell" Frequency="134.200" Callsign="BN-INL_CTR" Name="INL">
     <Volumes>INL</Volumes>
-    <ResponsibleSectors>KPL,DOS,SDY,BUR,GOL,NSA</ResponsibleSectors>
+    <ResponsibleSectors>DOS,SDY,BUR,GOL,NSA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Isa" Frequency="125.700" Callsign="BN-ISA_CTR" Name="ISA">
     <Volumes>ISA</Volumes>
-    <ResponsibleSectors>WEG,ARA,STR,CVN</ResponsibleSectors>
+    <ResponsibleSectors>WEG,ARA,STR</ResponsibleSectors>
   </Sector>
   <Sector FullName="Jakarta Control" Frequency="132.300" Callsign="WIIF_CTR" Name="WIIF" DisplayInSectorsWindow="False">
     <Volumes>WIIF</Volumes>
@@ -119,10 +119,11 @@
   </Sector>
   <Sector FullName="Kennedy" Frequency="120.150" Callsign="BN-KEN_CTR" Name="KEN">
     <Volumes>KEN,KEN_CS_TMA_CAP</Volumes>
-    <ResponsibleSectors>BAR,TBP,SWY,CS1</ResponsibleSectors>
+    <ResponsibleSectors>BAR,TBP,WIL,CS1</ResponsibleSectors>
   </Sector>
   <Sector FullName="Keppel" Frequency="125.900" Callsign="BN-KPL_CTR" Name="KPL">
     <Volumes>KPL</Volumes>
+    <ResponsibleSectors>CVN,SWY,RKA,MKA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Kimberley" Frequency="132.100" Callsign="BN-KIY_CTR" Name="KIY">
     <Volumes>KIY</Volumes>
@@ -242,6 +243,9 @@
   <Sector FullName="Warrego" Frequency="132.450" Callsign="BN-WEG_CTR" Name="WEG">
     <Volumes>WEG</Volumes>
   </Sector>
+  <Sector FullName="Willis" Frequency="127.600" Callsign="BN-WIL_CTR" Name="WIL">
+    <Volumes>WIL</Volumes>
+  </Sector>
   <Sector FullName="Wollongong" Frequency="125.000" Callsign="ML-WOL_CTR" Name="WOL">
     <Volumes>WOL,WOL_CB_TMA_CAP</Volumes>
     <ResponsibleSectors>WOL,SNO,CAE,CAW</ResponsibleSectors>
@@ -265,8 +269,7 @@
     <Volumes>COL</Volumes>
   </Sector>
   <Sector FullName="Brisbane Radio (Flinders)" Frequency="132.850" Callsign="BN-FLD_FSS" Name="FLD">
-    <Volumes>FLD</Volumes>
-    <ResponsibleSectors>COL</ResponsibleSectors>
+    <Volumes>FLD,COL</Volumes>
   </Sector>
   <Sector FullName="Brisbane Radio (Indian East)" Frequency="123.650" Callsign="ML-INE_FSS" Name="INE">
     <Volumes>INE</Volumes>
@@ -279,8 +282,8 @@
     <ResponsibleSectors>INE,INS</ResponsibleSectors>
   </Sector>
   <Sector FullName="Brisbane Radio (Tasman)" Frequency="124.650" Callsign="BN-TSN_FSS" Name="TSN">
-    <Volumes>TSN,HWE</Volumes>
-    <ResponsibleSectors>FLD,COL</ResponsibleSectors>
+    <Volumes>TSN</Volumes>
+    <ResponsibleSectors>HWE,FLD,COL</ResponsibleSectors>
   </Sector>
   <Sector FullName="Johannesburg Oceanic" Frequency="120.850" Callsign="FAJO_FSS" Name="FAJO" DisplayInSectorsWindow="False">
     <Volumes>FAJO</Volumes>

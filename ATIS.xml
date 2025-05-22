@@ -73,7 +73,8 @@
     <Translation String="YBRM" Spoken="Broome" />
     <Translation String="YBSG" Spoken="Scherger" />
     <Translation String="YBSU" Spoken="Sunshine Coast" />
-    <Translation String="YBTL" Spoken="Townsville" />
+    <Translation String="YBTL" Spoken="Towns ville" />
+    <Translation String="Townsville" Spoken="Towns ville" />
     <Translation String="YCFS" Spoken="Coffs Harbour" />
     <Translation String="YCIN" Spoken="Curtin" />
     <Translation String="YGIG" Spoken="GinGin" />
@@ -235,7 +236,8 @@
 	  <Translation String="FCST" Spoken="forecast" />
 	  <Translation String="AD" Spoken="aerodrome" />
 	  <Translation String="MX" Spoken="maxiumum" />
-    <Translation String="CLSD" Spoken="closed" />
+	  <Translation String="VIA" Spoken="vɪˈə" Alphabet="IPA" FallbackSpoken="vee-ah" />
+    	  <Translation String="CLSD" Spoken="closed" />
 	  <Translation String="LV" Spoken="light and variable" />
 	  <Translation String="SWS" Spoken="soft wet surface" />
 	  <Translation String="CTAF" Spoken="seetaf" />
@@ -310,6 +312,8 @@
 	  
     <!--Changes cloud to abbreviation and altitude * 100 without leading zeros-->
     <Translation Regex="(FEW|SCT|BKN|OVC)[0]{0,2}(\d+)" Spoken="$1 ${2}00 feet" />
+    <Translation Regex="(FEW|SCT|BKN|OVC)[0]{0,2}(\d+)(TCU)" Spoken="$1 ${2}00 feet towering cumulus" />
+    <Translation Regex="(FEW|SCT|BKN|OVC)[0]{0,2}(\d+)(CB)" Spoken="$1 ${2}00 feet cumulonimbus" />
     <Translation String="FT" Spoken="feet" />
     <Translation String="FEW" Spoken="few" />
     <Translation String="SCT" Spoken="scattered" />

@@ -85,7 +85,6 @@
         <Sector Name="WEG" />
         <Sector Name="ARA" />
         <Sector Name="STR" />
-        <Sector Name="CVN" />
       </Sectors>
       <ManualVisibility>
         <Point>-152747.6868+1234623.9905</Point>
@@ -115,11 +114,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Inverell" Type="ASD" DefaultCenter="-2625.000+15060.000" DefaultRange="1200" VisibilityRange="600">
+    <Position Name="Inverell" Type="ASD" DefaultCenter="-273810.000+1531547.000" DefaultRange="1200" VisibilityRange="600">
       <Sectors>
         <Sector Name="INL" />
         <Sector Name="DOS" />
-        <Sector Name="KPL" />
         <Sector Name="BUR" />
         <Sector Name="SDY" />
         <Sector Name="GOL" />
@@ -155,6 +153,47 @@
       <ArrivalLists>
         <Airport Name="YBBN" />
         <Airport Name="YBCG" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Brisbane Centre</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>         
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Keppel" Type="ASD" DefaultCenter="-240656.000+1495402.000" DefaultRange="1200" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="KPL" />
+        <Sector Name="CVN" />
+        <Sector Name="SWY" />
+        <Sector Name="MKA" />
+        <Sector Name="RKA" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-25.725+150.343</Point>
+        <Point>-31.391+150.777</Point>
+        <Point>-19.010+147.268</Point>
+        <Point>-23.163+141.507</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="9000" />
+      <ArrivalLists>
+        <Airport Name="YBMK" />
+        <Airport Name="YBRK" />
+        <Airport Name="YBHM" />
       </ArrivalLists>
       <ControllerInfo>
         <Line>Brisbane Centre</Line>
@@ -218,7 +257,7 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
-      <CFL QuickLevel="9000" />
+      <CFL QuickLevel="10000" />
       <ArrivalLists>
         <Airport Name="YPDN" />
       </ArrivalLists>
@@ -351,11 +390,11 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Kennedy" Type="ASD" DefaultCenter="-1850.000+14800.000" DefaultRange="1100" VisibilityRange="600">
+    <Position Name="Kennedy" Type="ASD" DefaultCenter="-164428.000+1470710.000" DefaultRange="1100" VisibilityRange="600">
       <Sectors>
         <Sector Name="KEN" />
         <Sector Name="TBP" />
-        <Sector Name="SWY" />
+        <Sector Name="WIL" />
         <Sector Name="BAR" />
         <Sector Name="CS1" />
         <Sector Name="CS2" />
@@ -972,13 +1011,13 @@
       <ControllerInfo>
         <Line>Albury Tower</Line>
         <Line>ATIS available on 133.85</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="AY_GND">
         <Line>Albury Ground</Line>
         <Line>ATIS available on 133.85</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1007,7 +1046,7 @@
       <ControllerInfo>
         <Line>Alice Tower</Line>
         <Line>ATIS available on 123.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1038,13 +1077,13 @@
       <ControllerInfo>
         <Line>Broome Tower</Line>
         <Line>ATIS available on 128.2</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BRM_GND">
         <Line>Broome Ground</Line>
         <Line>ATIS available on 128.2</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1074,7 +1113,7 @@
       <ControllerInfo>
         <Line>Coffs Harbour Tower</Line>
         <Line>ATIS available on 130.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1104,7 +1143,7 @@
       <ControllerInfo>
         <Line>Hamilton Island Tower</Line>
         <Line>ATIS available on 128.35</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1135,13 +1174,13 @@
       <ControllerInfo>
         <Line>Sunshine Coast Tower</Line>
         <Line>ATIS available on 119.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SU_GND">
         <Line>Sunshine Coast Ground</Line>
         <Line>ATIS available on 119.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1172,13 +1211,13 @@
       <ControllerInfo>
         <Line>Karratha Tower</Line>
         <Line>ATIS available on 134.55</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="KA_GND">
         <Line>Karratha Ground</Line>
         <Line>ATIS available on 134.55</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1209,19 +1248,19 @@
       <ControllerInfo>
         <Line>Tamworth Tower</Line>
         <Line>ATIS available on 123.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo>
         <Line>Tamworth Tower (South)</Line>
         <Line>ATIS available on 123.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="TW_GND">
         <Line>Tamworth Ground</Line>
         <Line>ATIS available on 123.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1251,7 +1290,7 @@
       <ControllerInfo>
         <Line>Woomera Tower</Line>
         <Line>ATIS available on 118.1</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1350,13 +1389,13 @@
       <ControllerInfo>
         <Line>Adelaide Approach</Line>
         <Line>ATIS available on 134.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="AD-W_APP">
         <Line>Adelaide Approach (West)</Line>
         <Line>ATIS available on 134.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="AD_FMP">
@@ -1391,7 +1430,7 @@
       <ControllerInfo>
         <Line>Amberley Approach</Line>
         <Line>ATIS available on 123.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1424,7 +1463,7 @@
       <ControllerInfo>
         <Line>Avalon Approach</Line>
         <Line>ATIS available on 118.2</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position> -->
@@ -1455,7 +1494,7 @@
       <ControllerInfo>
         <Line>Sale Approach</Line>
         <Line>ATIS available on 125.4</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1497,19 +1536,19 @@
       <ControllerInfo>
         <Line>Melbourne Approach</Line>
         <Line>ATIS available on 118.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="ML_DEP">
         <Line>Melbourne Departures</Line>
         <Line>ATIS available on 118.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="ML-S_DEP">
         <Line>Melbourne Departures (South)</Line>
         <Line>ATIS available on 118.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="ML_FMP">
@@ -1520,7 +1559,7 @@
       <ControllerInfo Callsign="AV_APP">
         <Line>Avalon Approach</Line>
         <Line>ATIS available on 118.2</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1563,43 +1602,43 @@
       <ControllerInfo>
         <Line>Sydney Approach</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-N_APP">
         <Line>Sydney Approach (North)</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY_DEP">
         <Line>Sydney Departures</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-N_DEP">
         <Line>Sydney Departures (North)</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-DE_APP">
         <Line>Sydney Director (East)</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-D_APP">
         <Line>Sydney Director</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-C_DEP">
         <Line>Sydney Centre</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY_FMP">
@@ -1649,31 +1688,31 @@
       <ControllerInfo>
         <Line>Brisbane Approach</Line>
         <Line>ATIS available on 125.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN-S_APP">
         <Line>Brisbane Approach (South)</Line>
         <Line>ATIS available on 125.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN-C_APP">
         <Line>Brisbane Approach (Gold Coast)</Line>
         <Line>ATIS available on 134.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN_DEP">
         <Line>Brisbane Departures</Line>
         <Line>ATIS available on 125.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN-S_DEP">
         <Line>Brisbane Departures (South)</Line>
         <Line>ATIS available on 125.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN_FMP">
@@ -1714,13 +1753,13 @@
       <ControllerInfo>
         <Line>Canberra Approach</Line>
         <Line>ATIS available on 127.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CB-W_APP">
         <Line>Canberra Approach (West)</Line>
         <Line>ATIS available on 127.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CB_FMP">
@@ -1763,13 +1802,13 @@
       <ControllerInfo>
         <Line>Perth Approach</Line>
         <Line>ATIS available on 123.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="PH_DEP">
         <Line>Perth Departures</Line>
         <Line>ATIS available on 123.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="PH_FMP">
@@ -1780,7 +1819,7 @@
       <ControllerInfo Callsign="PE_APP">
         <Line>Pearce Approach</Line>
         <Line>ATIS available on 136.4</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1813,13 +1852,13 @@
       <ControllerInfo>
         <Line>Cairns Approach</Line>
         <Line>ATIS available on 131.1</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CS-W_APP">
         <Line>Cairns Approach (West)</Line>
         <Line>ATIS available on 131.1</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CS_FMP">
@@ -1856,7 +1895,7 @@
       <ControllerInfo>
         <Line>Townsville Approach</Line>
         <Line>ATIS available on 133.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1886,7 +1925,7 @@
       <ControllerInfo>
         <Line>Tindal Approach</Line>
         <Line>ATIS available on 124.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1919,13 +1958,13 @@
       <ControllerInfo>
         <Line>Darwin Approach</Line>
         <Line>ATIS available on 128.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="DN-W_APP">
         <Line>Darwin Approach (West)</Line>
         <Line>ATIS available on 128.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1958,13 +1997,13 @@
       <ControllerInfo>
         <Line>Willy Approach</Line>
         <Line>ATIS available on 134.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="WLM-L_APP">
         <Line>Willy Approach (Lower)</Line>
         <Line>ATIS available on 134.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1995,7 +2034,7 @@
       <ControllerInfo>
         <Line>Nowra Approach</Line>
         <Line>ATIS available on 125.65</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2025,7 +2064,7 @@
       <ControllerInfo>
         <Line>Oakey Approach</Line>
         <Line>ATIS available on 124.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2058,7 +2097,7 @@
       <ControllerInfo>
         <Line>Hobart Approach</Line>
         <Line>ATIS available on 128.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2090,7 +2129,7 @@
       <ControllerInfo>
         <Line>Launceston Approach</Line>
         <Line>ATIS available on 134.75</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2126,7 +2165,7 @@
       <ControllerInfo>
         <Line>Coral Approach</Line>
         <Line>ATIS available on 128.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2162,7 +2201,7 @@
       <ControllerInfo>
         <Line>Coral Approach</Line>
         <Line>ATIS available on 128.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2192,7 +2231,7 @@
       <ControllerInfo>
         <Line>Curtin Approach</Line>
         <Line>ATIS available on 134.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2223,7 +2262,7 @@
       <ControllerInfo>
         <Line>Learmonth Approach</Line>
         <Line>ATIS available on 123.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2254,7 +2293,7 @@
       <ControllerInfo>
         <Line>Scherger Approach</Line>
         <Line>ATIS available on 132.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2287,13 +2326,13 @@
       <ControllerInfo>
         <Line>Archer Tower</Line>
         <Line>ATIS available on 120.9</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="AF_GND">
         <Line>Archer Ground</Line>
         <Line>ATIS available on 120.9</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2322,13 +2361,13 @@
       <ControllerInfo>
         <Line>Avalon Tower</Line>
         <Line>ATIS available on 118.2</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="AV_GND">
         <Line>Avalon Ground</Line>
         <Line>ATIS available on 118.2</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2359,13 +2398,13 @@
       <ControllerInfo>
         <Line>Bankstown Tower</Line>
         <Line>ATIS available on 120.9</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BK_GND">
         <Line>Bankstown Ground</Line>
         <Line>ATIS available on 120.9</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2394,13 +2433,13 @@
       <ControllerInfo>
         <Line>Camden Tower</Line>
         <Line>ATIS available on 125.1</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CN_GND">
         <Line>Camden Ground</Line>
         <Line>ATIS available on 125.1</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2431,13 +2470,13 @@
       <ControllerInfo>
         <Line>Hobart Tower</Line>
         <Line>ATIS available on 128.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="HB_GND">
         <Line>Hobart Ground</Line>
         <Line>ATIS available on 128.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2467,13 +2506,13 @@
       <ControllerInfo>
         <Line>Jandakot Tower</Line>
         <Line>ATIS available on 128.65</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="JT_GND">
         <Line>Jandakot Ground</Line>
         <Line>ATIS available on 128.65</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2503,7 +2542,7 @@
       <ControllerInfo>
         <Line>Launy Tower</Line>
         <Line>ATIS available on 134.75</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2532,13 +2571,13 @@
       <ControllerInfo>
         <Line>Mackay Tower</Line>
         <Line>ATIS available on 128.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="MK_GND">
         <Line>Mackay Ground</Line>
         <Line>ATIS available on 128.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2568,13 +2607,13 @@
       <ControllerInfo>
         <Line>Moorabbin Tower</Line>
         <Line>ATIS available on 120.9</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="MB_GND">
         <Line>Moorabbin Ground</Line>
         <Line>ATIS available on 120.9</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2604,13 +2643,13 @@
       <ControllerInfo>
         <Line>Parafield Tower</Line>
         <Line>ATIS available on 120.9</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="PF_GND">
         <Line>Parafield Ground</Line>
         <Line>ATIS available on 120.9</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2639,13 +2678,13 @@
       <ControllerInfo>
         <Line>Rocky Tower</Line>
         <Line>ATIS available on 128.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="RK_GND">
         <Line>Rocky Ground</Line>
         <Line>ATIS available on 128.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2677,19 +2716,19 @@
       <ControllerInfo>
         <Line>Adelaide Tower</Line>
         <Line>ATIS available on 134.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="AD_GND">
         <Line>Adelaide Ground</Line>
         <Line>ATIS available on 134.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="AD_DEL">
         <Line>Adelaide Delivery</Line>
         <Line>ATIS available on 134.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2718,19 +2757,19 @@
       <ControllerInfo>
         <Line>Amberley Tower</Line>
         <Line>ATIS available on 123.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="AMB_GND">
         <Line>Amberley Ground</Line>
         <Line>ATIS available on 123.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="AMB_DEL">
         <Line>Amberley Delivery</Line>
         <Line>ATIS available on 123.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2760,19 +2799,19 @@
       <ControllerInfo>
         <Line>Sale Tower</Line>
         <Line>ATIS available on 125.4</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="ES_GND">
         <Line>Sale Ground</Line>
         <Line>ATIS available on 125.4</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="ES_DEL">
         <Line>Sale Delivery</Line>
         <Line>ATIS available on 125.4</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2802,13 +2841,13 @@
       <ControllerInfo>
         <Line>Essendon Tower</Line>
         <Line>ATIS available on 119.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="EN_GND">
         <Line>Essendon Ground</Line>
         <Line>ATIS available on 119.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2838,19 +2877,19 @@
       <ControllerInfo>
         <Line>Melbourne Tower</Line>
         <Line>ATIS available on 118.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="ML_GND">
         <Line>Melbourne Ground</Line>
         <Line>ATIS available on 118.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="ML_DEL">
         <Line>Melbourne Delivery</Line>
         <Line>ATIS available on 118.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2883,37 +2922,37 @@
       <ControllerInfo Callsign="SY_TWR">
         <Line>Sydney Tower</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo>
         <Line>Sydney Tower</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-W_GND">
         <Line>Sydney Ground (West)</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY_GND">
         <Line>Sydney Ground</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-C_GND">
         <Line>Sydney Coordinator</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY_DEL">
         <Line>Sydney Delivery</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -2946,37 +2985,37 @@
       <ControllerInfo>
         <Line>Brisbane Tower</Line>
         <Line>ATIS available on 125.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN-W_TWR">
         <Line>Brisbane Tower (West)</Line>
         <Line>ATIS available on 125.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN_GND">
         <Line>Brisbane Ground</Line>
         <Line>ATIS available on 125.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN-N_GND">
         <Line>Brisbane Ground (North)</Line>
         <Line>ATIS available on 125.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN-S_GND">
         <Line>Brisbane Ground (South)</Line>
         <Line>ATIS available on 125.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="BN_DEL">
         <Line>Brisbane Delivery</Line>
         <Line>ATIS available on 125.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3005,13 +3044,13 @@
       <ControllerInfo>
         <Line>Canberra Tower</Line>
         <Line>ATIS available on 127.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CB_GND">
         <Line>Canberra Ground</Line>
         <Line>ATIS available on 127.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3042,25 +3081,25 @@
       <ControllerInfo>
         <Line>Perth Tower</Line>
         <Line>ATIS available on 123.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="PH_GND">
         <Line>Perth Ground</Line>
         <Line>ATIS available on 123.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="PH-E_GND">
         <Line>Perth Ground (East)</Line>
         <Line>ATIS available on 123.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="PH_DEL">
         <Line>Perth Delivery</Line>
         <Line>ATIS available on 123.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3091,19 +3130,19 @@
       <ControllerInfo>
         <Line>Cairns Tower</Line>
         <Line>ATIS available on 131.1</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CS_GND">
         <Line>Cairns Ground</Line>
         <Line>ATIS available on 131.1</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CS_DEL">
         <Line>Cairns Delivery</Line>
         <Line>ATIS available on 131.1</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3133,19 +3172,19 @@
       <ControllerInfo>
         <Line>Townsville Tower</Line>
         <Line>ATIS available on 133.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="TL_GND">
         <Line>Townsville Ground</Line>
         <Line>ATIS available on 133.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="TL_DEL">
         <Line>Townsville Delivery</Line>
         <Line>ATIS available on 133.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3174,19 +3213,19 @@
       <ControllerInfo>
         <Line>Tindal Tower</Line>
         <Line>ATIS available on 124.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="TN_GND">
         <Line>Tindal Ground</Line>
         <Line>ATIS available on 124.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="TN_DEL">
         <Line>Tindal Delivery</Line>
         <Line>ATIS available on 124.0</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3216,19 +3255,19 @@
       <ControllerInfo>
         <Line>Darwin Tower</Line>
         <Line>ATIS available on 128.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="DN_GND">
         <Line>Darwin Ground</Line>
         <Line>ATIS available on 128.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="DN_DEL">
         <Line>Darwin Delivery</Line>
         <Line>ATIS available on 128.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3258,19 +3297,19 @@
       <ControllerInfo>
         <Line>Willy Tower</Line>
         <Line>ATIS available on 134.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="WLM_GND">
         <Line>Willy Ground</Line>
         <Line>ATIS available on 134.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="WLM_DEL">
         <Line>Willy Delivery</Line>
         <Line>ATIS available on 134.45</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3300,19 +3339,19 @@
       <ControllerInfo>
         <Line>Nowra Tower</Line>
         <Line>ATIS available on 125.65</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NW_GND">
         <Line>Nowra Ground</Line>
         <Line>ATIS available on 125.65</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="NW_DEL">
         <Line>Nowra Delivery</Line>
         <Line>ATIS available on 125.65</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3340,13 +3379,13 @@
       <ControllerInfo>
         <Line>Oakey Tower</Line>
         <Line>ATIS available on 124.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="OK_GND">
         <Line>Oakey Ground</Line>
         <Line>ATIS available on 124.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3375,13 +3414,13 @@
       <ControllerInfo>
         <Line>Edinburgh Tower</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="ED_GND">
         <Line>Edinburgh Ground</Line>
         <Line>ATIS available on 126.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3409,7 +3448,7 @@
       <ControllerInfo>
         <Line>Gingin Tower</Line>
         <Line>ATIS available on 134.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3439,19 +3478,19 @@
       <ControllerInfo>
         <Line>Gold Coast Tower</Line>
         <Line>ATIS available on 134.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CG_GND">
         <Line>Gold Coast Ground</Line>
         <Line>ATIS available on 134.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CG_DEL">
         <Line>Gold Coast Delivery</Line>
         <Line>ATIS available on 134.5</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3481,19 +3520,19 @@
       <ControllerInfo>
         <Line>Pearce Tower</Line>
         <Line>ATIS available on 136.4</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="PE_GND">
         <Line>Pearce Ground</Line>
         <Line>ATIS available on 136.4</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="PE_DEL">
         <Line>Pearce Delivery</Line>
         <Line>ATIS available on 136.4</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3521,13 +3560,13 @@
       <ControllerInfo>
         <Line>Richmond Tower</Line>
         <Line>ATIS available on 126.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="RI_GND">
         <Line>Richmond Ground</Line>
         <Line>ATIS available on 126.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3559,19 +3598,19 @@
       <ControllerInfo>
         <Line>Curtin Tower</Line>
         <Line>ATIS available on 134.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CIN_GND">
         <Line>Curtin Ground</Line>
         <Line>ATIS available on 134.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="CIN_DEL">
         <Line>Curtin Delivery</Line>
         <Line>ATIS available on 134.8</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3602,13 +3641,13 @@
       <ControllerInfo>
         <Line>Learmonth Tower</Line>
         <Line>ATIS available on 123.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="LM_GND">
         <Line>Learmonth Ground</Line>
         <Line>ATIS available on 123.3</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3639,13 +3678,13 @@
       <ControllerInfo>
         <Line>Scherger Tower</Line>
         <Line>ATIS available on 132.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SG_GND">
         <Line>Scherger Ground</Line>
         <Line>ATIS available on 132.25</Line>
-        <Line>Charts - vats.im/pac/charts</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
