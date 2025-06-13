@@ -288,4 +288,82 @@
     <Line Pattern="Dotted">
       -310136.579+1151943.020/-310638.198+1152216.546/-311641.335+1152624.059/-312146.376+1153008.867/-312436.668+1153220.571/-312749.653+1153344.187/TOS/BUB/-314634.000+1154327.000
     </Line>
+  </Map>
+  <Map Type="System2" Name="PH_VFR_FULL_NAME" Priority="1" Center="-31.940278+115.966944">
+    <Label HasLeader="True" LabelOrientation="SW">
+      <Point Name="ADVENTURE WORLD">ADWD</Point>
+      <Point Name="ALKIMOS WATER">AKMW</Point>
+      <Point Name="ARMADALE SHOPS">SHOP</Point>
+      <Point Name="BARBAGALLO RACEWAY">BARB</Point>
+      <Point Name="BOATYARD">BOAT</Point>
+      <Point Name="BURNS BEACH">BUB</Point>
+      <Point Name="BYFORD">BYFD</Point>
+      <Point Name="CANNING BRIDGE">CNB</Point>
+      <Point Name="CANNING DAM">CDM</Point>
+      <Point Name="CITY BEACH">CYB</Point>
+      <Point Name="COTTESLOE">CTE</Point>
+      <Point Name="FORRESTDALE LAKE">FDL</Point>
+      <Point Name="FORRESTFIELD">FFLD</Point>
+      <Point Name="FREMANTLE">FRE</Point>
+      <Point Name="FREMANTLE GOLF COURSE">FREM</Point>
+      <Point Name="HELENA RIVER RESV">HRR</Point>
+      <Point Name="HERDSMAN LAKE">HKE</Point>
+      <Point Name="JARRAHDALE">JADL</Point>
+      <Point Name="MANDURAH">MDU</Point>
+      <Point Name="MAYLANDS POLICE ACADEMY">MAYL</Point>
+      <Point Name="MOUNT COOKE">MTK</Point>
+      <Point Name="MOUNT DALE">MUE</Point>
+      <Point Name="MULLALOO PT">MUP</Point>
+      <Point Name="MUNDARING WEIR">MWR</Point>
+      <Point Name="NORTH LAKE">NORT</Point>
+      <Point Name="OAKFORD">OAKF</Point>
+      <Point Name="OBSERVATION CITY">OBC</Point>
+      <Point Name="PERTH CITY">PCTY</Point>
+      <Point Name="PICKERING BROOK GOLF COURSE">PIB</Point>
+      <Point Name="POWERHOUSE">POWR</Point>
+      <Point Name="REDCLIFFE BRIDGE">REDC</Point>
+      <Point Name="ROCKINGHAM">ROHM</Point>
+      <Point Name="ROLEYSTONE">RLY</Point>
+      <Point Name="RUSSELL">RUSS</Point>
+      <Point Name="SAWYERS VALLEY">SWY</Point>
+      <Point Name="SHELLEY BRIDGE">SEL</Point>
+      <Point Name="THE LAKES MINE">TLMI</Point>
+      <Point Name="THOMSONS LAKE">TOML</Point>
+      <Point Name="TWO ROCKS">TOS</Point>
+      <Point Name="UPPER SWAN">USW</Point>
+      <Point Name="VPH">VPH</Point>
+      <Point Name="WOODMAN PT">WMP</Point>
+      <Point Name="WUNDOWIE">WUN</Point>
+      <Point Name="WUNGONG RESERVOIR">WUNG</Point>
+      <Point Name="YANGEBUP LAKE">YGB</Point>
+      <Point Name="YORK TOWNSHIP">ORKT</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YPPH_ALLRWYS" Priority="2" Center="-31.940278+115.966944">
+    <!--YPPH-->
+    <Runway Name="03/21">
+      <Threshold Name="03" Position="-31.958739+115.959683" ExtendedCentrelineTrack="193.95" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="21" Position="-31.928594+115.968464" ExtendedCentrelineTrack="13.95" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--YPPH-->
+    <Runway Name="06/24">
+      <Threshold Name="06" Position="-31.940989+115.959203" ExtendedCentrelineTrack="238.89" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="24" Position="-31.930908+115.978792" ExtendedCentrelineTrack="58.9" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--YPEA-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-31.672319+116.008692" ExtendedCentrelineTrack="224.73" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="23" Position="-31.661486+116.021242" ExtendedCentrelineTrack="44.74" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <!--YPEA-->
+    <Runway Name="18L/36R">
+      <Threshold Name="18L" Position="-31.662411+116.013714" ExtendedCentrelineTrack="353.48" ExtendedCentrelineLength="12" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="36R" Position="-31.684253+116.016633" ExtendedCentrelineTrack="173.48" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <!--YPEA-->
+    <Runway Name="18R/36L">
+      <Threshold Name="18R" Position="-31.668781+116.013333" />
+      <Threshold Name="36L" Position="-31.684389+116.015411" />
+    </Runway>
+  </Map>
 </Maps>
