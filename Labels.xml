@@ -153,6 +153,9 @@
   </Label>
   <Label Type="GroundDeparture" MaximumWidth="11" LabelRectangle="None" Justified="true">
     <DataLine>
+      <Item Type="LABEL_ITEM_RWY" Colour="" LeftClick="Label_Runway" MiddleClick="" RightClick="" />
+    </DataLine>
+    <DataLine>
       <Item Type="LABEL_ITEM_ACID" Colour="" LeftClick="Label_ACID_Menu" />
       <Item Type="LABEL_ITEM_EMERG" Colour="Emergency" BackgroundColour="Warning" LeftClick="" MiddleClick="Label_Emerg" RightClick="" LeftPadding="1" />
       <Item Type="LABEL_ITEM_WARNING" Colour="Warning" P1_BackgroundColour="Emergency" LeftClick="" MiddleClick="Label_Warning" RightClick="" LeftPadding="1" />
