@@ -1398,11 +1398,6 @@
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="AD_FMP">
-        <Line>Adelaide Flow</Line>
-        <Line>Tactical planning position - no control service offered</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
     </Position>
     <Position Name="Amberley TCU" Type="ASD" DefaultCenter="-27.640556+152.711944" DefaultRange="150" MagneticVariation="-11">
       <Sectors>
@@ -1551,11 +1546,6 @@
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="ML_FMP">
-        <Line>Melbourne Flow</Line>
-        <Line>Tactical planning position - no control service offered</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
       <ControllerInfo Callsign="AV_APP">
         <Line>Avalon Approach</Line>
         <Line>ATIS available on 118.2</Line>
@@ -1641,11 +1631,6 @@
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="SY_FMP">
-        <Line>Sydney Flow</Line>
-        <Line>Tactical planning position - no control service offered</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
     </Position>
     <Position Name="Brisbane TCU" Type="ASD" DefaultCenter="-27.648889+153.039167" DefaultRange="220" VisibilityRange="100" MagneticVariation="-11">
       <Sectors>
@@ -1715,11 +1700,6 @@
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="BN_FMP">
-        <Line>Brisbane Flow</Line>
-        <Line>Tactical planning position - no control service offered</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
     </Position>
     <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" VisibilityRange="100" MagneticVariation="-12.5">
       <Sectors>
@@ -1760,11 +1740,6 @@
         <Line>Canberra Approach (West)</Line>
         <Line>ATIS available on 127.45</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="CB_FMP">
-        <Line>Canberra Planner</Line>
-        <Line>Tactical planning position - no control service offered</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -1811,11 +1786,6 @@
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="PH_FMP">
-        <Line>Perth Flow</Line>
-        <Line>Tactical planning position - no control service offered</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
       <ControllerInfo Callsign="PE_APP">
         <Line>Pearce Approach</Line>
         <Line>ATIS available on 136.4</Line>
@@ -1859,11 +1829,6 @@
         <Line>Cairns Approach (West)</Line>
         <Line>ATIS available on 131.1</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="CS_FMP">
-        <Line>Cairns Flow</Line>
-        <Line>Tactical planning position - no control service offered</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
@@ -3685,6 +3650,155 @@
         <Line>Scherger Ground</Line>
         <Line>ATIS available on 132.25</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+  <Group Name="Flow">
+    <Position Name="Sydney Flow" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="700" VisibilityRange="600">
+      <Maps>
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <ATIS>
+        <Window Airport="YSSY" />
+      </ATIS>
+      <ArrivalLists>
+        <Airport Name="YSSY" />
+      </ArrivalLists>
+      <ControllerInfo Callsign="SY_FMP">
+        <Line>Sydney Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Melbourne Flow" Type="ASD" DefaultCenter="-37.6739+144.8431" DefaultRange="700" VisibilityRange="600">
+      <Maps>
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <ATIS>
+        <Window Airport="YMML" />
+      </ATIS>
+      <ArrivalLists>
+        <Airport Name="YMML" />
+      </ArrivalLists>
+      <ControllerInfo Callsign="ML_FMP">
+        <Line>Melbourne Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Brisbane Flow" Type="ASD" DefaultCenter="-27.3845+153.1175" DefaultRange="1000" VisibilityRange="600">
+      <Maps>
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <ATIS>
+        <Window Airport="YBBN" />
+      </ATIS>
+      <ArrivalLists>
+        <Airport Name="YBBN" />
+      </ArrivalLists>
+      <ControllerInfo Callsign="BN_FMP">
+        <Line>Brisbane Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Perth Flow" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="900" VisibilityRange="600">
+      <Maps>
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <ATIS>
+        <Window Airport="YPPH" />
+      </ATIS>
+      <ArrivalLists>
+        <Airport Name="YPPH" />
+      </ArrivalLists>
+      <ControllerInfo Callsign="PH_FMP">
+        <Line>Perth Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Adelaide Flow" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="500" VisibilityRange="600">
+      <Maps>
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <ATIS>
+        <Window Airport="YPAD" />
+      </ATIS>
+      <ArrivalLists>
+        <Airport Name="YPAD" />
+      </ArrivalLists>      
+      <ControllerInfo Callsign="AD_FMP">
+        <Line>Adelaide Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Canberra Flow" Type="ASD" DefaultCenter="-35.306111+149.195833" DefaultRange="500" VisibilityRange="600">
+      <Maps>
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <ATIS>
+        <Window Airport="YSCB" />
+      </ATIS>
+      <ArrivalLists>
+        <Airport Name="YSCB" />
+      </ArrivalLists>      
+      <ControllerInfo Callsign="CB_FMP">
+        <Line>Canberra Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Cairns Flow" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="800" VisibilityRange="600">
+      <Maps>
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <ATIS>
+        <Window Airport="YBCS" />
+      </ATIS>
+      <ArrivalLists>
+        <Airport Name="YBCS" />
+      </ArrivalLists>      
+      <ControllerInfo Callsign="CS_FMP">
+        <Line>Cairns Flow</Line>
+        <Line>Tactical planning position - no control service offered</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
