@@ -3655,7 +3655,10 @@
     </Position>
   </Group>
   <Group Name="Flow">
-    <Position Name="Sydney Flow" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="700" VisibilityRange="600">
+    <Position Name="Sydney Flow" Type="ASD" DefaultCenter="-33.9461+151.1772" DefaultRange="700" VisibilityRange="600" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="SY FMP" />
+      </Sectors>
       <Maps>
         <Map Name="ALL_SECTORS" />
         <Map Name="ALL_ROUTES_HIGH" />
@@ -3676,7 +3679,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Melbourne Flow" Type="ASD" DefaultCenter="-37.6739+144.8431" DefaultRange="700" VisibilityRange="600">
+    <Position Name="Melbourne Flow" Type="ASD" DefaultCenter="-37.6739+144.8431" DefaultRange="700" VisibilityRange="600" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="ML FMP" />
+      </Sectors>
       <Maps>
         <Map Name="ALL_SECTORS" />
         <Map Name="ALL_ROUTES_HIGH" />
@@ -3697,7 +3703,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Brisbane Flow" Type="ASD" DefaultCenter="-27.3845+153.1175" DefaultRange="1000" VisibilityRange="600">
+    <Position Name="Brisbane Flow" Type="ASD" DefaultCenter="-27.3845+153.1175" DefaultRange="1000" VisibilityRange="600" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="BN FMP" />
+      </Sectors>
       <Maps>
         <Map Name="ALL_SECTORS" />
         <Map Name="ALL_ROUTES_HIGH" />
@@ -3718,7 +3727,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Perth Flow" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="900" VisibilityRange="600">
+    <Position Name="Perth Flow" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="900" VisibilityRange="600" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="PH FMP" />
+      </Sectors>
       <Maps>
         <Map Name="ALL_SECTORS" />
         <Map Name="ALL_ROUTES_HIGH" />
@@ -3739,7 +3751,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Adelaide Flow" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="500" VisibilityRange="600">
+    <Position Name="Adelaide Flow" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="500" VisibilityRange="600" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="AD FMP" />
+      </Sectors>
       <Maps>
         <Map Name="ALL_SECTORS" />
         <Map Name="ALL_ROUTES_HIGH" />
@@ -3760,7 +3775,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Canberra Flow" Type="ASD" DefaultCenter="-35.306111+149.195833" DefaultRange="500" VisibilityRange="600">
+    <Position Name="Canberra Flow" Type="ASD" DefaultCenter="-35.306111+149.195833" DefaultRange="500" VisibilityRange="600" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="CB FMP" />
+      </Sectors>
       <Maps>
         <Map Name="ALL_SECTORS" />
         <Map Name="ALL_ROUTES_HIGH" />
@@ -3781,7 +3799,10 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Cairns Flow" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="800" VisibilityRange="600">
+    <Position Name="Cairns Flow" Type="ASD" DefaultCenter="-16.885833+145.755278" DefaultRange="800" VisibilityRange="600" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="CS FMP" />
+      </Sectors>
       <Maps>
         <Map Name="ALL_SECTORS" />
         <Map Name="ALL_ROUTES_HIGH" />
