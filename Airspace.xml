@@ -812,6 +812,7 @@
       <Runway Name="03" DataRunway="03">
         <SID Name="AMANA5" Type="Jet" />
         <SID Name="AVNEX5" Type="Jet" />
+        <SID Name="EKEPO1" />
         <SID Name="HECTO5" Type="Jet" />
         <SID Name="LENVU1" Type="NonJet" />
         <SID Name="MEMUP5" Type="Jet" />
@@ -8328,6 +8329,7 @@ SAGLI
     <Point Name="EKABO" Type="Fix">-310355.000+1503828.700</Point>
     <Point Name="EKASA" Type="Fix">-352002.900+1493553.200</Point>
     <Point Name="EKEGA" Type="Fix">-344144.700+1381546.300</Point>
+    <Point Name="EKEPO" Type="Fix">-314702.020+1160037.890</Point>
     <Point Name="EKIBI" Type="Fix">-320021.600+1511302.400</Point>
     <Point Name="EKIDA" Type="Fix">-315836.100+1564648.600</Point>
     <Point Name="EKIPU" Type="Fix">-331226.100+1514426.400</Point>
@@ -16154,6 +16156,9 @@ SAGLI
       <Route Runway="06">-315551.270+1155843.650/-315459.990+1160021.547/MIDLA/AGELU/BUDMA/AVPES/HARBY/SAKOM/VENUP/AVNEX</Route>
       <Route Runway="21">-315731.460+1155734.860/AVBAD/TUVBA/ORCHY/BINOX/AVPES/HARBY/SAKOM/VENUP/AVNEX</Route>
       <Route Runway="24">-315627.560+1155733.130/TUVBA/ORCHY/BINOX/AVPES/HARBY/SAKOM/VENUP/AVNEX</Route>
+    </SID>
+    <SID Name="EKEPO1" Airport="YPPH" Runways="03">
+      <Route Runway="03">-315542.940+1155806.470/MIDLA/EKEPO</Route>
     </SID>
     <SID Name="HECTO5" Airport="YPPH" Runways="03,06,21,24">
       <Route Runway="03">-315542.940+1155806.470/MIDLA/ALWYN/AMANA/INVIX/BIRER/HECTO</Route>
