@@ -1510,6 +1510,46 @@
       <Point>IDODA</Point>
     </Symbol>
   </Map>
+  <Map Type="System" Name="PREDICTABLE_SEQUENCE" Priority="1" Center="-23.700+133.870">
+    <Line Pattern="Dotted">
+      ANLID/ 
+      DOVEX/ 
+      TOPUL/ 
+      UNSIG/ 
+      NILEV
+    </Line>
+    <Line Pattern="Dotted">
+      DOVEX/
+      BULLA
+    </Line>
+    <Line Pattern="Dotted">
+      TOPUL/
+      BULLA
+    </Line>
+    <Line Pattern="Dotted">
+      UNSIG/
+      BULLA
+    </Line>
+    <Line Pattern="Dotted">
+      NILEV/
+      BULLA
+    </Line>
+    <Symbol Type="SolidSquare">
+      <Point>ANLID</Point>
+      <Point>DOVEX</Point>
+      <Point>TOPUL</Point>
+      <Point>UNSIG</Point>
+      <Point>NILEV</Point>
+    </Symbol>
+    <Label>
+    <Point>ANLID</Point>
+    <Point Name="DOVEX (2 MIN DELAY)">DOVEX</Point>
+    <Point Name="TOPUL (4 MIN DELAY)">TOPUL</Point>
+    <Point Name="UNSIG (6 MIN DELAY)">UNSIG</Point>
+    <Point Name="NILEV (8 MIN DELAY)">NILEV</Point>
+    <Point Name="BULLA">BULLA</Point>
+    </Label>
+  </Map>
   <Map Type="System" Name="ALL_ROUTES_LOW" Priority="1" Center="-23.700+133.870">
     <Line Name="A216_0">KIBAV.A216.HOOVR</Line>
     <Line Name="A346_0">VEMLA.A346.SALAG</Line>
