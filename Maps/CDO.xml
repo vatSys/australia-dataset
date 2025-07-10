@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="PREDICTABLE_SEQUENCE" Priority="1" Center="-23.700+133.870">
+    <!--YMML Milkrun-->
+    <Line Pattern="Dotted">
+      ANLID/ 
+      DOVEX/ 
+      TOPUL/ 
+      UNSIG/ 
+      NILEV
+    </Line>
+    <Line Pattern="Dotted">
+      DOVEX/
+      BULLA
+    </Line>
+    <Line Pattern="Dotted">
+      TOPUL/
+      BULLA
+    </Line>
+    <Line Pattern="Dotted">
+      UNSIG/
+      BULLA
+    </Line>
+    <Line Pattern="Dotted">
+      NILEV/
+      BULLA
+    </Line>
+    <Symbol Type="SolidSquare">
+      <Point>ANLID</Point>
+      <Point>DOVEX</Point>
+      <Point>TOPUL</Point>
+      <Point>UNSIG</Point>
+      <Point>NILEV</Point>
+      <Point>BULLA</Point>
+    </Symbol>
+    <Label>
+    <Point>ANLID</Point>
+    <Point Name="DOVEX (+2)">DOVEX</Point>
+    <Point Name="TOPUL (+4)">TOPUL</Point>
+    <Point Name="UNSIG (+6)">UNSIG</Point>
+    <Point Name="NILEV (+8)">NILEV</Point>
+    <Point Name="BULLA">BULLA</Point>
+    <Point>RAZZI</Point>
+    </Label>
+    <!--YMML East-->
+    <Line Pattern="Dotted">
+      AKTAM/
+      SEBLU/
+      RAZZI
+    </Line>
+    <Line Pattern="Dotted">
+      SEBLU/
+      UGITO/
+      RAZZI
+    </Line> 
+    <Line Pattern="Dotted">
+      UGITO/
+      OSEMI/
+      RAZZI
+    </Line>
+    <Line Pattern="Dotted">
+      OSEMI/
+      OTGUN/
+      RAZZI
+    </Line>
+    <Line Pattern="Dotted">
+      OTGUN/
+      ELNIV
+    </Line>
+    <Symbol Type="SolidSquare">
+      <Point>AKTAM</Point>
+      <Point>SEBLU</Point>
+      <Point>UGITO</Point>
+      <Point>OSEMI</Point>
+      <Point>OTGUN</Point>
+      <Point>ELNIV</Point>
+      <Point>RAZZI</Point>
+    </Symbol>
+    <Label>
+    <Point>AKTAM</Point>
+    <Point Name="SEBLU (+2/+8)">SEBLU</Point>
+    <Point Name="UGITO (+4/+6)">UGITO</Point>
+    <Point Name="OSEMI (+6/+4)">OSEMI</Point>
+    <Point Name="OTGUN (+8/+2)">OTGUN</Point>
+    <Point>ELNIV</Point>
+    </Label>
+    <!--YMML North-->
+    <Line Pattern="Dotted">
+      IGMIL/
+      UPNAP/
+      IGPEB/
+      DORSU
+    </Line>
+    <Line Pattern="Dotted">
+      IGPEB/
+      ONOPO/
+      DORSU
+    </Line>
+    <Line Pattern="Dotted">
+      ONOPO/
+      URGUL/
+      DORSU
+    </Line>
+    <Line Pattern="Dotted">
+      URGUL/
+      IBOVU/
+      DORSU
+    </Line>
+    <Symbol Type="SolidSquare">
+      <Point>IGMIL</Point>
+      <Point>UPNAP</Point>
+      <Point>IGPEB</Point>
+      <Point>ONOPO</Point>
+      <Point>URGUL</Point>
+      <Point>IBOVU</Point>
+      <Point>DORSU</Point>
+    </Symbol>
+    <Label>
+      <Point>IGMIL</Point>
+      <Point>UPNAP</Point>
+      <Point Name="IGPEB(+1/+2)">IGPEB</Point>
+      <Point Name="ONOPO(+3/+4)">ONOPO</Point>
+      <Point Name="URGUL(+5/+6)">URGUL</Point>
+      <Point Name="IBOVU(+7/+8)">IBOVU</Point>
+      <Point>DORSU</Point>
+    </Label>
+  </Map>
+</Maps>
