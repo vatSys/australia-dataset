@@ -23,9 +23,6 @@
       <Point>MINUR</Point>
       <Point>OY2WF</Point>
       <Point>ESDIG</Point>
-      <Point>BLZSC</Point>
-      <Point>BLZSA</Point>
-      <Point>BLZSF</Point>
       <Point>WR3WC</Point>
       <Point>WR3WB</Point>
       <Point>WR3WA</Point>
@@ -621,12 +618,6 @@
       <Point>BLAEG</Point>
       <Point>BLAEF</Point>
       <Point>BLAEI</Point>
-      <Point>BLZND</Point>
-      <Point>BLZNE</Point>
-      <Point>BLZNG</Point>
-      <Point>BLZNF</Point>
-      <Point>BLZNI</Point>
-      <Point>BLZSI</Point>
       <Point>BM2EA</Point>
       <Point>BM2EB</Point>
       <Point>BM2EC</Point>
@@ -3356,8 +3347,6 @@
       <Point>BL2NF</Point>
       <Point>BL2SF</Point>
       <Point>BLAEF</Point>
-      <Point>BLZNF</Point>
-      <Point>BLZSF</Point>
       <Point>BM2EF</Point>
       <Point>BNKEF</Point>
       <Point>BNKWF</Point>
@@ -4021,8 +4010,6 @@
       <Point>BL2NI</Point>
       <Point>BL2SI</Point>
       <Point>BLAEI</Point>
-      <Point>BLZNI</Point>
-      <Point>BLZSI</Point>
       <Point>BM2EI</Point>
       <Point>BNKEI</Point>
       <Point>BNKWI</Point>
@@ -4584,8 +4571,6 @@
       <Point>TP2EJ</Point>
       <Point>MINUR</Point>
       <Point>ESDIG</Point>
-      <Point>BLZSC</Point>
-      <Point>BLZSA</Point>
       <Point>WR3WC</Point>
       <Point>WR3WB</Point>
       <Point>WR3WA</Point>
@@ -4929,9 +4914,6 @@
       <Point>BLAED</Point>
       <Point>BLAEE</Point>
       <Point>BLAEG</Point>
-      <Point>BLZND</Point>
-      <Point>BLZNE</Point>
-      <Point>BLZNG</Point>
       <Point>BM2EA</Point>
       <Point>BM2EB</Point>
       <Point>BM2EC</Point>
@@ -6644,16 +6626,7 @@
     <Line>BLAEG/BLAEI</Line>
     <Line>BLAEI/BLAEF</Line>
     <Line>BLAEM/BLAEF</Line>
-    <Line>BLZND/BLZNI</Line>
-    <Line>BLZNE/BLZNI</Line>
-    <Line>BLZNG/BLZNI</Line>
-    <Line>BLZNI/BLZNF</Line>
-    <Line>BLZNM/BLZNF</Line>
-    <Line>ESDIG/BLZSI</Line>
-    <Line>BLZSC/BLZSI</Line>
-    <Line>BLZSA/BLZSI</Line>
-    <Line>BLZSI/BLZSF</Line>
-    <Line>BLZSM/BLZSF</Line>
+    
     <Line>BM2EA/BM2EI</Line>
     <Line>BM2EB/BM2EI</Line>
     <Line>BM2EC/BM2EI</Line>
@@ -6704,6 +6677,7 @@
     <Line>BT2NI/BT2NF</Line>
     <Line>-373024.880+1434741.760/BT2NF</Line>
     <Line>BT2SA/BT2SI</Line>
+    <Line>ESDIG/BT2SI</Line>
     <Line>BT2SC/BT2SI</Line>
     <Line>BT2SI/BT2SF</Line>
     <Line>-373104.800+1434734.030/BT2SF</Line>
