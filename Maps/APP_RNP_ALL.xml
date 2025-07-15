@@ -1114,16 +1114,6 @@
       <Point>FB2WC</Point>
       <Point>FB2WF</Point>
       <Point>FB2WI</Point>
-      <Point>FDFEA</Point>
-      <Point>FDFEB</Point>
-      <Point>FDFEC</Point>
-      <Point>FDFEF</Point>
-      <Point>FDFEI</Point>
-      <Point>FDFWD</Point>
-      <Point>FDFWE</Point>
-      <Point>FDFWG</Point>
-      <Point>FDFWF</Point>
-      <Point>FDFWI</Point>
       <Point>FI2ND</Point>
       <Point>FI2NE</Point>
       <Point>FI2NG</Point>
@@ -3230,8 +3220,18 @@
       <Point>RI2EI</Point>
       <Point>RI2EF</Point>
 
-
-
+      <!-- DAP 27NOV25 -->
+      <!-- YFDF -->
+      <Point>FS2WD</Point>
+      <Point>FS2WE</Point>
+      <Point>FS2WG</Point>
+      <Point>FS2WF</Point>
+      <Point>FS2WI</Point>
+      <Point>FS2EA</Point>
+      <Point>FS2EB</Point>
+      <Point>FS2EC</Point>
+      <Point>FS2EF</Point>
+      <Point>FS2EI</Point>
 
 
 
@@ -3474,8 +3474,6 @@
       <Point>EY2WF</Point>
       <Point>FB2EF</Point>
       <Point>FB2WF</Point>
-      <Point>FDFEF</Point>
-      <Point>FDFWF</Point>
       <Point>FI2NF</Point>
       <Point>FI2SF</Point>
       <Point>FLDNF</Point>
@@ -3926,7 +3924,10 @@
       <Point>RI2WF</Point>
       <Point>RI2EF</Point>
 
-
+      <!-- DAP 27NOV25 -->
+      <!-- YFDF -->
+      <Point>FS2WF</Point>
+      <Point>FS2EF</Point>
 
 
 
@@ -4155,8 +4156,6 @@
       <Point>EY2WI</Point>
       <Point>FB2EI</Point>
       <Point>FB2WI</Point>
-      <Point>FDFEI</Point>
-      <Point>FDFWI</Point>
       <Point>FI2NI</Point>
       <Point>FI2SI</Point>
       <Point>FLDNI</Point>
@@ -4605,7 +4604,10 @@
       <Point>RI2WI</Point>
       <Point>RI2EI</Point>
 
-
+      <!-- DAP 27NOV25 -->
+      <!-- YFDF -->
+      <Point>FS2WI</Point>
+      <Point>FS2EI</Point>
 
 
     </Symbol>
@@ -5259,12 +5261,6 @@
       <Point>FB2WA</Point>
       <Point>FB2WB</Point>
       <Point>FB2WC</Point>
-      <Point>FDFEA</Point>
-      <Point>FDFEB</Point>
-      <Point>FDFEC</Point>
-      <Point>FDFWD</Point>
-      <Point>FDFWE</Point>
-      <Point>FDFWG</Point>
       <Point>FI2ND</Point>
       <Point>FI2NE</Point>
       <Point>FI2NG</Point>
@@ -6499,6 +6495,14 @@
       <Point>RI2EB</Point>
       <Point>RI2EC</Point>
 
+      <!-- DAP 27NOV25 -->
+      <!-- YFDF -->
+      <Point>FS2WD</Point>
+      <Point>FS2WE</Point>
+      <Point>FS2WG</Point>
+      <Point>FS2EA</Point>
+      <Point>FS2EB</Point>
+      <Point>FS2EC</Point>
     </Symbol>
 
 
@@ -7192,16 +7196,6 @@
     <Line>FB2WC/FB2WI</Line>
     <Line>FB2WI/FB2WF</Line>
     <Line>-332142.440+1475516.360/FB2WF</Line>
-    <Line>FDFEA/FDFEI</Line>
-    <Line>FDFEB/FDFEI</Line>
-    <Line>FDFEC/FDFEI</Line>
-    <Line>FDFEI/FDFEF</Line>
-    <Line>-221749.560+1192651.470/FDFEF</Line>
-    <Line>FDFWD/FDFWI</Line>
-    <Line>FDFWE/FDFWI</Line>
-    <Line>FDFWG/FDFWI</Line>
-    <Line>FDFWI/FDFWF</Line>
-    <Line>-221707.600+1192545.020/FDFWF</Line>
     <Line>FI2ND/FI2NI</Line>
     <Line>FI2NE/FI2NI</Line>
     <Line>FI2NG/FI2NI</Line>
@@ -9643,5 +9637,11 @@
     <Line>RI2EB/RI2EI</Line>
     <Line>RI2EC/RI2EA/RI2EI/RI2EF/RI2EM</Line>
 
+    <!-- DAP 27NOV -->
+    <!-- YFDF -->
+    <Line>FS2WG/FS2WI/FS2WD</Line>
+    <Line>FS2WE/FS2WI/FS2WF/YFDF</Line>
+    <Line>FS2EC/FS2EI/FS2EA</Line>
+    <Line>FS2EB/FS2EI/FS2EF/YFDF</Line>
   </Map>
 </Maps>
