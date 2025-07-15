@@ -2643,10 +2643,6 @@
       <Point>SR2SJ</Point>
       <Point>SR2SF</Point>
       <Point>SR2SI</Point>
-      <Point>SRIEA</Point>
-      <Point>SRIEB</Point>
-      <Point>SRIEF</Point>
-      <Point>SRIEI</Point>
       <Point>STHEA</Point>
       <Point>STHEB</Point>
       <Point>STHEC</Point>
@@ -3106,11 +3102,6 @@
       <Point>XM2WC</Point>
       <Point>XM2WF</Point>
       <Point>XM2WI</Point>
-      <Point>XRHWD</Point>
-      <Point>XRHWE</Point>
-      <Point>XRHWG</Point>
-      <Point>XRHWF</Point>
-      <Point>XRHWI</Point>
       <Point>XT2EA</Point>
       <Point>XT2EB</Point>
       <Point>XT2EC</Point>
@@ -3227,8 +3218,17 @@
       <Point>ET2EE</Point>
       <Point>ET2EI</Point>
       <Point>ET2EF</Point>
-
-
+      <!-- YRSI -->
+      <Point>RI2WD</Point>
+      <Point>RI2WE</Point>
+      <Point>RI2WG</Point>
+      <Point>RI2WI</Point>
+      <Point>RI2WF</Point>
+      <Point>RI2EA</Point>
+      <Point>RI2EB</Point>
+      <Point>RI2EC</Point>
+      <Point>RI2EI</Point>
+      <Point>RI2EF</Point>
 
 
 
@@ -3792,7 +3792,6 @@
       <Point>SQCSF</Point>
       <Point>SR2NF</Point>
       <Point>SR2SF</Point>
-      <Point>SRIEF</Point>
       <Point>SSYNF</Point>
       <Point>STHEF</Point>
       <Point>STHWF</Point>
@@ -3893,7 +3892,6 @@
       <Point>XL2SF</Point>
       <Point>XL2WF</Point>
       <Point>XM2WF</Point>
-      <Point>XRHWF</Point>
       <Point>XT2EF</Point>
       <Point>XW2NF</Point>
       <Point>YK2EF</Point>
@@ -3924,7 +3922,9 @@
       <Point>ET2WC</Point>
       <Point>ET2WB</Point>
       <Point>ET2WA</Point>
-
+      <!-- YRSI -->
+      <Point>RI2WF</Point>
+      <Point>RI2EF</Point>
 
 
 
@@ -4473,7 +4473,6 @@
       <Point>SQCSI</Point>
       <Point>SR2NI</Point>
       <Point>SR2SI</Point>
-      <Point>SRIEI</Point>
       <Point>SSYNI</Point>
       <Point>STHEI</Point>
       <Point>STHWI</Point>
@@ -4574,7 +4573,6 @@
       <Point>XL2SI</Point>
       <Point>XL2WI</Point>
       <Point>XM2WI</Point>
-      <Point>XRHWI</Point>
       <Point>XT2EI</Point>
       <Point>XW2NI</Point>
       <Point>YK2EI</Point>
@@ -4603,7 +4601,9 @@
       <Point>ET2WI</Point>
       <Point>ET2EE</Point>
       <Point>ET2EI</Point>
-
+      <!-- YRSI -->
+      <Point>RI2WI</Point>
+      <Point>RI2EI</Point>
 
 
 
@@ -6159,8 +6159,6 @@
       <Point>SR2SE</Point>
       <Point>SR2SG</Point>
       <Point>SR2SJ</Point>
-      <Point>SRIEA</Point>
-      <Point>SRIEB</Point>
       <Point>STHEA</Point>
       <Point>STHEB</Point>
       <Point>STHEC</Point>
@@ -6426,9 +6424,6 @@
       <Point>XM2WA</Point>
       <Point>XM2WB</Point>
       <Point>XM2WC</Point>
-      <Point>XRHWD</Point>
-      <Point>XRHWE</Point>
-      <Point>XRHWG</Point>
       <Point>XT2EA</Point>
       <Point>XT2EB</Point>
       <Point>XT2EC</Point>
@@ -6496,8 +6491,13 @@
       <!-- YWTO -->
       <Point>ET2WF</Point>
       <Point>ET2EF</Point>
-
-
+      <!-- YRSI -->
+      <Point>RI2WD</Point>
+      <Point>RI2WE</Point>
+      <Point>RI2WG</Point>
+      <Point>RI2EA</Point>
+      <Point>RI2EB</Point>
+      <Point>RI2EC</Point>
 
     </Symbol>
 
@@ -8744,10 +8744,6 @@
     <Line>SR2SJ/SR2SI</Line>
     <Line>SR2SI/SR2SF</Line>
     <Line>-420940.140+1451718.520/SR2SF</Line>
-    <Line>SRIEA/SRIEI</Line>
-    <Line>SRIEB/SRIEI</Line>
-    <Line>SRIEI/SRIEF</Line>
-    <Line>SRIEM/SRIEF</Line>
     <Line>SSYNI/SSYNF</Line>
     <Line>SSYNM/SSYNF</Line>
     <Line>STHEA/STHEI</Line>
@@ -9226,11 +9222,6 @@
     <Line>XM2WC/XM2WI</Line>
     <Line>XM2WI/XM2WF</Line>
     <Line>XM2WM/XM2WF</Line>
-    <Line>XRHWD/XRHWI</Line>
-    <Line>XRHWE/XRHWI</Line>
-    <Line>XRHWG/XRHWI</Line>
-    <Line>XRHWI/XRHWF</Line>
-    <Line>XRHWM/XRHWF</Line>
     <Line>XT2EA/XT2EI</Line>
     <Line>XT2EB/XT2EI</Line>
     <Line>XT2EC/XT2EI</Line>
@@ -9646,5 +9637,11 @@
     <Line>ET2WB/ET2WI</Line>
     <Line>ET2WA/ET2WI/ET2WF/YWTO</Line>
     <Line>ET2ED/ET2EE/ET2EI/ET2EF/YWTO</Line>
+    <!-- YRSI -->
+    <Line>RI2WG/RI2WI/RI2WD</Line>
+    <Line>RI2WE/RI2WI/RI2WF/RI2WM</Line>
+    <Line>RI2EB/RI2EI</Line>
+    <Line>RI2EC/RI2EA/RI2EI/RI2EF/RI2EM</Line>
+
   </Map>
 </Maps>
