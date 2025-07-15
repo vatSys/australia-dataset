@@ -1888,11 +1888,6 @@
       <Point>MIAEC</Point>
       <Point>MIAEF</Point>
       <Point>MIAEI</Point>
-      <Point>MIANN</Point>
-      <Point>MIANO</Point>
-      <Point>MIANP</Point>
-      <Point>MIANF</Point>
-      <Point>MIANI</Point>
       <Point>MIASD</Point>
       <Point>MIASE</Point>
       <Point>MIASG</Point>
@@ -3215,6 +3210,14 @@
       <Point>ZW2WG</Point>
       <Point>ZW2WF</Point>
       <Point>ZW2WI</Point>
+
+      <!-- DAP 4SEP25 -->
+      <!-- YMIA -->
+      <Point>MI2NF</Point>
+      <Point>MI2NI</Point>
+      <Point>MI2NO</Point>
+      <Point>MI2NP</Point>
+
     </Label>
     <Symbol Type="MalteseCross">
       <Point>BAFWF</Point>
@@ -3610,7 +3613,6 @@
       <Point>MHUEF</Point>
       <Point>MHUWF</Point>
       <Point>MIAEF</Point>
-      <Point>MIANF</Point>
       <Point>MIASF</Point>
       <Point>MIAWF</Point>
       <Point>MIMNF</Point>
@@ -3892,6 +3894,12 @@
       <Point>ZW2EF</Point>
       <Point>ZW2WF</Point>
       <Point>GLZWF</Point>
+
+      <!-- DAP 4SEP25 -->
+      <!-- YMIA -->
+      <Point>MI2NF</Point>
+
+
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>BAFWI</Point>
@@ -4273,7 +4281,6 @@
       <Point>MHUEI</Point>
       <Point>MHUWI</Point>
       <Point>MIAEI</Point>
-      <Point>MIANI</Point>
       <Point>MIASI</Point>
       <Point>MIAWI</Point>
       <Point>MIMNI</Point>
@@ -4554,7 +4561,14 @@
       <Point>ZNEWI</Point>
       <Point>ZW2EI</Point>
       <Point>ZW2WI</Point>
+
+      <!-- DAP 4SEP25 -->
+      <!-- YMIA -->
+      <Point>MI2NI</Point>
+
     </Symbol>
+
+
     <Symbol Type="HollowTriangle">
       <Point>MUDAN</Point>
       <Point>GLZWC</Point>
@@ -5660,9 +5674,6 @@
       <Point>MIAEA</Point>
       <Point>MIAEB</Point>
       <Point>MIAEC</Point>
-      <Point>MIANN</Point>
-      <Point>MIANO</Point>
-      <Point>MIANP</Point>
       <Point>MIASD</Point>
       <Point>MIASE</Point>
       <Point>MIASG</Point>
@@ -6436,7 +6447,17 @@
       <Point>ZW2WD</Point>
       <Point>ZW2WE</Point>
       <Point>ZW2WG</Point>
+
+      <!-- DAH 4SEP25 -->
+      <!-- YMIA -->
+      <Point>MI2NO</Point>
+      <Point>MI2NP</Point>
     </Symbol>
+
+
+
+
+
     <Line>AE2EA/AE2EI</Line>
     <Line>AE2EB/AE2EI</Line>
     <Line>AE2EC/AE2EI</Line>
@@ -7911,11 +7932,6 @@
     <Line>MIAEC/MIAEI</Line>
     <Line>MIAEI/MIAEF</Line>
     <Line>-341347.080+1420535.950/MIAEF</Line>
-    <Line>MIANN/MIANI</Line>
-    <Line>MIANO/MIANI</Line>
-    <Line>MIANP/MIANI</Line>
-    <Line>MIANI/MIANF</Line>
-    <Line>-341333.000+1420522.800/MIANF</Line>
     <Line>MIASD/MIASI</Line>
     <Line>MIASE/MIASI</Line>
     <Line>MIASG/MIASI</Line>
@@ -9573,5 +9589,11 @@
     <Line>PLMSA/PLMSI</Line>
     <Line>PLMSB/PLMSI</Line>
     <Line>PLMSC/PLMSI</Line>
+
+
+    <!-- DAP 4SEP -->
+    <!-- YMIA -->
+    <Line>MI2NO/MI2NI</Line>
+    <Line>MI2NP/MI2NI/MI2NF/YMIA</Line>
   </Map>
 </Maps>
