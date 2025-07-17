@@ -692,11 +692,13 @@
     </Airport>
     <Airport Name="YPEA">
       <Runway Name="05" DataRunway="05">
+        <SID Name="PEA6" />
         <STAR Name="PEA4G" OpDataFlag="G" />
         <STAR Name="PEA4R" OpDataFlag="R" />
         <STAR Name="PEA4W" OpDataFlag="W" />
       </Runway>
       <Runway Name="18L" DataRunway="18L">
+        <SID Name="PEA6" />
         <STAR Name="PEA4G" OpDataFlag="G" />
         <STAR Name="PEA4R" OpDataFlag="R" />
         <STAR Name="PEA4W" OpDataFlag="W" />
@@ -707,6 +709,7 @@
         <STAR Name="PEA4W" OpDataFlag="W" />
       </Runway>
       <Runway Name="23" DataRunway="23">
+        <SID Name="PEA6" />
         <STAR Name="PEA4G" OpDataFlag="G" />
         <STAR Name="PEA4R" OpDataFlag="R" />
         <STAR Name="PEA4W" OpDataFlag="W" />
@@ -717,6 +720,7 @@
         <STAR Name="PEA4W" OpDataFlag="W" />
       </Runway>
       <Runway Name="36R" DataRunway="36R">
+        <SID Name="PEA6" />
         <STAR Name="PEA4G" OpDataFlag="G" />
         <STAR Name="PEA4R" OpDataFlag="R" />
         <STAR Name="PEA4W" OpDataFlag="W" />
@@ -6411,6 +6415,7 @@ SAGLI
     <Point Name="ADLUR" Type="Fix">-233806.200+1502756.800</Point>
     <Point Name="ADMAK" Type="Fix">-282037.600+1535209.600</Point>
     <Point Name="ADMAR" Type="Fix">-301922.000+1515442.700</Point>
+    <Point Name="ADNAT" Type="Fix">-080251.700+1264626.900</Point>
     <Point Name="ADNOD" Type="Fix">-190102.800+1464748.500</Point>
     <Point Name="ADNUK" Type="Fix">-264005.000+1534826.000</Point>
     <Point Name="AE2EA" Type="Fix">-243610.900+1185057.000</Point>
@@ -8235,6 +8240,25 @@ SAGLI
     <Point Name="DVOEI" Type="Fix">-410612.000+1463714.600</Point>
     <Point Name="DVOEM" Type="Fix">-410942.200+1462743.400</Point>
     <Point Name="DVOET" Type="Fix">-411100.900+1462409.000</Point>
+    <Point Name="EA2EF" Type="Fix">-313607.700+1160523.700</Point>
+    <Point Name="EA2EH" Type="Fix">-314232.170+1155758.460</Point>
+    <Point Name="EA2EI" Type="Fix">-313316.680+1160841.250</Point>
+    <Point Name="EA2EL" Type="Fix">-312939.270+1160641.130</Point>
+    <Point Name="EA2EN" Type="Fix">-313025.570+1161158.600</Point>
+    <Point Name="EA2EO" Type="Fix">-313456.980+1161256.580</Point>
+    <Point Name="EA2ND" Type="Fix">-312936.560+1155356.780</Point>
+    <Point Name="EA2NE" Type="Fix">-312548.210+1155858.320</Point>
+    <Point Name="EA2NF" Type="Fix">-313545.660+1160017.610</Point>
+    <Point Name="EA2NG" Type="Fix">-312832.740+1160451.930</Point>
+    <Point Name="EA2NI" Type="Fix">-313046.940+1155937.940</Point>
+    <Point Name="EA2SA" Type="Fix">-315459.680+1160251.450</Point>
+    <Point Name="EA2SF" Type="Fix">-314502.280+1160131.700</Point>
+    <Point Name="EA2SH" Type="Fix">-313804.070+1160036.030</Point>
+    <Point Name="EA2SI" Type="Fix">-315000.980+1160211.540</Point>
+    <Point Name="EA2WF" Type="Fix">-314256.430+1155657.210</Point>
+    <Point Name="EA2WI" Type="Fix">-314505.820+1155139.690</Point>
+    <Point Name="EA2WJ" Type="Fix">-314135.290+1154728.590</Point>
+    <Point Name="EA2WK" Type="Fix">-314714.990+1154621.910</Point>
     <Point Name="EAZEE" Type="Fix">-163323.100+1454106.100</Point>
     <Point Name="EB2WA" Type="Fix">-170430.600+1451136.800</Point>
     <Point Name="EB2WB" Type="Fix">-165857.600+1451000.800</Point>
@@ -11588,6 +11612,7 @@ SAGLI
     <Point Name="PASCO" Type="Fix">-374312.000+1445748.000</Point>
     <Point Name="PASNI" Type="Fix">-081001.000+1392950.000</Point>
     <Point Name="PASPO" Type="Fix">-260642.800+1530507.600</Point>
+    <Point Name="PATBO" Type="Fix">-083101.200+1255557.700</Point>
     <Point Name="PATKO" Type="Fix">-305211.800+1300000.000</Point>
     <Point Name="PATSU" Type="Fix">-282001.700+1540219.700</Point>
     <Point Name="PAVBI" Type="Fix">-293838.300+1503406.800</Point>
@@ -11646,24 +11671,12 @@ SAGLI
     <Point Name="PD974" Type="Fix">-201114.000+1183922.900</Point>
     <Point Name="PD978" Type="Fix">-202225.500+1185017.500</Point>
     <Point Name="PD982" Type="Fix">-202832.500+1184314.400</Point>
-    <Point Name="PEAEF" Type="Fix">-313607.700+1160523.700</Point>
-    <Point Name="PEAEH" Type="Fix">-314232.200+1155758.500</Point>
-    <Point Name="PEAEI" Type="Fix">-313316.700+1160841.300</Point>
-    <Point Name="PEAEL" Type="Fix">-312939.300+1160641.200</Point>
-    <Point Name="PEAEM" Type="Fix">-313941.400+1160116.500</Point>
-    <Point Name="PEAEN" Type="Fix">-313025.600+1161158.600</Point>
-    <Point Name="PEAEO" Type="Fix">-313457.000+1161256.600</Point>
     <Point Name="PEART" Type="Fix">-372830.700+1444326.900</Point>
     <Point Name="PEASA" Type="Fix">-315459.700+1160251.900</Point>
     <Point Name="PEASF" Type="Fix">-314502.300+1160131.700</Point>
     <Point Name="PEASH" Type="Fix">-313804.100+1160036.000</Point>
     <Point Name="PEASI" Type="Fix">-315001.000+1160211.700</Point>
     <Point Name="PEASM" Type="Fix">-314103.400+1160059.800</Point>
-    <Point Name="PEAWF" Type="Fix">-314256.400+1155657.200</Point>
-    <Point Name="PEAWI" Type="Fix">-314505.800+1155139.700</Point>
-    <Point Name="PEAWJ" Type="Fix">-314135.300+1154728.600</Point>
-    <Point Name="PEAWK" Type="Fix">-314715.500+1154622.200</Point>
-    <Point Name="PEAWM" Type="Fix">-314020.400+1160031.300</Point>
     <Point Name="PEBAL" Type="Fix">-375836.000+1445836.000</Point>
     <Point Name="PEBBL" Type="Fix">-123938.500+1304923.500</Point>
     <Point Name="PEBDO" Type="Fix">-301952.500+1513521.000</Point>
@@ -11873,6 +11886,8 @@ SAGLI
     <Point Name="POPET" Type="Fix">-351708.300+1491904.000</Point>
     <Point Name="POPEX" Type="Fix">-232628.100+1504122.400</Point>
     <Point Name="POPLA" Type="Fix">-351336.000+1481600.000</Point>
+    <Point Name="POPUS" Type="Fix">-083710.200+1260359.800</Point>
+    <Point Name="PORAK" Type="Fix">-045839.000+1240024.000</Point>
     <Point Name="POREM" Type="Fix">-372908.500+1445314.900</Point>
     <Point Name="PORIV" Type="Fix">-290000.100+1452347.700</Point>
     <Point Name="POROB" Type="Fix">-193747.500+1471417.000</Point>
@@ -12033,12 +12048,7 @@ SAGLI
     <Point Name="PW3SG" Type="Fix">-312034.900+1364150.200</Point>
     <Point Name="PW3SH" Type="Fix">-310623.600+1364902.100</Point>
     <Point Name="PW3SI" Type="Fix">-311921.300+1364729.900</Point>
-    <Point Name="PZAND" Type="Fix">-312936.600+1155356.700</Point>
-    <Point Name="PZANE" Type="Fix">-312548.300+1155858.300</Point>
     <Point Name="PZANF" Type="Fix">-313545.700+1160017.600</Point>
-    <Point Name="PZANG" Type="Fix">-312832.800+1160451.900</Point>
-    <Point Name="PZANI" Type="Fix">-313047.000+1155937.900</Point>
-    <Point Name="PZANM" Type="Fix">-313902.900+1160043.800</Point>
     <Point Name="QB002" Type="Fix">-333918.000+1152514.100</Point>
     <Point Name="QB003" Type="Fix">-333821.300+1152629.300</Point>
     <Point Name="QB004" Type="Fix">-333809.100+1152709.900</Point>
@@ -15620,6 +15630,7 @@ SAGLI
     <Point Name="CG" Type="Navaid" NavaidType="VOR" Frequency="112.300">-281008.200+1533014.700</Point>
     <Point Name="CIN" Type="Navaid" NavaidType="VOR" Frequency="114.300">-173519.600+1235107.200</Point>
     <Point Name="CS" Type="Navaid" NavaidType="VOR" Frequency="113.000">-165100.100+1454438.000</Point>
+    <Point Name="DIL" Type="Navaid" NavaidType="VOR" Frequency="000.000">-083238.200+1253139.800</Point>
     <Point Name="DN" Type="Navaid" NavaidType="VOR" Frequency="112.600">-122523.800+1305423.300</Point>
     <Point Name="ESP" Type="Navaid" NavaidType="VOR" Frequency="114.200">-334050.100+1214925.600</Point>
     <Point Name="GEL" Type="Navaid" NavaidType="VOR" Frequency="113.900">-284725.200+1144222.000</Point>
@@ -16149,6 +16160,12 @@ SAGLI
     <SID Name="VANDI8" Airport="YPDN" Runways="11,29">
       <Route Runway="11">-122509.220+1305339.990/DN VOR/PAMGA/BAXIB/VANDI</Route>
       <Route Runway="29">-122433.850+1305154.940/-122350.344+1304945.880/BELUN/MIGIP/LEGUL/OTGAX/TEGIT/MUDMI/BOPNI/AGIGA/VANDI</Route>
+    </SID>
+    <SID Name="PEA6" Airport="YPEA" Runways="05,18L,23,36R">
+      <Route Runway="05">-313941.350+1160116.470/-313846.000+1160220.000</Route>
+      <Route Runway="18L">-314103.310+1160059.880/-314128.000+1160111.000</Route>
+      <Route Runway="23">-314020.350+1160031.290/-314128.000+1155858.000</Route>
+      <Route Runway="36R">-313944.680+1160049.370/-313804.000+1160040.000</Route>
     </SID>
     <SID Name="ED4" Airport="YPED" Runways="18,36">
       <Route Runway="18" />

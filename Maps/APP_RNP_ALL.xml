@@ -2272,18 +2272,9 @@
       <Point>PCCSC</Point>
       <Point>PCCSF</Point>
       <Point>PCCSI</Point>
-      <Point>PEAEL</Point>
-      <Point>PEAEN</Point>
-      <Point>PEAEO</Point>
-      <Point>PEAEF</Point>
-      <Point>PEAEI</Point>
       <Point>PEASA</Point>
       <Point>PEASF</Point>
       <Point>PEASI</Point>
-      <Point>PEAWJ</Point>
-      <Point>PEAWK</Point>
-      <Point>PEAWF</Point>
-      <Point>PEAWI</Point>
       <Point>PFTNI</Point>
       <Point>PG2ED</Point>
       <Point>PG2EE</Point>
@@ -2424,11 +2415,6 @@
       <Point>PW3SG</Point>
       <Point>PW3SF</Point>
       <Point>PW3SI</Point>
-      <Point>PZAND</Point>
-      <Point>PZANE</Point>
-      <Point>PZANG</Point>
-      <Point>PZANF</Point>
-      <Point>PZANI</Point>
       <Point>QB2ND</Point>
       <Point>QB2NE</Point>
       <Point>QB2NG</Point>
@@ -3232,7 +3218,24 @@
       <Point>FS2EC</Point>
       <Point>FS2EF</Point>
       <Point>FS2EI</Point>
-
+      <!-- YPEA -->
+      <Point>EA2EF</Point>
+      <Point>EA2EI</Point>
+      <Point>EA2EL</Point>
+      <Point>EA2EN</Point>
+      <Point>EA2EO</Point>
+      <Point>EA2ND</Point>
+      <Point>EA2NE</Point>
+      <Point>EA2NF</Point>
+      <Point>EA2NG</Point>
+      <Point>EA2NI</Point>
+      <Point>EA2SA</Point>
+      <Point>EA2SF</Point>
+      <Point>EA2SI</Point>
+      <Point>EA2WF</Point>
+      <Point>EA2WI</Point>
+      <Point>EA2WJ</Point>
+      <Point>EA2WK</Point>
 
 
 
@@ -3715,9 +3718,7 @@
       <Point>PBDWF</Point>
       <Point>PCCNF</Point>
       <Point>PCCSF</Point>
-      <Point>PEAEF</Point>
       <Point>PEASF</Point>
-      <Point>PEAWF</Point>
       <Point>PFTNF</Point>
       <Point>PG2EF</Point>
       <Point>PG2WF</Point>
@@ -3747,7 +3748,6 @@
       <Point>PU2NF</Point>
       <Point>PW2SF</Point>
       <Point>PW3SF</Point>
-      <Point>PZANF</Point>
       <Point>QB2NF</Point>
       <Point>QB2SF</Point>
       <Point>QL2EF</Point>
@@ -3928,7 +3928,11 @@
       <!-- YFDF -->
       <Point>FS2WF</Point>
       <Point>FS2EF</Point>
-
+      <!-- YPEA -->
+      <Point>EA2EF</Point>
+      <Point>EA2NF</Point>
+      <Point>EA2SF</Point>
+      <Point>EA2WF</Point>
 
 
 
@@ -4397,9 +4401,7 @@
       <Point>PBDWI</Point>
       <Point>PCCNI</Point>
       <Point>PCCSI</Point>
-      <Point>PEAEI</Point>
       <Point>PEASI</Point>
-      <Point>PEAWI</Point>
       <Point>PFTNI</Point>
       <Point>PG2EI</Point>
       <Point>PG2WI</Point>
@@ -4429,7 +4431,6 @@
       <Point>PU2NI</Point>
       <Point>PW2SI</Point>
       <Point>PW3SI</Point>
-      <Point>PZANI</Point>
       <Point>QB2NI</Point>
       <Point>QB2SI</Point>
       <Point>QL2EI</Point>
@@ -4608,6 +4609,11 @@
       <!-- YFDF -->
       <Point>FS2WI</Point>
       <Point>FS2EI</Point>
+      <!-- YPEA -->
+      <Point>EA2EI</Point>
+      <Point>EA2NI</Point>
+      <Point>EA2SI</Point>
+      <Point>EA2WI</Point>
 
 
     </Symbol>
@@ -5943,12 +5949,7 @@
       <Point>PCCSA</Point>
       <Point>PCCSB</Point>
       <Point>PCCSC</Point>
-      <Point>PEAEL</Point>
-      <Point>PEAEN</Point>
-      <Point>PEAEO</Point>
       <Point>PEASA</Point>
-      <Point>PEAWJ</Point>
-      <Point>PEAWK</Point>
       <Point>PG2ED</Point>
       <Point>PG2EE</Point>
       <Point>PG2EG</Point>
@@ -6032,9 +6033,6 @@
       <Point>PW3SB</Point>
       <Point>PW3SE</Point>
       <Point>PW3SG</Point>
-      <Point>PZAND</Point>
-      <Point>PZANE</Point>
-      <Point>PZANG</Point>
       <Point>QB2ND</Point>
       <Point>QB2NE</Point>
       <Point>QB2NG</Point>
@@ -6503,6 +6501,16 @@
       <Point>FS2EA</Point>
       <Point>FS2EB</Point>
       <Point>FS2EC</Point>
+      <!-- YPEA -->
+      <Point>EA2EL</Point>
+      <Point>EA2EN</Point>
+      <Point>EA2EO</Point>
+      <Point>EA2ND</Point>
+      <Point>EA2NE</Point>
+      <Point>EA2NG</Point>
+      <Point>EA2SA</Point>
+      <Point>EA2WJ</Point>
+      <Point>EA2WK</Point>
     </Symbol>
 
 
@@ -8375,18 +8383,9 @@
     <Line>PCCSC/PCCSI</Line>
     <Line>PCCSI/PCCSF</Line>
     <Line>PCCSM/PCCSF</Line>
-    <Line>PEAEL/PEAEI</Line>
-    <Line>PEAEN/PEAEI</Line>
-    <Line>PEAEO/PEAEI</Line>
-    <Line>PEAEI/PEAEF</Line>
-    <Line>PEAEM/PEAEF</Line>
     <Line>PEASA/PEASI</Line>
     <Line>PEASI/PEASF</Line>
     <Line>PEASM/PEASF</Line>
-    <Line>PEAWJ/PEAWI</Line>
-    <Line>PEAWK/PEAWI</Line>
-    <Line>PEAWI/PEAWF</Line>
-    <Line>PEAWM/PEAWF</Line>
     <Line>COMND/PFTNC/PFTNA/PFTNI</Line>
     <Line>PFTNI/PFTNF</Line>
     <Line>PFTNM/PFTNF</Line>
@@ -8529,11 +8528,6 @@
     <Line>PW3SG/PW3SI</Line>
     <Line>PW3SI/PW3SF</Line>
     <Line>-310923.080+1364840.850/PW3SF</Line>
-    <Line>PZAND/PZANI</Line>
-    <Line>PZANE/PZANI</Line>
-    <Line>PZANG/PZANI</Line>
-    <Line>PZANI/PZANF</Line>
-    <Line>PZANM/PZANF</Line>
     <Line>QB2ND/QB2NI</Line>
     <Line>QB2NE/QB2NI</Line>
     <Line>QB2NG/QB2NI</Line>
@@ -9643,5 +9637,13 @@
     <Line>FS2WE/FS2WI/FS2WF/YFDF</Line>
     <Line>FS2EC/FS2EI/FS2EA</Line>
     <Line>FS2EB/FS2EI/FS2EF/YFDF</Line>
+    <!-- YPEA -->
+    <Line>EA2WJ/EA2WI</Line>
+    <Line>EA2WK/EA2WI/EA2WF/YPEA</Line>
+    <Line>EA2NE/EA2NI/EA2NF/YPEA</Line>
+    <Line>EA2ND/EA2NI/EA2NG</Line>
+    <Line>EA2EL/EA2EI/EA2EO</Line>
+    <Line>EA2EN/EA2EI/EA2EF/YPEA</Line>
+    <Line>EA2SA/EA2SI/EA2SF/YPEA</Line>
   </Map>
 </Maps>
