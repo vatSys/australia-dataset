@@ -2303,10 +2303,12 @@ JACKI/
 DN VOR
 </Airway>
     <Airway Name="M768">
-ELBIS/
-AVMAN/
+DN VOR/
 ANUPA/
-DN VOR
+AVMAN/
+ELBIS/
+ADNAT/
+PORAK
 </Airway>
     <Airway Name="N509">
 PD VOR/
@@ -6131,6 +6133,8 @@ GUMKI/
 BONEY
 </Airway>
     <Airway Name="Z10">
+PATBO/
+POPUS/
 TODOT/
 ANUPA
 </Airway>
@@ -6155,6 +6159,7 @@ RUMGI/
 MILAK
 </Airway>
     <Airway Name="Z12">
+DIL VOR/
 BACAU/
 ELBIS
 </Airway>
@@ -6309,8 +6314,9 @@ KAKDO/
 BUNGL
 </Airway>
     <Airway Name="Z69">
-JULIE/
-METAN
+DIL VOR/
+METAN/
+JULIE
 </Airway>
     <Airway Name="Z70">
 HAAVI/
@@ -6353,7 +6359,8 @@ BUD NDB
 </Airway>
     <Airway Name="Z86">
 IKUMA/
-ISMUD
+ISMUD/
+DIL VOR
 </Airway>
     <Airway Name="Z87">
 REPOK/
@@ -11220,26 +11227,26 @@ SAGLI
     <Point Name="NUTTI" Type="Fix">+050000.000+1454224.000</Point>
     <Point Name="NUVTA" Type="Fix">-423656.000+1474036.000</Point>
     <Point Name="NUVTO" Type="Fix">-264447.200+1531535.400</Point>
-    <Point Name="NW2EE" Type="Fix">-345356.200+1504504.300</Point>
-    <Point Name="NW2EF" Type="Fix">-345717.300+1503813.100</Point>
-    <Point Name="NW2EG" Type="Fix">-345753.200+1504755.500</Point>
-    <Point Name="NW2EI" Type="Fix">-345735.300+1504304.300</Point>
-    <Point Name="NW2EJ" Type="Fix">-350126.700+1504423.400</Point>
-    <Point Name="NW2EM" Type="Fix">-345659.000+1503322.000</Point>
-    <Point Name="NW2ET" Type="Fix">-345644.900+1502939.400</Point>
-    <Point Name="NW2NA" Type="Fix">-344631.700+1503808.400</Point>
-    <Point Name="NW2NC" Type="Fix">-344716.300+1504338.300</Point>
-    <Point Name="NW2ND" Type="Fix">-345147.200+1504440.500</Point>
-    <Point Name="NW2NF" Type="Fix">-345300.300+1503650.900</Point>
-    <Point Name="NW2NI" Type="Fix">-345008.300+1504014.700</Point>
-    <Point Name="NW2NM" Type="Fix">-345552.200+1503326.900</Point>
-    <Point Name="NW2NT" Type="Fix">-345801.000+1503053.800</Point>
-    <Point Name="NW2SF" Type="Fix">-350041.700+1502839.300</Point>
-    <Point Name="NW2SI" Type="Fix">-350355.100+1502545.800</Point>
-    <Point Name="NW2SK" Type="Fix">-350715.300+1502827.400</Point>
-    <Point Name="NW2SL" Type="Fix">-350708.300+1502252.000</Point>
-    <Point Name="NW2SM" Type="Fix">-345728.300+1503132.700</Point>
-    <Point Name="NW2SN" Type="Fix">-350246.900+1502105.500</Point>
+    <Point Name="NW2EE" Type="Fix">-345356.200+1504504.250</Point>
+    <Point Name="NW2EF" Type="Fix">-345717.280+1503813.080</Point>
+    <Point Name="NW2EG" Type="Fix">-345753.210+1504755.460</Point>
+    <Point Name="NW2EI" Type="Fix">-345735.340+1504304.250</Point>
+    <Point Name="NW2EJ" Type="Fix">-350126.740+1504423.400</Point>
+    <Point Name="NW2EM" Type="Fix">-345659.030+1503321.950</Point>
+    <Point Name="NW2ET" Type="Fix">-345644.940+1502939.370</Point>
+    <Point Name="NW2NA" Type="Fix">-344631.690+1503808.410</Point>
+    <Point Name="NW2NC" Type="Fix">-344716.260+1504338.260</Point>
+    <Point Name="NW2ND" Type="Fix">-345147.210+1504440.510</Point>
+    <Point Name="NW2NF" Type="Fix">-345300.310+1503650.930</Point>
+    <Point Name="NW2NI" Type="Fix">-345008.330+1504014.720</Point>
+    <Point Name="NW2NM" Type="Fix">-345552.180+1503326.910</Point>
+    <Point Name="NW2NT" Type="Fix">-345801.000+1503053.750</Point>
+    <Point Name="NW2SF" Type="Fix">-350041.740+1502839.340</Point>
+    <Point Name="NW2SI" Type="Fix">-350355.080+1502545.800</Point>
+    <Point Name="NW2SK" Type="Fix">-350715.340+1502827.430</Point>
+    <Point Name="NW2SL" Type="Fix">-350708.340+1502252.010</Point>
+    <Point Name="NW2SM" Type="Fix">-345728.320+1503132.660</Point>
+    <Point Name="NW2SN" Type="Fix">-350246.930+1502105.540</Point>
     <Point Name="NW2ST" Type="Fix">-345503.200+1503342.500</Point>
     <Point Name="NW81C" Type="Fix">-360924.000+1531654.000</Point>
     <Point Name="NW82C" Type="Fix">-353224.000+1502930.000</Point>
@@ -16397,11 +16404,59 @@ SAGLI
       <Route Runway="17">-351853.310+1491140.000/-351955.941+1491137.995/BIDGI/KEATS/WG VOR</Route>
       <Route Runway="35">-351726.260+1491139.990/GUTMO/-350605.616+1490927.348/MAJOR/WG VOR</Route>
     </SID>
+    <SID Name="ABASS5" Airport="YSNW" Runways="03,08,21,26">
+      <Route Runway="03">-345608.370+1503307.670/ABASS</Route>
+      <Route Runway="08">-345657.290+1503254.470/ABASS</Route>
+      <Route Runway="21">-345655.820+1503211.270/ABASS</Route>
+      <Route Runway="26">-345652.320+1503135.750/ABASS</Route>
+    </SID>
+    <SID Name="AKMIR3" Airport="YSNW" Runways="03,08,21,26">
+      <Route Runway="03">-345608.370+1503307.670/AKMIR</Route>
+      <Route Runway="08">-345657.290+1503254.470/AKMIR</Route>
+      <Route Runway="21">-345655.820+1503211.270/AKMIR</Route>
+      <Route Runway="26">-345652.320+1503135.750/AKMIR</Route>
+    </SID>
+    <SID Name="CB5" Airport="YSNW" Runways="03,08,21,26">
+      <Route Runway="03">-345608.370+1503307.670/CB NDB</Route>
+      <Route Runway="08">-345657.290+1503254.470/CB NDB</Route>
+      <Route Runway="21">-345655.820+1503211.270/CB NDB</Route>
+      <Route Runway="26">-345652.320+1503135.750/CB NDB</Route>
+    </SID>
+    <SID Name="COM5" Airport="YSNW" Runways="03,08,21,26">
+      <Route Runway="03">-345608.370+1503307.670/COM NDB</Route>
+      <Route Runway="08">-345657.290+1503254.470/COM NDB</Route>
+      <Route Runway="21">-345655.820+1503211.270/COM NDB</Route>
+      <Route Runway="26">-345652.320+1503135.750/COM NDB</Route>
+    </SID>
+    <SID Name="GLB5" Airport="YSNW" Runways="03,08,21,26">
+      <Route Runway="03">-345608.370+1503307.670/GLB NDB</Route>
+      <Route Runway="08">-345657.290+1503254.470/GLB NDB</Route>
+      <Route Runway="21">-345655.820+1503211.270/GLB NDB</Route>
+      <Route Runway="26">-345652.320+1503135.750/GLB NDB</Route>
+    </SID>
     <SID Name="NWA5" Airport="YSNW" Runways="03,08,21,26">
       <Route Runway="03">-345608.370+1503307.670/-345608.419+1503307.650/-345444.912+1503445.991</Route>
       <Route Runway="08">-345657.290+1503254.470/-345657.329+1503254.449/-345705.502+1503517.261</Route>
       <Route Runway="21">-345655.820+1503211.270/-345655.871+1503211.249/-345840.000+1503008.523</Route>
       <Route Runway="26">-345652.320+1503135.750/-345652.372+1503135.731/-345644.414+1502917.087</Route>
+    </SID>
+    <SID Name="TONTO5" Airport="YSNW" Runways="03,08,21,26">
+      <Route Runway="03">-345608.370+1503307.670/TONTO</Route>
+      <Route Runway="08">-345657.290+1503254.470/TONTO</Route>
+      <Route Runway="21">-345655.820+1503211.270/TONTO</Route>
+      <Route Runway="26">-345652.320+1503135.750/TONTO</Route>
+    </SID>
+    <SID Name="URBOB3" Airport="YSNW" Runways="03,08,21,26">
+      <Route Runway="03">-345608.370+1503307.670/URBOB</Route>
+      <Route Runway="08">-345657.290+1503254.470/URBOB</Route>
+      <Route Runway="21">-345655.820+1503211.270/URBOB</Route>
+      <Route Runway="26">-345652.320+1503135.750/URBOB</Route>
+    </SID>
+    <SID Name="WOL5" Airport="YSNW" Runways="03,08,21,26">
+      <Route Runway="03">-345608.370+1503307.670/WOL NDB</Route>
+      <Route Runway="08">-345657.290+1503254.470/WOL NDB</Route>
+      <Route Runway="21">-345655.820+1503211.270/WOL NDB</Route>
+      <Route Runway="26">-345652.320+1503135.750/WOL NDB</Route>
     </SID>
     <SID Name="RIC4" Airport="YSRI" Runways="10,28">
       <Route Runway="10">-333626.180+1504735.590/-333626.490+1504737.191/-333713.769+1505042.039</Route>
