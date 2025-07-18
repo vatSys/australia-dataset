@@ -298,7 +298,7 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
-      <CFL QuickLevel="25000" />
+      <CFL QuickLevel="13000" />
       <ArrivalLists>
         <Airport Name="YBAS" />
       </ArrivalLists>
@@ -1351,6 +1351,64 @@
       <ControllerInfo>
         <Line>Brisbane Radio</Line>
         <Line>Position reports required. Check your Sim Zulu time is correct.</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+  <Group Name="EVENT">
+   <Position Name="EVENT Alice TCU" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="300" VisibilityRange="200" MagneticVariation="-4.6">
+      <Sectors>
+        <Sector Name="AAP" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="TMA_LL_LABELS" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="Alice Springs/AS_TCU" />
+        <Map Name="Alice Springs/AS_RWY12" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBAS" Frequency="123.000" />
+        <Window Airport="YBAS" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBAS" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000" />
+      <ArrivalLists>
+        <Airport Name="YBAS" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Alice Approach</Line>
+        <Line>ATIS available on 123.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Alice Springs EVENT Tower" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="80" MagneticVariation="-4.6">
+      <Sectors>
+        <Sector Name="ASE ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Alice Springs/AS_TCU" />
+        <Map Name="Alice Springs/AS_RWY12" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBAS" Frequency="123.000" />
+        <Window Airport="YBAS" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBAS" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="7000" />
+      <ArrivalLists>
+        <Airport Name="YBAS" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Alice Tower</Line>
+        <Line>ATIS available on 123.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
