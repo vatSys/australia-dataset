@@ -99,14 +99,22 @@
     <Volumes>ISA</Volumes>
     <ResponsibleSectors>WEG,ARA,STR</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Jakarta Control" Frequency="132.300" Callsign="WIIF_CTR" Name="WIIF" DisplayInSectorsWindow="False">
+  <Sector FullName="Jakarta Control" Frequency="132.150" Callsign="WIIF_CTR" Name="WIIF" DisplayInSectorsWindow="False">
     <Volumes>WIIF</Volumes>
   </Sector>
-  <Sector FullName="Jakarta Control" Frequency="120.900" Callsign="WIIF_E_CTR" Name="WIIFE" DisplayInSectorsWindow="False">
-    <Volumes>WIIF-E</Volumes>
+  <Sector FullName="Jakarta Control" Frequency="120.900" Callsign="WIIF_SG_CTR" Name="WIIFSG" DisplayInSectorsWindow="False">
+    <Volumes>WIIF-SG</Volumes>
+    <ResponsibleSectors>WIIF-BD</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Jakarta Control" Frequency="135.900" Callsign="WIIF_W_CTR" Name="WIIFW" DisplayInSectorsWindow="False">
-    <Volumes>WIIF-W</Volumes>
+  <Sector FullName="Jakarta Control" Frequency="132.100" Callsign="WIIF_BD_CTR" Name="WIIFBD" DisplayInSectorsWindow="False">
+    <Volumes>WIIF-BD</Volumes>
+  </Sector>
+  <Sector FullName="Jakarta Control" Frequency="133.200" Callsign="WIIF_MN_CTR" Name="WIIFMN" DisplayInSectorsWindow="False">
+    <Volumes>WIIF-MN</Volumes>
+    <ResponsibleSectors>WIIF-IS</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Jakarta Control" Frequency="132.850" Callsign="WIIF_IS_CTR" Name="WIIFIS" DisplayInSectorsWindow="False">
+    <Volumes>WIIF-IS</Volumes>
   </Sector>
   <Sector FullName="Jakarta Control Training" Frequency="132.300" Callsign="WIIF_T_CTR" Name="WIIFT" DisplayInSectorsWindow="False">
     <Volumes>WIIF</Volumes>
@@ -225,11 +233,18 @@
   <Sector FullName="Ujung Pandang Control" Frequency="128.100" Callsign="WAAF_CTR" Name="WAAF" DisplayInSectorsWindow="False">
     <Volumes>WAAF</Volumes>
   </Sector>
-  <Sector FullName="Ujung Pandang Control" Frequency="120.700" Callsign="WAAF_B_CTR" Name="WAAFB" DisplayInSectorsWindow="False">
-    <Volumes>WAAF-B</Volumes>
+  <Sector FullName="Ujung Pandang Control" Frequency="120.700" Callsign="WAAF_BI_CTR" Name="UBLI" DisplayInSectorsWindow="False">
+    <Volumes>WAAF-BI</Volumes>
+    <ResponsibleSectors>WAAF-NA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Ujung Pandang Control" Frequency="132.500" Callsign="WAAF_E_CTR" Name="WAAFE" DisplayInSectorsWindow="False">
-    <Volumes>WAAF-E</Volumes>
+  <Sector FullName="Ujung Pandang Control" Frequency="128.300" Callsign="WAAF_NA_CTR" Name="WAAFNA" DisplayInSectorsWindow="False">
+    <Volumes>WAAF-NA</Volumes>
+  </Sector>
+  <Sector FullName="Ujung Pandang Control" Frequency="132.350" Callsign="WAAF_AN_CTR" Name="WAAFAN" DisplayInSectorsWindow="False">
+    <Volumes>WAAF-AN</Volumes>
+  </Sector>
+  <Sector FullName="Ujung Pandang Control" Frequency="133.100" Callsign="WAAF_PA_CTR" Name="WAAFPA" DisplayInSectorsWindow="False">
+    <Volumes>WAAF-PA</Volumes>
   </Sector>
   <Sector FullName="Ujung Pandang Training" Frequency="128.100" Callsign="WAAF_T_CTR" Name="WAAFT" DisplayInSectorsWindow="False">
     <Volumes>WAAF</Volumes>
