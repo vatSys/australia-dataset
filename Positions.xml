@@ -298,7 +298,7 @@
         <Window Type="State" State="Announced" Visible="true" />
         <Window Type="State" State="Preactive" Visible="true" />
       </Strips>
-      <CFL QuickLevel="13000" />
+      <CFL QuickLevel="25000" />
       <ArrivalLists>
         <Airport Name="YBAS" />
       </ArrivalLists>
@@ -1355,6 +1355,7 @@
       </ControllerInfo>
     </Position>
   </Group>
+  <!--
   <Group Name="EVENT">
    <Position Name="EVENT Alice TCU" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="300" VisibilityRange="200" MagneticVariation="-4.6">
       <Sectors>
@@ -1412,7 +1413,7 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
     </Position>
-  </Group>
+  </Group> -->
   <Group Name="TCU">
     <Position Name="Adelaide TCU" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="200" VisibilityRange="100" MagneticVariation="-8">
       <Sectors>
