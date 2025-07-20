@@ -999,9 +999,7 @@
         <Editor Airport="YMAY" Frequency="133.85" />
         <Window Airport="YMAY" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YMAY" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="7000">
         <AdditionalLevels>3400,5400</AdditionalLevels>
       </CFL>
@@ -1034,9 +1032,7 @@
         <Editor Airport="YBAS" Frequency="123.000" />
         <Window Airport="YBAS" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBAS" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="7000">
         <AdditionalLevels>5200</AdditionalLevels>
       </CFL>
@@ -1065,9 +1061,7 @@
         <Editor Airport="YBRM" Frequency="128.2" />
         <Window Airport="YBRM" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBRM" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="5000">
         <AdditionalLevels>2100</AdditionalLevels>
       </CFL>
@@ -1101,9 +1095,7 @@
         <Editor Airport="YCFS" Frequency="130.3" />
         <Window Airport="YCFS" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YCFS" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="7000">
         <AdditionalLevels>3300</AdditionalLevels>
       </CFL>
@@ -1131,9 +1123,7 @@
         <Editor Airport="YBHM" Frequency="128.35" />
         <Window Airport="YBHM" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBHM" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="5000">
         <AdditionalLevels>2800,3900</AdditionalLevels>
       </CFL>
@@ -1162,9 +1152,7 @@
         <Editor Airport="YBSU" Frequency="119.8" />
         <Window Airport="YBSU" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBSU" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="5000">
         <AdditionalLevels>1900,2800,4100</AdditionalLevels>
       </CFL>
@@ -1199,9 +1187,7 @@
         <Editor Airport="YPKA" Frequency="134.55" />
         <Window Airport="YPKA" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPKA" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="5000">
         <AdditionalLevels>2200</AdditionalLevels>
       </CFL>
@@ -1236,9 +1222,7 @@
         <Editor Airport="YSTW" Frequency="123.8" />
         <Window Airport="YSTW" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YSTW" Visible="true" />
-      </Strips>
+      <Strips Mode="Beacon" Sort="Alpha" />
       <CFL QuickLevel="7000">
         <AdditionalLevels>4300</AdditionalLevels>
       </CFL>
@@ -1278,9 +1262,7 @@
         <Editor Airport="YPWR" Frequency="118.1" />
         <Window Airport="YPWR" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPWR" Visible="true" />
-      </Strips>
+      <Strips Mode="Beacon" Sort="Alpha" />
       <CFL QuickLevel="12000">
         <AdditionalLevels>2300</AdditionalLevels>
       </CFL>
@@ -1780,8 +1762,7 @@
         <Editor Airport="YSCB" Frequency="127.45" />
         <Window Airport="YSCB" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YSCB" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="24000">
         <AdditionalLevels>4300,4400,4800,5100,5400,6200,6700,7700</AdditionalLevels>
@@ -1907,8 +1888,7 @@
         <Editor Airport="YBTL" Frequency="133.5" />
         <Window Airport="YBTL" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBTL" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="18000">
         <AdditionalLevels>2700,3600,4700,5100,5200</AdditionalLevels>
@@ -2243,8 +2223,7 @@
         <Editor Airport="YCIN" Frequency="134.8" />
         <Window Airport="YCIN" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPAD" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="20000">
         <AdditionalLevels>1600,1800,2100,2800,3100,3200,3300,3800</AdditionalLevels>
@@ -2340,9 +2319,7 @@
         <Editor Airport="YBAF" Frequency="120.9" />
         <Window Airport="YBAF" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBAF" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="4000" />
       <ArrivalLists>
         <Airport Name="YBAF" />
@@ -2375,9 +2352,7 @@
         <Editor Airport="YMAV" Frequency="118.2" />
         <Window Airport="YMAV" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YMAV" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="4000" />
       <ArrivalLists>
         <Airport Name="YMAV" />
@@ -2412,9 +2387,7 @@
         <Editor Airport="YSBK" Frequency="120.9" />
         <Window Airport="YSBK" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YSBK" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="3000" />
       <ArrivalLists>
         <Airport Name="YSBK" />
@@ -2447,9 +2420,7 @@
         <Editor Airport="YSCN" Frequency="125.1" />
         <Window Airport="YSCN" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YSCN" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="3000" />
       <ArrivalLists>
         <Airport Name="YSCN" />
@@ -2482,9 +2453,7 @@
         <Editor Airport="YMHB" Frequency="128.45" />
         <Window Airport="YMHB" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YMHB" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="8000">
         <AdditionalLevels>3900,4200,5600</AdditionalLevels>
       </CFL>
@@ -2520,9 +2489,7 @@
         <Editor Airport="YPJT" Frequency="128.65" />
         <Window Airport="YPJT" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPJT" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="3000" />
       <ArrivalLists>
         <Airport Name="YPJT" />
@@ -2554,9 +2521,7 @@
         <Editor Airport="YMLT" Frequency="134.75" />
         <Window Airport="YMLT" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YMLT" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="8000">
         <AdditionalLevels>3200,5800,6300</AdditionalLevels>
       </CFL>
@@ -2585,9 +2550,7 @@
         <Editor Airport="YBMK" Frequency="128.0" />
         <Window Airport="YBMK" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBMK" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="6000" />
       <ArrivalLists>
         <Airport Name="YBMK" />
@@ -2621,9 +2584,7 @@
         <Editor Airport="YMMB" Frequency="120.9" />
         <Window Airport="YMMB" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YMMB" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="5000" />
       <ArrivalLists>
         <Airport Name="YMMB" />
@@ -2657,9 +2618,7 @@
         <Editor Airport="YPPF" Frequency="120.9" />
         <Window Airport="YPPF" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPPF" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="3000" />
       <ArrivalLists>
         <Airport Name="YPPF" />
@@ -2692,9 +2651,7 @@
         <Editor Airport="YBRK" Frequency="128.5" />
         <Window Airport="YBRK" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBRK" Visible="true" />
-      </Strips>
+      <Strips Mode="State" Sort="Time" />
       <CFL QuickLevel="6000" />
       <ArrivalLists>
         <Airport Name="YBRK" />
@@ -2730,8 +2687,7 @@
         <Editor Airport="YPAD" Frequency="134.5" Server="rw1.vatpac.org" />
         <Window Airport="YPAD" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPAD" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -2771,8 +2727,7 @@
         <Editor Airport="YAMB" Frequency="123.3" />
         <Window Airport="YAMB" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YAMB" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -2813,8 +2768,7 @@
         <Editor Airport="YMES" Frequency="125.4" />
         <Window Airport="YMES" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YMES" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -2855,8 +2809,7 @@
         <Editor Airport="YMEN" Frequency="119.8" />
         <Window Airport="YMEN" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YMEN" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="3000" />
       <ArrivalLists>
@@ -2891,8 +2844,7 @@
         <Editor Airport="YMML" Frequency="118.0" />
         <Window Airport="YMML" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YMML" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -2936,8 +2888,7 @@
         <Editor Airport="YSSY" Frequency="118.55" />
         <Window Airport="YSSY" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YSSY" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -2999,8 +2950,7 @@
         <Editor Airport="YBBN" Frequency="125.5" />
         <Window Airport="YBBN" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBBN" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="6000" />
       <ArrivalLists>
@@ -3058,8 +3008,7 @@
         <Editor Airport="YSCB" Frequency="127.45" />
         <Window Airport="YSCB" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YSCB" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="10000" />
       <ArrivalLists>
@@ -3095,8 +3044,7 @@
         <Editor Airport="YPPH" Frequency="123.8" />
         <Window Airport="YPPH" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPPH" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -3144,8 +3092,7 @@
         <Editor Airport="YBCS" Frequency="131.1" />
         <Window Airport="YBCS" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBCS" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="6000" />
       <ArrivalLists>
@@ -3186,8 +3133,7 @@
         <Editor Airport="YBTL" Frequency="133.5" />
         <Window Airport="YBTL" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBTL" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -3227,8 +3173,7 @@
         <Editor Airport="YPTN" Frequency="124.000" />
         <Window Airport="YPTN" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPTN" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -3269,8 +3214,7 @@
         <Editor Airport="YPDN" Frequency="128.25" />
         <Window Airport="YPDN" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPDN" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -3311,8 +3255,7 @@
         <Editor Airport="YWLM" Frequency="134.45" />
         <Window Airport="YWLM" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YWLM" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -3353,8 +3296,7 @@
         <Editor Airport="YSNW" Frequency="125.65" />
         <Window Airport="YSNW" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YSNW" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -3393,8 +3335,7 @@
         <Editor Airport="YBOK" Frequency="124.3" />
         <Window Airport="YBOK" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBOK" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -3428,8 +3369,7 @@
         <Editor Airport="YPED" Frequency="126.25" />
         <Window Airport="YPED" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPED" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -3462,8 +3402,7 @@
         <Editor Airport="YGIG" Frequency="134.5" />
         <Window Airport="YGIG" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YGIG" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -3492,8 +3431,7 @@
         <Editor Airport="YBCG" Frequency="134.5" />
         <Window Airport="YBCG" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBCG" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="6000" />
       <ArrivalLists>
@@ -3534,8 +3472,7 @@
         <Editor Airport="YPEA" Frequency="136.4" />
         <Window Airport="YPEA" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPEA" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -3574,8 +3511,7 @@
         <Editor Airport="YSRI" Frequency="126.3" />
         <Window Airport="YSRI" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YSRI" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000" />
       <ArrivalLists>
@@ -3610,8 +3546,7 @@
         <Editor Airport="YCIN" Frequency="134.8" />
         <Window Airport="YCIN" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YCIN" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="4000">
         <AdditionalLevels>2300</AdditionalLevels>
@@ -3653,8 +3588,7 @@
         <Editor Airport="YPLM" Frequency="123.3" />
         <Window Airport="YPLM" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YPLM" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="3000">
         <AdditionalLevels>2300</AdditionalLevels>
@@ -3690,8 +3624,7 @@
         <Editor Airport="YBSG" Frequency="132.25" />
         <Window Airport="YBSG" />
       </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha">
-        <Window Type="ADEP" Beacon="YBSG" Visible="true" />
+      <Strips Mode="State" Sort="Alpha">
       </Strips>
       <CFL QuickLevel="5000">
         <AdditionalLevels>1600,1700,1800</AdditionalLevels>
