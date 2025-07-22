@@ -2,23 +2,51 @@
 <Airspace xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SystemRunways>
     <Airport Name="YAMB">
-      <Runway Name="04" DataRunway="04" />
+      <Runway Name="04" DataRunway="04">
+        <STAR Name="BYRON2" />
+        <STAR Name="CENTR6" />
+        <STAR Name="NORTH5" />
+      </Runway>
       <Runway Name="15" DataRunway="15">
         <SID Name="AMB4" Default="True" />
-        <SID Name="BOBOP5" />
+        <SID Name="BOBO5A" />
+        <SID Name="BOBO5T" />
         <SID Name="BRISY3" />
-        <SID Name="JEDDA5" />
-        <SID Name="MESED5" />
-        <SID Name="TATEN2" />
+        <SID Name="BYRON1" />
+        <SID Name="CENTR5" />
+        <SID Name="JEDA5A" />
+        <SID Name="JEDA5T" />
+        <SID Name="MESE5A" />
+        <SID Name="MESE5T" />
+        <SID Name="NORTH5" />
+        <SID Name="TATE2A" />
+        <SID Name="TATE2T" />
+        <STAR Name="BYRON2" ApproachName="LOC" />
+        <STAR Name="CENTR6" ApproachName="LOC" />
+        <STAR Name="NORTH5" ApproachName="LOC" />
       </Runway>
-      <Runway Name="22" DataRunway="22" />
+      <Runway Name="22" DataRunway="22">
+        <STAR Name="BYRON2" />
+        <STAR Name="CENTR6" />
+        <STAR Name="NORTH5" />
+      </Runway>
       <Runway Name="33" DataRunway="33">
         <SID Name="AMB4" Default="True" />
-        <SID Name="BOBOP5" />
+        <SID Name="BOBO5A" />
+        <SID Name="BOBO5T" />
         <SID Name="BRISY3" />
-        <SID Name="JEDDA5" />
-        <SID Name="MESED5" />
-        <SID Name="TATEN2" />
+        <SID Name="BYRON1" />
+        <SID Name="CENTR5" />
+        <SID Name="JEDA5A" />
+        <SID Name="JEDA5T" />
+        <SID Name="MESE5A" />
+        <SID Name="MESE5T" />
+        <SID Name="NORTH5" />
+        <SID Name="TATE2A" />
+        <SID Name="TATE2T" />
+        <STAR Name="BYRON2" />
+        <STAR Name="CENTR6" />
+        <STAR Name="NORTH5" />
       </Runway>
     </Airport>
     <Airport Name="YBAF">
@@ -6538,6 +6566,7 @@ SAGLI
     <Point Name="AKRUN" Type="Fix">-334236.000+1250000.000</Point>
     <Point Name="AKRUS" Type="Fix">-324805.200+1515951.200</Point>
     <Point Name="AKSID" Type="Fix">-374552.900+1450540.900</Point>
+    <Point Name="AKSIK" Type="Fix">-273430.890+1524105.930</Point>
     <Point Name="AKSOS" Type="Fix">-330506.100+1164658.500</Point>
     <Point Name="AKTAM" Type="Fix">-394214.600+1461429.200</Point>
     <Point Name="AKTEG" Type="Fix">-330210.800+1510028.800</Point>
@@ -6596,28 +6625,27 @@ SAGLI
     <Point Name="AM24C" Type="Fix">-270106.000+1572500.000</Point>
     <Point Name="AM26C" Type="Fix">-300312.000+1562306.000</Point>
     <Point Name="AM28C" Type="Fix">-274918.000+1491536.000</Point>
+    <Point Name="AM2ND" Type="Fix">-272439.050+1524227.920</Point>
+    <Point Name="AM2NE" Type="Fix">-272316.940+1523612.370</Point>
+    <Point Name="AM2NF" Type="Fix">-273237.790+1524016.590</Point>
+    <Point Name="AM2NG" Type="Fix">-272803.710+1523237.220</Point>
+    <Point Name="AM2NH" Type="Fix">-274355.130+1524512.520</Point>
+    <Point Name="AM2NI" Type="Fix">-272757.380+1523814.400</Point>
+    <Point Name="AM2SF" Type="Fix">-274445.540+1524400.630</Point>
+    <Point Name="AM2SH" Type="Fix">-273506.050+1524121.320</Point>
+    <Point Name="AM2SI" Type="Fix">-274837.810+1524429.300</Point>
+    <Point Name="AM2SK" Type="Fix">-275144.180+1524452.330</Point>
+    <Point Name="AM2SL" Type="Fix">-275057.190+1523911.300</Point>
+    <Point Name="AM2SM" Type="Fix">-273946.510+1524323.770</Point>
+    <Point Name="AM2WF" Type="Fix">-274135.980+1523753.810</Point>
+    <Point Name="AM2WH" Type="Fix">-272758.910+1524150.840</Point>
+    <Point Name="AM2WI" Type="Fix">-274431.210+1523319.040</Point>
+    <Point Name="AM2WJ" Type="Fix">-274726.280+1522844.020</Point>
+    <Point Name="AM2WN" Type="Fix">-274140.830+1522839.800</Point>
     <Point Name="AM83C" Type="Fix">-250012.000+1555254.000</Point>
     <Point Name="AM84C" Type="Fix">-291324.000+1493100.000</Point>
     <Point Name="AMANA" Type="Fix">-314527.800+1163743.000</Point>
     <Point Name="AMBLE" Type="Fix">-271736.000+1530542.000</Point>
-    <Point Name="AMBND" Type="Fix">-272439.100+1524227.900</Point>
-    <Point Name="AMBNE" Type="Fix">-272316.900+1523612.400</Point>
-    <Point Name="AMBNF" Type="Fix">-273237.800+1524016.600</Point>
-    <Point Name="AMBNG" Type="Fix">-272803.600+1523237.600</Point>
-    <Point Name="AMBNH" Type="Fix">-274355.100+1524512.500</Point>
-    <Point Name="AMBNI" Type="Fix">-272757.400+1523814.400</Point>
-    <Point Name="AMBNM" Type="Fix">-273718.200+1524219.000</Point>
-    <Point Name="AMBSF" Type="Fix">-274445.500+1524400.700</Point>
-    <Point Name="AMBSI" Type="Fix">-274844.800+1524430.200</Point>
-    <Point Name="AMBSK" Type="Fix">-275144.200+1524452.300</Point>
-    <Point Name="AMBSL" Type="Fix">-275057.800+1523926.700</Point>
-    <Point Name="AMBSM" Type="Fix">-273946.500+1524323.800</Point>
-    <Point Name="AMBWF" Type="Fix">-274136.000+1523753.800</Point>
-    <Point Name="AMBWH" Type="Fix">-272758.900+1524150.800</Point>
-    <Point Name="AMBWI" Type="Fix">-274431.300+1523319.100</Point>
-    <Point Name="AMBWJ" Type="Fix">-274726.400+1522844.100</Point>
-    <Point Name="AMBWM" Type="Fix">-273840.600+1524228.300</Point>
-    <Point Name="AMBWN" Type="Fix">-274140.800+1522839.800</Point>
     <Point Name="AMELI" Type="Fix">-375421.300+1471404.100</Point>
     <Point Name="AMITY" Type="Fix">-272541.800+1533025.800</Point>
     <Point Name="AMOCO" Type="Fix">-240000.000+1521230.000</Point>
@@ -9916,6 +9944,7 @@ SAGLI
     <Point Name="KIPPA" Type="Fix">-200440.900+1431341.700</Point>
     <Point Name="KISME" Type="Fix">+050000.000+1480524.000</Point>
     <Point Name="KITTY" Type="Fix">-122945.000+1305133.300</Point>
+    <Point Name="KIWEE" Type="Fix">-274036.000+1532011.000</Point>
     <Point Name="KKGND" Type="Fix">-171300.400+1305127.300</Point>
     <Point Name="KKGNE" Type="Fix">-171251.500+1305726.700</Point>
     <Point Name="KKGNF" Type="Fix">-172113.800+1305140.400</Point>
@@ -13426,6 +13455,7 @@ SAGLI
     <Point Name="TT2SM" Type="Fix">-134535.000+1260914.000</Point>
     <Point Name="TUCAB" Type="Fix">-292848.000+1531606.000</Point>
     <Point Name="TUCKI" Type="Fix">-285518.000+1532212.000</Point>
+    <Point Name="TUGUN" Type="Fix">-274537.000+1525050.000</Point>
     <Point Name="TULPO" Type="Fix">-205354.600+1152350.300</Point>
     <Point Name="TUMAN" Type="Fix">-343612.800+1401750.100</Point>
     <Point Name="TUMDI" Type="Fix">-350138.200+1382501.300</Point>
@@ -14271,6 +14301,7 @@ SAGLI
     <Point Name="ZA2WH" Type="Fix">-210233.300+1184213.600</Point>
     <Point Name="ZA2WI" Type="Fix">-210102.900+1182709.100</Point>
     <Point Name="ZAARS" Type="Fix">-120159.300+1293613.100</Point>
+    <Point Name="ZANET" Type="Fix">-274747.000+1532530.000</Point>
     <Point Name="ZANEY" Type="Fix">-160144.300+1455442.600</Point>
     <Point Name="ZB2ND" Type="Fix">-195007.500+1482001.700</Point>
     <Point Name="ZB2NE" Type="Fix">-195155.000+1482548.700</Point>
@@ -15719,7 +15750,11 @@ SAGLI
       <Route Runway="15" />
       <Route Runway="33" />
     </SID>
-    <SID Name="BOBOP5" Airport="YAMB" Runways="15,33">
+    <SID Name="BOBO5A" Airport="YAMB" Runways="15,33">
+      <Route Runway="15">-273850.390+1524259.300/-274351.880+1524508.760/-274426.555+1524518.142/-274502.252+1524516.965/-274536.463+1524505.388/-274606.856+1524444.197/-274631.359+1524414.835/-274639.000+1524401.257/DEBEE/BOBOP</Route>
+      <Route Runway="33">-273718.130+1524218.980/AKSIK/DEBEE/BOBOP</Route>
+    </SID>
+    <SID Name="BOBO5T" Airport="YAMB" Runways="15,33">
       <Route Runway="15">-273850.390+1524259.300/-274351.880+1524508.760/-274426.555+1524518.142/-274502.252+1524516.965/-274536.463+1524505.388/-274606.856+1524444.197/-274631.359+1524414.835/-274639.000+1524401.257/-274648.310+1524339.328/-275046.570+1523314.030/BOBOP</Route>
       <Route Runway="33">-273718.130+1524218.980/-273447.990+1524113.430/-273412.851+1524044.535/-273355.277+1523959.669/-273359.938+1523910.902/-273423.225+1523833.607/-273428.440+1523828.550/-275046.570+1523314.030/BOBOP</Route>
     </SID>
@@ -15727,15 +15762,41 @@ SAGLI
       <Route Runway="15">-273850.390+1524259.300/-274351.880+1524508.760/-274449.309+1524555.439/-274518.335+1524708.425/-274511.164+1524828.032/-274429.721+1524932.911/-274325.117+1525005.671/-274256.719+1525007.362/-274206.030+1524951.960/-273704.770+1524754.190/-273645.595+1524749.690/-273626.050+1524751.000/-273607.473+1524757.977/-273551.128+1524810.140/-273538.129+1524826.661/-273533.214+1524836.247/BN VOR</Route>
       <Route Runway="33">-273718.130+1524218.980/-273447.990+1524113.430/-272834.360+1524119.880/-272814.976+1524123.042/-272757.005+1524131.802/-272741.658+1524145.503/-272729.980+1524203.214/-272722.767+1524223.726/-272721.050+1524234.616/BN VOR</Route>
     </SID>
-    <SID Name="JEDDA5" Airport="YAMB" Runways="15,33">
+    <SID Name="BYRON1" Airport="YAMB" Runways="15,33">
+      <Route Runway="15">-273850.390+1524259.300/COWIE/KIWEE/ZANET/LOTMA/SEMAJ</Route>
+      <Route Runway="33">-273718.130+1524218.980/COWIE/KIWEE/ZANET/LOTMA/SEMAJ</Route>
+    </SID>
+    <SID Name="CENTR5" Airport="YAMB" Runways="15,33">
+      <Route Runway="15">-273850.390+1524259.300/BINUP/MURJO/BOBED/VIRGE</Route>
+      <Route Runway="33">-273718.130+1524218.980/BINUP/MURJO/BOBED/VIRGE</Route>
+    </SID>
+    <SID Name="JEDA5A" Airport="YAMB" Runways="15,33">
+      <Route Runway="15">-273850.390+1524259.300/-274351.880+1524508.760/-274502.252+1524516.965/-274606.856+1524444.197/-274648.300+1524339.302/-274655.470+1524219.675/-274626.444+1524106.671/-274606.211+1524044.087/RUDEY/JEDDA</Route>
+      <Route Runway="33">-273718.130+1524218.980/AKSIK/RUDEY/JEDDA</Route>
+    </SID>
+    <SID Name="JEDA5T" Airport="YAMB" Runways="15,33">
       <Route Runway="15">-273850.390+1524259.300/-274351.880+1524508.760/-274502.252+1524516.965/-274606.856+1524444.197/-274648.300+1524339.302/-274655.470+1524219.675/-274626.444+1524106.671/-274606.211+1524044.087/-274519.580+1524018.040/-273245.380+1523339.990/JEDDA</Route>
       <Route Runway="33">-273718.130+1524218.980/-273447.990+1524113.430/-273416.721+1524054.263/-273351.003+1524026.567/-273332.513+1523952.310/-273322.511+1523913.824/-273322.151+1523910.269/-273321.010+1523902.400/-273252.030+1523350.640/JEDDA</Route>
     </SID>
-    <SID Name="MESED5" Airport="YAMB" Runways="15,33">
+    <SID Name="MESE5A" Airport="YAMB" Runways="15,33">
+      <Route Runway="15">-273850.390+1524259.300/-274351.880+1524508.760/-274502.252+1524516.965/-274606.856+1524444.197/-274648.300+1524339.302/-274655.470+1524219.675/-274626.444+1524106.671/-274606.211+1524044.087/IMATI/MESED</Route>
+      <Route Runway="33">-273718.130+1524218.980/AKSIK/IMATI/MESED</Route>
+    </SID>
+    <SID Name="MESE5T" Airport="YAMB" Runways="15,33">
       <Route Runway="15">-273850.390+1524259.300/-274351.880+1524508.760/-274502.252+1524516.965/-274606.856+1524444.197/-274648.300+1524339.302/-274655.470+1524219.675/-274626.444+1524106.671/-274606.211+1524044.087/-274519.580+1524018.040/-273340.410+1523021.670/MESED</Route>
       <Route Runway="33">-273718.130+1524218.980/-273447.990+1524113.430/-273416.721+1524054.263/-273351.003+1524026.567/-273332.513+1523952.310/-273322.511+1523913.824/-273322.151+1523910.269/-273321.010+1523902.400/-273410.600+1523137.110/MESED</Route>
     </SID>
-    <SID Name="TATEN2" Airport="YAMB" Runways="15,33">
+    <SID Name="NORTH5" Airport="YAMB" Runways="15,33">
+      <Route Runway="15">-273850.390+1524259.300/BINUP/MURJO/BOBED/LESKO</Route>
+      <Route Runway="33">-273718.130+1524218.980/BINUP/MURJO/BOBED/LESKO</Route>
+      <Transition Name="ADNUK">ADNUK</Transition>
+      <Transition Name="MOSSI">MOSSI</Transition>
+    </SID>
+    <SID Name="TATE2A" Airport="YAMB" Runways="15,33">
+      <Route Runway="15">-273850.390+1524259.300/-274351.880+1524508.760/-274427.011+1524518.265/-274503.178+1524517.073/-274537.839+1524505.344/-274556.913+1524453.430/PAMRI/TATEN</Route>
+      <Route Runway="33">-273718.130+1524218.980/AKSIK/ENLIP/TATEN</Route>
+    </SID>
+    <SID Name="TATE2T" Airport="YAMB" Runways="15,33">
       <Route Runway="15">-273850.390+1524259.300/-274351.880+1524508.760/-274427.011+1524518.265/-274503.178+1524517.073/-274537.839+1524505.344/-274556.913+1524453.430/-274606.859+1524444.217/-275029.840+1524026.690/TATEN</Route>
       <Route Runway="33">-273718.130+1524218.980/-273447.990+1524113.430/-273355.272+1524030.079/-273328.914+1523922.783/-273335.906+1523809.637/-273414.377+1523710.224/-273514.025+1523640.459/-273540.472+1523639.080/-273611.150+1523643.960/-274721.990+1524106.700/TATEN</Route>
     </SID>
@@ -16533,6 +16594,26 @@ SAGLI
       <Route Runway="12" />
       <Route Runway="30" />
     </SID>
+    <STAR Name="BYRON2" Airport="YAMB" Runways="04,15,22,33">
+      <Route Runway="04">SEMAJ/LOTMA/ZANET/LAGOB/TUGUN/AMB TAC/BIGIX</Route>
+      <Route Runway="15">SEMAJ/LOTMA/ZANET/LAGOB/TUGUN/AMB TAC/BIGIX</Route>
+      <Route Runway="22">SEMAJ/LOTMA/ZANET/LAGOB/TUGUN/AMB TAC/BIGIX</Route>
+      <Route Runway="33">SEMAJ/LOTMA/ZANET/LAGOB/TUGUN/AMB TAC/BIGIX</Route>
+    </STAR>
+    <STAR Name="CENTR6" Airport="YAMB" Runways="04,15,22,33">
+      <Route Runway="04">VIRGE/BOBED/JEZZA/ANKED/AMB TAC/BIGIX</Route>
+      <Route Runway="15">VIRGE/BOBED/JEZZA/ANKED/AMB TAC/BIGIX</Route>
+      <Route Runway="22">VIRGE/BOBED/JEZZA/ANKED/AMB TAC/BIGIX</Route>
+      <Route Runway="33">VIRGE/BOBED/JEZZA/ANKED/AMB TAC/BIGIX</Route>
+    </STAR>
+    <STAR Name="NORTH5" Airport="YAMB" Runways="04,15,22,33">
+      <Transition Name="ADNUK">ADNUK</Transition>
+      <Transition Name="MOSSI">MOSSI</Transition>
+      <Route Runway="04">LESKO/BOBED/JEZZA/ANKED/AMB TAC/BIGIX</Route>
+      <Route Runway="15">LESKO/BOBED/JEZZA/ANKED/AMB TAC/BIGIX</Route>
+      <Route Runway="22">LESKO/BOBED/JEZZA/ANKED/AMB TAC/BIGIX</Route>
+      <Route Runway="33">LESKO/BOBED/JEZZA/ANKED/AMB TAC/BIGIX</Route>
+    </STAR>
     <STAR Name="BLAK6A" Airport="YBBN" Runways="01L,01R,19L,19R">
       <Route Runway="01L">BLAKA/VELKA/BERTI/PONOD/BISEK/VANTI/TANIK</Route>
       <Route Runway="01R">BLAKA/VELKA/BERTI/PONOD/ENTOX/VATRO/PULEX/GLENN</Route>
@@ -17439,6 +17520,10 @@ SAGLI
       <Route Runway="12">PUDUT/IGLUM/MATLA/OSATO</Route>
       <Route Runway="30">PUDUT/IVTAG/DOXAP</Route>
     </STAR>
+    <Approach Name="LOC" Airport="YAMB" Runway="15">
+      <Transition Name="BIGIX">BIGIX</Transition>
+      <Route>OREBI/IKELI/-273718.130+1524218.980</Route>
+    </Approach>
     <Approach Name="RNPZ" Airport="YBBN" Runway="01L">
       <Transition Name="TANIK">TANIK</Transition>
       <Route>AKTOB/LUTSI/-272259.050+1530624.490</Route>
@@ -17814,7 +17899,7 @@ SAGLI
     <Airport ICAO="YADE" FullName="Annandale" Position="-215636.000+1481702.000" />
     <Airport ICAO="YADG" FullName="Aldinga" Position="-351720.000+1382936.000" Elevation="110" />
     <Airport ICAO="YADO" FullName="Andado" Position="-252439.000+1351726.000" />
-    <Airport ICAO="YADR" FullName="Aldersyde" Position="-263959.000+1501159.000" />
+    <Airport ICAO="YADR" FullName="Aldersyde" Position="-264051.000+1501121.000" />
     <Airport ICAO="YADS" FullName="Alton Downs" Position="-263200.000+1391600.000" />
     <Airport ICAO="YADY" FullName="Adaminaby" Position="-355954.000+1484748.000" Elevation="3350" />
     <Airport ICAO="YAFD" FullName="Alfred Hospital" Position="-375048.000+1445847.000" />
@@ -17958,7 +18043,7 @@ SAGLI
     <Airport ICAO="YBAW" FullName="Barkly Downs" Position="-202945.000+1382829.000" />
     <Airport ICAO="YBAY" FullName="Baygurtji" Position="-130853.000+1354858.000" />
     <Airport ICAO="YBBA" FullName="Barraba" Position="-302337.000+1503552.000" />
-    <Airport ICAO="YBBC" FullName="Bamboo Creek" Position="-205700.000+1200900.000" />
+    <Airport ICAO="YBBC" FullName="Bamboo Creek Gold Mine" Position="-205700.000+1200900.000" />
     <Airport ICAO="YBBE" FullName="Big Bell" Position="-271958.000+1173954.000" />
     <Airport ICAO="YBBF" FullName="Brooklet/Blueberry Fields" Position="-284423.000+1532914.000" Elevation="350" />
     <Airport ICAO="YBBH" FullName="Birri Beach" Position="-162930.000+1391700.000" />
@@ -18102,7 +18187,7 @@ SAGLI
       <Runway Name="36" Position="-300228.760+1455720.570" />
     </Airport>
     <Airport ICAO="YBKL" FullName="Bukadal" Position="-125738.000+1363601.000" />
-    <Airport ICAO="YBKS" FullName="Barkly Wayside Inn" Position="-194233.000+1354908.000" />
+    <Airport ICAO="YBKS" FullName="Barkly Homestead" Position="-194233.000+1354908.000" />
     <Airport ICAO="YBKT" FullName="Burketown" Position="-174455.000+1393204.000" Elevation="21">
       <Runway Name="03" Position="-174518.520+1393151.540" />
       <Runway Name="21" Position="-174445.340+1393222.600" />
@@ -18392,7 +18477,7 @@ SAGLI
       <Runway Name="32" Position="-290234.630+1344330.840" />
     </Airport>
     <Airport ICAO="YCBR" FullName="Collarenebri" Position="-293119.000+1483456.000" Elevation="500" />
-    <Airport ICAO="YCBY" FullName="Cow Bay" Position="-161208.000+1452413.000" />
+    <Airport ICAO="YCBY" FullName="Cow Bay" Position="-161208.129+1452413.698" Elevation="131" />
     <Airport ICAO="YCCA" FullName="Chinchilla" Position="-264610.000+1503700.000" Elevation="1030">
       <Runway Name="03" Position="-264619.650+1503706.620" />
       <Runway Name="21" Position="-264604.590+1503719.970" />
@@ -18569,7 +18654,7 @@ SAGLI
     <Airport ICAO="YCOF" FullName="Coffin Bay" Position="-343520.000+1353018.000" Elevation="13" />
     <Airport ICAO="YCOH" FullName="Cohuna" Position="-354937.000+1441250.000" Elevation="260" />
     <Airport ICAO="YCOI" FullName="Collie" Position="-332136.000+1161204.000" />
-    <Airport ICAO="YCOL" FullName="Colanya" Position="-363659.000+1414159.000" />
+    <Airport ICAO="YCOL" FullName="Colanya" Position="-272908.646+1514519.415" />
     <Airport ICAO="YCOM" FullName="Cooma-Snowy Mountains" Position="-361802.000+1485826.000" Elevation="3106">
       <Runway Name="18" Position="-361732.180+1485828.870" />
       <Runway Name="36" Position="-361832.650+1485812.040" />
@@ -18969,11 +19054,12 @@ SAGLI
     <Airport ICAO="YFLO" FullName="Flora Valley" Position="-181659.000+1282500.000" />
     <Airport ICAO="YFLS" FullName="Flinders Island" Position="-334346.000+1343005.000" />
     <Airport ICAO="YFLT" FullName="Fairlight" Position="-154559.000+1440300.000" />
+    <Airport ICAO="YFLV" FullName="Fletcherview" Position="-195304.898+1461218.055" />
     <Airport ICAO="YFLY" FullName="Flynn Reef" Position="-164319.000+1461607.000" />
     <Airport ICAO="YFND" FullName="Flinders Naval Depot" Position="-382201.000+1451109.000" />
     <Airport ICAO="YFNE" FullName="Finke" Position="-253535.000+1343458.000" />
     <Airport ICAO="YFOR" FullName="Fortnum" Position="-252011.000+1182258.000" />
-    <Airport ICAO="YFOS" FullName="Fossil Downs Stn" Position="-180859.000+1254659.000" />
+    <Airport ICAO="YFOS" FullName="Fossil Downs Station" Position="-180859.000+1254659.000" />
     <Airport ICAO="YFRA" FullName="Frankland Island" Position="-171300.000+1460459.000" />
     <Airport ICAO="YFRD" FullName="Frome Downs" Position="-311313.000+1394936.000" />
     <Airport ICAO="YFRG" FullName="Fregon" Position="-264633.000+1320103.000" Elevation="1732" />
@@ -19162,7 +19248,7 @@ SAGLI
     <Airport ICAO="YGSN" FullName="Mount Gibson" Position="-293626.000+1172411.000" />
     <Airport ICAO="YGST" FullName="Grundy Street Helipad" Position="-165739.000+1454459.000" />
     <Airport ICAO="YGTA" FullName="Garrathala" Position="-124550.000+1363404.000" />
-    <Airport ICAO="YGTC" FullName="Anmatjere/Gemtree Cara V An Park" Position="-225812.000+1341451.000" />
+    <Airport ICAO="YGTC" FullName="Anmatjere/Gemtree Caravan Park" Position="-225812.000+1341451.000" />
     <Airport ICAO="YGTE" FullName="Groote Eylandt" Position="-135824.000+1362739.000" Elevation="53">
       <Runway Name="10" Position="-135815.690+1362659.620" />
       <Runway Name="28" Position="-135825.530+1362802.240" />
@@ -19226,7 +19312,7 @@ SAGLI
     <Airport ICAO="YHEG" FullName="Hells Gate" Position="-172800.000+1382200.000" />
     <Airport ICAO="YHEH" FullName="Hexam" Position="-324935.140+1514109.349" Elevation="15" />
     <Airport ICAO="YHEL" FullName="Helenvale" Position="-154100.000+1451259.000" />
-    <Airport ICAO="YHER" FullName="Hervey Range" Position="-251908.000+1525249.000" />
+    <Airport ICAO="YHER" FullName="Hervey Range" Position="-192254.000+1462751.000" />
     <Airport ICAO="YHEW" FullName="Hedlow" Position="-231331.000+1503612.000" />
     <Airport ICAO="YHFD" FullName="Hayfield" Position="-164500.000+1333000.000" />
     <Airport ICAO="YHGI" FullName="Hogan Island" Position="-391312.000+1465847.000" />
@@ -19469,6 +19555,7 @@ SAGLI
     <Airport ICAO="YKCK" FullName="Killiecrankie" Position="-395058.000+1475137.000" />
     <Airport ICAO="YKCS" FullName="Kings Creek Stn" Position="-242513.000+1314908.000" Elevation="2017" />
     <Airport ICAO="YKCY" FullName="Kilcoy" Position="-265816.000+1523355.000" Elevation="400" />
+    <Airport ICAO="YKDA" FullName="Knapdale" Position="-273023.978+1513016.954" />
     <Airport ICAO="YKDD" FullName="Gudai-Darri Mine" Position="-223019.000+1190434.000" Elevation="1473">
       <Runway Name="12" Position="-222959.930+1190402.020" />
       <Runway Name="30" Position="-223030.810+1190511.430" />
@@ -20044,7 +20131,7 @@ SAGLI
       <Runway Name="16" Position="-280627.840+1175013.440" />
       <Runway Name="34" Position="-280721.610+1175039.330" />
     </Airport>
-    <Airport ICAO="YMOH" FullName="Tha" Position="-272803.000+1525636.000" />
+    <Airport ICAO="YMOH" FullName="Mount Coot-Tha" Position="-272803.000+1525636.000" />
     <Airport ICAO="YMON" FullName="Monegeeta" Position="-372429.000+1444259.000" />
     <Airport ICAO="YMOO" FullName="Mooraberree" Position="-251438.000+1405838.000" />
     <Airport ICAO="YMOR" FullName="Moree" Position="-292956.000+1495041.000" Elevation="701">
@@ -20070,7 +20157,7 @@ SAGLI
     <Airport ICAO="YMPH" FullName="Merapah Homestead" Position="-134720.024+1423304.122" Elevation="564" />
     <Airport ICAO="YMPL" FullName="Mawson Plateau Skiway" Position="-674309.000+0624926.000" />
     <Airport ICAO="YMPN" FullName="Mapoon" Position="-120304.000+1415425.000" />
-    <Airport ICAO="YMPY" FullName="Mount Perry" Position="-251100.000+1513900.000" />
+    <Airport ICAO="YMPY" FullName="Mount Perry" Position="-251232.000+1514010.000" Elevation="535" />
     <Airport ICAO="YMQA" FullName="Marqua" Position="-225100.000+1371959.000" />
     <Airport ICAO="YMQI" FullName="Macquarie Island" Position="-542958.000+1585612.000" />
     <Airport ICAO="YMRA" FullName="Maralinga" Position="-300948.000+1313730.000" />
@@ -20298,6 +20385,7 @@ SAGLI
     <Airport ICAO="YNTH" FullName="Normanton Helipad" Position="-174039.000+1410406.000" Elevation="70" />
     <Airport ICAO="YNTI" FullName="North Island" Position="-281800.000+1133546.000" />
     <Airport ICAO="YNTJ" FullName="Neutral Junction" Position="-213159.000+1340000.000" />
+    <Airport ICAO="YNTL" FullName="Newcastle Harbour" Position="-325520.363+1514710.626" />
     <Airport ICAO="YNTM" FullName="Northam" Position="-313733.000+1164104.000" Elevation="500" />
     <Airport ICAO="YNTN" FullName="Normanton" Position="-174106.000+1410413.000" Elevation="73">
       <Runway Name="14" Position="-174050.960+1410402.920" />
@@ -20665,6 +20753,7 @@ SAGLI
       <Runway Name="18" Position="-102626.810+1054124.800" />
       <Runway Name="36" Position="-102735.020+1054130.450" />
     </Airport>
+    <Airport ICAO="YPYA" FullName="Palmyra" Position="-211242.000+1490436.000" />
     <Airport ICAO="YPYD" FullName="Pyramid Hill" Position="-360341.000+1440736.000" />
     <Airport ICAO="YPYF" FullName="Paynes Find" Position="-291544.000+1174010.000" />
     <Airport ICAO="YPYV" FullName="Pyrenees Venture" Position="-213221.000+1140655.000" />
@@ -20707,6 +20796,7 @@ SAGLI
     <Airport ICAO="YRBT" FullName="Rabbit Flat" Position="-201300.000+1300000.000" />
     <Airport ICAO="YRBY" FullName="Rokeby" Position="-133836.000+1423828.000" />
     <Airport ICAO="YRCD" FullName="Rochedale" Position="-273444.000+1530751.000" Elevation="240" />
+    <Airport ICAO="YRDF" FullName="Robinson Dairy Farm" Position="-273446.819+1525123.612" />
     <Airport ICAO="YRDH" FullName="Red Hill South" Position="-382300.000+1450000.000" />
     <Airport ICAO="YRDM" FullName="Redmont" Position="-215800.000+1190100.000" />
     <Airport ICAO="YRDN" FullName="Red Dome Mine" Position="-170745.000+1442346.000" />
@@ -20766,7 +20856,7 @@ SAGLI
       <Runway Name="18" Position="-263215.550+1484637.570" />
       <Runway Name="36" Position="-263303.420+1484626.620" />
     </Airport>
-    <Airport ICAO="YROP" FullName="Rosalie Plains" Position="-271400.000+1514159.000" />
+    <Airport ICAO="YROP" FullName="Rosalie Plains" Position="-271305.000+1514148.000" />
     <Airport ICAO="YROS" FullName="Mount Roseby" Position="-202000.000+1401000.000" />
     <Airport ICAO="YROT" FullName="Rothsay Mine" Position="-291729.000+1165200.000" />
     <Airport ICAO="YROV" FullName="Ross River" Position="-233553.000+1343111.000" />
@@ -21571,6 +21661,7 @@ SAGLI
       <Runway Name="09" Position="-335616.890+1471052.330" />
       <Runway Name="27" Position="-335624.610+1471153.340" />
     </Airport>
+    <Airport ICAO="YWWS" FullName="Wirraway Station" Position="-280054.785+1530412.184" />
     <Airport ICAO="YWWX" FullName="Williwin" Position="-240700.000+1453459.000" />
     <Airport ICAO="YWYA" FullName="Wyandra" Position="-271600.000+1455924.000" Elevation="800" />
     <Airport ICAO="YWYB" FullName="Wynbring" Position="-303326.000+1333216.000" />
@@ -21639,7 +21730,7 @@ SAGLI
     <Airport ICAO="YXCI" FullName="Chinchilla Hospital" Position="-264426.000+1503803.000" />
     <Airport ICAO="YXCL" FullName="Collarenebri Hospital" Position="-293242.000+1483453.000" />
     <Airport ICAO="YXCM" FullName="Cooma Hospital" Position="-361432.000+1490749.000" />
-    <Airport ICAO="YXCO" FullName="Cooktown Heal Th Service" Position="-152839.000+1451500.000" />
+    <Airport ICAO="YXCO" FullName="Cooktown Health Service" Position="-152839.000+1451500.000" />
     <Airport ICAO="YXCP" FullName="Campbelltown Hospital" Position="-340441.000+1504825.000" />
     <Airport ICAO="YXCR" FullName="Cedar Medical" Position="-314430.000+1522305.000" />
     <Airport ICAO="YXCS" FullName="Cloncurry Hospital" Position="-204213.518+1403143.205" Elevation="675" />
@@ -21724,7 +21815,7 @@ SAGLI
     <Airport ICAO="YXKL" FullName="Kilkwana Hospital" Position="-260500.000+1521400.000" />
     <Airport ICAO="YXKN" FullName="Kingaroy Hospital" Position="-263157.000+1515023.000" />
     <Airport ICAO="YXKO" FullName="Kyogle Hospital" Position="-283742.000+1530006.000" />
-    <Airport ICAO="YXKP" FullName="Kedron P Ark Ses Base Qld" Position="-272451.000+1530213.000" />
+    <Airport ICAO="YXKP" FullName="Kedron Park Ses Base" Position="-272451.000+1530213.000" />
     <Airport ICAO="YXKR" FullName="Karratha Health Campus" Position="-204353.000+1165026.000" />
     <Airport ICAO="YXKT" FullName="Kyneton District Health Service" Position="-371519.638+1442814.207" Elevation="1761" />
     <Airport ICAO="YXKW" FullName="Blackwater Hospital" Position="-233417.000+1485241.000" />
@@ -21778,10 +21869,9 @@ SAGLI
     <Airport ICAO="YXNS" FullName="Royal North Shore Hospital" Position="-334916.000+1511131.000" Elevation="363" />
     <Airport ICAO="YXNT" FullName="Natural Arch" Position="-281300.000+1531400.000" />
     <Airport ICAO="YXNU" FullName="Numinbah" Position="-280959.000+1531259.000" />
-    <Airport ICAO="YXNW" FullName="The Shoalhaven Hospital Nowra" Position="-345211.000+1503544.000" />
+    <Airport ICAO="YXNW" FullName="Shoalhaven Memorial Hospital" Position="-345211.000+1503544.000" />
     <Airport ICAO="YXNY" FullName="Nelson Bay Medical" Position="-324300.000+1520759.000" />
     <Airport ICAO="YXOA" FullName="Cohuna Hospital" Position="-354758.578+1441251.340" />
-    <Airport ICAO="YXOB" FullName="Cow Bay Off Site Helipad" Position="-161208.129+1452413.698" Elevation="131" />
     <Airport ICAO="YXOD" FullName="Oatlands Medical" Position="-421815.000+1472200.000" />
     <Airport ICAO="YXOF" FullName="Coffs Harbour Hospital" Position="-301901.000+1530535.000" />
     <Airport ICAO="YXOG" FullName="Orange Hospital" Position="-331900.512+1490533.720" Elevation="3033" />
@@ -21806,10 +21896,10 @@ SAGLI
     <Airport ICAO="YXPM" FullName="Port Macquarie Base Hospital" Position="-312708.000+1525236.000" />
     <Airport ICAO="YXPN" FullName="Proserpine Hospital" Position="-202402.000+1483503.000" />
     <Airport ICAO="YXPO" FullName="Yeppoon Hospital" Position="-230803.000+1504458.000" />
-    <Airport ICAO="YXPP" FullName="Pipeline Authority Medicalyoung" Position="-341500.000+1481859.000" />
+    <Airport ICAO="YXPP" FullName="Pipeline Authority Medical Young" Position="-341500.000+1481859.000" />
     <Airport ICAO="YXPR" FullName="Portland Hospital" Position="-382029.159+1413622.705" Elevation="82" />
     <Airport ICAO="YXPU" FullName="Port Arthur Medical" Position="-430832.000+1475037.000" />
-    <Airport ICAO="YXQC" FullName="Queensland Childrens Hospital" Position="-272903.000+1530137.000" />
+    <Airport ICAO="YXQC" FullName="Queensland Children's Hospital" Position="-272903.000+1530137.000" />
     <Airport ICAO="YXQE" FullName="Queen Elizabeth Ii Medical Centre" Position="-315808.000+1154901.000" />
     <Airport ICAO="YXQU" FullName="Quirindi Medical" Position="-313037.000+1504108.000" />
     <Airport ICAO="YXRA" FullName="Randwick Medical" Position="-335533.000+1511429.000" />
