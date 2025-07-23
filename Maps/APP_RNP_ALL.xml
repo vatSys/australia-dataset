@@ -213,9 +213,6 @@
       <Point>ST2EA</Point>
       <Point>ST2EB</Point>
       <Point>ST2EC</Point>
-      <Point>APOKI</Point>
-      <Point>EDNNA</Point>
-      <Point>EDNNC</Point>
       <Point>LEKUN</Point>
       <Point>MMBNG</Point>
       <Point>MMBSA</Point>
@@ -340,7 +337,6 @@
       <Point>BSZNF</Point>
       <Point>ST2WF</Point>
       <Point>ST2EF</Point>
-      <Point>EDNNF</Point>
       <Point>MMBNF</Point>
       <Point>MMBSF</Point>
       <Point>HM2SF</Point>
@@ -417,7 +413,6 @@
       <Point>BSZNI</Point>
       <Point>ST2WI</Point>
       <Point>ST2EI</Point>
-      <Point>EDNNI</Point>
       <Point>MMBNI</Point>
       <Point>MMBSI</Point>
       <Point>HM2SI</Point>
@@ -3195,6 +3190,11 @@
       <Point>RI2EC</Point>
       <Point>RI2EI</Point>
       <Point>RI2EF</Point>
+      <!-- YPED -->
+      <Point>ED2NA</Point>
+      <Point>ED2NC</Point>
+      <Point>UPTUN</Point>
+      <Point>ED2NF</Point>
 
       <!-- DAP 27NOV25 -->
       <!-- YWTO -->
@@ -3316,7 +3316,6 @@
       <Point>BSZNF</Point>
       <Point>ST2WF</Point>
       <Point>ST2EF</Point>
-      <Point>EDNNF</Point>
       <Point>MMBNF</Point>
       <Point>MMBSF</Point>
       <Point>HM2SF</Point>
@@ -3918,6 +3917,8 @@
       <!-- YRSI -->
       <Point>RI2WF</Point>
       <Point>RI2EF</Point>
+      <!-- YPED -->
+      <Point>ED2NF</Point>
 
       <!-- DAP 27NOV25 -->
       <!-- YWTO -->
@@ -3999,7 +4000,6 @@
       <Point>BSZNI</Point>
       <Point>ST2WI</Point>
       <Point>ST2EI</Point>
-      <Point>EDNNI</Point>
       <Point>MMBNI</Point>
       <Point>MMBSI</Point>
       <Point>HM2SI</Point>
@@ -4816,9 +4816,6 @@
       <Point>ST2EA</Point>
       <Point>ST2EB</Point>
       <Point>ST2EC</Point>
-      <Point>APOKI</Point>
-      <Point>EDNNA</Point>
-      <Point>EDNNC</Point>
       <Point>LEKUN</Point>
       <Point>MMBNG</Point>
       <Point>MMBSA</Point>
@@ -6489,6 +6486,10 @@
       <Point>RI2EA</Point>
       <Point>RI2EB</Point>
       <Point>RI2EC</Point>
+      <!-- YPED -->
+      <Point>ED2NA</Point>
+      <Point>ED2NC</Point>
+      <Point>UPTUN</Point>
 
       <!-- DAP 27NOV25 -->
       <!-- YWTO -->
@@ -9539,10 +9540,6 @@
     <Line>ST2EA/ST2EI</Line>
     <Line>ST2EB/ST2EI</Line>
     <Line>ST2EC/ST2EI</Line>
-    <Line>EDNNI/EDNNF/EDNNM</Line>
-    <Line>APOKI/EDNNI</Line>
-    <Line>EDNNA/EDNNI</Line>
-    <Line>EDNNC/EDNNI</Line>
     <Line>MMBNI/MMBNF/MMBNM</Line>
     <Line>LEKUN/MMBNI</Line>
     <Line>MMBNG/MMBNI</Line>
@@ -9625,7 +9622,9 @@
     <Line>RI2WE/RI2WI/RI2WF/RI2WM</Line>
     <Line>RI2EB/RI2EI</Line>
     <Line>RI2EC/RI2EA/RI2EI/RI2EF/RI2EM</Line>
-    
+    <!-- YPED -->
+    <Line>ED2NA/UPTUN/ED2NC</Line>
+    <Line>UPTUN/ED2NF/ED2NM</Line>
 
     <!-- DAP 27NOV -->
     <!-- YWTO -->

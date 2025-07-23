@@ -8,7 +8,8 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy36 NORTH1-->
+      <!--Rwy36 DOLVU1-->
+      -344140.330+1383703.300/
       -344140.330+1383703.300/
       -344140.330+1383703.300/
       -344140.330+1383703.300/
@@ -20,17 +21,8 @@
       -342933.283+1383829.896/
       -343007.104+1383933.115/
       -343102.440+1384007.361/
-      -343156.938+1384005.983
-    </Line>
-    <Line>
-      <!--Rwy36 NORTH1.DOLVU-->
       -343156.938+1384005.983/
       DOLVU
-    </Line>
-    <Line>
-      <!--Rwy36 NORTH1.EDN-->
-      -343156.938+1384005.983/
-      EDN TAC
     </Line>
     <!--STARs-->
     <Line>
@@ -75,7 +67,6 @@
       <Point>UPTUN</Point>
     </Symbol>
     <Symbol Type="Circle">
-      <Point>EDN TAC</Point>
       <Point>AD VOR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
@@ -100,7 +91,6 @@
   <Map Type="System" Name="ED_RWY36_NAMES" Priority="2" Center="-34.702500+138.620833">
     <Label>
       <Point>DOLVU</Point>
-      <Point>EDN TAC</Point>
       <Point>AD VOR</Point>
       <Point>POTUS</Point>
       <Point>PAVSA</Point>

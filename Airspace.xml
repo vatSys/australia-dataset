@@ -756,17 +756,17 @@
     </Airport>
     <Airport Name="YPED">
       <Runway Name="18" DataRunway="18">
-        <SID Name="ED4" />
-        <SID Name="NORTH1" />
-        <STAR Name="AD1E" OpDataFlag="E" ApproachName="LOCZ" />
-        <STAR Name="ATNA1E" OpDataFlag="E" ApproachName="LOCZ" />
-        <STAR Name="BEVS1E" OpDataFlag="E" ApproachName="LOCZ" />
-        <STAR Name="KAKL1E" OpDataFlag="E" ApproachName="LOCZ" />
-        <STAR Name="KLAV1E" OpDataFlag="E" ApproachName="LOCZ" />
+        <SID Name="DOLVU1" />
+        <SID Name="ED5" />
+        <STAR Name="AD2E" OpDataFlag="E" ApproachName="LOCZ" />
+        <STAR Name="ATNA2E" OpDataFlag="E" ApproachName="LOCZ" />
+        <STAR Name="BEVS2E" OpDataFlag="E" ApproachName="LOCZ" />
+        <STAR Name="KAKL2E" OpDataFlag="E" ApproachName="LOCZ" />
+        <STAR Name="KLAV2E" OpDataFlag="E" ApproachName="LOCZ" />
       </Runway>
       <Runway Name="36" DataRunway="36">
-        <SID Name="ED4" Default="True" />
-        <SID Name="NORTH1" />
+        <SID Name="DOLVU1" />
+        <SID Name="ED5" />
         <STAR Name="AD1E" OpDataFlag="E" />
         <STAR Name="ATNA1E" OpDataFlag="E" />
         <STAR Name="BEVS1E" OpDataFlag="E" />
@@ -8362,11 +8362,11 @@ SAGLI
     <Point Name="ECHSI" Type="Fix">-362020.600+1444603.900</Point>
     <Point Name="ECKHO" Type="Fix">-393928.200+1503103.900</Point>
     <Point Name="ED01C" Type="Fix">-303448.000+1444454.000</Point>
-    <Point Name="ED2NA" Type="Fix">-342920.100+1383324.600</Point>
-    <Point Name="ED2NC" Type="Fix">-343045.600+1384454.600</Point>
-    <Point Name="ED2NF" Type="Fix">-343643.100+1383757.100</Point>
-    <Point Name="ED2NH" Type="Fix">-344011.200+1383201.400</Point>
-    <Point Name="ED2NM" Type="Fix">-344134.400+1383704.400</Point>
+    <Point Name="ED2NA" Type="Fix">-342920.140+1383324.580</Point>
+    <Point Name="ED2NC" Type="Fix">-343045.600+1384454.620</Point>
+    <Point Name="ED2NF" Type="Fix">-343643.130+1383757.130</Point>
+    <Point Name="ED2NH" Type="Fix">-344011.240+1383201.390</Point>
+    <Point Name="ED2NM" Type="Fix">-344134.370+1383704.380</Point>
     <Point Name="EDNNA" Type="Fix">-342922.300+1383332.000</Point>
     <Point Name="EDNNC" Type="Fix">-343046.000+1384446.700</Point>
     <Point Name="EDNNF" Type="Fix">-343643.100+1383757.100</Point>
@@ -16267,15 +16267,13 @@ SAGLI
       <Route Runway="23">-314020.350+1160031.290/-314128.000+1155858.000</Route>
       <Route Runway="36R">-313944.680+1160049.370/-313804.000+1160040.000</Route>
     </SID>
-    <SID Name="ED4" Airport="YPED" Runways="18,36">
+    <SID Name="DOLVU1" Airport="YPED" Runways="18,36">
+      <Route Runway="18">-344302.470+1383648.400/-344302.470+1383648.400/-344302.470+1383648.400/-344302.470+1383648.400/-344501.221+1383628.088/-344541.235+1383607.494/-344607.409+1383525.227/-344612.709+1383432.690/-344555.715+1383343.968/-344520.983+1383312.125/-344504.000+1383306.287/-343714.790+1383105.098/-343612.731+1383108.969/-343520.646+1383150.088/-343452.456+1383257.320/-343455.705+1383412.664/-343529.525+1383515.951/-343550.644+1383534.334/DOLVU</Route>
+      <Route Runway="36">-344140.330+1383703.300/-344140.330+1383703.300/-344140.330+1383703.300/-344140.330+1383703.300/-343941.578+1383723.591/-343152.368+1383522.532/-343050.309+1383526.399/-342958.224+1383607.473/-342930.034+1383714.633/-342933.283+1383829.896/-343007.104+1383933.115/-343102.440+1384007.361/-343156.938+1384005.983/DOLVU</Route>
+    </SID>
+    <SID Name="ED5" Airport="YPED" Runways="18,36">
       <Route Runway="18" />
       <Route Runway="36" />
-    </SID>
-    <SID Name="NORTH1" Airport="YPED" Runways="18,36">
-      <Route Runway="18">-344302.470+1383648.400/-344302.470+1383648.400/-344302.470+1383648.400/-344501.221+1383628.088/-344541.235+1383607.494/-344607.409+1383525.227/-344612.709+1383432.690/-344555.715+1383343.968/-344520.983+1383312.125/-344504.000+1383306.287/-343714.790+1383105.098/-343612.731+1383108.969/-343520.646+1383150.088/-343452.456+1383257.320/-343455.705+1383412.664/-343529.525+1383515.951/-343550.644+1383534.334</Route>
-      <Route Runway="36">-344140.330+1383703.300/-344140.330+1383703.300/-344140.330+1383703.300/-343941.578+1383723.591/-343152.368+1383522.532/-343050.309+1383526.399/-342958.224+1383607.473/-342930.034+1383714.633/-342933.283+1383829.896/-343007.104+1383933.115/-343102.440+1384007.361/-343156.938+1384005.983</Route>
-      <Transition Name="DOLVU">DOLVU</Transition>
-      <Transition Name="EDN">EDN TAC</Transition>
     </SID>
     <SID Name="ISPET1" Airport="YPJT" Runways="06L,12,24R,30">
       <Route Runway="06L">-320538.610+1155303.530/-320535.183+1155308.907/-320439.108+1155432.400/-320421.360+1155439.239/-320403.144+1155434.559/-320349.284+1155419.800/-320343.523+1155358.919/-320347.411+1155337.319/ISPET</Route>
@@ -17237,24 +17235,34 @@ SAGLI
       <Route Runway="36L">WUNGO/HARMN/PH VOR</Route>
       <Route Runway="36R">WUNGO/HARMN/PH VOR</Route>
     </STAR>
-    <STAR Name="AD1E" Airport="YPED" Runways="18,36">
+    <STAR Name="AD2E" Airport="YPED" Runways="18">
       <Route Runway="18">AD VOR/POTUS/PAVSA/TUPSI/APOKI/UPTUN</Route>
+    </STAR>
+    <STAR Name="AD1E" Airport="YPED" Runways="36">
       <Route Runway="36">AD VOR/POTUS/PAVSA/TUPSI/APOKI/UPTUN</Route>
     </STAR>
-    <STAR Name="ATNA1E" Airport="YPED" Runways="18,36">
+    <STAR Name="ATNA2E" Airport="YPED" Runways="18">
       <Route Runway="18">ATNAR/GULFS/LATUL/UGUXA/PAVSA/TUPSI/APOKI/UPTUN</Route>
+    </STAR>
+    <STAR Name="ATNA1E" Airport="YPED" Runways="36">
       <Route Runway="36">ATNAR/GULFS/LATUL/UGUXA/PAVSA/TUPSI/APOKI/UPTUN</Route>
     </STAR>
-    <STAR Name="BEVS1E" Airport="YPED" Runways="18,36">
+    <STAR Name="BEVS2E" Airport="YPED" Runways="18">
       <Route Runway="18">BEVSO/BUPLO/APOKI/UPTUN</Route>
+    </STAR>
+    <STAR Name="BEVS1E" Airport="YPED" Runways="36">
       <Route Runway="36">BEVSO/BUPLO/APOKI/UPTUN</Route>
     </STAR>
-    <STAR Name="KAKL1E" Airport="YPED" Runways="18,36">
+    <STAR Name="KAKL2E" Airport="YPED" Runways="18">
       <Route Runway="18">KAKLU/SADAK/ELATA/NONAK/RUPIK/APOKI/UPTUN</Route>
+    </STAR>
+    <STAR Name="KAKL1E" Airport="YPED" Runways="36">
       <Route Runway="36">KAKLU/SADAK/ELATA/NONAK/RUPIK/APOKI/UPTUN</Route>
     </STAR>
-    <STAR Name="KLAV1E" Airport="YPED" Runways="18,36">
+    <STAR Name="KLAV2E" Airport="YPED" Runways="18">
       <Route Runway="18">KLAVA/APOKI/UPTUN</Route>
+    </STAR>
+    <STAR Name="KLAV1E" Airport="YPED" Runways="36">
       <Route Runway="36">KLAVA/APOKI/UPTUN</Route>
     </STAR>
     <STAR Name="JT3G" Airport="YPJT" Runways="06L,06R,12,24L,24R,30">
