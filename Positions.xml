@@ -3327,6 +3327,7 @@
       <Sectors>
         <Sector Name="OK ADC" />
         <Sector Name="OK SMC" />
+        <Sector Name="OK COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -3351,6 +3352,12 @@
       </ControllerInfo>
       <ControllerInfo Callsign="OK_GND">
         <Line>Oakey Ground</Line>
+        <Line>ATIS available on 124.3</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="OK_DEL">
+        <Line>Oakey Delivery</Line>
         <Line>ATIS available on 124.3</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
