@@ -2342,7 +2342,7 @@
     <Position Name="Avalon Tower" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="50" MagneticVariation="-11.6" DynamicInfill="false">
       <Sectors>
         <Sector Name="AV ADC" />
-        <Sector Name="AV SMC" />
+        <!-- <Sector Name="AV SMC" /> -->
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2365,12 +2365,12 @@
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="AV_GND">
+      <!-- <ControllerInfo Callsign="AV_GND">
         <Line>Avalon Ground</Line>
         <Line>ATIS available on 118.2</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
+      </ControllerInfo> -->
     </Position>
     <Position Name="Bankstown Tower" Type="ASD" DefaultCenter="-33.924444+150.988333" DefaultRange="30" MagneticVariation="-12.6">
       <Sectors>
