@@ -8,32 +8,87 @@
     </Runway>
     <!--SIDs-->
     <Line>
+      <!--Rwy08 ABASS5-->
+      -345657.290+1503254.470/
+      ABASS
+    </Line>
+    <Line>
+      <!--Rwy08 AKMIR3-->
+      -345657.290+1503254.470/
+      AKMIR
+    </Line>
+    <Line>
+      <!--Rwy08 CB5-->
+      -345657.290+1503254.470/
+      CB NDB
+    </Line>
+    <Line>
+      <!--Rwy08 COM5-->
+      -345657.290+1503254.470/
+      COM NDB
+    </Line>
+    <Line>
+      <!--Rwy08 GLB5-->
+      -345657.290+1503254.470/
+      GLB NDB
+    </Line>
+    <Line>
       <!--Rwy08 NWA5-->
       -345657.290+1503254.470/
       -345657.329+1503254.449/
       -345705.502+1503517.261
     </Line>
+    <Line>
+      <!--Rwy08 TONTO5-->
+      -345657.290+1503254.470/
+      TONTO
+    </Line>
+    <Line>
+      <!--Rwy08 URBOB3-->
+      -345657.290+1503254.470/
+      URBOB
+    </Line>
+    <Line>
+      <!--Rwy08 WOL5-->
+      -345657.290+1503254.470/
+      WOL NDB
+    </Line>
     <!--STARs-->
+    <Symbol Type="Circle">
+      <Point>CB NDB</Point>
+      <Point>COM NDB</Point>
+      <Point>GLB NDB</Point>
+      <Point>WOL NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ABASS</Point>
+      <Point>AKMIR</Point>
+      <Point>TONTO</Point>
+      <Point>URBOB</Point>
+    </Symbol>
   </Map>
   <Map Type="System" Name="NW_RWY0308_NAMES" Priority="2" Center="-34.948889+150.536944">
     <Label>
+      <Point>ABASS</Point>
+      <Point>AKMIR</Point>
+      <Point>CB NDB</Point>
+      <Point>COM NDB</Point>
+      <Point>GLB NDB</Point>
+      <Point>TONTO</Point>
+      <Point>URBOB</Point>
+      <Point>WOL NDB</Point>
       <Point>WLM NDB</Point>
       <Point>LIMLO</Point>
       <Point>URKIX</Point>
       <Point>OMLAV</Point>
-      <Point>ABASS</Point>
       <Point>RIC TAC</Point>
       <Point>RAKSO</Point>
-      <Point>TONTO</Point>
-      <Point>URBOB</Point>
       <Point>MER NDB</Point>
       <Point>OTKED</Point>
       <Point>JANGU</Point>
-      <Point>AKMIR</Point>
       <Point>REVKI</Point>
       <Point>BTH NDB</Point>
       <Point>MUDGI</Point>
-      <Point>GLB NDB</Point>
       <Point>AVBEG</Point>
     </Label>
   </Map>
