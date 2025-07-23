@@ -171,7 +171,9 @@
     <Volumes>MUN</Volumes>
     <ResponsibleSectors>YWE,OXL,GTH</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Nadi Centre" Frequency="120.900" Callsign="NFFN_CTR" Name="NFFN" />
+  <Sector FullName="Nadi Centre" Frequency="120.900" Callsign="NFFN_CTR" Name="NFFN" DisplayInSectorsWindow="False">
+    <Volumes>NFFN</Volumes>
+  </Sector>
   <Sector FullName="Newman" Frequency="125.400" Callsign="ML-NEW_CTR" Name="NEW">
     <Volumes>NEW</Volumes>
   </Sector>
@@ -443,7 +445,9 @@
   <Sector FullName="Perth Departures" Frequency="118.700" Callsign="PH_DEP" Name="PHD">
     <Volumes>PHA</Volumes>
   </Sector>
-  <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" />
+  <Sector FullName="Jacksons Radar" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" DisplayInSectorsWindow="False">
+    <Volumes>AYPYA</Volumes>
+  </Sector>
   <Sector FullName="Scherger Approach" Frequency="124.200" Callsign="SG_APP" Name="SGA">
     <Volumes>SGA</Volumes>
   </Sector>
