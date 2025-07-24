@@ -387,8 +387,12 @@
       </Runway>
     </Airport>
     <Airport Name="YGIG">
-      <Runway Name="08" DataRunway="08" />
-      <Runway Name="26" DataRunway="26" />
+      <Runway Name="08" DataRunway="08">
+        <SID Name="GINGI3" />
+      </Runway>
+      <Runway Name="26" DataRunway="26">
+        <SID Name="GINGI3" />
+      </Runway>
     </Airport>
     <Airport Name="YMAV">
       <Runway Name="18" DataRunway="18">
@@ -16042,6 +16046,10 @@ SAGLI
     <SID Name="CIN1" Airport="YCIN" Runways="11,29">
       <Route Runway="11" />
       <Route Runway="29" />
+    </SID>
+    <SID Name="GINGI3" Airport="YGIG" Runways="08,26">
+      <Route Runway="08">-312743.990+1155220.330/-312739.000+1155242.000</Route>
+      <Route Runway="26">-312759.360+1155113.430/-312804.000+1155051.000</Route>
     </SID>
     <SID Name="AV5" Airport="YMAV" Runways="18,36">
       <Route Runway="18" />
