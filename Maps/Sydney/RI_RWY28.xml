@@ -8,6 +8,29 @@
     </Runway>
     <!--SIDs-->
     <Line>
+      <!--Rwy28 ANKUB2-->
+      -333605.810+1504616.490/
+      -333555.000+1504551.000/
+      -333559.000+1504518.000/
+      -333616.000+1504501.000/
+      -333639.000+1504456.000/
+      -333700.000+1504510.000/
+      -333843.000+1504851.000/
+      ANKUB
+    </Line>
+    <Line>
+      <!--Rwy28 KADOM3-->
+      -333616.000+1504501.000/
+      -333653.000+1504305.000/
+      KADOM
+    </Line>
+    <Line>
+      <!--Rwy28 MUDGI3-->
+      -333605.810+1504616.490/
+      -333330.000+1504334.000/
+      MUDGI
+    </Line>
+    <Line>
       <!--Rwy28 RIC4-->
       -333605.810+1504616.490/
       -333605.127+1504614.639/
@@ -17,10 +40,17 @@
     <Symbol Type="HollowTriangle">
       <Point>BUVLO</Point>
     </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ANKUB</Point>
+      <Point>KADOM</Point>
+      <Point>MUDGI</Point>
+    </Symbol>
   </Map>
   <Map Type="System" Name="RI_RWY28_NAMES" Priority="2" Center="-33.600556+150.780833">
     <Label>
+      <Point>ANKUB</Point>
       <Point>KADOM</Point>
+      <Point>MUDGI</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>
       <Point>ABARB</Point>
@@ -49,7 +79,6 @@
       <Point>BOYSY</Point>
       <Point>IDSUP</Point>
       <Point>EMROT</Point>
-      <Point>MUDGI</Point>
       <Point>UNSAR</Point>
       <Point>LASUD</Point>
       <Point>IDGIG</Point>

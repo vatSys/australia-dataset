@@ -8,16 +8,50 @@
     </Runway>
     <!--SIDs-->
     <Line>
+      <!--Rwy10 ANKUB2-->
+      -333626.180+1504735.590/
+      -333642.000+1504846.000/
+      -333727.000+1504844.000/
+      -334015.000+1504833.000/
+      ANKUB
+    </Line>
+    <Line>
+      <!--Rwy10 KADOM3-->
+      -333727.000+1504844.000/
+      -333740.000+1504831.000/
+      -333748.000+1504810.000/
+      -333653.000+1504305.000/
+      KADOM
+    </Line>
+    <Line>
+      <!--Rwy10 MUDGI3-->
+      -333642.000+1504846.000/
+      -333637.000+1504911.000/
+      -333623.000+1504930.000/
+      -333602.000+1504933.000/
+      -333544.000+1504929.000/
+      -333528.000+1504906.000/
+      -333330.000+1504334.000/
+      MUDGI
+    </Line>
+    <Line>
       <!--Rwy10 RIC4-->
       -333626.180+1504735.590/
       -333626.490+1504737.191/
       -333713.769+1505042.039
     </Line>
     <!--STARs-->
+    <Symbol Type="HollowStar">
+      <Point>ANKUB</Point>
+      <Point>KADOM</Point>
+      <Point>MUDGI</Point>
+    </Symbol>
   </Map>
   <Map Type="System" Name="RI_RWY10_NAMES" Priority="2" Center="-33.600556+150.780833">
     <Label>
+      <Point>ANKUB</Point>
       <Point>KADOM</Point>
+      <Point>MUDGI</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>
       <Point>ABARB</Point>
@@ -46,7 +80,6 @@
       <Point>BOYSY</Point>
       <Point>IDSUP</Point>
       <Point>EMROT</Point>
-      <Point>MUDGI</Point>
       <Point>UNSAR</Point>
       <Point>LASUD</Point>
       <Point>IDGIG</Point>
