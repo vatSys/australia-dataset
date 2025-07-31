@@ -51,7 +51,7 @@
       PAL/-34.825278+138.561111
     </Line>
   </Map>
-  <Map Type="System2" Name="PF_NAMES" Priority="2" Center="-34.793056+138.638056">
+  <Map Type="System2" Name="PF_FULL_NAMES" Priority="2" Center="-34.793056+138.638056">
     <Label LabelOrientation="NW">
       <Point Name="ST KILDA">SKI</Point>
       <Point Name="OUTER HARBOR">OHB</Point>
@@ -168,14 +168,14 @@
     </Line>
     <!--SHOAL Arival-->
     <Line Pattern="Broken">
-    SHOL/-38.018333+145.069445
+    SHOAL/-38.018333+145.069445
     </Line>
     <!--17R South Dep-->
     <Line Pattern="Hash">
     -38.025000+145.110556/-38.061389+145.123333
     </Line>
   </Map>
-  <Map Type="System2" Name="MB_NAMES" Priority="2" Center="-37.977778+145.100000">
+  <Map Type="System2" Name="MB_FULL_NAMES" Priority="2" Center="-37.977778+145.100000">
     <Label HasLeader="true" LabelOrientation="SW">
       <Point Name="BRIGHTON">BTO</Point>
       <Point Name="BAYWEST">BAW</Point>
@@ -186,7 +186,7 @@
       <Point Name="WOODLANDS">WOOS</Point>
     </Label>
   </Map>
-  <Map Type="System2" Name="YPJT_ARRS_DEPS" Priority="1" Center="-32.098611+115.8808">
+  <Map Type="System2" Name="JT_ARRS_DEPS" Priority="1" Center="-32.098611+115.8808">
     <!--Powerhouse/Boatyard arival-->
     <Line Pattern="Broken">
       POWR/ADWD
@@ -271,7 +271,7 @@
       <Point>FREM</Point>
     </Symbol>
   </Map>
-  <Map Type="System2" Name="YPJT_FULL NAMES" Priority="1" Center="-32.098611+115.8808">
+  <Map Type="System2" Name="JT_FULL_NAMES" Priority="1" Center="-32.098611+115.8808">
     <Label HasLeader="True" LabelOrientation="SW">
       <Point Name="POWER HOUSE">POWR</Point>
       <Point Name="ADVENTURE WORLD">ADWD</Point>
