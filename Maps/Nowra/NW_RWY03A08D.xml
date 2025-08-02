@@ -1,35 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="NW_RWY0308" Priority="1" Center="-34.948889+150.536944">
+  <Map Type="System" Name="NW_RWY03A08D" Priority="1" Center="-34.948889+150.536944">
     <!--YSNW-->
+    <Runway Name="03/21">
+      <Threshold Name="03" Position="-34.948839+150.536464" ExtendedCentrelineTrack="224.38" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="21" Position="-34.935658+150.552131" />
+    </Runway>
     <Runway Name="08/26">
-      <Threshold Name="08" Position="-34.947867+150.526597" ExtendedCentrelineTrack="274.38" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="08" Position="-34.947867+150.526597" />
       <Threshold Name="26" Position="-34.949247+150.548464" />
     </Runway>
     <!--SIDs-->
     <Line>
       <!--Rwy08 ABASS5-->
       -345657.290+1503254.470/
+      -345704.000+1503446.000/
+      -345701.000+1503516.000/
+      -345650.000+1503543.000/
+      -345630.000+1503601.000/
+      -345602.000+1503558.000/
+      -345415.000+1503518.000/
       ABASS
     </Line>
     <Line>
       <!--Rwy08 AKMIR3-->
-      -345657.290+1503254.470/
+      -345602.000+1503558.000/
+      -345337.000+1503025.000/
       AKMIR
     </Line>
     <Line>
       <!--Rwy08 CB5-->
-      -345657.290+1503254.470/
+      -345704.000+1503446.000/
+      -345710.000+1503516.000/
+      -345727.000+1503538.000/
+      -345748.000+1503549.000/
+      -345816.000+1503535.000/
+      -345836.000+1503508.000/
+      -345847.000+1503426.000/
+      -345832.000+1502602.000/
       CB NDB
     </Line>
     <Line>
       <!--Rwy08 COM5-->
-      -345657.290+1503254.470/
+      -345847.000+1503426.000/
+      -345840.000+1503021.000/
       COM NDB
     </Line>
     <Line>
       <!--Rwy08 GLB5-->
-      -345657.290+1503254.470/
+      -345602.000+1503558.000/
+      -345542.000+1503541.000/
+      -345527.000+1503504.000/
+      -345459.000+1502056.000/
       GLB NDB
     </Line>
     <Line>
@@ -40,17 +62,20 @@
     </Line>
     <Line>
       <!--Rwy08 TONTO5-->
-      -345657.290+1503254.470/
+      -345602.000+1503558.000/
+      -345436.000+1503238.000/
       TONTO
     </Line>
     <Line>
       <!--Rwy08 URBOB3-->
-      -345657.290+1503254.470/
+      -345847.000+1503426.000/
+      -345842.000+1503130.000/
       URBOB
     </Line>
     <Line>
       <!--Rwy08 WOL5-->
-      -345657.290+1503254.470/
+      -345602.000+1503558.000/
+      -345306.000+1503449.000/
       WOL NDB
     </Line>
     <!--STARs-->
@@ -67,7 +92,7 @@
       <Point>URBOB</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="NW_RWY0308_NAMES" Priority="2" Center="-34.948889+150.536944">
+  <Map Type="System" Name="NW_RWY03A08D_NAMES" Priority="2" Center="-34.948889+150.536944">
     <Label>
       <Point>ABASS</Point>
       <Point>AKMIR</Point>
