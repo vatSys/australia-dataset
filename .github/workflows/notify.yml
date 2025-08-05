@@ -16,5 +16,5 @@ jobs:
           args: |
             **Australian Profile Update**
             ---------------
-            ## ${{ github.event.release.name }}
+            # ${{ github.event.release.name }}
             ${{ github.event.release.body }}
