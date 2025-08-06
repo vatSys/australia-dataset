@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System2" Name="PF_ARRS_DEPS" Priority="2" Center="-34.793056+138.638056">
+    <Label HasLeader="true">
+      <Point>SKI</Point>
+      <Point>OHB</Point>
+      <Point>SUB</Point>
+      <Point>DMW</Point>
+      <Point>PAL</Point>
+      <Point>HVR</Point>
+    </Label>
+    <Symbol Type="HollowSquare">
+      <Point>SKI</Point>
+      <Point>OHB</Point>
+      <Point>SUB</Point>
+      <Point>DMW</Point>
+      <Point>PAL</Point>
+      <Point>HVR</Point>
+    </Symbol>
+    <Label HasLeader="true" LabelOrientation="SW">
+      <Point Name="IN HOPE VALLEY">HVR</Point>
+      <Point Name="OUT HOPE VALLEY">-344924.336+1383932.821</Point>
+      <Point Name="OUT PORT ADELAIDE">-34.825278+138.561111</Point>
+      <Point Name="OUT ST KILDA">-344653.182+1383351.669</Point>
+      <Point Name="IN OUTER HARBOR">OHB</Point>
+      <Point Name="IN DAM WALL">DMW</Point>
+      <Point Name="OUT SUB">-344544.954+1384033.480</Point>
+    </Label>
+    <!--IN-OUT_HOPE_VALLEY-->
+    <Line Pattern="Broken">
+      HVR/-344924.336+1383932.821
+    </Line>
+    <!--IN_DAM-WALL-->
+    <Line Pattern="Broken">
+      DMW/-344608.133+1384055.354
+    </Line>
+    <!--IN-OUTERHARB-->
+    <Line Pattern="Broken">
+      OHB/-344742.820+1383306.502
+    </Line>
+    <!--OUT_SUB-->
+    <Line Pattern="Hash">
+      -344544.954+1384033.480/SUB
+    </Line>
+    <!--OUT_ST-KILDA-->
+    <Line Pattern="Hash">
+      -344653.182+1383351.669/-344438.523+1383130.173
+    </Line>
+    <!--OUT_PORT_ADELAIDE-->
+    <Line Pattern="Hash">
+      PAL/-34.825278+138.561111
+    </Line>
+  </Map>
+  <Map Type="System2" Name="PF_FULL_NAMES" Priority="2" Center="-34.793056+138.638056">
+    <Label LabelOrientation="NW">
+      <Point Name="ST KILDA">SKI</Point>
+      <Point Name="OUTER HARBOR">OHB</Point>
+      <Point Name="SUBSTATION">SUB</Point>
+      <Point Name="DAM WALL">DMW</Point>
+      <Point Name="PORT ADELAIDE">PAL</Point>
+      <Point Name="HOPE VALLEY RESV">HVR</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="AF_ARRS_DEPS" Priority="1" Center="-27.571111+153.008056">
+    <Symbol Type="HollowSquare">
+      <Point>TVT</Point>
+      <Point>GON</Point>
+      <Point>PKR</Point>
+      <Point>TAR</Point>
+      <Point>CBRG</Point>
+      <Point>QSAC</Point>
+      <Point>WTBG</Point>
+    </Symbol>
+    <Label LabelOrientation="NW">
+      <Point Name="IN GOODNA">GON</Point>
+      <Point Name="IN PARK RIDGE">PKR</Point>
+      <Point Name="IN TARGET">TAR</Point>
+      <Point Name="IN TV TOWERS">TVT</Point>
+      <Point Name="OUT EAST">-273530.000+1530620.000</Point>
+      <Point Name="OUT NORTH">-273000.000+1525800.000</Point>
+      <Point Name="OUT SOUTH">-273920.487+1530422.857</Point>
+    </Label>
+    <!--IN_GOODNA-->
+    <Line Pattern="Broken">
+      GON/-273513.820+1525724.860
+    </Line>
+    <!--IN_PARK_RIDGE-->
+    <Line Pattern="Broken">
+      PKR/-273709.839+1530050.188
+    </Line>
+    <!--IN_TARGET-->
+    <Line Pattern="Broken">
+      TAR/-273550.748+1530312.105
+    </Line>
+    <!--IN_TV_TOWERS-->
+    <Line Pattern="Broken">
+      TVT/-273035.521+1525534.885/-273220.227+1525746.465
+    </Line>
+    <!--OUT_EAST_DEP-->
+    <Line Pattern="Hash">
+      -273530.000+1530620.000/-27.583333+153.065278
+    </Line>
+    <!--OUT_NORTH_DEP-->
+    <Line Pattern="Hash">
+      -273000.000+1525800.000/-27.517778+152.976945
+    </Line>
+    <!--OUT_SOUTH_DEP-->
+    <Line Pattern="Hash">
+      -273920.487+1530422.857/-27.611389+153.039722
+    </Line>
+  </Map>
+  <Map Type="System2" Name="AF_FULL_NAMES" Priority="1" Center="-27.571111+153.008056">
+    <Label HasLeader="True" LabelOrientation="SW">
+      <Point Name="WALTER TAYLOR BRIDGE">WTBG</Point>
+      <Point Name="CENTENARY BRIDGE">CBRG</Point>
+      <Point Name="PARK RIDGE WATER TOWER">PKR</Point>
+      <Point Name="QUEENSLAND SAC">QSAC</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="MB_ARRS_DEPS" Priority="2" Center="-37.977778+145.100000">
+    <Symbol Type="HollowSquare">
+      <Point>BTO</Point>
+      <Point>BAW</Point>
+      <Point>CARR</Point>
+      <Point>GMH</Point>
+      <Point>ACE</Point>
+      <Point>SHOAL</Point>
+      <Point>WOOS</Point>
+    </Symbol>
+    <Label HasLeader="true">
+      <Point>BTO</Point>
+      <Point>BAW</Point>
+      <Point>CARR</Point>
+      <Point>GMH</Point>
+      <Point>ACE</Point>
+      <Point>SHOAL</Point>
+      <Point>WOOS</Point>
+    </Label>
+    <Label LabelOrientation="NW">
+      <Point Name="IN BRIGHTON">BTO</Point>
+      <Point Name="IN BAYWEST">BAW</Point>
+      <Point Name="IN CARRUM">CARR</Point>
+      <Point Name="IN GMH">GMH</Point>
+      <Point Name="IN ACADEMY">ACE</Point>
+    </Label>
+    <Label LabelOrientation="NE">
+      <Point Name="OUT 17R SOUTH">-38.025000+145.110556</Point>
+    </Label>
+    <!--Brighton Arival-->
+    <Line Pattern="Broken">
+    BTO/-37.948333+145.049722
+    </Line>
+    <!--Baywest Arival-->
+    <Line Pattern="Broken">
+    BAW/-37.985833+145.040278
+    </Line>
+    <!--Carrum Arival-->
+    <Line Pattern="Broken">
+    CARR/-38.046945+145.085278/-38.023333+145.085833
+    </Line>
+    <!--GMH arival-->
+    <Line Pattern="Broken">
+    GMH/-37.991667+145.162500
+    </Line>
+    <!--Academy Arival-->
+    <Line Pattern="Broken">
+    ACE/-37.936667+145.140556
+    </Line>
+    <!--SHOAL Arival-->
+    <Line Pattern="Broken">
+    SHOAL/-38.018333+145.069445
+    </Line>
+    <!--17R South Dep-->
+    <Line Pattern="Hash">
+    -38.025000+145.110556/-38.061389+145.123333
+    </Line>
+  </Map>
+  <Map Type="System2" Name="MB_FULL_NAMES" Priority="2" Center="-37.977778+145.100000">
+    <Label HasLeader="true" LabelOrientation="SW">
+      <Point Name="BRIGHTON">BTO</Point>
+      <Point Name="BAYWEST">BAW</Point>
+      <Point Name="CARRUM">CARR</Point>
+      <Point Name="GMH">GMH</Point>
+      <Point Name="ACADEMY">ACE</Point>
+      <Point Name="SHOAL">SHOAL</Point>
+      <Point Name="WOODLANDS">WOOS</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="JT_ARRS_DEPS" Priority="1" Center="-32.098611+115.8808">
+    <!--Powerhouse/Boatyard arival-->
+    <Line Pattern="Broken">
+      POWR/ADWD
+    </Line>
+    <Line Pattern="Broken">
+      BOAT/ADWD 
+    </Line>
+    <Label LabelOrientation="NW" Alignment="Right">
+      <Point Name="IN POWER HOUSE">POWR</Point>
+      <Point Name="IN BOATYARD">BOAT</Point>
+    </Label>
+    <Label LabelOrientation="N">
+      <Point>POWR</Point>
+      <Point>ADWD</Point>
+      <Point>BOAT</Point>
+    </Label>
+    <Symbol Type="HollowSquare">
+     <Point>POWR</Point>
+     <Point>ADWD</Point>
+     <Point>BOAT</Point>
+    </Symbol>
+    <!--Yangebup Departure-->
+    <Line Pattern="Hash">
+    YGB/TOML
+    </Line>
+    <Label LabelOrientation="SE">
+      <Point Name="OUT YANGEBUP">YGB</Point>
+    </Label>
+    <Label LabelOrientation="NW">
+      <Point Name="YGB">YGB</Point>
+      <Point Name="TOML">TOML</Point>
+    </Label>
+    <Symbol Type="HollowSquare">
+      <Point>YGB</Point>
+      <Point>TOML</Point>
+    </Symbol>
+    <!--Russle and Oakford Arivals-->
+    <Line Pattern="Broken">
+      OAKF/FDL/-32.138888888889+115.91361111111
+    </Line>
+    <Line Pattern="Broken">
+      RUSS/FDL
+    </Line>
+    <Label LabelOrientation="SE">
+      <Point Name="IN OAKFORD">OAKF</Point>
+      <Point Name="IN RUSSELL">RUSS</Point>
+    </Label>
+    <Label LabelOrientation="NW">
+      <Point Name="RUSS">RUSS</Point>
+      <Point Name="OAKF">OAKF</Point>
+      <Point Name="FDL">FDL</Point>
+    </Label>
+    <Symbol Type="HollowSquare">
+     <Point>FDL</Point>
+     <Point>OAKF</Point>
+     <Point>RUSS</Point>
+    </Symbol>
+    <!--Shops Departure-->
+    <Line Pattern="Hash">
+    -32.111944444444+115.93861111111/SHOP
+    </Line>
+    <Label LabelOrientation="NE">
+      <Point Name="OUT SHOPS">-32.111944444444+115.93861111111</Point>
+    </Label>
+    <Label LabelOrientation="NW">
+      <Point Name="SHOP">SHOP</Point>
+    </Label>
+    <Symbol Type="HollowSquare">
+      <Point>SHOP</Point>
+    </Symbol>
+    <!--Fremantle Golfcourse Departure-->
+    <Line Pattern="Hash">
+    -32.07036705892901+115.84903482859521/FREM
+    </Line>
+    <Label LabelOrientation="SE">
+      <Point Name="OUT FREMANTLE">-32.07036705892901+115.84903482859521</Point>
+    </Label>
+    <Label LabelOrientation="NW">
+      <Point Name="FREM">FREM</Point>
+    </Label>
+    <Symbol Type="HollowSquare">
+      <Point>FREM</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System2" Name="JT_FULL_NAMES" Priority="1" Center="-32.098611+115.8808">
+    <Label HasLeader="True" LabelOrientation="SW">
+      <Point Name="POWER HOUSE">POWR</Point>
+      <Point Name="ADVENTURE WORLD">ADWD</Point>
+      <Point Name="BOATYARD">BOAT</Point>
+      <Point Name="YANGEBUP LAKE">YGB</Point>
+      <Point Name="THOMSONS LAKE">TOML</Point>
+      <Point Name="RUSSELL">RUSS</Point>
+      <Point Name="OAKFORD">OAKF</Point>
+      <Point Name="FORRESTDALE LAKE">FDL</Point>
+      <Point Name="ARMADALE SHOPS 'SHOPS'">SHOP</Point>
+      <Point Name="FREMANTLE GOLFCOURSE">FREM</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="BK_ARRS_DEPS" Priority="1" Center="-33.924445+150.990278">
+    <Symbol Type="HollowSquare">
+      <Point>PSP</Point>
+      <Point>PRT</Point>
+      <Point>TWRN</Point>
+      <Point>WFM</Point>
+      <Point>CSTH</Point>
+      <Point>CNTH</Point>
+      <Point>CWST</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>PSP</Point>
+      <Point>PRT</Point>
+      <Point>TWRN</Point>
+      <Point>WFM</Point>
+      <Point>CSTH</Point>
+      <Point>CNTH</Point>
+      <Point>CWST</Point>
+    </Label>
+    <Label LabelOrientation="NW">
+      <Point Name="IN NORTH">PSP</Point>
+      <Point Name="OUT NORTH">-335230.084+1505947.701</Point>
+      <Point Name="IN TWO RN">TWRN</Point>
+    </Label>
+    <!--IN_NORTH-->
+    <Line Pattern="Broken">
+      PSP/-335252.538+1505729.859
+    </Line>
+    <!--OUT_NORTH-->
+    <Line Pattern="Hash">
+      -335230.084+1505947.701/PRT
+    </Line>
+    <!--TWO_RN_IN-->
+    <Line Pattern="Broken">
+      TWRN/-33.931945+150.946945
+    </Line>
+
+  </Map>
+  <Map Type="System2" Name="BK_FULL_NAMES" Priority="1" Center="-33.924445+150.990278">
+    <Label LabelOrientation="SW" HasLeader="True">
+      <Point Name="WARWICK FARM">WFM</Point>
+      <Point Name="PROSPECT RESV">PSP</Point>
+      <Point Name="CHOPPERS NORTH">CNTH</Point>
+      <Point Name="CHOPPERS SOUTH">CSTH</Point>
+      <Point Name="CHOPPERS WEST">CWST</Point>
+      <Point Name="TWO RN">TWRN</Point>
+      <Point Name="PARRAMATTA">PRT</Point>
+    </Label>
+  </Map>
+</Maps>

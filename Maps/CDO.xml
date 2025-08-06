@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="PREDICTABLE_SEQUENCE" Priority="1" Center="-23.700+133.870">
+    <!--YMML Milkrun-->
+    <Line Pattern="Dotted">
+      ANLID/ 
+      DOVEX/ 
+      TOPUL/ 
+      UNSIG/ 
+      NILEV
+    </Line>
+    <Line Pattern="Dotted">
+      DOVEX/
+      BULLA
+    </Line>
+    <Line Pattern="Dotted">
+      TOPUL/
+      BULLA
+    </Line>
+    <Line Pattern="Dotted">
+      UNSIG/
+      BULLA
+    </Line>
+    <Line Pattern="Dotted">
+      NILEV/
+      BULLA
+    </Line>
+    <Symbol Type="SolidSquare">
+      <Point>ANLID</Point>
+      <Point>DOVEX</Point>
+      <Point>TOPUL</Point>
+      <Point>UNSIG</Point>
+      <Point>NILEV</Point>
+      <Point>BULLA</Point>
+    </Symbol>
+    <Label>
+    <Point>ANLID</Point>
+    <Point Name="DOVEX (+2)">DOVEX</Point>
+    <Point Name="TOPUL (+4)">TOPUL</Point>
+    <Point Name="UNSIG (+6)">UNSIG</Point>
+    <Point Name="NILEV (+8)">NILEV</Point>
+    <Point Name="BULLA">BULLA</Point>
+    <Point>RAZZI</Point>
+    </Label>
+    <!--YMML East-->
+    <Line Pattern="Dotted">
+      AKTAM/
+      SEBLU/
+      RAZZI
+    </Line>
+    <Line Pattern="Dotted">
+      SEBLU/
+      UGITO/
+      RAZZI
+    </Line> 
+    <Line Pattern="Dotted">
+      UGITO/
+      OSEMI/
+      RAZZI
+    </Line>
+    <Line Pattern="Dotted">
+      OSEMI/
+      OTGUN/
+      RAZZI
+    </Line>
+    <Line Pattern="Dotted">
+      OTGUN/
+      ELNIV
+    </Line>
+    <Symbol Type="SolidSquare">
+      <Point>AKTAM</Point>
+      <Point>SEBLU</Point>
+      <Point>UGITO</Point>
+      <Point>OSEMI</Point>
+      <Point>OTGUN</Point>
+      <Point>ELNIV</Point>
+      <Point>RAZZI</Point>
+    </Symbol>
+    <Label>
+    <Point>AKTAM</Point>
+    <Point Name="SEBLU (+2/+8)">SEBLU</Point>
+    <Point Name="UGITO (+4/+6)">UGITO</Point>
+    <Point Name="OSEMI (+6/+4)">OSEMI</Point>
+    <Point Name="OTGUN (+8/+2)">OTGUN</Point>
+    <Point>ELNIV</Point>
+    </Label>
+    <!--YMML North-->
+    <Line Pattern="Dotted">
+      IGMIL/
+      UPNAP/
+      IGPEB/
+      DORSU
+    </Line>
+    <Line Pattern="Dotted">
+      IGPEB/
+      ONOPO/
+      DORSU
+    </Line>
+    <Line Pattern="Dotted">
+      ONOPO/
+      URGUL/
+      DORSU
+    </Line>
+    <Line Pattern="Dotted">
+      URGUL/
+      IBOVU/
+      DORSU
+    </Line>
+    <Symbol Type="SolidSquare">
+      <Point>IGMIL</Point>
+      <Point>UPNAP</Point>
+      <Point>IGPEB</Point>
+      <Point>ONOPO</Point>
+      <Point>URGUL</Point>
+      <Point>IBOVU</Point>
+      <Point>DORSU</Point>
+    </Symbol>
+    <Label>
+      <Point>IGMIL</Point>
+      <Point>UPNAP</Point>
+      <Point Name="IGPEB(+1/+2)">IGPEB</Point>
+      <Point Name="ONOPO(+3/+4)">ONOPO</Point>
+      <Point Name="URGUL(+5/+6)">URGUL</Point>
+      <Point Name="IBOVU(+7/+8)">IBOVU</Point>
+      <Point>DORSU</Point>
+    </Label>
+    <!--YPPH-->
+    <Line Pattern="Dotted">
+      BUNGL/
+      KINAB/
+      IGROB/
+      BUNGL
+    </Line>
+    <Line Pattern="Dotted">
+      KINAB/
+      IGROB/
+      MALUP/
+      BUNGL
+    </Line>
+    <Line Pattern="Dotted">
+      NALAR/
+      URGEX/
+      MALUP
+    </Line>
+    <Line Pattern="Dotted">
+      URGEX/
+      TEKUD/
+      MALUP
+    </Line>
+    <Line Pattern="Dotted">
+      TEKUD/
+      BEMPI/
+      MALUP
+    </Line>
+    <Line Pattern="Dotted">
+      BEMPI/
+      AGTOD/
+      MALUP
+    </Line>
+    <Line Pattern="Dotted">
+      AGTOD/
+      DUKOR/
+      MALUP
+    </Line>
+    <Line Pattern="Dotted">
+      DUKOR/
+      IPGER/
+      MALUP
+    </Line>
+    <Line Pattern="Dotted">
+      IPGER/
+      TODOS/
+      MALUP
+    </Line>
+    <Line Pattern="Dotted">
+      TODOS/
+      IVPIL/
+      MALUP
+    </Line>
+    <Symbol Type="SolidSquare">
+      <Point>BUNGL</Point>
+      <Point>KINAB</Point>
+      <Point>IGROB</Point>
+      <Point>NALAR</Point>
+      <Point>URGEX</Point>
+      <Point>TEKUD</Point>
+      <Point>BEMPI</Point>
+      <Point>AGTOD</Point>
+      <Point>DUKOR</Point>
+      <Point>IPGER</Point>
+      <Point>TODOS</Point>
+      <Point>IVPIL</Point>
+      <Point>MALUP</Point>
+    </Symbol>
+    <Label>
+      <Point>BUNGL</Point>
+      <Point Name="KINAB(+7)">KINAB</Point>
+      <Point Name="IGROB(+4)">IGROB</Point>
+      <Point>NALAR</Point>
+      <Point Name="URGEX (+2/+0/+1/+6)">URGEX</Point>
+      <Point Name="TEKUD (+3/+1/+0/+5)">TEKUD</Point>
+      <Point Name="BEMPI (+4/+2/+1/+4)">BEMPI</Point>
+      <Point Name="AGTOD (+5/+3/+2/+3)">AGTOD</Point>
+      <Point Name="DUKOR (+6/+4/+3/+2)">DUKOR</Point>
+      <Point Name="IPGER (+7/+5/+4/+2)">IPGER</Point>
+      <Point Name="TODOS (+9/+7/+6/+1)">TODOS</Point>
+      <Point Name="IVPIL (+11/+9/+8/+0)">IVPIL</Point>
+      <Point>MALUP</Point>
+    </Label>
+    <!--YBBN-->
+    <Line Pattern="Dotted">
+      OMKAX/
+      OTBOL/
+      ADKEX/
+      OMKAX/
+      GUTBI/
+      ISDAG/
+      OMKAX/
+      RULGU/
+      DOVIP/
+      OMKAX/
+      URBAM/
+      ESMIS/
+      OMKAX/
+      UBKEM
+    </Line>
+    <Line Pattern="Dotted">
+      WHITI/
+      UBKEM/
+      ESMIS/
+      WHITI/
+      URBAM/
+      DOVIP/
+      WHITI/
+      RULGU/
+      ISDAG/
+      WHITI/
+      GUTBI/
+      ADKEX/
+      WHITI
+    </Line>
+    <Symbol Type="SolidSquare">
+      <Point>OTBOL</Point>
+      <Point>ADKEX</Point>
+      <Point>GUTBI</Point>
+      <Point>ISDAG</Point>
+      <Point>RULGU</Point>
+      <Point>DOVIP</Point>
+      <Point>URBAM</Point>
+      <Point>ESMIS</Point>
+      <Point>UBKEM</Point>
+      <Point>OMKAX</Point>
+      <Point>WHITI</Point>
+    </Symbol>
+    <Label>
+      <Point Name="OTBOL ( /+11)">OTBOL</Point>
+      <Point Name="ADKEX (+0/+8)">ADKEX</Point>
+      <Point Name="GUTBI (+2/+4)">GUTBI</Point>
+      <Point Name="ISDAG (+3/+2)">ISDAG</Point>
+      <Point Name="RULGU (+5/+0)">RULGU</Point>
+      <Point Name="DOVIP (+7/+1)">DOVIP</Point>
+      <Point Name="URBAM (+9/+3)">URBAM</Point>
+      <Point Name="ESMIS (+11/+5)">ESMIS</Point>
+      <Point Name="UBKEM (+13/+7)">UBKEM</Point>
+      <Point>OMKAX</Point>
+      <Point>WHITI</Point>
+    </Label>
+    <!--YSSY-->
+    <Line Pattern="Dotted">
+      RIKNI/
+      UDISI/
+      ADLIV/
+      RIKNI/
+      IDAGO/
+      AVKIR/
+      RIKNI/
+      HARIZ/
+      NONID/
+      PORUV/
+      RIKNI/
+      ISNET/
+      OVMAT/
+      RIKNI/
+      FLEMO/
+      OPEXA/
+      RIKNI
+    </Line>
+    <Line Pattern="Dotted">
+      GORTA/
+      PLUGA/
+      PEBTU
+    </Line>
+    <Line Pattern="Dotted">
+      ADBOK/
+      PLUGA/
+      OLNOT
+    </Line>
+    <Line Pattern="Dotted">
+      ADLIV/
+      IDAGO
+    </Line>
+    <Line Pattern="Dotted">
+      AVKIR/
+      HARIZ
+    </Line>
+    <Line Pattern="Dotted">
+      PORUV/
+      ISNET
+    </Line>
+    <Line Pattern="Dotted">
+      OVMAT/
+      FLEMO
+    </Line>
+    <Symbol Type="SolidSquare">
+      <Point>RIKNI</Point>
+      <Point>UDISI</Point>
+      <Point>ADLIV</Point>
+      <Point>IDAGO</Point>
+      <Point>AVKIR</Point>
+      <Point>HARIZ</Point>
+      <Point>NONID</Point>
+      <Point>PORUV</Point>
+      <Point>ISNET</Point>
+      <Point>OVMAT</Point>
+      <Point>FLEMO</Point>
+      <Point>OPEXA</Point>
+      <Point>GORTA</Point>
+      <Point>PLUGA</Point>
+      <Point>PEBTU</Point>
+      <Point>ADBOK</Point>
+      <Point>OLNOT</Point>
+    </Symbol>
+    <Label>
+      <Point>RIKNI</Point>
+      <Point Name="UDISI (+10)">UDISI</Point>
+      <Point Name="ADLIV (+8)">ADLIV</Point>
+      <Point Name="IDAGO (+6)">IDAGO</Point>
+      <Point Name="AVKIR (+4)">AVKIR</Point>
+      <Point Name="HARIZ (+2)">HARIZ</Point>
+      <Point>NONID</Point>
+      <Point Name="PORUV (+2)">PORUV</Point>
+      <Point Name="ISNET (+4)">ISNET</Point>
+      <Point Name="OVMAT (+6)">OVMAT</Point>
+      <Point Name="FLEMO (+8)">FLEMO</Point>
+      <Point Name="OPEXA (+10)">OPEXA</Point>
+      <Point Name="GORTA (+8)">GORTA</Point>
+      <Point>PLUGA</Point>
+      <Point Name="PEBTU (+6)">PEBTU</Point>
+      <Point Name="ADBOK (+4)">ADBOK</Point>
+      <Point Name="OLNOT (+2)">OLNOT</Point>
+    </Label>
+  </Map>
+</Maps>

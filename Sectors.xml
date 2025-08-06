@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <!--
-  <Sector FullName="Alice Approach" Frequency="119.800" Callsign="AS_APP" Name="AAP">
-    <Volumes>AAP</Volumes>
-    <ResponsibleSectors>ASETWR</ResponsibleSectors>
-  </Sector>
-  -->
   <Sector FullName="Alice Springs" Frequency="128.850" Callsign="ML-ASP_CTR" Name="ASP">
     <Volumes>ASP</Volumes>
     <ResponsibleSectors>FOR,WAR,ASW,WRA,BKE,ESP</ResponsibleSectors>
@@ -108,11 +102,19 @@
   <Sector FullName="Jakarta Control" Frequency="132.300" Callsign="WIIF_CTR" Name="WIIF" DisplayInSectorsWindow="False">
     <Volumes>WIIF</Volumes>
   </Sector>
-  <Sector FullName="Jakarta Control" Frequency="120.900" Callsign="WIIF_E_CTR" Name="WIIFE" DisplayInSectorsWindow="False">
-    <Volumes>WIIF-E</Volumes>
+  <Sector FullName="Jakarta Control" Frequency="120.900" Callsign="WIIF_SG_CTR" Name="WIIFSG" DisplayInSectorsWindow="False">
+    <Volumes>WIIF-SG</Volumes>
+    <ResponsibleSectors>WIIFBD</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Jakarta Control" Frequency="135.900" Callsign="WIIF_W_CTR" Name="WIIFW" DisplayInSectorsWindow="False">
-    <Volumes>WIIF-W</Volumes>
+  <Sector FullName="Jakarta Control" Frequency="132.100" Callsign="WIIF_BD_CTR" Name="WIIFBD" DisplayInSectorsWindow="False">
+    <Volumes>WIIF-BD</Volumes>
+  </Sector>
+  <Sector FullName="Jakarta Control" Frequency="133.200" Callsign="WIIF_MN_CTR" Name="WIIFMN" DisplayInSectorsWindow="False">
+    <Volumes>WIIF-MN</Volumes>
+    <ResponsibleSectors>WIIFIS</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Jakarta Control" Frequency="132.850" Callsign="WIIF_IS_CTR" Name="WIIFIS" DisplayInSectorsWindow="False">
+    <Volumes>WIIF-IS</Volumes>
   </Sector>
   <Sector FullName="Jakarta Control Training" Frequency="132.300" Callsign="WIIF_T_CTR" Name="WIIFT" DisplayInSectorsWindow="False">
     <Volumes>WIIF</Volumes>
@@ -169,7 +171,9 @@
     <Volumes>MUN</Volumes>
     <ResponsibleSectors>YWE,OXL,GTH</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Nadi Centre" Frequency="120.900" Callsign="NFFN_CTR" Name="NFFN" />
+  <Sector FullName="Nadi Centre" Frequency="120.100" Callsign="NFFN_CTR" Name="NFFN" DisplayInSectorsWindow="False">
+    <Volumes>NFFN</Volumes>
+  </Sector>
   <Sector FullName="Newman" Frequency="125.400" Callsign="ML-NEW_CTR" Name="NEW">
     <Volumes>NEW</Volumes>
   </Sector>
@@ -231,11 +235,18 @@
   <Sector FullName="Ujung Pandang Control" Frequency="128.100" Callsign="WAAF_CTR" Name="WAAF" DisplayInSectorsWindow="False">
     <Volumes>WAAF</Volumes>
   </Sector>
-  <Sector FullName="Ujung Pandang Control" Frequency="120.700" Callsign="WAAF_B_CTR" Name="WAAFB" DisplayInSectorsWindow="False">
-    <Volumes>WAAF-B</Volumes>
+  <Sector FullName="Ujung Pandang Control" Frequency="120.700" Callsign="WAAF_BI_CTR" Name="UBLI" DisplayInSectorsWindow="False">
+    <Volumes>WAAF-BI</Volumes>
+    <ResponsibleSectors>WAAFNA</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Ujung Pandang Control" Frequency="132.500" Callsign="WAAF_E_CTR" Name="WAAFE" DisplayInSectorsWindow="False">
-    <Volumes>WAAF-E</Volumes>
+  <Sector FullName="Ujung Pandang Control" Frequency="128.300" Callsign="WAAF_NA_CTR" Name="WAAFNA" DisplayInSectorsWindow="False">
+    <Volumes>WAAF-NA</Volumes>
+  </Sector>
+  <Sector FullName="Ujung Pandang Control" Frequency="132.350" Callsign="WAAF_AN_CTR" Name="WAAFAN" DisplayInSectorsWindow="False">
+    <Volumes>WAAF-AN</Volumes>
+  </Sector>
+  <Sector FullName="Ujung Pandang Control" Frequency="133.100" Callsign="WAAF_PA_CTR" Name="WAAFPA" DisplayInSectorsWindow="False">
+    <Volumes>WAAF-PA</Volumes>
   </Sector>
   <Sector FullName="Ujung Pandang Training" Frequency="128.100" Callsign="WAAF_T_CTR" Name="WAAFT" DisplayInSectorsWindow="False">
     <Volumes>WAAF</Volumes>
@@ -397,6 +408,9 @@
   <Sector FullName="Hobart Approach" Frequency="125.550" Callsign="HB_APP" Name="HBA">
     <Volumes>HBA</Volumes>
   </Sector>
+  <Sector FullName="Jacksons Radar" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" DisplayInSectorsWindow="False">
+    <Volumes>AYPYA</Volumes>
+  </Sector>
   <Sector FullName="Kwajalein Approach" Frequency="126.200" Callsign="PKWA_APP" Name="PKWAA" />
   <Sector FullName="Launceston Approach" Frequency="123.800" Callsign="LT_APP" Name="LTA">
     <Volumes>LTA</Volumes>
@@ -434,7 +448,6 @@
   <Sector FullName="Perth Departures" Frequency="118.700" Callsign="PH_DEP" Name="PHD">
     <Volumes>PHA</Volumes>
   </Sector>
-  <Sector FullName="Port Moresby Approach" Frequency="125.800" Callsign="AYPY_APP" Name="AYPYA" />
   <Sector FullName="Scherger Approach" Frequency="124.200" Callsign="SG_APP" Name="SGA">
     <Volumes>SGA</Volumes>
   </Sector>
@@ -488,11 +501,6 @@
   <Sector FullName="Albury Tower" Frequency="123.250" Callsign="AY_TWR" Name="AY ADC">
     <Volumes>AYTWR</Volumes>
   </Sector>
-  <!--
-  <Sector FullName="Alice Springs EVENT Tower" Frequency="118.300" Callsign="AS_TWR" Name="ASE ADC" DisplayInHandoffWindow="False"> 
-    <Volumes>ASETWR</Volumes>
-  </Sector>
-  -->
   <Sector FullName="Alice Springs Tower" Frequency="118.300" Callsign="AS_TWR" Name="AS ADC">
     <Volumes>ASTWR</Volumes>
   </Sector>
@@ -707,6 +715,9 @@
   </Sector>
   <Sector FullName="Nowra Tower" Frequency="118.850" Callsign="NW_TWR" Name="NW ADC" DisplayInHandoffWindow="False">
     <Volumes>NWTWR</Volumes>
+  </Sector>
+  <Sector FullName="Oakey Delivery" Frequency="133.350" Callsign="OK_DEL" Name="OK COORD" DisplayInHandoffWindow="False">
+    <Volumes>OKTWR</Volumes>
   </Sector>
   <Sector FullName="Oakey Ground" Frequency="121.900" Callsign="OK_GND" Name="OK SMC" DisplayInHandoffWindow="False">
     <Volumes>OKTWR</Volumes>

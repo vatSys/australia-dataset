@@ -157,7 +157,7 @@
     <Translation String="HIRL" Spoken="high intensity runway lighting" />
     <Translation String="HIAL" Spoken="high intensity approach lighting" />
     <Translation String="OPS" Spoken="operations" />
-    <Translation String="PROG" Spoken="progress" />
+    <Translation Regex="^(PROG|PROGRESS)$" Spoken="progress" />
     <Translation String="INDEP" Spoken="independent" />
     <Translation String="AVBL" Spoken="available" />
     <Translation String="REQ" Spoken="request" />  
@@ -330,7 +330,7 @@
     <Translation String="NSC" Spoken="nil significant cloud" />
     <Translation Regex="\+([A-Z]+)" Spoken="heavy $1" />
     <Translation Regex="\-([A-Z]+)" Spoken="light $1" />
-    <Translation Regex="RE(SH|SHRA|DZ|GR|SN|SG|DU|SA|SS|DS|FG|RA|GS|FU|BR|HZ|PO|SQ|FC|VA|IC|PL|VCSH|SIA|TS|VCTS|TSRA|TSRAGS|TCU)" Spoken="recent $1" />
+    <Translation Regex="(?:^|[^A-Z])RE(SH|SHRA|DZ|GR|SN|SG|DU|SA|SS|DS|FG|RA|GS|FU|BR|HZ|PO|SQ|FC|VA|IC|PL|VCSH|SIA|TS|VCTS|TSRA|TSRAGS|TCU)" Spoken="recent $1" />
     <Translation String="MI" Spoken="shallow" />
     <Translation String="BC" Spoken="patches" />
     <Translation String="PR" Spoken="partial" />

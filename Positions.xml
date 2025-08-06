@@ -101,6 +101,7 @@
         <Map Name="ALL_POINTS_HIGH" />
         <Map Name="FIR_BDRY" />
         <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="NEIGHBOUR_SUBSECTORS" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -251,6 +252,7 @@
         <Map Name="ALL_POINTS_HIGH" />
         <Map Name="FIR_BDRY" />
         <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="NEIGHBOUR_SUBSECTORS" />
       </Maps>
       <Strips Mode="State" Sort="Time">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -617,7 +619,6 @@
       </Strips>
       <CFL QuickLevel="10000" />
       <ArrivalLists>
-        <Airport Name="YSCB" />
         <Airport Name="YSSY" />
       </ArrivalLists>
       <ControllerInfo>
@@ -1323,6 +1324,7 @@
         <Map Name="ALL_POINTS_HIGH" />
         <Map Name="FIR_BDRY" />
         <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="NEIGHBOUR_SUBSECTORS" />
       </Maps>
       <Strips Mode="State" Sort="Alpha">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -1631,14 +1633,14 @@
         <Airport Name="YSSY" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Sydney Approach</Line>
-        <Line>ATIS available on 118.55</Line>
+        <Line>Sydney Approach | ATIS available on 118.55</Line>
+        <Line>Indep Visual Approach Guide - vats.im/pac/iva</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-N_APP">
-        <Line>Sydney Approach (North)</Line>
-        <Line>ATIS available on 118.55</Line>
+        <Line>Sydney Approach (North) | ATIS available on 118.55</Line>
+        <Line>Indep Visual Approach Guide - vats.im/pac/iva</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -1655,14 +1657,14 @@
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-DE_APP">
-        <Line>Sydney Director (East)</Line>
-        <Line>ATIS available on 118.55</Line>
+        <Line>Sydney Director (East) | ATIS available on 118.55</Line>
+        <Line>Indep Visual Approach Guide - vats.im/pac/iva</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-D_APP">
-        <Line>Sydney Director</Line>
-        <Line>ATIS available on 118.55</Line>
+        <Line>Sydney Director | ATIS available on 118.55</Line>
+        <Line>Indep Visual Approach Guide - vats.im/pac/iva</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
@@ -2312,8 +2314,8 @@
         <Map Name="ALL_CTA" />
         <Map Name="Brisbane/BN_TCU"/>
         <Map Name="TMA_LL_LABELS" />
-        <Map Name="Brisbane/AF_ARRS_DEPS" />
-        <Map Name="Brisbane/AF_FULL_NAMES" />
+        <Map Name="Metro_D/AF_ARRS_DEPS" />
+        <Map Name="Metro_D/AF_FULL_NAMES" />
       </Maps>
       <ATIS>
         <Editor Airport="YBAF" Frequency="120.9" />
@@ -2340,7 +2342,7 @@
     <Position Name="Avalon Tower" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="50" MagneticVariation="-11.6" DynamicInfill="false">
       <Sectors>
         <Sector Name="AV ADC" />
-        <Sector Name="AV SMC" />
+        <!-- <Sector Name="AV SMC" /> -->
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2363,12 +2365,12 @@
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="AV_GND">
+      <!-- <ControllerInfo Callsign="AV_GND">
         <Line>Avalon Ground</Line>
         <Line>ATIS available on 118.2</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
-      </ControllerInfo>
+      </ControllerInfo> -->
     </Position>
     <Position Name="Bankstown Tower" Type="ASD" DefaultCenter="-33.924444+150.988333" DefaultRange="30" MagneticVariation="-12.6">
       <Sectors>
@@ -2380,8 +2382,8 @@
         <Map Name="ALL_CTA" />
         <Map Name="C_LL_LABELS" />
         <Map Name="Sydney/SY_TCU" />
-        <Map Name="Sydney/BK_ARRS_DEPS" />
-        <Map Name="Sydney/BK_FULL_NAMES" />
+        <Map Name="Metro_D/BK_ARRS_DEPS" />
+        <Map Name="Metro_D/BK_FULL_NAMES" />
       </Maps>
       <ATIS>
         <Editor Airport="YSBK" Frequency="120.9" />
@@ -2483,7 +2485,8 @@
         <Map Name="ALL_CTA" />
         <Map Name="Perth/PH_COAST" />
         <Map Name="Perth/PH_TCU" />
-        <Map Name="Perth/YPJT_ARRS_DEPS" />
+        <Map Name="Metro_D/JT_ARRS_DEPS" />
+        <Map Name="Metro_D/JT_FULL_NAMES" />
       </Maps>
       <ATIS>
         <Editor Airport="YPJT" Frequency="128.65" />
@@ -2578,7 +2581,8 @@
         <Map Name="ALL_CTA" />
         <Map Name="Melbourne/ML_COAST" />
         <Map Name="Melbourne/ML_TCU" />
-        <Map Name="Melbourne/MB_ARRS_DEPS" />
+        <Map Name="Metro_D/MB_ARRS_DEPS" />
+        <Map Name="Metro_D/MB_FULL_NAMES" />
       </Maps>
       <ATIS>
         <Editor Airport="YMMB" Frequency="120.9" />
@@ -2612,7 +2616,8 @@
         <Map Name="ALL_CTA" />
         <Map Name="Adelaide/AD_COAST" />
         <Map Name="Adelaide/AD_TCU" />
-        <Map Name="Adelaide/PF_ARRS_DEPS" />
+        <Map Name="Metro_D/PF_ARRS_DEPS" />
+        <Map Name="Metro_D/PF_FULL_NAMES" />
       </Maps>
       <ATIS>
         <Editor Airport="YPPF" Frequency="120.9" />
@@ -3325,6 +3330,7 @@
       <Sectors>
         <Sector Name="OK ADC" />
         <Sector Name="OK SMC" />
+        <Sector Name="OK COORD" />
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -3349,6 +3355,12 @@
       </ControllerInfo>
       <ControllerInfo Callsign="OK_GND">
         <Line>Oakey Ground</Line>
+        <Line>ATIS available on 124.3</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - helpdesk.vatpac.org</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="OK_DEL">
+        <Line>Oakey Delivery</Line>
         <Line>ATIS available on 124.3</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/pilot</Line>
         <Line>ATC feedback - helpdesk.vatpac.org</Line>
