@@ -1,0 +1,208 @@
+<!-- Be very careful ediitng the OzStrips configuration.
+     Do not make changes to this file, place an overwrite file in (PROFILE)/Plugins/AerodromeSettings.xml
+     Changes between the two files are not additive. Changes in the Profile directory will overwrite this one.-->
+<AerodromeSettings>
+    <DefaultAerodromes>
+		<Aerodrome>YMML</Aerodrome>
+		<Aerodrome>YBBN</Aerodrome>
+		<Aerodrome>YBCG</Aerodrome>
+		<Aerodrome>YBSU</Aerodrome>
+		<Aerodrome>YPPH</Aerodrome>
+		<Aerodrome>YSSY</Aerodrome>
+		<Aerodrome>YPAD</Aerodrome>
+		<Aerodrome>YPDN</Aerodrome>
+	</DefaultAerodromes>
+  <LayoutDefinitions>
+    <!-- DEFAULT / RADAR TOWERS -->
+    <LayoutDefinition Name="All">
+      <Element Name="Preactive" Column="0"/>
+      <Element Name="Cleared" Column="0"/>
+      <Element Name="Pushback" Column="0"/>
+      <Element Name="Taxi" Column="1"/>
+      <Element Name="Holding Point" Column="1"/>
+      <Element Name="Runway" Column="1"/>
+      <Element Name="Circuit" Column="2"/>
+      <Element Name="Departed" Column="2"/>
+      <Element Name="Arrivals" Column="2"/>
+    </LayoutDefinition>
+    <LayoutDefinition Name="ACD">
+      <Element Name="Preactive" Column="0"/>
+      <Element Name="Cleared" Column="1"/>
+      <Element Name="Pushback" Column="2"/>
+    </LayoutDefinition>
+    <LayoutDefinition Name="ACD+SMC">
+      <Element Name="Preactive" Column="0"/>
+      <Element Name="Cleared" Column="0"/>
+      <Element Name="Pushback" Column="0"/>
+      <Element Name="Taxi" Column="1"/>
+      <Element Name="Holding Point" Column="2"/>
+      <Element Name="Runway" Column="2"/>
+    </LayoutDefinition>
+    <LayoutDefinition Name="SMC">
+      <Element Name="Cleared" Column="0"/>
+      <Element Name="Pushback" Column="0"/>
+      <Element Name="Taxi" Column="1"/>
+      <Element Name="Holding Point" Column="2"/>
+      <Element Name="Runway" Column="2"/>
+    </LayoutDefinition>
+    <LayoutDefinition Name="SMC+ADC">
+      <Element Name="Cleared" Column="0"/>
+      <Element Name="Pushback" Column="0"/>
+      <Element Name="Taxi" Column="1"/>
+      <Element Name="Holding Point" Column="1"/>
+      <Element Name="Runway" Column="1"/>
+      <Element Name="Circuit" Column="2"/>
+      <Element Name="Departed" Column="2"/>
+      <Element Name="Arrivals" Column="2"/>
+    </LayoutDefinition>
+    <LayoutDefinition Name="ADC">
+      <Element Name="Holding Point" Column="0"/>
+      <Element Name="Runway" Column="1"/>
+      <Element Name="Circuit" Column="1"/>
+      <Element Name="Departed" Column="2"/>
+      <Element Name="Arrivals" Column="2"/>
+    </LayoutDefinition>
+    <!-- METRO D -->
+    <LayoutDefinition Name="All" Type="D">
+      <Element Name="Preactive" Column="0"/>
+      <Element Name="Taxi" Column="0"/>
+      <Element Name="Holding Point" Column="1"/>
+      <Element Name="Runway" Column="1"/>
+      <Element Name="Circuit" Column="2"/>
+      <Element Name="Arrivals" Column="2"/>
+    </LayoutDefinition>
+    <!-- PROC -->
+    <LayoutDefinition Name="All" Type="Proc">
+      <Element Name="Preactive" Column="0"/>
+      <Element Name="Cleared" Column="0"/>
+      <Element Name="Taxi" Column="1"/>
+      <Element Name="Holding Point" Column="1"/>
+      <Element Name="Runway" Column="1"/>
+      <Element Name="Active" Column="2"/>
+      <Element Name="Pending Arrivals" Column="2"/>
+    </LayoutDefinition>
+    <LayoutDefinition Name="SMC" Type="Proc">
+      <Element Name="Preactive" Column="0"/>
+      <Element Name="Cleared" Column="0"/>
+      <Element Name="Taxi" Column="1"/>
+      <Element Name="Holding Point" Column="2"/>
+      <Element Name="Runway" Column="2"/>
+    </LayoutDefinition>
+    <LayoutDefinition Name="ADC" Type="Proc">
+      <Element Name="Taxi" Column="0"/>
+      <Element Name="Holding Point" Column="0"/>
+      <Element Name="Runway" Column="1"/>
+      <Element Name="Active" Column="2"/>
+      <Element Name="Pending Arrivals" Column="2"/>
+    </LayoutDefinition>
+  </LayoutDefinitions>
+  <BayTypes>
+    <!-- RADAR TOWER / DEFAULT -->
+    <BayType>
+      <Bay Name="Preactive">
+        <Type>BAY_PREA</Type>
+      </Bay>
+      <Bay Name="Cleared">
+        <Type>BAY_CLEARED</Type>
+      </Bay>
+      <Bay Name="Pushback">
+        <Type>BAY_PUSHED</Type>
+      </Bay>
+      <Bay Name="Taxi">
+        <Type>BAY_TAXI</Type>
+      </Bay>
+      <Bay Name="Holding Point">
+        <Type>BAY_HOLDSHORT</Type>
+      </Bay>
+      <Bay Name="Runway">
+        <Type>BAY_RUNWAY</Type>
+      </Bay>
+      <Bay Name="Departed">
+        <Type>BAY_OUT</Type>
+        <Type>BAY_CIRCUIT</Type>
+      </Bay>
+      <Bay Name="Circuit" Circuit="true">
+        <Type>BAY_CIRCUIT</Type>
+      </Bay>
+      <Bay Name="Arrivals">
+        <Type>BAY_ARRIVAL</Type>
+      </Bay>
+    </BayType>
+    <!-- METROD -->
+    <BayType Type="D">
+      <Bay Name="Preactive">
+        <Type>BAY_PREA</Type>
+      </Bay>
+      <Bay Name="Taxi">
+        <Type>BAY_CLEARED</Type>
+        <Type>BAY_PUSHED</Type>
+        <Type>BAY_TAXI</Type>
+      </Bay>
+      <Bay Name="Holding Point">
+        <Type>BAY_HOLDSHORT</Type>
+      </Bay>
+      <Bay Name="Runway">
+        <Type>BAY_RUNWAY</Type>
+      </Bay>
+      <Bay Name="Circuit">
+        <Type>BAY_CIRCUIT</Type>
+        <Type>BAY_OUT</Type>
+      </Bay>
+      <Bay Name="Arrivals">
+        <Type>BAY_ARRIVAL</Type>
+      </Bay>
+    </BayType>
+    <!-- PROC -->
+    <BayType Type="Proc">
+      <Bay Name="Preactive">
+        <Type>BAY_PREA</Type>
+      </Bay>
+      <Bay Name="Cleared">
+        <Type>BAY_CLEARED</Type>
+      </Bay>
+      <Bay Name="Taxi">
+        <Type>BAY_PUSHED</Type>
+        <Type>BAY_TAXI</Type>
+      </Bay>
+      <Bay Name="Holding Point">
+        <Type>BAY_HOLDSHORT</Type>
+      </Bay>
+      <Bay Name="Runway">
+        <Type>BAY_RUNWAY</Type>
+      </Bay>
+      <Bay Name="Active">
+        <Type>BAY_CIRCUIT</Type>
+        <Type>BAY_OUT</Type>
+      </Bay>
+      <Bay Name="Pending Arrivals">
+        <Type>BAY_ARRIVAL</Type>
+      </Bay>
+    </BayType>
+  </BayTypes>
+  <AerodromeLists>
+    <AerodromeList Type="D">
+      <Aerodrome>YBAF</Aerodrome>
+      <Aerodrome>YMAV</Aerodrome>
+      <Aerodrome>YSBK</Aerodrome>
+      <Aerodrome>YSCN</Aerodrome>
+      <Aerodrome>YMHB</Aerodrome>
+      <Aerodrome>YPJT</Aerodrome>
+      <Aerodrome>YMLT</Aerodrome>
+      <Aerodrome>YBMK</Aerodrome>
+      <Aerodrome>YPPF</Aerodrome>
+      <Aerodrome>YBRK</Aerodrome>
+      <Aerodrome>YMMB</Aerodrome>
+    </AerodromeList>
+    <AerodromeList Type="Proc">
+      <Aerodrome>YMAY</Aerodrome>
+      <Aerodrome>YBAS</Aerodrome>
+      <Aerodrome>YBRM</Aerodrome>
+      <Aerodrome>YCFS</Aerodrome>
+      <Aerodrome>YBHM</Aerodrome>
+      <Aerodrome>YPKA</Aerodrome>
+      <Aerodrome>YBSU</Aerodrome>
+      <Aerodrome>YSTW</Aerodrome>
+      <Aerodrome>YPWR</Aerodrome>
+    </AerodromeList>
+  </AerodromeLists>
+</AerodromeSettings>
