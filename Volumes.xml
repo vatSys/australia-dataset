@@ -3146,14 +3146,14 @@
     -210000.000+1703000.000/
     -140000.000+1630000.000
   </Boundary>
-  <Boundary Name="NWWW_CTA">
-    -140000.000+1611500.000/
-    -140000.000+1630000.000/
+  <Boundary Name="NWWWA">
+    -165817.000+1623945.000/
+	-165817.000+1660440.000/
     -210000.000+1703000.000/
     -240000.000+1703000.000/
     -240000.000+1630000.000/
     -174000.000+1630000.000/
-    -140000.000+1611500.000
+    -165817.000+1623945.000
   </Boundary>
   <Boundary Name="NZCM">
     -900000.000+1630000.000/
@@ -5882,7 +5882,7 @@
   <Volume Name="NFFF" LowerLimit="0" UpperLimit="60000">
     <Boundaries>NFFF</Boundaries>
   </Volume>
-  <Volume Name="NVVV" LowerLimit="0" UpperLimit="60000">
+  <Volume Name="NVVVA" LowerLimit="0" UpperLimit="24000">
     <Boundaries>NVVV_CTA</Boundaries>
   </Volume>
   <Volume Name="NWA-A" LowerLimit="0" UpperLimit="12500">
@@ -5894,8 +5894,8 @@
   <Volume Name="NWTWR" LowerLimit="0" UpperLimit="1900">
     <Boundaries>NOWRA_CTZ</Boundaries>
   </Volume>
-  <Volume Name="NWWW" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>NWWW_CTA</Boundaries>
+  <Volume Name="NWWWA" LowerLimit="0" UpperLimit="24000">
+    <Boundaries>NWWWA</Boundaries>
   </Volume>
   <Volume Name="NZCM" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>NZCM</Boundaries>
@@ -6110,7 +6110,7 @@
   <Volume Name="WRTWR" LowerLimit="0" UpperLimit="12000">
     <Boundaries>WOOMERA_R222F</Boundaries>
   </Volume>
-  <Volume Name="NFFN" LowerLimit="0" UpperLimit="60000">
+  <Volume Name="NFFJ" LowerLimit="0" UpperLimit="60000">
     <Boundaries>NADI_CTA</Boundaries>
   </Volume>
 </Volumes>
