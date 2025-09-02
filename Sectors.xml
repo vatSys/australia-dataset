@@ -425,9 +425,13 @@
     <Volumes>MLA</Volumes>
     <ResponsibleSectors>MAV</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Nadi Approach" Frequency="119.100" Callsign="NFFN_APP" Name="NFFNA" />
+  <Sector FullName="Nadi Approach" Frequency="119.100" Callsign="NFFN_APP" Name="NFFNA" DisplayInSectorsWindow="False">
+    <Volumes>NFFNA</Volumes>
+  </Sector>
   <Sector FullName="Nadzab Approach" Frequency="118.600" Callsign="AYNZ_APP" Name="AYNZA" />
-  <Sector FullName="Nausori Approach" Frequency="119.700" Callsign="NFNA_APP" Name="NFNAA" />
+  <Sector FullName="Nausori Approach" Frequency="119.700" Callsign="NFNA_APP" Name="NFNAA" DisplayInSectorsWindow="False">
+    <Volumes>NFNAA</Volumes>
+  </Sector>
   <Sector FullName="Nowra Approach" Frequency="123.500" Callsign="NW_APP" Name="NWA">
     <Volumes>NWA-A,NWA-B</Volumes>
   </Sector>
