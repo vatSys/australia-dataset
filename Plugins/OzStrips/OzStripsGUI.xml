@@ -481,6 +481,11 @@
             Gets the list of bays.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.Gui.BayRepository.Initialised">
+            <summary>
+            Gets a value indicating whether the FLPs have been initalised.
+            </summary>
+        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.UpdateOrder(MaxRumsey.OzStripsPlugin.Gui.DTO.BayDTO)">
             <summary>
             Updates the bay based on the bay data.
@@ -1551,7 +1556,7 @@
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.Gui.OzStripsConfig.version">
             <summary>
-              Looks up a localized string similar to 0.6.2.
+              Looks up a localized string similar to 0.6.3.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.Gui.Properties.Resources">
