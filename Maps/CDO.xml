@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="PREDICTABLE_SEQUENCE" Priority="1" Center="-23.700+133.870">
+  <Map Type="System" Name="CDO_MAP" Priority="1" Center="-23.700+133.870">
     <!--YMML Milkrun-->
     <Line Pattern="Dotted">
       ANLID/ 
@@ -177,6 +177,32 @@
       IVPIL/
       MALUP
     </Line>
+    <Line Pattern="Dotted">
+      LEBOD/
+      AVPAL/
+      NUKTU/
+      BOKAT/
+      AVPAL/
+      ELNUL/
+      LAXIM/
+      AVPAL/
+      ISGUN/
+      AGTIK/
+      AVPAL/
+      MEENA/
+      SQARE/
+      AVPAL
+    </Line>
+    <Line Pattern="Dotted">
+      LEBOD/
+      NUKTU/
+      BOKAT/
+      ELNUL/
+      LAXIM/
+      ISGUN/
+      AGTIK/
+      MEENA
+    </Line>
     <Symbol Type="SolidSquare">
       <Point>BUNGL</Point>
       <Point>KINAB</Point>
@@ -191,21 +217,41 @@
       <Point>TODOS</Point>
       <Point>IVPIL</Point>
       <Point>MALUP</Point>
+      <Point>LEBOD</Point>
+      <Point>NUKTU</Point>
+      <Point>BOKAT</Point>
+      <Point>ELNUL</Point>
+      <Point>LAXIM</Point>
+      <Point>ISGUN</Point>
+      <Point>AGTIK</Point>
+      <Point>MEENA</Point>
+      <Point>SQARE</Point>
+      <Point>AVPAL</Point>
     </Symbol>
     <Label>
       <Point>BUNGL</Point>
       <Point Name="KINAB(+7)">KINAB</Point>
-      <Point Name="IGROB(+4)">IGROB</Point>
+      <Point Name="IGROB(+5)">IGROB</Point>
       <Point>NALAR</Point>
-      <Point Name="URGEX (+2/+0/+1/+6)">URGEX</Point>
-      <Point Name="TEKUD (+3/+1/+0/+5)">TEKUD</Point>
-      <Point Name="BEMPI (+4/+2/+1/+4)">BEMPI</Point>
-      <Point Name="AGTOD (+5/+3/+2/+3)">AGTOD</Point>
-      <Point Name="DUKOR (+6/+4/+3/+2)">DUKOR</Point>
-      <Point Name="IPGER (+7/+5/+4/+2)">IPGER</Point>
-      <Point Name="TODOS (+9/+7/+6/+1)">TODOS</Point>
-      <Point Name="IVPIL (+11/+9/+8/+0)">IVPIL</Point>
+      <Point Name="URGEX (0/+8/+1/+5)">URGEX</Point>
+      <Point Name="TEKUD (+1/+6/0/+7)">TEKUD</Point>
+      <Point Name="BEMPI (+2/+5/+1/+8)">BEMPI</Point>
+      <Point Name="AGTOD (+4/+4/+3/+10)">AGTOD</Point>
+      <Point Name="DUKOR (+6/+3/+5/+12)">DUKOR</Point>
+      <Point Name="IPGER (+8/+2/+7/+14)">IPGER</Point>
+      <Point Name="TODOS (+10/+1/+9/+16)">TODOS</Point>
+      <Point Name="IVPIL (+13/0/+11/+20)">IVPIL</Point>
       <Point>MALUP</Point>
+      <Point Name="LEBOD(0/0/0/0/+10)">LEBOD</Point>
+      <Point Name="NUKTU(+1/0/0/0/+8)">NUKTU</Point>
+      <Point Name="BOKAT(+2/+1/0/0/+7)">BOKAT</Point>
+      <Point Name="ELNUL(+3/+2/+1/0/+6)">ELNUL</Point>
+      <Point Name="LAXIM(+5/+4/+3/+2/+4)">LAXIM</Point>
+      <Point Name="ISGUN(+8/+7/+6/+7/+3)">ISGUN</Point>
+      <Point Name="AGTIK(+10/+9/+8/+7/+2)">AGTIK</Point>
+      <Point Name="MEENA(+12/+11/+10/+9/+1)">MEENA</Point>
+      <Point Name="SQARE(+14/+13/+12/+11/+0)">SQARE</Point>
+      <Point>AVPAL</Point>
     </Label>
     <!--YBBN-->
     <Line Pattern="Dotted">

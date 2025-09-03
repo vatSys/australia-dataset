@@ -437,7 +437,6 @@
         <Sector Name="TBD" />
         <Sector Name="AUG" />
         <Sector Name="AAE" />
-        <Sector Name="AAW" />
       </Sectors>
       <ManualVisibility>
         <Point>-270442.0946+1175658.5059</Point>
@@ -552,8 +551,8 @@
       <Sectors>
         <Sector Name="WOL" />
         <Sector Name="SNO" />
-        <Sector Name="CAE" />
-        <Sector Name="CAW" />
+        <Sector Name="CBE" />
+        <Sector Name="CBW" />
       </Sectors>
       <ManualVisibility>
         <Point>-33.293+141.617</Point>
@@ -1284,6 +1283,7 @@
         <Sector Name="TSN" />
         <Sector Name="FLD" />
         <Sector Name="COL" />
+        <Sector Name="HWE" />
       </Sectors>
       <ManualVisibility>
         <Point>-284300.4413+1583827.4585</Point>
@@ -1746,8 +1746,8 @@
     </Position>
     <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" VisibilityRange="100" MagneticVariation="-12.5">
       <Sectors>
-        <Sector Name="CAE" />
-        <Sector Name="CAW" />
+        <Sector Name="CBE" />
+        <Sector Name="CBW" />
       </Sectors>
       <ManualVisibility>
         <Point>-35.306944+149.195</Point>
@@ -3670,6 +3670,7 @@
         <Map Name="COAST_ALL" />
         <Map Name="FIR_BDRY" />
         <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="CDO_MAP" />
       </Maps>
       <ManualVisibility>
         <Point>-33.9461+151.1772</Point>
@@ -3697,6 +3698,7 @@
         <Map Name="COAST_ALL" />
         <Map Name="FIR_BDRY" />
         <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="CDO_MAP" />
       </Maps>
       <ManualVisibility>
         <Point>-37.6739+144.8431</Point>
@@ -3724,6 +3726,7 @@
         <Map Name="COAST_ALL" />
         <Map Name="FIR_BDRY" />
         <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="CDO_MAP" />
       </Maps>
       <ManualVisibility>
         <Point>-27.3845+153.1175</Point>
@@ -3751,6 +3754,7 @@
         <Map Name="COAST_ALL" />
         <Map Name="FIR_BDRY" />
         <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="CDO_MAP" />
       </Maps>
       <ManualVisibility>
         <Point>-31.940278+115.966944</Point>
@@ -3778,6 +3782,7 @@
         <Map Name="COAST_ALL" />
         <Map Name="FIR_BDRY" />
         <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="CDO_MAP" />
       </Maps>
       <ManualVisibility>
         <Point>-34.947+138.525</Point>
@@ -3805,6 +3810,7 @@
         <Map Name="COAST_ALL" />
         <Map Name="FIR_BDRY" />
         <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="CDO_MAP" />
       </Maps>
       <ManualVisibility>
         <Point>-35.306111+149.195833</Point>
@@ -3832,6 +3838,7 @@
         <Map Name="COAST_ALL" />
         <Map Name="FIR_BDRY" />
         <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="CDO_MAP" />
       </Maps>
       <ManualVisibility>
         <Point>-16.885833+145.755278</Point>

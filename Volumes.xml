@@ -3146,14 +3146,14 @@
     -210000.000+1703000.000/
     -140000.000+1630000.000
   </Boundary>
-  <Boundary Name="NWWW_CTA">
-    -140000.000+1611500.000/
-    -140000.000+1630000.000/
+  <Boundary Name="NWWWA">
+    -165817.000+1623945.000/
+	-165817.000+1660440.000/
     -210000.000+1703000.000/
     -240000.000+1703000.000/
     -240000.000+1630000.000/
     -174000.000+1630000.000/
-    -140000.000+1611500.000
+    -165817.000+1623945.000
   </Boundary>
   <Boundary Name="NZCM">
     -900000.000+1630000.000/
@@ -5490,7 +5490,54 @@
     -151522.868+1772637.908/
     -151517.000+1775544.000
   </Boundary>
-
+  <Boundary Name="NADI_TMA">
+    -182621.796+1775722.369/
+    -182522.745+1772635.155/
+    -182446.402+1771917.767/
+    -182257.731+1771212.029/
+    -182000.328+1770532.854/
+    -181559.637+1765932.466/
+    -181103.040+1765421.864/
+    -180519.620+1765010.482/
+    -175859.879+1764705.903/
+    -175215.407+1764513.636/
+    -174518.529+1764436.961/
+    -173821.920+1764516.847/
+    -173138.225+1764711.938/
+    -172519.673+1765018.613/
+    -171937.713+1765431.111/
+    -171442.668+1765941.713/
+    -171043.436+1770540.986/
+    -170747.222+1771218.066/
+    -170559.329+1771920.979/
+    -170523.000+1772637.000/
+    -170559.329+1773353.021/
+    -170747.222+1774055.934/
+    -171040.043+1774727.669/
+    -172657.739+1781930.079/
+    -182621.796+1775722.369
+  </Boundary>
+  <Boundary Name="NAUSORI_TMA">
+    -172657.739+1781930.079/
+    -174052.563+1784649.692/
+    -174322.205+1785034.216/
+    -174626.783+1785348.660/
+    -175000.674+1785626.605/
+    -175357.406+1785823.233/
+    -175809.808+1785934.964/
+    -180230.223+1785959.569/
+    -180650.746+1785936.242/
+    -181103.456+1785825.635/
+    -181500.661+1785629.841/
+    -181835.132+1785352.340/
+    -182140.327+1785037.897/
+    -182410.590+1784652.417/
+    -182601.329+1784242.773/
+    -182709.158+1783816.588/
+    -182731.674+1783342.736/
+    -182621.796+1775722.369/
+    -172657.739+1781930.079
+  </Boundary>
   <Boundary Name="AYPY_PORT_MORESBY_TMA">
     -083631.000+1471309.000/
     -083716.471+1472155.880/
@@ -5882,7 +5929,13 @@
   <Volume Name="NFFF" LowerLimit="0" UpperLimit="60000">
     <Boundaries>NFFF</Boundaries>
   </Volume>
-  <Volume Name="NVVV" LowerLimit="0" UpperLimit="60000">
+  <Volume Name="NFFNA" LowerLimit="0" UpperLimit="25000">
+    <Boundaries>NADI_TMA</Boundaries>
+  </Volume>
+  <Volume Name="NFNAA" LowerLimit="0" UpperLimit="25000">
+    <Boundaries>NAUSORI_TMA</Boundaries>
+  </Volume>
+  <Volume Name="NVVVA" LowerLimit="0" UpperLimit="24000">
     <Boundaries>NVVV_CTA</Boundaries>
   </Volume>
   <Volume Name="NWA-A" LowerLimit="0" UpperLimit="12500">
@@ -5894,8 +5947,8 @@
   <Volume Name="NWTWR" LowerLimit="0" UpperLimit="1900">
     <Boundaries>NOWRA_CTZ</Boundaries>
   </Volume>
-  <Volume Name="NWWW" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>NWWW_CTA</Boundaries>
+  <Volume Name="NWWWA" LowerLimit="0" UpperLimit="24000">
+    <Boundaries>NWWWA</Boundaries>
   </Volume>
   <Volume Name="NZCM" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>NZCM</Boundaries>
@@ -6110,7 +6163,7 @@
   <Volume Name="WRTWR" LowerLimit="0" UpperLimit="12000">
     <Boundaries>WOOMERA_R222F</Boundaries>
   </Volume>
-  <Volume Name="NFFN" LowerLimit="0" UpperLimit="60000">
+  <Volume Name="NFFJ" LowerLimit="0" UpperLimit="60000">
     <Boundaries>NADI_CTA</Boundaries>
   </Volume>
 </Volumes>
