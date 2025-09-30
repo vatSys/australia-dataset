@@ -1,0 +1,531 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GUI.Shared</name>
+    </assembly>
+    <members>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState">
+            <summary>
+            Represents state data sent from the server about a specific aerodrome.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.Connections">
+            <summary>
+            Gets or sets a list of connected callsigns.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.CircuitActive">
+            <summary>
+            Gets or sets a value indicating whether the circuit is active.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.AerodromeCode">
+            <summary>
+            Gets or sets the aerodrome code.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.CDMResults">
+            <summary>
+            Gets or sets the list of CDM elements sent from server.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.CDMParameters">
+            <summary>
+            Gets or sets the CDM parameters for this aerodrome.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.CDMStatistics">
+            <summary>
+            Gets or sets the relevant CDM statistics.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.BayDTO">
+            <summary>
+            Represents the bay configuration with a list of strips.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.BayDTO.bay">
+            <summary>
+            Gets or sets the bay information.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.BayDTO.list">
+            <summary>
+            Gets or sets the list of items or strips in the bay.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CacheDTO">
+            <summary>
+            Represents a collection of strip controller data objects.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CacheDTO.strips">
+            <summary>
+            Gets or sets the list of strip controllers.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAircraftDTO">
+            <summary>
+            An aircraft in the CDM system.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAircraftDTO.Key">
+            <summary>
+            Gets or sets the strip key.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAircraftDTO.RWY">
+            <summary>
+            Gets or sets the assigned runway.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAircraftDTO.SlotType">
+            <summary>
+            Gets or sets the slot type.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAircraftDTO.TOBT">
+            <summary>
+            Gets or sets the TOBT.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAircraftDTO.AOBT">
+            <summary>
+            Gets or sets the AOBT.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAircraftDTO.ATOT">
+            <summary>
+            Gets or sets the ATOT.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAircraftDTO.State">
+            <summary>
+            Gets or sets the current state.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMParameters">
+            <summary>
+            Contains parameters for CDM operations at a specific aerodrome.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMParameters.DefaultRate">
+            <summary>
+            Gets or sets the default DAR.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMParameters.Enabled">
+            <summary>
+            Gets or sets a value indicating whether CDM is enabled.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMResultDTO">
+            <summary>
+            DTO for CDM Results.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMResultDTO.Aircraft">
+            <summary>
+            Gets or sets the aircraft associated with this result.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMResultDTO.TSAT">
+            <summary>
+            Gets or sets the TSAT.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMResultDTO.CTOT">
+            <summary>
+            Gets or sets the CTOT.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMResultDTO.FinalSlotType">
+            <summary>
+            Gets or sets the final computed slot type.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMResultDTO.Slot">
+            <summary>
+            Gets or sets a valid and correlated slot.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMSlotDTO">
+            <summary>
+            Contains Slot information for an aircraft.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMSlotDTO.PTOT">
+            <summary>
+            Gets or sets the planned take off time.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMSlotTypes">
+            <summary>
+            Types of CDM slots, with associated priority values.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMSlotTypes.PRIORITY">
+            <summary>
+            Max priority.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMSlotTypes.LONGWAIT">
+            <summary>
+            Aircraft waiting for a long time.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMSlotTypes.BOOKED">
+            <summary>
+            Aircraft with booked slots.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMSlotTypes.PREBOOKED">
+            <summary>
+            Aircraft with prebooked slots, but not "in the system" yet.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMSlotTypes.NORMAL">
+            <summary>
+            Normal aircraft.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMSlotTypes.EARLY_NONCOMPLIANT">
+            <summary>
+            Early with a slot.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMState">
+            <summary>
+            States for each CDM aircraft.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMState.PREACTIVE">
+            <summary>
+            An aircraft with a slot.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMState.ACTIVE">
+            <summary>
+            An aircraft that is in a queue.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMState.PUSHED">
+            <summary>
+            An aircraft that has pushed.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMState.COMPLETE">
+            <summary>
+            An aircraft that has departed, or expired.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMStatistics">
+            <summary>
+            Represents server sent CDM stats.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMStatistics.CDMRates">
+            <summary>
+            Gets or sets a dictionary containg actual CDM dep rates.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMStatistics.Departures">
+            <summary>
+            Gets or sets a list of relevant CDM Departures.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO">
+            <summary>
+            Represents metadata about the connection to the OzStrips server.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Servers">
+            <summary>
+            Available server types.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Servers.VATSIM">
+            <summary>
+            Default connection.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Servers.SWEATBOX1">
+            <summary>
+            Sweatbox 1.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Servers.SWEATBOX2">
+            <summary>
+            Sweatbox 2.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Servers.SWEATBOX3">
+            <summary>
+            Sweatbox 3.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Version">
+            <summary>
+            Gets or sets the version of the OzStrips plugin.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.APIVersion">
+            <summary>
+            Gets or sets the API version of the client.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Server">
+            <summary>
+            Gets or sets the current server type.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.AerodromeName">
+            <summary>
+            Gets or sets the current aerodrome nmae.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Callsign">
+            <summary>
+            Gets or sets the user callsign.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.VatsimID">
+            <summary>
+            Gets or sets the VATSIM ID of the user.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.RouteDTO">
+            <summary>
+            Represents the route returned from ERSA FPR for a specific city pair.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RouteDTO.AircraftType">
+            <summary>
+            Gets or sets the aircraft type.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RouteDTO.RouteText">
+            <summary>
+            Gets or sets the route information.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.SCDeletionDTO">
+            <summary>
+            Represents a controller strip with various operational details.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.SCDeletionDTO.acid">
+            <summary>
+            Gets or sets the aircraft identifier.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.SharedCDMConstants">
+            <summary>
+            Contains shared CDM constants.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.SharedCDMConstants.BAY_STATE_MAP">
+            <summary>
+            Represents a mapping between <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay"/> values and their corresponding <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMState"/>
+            values.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay">
+            <summary>
+            Defines the various statuses of a strip bay in OzStrips.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay.BAY_DEAD">
+            <summary>
+            Indicates the strip is not currently active (inhibited).
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay.BAY_PREA">
+            <summary>
+            Indicates preactive strip state.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay.BAY_CLEARED">
+            <summary>
+            Indicates the strip has received a clearance.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay.BAY_PUSHED">
+            <summary>
+            Indicates the strip is cleared for pushback.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay.BAY_TAXI">
+            <summary>
+            Indicates the aircraft is cleared for taxi.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay.BAY_HOLDSHORT">
+            <summary>
+            Indicates the aircraft is holding short of the runway.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay.BAY_RUNWAY">
+            <summary>
+            Indicates the aircraft is cleared to enter/cross/use the runway.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay.BAY_OUT">
+            <summary>
+            Indicates the aircraft has departed.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay.BAY_ARRIVAL">
+            <summary>
+            Indicates the strip for an arriving aircraft, pending a landing clearance.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay.BAY_CIRCUIT">
+            <summary>
+            Indicates the strip for an aircraft that is in the circuit.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO">
+            <summary>
+            Represents a controller strip with various operational details.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.bay">
+            <summary>
+            Gets or sets the bay information for the strip.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.cockLevel">
+            <summary>
+            Gets or sets the cock level.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.CLX">
+            <summary>
+            Gets or sets the clearance.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.GATE">
+            <summary>
+            Gets or sets the gate information.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.TOT">
+            <summary>
+            Gets or sets the time of takeoff.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.crossing">
+            <summary>
+            Gets or sets a value indicating whether the aircraft is crossing.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.subbay">
+            <summary>
+            Gets or sets the subbay information.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.remark">
+            <summary>
+            Gets or sets any remarks associated with the strip.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.ready">
+            <summary>
+            Gets or sets a value indicating the ready status associated with the strip.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.StripKey">
+            <summary>
+            Gets or sets the strip key which uniquely identifies the strip.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.OverrideStripType">
+            <summary>
+            Gets or sets the strip overriden type.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.Modified">
+            <summary>
+            Gets  when the DTO was created.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.StripItemType">
+            <summary>
+            Defines the types of items that can be associated with a controller strip in air traffic control simulations.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripItemType.STRIP">
+            <summary>
+            Represents a standard controller strip, used for managing individual flights.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripItemType.QUEUEBAR">
+            <summary>
+            Represents a queue bar, used to visually separate or organize strips into manageable sections.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripItemType.BAR">
+            <summary>
+            Indicates that the strip or section is blocked and cannot be used currently.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey">
+            <summary>
+            key for a strip, used to identify it uniquely.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey.Callsign">
+            <summary>
+            Gets or sets the callsign of the aircraft.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey.VatsimID">
+            <summary>
+            Gets or sets the VATSIM ID of the aircraft.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey.ADEP">
+            <summary>
+            Gets or sets the departure airport of the aircraft.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey.ADES">
+            <summary>
+            Gets or sets the destination airport of the aircraft.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey.Matches(MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey)">
+            <summary>
+            Whether this key matches another stripkey.
+            </summary>
+            <param name="other">Key to compare.</param>
+            <returns>Matches.</returns>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.StripType">
+            <summary>
+            Defines the types of air traffic operations for controller strips, distinguishing between arrivals, departures, and unspecified types.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripType.ARRIVAL">
+            <summary>
+            Represents an arriving aircraft. Used for managing incoming flights to an airport.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripType.DEPARTURE">
+            <summary>
+            Represents a departing aircraft. Used for managing outgoing flights from an airport.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripType.LOCAL">
+            <summary>
+            Indicates a strip arriving and departing from the same aerodrme.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripType.UNKNOWN">
+            <summary>
+            Indicates a strip status of nil / not relevant.
+            </summary>
+        </member>
+    </members>
+</doc>

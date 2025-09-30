@@ -200,9 +200,6 @@
   <Sector FullName="Port" Frequency="127.000" Callsign="ML-POT_CTR" Name="POT">
     <Volumes>POT</Volumes>
   </Sector>
-  <Sector FullName="Vila Tower (TCU)" Frequency="120.700" Callsign="NVVV_APP" Name="NVVVA" DisplayInSectorsWindow="False">
-    <Volumes>NVVVA</Volumes>
-  </Sector>
   <Sector FullName="Snowy" Frequency="124.000" Callsign="ML-SNO_CTR" Name="SNO">
     <Volumes>SNO</Volumes>
   </Sector>
@@ -482,6 +479,9 @@
   <Sector FullName="Townsville Approach" Frequency="126.800" Callsign="TL_APP" Name="TLA">
     <Volumes>TLA</Volumes>
   </Sector>
+  <Sector FullName="Vila Tower (TCU)" Frequency="120.700" Callsign="NVVV_APP" Name="NVVVA" DisplayInSectorsWindow="False">
+    <Volumes>NVVVA</Volumes>
+  </Sector>
   <Sector FullName="Williamtown Approach (High)" Frequency="133.300" Callsign="WLM_APP" Name="WAH">
     <Volumes>WLM_APP</Volumes>
   </Sector>
@@ -642,6 +642,7 @@
     <Volumes>CGTWR</Volumes>
   </Sector>
   <Sector FullName="Goroka Tower" Frequency="118.700" Callsign="AYGA_TWR" Name="AYGA ADC" />
+  <Sector FullName="Hagen Tower" Frequency="120.500" Callsign="AYMH_TWR" Name="AYMH ADC" />
   <Sector FullName="Hamilton Island Tower" Frequency="118.700" Callsign="HM_TWR" Name="HM ADC">
     <Volumes>HMTWR</Volumes>
   </Sector>
@@ -651,6 +652,8 @@
   <Sector FullName="Hobart Tower" Frequency="118.100" Callsign="HB_TWR" Name="HB ADC">
     <Volumes>HBTWR</Volumes>
   </Sector>
+  <Sector FullName="Jacksons Ground" Frequency="121.700" Callsign="AYPY_GND" Name="AYPY SMC" />
+  <Sector FullName="Jacksons Tower" Frequency="118.100" Callsign="AYPY_TWR" Name="AYPY ADC" />
   <Sector FullName="Jandakot Ground" Frequency="124.300" Callsign="JT_GND" Name="JT SMC" DisplayInHandoffWindow="False">
     <Volumes>JTTWR</Volumes>
   </Sector>
@@ -704,7 +707,6 @@
   <Sector FullName="Moorabbin Tower" Frequency="123.000" Callsign="MB-W_TWR" Name="MB ADCW" DisplayInHandoffWindow="False">
     <Volumes>MBTWR</Volumes>
   </Sector>
-  <Sector FullName="Hagen Tower" Frequency="120.500" Callsign="AYMH_TWR" Name="AYMH ADC" />
   <Sector FullName="Nadi Tower" Frequency="118.100" Callsign="NFFN_TWR" Name="NFFN ADC" />
   <Sector FullName="Nadzab Tower" Frequency="121.700" Callsign="AYNZ_TWR" Name="AYNZ ADC" />
   <Sector FullName="Nausori Tower" Frequency="119.600" Callsign="NFNA_TWR" Name="NFNA ADC" />
@@ -757,9 +759,6 @@
   <Sector FullName="Perth Tower" Frequency="127.400" Callsign="PH_TWR" Name="PH ADC" DisplayInHandoffWindow="False">
     <Volumes>PHTWR</Volumes>
   </Sector>
-  <Sector FullName="Jacksons Ground" Frequency="121.700" Callsign="AYPY_GND" Name="AYPY SMC" />
-  <Sector FullName="Jacksons Tower" Frequency="118.100" Callsign="AYPY_TWR" Name="AYPY ADC" />
-  <Sector FullName="Vila Tower" Frequency="118.300" Callsign="NVVV_TWR" Name="NVVV ADC" />
   <Sector FullName="Richmond Ground" Frequency="128.250" Callsign="RI_GND" Name="RI SMC" DisplayInHandoffWindow="False">
     <Volumes>RITWR</Volumes>
   </Sector>
@@ -830,6 +829,7 @@
   <Sector FullName="Townsville Tower" Frequency="118.300" Callsign="TL_TWR" Name="TL ADC" DisplayInHandoffWindow="False">
     <Volumes>TLTWR</Volumes>
   </Sector>
+  <Sector FullName="Vila Tower" Frequency="118.300" Callsign="NVVV_TWR" Name="NVVV ADC" />
   <Sector FullName="Williamtown Delivery" Frequency="130.350" Callsign="WLM_DEL" Name="WLM ACD" DisplayInHandoffWindow="False">
     <Volumes>WLMTWR</Volumes>
   </Sector>

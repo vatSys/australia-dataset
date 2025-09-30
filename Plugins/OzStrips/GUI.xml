@@ -1,158 +1,159 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>OzStripsGUI</name>
+        <name>GUI</name>
     </assembly>
     <members>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.AerodromeManager">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager">
             <summary>
             Manages aerodromes immaediately available in the selection list.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.BaseModal">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.BaseModal">
             <summary>
             A base modal form.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BaseModal.#ctor(System.Windows.Forms.Control,System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BaseModal.#ctor(System.Windows.Forms.Control,System.String)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.BaseModal"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.BaseModal"/> class.
             </summary>
             <param name="child">The child.</param>
             <param name="text">The text.</param>
         </member>
-        <member name="E:MaxRumsey.OzStripsPlugin.Gui.BaseModal.ReturnEvent">
+        <member name="E:MaxRumsey.OzStripsPlugin.GUI.BaseModal.ReturnEvent">
             <summary>
             A event when the modal is returned.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BaseModal.ExitModal(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BaseModal.ExitModal(System.Boolean)">
             <summary>
             Exits the model.
             </summary>
             <param name="senddata">If the return event should be fired or not.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BaseModal.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BaseModal.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
             <inheritdoc/>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.BaseModal.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.BaseModal.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BaseModal.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BaseModal.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BaseModal.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BaseModal.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Bay">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Bay">
             <summary>
             A bay.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.#ctor(System.Collections.Generic.List{MaxRumsey.OzStripsPlugin.Gui.StripBay},MaxRumsey.OzStripsPlugin.Gui.BayManager,MaxRumsey.OzStripsPlugin.Gui.SocketConn,System.String,System.Int32)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.#ctor(System.Collections.Generic.List{MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay},MaxRumsey.OzStripsPlugin.GUI.BayManager,MaxRumsey.OzStripsPlugin.GUI.SocketConn,System.String,System.Int32,System.Boolean)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Bay"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Bay"/> class.
             </summary>
             <param name="bays">The list of bays.</param>
             <param name="bayManager">The bay manager.</param>
             <param name="socketConn">The socket connection.</param>
             <param name="name">The name of the bay.</param>
             <param name="vertBoardNum">The vertical board number.</param>
+            <param name="CDMDisplay">Whether or not CDM stats are displayed here.</param>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Bay.VerticalBoardNumber">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Bay.VerticalBoardNumber">
             <summary>
             Gets or sets the vertical board number.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Bay.ChildPanel">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Bay.ChildPanel">
             <summary>
             Gets the bay child panel.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Bay.Name">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Bay.Name">
             <summary>
             Gets the name.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Bay.Strips">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Bay.Strips">
             <summary>
             Gets a list of strips.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Bay.BayTypes">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Bay.BayTypes">
             <summary>
             Gets a list of bay types.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Bay.DivPosition">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Bay.DivPosition">
             <summary>
             Gets the div position.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Bay.BayManager">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Bay.BayManager">
             <summary>
             Gets the current bay manager.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.op_Implicit(MaxRumsey.OzStripsPlugin.Gui.Bay)~MaxRumsey.OzStripsPlugin.Gui.DTO.BayDTO">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.op_Implicit(MaxRumsey.OzStripsPlugin.GUI.Bay)~MaxRumsey.OzStripsPlugin.GUI.Shared.BayDTO">
             <summary>
             Converts the Bay into a Bay Transfer object.
             </summary>
             <param name="bay">The bay to convert.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.GetStripHeight">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.GetStripHeight">
             <summary>
             Gets the scaled height of a strip.
             </summary>
             <returns>Height (px).</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.CountQueued">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.CountQueued">
             <summary>
             The number of queues items.
             </summary>
             <returns>The number.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.ResponsibleFor(MaxRumsey.OzStripsPlugin.Gui.StripBay)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.ResponsibleFor(MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay)">
             <summary>
             Gets if this bay is responsible for the bay strip.
             </summary>
             <param name="bay">The bay.</param>
             <returns>True of it is responsible, false otherwise.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.OwnsStrip(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.OwnsStrip(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Gets if this bay owns the strip.
             </summary>
             <param name="controller">The controller.</param>
             <returns>True if it owns the strip, false otherwise.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.RemoveStrip(MaxRumsey.OzStripsPlugin.Gui.Strip,System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.RemoveStrip(MaxRumsey.OzStripsPlugin.GUI.Strip,System.Boolean)">
             <summary>
             Remove the strip if indicated, otherwise orders the strips.
             </summary>
             <param name="controller">The controller to remove.</param>
             <param name="remove">If the controller should be removed or not.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.RemoveStrip(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.RemoveStrip(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Removes the specified strip.
             </summary>
             <param name="controller">The controller.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.WipeStrips">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.WipeStrips">
             <summary>
             Wipes the strips.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.AddStrip(MaxRumsey.OzStripsPlugin.Gui.Strip,System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.AddStrip(MaxRumsey.OzStripsPlugin.GUI.Strip,System.Boolean)">
             <summary>
             Adds the strip to the bay.
             </summary>
@@ -160,31 +161,38 @@
             <param name="inhibitreorders">Whether or not to inhibit reorders.</param>
             <remarks>todo: check for dupes.</remarks>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.ForceRerender">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.ForceRerender">
             <summary>
             Forces a rerender of all the strips.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.ResizeBay">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.ResizeBay">
             <summary>
             Resizes the bay.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.ChangeStripPosition(MaxRumsey.OzStripsPlugin.Gui.StripListItem,System.Int32)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.ChangeStripPosition(MaxRumsey.OzStripsPlugin.GUI.StripListItem,System.Int32)">
             <summary>
             Changes a strip position.
             </summary>
             <param name="item">The strip.</param>
             <param name="relativePosition">The relative position.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.ChangeStripPositionAbs(MaxRumsey.OzStripsPlugin.Gui.StripListItem,System.Int32)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.ChangeStripPositionAbs(MaxRumsey.OzStripsPlugin.GUI.StripListItem,System.Int32)">
             <summary>
             Changes the strip position.
             </summary>
             <param name="item">The strip item to change.</param>
             <param name="abspos">The new position.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.AddBar(System.Int32,System.String,System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.ClientInitiatedStripMove(MaxRumsey.OzStripsPlugin.GUI.StripListItem,System.Int32)">
+            <summary>
+            Moves strip to new position, when iniated by the user, and sends a CDM update if relevant.
+            </summary>
+            <param name="item">Strip item.</param>
+            <param name="index">Index to move it to.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.AddBar(System.Int32,System.String,System.Boolean)">
             <summary>
             Creates and adds the specified bar.
             </summary>
@@ -192,215 +200,215 @@
             <param name="text">Bar text.</param>
             <param name="sync">Whether or not to sync bar to server.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.DeleteBar(MaxRumsey.OzStripsPlugin.Gui.StripListItem,System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.DeleteBar(MaxRumsey.OzStripsPlugin.GUI.StripListItem,System.Boolean)">
             <summary>
             Creates and adds the specified bar.
             </summary>
             <param name="bar">The bar.</param>
             <param name="sync">Whether or not to sync the bar to server.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.GetRequestedHeight">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.GetRequestedHeight">
             <summary>
             Gets the requested bay height.
             </summary>
             <returns>Height (px).</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.GetStripPosition(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.GetStripPosition(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Gets the strip position for a specific strip.
             </summary>
             <param name="strip">Selected strip.</param>
             <returns>Position (px).</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.AddDivider(System.Nullable{System.Boolean},System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.AddDivider(System.Nullable{System.Boolean},System.Boolean)">
             <summary>
             Adds a new divider.
             </summary>
             <param name="force">If the division should be forced.</param>
             <param name="sync">If to sync the changes to the server.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.QueueUp">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.QueueUp">
             <summary>
             Queue the current item up.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.GetListItemByStr(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.GetListItemByStr(System.String)">
             <summary>
             Gets if available a list item by strip name.
             </summary>
             <param name="code">The code of the item.</param>
             <returns>The list item if there is a match, otherwise null.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.ToString">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.ToString">
             <summary>
             To string method.
             </summary>
             <returns>Description.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.GetListItem(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.GetListItem(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Gets if available a list item by strip.
             </summary>
             <param name="strip">The strip.</param>
             <returns>The list item if there is a match, otherwise null.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Bay.Dispose">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.Dispose">
             <summary>
             Dispose.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.BayManager">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.BayManager">
             <summary>
             Handles the bays.
             </summary>
             <remarks>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.BayManager"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.BayManager"/> class.
             </remarks>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.#ctor(System.Windows.Forms.FlowLayoutPanel)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.#ctor(System.Windows.Forms.FlowLayoutPanel)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.BayManager"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.BayManager"/> class.
             </summary>
             <param name="main">The flow layout for the bay.</param>
             <param name="layoutMethod">The current layout caller.</param>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.BayManager.PickedStrip">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.PickedStrip">
             <summary>
             Gets the picked controller.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.BayManager.PickedStripItem">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.PickedStripItem">
             <summary>
             Gets or sets the picked list item.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.BayManager.WorldFlightMode">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.WorldFlightMode">
             <summary>
             Gets or sets a value indicating whether or not WF mode is activated.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.BayManager.StripRepository">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.StripRepository">
             <summary>
             Gets the strip repository.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.BayManager.BayRepository">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.BayRepository">
             <summary>
             Gets the bay repository.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.BayManager.AerodromeName">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.AerodromeName">
             <summary>
             Gets or sets the aerodrome name.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.BayManager.PickedBay">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.PickedBay">
             <summary>
             Gets the bay the current picked striplistitem is from.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.DeSelectAllVatSysTracks(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.DeSelectAllVatSysTracks(System.Boolean)">
             <summary>
             Deselects all vatSys tracks.
             </summary>
             <param name="originatedFromGround">Whether this originated from deselection of a ground track.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.SelectVatSysTracks(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.SelectVatSysTracks(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Sets relevant vatSys selected tracks, when we select an actual strip item.
             </summary>
             <param name="strip">Strip we are setting vatsys tracks to.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.SetPickedCallsignFromVatsys(System.String,System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.SetPickedCallsignFromVatsys(System.String,System.Boolean)">
             <summary>
             Sets the picked callsign, and if deselecting a track, deselects the corresponding air/ground track.
             </summary>
             <param name="callsign">Aircraft callsign.</param>
             <param name="originatedFromGround">Whether or not the track is a ground track.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.ForceStrip(MaxRumsey.OzStripsPlugin.Gui.SocketConn)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.ForceStrip(MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
             <summary>
             Forces a track into the first bay.
             </summary>
             <param name="socketConn">The socket connection.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.SidTrigger">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.SidTrigger">
             <summary>
             SidTriggers the selected strip.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.CockStrip">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.CockStrip">
             <summary>
             Cocks the selected strip.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.Inhibit">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.Inhibit">
             <summary>
             Inhibit the strip.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.SendPDC(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.SendPDC(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Send the PDC.
             </summary>
             <param name="strip">Strip to open PDC form for. Null if use picked controller.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.CrossStrip">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.CrossStrip">
             <summary>
             Toggles crossing highlight on a strip.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.FlipFlopStrip">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.FlipFlopStrip">
             <summary>
             Toggles crossing highlight on a strip.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.DropStrip(MaxRumsey.OzStripsPlugin.Gui.Bay)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.DropStrip(MaxRumsey.OzStripsPlugin.GUI.Bay)">
             <summary>
             Drop the strip to the specified bay.
             </summary>
             <param name="bay">The bay.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.PurgeDataAndSetNewAerodrome(System.String,MaxRumsey.OzStripsPlugin.Gui.SocketConn)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.PurgeDataAndSetNewAerodrome(System.String,MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
             <summary>
             Sets the aerodrome. Reinitialises various classes.
             </summary>
             <param name="name">The name of the aerodrome.</param>
             <param name="socketConn">The socket connection.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.SetPickedStripItem(MaxRumsey.OzStripsPlugin.Gui.StripListItem,MaxRumsey.OzStripsPlugin.Gui.Bay)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.SetPickedStripItem(MaxRumsey.OzStripsPlugin.GUI.StripListItem,MaxRumsey.OzStripsPlugin.GUI.Bay)">
             <summary>
             Sets a strip item to be picked.
             </summary>
             <param name="item">The strip item.</param>
             <param name="bay">The bay the item is from, or null if this is an inhibited strip..</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.TogglePickedStripItem(MaxRumsey.OzStripsPlugin.Gui.StripListItem,MaxRumsey.OzStripsPlugin.Gui.Bay)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.TogglePickedStripItem(MaxRumsey.OzStripsPlugin.GUI.StripListItem,MaxRumsey.OzStripsPlugin.GUI.Bay)">
             <summary>
             Toggles a strip item as picked.
             </summary>
             <param name="item">The strip item.</param>
             <param name="bay">The specified bay.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.SetPickedStripFromExternal(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.SetPickedStripFromExternal(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Sets a controller to be picked, from an FDR.
             </summary>
             <param name="strip">The strip.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.RemovePicked(System.Boolean,System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.RemovePicked(System.Boolean,System.Boolean)">
             <summary>
             Sets the picked controller to be empty.
             </summary>
             <param name="sendToVatsys">Whether or not to update vatSys tracks.</param>
             <param name="force">Override user preference on retaining picked strips.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.WipeStrips">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.WipeStrips">
             <summary>
             Wipe the strips.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.AddStrip(MaxRumsey.OzStripsPlugin.Gui.Strip,System.Boolean,System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.AddStrip(MaxRumsey.OzStripsPlugin.GUI.Strip,System.Boolean,System.Boolean)">
             <summary>
             Adds a strip to the relevant bays. If required, saves the strip and resizes the bays.
             </summary>
@@ -408,36 +416,37 @@
             <param name="save">If the strip should be saved to the server.</param>
             <param name="inhibitreorders">Whether or not to inhibit strip reodering.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.UpdateBay(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.UpdateBay(MaxRumsey.OzStripsPlugin.GUI.Strip,System.Boolean)">
             <summary>
             Runs update function on relevant bays when a strip is moved.
             </summary>
             <param name="strip">The strip controller.</param>
+            <param name="serverInitiated">Whether or not the server iniated this move.</param>
             Called by inhibits, moving strips, sid triggers, server pos updates.
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.ForceRerender">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.ForceRerender">
             <summary>
             Forces a rerender.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.PositionToNextBar(System.Int32)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.PositionToNextBar(System.Int32)">
             <summary>
             Move strips to the next bar.
             </summary>
             <param name="direction">Position (up/down).</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.PositionKey(System.Int32)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.PositionKey(System.Int32)">
             <summary>
             Positions the key.
             </summary>
             <param name="relPos">The relative position.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.QueueUp">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.QueueUp">
             <summary>
             Queues up the selected strip.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.AddBar(System.String,System.Int32,System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.AddBar(System.String,System.Int32,System.String)">
             <summary>
             Creates the specified bar.
             </summary>
@@ -445,7 +454,7 @@
             <param name="type">Type of bay.</param>
             <param name="text">Text on bar.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.DeleteBarByParams(System.String,System.Int32,System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.DeleteBarByParams(System.String,System.Int32,System.String)">
             <summary>
             Deletes a bar by params. Returns true if found.
             </summary>
@@ -454,924 +463,784 @@
             <param name="text">Text on bar.</param>
             <returns>Whether or not the bar was found.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayManager.SetPickedStripClass(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.SetPickedStripClass(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Sets the picked strip item.
             </summary>
             <param name="strip">The strip item.</param>
             <returns>Whether or not the bay was found.</returns>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.BayRepository">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.BayRepository">
             <summary>
             Holds all individual bays.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.#ctor(System.Windows.Forms.FlowLayoutPanel,MaxRumsey.OzStripsPlugin.Gui.BayManager)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.#ctor(System.Windows.Forms.FlowLayoutPanel,MaxRumsey.OzStripsPlugin.GUI.BayManager)">
             <summary>
             Holds all individual bays.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.BayRepository.BayNum">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayRepository.BayNum">
             <summary>
             Gets the number of total bays possible.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.BayRepository.Bays">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayRepository.Bays">
             <summary>
             Gets the list of bays.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.BayRepository.Initialised">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayRepository.Initialised">
             <summary>
             Gets a value indicating whether the FLPs have been initalised.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.UpdateOrder(MaxRumsey.OzStripsPlugin.Gui.DTO.BayDTO)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.UpdateOrder(MaxRumsey.OzStripsPlugin.GUI.Shared.BayDTO)">
             <summary>
             Updates the bay based on the bay data.
             </summary>
             <param name="bayDTO">The bay data.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.DeleteStrip(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.DeleteStrip(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Deletes the specified strip.
             </summary>
             <param name="strip">The strip to delete.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.FindBay(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.FindBay(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Finds the specified bay.
             </summary>
             <param name="stripController">The strip.</param>
             <returns>The bay if the name matches.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.FindBay(MaxRumsey.OzStripsPlugin.Gui.StripListItem)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.FindBay(MaxRumsey.OzStripsPlugin.GUI.StripListItem)">
             <summary>
             Finds the specified bay.
             </summary>
             <param name="item">The strip.</param>
             <returns>The bay if the name matches.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.AddBay(MaxRumsey.OzStripsPlugin.Gui.Bay,System.Int32)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.AddBay(MaxRumsey.OzStripsPlugin.GUI.Bay,System.Int32)">
             <summary>
             Adds the bay to the vertical board.
             </summary>
             <param name="bay">The bay.</param>
             <param name="verticalBoardNumber">The desired vertical board number.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.ReloadStrips(MaxRumsey.OzStripsPlugin.Gui.SocketConn)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.ReloadStrips(MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
             <summary>
             Reloads the strips. Called when stripboard layout is changed.
             </summary>
             <param name="socketConn">Socket connection.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.SetLayout(System.Action{System.Object,System.EventArgs})">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.SetLayout(System.Action{System.Object,System.EventArgs})">
             <summary>
             Sets the current resize mode layout function.
             </summary>
             <param name="func">Layout function.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.ConfigureAndSizeFLPs(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.ConfigureAndSizeFLPs(System.Boolean)">
             <summary>
             Resizes the control.
             </summary>
             <param name="triggerRelayout">Whether or not to force a relayout of bays.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.ResizeStripBays">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.ResizeStripBays">
             <summary>
             Resizes only the strip bays.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.WipeBays">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.WipeBays">
             <summary>
             Wipes the bays.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.ClearVertBoards">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.ClearVertBoards">
             <summary>
             Clears all vertical boards.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.BayRepository.AddVertBoard">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.AddVertBoard">
             <summary>
             Adds a vertical board.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.About">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.CDMStatsRenderController.GetColour(System.Int32)">
+            <summary>
+            Gets the background colour.
+            </summary>
+            <param name="discrepancy">Number of aircraft over/under goal.</param>
+            <returns>Colour.</returns>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.About">
             <summary>
             A about dialog showing copyright and version info.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.About.#ctor">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.About.#ctor">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Controls.About"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.About"/> class.
             </summary>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Controls.About.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.About.components">
             <summary> 
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.About.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.About.Dispose(System.Boolean)">
             <summary> 
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.About.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.About.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.AircraftList">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.AircraftList">
             <summary>
             The list of aircraft contained in the quick search.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.AircraftList.#ctor(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.AircraftList.#ctor(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             The list of aircraft contained in the quick search.
             </summary>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Controls.AircraftList._strip">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.AircraftList._strip">
             <summary>
             Aircraft strip object.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.AircraftList.Callsign">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AircraftList.Callsign">
             <summary>
             Gets the aircraft callsign.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.AircraftList.Bay">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AircraftList.Bay">
             <summary>
             Gets the aircraft bay name.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.AltHdgControl">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl">
             <summary>
             A altitude and heading control.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.AltHdgControl.#ctor(MaxRumsey.OzStripsPlugin.Gui.Strip,System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.#ctor(MaxRumsey.OzStripsPlugin.GUI.Strip,System.String)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Controls.AltHdgControl"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl"/> class.
             </summary>
             <param name="controller">The controller.</param>
             <param name="callingLabel">The label item to be selected upon opening.</param>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.AltHdgControl.Hdg">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.Hdg">
             <summary>
             Gets the heading.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.AltHdgControl.Alt">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.Alt">
             <summary>
             Gets the altitude.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.AltHdgControl.Runway">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.Runway">
             <summary>
             Gets the runway.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.AltHdgControl.SID">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.SID">
             <summary>
             Gets the SID.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.AltHdgControl.BaseModal">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.BaseModal">
             <summary>
             Gets or sets the base modal.
             </summary>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Controls.AltHdgControl.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.components">
             <summary> 
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.AltHdgControl.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.Dispose(System.Boolean)">
             <summary> 
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.AltHdgControl.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.BarCreator">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.BarCreator">
             <summary>
             Represents the control used when creates bars.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.BarCreator.#ctor(MaxRumsey.OzStripsPlugin.Gui.BayManager)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BarCreator.#ctor(MaxRumsey.OzStripsPlugin.GUI.BayManager)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Controls.BarCreator"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.BarCreator"/> class.
             </summary>
             <param name="bayManager">Current baymanager.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.BarCreator.ModalReturned(System.Object,MaxRumsey.OzStripsPlugin.Gui.ModalReturnArgs)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BarCreator.ModalReturned(System.Object,MaxRumsey.OzStripsPlugin.GUI.ModalReturnArgs)">
             <summary>
             Called when parent modal is returned.
             </summary>
             <param name="sender">Sender.</param>
             <param name="e">Args.</param>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Controls.BarCreator.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.BarCreator.components">
             <summary> 
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.BarCreator.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BarCreator.Dispose(System.Boolean)">
             <summary> 
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.BarCreator.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BarCreator.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.BayCLXControl">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl">
             <summary>
             Represents a bay clearance.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.BayCLXControl.#ctor(MaxRumsey.OzStripsPlugin.Gui.Strip,System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.#ctor(MaxRumsey.OzStripsPlugin.GUI.Strip,System.String)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Controls.BayCLXControl"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl"/> class.
             </summary>
             <param name="controller">The strip controller.</param>
             <param name="labelName">The label that opened the control.</param>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.BayCLXControl.BaseModal">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.BaseModal">
             <summary>
             Gets or sets the base modal.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.BayCLXControl.CLX">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.CLX">
             <summary>
             Gets the clearance text.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.BayCLXControl.Gate">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.Gate">
             <summary>
             Gets the gate text.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.BayCLXControl.Remark">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.Remark">
             <summary>
             Gets the remarks text.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.BayCLXControl.Glop">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.Glop">
             <summary>
             Gets the glip text.
             </summary>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Controls.BayCLXControl.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.components">
             <summary> 
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.BayCLXControl.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.Dispose(System.Boolean)">
             <summary> 
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.BayCLXControl.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.BayControl">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.BayControl">
             <summary>
             A control representing a bay.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.BayControl.#ctor(MaxRumsey.OzStripsPlugin.Gui.BayManager,System.String,MaxRumsey.OzStripsPlugin.Gui.Bay)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BayControl.#ctor(MaxRumsey.OzStripsPlugin.GUI.BayManager,System.String,MaxRumsey.OzStripsPlugin.GUI.Bay,System.Boolean,MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Controls.BayControl"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.BayControl"/> class.
             </summary>
             <param name="bm">The bay manager.</param>
             <param name="name">The bay name.</param>
             <param name="bay">The bay.</param>
+            <param name="cdmDisplay">Whether or not CDM stats are displayed in this bay.</param>
+            <param name="socketConn">Socket connection.</param>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.BayControl.ChildPanel">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.BayControl.ChildPanel">
             <summary>
             Gets the child panel.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.BayControl.ConfigureScroll">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BayControl.ConfigureScroll">
             <summary>
             Configures the scroll bar after a resize.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.BayControl.SetPicked(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BayControl.SetPicked(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Sets the picked strip.
             </summary>
             <param name="strip">Picked strip.</param>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Controls.BayControl.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.BayControl.components">
             <summary> 
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.BayControl.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BayControl.Dispose(System.Boolean)">
             <summary> 
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.BayControl.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BayControl.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.CustomFLP">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.CDMAircraftControl">
+            <summary>
+            Presents information about the current CDM result to the user.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.CDMAircraftControl.#ctor(MaxRumsey.OzStripsPlugin.GUI.Shared.CDMResultDTO,System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.CDMAircraftControl"/> class.
+            </summary>
+            <param name="cdmDTO">CDM DTO object.</param>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.CDMAircraftControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.CDMAircraftControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.CDMAircraftControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.CustomFLP">
             <summary>
             A custom flow layout panel.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.CustomFLP.#ctor">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.CustomFLP.#ctor">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Controls.CustomFLP"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.CustomFLP"/> class.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.DividerBarControl">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.DividerBarControl">
             <summary>
             A divider control bar.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.DividerBarControl.#ctor">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DividerBarControl.#ctor">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Controls.DividerBarControl"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.DividerBarControl"/> class.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.DividerBarControl.ReloadSize">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DividerBarControl.ReloadSize">
             <summary>
             Sets the size of the divider bar in accordance with the size of strips.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.DividerBarControl.SetVal(System.Int32)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DividerBarControl.SetVal(System.Int32)">
             <summary>
             Sets the queue number.
             </summary>
             <param name="num">The number.</param>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Controls.DividerBarControl.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.DividerBarControl.components">
             <summary> 
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.DividerBarControl.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DividerBarControl.Dispose(System.Boolean)">
             <summary> 
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.DividerBarControl.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DividerBarControl.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.ManualMsgDebug">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.ManualMsgDebug">
             <summary>
             Send the user a manual message.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.ManualMsgDebug.#ctor(MaxRumsey.OzStripsPlugin.Gui.BayManager)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.ManualMsgDebug.#ctor(MaxRumsey.OzStripsPlugin.GUI.BayManager)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Controls.ManualMsgDebug"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.ManualMsgDebug"/> class.
             </summary>
             <param name="bayManager">The bay manager.</param>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Controls.ManualMsgDebug.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.ManualMsgDebug.components">
             <summary> 
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.ManualMsgDebug.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.ManualMsgDebug.Dispose(System.Boolean)">
             <summary> 
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.ManualMsgDebug.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.ManualMsgDebug.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.MsgListDebug">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.MsgListDebug">
             <summary>
             A msg list debugger control.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.MsgListDebug.#ctor(MaxRumsey.OzStripsPlugin.Gui.SocketConn)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.MsgListDebug.#ctor(MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Controls.MsgListDebug"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.MsgListDebug"/> class.
             </summary>
             <param name="socketConn">The socket connection.</param>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Controls.MsgListDebug.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.MsgListDebug.components">
             <summary> 
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.MsgListDebug.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.MsgListDebug.Dispose(System.Boolean)">
             <summary> 
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.MsgListDebug.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.MsgListDebug.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.NoScrollFLP">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.NoScrollFLP">
             <summary>
             A FlowLayoutPanel that does not scroll when it loses and regains focus.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.NoScrollFLP.ScrollToControl(System.Windows.Forms.Control)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.NoScrollFLP.ScrollToControl(System.Windows.Forms.Control)">
             <summary>
             Prevents scrolling to control.
             </summary>
             <param name="activeControl">The active control</param>
             <returns>Point.</returns>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.NoScrollPanel">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.NoScrollPanel">
             <summary>
             A Panel that does not scroll when it loses and regains focus.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.NoScrollPanel.ScrollToControl(System.Windows.Forms.Control)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.NoScrollPanel.ScrollToControl(System.Windows.Forms.Control)">
             <summary>
             Prevents scrolling to control.
             </summary>
             <param name="activeControl">The active control</param>
             <returns>Point.</returns>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.QuickSearch">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.QuickSearch">
             <summary>
             Represents the control used when creates bars.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.QuickSearch.#ctor(MaxRumsey.OzStripsPlugin.Gui.BayManager)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.QuickSearch.#ctor(MaxRumsey.OzStripsPlugin.GUI.BayManager)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Controls.QuickSearch"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.QuickSearch"/> class.
             </summary>
             <param name="bayManager">Current baymanager.</param>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.QuickSearch.Aircrafts">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.QuickSearch.Aircrafts">
             <summary>
             Gets the list of aircraft in the table.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.QuickSearch.Selected">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.QuickSearch.Selected">
             <summary>
             Gets the selected strip.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Controls.QuickSearch.BaseModal">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.QuickSearch.BaseModal">
             <summary>
             Gets or sets the base modal that this control is contained in.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.QuickSearch.ModalReturned(System.Object,MaxRumsey.OzStripsPlugin.Gui.ModalReturnArgs)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.QuickSearch.ModalReturned(System.Object,MaxRumsey.OzStripsPlugin.GUI.ModalReturnArgs)">
             <summary>
             Called when parent modal is returned.
             </summary>
             <param name="sender">Sender.</param>
             <param name="e">Args.</param>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Controls.QuickSearch.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.QuickSearch.components">
             <summary> 
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.QuickSearch.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.QuickSearch.Dispose(System.Boolean)">
             <summary> 
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.QuickSearch.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.QuickSearch.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.RerouteControl">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.RerouteControl">
             <summary>
             A altitude and heading control.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.RerouteControl.#ctor(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.RerouteControl.#ctor(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Controls.RerouteControl"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.RerouteControl"/> class.
             </summary>
             <param name="controller">The controller.</param>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Controls.RerouteControl.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.RerouteControl.components">
             <summary> 
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.RerouteControl.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.RerouteControl.Dispose(System.Boolean)">
             <summary> 
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.RerouteControl.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.RerouteControl.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Controls.SettingsWindowControl">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.SettingsWindowControl">
             <summary>
             A altitude and heading control.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.SettingsWindowControl.#ctor(MaxRumsey.OzStripsPlugin.Gui.SocketConn,System.Collections.Generic.List{System.String})">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.SettingsWindowControl.#ctor(MaxRumsey.OzStripsPlugin.GUI.SocketConn,System.Collections.Generic.List{System.String})">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Controls.SettingsWindowControl"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.SettingsWindowControl"/> class.
             </summary>
             <param name="socketConn">Socket Controller.</param>
             <param name="aerodromes">List of aerodromes.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.SettingsWindowControl.ModalReturned(System.Object,MaxRumsey.OzStripsPlugin.Gui.ModalReturnArgs)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.SettingsWindowControl.ModalReturned(System.Object,MaxRumsey.OzStripsPlugin.GUI.ModalReturnArgs)">
             <summary>
             Called when the modal is closed.
             </summary>
             <param name="source">Source.</param>
             <param name="args">Arguments.</param>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Controls.SettingsWindowControl.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.SettingsWindowControl.components">
             <summary> 
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.SettingsWindowControl.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.SettingsWindowControl.Dispose(System.Boolean)">
             <summary> 
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Controls.SettingsWindowControl.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.SettingsWindowControl.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.AerodromeList">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeList">
             <summary>
             Represents items in XML FIle.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.AerodromeSettings">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings">
             <summary>
             Represents an object carrying the aerodrome settings.
             </summary>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.DTO.AerodromeSettings.ConcernedSectors">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.ConcernedSectors">
             <summary>
             Gets or sets a list of concerned positions.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.AutoOpen">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AutoOpen">
             <summary>
             Represents items in XML FIle.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.BayDTO">
-            <summary>
-            Represents the bay configuration with a list of strips.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.BayDTO.bay">
-            <summary>
-            Gets or sets the bay information.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.BayDTO.list">
-            <summary>
-            Gets or sets the list of items or strips in the bay.
-            </summary>
-        </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.CacheDTO">
-            <summary>
-            Represents a collection of strip controller data objects.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.CacheDTO.strips">
-            <summary>
-            Gets or sets the list of strip controllers.
-            </summary>
-        </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.ConcernedSector">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.ConcernedSector">
             <summary>
             Represents items in XML FIle.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.ConnectionMetadataDTO">
-            <summary>
-            Represents metadata about the connection to the OzStrips server.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.ConnectionMetadataDTO.Version">
-            <summary>
-            Gets or sets the version of the OzStrips plugin.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.ConnectionMetadataDTO.APIVersion">
-            <summary>
-            Gets or sets the API version of the client.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.ConnectionMetadataDTO.Server">
-            <summary>
-            Gets or sets the current server type.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.ConnectionMetadataDTO.AerodromeName">
-            <summary>
-            Gets or sets the current aerodrome nmae.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.ConnectionMetadataDTO.Callsign">
-            <summary>
-            Gets or sets the user callsign.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.ConnectionMetadataDTO.VatsimID">
-            <summary>
-            Gets or sets the VATSIM ID of the user.
-            </summary>
-        </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.RouteDTO">
-            <summary>
-            Represents the route returned from ERSA FPR for a specific city pair.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.RouteDTO.AircraftType">
-            <summary>
-            Gets or sets the aircraft type.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.RouteDTO.RouteText">
-            <summary>
-            Gets or sets the route information.
-            </summary>
-        </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.SCDeletionDTO">
-            <summary>
-            Represents a controller strip with various operational details.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.SCDeletionDTO.acid">
-            <summary>
-            Gets or sets the aircraft identifier.
-            </summary>
-        </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO">
-            <summary>
-            Represents a controller strip with various operational details.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO.bay">
-            <summary>
-            Gets or sets the bay information for the strip.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO.cockLevel">
-            <summary>
-            Gets or sets the cock level.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO.CLX">
-            <summary>
-            Gets or sets the clearance.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO.GATE">
-            <summary>
-            Gets or sets the gate information.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO.TOT">
-            <summary>
-            Gets or sets the time of takeoff.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO.crossing">
-            <summary>
-            Gets or sets a value indicating whether the aircraft is crossing.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO.subbay">
-            <summary>
-            Gets or sets the subbay information.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO.remark">
-            <summary>
-            Gets or sets any remarks associated with the strip.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO.ready">
-            <summary>
-            Gets or sets a value indicating the ready status associated with the strip.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO.StripKey">
-            <summary>
-            Gets or sets the strip key which uniquely identifies the strip.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO.OverrideStripType">
-            <summary>
-            Gets or sets the strip overriden type.
-            </summary>
-        </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElement">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement">
             <summary>
             Represents items in XML FIle.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElement.Value">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.Value">
             <summary>
             Gets or sets the content of the strip item.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElement.LeftClick">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.LeftClick">
             <summary>
             Gets or sets the left click action.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElement.RightClick">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.RightClick">
             <summary>
             Gets or sets the left click action.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElement.Hover">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.Hover">
             <summary>
             Gets or sets the left click action.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElement.X">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.X">
             <summary>
             Gets or sets the Origin.X.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElement.Y">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.Y">
             <summary>
             Gets or sets the Origin.Y.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElement.W">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.W">
             <summary>
             Gets or sets strip width.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElement.H">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.H">
             <summary>
             Gets or sets strip height.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElement.FontSize">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.FontSize">
             <summary>
             Gets or sets the font size in pixels.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElementList">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElementList">
             <summary>
             Represents a list of strip elements.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElementList.Instance">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElementList.Instance">
             <summary>
             Gets or sets the currently loaded stirpelementlist layout.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripElementList.List">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElementList.List">
             <summary>
             Gets or sets a list of strip elements.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.DTO.StripKey">
-            <summary>
-            key for a strip, used to identify it uniquely.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripKey.Callsign">
-            <summary>
-            Gets or sets the callsign of the aircraft.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripKey.VatsimID">
-            <summary>
-            Gets or sets the VATSIM ID of the aircraft.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripKey.ADEP">
-            <summary>
-            Gets or sets the departure airport of the aircraft.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.DTO.StripKey.ADES">
-            <summary>
-            Gets or sets the destination airport of the aircraft.
-            </summary>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.DTO.StripKey.Matches(MaxRumsey.OzStripsPlugin.Gui.DTO.StripKey)">
-            <summary>
-            Whether this key matches another stripkey.
-            </summary>
-            <param name="other">Key to compare.</param>
-            <returns>Matches.</returns>
-        </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.IRenderedStripItem">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.IRenderedStripItem">
             <summary>
             Represents a rendered item that appears in a strip bay.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.IRenderedStripItem.ElementOrigin">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.IRenderedStripItem.ElementOrigin">
             <summary>
             Gets or sets the origin strip elements are drawn at.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.IRenderedStripItem.Origin">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.IRenderedStripItem.Origin">
             <summary>
             Gets or sets the origin of the strip item.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.IRenderedStripItem.HandleClick(System.Windows.Forms.MouseEventArgs)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.IRenderedStripItem.HandleClick(System.Windows.Forms.MouseEventArgs)">
             <summary>
             Triggered when the item is clicked.
             </summary>
             <param name="e">The mouse event args.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.IRenderedStripItem.HandleHover(System.Drawing.Point)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.IRenderedStripItem.HandleHover(System.Drawing.Point)">
             <summary>
             Triggered when the item is hovered on.
             </summary>
             <param name="point">The mouse position.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.IRenderedStripItem.Render(SkiaSharp.SKCanvas)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.IRenderedStripItem.Render(SkiaSharp.SKCanvas)">
             <summary>
             Called when the item is rendered.
             </summary>
             <param name="canvas">Canvas.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.IRenderedStripItem.MarkPicked(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.IRenderedStripItem.MarkPicked(System.Boolean)">
             <summary>
             Marks the strip as picked or not.
             </summary>
             <param name="picked">Whether to mark them as picked or not.</param>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.MainForm">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.MainForm">
             <summary>
             The main application form.
             </summary>
             All but the most basic of logic is abstracted to MainFormController
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainForm.#ctor(System.Boolean,MaxRumsey.OzStripsPlugin.Gui.AerodromeManager)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainForm.#ctor(System.Boolean,MaxRumsey.OzStripsPlugin.GUI.AerodromeManager)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.MainForm"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.MainForm"/> class.
             </summary>
             <param name="readyForConnection">Whether the client can establish a server connection.</param>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.MainForm.MainFormInstance">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.MainFormInstance">
             <summary>
             Gets a singleton version of the main form.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.MainForm.IsDebug">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.IsDebug">
             <summary>
             Gets a value indicating whether we are currently in a Visual Studio debug session.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.MainForm.CreateParams">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.CreateParams">
             <inheritdoc/>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainForm.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainForm.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
             <summary>
             Overrides keypress event to capture all keypresses.
             </summary>
@@ -1379,107 +1248,107 @@
             <param name="keyData">Key.</param>
             <returns>Handled.</returns>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.MainForm.components">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.MainForm.components">
             <summary>
             Required designer variable.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainForm.Dispose(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainForm.Dispose(System.Boolean)">
             <summary>
             Clean up any resources being used.
             </summary>
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainForm.InitializeComponent">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainForm.InitializeComponent">
             <summary>
             Required method for Designer support - do not modify
             the contents of this method with the code editor.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.MainFormController.ReadyForConnection">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ReadyForConnection">
             <summary>
             Gets whether or not a connection can be made to the server.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.SetCustomAerodromeList(System.Collections.Generic.List{System.String})">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.SetCustomAerodromeList(System.Collections.Generic.List{System.String})">
             <summary>
             Gets or sets the custom list of aerodromes.
             </summary>
             <param name="value">The list of aerodromes.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.MarkConnectionReadiness(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.MarkConnectionReadiness(System.Boolean)">
             <summary>
             Marks whether or not a connection is ready to be established to the server.
             </summary>
             <param name="readyForConnection">Whether or not a connection can be made.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.ForceResize">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ForceResize">
             <summary>
             Forces a resize event to redraw stripbays.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.SetAerodrome(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.SetAerodrome(System.String)">
             <summary>
             Sets the current aerodrome. Called by the GUI, and subsequently calls SetAerodrome() for various managers.
             </summary>
             <param name="name">The aerodrome name.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.MoveLateralAerodrome(System.Int32)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.MoveLateralAerodrome(System.Int32)">
             <summary>
             Moves to the next/previous aerodrome.
             </summary>
             <param name="direction">Direction to move in.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.SetMetar(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.SetMetar(System.String)">
             <summary>
             Sets the METAR information. Called from SocketConn.
             </summary>
             <param name="metar">The METAR.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.SetClientList(System.Collections.Generic.List{System.String})">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.SetClientList(System.Collections.Generic.List{System.String})">
             <summary>
             Sets the list of online clients. Called from SocketConn.
             </summary>
             <param name="clients">The list of clients.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.SetConnStatus">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.SetConnStatus">
             <summary>
             Sets the connection status, green is connected, orange/red if not.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.SetSelectedTrack(System.String,System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.SetSelectedTrack(System.String,System.Boolean)">
             <summary>
             Sets the selected track from vatSys.
             </summary>
             <param name="callsign">Selected Callsign.</param>
             <param name="ground">Whether or not the track is a ground track.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.DisconnectVATSIM">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.DisconnectVATSIM">
             <summary>
             Disconnects from VATSIM.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.ForceStrip(System.Object,System.EventArgs)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ForceStrip(System.Object,System.EventArgs)">
             <summary>
             Forces a strip.
             </summary>
             <param name="sender">Sending object.</param>
             <param name="e">EventArgs.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.UpdateFDR(vatsys.FDP2.FDR)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.UpdateFDR(vatsys.FDP2.FDR)">
             <summary>
             Updates the flight data record.
             </summary>
             <param name="fdr">The flgiht data record.</param>
             <remarks>Triggered from Connector plugin.</remarks>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.HandleDisconnect(vatsys.Network.PilotUpdateEventArgs)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.HandleDisconnect(vatsys.Network.PilotUpdateEventArgs)">
             <summary>
             Handles a pilot disconnecting from vatSys.
             </summary>
             <param name="args">Event arguments.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
             <summary>
             Overrides keypress event to capture all keypresses.
             </summary>
@@ -1487,649 +1356,691 @@
             <param name="keyData">Key.</param>
             <returns>Handled.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.SetATISCode(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.SetATISCode(System.String)">
             <summary>
             Sets the ATIS code. Called from SocketConn.
             </summary>
             <param name="code">The ATIS code.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.ShowQuickSearch">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ShowQuickSearch">
             <summary>
             Opens the settings window.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.MainFormController.ShowSettings(System.Object,System.EventArgs)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ShowSettings(System.Object,System.EventArgs)">
             <summary>
             Opens the settings window.
             </summary>
             <param name="sender">Sender.</param>
             <param name="e">Args.</param>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.ModalReturnArgs">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.ModalReturnArgs">
             <summary>
             Return value from the modal return value.
             </summary>
             <remarks>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.ModalReturnArgs"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.ModalReturnArgs"/> class.
             </remarks>
             <param name="child">The child.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.ModalReturnArgs.#ctor(System.Windows.Forms.Control)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.ModalReturnArgs.#ctor(System.Windows.Forms.Control)">
             <summary>
             Return value from the modal return value.
             </summary>
             <remarks>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.ModalReturnArgs"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.ModalReturnArgs"/> class.
             </remarks>
             <param name="child">The child.</param>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.ModalReturnArgs.Child">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.ModalReturnArgs.Child">
             <summary>
             Gets the child.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.OzStripsConfig">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.OzStrips">
+            <summary>
+            The main VatSys plugin implementation.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.OzStrips"/> class.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStrips.Name">
+            <summary>
+            Gets the name of the plugin.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.OnFDRUpdate(vatsys.FDP2.FDR)">
+            <summary>
+            Happens when a FDR update happens.
+            </summary>
+            <param name="updated">The information about the update.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.OnRadarTrackUpdate(vatsys.RDP.RadarTrack)">
+            <summary>
+            Updates the radar track.
+            </summary>
+            <param name="updated">The updated details about the radar track.</param>
+            <remarks>
+            Not needed for this plugin. But you could for instance, use the new position of the
+            radar track or its change in state (cancelled, etc.) to do some processing.
+            </remarks>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.Dispose">
+            <inheritdoc/>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.CheckVersion">
+            <summary>
+            Checks the version of the plugin.
+            If we are running or a old verison, or the version failed to load,
+            it will add to VatSys error list and prompt the user to update.
+            </summary>
+            <returns>A task to monitor async operations.</returns>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.Connected(System.Object,System.EventArgs)">
+            <summary>
+            A callback if a connection is made to VATSIM.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">A empty event arguments.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.Disconnected(System.Object,System.EventArgs)">
+            <summary>
+            A callback if a disconnection is made with VATSIM.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">A empty event arguments.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.SelectedAirTrackChanged(System.Object,System.EventArgs)">
+            <summary>
+            Fired on the last selected air track being sent.
+            </summary>
+            <param name="obj">Event obj.</param>
+            <param name="args">Event Args.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.SelectedGroundTrackChanged(System.Object,System.EventArgs)">
+            <summary>
+            Fired on the last selected air track being sent.
+            </summary>
+            <param name="obj">Event obj.</param>
+            <param name="args">Event Args.</param>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig">
             <summary>
               A strongly-typed resource class, for looking up localized strings, etc.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.OzStripsConfig.ResourceManager">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.ResourceManager">
             <summary>
               Returns the cached ResourceManager instance used by this class.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.OzStripsConfig.Culture">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.Culture">
             <summary>
               Overrides the current thread's CurrentUICulture property for all
               resource lookups using this strongly typed resource class.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.OzStripsConfig.apiversion">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.apiversion">
             <summary>
               Looks up a localized string similar to 1.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.OzStripsConfig.socketioaddr">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.cdmsite">
+            <summary>
+              Looks up a localized string similar to https://cdm.maxrumsey.xyz/ops/.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.socketioaddr">
             <summary>
               Looks up a localized string similar to https://ozstripsserver.maxrumsey.xyz/.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.OzStripsConfig.version">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.version">
             <summary>
-              Looks up a localized string similar to 0.6.3.
+              Looks up a localized string similar to 0.7.0.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Properties.Resources">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Properties.Resources">
             <summary>
               A strongly-typed resource class, for looking up localized strings, etc.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Properties.Resources.ResourceManager">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Properties.Resources.ResourceManager">
             <summary>
               Returns the cached ResourceManager instance used by this class.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Properties.Resources.Culture">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Properties.Resources.Culture">
             <summary>
               Overrides the current thread's CurrentUICulture property for all
               resource lookups using this strongly typed resource class.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Properties.Resources.terminus">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Properties.Resources.terminus">
             <summary>
               Looks up a localized resource of type System.Byte[].
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Properties.Resources.TerminusTTF_Bold_B">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Properties.Resources.TerminusTTF_Bold_B">
             <summary>
               Looks up a localized resource of type System.Byte[].
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.SocketConn">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.SocketConn">
             <summary>
             Handles communications by the sockets.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.#ctor(MaxRumsey.OzStripsPlugin.Gui.BayManager,MaxRumsey.OzStripsPlugin.Gui.MainFormController)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.#ctor(MaxRumsey.OzStripsPlugin.GUI.BayManager,MaxRumsey.OzStripsPlugin.GUI.MainFormController)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.SocketConn"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.SocketConn"/> class.
             </summary>
             <param name="bayManager">The bay manager.</param>
             <param name="mainForm">The main form instance.</param>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.SocketConn.Servers">
-            <summary>
-            Available server types.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.SocketConn.Servers.VATSIM">
-            <summary>
-            Default connection.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.SocketConn.Servers.SWEATBOX1">
-            <summary>
-            Sweatbox 1.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.SocketConn.Servers.SWEATBOX2">
-            <summary>
-            Sweatbox 2.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.SocketConn.Servers.SWEATBOX3">
-            <summary>
-            Sweatbox 3.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.SocketConn.Messages">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Messages">
             <summary>
             Gets the messages, used for debugging.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.SocketConn.Server">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Server">
             <summary>
             Gets or sets the current server type.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.SocketConn.Connected">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Connected">
             <summary>
             Gets or sets a value indicating whether the client is connected.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.SocketConn.CanSendDTO">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.CanSendDTO">
             <summary>
             Gets a value indicating whether the user has permission to send data to server.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.SyncSC(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SyncSC(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Syncs the strip controller.
             </summary>
             <param name="sc">The strip controller.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.SendStripStatus(MaxRumsey.OzStripsPlugin.Gui.Strip,System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SendStripStatus(MaxRumsey.OzStripsPlugin.GUI.Strip,System.String)">
             <summary>
             Sends strip status to the server.
             </summary>
             <param name="strip">Strip object.</param>
             <param name="acid">Strip callsign.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.RequestRoutes(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SendCDMUpdate(MaxRumsey.OzStripsPlugin.GUI.Strip,MaxRumsey.OzStripsPlugin.GUI.Shared.CDMState)">
+            <summary>
+            Sends a CDM update to the server.
+            </summary>
+            <param name="strip">Strip.</param>
+            <param name="state">Current state.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.RequestRoutes(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Requests routes for a given sc.
             </summary>
             <param name="sc">The strip controller.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.RequestStrip(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.RequestStrip(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Requests strip data from the server.
             </summary>
             <param name="strip">Strip to fetch.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.ReadyForBayData(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.ReadyForBayData(System.Boolean)">
             <summary>
             Requests bay order data from server.
             </summary>
             <param name="force">Whether or not to force fetching of bay data.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.SyncDeletion(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SyncDeletion(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Syncs the deletion of a controller.
             </summary>
             <param name="sc">The strip controller.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.SyncBay(MaxRumsey.OzStripsPlugin.Gui.Bay)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SyncBay(MaxRumsey.OzStripsPlugin.GUI.Bay)">
             <summary>
             Sync the bay to the socket.
             </summary>
             <param name="bay">The bay to sync.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.SubscribeToAerodrome">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.RequestCircuit(System.Boolean)">
+            <summary>
+            Sends circuit activity status to the server.
+            </summary>
+            <param name="status">Circuit enabled.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SendCDMParameters(MaxRumsey.OzStripsPlugin.GUI.Shared.CDMParameters)">
+            <summary>
+            Sends new CDM parameters to the server.
+            </summary>
+            <param name="param">CDM Parameters.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SubscribeToAerodrome">
             <summary>
             Sets the aerodrome based on the bay manager.
             </summary>
             <returns>Task.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.SetServerType(MaxRumsey.OzStripsPlugin.Gui.SocketConn.Servers)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SetServerType(MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Servers)">
             <summary>
             Sets the server type.
             </summary>
             <param name="type">Server connection type.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.SendCache">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SendCache">
             <summary>
             Sends the cache to the server.
             </summary>
             <returns>Task.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.Close">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SendCDMFull">
+            <summary>
+            Uplinks all CDM-active aircraft to the server.
+            </summary>
+            <returns>Task.</returns>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Close">
             <summary>
             Disconnects from the server.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.Connect">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Connect">
             <summary>
             Creates a connection to the server.
             </summary>
             <returns>Task.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.Disconnect">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Disconnect">
             <summary>
             Disconnects the io.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.Dispose">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Dispose">
             <inheritdoc/>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.SocketConn.CreateCacheDTO">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.CreateCacheDTO">
             <summary>
             Creates the cache data transfer object.
             </summary>
             <returns>The cache data transfer object.</returns>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Strip">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Strip">
             <summary>
             Responsible for strip logic, represents a Vatsys FDR.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.#ctor(vatsys.FDP2.FDR,MaxRumsey.OzStripsPlugin.Gui.BayManager,MaxRumsey.OzStripsPlugin.Gui.SocketConn)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.#ctor(vatsys.FDP2.FDR,MaxRumsey.OzStripsPlugin.GUI.BayManager,MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.Strip"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Strip"/> class.
             </summary>
             <param name="fdr">The flight data record.</param>
             <param name="bayManager">Gets or sets the bay manager.</param>
             <param name="socketConn">The socket connection.</param>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.TakeOffTime">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.TakeOffTime">
             <summary>
             Gets or sets the take off time.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.ValidRoutes">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.CDMResult">
+            <summary>
+            Gets the existing CDMResultDTO for this aircraft.
+            </summary>
+            If CDM not enabled, returns null.
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.ReadyToPush">
+            <summary>
+            Gets a value indicating whether or not push is allowed according to CDM rules.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.ValidRoutes">
             <summary>
             Gets or sets the valid routes.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.CondensedRoute">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.CondensedRoute">
             <summary>
             Gets or sets the condensed route.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.RequestedRoutes">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.RequestedRoutes">
             <summary>
             Gets or sets a value indicating whether or not a list of valid routes has been selected.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.ParsedRoutes">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.ParsedRoutes">
             <summary>
             Gets or sets a value indicating whether or not a list of valid routes has been compared to the current route.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.OriginalAerodromePair">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.OriginalAerodromePair">
             <summary>
             Gets or sets a string containing the aerodrome pair that valid routes were fetched for.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.DodgyRoute">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.DodgyRoute">
             <summary>
             Gets or sets a value indicating whether or not an aircraft has filed a dodgy route.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.ParentAerodrome">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.ParentAerodrome">
             <summary>
             Gets the ICAO name of the aerodrome being controlled.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.Controller">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Server">
+            <summary>
+            Gets the current server code.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Controller">
             <summary>
             Gets the strip view controller.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.FDR">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.FDR">
             <summary>
             Gets the flight data record.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.CurrentBay">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.CurrentBay">
             <summary>
             Gets or sets the current strip bay.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.CockLevel">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.CockLevel">
             <summary>
             Gets or sets the current cock level.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.Crossing">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Crossing">
             <summary>
             Gets or sets a value indicating whether or not the strip is in crossing mode.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.StripKey">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.StripKey">
             <summary>
             Gets the strip key.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.DefaultStripType">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.DefaultStripType">
             <summary>
             Gets the default or original strip type, regardless of any overrides.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.StripType">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.StripType">
             <summary>
             Gets the arrival or departure type.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.OverrideStripType">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.OverrideStripType">
             <summary>
             Gets or sets a value which when set will override the default arr/dep type.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.CFL">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.CFL">
             <summary>
             Gets or sets the CFL.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.CLX">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.CLX">
             <summary>
             Gets or sets the clearance.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.Remark">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Remark">
             <summary>
             Gets or sets the remarks.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.RFL">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.RFL">
             <summary>
             Gets he requested flight level.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.Ready">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Ready">
             <summary>
             Gets or sets a value indicating whether the strip is ready for departure.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.Gate">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Gate">
             <summary>
             Gets or sets the gate.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.HDG">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.HDG">
             <summary>
             Gets or sets the heading.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.Time">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Time">
             <summary>
             Gets the current eobt time.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.RWY">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.RWY">
             <summary>
             Gets or sets the runway.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.SIDTransition">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.SIDTransition">
             <summary>
             Gets the SID transition for the strip, if applicable.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.FirstWpt">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.FirstWpt">
             <summary>
             Gets the first element in the route.
             Don't include first waypoint, and if going DCT, mark first element as DCT.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.VFRSIDAssigned">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.VFRSIDAssigned">
             <summary>
             Gets a value indicating whether a VFR aircraft has been given a SID.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.Route">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Route">
             <summary>
             Gets the full route text in the route.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.SID">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.SID">
             <summary>
             Gets or sets the SID.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.PossibleDepRunways">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.PossibleDepRunways">
             <summary>
             Gets a list of possible departure runways.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.SquawkCorrect">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.SquawkCorrect">
             <summary>
             Gets a value indicating whether the squawk code is correct.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.NextBayDep">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.NextBayDep">
             <summary>
             Gets a dictionary which contains the departure next state for a given state.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.NextBayArr">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.NextBayArr">
             <summary>
             Gets a dictionary which contains the arrival next state for a given state.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.Strip.NextBayLocal">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.NextBayLocal">
             <summary>
             Gets a dictionary which contains the arrival next state for a given state.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.op_Implicit(MaxRumsey.OzStripsPlugin.Gui.Strip)~MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.op_Implicit(MaxRumsey.OzStripsPlugin.GUI.Strip)~MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO">
             <summary>
             Converts a strip controller to the data object.
             </summary>
             <param name="sc">The strip controller.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.SetHMIPicked(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.SetHMIPicked(System.Boolean)">
             <summary>
             Sets the HMI picked state.
             </summary>
             <param name="picked">True if picked, false otherwise.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.CockStrip">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.CockStrip">
             <summary>
             Cocks the selected strip.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.TakeOff">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.TakeOff">
             <summary>
             That the strip has taken off.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.FlipFlop">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.FlipFlop">
             <summary>
             For local strips, cycle between APP, DEP and LOC strip modes.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.CoordinateStrip">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.CoordinateStrip">
             <summary>
             Coordinates the strip.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.DeactivateStrip">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.DeactivateStrip">
             <summary>
             Deactivates the strip.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.ADESADEPPairChanged(vatsys.FDP2.FDR)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.ADESADEPPairChanged(vatsys.FDP2.FDR)">
             <summary>
             Check if adep or ades changed.
             </summary>
             <param name="fdr">New FDR.</param>
             <returns>Whether or not a change is detected.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.SendDeleteMessage">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.SendDeleteMessage">
             <summary>
             Sends a strip deletion message to the server.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.DetermineSCValidity">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.SendCDMMessage(MaxRumsey.OzStripsPlugin.GUI.Shared.CDMState)">
+            <summary>
+            Sends a CDM update to the server about this strip.
+            </summary>
+            <param name="state">CDM state.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.DetermineSCValidity">
             <summary>
             Determines whether or not a SC is still valid (or should be kept alive).
             </summary>
             <returns>Valid SC.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.UpdateFDR">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.UpdateFDR">
             <summary>
             Refreshes strip properties, and determines if strip should be removed.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.SIDTrigger">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.SIDTrigger">
             <summary>
             Moves the strip into the "next" bay.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.TogglePick">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.TogglePick">
             <summary>
             Toggles the pick state.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.FetchStripData">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.FetchStripData">
             <summary>
             Requests new strip data from the server, for new strips.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.ApplicableToAerodrome(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.ApplicableToAerodrome(System.String)">
             <summary>
             Determines if the strip is applicable to the passed aerodrome.
             </summary>
             <param name="name">The name of the aerodrome to check.</param>
             <returns>True if it is applicable false otherwise.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.GetDistToAerodrome(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.GetDistToAerodrome(System.String)">
             <summary>
             Gets the distance to the specified aerodrome.
             </summary>
             <param name="aerodrome">The aerodrome to check.</param>
             <returns>The distance, or -1 if it is unable to be determined.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.GetRadarTrack">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.GetRadarTrack">
             <summary>
             Gets the radar track.
             </summary>
             <returns>The tradar track or null if none available.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.ToString">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.ToString">
             <summary>
             To string method.
             </summary>
             <returns>Description.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.OpenVatsysFDR">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.OpenVatsysFDR">
             <summary>
             Opens the VATSYS flight data record.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.SyncStrip">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.SyncStrip">
             <summary>
             Sync the strip with the server.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Strip.CleanVatsysRoute(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.CleanVatsysRoute(System.String)">
             <summary>
             Cleans up the vatsys route into a format parseable by the route checker.
             </summary>
             <param name="rawRoute">The raw route.</param>
             <returns>The parsed route.</returns>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.StripBay">
-            <summary>
-            Defines the various statuses of a strip bay in OzStrips.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripBay.BAY_DEAD">
-            <summary>
-            Indicates the strip is not currently active (inhibited).
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripBay.BAY_PREA">
-            <summary>
-            Indicates preactive strip state.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripBay.BAY_CLEARED">
-            <summary>
-            Indicates the strip has received a clearance.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripBay.BAY_PUSHED">
-            <summary>
-            Indicates the strip is cleared for pushback.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripBay.BAY_TAXI">
-            <summary>
-            Indicates the aircraft is cleared for taxi.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripBay.BAY_HOLDSHORT">
-            <summary>
-            Indicates the aircraft is holding short of the runway.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripBay.BAY_RUNWAY">
-            <summary>
-            Indicates the aircraft is cleared to enter/cross/use the runway.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripBay.BAY_OUT">
-            <summary>
-            Indicates the aircraft has departed.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripBay.BAY_ARRIVAL">
-            <summary>
-            Indicates the strip for an arriving aircraft, pending a landing clearance.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripBay.BAY_CIRCUIT">
-            <summary>
-            Indicates the strip for an aircraft that is in the circuit.
-            </summary>
-        </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.StripController">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.StripController">
             <summary>
             Controls strip UI elements and actions.
             </summary>
             <remarks>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.StripController"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.StripController"/> class.
             </remarks>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.#ctor(MaxRumsey.OzStripsPlugin.Gui.Strip)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.#ctor(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.Gui.StripController"/> class.
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.StripController"/> class.
             </summary>
             <param name="stripController">The Strip Controller.</param>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.StripController.ShowCFLToolTip">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.StripController.ShowCFLToolTip">
             <summary>
             Gets a value indicating whether or not the CFL tooltip should be shown.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.StripController.Strip">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.StripController.Strip">
             <summary>
             Gets the strip controller.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.StripController.FDR">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.StripController.FDR">
             <summary>
             Gets the flight data record.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.StripController.PickToggleControl">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.StripController.PickToggleControl">
             <summary>
             Gets or sets the pick toggle control.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.Cock(System.Int32,System.Boolean,System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.Cock(System.Int32,System.Boolean,System.Boolean)">
             <summary>
             Changes the cock level.
             </summary>
@@ -2137,172 +2048,172 @@
             <param name="sync">If the cock level should be synced.</param>
             <param name="update">If the cock level should update.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.SetCross(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.SetCross(System.Boolean)">
             <summary>
             Sets the strip to cross.
             </summary>
             <param name="sync">If the cross should be synced.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.HMI_TogglePick(System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.HMI_TogglePick(System.Boolean)">
             <summary>
             toggles if the HMI is picked.
             </summary>
             <param name="picked">If the value is picked or not.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.OpenCFLWindow">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenCFLWindow">
             <summary>
             Opens the CFL window.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.DetermineCFLBackColour">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.DetermineCFLBackColour">
             <summary>
             Determines the colour of the CFL highlight.
             </summary>
             <returns>Colour.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.DetermineRouteBackColour">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.DetermineRouteBackColour">
             <summary>
             Determines the colour of the Route highlight.
             </summary>
             <returns>Colour.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.OpenHDGWindow">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenHDGWindow">
             <summary>
             Opens the HDG window.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.OpenRWYWindow">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenRWYWindow">
             <summary>
             Opens the RWY window.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.OpenRerouteMenu">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenRerouteMenu">
             <summary>
             Opens the Reroute window.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.OpenSIDWindow">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenSIDWindow">
             <summary>
             Opens the SID window.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.OpenCLXBayModal(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenCLXBayModal(System.String)">
             <summary>
             Opens the Clearance bya modal.
             </summary>
             <param name="labelName">Label Name.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.AssignSSR">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.AssignSSR">
             <summary>
             Assigns a squawk.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.ToggleReady">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.ToggleReady">
             <summary>
             Toggles strip ready status.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.OpenHdgAltModal(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenHdgAltModal(System.String)">
             <summary>
             Opens the heading/altitude modal dialog.
             </summary>
             <param name="activeLabel">The label item to be designated as the active control.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripController.HeadingAltReturned(System.Object,MaxRumsey.OzStripsPlugin.Gui.ModalReturnArgs)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.HeadingAltReturned(System.Object,MaxRumsey.OzStripsPlugin.GUI.ModalReturnArgs)">
             <summary>
             Callback for the heading alt return.
             </summary>
             <param name="source">The source.</param>
             <param name="args">The arguments.</param>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.StripElements.Values">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.StripElements.Values">
             <summary>
             List of possible values.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.StripItemType">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.StripItemType">
             <summary>
             Defines the types of items that can be associated with a controller strip in air traffic control simulations.
             </summary>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripItemType.STRIP">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.StripItemType.STRIP">
             <summary>
             Represents a standard controller strip, used for managing individual flights.
             </summary>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripItemType.QUEUEBAR">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.StripItemType.QUEUEBAR">
             <summary>
             Represents a queue bar, used to visually separate or organize strips into manageable sections.
             </summary>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripItemType.BAR">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.StripItemType.BAR">
             <summary>
             Indicates that the strip or section is blocked and cannot be used currently.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.StripListItem">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.StripListItem">
             <summary>
             A strip list item.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.StripListItem.Strip">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.StripListItem.Strip">
             <summary>
             Gets or sets the strip controller.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.StripListItem.Type">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.StripListItem.Type">
             <summary>
             Gets or sets the strip item type.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.StripListItem.BarText">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.StripListItem.BarText">
             <summary>
             Gets or sets the bar text.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.StripListItem.RenderedStripItem">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.StripListItem.RenderedStripItem">
             <summary>
             Gets or sets the view class.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripListItem.ToString">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripListItem.ToString">
             <summary>
             To string method.
             </summary>
             <returns>Description.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripListItem.Matches(System.Object)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripListItem.Matches(System.Object)">
             <summary>
             Determines whether or not an object equals the class.
             </summary>
             <param name="obj">The object.</param>
             <returns>Equal.</returns>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.StripRepository">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.StripRepository">
             <summary>
             Accounts for all strip models.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.StripRepository.Strips">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.StripRepository.Strips">
             <summary>
             Gets a list of strip controllers.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripRepository.GetStrip(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.GetStrip(System.String)">
             <summary>
             Looks up strip by callsign.
             </summary>
             <param name="callsign">The aircraft callsign.</param>
             <returns>The aircraft's FDR.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripRepository.GetStrip(MaxRumsey.OzStripsPlugin.Gui.DTO.StripKey)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.GetStrip(MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey)">
             <summary>
             Gets a strip from a key.
             </summary>
             <param name="key">Strip key.</param>
             <returns>Strip or null.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripRepository.UpdateFDR(vatsys.FDP2.FDR,MaxRumsey.OzStripsPlugin.Gui.BayManager,MaxRumsey.OzStripsPlugin.Gui.SocketConn,System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.UpdateFDR(vatsys.FDP2.FDR,MaxRumsey.OzStripsPlugin.GUI.BayManager,MaxRumsey.OzStripsPlugin.GUI.SocketConn,System.Boolean)">
             <summary>
             Receives a fdr, updates existing strip controller, or makes a new one.
             </summary>
@@ -2312,14 +2223,14 @@
             <param name="inhibitReorders">Whether or not to inhibit strip reordering.</param>
             <returns>The appropriate strip controller for the FDR.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripRepository.UpdateStripData(MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO,MaxRumsey.OzStripsPlugin.Gui.BayManager)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.UpdateStripData(MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO,MaxRumsey.OzStripsPlugin.GUI.BayManager)">
             <summary>
             Receives a Strip DTO object, updates relevant Strip.
             </summary>
             <param name="stripDTO">The strip controller data.</param>
             <param name="bayManager">The bay manager.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripRepository.LoadCache(System.Collections.Generic.List{MaxRumsey.OzStripsPlugin.Gui.DTO.StripDTO},MaxRumsey.OzStripsPlugin.Gui.BayManager,MaxRumsey.OzStripsPlugin.Gui.SocketConn)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.LoadCache(System.Collections.Generic.List{MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO},MaxRumsey.OzStripsPlugin.GUI.BayManager,MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
             <summary>
             Loads in a cacheDTO object received from server, sets SCs accordingly.
             </summary>
@@ -2327,110 +2238,85 @@
             <param name="bayManager">The bay manager.</param>
             <param name="socketConn">The socket connection.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripRepository.MarkAllStripsAsAwaitingRoutes">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.MarkAllStripsAsAwaitingRoutes">
             <summary>
             Marks all strips as awaiting routes to be fetched from the server. Called on connection establishment.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.StripRepository.GetStripStatus(System.String,MaxRumsey.OzStripsPlugin.Gui.SocketConn)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.GetStripStatus(System.String,MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
             <summary>
             Fetches strip status and returns it to server.
             </summary>
             <param name="acid">Strip callsign to check up on.</param>
             <param name="socketConn">Socket connection.</param>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.StripType">
-            <summary>
-            Defines the types of air traffic operations for controller strips, distinguishing between arrivals, departures, and unspecified types.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripType.ARRIVAL">
-            <summary>
-            Represents an arriving aircraft. Used for managing incoming flights to an airport.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripType.DEPARTURE">
-            <summary>
-            Represents a departing aircraft. Used for managing outgoing flights from an airport.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripType.LOCAL">
-            <summary>
-            Indicates a strip arriving and departing from the same aerodrme.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.StripType.UNKNOWN">
-            <summary>
-            Indicates a strip status of nil / not relevant.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.StripView.Origin">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.StripView.Origin">
             <summary>
             Gets or sets the root of the strip (taking into account strip cocking). The strip background is drawn from this point.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.Gui.StripView.ElementOrigin">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.StripView.ElementOrigin">
             <summary>
             Gets or sets the root of the strip elements (black border).
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.Gui.Util">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Util">
             <summary>
             Contains various helper methods.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Util.ShowErrorBox(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Util.ShowErrorBox(System.String)">
             <summary>
             Creates an error box with a specified message.
             </summary>
             <param name="message">Message to display.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Util.ShowInfoBox(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Util.ShowInfoBox(System.String)">
             <summary>
             Creates an info box with a specified message.
             </summary>
             <param name="message">Message to display.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Util.ShowWarnBox(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Util.ShowWarnBox(System.String)">
             <summary>
             Creates an warning box with a specified message.
             </summary>
             <param name="message">Message to display.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Util.ShowQuestionBox(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Util.ShowQuestionBox(System.String)">
             <summary>
             Creates a question box with a specified message and returns the result.
             </summary>
             <param name="message">Message to show.</param>
             <returns>Question Result.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Util.SetAndReturnDLLVar">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Util.SetAndReturnDLLVar">
             <summary>
             Creates an env var for ozstrips DLLs and returns the path.
             </summary>
             <returns>Path where dlls will be copied to.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Util.LogError(System.Exception,System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Util.LogError(System.Exception,System.String)">
             <summary>
             Logs an error to vatsys, and posts it to the server.
             </summary>
             <param name="error">Exception.</param>
             <param name="source">Source string.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Util.LogText(System.String)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Util.LogText(System.String)">
             <summary>
             Logs an error to vatsys, and posts it to the server.
             </summary>
             <param name="text">Text to log.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.Gui.Util.SetEnvVar(System.String,System.Object)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Util.SetEnvVar(System.String,System.Object)">
             <summary>
             Sets and saves an environment variable.
             </summary>
             <param name="name">Variable name.</param>
             <param name="value">Variable value.</param>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.Gui.Util.DifferingAerodromeWaypoints">
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Util.DifferingAerodromeWaypoints">
             <summary>
             Gets a dictionary containing aerodrome waypoints that differ from the normal format.
             </summary>
