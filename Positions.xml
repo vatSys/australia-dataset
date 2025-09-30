@@ -314,7 +314,7 @@
       <ControllerInfo>
         <Line>Melbourne Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>         
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>       
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
@@ -1517,9 +1517,9 @@
         <Airport Name="YMAV" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Avalon Approach</Line>
-        <Line>ATIS available on 118.2</Line>
+        <Line>Avalon Approach | ATIS available on 118.2</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position> -->
@@ -1650,16 +1650,16 @@
       <ArrivalLists>
         <Airport Name="YSSY" />
       </ArrivalLists>
-      <ControllerInfo>
+      <ControllerInfo Callsign="SY_APP">
         <Line>Sydney Approach | ATIS available on 118.55</Line>
-        <Line>Indep Visual Approach Guide - vats.im/pac/iva</Line>
+        <!-- <Line>Indep Visual Approach Guide - vats.im/pac/iva</Line> -->
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-N_APP">
         <Line>Sydney Approach (North) | ATIS available on 118.55</Line>
-        <Line>Indep Visual Approach Guide - vats.im/pac/iva</Line>
+        <!-- <Line>Indep Visual Approach Guide - vats.im/pac/iva</Line> -->
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
@@ -1678,21 +1678,20 @@
       </ControllerInfo>
       <ControllerInfo Callsign="SY-DE_APP">
         <Line>Sydney Director (East) | ATIS available on 118.55</Line>
-        <Line>Indep Visual Approach Guide - vats.im/pac/iva</Line>
+        <!-- <Line>Indep Visual Approach Guide - vats.im/pac/iva</Line> -->
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-D_APP">
         <Line>Sydney Director | ATIS available on 118.55</Line>
-        <Line>Indep Visual Approach Guide - vats.im/pac/iva</Line>
+        <!-- <Line>Indep Visual Approach Guide - vats.im/pac/iva</Line> -->
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY-C_DEP">
-        <Line>Sydney Centre</Line>
-        <Line>ATIS available on 118.55</Line>
+        <Line>Sydney Centre | ATIS available on 118.55</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
@@ -2389,9 +2388,9 @@
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
       <!-- <ControllerInfo Callsign="AV_GND">
-        <Line>Avalon Ground</Line>
-        <Line>ATIS available on 118.2</Line>
+        <Line>Avalon Ground | ATIS available on 118.2</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo> -->
     </Position>
@@ -2937,6 +2936,7 @@
       <ControllerInfo Callsign="SY-W_GND">
         <Line>Sydney Ground (West) | ATIS available on 118.55</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
       <ControllerInfo Callsign="SY_GND">
@@ -3370,8 +3370,8 @@
         <Airport Name="YBOK" />
       </ArrivalLists>
       <ControllerInfo>
-        <Line>Oakey Tower</Line>
-        <Line>ATIS available on 124.3 | Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Oakey Tower | ATIS available on 124.3</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
