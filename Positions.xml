@@ -1357,6 +1357,67 @@
       </ControllerInfo>
     </Position>
   </Group>
+<!--
+  <Group Name="EVENT">
+   <Position Name="EVENT Alice TCU" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="300" VisibilityRange="200" MagneticVariation="-4.6">
+      <Sectors>
+        <Sector Name="AAP" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="TMA_LL_LABELS" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="Alice Springs/AS_TCU" />
+        <Map Name="Alice Springs/AS_RWY12" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBAS" Frequency="123.000" />
+        <Window Airport="YBAS" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBAS" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="24000" />
+      <ArrivalLists>
+        <Airport Name="YBAS" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Alice Approach</Line>
+        <Line>ATIS available on 123.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Alice Springs EVENT Tower" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="80" MagneticVariation="-4.6">
+      <Sectors>
+        <Sector Name="ASE ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Alice Springs/AS_TCU" />
+        <Map Name="Alice Springs/AS_RWY12" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBAS" Frequency="123.000" />
+        <Window Airport="YBAS" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBAS" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="7000" />
+      <ArrivalLists>
+        <Airport Name="YBAS" />
+      </ArrivalLists>
+      <ControllerInfo>
+        <Line>Alice Tower</Line>
+        <Line>ATIS available on 123.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+  </Group> 
+  -->
+
   <Group Name="TCU">
     <Position Name="Adelaide TCU" Type="ASD" DefaultCenter="-34.947+138.525" DefaultRange="200" VisibilityRange="100" MagneticVariation="-8">
       <Sectors>
@@ -2265,6 +2326,7 @@
     <Position Name="Avalon Tower" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="50" MagneticVariation="-11.6" DynamicInfill="false">
       <Sectors>
         <Sector Name="AV ADC" />
+        <!-- <Sector Name="AV SMC" /> -->
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2287,6 +2349,12 @@
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
+       <!-- <ControllerInfo Callsign="AV_GND">
+        <Line>Avalon Ground</Line>
+        <Line>ATIS available on 118.2</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo> -->
     </Position>
     <Position Name="Bankstown Tower" Type="ASD" DefaultCenter="-33.924444+150.988333" DefaultRange="30" MagneticVariation="-12.6">
       <Sectors>
