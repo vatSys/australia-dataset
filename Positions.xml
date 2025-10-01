@@ -1576,7 +1576,34 @@
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="AV_APP">
+    </Position>
+    <Position Name="Avalon TCU" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="100" VisibilityRange="150" MagneticVariation="-11.6">
+      <Sectors>
+        <Sector Name="MAV" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-3740.4+14450.6</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Melbourne/ML_COAST" />
+        <Map Name="Melbourne/ML_TCU" />
+        <Map Name="Melbourne/AV_RWY18" />
+        <Map Name="ALL_SECTORS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMAV" Frequency="118.2" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YMAV" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="6000">
+        <AdditionalLevels>1600,1900,2300,2600,2700,2900,3100,3700,3300,4100,4700</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YMAV" />
+      </ArrivalLists>
+      <ControllerInfo>
         <Line>Avalon Approach | ATIS available on 118.2</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
