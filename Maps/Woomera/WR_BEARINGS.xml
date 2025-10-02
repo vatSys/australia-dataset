@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="WR_BEARINGS" Priority="1" Center="-36.067778+146.958056">
+    <!-- Bearing 334 -->
+    <Line Pattern="Hash">
+        WR/-30.834445+136.678056
+    </Line>
+    <!-- Bearing 156 -->
+    <Line Pattern="Hash">
+        WR/-31.305000+136.869167
+    </Line>
+    <!-- Bearing 129 -->
+    <Line Pattern="Hash">
+        WR/-31.265278+136.949722
+    </Line>
+    <!-- Bearing 311 -->
+    <Line Pattern="Hash">
+        WR/-30.967778+136.621111
+    </Line>
+    <Label LabelOrientation="SE">
+        <Point Name="B129"> -31.265278+136.949722 </Point>
+        <Point Name="B156"> -31.305000+136.869167 </Point>
+    </Label>
+    <Label LabelOrientation="NW">
+        <Point Name="B311"> -30.967778+136.621111 </Point>
+        <Point Name="B334"> -30.834445+136.678056 </Point>
+    </Label>
+  </Map>
+</Maps>

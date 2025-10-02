@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="SU_RADIALS" Priority="1" Center="-26.641111+153.090000">
+    <!-- Radial 360 -->
+    <Line Pattern="Hash">
+        SU/-26.271111+153.159167
+    </Line>
+    <!-- Radial 100 -->
+    <Line Pattern="Hash">
+        SU/-26.716945+153.438333
+    </Line>
+    <!-- Radial 122 -->
+    <Line Pattern="Hash">
+        SU/-26.826111+153.362778
+    </Line>
+    <!-- Radial 152 -->
+    <Line Pattern="Hash">
+        SU/-26.740278+153.139722
+    </Line>
+    <!-- Radial 183 -->
+    <Line Pattern="Hash">
+        SU/-26.713056+153.059445
+    </Line>
+    <!-- Radial 200 -->
+    <Line Pattern="Hash">
+        SU/-26.672778+153.039722
+    </Line>
+    <!-- Radial 224 -->
+    <Line Pattern="Hash">
+        SU/-26.638333+153.025000
+    </Line>
+    <!-- Radial 274 -->
+    <Line Pattern="Hash">
+        SU/-26.575278+152.995000
+    </Line>
+    <!-- Radial 297 -->
+    <Line Pattern="Hash">
+        SU/-26.391945+152.797778
+    </Line>
+    <!-- Radial 317 -->
+    <Line Pattern="Hash">
+        SU/-26.317500+152.891111
+    </Line>
+    <!-- Radial 341 -->
+    <Line Pattern="Hash">
+        SU/-26.268889+153.034445
+    </Line>
+
+    <Label LabelOrientation="NE">
+        <Point Name="R360"> -26.271111+153.159167 </Point>
+    </Label>
+
+    <Label LabelOrientation="SE">
+        <Point Name="R100"> -26.716945+153.438333 </Point>
+        <Point Name="R122"> -26.826111+153.362778 </Point>
+    </Label>
+
+    <Label LabelOrientation="SW">
+        <Point Name="R224"> -26.638333+153.025000 </Point>
+        <Point Name="R152"> -26.740278+153.139722 </Point>
+        <Point Name="R183"> -26.713056+153.059445 </Point>
+        <Point Name="R200"> -26.672778+153.039722 </Point>
+        <Point Name="R274"> -26.575278+152.995000 </Point>
+    </Label>
+
+    <Label LabelOrientation="NW">
+        <Point Name="R297"> -26.391945+152.797778 </Point>
+        <Point Name="R317"> -26.317500+152.891111 </Point>
+        <Point Name="R341"> -26.268889+153.034445 </Point>
+    </Label>
+  </Map>
+</Maps>

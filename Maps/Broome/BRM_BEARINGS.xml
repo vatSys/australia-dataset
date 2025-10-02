@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="BRM_BEARINGS" Priority="1" Center="-36.067778+146.958056">
+    <!-- Bearing 065 to DBY -->
+    <Line Pattern="Hash">
+        BRM/-17.742778+122.732500
+    </Line>
+    <!-- Bearing 076 to CTN -->
+    <Line Pattern="Hash">
+        BRM/-17.832500+122.763333
+    </Line>
+    <!-- Bearing 093 to ALIRA -->
+    <Line Pattern="Hash">
+        BRM/-17.987778+122.774722
+    </Line>
+    <!-- Bearing 118 to CESCI -->
+    <Line Pattern="Hash">
+        BRM/-18.204445+122.704722
+    </Line>
+    <!-- Bearing 132 to JUGGL -->
+    <Line Pattern="Hash">
+        BRM/-18.298611+122.630556
+    </Line>
+    <!-- Bearing 143 to POTIP -->
+    <Line Pattern="Hash">
+        BRM/-18.364167+122.550833
+    </Line>
+    <!-- Bearing 173 to KAPNI -->
+    <Line Pattern="Hash">
+        BRM/-18.458056+122.285833
+    </Line>
+    <!-- Bearing 212 to BUDLO -->
+    <Line Pattern="Hash">
+        BRM/-18.377778+121.937500
+    </Line>
+    <!-- Bearing 232 to VEMTO -->
+    <Line Pattern="Hash">
+        BRM/-18.248611+121.795278
+    </Line>
+    <!-- Bearing 282 to AKRUM -->
+    <Line Pattern="Hash">
+        BRM/-17.820000+121.709167
+    </Line>
+    <!-- Bearing 296 to ONALA -->
+    <Line Pattern="Hash">
+        BRM/-17.701111+121.755833
+    </Line>
+    <!-- Bearing 317 to BOPLO -->
+    <Line Pattern="Hash">
+        BRM/-17.561111+121.876945
+    </Line>
+    <Label LabelOrientation="NE">
+        <Point Name="B065"> -17.742778+122.732500 </Point>
+        <Point Name="B076"> -17.832500+122.763333 </Point>
+        <Point Name="B093"> -17.987778+122.774722 </Point>
+    </Label>
+    <Label LabelOrientation="SE">
+        <Point Name="B118"> -18.204445+122.704722 </Point>
+        <Point Name="B132"> -18.298611+122.630556 </Point>
+        <Point Name="B143"> -18.364167+122.550833 </Point>
+        <Point Name="B173"> -18.458056+122.285833 </Point>
+    </Label>
+    <Label LabelOrientation="SW">
+        <Point Name="B212"> -18.377778+121.937500 </Point>
+        <Point Name="B232"> -18.248611+121.795278 </Point>
+    </Label>
+    <Label LabelOrientation="NW">
+        <Point Name="B282"> -17.820000+121.709167 </Point>
+        <Point Name="B296"> -17.701111+121.755833 </Point>
+        <Point Name="B317"> -17.561111+121.876945 </Point>
+    </Label>
+  </Map>
+</Maps>
