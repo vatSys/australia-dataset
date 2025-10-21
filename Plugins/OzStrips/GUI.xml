@@ -270,7 +270,6 @@
             Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.BayManager"/> class.
             </summary>
             <param name="main">The flow layout for the bay.</param>
-            <param name="layoutMethod">The current layout caller.</param>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.PickedStrip">
             <summary>
@@ -280,11 +279,6 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.PickedStripItem">
             <summary>
             Gets or sets the picked list item.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.WorldFlightMode">
-            <summary>
-            Gets or sets a value indicating whether or not WF mode is activated.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.StripRepository">
@@ -300,6 +294,21 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.AerodromeName">
             <summary>
             Gets or sets the aerodrome name.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.LastTransmitManager">
+            <summary>
+            Gets or sets the last transmit manager.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.AerodromeState">
+            <summary>
+            Gets or sets the current AerodromeState.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.CircuitActive">
+            <summary>
+            Gets or sets a value indicating whether the circuit bay is active.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.PickedBay">
@@ -368,6 +377,13 @@
             Drop the strip to the specified bay.
             </summary>
             <param name="bay">The bay.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.DropStripBelow(MaxRumsey.OzStripsPlugin.GUI.StripListItem)">
+            <summary>
+            Drops the selected strip below the target strip.
+            </summary>
+            <param name="targetItem">The target item to drop below.</param>
+            <exception cref="T:System.Exception">Strip insertion failed.</exception>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.PurgeDataAndSetNewAerodrome(System.String,MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
             <summary>
@@ -1215,6 +1231,21 @@
             </summary>
             <param name="picked">Whether to mark them as picked or not.</param>
         </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.LastTransmitManager">
+            <summary>
+            Keep track of which is the last aircraft transmitting.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.LastTransmitManager.LastReceivedFrom">
+            <summary>
+            Gets or sets the callsign of the aircraft that last transmitted.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.LastTransmitManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.LastTransmitManager"/> class.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.MainForm">
             <summary>
             The main application form.
@@ -1265,10 +1296,45 @@
             the contents of this method with the code editor.
             </summary>
         </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.MainFormController">
+            <summary>
+            ViewModel equivalent for the MainForm.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainFormController.Instance">
+            <summary>
+            Gets the current instance of the MainForm controller.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ReadyForConnection">
             <summary>
-            Gets whether or not a connection can be made to the server.
+            Gets a value indicating whether or not a connection can be made to the server.
             </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ControlHeld">
+            <summary>
+            Gets a value indicating whether or not the control key is being held down.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.#ctor(MaxRumsey.OzStripsPlugin.GUI.MainForm,System.Boolean)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.MainFormController"/> class.
+            </summary>
+            <param name="form">MainForm element.</param>
+            <param name="readyToConnect">Whether or not we are ready to initiate a connection.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.Initialize">
+            <summary>
+            Initialises the class.
+            </summary>
+            <exception cref="T:System.Exception">Returned exception.</exception>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.FormClosing(System.Object,System.ComponentModel.CancelEventArgs)">
+            <summary>
+            Disposes everything when the main form closes.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">Eventargs.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.SetCustomAerodromeList(System.Collections.Generic.List{System.String})">
             <summary>
@@ -1362,10 +1428,100 @@
             </summary>
             <param name="code">The ATIS code.</param>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.GetOpenModals">
+            <summary>
+            Gets a list of open modals.
+            </summary>
+            <returns>Open modals.</returns>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainFormController.IsSettingsOpen">
+            <summary>
+            Gets a value indicating whether or not the settings window is open.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.CrossButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Crosses the selected strip.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">Eventargs.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ShowMessageList_Click(System.Object,System.EventArgs)">
+            <summary>
+            Shows the SignalR message log.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">Eventargs.</param>
+        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ShowQuickSearch">
             <summary>
             Opens the settings window.
             </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.MainForm_Load(System.Object,System.EventArgs)">
+            <summary>
+            Called when the main form loads.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">Eventargs.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.AerodromeSelectorKeyDown(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Called when a character is inserted into the aerodrome selector.
+            </summary>
+            <param name="sender">The ender.</param>
+            <param name="e">Eventargs.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.CDMRateKeyDown(System.Object,System.Windows.Forms.KeyPressEventArgs)">
+            <summary>
+            Called when an element is entered into the CDMRate text box.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">Event args.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ResetCDMRateTextBox">
+            <summary>
+            Resets the CDM rate text box to what the server has defined.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.BarCreatorClick(System.Object,System.EventArgs)">
+            <summary>
+            Opens the bar creator window.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">Eventargs.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.MainForm_Resize(System.Object,System.EventArgs)">
+            <summary>
+            Called when the main form resizes.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">Eventargs.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.SetSmartResizeColumnMode(System.Int32)">
+            <summary>
+            Saves the smart resize column mode, and calls a relayout.
+            </summary>
+            <param name="cols">Amount of cols to set it to.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.SetCircuitToolStripStatus">
+            <summary>
+            Enables or disables the set circuit tool strip based on connection and aerodrome type.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ConnStatusPaint(System.Object,System.Windows.Forms.PaintEventArgs)">
+            <summary>
+            Paints the connection status box.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">Eventargs.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.FlipFlopStrip(System.Object,System.EventArgs)">
+            <summary>
+            Flip-flops the selected strip.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">Eventargs.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ShowSettings(System.Object,System.EventArgs)">
             <summary>
@@ -1373,6 +1529,47 @@
             </summary>
             <param name="sender">Sender.</param>
             <param name="e">Args.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.MainForm_FormClosed(System.Object,System.Windows.Forms.FormClosedEventArgs)">
+            <summary>
+            Called when the main form closes.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">Event args.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.MainForm_Move(System.Object,System.EventArgs)">
+            <summary>
+            Called when the main form moves.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">Eventargs.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.Dispose">
+            <summary>
+            Disposes all required elements.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.Invoke(System.Action)">
+            <summary>
+            Invokes an action on the main form.
+            </summary>
+            <param name="act">The action to invoke.</param>
+            <returns>Returning value of the action.</returns>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainFormController.Visible">
+            <summary>
+            Gets a value indicating whether the main form is visible.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainFormController.IsDisposed">
+            <summary>
+            Gets a value indicating whether the main form is disposed.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainFormController.Handle">
+            <summary>
+            Gets the current main form handle.
+            </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.ModalReturnArgs">
             <summary>
@@ -1500,7 +1697,7 @@
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.version">
             <summary>
-              Looks up a localized string similar to 0.7.0.
+              Looks up a localized string similar to 0.7.2.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Properties.Resources">
@@ -1541,6 +1738,11 @@
             <param name="bayManager">The bay manager.</param>
             <param name="mainForm">The main form instance.</param>
         </member>
+        <member name="E:MaxRumsey.OzStripsPlugin.GUI.SocketConn.AerodromeStateChanged">
+            <summary>
+            An event called when the aerodrome state changes.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Messages">
             <summary>
             Gets the messages, used for debugging.
@@ -1554,6 +1756,11 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Connected">
             <summary>
             Gets or sets a value indicating whether the client is connected.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.HaveSendPerms">
+            <summary>
+            Gets a value indicating whether we should be able to send strip and bay updates to the server.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.CanSendDTO">

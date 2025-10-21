@@ -39,6 +39,26 @@
             Gets or sets the relevant CDM statistics.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.WorldFlightActive">
+            <summary>
+            Gets or sets a value indicating whether WorldFlightMode is active.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.WorldFlightTeams">
+            <summary>
+            Gets or sets an array of world flight teams.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.InvalidDestinationAircraft">
+            <summary>
+            Gets or sets an array of aircraft planned to an invalid destination.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.CDMRateLocked">
+            <summary>
+            Gets or sets a value indicating whether the CDM rate is currently locked.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.BayDTO">
             <summary>
             Represents the bay configuration with a list of strips.
@@ -62,6 +82,41 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CacheDTO.strips">
             <summary>
             Gets or sets the list of strip controllers.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeConfig">
+            <summary>
+            Represents configurable CDM data about an aerodrome.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeConfig.AerodromeCode">
+            <summary>
+            Gets or sets the aerodrome code.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeConfig.PluginChangesLocked">
+            <summary>
+            Gets or sets a value indicating whether plugin initiated changes are currently locked.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeConfig.TaxiTimes">
+            <summary>
+            Gets or sets a dictionary of runway taxi times.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeConfig.SpecificAerodromeDepartureRate">
+            <summary>
+            Gets or sets arrival aerodrome specific arrival rates.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeConfig.WhitelistedAerodromes">
+            <summary>
+            Gets or sets a list of whitelisted ADESes.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAerodromeConfig.LastModified">
+            <summary>
+            Gets or sets when this record was last modified.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.CDMAircraftDTO">
