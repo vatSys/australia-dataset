@@ -3489,7 +3489,7 @@
 -344506.000+1504307.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R430A TIDBINBILLA" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R450A TIDBINBILLA" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-352157.000+1485848.000/
 -352158.822+1485913.553/
 -352204.234+1485938.331/
@@ -3531,7 +3531,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R430B TIDBINBILLA" AltitudeFloor="3500" AltitudeCeiling="4500" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R450B TIDBINBILLA" AltitudeFloor="3500" AltitudeCeiling="4500" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-352057.000+1485848.000/
 -352059.733+1485926.322/
 -352107.849+1490003.482/
@@ -3573,7 +3573,7 @@
         <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R430C TIDBINBILLA" AltitudeFloor="4500" AltitudeCeiling="10000" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R450C TIDBINBILLA" AltitudeFloor="4500" AltitudeCeiling="8000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-351857.000+1485848.000/
 -351901.553+1485951.844/
 -351915.074+1490053.754/
@@ -4038,7 +4038,7 @@
 -324237.000+1510654.000/
 -324205.000+1510701.000</Area>
       <Activations>
-        <Activation H24="false" Start="2100" End="1300" />
+        <Activation H24="true" Start="0000" End="0000" />
       </Activations>
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R564B SINGLETON" AltitudeFloor="4000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
@@ -5212,46 +5212,6 @@
 -222118.000+1500920.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R725 SAUMAREZ REEF" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Solid">
-      <Area>-214618.000+1533847.000/
--214622.555+1533943.096/
--214636.082+1534037.491/
--214658.171+1534128.534/
--214728.151+1534214.676/
--214805.112+1534254.517/
--214847.934+1534326.845/
--214935.317+1534350.677/
--215025.821+1534405.288/
--215117.912+1534410.231/
--215210.010+1534405.353/
--215300.529+1534350.798/
--215347.934+1534327.008/
--215430.785+1534254.702/
--215507.777+1534214.862/
--215537.786+1534128.697/
--215559.898+1534037.612/
--215613.440+1533943.161/
--215618.000+1533847.000/
--215613.440+1533750.839/
--215559.898+1533656.388/
--215537.786+1533605.303/
--215507.777+1533519.138/
--215430.785+1533439.298/
--215347.934+1533406.992/
--215300.529+1533343.202/
--215210.010+1533328.647/
--215117.912+1533323.769/
--215025.821+1533328.712/
--214935.317+1533343.323/
--214847.934+1533407.155/
--214805.112+1533439.483/
--214728.151+1533519.324/
--214658.171+1533605.466/
--214636.082+1533656.509/
--214622.555+1533750.904/
--214618.000+1533847.000</Area>
-      <Activations />
-    </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R732 GREENVALE TRAINING AREA" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-190154.000+1445448.000/
 -190455.000+1451034.000/
@@ -5280,9 +5240,8 @@
 -191900.000+1460145.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R737A TOWNSVILLE (LAND)" AltitudeFloor="7000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
-      <Area>-192152.000+1453152.000/
--191900.000+1460145.000/
+    <RestrictedArea Type="Restricted" Name="R738A TOWNSVILLE (LAND)" AltitudeFloor="7000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>-191900.000+1460145.000/
 -192211.000+1460420.000/
 -192339.000+1460704.000/
 -192626.000+1462003.000/
@@ -5292,59 +5251,95 @@
 -193002.000+1461140.000/
 -193000.000+1461100.000/
 -193500.000+1460430.000/
+-191900.000+1460145.000</Area>
+      <Activations />
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R738B TOWNSVILLE (LAND)" AltitudeFloor="7000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>-183832.000+1454209.000/
+-190601.000+1461011.000/
+-191150.000+1460625.000/
+-190248.000+1453237.000/
+-190215.267+1453234.462/
+-185029.454+1453559.839/
+-183927.952+1454130.980/
+-183832.000+1454209.000</Area>
+      <Activations />
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R738C TOWNSVILLE (LAND)" AltitudeFloor="7000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>-190248.000+1453237.000/
+-191150.000+1460625.000/
+-191900.000+1460145.000/
+-193500.000+1460430.000/
+-194301.000+1453742.000/
+-193822.183+1453539.515/
+-192633.778+1453223.649/
+-191424.073+1453121.500/
+-190248.000+1453237.000</Area>
+      <Activations />
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R738D TOWNSVILLE (LAND)" AltitudeFloor="7000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>-193500.000+1460430.000/
 -194500.000+1461236.000/
 -194940.000+1462145.000/
 -195056.000+1463353.000/
 -195239.000+1463341.000/
--200114.000+1454957.000/
+-200113.000+1454958.000/
 -195929.798+1454826.390/
 -194927.655+1454103.596/
--193822.183+1453539.515/
--192633.778+1453223.649/
--192152.000+1453152.000</Area>
+-194301.000+1453742.000/
+-193500.000+1460430.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R737B TOWNSVILLE (LAND)" AltitudeFloor="7000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
-      <Area>-192642.000+1443913.000/
--192152.000+1453152.000/
--192633.778+1453223.649/
--193822.183+1453539.515/
--194927.655+1454103.596/
--195929.798+1454826.390/
--200114.000+1454957.000/
--201158.000+1445336.000/
--195502.205+1444533.776/
--193446.389+1444004.080/
--192642.000+1443913.000</Area>
-      <Activations />
-    </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R737C TOWNSVILLE (LAND)" AltitudeFloor="7000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
-      <Area>-183832.000+1454208.000/
--190601.000+1461011.000/
--191900.000+1460145.000/
--192152.000+1453152.000/
--191424.073+1453121.500/
--190215.267+1453234.462/
--185029.454+1453559.839/
--183927.952+1454130.980/
--183832.000+1454208.000</Area>
-      <Activations />
-    </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R737D TOWNSVILLE (LAND)" AltitudeFloor="7000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
+    <RestrictedArea Type="Restricted" Name="R738E TOWNSVILLE (LAND)" AltitudeFloor="7000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-181416.000+1445605.000/
 -181800.000+1451230.000/
 -183133.000+1453503.000/
--183832.000+1454208.000/
+-183832.000+1454209.000/
 -183927.952+1454130.980/
 -185029.454+1453559.839/
 -190215.267+1453234.462/
--191424.073+1453121.500/
--192152.000+1453152.000/
--192642.000+1443913.000/
--191355.137+1443824.249/
--185306.527+1444035.849/
+-190248.000+1453237.000/
+-184958.000+1444131.000/
 -183258.321+1444633.488/
 -181416.000+1445605.000</Area>
+      <Activations />
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R738F TOWNSVILLE (LAND)" AltitudeFloor="7000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>-184958.000+1444131.000/
+-190248.000+1453237.000/
+-191424.073+1453121.500/
+-192633.778+1453223.649/
+-193822.183+1453539.515/
+-194927.655+1454103.596/
+-195929.798+1454826.390/
+-200113.000+1454958.000/
+-201158.000+1445337.000/
+-195502.205+1444533.776/
+-193446.389+1444004.080/
+-191355.137+1443824.249/
+-185306.527+1444035.849/
+-184958.000+1444131.000</Area>
+      <Activations />
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R738G TOWNSVILLE (LAND)" AltitudeFloor="12000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>-182500.000+1440000.000/
+-181416.000+1445605.000/
+-183258.321+1444633.488/
+-184958.000+1444131.000/
+-191000.000+1440000.000/
+-182500.000+1440000.000</Area>
+      <Activations />
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R738H TOWNSVILLE (LAND)" AltitudeFloor="7000" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>-184958.000+1444131.000/
+-185306.527+1444035.849/
+-191355.137+1443824.249/
+-193446.389+1444004.080/
+-195502.205+1444533.776/
+-201158.000+1445337.000/
+-201657.000+1442650.000/
+-191000.000+1440000.000/
+-184958.000+1444131.000</Area>
       <Activations />
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R739 TOWNSVILLE (STAR)" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Dotted">
@@ -5524,46 +5519,6 @@
 -174500.000+1455100.000/
 -175430.000+1455100.000/
 -175430.000+1454430.000</Area>
-      <Activations />
-    </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="R801 CURTIN" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true" LinePattern="Dotted">
-      <Area>-171020.000+1235107.000/
--171042.737+1235539.632/
--171150.261+1240004.036/
--171340.533+1240412.225/
--171610.224+1240756.695/
--171914.810+1241110.645/
--172248.710+1241348.183/
--172645.448+1241544.503/
--173057.854+1241656.037/
--173518.271+1241720.563/
--173938.793+1241657.278/
--174351.498+1241546.835/
--174748.697+1241351.324/
--175123.160+1241114.217/
--175428.347+1240800.267/
--175658.602+1240415.367/
--175849.335+1240006.368/
--175957.159+1235540.873/
--180020.000+1235107.000/
--175957.159+1234633.127/
--175849.335+1234207.632/
--175658.602+1233758.633/
--175428.347+1233413.733/
--175123.160+1233059.783/
--174748.697+1232822.676/
--174351.498+1232627.165/
--173938.793+1232516.722/
--173518.271+1232453.437/
--173057.854+1232517.963/
--172645.448+1232629.497/
--172248.710+1232825.817/
--171914.810+1233103.355/
--171610.224+1233417.305/
--171340.533+1233801.775/
--171150.261+1234209.964/
--171042.737+1234634.368/
--171020.000+1235107.000</Area>
       <Activations />
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R802A CURTIN" AltitudeFloor="3500" AltitudeCeiling="20000" DAIWEnabled="true" LinePattern="Dotted">
@@ -5900,6 +5855,71 @@
 -183240.622+1244157.831/
 -182323.236+1245139.614/
 -181553.000+1245723.000</Area>
+      <Activations />
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R825 CURTIN" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>-172710.000+1234151.000/
+-172910.000+1240154.000/
+-172919.702+1240200.758/
+-173113.394+1240256.492/
+-173314.587+1240330.693/
+-173519.602+1240342.311/
+-173724.640+1240330.979/
+-173925.902+1240257.029/
+-174119.701+1240201.481/
+-174302.573+1240046.015/
+-174318.000+1240032.000/
+-174022.000+1235351.000/
+-173650.000+1233838.000/
+-173519.602+1233831.689/
+-173314.587+1233843.307/
+-173113.394+1233917.508/
+-172919.702+1234013.242/
+-172736.960+1234128.808/
+-172710.000+1234151.000</Area>
+      <Activations />
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R826 CURTIN" AltitudeFloor="1500" AltitudeCeiling="3500" DAIWEnabled="true" LinePattern="Dotted">
+      <Area>-173120.000+1232517.000/
+-172710.000+1234151.000/
+-172736.960+1234128.808/
+-172919.702+1234013.242/
+-173113.394+1233917.508/
+-173314.587+1233843.307/
+-173519.602+1233831.689/
+-173650.000+1233838.000/
+-174022.000+1235351.000/
+-174318.000+1240032.000/
+-174302.573+1240046.015/
+-174119.701+1240201.481/
+-173925.902+1240257.029/
+-173724.640+1240330.979/
+-173519.602+1240342.311/
+-173314.587+1240330.693/
+-173113.394+1240256.492/
+-172919.702+1240200.758/
+-172910.000+1240154.000/
+-173133.000+1241659.000/
+-173518.271+1241720.563/
+-173938.793+1241657.278/
+-174351.498+1241546.835/
+-174748.697+1241351.324/
+-175123.160+1241114.217/
+-175428.347+1240800.267/
+-175658.602+1240415.367/
+-175849.335+1240006.368/
+-175957.159+1235540.873/
+-180020.000+1235107.000/
+-175957.159+1234633.127/
+-175849.335+1234207.632/
+-175658.602+1233758.633/
+-175428.347+1233413.733/
+-175123.160+1233059.783/
+-174748.697+1232822.676/
+-174351.498+1232627.165/
+-173938.793+1232516.722/
+-173518.271+1232453.437/
+-173120.000+1232517.000</Area>
       <Activations />
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R850A LEARMONTH" AltitudeFloor="0" AltitudeCeiling="28000" DAIWEnabled="true" LinePattern="Dotted">
@@ -9954,10 +9974,12 @@
 -171712.000+1452547.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Danger" Name="D744 TOWNSVILLE" AltitudeFloor="0" AltitudeCeiling="7000" DAIWEnabled="false" LinePattern="None">
+    <RestrictedArea Type="Danger" Name="D745 TOWNSVILLE" AltitudeFloor="0" AltitudeCeiling="7000" DAIWEnabled="false" LinePattern="None">
       <Area>-181416.000+1445605.000/
 -181800.000+1451230.000/
 -183133.000+1453503.000/
+-183832.000+1454209.000/
+-190601.000+1461011.000/
 -191617.000+1462043.000/
 -192230.000+1462120.000/
 -192445.000+1462500.000/
@@ -9965,12 +9987,13 @@
 -193433.000+1462045.000/
 -193635.000+1462400.000/
 -193832.000+1463519.000/
+-195056.000+1463353.000/
 -195239.000+1463341.000/
--201158.000+1445336.000/
--195502.205+1444533.776/
--193446.389+1444004.080/
--191355.137+1443824.249/
--185306.527+1444035.849/
+-200113.000+1454958.000/
+-201158.000+1445337.000/
+-201657.000+1442650.000/
+-191000.000+1440000.000/
+-184958.000+1444131.000/
 -183258.321+1444633.488/
 -181416.000+1445605.000</Area>
       <Activations />
@@ -10379,6 +10402,74 @@
 -170927.309+1223721.444/
 -172203.570+1223343.647/
 -173138.000+1223242.000</Area>
+      <Activations />
+    </RestrictedArea>
+    <RestrictedArea Type="Danger" Name="D830A CURTIN" AltitudeFloor="0" AltitudeCeiling="1500" DAIWEnabled="false" LinePattern="None">
+      <Area>-173120.000+1232517.000/
+-172710.000+1234151.000/
+-172736.960+1234128.808/
+-172919.702+1234013.242/
+-173113.394+1233917.508/
+-173314.587+1233843.307/
+-173519.602+1233831.689/
+-173650.000+1233838.000/
+-174022.000+1235351.000/
+-174318.000+1240032.000/
+-174302.573+1240046.015/
+-174119.701+1240201.481/
+-173925.902+1240257.029/
+-173724.640+1240330.979/
+-173519.602+1240342.311/
+-173314.587+1240330.693/
+-173113.394+1240256.492/
+-172919.702+1240200.758/
+-172910.000+1240154.000/
+-173133.000+1241659.000/
+-173518.271+1241720.563/
+-173938.793+1241657.278/
+-174351.498+1241546.835/
+-174748.697+1241351.324/
+-175123.160+1241114.217/
+-175428.347+1240800.267/
+-175658.602+1240415.367/
+-175849.335+1240006.368/
+-175957.159+1235540.873/
+-180020.000+1235107.000/
+-175957.159+1234633.127/
+-175849.335+1234207.632/
+-175658.602+1233758.633/
+-175428.347+1233413.733/
+-175123.160+1233059.783/
+-174748.697+1232822.676/
+-174351.498+1232627.165/
+-173938.793+1232516.722/
+-173518.271+1232453.437/
+-173120.000+1232517.000</Area>
+      <Activations />
+    </RestrictedArea>
+    <RestrictedArea Type="Danger" Name="D830B CURTIN" AltitudeFloor="0" AltitudeCeiling="3500" DAIWEnabled="false" LinePattern="None">
+      <Area>-173120.000+1232517.000/
+-173057.854+1232517.963/
+-172645.448+1232629.497/
+-172248.710+1232825.817/
+-171914.810+1233103.355/
+-171610.224+1233417.305/
+-171340.533+1233801.775/
+-171150.261+1234209.964/
+-171042.737+1234634.368/
+-171020.000+1235107.000/
+-171042.737+1235539.632/
+-171150.261+1240004.036/
+-171340.533+1240412.225/
+-171610.224+1240756.695/
+-171914.810+1241110.645/
+-172248.710+1241348.183/
+-172645.448+1241544.503/
+-173057.854+1241656.037/
+-173133.000+1241659.000/
+-172910.000+1240154.000/
+-172710.000+1234151.000/
+-173120.000+1232517.000</Area>
       <Activations />
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="M147A LANCELIN" AltitudeFloor="0" AltitudeCeiling="70000" DAIWEnabled="true" LinePattern="Solid">
@@ -10926,7 +11017,7 @@
 -371556.000+1470858.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="M331A WESTERN PORT" AltitudeFloor="0" AltitudeCeiling="9000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Restricted" Name="M335A WESTERN PORT" AltitudeFloor="0" AltitudeCeiling="9000" DAIWEnabled="true" LinePattern="Solid">
       <Area>-383223.000+1444141.000/
 -383000.000+1445522.000/
 -382946.926+1445517.509/
@@ -10955,8 +11046,8 @@
 -383207.734+1450628.795/
 -383244.742+1450541.559/
 -383252.000+1450528.000/
--383530.000+1450830.000/
--384358.000+1450832.000/
+-383444.000+1450737.000/
+-384412.000+1450736.000/
 -384440.362+1450508.735/
 -384455.000+1450135.000/
 -384440.362+1445801.265/
@@ -10969,7 +11060,7 @@
 -383223.000+1444141.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="M331B WESTERN PORT" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Restricted" Name="M335B WESTERN PORT" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Solid">
       <Area>-382855.000+1450135.000/
 -383223.000+1444141.000/
 -383421.768+1444221.142/
@@ -10985,21 +11076,14 @@
 -382855.000+1450135.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="M334 CAPE SCHANCK" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Solid">
-      <Area>-385100.000+1442100.000/
--383800.000+1444100.000/
--383616.000+1444328.000/
--383653.664+1444350.974/
--383911.030+1444553.314/
--384109.666+1444824.469/
--384245.938+1445119.846/
--384356.896+1445434.094/
--384440.362+1445801.265/
--384455.000+1450135.000/
--384445.000+1450434.000/
--384930.000+1445630.000/
--390200.000+1443400.000/
--385100.000+1442100.000</Area>
+    <RestrictedArea Type="Restricted" Name="M335C WESTERN PORT" AltitudeFloor="9000" AltitudeCeiling="18000" DAIWEnabled="true" LinePattern="Solid">
+      <Area>-382907.000+1450200.000/
+-383252.000+1450528.000/
+-383444.000+1450737.000/
+-384412.000+1450736.000/
+-384440.362+1450508.735/
+-384455.000+1450200.000/
+-382907.000+1450200.000</Area>
       <Activations />
     </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="M440A TASMAN SEA" AltitudeFloor="0" AltitudeCeiling="0" DAIWEnabled="true" LinePattern="Solid">
@@ -11292,7 +11376,7 @@
 -345632.000+1515935.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="M550A WILLIAMTOWN" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Restricted" Name="M581 WILLIAMTOWN" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Solid">
       <Area>-321258.000+1524130.000/
 -322917.000+1532440.000/
 -334906.000+1524538.000/
@@ -11313,7 +11397,7 @@
 -321258.000+1524130.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="M550B WILLIAMTOWN" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Restricted" Name="M582 WILLIAMTOWN" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Solid">
       <Area>-322917.000+1532440.000/
 -325503.000+1543446.000/
 -334855.000+1540250.000/
@@ -11321,7 +11405,7 @@
 -322917.000+1532440.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="M550C WILLIAMTOWN" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Restricted" Name="M583 WILLIAMTOWN" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Solid">
       <Area>-311724.000+1530823.000/
 -320101.000+1550606.000/
 -325503.000+1543446.000/
@@ -11330,7 +11414,7 @@
 -311724.000+1530823.000</Area>
       <Activations />
     </RestrictedArea>
-    <RestrictedArea Type="Restricted" Name="M550D WILLIAMTOWN" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Solid">
+    <RestrictedArea Type="Restricted" Name="M584 WILLIAMTOWN" AltitudeFloor="0" AltitudeCeiling="60000" DAIWEnabled="true" LinePattern="Solid">
       <Area>-304333.000+1532427.000/
 -310443.000+1553803.000/
 -320101.000+1550606.000/
