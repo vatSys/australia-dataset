@@ -1,0 +1,311 @@
+<StripLayouts
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<StripLayout Name="Default" ArrowType="Direction">
+		<StripLayoutSections>
+			<StripLayoutSection FlowDirection="Horizontal" Border="All">
+				<StripLayoutSubsections>
+					<StripLayoutSection FlowDirection="Horizontal" Border="All">
+						<StripLayoutLines>
+							<StripLayoutLine LineSpan="2">
+								<StripItems>
+									<StripItem Type="DesignationArea" LeftClick="Strip_Select" MiddleClick="Strip_Delete" RightClick="Strip_Cock" MinLength="5"/>
+								</StripItems>
+							</StripLayoutLine>
+							<StripLayoutLine>
+								<StripItems>
+									<StripItem Type="ControllingSector" LeftClick="Strip_Controller" MaxLength="5" MinLength="3"/>
+								</StripItems>
+							</StripLayoutLine>
+							<StripLayoutLine>
+								<StripItems>
+									<StripItem Type="FDRState" LeftClick="Strip_State" MinLength="4"/>
+								</StripItems>
+							</StripLayoutLine>
+						</StripLayoutLines>
+					</StripLayoutSection>
+					<StripLayoutSection FlowDirection="Vertical">
+						<StripLayoutSubsections>
+							<StripLayoutSection FlowDirection="Horizontal">
+								<StripLayoutSubsections>
+									<StripLayoutSection FlowDirection="Horizontal" Border="All">
+										<StripLayoutLines>
+											<StripLayoutLine>
+												<StripItems>
+													<StripItem Type="Callsign" LeftClick="Label_ACID_Menu" MiddleClick="Strip_Extend" RightClick="Label_SAR_Popup" MaxLength="8" MinLength="8" FontSize="Large"/>
+													<StripItem Type="CPDLCStatus" LeftClick="Label_CPDLC_Editor" MinLength="1"/>
+													<StripItem Type="FlightRules"/>
+												</StripItems>
+											</StripLayoutLine>
+											<StripLayoutLine>
+												<StripItems>
+													<StripItem Type="AssignedSSR" LeftClick="Strip_ASSR" MinLength="4"/>
+													<StripSeparatorItem MinLength="4"/>
+													<StripItem Type="AircraftType" MaxLength="5"/>
+												</StripItems>
+											</StripLayoutLine>
+											<StripLayoutLine>
+												<StripItems>
+													<StripItem Type="STRIP_ATD" LeftClick="Strip_ATD" MaxLength="4"/>
+													<StripSeparatorItem MinLength="4"/>
+													<StripItem Type="STRIP_EVENT" MaxLength="2"/>
+													<StripSeparatorItem MinLength="2"/>
+													<StripItem Type="Destination" MaxLength="4"/>
+												</StripItems>
+											</StripLayoutLine>
+										</StripLayoutLines>
+									</StripLayoutSection>
+									<StripLayoutSection FlowDirection="Horizontal" Border="All">
+										<StripLayoutLines>
+											<StripLayoutLine>
+												<StripItems>
+													<StripItem Type="TAS" MinLength="6"/>
+												</StripItems>
+											</StripLayoutLine>
+											<StripLayoutLine>
+												<StripItems>
+													<StripItem Type="Runway" LeftClick="Label_Runway" MaxLength="5" MinLength="5"/>
+													<StripItem Type="PDCStatus" LeftClick="Strip_PDC_Editor" MiddleClick="Strip_PDC_Acknowledge"/>
+												</StripItems>
+											</StripLayoutLine>
+											<StripLayoutLine>
+												<StripItems>
+													<StripItem Type="SIDSTAR" LeftClick="Strip_SIDSTAR" RightClick="Strip_SIDSTAR_Expand" MaxLength="6" MinLength="6"/>
+												</StripItems>
+											</StripLayoutLine>
+										</StripLayoutLines>
+									</StripLayoutSection>
+									<StripLayoutSection FlowDirection="Horizontal" Border="All">
+										<StripLayoutLines>
+											<StripLayoutLine>
+												<StripItems>
+													<StripItem Type="RFL" MinLength="3"/>
+												</StripItems>
+											</StripLayoutLine>
+											<StripLayoutLine>
+												<StripItems>
+													<StripItem Type="CFL" LeftClick="Label_CFL_Popup" RightClick="Strip_CFL_Expand" MinLength="3"/>
+												</StripItems>
+											</StripLayoutLine>
+											<StripLayoutLine>
+												<StripItems>
+													<StripItem Type="PRL" LeftClick="Label_PRL_Popup" MinLength="3"/>
+												</StripItems>
+											</StripLayoutLine>
+										</StripLayoutLines>
+									</StripLayoutSection>
+									<StripLayoutSection FlowDirection="Horizontal" Border="Horizontal">
+										<StripLayoutSubsections>
+											<StripLayoutSection FlowDirection="Horizontal">
+												<StripLayoutLines>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="Point" LeftClick="Strip_Point" MiddleClick="Strip_MPR_Arm" RightClick="Strip_Point_Expand" PointIndex="0" MaxLength="6" MinLength="6"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="ETOP" LeftClick="Strip_ETO" PointIndex="0" MinLength="4"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="PCL" PointIndex="0" MinLength="3"/>
+														</StripItems>
+													</StripLayoutLine>
+												</StripLayoutLines>
+											</StripLayoutSection>
+											<StripLayoutSection FlowDirection="Horizontal">
+												<StripLayoutLines>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="Point" LeftClick="Strip_Point" MiddleClick="Strip_MPR_Arm" RightClick="Strip_Point_Expand" PointIndex="1" MaxLength="6" MinLength="6"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="ETOP" LeftClick="Strip_ETO" PointIndex="1" MinLength="4"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="PCL" PointIndex="1" MinLength="3"/>
+														</StripItems>
+													</StripLayoutLine>
+												</StripLayoutLines>
+											</StripLayoutSection>
+											<StripLayoutSection FlowDirection="Horizontal">
+												<StripLayoutLines>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="Point" LeftClick="Strip_Point" MiddleClick="Strip_MPR_Arm" RightClick="Strip_Point_Expand" PointIndex="2" MaxLength="6" MinLength="6"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="ETOP" LeftClick="Strip_ETO" PointIndex="2" MinLength="4"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="PCL" PointIndex="2" MinLength="3"/>
+														</StripItems>
+													</StripLayoutLine>
+												</StripLayoutLines>
+											</StripLayoutSection>
+											<StripLayoutSection FlowDirection="Horizontal" DisplayState="Extended">
+												<StripLayoutLines>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="Point" LeftClick="Strip_Point" MiddleClick="Strip_MPR_Arm" RightClick="Strip_Point_Expand" PointIndex="3" MaxLength="6" MinLength="6"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="ETOP" LeftClick="Strip_ETO" PointIndex="3" MinLength="4"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="PCL" PointIndex="3" MinLength="3"/>
+														</StripItems>
+													</StripLayoutLine>
+												</StripLayoutLines>
+											</StripLayoutSection>
+											<StripLayoutSection FlowDirection="Horizontal" DisplayState="Extended">
+												<StripLayoutLines>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="Point" LeftClick="Strip_Point" MiddleClick="Strip_MPR_Arm" RightClick="Strip_Point_Expand" PointIndex="4" MaxLength="6" MinLength="6"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="ETOP" LeftClick="Strip_ETO" PointIndex="4" MinLength="4"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="PCL" PointIndex="4" MinLength="3"/>
+														</StripItems>
+													</StripLayoutLine>
+												</StripLayoutLines>
+											</StripLayoutSection>
+											<StripLayoutSection FlowDirection="Horizontal" DisplayState="Extended">
+												<StripLayoutLines>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="Point" LeftClick="Strip_Point" MiddleClick="Strip_MPR_Arm" RightClick="Strip_Point_Expand" PointIndex="5" MaxLength="6" MinLength="6"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="ETOP" LeftClick="Strip_ETO" PointIndex="5" MinLength="4"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="PCL" PointIndex="5" MinLength="3"/>
+														</StripItems>
+													</StripLayoutLine>
+												</StripLayoutLines>
+											</StripLayoutSection>
+											<StripLayoutSection FlowDirection="Horizontal" DisplayState="Extended">
+												<StripLayoutLines>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="Point" LeftClick="Strip_Point" MiddleClick="Strip_MPR_Arm" RightClick="Strip_Point_Expand" PointIndex="6" MaxLength="6" MinLength="6"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="ETOP" LeftClick="Strip_ETO" PointIndex="6" MinLength="4"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="PCL" PointIndex="6" MinLength="3"/>
+														</StripItems>
+													</StripLayoutLine>
+												</StripLayoutLines>
+											</StripLayoutSection>
+											<StripLayoutSection FlowDirection="Horizontal" DisplayState="Extended">
+												<StripLayoutLines>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="Point" LeftClick="Strip_Point" MiddleClick="Strip_MPR_Arm" RightClick="Strip_Point_Expand" PointIndex="7" MaxLength="6" MinLength="6"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="ETOP" LeftClick="Strip_ETO" PointIndex="7" MinLength="4"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="PCL" PointIndex="7" MinLength="3"/>
+														</StripItems>
+													</StripLayoutLine>
+												</StripLayoutLines>
+											</StripLayoutSection>
+											<StripLayoutSection FlowDirection="Horizontal" DisplayState="Extended">
+												<StripLayoutLines>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="Point" LeftClick="Strip_Point" MiddleClick="Strip_MPR_Arm" RightClick="Strip_Point_Expand" PointIndex="8" MaxLength="6" MinLength="6"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="ETOP" LeftClick="Strip_ETO" PointIndex="8" MinLength="4"/>
+														</StripItems>
+													</StripLayoutLine>
+													<StripLayoutLine>
+														<StripItems>
+															<StripItem Type="PCL" PointIndex="8" MinLength="3"/>
+														</StripItems>
+													</StripLayoutLine>
+												</StripLayoutLines>
+											</StripLayoutSection>
+										</StripLayoutSubsections>
+									</StripLayoutSection>
+								</StripLayoutSubsections>
+							</StripLayoutSection>
+							<StripLayoutSection FlowDirection="Horizontal">
+								<StripLayoutSubsections>
+									<StripLayoutSection FlowDirection="Horizontal" Border="All">
+										<StripLayoutLines>
+											<StripLayoutLine>
+												<StripItems>
+													<StripItem Type="OtherInfo" LeftClick="Label_Field18_Popup" MaxLength="10" MinLength="12"/>
+												</StripItems>
+											</StripLayoutLine>
+										</StripLayoutLines>
+									</StripLayoutSection>
+									<StripLayoutSection FlowDirection="Horizontal" Border="All">
+										<StripLayoutLines>
+											<StripLayoutLine>
+												<StripItems>
+													<StripItem Type="GlobalOpsInfo" LeftClick="Strip_GlobalOps" MaxLength="15" MinLength="15"/>
+												</StripItems>
+											</StripLayoutLine>
+										</StripLayoutLines>
+									</StripLayoutSection>
+									<StripLayoutSection FlowDirection="Horizontal" Border="Left Top Bottom">
+										<StripLayoutLines>
+											<StripLayoutLine>
+												<StripItems>
+													<StripItem Type="LocalOpsInfo" LeftClick="Strip_LocalOps" MaxLength="15" MinLength="15"/>
+												</StripItems>
+											</StripLayoutLine>
+										</StripLayoutLines>
+									</StripLayoutSection>
+								</StripLayoutSubsections>
+							</StripLayoutSection>
+						</StripLayoutSubsections>
+					</StripLayoutSection>
+				</StripLayoutSubsections>
+			</StripLayoutSection>
+		</StripLayoutSections>
+	</StripLayout>
+</StripLayouts>
