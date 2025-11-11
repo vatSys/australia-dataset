@@ -1798,11 +1798,48 @@
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
+	<Position Name="Pearce TCU" Type="ASD" DefaultCenter="-31.330278+115.900000" DefaultRange="150" VisibilityRange="100" MagneticVariation="1.6">
+      <Sectors>
+        <Sector Name="PEA" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-31.330278+115.900000</Point>
+		<Point>-31.793333+115.358333</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Perth/PH_COAST" />
+        <Map Name="Perth/PH_TCU" />
+        <Map Name="Perth/PE_RWY36" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPEA" Frequency="123.8" />
+        <Window Airport="YPEA" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPEA" Visible="true" />
+        <Window Type="ADEP" Beacon="YGIG" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="18000">
+        <AdditionalLevels>2100,2400,2800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YPEA" />
+		<Airport Name="YGIG" />
+      </ArrivalLists>
+      <ControllerInfo Callsign="PE_APP">
+        <Line>Pearce Approach | ATIS available on 123.8</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" VisibilityRange="100" MagneticVariation="1.6">
       <Sectors>
         <Sector Name="PHA" />
         <Sector Name="PHD" />
-        <Sector Name="PEA" />
       </Sectors>
       <ManualVisibility>
         <Point>-31.940278+115.966944</Point>
@@ -1837,12 +1874,6 @@
       </ControllerInfo>
       <ControllerInfo Callsign="PH_DEP">
         <Line>Perth Departures | ATIS available on 123.8</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="PE_APP">
-        <Line>Pearce Approach | ATIS available on 123.8</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
