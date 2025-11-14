@@ -1010,6 +1010,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Albury/AY_TCU" />
         <Map Name="Albury/AY_RWY07" />
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YMAY" Frequency="133.85" />
@@ -1043,6 +1044,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Alice Springs/AS_TCU" />
         <Map Name="Alice Springs/AS_RWY12" />
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBAS" Frequency="123.000" />
@@ -1072,6 +1074,7 @@
         <Map Name="Broome/BRM_COAST" />
         <Map Name="Broome/BRM_TCU" />
         <Map Name="Broome/YBRM_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBRM" Frequency="128.2" />
@@ -1106,6 +1109,7 @@
         <Map Name="Coffs Harbour/CFS_COAST" />
         <Map Name="Coffs Harbour/CFS_TCU" />
         <Map Name="Coffs Harbour/YCFS_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YCFS" Frequency="130.3" />
@@ -1134,6 +1138,7 @@
         <Map Name="Hamilton Island/HM_COAST" />
         <Map Name="Hamilton Island/HM_TCU" />
         <Map Name="Hamilton Island/YBHM_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBHM" Frequency="128.35" />
@@ -1163,6 +1168,7 @@
         <Map Name="Sunshine Coast/SU_COAST" />
         <Map Name="Sunshine Coast/SU_TCU" />
         <Map Name="Sunshine Coast/SU_RWY13" />
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBSU" Frequency="119.8" />
@@ -1198,6 +1204,7 @@
         <Map Name="Karratha/KA_COAST" />
         <Map Name="Karratha/KA_TCU" />
         <Map Name="Karratha/YPKA_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YPKA" Frequency="134.55" />
@@ -1233,6 +1240,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Tamworth/TW_TCU" />
         <Map Name="Tamworth/YSTW_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YSTW" Frequency="123.8" />
@@ -1273,6 +1281,7 @@
         <Map Name="Woomera/WR_TCU" />
         <Map Name="Woomera/WR_COAST" />
         <Map Name="Woomera/YPWR_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
         <Editor Airport="YPWR" Frequency="118.1" />
@@ -1798,11 +1807,48 @@
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
+	<Position Name="Pearce TCU" Type="ASD" DefaultCenter="-31.330278+115.900000" DefaultRange="150" VisibilityRange="100" MagneticVariation="1.6">
+      <Sectors>
+        <Sector Name="PEA" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-31.330278+115.900000</Point>
+		<Point>-31.793333+115.358333</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Perth/PH_COAST" />
+        <Map Name="Perth/PH_TCU" />
+        <Map Name="Perth/PE_RWY36" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPEA" Frequency="123.8" />
+        <Window Airport="YPEA" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YPEA" Visible="true" />
+        <Window Type="ADEP" Beacon="YGIG" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="18000">
+        <AdditionalLevels>2100,2400,2800</AdditionalLevels>
+      </CFL>
+      <ArrivalLists>
+        <Airport Name="YPEA" />
+		<Airport Name="YGIG" />
+      </ArrivalLists>
+      <ControllerInfo Callsign="PE_APP">
+        <Line>Pearce Approach | ATIS available on 123.8</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Perth TCU" Type="ASD" DefaultCenter="-31.940278+115.966944" DefaultRange="150" VisibilityRange="100" MagneticVariation="1.6">
       <Sectors>
         <Sector Name="PHA" />
         <Sector Name="PHD" />
-        <Sector Name="PEA" />
       </Sectors>
       <ManualVisibility>
         <Point>-31.940278+115.966944</Point>
@@ -1837,12 +1883,6 @@
       </ControllerInfo>
       <ControllerInfo Callsign="PH_DEP">
         <Line>Perth Departures | ATIS available on 123.8</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="PE_APP">
-        <Line>Pearce Approach | ATIS available on 123.8</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
