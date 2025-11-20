@@ -86,42 +86,33 @@
     </Label>
     <!--YMML North-->
     <Line Pattern="Dotted">
-      IGMIL/
-      UPNAP/
-      IGPEB/
-      DORSU
+      DUBED/
+      LEGOM/
+      IDVIL/
+      GUGIX/
+      DORSU/
+      AVKOG/
+      GUGIX
     </Line>
     <Line Pattern="Dotted">
-      IGPEB/
-      ONOPO/
-      DORSU
-    </Line>
-    <Line Pattern="Dotted">
-      ONOPO/
-      URGUL/
-      DORSU
-    </Line>
-    <Line Pattern="Dotted">
-      URGUL/
-      IBOVU/
-      DORSU
+      IDVIL/
+      DORSU/
+      LEGOM
     </Line>
     <Symbol Type="SolidSquare">
-      <Point>IGMIL</Point>
-      <Point>UPNAP</Point>
-      <Point>IGPEB</Point>
-      <Point>ONOPO</Point>
-      <Point>URGUL</Point>
-      <Point>IBOVU</Point>
+      <Point>DUBED</Point>
+      <Point>LEGOM</Point>
+      <Point>IDVIL</Point>
+      <Point>GUGIX</Point>
+      <Point>AVKOG</Point>
       <Point>DORSU</Point>
     </Symbol>
     <Label>
-      <Point>IGMIL</Point>
-      <Point>UPNAP</Point>
-      <Point Name="IGPEB(+1/+2)">IGPEB</Point>
-      <Point Name="ONOPO(+3/+4)">ONOPO</Point>
-      <Point Name="URGUL(+5/+6)">URGUL</Point>
-      <Point Name="IBOVU(+7/+8)">IBOVU</Point>
+      <Point>DUBED</Point>
+      <Point Name="LEGOM (+2)">LEGOM</Point>
+      <Point Name="IDVIL (+4)">IDVIL</Point>
+      <Point Name="GUGIX (+6)">GUGIX</Point>
+      <Point Name="AVKOG (+8)">AVKOG</Point>
       <Point>DORSU</Point>
     </Label>
     <!--YPPH-->
@@ -178,30 +169,47 @@
       MALUP
     </Line>
     <Line Pattern="Dotted">
-      LEBOD/
       AVPAL/
-      NUKTU/
-      BOKAT/
+      OTGOM/
+      ELGAT/
       AVPAL/
-      ELNUL/
-      LAXIM/
+      VEKBO/
+      DUBUL/
       AVPAL/
-      ISGUN/
-      AGTIK/
+      SOVTO/
+      ASEBI/
       AVPAL/
-      MEENA/
-      SQARE/
+      LEDAB/
+      NURPA/
+      AVPAL/
+      BEPKI/
+      IGOKO/
       AVPAL
     </Line>
     <Line Pattern="Dotted">
-      LEBOD/
-      NUKTU/
-      BOKAT/
-      ELNUL/
-      LAXIM/
-      ISGUN/
-      AGTIK/
-      MEENA
+      ELGAT/
+      BEPKI
+    </Line>
+    <Line Pattern="Dotted">
+      OPEGA/
+      TUTRU/
+      BEKIG/
+      OPEGA/
+      DAKPO/
+      BEKIG
+    </Line>
+    <Line Pattern="Dotted">
+      KAGMI/
+      DAKPO/
+      MIGEP/
+      KAGMI/
+      AVMEK/
+      GOPLO/
+      KAGMI
+    </Line>
+    <Line Pattern="Dotted">
+      AVMEK/
+      MIGEP
     </Line>
     <Symbol Type="SolidSquare">
       <Point>BUNGL</Point>
@@ -218,23 +226,33 @@
       <Point>IVPIL</Point>
       <Point>MALUP</Point>
       <Point>LEBOD</Point>
-      <Point>NUKTU</Point>
-      <Point>BOKAT</Point>
-      <Point>ELNUL</Point>
-      <Point>LAXIM</Point>
-      <Point>ISGUN</Point>
-      <Point>AGTIK</Point>
-      <Point>MEENA</Point>
-      <Point>SQARE</Point>
+      <Point>OTGOM</Point>
+      <Point>ELGAT</Point>
+      <Point>VEKBO</Point>
+      <Point>DUBUL</Point>
+      <Point>SOVTO</Point>
+      <Point>ASEBI</Point>
+      <Point>LEDAB</Point>
+      <Point>NURPA</Point>
+      <Point>BEPKI</Point>
+      <Point>IGOKO</Point>
       <Point>AVPAL</Point>
+      <Point>OPEGA</Point>
+      <Point>TUTRU</Point>
+      <Point>BEKIG</Point>
+      <Point>DAKPO</Point>
+      <Point>MIGEP</Point>
+      <Point>AVMEK</Point>
+      <Point>GOPLO</Point>
+      <Point>KAGMI</Point>
     </Symbol>
     <Label>
       <Point>BUNGL</Point>
       <Point Name="KINAB(+7)">KINAB</Point>
       <Point Name="IGROB(+5)">IGROB</Point>
       <Point>NALAR</Point>
-      <Point Name="URGEX (0/+8/+1/+5)">URGEX</Point>
-      <Point Name="TEKUD (+1/+6/0/+7)">TEKUD</Point>
+      <Point Name="URGEX (/+8/+1/+5)">URGEX</Point>
+      <Point Name="TEKUD (+1/+6//+7)">TEKUD</Point>
       <Point Name="BEMPI (+2/+5/+1/+8)">BEMPI</Point>
       <Point Name="AGTOD (+4/+4/+3/+10)">AGTOD</Point>
       <Point Name="DUKOR (+6/+3/+5/+12)">DUKOR</Point>
@@ -242,16 +260,24 @@
       <Point Name="TODOS (+10/+1/+9/+16)">TODOS</Point>
       <Point Name="IVPIL (+13/0/+11/+20)">IVPIL</Point>
       <Point>MALUP</Point>
-      <Point Name="LEBOD(0/0/0/0/+10)">LEBOD</Point>
-      <Point Name="NUKTU(+1/0/0/0/+8)">NUKTU</Point>
-      <Point Name="BOKAT(+2/+1/0/0/+7)">BOKAT</Point>
-      <Point Name="ELNUL(+3/+2/+1/0/+6)">ELNUL</Point>
-      <Point Name="LAXIM(+5/+4/+3/+2/+4)">LAXIM</Point>
-      <Point Name="ISGUN(+8/+7/+6/+7/+3)">ISGUN</Point>
-      <Point Name="AGTIK(+10/+9/+8/+7/+2)">AGTIK</Point>
-      <Point Name="MEENA(+12/+11/+10/+9/+1)">MEENA</Point>
-      <Point Name="SQARE(+14/+13/+12/+11/+0)">SQARE</Point>
+      <Point>IGOKO</Point>
+      <Point>BEPKI</Point>
+      <Point>NURPA</Point>
+      <Point>LEDAB</Point>
+      <Point>ASEBI</Point>
+      <Point>SOVTO</Point>
+      <Point>DUBUL</Point>
+      <Point>VEKBO</Point>
+      <Point>ELGAT</Point>
+      <Point>OTGOM</Point>
       <Point>AVPAL</Point>
+      <Point>OPEGA</Point>
+      <Point Name="TUTRU (+4)">TUTRU</Point>
+      <Point Name="BEKIG (+2)">BEKIG</Point>
+      <Point>DAKPO</Point>
+      <Point Name="MIGEP (+2)">MIGEP</Point>
+      <Point Name="AVMEK (+4)">AVMEK</Point>
+      <Point Name="GOPLO (+6/+8/+10)">GOPLO</Point>
     </Label>
     <!--YBBN-->
     <Line Pattern="Dotted">
