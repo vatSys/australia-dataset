@@ -1807,13 +1807,13 @@
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-	<Position Name="Pearce TCU" Type="ASD" DefaultCenter="-31.330278+115.900000" DefaultRange="150" VisibilityRange="100" MagneticVariation="1.6">
+    <Position Name="Pearce TCU" Type="ASD" DefaultCenter="-31.330278+115.900000" DefaultRange="150" VisibilityRange="100" MagneticVariation="1.6">
       <Sectors>
         <Sector Name="PEA" />
       </Sectors>
       <ManualVisibility>
         <Point>-31.330278+115.900000</Point>
-		<Point>-31.793333+115.358333</Point>
+        <Point>-31.793333+115.358333</Point>
       </ManualVisibility>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -1824,7 +1824,7 @@
         <Map Name="TMA_LL_LABELS" />
       </Maps>
       <ATIS>
-        <Editor Airport="YPEA" Frequency="123.8" />
+        <Editor Airport="YPEA" Frequency="136.4" />
         <Window Airport="YPEA" />
       </ATIS>
       <Strips Mode="Beacon" Sort="Alpha">
@@ -1836,7 +1836,7 @@
       </CFL>
       <ArrivalLists>
         <Airport Name="YPEA" />
-		<Airport Name="YGIG" />
+        <Airport Name="YGIG" />
       </ArrivalLists>
       <ControllerInfo Callsign="PE_APP">
         <Line>Pearce Approach | ATIS available on 123.8</Line>
@@ -2393,7 +2393,6 @@
     <Position Name="Avalon Tower" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="50" MagneticVariation="-11.6" DynamicInfill="false">
       <Sectors>
         <Sector Name="AV ADC" />
-        <!-- <Sector Name="AV SMC" /> -->
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
@@ -2416,12 +2415,6 @@
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
-       <!-- <ControllerInfo Callsign="AV_GND">
-        <Line>Avalon Ground</Line>
-        <Line>ATIS available on 118.2</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo> -->
     </Position>
     <Position Name="Bankstown Tower" Type="ASD" DefaultCenter="-33.924444+150.988333" DefaultRange="30" MagneticVariation="-12.6">
       <Sectors>

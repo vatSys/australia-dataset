@@ -186,20 +186,18 @@
     <Airport Name="YBCG">
       <Runway Name="14" DataRunway="14">
         <SID Name="APAGI5" Type="Jet" />
-        <SID Name="CG6" Default="True" />
+        <SID Name="CG7" Default="True" />
         <SID Name="CUDGN4" />
         <STAR Name="BERN3A" ApproachName="RNPZ" />
         <STAR Name="BERN3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="LAMS3A" ApproachName="RNPZ" />
         <STAR Name="LAMS3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
-      <Runway Name="17" DataRunway="17">
-        <SID Name="CG6" Default="True" />
-      </Runway>
+      <Runway Name="17" DataRunway="17" />
       <Runway Name="32" DataRunway="32">
         <SID Name="APAGI5" Type="Jet" />
         <SID Name="BURLI5" />
-        <SID Name="CG6" Default="True" />
+        <SID Name="CG7" Default="True" />
         <STAR Name="BERN3A" ApproachName="RNPZ" />
         <STAR Name="LAMS3A" ApproachName="RNPZ" />
         <STAR Name="LAMS3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
@@ -482,34 +480,35 @@
     </Airport>
     <Airport Name="YMLT">
       <Runway Name="14R" DataRunway="14R">
-        <SID Name="FLIK1A" />
+        <SID Name="FLIK2A" />
         <SID Name="FLIK1B" />
         <SID Name="FLIK1C" Type="NonJet" />
-        <SID Name="IRSO2A" />
+        <SID Name="IRSO3A" />
         <SID Name="IRSO2C" Type="NonJet" />
         <SID Name="LT1" Default="True" />
-        <SID Name="MIKIS3" />
-        <SID Name="MORG2A" />
+        <SID Name="MIKI2A" />
+        <SID Name="MORG3A" />
         <SID Name="MORG2C" Type="NonJet" />
-        <SID Name="MOTR2A" />
+        <SID Name="MOTR3A" />
         <SID Name="MOTR2B" />
         <SID Name="NUNP2A" />
         <SID Name="NUNP2B" />
-        <SID Name="TASUM2" />
-        <SID Name="VEKLO1" />
-        <SID Name="VIMA1A" />
+        <SID Name="TASU3A" />
+        <SID Name="VEKL2A" />
+        <SID Name="VIMA2A" />
         <SID Name="VIMA1B" />
       </Runway>
       <Runway Name="32L" DataRunway="32L">
-        <SID Name="FLIK1A" />
-        <SID Name="IRSO2A" />
-        <SID Name="MIKIS3" />
-        <SID Name="MORG2A" />
-        <SID Name="MOTR2A" />
+        <SID Name="FLIK2A" />
+        <SID Name="IRSO3A" />
+        <SID Name="MIKIS2" />
+        <SID Name="MIKI2A" />
+        <SID Name="MORG3A" />
+        <SID Name="MOTR3A" />
         <SID Name="NUNP2A" />
-        <SID Name="TASUM2" />
-        <SID Name="VEKLO1" />
-        <SID Name="VIMA1A" />
+        <SID Name="TASU3A" />
+        <SID Name="VEKL2A" />
+        <SID Name="VIMA2A" />
       </Runway>
     </Airport>
     <Airport Name="YMMB">
@@ -1011,7 +1010,7 @@
         <SID Name="NONUP9" Type="Jet" />
         <SID Name="TANTA3" Type="Jet" />
         <SID Name="WG2" Type="Jet" />
-        <STAR Name="AVBE5A" ApproachName="RNP-ARW" />
+        <STAR Name="AVBE6A" ApproachName="RNP-ARW" />
         <STAR Name="BUNG5A" Type="NonJet" ApproachName="RNP-ARW" />
         <STAR Name="BUNG5Y" Type="NonJet" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="LECE1A" Type="Jet" ApproachName="RNP-ARW" />
@@ -1030,7 +1029,7 @@
         <SID Name="NONUP9" Type="Jet" />
         <SID Name="TANTA3" Type="Jet" />
         <SID Name="WG2" Type="Jet" />
-        <STAR Name="AVBE5A" ApproachName="RNPZ" />
+        <STAR Name="AVBE6A" ApproachName="RNPZ" />
         <STAR Name="BUNG5A" Type="NonJet" ApproachName="RNPZ" />
         <STAR Name="BUNG5W" Type="NonJet" OpDataFlag="W" ApproachName="RNP-ARW" />
         <STAR Name="BUNG5Y" Type="NonJet" OpDataFlag="Y" ApproachName="RNP-ARY" />
@@ -1455,6 +1454,7 @@ ADISN
     <Airway Name="B578">
 BN VOR/
 GUMKI/
+AVMUN/
 MEPEM/
 ISTEM/
 TEBUR/
@@ -1656,7 +1656,7 @@ GUTIV/
 INVUS/
 ATNAT/
 SOTKI/
-TESAS/
+ELPIB/
 SARAP/
 IGLET/
 MUGEN/
@@ -1803,6 +1803,7 @@ UPNEX/
 EKIPU/
 WLM NDB/
 BANDA/
+RULGU/
 OMKAX/
 GOMOL/
 LAGOB/
@@ -1931,6 +1932,7 @@ UPVEN/
 URKER/
 TW VOR/
 PEBDO/
+ADKEX/
 WHITI/
 IDNER/
 BLAKA/
@@ -1942,7 +1944,7 @@ RIC NDB/
 RUTOS/
 LOKYA/
 EMSUR/
-OVMIN/
+AVBID/
 UPVEN
 </Airway>
     <Airway Name="H84">
@@ -2228,7 +2230,7 @@ SAVER/
 WODAY/
 SIFRA/
 UPSAD/
-TESAS/
+ELPIB/
 RUNOD/
 KABKA
 </Airway>
@@ -2267,6 +2269,7 @@ GUTLI/
 BANKS/
 IGASO/
 PALTI/
+OTGOM/
 TOPIR/
 AVPAL
 </Airway>
@@ -2419,12 +2422,7 @@ PEBLU
 MADEP/
 OLREL/
 AKALU/
-GORTA/
-PEBTU/
-ADBOK/
 NONID/
-OLNOT/
-LAFAM/
 SAPOX/
 RIKNI/
 MARLN/
@@ -2557,7 +2555,7 @@ TAPIT/
 KALSA/
 BAXMN/
 TODIK/
-BOKAT/
+DUBUL/
 AVPAL
 </Airway>
     <Airway Name="Q20">
@@ -2669,7 +2667,7 @@ MOPET/
 ORESO/
 BELEL/
 AVMAS/
-NUKTU/
+VEKBO/
 AVPAL
 </Airway>
     <Airway Name="Q32">
@@ -2700,11 +2698,6 @@ LOTGI/
 LUCRE/
 ESP VOR
 </Airway>
-    <Airway Name="Q346">
-BORLI/
-UPNAP/
-POLSO
-</Airway>
     <Airway Name="Q35">
 SU VOR/
 MOOLO/
@@ -2716,8 +2709,7 @@ EKABO/
 OSRAR/
 AKPAL/
 PKS VOR/
-IGMIL/
-POLSO/
+DUBED/
 ORINO/
 DORSU
 </Airway>
@@ -2732,7 +2724,7 @@ LOTVI/
 NWN VOR/
 OPALL/
 UNVAX/
-ELNUL/
+SOVTO/
 DALWU/
 AVPAL/
 HINDS/
@@ -2916,7 +2908,7 @@ DOBGO
 VALRA/
 NUBMO/
 WLU NDB/
-SQARE/
+IGOKO/
 NOMAV
 </Airway>
     <Airway Name="Q75">
@@ -2962,7 +2954,7 @@ GOOTA/
 TUREK/
 ISDOR/
 RULVI/
-LEBOD/
+ELGAT/
 AVPAL
 </Airway>
     <Airway Name="Q91">
@@ -3069,6 +3061,7 @@ PH VOR/
 IPMOR/
 KALBO/
 KAGMI/
+DAKPO/
 OPEGA/
 MERIB/
 NUNLA/
@@ -5744,6 +5737,7 @@ GUGRA
 AKROM/
 JEMMA/
 GOBAR/
+ARNTU/
 KANKO/
 ROKUU
 </Airway>
@@ -5773,7 +5767,6 @@ UBGAN
 </Airway>
     <Airway Name="Y177">
 CS VOR/
-BODAP/
 AKROM/
 WALTA/
 COCKA/
@@ -5917,7 +5910,8 @@ MAKRL
 MATAR/
 MIMIB/
 SAPNO/
-BORLI
+BORLI/
+DUBED
 </Airway>
     <Airway Name="Y34">
 HUG NDB/
@@ -6627,61 +6621,11 @@ SAGLI
     <Point Name="ALULU" Type="Fix">-211426.700+1172050.900</Point>
     <Point Name="ALVES" Type="Fix">-020000.000+0860000.000</Point>
     <Point Name="ALWYN" Type="Fix">-315122.000+1160730.800</Point>
-    <Point Name="AM100" Type="Fix">-261542.000+1532954.000</Point>
-    <Point Name="AM101" Type="Fix">-244942.000+1550206.000</Point>
-    <Point Name="AM102" Type="Fix">-253930.000+1555400.000</Point>
-    <Point Name="AM103" Type="Fix">-264642.000+1535330.000</Point>
-    <Point Name="AM104" Type="Fix">-274630.000+1544430.000</Point>
-    <Point Name="AM105" Type="Fix">-271312.000+1544430.000</Point>
-    <Point Name="AM106" Type="Fix">-263324.000+1554654.000</Point>
-    <Point Name="AM107" Type="Fix">-261548.000+1563030.000</Point>
-    <Point Name="AM108" Type="Fix">-271636.000+1573106.000</Point>
-    <Point Name="AM109" Type="Fix">-285012.000+1563754.000</Point>
-    <Point Name="AM110" Type="Fix">-285212.000+1534942.000</Point>
-    <Point Name="AM111" Type="Fix">-282912.000+1535736.000</Point>
-    <Point Name="AM112" Type="Fix">-283348.000+1540918.000</Point>
-    <Point Name="AM113" Type="Fix">-291324.000+1550712.000</Point>
-    <Point Name="AM114" Type="Fix">-302812.000+1542554.000</Point>
-    <Point Name="AM115" Type="Fix">-301854.000+1532930.000</Point>
-    <Point Name="AM116" Type="Fix">-293924.000+1533736.000</Point>
-    <Point Name="AM117" Type="Fix">-292212.000+1500918.000</Point>
-    <Point Name="AM118" Type="Fix">-281000.000+1494800.000</Point>
     <Point Name="AM11C" Type="Fix">-260606.000+1544800.000</Point>
-    <Point Name="AM125" Type="Fix">-282830.000+1495324.000</Point>
-    <Point Name="AM126" Type="Fix">-280830.000+1510336.000</Point>
-    <Point Name="AM127" Type="Fix">-281942.000+1510848.000</Point>
-    <Point Name="AM128" Type="Fix">-283530.000+1512036.000</Point>
-    <Point Name="AM129" Type="Fix">-284430.000+1512942.000</Point>
-    <Point Name="AM130" Type="Fix">-265736.000+1494406.000</Point>
-    <Point Name="AM131" Type="Fix">-271742.000+1505342.000</Point>
-    <Point Name="AM132" Type="Fix">-272830.000+1505306.000</Point>
-    <Point Name="AM133" Type="Fix">-274500.000+1505536.000</Point>
-    <Point Name="AM134" Type="Fix">-280106.000+1510012.000</Point>
-    <Point Name="AM135" Type="Fix">-280830.000+1510336.000</Point>
-    <Point Name="AM136" Type="Fix">-282830.000+1495324.000</Point>
-    <Point Name="AM137" Type="Fix">-270348.000+1490148.000</Point>
-    <Point Name="AM138" Type="Fix">-265736.000+1494406.000</Point>
     <Point Name="AM13C" Type="Fix">-270654.000+1555418.000</Point>
     <Point Name="AM15C" Type="Fix">-292430.000+1544042.000</Point>
-    <Point Name="AM17C" Type="Fix">-283500.000+1505924.000</Point>
+    <Point Name="AM17C" Type="Fix">-285218.000+1501254.000</Point>
     <Point Name="AM19C" Type="Fix">-274112.000+1504512.000</Point>
-    <Point Name="AM200" Type="Fix">-250654.000+1551954.000</Point>
-    <Point Name="AM201" Type="Fix">-244942.000+1550206.000</Point>
-    <Point Name="AM202" Type="Fix">-240824.000+1541948.000</Point>
-    <Point Name="AM203" Type="Fix">-234554.000+1544730.000</Point>
-    <Point Name="AM204" Type="Fix">-244542.000+1554554.000</Point>
-    <Point Name="AM205" Type="Fix">-271636.000+1573106.000</Point>
-    <Point Name="AM206" Type="Fix">-261648.000+1563124.000</Point>
-    <Point Name="AM207" Type="Fix">-255612.000+1565630.000</Point>
-    <Point Name="AM208" Type="Fix">-265506.000+1575700.000</Point>
-    <Point Name="AM209" Type="Fix">-295142.000+1563542.000</Point>
-    <Point Name="AM210" Type="Fix">-305936.000+1555818.000</Point>
-    <Point Name="AM211" Type="Fix">-304630.000+1552654.000</Point>
-    <Point Name="AM212" Type="Fix">-293842.000+1560436.000</Point>
-    <Point Name="AM213" Type="Fix">-273512.000+1490724.000</Point>
-    <Point Name="AM214" Type="Fix">-272942.000+1494548.000</Point>
-    <Point Name="AM215" Type="Fix">-284900.000+1495924.000</Point>
-    <Point Name="AM216" Type="Fix">-285424.000+1492142.000</Point>
     <Point Name="AM22C" Type="Fix">-245112.000+1551424.000</Point>
     <Point Name="AM24C" Type="Fix">-270106.000+1572500.000</Point>
     <Point Name="AM26C" Type="Fix">-300312.000+1562306.000</Point>
@@ -6705,11 +6649,6 @@ SAGLI
     <Point Name="AM2WN" Type="Fix">-274140.800+1522839.800</Point>
     <Point Name="AM83C" Type="Fix">-250012.000+1555254.000</Point>
     <Point Name="AM84C" Type="Fix">-291324.000+1493100.000</Point>
-    <Point Name="AM900" Type="Fix">-244542.000+1554554.000</Point>
-    <Point Name="AM901" Type="Fix">-255612.000+1565630.000</Point>
-    <Point Name="AM902" Type="Fix">-261648.000+1563124.000</Point>
-    <Point Name="AM903" Type="Fix">-250654.000+1551954.000</Point>
-    <Point Name="AM905" Type="Fix">-292806.000+1492754.000</Point>
     <Point Name="AMANA" Type="Fix">-314527.800+1163743.000</Point>
     <Point Name="AMBLE" Type="Fix">-271736.000+1530542.000</Point>
     <Point Name="AMELI" Type="Fix">-375421.300+1471404.100</Point>
@@ -6797,6 +6736,7 @@ SAGLI
     <Point Name="ARMWH" Type="Fix">-302922.700+1513925.200</Point>
     <Point Name="ARMWI" Type="Fix">-303721.400+1512624.200</Point>
     <Point Name="ARMWM" Type="Fix">-303207.200+1513616.900</Point>
+    <Point Name="ARNTU" Type="Fix">-253805.000+1484937.800</Point>
     <Point Name="AROBI" Type="Fix">-315327.400+1154113.900</Point>
     <Point Name="AROLI" Type="Fix">-290702.800+1463702.600</Point>
     <Point Name="ARONO" Type="Fix">-114822.000+1295945.000</Point>
@@ -6865,6 +6805,7 @@ SAGLI
     <Point Name="AS780" Type="Fix">-233009.200+1335023.300</Point>
     <Point Name="AS784" Type="Fix">-232316.700+1334554.000</Point>
     <Point Name="AS788" Type="Fix">-233650.600+1341311.300</Point>
+    <Point Name="ASEBI" Type="Fix">-284143.200+1175205.900</Point>
     <Point Name="ASEBU" Type="Fix">-200750.400+1214903.400</Point>
     <Point Name="ASIKU" Type="Fix">-175215.400+1221617.700</Point>
     <Point Name="ASILI" Type="Fix">-340006.800+1375249.900</Point>
@@ -6944,6 +6885,7 @@ SAGLI
     <Point Name="AV638" Type="Fix">-375444.200+1443115.200</Point>
     <Point Name="AVBAD" Type="Fix">-320140.800+1155622.100</Point>
     <Point Name="AVBEG" Type="Fix">-344942.200+1490231.700</Point>
+    <Point Name="AVBID" Type="Fix">-320623.700+1502015.800</Point>
     <Point Name="AVBOS" Type="Fix">-292415.200+1500137.200</Point>
     <Point Name="AVBUR" Type="Fix">-350235.500+1494356.300</Point>
     <Point Name="AVDAM" Type="Fix">-345055.000+1383001.400</Point>
@@ -6962,15 +6904,18 @@ SAGLI
     <Point Name="AVKAP" Type="Fix">-351500.000+1494002.000</Point>
     <Point Name="AVKIK" Type="Fix">-210025.900+1484642.700</Point>
     <Point Name="AVKIR" Type="Fix">-334056.000+1534744.000</Point>
+    <Point Name="AVKOG" Type="Fix">-353519.200+1441051.100</Point>
     <Point Name="AVKUT" Type="Fix">-325256.100+1512308.800</Point>
     <Point Name="AVLAN" Type="Fix">-260524.000+1524400.000</Point>
     <Point Name="AVLUS" Type="Fix">-203954.100+1414327.400</Point>
     <Point Name="AVMAN" Type="Fix">-103558.000+1290920.000</Point>
     <Point Name="AVMAS" Type="Fix">-275238.700+1173204.400</Point>
     <Point Name="AVMAT" Type="Fix">-190530.000+1464452.000</Point>
+    <Point Name="AVMEK" Type="Fix">-305837.000+1141542.000</Point>
     <Point Name="AVMEL" Type="Fix">-373342.700+1444904.400</Point>
     <Point Name="AVMON" Type="Fix">-253003.800+1322405.300</Point>
     <Point Name="AVMOV" Type="Fix">-334210.800+1511837.900</Point>
+    <Point Name="AVMUN" Type="Fix">-270059.500+1541722.500</Point>
     <Point Name="AVNAS" Type="Fix">-400000.700+1455300.100</Point>
     <Point Name="AVNEX" Type="Fix">-304844.700+1155137.600</Point>
     <Point Name="AVNIB" Type="Fix">-323244.900+1545503.200</Point>
@@ -7124,6 +7069,7 @@ SAGLI
     <Point Name="BEKAG" Type="Fix">-273657.000+1531042.700</Point>
     <Point Name="BEKED" Type="Fix">-205637.700+1152146.200</Point>
     <Point Name="BEKID" Type="Fix">-270910.700+1530113.500</Point>
+    <Point Name="BEKIG" Type="Fix">-315033.000+1134516.000</Point>
     <Point Name="BEKIK" Type="Fix">-290609.800+1674538.600</Point>
     <Point Name="BELBI" Type="Fix">-250047.600+1200023.000</Point>
     <Point Name="BELEL" Type="Fix">-262803.800+1175928.900</Point>
@@ -7142,6 +7088,7 @@ SAGLI
     <Point Name="BENTA" Type="Fix">-143518.000+1443706.000</Point>
     <Point Name="BENVO" Type="Fix">-313002.000+1545916.700</Point>
     <Point Name="BEPKA" Type="Fix">-341113.700+1391847.900</Point>
+    <Point Name="BEPKI" Type="Fix">-285318.900+1183054.100</Point>
     <Point Name="BEPKU" Type="Fix">-174607.500+1425549.500</Point>
     <Point Name="BEPNA" Type="Fix">-264325.700+1502557.500</Point>
     <Point Name="BEPSO" Type="Fix">-364824.000+1493958.000</Point>
@@ -7864,6 +7811,7 @@ SAGLI
     <Point Name="COBEL" Type="Fix">-351006.000+1280000.000</Point>
     <Point Name="COBES" Type="Fix">-231653.900+1494948.200</Point>
     <Point Name="COBHI" Type="Fix">-314754.000+1433100.000</Point>
+    <Point Name="COBUN" Type="Fix">-171710.000+1412232.000</Point>
     <Point Name="COCKA" Type="Fix">-230230.700+1493829.500</Point>
     <Point Name="CODIE" Type="Fix">-163242.000+1453554.000</Point>
     <Point Name="COLDS" Type="Fix">-374239.500+1452058.200</Point>
@@ -8060,6 +8008,7 @@ SAGLI
     <Point Name="DAGAK" Type="Fix">-123506.100+1321533.600</Point>
     <Point Name="DAGSI" Type="Fix">-204207.900+1484715.300</Point>
     <Point Name="DAKLA" Type="Fix">-271422.200+1525541.400</Point>
+    <Point Name="DAKPO" Type="Fix">-313427.200+1135445.900</Point>
     <Point Name="DAKTI" Type="Fix">-122458.700+1310904.600</Point>
     <Point Name="DALAR" Type="Fix">-333213.400+1510413.000</Point>
     <Point Name="DALEY" Type="Fix">-353341.900+1491041.400</Point>
@@ -8188,18 +8137,6 @@ SAGLI
     <Point Name="DN81C" Type="Fix">-094524.000+1321530.000</Point>
     <Point Name="DN82C" Type="Fix">-140900.000+1282600.000</Point>
     <Point Name="DN83C" Type="Fix">-120730.000+1275230.000</Point>
-    <Point Name="DN900" Type="Fix">-093230.000+1320612.000</Point>
-    <Point Name="DN901" Type="Fix">-103118.000+1332754.000</Point>
-    <Point Name="DN902" Type="Fix">-110436.000+1330330.000</Point>
-    <Point Name="DN903" Type="Fix">-100254.000+1314354.000</Point>
-    <Point Name="DN904" Type="Fix">-141600.000+1275654.000</Point>
-    <Point Name="DN905" Type="Fix">-135024.000+1282318.000</Point>
-    <Point Name="DN906" Type="Fix">-145912.000+1293836.000</Point>
-    <Point Name="DN907" Type="Fix">-152718.000+1290954.000</Point>
-    <Point Name="DN908" Type="Fix">-115442.000+1272548.000</Point>
-    <Point Name="DN909" Type="Fix">-115118.000+1280418.000</Point>
-    <Point Name="DN910" Type="Fix">-133136.000+1281354.000</Point>
-    <Point Name="DN911" Type="Fix">-133500.000+1273442.000</Point>
     <Point Name="DOBGO" Type="Fix">-203039.100+1444357.700</Point>
     <Point Name="DOBGU" Type="Fix">-303649.000+1205431.900</Point>
     <Point Name="DODRO" Type="Fix">-230527.200+1405612.300</Point>
@@ -8299,16 +8236,19 @@ SAGLI
     <Point Name="DRWWN" Type="Fix">-121627.500+1304240.500</Point>
     <Point Name="DRWWZ" Type="Fix">-122441.500+1305217.600</Point>
     <Point Name="DUBAG" Type="Fix">-153247.900+0850000.000</Point>
+    <Point Name="DUBED" Type="Fix">-353630.100+1455205.700</Point>
     <Point Name="DUBOM" Type="Fix">-271557.100+1533334.100</Point>
     <Point Name="DUBOV" Type="Fix">-344222.000+1382030.000</Point>
     <Point Name="DUBSO" Type="Fix">-094500.000+1432518.000</Point>
     <Point Name="DUBUD" Type="Fix">-290030.400+1564139.000</Point>
+    <Point Name="DUBUL" Type="Fix">-283346.200+1172555.600</Point>
     <Point Name="DUBUS" Type="Fix">-360854.500+1475142.800</Point>
     <Point Name="DUDAB" Type="Fix">-374911.800+1444342.000</Point>
     <Point Name="DUDEP" Type="Fix">-323455.900+1550237.100</Point>
     <Point Name="DUDIM" Type="Fix">-140522.900+1262311.700</Point>
     <Point Name="DUDIN" Type="Fix">-315645.600+1163248.700</Point>
     <Point Name="DUDOK" Type="Fix">-340448.200+1510438.300</Point>
+    <Point Name="DUDUT" Type="Fix">-340453.300+1414109.800</Point>
     <Point Name="DUGAD" Type="Fix">-380353.100+1465359.900</Point>
     <Point Name="DUGAL" Type="Fix">-274343.700+1533151.000</Point>
     <Point Name="DUGEG" Type="Fix">-304612.000+1144759.000</Point>
@@ -8390,10 +8330,7 @@ SAGLI
     <Point Name="EC2SI" Type="Fix">-362020.600+1444603.900</Point>
     <Point Name="ECATT" Type="Fix">-194124.400+1405533.100</Point>
     <Point Name="ECKHO" Type="Fix">-393928.200+1503103.900</Point>
-    <Point Name="ED01C" Type="Fix">-303500.000+1444500.000</Point>
-    <Point Name="ED100" Type="Fix">-301818.100+1432613.400</Point>
-    <Point Name="ED101" Type="Fix">-302123.900+1452143.300</Point>
-    <Point Name="ED102" Type="Fix">-315823.900+1432132.800</Point>
+    <Point Name="ED01C" Type="Fix">-303448.000+1444454.000</Point>
     <Point Name="ED2NA" Type="Fix">-342920.100+1383324.600</Point>
     <Point Name="ED2NC" Type="Fix">-343045.600+1384454.600</Point>
     <Point Name="ED2NF" Type="Fix">-343643.100+1383757.100</Point>
@@ -8481,6 +8418,7 @@ SAGLI
     <Point Name="ELDID" Type="Fix">-292858.100+1171016.300</Point>
     <Point Name="ELDUX" Type="Fix">-284008.800+1533225.700</Point>
     <Point Name="ELENI" Type="Fix">-274233.300+1522944.200</Point>
+    <Point Name="ELGAT" Type="Fix">-282708.300+1170421.400</Point>
     <Point Name="ELGAX" Type="Fix">-351803.600+1493115.000</Point>
     <Point Name="ELGIS" Type="Fix">-345936.500+1381638.700</Point>
     <Point Name="ELGOL" Type="Fix">-344634.800+1504507.200</Point>
@@ -8501,6 +8439,7 @@ SAGLI
     <Point Name="ELNOT" Type="Fix">-160109.700+1431722.200</Point>
     <Point Name="ELNUL" Type="Fix">-281854.000+1174030.000</Point>
     <Point Name="ELONG" Type="Fix">-320406.000+1485636.000</Point>
+    <Point Name="ELPIB" Type="Fix">-332050.600+1594932.500</Point>
     <Point Name="ELREL" Type="Fix">-412230.300+1471831.100</Point>
     <Point Name="ELRIM" Type="Fix">-333233.400+1375251.600</Point>
     <Point Name="ELROX" Type="Fix">-351537.200+1375402.000</Point>
@@ -8545,6 +8484,7 @@ SAGLI
     <Point Name="ENDOV" Type="Fix">-240406.300+1175621.500</Point>
     <Point Name="ENDUM" Type="Fix">-373929.300+1450925.100</Point>
     <Point Name="ENGUD" Type="Fix">-295934.100+1181233.600</Point>
+    <Point Name="ENKAS" Type="Fix">-335800.000+1560700.000</Point>
     <Point Name="ENKIG" Type="Fix">-144114.800+1322423.800</Point>
     <Point Name="ENKIL" Type="Fix">-375634.200+1470528.800</Point>
     <Point Name="ENKOG" Type="Fix">-273413.100+1530057.700</Point>
@@ -8622,13 +8562,11 @@ SAGLI
     <Point Name="ET2ED" Type="Fix">-335831.400+1415951.600</Point>
     <Point Name="ET2EE" Type="Fix">-340120.400+1420142.000</Point>
     <Point Name="ET2EF" Type="Fix">-340515.900+1415743.500</Point>
-    <Point Name="ET2EI" Type="Fix">-340520.900+1420134.600</Point>
     <Point Name="ET2WA" Type="Fix">-340932.800+1413856.400</Point>
     <Point Name="ET2WB" Type="Fix">-340444.200+1413508.700</Point>
     <Point Name="ET2WC" Type="Fix">-340008.000+1413916.100</Point>
     <Point Name="ET2WF" Type="Fix">-340501.600+1414700.800</Point>
     <Point Name="ET2WH" Type="Fix">-340051.700+1415305.900</Point>
-    <Point Name="ET2WI" Type="Fix">-340453.300+1414109.800</Point>
     <Point Name="EURAD" Type="Fix">-273733.800+1143532.200</Point>
     <Point Name="EVFRS" Type="Fix">-165458.000+1454655.000</Point>
     <Point Name="EVIEC" Type="Fix">-302120.200+1411922.400</Point>
@@ -8680,6 +8618,19 @@ SAGLI
     <Point Name="FB2WF" Type="Fix">-332054.900+1474922.700</Point>
     <Point Name="FB2WH" Type="Fix">-332220.300+1475959.300</Point>
     <Point Name="FB2WI" Type="Fix">-332007.300+1474329.100</Point>
+    <Point Name="FD2WA" Type="Fix">-401525.000+1474908.000</Point>
+    <Point Name="FD2WB" Type="Fix">-401251.900+1474225.500</Point>
+    <Point Name="FD2WC" Type="Fix">-400709.700+1474315.700</Point>
+    <Point Name="FD2WF" Type="Fix">-400804.400+1475352.500</Point>
+    <Point Name="FD2WH" Type="Fix">-400957.300+1475822.700</Point>
+    <Point Name="FD2WI" Type="Fix">-401028.200+1474809.200</Point>
+    <Point Name="FD2ZA" Type="Fix">-401510.200+1474646.300</Point>
+    <Point Name="FD2ZB" Type="Fix">-401210.300+1474023.100</Point>
+    <Point Name="FD2ZC" Type="Fix">-400632.800+1474152.600</Point>
+    <Point Name="FD2ZF" Type="Fix">-400810.700+1475220.600</Point>
+    <Point Name="FD2ZH" Type="Fix">-401004.400+1475627.100</Point>
+    <Point Name="FD2ZI" Type="Fix">-401010.500+1474622.000</Point>
+    <Point Name="FD2ZM" Type="Fix">-400610.300+1475818.800</Point>
     <Point Name="FECTI" Type="Fix">-182803.300+1165413.200</Point>
     <Point Name="FENDA" Type="Fix">-321826.000+1154553.000</Point>
     <Point Name="FI2ND" Type="Fix">-322736.500+1192945.400</Point>
@@ -8706,19 +8657,6 @@ SAGLI
     <Point Name="FLDNM" Type="Fix">-235324.400+1513400.300</Point>
     <Point Name="FLEMO" Type="Fix">-350447.000+1534401.000</Point>
     <Point Name="FLIKI" Type="Fix">-400000.000+1462336.000</Point>
-    <Point Name="FLIWA" Type="Fix">-401525.000+1474908.000</Point>
-    <Point Name="FLIWB" Type="Fix">-401251.900+1474225.500</Point>
-    <Point Name="FLIWC" Type="Fix">-400709.700+1474315.700</Point>
-    <Point Name="FLIWF" Type="Fix">-400804.400+1475352.500</Point>
-    <Point Name="FLIWH" Type="Fix">-400957.300+1475822.700</Point>
-    <Point Name="FLIWI" Type="Fix">-401028.200+1474809.200</Point>
-    <Point Name="FLIZA" Type="Fix">-401510.200+1474646.300</Point>
-    <Point Name="FLIZB" Type="Fix">-401210.300+1474023.100</Point>
-    <Point Name="FLIZC" Type="Fix">-400632.800+1474152.600</Point>
-    <Point Name="FLIZF" Type="Fix">-400810.700+1475220.600</Point>
-    <Point Name="FLIZH" Type="Fix">-401004.400+1475627.100</Point>
-    <Point Name="FLIZI" Type="Fix">-401010.500+1474622.000</Point>
-    <Point Name="FLIZM" Type="Fix">-400610.300+1475818.800</Point>
     <Point Name="FOGGI" Type="Fix">-163923.300+1455333.600</Point>
     <Point Name="FONLO" Type="Fix">-432852.100+1574628.300</Point>
     <Point Name="FOXLO" Type="Fix">-353308.700+1491846.700</Point>
@@ -8952,6 +8890,7 @@ SAGLI
     <Point Name="GOOMA" Type="Fix">-330938.500+1550258.200</Point>
     <Point Name="GOONY" Type="Fix">-350352.700+1491224.700</Point>
     <Point Name="GOOTA" Type="Fix">-220138.000+1181918.700</Point>
+    <Point Name="GOPLO" Type="Fix">-304604.000+1142257.000</Point>
     <Point Name="GOPLU" Type="Fix">-412356.551+1702324.281</Point>
     <Point Name="GOPMI" Type="Fix">-132124.700+1423200.900</Point>
     <Point Name="GOPVO" Type="Fix">-292448.700+1492646.200</Point>
@@ -9026,6 +8965,7 @@ SAGLI
     <Point Name="GUGAB" Type="Fix">-294106.800+1394959.200</Point>
     <Point Name="GUGAN" Type="Fix">-192933.500+1465104.400</Point>
     <Point Name="GUGED" Type="Fix">-281701.300+1533155.100</Point>
+    <Point Name="GUGIX" Type="Fix">-353536.600+1442724.100</Point>
     <Point Name="GUGMA" Type="Fix">-353447.700+1390104.100</Point>
     <Point Name="GUGON" Type="Fix">-323012.000+0750000.000</Point>
     <Point Name="GUGRA" Type="Fix">-212336.000+1162542.000</Point>
@@ -9118,7 +9058,7 @@ SAGLI
     <Point Name="HB2WG" Type="Fix">-423652.200+1472146.200</Point>
     <Point Name="HB2WH" Type="Fix">-425119.800+1473216.600</Point>
     <Point Name="HB2WI" Type="Fix">-424057.600+1471817.800</Point>
-    <Point Name="HB2WM" Type="Fix">-424912.200+1472924.000</Point>
+    <Point Name="HB2WM" Type="Fix">-424912.200+1472923.900</Point>
     <Point Name="HB410" Type="Fix">-424137.700+1472556.900</Point>
     <Point Name="HB420" Type="Fix">-424703.700+1472630.500</Point>
     <Point Name="HB430" Type="Fix">-425245.500+1473412.500</Point>
@@ -9336,11 +9276,11 @@ SAGLI
     <Point Name="IBADI" Type="Fix">-324444.100+1515726.800</Point>
     <Point Name="IBAKA" Type="Fix">-213940.360-1762413.140</Point>
     <Point Name="IBARU" Type="Fix">-373319.900+1452727.000</Point>
+    <Point Name="IBIMO" Type="Fix">-340520.900+1420134.600</Point>
     <Point Name="IBIMU" Type="Fix">-273450.000+1533535.800</Point>
     <Point Name="IBOBO" Type="Fix">-381714.500+1422713.300</Point>
     <Point Name="IBOMU" Type="Fix">-122353.200+1321606.300</Point>
     <Point Name="IBORI" Type="Fix">-221643.700+1471218.200</Point>
-    <Point Name="IBOVU" Type="Fix">-351407.000+1441830.000</Point>
     <Point Name="IBUNA" Type="Fix">-270327.800+1522831.800</Point>
     <Point Name="IBUNO" Type="Fix">-190000.000+1464900.000</Point>
     <Point Name="IBUPA" Type="Fix">-244837.700+1180632.700</Point>
@@ -9384,6 +9324,7 @@ SAGLI
     <Point Name="IDSOR" Type="Fix">-424632.400+1472548.300</Point>
     <Point Name="IDSUP" Type="Fix">-325610.700+1500103.100</Point>
     <Point Name="IDUSO" Type="Fix">-290111.200+1371842.300</Point>
+    <Point Name="IDVIL" Type="Fix">-353554.500+1444712.100</Point>
     <Point Name="IE2NE" Type="Fix">-210604.200+1492211.500</Point>
     <Point Name="IE2NF" Type="Fix">-211114.300+1492452.600</Point>
     <Point Name="IE2NG" Type="Fix">-210502.000+1492423.100</Point>
@@ -9427,7 +9368,6 @@ SAGLI
     <Point Name="IGLUT" Type="Fix">-215629.100+1153430.700</Point>
     <Point Name="IGMAS" Type="Fix">-271434.300+1524710.000</Point>
     <Point Name="IGMET" Type="Fix">-351109.500+1484821.800</Point>
-    <Point Name="IGMIL" Type="Fix">-351729.300+1461054.700</Point>
     <Point Name="IGMOB" Type="Fix">-322532.700+1513629.100</Point>
     <Point Name="IGMOL" Type="Fix">-163055.600+1453757.200</Point>
     <Point Name="IGMUP" Type="Fix">-325543.300+1515133.500</Point>
@@ -9436,13 +9376,14 @@ SAGLI
     <Point Name="IGNOM" Type="Fix">-312956.200+1154106.200</Point>
     <Point Name="IGNUL" Type="Fix">-125800.000+1435800.000</Point>
     <Point Name="IGNUV" Type="Fix">-323750.900+1515531.400</Point>
+    <Point Name="IGOKO" Type="Fix">-285635.900+1184201.700</Point>
     <Point Name="IGOLO" Type="Fix">-263105.100+1530107.100</Point>
     <Point Name="IGOMU" Type="Fix">-280059.800+1532534.300</Point>
     <Point Name="IGOPO" Type="Fix">-115639.800+1340705.800</Point>
     <Point Name="IGORU" Type="Fix">-205919.300+1152020.200</Point>
-    <Point Name="IGPEB" Type="Fix">-351607.000+1451745.000</Point>
     <Point Name="IGPIV" Type="Fix">-273725.400+1531558.300</Point>
     <Point Name="IGPON" Type="Fix">-374013.700+1451302.300</Point>
+    <Point Name="IGRIN" Type="Fix">-340100.000+1551100.000</Point>
     <Point Name="IGROB" Type="Fix">-314911.300+1190522.600</Point>
     <Point Name="IGUBO" Type="Fix">-113545.600+1032032.900</Point>
     <Point Name="IGUPI" Type="Fix">-262848.900+1515541.600</Point>
@@ -9549,6 +9490,7 @@ SAGLI
     <Point Name="ISNET" Type="Fix">-344404.000+1534829.000</Point>
     <Point Name="ISNOL" Type="Fix">-342312.400+1485831.800</Point>
     <Point Name="ISNUG" Type="Fix">-324119.400+1461446.200</Point>
+    <Point Name="ISPAB" Type="Fix">-224900.000+1492336.600</Point>
     <Point Name="ISPAM" Type="Fix">-374805.600+1443026.400</Point>
     <Point Name="ISPEG" Type="Fix">-374312.000+1443612.000</Point>
     <Point Name="ISPET" Type="Fix">-320100.000+1154448.000</Point>
@@ -9562,6 +9504,7 @@ SAGLI
     <Point Name="ISRUP" Type="Fix">-314138.600+1161316.700</Point>
     <Point Name="ISTEM" Type="Fix">-243551.200+1602300.100</Point>
     <Point Name="ISTIG" Type="Fix">-425016.300+1473923.200</Point>
+    <Point Name="ISTUR" Type="Fix">-281226.000+1460909.000</Point>
     <Point Name="ISVAN" Type="Fix">-271318.100+1525601.600</Point>
     <Point Name="ISVUP" Type="Fix">-324628.700+1513208.700</Point>
     <Point Name="ITBAP" Type="Fix">-205926.900+1132554.400</Point>
@@ -10064,7 +10007,7 @@ SAGLI
     <Point Name="LADUR" Type="Fix">-314400.000+1601430.000</Point>
     <Point Name="LAFAM" Type="Fix">-341040.000+1532137.000</Point>
     <Point Name="LAGEV" Type="Fix">-273829.200+1531905.700</Point>
-    <Point Name="LAGOB" Type="Fix">-274541.100+1532003.600</Point>
+    <Point Name="LAGOB" Type="Fix">-274541.000+1532004.000</Point>
     <Point Name="LAGUG" Type="Fix">-372912.300+1445814.300</Point>
     <Point Name="LAKAV" Type="Fix">-284326.700+1175749.400</Point>
     <Point Name="LAKEP" Type="Fix">-373342.000+1444912.000</Point>
@@ -10181,6 +10124,7 @@ SAGLI
     <Point Name="LECWH" Type="Fix">-303730.600+1382707.200</Point>
     <Point Name="LECWI" Type="Fix">-302642.200+1381502.700</Point>
     <Point Name="LECWM" Type="Fix">-303521.000+1382442.100</Point>
+    <Point Name="LEDAB" Type="Fix">-284615.200+1180710.800</Point>
     <Point Name="LEDET" Type="Fix">-371901.400+1470750.800</Point>
     <Point Name="LEDIX" Type="Fix">-314625.000+1493634.000</Point>
     <Point Name="LEDOG" Type="Fix">-190832.400+1463903.200</Point>
@@ -10190,6 +10134,7 @@ SAGLI
     <Point Name="LEECE" Type="Fix">-350315.100+1495737.300</Point>
     <Point Name="LEEFL" Type="Fix">-254543.000+1530909.000</Point>
     <Point Name="LEGAN" Type="Fix">-363124.700+1630000.000</Point>
+    <Point Name="LEGOM" Type="Fix">-353612.300+1451209.100</Point>
     <Point Name="LEGUL" Type="Fix">-123439.900+1305228.500</Point>
     <Point Name="LEKAD" Type="Fix">-215520.900+1303934.400</Point>
     <Point Name="LEKEM" Type="Fix">-375418.800+1471248.600</Point>
@@ -10345,30 +10290,6 @@ SAGLI
     <Point Name="LSYSJ" Type="Fix">-285914.700+1532550.200</Point>
     <Point Name="LSYSK" Type="Fix">-290407.000+1532221.700</Point>
     <Point Name="LSYSL" Type="Fix">-290254.600+1531557.800</Point>
-    <Point Name="LTNEA" Type="Fix">-282804.400+1223712.000</Point>
-    <Point Name="LTNEB" Type="Fix">-283120.300+1224233.500</Point>
-    <Point Name="LTNEC" Type="Fix">-283654.300+1224055.200</Point>
-    <Point Name="LTNEF" Type="Fix">-283449.900+1223154.900</Point>
-    <Point Name="LTNEH" Type="Fix">-283737.000+1222323.500</Point>
-    <Point Name="LTNEI" Type="Fix">-283305.300+1223714.300</Point>
-    <Point Name="LTNWD" Type="Fix">-284529.500+1221438.000</Point>
-    <Point Name="LTNWE" Type="Fix">-284213.000+1220916.300</Point>
-    <Point Name="LTNWF" Type="Fix">-283844.500+1221956.100</Point>
-    <Point Name="LTNWG" Type="Fix">-283639.300+1221055.800</Point>
-    <Point Name="LTNWH" Type="Fix">-283536.800+1222931.600</Point>
-    <Point Name="LTNWI" Type="Fix">-284028.800+1221436.300</Point>
-    <Point Name="LTVED" Type="Fix">-375721.500+1463553.600</Point>
-    <Point Name="LTVEE" Type="Fix">-375846.200+1464553.400</Point>
-    <Point Name="LTVEF" Type="Fix">-380757.400+1463413.800</Point>
-    <Point Name="LTVEG" Type="Fix">-380641.300+1464738.700</Point>
-    <Point Name="LTVEH" Type="Fix">-381418.800+1462608.500</Point>
-    <Point Name="LTVEI" Type="Fix">-380343.000+1463936.900</Point>
-    <Point Name="LTVWA" Type="Fix">-382501.100+1462017.200</Point>
-    <Point Name="LTVWB" Type="Fix">-382342.600+1461408.800</Point>
-    <Point Name="LTVWC" Type="Fix">-381803.100+1461254.300</Point>
-    <Point Name="LTVWF" Type="Fix">-381639.100+1462309.600</Point>
-    <Point Name="LTVWH" Type="Fix">-381100.200+1463021.500</Point>
-    <Point Name="LTVWI" Type="Fix">-382010.800+1461839.300</Point>
     <Point Name="LU2NA" Type="Fix">-272343.300+1203209.800</Point>
     <Point Name="LU2NC" Type="Fix">-272101.800+1203751.400</Point>
     <Point Name="LU2ND" Type="Fix">-272453.000+1204238.500</Point>
@@ -10410,6 +10331,18 @@ SAGLI
     <Point Name="LUVOK" Type="Fix">-343053.200+1364653.400</Point>
     <Point Name="LUXAV" Type="Fix">-263857.300+1531804.500</Point>
     <Point Name="LUXUP" Type="Fix">-332554.000+1491220.000</Point>
+    <Point Name="LV2EA" Type="Fix">-282804.400+1223712.000</Point>
+    <Point Name="LV2EB" Type="Fix">-283120.300+1224233.500</Point>
+    <Point Name="LV2EC" Type="Fix">-283654.300+1224055.200</Point>
+    <Point Name="LV2EF" Type="Fix">-283449.900+1223154.900</Point>
+    <Point Name="LV2EH" Type="Fix">-283737.000+1222323.500</Point>
+    <Point Name="LV2EI" Type="Fix">-283305.300+1223714.300</Point>
+    <Point Name="LV2WD" Type="Fix">-284529.500+1221438.000</Point>
+    <Point Name="LV2WE" Type="Fix">-284213.000+1220916.300</Point>
+    <Point Name="LV2WF" Type="Fix">-283844.500+1221956.100</Point>
+    <Point Name="LV2WG" Type="Fix">-283639.300+1221055.800</Point>
+    <Point Name="LV2WH" Type="Fix">-283536.800+1222931.600</Point>
+    <Point Name="LV2WI" Type="Fix">-284028.800+1221436.300</Point>
     <Point Name="LYNDN" Type="Fix">-233000.000+1151057.500</Point>
     <Point Name="LYNSO" Type="Fix">-244854.900+1150000.000</Point>
     <Point Name="LYSMO" Type="Fix">-331007.800+1454526.600</Point>
@@ -10659,29 +10592,29 @@ SAGLI
     <Point Name="MHUWG" Type="Fix">-162639.900+1355043.300</Point>
     <Point Name="MHUWH" Type="Fix">-162551.700+1360646.100</Point>
     <Point Name="MHUWI" Type="Fix">-163028.300+1355406.800</Point>
+    <Point Name="MI2EA" Type="Fix">-341135.200+1422053.700</Point>
+    <Point Name="MI2EB" Type="Fix">-341651.500+1422338.700</Point>
+    <Point Name="MI2EC" Type="Fix">-342048.400+1421836.900</Point>
+    <Point Name="MI2EF" Type="Fix">-341450.700+1421149.600</Point>
+    <Point Name="MI2EH" Type="Fix">-341314.000+1420222.500</Point>
+    <Point Name="MI2EI" Type="Fix">-341551.100+1421744.100</Point>
     <Point Name="MI2NF" Type="Fix">-340817.500+1420556.400</Point>
     <Point Name="MI2NH" Type="Fix">-341616.600+1420505.400</Point>
     <Point Name="MI2NI" Type="Fix">-340318.200+1420628.300</Point>
     <Point Name="MI2NO" Type="Fix">-335818.800+1420700.100</Point>
     <Point Name="MI2NP" Type="Fix">-340200.500+1421217.100</Point>
-    <Point Name="MIAEA" Type="Fix">-341135.200+1422053.700</Point>
-    <Point Name="MIAEB" Type="Fix">-341651.500+1422338.700</Point>
-    <Point Name="MIAEC" Type="Fix">-342048.400+1421836.900</Point>
-    <Point Name="MIAEF" Type="Fix">-341450.700+1421149.600</Point>
-    <Point Name="MIAEH" Type="Fix">-341314.000+1420222.500</Point>
-    <Point Name="MIAEI" Type="Fix">-341551.100+1421744.100</Point>
-    <Point Name="MIASD" Type="Fix">-342632.000+1420941.800</Point>
-    <Point Name="MIASE" Type="Fix">-342924.200+1420341.000</Point>
-    <Point Name="MIASF" Type="Fix">-341925.300+1420445.200</Point>
-    <Point Name="MIASG" Type="Fix">-342542.000+1415822.600</Point>
-    <Point Name="MIASH" Type="Fix">-341126.300+1420536.300</Point>
-    <Point Name="MIASI" Type="Fix">-342424.700+1420413.100</Point>
-    <Point Name="MIAWF" Type="Fix">-341231.100+1415812.500</Point>
-    <Point Name="MIAWH" Type="Fix">-341408.100+1420739.400</Point>
-    <Point Name="MIAWI" Type="Fix">-341130.100+1415218.300</Point>
-    <Point Name="MIAWJ" Type="Fix">-341545.900+1414908.500</Point>
-    <Point Name="MIAWK" Type="Fix">-341028.800+1414624.300</Point>
-    <Point Name="MIAWL" Type="Fix">-340632.800+1415125.700</Point>
+    <Point Name="MI2SD" Type="Fix">-342632.000+1420941.800</Point>
+    <Point Name="MI2SE" Type="Fix">-342924.200+1420341.000</Point>
+    <Point Name="MI2SF" Type="Fix">-341925.300+1420445.200</Point>
+    <Point Name="MI2SG" Type="Fix">-342542.000+1415822.600</Point>
+    <Point Name="MI2SH" Type="Fix">-341126.300+1420536.300</Point>
+    <Point Name="MI2SI" Type="Fix">-342424.700+1420413.100</Point>
+    <Point Name="MI2WF" Type="Fix">-341231.100+1415812.500</Point>
+    <Point Name="MI2WH" Type="Fix">-341408.100+1420739.400</Point>
+    <Point Name="MI2WI" Type="Fix">-341130.100+1415218.300</Point>
+    <Point Name="MI2WJ" Type="Fix">-341545.900+1414908.500</Point>
+    <Point Name="MI2WK" Type="Fix">-341028.800+1414624.300</Point>
+    <Point Name="MI2WL" Type="Fix">-340632.800+1415125.700</Point>
     <Point Name="MIBAL" Type="Fix">-422530.400+1472247.700</Point>
     <Point Name="MIBEK" Type="Fix">-213020.600+1490138.500</Point>
     <Point Name="MIBUP" Type="Fix">-280430.000+1413218.000</Point>
@@ -10692,6 +10625,7 @@ SAGLI
     <Point Name="MIDIM" Type="Fix">-275230.100+1211610.900</Point>
     <Point Name="MIDLA" Type="Fix">-315153.900+1155913.100</Point>
     <Point Name="MIGAX" Type="Fix">-160143.500+1342644.900</Point>
+    <Point Name="MIGEP" Type="Fix">-311204.000+1140753.000</Point>
     <Point Name="MIGIP" Type="Fix">-123131.100+1304720.700</Point>
     <Point Name="MIKEG" Type="Fix">-383544.800+1573204.700</Point>
     <Point Name="MIKER" Type="Fix">-175627.800+1221153.800</Point>
@@ -10719,6 +10653,7 @@ SAGLI
     <Point Name="MIMUD" Type="Fix">-282129.700+1540142.400</Point>
     <Point Name="MINUR" Type="Fix">-303716.400+1364301.100</Point>
     <Point Name="MIPAM" Type="Fix">-261800.000+1441142.000</Point>
+    <Point Name="MIPAN" Type="Fix">-291122.000+1541042.000</Point>
     <Point Name="MISCH" Type="Fix">-374550.300+1444038.600</Point>
     <Point Name="MISLY" Type="Fix">-304941.400+1555331.500</Point>
     <Point Name="MITSA" Type="Fix">-340154.900+1504700.700</Point>
@@ -10923,6 +10858,7 @@ SAGLI
     <Point Name="MULDM" Type="Fix">-294707.800+1202837.400</Point>
     <Point Name="MULDR" Type="Fix">-345309.000+1382514.000</Point>
     <Point Name="MULNI" Type="Fix">-274350.900+1525547.900</Point>
+    <Point Name="MULRA" Type="Fix">-180113.000+1412822.000</Point>
     <Point Name="MUMOS" Type="Fix">-314954.200+1161925.600</Point>
     <Point Name="MUNAR" Type="Fix">-212948.900+1491701.800</Point>
     <Point Name="MUNDA" Type="Fix">-081936.952+1571547.279</Point>
@@ -11032,12 +10968,6 @@ SAGLI
     <Point Name="NASTI" Type="Fix">-222507.000+1254255.000</Point>
     <Point Name="NASUX" Type="Fix">-122128.800+1304245.900</Point>
     <Point Name="NATYA" Type="Fix">-345808.200+1431357.500</Point>
-    <Point Name="NBRSA" Type="Fix">-303224.800+1495135.500</Point>
-    <Point Name="NBRSB" Type="Fix">-303433.400+1494525.500</Point>
-    <Point Name="NBRSC" Type="Fix">-303016.500+1494059.800</Point>
-    <Point Name="NBRSF" Type="Fix">-302447.800+1494803.500</Point>
-    <Point Name="NBRSH" Type="Fix">-301659.200+1495009.500</Point>
-    <Point Name="NBRSI" Type="Fix">-302940.600+1494644.600</Point>
     <Point Name="NEEKY" Type="Fix">-273747.400+1150000.000</Point>
     <Point Name="NEFER" Type="Fix">-372630.000+1445636.000</Point>
     <Point Name="NEILO" Type="Fix">-122947.400+1310728.200</Point>
@@ -11158,6 +11088,7 @@ SAGLI
     <Point Name="NOGAS" Type="Fix">-253237.500+1182608.400</Point>
     <Point Name="NOGIP" Type="Fix">-381851.600+1412824.100</Point>
     <Point Name="NOGOR" Type="Fix">-351538.300+1485017.300</Point>
+    <Point Name="NOGUD" Type="Fix">-274032.000+1541244.000</Point>
     <Point Name="NOKAV" Type="Fix">-230712.000+1463654.000</Point>
     <Point Name="NOKOG" Type="Fix">-310925.700+1155622.900</Point>
     <Point Name="NOKUN" Type="Fix">-125106.300+1321154.000</Point>
@@ -11262,6 +11193,7 @@ SAGLI
     <Point Name="NUNDI" Type="Fix">-274023.000+1530445.400</Point>
     <Point Name="NUNLA" Type="Fix">-254511.300+1110052.700</Point>
     <Point Name="NUNPA" Type="Fix">-400544.300+1480053.400</Point>
+    <Point Name="NURPA" Type="Fix">-284947.500+1181901.600</Point>
     <Point Name="NUSBU" Type="Fix">-271513.700+1523531.900</Point>
     <Point Name="NUSKU" Type="Fix">-342942.000+1313000.000</Point>
     <Point Name="NUSVA" Type="Fix">-285224.000+1361236.000</Point>
@@ -11295,14 +11227,6 @@ SAGLI
     <Point Name="NW2ST" Type="Fix">-345503.200+1503342.500</Point>
     <Point Name="NW81C" Type="Fix">-360924.000+1531654.000</Point>
     <Point Name="NW82C" Type="Fix">-353224.000+1502930.000</Point>
-    <Point Name="NW900" Type="Fix">-360212.000+1533412.000</Point>
-    <Point Name="NW901" Type="Fix">-371312.000+1520630.000</Point>
-    <Point Name="NW902" Type="Fix">-364618.000+1513318.000</Point>
-    <Point Name="NW903" Type="Fix">-352906.000+1525306.000</Point>
-    <Point Name="NW904" Type="Fix">-351700.000+1503412.000</Point>
-    <Point Name="NW905" Type="Fix">-365642.000+1504500.000</Point>
-    <Point Name="NW906" Type="Fix">-365918.000+1500736.000</Point>
-    <Point Name="NW907" Type="Fix">-351930.000+1495730.000</Point>
     <Point Name="NY2ED" Type="Fix">-312237.600+1472152.000</Point>
     <Point Name="NY2EE" Type="Fix">-312459.100+1472758.200</Point>
     <Point Name="NY2EF" Type="Fix">-313006.800+1471755.600</Point>
@@ -11317,6 +11241,12 @@ SAGLI
     <Point Name="NY2WH" Type="Fix">-313152.100+1471428.800</Point>
     <Point Name="NY2WI" Type="Fix">-313830.700+1470123.300</Point>
     <Point Name="NY2WM" Type="Fix">-313324.200+1471127.700</Point>
+    <Point Name="NZ2SA" Type="Fix">-303224.800+1495135.500</Point>
+    <Point Name="NZ2SB" Type="Fix">-303433.400+1494525.500</Point>
+    <Point Name="NZ2SC" Type="Fix">-303016.500+1494059.800</Point>
+    <Point Name="NZ2SF" Type="Fix">-302447.800+1494803.500</Point>
+    <Point Name="NZ2SH" Type="Fix">-301659.200+1495009.500</Point>
+    <Point Name="NZ2SI" Type="Fix">-302940.600+1494644.600</Point>
     <Point Name="OAGED" Type="Fix">-332618.600+1492313.600</Point>
     <Point Name="OAGEE" Type="Fix">-333202.900+1492310.500</Point>
     <Point Name="OAGEF" Type="Fix">-332614.500+1491325.900</Point>
@@ -11437,6 +11367,7 @@ SAGLI
     <Point Name="OLDIB" Type="Fix">-240334.300+1510023.100</Point>
     <Point Name="OLGEK" Type="Fix">-314002.100+1161105.300</Point>
     <Point Name="OLGUM" Type="Fix">-280500.000+1502000.000</Point>
+    <Point Name="OLKIG" Type="Fix">-345400.000+1530800.000</Point>
     <Point Name="OLKUR" Type="Fix">-295351.500+1500937.200</Point>
     <Point Name="OLMAL" Type="Fix">-271656.400+1532025.300</Point>
     <Point Name="OLMAM" Type="Fix">-323124.400+1154630.200</Point>
@@ -11503,7 +11434,6 @@ SAGLI
     <Point Name="ONGLO" Type="Fix">-352730.000+1491706.000</Point>
     <Point Name="ONIBA" Type="Fix">-205706.000+1642306.000</Point>
     <Point Name="ONIPA" Type="Fix">-272548.000+1525821.700</Point>
-    <Point Name="ONOPO" Type="Fix">-351522.000+1445403.000</Point>
     <Point Name="ONOXA" Type="Fix">-120000.000+1205242.000</Point>
     <Point Name="ONSLO" Type="Fix">-213959.400+1150643.400</Point>
     <Point Name="ONUMA" Type="Fix">-305828.000+1482248.900</Point>
@@ -11584,6 +11514,7 @@ SAGLI
     <Point Name="OSTIM" Type="Fix">-383711.800+1602107.100</Point>
     <Point Name="OSTOL" Type="Fix">-274208.400+1160735.200</Point>
     <Point Name="OSUMA" Type="Fix">-272648.400+1175507.100</Point>
+    <Point Name="OSURI" Type="Fix">-280758.000+1545135.000</Point>
     <Point Name="OSVAR" Type="Fix">-280753.200+1674126.300</Point>
     <Point Name="OSVOL" Type="Fix">-201503.600+1220255.600</Point>
     <Point Name="OT2NA" Type="Fix">-342458.800+1475443.700</Point>
@@ -11601,9 +11532,11 @@ SAGLI
     <Point Name="OT2SM" Type="Fix">-343803.300+1480216.900</Point>
     <Point Name="OTBOK" Type="Fix">-360833.300+1350000.000</Point>
     <Point Name="OTBOL" Type="Fix">-294712.000+1515558.000</Point>
+    <Point Name="OTBUM" Type="Fix">-302259.000+1534805.000</Point>
     <Point Name="OTGAB" Type="Fix">-382515.300+1350000.000</Point>
     <Point Name="OTGAT" Type="Fix">-265803.000+1524337.000</Point>
     <Point Name="OTGAX" Type="Fix">-123726.700+1310242.500</Point>
+    <Point Name="OTGOM" Type="Fix">-282001.300+1164127.600</Point>
     <Point Name="OTGUN" Type="Fix">-385402.000+1471136.000</Point>
     <Point Name="OTKED" Type="Fix">-373546.200+1494306.000</Point>
     <Point Name="OTKIT" Type="Fix">-204557.200+1214132.500</Point>
@@ -11618,7 +11551,6 @@ SAGLI
     <Point Name="OVLUK" Type="Fix">-303538.600+1164647.200</Point>
     <Point Name="OVLUX" Type="Fix">-331023.000+1513704.100</Point>
     <Point Name="OVMAT" Type="Fix">-345455.000+1534609.000</Point>
-    <Point Name="OVMIN" Type="Fix">-320623.700+1502015.800</Point>
     <Point Name="OVMIS" Type="Fix">-162417.200+1310024.500</Point>
     <Point Name="OVMUD" Type="Fix">-290000.000+1440351.600</Point>
     <Point Name="OVNEB" Type="Fix">-273759.000+1532403.800</Point>
@@ -11743,6 +11675,18 @@ SAGLI
     <Point Name="PCCSH" Type="Fix">-120927.600+0964847.900</Point>
     <Point Name="PCCSI" Type="Fix">-122040.700+0965535.700</Point>
     <Point Name="PCCSM" Type="Fix">-121202.900+0965022.000</Point>
+    <Point Name="PD2ND" Type="Fix">-201646.600+1182459.700</Point>
+    <Point Name="PD2NE" Type="Fix">-201109.300+1182618.600</Point>
+    <Point Name="PD2NF" Type="Fix">-201832.900+1183330.200</Point>
+    <Point Name="PD2NG" Type="Fix">-201023.800+1183221.300</Point>
+    <Point Name="PD2NH" Type="Fix">-202427.800+1183915.700</Point>
+    <Point Name="PD2NI" Type="Fix">-201451.100+1182954.400</Point>
+    <Point Name="PD2SA" Type="Fix">-202906.300+1185035.200</Point>
+    <Point Name="PD2SB" Type="Fix">-203443.700+1184916.400</Point>
+    <Point Name="PD2SC" Type="Fix">-203529.200+1184312.800</Point>
+    <Point Name="PD2SF" Type="Fix">-202720.300+1184203.900</Point>
+    <Point Name="PD2SH" Type="Fix">-202125.500+1183618.100</Point>
+    <Point Name="PD2SI" Type="Fix">-203102.000+1184540.100</Point>
     <Point Name="PD900" Type="Fix">-201844.900+1183341.800</Point>
     <Point Name="PD904" Type="Fix">-202249.100+1182633.200</Point>
     <Point Name="PD906" Type="Fix">-203124.200+1182949.100</Point>
@@ -11767,11 +11711,6 @@ SAGLI
     <Point Name="PD978" Type="Fix">-202225.500+1185017.500</Point>
     <Point Name="PD982" Type="Fix">-202832.500+1184314.400</Point>
     <Point Name="PEART" Type="Fix">-372830.700+1444326.900</Point>
-    <Point Name="PEASA" Type="Fix">-315459.700+1160251.900</Point>
-    <Point Name="PEASF" Type="Fix">-314502.300+1160131.700</Point>
-    <Point Name="PEASH" Type="Fix">-313804.100+1160036.000</Point>
-    <Point Name="PEASI" Type="Fix">-315001.000+1160211.700</Point>
-    <Point Name="PEASM" Type="Fix">-314103.400+1160059.800</Point>
     <Point Name="PEBAL" Type="Fix">-375836.000+1445836.000</Point>
     <Point Name="PEBBL" Type="Fix">-123938.500+1304923.500</Point>
     <Point Name="PEBDO" Type="Fix">-301952.500+1513521.000</Point>
@@ -11800,6 +11739,7 @@ SAGLI
     <Point Name="PEWEE" Type="Fix">-175556.600+1463005.500</Point>
     <Point Name="PEXIV" Type="Fix">-380355.800+1442746.700</Point>
     <Point Name="PEXOR" Type="Fix">-242721.900+1171845.700</Point>
+    <Point Name="PEXUM" Type="Fix">-294000.000+1575600.000</Point>
     <Point Name="PFTNA" Type="Fix">-360303.700+1490816.600</Point>
     <Point Name="PFTNC" Type="Fix">-360222.600+1490440.500</Point>
     <Point Name="PFTNF" Type="Fix">-360738.600+1491045.100</Point>
@@ -11970,7 +11910,6 @@ SAGLI
     <Point Name="POKOS" Type="Fix">-203427.000+1224027.400</Point>
     <Point Name="POLEV" Type="Fix">-265513.200+1381009.300</Point>
     <Point Name="POLLI" Type="Fix">-354413.100+1483555.300</Point>
-    <Point Name="POLSO" Type="Fix">-354646.500+1454150.700</Point>
     <Point Name="POLUM" Type="Fix">-200000.000+0983248.100</Point>
     <Point Name="POLUP" Type="Fix">-313324.000+1370830.000</Point>
     <Point Name="POLUX" Type="Fix">-311145.000+1153306.600</Point>
@@ -12002,18 +11941,6 @@ SAGLI
     <Point Name="POXAK" Type="Fix">-232618.000+1644130.000</Point>
     <Point Name="POXAL" Type="Fix">-350733.200+1382903.200</Point>
     <Point Name="POXID" Type="Fix">-421905.300+1471533.700</Point>
-    <Point Name="PPDND" Type="Fix">-201646.600+1182459.700</Point>
-    <Point Name="PPDNE" Type="Fix">-201109.300+1182618.600</Point>
-    <Point Name="PPDNF" Type="Fix">-201832.900+1183330.200</Point>
-    <Point Name="PPDNG" Type="Fix">-201023.800+1183221.300</Point>
-    <Point Name="PPDNH" Type="Fix">-202427.800+1183915.700</Point>
-    <Point Name="PPDNI" Type="Fix">-201451.100+1182954.400</Point>
-    <Point Name="PPDSA" Type="Fix">-202906.300+1185035.200</Point>
-    <Point Name="PPDSB" Type="Fix">-203443.700+1184916.400</Point>
-    <Point Name="PPDSC" Type="Fix">-203529.200+1184312.800</Point>
-    <Point Name="PPDSF" Type="Fix">-202720.300+1184203.900</Point>
-    <Point Name="PPDSH" Type="Fix">-202125.500+1183618.100</Point>
-    <Point Name="PPDSI" Type="Fix">-203102.000+1184540.100</Point>
     <Point Name="PPFNA" Type="Fix">-343501.400+1383957.200</Point>
     <Point Name="PPFND" Type="Fix">-343928.000+1384959.500</Point>
     <Point Name="PPFNF" Type="Fix">-344310.200+1384107.600</Point>
@@ -12696,7 +12623,6 @@ SAGLI
     <Point Name="SAPOX" Type="Fix">-340750.000+1525745.000</Point>
     <Point Name="SAPUG" Type="Fix">-315739.800+1161236.900</Point>
     <Point Name="SARAG" Type="Fix">-344543.100+1383740.400</Point>
-    <Point Name="SARAK" Type="Fix">-094500.000+1432518.000</Point>
     <Point Name="SARAP" Type="Fix">-325506.800+1630000.000</Point>
     <Point Name="SARGA" Type="Fix">-191415.100+1463028.100</Point>
     <Point Name="SARIG" Type="Fix">-231132.100+1183333.600</Point>
@@ -12710,6 +12636,7 @@ SAGLI
     <Point Name="SASRO" Type="Fix">-383451.000+1630000.000</Point>
     <Point Name="SATCO" Type="Fix">-192748.000+1464006.000</Point>
     <Point Name="SATNA" Type="Fix">-110412.000+1243412.000</Point>
+    <Point Name="SATNU" Type="Fix">-301700.000+1590600.000</Point>
     <Point Name="SATPA" Type="Fix">-272858.700+1403753.300</Point>
     <Point Name="SAVER" Type="Fix">-273110.700+1540335.700</Point>
     <Point Name="SB2WB" Type="Fix">-334912.800+1504822.900</Point>
@@ -12738,6 +12665,20 @@ SAGLI
     <Point Name="SCUBA" Type="Fix">-235830.000+1664006.000</Point>
     <Point Name="SCUBY" Type="Fix">-160542.000+1295412.000</Point>
     <Point Name="SCULN" Type="Fix">-350338.300+1485326.600</Point>
+    <Point Name="SE2EA" Type="Fix">-412654.100+1483249.000</Point>
+    <Point Name="SE2EB" Type="Fix">-412247.800+1483809.900</Point>
+    <Point Name="SE2EC" Type="Fix">-411737.700+1483453.100</Point>
+    <Point Name="SE2EF" Type="Fix">-412109.600+1482503.700</Point>
+    <Point Name="SE2EH" Type="Fix">-411623.200+1482306.000</Point>
+    <Point Name="SE2EI" Type="Fix">-412158.900+1483136.700</Point>
+    <Point Name="SE2EM" Type="Fix">-412019.900+1481830.900</Point>
+    <Point Name="SE2WD" Type="Fix">-412250.600+1475749.500</Point>
+    <Point Name="SE2WE" Type="Fix">-411742.100+1475426.500</Point>
+    <Point Name="SE2WF" Type="Fix">-411912.000+1480733.700</Point>
+    <Point Name="SE2WG" Type="Fix">-411332.800+1475941.300</Point>
+    <Point Name="SE2WH" Type="Fix">-412050.600+1482200.000</Point>
+    <Point Name="SE2WI" Type="Fix">-411827.100+1480100.100</Point>
+    <Point Name="SE2WM" Type="Fix">-412014.900+1481644.900</Point>
     <Point Name="SEBLU" Type="Fix">-392615.000+1463341.000</Point>
     <Point Name="SEBVA" Type="Fix">-261723.500+1523901.900</Point>
     <Point Name="SEBVI" Type="Fix">-351024.200+1492937.000</Point>
@@ -12801,6 +12742,13 @@ SAGLI
     <Point Name="SIMOS" Type="Fix">-264348.000+1530418.000</Point>
     <Point Name="SINAM" Type="Fix">-260000.000+1062905.800</Point>
     <Point Name="SINNK" Type="Fix">-271239.200+1531340.000</Point>
+    <Point Name="SK2SA" Type="Fix">-112919.100+1305141.300</Point>
+    <Point Name="SK2SB" Type="Fix">-113503.800+1305114.300</Point>
+    <Point Name="SK2SC" Type="Fix">-113636.600+1304536.600</Point>
+    <Point Name="SK2SF" Type="Fix">-112841.000+1304322.300</Point>
+    <Point Name="SK2SH" Type="Fix">-112334.600+1303704.900</Point>
+    <Point Name="SK2SI" Type="Fix">-113152.400+1304718.300</Point>
+    <Point Name="SK2SM" Type="Fix">-112529.600+1303926.400</Point>
     <Point Name="SKIPA" Type="Fix">-265423.500+1262207.100</Point>
     <Point Name="SL2ED" Type="Fix">-370452.100+1430013.400</Point>
     <Point Name="SL2EE" Type="Fix">-371031.000+1430131.300</Point>
@@ -12849,13 +12797,6 @@ SAGLI
     <Point Name="SN2SM" Type="Fix">-290326.400+1675507.200</Point>
     <Point Name="SN2WF" Type="Fix">-285931.200+1675058.600</Point>
     <Point Name="SN2WH" Type="Fix">-290348.000+1675841.700</Point>
-    <Point Name="SNBSA" Type="Fix">-112919.100+1305141.300</Point>
-    <Point Name="SNBSB" Type="Fix">-113503.800+1305114.300</Point>
-    <Point Name="SNBSC" Type="Fix">-113636.600+1304536.600</Point>
-    <Point Name="SNBSF" Type="Fix">-112841.000+1304322.300</Point>
-    <Point Name="SNBSH" Type="Fix">-112334.600+1303704.900</Point>
-    <Point Name="SNBSI" Type="Fix">-113152.400+1304718.300</Point>
-    <Point Name="SNBSM" Type="Fix">-112529.600+1303926.400</Point>
     <Point Name="SNELY" Type="Fix">-383423.000+1502217.000</Point>
     <Point Name="SNICK" Type="Fix">-123442.000+1314436.000</Point>
     <Point Name="SNOOD" Type="Fix">-150930.200+1342307.300</Point>
@@ -12886,6 +12827,7 @@ SAGLI
     <Point Name="SOVRA" Type="Fix">-193124.000-1772406.000</Point>
     <Point Name="SOVRO" Type="Fix">-104942.000+1405728.300</Point>
     <Point Name="SOVRU" Type="Fix">-363206.000+1475042.000</Point>
+    <Point Name="SOVTO" Type="Fix">-283551.300+1173245.600</Point>
     <Point Name="SP2WD" Type="Fix">-284139.400+1514434.100</Point>
     <Point Name="SP2WE" Type="Fix">-283652.600+1514056.500</Point>
     <Point Name="SP2WF" Type="Fix">-283705.100+1515218.100</Point>
@@ -12900,7 +12842,6 @@ SAGLI
     <Point Name="SPODD" Type="Fix">-384927.500+1414745.200</Point>
     <Point Name="SPOTA" Type="Fix">-340431.400+1374436.700</Point>
     <Point Name="SPUDO" Type="Fix">-314927.900+1161113.300</Point>
-    <Point Name="SQARE" Type="Fix">-284031.000+1185248.000</Point>
     <Point Name="SQCNA" Type="Fix">-310751.700+1190726.100</Point>
     <Point Name="SQCNC" Type="Fix">-310216.200+1190859.200</Point>
     <Point Name="SQCND" Type="Fix">-310136.500+1191537.100</Point>
@@ -12956,20 +12897,6 @@ SAGLI
     <Point Name="ST2WI" Type="Fix">-305715.400+1504127.900</Point>
     <Point Name="ST2WM" Type="Fix">-310404.800+1504959.300</Point>
     <Point Name="STANG" Type="Fix">-311337.200+1153945.600</Point>
-    <Point Name="STHEA" Type="Fix">-412654.100+1483249.000</Point>
-    <Point Name="STHEB" Type="Fix">-412247.800+1483809.900</Point>
-    <Point Name="STHEC" Type="Fix">-411737.700+1483453.100</Point>
-    <Point Name="STHEF" Type="Fix">-412109.600+1482503.700</Point>
-    <Point Name="STHEH" Type="Fix">-411623.200+1482306.000</Point>
-    <Point Name="STHEI" Type="Fix">-412158.900+1483136.700</Point>
-    <Point Name="STHEM" Type="Fix">-412019.900+1481830.900</Point>
-    <Point Name="STHWD" Type="Fix">-412250.600+1475749.500</Point>
-    <Point Name="STHWE" Type="Fix">-411742.100+1475426.500</Point>
-    <Point Name="STHWF" Type="Fix">-411912.000+1480733.700</Point>
-    <Point Name="STHWG" Type="Fix">-411332.800+1475941.300</Point>
-    <Point Name="STHWH" Type="Fix">-412050.600+1482200.000</Point>
-    <Point Name="STHWI" Type="Fix">-411827.100+1480100.100</Point>
-    <Point Name="STHWM" Type="Fix">-412014.900+1481644.900</Point>
     <Point Name="STILE" Type="Fix">-331154.000+1215036.000</Point>
     <Point Name="STIMP" Type="Fix">-280630.000+1533439.000</Point>
     <Point Name="STIRL" Type="Fix">-350346.500+1384445.200</Point>
@@ -13187,7 +13114,6 @@ SAGLI
     <Point Name="TEROS" Type="Fix">-052916.000+0752312.000</Point>
     <Point Name="TERRA" Type="Fix">-281424.000+1533312.000</Point>
     <Point Name="TERUV" Type="Fix">-253741.800+1525429.300</Point>
-    <Point Name="TESAS" Type="Fix">-332050.600+1594932.500</Point>
     <Point Name="TESAT" Type="Fix">-335637.700+1511057.300</Point>
     <Point Name="TEXAN" Type="Fix">-190042.000+1372924.000</Point>
     <Point Name="TEZZA" Type="Fix">-270427.400+1521258.900</Point>
@@ -13254,18 +13180,6 @@ SAGLI
     <Point Name="TIMBO" Type="Fix">-321023.500+1512741.600</Point>
     <Point Name="TIMET" Type="Fix">-190741.000+1161917.100</Point>
     <Point Name="TINAH" Type="Fix">-213618.000+1414518.000</Point>
-    <Point Name="TL100" Type="Fix">-201154.000+1445342.000</Point>
-    <Point Name="TL101" Type="Fix">-192642.000+1443918.000</Point>
-    <Point Name="TL102" Type="Fix">-192154.000+1453154.000</Point>
-    <Point Name="TL103" Type="Fix">-191900.000+1460142.000</Point>
-    <Point Name="TL104" Type="Fix">-193500.000+1460430.000</Point>
-    <Point Name="TL105" Type="Fix">-194506.000+1461236.000</Point>
-    <Point Name="TL106" Type="Fix">-195200.000+1463700.000</Point>
-    <Point Name="TL107" Type="Fix">-200112.000+1455000.000</Point>
-    <Point Name="TL108" Type="Fix">-181430.000+1445612.000</Point>
-    <Point Name="TL109" Type="Fix">-181812.000+1451224.000</Point>
-    <Point Name="TL110" Type="Fix">-183836.000+1454206.000</Point>
-    <Point Name="TL111" Type="Fix">-190600.000+1461000.000</Point>
     <Point Name="TL11C" Type="Fix">-193612.000+1450524.000</Point>
     <Point Name="TL12C" Type="Fix">-183406.000+1451206.000</Point>
     <Point Name="TL2NE" Type="Fix">-190004.200+1465309.500</Point>
@@ -13313,10 +13227,6 @@ SAGLI
     <Point Name="TL829" Type="Fix">-191711.400+1465229.300</Point>
     <Point Name="TL839" Type="Fix">-191257.200+1465539.100</Point>
     <Point Name="TL849" Type="Fix">-191125.900+1465853.100</Point>
-    <Point Name="TL900" Type="Fix">-200200.000+1440930.000</Point>
-    <Point Name="TL901" Type="Fix">-182130.000+1440242.000</Point>
-    <Point Name="TL902" Type="Fix">-181754.000+1445400.000</Point>
-    <Point Name="TL903" Type="Fix">-195930.000+1444730.000</Point>
     <Point Name="TM2NA" Type="Fix">-214049.300+1394335.400</Point>
     <Point Name="TM2NC" Type="Fix">-213526.500+1394547.100</Point>
     <Point Name="TM2ND" Type="Fix">-213531.700+1395156.200</Point>
@@ -13336,10 +13246,6 @@ SAGLI
     <Point Name="TMUSI" Type="Fix">-353045.400+1481341.200</Point>
     <Point Name="TMUSM" Type="Fix">-351708.200+1481423.200</Point>
     <Point Name="TMUST" Type="Fix">-350900.500+1480828.600</Point>
-    <Point Name="TN101" Type="Fix">-140000.000+1302224.000</Point>
-    <Point Name="TN102" Type="Fix">-132524.000+1303542.000</Point>
-    <Point Name="TN103" Type="Fix">-132136.000+1312254.000</Point>
-    <Point Name="TN104" Type="Fix">-140000.000+1314942.000</Point>
     <Point Name="TN11C" Type="Fix">-141530.000+1321900.000</Point>
     <Point Name="TN12C" Type="Fix">-133542.000+1304524.000</Point>
     <Point Name="TN2EA" Type="Fix">-242946.000+1504859.100</Point>
@@ -13357,22 +13263,6 @@ SAGLI
     <Point Name="TN81C" Type="Fix">-155506.000+1344218.000</Point>
     <Point Name="TN82C" Type="Fix">-161354.000+1301612.000</Point>
     <Point Name="TN83C" Type="Fix">-133548.000+1302330.000</Point>
-    <Point Name="TN900" Type="Fix">-144230.000+1353554.000</Point>
-    <Point Name="TN901" Type="Fix">-161736.000+1350142.000</Point>
-    <Point Name="TN902" Type="Fix">-160500.000+1342412.000</Point>
-    <Point Name="TN903" Type="Fix">-143000.000+1345718.000</Point>
-    <Point Name="TN904" Type="Fix">-162418.000+1294754.000</Point>
-    <Point Name="TN905" Type="Fix">-155342.000+1301248.000</Point>
-    <Point Name="TN906" Type="Fix">-165454.000+1313542.000</Point>
-    <Point Name="TN907" Type="Fix">-172624.000+1311012.000</Point>
-    <Point Name="TN908" Type="Fix">-131254.000+1300454.000</Point>
-    <Point Name="TN909" Type="Fix">-132324.000+1303342.000</Point>
-    <Point Name="TN910" Type="Fix">-145730.000+1295730.000</Point>
-    <Point Name="TN911" Type="Fix">-144654.000+1292836.000</Point>
-    <Point Name="TN912" Type="Fix">-170146.000+1294313.000</Point>
-    <Point Name="TN913" Type="Fix">-170153.000+1322236.000</Point>
-    <Point Name="TN914" Type="Fix">-173154.000+1322236.000</Point>
-    <Point Name="TN915" Type="Fix">-173154.000+1294313.000</Point>
     <Point Name="TOBOB" Type="Fix">-345603.000+1450448.600</Point>
     <Point Name="TOCEA" Type="Fix">-354549.400+1455154.500</Point>
     <Point Name="TOCEB" Type="Fix">-355057.600+1455503.900</Point>
@@ -13481,6 +13371,7 @@ SAGLI
     <Point Name="TUCKI" Type="Fix">-285518.000+1532212.000</Point>
     <Point Name="TUGUN" Type="Fix">-274537.000+1525050.000</Point>
     <Point Name="TULPO" Type="Fix">-205354.600+1152350.300</Point>
+    <Point Name="TULRU" Type="Fix">-305118.000+1541715.000</Point>
     <Point Name="TUMAN" Type="Fix">-343612.800+1401750.100</Point>
     <Point Name="TUMDI" Type="Fix">-350138.200+1382501.300</Point>
     <Point Name="TUMSO" Type="Fix">-241449.300+1332652.600</Point>
@@ -13500,10 +13391,23 @@ SAGLI
     <Point Name="TUTNI" Type="Fix">-292450.300+1170330.300</Point>
     <Point Name="TUTNO" Type="Fix">-344618.000+1350000.000</Point>
     <Point Name="TUTRA" Type="Fix">-285704.200+1674634.500</Point>
+    <Point Name="TUTRU" Type="Fix">-320452.000+1133646.000</Point>
     <Point Name="TUVBA" Type="Fix">-320045.400+1154911.000</Point>
     <Point Name="TUVBI" Type="Fix">-405355.800+1604237.100</Point>
     <Point Name="TUVNO" Type="Fix">-191222.800+1464734.500</Point>
     <Point Name="TUVRA" Type="Fix">-391426.700+1440946.400</Point>
+    <Point Name="TV2ED" Type="Fix">-375721.500+1463553.600</Point>
+    <Point Name="TV2EE" Type="Fix">-375846.200+1464553.400</Point>
+    <Point Name="TV2EF" Type="Fix">-380757.400+1463413.800</Point>
+    <Point Name="TV2EG" Type="Fix">-380641.300+1464738.700</Point>
+    <Point Name="TV2EH" Type="Fix">-381418.800+1462608.500</Point>
+    <Point Name="TV2EI" Type="Fix">-380343.000+1463936.900</Point>
+    <Point Name="TV2WA" Type="Fix">-382501.100+1462017.200</Point>
+    <Point Name="TV2WB" Type="Fix">-382342.600+1461408.800</Point>
+    <Point Name="TV2WC" Type="Fix">-381803.100+1461254.300</Point>
+    <Point Name="TV2WF" Type="Fix">-381639.100+1462309.600</Point>
+    <Point Name="TV2WH" Type="Fix">-381100.200+1463021.500</Point>
+    <Point Name="TV2WI" Type="Fix">-382010.800+1461839.300</Point>
     <Point Name="TW2EA" Type="Fix">-273406.900+1521016.000</Point>
     <Point Name="TW2EB" Type="Fix">-273948.300+1521112.100</Point>
     <Point Name="TW2EC" Type="Fix">-274232.000+1520530.800</Point>
@@ -13547,6 +13451,7 @@ SAGLI
     <Point Name="UBDIB" Type="Fix">-341403.100+1402059.700</Point>
     <Point Name="UBDIG" Type="Fix">-125349.800+1303206.100</Point>
     <Point Name="UBGAN" Type="Fix">-272011.700+1481027.100</Point>
+    <Point Name="UBGEL" Type="Fix">-285124.000+1545252.000</Point>
     <Point Name="UBGIM" Type="Fix">-325631.900+1515142.600</Point>
     <Point Name="UBGUT" Type="Fix">-364019.300+1421005.200</Point>
     <Point Name="UBGUX" Type="Fix">-121337.300+1304315.900</Point>
@@ -13636,7 +13541,6 @@ SAGLI
     <Point Name="UPMAR" Type="Fix">-335343.500+1505546.100</Point>
     <Point Name="UPMOG" Type="Fix">-280009.600+1515023.400</Point>
     <Point Name="UPMUV" Type="Fix">-344905.000+1484042.000</Point>
-    <Point Name="UPNAP" Type="Fix">-351658.200+1454906.300</Point>
     <Point Name="UPNEX" Type="Fix">-332625.600+1514005.100</Point>
     <Point Name="UPNOR" Type="Fix">-290347.700+1340125.100</Point>
     <Point Name="UPNOT" Type="Fix">-183922.300+1095541.700</Point>
@@ -13672,7 +13576,6 @@ SAGLI
     <Point Name="URDAX" Type="Fix">-324351.900+1514439.900</Point>
     <Point Name="URDEN" Type="Fix">-334447.800+1510727.400</Point>
     <Point Name="URGEX" Type="Fix">-321727.400+1195121.000</Point>
-    <Point Name="URGUL" Type="Fix">-351446.000+1443616.000</Point>
     <Point Name="URKER" Type="Fix">-313647.500+1502300.400</Point>
     <Point Name="URKIX" Type="Fix">-332412.600+1515320.700</Point>
     <Point Name="UTTOX" Type="Fix">-123858.800+1303633.100</Point>
@@ -13729,6 +13632,7 @@ SAGLI
     <Point Name="VEGPU" Type="Fix">-123959.900+1311422.700</Point>
     <Point Name="VEGRU" Type="Fix">-362248.900+1462858.800</Point>
     <Point Name="VEKBI" Type="Fix">-173549.700+1442236.900</Point>
+    <Point Name="VEKBO" Type="Fix">-283142.000+1171910.100</Point>
     <Point Name="VEKLO" Type="Fix">-420515.100+1473952.600</Point>
     <Point Name="VEKMI" Type="Fix">-345107.100+1381412.700</Point>
     <Point Name="VEKNU" Type="Fix">-262640.700+1530748.600</Point>
@@ -13983,91 +13887,17 @@ SAGLI
     <Point Name="WM15C" Type="Fix">-333030.000+1530400.000</Point>
     <Point Name="WM16C" Type="Fix">-320948.000+1503606.000</Point>
     <Point Name="WM17C" Type="Fix">-315424.000+1500506.000</Point>
-    <Point Name="WM18C" Type="Fix">-313400.000+1532330.000</Point>
-    <Point Name="WM19C" Type="Fix">-314006.000+1532642.000</Point>
-    <Point Name="WM20C" Type="Fix">-323918.000+1530700.000</Point>
-    <Point Name="WM21C" Type="Fix">-330518.000+1541512.000</Point>
-    <Point Name="WM22C" Type="Fix">-315736.000+1503730.000</Point>
-    <Point Name="WM23C" Type="Fix">-304542.000+1500148.000</Point>
-    <Point Name="WM300" Type="Fix">-304333.000+1532427.000</Point>
-    <Point Name="WM301" Type="Fix">-310443.000+1553803.000</Point>
-    <Point Name="WM302" Type="Fix">-320101.000+1550606.000</Point>
-    <Point Name="WM303" Type="Fix">-311724.000+1530823.000</Point>
-    <Point Name="WM304" Type="Fix">-325503.000+1543446.000</Point>
-    <Point Name="WM305" Type="Fix">-322917.000+1532440.000</Point>
-    <Point Name="WM306" Type="Fix">-321258.000+1524130.000</Point>
-    <Point Name="WM307" Type="Fix">-334906.000+1524538.000</Point>
-    <Point Name="WM308" Type="Fix">-334854.000+1520641.000</Point>
-    <Point Name="WM309" Type="Fix">-333926.000+1520206.000</Point>
-    <Point Name="WM310" Type="Fix">-331154.000+1515814.000</Point>
-    <Point Name="WM311" Type="Fix">-324750.000+1514959.000</Point>
-    <Point Name="WM312" Type="Fix">-324219.000+1521854.000</Point>
-    <Point Name="WM313" Type="Fix">-324038.000+1522734.000</Point>
-    <Point Name="WM314" Type="Fix">-334855.000+1540250.000</Point>
-    <Point Name="WM315" Type="Fix">-310014.000+1524826.000</Point>
-    <Point Name="WM316" Type="Fix">-310021.000+1531630.000</Point>
-    <Point Name="WM317" Type="Fix">-320152.000+1524655.000</Point>
-    <Point Name="WM318" Type="Fix">-320215.000+1522513.000</Point>
-    <Point Name="WM319" Type="Fix">-320219.000+1522105.000</Point>
-    <Point Name="WM320" Type="Fix">-320323.000+1521746.000</Point>
-    <Point Name="WM321" Type="Fix">-313320.000+1522706.000</Point>
     <Point Name="WM3EF" Type="Fix">-325428.000+1515928.900</Point>
     <Point Name="WM3EH" Type="Fix">-324621.200+1514808.200</Point>
     <Point Name="WM3WF" Type="Fix">-324410.900+1514506.500</Point>
     <Point Name="WM3WH" Type="Fix">-324910.300+1515204.300</Point>
     <Point Name="WM3WI" Type="Fix">-324104.000+1514046.300</Point>
-    <Point Name="WM401" Type="Fix">-320236.000+1490547.000</Point>
-    <Point Name="WM402" Type="Fix">-321329.000+1492125.000</Point>
-    <Point Name="WM403" Type="Fix">-322745.000+1494203.000</Point>
-    <Point Name="WM404" Type="Fix">-324315.000+1495932.000</Point>
-    <Point Name="WM405" Type="Fix">-320827.000+1504205.000</Point>
-    <Point Name="WM406" Type="Fix">-320243.000+1505208.000</Point>
-    <Point Name="WM407" Type="Fix">-315350.000+1505254.000</Point>
-    <Point Name="WM408" Type="Fix">-314710.000+1504945.000</Point>
-    <Point Name="WM409" Type="Fix">-313029.000+1504156.000</Point>
-    <Point Name="WM410" Type="Fix">-312442.000+1503707.000</Point>
-    <Point Name="WM411" Type="Fix">-310811.000+1502326.000</Point>
-    <Point Name="WM412" Type="Fix">-314535.000+1494048.000</Point>
-    <Point Name="WM413" Type="Fix">-304714.000+1485813.000</Point>
-    <Point Name="WM414" Type="Fix">-300647.000+1500449.000</Point>
-    <Point Name="WM415" Type="Fix">-315822.000+1491434.000</Point>
-    <Point Name="WM416" Type="Fix">-315126.000+1490439.000</Point>
     <Point Name="WM83C" Type="Fix">-312324.000+1554130.000</Point>
     <Point Name="WM84C" Type="Fix">-324612.000+1551336.000</Point>
     <Point Name="WM85C" Type="Fix">-311200.000+1483824.000</Point>
     <Point Name="WM86C" Type="Fix">-320036.000+1553442.000</Point>
-    <Point Name="WM87C" Type="Fix">-312848.000+1555206.000</Point>
-    <Point Name="WM88C" Type="Fix">-294242.000+1494236.000</Point>
-    <Point Name="WM89C" Type="Fix">-320036.000+1553442.000</Point>
-    <Point Name="WM900" Type="Fix">-320400.000+1521700.000</Point>
-    <Point Name="WM901" Type="Fix">-310412.000+1524706.000</Point>
-    <Point Name="WM902" Type="Fix">-311112.000+1530624.000</Point>
-    <Point Name="WM903" Type="Fix">-321106.000+1523630.000</Point>
-    <Point Name="WM904" Type="Fix">-304330.000+1532430.000</Point>
-    <Point Name="WM905" Type="Fix">-301854.000+1532930.000</Point>
-    <Point Name="WM906" Type="Fix">-302812.000+1542554.000</Point>
-    <Point Name="WM907" Type="Fix">-303824.000+1553124.000</Point>
-    <Point Name="WM908" Type="Fix">-310142.000+1551812.000</Point>
-    <Point Name="WM910" Type="Fix">-324648.000+1552030.000</Point>
-    <Point Name="WM911" Type="Fix">-323824.000+1544512.000</Point>
-    <Point Name="WM914" Type="Fix">-323454.000+1552642.000</Point>
-    <Point Name="WM915" Type="Fix">-340454.000+1543412.000</Point>
-    <Point Name="WM916" Type="Fix">-335130.000+1540154.000</Point>
     <Point Name="WM91C" Type="Fix">-311836.000+1525936.000</Point>
-    <Point Name="WM923" Type="Fix">-334036.000+1545524.000</Point>
-    <Point Name="WM924" Type="Fix">-332742.000+1541612.000</Point>
-    <Point Name="WM926" Type="Fix">-310443.000+1553803.000</Point>
-    <Point Name="WM927" Type="Fix">-311153.000+1561323.000</Point>
-    <Point Name="WM928" Type="Fix">-322145.000+1545452.000</Point>
-    <Point Name="WM929" Type="Fix">-313951.000+1551809.000</Point>
     <Point Name="WM92C" Type="Fix">-305642.000+1550200.000</Point>
-    <Point Name="WM930" Type="Fix">-315154.000+1555732.000</Point>
-    <Point Name="WM931" Type="Fix">-294813.000+1485603.000</Point>
-    <Point Name="WM932" Type="Fix">-291720.000+1485356.000</Point>
-    <Point Name="WM933" Type="Fix">-291703.000+1494911.000</Point>
-    <Point Name="WM934" Type="Fix">-294725.000+1495046.000</Point>
-    <Point Name="WM93C" Type="Fix">-324612.000+1551336.000</Point>
-    <Point Name="WM94C" Type="Fix">-311836.000+1525936.000</Point>
     <Point Name="WN400" Type="Fix">-232158.600+1195310.700</Point>
     <Point Name="WN404" Type="Fix">-232115.800+1195646.100</Point>
     <Point Name="WN408" Type="Fix">-232145.200+1195816.700</Point>
@@ -15588,7 +15418,6 @@ SAGLI
     <Point Name="SON" Type="Navaid" NavaidType="NDB" Frequency="000.000">-153022.291+1671259.620</Point>
     <Point Name="SU" Type="Navaid" NavaidType="NDB" Frequency="380.000">-263531.900+1530530.200</Point>
     <Point Name="SWH" Type="Navaid" NavaidType="NDB" Frequency="407.000">-352249.800+1433225.100</Point>
-    <Point Name="TN" Type="Navaid" NavaidType="NDB" Frequency="356.000">-143056.900+1322137.500</Point>
     <Point Name="TNK" Type="Navaid" NavaidType="NDB" Frequency="272.000">-193839.400+1341031.200</Point>
     <Point Name="TVL" Type="Navaid" NavaidType="NDB" Frequency="276.000">-191449.000+1464544.300</Point>
     <Point Name="TW" Type="Navaid" NavaidType="NDB" Frequency="341.000">-310416.200+1504952.200</Point>
@@ -15610,8 +15439,7 @@ SAGLI
     <Point Name="EDN" Type="Navaid" NavaidType="TAC" Frequency="112.700">-344217.100+1383644.600</Point>
     <Point Name="ESL" Type="Navaid" NavaidType="TAC" Frequency="108.100">-380607.800+1470916.000</Point>
     <Point Name="LMO" Type="Navaid" NavaidType="TAC" Frequency="000.000">-221328.200+1140532.800</Point>
-    <Point Name="NWA" Type="Navaid" NavaidType="TAC" Frequency="116.400">-345700.200+1503159.800</Point>
-    <Point Name="NWR" Type="Navaid" NavaidType="TAC" Frequency="000.000">-345703.800+1503216.800</Point>
+    <Point Name="NWR" Type="Navaid" NavaidType="TAC" Frequency="112.400">-345703.800+1503216.800</Point>
     <Point Name="PEA" Type="Navaid" NavaidType="TAC" Frequency="112.800">-314026.000+1160103.000</Point>
     <Point Name="REM" Type="Navaid" NavaidType="TAC" Frequency="000.000">-311624.700+1154944.800</Point>
     <Point Name="RIC" Type="Navaid" NavaidType="TAC" Frequency="110.700">-333626.200+1504756.100</Point>
@@ -15734,11 +15562,11 @@ SAGLI
     <Point Name="OK27T" Type="Fix">-272438.650+1514408.130</Point>
     <Point Name="OK32T" Type="Fix">-272453.570+1514447.900</Point>
     <Point Name="PE05T" Type="Fix">-314020.350+1160031.290</Point>
-    <Point Name="PE18L" Type="Fix">-313944.680+1160049.370</Point>
+    <Point Name="PE18L" Type="Fix">-313927.360+1160047.100</Point>
     <Point Name="PE18R" Type="Fix">-314007.610+1160048.000</Point>
     <Point Name="PE23T" Type="Fix">-313941.350+1160116.470</Point>
     <Point Name="PE36L" Type="Fix">-314103.800+1160055.480</Point>
-    <Point Name="PE36R" Type="Fix">-314103.310+1160059.880</Point>
+    <Point Name="PE36R" Type="Fix">-314103.300+1160059.870</Point>
     <Point Name="PF03L" Type="Fix">-344813.520+1383750.300</Point>
     <Point Name="PF03R" Type="Fix">-344807.730+1383803.610</Point>
     <Point Name="PF08L" Type="Fix">-344736.690+1383729.140</Point>
@@ -15771,8 +15599,8 @@ SAGLI
     <Point Name="TL07T" Type="Fix">-191520.910+1464519.960</Point>
     <Point Name="TL19T" Type="Fix">-191417.530+1464627.180</Point>
     <Point Name="TL25T" Type="Fix">-191511.060+1464556.070</Point>
-    <Point Name="TN14T" Type="Fix">-143051.200+1322214.410</Point>
-    <Point Name="TN32T" Type="Fix">-143151.160+1322308.100</Point>
+    <Point Name="TN14T" Type="Fix">-143028.910+1322154.530</Point>
+    <Point Name="TN32T" Type="Fix">-143151.100+1322308.130</Point>
     <Point Name="TW06T" Type="Fix">-310459.410+1505034.460</Point>
     <Point Name="TW12L" Type="Fix">-310415.780+1505013.110</Point>
     <Point Name="TW12R" Type="Fix">-310452.700+1504958.330</Point>
@@ -16026,9 +15854,8 @@ SAGLI
     <SID Name="BURLI5" Airport="YBCG" Runways="32">
       <Route Runway="32">-280923.440+1533002.540/LUVLY/-280759.778+1532926.861/-280715.151+1532942.027/-280643.189+1533020.456/-280632.452+1533111.852/-280645.814+1533202.451/-280649.990+1533209.344/MEETA/MAIDS/BURLI/-281228.171+1533635.233/-281329.286+1533650.888/-281431.889+1533648.058/-281531.713+1533626.929/-281624.679+1533548.933/-281650.949+1533519.682/CG612/APAGI</Route>
     </SID>
-    <SID Name="CG6" Airport="YBCG" Runways="14,17,32">
+    <SID Name="CG7" Airport="YBCG" Runways="14,32">
       <Route Runway="14" />
-      <Route Runway="17" />
       <Route Runway="32" />
     </SID>
     <SID Name="CUDGN4" Airport="YBCG" Runways="14">
@@ -16183,7 +16010,7 @@ SAGLI
       <Route Runway="12">-425044.080+1473128.550/KADON/BIVED/IDRUG/DUMIT/NUVTA/RIBLI</Route>
       <Route Runway="30">-424944.300+1473007.380/TOKAX/IKETU/RIBLI</Route>
     </SID>
-    <SID Name="FLIK1A" Airport="YMLT" Runways="14R,32L">
+    <SID Name="FLIK2A" Airport="YMLT" Runways="14R,32L">
       <Route Runway="14R">-413307.470+1471300.960/-413603.570+1471532.100/-413647.892+1471551.099/-413733.412+1471537.833/-413807.872+1471455.888/-413822.032+1471356.502/-413812.094+1471255.600/-413742.315+1471211.012/-413705.000+1471155.000/LT VOR/FLIKI</Route>
       <Route Runway="32L">-413213.440+1471214.750/-412942.000+1471005.000/-412857.620+1470946.030/-412614.000+1470930.000/FLIKI</Route>
     </SID>
@@ -16193,7 +16020,7 @@ SAGLI
     <SID Name="FLIK1C" Airport="YMLT" Runways="14R">
       <Route Runway="14R">-413307.470+1471300.960/-413603.570+1471532.100/-413647.892+1471551.099/-413733.412+1471537.833/-413807.872+1471455.888/-413822.032+1471356.502/-413812.094+1471255.600/-413742.315+1471211.012/-413705.000+1471155.000/FLIKI</Route>
     </SID>
-    <SID Name="IRSO2A" Airport="YMLT" Runways="14R,32L">
+    <SID Name="IRSO3A" Airport="YMLT" Runways="14R,32L">
       <Route Runway="14R">-413307.470+1471300.960/-413603.570+1471532.100/-413647.892+1471551.099/-413733.412+1471537.833/-413807.872+1471455.888/-413822.032+1471356.502/-413812.094+1471255.600/-413742.315+1471211.012/-412826.000+1470319.000/IRSOM</Route>
       <Route Runway="32L">-413213.440+1471214.750/-412942.000+1471005.000/-412910.593+1470919.041/-412753.000+1470248.000/IRSOM</Route>
     </SID>
@@ -16203,18 +16030,21 @@ SAGLI
     <SID Name="LT1" Airport="YMLT" Runways="14R">
       <Route Runway="14R" />
     </SID>
-    <SID Name="MIKIS3" Airport="YMLT" Runways="14R,32L">
+    <SID Name="MIKIS2" Airport="YMLT" Runways="32L">
+      <Route Runway="32L">-413213.440+1471214.750/-412942.000+1471005.000/-412910.593+1470919.041/-412900.667+1470818.280/-412914.821+1470719.031/-413751.000+1465552.000/MIKIS</Route>
+    </SID>
+    <SID Name="MIKI2A" Airport="YMLT" Runways="14R,32L">
       <Route Runway="14R">-413307.470+1471300.960/-413603.570+1471532.100/-413647.892+1471551.099/-413733.412+1471537.833/-413807.872+1471455.888/-413822.032+1471356.502/-413633.000+1470004.000/MIKIS</Route>
       <Route Runway="32L">-413213.440+1471214.750/-412942.000+1471005.000/-412910.593+1470919.041/-412900.667+1470818.280/-412914.821+1470719.031/-413751.000+1465552.000/MIKIS</Route>
     </SID>
-    <SID Name="MORG2A" Airport="YMLT" Runways="14R,32L">
+    <SID Name="MORG3A" Airport="YMLT" Runways="14R,32L">
       <Route Runway="14R">-413307.470+1471300.960/-413603.570+1471532.100/-413647.892+1471551.099/-413733.412+1471537.833/-413807.872+1471455.888/-414150.000+1471051.000/MORGO</Route>
       <Route Runway="32L">-413213.440+1471214.750/-412942.000+1471005.000/-412910.593+1470919.041/-412900.667+1470818.280/-412914.821+1470719.031/-412949.266+1470637.154/-413034.779+1470623.873/-413117.489+1470641.453/-413743.000+1471142.000/MORGO</Route>
     </SID>
     <SID Name="MORG2C" Airport="YMLT" Runways="14R">
       <Route Runway="14R">-413307.470+1471300.960/-413603.570+1471532.100/-413647.892+1471551.099/-413733.412+1471537.833/-413807.872+1471455.888/-414150.000+1471051.000/MORGO</Route>
     </SID>
-    <SID Name="MOTR2A" Airport="YMLT" Runways="14R,32L">
+    <SID Name="MOTR3A" Airport="YMLT" Runways="14R,32L">
       <Route Runway="14R">-413307.470+1471300.960/-413603.570+1471532.100/-413647.892+1471551.099/-413733.412+1471537.833/-413807.872+1471455.888/-413822.032+1471356.502/-413812.094+1471255.600/-413742.315+1471211.012/-413705.000+1471155.000/LT VOR/MOTRA</Route>
       <Route Runway="32L">-413213.440+1471214.750/-412942.000+1471005.000/-412857.620+1470946.030/-412812.106+1470959.306/-412737.661+1471041.165/-412723.507+1471140.390/-412733.434+1471241.125/-413109.000+1471939.000/MOTRA</Route>
     </SID>
@@ -16228,15 +16058,15 @@ SAGLI
     <SID Name="NUNP2B" Airport="YMLT" Runways="14R">
       <Route Runway="14R">-413307.470+1471300.960/-413603.570+1471532.100/-413634.948+1471618.074/-413644.885+1471718.950/-413630.725+1471818.311/-413556.266+1471900.239/-413510.746+1471913.499/-413428.044+1471855.866/-412945.000+1471425.000/NUNPA</Route>
     </SID>
-    <SID Name="TASUM2" Airport="YMLT" Runways="14R,32L">
+    <SID Name="TASU3A" Airport="YMLT" Runways="14R,32L">
       <Route Runway="14R">-413307.470+1471300.960/-413603.570+1471532.100/-413647.892+1471551.099/TASUM</Route>
       <Route Runway="32L">-413213.440+1471214.750/-412942.000+1471005.000/-412910.593+1470919.041/-412900.667+1470818.280/-412914.821+1470719.031/-412949.266+1470637.154/-413034.779+1470623.873/-413117.489+1470641.453/-413743.000+1471142.000/-414152.000+1471458.000/TASUM</Route>
     </SID>
-    <SID Name="VEKLO1" Airport="YMLT" Runways="14R,32L">
-      <Route Runway="14R">-413307.470+1471300.960/-413603.570+1471532.100/VEKLO</Route>
+    <SID Name="VEKL2A" Airport="YMLT" Runways="14R,32L">
+      <Route Runway="14R">-413307.470+1471300.960/-413603.570+1471532.100/-413647.892+1471551.099/TASUM</Route>
       <Route Runway="32L">-413213.440+1471214.750/-412942.000+1471005.000/-412910.593+1470919.041/-412900.667+1470818.280/-412914.821+1470719.031/-412949.266+1470637.154/-413034.779+1470623.873/-413117.489+1470641.453/-414054.000+1471936.000/VEKLO</Route>
     </SID>
-    <SID Name="VIMA1A" Airport="YMLT" Runways="14R,32L">
+    <SID Name="VIMA2A" Airport="YMLT" Runways="14R,32L">
       <Route Runway="14R">-413307.470+1471300.960/-413603.570+1471532.100/-413647.892+1471551.099/-413733.412+1471537.833/-413807.872+1471455.888/-413822.032+1471356.502/-413812.094+1471255.600/-413742.315+1471211.012/-413705.000+1471155.000/LT VOR/VIMAP</Route>
       <Route Runway="32L">-413213.440+1471214.750/-412942.000+1471005.000/-412857.620+1470946.030/-412812.106+1470959.306/-412448.000+1471311.000/VIMAP</Route>
     </SID>
@@ -16366,9 +16196,9 @@ SAGLI
     </SID>
     <SID Name="PEA6" Airport="YPEA" Runways="05,18L,23,36R">
       <Route Runway="05">-313941.350+1160116.470/-313846.000+1160220.000</Route>
-      <Route Runway="18L">-314103.310+1160059.880/-314128.000+1160111.000</Route>
+      <Route Runway="18L">-314103.300+1160059.870/-314128.000+1160111.000</Route>
       <Route Runway="23">-314020.350+1160031.290/-314128.000+1155858.000</Route>
-      <Route Runway="36R">-313944.680+1160049.370/-313804.000+1160040.000</Route>
+      <Route Runway="36R">-313927.360+1160047.100/-313804.000+1160040.000</Route>
     </SID>
     <SID Name="DOLVU1" Airport="YPED" Runways="18,36">
       <Route Runway="18">-344302.470+1383648.400/-344302.470+1383648.400/-344302.470+1383648.400/-344302.470+1383648.400/-344501.221+1383628.088/-344541.235+1383607.494/-344607.409+1383525.227/-344612.709+1383432.690/-344555.715+1383343.968/-344520.983+1383312.125/-344504.000+1383306.287/-343714.790+1383105.098/-343612.731+1383108.969/-343520.646+1383150.088/-343452.456+1383257.320/-343455.705+1383412.664/-343529.525+1383515.951/-343550.644+1383534.334/DOLVU</Route>
@@ -16492,32 +16322,32 @@ SAGLI
       <Route Runway="24">-315627.560+1155733.130/-315630.332+1155728.202/-315636.943+1155715.381/-315643.860+1155701.854/-315656.392+1155637.029/-315704.106+1155621.211/-315711.449+1155605.702/-315718.858+1155549.616/-315729.044+1155526.738/-315737.228+1155508.687/-315746.804+1155451.392/-315758.554+1155436.580/-315811.734+1155424.827/-315826.478+1155415.418/-315842.519+1155408.557/-315859.769+1155404.452/-315917.392+1155403.333/-315935.093+1155405.209/-315952.547+1155410.170/-320009.067+1155418.082/-320024.538+1155428.804/-320038.784+1155442.314/AVBAD/DELRU/HIDOT/VEMON/BURGU/YNRV</Route>
     </SID>
     <SID Name="DAPMA2" Airport="YPTN" Runways="14,32">
-      <Route Runway="14">-143151.160+1322308.100/-143228.968+1322342.052/-143245.653+1322406.727/-143249.110+1322436.617/-143136.804+1322717.236/DAPMA</Route>
-      <Route Runway="32">-143051.200+1322214.410/-143005.082+1322133.027/-142938.800+1322119.322/-142909.374+1322120.190/-142843.894+1322135.418/-142828.502+1322201.335/-142826.907+1322231.693/-142839.494+1322259.178/DAPMA</Route>
+      <Route Runway="14">-143151.100+1322308.130/-143228.968+1322342.052/-143245.653+1322406.727/-143249.110+1322436.617/-143136.804+1322717.236/DAPMA</Route>
+      <Route Runway="32">-143028.910+1322154.530/-143005.082+1322133.027/-142938.800+1322119.322/-142909.374+1322120.190/-142843.894+1322135.418/-142828.502+1322201.335/-142826.907+1322231.693/-142839.494+1322259.178/DAPMA</Route>
     </SID>
     <SID Name="DN4" Airport="YPTN" Runways="14,32">
-      <Route Runway="14">-143151.160+1322308.100/-143047.872+1322211.537/-143104.908+1322226.725/-143136.793+1322255.077/-143217.649+1322331.743/-143301.975+1322403.249/-143353.676+1322421.453/-143447.694+1322410.932/-143531.081+1322333.381/-143551.657+1322238.390/-143544.446+1322138.379/-143510.135+1322047.450/DN VOR</Route>
-      <Route Runway="32">-143051.200+1322214.410/-143005.368+1322132.488/DN VOR</Route>
+      <Route Runway="14">-143151.100+1322308.130/-143047.872+1322211.537/-143104.908+1322226.725/-143136.793+1322255.077/-143217.649+1322331.743/-143301.975+1322403.249/-143353.676+1322421.453/-143447.694+1322410.932/-143531.081+1322333.381/-143551.657+1322238.390/-143544.446+1322138.379/-143510.135+1322047.450/DN VOR</Route>
+      <Route Runway="32">-143028.910+1322154.530/-143005.368+1322132.488/DN VOR</Route>
     </SID>
     <SID Name="DOSAM4" Airport="YPTN" Runways="14,32">
-      <Route Runway="14">-143151.160+1322308.100/-143437.702+1322328.593/DOSAM</Route>
-      <Route Runway="32">-143051.200+1322214.410/-143030.978+1322155.894/-142954.387+1322113.621/-142940.184+1322015.965/-142953.389+1321916.342/-143032.152+1321828.507/-143128.320+1321803.503/-143229.412+1321807.149/-143954.194+1322411.542/DOSAM</Route>
+      <Route Runway="14">-143151.100+1322308.130/-143437.702+1322328.593/DOSAM</Route>
+      <Route Runway="32">-143028.910+1322154.530/-143030.978+1322155.894/-142954.387+1322113.621/-142940.184+1322015.965/-142953.389+1321916.342/-143032.152+1321828.507/-143128.320+1321803.503/-143229.412+1321807.149/-143954.194+1322411.542/DOSAM</Route>
     </SID>
     <SID Name="GREGA4" Airport="YPTN" Runways="14,32">
-      <Route Runway="14">-143151.160+1322308.100/-143437.702+1322328.593/-143700.336+1322257.593/GREGA</Route>
-      <Route Runway="32">-143051.200+1322214.410/-143030.978+1322155.894/-142954.387+1322113.621/-142940.184+1322015.965/-142953.389+1321916.342/-143032.152+1321828.507/-143128.320+1321803.503/-143229.412+1321807.149/-143826.385+1322258.270/GREGA</Route>
+      <Route Runway="14">-143151.100+1322308.130/-143437.702+1322328.593/-143700.336+1322257.593/GREGA</Route>
+      <Route Runway="32">-143028.910+1322154.530/-143030.978+1322155.894/-142954.387+1322113.621/-142940.184+1322015.965/-142953.389+1321916.342/-143032.152+1321828.507/-143128.320+1321803.503/-143229.412+1321807.149/-143826.385+1322258.270/GREGA</Route>
     </SID>
     <SID Name="LARAB4" Airport="YPTN" Runways="14,32">
-      <Route Runway="14">-143151.160+1322308.100/-143228.968+1322342.052/-143255.243+1322355.760/-143324.670+1322354.896/-143350.152+1322339.666/-143405.546+1322313.740/-143407.140+1322243.368/-143354.552+1322215.873/-142919.138+1321953.493/LARAB</Route>
-      <Route Runway="32">-143051.200+1322214.410/-143005.082+1322133.027/LARAB</Route>
+      <Route Runway="14">-143151.100+1322308.130/-143228.968+1322342.052/-143255.243+1322355.760/-143324.670+1322354.896/-143350.152+1322339.666/-143405.546+1322313.740/-143407.140+1322243.368/-143354.552+1322215.873/-142919.138+1321953.493/LARAB</Route>
+      <Route Runway="32">-143028.910+1322154.530/-143005.082+1322133.027/LARAB</Route>
     </SID>
     <SID Name="MIGAX3" Airport="YPTN" Runways="14,32">
-      <Route Runway="14">-143151.160+1322308.100/-143228.968+1322342.052/MIGAX</Route>
-      <Route Runway="32">-143051.200+1322214.410/-143005.082+1322133.027/-142938.800+1322119.322/-142909.374+1322120.190/-142843.894+1322135.418/-142828.502+1322201.335/-142826.907+1322231.693/-142839.494+1322259.178/-143222.893+1322357.194/MIGAX</Route>
+      <Route Runway="14">-143151.100+1322308.130/-143228.968+1322342.052/MIGAX</Route>
+      <Route Runway="32">-143028.910+1322154.530/-143005.082+1322133.027/-142938.800+1322119.322/-142909.374+1322120.190/-142843.894+1322135.418/-142828.502+1322201.335/-142826.907+1322231.693/-142839.494+1322259.178/-143222.893+1322357.194/MIGAX</Route>
     </SID>
     <SID Name="MILIV4" Airport="YPTN" Runways="14,32">
-      <Route Runway="14">-143151.160+1322308.100/MILIV</Route>
-      <Route Runway="32">-143051.200+1322214.410/-143005.082+1322133.027/-142938.800+1322119.322/-142909.374+1322120.190/-142843.894+1322135.418/-142828.502+1322201.335/-142826.907+1322231.693/-142839.494+1322259.178/-143317.957+1322352.343/MILIV</Route>
+      <Route Runway="14">-143151.100+1322308.130/MILIV</Route>
+      <Route Runway="32">-143028.910+1322154.530/-143005.082+1322133.027/-142938.800+1322119.322/-142909.374+1322120.190/-142843.894+1322135.418/-142828.502+1322201.335/-142826.907+1322231.693/-142839.494+1322259.178/-143317.957+1322352.343/MILIV</Route>
     </SID>
     <SID Name="TN3" Airport="YPTN" Runways="14,32">
       <Route Runway="14" />
@@ -17499,7 +17329,7 @@ SAGLI
     <STAR Name="SOLU3X" Airport="YPPH" Runways="03">
       <Route Runway="03">SOLUS/MESAM/KARGO</Route>
     </STAR>
-    <STAR Name="AVBE5A" Airport="YSCB" Runways="17,35">
+    <STAR Name="AVBE6A" Airport="YSCB" Runways="17,35">
       <Route Runway="17">AVBEG/OMDAL/DOGRO/GOONY/TALAG</Route>
       <Route Runway="35">AVBEG/LANYO/HONEY/DALEY/MENZI</Route>
     </STAR>
@@ -18043,7 +17873,7 @@ SAGLI
     <Airport ICAO="YALH" FullName="Albilbah" Position="-244200.000+1441700.000" />
     <Airport ICAO="YALM" FullName="Allambie" Position="-241559.000+1342359.000" />
     <Airport ICAO="YALN" FullName="Allandy" Position="-302317.000+1423730.000" />
-    <Airport ICAO="YALP" FullName="Alpurrurulam" Position="-205907.216+1374959.772" Elevation="650" />
+    <Airport ICAO="YALP" FullName="Alpurrurulam" Position="-205907.217+1374959.772" />
     <Airport ICAO="YALR" FullName="Aileron" Position="-223911.000+1332050.000" />
     <Airport ICAO="YALT" FullName="Althorpe Island" Position="-352217.000+1365137.000" />
     <Airport ICAO="YALX" FullName="Alexandria Stn" Position="-190400.000+1364159.000" />
@@ -18085,7 +17915,7 @@ SAGLI
     </Airport>
     <Airport ICAO="YAPO" FullName="Apollo Bay" Position="-384622.000+1433925.000" />
     <Airport ICAO="YAQA" FullName="Aquila" Position="-253144.000+1523412.000" Elevation="170" />
-    <Airport ICAO="YAQM" FullName="Bundoora/Aquila Mine" Position="-225837.398+1483308.417" />
+    <Airport ICAO="YAQM" FullName="Bundoora/Aquila Mine" Position="-225838.000+1483308.000" />
     <Airport ICAO="YARA" FullName="Ararat" Position="-371834.000+1425919.000" Elevation="1008">
       <Runway Name="04" Position="-371839.510+1425912.880" />
       <Runway Name="22" Position="-371827.080+1425935.030" />
@@ -18169,7 +17999,7 @@ SAGLI
     <Airport ICAO="YBAW" FullName="Barkly Downs" Position="-202945.000+1382829.000" />
     <Airport ICAO="YBAY" FullName="Baygurtji" Position="-130853.000+1354858.000" />
     <Airport ICAO="YBBA" FullName="Barraba" Position="-302337.000+1503552.000" />
-    <Airport ICAO="YBBC" FullName="Bamboo Creek Gold Mine" Position="-205700.000+1200900.000" />
+    <Airport ICAO="YBBC" FullName="Bamboo Creek Gold Mine" Position="-205648.000+1200948.000" />
     <Airport ICAO="YBBF" FullName="Brooklet/Blueberry Fields" Position="-284423.000+1532914.000" Elevation="350" />
     <Airport ICAO="YBBH" FullName="Birri Beach" Position="-162930.000+1391700.000" />
     <Airport ICAO="YBBL" FullName="Billabalong" Position="-272459.000+1155000.000" />
@@ -18307,7 +18137,7 @@ SAGLI
       <Runway Name="36" Position="-300228.760+1455720.570" />
     </Airport>
     <Airport ICAO="YBKL" FullName="Bukadal" Position="-125738.000+1363601.000" />
-    <Airport ICAO="YBKS" FullName="Barkly Homestead" Position="-194233.000+1354908.000" />
+    <Airport ICAO="YBKS" FullName="Barkly Homestead" Position="-194226.000+1354913.000" />
     <Airport ICAO="YBKT" FullName="Burketown" Position="-174455.000+1393204.000" Elevation="21">
       <Runway Name="03" Position="-174518.520+1393151.540" />
       <Runway Name="21" Position="-174445.340+1393222.600" />
@@ -18338,7 +18168,7 @@ SAGLI
       <Runway Name="13" Position="-373019.580+1434714.640" />
       <Runway Name="31" Position="-373032.530+1434731.120" />
       <Runway Name="18" Position="-373024.880+1434741.760" />
-      <Runway Name="36" Position="-373104.800+1434734.030" />
+      <Runway Name="36" Position="-373122.450+1434730.600" />
     </Airport>
     <Airport ICAO="YBLU" FullName="Bellevue" Position="-273646.000+1203538.000" Elevation="1555">
       <Runway Name="01" Position="-273717.990+1203535.420" />
@@ -18415,7 +18245,7 @@ SAGLI
     <Airport ICAO="YBRC" FullName="Barrow Creek" Position="-213159.000+1335259.000" />
     <Airport ICAO="YBRD" FullName="Bradshaw" Position="-152042.000+1301624.000" />
     <Airport ICAO="YBRE" FullName="Bremer Island" Position="-120510.000+1364628.000" />
-    <Airport ICAO="YBRG" FullName="Balurga" Position="-145641.875+1422024.645" Elevation="203" />
+    <Airport ICAO="YBRG" FullName="Balurga" Position="-145641.874+1422024.644" />
     <Airport ICAO="YBRI" FullName="Berri" Position="-341630.000+1403609.000" />
     <Airport ICAO="YBRJ" FullName="Burren Junction" Position="-300931.000+1485827.000" />
     <Airport ICAO="YBRK" FullName="Rockhampton" Position="-232255.000+1502831.000" Elevation="36">
@@ -18590,7 +18420,7 @@ SAGLI
       <Runway Name="32" Position="-290234.630+1344330.840" />
     </Airport>
     <Airport ICAO="YCBR" FullName="Collarenebri" Position="-293119.000+1483456.000" Elevation="500" />
-    <Airport ICAO="YCBY" FullName="Cow Bay" Position="-161208.129+1452413.698" Elevation="131" />
+    <Airport ICAO="YCBY" FullName="Cow Bay" Position="-161208.000+1452413.000" Elevation="131" />
     <Airport ICAO="YCCA" FullName="Chinchilla" Position="-264610.000+1503700.000" Elevation="1030">
       <Runway Name="03" Position="-264619.650+1503706.620" />
       <Runway Name="21" Position="-264604.590+1503719.970" />
@@ -18676,7 +18506,7 @@ SAGLI
       <Runway Name="06" Position="-200251.060+1461558.990" />
       <Runway Name="24" Position="-200224.270+1461651.570" />
     </Airport>
-    <Airport ICAO="YCHU" FullName="Chuulangun" Position="-130706.019+1430019.849" Elevation="439" />
+    <Airport ICAO="YCHU" FullName="Chuulangun" Position="-130706.020+1430019.850" />
     <Airport ICAO="YCIG" FullName="Corrigin" Position="-322018.000+1174940.000" />
     <Airport ICAO="YCII" FullName="Collins Island" Position="-221500.000+1501859.000" />
     <Airport ICAO="YCIL" FullName="Carlton Hill" Position="-153009.000+1283206.000" />
@@ -18754,7 +18584,7 @@ SAGLI
       <Runway Name="14" Position="-184513.470+1384217.990" />
       <Runway Name="32" Position="-184549.340+1384248.030" />
     </Airport>
-    <Airport ICAO="YCOA" FullName="Coalling East" Position="-325545.188+1165432.396" />
+    <Airport ICAO="YCOA" FullName="Coalling East" Position="-325545.000+1165420.000" />
     <Airport ICAO="YCOD" FullName="Cordillo Downs" Position="-264433.000+1403810.000" />
     <Airport ICAO="YCOE" FullName="Coen" Position="-134543.000+1430700.000" Elevation="533">
       <Runway Name="11" Position="-134535.850+1430637.490" />
@@ -18879,7 +18709,7 @@ SAGLI
     <Airport ICAO="YDAI" FullName="Dauan Island" Position="-092500.000+1423200.000" />
     <Airport ICAO="YDAJ" FullName="Dajarra" Position="-214216.000+1393225.000" />
     <Airport ICAO="YDAL" FullName="Dalgonally" Position="-200726.000+1411851.000" />
-    <Airport ICAO="YDAM" FullName="Damper Creek" Position="-182018.000+1460254.000" />
+    <Airport ICAO="YDAM" FullName="Damper Creek" Position="-182015.000+1460254.000" />
     <Airport ICAO="YDAR" FullName="Darlington" Position="-423419.000+1480417.000" />
     <Airport ICAO="YDAV" FullName="Davis Plateau Skiway" Position="-682806.000+0785114.000" />
     <Airport ICAO="YDAY" FullName="Dalby" Position="-270919.000+1511602.000" Elevation="1137" />
@@ -18920,7 +18750,7 @@ SAGLI
       <Runway Name="27" Position="-253329.670+1191749.440" />
     </Airport>
     <Airport ICAO="YDGY" FullName="De Grey Hs" Position="-201029.000+1191009.000" />
-    <Airport ICAO="YDHD" FullName="Dirk Hartog Island" Position="-260026.208+1130932.836" Elevation="15" />
+    <Airport ICAO="YDHD" FullName="Dirk Hartog Island" Position="-260026.208+1130932.836" />
     <Airport ICAO="YDHI" FullName="Dhipirri" Position="-121500.000+1350459.000" />
     <Airport ICAO="YDHJ" FullName="Donydji" Position="-125323.000+1352815.000" />
     <Airport ICAO="YDHL" FullName="Dhalinybuy" Position="-122448.000+1362314.000" />
@@ -18928,7 +18758,7 @@ SAGLI
     <Airport ICAO="YDIG" FullName="Dig Tree" Position="-273709.000+1410424.000" />
     <Airport ICAO="YDII" FullName="Dum In Mirrie Island" Position="-123806.000+1302218.000" />
     <Airport ICAO="YDIM" FullName="Dimbulah" Position="-170742.000+1450545.000" />
-    <Airport ICAO="YDIN" FullName="Dinah Island" Position="-162223.234+1412935.957" Elevation="22" />
+    <Airport ICAO="YDIN" FullName="Dinah Island" Position="-162223.236+1412935.956" />
     <Airport ICAO="YDIX" FullName="Dixie" Position="-150700.000+1431859.000" />
     <Airport ICAO="YDKG" FullName="Duketon Gold" Position="-273607.000+1222002.000" Elevation="1770">
       <Runway Name="18" Position="-273533.300+1222008.860" />
@@ -19079,7 +18909,7 @@ SAGLI
     <Airport ICAO="YEPE" FullName="Epic Energy Five" Position="-315815.000+1391232.000" />
     <Airport ICAO="YEPL" FullName="Epsilon" Position="-281800.000+1411400.000" />
     <Airport ICAO="YEPR" FullName="Epenarra" Position="-202559.000+1351559.000" />
-    <Airport ICAO="YEPT" FullName="Emu Point" Position="-141021.363+1301912.352" Elevation="235" />
+    <Airport ICAO="YEPT" FullName="Emu Point" Position="-141021.364+1301912.353" />
     <Airport ICAO="YEQO" FullName="El Questro" Position="-160018.000+1275818.000" />
     <Airport ICAO="YEQY" FullName="Elizabeth Quay" Position="-315800.000+1155142.000" />
     <Airport ICAO="YERA" FullName="Errabiddy Hs" Position="-253000.000+1170959.000" />
@@ -19102,7 +18932,6 @@ SAGLI
     </Airport>
     <Airport ICAO="YETT" FullName="North Gregory/Elliott Field" Position="-250301.000+1521316.000" />
     <Airport ICAO="YEUA" FullName="Euroa" Position="-364441.000+1453048.000" Elevation="555" />
-    <Airport ICAO="YEUC" FullName="Euchareena" Position="-32.928956+149.105065" />
     <Airport ICAO="YEUD" FullName="Eudamulla Stn" Position="-242700.000+1153559.000" />
     <Airport ICAO="YEUK" FullName="Euroka Springs" Position="-195259.000+1412900.000" />
     <Airport ICAO="YEUL" FullName="Eurella Station" Position="-263708.000+1481409.000" />
@@ -19112,7 +18941,7 @@ SAGLI
     <Airport ICAO="YEVM" FullName="Evesham" Position="-230159.000+1434259.000" />
     <Airport ICAO="YEVP" FullName="Everard Park/Mimili" Position="-270212.000+1324054.000" />
     <Airport ICAO="YEVV" FullName="Eva Valley" Position="-141559.000+1324953.000" />
-    <Airport ICAO="YEVW" FullName="East View" Position="-414034.928+1465815.751" />
+    <Airport ICAO="YEVW" FullName="East View" Position="-414040.000+1465816.000" />
     <Airport ICAO="YEWA" FullName="Eliwana" Position="-222544.000+1165314.000" Elevation="1576">
       <Runway Name="10" Position="-222535.220+1165233.290" />
       <Runway Name="28" Position="-222549.210+1165359.450" />
@@ -19134,7 +18963,7 @@ SAGLI
     </Airport>
     <Airport ICAO="YFDN" FullName="Federation" Position="-350046.000+1472225.000" Elevation="710" />
     <Airport ICAO="YFFD" FullName="Stirling North/Flinders Field" Position="-323203.000+1375129.000" Elevation="110" />
-    <Airport ICAO="YFGS" FullName="Frogs Hollow" Position="-364546.833+1494812.655" Elevation="275" />
+    <Airport ICAO="YFGS" FullName="Frogs Hollow" Position="-364546.832+1494812.654" />
     <Airport ICAO="YFHA" FullName="Finch Hatton" Position="-210827.000+1483855.000" />
     <Airport ICAO="YFIG" FullName="Irongate/Fig Tree" Position="-273809.000+1513046.000" />
     <Airport ICAO="YFLD" FullName="Facing Island" Position="-235324.000+1513400.000" />
@@ -19148,11 +18977,11 @@ SAGLI
     <Airport ICAO="YFLO" FullName="Flora Valley" Position="-181659.000+1282500.000" />
     <Airport ICAO="YFLS" FullName="Flinders Island" Position="-334346.000+1343005.000" />
     <Airport ICAO="YFLT" FullName="Fairlight" Position="-154559.000+1440300.000" />
-    <Airport ICAO="YFLV" FullName="Fletcherview" Position="-195304.898+1461218.055" />
+    <Airport ICAO="YFLV" FullName="Fletcherview" Position="-195304.898+1461218.054" />
     <Airport ICAO="YFND" FullName="Flinders Naval Depot" Position="-382201.000+1451109.000" />
     <Airport ICAO="YFNE" FullName="Finke" Position="-253535.000+1343458.000" />
     <Airport ICAO="YFOR" FullName="Fortnum" Position="-252011.000+1182258.000" />
-    <Airport ICAO="YFOS" FullName="Fossil Downs Station" Position="-180859.000+1254659.000" />
+    <Airport ICAO="YFOS" FullName="Fossil Downs Station" Position="-180753.000+1254723.000" />
     <Airport ICAO="YFRD" FullName="Frome Downs" Position="-311313.000+1394936.000" />
     <Airport ICAO="YFRG" FullName="Fregon" Position="-264633.000+1320103.000" Elevation="1732" />
     <Airport ICAO="YFRI" FullName="Friendly Beaches" Position="-415958.000+1481528.000" />
@@ -19180,7 +19009,7 @@ SAGLI
     </Airport>
     <Airport ICAO="YFWV" FullName="Freshwater Valley" Position="-165451.000+1454213.000" />
     <Airport ICAO="YFWY" FullName="Faraway Bay" Position="-135850.000+1271050.000" />
-    <Airport ICAO="YGAA" FullName="Gawa" Position="-114619.075+1355407.581" Elevation="65" />
+    <Airport ICAO="YGAA" FullName="Gawa" Position="-114619.074+1355407.582" />
     <Airport ICAO="YGAD" FullName="Garden Island Heliport" Position="-321430.000+1154102.000" Elevation="36" />
     <Airport ICAO="YGAI" FullName="Garmedi" Position="-121709.000+1344226.000" />
     <Airport ICAO="YGAM" FullName="Gamboola" Position="-163236.000+1434012.000" />
@@ -19250,7 +19079,7 @@ SAGLI
     <Airport ICAO="YGHG" FullName="Glen Harding" Position="-181507.000+1450733.000" />
     <Airport ICAO="YGHP" FullName="Glenample Heliport" Position="-383937.000+1430622.000" Elevation="200" />
     <Airport ICAO="YGHS" FullName="Macleod/Gnaraloo Homestead" Position="-234930.000+1133148.000" />
-    <Airport ICAO="YGHT" FullName="Gold Coast Helitours" Position="-275810.441+1532524.514" Elevation="9" />
+    <Airport ICAO="YGHT" FullName="Gold Coast Helitours" Position="-275810.441+1532524.514" />
     <Airport ICAO="YGIA" FullName="Ginbata" Position="-223452.000+1200208.000" Elevation="1409">
       <Runway Name="09" Position="-223453.830+1200124.570" />
       <Runway Name="27" Position="-223453.830+1200252.020" />
@@ -19300,7 +19129,7 @@ SAGLI
     <Airport ICAO="YGNA" FullName="Granada Station" Position="-200552.000+1402208.000" />
     <Airport ICAO="YGNE" FullName="Gnarwarre" Position="-380954.000+1440627.000" Elevation="420" />
     <Airport ICAO="YGNI" FullName="Green Island (Cairns)" Position="-164530.000+1455830.000" />
-    <Airport ICAO="YGNO" FullName="Goonoo Feedlot" Position="-234517.841+1483218.437" Elevation="580" />
+    <Airport ICAO="YGNO" FullName="Goonoo Feedlot" Position="-234517.842+1483218.438" />
     <Airport ICAO="YGNR" FullName="Glenore" Position="-182837.000+1410717.000" />
     <Airport ICAO="YGNV" FullName="Greenvale" Position="-190000.000+1450100.000" />
     <Airport ICAO="YGNW" FullName="Gnowangerup" Position="-335837.000+1180040.000" Elevation="920">
@@ -19322,8 +19151,8 @@ SAGLI
     <Airport ICAO="YGRK" FullName="Garryak" Position="-120851.000+1353345.000" />
     <Airport ICAO="YGRL" FullName="Great Lakes Airfield" Position="-375033.000+1480001.000" Elevation="260" />
     <Airport ICAO="YGRM" FullName="Gruyere" Position="-280203.000+1234851.000" Elevation="1542">
-      <Runway Name="06" Position="-280219.150+1234817.170" />
-      <Runway Name="24" Position="-280150.570+1234927.010" />
+      <Runway Name="06" Position="-280219.140+1234817.180" />
+      <Runway Name="24" Position="-280150.560+1234927.020" />
     </Airport>
     <Airport ICAO="YGRN" FullName="Gordon" Position="-225800.000+1492100.000" />
     <Airport ICAO="YGRO" FullName="Gore/Rooaroo" Position="-281848.000+1512654.000" />
@@ -19334,7 +19163,7 @@ SAGLI
     <Airport ICAO="YGSN" FullName="Mount Gibson" Position="-293626.000+1172411.000" />
     <Airport ICAO="YGST" FullName="Grundy Street Helipad" Position="-165739.000+1454459.000" />
     <Airport ICAO="YGTA" FullName="Garrathala" Position="-124550.000+1363404.000" />
-    <Airport ICAO="YGTC" FullName="Anmatjere/Gemtree Caravan Park" Position="-225812.000+1341451.000" />
+    <Airport ICAO="YGTC" FullName="Anmatjere/Gemtree Cara V An Park" Position="-225812.000+1341451.000" />
     <Airport ICAO="YGTE" FullName="Groote Eylandt" Position="-135824.000+1362739.000" Elevation="53">
       <Runway Name="10" Position="-135815.690+1362659.620" />
       <Runway Name="28" Position="-135825.530+1362802.240" />
@@ -19383,7 +19212,7 @@ SAGLI
     <Airport ICAO="YHBD" FullName="Herbert Downs" Position="-230159.000+1391400.000" />
     <Airport ICAO="YHBH" FullName="Heidelberg West Helipad" Position="-374454.000+1450210.000" />
     <Airport ICAO="YHBK" FullName="Holbrook" Position="-354100.000+1471900.000" Elevation="875" />
-    <Airport ICAO="YHBP" FullName="Homebush Park" Position="-143938.137+1323843.227" Elevation="638" />
+    <Airport ICAO="YHBP" FullName="Homebush Park" Position="-143938.138+1323843.228" />
     <Airport ICAO="YHBR" FullName="Humbert River" Position="-162930.000+1303741.000" />
     <Airport ICAO="YHBY" FullName="Henbury" Position="-243259.000+1331259.000" />
     <Airport ICAO="YHCS" FullName="Herbertvale Cattleyard" Position="-185731.000+1380344.000" Elevation="804" />
@@ -19391,7 +19220,7 @@ SAGLI
     <Airport ICAO="YHDY" FullName="Headingly" Position="-211916.000+1381742.000" />
     <Airport ICAO="YHEC" FullName="Heck Field" Position="-274603.000+1532022.000" Elevation="10" />
     <Airport ICAO="YHEG" FullName="Hells Gate" Position="-172800.000+1382200.000" />
-    <Airport ICAO="YHEH" FullName="Hexam" Position="-324935.140+1514109.349" Elevation="15" />
+    <Airport ICAO="YHEH" FullName="Hexam" Position="-324935.141+1514109.348" />
     <Airport ICAO="YHEL" FullName="Helenvale" Position="-154100.000+1451259.000" />
     <Airport ICAO="YHER" FullName="Hervey Range" Position="-192254.000+1462751.000" />
     <Airport ICAO="YHEW" FullName="Hedlow" Position="-231331.000+1503612.000" />
@@ -19399,7 +19228,7 @@ SAGLI
     <Airport ICAO="YHGN" FullName="Homesglen" Position="-354142.000+1421534.000" Elevation="262" />
     <Airport ICAO="YHGR" FullName="Hugh River" Position="-242459.000+1334159.000" />
     <Airport ICAO="YHGS" FullName="Hughes Siding" Position="-304300.000+1293054.000" />
-    <Airport ICAO="YHHL" FullName="Home Hill" Position="-194331.200+1472053.498" Elevation="55" />
+    <Airport ICAO="YHHL" FullName="Home Hill" Position="-194331.199+1472053.498" />
     <Airport ICAO="YHHN" FullName="Hahndorf" Position="-350318.000+1384754.000" />
     <Airport ICAO="YHHY" FullName="Highbury Station" Position="-162528.000+1430844.000" />
     <Airport ICAO="YHID" FullName="Horn Island" Position="-103511.000+1421724.000" Elevation="43">
@@ -19453,7 +19282,7 @@ SAGLI
       <Runway Name="08" Position="-354250.260+1422127.400" />
       <Runway Name="26" Position="-354250.200+1422146.770" />
     </Airport>
-    <Airport ICAO="YHPT" FullName="Hay Point" Position="-211709.277+1491639.659" Elevation="200" />
+    <Airport ICAO="YHPT" FullName="Hay Point" Position="-211709.276+1491639.659" />
     <Airport ICAO="YHPV" FullName="Hopevale" Position="-151700.000+1450700.000" />
     <Airport ICAO="YHPY" FullName="Happy Valley" Position="-251500.000+1531000.000" />
     <Airport ICAO="YHRD" FullName="Hungerford" Position="-285946.000+1442711.000" Elevation="600" />
@@ -19489,7 +19318,7 @@ SAGLI
       <Runway Name="12" Position="-211655.030+1185213.360" />
       <Runway Name="30" Position="-211731.060+1185331.100" />
     </Airport>
-    <Airport ICAO="YIDA" FullName="Mount Ida" Position="-291242.000+1202712.000" />
+    <Airport ICAO="YIDA" FullName="Mount Ida" Position="-291240.000+1202712.000" />
     <Airport ICAO="YIDR" FullName="Idracowra Stn" Position="-250400.000+1334400.000" />
     <Airport ICAO="YIFF" FullName="Iffley Hs" Position="-221412.000+1482559.000" />
     <Airport ICAO="YIFL" FullName="Innisfail/Mundoo" Position="-173331.000+1460042.000" Elevation="46">
@@ -19629,7 +19458,7 @@ SAGLI
     <Airport ICAO="YKCK" FullName="Killiecrankie" Position="-395058.000+1475137.000" />
     <Airport ICAO="YKCS" FullName="Kings Creek Stn" Position="-242513.000+1314908.000" Elevation="2017" />
     <Airport ICAO="YKCY" FullName="Kilcoy" Position="-265816.000+1523355.000" Elevation="400" />
-    <Airport ICAO="YKDA" FullName="Knapdale" Position="-273023.978+1513016.954" />
+    <Airport ICAO="YKDA" FullName="Knapdale" Position="-273023.976+1513016.956" />
     <Airport ICAO="YKDD" FullName="Gudai-Darri Mine" Position="-223019.000+1190434.000" Elevation="1473">
       <Runway Name="12" Position="-222959.930+1190402.020" />
       <Runway Name="30" Position="-223030.810+1190511.430" />
@@ -19866,7 +19695,7 @@ SAGLI
     <Airport ICAO="YLOD" FullName="Longwood" Position="-364829.000+1452724.000" />
     <Airport ICAO="YLOH" FullName="Louth" Position="-303153.000+1450743.000" Elevation="350" />
     <Airport ICAO="YLOK" FullName="Lock" Position="-333236.000+1354130.000" />
-    <Airport ICAO="YLOO" FullName="Wyloo Station" Position="-224152.456+1161410.781" Elevation="520" />
+    <Airport ICAO="YLOO" FullName="Wyloo Station" Position="-224152.454+1161410.781" />
     <Airport ICAO="YLOR" FullName="Lorraine" Position="-190023.000+1395358.000" Elevation="165" />
     <Airport ICAO="YLOU" FullName="Louisa Downs" Position="-184300.000+1264300.000" />
     <Airport ICAO="YLOV" FullName="Lotus Vale Stn" Position="-170254.000+1412235.000" Elevation="80" />
@@ -19888,7 +19717,7 @@ SAGLI
     </Airport>
     <Airport ICAO="YLRG" FullName="Lorna Glen Hs" Position="-261300.000+1213300.000" />
     <Airport ICAO="YLRS" FullName="New Laura" Position="-151058.000+1442045.000" />
-    <Airport ICAO="YLRV" FullName="Little River" Position="-375504.700+1442856.500" Elevation="197" />
+    <Airport ICAO="YLRV" FullName="Little River" Position="-375504.699+1442856.500" />
     <Airport ICAO="YLSB" FullName="Life Saver Base/Sydney" Position="-335940.000+1511458.000" />
     <Airport ICAO="YLSK" FullName="Luskintyre" Position="-323959.000+1512509.000" />
     <Airport ICAO="YLST" FullName="Leinster" Position="-275036.000+1204212.000" Elevation="1631">
@@ -20192,7 +20021,7 @@ SAGLI
       <Runway Name="16" Position="-280627.840+1175013.440" />
       <Runway Name="34" Position="-280721.610+1175039.330" />
     </Airport>
-    <Airport ICAO="YMOH" FullName="Mount Coot-Tha" Position="-272803.000+1525636.000" />
+    <Airport ICAO="YMOH" FullName="Tha" Position="-272803.000+1525636.000" />
     <Airport ICAO="YMOO" FullName="Mooraberree" Position="-251438.000+1405838.000" />
     <Airport ICAO="YMOR" FullName="Moree" Position="-292956.000+1495041.000" Elevation="701">
       <Runway Name="01" Position="-293022.620+1495034.950" />
@@ -20214,10 +20043,10 @@ SAGLI
       <Runway Name="35" Position="-375611.400+1444516.820" />
     </Airport>
     <Airport ICAO="YMPE" FullName="Mount Cooper" Position="-203059.000+1464559.000" />
-    <Airport ICAO="YMPH" FullName="Merapah Homestead" Position="-134720.024+1423304.122" Elevation="564" />
+    <Airport ICAO="YMPH" FullName="Merapah Homestead" Position="-134720.026+1423304.122" />
     <Airport ICAO="YMPL" FullName="Mawson Plateau Skiway" Position="-674309.000+0624926.000" />
     <Airport ICAO="YMPN" FullName="Mapoon" Position="-120304.000+1415425.000" />
-    <Airport ICAO="YMPY" FullName="Mount Perry" Position="-251232.000+1514010.000" Elevation="535" />
+    <Airport ICAO="YMPY" FullName="Mount Perry" Position="-251100.000+1513900.000" Elevation="535" />
     <Airport ICAO="YMQA" FullName="Marqua" Position="-225100.000+1371959.000" />
     <Airport ICAO="YMQI" FullName="Macquarie Island" Position="-542958.000+1585612.000" />
     <Airport ICAO="YMRA" FullName="Maralinga" Position="-300948.000+1313730.000" />
@@ -20231,14 +20060,14 @@ SAGLI
     <Airport ICAO="YMRK" FullName="Marble Creek" Position="-165559.000+1441400.000" />
     <Airport ICAO="YMRL" FullName="Marlgawo" Position="-125017.000+1335517.000" />
     <Airport ICAO="YMRN" FullName="Marlwan" Position="-120733.000+1335135.000" />
-    <Airport ICAO="YMRO" FullName="Moora" Position="-304101.702+1155847.565" Elevation="685" />
+    <Airport ICAO="YMRO" FullName="Moora" Position="-304101.702+1155847.564" />
     <Airport ICAO="YMRR" FullName="Moore Reef" Position="-165312.000+1461124.000" />
     <Airport ICAO="YMRT" FullName="Mount Garnet" Position="-174200.000+1450900.000" />
     <Airport ICAO="YMRW" FullName="Morawa" Position="-291205.000+1160119.000" Elevation="902">
-      <Runway Name="09" Position="-291209.280+1160111.160" />
-      <Runway Name="27" Position="-291208.830+1160147.250" />
-      <Runway Name="15" Position="-291149.840+1160105.750" />
-      <Runway Name="33" Position="-291227.280+1160131.730" />
+      <Runway Name="09" Position="-291209.280+1160111.210" />
+      <Runway Name="27" Position="-291208.780+1160147.250" />
+      <Runway Name="15" Position="-291149.800+1160105.800" />
+      <Runway Name="33" Position="-291227.230+1160131.770" />
     </Airport>
     <Airport ICAO="YMRX" FullName="Maroonah" Position="-232900.000+1153159.000" />
     <Airport ICAO="YMRY" FullName="Moruya" Position="-355351.000+1500844.000" Elevation="19">
@@ -20260,7 +20089,7 @@ SAGLI
     <Airport ICAO="YMTA" FullName="Mittiebah" Position="-184822.000+1370430.000" />
     <Airport ICAO="YMTB" FullName="Muttaburra" Position="-223500.000+1443200.000" Elevation="753" />
     <Airport ICAO="YMTC" FullName="Mount Clarence" Position="-285000.000+1342130.000" />
-    <Airport ICAO="YMTF" FullName="The Margaret River Truffle Farm" Position="-334953.274+1150653.953" Elevation="433" />
+    <Airport ICAO="YMTF" FullName="The Margaret River Truffle Farm" Position="-334953.000+1150654.000" Elevation="433" />
     <Airport ICAO="YMTG" FullName="Mount Gambier" Position="-374444.000+1404707.000" Elevation="212">
       <Runway Name="06" Position="-374458.080+1404646.750" />
       <Runway Name="24" Position="-374445.960+1404717.780" />
@@ -20608,8 +20437,8 @@ SAGLI
     <Airport ICAO="YPEA" FullName="Pearce" Position="-314004.000+1160054.000" Elevation="150">
       <Runway Name="05" Position="-314020.350+1160031.290" />
       <Runway Name="23" Position="-313941.350+1160116.470" />
-      <Runway Name="18L" Position="-313944.680+1160049.370" />
-      <Runway Name="36R" Position="-314103.310+1160059.880" />
+      <Runway Name="18L" Position="-313927.360+1160047.100" />
+      <Runway Name="36R" Position="-314103.300+1160059.870" />
       <Runway Name="18R" Position="-314007.610+1160048.000" />
       <Runway Name="36L" Position="-314103.800+1160055.480" />
     </Airport>
@@ -20719,6 +20548,7 @@ SAGLI
       <Runway Name="21" Position="-312543.880+1525159.730" />
     </Airport>
     <Airport ICAO="YPNA" FullName="Pinnarendi" Position="-180218.000+1445300.000" Elevation="2450" />
+    <Airport ICAO="YPNC" FullName="Pinnacles Airpark" Position="-192646.000+1464230.000" />
     <Airport ICAO="YPND" FullName="Pentland" Position="-203200.000+1452200.000" />
     <Airport ICAO="YPNG" FullName="Penong" Position="-315513.000+1330019.000" />
     <Airport ICAO="YPNI" FullName="Prenti Downs Stn" Position="-263106.000+1224842.000" />
@@ -20771,8 +20601,8 @@ SAGLI
     <Airport ICAO="YPTJ" FullName="Patjarr" Position="-243647.000+1261924.000" />
     <Airport ICAO="YPTL" FullName="Portland Downs" Position="-240759.000+1443459.000" />
     <Airport ICAO="YPTN" FullName="Tindal" Position="-143116.000+1322240.000" Elevation="443">
-      <Runway Name="14" Position="-143051.200+1322214.410" />
-      <Runway Name="32" Position="-143151.160+1322308.100" />
+      <Runway Name="14" Position="-143028.910+1322154.530" />
+      <Runway Name="32" Position="-143151.100+1322308.130" />
     </Airport>
     <Airport ICAO="YPTS" FullName="Portsea" Position="-381859.000+1444259.000" />
     <Airport ICAO="YPTT" FullName="Pernatty" Position="-312900.000+1372900.000" />
@@ -20920,7 +20750,7 @@ SAGLI
     <Airport ICAO="YRVL" FullName="Rose Vale" Position="-345058.000+1474649.000" Elevation="800" />
     <Airport ICAO="YRVW" FullName="Ravenswood" Position="-200600.000+1465400.000" />
     <Airport ICAO="YRWA" FullName="Rawlinna Hs" Position="-310159.000+1251430.000" />
-    <Airport ICAO="YRWF" FullName="Rowland Flat" Position="-343400.000+1385700.000" />
+    <Airport ICAO="YRWF" FullName="Rowland Flat" Position="-343348.000+1385658.000" />
     <Airport ICAO="YRWH" FullName="Ravensworth" Position="-343739.000+1441600.000" />
     <Airport ICAO="YRWK" FullName="Randwick" Position="-335557.000+1511419.000" />
     <Airport ICAO="YRXB" FullName="Roxby Downs" Position="-304300.000+1364411.000" />
@@ -21043,7 +20873,7 @@ SAGLI
     <Airport ICAO="YSLG" FullName="Silent Grove" Position="-170400.000+1251418.000" />
     <Airport ICAO="YSLK" FullName="Sea Lake" Position="-353154.000+1425326.000" Elevation="184" />
     <Airport ICAO="YSLN" FullName="Strathleven" Position="-155354.000+1432300.000" />
-    <Airport ICAO="YSLO" FullName="The Silos" Position="-412550.264+1470739.950" />
+    <Airport ICAO="YSLO" FullName="The Silos" Position="-412550.000+1470740.000" />
     <Airport ICAO="YSLT" FullName="Sale" Position="-380659.000+1470429.000" />
     <Airport ICAO="YSLW" FullName="St Lawrence" Position="-222200.000+1492759.000" />
     <Airport ICAO="YSMB" FullName="Somersby" Position="-332204.000+1511759.000" Elevation="830" />
@@ -21064,7 +20894,7 @@ SAGLI
       <Runway Name="13" Position="-112449.300+1303836.950" />
       <Runway Name="31" Position="-112519.140+1303913.700" />
     </Airport>
-    <Airport ICAO="YSNW" FullName="Nowra" Position="-345656.000+1503213.000" Elevation="400">
+    <Airport ICAO="YSNW" FullName="Nowra" Position="-345656.000+1503213.000" Elevation="399">
       <Runway Name="03" Position="-345655.820+1503211.270" />
       <Runway Name="21" Position="-345608.370+1503307.670" />
       <Runway Name="08" Position="-345652.320+1503135.750" />
@@ -21087,7 +20917,7 @@ SAGLI
     <Airport ICAO="YSPT" FullName="Southport" Position="-275518.000+1532217.000" Elevation="5" />
     <Airport ICAO="YSPV" FullName="Springvale" Position="-233259.000+1404159.000" />
     <Airport ICAO="YSPY" FullName="Spilsby Island" Position="-343930.000+1362024.000" />
-    <Airport ICAO="YSRA" FullName="Scenic Rim" Position="-280509.856+1525029.893" Elevation="308" />
+    <Airport ICAO="YSRA" FullName="Scenic Rim" Position="-280509.000+1525030.000" Elevation="308" />
     <Airport ICAO="YSRD" FullName="Sunrise Dam" Position="-290554.000+1222719.000" Elevation="1350">
       <Runway Name="06" Position="-290612.060+1222651.280" />
       <Runway Name="24" Position="-290540.680+1222753.920" />
@@ -21248,8 +21078,8 @@ SAGLI
     <Airport ICAO="YTHI" FullName="Thistle Island" Position="-350000.000+1361000.000" />
     <Airport ICAO="YTHM" FullName="Three Hummock Island" Position="-402705.000+1445450.000" />
     <Airport ICAO="YTHN" FullName="Thunderbox" Position="-280914.000+1205621.000" Elevation="1704">
-      <Runway Name="07" Position="-280920.430+1205545.030" />
-      <Runway Name="25" Position="-280904.130+1205655.980" />
+      <Runway Name="07" Position="-280920.020+1205546.810" />
+      <Runway Name="25" Position="-280904.530+1205654.210" />
     </Airport>
     <Airport ICAO="YTHR" FullName="Three Rivers Hs" Position="-250759.000+1190700.000" />
     <Airport ICAO="YTHS" FullName="Three Springs" Position="-293159.000+1155059.000" />
@@ -21271,7 +21101,7 @@ SAGLI
     <Airport ICAO="YTJI" FullName="Tjirrkarli" Position="-260205.000+1252817.000" />
     <Airport ICAO="YTJU" FullName="Tjuntjuntjarra" Position="-292130.000+1270742.000" />
     <Airport ICAO="YTKL" FullName="Turkey Lane" Position="-354415.000+1370756.000" />
-    <Airport ICAO="YTKY" FullName="Turkey Creek" Position="-170226.000+1281234.000" />
+    <Airport ICAO="YTKY" FullName="Turkey Creek" Position="-170232.000+1281221.000" />
     <Airport ICAO="YTLH" FullName="Toogoolawah" Position="-270416.000+1522259.000" />
     <Airport ICAO="YTLI" FullName="Talgai" Position="-280259.000+1515500.000" />
     <Airport ICAO="YTLL" FullName="Tullamore" Position="-323643.000+1473547.000" />
@@ -21476,7 +21306,6 @@ SAGLI
     <Airport ICAO="YWCN" FullName="Warbreccan" Position="-242359.000+1424859.000" />
     <Airport ICAO="YWCS" FullName="Winchelsea" Position="-381500.000+1435900.000" />
     <Airport ICAO="YWDA" FullName="Windarra" Position="-282830.000+1221430.000" />
-    <Airport ICAO="YWDC" FullName="Wodgina" Position="-210829.000+1184129.000" />
     <Airport ICAO="YWDG" FullName="Windarling" Position="-300155.000+1192314.000" Elevation="1502">
       <Runway Name="10" Position="-300149.610+1192240.240" />
       <Runway Name="28" Position="-300203.550+1192347.370" />
@@ -21575,7 +21404,7 @@ SAGLI
     <Airport ICAO="YWMG" FullName="Weilmoringle" Position="-291500.000+1465500.000" />
     <Airport ICAO="YWML" FullName="Westmoreland" Position="-172000.000+1381400.000" />
     <Airport ICAO="YWMM" FullName="Wollomombi" Position="-302936.000+1520525.000" />
-    <Airport ICAO="YWMO" FullName="West Musgrave" Position="-260311.000+1274127.000" Elevation="1600">
+    <Airport ICAO="YWMO" FullName="West Musgrave" Position="-260311.000+1274127.000" Elevation="1596">
       <Runway Name="09" Position="-260308.790+1274048.840" />
       <Runway Name="27" Position="-260309.480+1274204.400" />
     </Airport>
@@ -21591,7 +21420,6 @@ SAGLI
     <Airport ICAO="YWOG" FullName="Wonthaggi Township" Position="-383559.000+1453459.000" />
     <Airport ICAO="YWOH" FullName="Wongan Hills" Position="-305248.000+1164342.000" />
     <Airport ICAO="YWON" FullName="Wongalara" Position="-140601.000+1342449.000" />
-	<Airport ICAO="YWOO" FullName="Woodvale" Position="-301430.000+1490836.000" />
     <Airport ICAO="YWOR" FullName="Wollogorang" Position="-171314.000+1375526.000" />
     <Airport ICAO="YWOT" FullName="Wooloomanata" Position="-375612.000+1442213.000" />
     <Airport ICAO="YWOW" FullName="Dubbo/Wings Out West" Position="-322017.000+1483142.000" />
@@ -21688,7 +21516,7 @@ SAGLI
     <Airport ICAO="YWYN" FullName="Wynella" Position="-285629.000+1480732.000" />
     <Airport ICAO="YWYO" FullName="Wyoming" Position="-271311.000+1512943.000" />
     <Airport ICAO="YWYR" FullName="Wyreema" Position="-274003.000+1515116.000" Elevation="1750" />
-    <Airport ICAO="YWYU" FullName="Wyuna" Position="-330547.306+1170148.439" />
+    <Airport ICAO="YWYU" FullName="Wyuna" Position="-330543.000+1170157.000" />
     <Airport ICAO="YWYY" FullName="Wynyard" Position="-405956.000+1454352.000" Elevation="63">
       <Runway Name="05" Position="-405952.230+1454325.440" />
       <Runway Name="23" Position="-405942.240+1454353.140" />
@@ -21702,7 +21530,7 @@ SAGLI
     <Airport ICAO="YXAH" FullName="Armidale Hospital" Position="-303039.000+1513921.000" />
     <Airport ICAO="YXAL" FullName="Albury Hospital" Position="-360445.000+1465619.000" />
     <Airport ICAO="YXAN" FullName="Ardrossan Hospital" Position="-342537.000+1375502.000" />
-    <Airport ICAO="YXAO" FullName="Canowindra Medical" Position="-333324.324+1484030.846" Elevation="1100" />
+    <Airport ICAO="YXAO" FullName="Canowindra Medical" Position="-333324.325+1484030.846" />
     <Airport ICAO="YXAR" FullName="Ararat Hospital" Position="-371642.000+1425553.000" />
     <Airport ICAO="YXAT" FullName="Atherton Hospital" Position="-171557.000+1452901.000" />
     <Airport ICAO="YXAV" FullName="Craven Medical" Position="-320736.000+1514559.000" />
@@ -21722,8 +21550,8 @@ SAGLI
     <Airport ICAO="YXBS" FullName="Beaudesert Hospital" Position="-275908.000+1530008.000" />
     <Airport ICAO="YXBT" FullName="Ballarat Base Hospital" Position="-373333.000+1435044.000" />
     <Airport ICAO="YXBU" FullName="Bulwer/Moreton Island" Position="-270421.000+1532203.000" />
-    <Airport ICAO="YXBV" FullName="Bega Hospital" Position="-364115.104+1495131.669" Elevation="68" />
-    <Airport ICAO="YXBW" FullName="Bowen Hospital" Position="-200023.703+1481423.776" Elevation="100" />
+    <Airport ICAO="YXBV" FullName="Bega Hospital" Position="-364115.104+1495131.669" />
+    <Airport ICAO="YXBW" FullName="Bowen Hospital" Position="-200023.702+1481423.777" />
     <Airport ICAO="YXBY" FullName="Alonnah Medical" Position="-431900.000+1471442.000" />
     <Airport ICAO="YXBZ" FullName="Biloela Hospital" Position="-242337.000+1503055.000" />
     <Airport ICAO="YXCB" FullName="Canberra Hospital" Position="-352044.000+1490611.000" />
@@ -21734,11 +21562,11 @@ SAGLI
     <Airport ICAO="YXCI" FullName="Chinchilla Hospital" Position="-264426.000+1503803.000" />
     <Airport ICAO="YXCL" FullName="Collarenebri Hospital" Position="-293242.000+1483453.000" />
     <Airport ICAO="YXCM" FullName="Cooma Hospital" Position="-361432.000+1490749.000" />
-    <Airport ICAO="YXCO" FullName="Cooktown Health Service" Position="-152839.000+1451500.000" />
+    <Airport ICAO="YXCO" FullName="Cooktown Heal Th Service" Position="-152839.000+1451500.000" />
     <Airport ICAO="YXCP" FullName="Campbelltown Hospital" Position="-340441.000+1504825.000" />
     <Airport ICAO="YXCR" FullName="Cedar Medical" Position="-314430.000+1522305.000" />
-    <Airport ICAO="YXCS" FullName="Cloncurry Hospital" Position="-204213.518+1403143.205" Elevation="675" />
-    <Airport ICAO="YXCT" FullName="Clermont Hospital" Position="-224937.247+1473752.565" Elevation="902" />
+    <Airport ICAO="YXCS" FullName="Cloncurry Hospital" Position="-204213.518+1403143.205" />
+    <Airport ICAO="YXCT" FullName="Clermont Hospital" Position="-224937.247+1473752.565" />
     <Airport ICAO="YXCU" FullName="Cunninghams Gap" Position="-280400.000+1522500.000" />
     <Airport ICAO="YXCV" FullName="Collinsville Hospital" Position="-203248.000+1475016.000" />
     <Airport ICAO="YXCW" FullName="Cowra Hospital" Position="-334913.000+1484124.000" />
@@ -21756,7 +21584,6 @@ SAGLI
     <Airport ICAO="YXDV" FullName="Dover Medical" Position="-431934.000+1465927.000" />
     <Airport ICAO="YXDY" FullName="Dysart Hospital" Position="-223457.000+1482121.000" />
     <Airport ICAO="YXEA" FullName="Eaglehawk Neck Medical" Position="-430054.000+1475532.000" />
-    <Airport ICAO="YXEE" FullName="Moree Hospital" Position="-292806.000+1495023.000" />
     <Airport ICAO="YXEG" FullName="Bellingen Medical" Position="-302713.000+1525407.000" />
     <Airport ICAO="YXEI" FullName="Eidsvold Hospital" Position="-252257.000+1510731.000" />
     <Airport ICAO="YXEL" FullName="Bothwell Medical" Position="-422315.000+1470022.000" />
@@ -21782,14 +21609,14 @@ SAGLI
     <Airport ICAO="YXGN" FullName="Goonoo Goonoo Medical" Position="-311759.000+1505359.000" />
     <Airport ICAO="YXGO" FullName="Goondiwindi Hospital" Position="-283253.000+1501805.000" />
     <Airport ICAO="YXGP" FullName="Grafton Hospital" Position="-294024.000+1525625.000" />
-    <Airport ICAO="YXGR" FullName="Gilgandra Hospital" Position="-314214.041+1483954.786" Elevation="941" />
+    <Airport ICAO="YXGR" FullName="Gilgandra Hospital" Position="-314214.040+1483954.785" />
     <Airport ICAO="YXGS" FullName="Gosford Hospital" Position="-332511.000+1512021.000" Elevation="210" />
     <Airport ICAO="YXGT" FullName="Gulgong Hospital" Position="-322128.000+1493220.000" />
     <Airport ICAO="YXGU" FullName="Gunnedah Hospital" Position="-305858.000+1501508.000" />
     <Airport ICAO="YXGW" FullName="Gundagai Medical" Position="-350359.000+1480600.000" />
     <Airport ICAO="YXGY" FullName="Gympie Hospital" Position="-261119.000+1523910.000" />
     <Airport ICAO="YXHB" FullName="Holbrook Medical" Position="-354300.000+1471859.000" />
-    <Airport ICAO="YXHC" FullName="Charlton Hospital" Position="-361604.766+1432110.335" Elevation="439" />
+    <Airport ICAO="YXHC" FullName="Charlton Hospital" Position="-361604.768+1432110.336" />
     <Airport ICAO="YXHE" FullName="Hervey Bay Hospital" Position="-251800.000+1524917.000" />
     <Airport ICAO="YXHG" FullName="Gold Coast University Hospital" Position="-275734.000+1532255.000" />
     <Airport ICAO="YXHH" FullName="Royal Hobart Hospital" Position="-425247.000+1471950.000" />
@@ -21799,11 +21626,11 @@ SAGLI
     <Airport ICAO="YXHU" FullName="Hughenden Hospital" Position="-205034.000+1441116.000" />
     <Airport ICAO="YXHY" FullName="Hay Hospital" Position="-343000.000+1445109.000" />
     <Airport ICAO="YXIG" FullName="Bingara Medical" Position="-295152.000+1503443.000" />
-    <Airport ICAO="YXIH" FullName="Mount Isa Hospital" Position="-204350.603+1392939.934" Elevation="1174" />
+    <Airport ICAO="YXIH" FullName="Mount Isa Hospital" Position="-204350.603+1392939.934" />
     <Airport ICAO="YXIL" FullName="Collingullie Medical" Position="-350459.000+1470700.000" />
     <Airport ICAO="YXIP" FullName="Ipswich Hospital" Position="-273700.000+1524559.000" />
     <Airport ICAO="YXIS" FullName="Innisfail Hospital" Position="-173106.000+1460148.000" />
-    <Airport ICAO="YXIV" FullName="Inverell Hospital" Position="-294617.897+1510752.568" Elevation="2000" />
+    <Airport ICAO="YXIV" FullName="Inverell Hospital" Position="-294617.897+1510752.568" />
     <Airport ICAO="YXIW" FullName="Inglewood Hospital" Position="-282505.000+1510340.000" />
     <Airport ICAO="YXJA" FullName="Jamison Private Hospital Penrith" Position="-334546.000+1504049.000" />
     <Airport ICAO="YXJD" FullName="Jindabyne Medical" Position="-362505.000+1483655.000" />
@@ -21818,9 +21645,9 @@ SAGLI
     <Airport ICAO="YXKL" FullName="Kilkwana Hospital" Position="-260500.000+1521400.000" />
     <Airport ICAO="YXKN" FullName="Kingaroy Hospital" Position="-263157.000+1515023.000" />
     <Airport ICAO="YXKO" FullName="Kyogle Hospital" Position="-283742.000+1530006.000" />
-    <Airport ICAO="YXKP" FullName="Kedron Park Ses Base" Position="-272451.000+1530213.000" />
+    <Airport ICAO="YXKP" FullName="Kedron P Ark Ses Base Qld" Position="-272451.000+1530213.000" />
     <Airport ICAO="YXKR" FullName="Karratha Health Campus" Position="-204353.000+1165026.000" />
-    <Airport ICAO="YXKT" FullName="Kyneton District Health Service" Position="-371519.638+1442814.207" Elevation="1761" />
+    <Airport ICAO="YXKT" FullName="Kyneton District Health Service" Position="-371519.638+1442814.207" />
     <Airport ICAO="YXKW" FullName="Blackwater Hospital" Position="-233417.000+1485241.000" />
     <Airport ICAO="YXLA" FullName="Laidley Hospital" Position="-273759.000+1522259.000" />
     <Airport ICAO="YXLB" FullName="Baralaba Hospital" Position="-241105.000+1494834.000" />
@@ -21832,7 +21659,7 @@ SAGLI
     <Airport ICAO="YXLN" FullName="Coolamon Medical" Position="-344859.000+1471159.000" />
     <Airport ICAO="YXLQ" FullName="Lyell Mcewin Hospital" Position="-344452.000+1383956.000" />
     <Airport ICAO="YXLR" FullName="Millmerran Hospital" Position="-275246.000+1511547.000" />
-    <Airport ICAO="YXLS" FullName="Latrobe Regional Hospital" Position="-381310.254+1462820.719" Elevation="190" />
+    <Airport ICAO="YXLS" FullName="Latrobe Regional Hospital" Position="-381310.254+1462820.719" />
     <Airport ICAO="YXLT" FullName="Caboolture Hospital" Position="-270446.000+1525747.000" />
     <Airport ICAO="YXLU" FullName="Launceston General Hospital" Position="-412651.000+1470831.000" />
     <Airport ICAO="YXLX" FullName="Loxton Hospital" Position="-342720.000+1403353.000" />
@@ -21867,12 +21694,12 @@ SAGLI
     <Airport ICAO="YXNN" FullName="Nanango Hospital" Position="-263957.000+1520027.000" />
     <Airport ICAO="YXNR" FullName="North Rankin" Position="-193511.000+1160820.000" />
     <Airport ICAO="YXNS" FullName="Royal North Shore Hospital" Position="-334916.000+1511131.000" Elevation="363" />
-    <Airport ICAO="YXNW" FullName="Shoalhaven Memorial Hospital" Position="-345211.000+1503544.000" />
+    <Airport ICAO="YXNW" FullName="Shoalhaven Memorial Hospital" Position="-345212.000+1503544.000" />
     <Airport ICAO="YXNY" FullName="Nelson Bay Medical" Position="-324300.000+1520759.000" />
     <Airport ICAO="YXOA" FullName="Cohuna Hospital" Position="-354758.578+1441251.340" />
     <Airport ICAO="YXOD" FullName="Oatlands Medical" Position="-421815.000+1472200.000" />
     <Airport ICAO="YXOF" FullName="Coffs Harbour Hospital" Position="-301901.000+1530535.000" />
-    <Airport ICAO="YXOG" FullName="Orange Hospital" Position="-331900.512+1490533.720" Elevation="3033" />
+    <Airport ICAO="YXOG" FullName="Orange Bloomfield Hospital" Position="-331900.512+1490533.720" />
     <Airport ICAO="YXOH" FullName="Coolah Hospital" Position="-314918.000+1494236.000" />
     <Airport ICAO="YXOI" FullName="Bobin Medical" Position="-313547.000+1521629.000" />
     <Airport ICAO="YXOK" FullName="Crookwell Rfs" Position="-342658.000+1492809.000" />
@@ -21885,18 +21712,18 @@ SAGLI
     <Airport ICAO="YXOU" FullName="Caloundra Hospital" Position="-264801.368+1530708.112" />
     <Airport ICAO="YXOW" FullName="Bowral Medical" Position="-342911.000+1502522.000" />
     <Airport ICAO="YXPC" FullName="Joyce Palmer Health Service" Position="-184357.000+1463440.000" />
-    <Airport ICAO="YXPD" FullName="Port Hedland Hospital" Position="-202451.962+1183556.306" Elevation="49" />
+    <Airport ICAO="YXPD" FullName="Port Hedland Hospital" Position="-202451.962+1183556.306" />
     <Airport ICAO="YXPE" FullName="Port Pirie Hospital" Position="-331034.000+1380019.000" />
     <Airport ICAO="YXPH" FullName="Peak Hill Hospital" Position="-324410.000+1481159.000" />
     <Airport ICAO="YXPI" FullName="Pindara Hospital" Position="-280059.000+1532359.000" />
     <Airport ICAO="YXPK" FullName="Parkes Hospital" Position="-330912.000+1481016.000" />
     <Airport ICAO="YXPM" FullName="Port Macquarie Base Hospital" Position="-312708.000+1525236.000" />
     <Airport ICAO="YXPN" FullName="Proserpine Hospital" Position="-202402.000+1483503.000" />
-    <Airport ICAO="YXPP" FullName="Pipeline Authority Medical Young" Position="-341500.000+1481859.000" />
-    <Airport ICAO="YXPR" FullName="Portland Hospital" Position="-382029.159+1413622.705" Elevation="82" />
+    <Airport ICAO="YXPP" FullName="Pipeline Authority Medicalyoung" Position="-341500.000+1481859.000" />
+    <Airport ICAO="YXPR" FullName="Portland Hospital" Position="-382029.159+1413622.705" />
     <Airport ICAO="YXPU" FullName="Port Arthur Medical" Position="-430832.000+1475037.000" />
-    <Airport ICAO="YXQC" FullName="Queensland Children's Hospital" Position="-272903.000+1530137.000" />
-    <Airport ICAO="YXQE" FullName="Queen Elizabeth II Medical Centre" Position="-315808.000+1154901.000" />
+    <Airport ICAO="YXQC" FullName="Queensland Childrens Hospital" Position="-272903.000+1530137.000" />
+    <Airport ICAO="YXQE" FullName="Queen Elizabeth Ii Medical Centre" Position="-315808.000+1154901.000" />
     <Airport ICAO="YXQU" FullName="Quirindi Medical" Position="-313037.000+1504108.000" />
     <Airport ICAO="YXRA" FullName="Randwick Medical" Position="-335533.000+1511429.000" />
     <Airport ICAO="YXRD" FullName="Redlands Bay Hospital" Position="-273256.000+1531510.000" />
@@ -21937,7 +21764,7 @@ SAGLI
     <Airport ICAO="YXUA" FullName="Milton Ulladulla Hospital" Position="-351915.000+1502622.000" />
     <Airport ICAO="YXUB" FullName="Columbine Medical" Position="-332847.000+1485047.000" />
     <Airport ICAO="YXUD" FullName="Cudal Medical" Position="-331559.000+1484559.000" />
-    <Airport ICAO="YXUH" FullName="Macquarie University Hospital" Position="-334557.355+1510657.895" Elevation="150" />
+    <Airport ICAO="YXUH" FullName="Macquarie University Hospital" Position="-334557.355+1510657.895" />
     <Airport ICAO="YXUN" FullName="Ben Bullen Medical" Position="-331148.000+1495854.000" />
     <Airport ICAO="YXUS" FullName="Muswellbrook Medical" Position="-321552.000+1505356.000" />
     <Airport ICAO="YXVH" FullName="Victorian Heart Hospital" Position="-375445.000+1450824.000" />
@@ -21955,7 +21782,7 @@ SAGLI
     <Airport ICAO="YXWT" FullName="Wellington Medical" Position="-323259.000+1485659.000" />
     <Airport ICAO="YXWU" FullName="Woolgoolga Medical" Position="-300700.000+1531159.000" />
     <Airport ICAO="YXWV" FullName="Wallabadah Medical" Position="-313159.000+1504859.000" />
-    <Airport ICAO="YXWW" FullName="Wee Waa Hospital" Position="-301332.131+1492651.284" Elevation="630" />
+    <Airport ICAO="YXWW" FullName="Wee Waa Hospital" Position="-301332.131+1492651.284" />
     <Airport ICAO="YXWY" FullName="Wyong Hospital" Position="-331537.000+1512851.000" />
     <Airport ICAO="YXXL" FullName="Box Hill Hospital" Position="-374753.000+1450700.000" />
     <Airport ICAO="YXXM" FullName="Monash Children's Hospital" Position="-375511.000+1450718.000" />
