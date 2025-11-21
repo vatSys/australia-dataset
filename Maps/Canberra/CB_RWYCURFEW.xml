@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="CB_RWYCURFEW" Priority="1" Center="-35.306944+149.195000">
+    <!--YSCB-->
+    <Runway Name="17/35">
+      <Threshold Name="17" Position="-35.290628+149.194442" ExtendedCentrelineTrack="359.99" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="35" Position="-35.314808+149.194444" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy35 AKMIR3-->
+      -351726.260+1491139.990/
+      -351715.407+1491140.425/
+      -351550.423+1491152.803/
+      -351451.491+1491204.207/
+      -351415.302+1491226.062/
+      OKERU/
+      AKMIR
+    </Line>
+    <Line>
+      <!--Rwy35 AVBEG3-->
+      -351726.260+1491139.990/
+      VICKI/
+      AVBEG
+    </Line>
+    <Line>
+      <!--Rwy35 CULIN2-->
+      VICKI/
+      CULIN
+    </Line>
+    <Line>
+      <!--Rwy35 DUBUS3-->
+      -351726.260+1491139.990/
+      -351526.784+1491153.160/
+      -351338.927+1491048.720/
+      NOGOR/
+      DUBUS
+    </Line>
+    <Line>
+      <!--Rwy35 HOWLY9-->
+      -351726.260+1491139.990/
+      GUTMO/
+      -350605.616+1490927.348/
+      SCULN/
+      HOWLY
+    </Line>
+    <Line>
+      <!--Rwy35 NONUP9-->
+      -350605.616+1490927.348/
+      MAJOR/
+      NONUP
+    </Line>
+    <Line>
+      <!--Rwy35 TANTA3-->
+      MAJOR/
+      KEATS/
+      KELLY/
+      TANTA
+    </Line>
+    <Line>
+      <!--Rwy35 WG2-->
+      MAJOR/
+      WG VOR
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy17 AVBE6A-->
+      AVBEG/
+      OMDAL/
+      DOGRO/
+      GOONY/
+      TALAG
+    </Line>
+    <Line>
+      <!--Rwy17 BUNG5A-->
+      BUNGO/
+      LIGNU/
+      GEORG/
+      ALDOP/
+      GOONY
+    </Line>
+    <Line>
+      <!--Rwy17 BUNG5Y-->
+      GEORG/
+      VILIG/
+      SAPIT
+    </Line>
+    <Line>
+      <!--Rwy17 LECE1A-->
+      LEECE/
+      PADNA/
+      GEORG
+    </Line>
+    <Line>
+      <!--Rwy17 LECE1Y-->
+    </Line>
+    <Line>
+      <!--Rwy17 MAND3A.ARRAN-->
+      ARRAN/
+      NONUP/
+      MANDA
+    </Line>
+    <Line>
+      <!--Rwy17 MAND3A.KACEY-->
+      KACEY/
+      MANDA
+    </Line>
+    <Line>
+      <!--Rwy17 MAND3A.WG-->
+      WG VOR/
+      MANDA
+    </Line>
+    <Line>
+      <!--Rwy17 MAND3A-->
+      MANDA/
+      IGMET/
+      MEKON/
+      BARTN/
+      GOONY
+    </Line>
+    <Line>
+      <!--Rwy17 MAND3X.ARRAN-->
+    </Line>
+    <Line>
+      <!--Rwy17 MAND3X.KACEY-->
+    </Line>
+    <Line>
+      <!--Rwy17 MAND3X.WG-->
+    </Line>
+    <Line>
+      <!--Rwy17 MAND3X-->
+      MEKON/
+      VADMA
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>TALAG</Point>
+      <Point>SAPIT</Point>
+      <Point>VADMA</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>WG VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>OKERU</Point>
+      <Point>AKMIR</Point>
+      <Point>VICKI</Point>
+      <Point>AVBEG</Point>
+      <Point>CULIN</Point>
+      <Point>NOGOR</Point>
+      <Point>DUBUS</Point>
+      <Point>GUTMO</Point>
+      <Point>SCULN</Point>
+      <Point>HOWLY</Point>
+      <Point>MAJOR</Point>
+      <Point>NONUP</Point>
+      <Point>KEATS</Point>
+      <Point>KELLY</Point>
+      <Point>TANTA</Point>
+      <Point>OMDAL</Point>
+      <Point>DOGRO</Point>
+      <Point>GOONY</Point>
+      <Point>BUNGO</Point>
+      <Point>LIGNU</Point>
+      <Point>GEORG</Point>
+      <Point>ALDOP</Point>
+      <Point>VILIG</Point>
+      <Point>LEECE</Point>
+      <Point>PADNA</Point>
+      <Point>MANDA</Point>
+      <Point>IGMET</Point>
+      <Point>MEKON</Point>
+      <Point>BARTN</Point>
+      <Point>ARRAN</Point>
+      <Point>KACEY</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="CB_RWYCURFEW_NAMES" Priority="2" Center="-35.306944+149.195000">
+    <Label>
+      <Point>OKERU</Point>
+      <Point>AKMIR</Point>
+      <Point>VICKI</Point>
+      <Point>AVBEG</Point>
+      <Point>CULIN</Point>
+      <Point>NOGOR</Point>
+      <Point>DUBUS</Point>
+      <Point>GUTMO</Point>
+      <Point>SCULN</Point>
+      <Point>HOWLY</Point>
+      <Point>MAJOR</Point>
+      <Point>NONUP</Point>
+      <Point>KEATS</Point>
+      <Point>KELLY</Point>
+      <Point>TANTA</Point>
+      <Point>WG VOR</Point>
+      <Point>OMDAL</Point>
+      <Point>DOGRO</Point>
+      <Point>GOONY</Point>
+      <Point>TALAG</Point>
+      <Point>BUNGO</Point>
+      <Point>LIGNU</Point>
+      <Point>GEORG</Point>
+      <Point>ALDOP</Point>
+      <Point>VILIG</Point>
+      <Point>SAPIT</Point>
+      <Point>LEECE</Point>
+      <Point>PADNA</Point>
+      <Point>ARRAN</Point>
+      <Point>MANDA</Point>
+      <Point>KACEY</Point>
+      <Point>IGMET</Point>
+      <Point>MEKON</Point>
+      <Point>BARTN</Point>
+      <Point>VADMA</Point>
+      <Point>TESAT</Point>
+      <Point>WOL NDB</Point>
+      <Point>AY VOR</Point>
+      <Point>PEGSU</Point>
+      <Point>EXETA</Point>
+      <Point>WAZZA</Point>
+      <Point>TEMIS</Point>
+      <Point>BOYSE</Point>
+      <Point>CWR NDB</Point>
+      <Point>MUDGI</Point>
+      <Point>GLB NDB</Point>
+      <Point>OMBIS</Point>
+      <Point>SOVRU</Point>
+      <Point>BORLI</Point>
+      <Point>COM NDB</Point>
+      <Point>VISER</Point>
+      <Point>ESL NDB</Point>
+      <Point>UGVER</Point>
+      <Point>WOLBI</Point>
+      <Point>BTH NDB</Point>
+      <Point>POPLA</Point>
+      <Point>IGDEL</Point>
+      <Point>NOLUN</Point>
+      <Point>MER NDB</Point>
+      <Point>LTV NDB</Point>
+      <Point>DADER</Point>
+    </Label>
+  </Map>
+</Maps>

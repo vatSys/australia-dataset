@@ -174,7 +174,6 @@
     <Line Name="Q320_0">JULIE.Q320.IDOTO</Line>
     <Line Name="Q327_0">LM VOR.Q327.SOPAT</Line>
     <Line Name="Q33_0">AD VOR.Q33.ESP VOR</Line>
-    <Line Name="Q346_0">BORLI.Q346.POLSO</Line>
     <Line Name="Q35_0">SU VOR.Q35.DORSU</Line>
     <Line Name="Q36_0">PULOL.Q36.ANGAS</Line>
     <Line Name="Q38_0">BRM NDB.Q38.PH VOR</Line>
@@ -308,7 +307,7 @@
     <Line Name="Y316_0">ROM NDB.Y316.BEPNA</Line>
     <Line Name="Y32_0">ELDEK.Y32.REBEG</Line>
     <Line Name="Y327_0">VIMAP.Y327.MAKRL</Line>
-    <Line Name="Y33_0">MATAR.Y33.BORLI</Line>
+    <Line Name="Y33_0">MATAR.Y33.DUBED</Line>
     <Line Name="Y340_0">IGUPI.Y340.LAMUG</Line>
     <Line Name="Y36_0">MANIG.Y36.BIDAP</Line>
     <Line Name="Y38_0">AKDAV.Y38.ATNAR</Line>
@@ -369,6 +368,7 @@
       <Point>AREPA</Point>
       <Point>FRAZA</Point>
       <Point>OVLET</Point>
+      <Point>AVMUN</Point>
       <Point>MEPEM</Point>
       <Point>MASRA</Point>
       <Point>UGTUG</Point>
@@ -406,6 +406,7 @@
       <Point>TOBOB</Point>
       <Point>OLSEM</Point>
       <Point>EKIPU</Point>
+      <Point>RULGU</Point>
       <Point>KAKLU</Point>
       <Point>DRINA</Point>
       <Point>KACEY</Point>
@@ -436,13 +437,14 @@
       <Point>UPVEN</Point>
       <Point>URKER</Point>
       <Point>PEBDO</Point>
+      <Point>ADKEX</Point>
       <Point>WHITI</Point>
       <Point>BLAKA</Point>
       <Point>MOOVI</Point>
       <Point>RUTOS</Point>
       <Point>LOKYA</Point>
       <Point>EMSUR</Point>
-      <Point>OVMIN</Point>
+      <Point>AVBID</Point>
       <Point>ASILI</Point>
       <Point>MARGO</Point>
       <Point>HUUGO</Point>
@@ -479,11 +481,6 @@
       <Point>ATNAR</Point>
       <Point>BADGR</Point>
       <Point>ANGEX</Point>
-      <Point>GORTA</Point>
-      <Point>PEBTU</Point>
-      <Point>ADBOK</Point>
-      <Point>OLNOT</Point>
-      <Point>LAFAM</Point>
       <Point>SAPOX</Point>
       <Point>URGEX</Point>
       <Point>NODEV</Point>
@@ -499,7 +496,7 @@
       <Point>OBKOB</Point>
       <Point>VENEL</Point>
       <Point>IGBIR</Point>
-      <Point>BOKAT</Point>
+      <Point>DUBUL</Point>
       <Point>ONGAR</Point>
       <Point>VIROB</Point>
       <Point>LUVAS</Point>
@@ -525,21 +522,20 @@
       <Point>RIMSU</Point>
       <Point>BIVAT</Point>
       <Point>KAPGA</Point>
-      <Point>NUKTU</Point>
+      <Point>VEKBO</Point>
       <Point>DUNDA</Point>
       <Point>TEKUD</Point>
       <Point>GILES</Point>
-      <Point>UPNAP</Point>
       <Point>SU VOR</Point>
       <Point>MOOLO</Point>
       <Point>MUDDL</Point>
       <Point>OSOTI</Point>
       <Point>EKABO</Point>
       <Point>OSRAR</Point>
-      <Point>IGMIL</Point>
+      <Point>DUBED</Point>
       <Point>ORINO</Point>
       <Point>BUDLO</Point>
-      <Point>ELNUL</Point>
+      <Point>SOVTO</Point>
       <Point>HINDS</Point>
       <Point>CALIG</Point>
       <Point>WOORA</Point>
@@ -558,9 +554,9 @@
       <Point>MAKRU</Point>
       <Point>RULUN</Point>
       <Point>BICKL</Point>
-      <Point>SQARE</Point>
+      <Point>IGOKO</Point>
       <Point>NORMA</Point>
-      <Point>LEBOD</Point>
+      <Point>ELGAT</Point>
       <Point>RINLA</Point>
       <Point>BEBEN</Point>
       <Point>AVDAN</Point>
@@ -570,6 +566,7 @@
       <Point>IPMOR</Point>
       <Point>KALBO</Point>
       <Point>KAGMI</Point>
+      <Point>DAKPO</Point>
       <Point>AGROS</Point>
       <Point>GRACY</Point>
       <Point>OKISI</Point>
@@ -599,7 +596,7 @@
       <Point>MANIG</Point>
       <Point>STILE</Point>
       <Point>GUGRA</Point>
-      <Point>BODAP</Point>
+      <Point>ARNTU</Point>
       <Point>WALTA</Point>
       <Point>BESBO</Point>
       <Point>LAMUG</Point>
@@ -836,7 +833,7 @@
       <Point>INVUS</Point>
       <Point>ATNAT</Point>
       <Point>SOTKI</Point>
-      <Point>TESAS</Point>
+      <Point>ELPIB</Point>
       <Point>SARAP</Point>
       <Point>NISET</Point>
       <Point>MALNI</Point>
@@ -938,6 +935,7 @@
       <Point>MAPTU</Point>
       <Point>GUTLI</Point>
       <Point>PALTI</Point>
+      <Point>OTGOM</Point>
       <Point>GEROS</Point>
       <Point>LEGAN</Point>
       <Point>LUNBI</Point>
@@ -1314,7 +1312,6 @@
       <Point>IRMOX</Point>
       <Point>MOPET</Point>
       <Point>BELEL</Point>
-      <Point>POLSO</Point>
       <Point>PULOL</Point>
       <Point>OPALL</Point>
       <Point>OSTAM</Point>
@@ -1542,7 +1539,7 @@
     <Line Name="G342_0">MEKAD.G342.HN VOR</Line>
     <Line Name="G459_0">SOVRO.G459.PASNI</Line>
     <Line Name="G591_0">MUGEN.G591.TEPAM</Line>
-    <Line Name="G595_0">TESAS.G595.MALNI</Line>
+    <Line Name="G595_0">ELPIB.G595.MALNI</Line>
     <Line Name="H102_0">MIA VOR.H102.NATYA</Line>
     <Line Name="H111_0">TASUM.H111.LT VOR</Line>
     <Line Name="H119_0">NATYA.H119.ML VOR</Line>
@@ -1592,7 +1589,7 @@
     <Line Name="J89_0">MA VOR.J89.UNVAT</Line>
     <Line Name="J917_0">TENCH.J917.AYMS</Line>
     <Line Name="J93_0">LM VOR.J93.KU VOR</Line>
-    <Line Name="L503_0">TESAS.L503.KABKA</Line>
+    <Line Name="L503_0">ELPIB.L503.KABKA</Line>
     <Line Name="L514_0">MUNNI.L514.AVPAL</Line>
     <Line Name="M625_0">TOMAR.M625.GOPLU</Line>
     <Line Name="M768_0">DN VOR.M768.PORAK</Line>
@@ -2161,13 +2158,14 @@
       <Point>UPVEN</Point>
       <Point>URKER</Point>
       <Point>PEBDO</Point>
+      <Point>ADKEX</Point>
       <Point>WHITI</Point>
       <Point>BLAKA</Point>
       <Point>MOOVI</Point>
       <Point>RUTOS</Point>
       <Point>LOKYA</Point>
       <Point>EMSUR</Point>
-      <Point>OVMIN</Point>
+      <Point>AVBID</Point>
       <Point>ASILI</Point>
       <Point>MARGO</Point>
       <Point>BOSUN</Point>
@@ -2609,7 +2607,7 @@
       <Point>OSVAR</Point>
       <Point>SCUBA</Point>
       <Point>TEPAM</Point>
-      <Point>TESAS</Point>
+      <Point>ELPIB</Point>
       <Point>SARAP</Point>
       <Point>NISET</Point>
       <Point>MALNI</Point>
@@ -2677,6 +2675,7 @@
       <Point>KABKA</Point>
       <Point>GUTLI</Point>
       <Point>PALTI</Point>
+      <Point>OTGOM</Point>
       <Point>TOMAR</Point>
       <Point>GOPLU</Point>
       <Point>AVMAN</Point>
@@ -3363,13 +3362,14 @@
       <Point>UPVEN</Point>
       <Point>URKER</Point>
       <Point>PEBDO</Point>
+      <Point>ADKEX</Point>
       <Point>WHITI</Point>
       <Point>BLAKA</Point>
       <Point>MOOVI</Point>
       <Point>RUTOS</Point>
       <Point>LOKYA</Point>
       <Point>EMSUR</Point>
-      <Point>OVMIN</Point>
+      <Point>AVBID</Point>
       <Point>ASILI</Point>
       <Point>MARGO</Point>
       <Point>BOSUN</Point>
@@ -3809,7 +3809,7 @@
       <Point>OSVAR</Point>
       <Point>SCUBA</Point>
       <Point>TEPAM</Point>
-      <Point>TESAS</Point>
+      <Point>ELPIB</Point>
       <Point>SARAP</Point>
       <Point>NISET</Point>
       <Point>MALNI</Point>
@@ -3877,6 +3877,7 @@
       <Point>KABKA</Point>
       <Point>GUTLI</Point>
       <Point>PALTI</Point>
+      <Point>OTGOM</Point>
       <Point>TOMAR</Point>
       <Point>GOPLU</Point>
       <Point>AVMAN</Point>
@@ -4517,6 +4518,7 @@
       <Point>AREPA</Point>
       <Point>FRAZA</Point>
       <Point>OVLET</Point>
+      <Point>AVMUN</Point>
       <Point>MEPEM</Point>
       <Point>MASRA</Point>
       <Point>UGTUG</Point>
@@ -4554,6 +4556,7 @@
       <Point>TOBOB</Point>
       <Point>OLSEM</Point>
       <Point>EKIPU</Point>
+      <Point>RULGU</Point>
       <Point>KAKLU</Point>
       <Point>DRINA</Point>
       <Point>KACEY</Point>
@@ -4584,13 +4587,14 @@
       <Point>UPVEN</Point>
       <Point>URKER</Point>
       <Point>PEBDO</Point>
+      <Point>ADKEX</Point>
       <Point>WHITI</Point>
       <Point>BLAKA</Point>
       <Point>MOOVI</Point>
       <Point>RUTOS</Point>
       <Point>LOKYA</Point>
       <Point>EMSUR</Point>
-      <Point>OVMIN</Point>
+      <Point>AVBID</Point>
       <Point>ASILI</Point>
       <Point>MARGO</Point>
       <Point>HUUGO</Point>
@@ -4627,11 +4631,6 @@
       <Point>ATNAR</Point>
       <Point>BADGR</Point>
       <Point>ANGEX</Point>
-      <Point>GORTA</Point>
-      <Point>PEBTU</Point>
-      <Point>ADBOK</Point>
-      <Point>OLNOT</Point>
-      <Point>LAFAM</Point>
       <Point>SAPOX</Point>
       <Point>URGEX</Point>
       <Point>NODEV</Point>
@@ -4647,7 +4646,7 @@
       <Point>OBKOB</Point>
       <Point>VENEL</Point>
       <Point>IGBIR</Point>
-      <Point>BOKAT</Point>
+      <Point>DUBUL</Point>
       <Point>ONGAR</Point>
       <Point>VIROB</Point>
       <Point>LUVAS</Point>
@@ -4673,21 +4672,20 @@
       <Point>RIMSU</Point>
       <Point>BIVAT</Point>
       <Point>KAPGA</Point>
-      <Point>NUKTU</Point>
+      <Point>VEKBO</Point>
       <Point>DUNDA</Point>
       <Point>TEKUD</Point>
       <Point>GILES</Point>
-      <Point>UPNAP</Point>
       <Point>SU VOR</Point>
       <Point>MOOLO</Point>
       <Point>MUDDL</Point>
       <Point>OSOTI</Point>
       <Point>EKABO</Point>
       <Point>OSRAR</Point>
-      <Point>IGMIL</Point>
+      <Point>DUBED</Point>
       <Point>ORINO</Point>
       <Point>BUDLO</Point>
-      <Point>ELNUL</Point>
+      <Point>SOVTO</Point>
       <Point>HINDS</Point>
       <Point>CALIG</Point>
       <Point>WOORA</Point>
@@ -4706,9 +4704,9 @@
       <Point>MAKRU</Point>
       <Point>RULUN</Point>
       <Point>BICKL</Point>
-      <Point>SQARE</Point>
+      <Point>IGOKO</Point>
       <Point>NORMA</Point>
-      <Point>LEBOD</Point>
+      <Point>ELGAT</Point>
       <Point>RINLA</Point>
       <Point>BEBEN</Point>
       <Point>AVDAN</Point>
@@ -4718,6 +4716,7 @@
       <Point>IPMOR</Point>
       <Point>KALBO</Point>
       <Point>KAGMI</Point>
+      <Point>DAKPO</Point>
       <Point>AGROS</Point>
       <Point>GRACY</Point>
       <Point>OKISI</Point>
@@ -4747,7 +4746,7 @@
       <Point>MANIG</Point>
       <Point>STILE</Point>
       <Point>GUGRA</Point>
-      <Point>BODAP</Point>
+      <Point>ARNTU</Point>
       <Point>WALTA</Point>
       <Point>BESBO</Point>
       <Point>LAMUG</Point>
@@ -4982,7 +4981,7 @@
       <Point>INVUS</Point>
       <Point>ATNAT</Point>
       <Point>SOTKI</Point>
-      <Point>TESAS</Point>
+      <Point>ELPIB</Point>
       <Point>SARAP</Point>
       <Point>NISET</Point>
       <Point>MALNI</Point>
@@ -5084,6 +5083,7 @@
       <Point>MAPTU</Point>
       <Point>GUTLI</Point>
       <Point>PALTI</Point>
+      <Point>OTGOM</Point>
       <Point>GEROS</Point>
       <Point>LEGAN</Point>
       <Point>LUNBI</Point>
@@ -5458,7 +5458,6 @@
       <Point>IRMOX</Point>
       <Point>MOPET</Point>
       <Point>BELEL</Point>
-      <Point>POLSO</Point>
       <Point>PULOL</Point>
       <Point>OPALL</Point>
       <Point>OSTAM</Point>
