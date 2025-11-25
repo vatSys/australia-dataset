@@ -271,6 +271,11 @@
             </summary>
             <param name="main">The flow layout for the bay.</param>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.AutoAssigner">
+            <summary>
+            Gets or sets the loaded autoassigner.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.PickedStrip">
             <summary>
             Gets the picked controller.
@@ -356,12 +361,6 @@
             Inhibit the strip.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.SendPDC(MaxRumsey.OzStripsPlugin.GUI.Strip)">
-            <summary>
-            Send the PDC.
-            </summary>
-            <param name="strip">Strip to open PDC form for. Null if use picked controller.</param>
-        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.CrossStrip">
             <summary>
             Toggles crossing highlight on a strip.
@@ -370,6 +369,11 @@
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.FlipFlopStrip">
             <summary>
             Toggles crossing highlight on a strip.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.FillStrip">
+            <summary>
+            Autofills picked strip data.
             </summary>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.PickLastTransmit">
@@ -658,7 +662,7 @@
             <param name="controller">The controller.</param>
             <param name="callingLabel">The label item to be selected upon opening.</param>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.Hdg">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.DepFreq">
             <summary>
             Gets the heading.
             </summary>
@@ -875,6 +879,39 @@
             Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.CustomFLP"/> class.
             </summary>
         </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.DebugSetATIS">
+            <summary>
+            A altitude and heading control.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DebugSetATIS.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.DebugSetATIS"/> class.
+            </summary>
+            <param name="controller">The strip.</param>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.DebugSetATIS.ATISText">
+            <summary>
+            Gets the PDC text.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.DebugSetATIS.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DebugSetATIS.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DebugSetATIS.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.DividerBarControl">
             <summary>
             A divider control bar.
@@ -992,6 +1029,44 @@
             </summary>
             <param name="activeControl">The active control</param>
             <returns>Point.</returns>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.PDCControl">
+            <summary>
+            A altitude and heading control.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.PDCControl.#ctor(MaxRumsey.OzStripsPlugin.GUI.Strip)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.PDCControl"/> class.
+            </summary>
+            <param name="controller">The strip.</param>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.PDCControl.BaseModal">
+            <summary>
+            Gets or sets the base modal.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.PDCControl.PDCText">
+            <summary>
+            Gets the PDC text.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.PDCControl.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.PDCControl.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.PDCControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.QuickSearch">
             <summary>
@@ -1262,6 +1337,7 @@
             Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.MainForm"/> class.
             </summary>
             <param name="readyForConnection">Whether the client can establish a server connection.</param>
+            <param name="aerodromeManager">The Aerodrome Manager</param>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.MainFormInstance">
             <summary>
@@ -1271,6 +1347,91 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.IsDebug">
             <summary>
             Gets a value indicating whether we are currently in a Visual Studio debug session.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.AerodromeLabel">
+            <summary>
+            Gets the aerodrome code label.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.MetarToolTip">
+            <summary>
+            Gets the metar tool tip.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.PDCSoundMenuItem">
+            <summary>
+            Gets the PDC sound menu item.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.ClientsToolTip">
+            <summary>
+            Gets the clients tool tip.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.ToggleCircuitToolStrip">
+            <summary>
+            Gets the toggle circuit menu item.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.StatusPanel">
+            <summary>
+            Gets the Conn Stat Panel.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.ATISLabel">
+            <summary>
+            Gets the ATIS label.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.TimerTextBox">
+            <summary>
+            Gets the timer text box.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.AerodromeListToolStrip">
+            <summary>
+            Gets the aerodrome list menu item.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.ViewListToolStrip">
+            <summary>
+            Gets the view list menu item.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.OpenPDCs">
+            <summary>
+            Gets the open PDCs menu item.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.AutoFillAvailable">
+            <summary>
+            Gets the autofill available menu item.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.EnteredAerodrome">
+            <summary>
+            Gets the entered aerodrome code in the menuitem text box.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.CDMRateTextBox">
+            <summary>
+            Gets the CDM rate text box.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.MainFLP">
+            <summary>
+            Gets the main flow layout panel.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.AerodromeManager">
+            <summary>
+            Gets the aerodrome manager.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.Title">
+            <summary>
+            Gets or sets the title of the main form.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.CreateParams">
@@ -1283,6 +1444,20 @@
             <param name="msg">Sender.</param>
             <param name="keyData">Key.</param>
             <returns>Handled.</returns>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainForm.GetStripByFDR(vatsys.FDP2.FDR)">
+            <summary>
+            Gets a strip from FDR.
+            </summary>
+            <param name="fdr">Flight Data Record.</param>
+            <returns>Strip, if found.</returns>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainForm.OpenWindow(MaxRumsey.OzStripsPlugin.GUI.Strip,System.String)">
+            <summary>
+            Opens the defined input field.
+            </summary>
+            <param name="strip">Strip,</param>
+            <param name="type">Label name.</param>
         </member>
         <member name="F:MaxRumsey.OzStripsPlugin.GUI.MainForm.components">
             <summary>
@@ -1333,6 +1508,11 @@
             Initialises the class.
             </summary>
             <exception cref="T:System.Exception">Returned exception.</exception>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.SetTitle">
+            <summary>
+            Sets the title text.
+            </summary>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.FormClosing(System.Object,System.ComponentModel.CancelEventArgs)">
             <summary>
@@ -1444,6 +1624,13 @@
             Gets a value indicating whether or not the settings window is open.
             </summary>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.OpenWindow(MaxRumsey.OzStripsPlugin.GUI.Strip,System.String)">
+            <summary>
+            Opens the defined input field.
+            </summary>
+            <param name="strip">Strip,</param>
+            <param name="type">Label name.</param>
+        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.CrossButton_Click(System.Object,System.EventArgs)">
             <summary>
             Crosses the selected strip.
@@ -1457,6 +1644,13 @@
             </summary>
             <param name="sender">The sender.</param>
             <param name="e">Eventargs.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.OverrideATISClick(System.Object,System.EventArgs)">
+            <summary>
+            Opens the ATIS override window.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="e">EventArgs.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ShowQuickSearch">
             <summary>
@@ -1527,6 +1721,13 @@
             </summary>
             <param name="sender">The sender.</param>
             <param name="e">Eventargs.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.GetStripByFDR(vatsys.FDP2.FDR)">
+            <summary>
+            Gets a strip correlated for an FDR.
+            </summary>
+            <param name="fdr">FDR.</param>
+            <returns>Strip if found.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ShowSettings(System.Object,System.EventArgs)">
             <summary>
@@ -1669,6 +1870,30 @@
             <param name="obj">Event obj.</param>
             <param name="args">Event Args.</param>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.GetCustomLabelItem(System.String,vatsys.Track,vatsys.FDP2.FDR,vatsys.RDP.RadarTrack)">
+            <summary>
+            Gets the custom label item.
+            </summary>
+            <param name="itemType">Item type.</param>
+            <param name="track">Track.</param>
+            <param name="flightDataRecord">FDR.</param>
+            <param name="radarTrack">RadarTrack.</param>
+            <returns>Custom label item.</returns>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.SelectASDTrackColour(vatsys.Track)">
+            <summary>
+            Gets the ASD track custom colour.
+            </summary>
+            <param name="track">Aircraft track</param>
+            <returns>Null.</returns>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.SelectGroundTrackColour(vatsys.Track)">
+            <summary>
+            Gets ground track custom colour.
+            </summary>
+            <param name="track">Aircraft track.</param>
+            <returns>Null.</returns>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig">
             <summary>
               A strongly-typed resource class, for looking up localized strings, etc.
@@ -1695,6 +1920,11 @@
               Looks up a localized string similar to https://cdm.maxrumsey.xyz/ops/.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.NewPDC">
+            <summary>
+              Looks up a localized resource of type System.Byte[].
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.socketioaddr">
             <summary>
               Looks up a localized string similar to https://ozstripsserver.maxrumsey.xyz/.
@@ -1702,7 +1932,34 @@
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.version">
             <summary>
-              Looks up a localized string similar to 0.7.2.
+              Looks up a localized string similar to 0.8.0.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher">
+            <summary>
+            Form to watch PDC requests.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher"/> class.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Properties.Resources">
@@ -1746,6 +2003,16 @@
         <member name="E:MaxRumsey.OzStripsPlugin.GUI.SocketConn.AerodromeStateChanged">
             <summary>
             An event called when the aerodrome state changes.
+            </summary>
+        </member>
+        <member name="E:MaxRumsey.OzStripsPlugin.GUI.SocketConn.ServerTypeChanged">
+            <summary>
+            An event called when the server type changes.
+            </summary>
+        </member>
+        <member name="E:MaxRumsey.OzStripsPlugin.GUI.SocketConn.NewPDCsReceived">
+            <summary>
+            An event called when new PDCs are received from server.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Messages">
@@ -1804,6 +2071,13 @@
             Requests strip data from the server.
             </summary>
             <param name="strip">Strip to fetch.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SendPDC(MaxRumsey.OzStripsPlugin.GUI.Strip,System.String)">
+            <summary>
+            Sends a Hoppies PDC to the server.
+            </summary>
+            <param name="strip">Strip.</param>
+            <param name="text">PDC text.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.ReadyForBayData(System.Boolean)">
             <summary>
@@ -1948,9 +2222,19 @@
             Gets the ICAO name of the aerodrome being controlled.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.PDCSent">
+            <summary>
+            Gets or sets a value indicating whether or not a Hoppies PDC has been sent.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Server">
             <summary>
             Gets the current server code.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.PossibleDepFreqs">
+            <summary>
+            Gets possible departure frequencies for this strip.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Controller">
@@ -1961,6 +2245,11 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.FDR">
             <summary>
             Gets the flight data record.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.PDCFlags">
+            <summary>
+            Gets or sets the PDC flags.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.CurrentBay">
@@ -2008,6 +2297,11 @@
             Gets or sets the clearance.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.DepartureFrequency">
+            <summary>
+            Gets or sets the set departure frequency.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Remark">
             <summary>
             Gets or sets the remarks.
@@ -2026,6 +2320,11 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Gate">
             <summary>
             Gets or sets the gate.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.PDCRequest">
+            <summary>
+            Gets the PDC request for this strip, if applicable.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.HDG">
@@ -2062,6 +2361,11 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Route">
             <summary>
             Gets the full route text in the route.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.OutboundRadial">
+            <summary>
+            Gets the outbound radial.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.SID">
@@ -2143,11 +2447,22 @@
             Sends a strip deletion message to the server.
             </summary>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.SendPDC(System.String)">
+            <summary>
+            Sends a Hoppies PDC to the server.
+            </summary>
+            <param name="text">PDC content.</param>
+        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.SendCDMMessage(MaxRumsey.OzStripsPlugin.GUI.Shared.CDMState)">
             <summary>
             Sends a CDM update to the server about this strip.
             </summary>
             <param name="state">CDM state.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.FillStrip">
+            <summary>
+            Determines what to autofill, and autofills what is required.
+            </summary>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.DetermineSCValidity">
             <summary>
@@ -2314,6 +2629,16 @@
             Opens the Clearance bya modal.
             </summary>
             <param name="labelName">Label Name.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenPDCWindow">
+            <summary>
+            Opens the Hoppies PDC window.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenVatSysPDCWindow">
+            <summary>
+            Opens the VatSys PDC window.
+            </summary>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.AssignSSR">
             <summary>

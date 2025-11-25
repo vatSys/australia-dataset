@@ -59,6 +59,86 @@
             Gets or sets a value indicating whether the CDM rate is currently locked.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.PDCRequests">
+            <summary>
+            Gets or sets an array of PDC requests.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.ATIS">
+            <summary>
+            Gets or sets the current ATIS contents.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentResult">
+            <summary>
+            Represents the result of an assignment attempt.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentResult.#ctor(System.String)">
+            <summary>
+            Represents the result of an assignment attempt.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentResult.Runway">
+            <summary>
+            Gets or sets the runway assigned.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentResult.SID">
+            <summary>
+            Gets or sets the SID assigned.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentResult.Departures">
+            <summary>
+            Gets or sets the departure frequencies assigned.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentResult.CFL">
+            <summary>
+            Gets or sets the CFL assigned.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentRule">
+            <summary>
+            Represents a single assignment rule.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentRule.AssignDepRunway">
+            <summary>
+            Gets or sets a value indicating whether to try and assign a default departure runway.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentRule.If">
+            <summary>
+            Gets or sets conditions that must be matched to assign this rule.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentRule.IfNot">
+            <summary>
+            Gets or sets conditions that must not be matched to assign this rule.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentRule.Runway">
+            <summary>
+            Gets or sets the runway to assign.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentRule.SID">
+            <summary>
+            Gets or sets the SID to assign.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentRule.Departures">
+            <summary>
+            Gets or sets the departure frequencies to try and assign.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentRule.CFL">
+            <summary>
+            Gets or sets the CFL to be assigned.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.BayDTO">
             <summary>
             Represents the bay configuration with a list of strips.
@@ -344,9 +424,54 @@
             Gets or sets the user callsign.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.VatsimID">
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.PDCRequest">
             <summary>
-            Gets or sets the VATSIM ID of the user.
+            Contains PDC request data.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.PDCRequest.PDCFlags">
+            <summary>
+            Contains flags representing status and progress of a PDC request.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.PDCRequest.PDCFlags.NULL">
+            <summary>
+            No data.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.PDCRequest.PDCFlags.ONLINE">
+            <summary>
+            Callsign is connected to Hoppies.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.PDCRequest.PDCFlags.REQUESTED">
+            <summary>
+            PDC request has been received.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.PDCRequest.PDCFlags.ACKNOWLEDGED">
+            <summary>
+            PDC request has been acknowledged.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.PDCRequest.PDCFlags.SENT">
+            <summary>
+            PDC has been sent.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.PDCRequest.Callsign">
+            <summary>
+            Gets or sets the callsign associated with this PDC request.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.PDCRequest.Flags">
+            <summary>
+            Gets or sets flags representing status and progress of this PDC request.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.PDCRequest.LastModified">
+            <summary>
+            Gets or sets the last modified time of this PDC request.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.RouteDTO">
@@ -362,6 +487,46 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RouteDTO.RouteText">
             <summary>
             Gets or sets the route information.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition">
+            <summary>
+            Contains and-style rules for auto-assignment.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.AtisDepRunway">
+            <summary>
+            Gets or sets a list of runways, where at least one must be on the ATIS as a departure runway.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.Runway">
+            <summary>
+            Gets or sets a list of runways, where at least one must be the planned departure runway.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.Waypoint">
+            <summary>
+            Gets or sets a list of waypoints, where at least one must be in the planned route.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.SID">
+            <summary>
+            Gets or sets a list of SIDs, where at least one must be the planned SID.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.IsJet">
+            <summary>
+            Gets or sets a value indicating whether the aircraft should be a jet.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.VFR">
+            <summary>
+            Gets or sets a value indicating whether the aircraft is vfr
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.Radials">
+            <summary>
+            Gets or sets a list of radials, where at least one must match the planned departure radial.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.SCDeletionDTO">
@@ -460,6 +625,11 @@
             Gets or sets the clearance.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.DepartureFrequency">
+            <summary>
+            Gets or sets the departure frequency.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.GATE">
             <summary>
             Gets or sets the gate information.
@@ -487,7 +657,7 @@
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.ready">
             <summary>
-            Gets or sets a value indicating the ready status associated with the strip.
+            Gets or sets a value indicating whether the aircraft is ready for departure.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.StripKey">
@@ -500,9 +670,9 @@
             Gets or sets the strip overriden type.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.Modified">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.PDCFlags">
             <summary>
-            Gets  when the DTO was created.
+            Gets or sets PDC flags.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.StripItemType">

@@ -1,0 +1,26 @@
+- assign_dep_rwy: "true"
+- CFL: "050"
+- if:
+    waypoint:
+      - "MNG"
+      - "NONIX"
+      - "DOSEL"
+      - "KEPPA"
+      - "PEDNI"
+      - "ESDIG"
+    runway: ["16"]
+  if_not:
+    atis_dep_rwy: ["16"]
+  SID: "ISPEG"
+- if:
+    atis_dep_rwy: ["27", "34"]
+  runway: "27"
+- if:
+    atis_dep_rwy: ["27", "34"]
+    waypoint:
+      - "MNG"
+      - "NONIX"
+      - "DOSEL"
+  runway: "34"
+# Dep Freqs
+- departures: ["118.9", "129.4", "132.0", "123.75", "132.2"]
