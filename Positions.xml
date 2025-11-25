@@ -1467,6 +1467,7 @@
         <Sector Name="MAE" />
         <Sector Name="MDN" />
         <Sector Name="MDS" />
+        <Sector Name="MAW" />
         <Sector Name="MAV" />
       </Sectors>
       <ManualVisibility>
@@ -1512,10 +1513,17 @@
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="ML-C_DEP">
+        <Line>Melbourne Radar (Centre) | ATIS available on 118.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Avalon TCU" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="100" VisibilityRange="150" MagneticVariation="-11.6">
       <Sectors>
         <Sector Name="MAV" />
+        <Sector Name="MAW" />
       </Sectors>
       <ManualVisibility>
         <Point>-3740.4+14450.6</Point>

@@ -347,6 +347,7 @@
   </Sector>
   <Sector FullName="Avalon Approach" Frequency="133.550" Callsign="AV_APP" Name="MAV">
     <Volumes>MAV</Volumes>
+    <ResponsibleSectors>MAW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Brisbane Approach (Gold Coast)" Frequency="123.500" Callsign="BN-C_APP" Name="BAC">
     <Volumes>BAG_NORTH,BAG_SOUTH</Volumes>
@@ -413,13 +414,17 @@
   </Sector>
   <Sector FullName="Melbourne Approach" Frequency="132.000" Callsign="ML_APP" Name="MAE">
     <Volumes>MLA</Volumes>
-    <ResponsibleSectors>MDN,MDS,MAV</ResponsibleSectors>
+    <ResponsibleSectors>MDN,MDS,MAV,MAW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Melbourne Departures (North)" Frequency="118.900" Callsign="ML_DEP" Name="MDN">
     <Volumes>MLA</Volumes>
   </Sector>
   <Sector FullName="Melbourne Departures (South)" Frequency="129.400" Callsign="ML-S_DEP" Name="MDS">
     <Volumes>MLA</Volumes>
+    <ResponsibleSectors>MAV,MAW</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Melbourne Radar (Centre)" Frequency="135.700" Callsign="ML-C_DEP" Name="MAW">
+    <Volumes>MLW</Volumes>
     <ResponsibleSectors>MAV</ResponsibleSectors>
   </Sector>
   <Sector FullName="Nadi Approach" Frequency="119.100" Callsign="NFFN_APP" Name="NFFNA" DisplayInSectorsWindow="False">

@@ -5659,7 +5659,7 @@
   <Volume Name="AUG" LowerLimit="0" UpperLimit="60000">
     <Boundaries>AUGUSTA</Boundaries>
   </Volume>
-  <Volume Name="MAV" LowerLimit="0" UpperLimit="4500">
+  <Volume Name="MAV" LowerLimit="0" UpperLimit="4600">
     <Boundaries>AVALON_CTA_E2</Boundaries>
   </Volume>
   <Volume Name="AVTWR" LowerLimit="0" UpperLimit="2500">
@@ -5924,6 +5924,9 @@
     <Boundaries>MOORABBIN_CONTROL_ZONE_(D)</Boundaries>
   </Volume>
   <Volume Name="MLA" LowerLimit="0" UpperLimit="24500">
+    <Boundaries>ML_TMA</Boundaries>
+  </Volume>
+  <Volume Name="MLW" LowerLimit="0" UpperLimit="4500">
     <Boundaries>ML_TMA</Boundaries>
   </Volume>
   <Volume Name="MLA_AV" LowerLimit="0" UpperLimit="24500">
