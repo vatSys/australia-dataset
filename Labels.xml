@@ -126,20 +126,14 @@
     </DataLine>
     <DataLine>
       <Item Type="LABEL_ITEM_ACID" Colour="" LeftClick="Label_ACID_Menu" />
+    </DataLine>
+    <DataLine>
+      <Item Type="LABEL_ITEM_ATYPE" BackgroundColour="" Colour="" LeftClick="" MiddleClick="" RightClick="" />
       <Item Type="LABEL_ITEM_WAKETURBCAT" Colour="" LeftClick="" MiddleClick="" RightClick="" LeftPadding="1" />
     </DataLine>
     <DataLine>
       <Item Type="LABEL_ITEM_LEVEL" Colour="" LeftClick="" MiddleClick="" RightClick="Label_Move" />
-      <Item Type="LABEL_ITEM_VERTICALINDICATOR" Colour="" LeftClick="" MiddleClick="" RightClick="" />
-      <Item Type="LABEL_ITEM_GROUNDSPEED" Colour="" LeftClick="" MiddleClick="" RightClick="" />
-      <Item Type="LABEL_ITEM_GATE_N" Colour="" LeftClick="" MiddleClick="" RightClick="" LeftPadding="1" />
-    </DataLine>
-    <DataLine>
-      <Item Type="LABEL_ITEM_ADES" BackgroundColour="" Colour="" LeftClick="" MiddleClick="" RightClick="" />
-      <Item Type="LABEL_ITEM_ATYPE" BackgroundColour="" Colour="" LeftClick="" MiddleClick="" RightClick="" LeftPadding="1" />
-    </DataLine>
-    <DataLine>
-      <Item Type="LABEL_ITEM_OPDATA" BackgroundColour="" Colour="" LeftClick="Label_OpData_Popup" MiddleClick="" />
+      <Item Type="LABEL_ITEM_GROUNDSPEED" Colour="" LeftClick="" MiddleClick="" RightClick="" LeftPadding="1" />
     </DataLine>
   </Label>
   <Label Type="GroundLimited" MaximumWidth="7" Justified="true" LabelRectangle="None">
@@ -164,16 +158,13 @@
       <Item Type="LABEL_ITEM_ATYPE" />
       <Item Type="LABEL_ITEM_WAKETURBCAT" Colour="" LeftPadding="1" />
     </DataLine>
-    <DataLine>
-      <Item Type="LABEL_ITEM_CPDLCGROUND" />
-    </DataLine>
-    <DataLine>
-      <Item Type="LABEL_ITEM_OPDATA" LeftClick="Label_OpData_Popup" />
-    </DataLine>
   </Label>
   <Label Type="GroundArrival" MaximumWidth="11" LabelRectangle="None" Justified="true">
     <DataLine>
-      <Item Type="LABEL_ITEM_ACID" Colour="" LeftClick="Label_ACID_Menu" LeftPadding="1" />
+      <Item Type="OZSTRIPS_BAY" Colour="" LeftClick="" MiddleClick="" RightClick="" />
+    </DataLine>
+    <DataLine>
+      <Item Type="LABEL_ITEM_ACID" Colour="" LeftClick="Label_ACID_Menu" />
       <Item Type="LABEL_ITEM_GATE_N" Colour="" LeftClick="" MiddleClick="" RightClick="" LeftPadding="1" />
       <Item Type="LABEL_ITEM_EMERG" Colour="Emergency" BackgroundColour="Warning" LeftClick="" MiddleClick="Label_Emerg" RightClick="" LeftPadding="1" />
       <Item Type="LABEL_ITEM_WARNING" Colour="Warning" P1_BackgroundColour="Emergency" LeftClick="" MiddleClick="Label_Warning" RightClick="" LeftPadding="1" />
@@ -181,9 +172,6 @@
     <DataLine>
       <Item Type="LABEL_ITEM_ATYPE" />
       <Item Type="LABEL_ITEM_WAKETURBCAT" Colour="" LeftPadding="1" />
-    </DataLine>
-    <DataLine>
-      <Item Type="LABEL_ITEM_OPDATA" LeftClick="Label_OpData_Popup" />
     </DataLine>
   </Label>
 </Labels>
