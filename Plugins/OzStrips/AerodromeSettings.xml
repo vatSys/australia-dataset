@@ -205,4 +205,14 @@
       <Aerodrome>YPWR</Aerodrome>
     </AerodromeList>
   </AerodromeLists>
+  <PDCFormat>PDC
+{CALLSIGN} {TYPE} {ADEP} {ETD}
+CLEARED TO {ADES} VIA
+{RWY} {SID} DEP {TRANS}
+ROUTE: {ROUTE}
+CLIMB VIA SID TO: {CFL}
+DEP FREQ: {FREQ}
+SQUAWK {SQUAWK}
+ONLY READBACK SID, SQUAWK CODE, AND BAY NO. ON {READBACK}</PDCFormat>
+  <AerodromeAutoFillLocation></AerodromeAutoFillLocation>
 </AerodromeSettings>

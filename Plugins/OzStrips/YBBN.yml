@@ -1,0 +1,33 @@
+- assign_dep_rwy: "true"
+- CFL: "040"
+- if:
+    jet: "true"
+  CFL: "060"
+# Dual RWYs
+- if:
+    atis_dep_rwy: ["01L", "01R"]
+  runway: "01L"
+- if:
+    atis_dep_rwy: ["01L", "01R"]
+    radials: ["016-196"]
+  runway: "01R"
+- if:
+    atis_dep_rwy: ["19L", "19R"]
+  runway: "19R"
+- if:
+    atis_dep_rwy: ["19L", "19R"]
+    radials: ["016-196"]
+  runway: "19L"
+# Wacko Rule
+- if:
+    waypoint: ["WACKO"]
+    jet: "true"
+    atis_dep_rwy: ["01L", "01R"]
+  runway: "01R"
+# Frequencies
+- if:
+    runway: ["01L", "19R"]
+  departures: ["133.45", "118.45", "125.6", "124.7", "130.4", "134.2"]
+- if:
+    runway: ["01R", "19L"]
+  departures: ["118.45", "133.45", "125.6", "124.7", "130.4", "134.2"]

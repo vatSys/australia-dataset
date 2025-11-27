@@ -1,0 +1,42 @@
+# Set RWY per the ATI
+- assign_dep_rwy: "true"
+# Set Default CFL of A040
+- CFL: "040"
+# If Jet, Set CFL of A050
+- if:
+    jet: "true"
+  CFL: "050"
+# Dep Freqs
+- if:
+    runway: ["12"]
+  departures: ["118.2", "124.2", "123.05"]
+- if:
+    runway: ["23", "05"]
+    radials: ["044-221"]
+  departures: ["118.2", "124.2", "123.05"]
+- if:
+    runway: ["23", "05"]
+    radials: ["0-044", "221-360"]
+  departures: ["124.2", "118.2", "123.05"]
+- if:
+    runway: ["23", "05"]
+    waypoint:
+    - "VILAD"
+    - "UPROT"
+    - "AVDEN"
+    - "BENDO"
+    - "ALBUT"
+  departures: ["118.2", "124.2", "123.05"]
+- if:
+    runway: ["23", "05"]
+    waypoint:
+    - "EEMUE"
+    - "GILES"
+    - "YORKE"
+    - "AREPA"
+    - "HOLIT"
+    - "ORBUN"
+  departures: ["124.2", "118.2", "123.05"]
+- if:
+    runway: ["30"]
+  departures: ["124.2", "118.2", "123.05"]
