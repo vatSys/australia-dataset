@@ -2721,7 +2721,7 @@
       </ATIS>
       <Strips Mode="State" Sort="Alpha" />
       <CFL QuickLevel="5000" />
-      <ControllerInfo>
+      <ControllerInfo Callsign="ML_TWR">
         <Line>Melbourne Tower | PDC YMML</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
@@ -3661,4 +3661,5 @@
       </ControllerInfo>
     </Position>
   </Group>
+
 </Positions>
