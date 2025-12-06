@@ -8,7 +8,8 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy36 NORTH1-->
+      <!--Rwy36 DOLVU1-->
+      -344140.330+1383703.300/
       -344140.330+1383703.300/
       -344140.330+1383703.300/
       -344140.330+1383703.300/
@@ -20,17 +21,8 @@
       -342933.283+1383829.896/
       -343007.104+1383933.115/
       -343102.440+1384007.361/
-      -343156.938+1384005.983
-    </Line>
-    <Line>
-      <!--Rwy36 NORTH1.DOLVU-->
       -343156.938+1384005.983/
       DOLVU
-    </Line>
-    <Line>
-      <!--Rwy36 NORTH1.EDN-->
-      -343156.938+1384005.983/
-      EDN TAC
     </Line>
     <!--STARs-->
     <Line>
@@ -43,8 +35,22 @@
       UPTUN
     </Line>
     <Line>
-      <!--Rwy36 BLAC1E-->
-      BLACK/
+      <!--Rwy36 ATNA1E-->
+      ATNAR/
+      GULFS/
+      LATUL/
+      UGUXA/
+      PAVSA
+    </Line>
+    <Line>
+      <!--Rwy36 BEVS1E-->
+      BEVSO/
+      BUPLO/
+      APOKI
+    </Line>
+    <Line>
+      <!--Rwy36 KAKL1E-->
+      KAKLU/
       SADAK/
       ELATA/
       NONAK/
@@ -56,26 +62,11 @@
       KLAVA/
       APOKI
     </Line>
-    <Line>
-      <!--Rwy36 RIKA1E-->
-      RIKAB/
-      GULFS/
-      LATUL/
-      UGUXA/
-      PAVSA
-    </Line>
-    <Line>
-      <!--Rwy36 RUSL1E-->
-      RUSSL/
-      BUPLO/
-      APOKI
-    </Line>
     <Symbol Type="HollowTriangle">
       <Point>APOKI</Point>
       <Point>UPTUN</Point>
     </Symbol>
     <Symbol Type="Circle">
-      <Point>EDN TAC</Point>
       <Point>AD VOR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
@@ -83,42 +74,41 @@
       <Point>POTUS</Point>
       <Point>PAVSA</Point>
       <Point>TUPSI</Point>
-      <Point>BLACK</Point>
+      <Point>ATNAR</Point>
+      <Point>GULFS</Point>
+      <Point>LATUL</Point>
+      <Point>UGUXA</Point>
+      <Point>BEVSO</Point>
+      <Point>BUPLO</Point>
+      <Point>KAKLU</Point>
       <Point>SADAK</Point>
       <Point>ELATA</Point>
       <Point>NONAK</Point>
       <Point>RUPIK</Point>
       <Point>KLAVA</Point>
-      <Point>RIKAB</Point>
-      <Point>GULFS</Point>
-      <Point>LATUL</Point>
-      <Point>UGUXA</Point>
-      <Point>RUSSL</Point>
-      <Point>BUPLO</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="ED_RWY36_NAMES" Priority="2" Center="-34.702500+138.620833">
     <Label>
       <Point>DOLVU</Point>
-      <Point>EDN TAC</Point>
       <Point>AD VOR</Point>
       <Point>POTUS</Point>
       <Point>PAVSA</Point>
       <Point>TUPSI</Point>
       <Point>APOKI</Point>
       <Point>UPTUN</Point>
-      <Point>BLACK</Point>
+      <Point>ATNAR</Point>
+      <Point>GULFS</Point>
+      <Point>LATUL</Point>
+      <Point>UGUXA</Point>
+      <Point>BEVSO</Point>
+      <Point>BUPLO</Point>
+      <Point>KAKLU</Point>
       <Point>SADAK</Point>
       <Point>ELATA</Point>
       <Point>NONAK</Point>
       <Point>RUPIK</Point>
       <Point>KLAVA</Point>
-      <Point>RIKAB</Point>
-      <Point>GULFS</Point>
-      <Point>LATUL</Point>
-      <Point>UGUXA</Point>
-      <Point>RUSSL</Point>
-      <Point>BUPLO</Point>
       <Point>AREPA</Point>
       <Point>VEPOK</Point>
       <Point>FRAZA</Point>
@@ -138,7 +128,7 @@
       <Point>MIA VOR</Point>
       <Point>TUMAN</Point>
       <Point>BORTO</Point>
-      <Point>DUKES</Point>
+      <Point>MAVTO</Point>
       <Point>DRINA</Point>
       <Point>KAMBI</Point>
       <Point>LUVOK</Point>
@@ -153,7 +143,7 @@
       <Point>SWH NDB</Point>
       <Point>MTG VOR</Point>
       <Point>RUVUS</Point>
-      <Point>ALEXI</Point>
+      <Point>INTOG</Point>
       <Point>ATPIP</Point>
       <Point>UPROT</Point>
       <Point>SILVN</Point>
@@ -163,6 +153,7 @@
       <Point>AVPAS</Point>
       <Point>ACTIN</Point>
       <Point>HOLIT</Point>
+      <Point>BEPKA</Point>
       <Point>DOTBO</Point>
       <Point>ALTRO</Point>
       <Point>BHI VOR</Point>

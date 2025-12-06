@@ -8,6 +8,65 @@
     </Runway>
     <!--SIDs-->
     <Line>
+      <!--Rwy28 ANKUB2-->
+      -333605.810+1504616.490/
+      -333555.000+1504551.000/
+      -333559.000+1504518.000/
+      -333616.000+1504501.000/
+      -333639.000+1504456.000/
+      -333700.000+1504510.000/
+      -333843.000+1504851.000/
+      ANKUB
+    </Line>
+    <Line>
+      <!--Rwy28 KADOM3-->
+      -333616.000+1504501.000/
+      -333653.000+1504305.000/
+      KADOM
+    </Line>
+    <Line>
+      <!--Rwy28 KADOM4-->
+      -333555.000+1504551.000/
+      -333545.921+1504530.704/
+      -333540.041+1504520.625/
+      -333532.793+1504511.926/
+      -333524.396+1504504.870/
+      -333515.106+1504459.672/
+      -333505.205+1504456.490/
+      -333454.994+1504455.420/
+      -333444.784+1504456.494/
+      -333434.884+1504459.681/
+      -333425.596+1504504.882/
+      -333417.201+1504511.939/
+      -333409.954+1504520.639/
+      -333404.076+1504530.716/
+      -333359.745+1504541.864/
+      -333357.093+1504553.746/
+      -333356.200+1504606.000/
+      -333357.093+1504618.254/
+      -333359.745+1504630.136/
+      -333404.076+1504641.284/
+      -333409.954+1504651.361/
+      -333417.201+1504700.061/
+      -333425.596+1504707.118/
+      -333434.884+1504712.319/
+      -333444.784+1504715.506/
+      -333454.994+1504716.580/
+      -333505.205+1504715.510/
+      -333515.106+1504712.328/
+      -333524.396+1504707.130/
+      -333532.793+1504700.074/
+      -333540.041+1504651.375/
+      -333545.921+1504641.296/
+      -333616.000+1504501.000
+    </Line>
+    <Line>
+      <!--Rwy28 MUDGI3-->
+      -333605.810+1504616.490/
+      -333330.000+1504334.000/
+      MUDGI
+    </Line>
+    <Line>
       <!--Rwy28 RIC4-->
       -333605.810+1504616.490/
       -333605.127+1504614.639/
@@ -17,10 +76,17 @@
     <Symbol Type="HollowTriangle">
       <Point>BUVLO</Point>
     </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ANKUB</Point>
+      <Point>KADOM</Point>
+      <Point>MUDGI</Point>
+    </Symbol>
   </Map>
   <Map Type="System" Name="RI_RWY28_NAMES" Priority="2" Center="-33.600556+150.780833">
     <Label>
+      <Point>ANKUB</Point>
       <Point>KADOM</Point>
+      <Point>MUDGI</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>
       <Point>ABARB</Point>
@@ -32,9 +98,15 @@
       <Point>WOL NDB</Point>
       <Point>LEECE</Point>
       <Point>CB VOR</Point>
+      <Point>LOKYA</Point>
       <Point>EMSUR</Point>
-      <Point>OVMIN</Point>
+      <Point>AVBID</Point>
       <Point>UPVEN</Point>
+      <Point>OLTIN</Point>
+      <Point>MONDO</Point>
+      <Point>LOWEP</Point>
+      <Point>YAKKA</Point>
+      <Point>MEPIL</Point>
       <Point>OLSEM</Point>
       <Point>UPNEX</Point>
       <Point>EKIPU</Point>
@@ -43,7 +115,6 @@
       <Point>BOYSY</Point>
       <Point>IDSUP</Point>
       <Point>EMROT</Point>
-      <Point>MUDGI</Point>
       <Point>UNSAR</Point>
       <Point>LASUD</Point>
       <Point>IDGIG</Point>
@@ -59,6 +130,7 @@
       <Point>CAWLY</Point>
       <Point>AKALU</Point>
       <Point>NONID</Point>
+      <Point>SAPOX</Point>
       <Point>RIKNI</Point>
       <Point>MARLN</Point>
       <Point>SANAD</Point>
@@ -81,19 +153,12 @@
       <Point>SCATZ</Point>
       <Point>ANBAN</Point>
       <Point>MAKOR</Point>
-      <Point>OLTIN</Point>
       <Point>WG VOR</Point>
       <Point>HAPPI</Point>
       <Point>AKMIR</Point>
       <Point>WELSH</Point>
       <Point>ODALE</Point>
       <Point>BTH NDB</Point>
-      <Point>ARM NDB</Point>
-      <Point>EKIBI</Point>
-      <Point>MONDO</Point>
-      <Point>LOWEP</Point>
-      <Point>YAKKA</Point>
-      <Point>MEPIL</Point>
       <Point>EBONY</Point>
       <Point>ARRAN</Point>
       <Point>NONUP</Point>

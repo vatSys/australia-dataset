@@ -12,7 +12,7 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy15 BOBOP4-->
+      <!--Rwy15 BOBO5A-->
       -273850.390+1524259.300/
       -274351.880+1524508.760/
       -274426.555+1524518.142/
@@ -21,12 +21,18 @@
       -274606.856+1524444.197/
       -274631.359+1524414.835/
       -274639.000+1524401.257/
+      DEBEE/
+      BOBOP
+    </Line>
+    <Line>
+      <!--Rwy15 BOBO5T-->
+      -274639.000+1524401.257/
       -274648.310+1524339.328/
       -275046.570+1523314.030/
       BOBOP
     </Line>
     <Line>
-      <!--Rwy15 BRISY2-->
+      <!--Rwy15 BRISY3-->
       -274351.880+1524508.760/
       -274449.309+1524555.439/
       -274518.335+1524708.425/
@@ -45,7 +51,24 @@
       BN VOR
     </Line>
     <Line>
-      <!--Rwy15 JEDDA4-->
+      <!--Rwy15 BYRON1-->
+      -273850.390+1524259.300/
+      COWIE/
+      KIWEE/
+      ZANET/
+      LOTMA/
+      SEMAJ
+    </Line>
+    <Line>
+      <!--Rwy15 CENTR5-->
+      -273850.390+1524259.300/
+      BINUP/
+      MURJO/
+      BOBED/
+      VIRGE
+    </Line>
+    <Line>
+      <!--Rwy15 JEDA5A-->
       -274351.880+1524508.760/
       -274502.252+1524516.965/
       -274606.856+1524444.197/
@@ -53,48 +76,188 @@
       -274655.470+1524219.675/
       -274626.444+1524106.671/
       -274606.211+1524044.087/
+      RUDEY/
+      JEDDA
+    </Line>
+    <Line>
+      <!--Rwy15 JEDA5T-->
+      -274606.211+1524044.087/
       -274519.580+1524018.040/
       -273245.380+1523339.990/
       JEDDA
     </Line>
     <Line>
-      <!--Rwy15 MESED4-->
+      <!--Rwy15 MESE5A-->
+      -274606.211+1524044.087/
+      IMATI/
+      MESED
+    </Line>
+    <Line>
+      <!--Rwy15 MESE5T-->
       -274519.580+1524018.040/
       -273340.410+1523021.670/
       MESED
     </Line>
     <Line>
-      <!--Rwy15 TATEN1-->
+      <!--Rwy15 NORTH5-->
+      BOBED/
+      LESKO
+    </Line>
+    <Line>
+      <!--Rwy15 NORTH5.ADNUK-->
+      LESKO/
+      ADNUK
+    </Line>
+    <Line>
+      <!--Rwy15 NORTH5.MOSSI-->
+      LESKO/
+      MOSSI
+    </Line>
+    <Line>
+      <!--Rwy15 TATE2A-->
       -274351.880+1524508.760/
       -274427.011+1524518.265/
       -274503.178+1524517.073/
       -274537.839+1524505.344/
+      -274556.913+1524453.430/
+      PAMRI/
+      TATEN
+    </Line>
+    <Line>
+      <!--Rwy15 TATE2T-->
       -274556.913+1524453.430/
       -274606.859+1524444.217/
       -275029.840+1524026.690/
       TATEN
     </Line>
     <!--STARs-->
+    <Line>
+      <!--Rwy15 BYRON2-->
+      SEMAJ/
+      LOTMA/
+      ZANET/
+      LAGOB/
+      TUGUN/
+      AMB TAC/
+      BIGIX
+    </Line>
+    <Line>
+      <!--Rwy15 CENTR6-->
+      VIRGE/
+      BOBED/
+      JEZZA/
+      ANKED/
+      AMB TAC
+    </Line>
+    <Line>
+      <!--Rwy15 NORTH5.ADNUK-->
+      ADNUK/
+      LESKO
+    </Line>
+    <Line>
+      <!--Rwy15 NORTH5.MOSSI-->
+      MOSSI/
+      LESKO
+    </Line>
+    <Line>
+      <!--Rwy15 NORTH5-->
+      LESKO/
+      BOBED
+    </Line>
+    <Line>
+      <!--Rwy04 BYRON2-->
+    </Line>
+    <Line>
+      <!--Rwy04 CENTR6-->
+    </Line>
+    <Line>
+      <!--Rwy04 NORTH5.ADNUK-->
+    </Line>
+    <Line>
+      <!--Rwy04 NORTH5.MOSSI-->
+    </Line>
+    <Line>
+      <!--Rwy04 NORTH5-->
+    </Line>
+    <Line>
+      <!--Rwy22 BYRON2-->
+    </Line>
+    <Line>
+      <!--Rwy22 CENTR6-->
+    </Line>
+    <Line>
+      <!--Rwy22 NORTH5.ADNUK-->
+    </Line>
+    <Line>
+      <!--Rwy22 NORTH5.MOSSI-->
+    </Line>
+    <Line>
+      <!--Rwy22 NORTH5-->
+    </Line>
     <Symbol Type="HollowTriangle">
+      <Point>BIGIX</Point>
       <Point>OREBI</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>BN VOR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
+      <Point>DEBEE</Point>
       <Point>BOBOP</Point>
+      <Point>COWIE</Point>
+      <Point>KIWEE</Point>
+      <Point>ZANET</Point>
+      <Point>LOTMA</Point>
+      <Point>SEMAJ</Point>
+      <Point>BINUP</Point>
+      <Point>MURJO</Point>
+      <Point>BOBED</Point>
+      <Point>VIRGE</Point>
+      <Point>RUDEY</Point>
       <Point>JEDDA</Point>
+      <Point>IMATI</Point>
       <Point>MESED</Point>
+      <Point>LESKO</Point>
+      <Point>ADNUK</Point>
+      <Point>MOSSI</Point>
+      <Point>PAMRI</Point>
       <Point>TATEN</Point>
+      <Point>LAGOB</Point>
+      <Point>TUGUN</Point>
+      <Point>AMB TAC</Point>
+      <Point>JEZZA</Point>
+      <Point>ANKED</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="AMB_RWY15_NAMES" Priority="2" Center="-27.640556+152.711944">
     <Label>
+      <Point>DEBEE</Point>
       <Point>BOBOP</Point>
       <Point>BN VOR</Point>
+      <Point>COWIE</Point>
+      <Point>KIWEE</Point>
+      <Point>ZANET</Point>
+      <Point>LOTMA</Point>
+      <Point>SEMAJ</Point>
+      <Point>BINUP</Point>
+      <Point>MURJO</Point>
+      <Point>BOBED</Point>
+      <Point>VIRGE</Point>
+      <Point>RUDEY</Point>
       <Point>JEDDA</Point>
+      <Point>IMATI</Point>
       <Point>MESED</Point>
+      <Point>LESKO</Point>
+      <Point>ADNUK</Point>
+      <Point>MOSSI</Point>
+      <Point>PAMRI</Point>
       <Point>TATEN</Point>
+      <Point>LAGOB</Point>
+      <Point>TUGUN</Point>
+      <Point>AMB TAC</Point>
+      <Point>BIGIX</Point>
+      <Point>JEZZA</Point>
+      <Point>ANKED</Point>
       <Point>UNVAT</Point>
       <Point>GOMOL</Point>
       <Point>BNA NDB</Point>

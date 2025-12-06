@@ -217,29 +217,57 @@
 	</TrackSymbol>
 			
 	<!-- Ground Diamond -->
-	<TrackSymbol Type="Ground" StrokeWidth="0">
+	<TrackSymbol Type="Ground" StrokeWidth="1">
 		<PathGeometry>
-			<Figure Start="0,-6" FigureBegin="Filled" FigureEnd="Closed">
-				<Line>-4, 2</Line>
-				<Line>0, 6</Line>
-				<Line>4, 2</Line>
+			<Figure Start="0,-7.5" FigureBegin="Filled" FigureEnd="Closed">
+				<Line>-5.5, 3.5</Line>
+				<Line>0, 7.5</Line>
+				<Line>5.5, 3.5</Line>
 			</Figure>
 		</PathGeometry>
 	</TrackSymbol>
 	
 	<!-- Ground Circle -->
 	<TrackSymbol Type="GroundLight" StrokeWidth="0">
-		<EllipseGeometry Center="0,0" RadiusX="6" RadiusY="6" />
+		<PathGeometry>
+			<Figure Start="0,-5.5" FigureBegin="Filled" FigureEnd="Closed">
+				<Line>-3.5, 1.5</Line>
+				<Line>0, 5.5</Line>
+				<Line>3.5, 1.5</Line>
+			</Figure>
+		</PathGeometry>
 	</TrackSymbol>
 	
 	<!-- Ground Circle -->
 	<TrackSymbol Type="GroundMedium" StrokeWidth="0">
-		<EllipseGeometry Center="0,0" RadiusX="6" RadiusY="6" />
+		<PathGeometry>
+			<Figure Start="0,-7.5" FigureBegin="Filled" FigureEnd="Closed">
+				<Line>-5.5, 3.5</Line>
+				<Line>0, 7.5</Line>
+				<Line>5.5, 3.5</Line>
+			</Figure>
+		</PathGeometry>
 	</TrackSymbol>
 	
 	<!-- Ground Circle -->
-	<TrackSymbol Type="GroundHeavy" StrokeWidth="5">
-		<EllipseGeometry Center="0,0" RadiusX="5" RadiusY="5" />
+	<TrackSymbol Type="GroundHeavy" StrokeWidth="0">
+		<PathGeometry>
+			<Figure Start="0,-9" FigureBegin="Filled" FigureEnd="Closed">
+				<Line>-7, 5</Line>
+				<Line>0, 9</Line>
+				<Line>7, 5</Line>
+			</Figure>
+		</PathGeometry>
+	</TrackSymbol>
+
+	<TrackSymbol Type="GroundSuper" StrokeWidth="0">
+		<PathGeometry>
+			<Figure Start="0,-10" FigureBegin="Filled" FigureEnd="Closed">
+				<Line>-9, 6.5</Line>
+				<Line>0, 10</Line>
+				<Line>9, 6.5</Line>
+			</Figure>
+		</PathGeometry>
 	</TrackSymbol>
 
 </TrackSymbols>

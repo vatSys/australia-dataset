@@ -6,11 +6,30 @@ Scheduled AIRAC updates to the dataset occur once every three months according t
 
 The VATPAC AIS Team may issue intermediate AIRAC Updates as required.
 
-### Community Update Submissions
+### Community Contributions
+The majority of files in the dataset are prepared using third-party software which overwrites manual changes each update. For this reason, these files can not be directly edited by members outside of the AIS team. If you notice an error have a suggestion for a change, it would be greatly appreciated if you could submit your comments via the [VATPAC Helpdesk](https://helpdesk.vatpac.org).
 
-Community members may contribute to the dataset by making a pull request to the relevant AIRAC draft branch. These requests must be submitted **one week** before the designated AIRAC Effective Date to be considered for integration.
+The following files are **not** updated in this way, meaning that community members may fork the repo and make direct edits to these files.
+
+```
+Except for Airspace.xml and RestrictedAreas.xml all other files in the root folder of the profile dataset are manually maintained and not updated as part of a vatSys export.
+
+In the Maps folder the following files are manually maintained and not updated as part of a vatSys export:
+a) COAST_ALL.xml 
+b) FIR_BOUNDARIES.xml 
+c) ALL_CTA.xml 
+d) ALL_SECTORS.xml 
+e) ASMGCS_TAXI_ALL.xml 
+f) BAY_NUMBERS.xml
+g) Within each Airport folder, XX RTCC.xml, ASMGCS_XXXX.xml and XX_VOR.xml
+```
+
+Non-AIS Staff/Community members may contribute to the dataset to edit the above mentioned files by making a pull request to the relevant AIRAC draft branch. These requests must be submitted **two weeks** before the designated AIRAC Effective Date to be considered for integration.
 
 Pull requests to the master branch will not be approved.
+
+**Note:** Major changes (E.g. TCU/ENR/Aerodrome changes) must be discussed with the AIS team directly as an [issue](https://github.com/vatSys/australia-dataset/issues) before commencing work on the change.
+
 
 # Data Preparation
 

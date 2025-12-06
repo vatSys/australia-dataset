@@ -1,0 +1,76 @@
+- assign_dep_rwy: "true"
+- CFL: "030"
+- if:
+    jet: "true"
+  CFL: "050"
+# Dual RWYs
+- if:
+    atis_dep_rwy: ["34L", "34R"]
+    radials: ["0-155", "335-360"]
+  runway: "34R"
+- if:
+    atis_dep_rwy: ["34L", "34R"]
+    radials: ["155-335"]
+  runway: "34L"
+- if:
+    atis_dep_rwy: ["16L", "16R"]
+    radials: ["0-155", "335-360"]
+  runway: "16L"
+- if:
+    atis_dep_rwy: ["16L", "16R"]
+    radials: ["155-335"]
+  runway: "16R"
+- if:
+    waypoint: ["WOL"]
+    jet: "true"
+    atis_dep_rwy: ["34L", "34R"]
+  runway: "34R"
+# SIDs
+# RWY 16L
+- if:
+    jet: "true"
+    runway: ["16L"]
+  SID: "KEVIN"
+- if:
+    jet: "true"
+    runway: ["16L"]
+    waypoint: ["WOL"]
+  SID: "ABBEY"
+# RWY 16R
+- if:
+    jet: "true"
+    runway: ["16R"]
+  SID: "GROOK"
+# RWY 34L
+- if:
+    jet: "true"
+    runway: ["34L"]
+  SID: "RIC"
+- if:
+    jet: "true"
+    runway: ["34L"]
+    waypoint: ["WOL"]
+  SID: "WOL"
+- if:
+    jet: "true"
+    runway: ["34L"]
+    waypoint: ["KADOM"]
+  SID: "KADOM"
+
+# RWY 34R
+- if:
+    jet: "true"
+    runway: ["34R"]
+  SID: "MARUB"
+- if:
+    jet: "true"
+    runway: ["34R"]
+    waypoint: ["OLSEM"]
+  SID: "OLSEM"
+# Frequencies
+- if:
+    runway: ["07", "34L", "34R"]
+  departures: ["123.0", "129.7", "124.4", "128.3", "126.1", "125.3", "124.55", "129.8", "128.4"]
+- if:
+    runway: ["25", "16L", "16R"]
+  departures: ["129.7", "123.0", "124.4", "128.3", "126.1", "125.3", "124.55", "129.8", "128.4"]

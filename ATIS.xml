@@ -38,7 +38,7 @@
     <Frequency Airport="YSCN" Frequency="125.1" />
     <Frequency Airport="YSNW" Frequency="125.65" />
     <Frequency Airport="YSRI" Frequency="126.3" />
-    <Frequency Airport="YSSY" Frequency="126.25" />
+    <Frequency Airport="YSSY" Frequency="118.55" />
     <Frequency Airport="YSTW" Frequency="123.8" />
     <Frequency Airport="YWLM" Frequency="134.45" />
     <Frequency Airport="YBSG" Frequency="132.25" />
@@ -65,7 +65,8 @@
     <Translation String="YBAS" Spoken="Alice" />
     <Translation String="YBBN" Spoken="Brisbane" />
     <Translation String="YBCG" Spoken="Gold Coast" />
-    <Translation String="YBCS" Spoken="Cairns" />
+    <Translation String="YBCS" Spoken="kɛrns" Alphabet="IPA" FallbackSpoken="Cans" />
+    <Translation String="Cairns" Spoken="kɛrns" Alphabet="IPA" FallbackSpoken="Cans"/>
     <Translation String="YBHM" Spoken="Hamilton Island" />
     <Translation String="YBMK" Spoken="Mackay" />
     <Translation String="YBOK" Spoken="Oakey" />
@@ -73,7 +74,8 @@
     <Translation String="YBRM" Spoken="Broome" />
     <Translation String="YBSG" Spoken="Scherger" />
     <Translation String="YBSU" Spoken="Sunshine Coast" />
-    <Translation String="YBTL" Spoken="Townsville" />
+    <Translation String="YBTL" Spoken="Towns ville" />
+    <Translation String="Townsville" Spoken="Towns ville" />
     <Translation String="YCFS" Spoken="Coffs Harbour" />
     <Translation String="YCIN" Spoken="Curtin" />
     <Translation String="YGIG" Spoken="GinGin" />
@@ -156,7 +158,7 @@
     <Translation String="HIRL" Spoken="high intensity runway lighting" />
     <Translation String="HIAL" Spoken="high intensity approach lighting" />
     <Translation String="OPS" Spoken="operations" />
-    <Translation String="PROG" Spoken="progress" />
+    <Translation Regex="^(PROG|PROGRESS)$" Spoken="progress" />
     <Translation String="INDEP" Spoken="independent" />
     <Translation String="AVBL" Spoken="available" />
     <Translation String="REQ" Spoken="request" />  
@@ -204,6 +206,77 @@
     <Translation String="HLDG" Spoken="holding" />
     <Translation String="MINS" Spoken="minutes" />
     <Translation String="TRL" Spoken="transition level" />
+	  <Translation String="WOL" Spoken="wollongong" />
+	  <Translation String="SOLUS" Spoken="sohluss" />
+	  <Translation String="MNG" Spoken="mangalore" />
+	  <Translation String="BOGES" Spoken="bogezz" />
+	  <Translation String="NONIX" Spoken="nonnix" />
+	  <Translation String="OCNL" Spoken="occasional" />
+	  <Translation String="LEN" Spoken="length" />
+	  <Translation String="THR" Spoken="threshold" />
+	  <Translation String="NML" Spoken="normal" />
+	  <Translation String="LDA" Spoken="landing distance available" />
+	  <Translation String="TORA" Spoken="takeoff runway available" />
+	  <Translation String="TODA" Spoken="takeoff distance available" />
+	  <Translation String="DISP" Spoken="displaced" />
+	  <Translation String="RESTR" Spoken="restrictions" />
+	  <Translation String="ADDN" Spoken="additional" />
+	  <Translation String="NM" Spoken="nautical miles" />
+	  <Translation String="POSS" Spoken="possible" />
+	  <Translation String="REP" Spoken="reported" />
+	  <Translation String="OBS" Spoken="observed" />
+	  <Translation String="WS" Spoken="wind shear" />
+	  <Translation String="WRNG" Spoken="warning" />
+	  <Translation String="PROCS" Spoken="procedures" />
+	  <Translation String="RQ" Spoken="required" />
+	  <Translation String="FAC" Spoken="facility" />
+	  <Translation String="MN" Spoken="mean" />
+	  <Translation String="KT" Spoken="knots" />
+	  <Translation String="CAT" Spoken="category" />
+	  <Translation String="VRBL" Spoken="variable" />
+	  <Translation String="FCST" Spoken="forecast" />
+	  <Translation String="AD" Spoken="aerodrome" />
+	  <Translation String="MX" Spoken="maxiumum" />
+	  <Translation String="VIA" Spoken="vɪˈə" Alphabet="IPA" FallbackSpoken="vee-ah" />
+    	  <Translation String="CLSD" Spoken="closed" />
+	  <Translation String="LV" Spoken="light and variable" />
+	  <Translation String="SWS" Spoken="soft wet surface" />
+	  <Translation String="CTAF" Spoken="seetaf" />
+	  <Translation String="PAL" Spoken="pal" />
+	  <Translation String="AWIS" Spoken="aywiss" />
+	  <Translation String="AFRU" Spoken="aerodrome frequency response unit" />
+	  <Translation String="AIP" Spoken="a i p" />
+	  <Translation String="ERSA" Spoken="ersa" />
+	  <Translation String="LT" Spoken="light" />
+	  <Translation String="COND" Spoken="condition" />
+	  <Translation String="SFC" Spoken="surface" />
+	  <Translation String="GP" Spoken="glide path" />
+	  <Translation String="MBZ" Spoken="mandatory broadcast zone" />
+	  <Translation String="PAPI" Spoken="papi" />
+	  <Translation String="GT 10KM" Spoken="greater than one zero kilometres" />
+	  <Translation String="GREATER THAN 10 KM" Spoken="greater than one zero kilometres" />
+	  <Translation String="9999" Spoken="greater than one zero kilometres" />
+	  <Translation String="B707" Spoken="boeing seven zero seven" />
+	  <Translation String="B717" Spoken="boeing seven one seven" />
+	  <Translation String="B727" Spoken="boeing seven two seven" />
+	  <Translation String="B737" Spoken="boeing seven three seven" />
+	  <Translation String="B747" Spoken="boeing seven four seven" />
+	  <Translation String="B757" Spoken="boeing seven five seven" />
+	  <Translation String="B767" Spoken="boeing seven six seven" />
+	  <Translation String="B777" Spoken="boeing seven seven seven" />
+	  <Translation String="B787" Spoken="boeing seven eight seven" />
+	  <Translation String="A300" Spoken="airbus three hundred" />
+	  <Translation String="A310" Spoken="airbus three ten" />
+	  <Translation String="A320" Spoken="airbus three twenty" />
+	  <Translation String="A330" Spoken="airbus three thirty" />
+	  <Translation String="A340" Spoken="airbus three fourty" />
+	  <Translation String="A350" Spoken="airbus three fifty" />
+	  <Translation String="A380" Spoken="airbus three eighty" />
+	  <Translation String="DH8A" Spoken="dash eight" />
+	  <Translation String="DH8B" Spoken="dash eight" />
+	  <Translation String="DH8C" Spoken="dash eight" />
+	  <Translation String="DH8D" Spoken="dash eight" />
+	  <Translation String="SF34" Spoken="sahb three four zero" />
 
     <Translation String="AWY" Spoken="airway" />
     <Translation String="CLR" Spoken="clearance" />
@@ -240,6 +313,8 @@
 	  
     <!--Changes cloud to abbreviation and altitude * 100 without leading zeros-->
     <Translation Regex="(FEW|SCT|BKN|OVC)[0]{0,2}(\d+)" Spoken="$1 ${2}00 feet" />
+    <Translation Regex="(FEW|SCT|BKN|OVC)[0]{0,2}(\d+)(TCU)" Spoken="$1 ${2}00 feet towering cumulus" />
+    <Translation Regex="(FEW|SCT|BKN|OVC)[0]{0,2}(\d+)(CB)" Spoken="$1 ${2}00 feet cumulonimbus" />
     <Translation String="FT" Spoken="feet" />
     <Translation String="FEW" Spoken="few" />
     <Translation String="SCT" Spoken="scattered" />
@@ -256,6 +331,7 @@
     <Translation String="NSC" Spoken="nil significant cloud" />
     <Translation Regex="\+([A-Z]+)" Spoken="heavy $1" />
     <Translation Regex="\-([A-Z]+)" Spoken="light $1" />
+    <Translation Regex="(?:^|[^A-Z])RE(SH|SHRA|DZ|GR|SN|SG|DU|SA|SS|DS|FG|RA|GS|FU|BR|HZ|PO|SQ|FC|VA|IC|PL|VCSH|SIA|TS|VCTS|TSRA|TSRAGS|TCU)" Spoken="recent $1" />
     <Translation String="MI" Spoken="shallow" />
     <Translation String="BC" Spoken="patches" />
     <Translation String="PR" Spoken="partial" />
@@ -288,6 +364,7 @@
     <Translation String="VCSH" Spoken="showers in area" />
     <Translation String="SIA" Spoken="showers in area" />
     <Translation String="TS" Spoken="thunderstorm" />
+    <Translation String="VCTS" Spoken="thunderstorms in area" />
     <Translation String="TSRA" Spoken="thunderstorms and rain" />
     <Translation String="TSRAGS" Spoken="thunderstorms and rain with hail" />
     <Translation String="TCU" Spoken="towering cumulus" />

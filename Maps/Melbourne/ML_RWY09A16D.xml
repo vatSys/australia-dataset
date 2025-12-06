@@ -12,29 +12,29 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy16 CORRS9-->
+      <!--Rwy16 CORRS1-->
       -374108.800+1445027.600/
       YARRA/
       CORRS
     </Line>
     <Line>
-      <!--Rwy16 CRENA2-->
+      <!--Rwy16 CRENA3-->
       -374108.800+1445027.600/
       HORSH/
-      ALBAK/
+      OLSUN/
       VIDAR/
       MARSH/
       CRENA
     </Line>
     <Line>
-      <!--Rwy16 DOSEL1-->
-      ALBAK/
+      <!--Rwy16 DOSEL2-->
+      OLSUN/
       CHIMU/
-      SALLY/
+      OKIKA/
       DOSEL
     </Line>
     <Line>
-      <!--Rwy16 ESDIG4-->
+      <!--Rwy16 ESDIG5-->
       MARSH/
       ESDIG
     </Line>
@@ -44,35 +44,44 @@
       ISPEG
     </Line>
     <Line>
-      <!--Rwy16 KEPPA2-->
-      ALBAK/
+      <!--Rwy16 KEPPA3-->
+      OLSUN/
       ABVOG/
       KEPPA
     </Line>
     <Line>
-      <!--Rwy16 MNG3-->
-      SALLY/
+      <!--Rwy16 MNG4-->
+      OKIKA/
       MNG VOR
     </Line>
     <Line>
-      <!--Rwy16 NEVIS7-->
-      ALBAK/
-      LILMI/
-      NEVIS
-    </Line>
-    <Line>
-      <!--Rwy16 NONIX3-->
-      SALLY/
+      <!--Rwy16 NONIX4-->
+      OKIKA/
       NONIX
     </Line>
     <Line>
-      <!--Rwy16 SUNTI3-->
+      <!--Rwy16 PEDNI1-->
+      OLSUN/
+      LILMI/
+      PEDNI
+    </Line>
+    <Line>
+      <!--Rwy16 SUNTI4-->
       YARRA/
       SUNTI
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy09 ARBE7A-->
+      <!--Rwy09 ALAX1A-->
+      ALAXO/
+      NIXEN/
+      IKUNA/
+      RIPMO/
+      AVPIX/
+      GUPUG
+    </Line>
+    <Line>
+      <!--Rwy09 ARBE8A-->
       ARBEY/
       TUNKA/
       DABUX/
@@ -81,60 +90,51 @@
       GUPUG
     </Line>
     <Line>
-      <!--Rwy09 BOYS8A-->
-      BOYSE/
-      VALES/
-      LUSTU/
-      ANBEL/
-      BUVIV/
+      <!--Rwy09 BOIN1A-->
+      BOOIN/
+      MAXAL/
+      SEKNU/
+      ENSEG/
       NEFER/
       BELTA/
       OPAVA
     </Line>
     <Line>
-      <!--Rwy09 LIZI9A-->
-      LIZZI/
-      MAXAL/
-      HORUS/
-      ENSEG/
+      <!--Rwy09 BOYS9A-->
+      BOYSE/
+      VALES/
+      LUSTU/
+      ANBEL/
+      BUVIV/
       NEFER
     </Line>
     <Line>
-      <!--Rwy09 PORT7A.MILLA-->
-      MILLA/
+      <!--Rwy09 PORT8A.MILLA-->
+      TASIS/
       EKKAS/
       PORTS
     </Line>
     <Line>
-      <!--Rwy09 PORT7A.ONAGI-->
+      <!--Rwy09 PORT8A.ONAGI-->
       ONAGI/
       LATTA/
       PORTS
     </Line>
     <Line>
-      <!--Rwy09 PORT7A-->
+      <!--Rwy09 PORT8A-->
       PORTS/
       KEVEK/
       MISCH/
-      RIPMO/
-      AVPIX/
-      GUPUG
+      RIPMO
     </Line>
     <Line>
-      <!--Rwy09 WARE8A-->
-      WAREN/
+      <!--Rwy09 RAZI1A-->
+      RAZZI/
       MICHM/
-      MONTY/
-      SANDR/
+      MOSVO/
+      OMBAT/
       AGTEV/
       BELTA
-    </Line>
-    <Line>
-      <!--Rwy09 WEND1A-->
-      WENDY/
-      NIXEN/
-      TEENA/
-      RIPMO
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>GUPUG</Point>
@@ -148,54 +148,54 @@
     <Symbol Type="HollowStar">
       <Point>YARRA</Point>
       <Point>CORRS</Point>
-      <Point>ALBAK</Point>
+      <Point>OLSUN</Point>
       <Point>VIDAR</Point>
       <Point>MARSH</Point>
       <Point>CRENA</Point>
       <Point>CHIMU</Point>
-      <Point>SALLY</Point>
+      <Point>OKIKA</Point>
       <Point>DOSEL</Point>
       <Point>ESDIG</Point>
       <Point>ISPEG</Point>
       <Point>ABVOG</Point>
       <Point>KEPPA</Point>
-      <Point>LILMI</Point>
-      <Point>NEVIS</Point>
       <Point>NONIX</Point>
+      <Point>LILMI</Point>
+      <Point>PEDNI</Point>
       <Point>SUNTI</Point>
+      <Point>ALAXO</Point>
+      <Point>NIXEN</Point>
+      <Point>IKUNA</Point>
+      <Point>RIPMO</Point>
+      <Point>AVPIX</Point>
       <Point>ARBEY</Point>
       <Point>TUNKA</Point>
       <Point>DABUX</Point>
       <Point>OPAVA</Point>
       <Point>UPKAN</Point>
+      <Point>BOOIN</Point>
+      <Point>MAXAL</Point>
+      <Point>SEKNU</Point>
+      <Point>ENSEG</Point>
+      <Point>NEFER</Point>
+      <Point>BELTA</Point>
       <Point>BOYSE</Point>
       <Point>VALES</Point>
       <Point>LUSTU</Point>
       <Point>ANBEL</Point>
       <Point>BUVIV</Point>
-      <Point>NEFER</Point>
-      <Point>BELTA</Point>
-      <Point>LIZZI</Point>
-      <Point>MAXAL</Point>
-      <Point>HORUS</Point>
-      <Point>ENSEG</Point>
-      <Point>MILLA</Point>
-      <Point>EKKAS</Point>
       <Point>PORTS</Point>
-      <Point>ONAGI</Point>
-      <Point>LATTA</Point>
       <Point>KEVEK</Point>
       <Point>MISCH</Point>
-      <Point>RIPMO</Point>
-      <Point>AVPIX</Point>
-      <Point>WAREN</Point>
+      <Point>TASIS</Point>
+      <Point>EKKAS</Point>
+      <Point>ONAGI</Point>
+      <Point>LATTA</Point>
+      <Point>RAZZI</Point>
       <Point>MICHM</Point>
-      <Point>MONTY</Point>
-      <Point>SANDR</Point>
+      <Point>MOSVO</Point>
+      <Point>OMBAT</Point>
       <Point>AGTEV</Point>
-      <Point>WENDY</Point>
-      <Point>NIXEN</Point>
-      <Point>TEENA</Point>
     </Symbol>
     <!--(ML) RWY09A16D Airspace-->
     <Line Name="(ML) RWY09A16D_MDN-NW" Width="1.7" Pattern="Dotted">
@@ -222,65 +222,66 @@
       <Point>YARRA</Point>
       <Point>CORRS</Point>
       <Point>HORSH</Point>
-      <Point>ALBAK</Point>
+      <Point>OLSUN</Point>
       <Point>VIDAR</Point>
       <Point>MARSH</Point>
       <Point>CRENA</Point>
       <Point>CHIMU</Point>
-      <Point>SALLY</Point>
+      <Point>OKIKA</Point>
       <Point>DOSEL</Point>
       <Point>ESDIG</Point>
       <Point>ISPEG</Point>
       <Point>ABVOG</Point>
       <Point>KEPPA</Point>
       <Point>MNG VOR</Point>
-      <Point>LILMI</Point>
-      <Point>NEVIS</Point>
       <Point>NONIX</Point>
+      <Point>LILMI</Point>
+      <Point>PEDNI</Point>
       <Point>SUNTI</Point>
+      <Point>ALAXO</Point>
+      <Point>NIXEN</Point>
+      <Point>IKUNA</Point>
+      <Point>RIPMO</Point>
+      <Point>AVPIX</Point>
+      <Point>GUPUG</Point>
       <Point>ARBEY</Point>
       <Point>TUNKA</Point>
       <Point>DABUX</Point>
       <Point>OPAVA</Point>
       <Point>UPKAN</Point>
-      <Point>GUPUG</Point>
+      <Point>BOOIN</Point>
+      <Point>MAXAL</Point>
+      <Point>SEKNU</Point>
+      <Point>ENSEG</Point>
+      <Point>NEFER</Point>
+      <Point>BELTA</Point>
       <Point>BOYSE</Point>
       <Point>VALES</Point>
       <Point>LUSTU</Point>
       <Point>ANBEL</Point>
       <Point>BUVIV</Point>
-      <Point>NEFER</Point>
-      <Point>BELTA</Point>
-      <Point>LIZZI</Point>
-      <Point>MAXAL</Point>
-      <Point>HORUS</Point>
-      <Point>ENSEG</Point>
-      <Point>MILLA</Point>
+      <Point>TASIS</Point>
       <Point>EKKAS</Point>
       <Point>PORTS</Point>
       <Point>ONAGI</Point>
       <Point>LATTA</Point>
       <Point>KEVEK</Point>
       <Point>MISCH</Point>
-      <Point>RIPMO</Point>
-      <Point>AVPIX</Point>
-      <Point>WAREN</Point>
+      <Point>RAZZI</Point>
       <Point>MICHM</Point>
-      <Point>MONTY</Point>
-      <Point>SANDR</Point>
+      <Point>MOSVO</Point>
+      <Point>OMBAT</Point>
       <Point>AGTEV</Point>
-      <Point>WENDY</Point>
-      <Point>NIXEN</Point>
-      <Point>TEENA</Point>
       <Point>KACEY</Point>
       <Point>NATYA</Point>
       <Point>SALRI</Point>
-      <Point>CANTY</Point>
+      <Point>DORSU</Point>
       <Point>AKNUM</Point>
       <Point>AVNAS</Point>
+      <Point>AHOSK</Point>
       <Point>IRSOM</Point>
       <Point>BORTO</Point>
-      <Point>DUKES</Point>
+      <Point>MAVTO</Point>
       <Point>BADGR</Point>
       <Point>ANGEX</Point>
       <Point>TANTA</Point>

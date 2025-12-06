@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="NW_RWY21A26D" Priority="1" Center="-34.948889+150.536944">
+    <!--YSNW-->
+    <Runway Name="03/21">
+      <Threshold Name="03" Position="-34.948839+150.536464" />
+      <Threshold Name="21" Position="-34.935658+150.552131" ExtendedCentrelineTrack="44.39" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-34.947867+150.526597" />
+      <Threshold Name="26" Position="-34.949247+150.548464" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy26 ABASS5-->
+      -345652.320+1503135.750/
+      -345637.000+1502752.000/
+      -345625.000+1502731.000/
+      -345604.000+1502721.000/
+      -345547.000+1502741.000/
+      -345506.000+1503417.000/
+      ABASS
+    </Line>
+    <Line>
+      <!--Rwy26 AKMIR3-->
+      -345604.000+1502721.000/
+      -345308.000+1503009.000/
+      AKMIR
+    </Line>
+    <Line>
+      <!--Rwy26 CB5-->
+      -345637.000+1502752.000/
+      -345649.000+1502726.000/
+      -345703.000+1502708.000/
+      -345822.000+1502645.000/
+      CB NDB
+    </Line>
+    <Line>
+      <!--Rwy26 COM5-->
+      -345703.000+1502708.000/
+      -345722.000+1502716.000/
+      -350013.000+1502839.000/
+      COM NDB
+    </Line>
+    <Line>
+      <!--Rwy26 GLB5-->
+      -345625.000+1502731.000/
+      GLB NDB
+    </Line>
+    <Line>
+      <!--Rwy26 NWA5-->
+      -345652.320+1503135.750/
+      -345652.372+1503135.731/
+      -345644.414+1502917.087
+    </Line>
+    <Line>
+      <!--Rwy26 TONTO5-->
+      -345604.000+1502721.000/
+      -344936.000+1503328.000/
+      TONTO
+    </Line>
+    <Line>
+      <!--Rwy26 URBOB3-->
+      -345722.000+1502716.000/
+      -350240.000+1502952.000/
+      URBOB
+    </Line>
+    <Line>
+      <!--Rwy26 WOL5-->
+      -345547.000+1502741.000/
+      -345511.000+1503327.000/
+      WOL NDB
+    </Line>
+    <!--STARs-->
+    <Symbol Type="Circle">
+      <Point>CB NDB</Point>
+      <Point>COM NDB</Point>
+      <Point>GLB NDB</Point>
+      <Point>WOL NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ABASS</Point>
+      <Point>AKMIR</Point>
+      <Point>TONTO</Point>
+      <Point>URBOB</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="NW_RWY21A26D_NAMES" Priority="2" Center="-34.948889+150.536944">
+    <Label>
+      <Point>ABASS</Point>
+      <Point>AKMIR</Point>
+      <Point>CB NDB</Point>
+      <Point>COM NDB</Point>
+      <Point>GLB NDB</Point>
+      <Point>TONTO</Point>
+      <Point>URBOB</Point>
+      <Point>WOL NDB</Point>
+      <Point>WLM NDB</Point>
+      <Point>LIMLO</Point>
+      <Point>URKIX</Point>
+      <Point>OMLAV</Point>
+      <Point>RIC TAC</Point>
+      <Point>RAKSO</Point>
+      <Point>MER NDB</Point>
+      <Point>OTKED</Point>
+      <Point>JANGU</Point>
+      <Point>REVKI</Point>
+      <Point>BTH NDB</Point>
+      <Point>MUDGI</Point>
+      <Point>AVBEG</Point>
+    </Label>
+  </Map>
+</Maps>

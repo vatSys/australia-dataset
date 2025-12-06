@@ -7,8 +7,8 @@
       <Threshold Name="34R" Position="-33.970756+151.193811" />
     </Runway>
     <Runway Name="16R/34L">
-      <Threshold Name="16R" Position="-33.930097+151.171786" />
-      <Threshold Name="34L" Position="-33.964264+151.180647" ExtendedCentrelineTrack="167.81" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
+      <Threshold Name="16R" Position="-33.930097+151.171783" />
+      <Threshold Name="34L" Position="-33.964264+151.180647" ExtendedCentrelineTrack="167.8" ExtendedCentrelineLength="20" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -61,7 +61,7 @@
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy34L BORE3A-->
+      <!--Rwy34L BORE4A-->
       BOREE/
       VASRA/
       BEROW/
@@ -101,7 +101,7 @@
       TESAT
     </Line>
     <Line>
-      <!--Rwy34L RIVET3-->
+      <!--Rwy34L RIVET4-->
       RIVET/
       BIGEM/
       TAMMI/
@@ -142,11 +142,11 @@
       <Point>WHALE</Point>
       <Point>PRAWN</Point>
       <Point>TESAT</Point>
+      <Point>MEPIL</Point>
+      <Point>LANOL</Point>
       <Point>SANAD</Point>
       <Point>OLTIN</Point>
       <Point>YAKKA</Point>
-      <Point>MEPIL</Point>
-      <Point>LANOL</Point>
       <Point>ODALE</Point>
       <Point>KABLO</Point>
       <Point>MITSA</Point>
@@ -231,9 +231,12 @@
       <Point>SOTKI</Point>
       <Point>LEECE</Point>
       <Point>CB VOR</Point>
+      <Point>LOKYA</Point>
       <Point>EMSUR</Point>
-      <Point>OVMIN</Point>
+      <Point>AVBID</Point>
       <Point>UPVEN</Point>
+      <Point>MONDO</Point>
+      <Point>LOWEP</Point>
       <Point>UPNEX</Point>
       <Point>EKIPU</Point>
       <Point>WLM NDB</Point>
@@ -254,6 +257,7 @@
       <Point>PLUGA</Point>
       <Point>AKALU</Point>
       <Point>NONID</Point>
+      <Point>SAPOX</Point>
       <Point>RIKNI</Point>
       <Point>UBLOM</Point>
       <Point>ISREV</Point>
@@ -279,10 +283,6 @@
       <Point>AKMIR</Point>
       <Point>WELSH</Point>
       <Point>BTH NDB</Point>
-      <Point>ARM NDB</Point>
-      <Point>EKIBI</Point>
-      <Point>MONDO</Point>
-      <Point>LOWEP</Point>
       <Point>EBONY</Point>
       <Point>ARRAN</Point>
       <Point>NONUP</Point>

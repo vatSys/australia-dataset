@@ -1,0 +1,6 @@
+- assign_dep_rwy: "true"
+- CFL: "060"
+- departures: ["118.4", "126.1", "120.15"]
+- if:
+    radials: ["123-324"]
+  departures: ["126.1", "118.4", "120.15"]

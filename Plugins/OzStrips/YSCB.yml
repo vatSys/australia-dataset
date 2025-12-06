@@ -1,0 +1,9 @@
+- assign_dep_rwy: "true"
+- CFL: "100"
+- if:
+    VFR: "true"
+  CFL: "040"
+- departures: ["124.5", "125.9", "125.0"]
+- if:
+    radials: ["168-348"]
+  departures: ["125.9", "124.5", "125.0"]

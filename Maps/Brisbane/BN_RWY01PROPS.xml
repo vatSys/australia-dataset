@@ -12,30 +12,35 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy01L BIXAD1-->
+      <!--Rwy01L BIXAD2-->
       -272123.560+1530719.090/
       OSOKO/
       BUKBU/
       BIXAD
     </Line>
     <Line>
-      <!--Rwy01R GUMKI1-->
+      <!--Rwy01R GUMKI2-->
       -272228.790+1530803.500/
-      ISRIB/
-      IDKOS/
+      BEERN/
+      OLMAL/
+      KAKEB/
+      ESNIT/
       GUMKI
     </Line>
     <Line>
-      <!--Rwy01R SANEG1-->
-      ISRIB/
-      LUMDI/
-      MAVPI/
+      <!--Rwy01R SANEG2-->
+      KAKEB/
+      OBDES/
+      UPRIG/
+      METEP/
+      BEKAG/
       SANEG
     </Line>
     <Line>
-      <!--Rwy01R SCOTT3-->
-      LUMDI/
-      PIPEL/
+      <!--Rwy01R SCOTT4-->
+      KAKEB/
+      UGUMO/
+      IBIMU/
       NOPAS/
       SCOTT
     </Line>
@@ -89,7 +94,7 @@
       <!--Rwy01L WODY2V-->
     </Line>
     <Line>
-      <!--Rwy01R BLAK5A-->
+      <!--Rwy01R BLAK6A-->
       BLAKA/
       VELKA/
       BERTI/
@@ -100,7 +105,7 @@
       GLENN
     </Line>
     <Line>
-      <!--Rwy01R BLAK5X-->
+      <!--Rwy01R BLAK6X-->
       VELKA/
       ARONU/
       COTON/
@@ -108,20 +113,20 @@
       SORVA
     </Line>
     <Line>
-      <!--Rwy01R GOMO3A-->
+      <!--Rwy01R GOMO4A-->
       GOMOL/
       SURSI/
       VELKA
     </Line>
     <Line>
-      <!--Rwy01R GOMO3V-->
+      <!--Rwy01R GOMO4V-->
       GOMOL/
       VERIK/
       LAGOB/
       ARONU
     </Line>
     <Line>
-      <!--Rwy01R GOMO3X-->
+      <!--Rwy01R GOMO4X-->
     </Line>
     <Line>
       <!--Rwy01R TEBO2A-->
@@ -155,19 +160,22 @@
       <Point>SORVA</Point>
       <Point>ARONU</Point>
     </Symbol>
-    <Symbol Type="SolidStar">
-      <Point>ISRIB</Point>
-      <Point>LUMDI</Point>
-    </Symbol>
     <Symbol Type="HollowStar">
       <Point>OSOKO</Point>
       <Point>BUKBU</Point>
       <Point>BIXAD</Point>
-      <Point>IDKOS</Point>
+      <Point>BEERN</Point>
+      <Point>OLMAL</Point>
+      <Point>KAKEB</Point>
+      <Point>ESNIT</Point>
       <Point>GUMKI</Point>
-      <Point>MAVPI</Point>
+      <Point>OBDES</Point>
+      <Point>UPRIG</Point>
+      <Point>METEP</Point>
+      <Point>BEKAG</Point>
       <Point>SANEG</Point>
-      <Point>PIPEL</Point>
+      <Point>UGUMO</Point>
+      <Point>IBIMU</Point>
       <Point>NOPAS</Point>
       <Point>SCOTT</Point>
       <Point>ENLIP</Point>
@@ -237,13 +245,18 @@
       <Point>OSOKO</Point>
       <Point>BUKBU</Point>
       <Point>BIXAD</Point>
-      <Point>ISRIB</Point>
-      <Point>IDKOS</Point>
+      <Point>BEERN</Point>
+      <Point>OLMAL</Point>
+      <Point>KAKEB</Point>
+      <Point>ESNIT</Point>
       <Point>GUMKI</Point>
-      <Point>LUMDI</Point>
-      <Point>MAVPI</Point>
+      <Point>OBDES</Point>
+      <Point>UPRIG</Point>
+      <Point>METEP</Point>
+      <Point>BEKAG</Point>
       <Point>SANEG</Point>
-      <Point>PIPEL</Point>
+      <Point>UGUMO</Point>
+      <Point>IBIMU</Point>
       <Point>NOPAS</Point>
       <Point>SCOTT</Point>
       <Point>ENLIP</Point>
@@ -294,6 +307,7 @@
       <Point>UGTUG</Point>
       <Point>IRTED</Point>
       <Point>MEPEM</Point>
+      <Point>AVMUN</Point>
       <Point>ROM NDB</Point>
       <Point>RILGO</Point>
       <Point>LIKTO</Point>
@@ -301,11 +315,12 @@
       <Point>BONEY</Point>
       <Point>HUUGO</Point>
       <Point>APAGI</Point>
-      <Point>TESSI</Point>
+      <Point>CLIFF</Point>
       <Point>ADMAR</Point>
       <Point>PONUX</Point>
       <Point>ATROP</Point>
       <Point>BANDA</Point>
+      <Point>RULGU</Point>
       <Point>OMKAX</Point>
       <Point>KIBAT</Point>
       <Point>ISKIM</Point>
@@ -363,6 +378,7 @@
       <Point>SPARK</Point>
       <Point>ENAID</Point>
       <Point>GOPVO</Point>
+      <Point>AVBOS</Point>
       <Point>EMTID</Point>
       <Point>SUKTU</Point>
       <Point>EDPEG</Point>
