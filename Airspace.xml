@@ -188,8 +188,8 @@
         <SID Name="APAGI5" Type="Jet" />
         <SID Name="CG7" Default="True" />
         <SID Name="CUDGN4" />
-        <STAR Name="BERN3A" ApproachName="RNPZ" />
-        <STAR Name="BERN3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="BERN4A" ApproachName="RNPZ" />
+        <STAR Name="BERN4Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="LAMS3A" ApproachName="RNPZ" />
         <STAR Name="LAMS3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
@@ -198,16 +198,16 @@
         <SID Name="APAGI5" Type="Jet" />
         <SID Name="BURLI5" />
         <SID Name="CG7" Default="True" />
-        <STAR Name="BERN3A" ApproachName="RNPZ" />
+        <STAR Name="BERN4A" ApproachName="RNPZ" />
         <STAR Name="LAMS3A" ApproachName="RNPZ" />
         <STAR Name="LAMS3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="35" DataRunway="35" />
       <Runway Name="14V" DataRunway="14">
-        <STAR Name="BERN3V" />
+        <STAR Name="BERN4V" />
       </Runway>
       <Runway Name="32V" DataRunway="32">
-        <STAR Name="BERN3V" />
+        <STAR Name="BERN4V" />
       </Runway>
     </Airport>
     <Airport Name="YBCS">
@@ -2890,6 +2890,7 @@ CS VOR
     <Airway Name="Q69">
 GOMOL/
 MAKRU/
+IGBUS/
 RULUN/
 ITIDE/
 BICKL/
@@ -5960,6 +5961,7 @@ IKEVA
     <Airway Name="Y43">
 MATLA/
 BANDA/
+VESOK/
 BERNI/
 ROONY/
 GREAV/
@@ -6012,6 +6014,7 @@ TROFE/
 OVSIV/
 URKER/
 OLRIP/
+OVREX/
 BERNI
 </Airway>
     <Airway Name="Y557">
@@ -9426,6 +9429,7 @@ SAGLI
     <Point Name="IGBIR" Type="Fix">-125255.200+1311752.800</Point>
     <Point Name="IGBON" Type="Fix">-270621.800+1530707.400</Point>
     <Point Name="IGBOV" Type="Fix">-122837.900+1304352.900</Point>
+    <Point Name="IGBUS" Type="Fix">-271411.500+1532940.300</Point>
     <Point Name="IGDAM" Type="Fix">-322954.700+1505444.900</Point>
     <Point Name="IGDEB" Type="Fix">-233326.300+1332257.200</Point>
     <Point Name="IGDEL" Type="Fix">-351537.700+1484003.400</Point>
@@ -11636,6 +11640,7 @@ SAGLI
     <Point Name="OVNOM" Type="Fix">-293912.800+1500604.600</Point>
     <Point Name="OVPAD" Type="Fix">-424440.400+1472449.400</Point>
     <Point Name="OVPEV" Type="Fix">-325132.200+1515522.600</Point>
+    <Point Name="OVREX" Type="Fix">-295232.400+1521538.600</Point>
     <Point Name="OVRON" Type="Fix">-202104.200+1485721.200</Point>
     <Point Name="OVRUL" Type="Fix">-264401.700+1531747.100</Point>
     <Point Name="OVSIV" Type="Fix">-315906.400+1495354.900</Point>
@@ -13775,6 +13780,7 @@ SAGLI
     <Point Name="VERIK" Type="Fix">-274945.900+1532145.200</Point>
     <Point Name="VERIS" Type="Fix">-171611.300+1050000.000</Point>
     <Point Name="VESIM" Type="Fix">-233409.000+1152131.400</Point>
+    <Point Name="VESOK" Type="Fix">-300645.300+1525324.100</Point>
     <Point Name="VESOP" Type="Fix">-163933.000+1391013.400</Point>
     <Point Name="VESUN" Type="Fix">-245847.500+1630000.000</Point>
     <Point Name="VETAK" Type="Fix">-311410.000+1510238.700</Point>
@@ -14165,11 +14171,11 @@ SAGLI
     <Point Name="WQ2SH" Type="Fix">-312907.300+1432435.000</Point>
     <Point Name="WQ2SI" Type="Fix">-313937.800+1431535.600</Point>
     <Point Name="WQ2SJ" Type="Fix">-313813.600+1430958.300</Point>
-    <Point Name="WR3WA" Type="Fix">-664515.400+1105903.500</Point>
-    <Point Name="WR3WB" Type="Fix">-664020.300+1105142.100</Point>
-    <Point Name="WR3WC" Type="Fix">-663555.200+1110049.900</Point>
-    <Point Name="WR3WF" Type="Fix">-664104.500+1111646.500</Point>
-    <Point Name="WR3WI" Type="Fix">-664042.900+1110414.100</Point>
+    <Point Name="WR4WA" Type="Fix">-664517.230+1105901.920</Point>
+    <Point Name="WR4WB" Type="Fix">-664022.500+1105138.970</Point>
+    <Point Name="WR4WC" Type="Fix">-663559.920+1110045.430</Point>
+    <Point Name="WR4WF" Type="Fix">-664105.470+1111643.670</Point>
+    <Point Name="WR4WI" Type="Fix">-664044.480+1110411.140</Point>
     <Point Name="WSLWA" Type="Fix">-380729.900+1464434.700</Point>
     <Point Name="WSLWB" Type="Fix">-380321.100+1464204.700</Point>
     <Point Name="WSLWC" Type="Fix">-380004.600+1464609.000</Point>
@@ -16840,15 +16846,21 @@ SAGLI
       <Route Runway="01L">WOODY/NUSBU/NODUG/RUKNO</Route>
       <Route Runway="19R">WOODY/ATVON/TEGIL/PAMGO</Route>
     </STAR>
-    <STAR Name="BERN3A" Airport="YBCG" Runways="14,32">
+    <STAR Name="BERN4A" Airport="YBCG" Runways="14,32">
+      <Transition Name="OVREX">OVREX/VEGAH/IDNER</Transition>
+      <Transition Name="VESOK">VESOK/VEGAH/IDNER</Transition>
       <Route Runway="14">BERNI/ELDUX/VANSU/ROONY/FIKUL/CHOOK/AGTEK/KEGAN</Route>
       <Route Runway="32">BERNI/ELDUX/VANSU/ROONY/FIKUL</Route>
     </STAR>
-    <STAR Name="BERN3V" Airport="YBCG" Runways="14,32">
+    <STAR Name="BERN4V" Airport="YBCG" Runways="14,32">
+      <Transition Name="OVREX">OVREX/VEGAH/IDNER</Transition>
+      <Transition Name="VESOK">VESOK/VEGAH/IDNER</Transition>
       <Route Runway="14">BERNI/ELDUX/VANSU/ROONY/FIKUL/CHOOK/KERRI/SAILA/NIKKI</Route>
       <Route Runway="32">BERNI/ELDUX/VANSU/ROONY/FIKUL/JAAPI</Route>
     </STAR>
-    <STAR Name="BERN3Y" Airport="YBCG" Runways="14">
+    <STAR Name="BERN4Y" Airport="YBCG" Runways="14">
+      <Transition Name="OVREX">OVREX/VEGAH/IDNER</Transition>
+      <Transition Name="VESOK">VESOK/VEGAH/IDNER</Transition>
       <Route Runway="14">BERNI/ELDUX/VANSU/ROONY/FIKUL/CHOOK/KERRI</Route>
     </STAR>
     <STAR Name="LAMS3A" Airport="YBCG" Runways="14,32">
@@ -21566,7 +21578,7 @@ SAGLI
     <Airport ICAO="YWKD" FullName="Woodikapildia" Position="-135200.000+1295759.000" />
     <Airport ICAO="YWKI" FullName="Waikerie" Position="-341103.000+1400150.000" Elevation="138" />
     <Airport ICAO="YWKM" FullName="Wyalkatchem" Position="-311211.000+1172259.000" />
-    <Airport ICAO="YWKS" FullName="Wilkins Runway" Position="-664129.000+1113137.000" />
+    <Airport ICAO="YWKS" FullName="Wilkins Runway" Position="-664129.020+1113134.860" />
     <Airport ICAO="YWKW" FullName="Warkworth" Position="-323254.000+1510127.000" Elevation="250" />
     <Airport ICAO="YWLA" FullName="Willowra" Position="-211636.000+1323724.000" />
     <Airport ICAO="YWLD" FullName="Willis Is" Position="-161759.000+1495859.000" />
@@ -21832,7 +21844,7 @@ SAGLI
     <Airport ICAO="YXKL" FullName="Kilkwana Hospital" Position="-260500.000+1521400.000" />
     <Airport ICAO="YXKN" FullName="Kingaroy Hospital" Position="-263157.000+1515023.000" />
     <Airport ICAO="YXKO" FullName="Kyogle Hospital" Position="-283742.000+1530006.000" />
-    <Airport ICAO="YXKP" FullName="Kedron Park SES Base" Position="-272451.000+1530213.000" />
+    <Airport ICAO="YXKP" FullName="Kedron Park Ses Base" Position="-272451.000+1530213.000" />
     <Airport ICAO="YXKR" FullName="Karratha Health Campus" Position="-204353.000+1165026.000" />
     <Airport ICAO="YXKT" FullName="Kyneton District Health Service" Position="-371519.638+1442814.207" />
     <Airport ICAO="YXKW" FullName="Blackwater Hospital" Position="-233417.000+1485241.000" />
@@ -21910,7 +21922,7 @@ SAGLI
     <Airport ICAO="YXPR" FullName="Portland Hospital" Position="-382029.159+1413622.705" />
     <Airport ICAO="YXPU" FullName="Port Arthur Medical" Position="-430832.000+1475037.000" />
     <Airport ICAO="YXQC" FullName="Queensland Childrens Hospital" Position="-272903.000+1530137.000" />
-    <Airport ICAO="YXQE" FullName="Queen Elizabeth II Medical Centre" Position="-315808.000+1154901.000" />
+    <Airport ICAO="YXQE" FullName="Queen Elizabeth Ii Medical Centre" Position="-315808.000+1154901.000" />
     <Airport ICAO="YXQU" FullName="Quirindi Medical" Position="-313037.000+1504108.000" />
     <Airport ICAO="YXRA" FullName="Randwick Medical" Position="-335533.000+1511429.000" />
     <Airport ICAO="YXRD" FullName="Redlands Bay Hospital" Position="-273256.000+1531510.000" />
