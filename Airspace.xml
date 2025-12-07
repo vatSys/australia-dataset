@@ -188,8 +188,8 @@
         <SID Name="APAGI5" Type="Jet" />
         <SID Name="CG7" Default="True" />
         <SID Name="CUDGN4" />
-        <STAR Name="BERN3A" ApproachName="RNPZ" />
-        <STAR Name="BERN3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="BERN4A" ApproachName="RNPZ" />
+        <STAR Name="BERN4Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="LAMS3A" ApproachName="RNPZ" />
         <STAR Name="LAMS3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
@@ -198,16 +198,16 @@
         <SID Name="APAGI5" Type="Jet" />
         <SID Name="BURLI5" />
         <SID Name="CG7" Default="True" />
-        <STAR Name="BERN3A" ApproachName="RNPZ" />
+        <STAR Name="BERN4A" ApproachName="RNPZ" />
         <STAR Name="LAMS3A" ApproachName="RNPZ" />
         <STAR Name="LAMS3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="35" DataRunway="35" />
       <Runway Name="14V" DataRunway="14">
-        <STAR Name="BERN3V" />
+        <STAR Name="BERN4V" />
       </Runway>
       <Runway Name="32V" DataRunway="32">
-        <STAR Name="BERN3V" />
+        <STAR Name="BERN4V" />
       </Runway>
     </Airport>
     <Airport Name="YBCS">
@@ -5961,6 +5961,7 @@ IKEVA
     <Airway Name="Y43">
 MATLA/
 BANDA/
+VESOK/
 BERNI/
 ROONY/
 GREAV/
@@ -6013,6 +6014,7 @@ TROFE/
 OVSIV/
 URKER/
 OLRIP/
+OVREX/
 BERNI
 </Airway>
     <Airway Name="Y557">
@@ -11638,6 +11640,7 @@ SAGLI
     <Point Name="OVNOM" Type="Fix">-293912.800+1500604.600</Point>
     <Point Name="OVPAD" Type="Fix">-424440.400+1472449.400</Point>
     <Point Name="OVPEV" Type="Fix">-325132.200+1515522.600</Point>
+    <Point Name="OVREX" Type="Fix">-295232.400+1521538.600</Point>
     <Point Name="OVRON" Type="Fix">-202104.200+1485721.200</Point>
     <Point Name="OVRUL" Type="Fix">-264401.700+1531747.100</Point>
     <Point Name="OVSIV" Type="Fix">-315906.400+1495354.900</Point>
@@ -13777,6 +13780,7 @@ SAGLI
     <Point Name="VERIK" Type="Fix">-274945.900+1532145.200</Point>
     <Point Name="VERIS" Type="Fix">-171611.300+1050000.000</Point>
     <Point Name="VESIM" Type="Fix">-233409.000+1152131.400</Point>
+    <Point Name="VESOK" Type="Fix">-300645.300+1525324.100</Point>
     <Point Name="VESOP" Type="Fix">-163933.000+1391013.400</Point>
     <Point Name="VESUN" Type="Fix">-245847.500+1630000.000</Point>
     <Point Name="VETAK" Type="Fix">-311410.000+1510238.700</Point>
@@ -16842,15 +16846,21 @@ SAGLI
       <Route Runway="01L">WOODY/NUSBU/NODUG/RUKNO</Route>
       <Route Runway="19R">WOODY/ATVON/TEGIL/PAMGO</Route>
     </STAR>
-    <STAR Name="BERN3A" Airport="YBCG" Runways="14,32">
+    <STAR Name="BERN4A" Airport="YBCG" Runways="14,32">
+      <Transition Name="OVREX">OVREX/VEGAH/IDNER</Transition>
+      <Transition Name="VESOK">VESOK/VEGAH/IDNER</Transition>
       <Route Runway="14">BERNI/ELDUX/VANSU/ROONY/FIKUL/CHOOK/AGTEK/KEGAN</Route>
       <Route Runway="32">BERNI/ELDUX/VANSU/ROONY/FIKUL</Route>
     </STAR>
-    <STAR Name="BERN3V" Airport="YBCG" Runways="14,32">
+    <STAR Name="BERN4V" Airport="YBCG" Runways="14,32">
+      <Transition Name="OVREX">OVREX/VEGAH/IDNER</Transition>
+      <Transition Name="VESOK">VESOK/VEGAH/IDNER</Transition>
       <Route Runway="14">BERNI/ELDUX/VANSU/ROONY/FIKUL/CHOOK/KERRI/SAILA/NIKKI</Route>
       <Route Runway="32">BERNI/ELDUX/VANSU/ROONY/FIKUL/JAAPI</Route>
     </STAR>
-    <STAR Name="BERN3Y" Airport="YBCG" Runways="14">
+    <STAR Name="BERN4Y" Airport="YBCG" Runways="14">
+      <Transition Name="OVREX">OVREX/VEGAH/IDNER</Transition>
+      <Transition Name="VESOK">VESOK/VEGAH/IDNER</Transition>
       <Route Runway="14">BERNI/ELDUX/VANSU/ROONY/FIKUL/CHOOK/KERRI</Route>
     </STAR>
     <STAR Name="LAMS3A" Airport="YBCG" Runways="14,32">
