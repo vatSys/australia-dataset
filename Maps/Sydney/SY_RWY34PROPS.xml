@@ -215,17 +215,29 @@
     <Line Name="(SY) RWY34PROPS_4" Width="1.7" Pattern="Dotted">
       -340401.000+1520420.000/-340008.000+1512444.000
     </Line>
+    <Line Name="(SY) RWY34PROPS_5" Width="1.7" Pattern="Dotted">
+      -335023.000+1510449.000/-333549.000+1504635.000/-332404.600+1503259.600
+    </Line>
+    <Line Name="(SY) RWY34PROPS_6" Width="1.7" Pattern="Dotted">
+      -335705.890+1511119.850/-335626.198+1511109.739/-335550.887+1511115.168/-335509.429+1511205.503/-335539.620+1511319.050/-335609.470+1511357.312/-335628.753+1511449.753/-335557.943+1512702.979/-335554.000+1512854.000/-335423.300+1520419.000
+    </Line>
     <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
       <!--(SY) RWY34PROPS Labels-->
-      <Point Name="SAN 60/SDN 50">-33.565168+151.150003</Point>
-      <Point Name="SAN 60/SDN 50">-33.898951+151.241922</Point>
-      <Point Name="SAS 60/SDS 50">-34.124911+150.719557</Point>
-      <Point Name="SDN">-33.628888+150.639444</Point>
-      <Point Name="SDN">-33.643419+151.690090</Point>
-      <Point Name="SDS">-34.255213+151.724123</Point>
-      <Point Name="SDS">-34.415281+150.771534</Point>
-      <Point Name="SFE">-34.293247+151.375046</Point>
-      <Point Name="SFW">-34.311956+151.174309</Point>
+      <Point Name="SDN">-33.435000+150.675833</Point>
+      <Point Name="SAN">-33.292778+151.131944</Point>
+      <Point Name="SAS">-34.169444+150.455833</Point>
+      <Point Name="SAN">-34.046111+152.028889</Point>
+      <Point Name="SDN">-33.423611+151.588333</Point>
+      <Point Name="SDS">-34.451389+150.782778</Point>
+      <Point Name="SDS">-34.464167+151.596944</Point>
+      <Point Name="SDN">-33.771667+151.910278</Point>
+      <Point Name="SDS">-34.234444+151.864167</Point>
+      <Point Name="SDS">-33.826944+150.432500</Point>
+      <Point Name="SAN/SDN">-33.489167+151.139167</Point>
+      <Point Name="SAS/SDS">-34.100000+150.729444</Point>
+      <Point Name="SFW">-34.235000+151.176944</Point>
+      <Point Name="SFE">-34.226389+151.338333</Point>
+      <Point Name="SAS/SDS">-34.521111+151.334722</Point>
     </Label>
   </Map>
   <Map Type="System" Name="SY_RWY34PROPS_NAMES" Priority="2" Center="-33.946111+151.177222">
