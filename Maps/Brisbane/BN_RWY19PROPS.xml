@@ -151,6 +151,17 @@
       OSEGU/
       PILIG
     </Line>
+    <Line>
+      <!--Rwy19R WODY2A-->
+      WOODY/
+      ATVON/
+      TEGIL/
+      PAMGO/
+      IGBON
+    </Line>
+    <Line>
+      <!--Rwy19R WODY2V-->
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>BETSO</Point>
       <Point>ATSEP</Point>
@@ -158,6 +169,7 @@
       <Point>OSOKO</Point>
       <Point>TOLAX</Point>
       <Point>LUVNA</Point>
+      <Point>PAMGO</Point>
     </Symbol>
     <Symbol Type="SolidStar">
       <Point>BOSVU</Point>
@@ -213,7 +225,6 @@
       <Point>GARTH</Point>
       <Point>BURPA</Point>
       <Point>DAYBO</Point>
-      <Point>PAMGO</Point>
       <Point>RUTAX</Point>
       <Point>DRAIN</Point>
       <Point>TEBOT</Point>
@@ -224,6 +235,9 @@
       <Point>ENAID</Point>
       <Point>DUBOM</Point>
       <Point>OSEGU</Point>
+      <Point>WOODY</Point>
+      <Point>ATVON</Point>
+      <Point>TEGIL</Point>
     </Symbol>
     <!--(BN) RWY19PROPS Airspace-->
     <Line Name="(BN) RWY19PROPS" Width="1.7" Pattern="Dotted">
@@ -322,12 +336,14 @@
       <Point>ENAID</Point>
       <Point>DUBOM</Point>
       <Point>OSEGU</Point>
+      <Point>WOODY</Point>
+      <Point>ATVON</Point>
+      <Point>TEGIL</Point>
       <Point>MEPEM</Point>
       <Point>AVMUN</Point>
       <Point>ROM NDB</Point>
       <Point>RILGO</Point>
       <Point>LIKTO</Point>
-      <Point>WOODY</Point>
       <Point>SAVER</Point>
       <Point>BONEY</Point>
       <Point>HUUGO</Point>
