@@ -189,7 +189,7 @@
         <SID Name="CG7" Default="True" />
         <SID Name="CUDGN4" />
         <STAR Name="BERN4A" ApproachName="RNPZ" />
-        <STAR Name="BERN4Y" ApproachName="RNP-ARY" />
+        <STAR Name="BERN4Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
         <STAR Name="LAMS3A" ApproachName="RNPZ" />
         <STAR Name="LAMS3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
@@ -16274,7 +16274,7 @@ SAGLI
     <SID Name="CRENA3" Airport="YMML" Runways="16,27,34">
       <Route Runway="16">-374108.800+1445027.600/HORSH/OLSUN/VIDAR/MARSH/CRENA</Route>
       <Route Runway="27">-373938.700+1444920.110/LILPU/CRENA</Route>
-      <Route Runway="34">-373911.450+1445005.690/ONUTO/-373812.134+1444954.735/-373729.313+1444931.521/-373701.478+1444844.356/-373656.045+1444745.943/-373701.381+1444720.856/LILPU/CRENA</Route>
+      <Route Runway="34">-373911.450+1445005.690/ONUTO/-373500.303+1444912.763/LILPU/CRENA</Route>
     </SID>
     <SID Name="DOSEL2" Airport="YMML" Runways="16,27,34">
       <Route Runway="16">-374108.800+1445027.600/HORSH/OLSUN/CHIMU/OKIKA/DOSEL</Route>
@@ -16284,7 +16284,7 @@ SAGLI
     <SID Name="ESDIG5" Airport="YMML" Runways="16,27,34">
       <Route Runway="16">-374108.800+1445027.600/HORSH/OLSUN/VIDAR/MARSH/ESDIG</Route>
       <Route Runway="27">-373938.700+1444920.110/LILPU/ESDIG</Route>
-      <Route Runway="34">-373911.450+1445005.690/ONUTO/-373812.134+1444954.735/-373729.313+1444931.521/-373701.478+1444844.356/-373656.045+1444745.943/-373701.381+1444720.856/LILPU/ESDIG</Route>
+      <Route Runway="34">-373911.450+1445005.690/ONUTO/-373500.303+1444912.763/LILPU/ESDIG</Route>
     </SID>
     <SID Name="ISPEG1" Airport="YMML" Runways="16">
       <Route Runway="16">-374108.800+1445027.600/HORSH/ISPEG</Route>
