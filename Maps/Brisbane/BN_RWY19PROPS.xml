@@ -102,26 +102,6 @@
       PUBIV
     </Line>
     <Line>
-      <!--Rwy19L TEBO2A-->
-      TEBOT/
-      URBIN/
-      KALTO/
-      OMGUV
-    </Line>
-    <Line>
-      <!--Rwy19L UGTU2A-->
-      UGTUG/
-      IPGAV/
-      ISPON
-    </Line>
-    <Line>
-      <!--Rwy19L UGTU2X-->
-      IPGAV/
-      TEMUL/
-      BUGSO/
-      ATSEP
-    </Line>
-    <Line>
       <!--Rwy19R MORB2A-->
       MORBI/
       REMOR/
@@ -156,15 +136,20 @@
       LUVNA
     </Line>
     <Line>
-      <!--Rwy19R WODY2A-->
-      WOODY/
-      ATVON/
-      TEGIL/
-      PAMGO/
-      IGBON
+      <!--Rwy19R TEBO2A-->
+      TEBOT/
+      URBIN/
+      DOLSU/
+      PILIG/
+      LAVIN
     </Line>
     <Line>
-      <!--Rwy19R WODY2V-->
+      <!--Rwy19R UGTU2A-->
+      UGTUG/
+      ENAID/
+      DUBOM/
+      OSEGU/
+      PILIG
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>BETSO</Point>
@@ -173,7 +158,6 @@
       <Point>OSOKO</Point>
       <Point>TOLAX</Point>
       <Point>LUVNA</Point>
-      <Point>PAMGO</Point>
     </Symbol>
     <Symbol Type="SolidStar">
       <Point>BOSVU</Point>
@@ -216,13 +200,6 @@
       <Point>SALEL</Point>
       <Point>SALGA</Point>
       <Point>VALVO</Point>
-      <Point>TEBOT</Point>
-      <Point>URBIN</Point>
-      <Point>KALTO</Point>
-      <Point>UGTUG</Point>
-      <Point>IPGAV</Point>
-      <Point>TEMUL</Point>
-      <Point>BUGSO</Point>
       <Point>MORBI</Point>
       <Point>REMOR</Point>
       <Point>GAYLA</Point>
@@ -236,11 +213,17 @@
       <Point>GARTH</Point>
       <Point>BURPA</Point>
       <Point>DAYBO</Point>
+      <Point>PAMGO</Point>
       <Point>RUTAX</Point>
       <Point>DRAIN</Point>
-      <Point>WOODY</Point>
-      <Point>ATVON</Point>
-      <Point>TEGIL</Point>
+      <Point>TEBOT</Point>
+      <Point>URBIN</Point>
+      <Point>DOLSU</Point>
+      <Point>PILIG</Point>
+      <Point>UGTUG</Point>
+      <Point>ENAID</Point>
+      <Point>DUBOM</Point>
+      <Point>OSEGU</Point>
     </Symbol>
     <!--(BN) RWY19PROPS Airspace-->
     <Line Name="(BN) RWY19PROPS" Width="1.7" Pattern="Dotted">
@@ -312,13 +295,6 @@
       <Point>SALGA</Point>
       <Point>OLVUN</Point>
       <Point>VALVO</Point>
-      <Point>TEBOT</Point>
-      <Point>URBIN</Point>
-      <Point>KALTO</Point>
-      <Point>UGTUG</Point>
-      <Point>IPGAV</Point>
-      <Point>TEMUL</Point>
-      <Point>BUGSO</Point>
       <Point>MORBI</Point>
       <Point>REMOR</Point>
       <Point>GAYLA</Point>
@@ -338,14 +314,20 @@
       <Point>RUTAX</Point>
       <Point>DRAIN</Point>
       <Point>LUVNA</Point>
-      <Point>WOODY</Point>
-      <Point>ATVON</Point>
-      <Point>TEGIL</Point>
+      <Point>TEBOT</Point>
+      <Point>URBIN</Point>
+      <Point>DOLSU</Point>
+      <Point>PILIG</Point>
+      <Point>UGTUG</Point>
+      <Point>ENAID</Point>
+      <Point>DUBOM</Point>
+      <Point>OSEGU</Point>
       <Point>MEPEM</Point>
       <Point>AVMUN</Point>
       <Point>ROM NDB</Point>
       <Point>RILGO</Point>
       <Point>LIKTO</Point>
+      <Point>WOODY</Point>
       <Point>SAVER</Point>
       <Point>BONEY</Point>
       <Point>HUUGO</Point>
@@ -411,7 +393,6 @@
       <Point>ALDAR</Point>
       <Point>ARM NDB</Point>
       <Point>SPARK</Point>
-      <Point>ENAID</Point>
       <Point>GOPVO</Point>
       <Point>AVBOS</Point>
       <Point>EMTID</Point>

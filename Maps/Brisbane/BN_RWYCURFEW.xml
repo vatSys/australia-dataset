@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="BN_RWY01R" Priority="1" Center="-27.384167+153.117500">
+  <Map Type="System" Name="BN_RWYCURFEW" Priority="1" Center="-27.384167+153.117500">
     <!--YBBN-->
     <Runway Name="01R/19L">
-      <Threshold Name="01R" Position="-27.402797+153.118219" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
-      <Threshold Name="19L" Position="-27.374664+153.134306" />
+      <Threshold Name="01R" Position="-27.402797+153.118219" />
+      <Threshold Name="19L" Position="-27.374664+153.134306" ExtendedCentrelineTrack="27.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
     </Runway>
     <!--SIDs-->
     <Line>
@@ -49,111 +49,105 @@
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy01R BLAK6A-->
+      <!--Rwy19L BLAK6A-->
       BLAKA/
-      VELKA/
-      BERTI/
-      PONOD/
-      ENTOX/
-      VATRO/
-      PULEX/
-      GLENN
+      DOGMU/
+      LAGEV/
+      PUBIV/
+      ISPON/
+      OMGUV/
+      BETSO
     </Line>
     <Line>
-      <!--Rwy01R BLAK6X-->
-      VELKA/
-      ARONU/
-      COTON/
-      KASBA/
-      SORVA
+      <!--Rwy19L BLAK6X-->
+      LAGEV/
+      RINKI/
+      PUBIV/
+      ATSEP
     </Line>
     <Line>
-      <!--Rwy01R ENLI2A-->
+      <!--Rwy19L ENLI2A-->
       ENLIP/
       ODUTO/
-      OPITU/
-      MULNI/
-      PULEX
+      ANSOR/
+      PULEX/
+      SORVA/
+      RUTAT/
+      PUBIV
     </Line>
     <Line>
-      <!--Rwy01R GOMO4A-->
+      <!--Rwy19L ENLI2X-->
+    </Line>
+    <Line>
+      <!--Rwy19L GOMO4A-->
       GOMOL/
-      SURSI/
-      VELKA
+      MEKUG/
+      SALEL/
+      SALGA/
+      ISPON
     </Line>
     <Line>
-      <!--Rwy01R GOMO4V-->
-      GOMOL/
-      VERIK/
-      LAGOB/
-      ARONU
+      <!--Rwy19L GOMO4V-->
+      SALEL/
+      OLVUN
     </Line>
     <Line>
-      <!--Rwy01R GOMO4X-->
+      <!--Rwy19L GOMO4X-->
+      SALEL/
+      VALVO/
+      PUBIV
     </Line>
     <Line>
-      <!--Rwy01R MORB2A-->
+      <!--Rwy19L MORB2A-->
       MORBI/
       REMOR/
       GAYLA/
-      DAYBO/
-      ENPUK/
-      BETNI/
-      MATBO/
-      GLENN
+      LUTKO/
+      IGBON/
+      EMSIT/
+      IRVUL/
+      BETSO
     </Line>
     <Line>
-      <!--Rwy01R SMOK1A-->
+      <!--Rwy19L SMOK1A-->
       SMOKA/
       OTGAT/
       GARTH/
-      ESNAV/
-      DAPTU/
-      RUKNO/
-      BETNI
+      BURPA/
+      IGBON
     </Line>
     <Line>
-      <!--Rwy01R SMOK1M-->
-      DAPTU/
-      REPUX/
-      SAGTA/
-      BIPUD
-    </Line>
-    <Line>
-      <!--Rwy01R TEBO2A-->
+      <!--Rwy19L TEBO2A-->
       TEBOT/
       URBIN/
-      ANIRI/
-      DOMBO/
-      VEVEX/
-      COTON/
-      NUNDI/
-      ENTOX
+      KALTO/
+      OMGUV
     </Line>
     <Line>
-      <!--Rwy01R TEBO2X-->
-    </Line>
-    <Line>
-      <!--Rwy01R UGTU2A-->
+      <!--Rwy19L UGTU2A-->
       UGTUG/
-      IRTED/
-      DOMBO
+      IPGAV/
+      ISPON
     </Line>
     <Line>
-      <!--Rwy01R UGTU2X-->
+      <!--Rwy19L UGTU2X-->
+      IPGAV/
+      TEMUL/
+      BUGSO/
+      ATSEP
     </Line>
     <Line>
-      <!--Rwy01R WODY2A-->
+      <!--Rwy19L WODY2A-->
       WOODY/
-      NUSBU/
-      NODUG/
-      RUKNO
+      ATVON/
+      TEGIL/
+      PAMGO/
+      IGBON
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>GLENN</Point>
-      <Point>SORVA</Point>
-      <Point>ARONU</Point>
-      <Point>BIPUD</Point>
+      <Point>BETSO</Point>
+      <Point>ATSEP</Point>
+      <Point>OLVUN</Point>
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>BEERN</Point>
@@ -177,51 +171,48 @@
       <Point>LAWNN</Point>
       <Point>WACKO</Point>
       <Point>BLAKA</Point>
-      <Point>VELKA</Point>
-      <Point>BERTI</Point>
-      <Point>PONOD</Point>
-      <Point>ENTOX</Point>
-      <Point>VATRO</Point>
-      <Point>PULEX</Point>
-      <Point>COTON</Point>
-      <Point>KASBA</Point>
+      <Point>DOGMU</Point>
+      <Point>LAGEV</Point>
+      <Point>PUBIV</Point>
+      <Point>ISPON</Point>
+      <Point>OMGUV</Point>
+      <Point>RINKI</Point>
       <Point>ENLIP</Point>
       <Point>ODUTO</Point>
-      <Point>OPITU</Point>
-      <Point>MULNI</Point>
+      <Point>ANSOR</Point>
+      <Point>PULEX</Point>
+      <Point>SORVA</Point>
+      <Point>RUTAT</Point>
       <Point>GOMOL</Point>
-      <Point>SURSI</Point>
-      <Point>VERIK</Point>
-      <Point>LAGOB</Point>
+      <Point>MEKUG</Point>
+      <Point>SALEL</Point>
+      <Point>SALGA</Point>
+      <Point>VALVO</Point>
       <Point>MORBI</Point>
       <Point>REMOR</Point>
       <Point>GAYLA</Point>
-      <Point>DAYBO</Point>
-      <Point>ENPUK</Point>
-      <Point>BETNI</Point>
-      <Point>MATBO</Point>
+      <Point>LUTKO</Point>
+      <Point>IGBON</Point>
+      <Point>EMSIT</Point>
+      <Point>IRVUL</Point>
       <Point>SMOKA</Point>
       <Point>OTGAT</Point>
       <Point>GARTH</Point>
-      <Point>ESNAV</Point>
-      <Point>DAPTU</Point>
-      <Point>RUKNO</Point>
-      <Point>REPUX</Point>
-      <Point>SAGTA</Point>
+      <Point>BURPA</Point>
       <Point>TEBOT</Point>
       <Point>URBIN</Point>
-      <Point>ANIRI</Point>
-      <Point>DOMBO</Point>
-      <Point>VEVEX</Point>
-      <Point>NUNDI</Point>
+      <Point>KALTO</Point>
       <Point>UGTUG</Point>
-      <Point>IRTED</Point>
+      <Point>IPGAV</Point>
+      <Point>TEMUL</Point>
+      <Point>BUGSO</Point>
       <Point>WOODY</Point>
-      <Point>NUSBU</Point>
-      <Point>NODUG</Point>
+      <Point>ATVON</Point>
+      <Point>TEGIL</Point>
+      <Point>PAMGO</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="BN_RWY01R_NAMES" Priority="2" Center="-27.384167+153.117500">
+  <Map Type="System" Name="BN_RWYCURFEW_NAMES" Priority="2" Center="-27.384167+153.117500">
     <Label>
       <Point>BEERN</Point>
       <Point>OLMAL</Point>
@@ -244,52 +235,48 @@
       <Point>LAWNN</Point>
       <Point>WACKO</Point>
       <Point>BLAKA</Point>
-      <Point>VELKA</Point>
-      <Point>BERTI</Point>
-      <Point>PONOD</Point>
-      <Point>ENTOX</Point>
-      <Point>VATRO</Point>
-      <Point>PULEX</Point>
-      <Point>GLENN</Point>
-      <Point>ARONU</Point>
-      <Point>COTON</Point>
-      <Point>KASBA</Point>
-      <Point>SORVA</Point>
+      <Point>DOGMU</Point>
+      <Point>LAGEV</Point>
+      <Point>PUBIV</Point>
+      <Point>ISPON</Point>
+      <Point>OMGUV</Point>
+      <Point>BETSO</Point>
+      <Point>RINKI</Point>
+      <Point>ATSEP</Point>
       <Point>ENLIP</Point>
       <Point>ODUTO</Point>
-      <Point>OPITU</Point>
-      <Point>MULNI</Point>
+      <Point>ANSOR</Point>
+      <Point>PULEX</Point>
+      <Point>SORVA</Point>
+      <Point>RUTAT</Point>
       <Point>GOMOL</Point>
-      <Point>SURSI</Point>
-      <Point>VERIK</Point>
-      <Point>LAGOB</Point>
+      <Point>MEKUG</Point>
+      <Point>SALEL</Point>
+      <Point>SALGA</Point>
+      <Point>OLVUN</Point>
+      <Point>VALVO</Point>
       <Point>MORBI</Point>
       <Point>REMOR</Point>
       <Point>GAYLA</Point>
-      <Point>DAYBO</Point>
-      <Point>ENPUK</Point>
-      <Point>BETNI</Point>
-      <Point>MATBO</Point>
+      <Point>LUTKO</Point>
+      <Point>IGBON</Point>
+      <Point>EMSIT</Point>
+      <Point>IRVUL</Point>
       <Point>SMOKA</Point>
       <Point>OTGAT</Point>
       <Point>GARTH</Point>
-      <Point>ESNAV</Point>
-      <Point>DAPTU</Point>
-      <Point>RUKNO</Point>
-      <Point>REPUX</Point>
-      <Point>SAGTA</Point>
-      <Point>BIPUD</Point>
+      <Point>BURPA</Point>
       <Point>TEBOT</Point>
       <Point>URBIN</Point>
-      <Point>ANIRI</Point>
-      <Point>DOMBO</Point>
-      <Point>VEVEX</Point>
-      <Point>NUNDI</Point>
+      <Point>KALTO</Point>
       <Point>UGTUG</Point>
-      <Point>IRTED</Point>
+      <Point>IPGAV</Point>
+      <Point>TEMUL</Point>
+      <Point>BUGSO</Point>
       <Point>WOODY</Point>
-      <Point>NUSBU</Point>
-      <Point>NODUG</Point>
+      <Point>ATVON</Point>
+      <Point>TEGIL</Point>
+      <Point>PAMGO</Point>
       <Point>MEPEM</Point>
       <Point>AVMUN</Point>
       <Point>ROM NDB</Point>
@@ -379,6 +366,7 @@
       <Point>PARRY</Point>
       <Point>ELENI</Point>
       <Point>AKNON</Point>
+      <Point>LAGOB</Point>
       <Point>LIDPO</Point>
       <Point>RIRBO</Point>
     </Label>
