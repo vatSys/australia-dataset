@@ -1372,6 +1372,7 @@
       <Sectors>
         <Sector Name="AAE" />
         <Sector Name="AAW" />
+        <Sector Name="ARI" />
       </Sectors>
       <ManualVisibility>
         <Point>-34.947+138.525</Point>
@@ -1403,6 +1404,12 @@
       </ControllerInfo>
       <ControllerInfo Callsign="AD-W_APP">
         <Line>Adelaide Approach (West) | ATIS available on 134.5</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="AD-R_DEP">
+        <Line>Adelaide Centre | Class G services</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
@@ -1469,6 +1476,7 @@
         <Sector Name="MDN" />
         <Sector Name="MDS" />
         <Sector Name="MAV" />
+        <Sector Name="MAW" />
       </Sectors>
       <ManualVisibility>
         <Point>-3740.4+14450.6</Point>
@@ -1513,8 +1521,8 @@
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="ML-C_DEP">
-        <Line>Melbourne Centre | ATIS available on 118.0</Line>
+      <ControllerInfo Callsign="ML-R_DEP">
+        <Line>Melbourne Centre | Class G services</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
@@ -1634,6 +1642,7 @@
         <Sector Name="BDN" />
         <Sector Name="BDS" />
         <Sector Name="BAC" />
+        <Sector Name="BAW" />
       </Sectors>
       <ManualVisibility>
         <Point>-27.3942+153.1218</Point>
@@ -1767,6 +1776,7 @@
       <Sectors>
         <Sector Name="PHA" />
         <Sector Name="PHD" />
+        <Sector Name="PHR" />
       </Sectors>
       <ManualVisibility>
         <Point>-31.940278+115.966944</Point>
@@ -1798,6 +1808,12 @@
       </ControllerInfo>
       <ControllerInfo Callsign="PH_DEP">
         <Line>Perth Departures | ATIS available on 123.8</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="PH-R_DEP">
+        <Line>Perth Centre | Class G services </Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>

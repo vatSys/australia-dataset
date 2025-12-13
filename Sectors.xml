@@ -344,9 +344,12 @@
   </Sector>
   <Sector FullName="Adelaide Approach (East)" Frequency="118.200" Callsign="AD_APP" Name="AAE">
     <Volumes>ADA</Volumes>
-    <ResponsibleSectors>AAW</ResponsibleSectors>
+    <ResponsibleSectors>AAW,ARI</ResponsibleSectors>
   </Sector>
   <Sector FullName="Adelaide Approach (West)" Frequency="124.200" Callsign="AD-W_APP" Name="AAW">
+    <Volumes>ADA</Volumes>
+  </Sector>
+  <Sector FullName="Adelaide Radar (Centre)" Frequency="130.45" Callsign="AD-R_DEP" Name="ARI">
     <Volumes>ADA</Volumes>
   </Sector>
   <Sector FullName="Amberley Approach" Frequency="126.200" Callsign="AMB_APP" Name="AMA">
@@ -361,7 +364,7 @@
   </Sector>
   <Sector FullName="Brisbane Approach (North)" Frequency="124.700" Callsign="BN_APP" Name="BAN">
     <Volumes>BNA</Volumes>
-    <ResponsibleSectors>BAS,BDN,BDS</ResponsibleSectors>
+    <ResponsibleSectors>BAS,BDN,BDS,BAW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Brisbane Approach (South)" Frequency="125.600" Callsign="BN-S_APP" Name="BAS">
     <Volumes>BNA</Volumes>
@@ -371,6 +374,9 @@
     <Volumes>BNA</Volumes>
   </Sector>
   <Sector FullName="Brisbane Departures (South)" Frequency="118.450" Callsign="BN-S_DEP" Name="BDS">
+    <Volumes>BNA</Volumes>
+  </Sector>
+  <Sector FullName="Brisbane Radar (Centre)" Frequency="119.500" Callsign="BN-R_DEP" Name="BAW">
     <Volumes>BNA</Volumes>
   </Sector>
   <Sector FullName="Brisbane Finals" Frequency="119.250" Callsign="BN-F_APP" Name="BN-FA" />
@@ -421,7 +427,7 @@
   </Sector>
   <Sector FullName="Melbourne Approach" Frequency="132.000" Callsign="ML_APP" Name="MAE">
     <Volumes>MLA</Volumes>
-    <ResponsibleSectors>MDN,MDS,MAV</ResponsibleSectors>
+    <ResponsibleSectors>MDN,MDS,MAV,MAW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Melbourne Departures (North)" Frequency="118.900" Callsign="ML_DEP" Name="MDN">
     <Volumes>MLA</Volumes>
@@ -430,8 +436,8 @@
     <Volumes>MLA</Volumes>
     <ResponsibleSectors>MAV,MAW</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Melbourne Radar (Centre)" Frequency="135.700" Callsign="ML-C_DEP" Name="MAW">
-    <Volumes>MLW</Volumes>
+  <Sector FullName="Melbourne Radar (Centre)" Frequency="135.700" Callsign="ML-R_DEP" Name="MAW">
+    <Volumes>MLA</Volumes>
     <ResponsibleSectors>MAV</ResponsibleSectors>
   </Sector>
   <Sector FullName="Nadi Approach" Frequency="119.100" Callsign="NFFN_APP" Name="NFFNA" DisplayInSectorsWindow="False">
@@ -452,9 +458,12 @@
   </Sector>
   <Sector FullName="Perth Approach" Frequency="123.600" Callsign="PH_APP" Name="PHA">
     <Volumes>PHA,PEA_R155A_CAP</Volumes>
-    <ResponsibleSectors>PHD</ResponsibleSectors>
+    <ResponsibleSectors>PHD,PHR</ResponsibleSectors>
   </Sector>
   <Sector FullName="Perth Departures" Frequency="118.700" Callsign="PH_DEP" Name="PHD">
+    <Volumes>PHA</Volumes>
+  </Sector>
+  <Sector FullName="Perth Radar (Centre)" Frequency="132.500" Callsign="PH-R_DEP" Name="PHR">
     <Volumes>PHA</Volumes>
   </Sector>
   <Sector FullName="Scherger Approach" Frequency="124.200" Callsign="SG_APP" Name="SGA">
@@ -479,7 +488,7 @@
   <Sector FullName="Sydney Director (West)" Frequency="126.100" Callsign="SY-D_APP" Name="SFW">
     <Volumes>SYA</Volumes>
   </Sector>
-  <Sector FullName="Sydney Radar (Centre)" Frequency="124.550" Callsign="SY-C_DEP" Name="SRI">
+  <Sector FullName="Sydney Radar (Centre)" Frequency="124.550" Callsign="SY-R_DEP" Name="SRI">
     <Volumes>SYA</Volumes>
   </Sector>
   <Sector FullName="Tindal Approach" Frequency="120.950" Callsign="TN_APP" Name="TNA">
