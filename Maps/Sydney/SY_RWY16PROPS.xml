@@ -12,17 +12,8 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy16L ABBEY3-->
-      -335814.720+1511137.720/
-      -335923.315+1511200.420/
-      -340013.297+1511426.578/
-      KEVIN/
-      JULIA/
-      ABBEY/
-      WOL NDB
-    </Line>
-    <Line>
       <!--Rwy16L KEVIN7-->
+      -335814.720+1511137.720/
       -335923.315+1511200.420/
       IDBIM/
       KEVIN
@@ -173,12 +164,10 @@
       <Point>KADOM</Point>
     </Symbol>
     <Symbol Type="Circle">
-      <Point>WOL NDB</Point>
       <Point>RIC NDB</Point>
+      <Point>WOL NDB</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>JULIA</Point>
-      <Point>ABBEY</Point>
       <Point>IDBIM</Point>
       <Point>CAWLY</Point>
       <Point>EXOVA</Point>
@@ -260,11 +249,8 @@
   </Map>
   <Map Type="System" Name="SY_RWY16PROPS_NAMES" Priority="2" Center="-33.946111+151.177222">
     <Label>
-      <Point>KEVIN</Point>
-      <Point>JULIA</Point>
-      <Point>ABBEY</Point>
-      <Point>WOL NDB</Point>
       <Point>IDBIM</Point>
+      <Point>KEVIN</Point>
       <Point>CAWLY</Point>
       <Point>EXOVA</Point>
       <Point>PEDLU</Point>
@@ -284,6 +270,7 @@
       <Point>UPMAR</Point>
       <Point>RIC NDB</Point>
       <Point>ISBEX</Point>
+      <Point>WOL NDB</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
       <Point>BEROW</Point>
