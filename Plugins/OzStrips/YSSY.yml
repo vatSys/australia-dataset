@@ -25,6 +25,13 @@
     jet: "true"
     atis_dep_rwy: ["34L", "34R"]
   runway: "34R"
+# SODPROPS
+- if:
+    atis_dep_rwy: ["34L", "16L"]
+    radials: ["155-335"]
+  if_not:
+      jet: "true"
+  runway: "34L"
 # SIDs
 # RWY 16L
 - if:
@@ -34,6 +41,7 @@
 - if:
     jet: "true"
     runway: ["16L"]
+    atis_dep_rwy: ["34L", "16L"]
     waypoint: ["WOL"]
   SID: "ABBEY"
 # RWY 16R
