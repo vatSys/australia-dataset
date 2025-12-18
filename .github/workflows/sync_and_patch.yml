@@ -1,0 +1,133 @@
+name: Sync on upstream release
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Add upstream
+      run: |
+        git remote add upstream https://github.com/vatSys/australia-dataset.git || true
+        git fetch upstream --tags
+
+    - name: Get latest upstream release tag
+      id: release
+      run: |
+        TAG=$(git tag -l '[0-9][0-9][0-9][0-9][a-z]' \
+          --sort=-creatordate \
+          --merged upstream/master | head -n1)
+    
+        echo "Latest upstream tag: $TAG"
+        echo "tag=$TAG" >> $GITHUB_OUTPUT
+
+    - name: Check if themed release exists
+      id: themed
+      run: |
+        DARK_TAG="${{ steps.release.outputs.tag }}-dark"
+    
+        if git rev-parse "$DARK_TAG" >/dev/null 2>&1; then
+          echo "exists=true" >> $GITHUB_OUTPUT
+        else
+          echo "exists=false" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Merge upstream
+      if: steps.themed.outputs.exists == 'false'
+      run: git merge "${{ steps.release.outputs.tag }}" --no-edit
+
+    - name: Apply colour patch
+      if: steps.themed.outputs.exists == 'false'
+      run: python3 .github/scripts/patch_colours.py
+
+    - name: Apply profile patch
+      if: steps.themed.outputs.exists == 'false'
+      run: python3 .github/scripts/patch_profile.py
+    
+    - name: Patch README
+      if: steps.themed.outputs.exists == 'false'
+      run: |
+        UPSTREAM_TAG=${{ steps.release.outputs.tag }} \
+        python3 .github/scripts/patch_readme.py
+
+    - name: Commit changes
+      if: steps.themed.outputs.exists == 'false'
+      run: |
+        git config user.name "github-actions"
+        git config user.email "actions@github.com"
+        git commit -am "Apply theme for ${{ steps.release.outputs.tag }}" || echo "No changes"
+
+    - name: Tag themed release
+      if: steps.themed.outputs.exists == 'false'
+      id: tag
+      run: |
+        TAG="${{ steps.release.outputs.tag }}-dark"
+    
+        if git rev-parse "$TAG" >/dev/null 2>&1; then
+          echo "Tag $TAG already exists"
+          echo "created=false" >> $GITHUB_OUTPUT
+          exit 0
+        fi
+    
+        git tag "$TAG"
+        git push origin master
+        git push origin "refs/tags/$TAG"
+    
+        echo "created=true" >> $GITHUB_OUTPUT
+    
+    - name: Create GitHub release
+      if: steps.themed.outputs.exists == 'false' && steps.tag.outputs.created == 'true'
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: ${{ steps.release.outputs.tag }}-dark
+        release_name: "${{ steps.release.outputs.tag }} Dark Theme"
+        body: |
+          Dark theme variant of upstream vatSys Australia dataset.
+    
+          **Upstream release:** ${{ steps.release.outputs.tag }}
+          **Theme:** Dark
+        draft: false
+        prerelease: false
+        
+    - name: Create release ZIP
+      if: steps.themed.outputs.exists == 'false' && steps.tag.outputs.created == 'true'
+      run: |
+        zip -r profile.zip . -x "*.git*"
+        
+    - name: Upload release asset
+      if: steps.themed.outputs.exists == 'false' && steps.tag.outputs.created == 'true'
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: ${{ steps.release.outputs.tag }}-dark
+        files: profile.zip
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Prepare FTP payload
+      if: steps.themed.outputs.exists == 'false' && steps.tag.outputs.created == 'true'
+      run: |
+        mkdir .github/ftp-upload
+        cp profile.zip .github/ftp-upload/
+        cp Profile.xml .github/ftp-upload/
+    
+    - name: FTP-Deploy-Action
+      if: steps.themed.outputs.exists == 'false' && steps.tag.outputs.created == 'true'
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ${{ secrets.FTP_HOSTNAME }}
+        protocol: ftps
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        port: ${{ secrets.FTP_PORT }}
+        server-dir: ${{ secrets.FTP_PATH }}
+        local-dir: .github/ftp-upload/
