@@ -44,6 +44,12 @@ jobs:
       if: steps.themed.outputs.exists == 'false'
       run: git merge "${{ steps.release.outputs.tag }}" --no-edit
 
+    - name: Patch README
+      if: steps.themed.outputs.exists == 'false'
+      run: |
+        UPSTREAM_TAG=${{ steps.release.outputs.tag }} \
+        python3 .github/scripts/patch_readme.py
+
     - name: Apply colour patch
       if: steps.themed.outputs.exists == 'false'
       run: python3 .github/scripts/patch_colours.py
@@ -52,11 +58,9 @@ jobs:
       if: steps.themed.outputs.exists == 'false'
       run: python3 .github/scripts/patch_profile.py
     
-    - name: Patch README
+    - name: Apply coast patch
       if: steps.themed.outputs.exists == 'false'
-      run: |
-        UPSTREAM_TAG=${{ steps.release.outputs.tag }} \
-        python3 .github/scripts/patch_readme.py
+      run: python3 .github/scripts/patch_coast.py
 
     - name: Commit changes
       if: steps.themed.outputs.exists == 'false'

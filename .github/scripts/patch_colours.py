@@ -79,6 +79,7 @@ COLOUR_UPDATES = {
     ("DelayMinor", "Arrival Manager Minor Delay"): {"Name": "Cyan", "R": "0", "G": "235", "B": "235"},
     ("DelayMajor", "Arrival Manager Major Delay"): {"Name": "BrightYellow", "R": "235", "G": "235", "B": "0"},
     ("WindowBorder", "All Window Borders"): {"Name": "MediumGrey", "R": "110", "G": "110", "B": "110"},
+    ("Custom", "Coast"): {"Name": "Coast", "R": "91", "G": "118", "B": "150"},
 }
 
 # Register the xsi namespace so it is preserved
