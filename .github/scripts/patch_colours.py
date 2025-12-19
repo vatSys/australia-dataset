@@ -6,29 +6,134 @@ FILE_PATH = "Colours.xml"
 
 # Key = (id, Use), Value = dict of new values
 COLOUR_UPDATES = {
-    ("GenericText", "Window Text"): {"Name": "MediumGrey", "R": "110", "G": "110", "B": "110"},
-    ("InteractiveText", "InteractiveText"): {"Name": "MediumGrey", "R": "110", "G": "110", "B": "110"},
-    ("StripText", "Strip Text"): {"Name": "LightGrey", "R": "220", "G": "220", "B": "220"},
-    ("PopupASDWindowBorderFocused", "Popup ASD Window borders when focused"): {"Name": "TealGrey", "R": "130", "G": "155", "B": "155"},
-    ("StripBackground", "Strip Backgrounds"): {"Name": "VeryDarkGrey", "R": "22", "G": "22", "B": "22"},
-    ("ListSeparator", "List Separator Bar"): {"Name": "DarkGrey", "R": "30", "G": "30", "B": "30"},
-    ("ListSeparatorSelected", "List Separator Bar Selected"): {"Name": "SlateGrey", "R": "60", "G": "71", "B": "71"},
-    ("WindowBackground", "Window Backgrounds"): {"Name": "VeryDarkGrey", "R": "30", "G": "30", "B": "30"},
-    ("WindowButtonDepressed", "Depressed Window Button Background"): {"Name": "SlateGrey", "R": "60", "G": "71", "B": "71"},
-    ("WindowButtonSelected", "Selected Window Button Background"): {"Name": "MediumGrey", "R": "110", "G": "110", "B": "110"},
-    ("WindowEmergency", "Emergency Indications in Windows"): {"Name": "StrongRed", "R": "209", "G": "46", "B": "46"},
+
+
+
+    ## Window and Control Backgrounds
+    # Air Situation Display Background
+    ("ASDBackground", "ASD Backgrounds"): {"Name": "VeryDarkGrey", "R": "15", "G": "15", "B": "15"},
+    # Ground situation display backgound
+    ("GroundBackground", "A-SMGCS Background"): {"Name": "Black", "R": "15", "G": "15", "B": "15"},
+    # Generic Window Background
+    ("WindowBackground", "Window Backgrounds"): {"Name": "VeryDarkGrey", "R": "15", "G": "15", "B": "15"},
+    # Warning colour used in menu, button and window backgrounds
     ("WindowWarning", "Warning Indications in Windows"): {"Name": "BrightYellow", "R": "255", "G": "255", "B": "0"},
-    ("Custom", "Area QNH Map"): {"Name": "OliveYellow", "R": "180", "G": "180", "B": "0"},
-    ("Custom", "Runway Numbers"): {"Name": "White", "R": "255", "G": "255", "B": "255"},
-    ("Custom", "RRSM Markers"): {"Name": "OffWhite", "R": "240", "G": "240", "B": "240"},
-    ("Preactive", "Preactive Tracks and Strips"): {"Name": "White", "R": "255", "G": "255", "B": "255"},
+    # mergency colour used in menu, button and window backgrounds
+    ("WindowEmergency", "Emergency Indications in Windows"): {"Name": "StrongRed", "R": "209", "G": "46", "B": "46"},
+    # Selected (Toggled) menu, button and scrollbar backgrounds
+    ("WindowButtonSelected", "Selected Window Button Background"): {"Name": "MediumGrey", "R": "110", "G": "110", "B": "110"},
+    # Depressed (button) or hover (menu item) backgrounds
+    ("WindowButtonDepressed", "Depressed Window Button Background"): {"Name": "SlateGrey", "R": "60", "G": "71", "B": "71"},
+    # Selected Text
     ("HighlightedText", "Highlighted Text"): {"Name": "Cyan", "R": "0", "G": "255", "B": "255"},
+    # Font of interactive items
+    ("InteractiveText", "InteractiveText"): {"Name": "MediumGrey", "R": "110", "G": "110", "B": "110"},
+    # Font of non-interactive items
+    ("NonInteractiveText", "Non-Interactive Text"): {"Name": "DarkGrey", "R": "90", "G": "90", "B": "90"},
+    # Generic font
+    ("GenericText", "Window Text"): {"Name": "MediumGrey", "R": "110", "G": "110", "B": "110"},
+    # Background of strips
+    ("StripBackground", "Strip Backgrounds"): {"Name": "VeryDarkGrey", "R": "15", "G": "15", "B": "15"},
+    # Strip Font
+    ("StripText", "Strip Text"): {"Name": "LightGrey", "R": "170", "G": "170", "B": "170"},
+    # List Separator Bars
+    ("ListSeparator", "List Separator Bar"): {"Name": "DarkGrey", "R": "30", "G": "30", "B": "30"},
+    # List Separator Bars when Selected
+    ("ListSeparatorSelected", "List Separator Bar Selected"): {"Name": "SlateGrey", "R": "60", "G": "71", "B": "71"},
+    # Generic CPDLC message background
     ("CPDLCMessageBackground", "CPDLC Background"): {"Name": "Cream", "R": "230", "G": "210", "B": "190"},
+    # Downlink Messages and label item
     ("CPDLCDownlink", "CPDLC Downlink Highlight and Messages"): {"Name": "DarkGreen", "R": "0", "G": "105", "B": "0"},
+    # Uplink Messages and label item
     ("CPDLCUplink", "CPDLC Uplink Highlight and Messages"): {"Name": "DarkBlue", "R": "0", "G": "0", "B": "105"},
+    # Freetext Messages
     ("CPDLCFreetext", "CPDLC Freetext Messages"): {"Name": "VeryDarkGrey", "R": "26", "G": "26", "B": "26"},
+    # CPDLC Editor Window send button
+    ("CPDLCSendButton", "CPDLC Hot-Send Button"): {"Name": "BrightBlue", "R": "101", "G": "101", "B": "255"},
+    # Border colour of focused popup Air/Ground Windows
+    ("PopupASDWindowBorderFocused", "Popup ASD Window borders when focused"): {"Name": "TealGrey", "R": "130", "G": "155", "B": "155"},
+    # Border colour of Generic windows
+    ("WindowBorder", "All Window Borders"): {"Name": "MediumGrey", "R": "110", "G": "110", "B": "110"},
+
+    ## MAPS
+    # System maps and default
+    ("PrimaryMap", "System Maps"): {"Name": "DarkGrey", "R": "67", "G": "137", "B": "137"},
+    # System2 maps
+    ("SecondaryMap", "Alternative System Map"): {"Name": "BlueGrey", "R": "42", "G": "50", "B": "52"},
+    # REST_NTZ_DAIW, TDA and Supervisor maps
+    ("PRDArea", "Restricted/Danger Areas"): {"Name": "Red", "R": "53", "G": "4", "B": "4"},
+    #  Local_Private and Global_Private maps (not currently used)
+    ("UserMap", "Custom Maps and Text"): {"Name": "BrightYellow", "R": "235", "G": "235", "B": "0"},
+    # Filled maps
+    ("Infill", "Filled Area Map"): {"Name": "VeryDarkGrey", "R": "10", "G": "10", "B": "10"},
+    # Ground Situation Displays only
+    ("GroundRunway", "A-SMGCS Runway"): {"Name": "DarkSlateGrey", "R": "115", "G": "115", "B": "115"},
+    # Ground Situation Displays only
+    ("GroundTaxiway", "A-SMGCS Taxiway"): {"Name": "DarkGrey", "R": "50", "G": "50", "B": "50"},
+    # Ground Situation Displays only
+    ("GroundApron", "A-SMGCS Apron"): {"Name": "DarkGreen", "R": "75", "G": "75", "B": "75"},
+    # Ground Situation Displays only
+    ("GroundBuilding", "A-SMGCS Building"): {"Name": "MediumGrey", "R": "0", "G": "64", "B": "64"},
+    # Ground Situation Displays only
+    ("GroundOther", "A-SMGCS Information / Other"): {"Name": "LightGrey", "R": "150", "G": "150", "B": "150"},
+
+    ## TRACK, LABELS, STRIPS
+    # FDR has not been activated (strip state only)
+    ("Preactive", "Preactive Tracks and Strips"): {"Name": "White", "R": "202", "G": "205", "B": "169"},
+    # Controlled by you
+    ("Jurisdiction", "Jurisdiction"): {"Name": "MediumGreen", "R": "90", "G": "190", "B": "150"},
+    # Controlled by another controller that is also one of your selected sectors 
+    ("GhostJurisdiction", "GhostJurisdiction"): {"Name": "LightGreen", "R": "89", "G": "209", "B": "65"},
+    # Handover Out accepted
+    ("PostJurisdiction", "PostJurisdiction"): {"Name": "White", "R": "202", "G": "205", "B": "169"},
+
+    ("JurisdictionIQL", "JurisdictionIQL"): {"Name": "BrightGreen", "R": "0", "G": "255", "B": "0"},
+    # Handoff proposed to you
+    ("Handover", "HandOver"): {"Name": "MediumGreen", "R": "190", "G": "100", "B": "95"},
+    # Soon to affect your sectors 
+    ("Announced", "Announced"): {"Name": "BrightCyan", "R": "70", "G": "255", "B": "255"},
+
+    ("NonJurisdictionIQL", "NonJurisdictionIQL"): {"Name": "White", "R": "202", "G": "205", "B": "169"},
+    # All other tracks
+    ("NonJurisdiction", "Non Jurisdiction Tracks and Strips"): {"Name": "White", "R": "202", "G": "205", "B": "169"},
+
+    ("NonJurisdictionLabel", "Non Jurisdiction Labels"): {"Name": "White", "R": "202", "G": "205", "B": "169"},
+
+    ("CFLHighlight", "New CFL Selection"): {"Name": "White", "R": "255", "G": "255", "B": "255"},
+
+    ("IdentFlash", "SPI"): {"Name": "Cyan", "R": "0", "G": "255", "B": "255"},
+    
+    ("Route", "Graphic Route"): {"Name": "Lavender", "R": "196", "G": "171", "B": "196"},
+
+    ("PostJurisdictionFlash", "Post Jurisdiction Transfer Flashing"): {"Name": "White", "R": "255", "G": "200", "B": "150"},
+
+    ("GroundUnknown", "A-SMGCS Aircraft"): {"Name": "Orange", "R": "255", "G": "156", "B": "55"},
+
+    ("GroundArrival", "A-SMGCS Arrival"): {"Name": "LightBuff", "R": "255", "G": "255", "B": "160"},
+
+    ("GroundDeparture", "A-SGCMS Departure"): {"Name": "LightBlue", "R": "139", "G": "220", "B": "243"},
+
+    ("GroundLocal", "A-SGCMS Local"): {"Name": "BrightPink", "R": "255", "G": "100", "B": "255"},
+
     ("Emergency", "Emergency Indications"): {"Name": "StrongRed", "R": "209", "G": "46", "B": "46"},
+
     ("Warning", "Warning Indications"): {"Name": "BrightYellow", "R": "255", "G": "255", "B": "0"},
+
+
+    ## TOOLS 
+    ("StaticTools", "BRL,PETO,NonRVSM,LATC,ETO"): {"Name": "PaleOrange", "R": "255", "G": "230", "B": "180"},
+    ("DynamicTools", "Dynamic Tool In Use"): {"Name": "OffWhite", "R": "255", "G": "230", "B": "230"},
+ 
+
+    ## Arrival Manager
+    ("Frozen", "Arrival Manager Frozen Flight"): {"Name": "DarkRed", "R": "120", "G": "0", "B": "0"},
+    ("Stable", "Arrival Manager Stable Flight"): {"Name": "White", "R": "255", "G": "255", "B": "255"},
+    ("SuperStable", "Arrival Manager Super Stable Flight"): {"Name": "LightBlue", "R": "100", "G": "210", "B": "255"},
+    ("Unstable", "Arrival Manager Unstable Flight"): {"Name": "YellowOrange", "R": "255", "G": "240", "B": "0"},
+    ("DelayMinor", "Arrival Manager Minor Delay"): {"Name": "Cyan", "R": "0", "G": "235", "B": "235"},
+    ("DelayMajor", "Arrival Manager Major Delay"): {"Name": "BrightYellow", "R": "235", "G": "235", "B": "0"},
+    
+    ## VSCS
     ("VSCSBackground", "VSCS Background"): {"Name": "DarkGrey", "R": "30", "G": "30", "B": "30"},
     ("VSCSHotline", "Closed VSCS Hotlines"): {"Name": "BrightYellow", "R": "235", "G": "235", "B": "0"},
     ("VSCSOpenHotline", "Open VSCS Hotlines"): {"Name": "BrightGreen", "R": "0", "G": "235", "B": "0"},
@@ -39,47 +144,27 @@ COLOUR_UPDATES = {
     ("VSCSFrequencyWarning", "VSCS Frequencies that are receive only or without voice"): {"Name": "BrightYellow", "R": "235", "G": "235", "B": "0"},
     ("VSCSButtonDepressed", "VSCS Generic Buttons"): {"Name": "DarkGrey", "R": "70", "G": "70", "B": "70"},
     ("VSCSButtonSelected", "VSCS Buttons that are selected / highlighted"): {"Name": "Fuchsia", "R": "241", "G": "178", "B": "225"},
-    ("NonInteractiveText", "Non-Interactive Text"): {"Name": "DarkGrey", "R": "90", "G": "90", "B": "90"},
-    ("ASDBackground", "ASD Backgrounds"): {"Name": "VeryDarkGrey", "R": "25", "G": "25", "B": "25"},
-    ("CPDLCSendButton", "CPDLC Hot-Send Button"): {"Name": "BrightBlue", "R": "101", "G": "101", "B": "255"},
-    ("GroundBackground", "A-SMGCS Background"): {"Name": "Black", "R": "0", "G": "0", "B": "0"},
-    ("Jurisdiction", "Jurisdiction"): {"Name": "MediumGreen", "R": "89", "G": "209", "B": "65"},
-    ("GhostJurisdiction", "GhostJurisdiction"): {"Name": "LightGreen", "R": "89", "G": "209", "B": "65"},
-    ("PostJurisdiction", "PostJurisdiction"): {"Name": "White", "R": "255", "G": "255", "B": "255"},
-    ("JurisdictionIQL", "JurisdictionIQL"): {"Name": "BrightGreen", "R": "0", "G": "255", "B": "0"},
-    ("Handover", "HandOver"): {"Name": "MediumGreen", "R": "89", "G": "209", "B": "65"},
-    ("Announced", "Announced"): {"Name": "BrightCyan", "R": "70", "G": "255", "B": "255"},
-    ("NonJurisdictionIQL", "NonJurisdictionIQL"): {"Name": "White", "R": "255", "G": "255", "B": "255"},
-    ("NonJurisdiction", "Non Jurisdiction Tracks and Strips"): {"Name": "White", "R": "255", "G": "255", "B": "255"},
-    ("NonJurisdictionLabel", "Non Jurisdiction Labels"): {"Name": "White", "R": "255", "G": "255", "B": "255"},
-    ("CFLHighlight", "New CFL Selection"): {"Name": "White", "R": "255", "G": "255", "B": "255"},
-    ("IdentFlash", "SPI"): {"Name": "Cyan", "R": "0", "G": "255", "B": "255"},
-    ("Route", "Graphic Route"): {"Name": "Lavender", "R": "196", "G": "171", "B": "196"},
-    ("StaticTools", "BRL,PETO,NonRVSM,LATC,ETO"): {"Name": "PaleOrange", "R": "255", "G": "230", "B": "180"},
-    ("PostJurisdictionFlash", "Post Jurisdiction Transfer Flashing"): {"Name": "White", "R": "255", "G": "255", "B": "255"},
-    ("GroundArrival", "A-SMGCS Arrival"): {"Name": "LightBuff", "R": "255", "G": "255", "B": "160"},
-    ("GroundUnknown", "A-SMGCS Aircraft"): {"Name": "Orange", "R": "255", "G": "156", "B": "55"},
-    ("GroundDeparture", "A-SGCMS Departure"): {"Name": "LightBlue", "R": "139", "G": "220", "B": "243"},
-    ("GroundLocal", "A-SGCMS Local"): {"Name": "BrightPink", "R": "255", "G": "100", "B": "255"},
-    ("PRDArea", "Restricted/Danger Areas"): {"Name": "Red", "R": "255", "G": "59", "B": "20"},
-    ("UserMap", "Custom Maps and Text"): {"Name": "BrightYellow", "R": "235", "G": "235", "B": "0"},
-    ("PrimaryMap", "System Maps"): {"Name": "DarkGrey", "R": "67", "G": "137", "B": "137"},
-    ("Infill", "Filled Area Map"): {"Name": "VeryDarkGrey", "R": "10", "G": "10", "B": "10"},
-    ("SecondaryMap", "Alternative System Map"): {"Name": "BlueGrey", "R": "42", "G": "50", "B": "52"},
-    ("GroundRunway", "A-SMGCS Runway"): {"Name": "DarkSlateGrey", "R": "33", "G": "60", "B": "63"},
-    ("GroundTaxiway", "A-SMGCS Taxiway"): {"Name": "DarkGrey", "R": "28", "G": "30", "B": "34"},
-    ("GroundApron", "A-SMGCS Apron"): {"Name": "DarkGreen", "R": "0", "G": "40", "B": "0"},
-    ("GroundBuilding", "A-SMGCS Building"): {"Name": "MediumGrey", "R": "90", "G": "90", "B": "90"},
-    ("GroundOther", "A-SMGCS Information / Other"): {"Name": "LightGrey", "R": "150", "G": "150", "B": "150"},
-    ("DynamicTools", "Dynamic Tool In Use"): {"Name": "OffWhite", "R": "255", "G": "230", "B": "230"},
-    ("Frozen", "Arrival Manager Frozen Flight"): {"Name": "DarkRed", "R": "120", "G": "0", "B": "0"},
-    ("Stable", "Arrival Manager Stable Flight"): {"Name": "White", "R": "255", "G": "255", "B": "255"},
-    ("SuperStable", "Arrival Manager Super Stable Flight"): {"Name": "LightBlue", "R": "100", "G": "210", "B": "255"},
-    ("Unstable", "Arrival Manager Unstable Flight"): {"Name": "YellowOrange", "R": "255", "G": "240", "B": "0"},
-    ("DelayMinor", "Arrival Manager Minor Delay"): {"Name": "Cyan", "R": "0", "G": "235", "B": "235"},
-    ("DelayMajor", "Arrival Manager Major Delay"): {"Name": "BrightYellow", "R": "235", "G": "235", "B": "0"},
-    ("WindowBorder", "All Window Borders"): {"Name": "MediumGrey", "R": "110", "G": "110", "B": "110"},
-    ("Custom", "Coast"): {"Name": "Coast", "R": "91", "G": "118", "B": "150"},
+
+
+    ## CUSTOM
+    ("Custom", "Area QNH Map"): {"Name": "OliveYellow", "R": "180", "G": "180", "B": "0"},
+    ("Custom", "Runway Numbers"): {"Name": "RWY",  "R": "255", "G": "255", "B": "0"},
+    ("Custom", "RRSM Markers"): {"Name": "RWY_RSM", "R": "255", "G": "255", "B": "0"},
+    ("Custom", "Coast"): {"Name": "Coast", "R": "60", "G": "78", "B": "99"},
+    ("Custom", "CTA_Colour"): {"Name": "CTA_Colour", "R": "15", "G": "45", "B": "35"},
+    ("Custom", "TMA_LL_Colour"): {"Name": "TMA_LL_Colour", "R": "15", "G": "45", "B": "35"},
+
+    ("Custom", "Centreline"): {"Name": "Centreline", "R": "48", "G": "48", "B": "48"},
+    ("Custom", "SIDs"): {"Name": "SIDs", "R": "55", "G": "55", "B": "0"},
+    ("Custom", "STARs"): {"Name": "STARs", "R": "0", "G": "70", "B": "70"},
+    ("Custom", "Ariways_Symbols"): {"Name": "Ariways_Symbols", "R": "43", "G": "136", "B": "97"},
+    ("Custom", "Airspace"): {"Name": "Airspace", "R": "15", "G": "45", "B": "35"},
+    ("Custom", "Names"): {"Name": "Names", "R": "85", "G": "85", "B": "85"},
+
+    ("Custom", "ALL_ROUTES_HIGH_COLOUR"): {"Name": "ALL_ROUTES_HIGH_COLOUR", "R": "85", "G": "85", "B": "85"},
+    ("Custom", "ALL_ROUTES_LOW_COLOUR"): {"Name": "ALL_ROUTES_LOW_COLOUR", "R": "85", "G": "85", "B": "85"},
+    ("Custom", "ALL_POINTS_HIGH_COLOUR"): {"Name": "ALL_POINTS_HIGH_COLOUR", "R": "85", "G": "85", "B": "85"},
+    ("Custom", "ALL_POINTS_LOW_COLOUR"): {"Name": "ALL_POINTS_LOW_COLOUR", "R": "85", "G": "85", "B": "85"},
 }
 
 # Register the xsi namespace so it is preserved
