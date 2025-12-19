@@ -23,6 +23,8 @@ This repository contains an **automatically generated dark theme variant** of th
 - **Upstream Release:** 2512b
 - **Version Format:** `YYMMx-dark` (e.g. `2512b-dark`)
 
+![ASD Dark Theme Preview](.github/images/ASD_Scope.png)
+![GND Dark Theme Preview](.github/images/GND_Scope.png)
 ---
 
 ## 📥 Installation
