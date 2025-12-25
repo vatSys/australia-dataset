@@ -650,60 +650,6 @@
             Gets the aircraft bay name.
             </summary>
         </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl">
-            <summary>
-            A altitude and heading control.
-            </summary>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.#ctor(MaxRumsey.OzStripsPlugin.GUI.Strip,System.String)">
-            <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl"/> class.
-            </summary>
-            <param name="controller">The controller.</param>
-            <param name="callingLabel">The label item to be selected upon opening.</param>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.DepFreq">
-            <summary>
-            Gets the heading.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.Alt">
-            <summary>
-            Gets the altitude.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.Runway">
-            <summary>
-            Gets the runway.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.SID">
-            <summary>
-            Gets the SID.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.BaseModal">
-            <summary>
-            Gets or sets the base modal.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.components">
-            <summary> 
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.Dispose(System.Boolean)">
-            <summary> 
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.AltHdgControl.InitializeComponent">
-            <summary> 
-            Required method for Designer support - do not modify 
-            the contents of this method with the code editor.
-            </summary>
-        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.BarCreator">
             <summary>
             Represents the control used when creates bars.
@@ -734,60 +680,6 @@
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BarCreator.InitializeComponent">
-            <summary> 
-            Required method for Designer support - do not modify 
-            the contents of this method with the code editor.
-            </summary>
-        </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl">
-            <summary>
-            Represents a bay clearance.
-            </summary>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.#ctor(MaxRumsey.OzStripsPlugin.GUI.Strip,System.String)">
-            <summary>
-            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl"/> class.
-            </summary>
-            <param name="controller">The strip controller.</param>
-            <param name="labelName">The label that opened the control.</param>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.BaseModal">
-            <summary>
-            Gets or sets the base modal.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.CLX">
-            <summary>
-            Gets the clearance text.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.Gate">
-            <summary>
-            Gets the gate text.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.Remark">
-            <summary>
-            Gets the remarks text.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.Glop">
-            <summary>
-            Gets the glip text.
-            </summary>
-        </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.components">
-            <summary> 
-            Required designer variable.
-            </summary>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.Dispose(System.Boolean)">
-            <summary> 
-            Clean up any resources being used.
-            </summary>
-            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.BayCLXControl.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
@@ -945,6 +837,135 @@
             <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DividerBarControl.InitializeComponent">
+            <summary> 
+            Required method for Designer support - do not modify 
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown">
+            <summary>
+            Drop down form.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown.#ctor(MaxRumsey.OzStripsPlugin.GUI.Controls.DropDownItem[],System.String)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown"/> class.
+            </summary>
+            <param name="items">List of drop down items.</param>
+            <param name="title">Element title.</param>
+        </member>
+        <member name="E:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown.Complete">
+            <summary>
+            Called when the drop down is completed, and will return a value.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown.ShowGateDropDown(MaxRumsey.OzStripsPlugin.GUI.Strip)">
+            <summary>
+            Shows the gate drop down for the specified strip.
+            </summary>
+            <param name="strip">Strip.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown.ShowCLXDropDown(MaxRumsey.OzStripsPlugin.GUI.Strip)">
+            <summary>
+            Shows the clx drop down for the specified strip.
+            </summary>
+            <param name="strip">Strip.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown.ShowGlopDropDown(MaxRumsey.OzStripsPlugin.GUI.Strip)">
+            <summary>
+            Shows the glop drop down for the specified strip.
+            </summary>
+            <param name="strip">Strip.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown.ShowRmkDropDown(MaxRumsey.OzStripsPlugin.GUI.Strip)">
+            <summary>
+            Shows the remark drop down for the specified strip.
+            </summary>
+            <param name="strip">Strip.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown.ShowFreqDropDown(MaxRumsey.OzStripsPlugin.GUI.Strip)">
+            <summary>
+            Shows the dep freq drop down for the specified strip.
+            </summary>
+            <param name="strip">Strip.</param>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDownItem">
+            <summary>
+            Drop down item used by the DropDown Form.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDownItem.#ctor(MaxRumsey.OzStripsPlugin.GUI.Controls.DropDownItem.DropDownItemType,System.String,System.Int32)">
+            <summary>
+            Drop down item used by the DropDown Form.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDownItem.Type">
+            <summary>
+            Gets or sets the type of drop down item.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDownItem.Text">
+            <summary>
+            Gets or sets the text of the drop down item.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDownItem.DropDownItemType">
+            <summary>
+            Possible drop down item types.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDownItem.DropDownItemType.BUTTON">
+            <summary>
+            Button item.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDownItem.DropDownItemType.FREETEXT">
+            <summary>
+            Freetext element.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDownItem.MaxLen">
+            <summary>
+            Max length for freetext items.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.KeybindChanger.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
+            <summary>
+            Handles key presses to set keybinds.
+            </summary>
+            <param name="message">Message.</param>
+            <param name="newKey">New key.</param>
+            <returns>Successfully handled.</returns>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.KeybindChanger.components">
+            <summary> 
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.KeybindChanger.Dispose(System.Boolean)">
+            <summary> 
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.KeybindChanger.InitializeComponent">
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
@@ -1310,6 +1331,11 @@
             Marks the strip as picked or not.
             </summary>
             <param name="picked">Whether to mark them as picked or not.</param>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.KeybindManager">
+            <summary>
+            Gets, and saves per-user keybinds.
+            </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.LastTransmitManager">
             <summary>
@@ -1730,6 +1756,13 @@
             <returns>Strip if found.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ShowSettings(System.Object,System.EventArgs)">
+            <summary>
+            Opens the settings window.
+            </summary>
+            <param name="sender">Sender.</param>
+            <param name="e">Args.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ShowKeySettings(System.Object,System.EventArgs)">
             <summary>
             Opens the settings window.
             </summary>
@@ -2619,6 +2652,11 @@
             Opens the Reroute window.
             </summary>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenCDM">
+            <summary>
+            Opens the CDM window.
+            </summary>
+        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenSIDWindow">
             <summary>
             Opens the SID window.
@@ -2649,19 +2687,6 @@
             <summary>
             Toggles strip ready status.
             </summary>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenHdgAltModal(System.String)">
-            <summary>
-            Opens the heading/altitude modal dialog.
-            </summary>
-            <param name="activeLabel">The label item to be designated as the active control.</param>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.HeadingAltReturned(System.Object,MaxRumsey.OzStripsPlugin.GUI.ModalReturnArgs)">
-            <summary>
-            Callback for the heading alt return.
-            </summary>
-            <param name="source">The source.</param>
-            <param name="args">The arguments.</param>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.StripElements.Values">
             <summary>
@@ -2786,6 +2811,23 @@
             </summary>
             <param name="acid">Strip callsign to check up on.</param>
             <param name="socketConn">Socket connection.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.ClearStrips">
+            <summary>
+            Clears all strips.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.RemoveStrip(MaxRumsey.OzStripsPlugin.GUI.Strip)">
+            <summary>
+            Removes a strip.
+            </summary>
+            <param name="strip">Strip.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.AddStrip(MaxRumsey.OzStripsPlugin.GUI.Strip)">
+            <summary>
+            Adds a strip.
+            </summary>
+            <param name="strip">Strip.</param>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.StripView.Origin">
             <summary>

@@ -53,8 +53,9 @@
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy19L BLAK6A-->
+      <!--Rwy19L BLAK7A-->
       BLAKA/
+      PEGRI/
       DOGMU/
       LAGEV/
       PUBIV/
@@ -63,7 +64,7 @@
       BETSO
     </Line>
     <Line>
-      <!--Rwy19L BLAK6X-->
+      <!--Rwy19L BLAK7X-->
       LAGEV/
       RINKI/
       PUBIV/
@@ -102,26 +103,6 @@
       PUBIV
     </Line>
     <Line>
-      <!--Rwy19L TEBO2A-->
-      TEBOT/
-      URBIN/
-      KALTO/
-      OMGUV
-    </Line>
-    <Line>
-      <!--Rwy19L UGTU2A-->
-      UGTUG/
-      IPGAV/
-      ISPON
-    </Line>
-    <Line>
-      <!--Rwy19L UGTU2X-->
-      IPGAV/
-      TEMUL/
-      BUGSO/
-      ATSEP
-    </Line>
-    <Line>
       <!--Rwy19R MORB2A-->
       MORBI/
       REMOR/
@@ -154,6 +135,22 @@
       RUTAX/
       DRAIN/
       LUVNA
+    </Line>
+    <Line>
+      <!--Rwy19R TEBO2A-->
+      TEBOT/
+      URBIN/
+      DOLSU/
+      PILIG/
+      LAVIN
+    </Line>
+    <Line>
+      <!--Rwy19R UGTU2A-->
+      UGTUG/
+      ENAID/
+      DUBOM/
+      OSEGU/
+      PILIG
     </Line>
     <Line>
       <!--Rwy19R WODY2A-->
@@ -199,6 +196,7 @@
       <Point>IGMAS</Point>
       <Point>WACKO</Point>
       <Point>BLAKA</Point>
+      <Point>PEGRI</Point>
       <Point>DOGMU</Point>
       <Point>LAGEV</Point>
       <Point>PUBIV</Point>
@@ -216,13 +214,6 @@
       <Point>SALEL</Point>
       <Point>SALGA</Point>
       <Point>VALVO</Point>
-      <Point>TEBOT</Point>
-      <Point>URBIN</Point>
-      <Point>KALTO</Point>
-      <Point>UGTUG</Point>
-      <Point>IPGAV</Point>
-      <Point>TEMUL</Point>
-      <Point>BUGSO</Point>
       <Point>MORBI</Point>
       <Point>REMOR</Point>
       <Point>GAYLA</Point>
@@ -238,6 +229,14 @@
       <Point>DAYBO</Point>
       <Point>RUTAX</Point>
       <Point>DRAIN</Point>
+      <Point>TEBOT</Point>
+      <Point>URBIN</Point>
+      <Point>DOLSU</Point>
+      <Point>PILIG</Point>
+      <Point>UGTUG</Point>
+      <Point>ENAID</Point>
+      <Point>DUBOM</Point>
+      <Point>OSEGU</Point>
       <Point>WOODY</Point>
       <Point>ATVON</Point>
       <Point>TEGIL</Point>
@@ -292,6 +291,7 @@
       <Point>IGMAS</Point>
       <Point>WACKO</Point>
       <Point>BLAKA</Point>
+      <Point>PEGRI</Point>
       <Point>DOGMU</Point>
       <Point>LAGEV</Point>
       <Point>PUBIV</Point>
@@ -312,13 +312,6 @@
       <Point>SALGA</Point>
       <Point>OLVUN</Point>
       <Point>VALVO</Point>
-      <Point>TEBOT</Point>
-      <Point>URBIN</Point>
-      <Point>KALTO</Point>
-      <Point>UGTUG</Point>
-      <Point>IPGAV</Point>
-      <Point>TEMUL</Point>
-      <Point>BUGSO</Point>
       <Point>MORBI</Point>
       <Point>REMOR</Point>
       <Point>GAYLA</Point>
@@ -338,6 +331,14 @@
       <Point>RUTAX</Point>
       <Point>DRAIN</Point>
       <Point>LUVNA</Point>
+      <Point>TEBOT</Point>
+      <Point>URBIN</Point>
+      <Point>DOLSU</Point>
+      <Point>PILIG</Point>
+      <Point>UGTUG</Point>
+      <Point>ENAID</Point>
+      <Point>DUBOM</Point>
+      <Point>OSEGU</Point>
       <Point>WOODY</Point>
       <Point>ATVON</Point>
       <Point>TEGIL</Point>
@@ -411,7 +412,6 @@
       <Point>ALDAR</Point>
       <Point>ARM NDB</Point>
       <Point>SPARK</Point>
-      <Point>ENAID</Point>
       <Point>GOPVO</Point>
       <Point>AVBOS</Point>
       <Point>EMTID</Point>

@@ -109,7 +109,7 @@
       <Runway Name="01L" DataRunway="01L">
         <SID Name="BIXAD2" />
         <SID Name="BN4" Default="True" />
-        <STAR Name="BLAK6A" ApproachName="RNPZ" />
+        <STAR Name="BLAK7A" ApproachName="RNPZ" />
         <STAR Name="ENLI2A" ApproachName="RNPZ" />
         <STAR Name="GOMO4A" ApproachName="RNPZ" />
         <STAR Name="MORB2A" ApproachName="RNPZ" />
@@ -128,8 +128,8 @@
         <SID Name="SANEG2" Default="True" />
         <SID Name="SCOTT4" />
         <SID Name="WACKO4" />
-        <STAR Name="BLAK6A" ApproachName="RNPZ" />
-        <STAR Name="BLAK6X" OpDataFlag="X" ApproachName="RNP-ARX" />
+        <STAR Name="BLAK7A" ApproachName="RNPZ" />
+        <STAR Name="BLAK7X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="ENLI2A" ApproachName="RNPZ" />
         <STAR Name="GOMO4A" ApproachName="RNPZ" />
         <STAR Name="GOMO4V" OpDataFlag="V" />
@@ -150,8 +150,8 @@
         <SID Name="SANEG2" />
         <SID Name="SCOTT4" />
         <SID Name="WACKO4" />
-        <STAR Name="BLAK6A" ApproachName="RNPZ" />
-        <STAR Name="BLAK6X" OpDataFlag="X" ApproachName="RNP-ARX" />
+        <STAR Name="BLAK7A" ApproachName="RNPZ" />
+        <STAR Name="BLAK7X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="ENLI2A" ApproachName="RNPZ" />
         <STAR Name="ENLI2X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="GOMO4A" ApproachName="RNPZ" />
@@ -168,7 +168,7 @@
         <SID Name="BIXAD2" />
         <SID Name="BN4" Default="True" />
         <SID Name="WACKO4" />
-        <STAR Name="BLAK6A" ApproachName="RNPZ" />
+        <STAR Name="BLAK7A" ApproachName="RNPZ" />
         <STAR Name="ENLI2A" ApproachName="RNPZ" />
         <STAR Name="ENLI2X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="GOMO4A" ApproachName="RNPZ" />
@@ -189,7 +189,7 @@
         <SID Name="CG7" Default="True" />
         <SID Name="CUDGN4" />
         <STAR Name="BERN4A" ApproachName="RNPZ" />
-        <STAR Name="BERN4Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="BERN4Y" ApproachName="RNP-ARY" />
         <STAR Name="LAMS3A" ApproachName="RNPZ" />
         <STAR Name="LAMS3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
@@ -239,7 +239,7 @@
         <STAR Name="TOTY5W" OpDataFlag="W" ApproachName="RNP-ARW" />
       </Runway>
       <Runway Name="15V" DataRunway="15">
-        <STAR Name="KASP6V" />
+        <STAR Name="KASP1V" />
         <STAR Name="NONU5V" />
         <STAR Name="UPOL2V" />
       </Runway>
@@ -8500,6 +8500,7 @@ SAGLI
     <Point Name="ELGUN" Type="Fix">-432654.800+1630000.000</Point>
     <Point Name="ELKAB" Type="Fix">-321529.600+1504639.900</Point>
     <Point Name="ELKAK" Type="Fix">-315324.600+1160328.300</Point>
+    <Point Name="ELKIK" Type="Fix">-280020.700+1531618.100</Point>
     <Point Name="ELKOV" Type="Fix">-325050.600+1515424.600</Point>
     <Point Name="ELLOW" Type="Fix">-245709.500+1343627.100</Point>
     <Point Name="ELMEN" Type="Fix">-332737.800+1505015.000</Point>
@@ -11809,6 +11810,7 @@ SAGLI
     <Point Name="PEDSA" Type="Fix">-135204.300+1200446.200</Point>
     <Point Name="PEGBA" Type="Fix">-335456.800+1511655.000</Point>
     <Point Name="PEGLI" Type="Fix">-375405.900+1443616.800</Point>
+    <Point Name="PEGRI" Type="Fix">-280058.000+1531512.900</Point>
     <Point Name="PEGSU" Type="Fix">-341949.900+1504708.300</Point>
     <Point Name="PEGTU" Type="Fix">-350835.100+1382616.200</Point>
     <Point Name="PENAR" Type="Fix">-202116.500+1411355.800</Point>
@@ -16274,7 +16276,7 @@ SAGLI
     <SID Name="CRENA3" Airport="YMML" Runways="16,27,34">
       <Route Runway="16">-374108.800+1445027.600/HORSH/OLSUN/VIDAR/MARSH/CRENA</Route>
       <Route Runway="27">-373938.700+1444920.110/LILPU/CRENA</Route>
-      <Route Runway="34">-373911.450+1445005.690/ONUTO/-373500.303+1444912.763/LILPU/CRENA</Route>
+      <Route Runway="34">-373911.450+1445005.690/ONUTO/-373812.134+1444954.735/-373729.313+1444931.521/-373701.478+1444844.356/-373656.045+1444745.943/-373701.381+1444720.856/LILPU/CRENA</Route>
     </SID>
     <SID Name="DOSEL2" Airport="YMML" Runways="16,27,34">
       <Route Runway="16">-374108.800+1445027.600/HORSH/OLSUN/CHIMU/OKIKA/DOSEL</Route>
@@ -16284,7 +16286,7 @@ SAGLI
     <SID Name="ESDIG5" Airport="YMML" Runways="16,27,34">
       <Route Runway="16">-374108.800+1445027.600/HORSH/OLSUN/VIDAR/MARSH/ESDIG</Route>
       <Route Runway="27">-373938.700+1444920.110/LILPU/ESDIG</Route>
-      <Route Runway="34">-373911.450+1445005.690/ONUTO/-373500.303+1444912.763/LILPU/ESDIG</Route>
+      <Route Runway="34">-373911.450+1445005.690/ONUTO/-373812.134+1444954.735/-373729.313+1444931.521/-373701.478+1444844.356/-373656.045+1444745.943/-373701.381+1444720.856/LILPU/ESDIG</Route>
     </SID>
     <SID Name="ISPEG1" Airport="YMML" Runways="16">
       <Route Runway="16">-374108.800+1445027.600/HORSH/ISPEG</Route>
@@ -16753,15 +16755,15 @@ SAGLI
       <Route Runway="22">LESKO/BOBED/JEZZA/ANKED/AMB TAC/BIGIX</Route>
       <Route Runway="33">LESKO/BOBED/JEZZA/ANKED/AMB TAC/BIGIX</Route>
     </STAR>
-    <STAR Name="BLAK6A" Airport="YBBN" Runways="01L,01R,19L,19R">
+    <STAR Name="BLAK7A" Airport="YBBN" Runways="01L,01R,19L,19R">
       <Route Runway="01L">BLAKA/VELKA/BERTI/PONOD/BISEK/VANTI/TANIK</Route>
       <Route Runway="01R">BLAKA/VELKA/BERTI/PONOD/ENTOX/VATRO/PULEX/GLENN</Route>
-      <Route Runway="19L">BLAKA/DOGMU/LAGEV/PUBIV/ISPON/OMGUV/BETSO</Route>
-      <Route Runway="19R">BLAKA/SUNUB/LAGOB/OVNEB/AMITY/ESLUB/OSEGU/PILIG/LAVIN/OSOKO</Route>
+      <Route Runway="19L">BLAKA/PEGRI/DOGMU/LAGEV/PUBIV/ISPON/OMGUV/BETSO</Route>
+      <Route Runway="19R">BLAKA/ELKIK/SUNUB/LAGOB/OVNEB/AMITY/ESLUB/OSEGU/PILIG/LAVIN/OSOKO</Route>
     </STAR>
-    <STAR Name="BLAK6X" Airport="YBBN" Runways="01R,19L">
+    <STAR Name="BLAK7X" Airport="YBBN" Runways="01R,19L">
       <Route Runway="01R">BLAKA/VELKA/ARONU/COTON/KASBA/SORVA</Route>
-      <Route Runway="19L">BLAKA/DOGMU/LAGEV/RINKI/PUBIV/ATSEP</Route>
+      <Route Runway="19L">BLAKA/PEGRI/DOGMU/LAGEV/RINKI/PUBIV/ATSEP</Route>
     </STAR>
     <STAR Name="ENLI2A" Airport="YBBN" Runways="01L,01R,19L,19R">
       <Route Runway="01L">ENLIP/ODUTO/ANSOR/GORSO/TANIK</Route>
@@ -16927,7 +16929,7 @@ SAGLI
       <Transition Name="ZANEY">ZANEY/APAGU</Transition>
       <Route Runway="15">KASPI</Route>
     </STAR>
-    <STAR Name="KASP6V" Airport="YBCS" Runways="15">
+    <STAR Name="KASP1V" Airport="YBCS" Runways="15">
       <Transition Name="ANDOP">ANDOP/SURUR</Transition>
       <Transition Name="AVDAN">AVDAN/DORKO</Transition>
       <Transition Name="LOCKA">LOCKA/RUVOT</Transition>
@@ -18068,7 +18070,7 @@ SAGLI
     <Airport ICAO="YALA" FullName="Marla" Position="-272003.000+1333735.000" Elevation="1076" />
     <Airport ICAO="YALC" FullName="Alcoota Stn" Position="-224807.000+1342413.000" />
     <Airport ICAO="YALD" FullName="Alroy Downs" Position="-191742.000+1360438.000" />
-    <Airport ICAO="YALG" FullName="Adels Grove" Position="-184133.000+1383153.000" />
+    <Airport ICAO="YALG" FullName="Adels Grove" Position="-184133.000+1383153.000" Elevation="429" />
     <Airport ICAO="YALH" FullName="Albilbah" Position="-244200.000+1441700.000" />
     <Airport ICAO="YALM" FullName="Allambie" Position="-241559.000+1342359.000" />
     <Airport ICAO="YALN" FullName="Allandy" Position="-302317.000+1423730.000" />
@@ -18440,7 +18442,7 @@ SAGLI
       <Runway Name="29" Position="-202953.710+1483345.030" />
     </Airport>
     <Airport ICAO="YBRA" FullName="Benambra" Position="-365815.000+1474204.000" />
-    <Airport ICAO="YBRB" FullName="Browse Basin" Position="-135709.000+1231823.000" />
+    <Airport ICAO="YBRB" FullName="Browse Basin" Position="-135709.000+1231823.000" Elevation="155" />
     <Airport ICAO="YBRC" FullName="Barrow Creek" Position="-213159.000+1335259.000" />
     <Airport ICAO="YBRD" FullName="Bradshaw" Position="-152042.000+1301624.000" />
     <Airport ICAO="YBRE" FullName="Bremer Island" Position="-120510.000+1364628.000" />
@@ -21578,7 +21580,7 @@ SAGLI
     <Airport ICAO="YWKD" FullName="Woodikapildia" Position="-135200.000+1295759.000" />
     <Airport ICAO="YWKI" FullName="Waikerie" Position="-341103.000+1400150.000" Elevation="138" />
     <Airport ICAO="YWKM" FullName="Wyalkatchem" Position="-311211.000+1172259.000" />
-    <Airport ICAO="YWKS" FullName="Wilkins Runway" Position="-664129.020+1113134.860" />
+    <Airport ICAO="YWKS" FullName="Wilkins Runway" Position="-664129.020+1113134.860" Elevation="2543" />
     <Airport ICAO="YWKW" FullName="Warkworth" Position="-323254.000+1510127.000" Elevation="250" />
     <Airport ICAO="YWLA" FullName="Willowra" Position="-211636.000+1323724.000" />
     <Airport ICAO="YWLD" FullName="Willis Is" Position="-161759.000+1495859.000" />

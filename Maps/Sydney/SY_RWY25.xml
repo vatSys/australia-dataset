@@ -95,15 +95,24 @@
     <Line Name="(SY) RWY25_3" Width="1.7" Pattern="Dotted">
       -334429.000+1512040.000/-334229.000+1512750.000/-334345.282+1512922.308/-334636.244+1513147.262/-334945.506+1513334.449/-335307.346+1513440.556/-335353.013+1513448.304
     </Line>
+    <Line Name="(SY) RWY25_4" Width="1.7" Pattern="Dotted">
+      -333220.000+1502535.000/-335417.000+1510631.000
+    </Line>
     <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
       <!--(SY) RWY25 Labels-->
-      <Point Name="SAN 60/SDN 50">-33.650811+151.128693</Point>
-      <Point Name="SAS 60/SDS 50">-34.141096+150.719003</Point>
-      <Point Name="SDN">-33.628888+150.639444</Point>
-      <Point Name="SDN">-33.641889+151.694849</Point>
-      <Point Name="SDS">-34.397777+151.229722</Point>
-      <Point Name="SFE">-33.814183+151.428416</Point>
-      <Point Name="SFW 60/SAN 70">-33.997706+151.412713</Point>
+      <Point Name="SDN">-33.435000+150.675833</Point>
+      <Point Name="SAN">-33.292778+151.131944</Point>
+      <Point Name="SAS">-34.169444+150.455833</Point>
+      <Point Name="SAN">-34.046111+152.028889</Point>
+      <Point Name="SDN">-33.423611+151.588333</Point>
+      <Point Name="SDS">-34.451389+150.782778</Point>
+      <Point Name="SDS">-34.464167+151.596944</Point>
+      <Point Name="SDN">-33.771667+151.910278</Point>
+      <Point Name="SDS">-34.234444+151.864167</Point>
+      <Point Name="SDS">-33.826944+150.432500</Point>
+      <Point Name="SAN/SDN">-33.489167+151.139167</Point>
+      <Point Name="SAS/SDS">-34.100000+150.729444</Point>
+      <Point Name="SAN/SFE">-33.936944+151.468333</Point>
     </Label>
   </Map>
   <Map Type="System" Name="SY_RWY25_NAMES" Priority="2" Center="-33.946111+151.177222">

@@ -166,19 +166,30 @@
     <Line Name="(SY) RWYSODPROPS_SDS_1" Width="1.7" Pattern="Dotted">
       -342019.851+1502447.097/-340742.251+1505031.823/-341044.425+1510416.632/-344151.328+1511215.758
     </Line>
+    <Line Name="(SY) RWYSODPROPS_SDS_2" Width="1.7" Pattern="Dotted">
+      -335814.720+1511137.720/-335923.315+1511200.420/-340028.500+1511443.600/-340811.500+1512216.800/-343133.000+1514508.000
+    </Line>
     <Line Name="(SY) RWYSODPROPS_SDN_1" Width="1.7" Pattern="Dotted">
       -340032.309+1501701.746/-335734.023+1505832.552/-334451.160+1510558.515/-333928.243+1510145.524/-333734.988+1510216.445/-333509.370+1510217.555/-333231.476+1510147.927/-331429.467+1505205.877
     </Line>
+    <Line Name="(SY) RWYSODPROPS_SDN_2" Width="1.7" Pattern="Dotted">
+      -335548.350+1511018.420/-335558.387+1511021.732/-335456.281+1511003.593/-335407.926+1510931.588/-334738.730+1510122.814/-333549.000+1504635.000/-332404.600+1503259.600
+    </Line>
     <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
       <!--(SY) RWYSODPROPS Labels-->
-      <Point Name="SAN">-33.333347+151.021383</Point>
-      <Point Name="SAN 60/SDN 50">-33.959116+151.489149</Point>
-      <Point Name="SAS">-34.407832+151.177713</Point>
-      <Point Name="SAS 60/SDS 50">-34.092121+150.807353</Point>
-      <Point Name="SDN">-33.688707+150.692613</Point>
-      <Point Name="SDN">-33.742571+151.629919</Point>
-      <Point Name="SDS">-34.388572+151.686998</Point>
-      <Point Name="SDS">-34.486632+150.809659</Point>
+      <Point Name="SDN">-33.435000+150.675833</Point>
+      <Point Name="SAN">-33.292778+151.131944</Point>
+      <Point Name="SAS">-34.169444+150.455833</Point>
+      <Point Name="SAN">-34.046111+152.028889</Point>
+      <Point Name="SDN">-33.423611+151.588333</Point>
+      <Point Name="SDS">-34.451389+150.782778</Point>
+      <Point Name="SDS">-34.464167+151.596944</Point>
+      <Point Name="SDN">-33.771667+151.910278</Point>
+      <Point Name="SDN">-34.234444+151.864167</Point>
+      <Point Name="SDS">-33.826944+150.432500</Point>
+      <Point Name="SAN">-33.489167+151.139167</Point>
+      <Point Name="SAS/SDS">-34.100000+150.729444</Point>
+      <Point Name="SDS/SAS/SFW">-34.235000+151.176944</Point>
     </Label>
   </Map>
   <Map Type="System" Name="SY_RWYSODPROPS_NAMES" Priority="2" Center="-33.946111+151.177222">

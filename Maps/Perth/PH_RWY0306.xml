@@ -7,19 +7,13 @@
       <Threshold Name="21" Position="-31.928594+115.968464" />
     </Runway>
     <Runway Name="06/24">
-      <Threshold Name="06" Position="-31.940989+115.959203" ExtendedCentrelineTrack="238.89" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="06" Position="-31.940989+115.959203" />
       <Threshold Name="24" Position="-31.930908+115.978792" />
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy03 AMANA5-->
-      -315542.940+1155806.470/
-      MIDLA/
-      ALWYN/
-      AMANA
-    </Line>
-    <Line>
       <!--Rwy03 AVNEX5-->
+      -315542.940+1155806.470/
       MIDLA/
       AGELU/
       BUDMA/
@@ -28,36 +22,6 @@
       SAKOM/
       VENUP/
       AVNEX
-    </Line>
-    <Line>
-      <!--Rwy03 EKEPO1-->
-      MIDLA/
-      EKEPO
-    </Line>
-    <Line>
-      <!--Rwy03 HECTO5-->
-      AMANA/
-      INVIX/
-      BIRER/
-      HECTO
-    </Line>
-    <Line>
-      <!--Rwy03 LENVU1-->
-      -315542.940+1155806.470/
-      -315225.251+1155959.883/
-      HOVEA/
-      BUVOT/
-      LENVU
-    </Line>
-    <Line>
-      <!--Rwy03 MEMUP5-->
-      BIRER/
-      MEMUP
-    </Line>
-    <Line>
-      <!--Rwy03 MUBID4-->
-      BIRER/
-      MUBID
     </Line>
     <Line>
       <!--Rwy03 OLMAM1-->
@@ -88,43 +52,6 @@
       OTLED
     </Line>
     <Line>
-      <!--Rwy03 RANGU9-->
-      -315542.940+1155806.470/
-      -315540.732+1155802.382/
-      -315528.901+1155804.374/
-      -315503.609+1155758.800/
-      -315452.406+1155750.666/
-      -315442.905+1155739.459/
-      -315435.713+1155725.706/
-      -315431.354+1155710.237/
-      -315429.823+1155653.803/
-      -315430.126+1155637.223/
-      -315526.185+1155040.181/
-      -315527.693+1155018.280/
-      -315528.392+1154943.955/
-      -315527.627+1154925.285/
-      -315526.174+1154906.501/
-      -315524.310+1154847.849/
-      -315522.194+1154829.300/
-      -315519.910+1154810.733/
-      RANGU/
-      BUVEL
-    </Line>
-    <Line>
-      <!--Rwy03 REPOK1-->
-      -315542.940+1155806.470/
-      -315539.619+1155806.971/
-      -315430.678+1155824.617/
-      -315416.228+1155831.518/
-      -315403.046+1155841.406/
-      -315351.479+1155853.927/
-      -315341.947+1155908.665/
-      -315334.889+1155924.835/
-      ALWYN/
-      TOODY/
-      REPOK
-    </Line>
-    <Line>
       <!--Rwy03 SOLUS6-->
       TUVBA/
       JANDO/
@@ -132,89 +59,27 @@
       SOLUS
     </Line>
     <Line>
-      <!--Rwy03 YNRV5-->
-      BIRER/
-      YNRV
-    </Line>
-    <Line>
       <!--Rwy06 AMANA5-->
       -315551.270+1155843.650/
-      ALWYN
-    </Line>
-    <Line>
-      <!--Rwy06 AVNEX5-->
-      -315551.270+1155843.650/
-      -315459.990+1160021.547/
-      MIDLA
+      ALWYN/
+      AMANA
     </Line>
     <Line>
       <!--Rwy06 HECTO5-->
-    </Line>
-    <Line>
-      <!--Rwy06 LENVU1-->
-      -315551.270+1155843.650/
-      HOVEA
+      AMANA/
+      INVIX/
+      BIRER/
+      HECTO
     </Line>
     <Line>
       <!--Rwy06 MEMUP5-->
-    </Line>
-    <Line>
-      <!--Rwy06 MUBID4-->
-    </Line>
-    <Line>
-      <!--Rwy06 OLMAM1-->
-      -315551.270+1155843.650/
-      -315553.874+1155838.237/
-      -315540.287+1155905.166/
-      -315532.836+1155919.970/
-      -315522.582+1155940.294/
-      -315513.810+1155955.962/
-      -315502.972+1160010.963/
-      -315449.805+1160024.332/
-      -315434.228+1160035.918/
-      MIDLA
-    </Line>
-    <Line>
-      <!--Rwy06 OPEGA1-->
-    </Line>
-    <Line>
-      <!--Rwy06 OTLED5-->
-    </Line>
-    <Line>
-      <!--Rwy06 RANGU9-->
-      -315551.270+1155843.650/
-      -315555.060+1155832.897/
-      -315550.585+1155840.261/
-      -315544.260+1155850.592/
-      -315535.465+1155904.711/
-      -315529.132+1155912.925/
-      -315520.760+1155919.198/
-      -315510.802+1155922.634/
-      -315459.869+1155922.824/
-      -315449.047+1155919.656/
-      -315438.907+1155913.223/
-      -315430.123+1155903.756/
-      -315423.368+1155851.745/
-      -315419.170+1155837.950/
-      -315417.627+1155823.093/
-      -315417.816+1155807.803/
-      -315418.920+1155752.481/
-      -315420.628+1155736.621/
-      -315422.710+1155720.371/
-      -315425.007+1155703.975/
-      -315427.506+1155647.095/
-      -315430.139+1155629.940/
-      -315432.867+1155612.558/
-      -315526.185+1155040.181
-    </Line>
-    <Line>
-      <!--Rwy06 REPOK1-->
-    </Line>
-    <Line>
-      <!--Rwy06 SOLUS6-->
+      BIRER/
+      MEMUP
     </Line>
     <Line>
       <!--Rwy06 YNRV5-->
+      BIRER/
+      YNRV
     </Line>
     <!--STARs-->
     <Line>
@@ -338,73 +203,12 @@
     <Line>
       <!--Rwy03 SOLU3X-->
     </Line>
-    <Line>
-      <!--Rwy06 DAYL5A.MALUP-->
-    </Line>
-    <Line>
-      <!--Rwy06 DAYL5A-->
-      HARMN/
-      BIBRA/
-      LENNY
-    </Line>
-    <Line>
-      <!--Rwy06 DAYL5V.MALUP-->
-    </Line>
-    <Line>
-      <!--Rwy06 DAYL5V-->
-      KARGO/
-      SAGAR
-    </Line>
-    <Line>
-      <!--Rwy06 IPMO2A.KAGMI-->
-    </Line>
-    <Line>
-      <!--Rwy06 IPMO2A-->
-      IPMOR/
-      VANRU/
-      ORIDO/
-      LENNY
-    </Line>
-    <Line>
-      <!--Rwy06 JULI6A-->
-    </Line>
-    <Line>
-      <!--Rwy06 JULI6V-->
-    </Line>
-    <Line>
-      <!--Rwy06 KABL1A-->
-    </Line>
-    <Line>
-      <!--Rwy06 KABL1V-->
-    </Line>
-    <Line>
-      <!--Rwy06 LAVE1A-->
-    </Line>
-    <Line>
-      <!--Rwy06 LAVE1V-->
-    </Line>
-    <Line>
-      <!--Rwy06 SAPK2A-->
-    </Line>
-    <Line>
-      <!--Rwy06 SAPK2V-->
-    </Line>
-    <Line>
-      <!--Rwy06 SOLU3A-->
-    </Line>
-    <Line>
-      <!--Rwy06 SOLU3V-->
-    </Line>
     <Symbol Type="HollowTriangle">
       <Point>BITUM</Point>
       <Point>KARGO</Point>
-      <Point>LENNY</Point>
-      <Point>SAGAR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>MIDLA</Point>
-      <Point>ALWYN</Point>
-      <Point>AMANA</Point>
       <Point>AGELU</Point>
       <Point>BUDMA</Point>
       <Point>AVPES</Point>
@@ -412,15 +216,6 @@
       <Point>SAKOM</Point>
       <Point>VENUP</Point>
       <Point>AVNEX</Point>
-      <Point>EKEPO</Point>
-      <Point>INVIX</Point>
-      <Point>BIRER</Point>
-      <Point>HECTO</Point>
-      <Point>HOVEA</Point>
-      <Point>BUVOT</Point>
-      <Point>LENVU</Point>
-      <Point>MEMUP</Point>
-      <Point>MUBID</Point>
       <Point>LUDVO</Point>
       <Point>TUVBA</Point>
       <Point>OLMAM</Point>
@@ -437,13 +232,15 @@
       <Point>IRNOD</Point>
       <Point>LEVKA</Point>
       <Point>OTLED</Point>
-      <Point>RANGU</Point>
-      <Point>BUVEL</Point>
-      <Point>TOODY</Point>
-      <Point>REPOK</Point>
       <Point>JANDO</Point>
       <Point>MOCUR</Point>
       <Point>SOLUS</Point>
+      <Point>ALWYN</Point>
+      <Point>AMANA</Point>
+      <Point>INVIX</Point>
+      <Point>BIRER</Point>
+      <Point>HECTO</Point>
+      <Point>MEMUP</Point>
       <Point>YNRV</Point>
       <Point>DAYLR</Point>
       <Point>MESAM</Point>
@@ -472,9 +269,6 @@
       <Point>MATJI</Point>
       <Point>SAPKO</Point>
       <Point>OLGEK</Point>
-      <Point>BIBRA</Point>
-      <Point>VANRU</Point>
-      <Point>ORIDO</Point>
     </Symbol>
     <!--(PH) RWY0306 Airspace-->
     <Line Name="(PH) RWY0306" Width="1.7" Pattern="Dotted">
@@ -488,18 +282,16 @@
     </Line>
     <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
       <!--(PH) RWY0306 Labels-->
-      <Point Name="APP">-31.992500+116.496111</Point>
-      <Point Name="APP">-32.171389+115.473056</Point>
-      <Point Name="APP 70+/DEP 60-">-31.524444+116.269444</Point>
-      <Point Name="DEP">-31.555278+115.763056</Point>
-      <Point Name="DEP">-31.716389+116.455556</Point>
+      <Point Name="PHA">-31.992500+116.496111</Point>
+      <Point Name="PHA">-32.171389+115.473056</Point>
+      <Point Name="PHA/PHD">-31.524444+116.269444</Point>
+      <Point Name="PHD">-31.555278+115.763056</Point>
+      <Point Name="PHD">-31.716389+116.455556</Point>
     </Label>
   </Map>
   <Map Type="System" Name="PH_RWY0306_NAMES" Priority="2" Center="-31.940278+115.966944">
     <Label>
       <Point>MIDLA</Point>
-      <Point>ALWYN</Point>
-      <Point>AMANA</Point>
       <Point>AGELU</Point>
       <Point>BUDMA</Point>
       <Point>AVPES</Point>
@@ -507,15 +299,6 @@
       <Point>SAKOM</Point>
       <Point>VENUP</Point>
       <Point>AVNEX</Point>
-      <Point>EKEPO</Point>
-      <Point>INVIX</Point>
-      <Point>BIRER</Point>
-      <Point>HECTO</Point>
-      <Point>HOVEA</Point>
-      <Point>BUVOT</Point>
-      <Point>LENVU</Point>
-      <Point>MEMUP</Point>
-      <Point>MUBID</Point>
       <Point>LUDVO</Point>
       <Point>TUVBA</Point>
       <Point>OLMAM</Point>
@@ -532,13 +315,15 @@
       <Point>IRNOD</Point>
       <Point>LEVKA</Point>
       <Point>OTLED</Point>
-      <Point>RANGU</Point>
-      <Point>BUVEL</Point>
-      <Point>TOODY</Point>
-      <Point>REPOK</Point>
       <Point>JANDO</Point>
       <Point>MOCUR</Point>
       <Point>SOLUS</Point>
+      <Point>ALWYN</Point>
+      <Point>AMANA</Point>
+      <Point>INVIX</Point>
+      <Point>BIRER</Point>
+      <Point>HECTO</Point>
+      <Point>MEMUP</Point>
       <Point>YNRV</Point>
       <Point>MALUP</Point>
       <Point>DAYLR</Point>
@@ -569,11 +354,6 @@
       <Point>MATJI</Point>
       <Point>SAPKO</Point>
       <Point>OLGEK</Point>
-      <Point>BIBRA</Point>
-      <Point>LENNY</Point>
-      <Point>SAGAR</Point>
-      <Point>VANRU</Point>
-      <Point>ORIDO</Point>
       <Point>HIDOT</Point>
       <Point>VEMON</Point>
       <Point>BURGU</Point>
@@ -592,6 +372,7 @@
       <Point>LAKIR</Point>
       <Point>MANIG</Point>
       <Point>LAKMO</Point>
+      <Point>REPOK</Point>
       <Point>NINEK</Point>
       <Point>DUTAK</Point>
       <Point>LAKAV</Point>
