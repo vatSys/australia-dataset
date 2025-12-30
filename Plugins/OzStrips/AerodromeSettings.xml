@@ -1,4 +1,4 @@
-<!-- Be very careful ediitng the OzStrips configuration.
+<!-- Be very careful editing the OzStrips configuration.
      Do not make changes to this file, place an overwrite file in (PROFILE)/Plugins/AerodromeSettings.xml
      Changes between the two files are not additive. Changes in the Profile directory will overwrite this one.-->
 <AerodromeSettings>
@@ -17,7 +17,8 @@
     <LayoutDefinition Name="All">
       <Element Name="Preactive" Column="0"/>
       <Element Name="Cleared" Column="0"/>
-      <Element Name="Pushback" Column="0"/>
+	    <Element Name="Monitor SMC" Column="0"/>
+	    <Element Name="Pushback" Column="0"/>
       <Element Name="Taxi" Column="1"/>
       <Element Name="Holding Point" Column="1"/>
       <Element Name="Runway" Column="1"/>
@@ -28,26 +29,30 @@
     <LayoutDefinition Name="ACD">
       <Element Name="Preactive" Column="0"/>
       <Element Name="Cleared" Column="1"/>
-      <Element Name="Pushback" Column="2"/>
+	    <Element Name="Monitor SMC" Column="2"/>
+	    <Element Name="Pushback" Column="2"/>
     </LayoutDefinition>
     <LayoutDefinition Name="ACD+SMC">
       <Element Name="Preactive" Column="0"/>
       <Element Name="Cleared" Column="0"/>
-      <Element Name="Pushback" Column="0"/>
+	    <Element Name="Monitor SMC" Column="0"/>
+	    <Element Name="Pushback" Column="1"/>
       <Element Name="Taxi" Column="1"/>
       <Element Name="Holding Point" Column="2"/>
       <Element Name="Runway" Column="2"/>
     </LayoutDefinition>
     <LayoutDefinition Name="SMC">
       <Element Name="Cleared" Column="0"/>
-      <Element Name="Pushback" Column="0"/>
+	    <Element Name="Monitor SMC" Column="0"/>
+	    <Element Name="Pushback" Column="1"/>
       <Element Name="Taxi" Column="1"/>
       <Element Name="Holding Point" Column="2"/>
       <Element Name="Runway" Column="2"/>
     </LayoutDefinition>
     <LayoutDefinition Name="SMC+ADC">
       <Element Name="Cleared" Column="0"/>
-      <Element Name="Pushback" Column="0"/>
+	    <Element Name="Monitor SMC" Column="0"/>
+	    <Element Name="Pushback" Column="0"/>
       <Element Name="Taxi" Column="1"/>
       <Element Name="Holding Point" Column="1"/>
       <Element Name="Runway" Column="1"/>
@@ -104,7 +109,11 @@
       </Bay>
       <Bay Name="Cleared">
         <Type>BAY_CLEARED</Type>
+		<Type>BAY_COORDINATOR</Type>
       </Bay>
+	  <Bay Name="Monitor SMC" Coordinator="true">
+		  <Type>BAY_COORDINATOR</Type>
+	  </Bay>
       <Bay Name="Pushback">
         <Type>BAY_PUSHED</Type>
       </Bay>
@@ -136,6 +145,7 @@
       <Bay Name="Taxi">
         <Type>BAY_CLEARED</Type>
         <Type>BAY_PUSHED</Type>
+        <Type>BAY_COORDINATOR</Type>
         <Type>BAY_TAXI</Type>
       </Bay>
       <Bay Name="Holding Point">
@@ -163,6 +173,7 @@
       <Bay Name="Taxi">
         <Type>BAY_PUSHED</Type>
         <Type>BAY_TAXI</Type>
+        <Type>BAY_COORDINATOR</Type>
       </Bay>
       <Bay Name="Holding Point">
         <Type>BAY_HOLDSHORT</Type>
@@ -214,5 +225,5 @@ CLIMB VIA SID TO: {CFL}
 DEP FREQ: {FREQ}
 SQUAWK {SQUAWK}
 ONLY READBACK SID, SQUAWK CODE, AND BAY NO. ON {READBACK}</PDCFormat>
-  <AerodromeAutoFillLocation></AerodromeAutoFillLocation>
+  <AerodromeAutoFillLocation>./Config/</AerodromeAutoFillLocation>
 </AerodromeSettings>
