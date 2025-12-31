@@ -19,6 +19,11 @@
             Gets or sets a value indicating whether the circuit is active.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.CoordinatorBayActive">
+            <summary>
+            Gets or sets a value indicating whether the coordinator bay is active.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.AerodromeCode">
             <summary>
             Gets or sets the aerodrome code.
@@ -67,6 +72,41 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState.ATIS">
             <summary>
             Gets or sets the current ATIS contents.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.AlertTypes">
+            <summary>
+            Enum of alert types.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.AlertTypes.RFL">
+            <summary>
+            Incorrect RFL.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.AlertTypes.ROUTE">
+            <summary>
+            Invalid route.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.AlertTypes.SSR">
+            <summary>
+            Invalid SSR code.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.AlertTypes.NO_HDG">
+            <summary>
+            No HDG set.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.AlertTypes.VFR_SID">
+            <summary>
+            VFR with a SID.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.AlertTypes.READY">
+            <summary>
+            Aircraft not ready.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.AssignmentResult">
@@ -509,6 +549,11 @@
             Gets or sets a list of waypoints, where at least one must be in the planned route.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.WTC">
+            <summary>
+            Gets or sets a list of wake turb cats, where at least one must match the aircraft
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.SID">
             <summary>
             Gets or sets a list of SIDs, where at least one must be the planned SID.
@@ -605,6 +650,11 @@
             Indicates the strip for an aircraft that is in the circuit.
             </summary>
         </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay.BAY_COORDINATOR">
+            <summary>
+            Indicates the strip for an aircraft that is in a "STANDBY FOR GROUND" bay.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO">
             <summary>
             Represents a controller strip with various operational details.
@@ -633,6 +683,11 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.GATE">
             <summary>
             Gets or sets the gate information.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.AllocatedBay">
+            <summary>
+            Gets or sets the server-allocated bay.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.TOT">
@@ -673,6 +728,11 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.PDCFlags">
             <summary>
             Gets or sets PDC flags.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO.InhibitedAlerts">
+            <summary>
+            Gets or sets the list of inhibited alerts.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.StripItemType">

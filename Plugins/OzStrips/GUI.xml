@@ -316,6 +316,11 @@
             Gets or sets a value indicating whether the circuit bay is active.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.CoordinatorBayActive">
+            <summary>
+            Gets or sets a value indicating whether the coordinator bay is active.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.BayManager.PickedBay">
             <summary>
             Gets the bay the current picked striplistitem is from.
@@ -386,6 +391,14 @@
             Drop the strip to the specified bay.
             </summary>
             <param name="bay">The bay.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.MoveStrip(MaxRumsey.OzStripsPlugin.GUI.Bay,MaxRumsey.OzStripsPlugin.GUI.Strip)">
+            <summary>
+            Moves a strip between bays.
+            </summary>
+            <param name="bay">Bay to move into.</param>
+            <param name="strip">Strip to move.</param>
+            <returns>Whether or not the strip was moved.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.DropStripBelow(MaxRumsey.OzStripsPlugin.GUI.StripListItem)">
             <summary>
@@ -1248,6 +1261,11 @@
             Gets or sets the left click action.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.MiddleClick">
+            <summary>
+            Gets or sets the MMC action.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.Hover">
             <summary>
             Gets or sets the left click action.
@@ -1965,7 +1983,7 @@
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.version">
             <summary>
-              Looks up a localized string similar to 0.8.0.
+              Looks up a localized string similar to 0.8.3.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher">
@@ -2136,6 +2154,12 @@
             </summary>
             <param name="status">Circuit enabled.</param>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.RequestCoordinator(System.Boolean)">
+            <summary>
+            Sends coordinator bay activity status to the server.
+            </summary>
+            <param name="status">Circuit enabled.</param>
+        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SendCDMParameters(MaxRumsey.OzStripsPlugin.GUI.Shared.CDMParameters)">
             <summary>
             Sends new CDM parameters to the server.
@@ -2228,6 +2252,11 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.CondensedRoute">
             <summary>
             Gets or sets the condensed route.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.InhibitedAlerts">
+            <summary>
+            Gets or sets inhibited alerts.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.RequestedRoutes">
@@ -2355,6 +2384,11 @@
             Gets or sets the gate.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.AllocatedBay">
+            <summary>
+            Gets or sets the allocated bay.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.PDCRequest">
             <summary>
             Gets the PDC request for this strip, if applicable.
@@ -2457,6 +2491,20 @@
             <summary>
             For local strips, cycle between APP, DEP and LOC strip modes.
             </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.InhibitAlert(MaxRumsey.OzStripsPlugin.GUI.Shared.AlertTypes)">
+            <summary>
+            Inhibits display of an alert.
+            </summary>
+            <param name="alert">Alert to inhibit.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.IsAlertActive(MaxRumsey.OzStripsPlugin.GUI.Shared.AlertTypes)">
+            <summary>
+            Determines whether or not an alert is active.
+            </summary>
+            <param name="alert">Alert to check.</param>
+            <returns>Alert is active.</returns>
+            <exception cref="T:System.ArgumentException">Invalid alert type passed.</exception>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.CoordinateStrip">
             <summary>
@@ -2625,17 +2673,11 @@
             Opens the CFL window.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.DetermineCFLBackColour">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.CFLAlertActive">
             <summary>
-            Determines the colour of the CFL highlight.
+            Determines whether the CFL alert should be active.
             </summary>
-            <returns>Colour.</returns>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.DetermineRouteBackColour">
-            <summary>
-            Determines the colour of the Route highlight.
-            </summary>
-            <returns>Colour.</returns>
+            <returns>Active.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripController.OpenHDGWindow">
             <summary>
