@@ -1,0 +1,6 @@
+- assign_dep_rwy: "true"
+- CFL: "060"
+- if:
+    waypoint: ["APAGI"]
+  SID: "APAGI"
+- departures: ["123.5", "124.7", "130.4", "134.2"]

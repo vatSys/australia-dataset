@@ -1,0 +1,18 @@
+- assign_dep_rwy: "true"
+# CFL
+- CFL: "180"
+- if:
+    SID: "DN"
+  CFL: "030"
+- if:
+    VFR: "true"
+  CFL: "020"
+# Departure Frequencies
+- departures: ["125.2", "134.1", "123.85"]
+- if:
+    runway: "29"
+  departures: ["134.1", "125.2", "123.85"]
+- if:
+    runway: ["18", "36"]
+    radials: ["180-360"]
+  departures: ["134.1", "125.2", "123.85"]
