@@ -2,7 +2,7 @@
 <Sectors xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Sector FullName="Alice Springs" Frequency="128.850" Callsign="ML-ASP_CTR" Name="ASP">
     <Volumes>ASP</Volumes>
-    <ResponsibleSectors>FOR,WAR,ASW,WRA,BKE,ESP</ResponsibleSectors>
+    <ResponsibleSectors>FOR,FOW,WAR,ASW,WRA,BKE,ESP</ResponsibleSectors>
   </Sector>
   <Sector FullName="Alice Springs West" Frequency="131.800" Callsign="ML-ASW_CTR" Name="ASW">
     <Volumes>ASW</Volumes>
@@ -349,7 +349,7 @@
   <Sector FullName="Adelaide Approach (West)" Frequency="124.200" Callsign="AD-W_APP" Name="AAW">
     <Volumes>ADA</Volumes>
   </Sector>
-  <Sector FullName="Adelaide Radar (Centre)" Frequency="130.45" Callsign="AD-R_DEP" Name="ARI">
+  <Sector FullName="Adelaide Radar (Centre)" Frequency="130.45" Callsign="AD-R_DEP" Name="AAR">
     <Volumes>ADA</Volumes>
   </Sector>
   <Sector FullName="Amberley Approach" Frequency="126.200" Callsign="AMB_APP" Name="AMA">
@@ -370,7 +370,7 @@
     <Volumes>BNA</Volumes>
     <ResponsibleSectors>BAC</ResponsibleSectors>
   </Sector>
-  <Sector FullName="Brisbane Departures (North)" Frequency="128.300" Callsign="BN_DEP" Name="BDN">
+  <Sector FullName="Brisbane Departures (North)" Frequency="133.450" Callsign="BN_DEP" Name="BDN">
     <Volumes>BNA</Volumes>
   </Sector>
   <Sector FullName="Brisbane Departures (South)" Frequency="118.450" Callsign="BN-S_DEP" Name="BDS">
@@ -881,4 +881,6 @@
   <Sector FullName="Sydney Flow" Frequency="123.450" Callsign="SY_FMP" Name="SY FMP" DisplayInHandoffWindow="False">
     <Volumes>SYA</Volumes>
   </Sector>
+
 </Sectors>
+
