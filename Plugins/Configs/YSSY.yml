@@ -32,6 +32,10 @@
   if_not:
       jet: "true"
   runway: "34L"
+- if:
+    atis_dep_rwy: ["34L", "16L"]
+    WTC: ["H", "J"]
+  runway: "34L"
 # SIDs
 # RWY 16L
 - if:
