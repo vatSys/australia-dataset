@@ -121,11 +121,23 @@
     <Line Name="(ML) RWY09_MDS_2" Width="1.7" Pattern="Dotted">
       -373944.120+1445053.130/-374054.000+1451137.000/-373247.700+1452717.900
     </Line>
+    <Line Name="(ML) RWY09_MAE_ARBEY-R" Width="1.7" Pattern="Dotted">
+      -370949.000+1444728.000/-371944.000+1444844.000
+    </Line>
+    <Line Name="(ML) RWY09_MAE_ARBEY-L" Width="1.7" Pattern="Dotted">
+      -372010.298+1444416.106/-371044.822+1444033.511
+    </Line>
+    <Line Name="(ML) RWY09_MAE-BOO-BOY" Width="1.7" Pattern="Dotted">
+      -372029.000+1451938.000/-372139.000+1451348.000/-372228.000+1450947.000/-372808.000+1450325.000
+    </Line>
     <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
       <!--(ML) RWY09 Labels-->
       <Point Name="MDS">-38.037778+144.683889</Point>
       <Point Name="MDN">-37.626944+144.915556</Point>
       <Point Name="MDN/MAE">-37.303611+144.619722</Point>
+      <Point Name="MAE">-37.191389+144.758889</Point>
+      <Point Name="MAE">-37.415556+145.299444</Point>
+      <Point Name="MDN">-37.525278+145.341111</Point>
     </Label>
   </Map>
   <Map Type="System" Name="ML_RWY09_NAMES" Priority="2" Center="-37.673333+144.843333">
