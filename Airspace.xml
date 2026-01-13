@@ -6536,6 +6536,7 @@ SAGLI
     <Point Name="AGSAX" Type="Fix">-345558.100+1381840.500</Point>
     <Point Name="AGSEL" Type="Fix">-195528.500+1094100.900</Point>
     <Point Name="AGSIR" Type="Fix">-191209.000+1464715.400</Point>
+    <Point Name="AGSUL" Type="Fix">-345254.600+1504948.400</Point>
     <Point Name="AGTEK" Type="Fix">-280901.300+1533826.000</Point>
     <Point Name="AGTEV" Type="Fix">-373149.300+1445733.900</Point>
     <Point Name="AGTIK" Type="Fix">-283242.000+1182621.000</Point>
@@ -8553,7 +8554,6 @@ SAGLI
     <Point Name="ENBUD" Type="Fix">-372332.100+1463528.200</Point>
     <Point Name="ENDET" Type="Fix">-182405.200+1453957.700</Point>
     <Point Name="ENDEV" Type="Fix">-341048.400+1511453.800</Point>
-    <Point Name="ENDIS" Type="Fix">-344618.000+1504446.800</Point>
     <Point Name="ENDOR" Type="Fix">-351711.800+1492048.700</Point>
     <Point Name="ENDOV" Type="Fix">-240406.300+1175621.500</Point>
     <Point Name="ENDUM" Type="Fix">-373929.300+1450925.100</Point>
@@ -10104,6 +10104,7 @@ SAGLI
     <Point Name="LANOS" Type="Fix">-371702.300+1472227.100</Point>
     <Point Name="LANUN" Type="Fix">-380036.000+1430648.000</Point>
     <Point Name="LANYO" Type="Fix">-353017.000+1490112.300</Point>
+    <Point Name="LAPAM" Type="Fix">-313439.100+1160008.800</Point>
     <Point Name="LAPAR" Type="Fix">-122808.200+1310235.200</Point>
     <Point Name="LAPES" Type="Fix">-193704.500+1465722.400</Point>
     <Point Name="LAPIP" Type="Fix">-270003.000+1555446.000</Point>
@@ -10365,6 +10366,17 @@ SAGLI
     <Point Name="LSYSJ" Type="Fix">-285914.700+1532550.200</Point>
     <Point Name="LSYSK" Type="Fix">-290407.000+1532221.700</Point>
     <Point Name="LSYSL" Type="Fix">-290254.600+1531557.800</Point>
+    <Point Name="LT2ND" Type="Fix">-412455.300+1465834.300</Point>
+    <Point Name="LT2NE" Type="Fix">-411936.400+1470127.000</Point>
+    <Point Name="LT2NF" Type="Fix">-412800.900+1470839.100</Point>
+    <Point Name="LT2NG" Type="Fix">-411808.400+1471042.100</Point>
+    <Point Name="LT2NI" Type="Fix">-412348.200+1470503.900</Point>
+    <Point Name="LT2SA" Type="Fix">-414202.100+1472937.400</Point>
+    <Point Name="LT2SB" Type="Fix">-414734.500+1472526.200</Point>
+    <Point Name="LT2SC" Type="Fix">-414721.400+1471746.400</Point>
+    <Point Name="LT2SF" Type="Fix">-413910.100+1471811.800</Point>
+    <Point Name="LT2SH" Type="Fix">-413036.000+1471051.500</Point>
+    <Point Name="LT2SI" Type="Fix">-414322.300+1472148.800</Point>
     <Point Name="LU2NA" Type="Fix">-272343.300+1203209.800</Point>
     <Point Name="LU2NC" Type="Fix">-272101.800+1203751.400</Point>
     <Point Name="LU2ND" Type="Fix">-272453.000+1204238.500</Point>
@@ -10407,7 +10419,7 @@ SAGLI
     <Point Name="LUXAV" Type="Fix">-263857.300+1531804.500</Point>
     <Point Name="LUXUP" Type="Fix">-332554.000+1491220.000</Point>
     <Point Name="LV2EA" Type="Fix">-282804.400+1223712.000</Point>
-    <Point Name="LV2EB" Type="Fix">-283120.300+1224233.500</Point>
+    <Point Name="LV2EB" Type="Fix">-283120.300+1224233.600</Point>
     <Point Name="LV2EC" Type="Fix">-283654.300+1224055.200</Point>
     <Point Name="LV2EF" Type="Fix">-283449.900+1223154.900</Point>
     <Point Name="LV2EH" Type="Fix">-283737.000+1222323.500</Point>
@@ -10749,17 +10761,6 @@ SAGLI
     <Point Name="MJ2WM" Type="Fix">-341547.800+1160802.900</Point>
     <Point Name="ML420" Type="Fix">-373556.100+1444928.100</Point>
     <Point Name="ML430" Type="Fix">-374706.500+1445137.300</Point>
-    <Point Name="MLTND" Type="Fix">-412455.200+1465834.300</Point>
-    <Point Name="MLTNE" Type="Fix">-411936.400+1470127.000</Point>
-    <Point Name="MLTNF" Type="Fix">-412800.900+1470839.100</Point>
-    <Point Name="MLTNG" Type="Fix">-411808.400+1471042.100</Point>
-    <Point Name="MLTNI" Type="Fix">-412348.200+1470503.900</Point>
-    <Point Name="MLTSA" Type="Fix">-414202.100+1472937.400</Point>
-    <Point Name="MLTSB" Type="Fix">-414734.500+1472526.200</Point>
-    <Point Name="MLTSC" Type="Fix">-414721.400+1471746.400</Point>
-    <Point Name="MLTSF" Type="Fix">-413910.100+1471811.800</Point>
-    <Point Name="MLTSH" Type="Fix">-413035.900+1471051.500</Point>
-    <Point Name="MLTSI" Type="Fix">-414322.300+1472148.800</Point>
     <Point Name="MMBNF" Type="Fix">-375248.600+1450528.800</Point>
     <Point Name="MMBNG" Type="Fix">-374625.800+1445859.000</Point>
     <Point Name="MMBNH" Type="Fix">-380048.000+1450610.600</Point>
@@ -10977,6 +10978,12 @@ SAGLI
     <Point Name="MX2SH" Type="Fix">-220055.300+1480409.900</Point>
     <Point Name="MX2SI" Type="Fix">-221349.200+1480616.000</Point>
     <Point Name="MX2SJ" Type="Fix">-221613.400+1480132.100</Point>
+    <Point Name="MX400" Type="Fix">-220603.400+1480500.000</Point>
+    <Point Name="MX410" Type="Fix">-220105.800+1480411.600</Point>
+    <Point Name="MX420" Type="Fix">-215923.900+1480501.400</Point>
+    <Point Name="MX430" Type="Fix">-215925.800+1480722.700</Point>
+    <Point Name="MX440" Type="Fix">-220053.300+1480941.900</Point>
+    <Point Name="MX450" Type="Fix">-220217.500+1481155.800</Point>
     <Point Name="MY2NA" Type="Fix">-354037.300+1500615.600</Point>
     <Point Name="MY2NC" Type="Fix">-353821.600+1501243.700</Point>
     <Point Name="MY2ND" Type="Fix">-354232.700+1501733.200</Point>
@@ -12017,7 +12024,6 @@ SAGLI
     <Point Name="POSOD" Type="Fix">-032930.000+0940954.000</Point>
     <Point Name="POSOX" Type="Fix">-101330.000+1435536.000</Point>
     <Point Name="POSUM" Type="Fix">-310553.300+1564700.500</Point>
-    <Point Name="POTAD" Type="Fix">-345233.000+1504925.200</Point>
     <Point Name="POTIP" Type="Fix">-214137.100+1250758.500</Point>
     <Point Name="POTUM" Type="Fix">-291744.100+1465916.200</Point>
     <Point Name="POTUS" Type="Fix">-344431.000+1382812.000</Point>
@@ -12484,6 +12490,8 @@ SAGLI
     <Point Name="RML60" Type="Fix">-374715.700+1445447.500</Point>
     <Point Name="RML62" Type="Fix">-374821.700+1444525.900</Point>
     <Point Name="RML63" Type="Fix">-373121.000+1445459.300</Point>
+    <Point Name="RMX01" Type="Fix">-220050.400+1480600.100</Point>
+    <Point Name="RMX02" Type="Fix">-220105.700+1480610.500</Point>
     <Point Name="ROCEL" Type="Fix">-374517.200+1450109.800</Point>
     <Point Name="ROESA" Type="Fix">-380000.700+1471917.900</Point>
     <Point Name="ROGGS" Type="Fix">-350340.900+1385420.700</Point>
@@ -12680,6 +12688,7 @@ SAGLI
     <Point Name="SAKPI" Type="Fix">-100951.840+1604402.821</Point>
     <Point Name="SAKUT" Type="Fix">-425141.600+1474621.200</Point>
     <Point Name="SALAG" Type="Fix">-345042.180+1714100.110</Point>
+    <Point Name="SALEB" Type="Fix">-312929.700+1155927.700</Point>
     <Point Name="SALEL" Type="Fix">-273818.500+1532340.100</Point>
     <Point Name="SALGA" Type="Fix">-272210.800+1532424.400</Point>
     <Point Name="SALOT" Type="Fix">-344755.800+1365725.000</Point>
@@ -12828,7 +12837,7 @@ SAGLI
     <Point Name="SINAM" Type="Fix">-260000.000+1062905.800</Point>
     <Point Name="SINNK" Type="Fix">-271239.200+1531340.000</Point>
     <Point Name="SK2SA" Type="Fix">-112919.100+1305141.300</Point>
-    <Point Name="SK2SB" Type="Fix">-113503.800+1305114.300</Point>
+    <Point Name="SK2SB" Type="Fix">-113503.800+1305114.400</Point>
     <Point Name="SK2SC" Type="Fix">-113636.600+1304536.600</Point>
     <Point Name="SK2SF" Type="Fix">-112841.000+1304322.300</Point>
     <Point Name="SK2SH" Type="Fix">-112334.600+1303704.900</Point>
@@ -13582,6 +13591,7 @@ SAGLI
     <Point Name="UBLOM" Type="Fix">-320352.400+1510656.700</Point>
     <Point Name="UBLUK" Type="Fix">-284900.800+1495112.400</Point>
     <Point Name="UBMAX" Type="Fix">-325440.300+1515235.600</Point>
+    <Point Name="UBMEP" Type="Fix">-344613.200+1504453.500</Point>
     <Point Name="UBNIL" Type="Fix">-323809.400+1520255.800</Point>
     <Point Name="UBNIS" Type="Fix">-081618.000+0800000.000</Point>
     <Point Name="UBNUB" Type="Fix">-324021.600+1435139.400</Point>
@@ -15862,7 +15872,7 @@ SAGLI
     <Point Name="TN" Type="Navaid" NavaidType="VOR" Frequency="112.300">-143109.100+1322215.600</Point>
     <Point Name="TNK" Type="Navaid" NavaidType="VOR" Frequency="112.900">-193805.100+1341055.000</Point>
     <Point Name="TW" Type="Navaid" NavaidType="VOR" Frequency="116.000">-310357.900+1504948.900</Point>
-    <Point Name="VLI" Type="Navaid" NavaidType="VOR" Frequency="000.000">-173943.700+1681438.159</Point>
+    <Point Name="VLI" Type="Navaid" NavaidType="VOR" Frequency="000.000">-173943.740+1681438.155</Point>
     <Point Name="WG" Type="Navaid" NavaidType="VOR" Frequency="115.000">-350956.700+1472808.700</Point>
     <Point Name="WP" Type="Navaid" NavaidType="VOR" Frequency="112.800">-124024.800+1415520.900</Point>
     <Point Name="XMX" Type="Navaid" NavaidType="VOR" Frequency="112.400">-102548.800+1054121.600</Point>
@@ -21874,7 +21884,7 @@ SAGLI
     <Airport ICAO="YXMJ" FullName="Murray Bridge Hospital" Position="-350741.000+1391652.000" />
     <Airport ICAO="YXMK" FullName="Macksville Medical" Position="-304300.000+1525500.000" />
     <Airport ICAO="YXMM" FullName="Mannum Hospital" Position="-345500.000+1391830.000" />
-    <Airport ICAO="YXMO" FullName="Mossman Hospital" Position="-162748.000+1452205.000" />
+    <Airport ICAO="YXMO" FullName="Mossman Hospital" Position="-162748.000+1452205.000" Elevation="39" />
     <Airport ICAO="YXMP" FullName="Mount Perry Health Care Centre" Position="-251054.000+1513845.000" />
     <Airport ICAO="YXMQ" FullName="Maitland Hospital (SA)" Position="-342216.000+1374034.000" />
     <Airport ICAO="YXMR" FullName="Moura Hospital" Position="-243434.000+1495833.000" />
