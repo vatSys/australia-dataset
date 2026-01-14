@@ -6167,6 +6167,9 @@
   <Volume Name="WLM_APP" LowerLimit="0" UpperLimit="12500">
     <Boundaries>WILLIAMTOWN_APPROACH</Boundaries>
   </Volume>
+  <Volume Name="WLM-H_APP" LowerLimit="12500" UpperLimit="60000">
+    <Boundaries>WILLIAMTOWN_APPROACH</Boundaries>
+  </Volume>
   <Volume Name="WLMTWR" LowerLimit="0" UpperLimit="1500">
     <Boundaries>WILLIAMTOWN_CONTROL_ZONE_A_(C)</Boundaries>
   </Volume>
