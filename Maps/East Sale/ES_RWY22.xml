@@ -8,41 +8,134 @@
     </Runway>
     <!--SIDs-->
     <Line>
+      <!--Rwy22 ANTLA2-->
+      -380621.780+1470818.820/
+      -380657.019+1470717.165/
+      -380733.157+1470639.859/
+      -380819.168+1470630.575/
+      -380902.667+1470651.787/
+      -381252.000+1470940.000/
+      ANTLA
+    </Line>
+    <Line>
+      <!--Rwy22 AY3-->
+      -380657.019+1470717.165/
+      -380713.758+1470621.949/
+      -380706.468+1470523.461/
+      -380637.142+1470437.452/
+      -380553.644+1470416.252/
+      -380507.632+1470425.531/
+      -380451.481+1470437.456/
+      -375813.000+1470846.000/
+      AY VOR
+    </Line>
+    <Line>
+      <!--Rwy22 BULKO1-->
+      -380706.468+1470523.461/
+      -380655.000+1470401.000/
+      BULKO
+    </Line>
+    <Line>
+      <!--Rwy22 DUNNE3-->
+      -380637.142+1470437.452/
+      -380530.000+1470306.000/
+      DUNNE
+    </Line>
+    <Line>
       <!--Rwy22 ESL5-->
-      -380621.780+1470818.820/
-      -380621.780+1470818.820/
-      -380748.817+1470546.513
+    </Line>
+    <Line>
+      <!--Rwy22 GIPPS3-->
+      -380902.667+1470651.787/
+      -380931.993+1470737.821/
+      -380939.283+1470836.341/
+      -380935.352+1470859.567/
+      -380533.000+1471213.000/
+      GIPPS
+    </Line>
+    <Line>
+      <!--Rwy22 MNG3-->
+      -380553.644+1470416.252/
+      -380222.000+1470228.000/
+      MNG VOR
+    </Line>
+    <Line>
+      <!--Rwy22 MOZZA3-->
+      -380637.142+1470437.452/
+      -380633.000+1470430.000/
+      MOZZA
+    </Line>
+    <Line>
+      <!--Rwy22 NUNPA2-->
+      -380931.993+1470737.821/
+      -381245.000+1471206.000/
+      NUNPA
+    </Line>
+    <Line>
+      <!--Rwy22 TYERS3-->
+      -380935.352+1470859.567/
+      -380548.000+1471407.000/
+      TYERS
+    </Line>
+    <Line>
+      <!--Rwy22 VALDU2-->
+      -380451.481+1470437.456/
+      -375905.000+1471242.000/
+      VALDU
+    </Line>
+    <Line>
+      <!--Rwy22 VISER2-->
+      -380451.481+1470437.456/
+      -380203.000+1471421.000/
+      VISER
     </Line>
     <!--STARs-->
     <Symbol Type="HollowTriangle">
       <Point>KELAN</Point>
     </Symbol>
+    <Symbol Type="Circle">
+      <Point>AY VOR</Point>
+      <Point>MNG VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ANTLA</Point>
+      <Point>BULKO</Point>
+      <Point>DUNNE</Point>
+      <Point>GIPPS</Point>
+      <Point>MOZZA</Point>
+      <Point>NUNPA</Point>
+      <Point>TYERS</Point>
+      <Point>VALDU</Point>
+      <Point>VISER</Point>
+    </Symbol>
   </Map>
   <Map Type="System" Name="ES_RWY22_NAMES" Priority="2" Center="-38.098889+147.149444">
     <Label>
-      <Point>DUNNE</Point>
-      <Point>MOSVO</Point>
       <Point>ANTLA</Point>
+      <Point>AY VOR</Point>
+      <Point>BULKO</Point>
+      <Point>DUNNE</Point>
+      <Point>GIPPS</Point>
+      <Point>MNG VOR</Point>
+      <Point>MOZZA</Point>
+      <Point>NUNPA</Point>
+      <Point>TYERS</Point>
+      <Point>VALDU</Point>
+      <Point>VISER</Point>
+      <Point>MOSVO</Point>
       <Point>VIMAP</Point>
       <Point>LT VOR</Point>
       <Point>CB VOR</Point>
       <Point>COM NDB</Point>
-      <Point>VISER</Point>
-      <Point>GIPPS</Point>
       <Point>MER NDB</Point>
-      <Point>NUNPA</Point>
       <Point>MOTRA</Point>
       <Point>LTV NDB</Point>
-      <Point>BULKO</Point>
       <Point>RAZZI</Point>
       <Point>MB NDB</Point>
       <Point>SAMIG</Point>
       <Point>MAKAT</Point>
-      <Point>MNG VOR</Point>
       <Point>MAKIV</Point>
-      <Point>TYERS</Point>
       <Point>OTKED</Point>
-      <Point>VALDU</Point>
       <Point>DUBUS</Point>
       <Point>WG VOR</Point>
       <Point>KELAN</Point>

@@ -8,10 +8,88 @@
     </Runway>
     <!--SIDs-->
     <Line>
+      <!--Rwy09 ANTLA2-->
+      -380555.640+1470912.330/
+      -380605.013+1471027.587/
+      -380605.013+1471027.587/
+      -380623.895+1471121.682/
+      -380701.578+1471156.498/
+      -380747.909+1471202.708/
+      -380830.474+1471138.633/
+      -381117.000+1470938.000/
+      ANTLA
+    </Line>
+    <Line>
+      <!--Rwy09 AY3-->
+      -380605.013+1471027.587/
+      -380600.201+1471126.446/
+      -380532.810+1471214.332/
+      -380450.245+1471238.390/
+      -380403.914+1471232.185/
+      -375949.000+1470855.000/
+      AY VOR
+    </Line>
+    <Line>
+      <!--Rwy09 BULKO1-->
+      -380403.914+1471232.185/
+      -380326.231+1471157.392/
+      -380307.288+1471103.340/
+      -380312.156+1471004.501/
+      -380339.533+1470916.627/
+      -380343.149+1470913.190/
+      -380525.000+1470550.000/
+      BULKO
+    </Line>
+    <Line>
+      <!--Rwy09 DUNNE3-->
+      -380605.013+1471027.587/
+      DUNNE
+    </Line>
+    <Line>
       <!--Rwy09 ESL5-->
-      -380555.640+1470912.330/
-      -380555.640+1470912.330/
-      -380618.871+1471218.898
+    </Line>
+    <Line>
+      <!--Rwy09 GIPPS3-->
+      -380532.810+1471214.332/
+      GIPPS
+    </Line>
+    <Line>
+      <!--Rwy09 MNG3-->
+      -380326.231+1471157.392/
+      -380316.100+1471137.461/
+      -380307.288+1471103.340/
+      -380208.000+1470205.000/
+      MNG VOR
+    </Line>
+    <Line>
+      <!--Rwy09 MOZZA3-->
+      -380343.149+1470913.190/
+      -380600.000+1470348.000/
+      MOZZA
+    </Line>
+    <Line>
+      <!--Rwy09 NUNPA2-->
+      -380747.909+1471202.708/
+      -381042.000+1471115.000/
+      NUNPA
+    </Line>
+    <Line>
+      <!--Rwy09 TYERS3-->
+      -380605.013+1471027.587/
+      -380615.000+1471149.000/
+      TYERS
+    </Line>
+    <Line>
+      <!--Rwy09 VALDU2-->
+      -380403.914+1471232.185/
+      -380118.000+1471146.000/
+      VALDU
+    </Line>
+    <Line>
+      <!--Rwy09 VISER2-->
+      -380450.245+1471238.390/
+      -380325.000+1471257.000/
+      VISER
     </Line>
     <!--STARs-->
     <Line>
@@ -54,50 +132,61 @@
       <Point>MESWP</Point>
       <Point>MESWQ</Point>
     </Symbol>
+    <Symbol Type="SolidStar">
+      <Point>PAPDO</Point>
+      <Point>TREVR</Point>
+    </Symbol>
     <Symbol Type="Circle">
+      <Point>AY VOR</Point>
+      <Point>MNG VOR</Point>
       <Point>LTV NDB</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>ANOSO</Point>
-      <Point>PAPDO</Point>
+      <Point>ANTLA</Point>
       <Point>BULKO</Point>
+      <Point>DUNNE</Point>
+      <Point>GIPPS</Point>
       <Point>MOZZA</Point>
-      <Point>TREVR</Point>
+      <Point>NUNPA</Point>
+      <Point>TYERS</Point>
+      <Point>VALDU</Point>
       <Point>VISER</Point>
+      <Point>ANOSO</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="ES_RWY09_NAMES" Priority="2" Center="-38.098889+147.149444">
     <Label>
+      <Point>ANTLA</Point>
+      <Point>AY VOR</Point>
+      <Point>BULKO</Point>
+      <Point>DUNNE</Point>
+      <Point>GIPPS</Point>
+      <Point>MNG VOR</Point>
+      <Point>MOZZA</Point>
+      <Point>NUNPA</Point>
+      <Point>TYERS</Point>
+      <Point>VALDU</Point>
+      <Point>VISER</Point>
       <Point>ANOSO</Point>
       <Point>MESWO</Point>
-      <Point>BULKO</Point>
       <Point>PAPDO</Point>
       <Point>LTV NDB</Point>
-      <Point>MOZZA</Point>
       <Point>MESWP</Point>
-      <Point>VISER</Point>
       <Point>TREVR</Point>
       <Point>MESWQ</Point>
-      <Point>DUNNE</Point>
       <Point>MOSVO</Point>
-      <Point>ANTLA</Point>
       <Point>VIMAP</Point>
       <Point>LT VOR</Point>
       <Point>CB VOR</Point>
       <Point>COM NDB</Point>
-      <Point>GIPPS</Point>
       <Point>MER NDB</Point>
-      <Point>NUNPA</Point>
       <Point>MOTRA</Point>
       <Point>RAZZI</Point>
       <Point>MB NDB</Point>
       <Point>SAMIG</Point>
       <Point>MAKAT</Point>
-      <Point>MNG VOR</Point>
       <Point>MAKIV</Point>
-      <Point>TYERS</Point>
       <Point>OTKED</Point>
-      <Point>VALDU</Point>
       <Point>DUBUS</Point>
       <Point>WG VOR</Point>
     </Label>
