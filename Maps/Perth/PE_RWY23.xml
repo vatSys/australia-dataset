@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="PE_RWY23" Priority="1" Center="-31.667778+116.015000">
+    <!--YPEA-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-31.672319+116.008692" />
+      <Threshold Name="23" Position="-31.661486+116.021242" ExtendedCentrelineTrack="44.74" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy23 ALKIM7-->
+      -314020.350+1160031.290/
+      -314228.625+1155803.091/
+      -314232.000+1155737.000/
+      -314223.000+1155712.000/
+      -314202.000+1155652.000/
+      -313809.000+1155648.000/
+      -313229.000+1154612.000
+    </Line>
+    <Line>
+      <!--Rwy23 MULALOO8-->
+      -314232.000+1155737.000/
+      -314207.000+1155606.000/
+      -314749.000+1153909.000
+    </Line>
+    <Line>
+      <!--Rwy23 PEA6-->
+    </Line>
+    <Line>
+      <!--Rwy23 WAMAL6-->
+      -314228.625+1155803.091/
+      -314250.000+1155608.000/
+      -314250.000+1155557.000/
+      -314248.000+1155546.000/
+      -314244.000+1155536.000/
+      -314236.000+1155529.000/
+      -314225.000+1155527.000/
+      -314214.000+1155528.000/
+      -314203.000+1155532.000/
+      -314154.000+1155536.000/
+      -314150.000+1155539.000/
+      -313634.000+1160035.000/
+      -312530.000+1155918.000
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy23 PEA4G.KABLI-->
+      KABLI/
+      KYEMA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy23 PEA4G.LAVEX-->
+      LAVEX/
+      BOOKA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy23 PEA4G-->
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy23 PEA4R.KABLI-->
+      KABLI/
+      BOOKA/
+      RONAN/
+      VEPAN/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy23 PEA4R.LAVEX-->
+      LAVEX/
+      BUVOT/
+      RONAN/
+      UNDOW/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy23 PEA4R-->
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy23 PEA4W.MALUP-->
+      MALUP/
+      DAYLR/
+      WUNGO
+    </Line>
+    <Line>
+      <!--Rwy23 PEA4W-->
+      WUNGO/
+      HARMN
+    </Line>
+    <Symbol Type="HollowStar">
+      <Point>GOSNL</Point>
+      <Point>KABLI</Point>
+      <Point>KYEMA</Point>
+      <Point>LAVEX</Point>
+      <Point>BOOKA</Point>
+      <Point>ROLOB</Point>
+      <Point>RONAN</Point>
+      <Point>VEPAN</Point>
+      <Point>BUVOT</Point>
+      <Point>UNDOW</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+      <Point>MALUP</Point>
+      <Point>DAYLR</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="PE_RWY23_NAMES" Priority="2" Center="-31.667778+116.015000">
+    <Label>
+      <Point>KABLI</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>LAVEX</Point>
+      <Point>BOOKA</Point>
+      <Point>RONAN</Point>
+      <Point>VEPAN</Point>
+      <Point>ROLOB</Point>
+      <Point>BUVOT</Point>
+      <Point>UNDOW</Point>
+      <Point>MALUP</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+      <Point>HIDOT</Point>
+      <Point>VEMON</Point>
+      <Point>BURGU</Point>
+      <Point>OTLED</Point>
+      <Point>ONGAR</Point>
+      <Point>SOVTO</Point>
+      <Point>DALWU</Point>
+      <Point>AVPAL</Point>
+      <Point>HINDS</Point>
+      <Point>CALIG</Point>
+      <Point>JULIM</Point>
+      <Point>ESMIN</Point>
+      <Point>KALBO</Point>
+      <Point>KAGMI</Point>
+      <Point>DAKPO</Point>
+      <Point>OPEGA</Point>
+      <Point>MERIB</Point>
+      <Point>OLMAM</Point>
+      <Point>BLN NDB</Point>
+      <Point>SOLUS</Point>
+      <Point>JOSBU</Point>
+      <Point>AVNEX</Point>
+      <Point>ESDEG</Point>
+      <Point>AMANA</Point>
+      <Point>LAKIR</Point>
+      <Point>MANIG</Point>
+      <Point>LAKMO</Point>
+      <Point>REPOK</Point>
+      <Point>NINEK</Point>
+      <Point>DUTAK</Point>
+      <Point>LAKAV</Point>
+      <Point>BUNGL</Point>
+      <Point>YAHMO</Point>
+      <Point>KELLA</Point>
+      <Point>MEVAD</Point>
+      <Point>PUMRY</Point>
+    </Label>
+  </Map>
+</Maps>
