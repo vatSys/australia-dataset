@@ -8,22 +8,6 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy30 CLASS1-->
-      -324713.640+1514921.340/
-      -324615.103+1514800.126
-    </Line>
-    <Line>
-      <!--Rwy30 CLASS1.OLVEP-->
-      -324615.103+1514800.126/
-      -324255.000+1514853.000/
-      OLVEP
-    </Line>
-    <Line>
-      <!--Rwy30 CLASS1.UKDIP-->
-      -324255.000+1514853.000/
-      UKDIP
-    </Line>
-    <Line>
       <!--Rwy30 KEXAR1-->
       -324713.640+1514921.340/
       URDAX/
@@ -158,8 +142,6 @@
       <Point>OVPEV</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>OLVEP</Point>
-      <Point>UKDIP</Point>
       <Point>URDAX</Point>
       <Point>MATLA</Point>
       <Point>IRPES</Point>
@@ -196,8 +178,6 @@
   </Map>
   <Map Type="System" Name="WLM_RWY30_NAMES" Priority="2" Center="-32.795000+151.834444">
     <Label>
-      <Point>OLVEP</Point>
-      <Point>UKDIP</Point>
       <Point>URDAX</Point>
       <Point>MATLA</Point>
       <Point>IRPES</Point>
