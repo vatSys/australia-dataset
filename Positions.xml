@@ -1639,7 +1639,6 @@
         <Sector Name="BAS" />
         <Sector Name="BDN" />
         <Sector Name="BDS" />
-        <Sector Name="BAC" />
         <Sector Name="SHN" />
       </Sectors>
       <ManualVisibility>
@@ -1694,6 +1693,39 @@
       </ControllerInfo>
       <ControllerInfo Callsign="BN-S_DEP">
         <Line>Brisbane Departures (South) | ATIS available on 125.5</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+	<Position Name="Gold Coast TCU" Type="ASD" DefaultCenter="-28.164444+153.504722" DefaultRange="175" VisibilityRange="100" MagneticVariation="-11">
+      <Sectors>
+        <Sector Name="BAC" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-27.3942+153.1218</Point>
+        <Point>-28.166667+153.500</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Brisbane/BN_COAST" />
+        <Map Name="Brisbane/BN_TCU" />
+        <Map Name="Brisbane/CG_RWY32" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBCG" Frequency="134.5" />
+        <Window Airport="YBCG" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBCG" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="12000">
+        <AdditionalLevels>1700,1800,1900,2400,2900,3400,3800,4400,5100</AdditionalLevels>
+      </CFL>
+      <ControllerInfo Callsign="BN-C_APP">
+        <Line>Brisbane Approach (Gold Coast) | ATIS available on 125.5</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
