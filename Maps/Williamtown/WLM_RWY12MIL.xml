@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="WLM_RWY12MIL" Priority="1" Center="-32.795000+151.834444">
+    <!--YWLM-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-32.787122+151.822594" ExtendedCentrelineTrack="310.29" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="30" Position="-32.804958+151.847497" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy12 CLASS1-->
+      -324817.850+1515050.990/
+      -325014.881+1515333.540
+    </Line>
+    <Line>
+      <!--Rwy12 CLASS1.LEFT-->
+      -325014.881+1515333.540/
+      -325014.881+1515333.540/
+      -325028.329+1515406.838/
+      -325025.946+1515443.695/
+      -325008.396+1515514.193/
+      -324940.385+1515530.158/
+      -324909.418+1515527.316/
+      -324855.910+1515519.194/
+      -324658.821+1515236.744
+    </Line>
+    <Line>
+      <!--Rwy12 CLASS1.RIGHT-->
+      -325014.881+1515333.540/
+      -325040.469+1515354.454/
+      -325111.436+1515357.297/
+      -325139.447+1515341.327/
+      -325156.997+1515310.820/
+      -325159.380+1515233.952/
+      -325154.702+1515216.816/
+      -324957.613+1514934.275
+    </Line>
+    <Line>
+      <!--Rwy12 STORM1-->
+      -324817.850+1515050.990/
+      -322752.800+1513213.200/
+      -315422.800+1505013.800/
+      -310958.200+1502122.800/
+      -311707.800+1501316.800/
+      -315840.800+1503819.200/
+      -323451.600+1512439.000
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy12 ASUVA1-->
+      ASUVA/
+      AVGOP/
+      LIBMU/
+      OMLIR
+    </Line>
+    <Line>
+      <!--Rwy12 EKIPU2-->
+      EKIPU/
+      IGLUM/
+      MATLA/
+      OSATO
+    </Line>
+    <Line>
+      <!--Rwy12 LAXU2A-->
+      LAXUM/
+      EGAPU/
+      OMLIR
+    </Line>
+    <Line>
+      <!--Rwy12 LAXU2B-->
+      LAXUM/
+      ESDOD/
+      ATLOR/
+      OBKUR/
+      IPMED
+    </Line>
+    <Line>
+      <!--Rwy12 LAXU2R-->
+      OMLIR/
+      ISDUS
+    </Line>
+    <Line>
+      <!--Rwy12 LAXU2V-->
+      ISDUS/
+      UPTEB
+    </Line>
+    <Line>
+      <!--Rwy12 OVLUX2-->
+      OVLUX/
+      IGLUM
+    </Line>
+    <Line>
+      <!--Rwy12 PUDUT1-->
+      PUDUT/
+      IGLUM
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>OMLIR</Point>
+      <Point>OSATO</Point>
+      <Point>IPMED</Point>
+      <Point>ISDUS</Point>
+      <Point>UPTEB</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ASUVA</Point>
+      <Point>AVGOP</Point>
+      <Point>LIBMU</Point>
+      <Point>EKIPU</Point>
+      <Point>IGLUM</Point>
+      <Point>MATLA</Point>
+      <Point>LAXUM</Point>
+      <Point>EGAPU</Point>
+      <Point>ESDOD</Point>
+      <Point>ATLOR</Point>
+      <Point>OBKUR</Point>
+      <Point>OVLUX</Point>
+      <Point>PUDUT</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="WLM_RWY12MIL_NAMES" Priority="2" Center="-32.795000+151.834444">
+    <Label>
+      <Point>ASUVA</Point>
+      <Point>AVGOP</Point>
+      <Point>LIBMU</Point>
+      <Point>OMLIR</Point>
+      <Point>EKIPU</Point>
+      <Point>IGLUM</Point>
+      <Point>MATLA</Point>
+      <Point>OSATO</Point>
+      <Point>LAXUM</Point>
+      <Point>EGAPU</Point>
+      <Point>ESDOD</Point>
+      <Point>ATLOR</Point>
+      <Point>OBKUR</Point>
+      <Point>IPMED</Point>
+      <Point>ISDUS</Point>
+      <Point>UPTEB</Point>
+      <Point>OVLUX</Point>
+      <Point>PUDUT</Point>
+      <Point>TESAT</Point>
+      <Point>OLSEM</Point>
+      <Point>UPNEX</Point>
+      <Point>BANDA</Point>
+      <Point>RULGU</Point>
+      <Point>OMKAX</Point>
+      <Point>LIMLO</Point>
+      <Point>URKIX</Point>
+      <Point>OMLAV</Point>
+      <Point>ABASS</Point>
+      <Point>NWA NDB</Point>
+      <Point>NONID</Point>
+      <Point>KAMBA</Point>
+      <Point>TOOKI</Point>
+      <Point>MAKOR</Point>
+      <Point>LOWEP</Point>
+      <Point>NBR NDB</Point>
+      <Point>OLRON</Point>
+      <Point>TW VOR</Point>
+      <Point>TIMBO</Point>
+      <Point>NICLA</Point>
+      <Point>LOSKU</Point>
+      <Point>IVL NDB</Point>
+      <Point>SANAD</Point>
+      <Point>COOPA</Point>
+      <Point>IDSEB</Point>
+      <Point>CFS VOR</Point>
+      <Point>UGPOT</Point>
+      <Point>ARM NDB</Point>
+    </Label>
+  </Map>
+</Maps>

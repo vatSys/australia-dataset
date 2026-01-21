@@ -61,15 +61,8 @@
   <Sector FullName="Esperance" Frequency="123.950" Callsign="ML-ESP_CTR" Name="ESP">
     <Volumes>ESP</Volumes>
   </Sector>
-  <!-- <Sector FullName="Forrest" Frequency="132.700" Callsign="ML-FOR_CTR" Name="FOR">
-    <Volumes>FOR</Volumes>
-  </Sector> -->
   <Sector FullName="Forrest" Frequency="132.700" Callsign="ML-FOR_CTR" Name="FOR">
-    <Volumes>FORE</Volumes>
-    <ResponsibleSectors>FOW</ResponsibleSectors>
-  </Sector>
-  <Sector FullName="Forrest West" Frequency="131.700" Callsign="ML-FOW_CTR" Name="FOW">
-    <Volumes>FORW</Volumes>
+    <Volumes>FOR</Volumes>
   </Sector>
   <Sector FullName="Geraldton" Frequency="134.200" Callsign="ML-GEL_CTR" Name="GEL">
     <Volumes>GEL</Volumes>
@@ -83,7 +76,7 @@
   <Sector FullName="Grove" Frequency="133.800" Callsign="ML-GVE_CTR" Name="GVE">
     <Volumes>GVE</Volumes>
   </Sector>
-  <Sector FullName="Gundagai" Frequency="128.400" Callsign="ML-GUN_CTR" Name="GUN">
+  <Sector FullName="Gundagai" Frequency="133.150" Callsign="ML-GUN_CTR" Name="GUN">
     <Volumes>GUN,GUN_CB_TMA_CAP</Volumes>
     <ResponsibleSectors>KAT,BIK,SAS</ResponsibleSectors>
   </Sector>
@@ -315,23 +308,26 @@
   <Sector FullName="Nadi Radio" Frequency="123.600" Callsign="NFFF_FSS" Name="NFFF" DisplayInSectorsWindow="False">
     <Volumes>NFFF</Volumes>
   </Sector>
-  <Sector FullName="San Fransico Radio" Frequency="129.400" Callsign="ZAK_FSS" Name="KZAK" DisplayInSectorsWindow="False">
-    <Volumes>KZAK_E,KZAK_W</Volumes>
+  <Sector FullName="San Francisco Radio" Frequency="131.950" Callsign="ZAK_FSS" Name="KZAK" DisplayInSectorsWindow="False">
+    <Volumes>ZAK-E,ZAK-W</Volumes>
   </Sector>
-  <Sector FullName="San Fransico Radio (East)" Frequency="131.175" Callsign="ZAK_E_FSS" Name="KZAKE" DisplayInSectorsWindow="False">
-    <Volumes>KZAK_E</Volumes>
+  <Sector FullName="San Francisco (East) Radio" Frequency="131.950" Callsign="ZAK_E_FSS" Name="KZAKE" DisplayInSectorsWindow="False">
+    <Volumes>ZAK-E</Volumes>
   </Sector>
-  <Sector FullName="San Fransico Radio (East1)" Frequency="130.800" Callsign="ZAK_E1_FSS" Name="KZAKE1" DisplayInSectorsWindow="False">
-    <Volumes>KZAK_E</Volumes>
+  <Sector FullName="San Francisco (West) Radio" Frequency="131.950" Callsign="ZAK_W_FSS" Name="KZAKW" DisplayInSectorsWindow="False">
+    <Volumes>ZAK-W</Volumes>
   </Sector>
-  <Sector FullName="San Fransico Radio (West)" Frequency="131.950" Callsign="ZAK_W_FSS" Name="KZAKW" DisplayInSectorsWindow="False">
-    <Volumes>KZAK_W</Volumes>
+    <Sector FullName="San Francisco (OC3) Radio" Frequency="131.950" Callsign="ZAK_3_FSS" Name="KZAK3" DisplayInSectorsWindow="False">
+    <Volumes>ZAK-W</Volumes>
   </Sector>
-  <Sector FullName="San Fransico Radio (West1)" Frequency="130.700" Callsign="ZAK_W1_FSS" Name="KZAKW1" DisplayInSectorsWindow="False">
-    <Volumes>KZAK_W</Volumes>
+    <Sector FullName="San Francisco (OC5) Radio" Frequency="131.950" Callsign="ZAK_5_FSS" Name="KZAK5" DisplayInSectorsWindow="False">
+    <Volumes>ZAK-E</Volumes>
   </Sector>
-  <Sector FullName="San Fransico Radio (West2)" Frequency="128.900" Callsign="ZAK_W2_FSS" Name="KZAKW2" DisplayInSectorsWindow="False">
-    <Volumes>KZAK_W</Volumes>
+    <Sector FullName="San Francisco (OC6) Radio" Frequency="131.950" Callsign="ZAK_6_FSS" Name="KZAK6" DisplayInSectorsWindow="False">
+    <Volumes>ZAK-E</Volumes>
+  </Sector>
+    <Sector FullName="San Francisco (OC9) Radio" Frequency="131.950" Callsign="ZAK_9_FSS" Name="KZAK9" DisplayInSectorsWindow="False">
+    <Volumes>ZAK-W</Volumes>
   </Sector>
   <Sector FullName="SE Asia Upper" Frequency="135.350" Callsign="ASEA_FSS" Name="ASEA" DisplayInSectorsWindow="False">
     <Volumes>WIIF,WAAF</Volumes>
@@ -503,11 +499,11 @@
   <Sector FullName="Vila Tower (TCU)" Frequency="120.700" Callsign="NVVV_APP" Name="NVVVA" DisplayInSectorsWindow="False">
     <Volumes>NVVVA</Volumes>
   </Sector>
-  <Sector FullName="Williamtown Approach (High)" Frequency="133.300" Callsign="WLM_APP" Name="WAH">
+  <Sector FullName="Williamtown Approach (Low)" Frequency="133.300" Callsign="WLM_APP" Name="WAL">
     <Volumes>WLM_APP</Volumes>
   </Sector>
-  <Sector FullName="Williamtown Approach (Low)" Frequency="135.700" Callsign="WLM-L_APP" Name="WAL">
-    <Volumes>WLM_APP</Volumes>
+  <Sector FullName="Williamtown Approach (High)" Frequency="135.700" Callsign="WLM-H_APP" Name="WAH">
+    <Volumes>WLM-H_APP</Volumes>
   </Sector>
   <Sector FullName="Adelaide Delivery" Frequency="126.100" Callsign="AD_DEL" Name="AD ACD" DisplayInHandoffWindow="False">
     <Volumes>ADTWR</Volumes>

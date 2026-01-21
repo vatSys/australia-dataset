@@ -8,10 +8,89 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy27 ESL5-->
+      <!--Rwy27 ANTLA2-->
       -380544.450+1470741.880/
-      -380544.452+1470741.880/
-      -380521.305+1470436.361
+      -380535.064+1470626.632/
+      -380539.871+1470527.766/
+      -380607.247+1470439.866/
+      -380649.801+1470415.768/
+      -380736.135+1470421.938/
+      -380813.833+1470456.738/
+      -381437.000+1470941.000/
+      ANTLA
+    </Line>
+    <Line>
+      <!--Rwy27 AY3-->
+      -380535.064+1470626.632/
+      -380516.169+1470532.541/
+      -380438.471+1470457.765/
+      -380352.138+1470451.598/
+      -375728.000+1470841.000/
+      AY VOR
+    </Line>
+    <Line>
+      <!--Rwy27 BULKO1-->
+      -380607.247+1470439.866/
+      -380632.000+1470348.000/
+      -380659.000+1470253.000/
+      BULKO
+    </Line>
+    <Line>
+      <!--Rwy27 DUNNE3-->
+      -380535.064+1470626.632/
+      -380500.000+1470328.000/
+      DUNNE
+    </Line>
+    <Line>
+      <!--Rwy27 ESL5-->
+    </Line>
+    <Line>
+      <!--Rwy27 GIPPS3-->
+      -380352.138+1470451.598/
+      -380309.584+1470515.680/
+      -380242.207+1470603.548/
+      -380237.420+1470626.476/
+      -380257.000+1471818.000/
+      GIPPS
+    </Line>
+    <Line>
+      <!--Rwy27 MNG3-->
+      -380438.471+1470457.765/
+      -380333.000+1470424.000/
+      MNG VOR
+    </Line>
+    <Line>
+      <!--Rwy27 MOZZA3-->
+      -380632.000+1470348.000/
+      MOZZA
+    </Line>
+    <Line>
+      <!--Rwy27 NUNPA2-->
+      -380813.833+1470456.738/
+      -380823.970+1470516.687/
+      -381317.000+1471520.000/
+      NUNPA
+    </Line>
+    <Line>
+      <!--Rwy27 TYERS3-->
+      -380237.420+1470626.476/
+      -380237.420+1470626.476/
+      -380237.339+1470702.381/
+      -380256.282+1470756.427/
+      -380510.000+1471725.000/
+      TYERS
+    </Line>
+    <Line>
+      <!--Rwy27 VALDU2-->
+      -380309.584+1470515.680/
+      -375714.000+1471327.000/
+      VALDU
+    </Line>
+    <Line>
+      <!--Rwy27 VISER2-->
+      -380237.420+1470626.476/
+      -375937.000+1471653.000/
+      VISER
     </Line>
     <!--STARs-->
     <Line>
@@ -44,43 +123,57 @@
       <Point>MESEG</Point>
       <Point>LIDVU</Point>
     </Symbol>
-    <Symbol Type="HollowStar">
-      <Point>ANOSO</Point>
+    <Symbol Type="SolidStar">
       <Point>LAREX</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>AY VOR</Point>
+      <Point>MNG VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ANTLA</Point>
+      <Point>BULKO</Point>
+      <Point>DUNNE</Point>
       <Point>GIPPS</Point>
+      <Point>MOZZA</Point>
+      <Point>NUNPA</Point>
       <Point>TYERS</Point>
+      <Point>VALDU</Point>
       <Point>VISER</Point>
+      <Point>ANOSO</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="ES_RWY27_NAMES" Priority="2" Center="-38.098889+147.149444">
     <Label>
+      <Point>ANTLA</Point>
+      <Point>AY VOR</Point>
+      <Point>BULKO</Point>
+      <Point>DUNNE</Point>
+      <Point>GIPPS</Point>
+      <Point>MNG VOR</Point>
+      <Point>MOZZA</Point>
+      <Point>NUNPA</Point>
+      <Point>TYERS</Point>
+      <Point>VALDU</Point>
+      <Point>VISER</Point>
       <Point>ANOSO</Point>
       <Point>MESEJ</Point>
-      <Point>GIPPS</Point>
       <Point>LAREX</Point>
-      <Point>TYERS</Point>
-      <Point>VISER</Point>
       <Point>MESEG</Point>
-      <Point>DUNNE</Point>
       <Point>MOSVO</Point>
-      <Point>ANTLA</Point>
       <Point>VIMAP</Point>
       <Point>LT VOR</Point>
       <Point>CB VOR</Point>
       <Point>COM NDB</Point>
       <Point>MER NDB</Point>
-      <Point>NUNPA</Point>
       <Point>MOTRA</Point>
       <Point>LTV NDB</Point>
-      <Point>BULKO</Point>
       <Point>RAZZI</Point>
       <Point>MB NDB</Point>
       <Point>SAMIG</Point>
       <Point>MAKAT</Point>
-      <Point>MNG VOR</Point>
       <Point>MAKIV</Point>
       <Point>OTKED</Point>
-      <Point>VALDU</Point>
       <Point>DUBUS</Point>
       <Point>WG VOR</Point>
       <Point>LIDVU</Point>

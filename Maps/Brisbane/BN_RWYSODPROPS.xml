@@ -211,6 +211,15 @@
       <Point>ATVON</Point>
       <Point>TEGIL</Point>
     </Symbol>
+    <!--(BN) RWYSODPROPS Airspace-->
+    <Line Name="(BN) RWYSODPROPS_1" Width="1.7" Pattern="Dotted">
+      -274720.000+1525028.000/-272954.260+1530306.500/-272158.089+1530744.391/-271933.851+1530915.347/-270741.649+1532114.452/-265345.082+1531951.299
+    </Line>
+    <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
+      <!--(BN) RWYSODPROPS Labels-->
+      <Point Name="BAN&amp;BDN">-27.416667+152.910000</Point>
+      <Point Name="BAS&amp;BDS">-27.463611+153.465278</Point>
+    </Label>
   </Map>
   <Map Type="System" Name="BN_RWYSODPROPS_NAMES" Priority="2" Center="-27.384167+153.117500">
     <Label>
