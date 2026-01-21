@@ -103,6 +103,19 @@
       PUBIV
     </Line>
     <Line>
+      <!--Rwy19L UGTU2A-->
+      UGTUG/
+      IPGAV/
+      ISPON
+    </Line>
+    <Line>
+      <!--Rwy19L UGTU2X-->
+      IPGAV/
+      TEMUL/
+      BUGSO/
+      ATSEP
+    </Line>
+    <Line>
       <!--Rwy19R MORB2A-->
       MORBI/
       REMOR/
@@ -143,14 +156,6 @@
       DOLSU/
       PILIG/
       LAVIN
-    </Line>
-    <Line>
-      <!--Rwy19R UGTU2A-->
-      UGTUG/
-      ENAID/
-      DUBOM/
-      OSEGU/
-      PILIG
     </Line>
     <Line>
       <!--Rwy19R WODY2A-->
@@ -214,6 +219,10 @@
       <Point>SALEL</Point>
       <Point>SALGA</Point>
       <Point>VALVO</Point>
+      <Point>UGTUG</Point>
+      <Point>IPGAV</Point>
+      <Point>TEMUL</Point>
+      <Point>BUGSO</Point>
       <Point>MORBI</Point>
       <Point>REMOR</Point>
       <Point>GAYLA</Point>
@@ -233,10 +242,6 @@
       <Point>URBIN</Point>
       <Point>DOLSU</Point>
       <Point>PILIG</Point>
-      <Point>UGTUG</Point>
-      <Point>ENAID</Point>
-      <Point>DUBOM</Point>
-      <Point>OSEGU</Point>
       <Point>WOODY</Point>
       <Point>ATVON</Point>
       <Point>TEGIL</Point>
@@ -251,8 +256,20 @@
     <Line Name="(BN) RWY19PROPS_2" Width="1.7" Pattern="Dotted">
       -272222.933+1530805.287/-272706.563+1531637.883/-273836.412+1531641.066/-275140.536+1531243.157
     </Line>
-    <Line Name="(BN) RWY19PROPS_3" Width="1.7" Pattern="Dotted">
-      -265516.191+1532337.251/-274840.645+1525303.590
+    <Line Name="(BN) RWY19PROPS_3_(CENTRELINE)" Width="1.7" Pattern="Dotted">
+      -265451.528+1532301.583/-272313.770+1530656.970/-272954.260+1530306.500/-274720.000+1525028.000
+    </Line>
+    <Line Name="(BN) RWY19PROPS_4_(WACKO_SHELF)" Width="1.7" Pattern="Dotted">
+      -270237.612+1524232.849/-271231.248+1525504.058
+    </Line>
+    <Line Name="(BN) RWY19PROPS_5_(DAYBO_SHELF)" Width="1.7" Pattern="Dotted">
+      -271231.248+1525504.058/-271133.141+1525612.608/-271003.324+1525837.198/-270734.000+1530043.000/-265832.000+1530053.000/-265420.000+1525531.000
+    </Line>
+    <Line Name="(BN) RWY19PROPS_6_(DENIS_SHELF)" Width="1.7" Pattern="Dotted">
+      -274852.000+1525335.000/-273854.000+1530027.000/-273735.000+1530304.000/-273749.296+1530406.600/-273803.000+1530703.000/-273749.296+1530959.400/-273708.604+1531250.404/-273602.167+1531530.786/-273518.000+1531640.000
+    </Line>
+    <Line Name="(BN) RWY19PROPS_7_(LAGOB_SHELF)" Width="1.7" Pattern="Dotted">
+      -273836.412+1531641.066/-273805.056+1532806.763
     </Line>
     <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
       <!--(BN) RWY19PROPS Labels-->
@@ -261,11 +278,15 @@
       <Point Name="BDS">-27.486336+153.578341</Point>
       <Point Name="BDS">-27.715979+153.092582</Point>
       <Point Name="BDS/BAS">-27.181279+153.564636</Point>
+      <Point Name="BDN/BAN">-27.001667+152.853333</Point>
+      <Point Name="BDN/BAN">-27.127778+152.706667</Point>
+      <Point Name="BAS/BDS">-27.541667+153.062778</Point>
+      <Point Name="BAS/BDS">-27.794444+153.350556</Point>
     </Label>
   </Map>
   <Map Type="REST_NTZ_DAIW" Name="BN_RWY19PROPS-NTZ" Priority="0">
     <Line Pattern="Solid">
-      -272133.825+1530741.644/-271706.680+1531014.789/-271715.646+1531034.589/-271706.680+1531014.789/-270532.008+1531652.276/-270540.974+1531712.042/-272142.312+1530800.342/-272133.825+1530741.644
+      -272133.825+1530741.644/-271706.680+1531014.789/-271715.646+1531034.589/-271706.680+1531014.789/-270532.008+1531652.276/-270540.974+1531712.042/-272142.312+1530800.342
     </Line>
   </Map>
   <Map Type="System" Name="BN_RWY19PROPS_NAMES" Priority="2" Center="-27.384167+153.117500">
@@ -312,6 +333,10 @@
       <Point>SALGA</Point>
       <Point>OLVUN</Point>
       <Point>VALVO</Point>
+      <Point>UGTUG</Point>
+      <Point>IPGAV</Point>
+      <Point>TEMUL</Point>
+      <Point>BUGSO</Point>
       <Point>MORBI</Point>
       <Point>REMOR</Point>
       <Point>GAYLA</Point>
@@ -335,10 +360,6 @@
       <Point>URBIN</Point>
       <Point>DOLSU</Point>
       <Point>PILIG</Point>
-      <Point>UGTUG</Point>
-      <Point>ENAID</Point>
-      <Point>DUBOM</Point>
-      <Point>OSEGU</Point>
       <Point>WOODY</Point>
       <Point>ATVON</Point>
       <Point>TEGIL</Point>
@@ -412,6 +433,7 @@
       <Point>ALDAR</Point>
       <Point>ARM NDB</Point>
       <Point>SPARK</Point>
+      <Point>ENAID</Point>
       <Point>GOPVO</Point>
       <Point>AVBOS</Point>
       <Point>EMTID</Point>

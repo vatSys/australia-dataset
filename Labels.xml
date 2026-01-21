@@ -70,7 +70,10 @@
       <Item Type="LABEL_ITEM_OPDATA" BackgroundColour="" Colour="" LeftClick="Label_OpData_Popup" MiddleClick="" RightClick="Label_Toggle_1" />
     </DataLine>
     <DataLine>
-      <Item Type="LABEL_ITEM_CPDLCAIR" />
+      <Item Type="CPDLCPLUGIN_CPDLCSTATUS" />
+      <Item Type="CPDLCPLUGIN_CPDLCSTATUS_BG" BackgroundColour="Custom" />
+      <Item Type="CPDLCPLUGIN_TEXTSTATUS" />
+      <Item Type="CPDLCPLUGIN_TEXTSTATUS_BG" BackgroundColour="Custom" />
     </DataLine>
   </Label>
   <Label Type="Extended" MaximumWidth="11" LabelRectangle="Default">
@@ -115,7 +118,10 @@
       <Item Type="LABEL_ITEM_OPDATA" BackgroundColour="" Colour="" LeftClick="Label_OpData_Popup" MiddleClick="" RightClick="Label_Toggle_1" />
     </DataLine>
     <DataLine>
-      <Item Type="LABEL_ITEM_CPDLCAIR" />
+      <Item Type="CPDLCPLUGIN_CPDLCSTATUS" />
+      <Item Type="CPDLCPLUGIN_CPDLCSTATUS_BG" BackgroundColour="Custom" />
+      <Item Type="CPDLCPLUGIN_TEXTSTATUS" />
+      <Item Type="CPDLCPLUGIN_TEXTSTATUS_BG" BackgroundColour="Custom" />
     </DataLine>
   </Label>
   <Label Type="GroundAir" MaximumWidth="11" LabelRectangle="None">

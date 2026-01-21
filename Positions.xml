@@ -463,7 +463,6 @@
         <Sector Name="WAR" />
         <Sector Name="BKE" />
         <Sector Name="FOR" />
-        <Sector Name="FOW" />
         <Sector Name="WRA" />
         <Sector Name="ESP" />
       </Sectors>
@@ -1004,7 +1003,7 @@
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Alice Springs Tower" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="80" MagneticVariation="-4.6">
+    <Position Name="Alice Springs Tower" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="120" MagneticVariation="-4.6">
       <Sectors>
         <Sector Name="AS ADC" />
       </Sectors>
@@ -1698,6 +1697,12 @@
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
+	  <ControllerInfo Callsign="BN-R_DEP">
+        <Line>Brisbane (Radar) Centre | Class G services </Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" VisibilityRange="100" MagneticVariation="-12.5">
       <Sectors>
@@ -1945,7 +1950,6 @@
     </Position>
     <Position Name="Williamtown TCU" Type="ASD" DefaultCenter="-32.795+151.834444" DefaultRange="120" MagneticVariation="-12.4">
       <Sectors>
-        <Sector Name="WAH" />
         <Sector Name="WAL" />
       </Sectors>
       <Maps>
@@ -1972,8 +1976,8 @@
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
-      <ControllerInfo Callsign="WLM-L_APP">
-        <Line>Willy Approach (Lower) | ATIS available on 134.45</Line>
+      <ControllerInfo Callsign="WLM-H_APP">
+        <Line>Willy Approach (High) | ATIS available on 134.45</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>

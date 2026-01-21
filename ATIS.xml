@@ -332,6 +332,7 @@
     <Translation Regex="\+([A-Z]+)" Spoken="heavy $1" />
     <Translation Regex="\-([A-Z]+)" Spoken="light $1" />
     <Translation Regex="(?:^|[^A-Z])RE(SH|SHRA|DZ|GR|SN|SG|DU|SA|SS|DS|FG|RA|GS|FU|BR|HZ|PO|SQ|FC|VA|IC|PL|VCSH|SIA|TS|VCTS|TSRA|TSRAGS|TCU)" Spoken="recent $1" />
+    <Translation Regex="(?:^|[^A-Z])PR(SH|SHRA|DZ|GR|SN|SG|DU|SA|SS|DS|FG|RA|GS|FU|BR|HZ|PO|SQ|FC|VA|IC|PL|VCSH|SIA|TS|VCTS|TSRA|TSRAGS|TCU)" Spoken="partial $1" />
     <Translation String="MI" Spoken="shallow" />
     <Translation String="BC" Spoken="patches" />
     <Translation String="PR" Spoken="partial" />

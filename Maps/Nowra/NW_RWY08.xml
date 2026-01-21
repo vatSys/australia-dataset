@@ -1,13 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="NW_RWY03A08D" Priority="1" Center="-34.948889+150.536944">
+  <Map Type="System" Name="NW_RWY08" Priority="1" Center="-34.948889+150.536944">
     <!--YSNW-->
-    <Runway Name="03/21">
-      <Threshold Name="03" Position="-34.948839+150.536464" ExtendedCentrelineTrack="224.38" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="21" Position="-34.935658+150.552131" />
-    </Runway>
     <Runway Name="08/26">
-      <Threshold Name="08" Position="-34.947867+150.526597" />
+      <Threshold Name="08" Position="-34.947867+150.526597" ExtendedCentrelineTrack="274.38" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="26" Position="-34.949247+150.548464" />
     </Runway>
     <!--SIDs-->
@@ -102,7 +98,7 @@
       <Point>URBOB</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="NW_RWY03A08D_NAMES" Priority="2" Center="-34.948889+150.536944">
+  <Map Type="System" Name="NW_RWY08_NAMES" Priority="2" Center="-34.948889+150.536944">
     <Label>
       <Point>ABASS</Point>
       <Point>AKMIR</Point>

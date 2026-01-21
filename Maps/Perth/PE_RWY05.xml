@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="PE_RWY05" Priority="1" Center="-31.667778+116.015000">
+    <!--YPEA-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-31.672319+116.008692" ExtendedCentrelineTrack="224.73" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="23" Position="-31.661486+116.021242" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy05 ALKIM7-->
+      -313941.350+1160116.470/
+      -313815.807+1160255.195/
+      -313804.000+1160250.000/
+      -313759.000+1160240.000/
+      -313756.000+1160227.000/
+      -313802.000+1155634.000/
+      -313229.000+1154612.000
+    </Line>
+    <Line>
+      <!--Rwy05 GUNOK2-->
+      -313815.807+1160255.195/
+      -313800.000+1160314.000/
+      GUNOK
+    </Line>
+    <Line>
+      <!--Rwy05 PEA6-->
+      -313941.350+1160116.470/
+      -313846.000+1160220.000
+    </Line>
+    <Line>
+      <!--Rwy05 WAMAL6-->
+      -313804.000+1160250.000/
+      -313552.000+1160030.000/
+      -312530.000+1155918.000
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy05 PEA4G.KABLI-->
+      KABLI/
+      KYEMA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy05 PEA4G.LAVEX-->
+      LAVEX/
+      BOOKA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy05 PEA4G-->
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy05 PEA4R.KABLI-->
+      KABLI/
+      BOOKA/
+      RONAN/
+      VEPAN/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy05 PEA4R.LAVEX-->
+      LAVEX/
+      BUVOT/
+      RONAN/
+      UNDOW/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy05 PEA4R-->
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy05 PEA4W.MALUP-->
+      MALUP/
+      DAYLR/
+      WUNGO
+    </Line>
+    <Line>
+      <!--Rwy05 PEA4W-->
+      WUNGO/
+      HARMN
+    </Line>
+    <Symbol Type="HollowStar">
+      <Point>GUNOK</Point>
+      <Point>GOSNL</Point>
+      <Point>KABLI</Point>
+      <Point>KYEMA</Point>
+      <Point>LAVEX</Point>
+      <Point>BOOKA</Point>
+      <Point>ROLOB</Point>
+      <Point>RONAN</Point>
+      <Point>VEPAN</Point>
+      <Point>BUVOT</Point>
+      <Point>UNDOW</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+      <Point>MALUP</Point>
+      <Point>DAYLR</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="PE_RWY05_NAMES" Priority="2" Center="-31.667778+116.015000">
+    <Label>
+      <Point>GUNOK</Point>
+      <Point>KABLI</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>LAVEX</Point>
+      <Point>BOOKA</Point>
+      <Point>RONAN</Point>
+      <Point>VEPAN</Point>
+      <Point>ROLOB</Point>
+      <Point>BUVOT</Point>
+      <Point>UNDOW</Point>
+      <Point>MALUP</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+      <Point>HIDOT</Point>
+      <Point>VEMON</Point>
+      <Point>BURGU</Point>
+      <Point>OTLED</Point>
+      <Point>ONGAR</Point>
+      <Point>SOVTO</Point>
+      <Point>DALWU</Point>
+      <Point>AVPAL</Point>
+      <Point>HINDS</Point>
+      <Point>CALIG</Point>
+      <Point>JULIM</Point>
+      <Point>ESMIN</Point>
+      <Point>KALBO</Point>
+      <Point>KAGMI</Point>
+      <Point>DAKPO</Point>
+      <Point>OPEGA</Point>
+      <Point>MERIB</Point>
+      <Point>OLMAM</Point>
+      <Point>BLN NDB</Point>
+      <Point>SOLUS</Point>
+      <Point>JOSBU</Point>
+      <Point>AVNEX</Point>
+      <Point>ESDEG</Point>
+      <Point>AMANA</Point>
+      <Point>LAKIR</Point>
+      <Point>MANIG</Point>
+      <Point>LAKMO</Point>
+      <Point>REPOK</Point>
+      <Point>NINEK</Point>
+      <Point>DUTAK</Point>
+      <Point>LAKAV</Point>
+      <Point>BUNGL</Point>
+      <Point>YAHMO</Point>
+      <Point>KELLA</Point>
+      <Point>MEVAD</Point>
+      <Point>PUMRY</Point>
+    </Label>
+  </Map>
+</Maps>

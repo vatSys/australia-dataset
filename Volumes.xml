@@ -1661,7 +1661,7 @@
     -184027.000+1510035.000/
     -165817.000+1510431.000
   </Boundary>
-  <!-- <Boundary Name="FORREST">
+  <Boundary Name="FORREST">
     -350427.000+1250010.000/
     -325136.000+1240000.000/
     -320000.000+1235018.000/
@@ -1687,8 +1687,8 @@
     -422100.000+1410000.000/
     -371038.000+1250454.000/
     -350427.000+1250010.000
-  </Boundary> -->
-  <Boundary Name="FORREST_EAST">
+  </Boundary>
+  <!--<Boundary Name="FORREST_EAST">
     -284701.000+1275000.000/
     -283616.000+1290000.000/
     -282326.000+1301837.000/
@@ -1724,7 +1724,7 @@
     -305100.000+1233737.000/
     -293000.000+1250000.000/
     -284701.000+1275000.000
-  </Boundary>
+  </Boundary>-->
   <Boundary Name="GERALDTON">
     -300000.000+1124356.000/
     -273000.000+1122001.000/
@@ -5819,15 +5819,15 @@
   <Volume Name="FLD" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>FLINDERS</Boundaries>
   </Volume>
-  <!-- <Volume Name="FOR" LowerLimit="0" UpperLimit="60000">
+  <Volume Name="FOR" LowerLimit="0" UpperLimit="60000">
     <Boundaries>FORREST</Boundaries>
-  </Volume> -->
-  <Volume Name="FORE" LowerLimit="0" UpperLimit="60000">
+  </Volume>
+  <!--<Volume Name="FORE" LowerLimit="0" UpperLimit="60000">
     <Boundaries>FORREST_EAST</Boundaries>
   </Volume>
   <Volume Name="FORW" LowerLimit="0" UpperLimit="60000">
     <Boundaries>FORREST_WEST</Boundaries>
-  </Volume>
+  </Volume>-->
   <Volume Name="GEL" LowerLimit="0" UpperLimit="60000">
     <Boundaries>GERALDTON</Boundaries>
   </Volume>
@@ -6002,7 +6002,7 @@
   <Volume Name="OKA" LowerLimit="0" UpperLimit="12500">
     <Boundaries>R654C_OAKEY</Boundaries>
   </Volume>
-  <Volume Name="OKTWR" LowerLimit="0" UpperLimit="1800">
+  <Volume Name="OKTWR" LowerLimit="0" UpperLimit="3000">
     <Boundaries>OAKEY_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
   <Volume Name="OCN" LowerLimit="0" UpperLimit="60000">
@@ -6165,6 +6165,9 @@
     <Boundaries>WIIF-IS</Boundaries>
   </Volume>
   <Volume Name="WLM_APP" LowerLimit="0" UpperLimit="12500">
+    <Boundaries>WILLIAMTOWN_APPROACH</Boundaries>
+  </Volume>
+  <Volume Name="WLM-H_APP" LowerLimit="12500" UpperLimit="60000">
     <Boundaries>WILLIAMTOWN_APPROACH</Boundaries>
   </Volume>
   <Volume Name="WLMTWR" LowerLimit="0" UpperLimit="1500">
