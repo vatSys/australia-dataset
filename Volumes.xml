@@ -5768,9 +5768,6 @@
   <Volume Name="COL" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>YCOL-AGGG-ANAU</Boundaries>
   </Volume>
-  <Volume Name="CRS" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>CROSS</Boundaries>
-  </Volume>
   <Volume Name="CSA" LowerLimit="0" UpperLimit="18000">
     <Boundaries>CAIRNS_APPROACH</Boundaries>
   </Volume>
@@ -6061,6 +6058,9 @@
   </Volume>
   <Volume Name="SYTWR" LowerLimit="0" UpperLimit="500">
     <Boundaries>SYDNEY_CONTROL_ZONE_(C)</Boundaries>
+  </Volume>
+  <Volume Name="SCR" LowerLimit="0" UpperLimit="60000">
+    <Boundaries>CROSS</Boundaries>
   </Volume>
   <Volume Name="SNO" LowerLimit="0" UpperLimit="60000">
     <Boundaries>SNOWY</Boundaries>
