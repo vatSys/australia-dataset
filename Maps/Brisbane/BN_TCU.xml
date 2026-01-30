@@ -508,23 +508,23 @@
       <Point>UKER</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="INLAND">NEN</Point>
-      <Point Name="IN_GOODNA">GON</Point>
+      <Point Name="INLAND">-282503.896+1533107.385</Point>
+      <Point Name="IN_GOONDA">GON</Point>
       <Point Name="IN_PARK_RIDGE">PKR</Point>
       <Point Name="IN_TARGET">TAR</Point>
       <Point Name="IN_TV_TOWERS">TVT</Point>
-      <Point Name="OUT_EAST_DEP">-273530.000+1530620.000</Point>
-      <Point Name="OUT_NORTH_DEP">-273000.000+1525800.000</Point>
-      <Point Name="OUT_SOUTH_DEP">-273920.487+1530422.857</Point>
+      <Point Name="OUT_EAST">-273530.000+1530620.000</Point>
+      <Point Name="OUT_NORTH">-273000.000+1525800.000</Point>
+      <Point Name="OUT_SOUTH">-273920.487+1530422.857</Point>
       <Point Name="COAST_NTH">-274837.651+1532616.654</Point>
       <Point Name="COAST_STH">-270507.260+1531223.327</Point>
       <Point Name="UNIVAT">-272923.035+1530000.477</Point>
     </Label>
     <!--INLAND-->
     <Line Pattern="Dotted">
-      NEN/-280442.401+1532208.190/STOT/-282002.310+1533111.071/-282500.000+1533100.000
+      -282503.896+1533107.385/-282415.473+1533129.212/-282322.664+1533116.900/-282257.554+1533116.036/-282230.857+1533122.516/-282142.523+1533111.726/-282042.900+1533125.018/-281948.828+1533107.054/-281836.133+1533046.066/STOT/-280439.677+1532214.408/NEN
     </Line>
-    <!--IN_GOODNA-->
+    <!--IN_GOONDA-->
     <Line Pattern="Dotted">
       GON/-273513.820+1525724.860
     </Line>
@@ -540,17 +540,17 @@
     <Line Pattern="Dotted">
       TVT/-273035.521+1525534.885/-273220.227+1525746.465
     </Line>
-    <!--OUT_EAST_DEP-->
+    <!--OUT_EAST-->
     <Line Pattern="Dotted">
-      -273530.000+1530620.000/YBAF
+      -273530.000+1530620.000/-273500.000+1530355.000
     </Line>
-    <!--OUT_NORTH_DEP-->
+    <!--OUT_NORTH-->
     <Line Pattern="Dotted">
-      -273000.000+1525800.000/YBAF
+      -273000.000+1525800.000/-273104.000+1525837.000
     </Line>
-    <!--OUT_SOUTH_DEP-->
+    <!--OUT_SOUTH-->
     <Line Pattern="Dotted">
-      -273920.487+1530422.857/YBAF
+      -273920.487+1530422.857/-273641.000+1530223.000
     </Line>
     <!--COAST_NTH-->
     <Line Pattern="Dotted">
