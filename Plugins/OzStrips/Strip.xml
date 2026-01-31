@@ -75,7 +75,6 @@
     <Value>SSR</Value>
     <LeftClick>ASSIGN_SSR</LeftClick>
     <Hover>SSR_WARNING</Hover>
-	<MiddleClick>INHIBIT_SSR</MiddleClick>
   </StripElement>
   <!-- COL 5 -->
   <StripElement>
@@ -102,7 +101,6 @@
     <H>20</H>
     <Value>READY</Value>
     <LeftClick>SET_READY</LeftClick>
-	<MiddleClick>INHIBIT_READY</MiddleClick>
   </StripElement>
   <!-- COL 7 -->
   <StripElement>
@@ -123,7 +121,6 @@
     <LeftClick>SID_TRIGGER</LeftClick>
     <RightClick>MOD_SID</RightClick>
     <Hover>SID_TRIGGER</Hover>
-    <MiddleClick>INHIBIT_SID</MiddleClick>
   </StripElement>
   <StripElement>
     <X>330</X>
@@ -133,7 +130,6 @@
     <Value>FIRST_WPT</Value>
     <LeftClick>OPEN_FDR</LeftClick>
     <RightClick>OPEN_REROUTE</RightClick>
-	<MiddleClick>INHIBIT_ROUTE</MiddleClick>
     <Hover>ROUTE_WARNING</Hover>
   </StripElement>
   <!-- COL 9 -->
@@ -153,7 +149,6 @@
     <Value>CFL</Value>
     <LeftClick>MOD_CFL</LeftClick>
     <Hover>RFL_WARNING</Hover>
-	<MiddleClick>INHIBIT_RFL</MiddleClick>
   </StripElement>
   <!-- Base -->
   <StripElement>
@@ -163,7 +158,6 @@
     <H>20</H>
     <Value>GLOP</Value>
     <LeftClick>MOD_GLOP</LeftClick>
-    <MiddleClick>INHIBIT_HDG</MiddleClick>
   </StripElement>
   <StripElement>
     <X>165</X>
