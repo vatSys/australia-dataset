@@ -1,0 +1,24 @@
+- assign_dep_rwy: "true"
+- CFL: "070"
+# GST/GWT departures
+- if:
+    waypoint: ["GST", "GWT"]
+  CFL: "030"
+# RWY 12L/R
+- if:
+    atis_dep_rwy: ["12L", "12R"]
+  runway: "12L"
+- if:
+    atis_dep_rwy: ["12L", "12R"]
+    radials: ["195-277"]
+    WTC: ["L"]
+  runway: "12R"
+  # RWY 30L/R
+- if:
+    atis_dep_rwy: ["30L", "30R"]
+  runway: "30R"
+- if:
+    atis_dep_rwy: ["30L", "30R"]
+    radials: ["195-277"]
+    WTC: ["L"]
+  runway: "30L"
