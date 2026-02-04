@@ -18,15 +18,6 @@
       <Threshold Name="10R" Position="-27.572197+152.998061" />
       <Threshold Name="28L" Position="-27.575225+153.008675" />
     </Runway>
-    <!--YBCG-->
-    <Runway Name="14/32">
-      <Threshold Name="14" Position="-28.156511+153.500706" />
-      <Threshold Name="32" Position="-28.172569+153.510919" />
-    </Runway>
-    <Runway Name="17/35">
-      <Threshold Name="17" Position="-28.164356+153.506753" />
-      <Threshold Name="35" Position="-28.169594+153.506331" />
-    </Runway>
     <!--YBBN-->
     <Runway Name="01L/19R">
       <Threshold Name="01L" Position="-27.383069+153.106803" />
@@ -74,24 +65,14 @@
       <!--H252-->
       BANDA/
       RULGU/
-      OMKAX
+      OMKAX/
+      GOMOL/
+      LAGOB
     </Line>
     <Line>
       <!--J208-->
       SCOTT/
       KIBAT
-    </Line>
-    <Line>
-      <!--Q16 GOMOL-->
-      APAGI/
-      ISKIM/
-      PAVBI/
-      OLKUR
-    </Line>
-    <Line>
-      <!--Q47 GOMOL-->
-      IDRAS/
-      ITIDE
     </Line>
     <Line>
       <!--Q67-->
@@ -100,13 +81,6 @@
       TAPET/
       LOAFA/
       GLA VOR
-    </Line>
-    <Line>
-      <!--Q69 GOMOL-->
-      RULUN/
-      ITIDE/
-      BICKL/
-      SU VOR
     </Line>
     <Line>
       <!--Q484-->
@@ -119,11 +93,6 @@
       <!--R587-->
       ATROP/
       HARVS
-    </Line>
-    <Line>
-      <!--T53 GOMOL-->
-      MISLY/
-      LAROS
     </Line>
     <Line>
       <!--V129-->
@@ -155,32 +124,6 @@
       DADBO
     </Line>
     <Line>
-      <!--W192 GOMOL-->
-      TW VOR/
-      SANAD/
-      CFS VOR/
-      TUCAB/
-      TUCKI
-    </Line>
-    <Line>
-      <!--W196 GOMOL-->
-      UNVAT/
-      JEDDA/
-      DULIN
-    </Line>
-    <Line>
-      <!--W196 GOMOL-->
-      BNA NDB/
-      CFS VOR/
-      KADSI/
-      UGPOT
-    </Line>
-    <Line>
-      <!--W214 GOMOL-->
-      IDNER/
-      CFS VOR
-    </Line>
-    <Line>
       <!--W247-->
       RUROX/
       BUD NDB/
@@ -203,12 +146,6 @@
       ROM NDB
     </Line>
     <Line>
-      <!--W786 GOMOL-->
-      ALDAR/
-      ARM NDB/
-      SANAD
-    </Line>
-    <Line>
       <!--W799-->
       SPARK/
       ENAID
@@ -221,12 +158,6 @@
       SUKTU/
       EDPEG/
       ENLIP
-    </Line>
-    <Line>
-      <!--Y43 GOMOL-->
-      BANDA/
-      VESOK/
-      BERNI
     </Line>
     <Line>
       <!--Y79-->
@@ -246,6 +177,11 @@
       SMOKA
     </Line>
     <Line>
+      <!--Y177-->
+      IDRIL/
+      GOMOL
+    </Line>
+    <Line>
       <!--Y195-->
       ROM NDB/
       OK VOR/
@@ -253,17 +189,6 @@
       PARRY/
       ELENI/
       DULIN
-    </Line>
-    <Line>
-      <!--Z31 GOMOL-->
-      AKNON/
-      LAGOB
-    </Line>
-    <Line>
-      <!--Z832 GOMOL-->
-      LIDPO/
-      RIRBO/
-      AKNON
     </Line>
   </Map>
   <Map Type="System2" Name="BN_VFR" Priority="1" Center="-27.384167+153.117500">
@@ -365,29 +290,6 @@
       <Point>WYPT</Point>
       <Point>WRM</Point>
       <Point>YNA</Point>
-      <Point>BANG</Point>
-      <Point>BRH</Point>
-      <Point>BBAY</Point>
-      <Point>COBA</Point>
-      <Point>CGM</Point>
-      <Point>CIS</Point>
-      <Point>CGD</Point>
-      <Point>DODI</Point>
-      <Point>HASS</Point>
-      <Point>KCFF</Point>
-      <Point>KIRA</Point>
-      <Point>SOV</Point>
-      <Point>MTWG</Point>
-      <Point>MBBY</Point>
-      <Point>MUR</Point>
-      <Point>NTT</Point>
-      <Point>DNGR</Point>
-      <Point>RTY</Point>
-      <Point>SBK</Point>
-      <Point>STOT</Point>
-      <Point>TLC</Point>
-      <Point>TUMB</Point>
-      <Point>UKER</Point>
     </Symbol>
     <Label HasLeader="True">
       <Point>TVT</Point>
@@ -487,47 +389,16 @@
       <Point>WYPT</Point>
       <Point>WRM</Point>
       <Point>YNA</Point>
-      <Point>BANG</Point>
-      <Point>BRH</Point>
-      <Point>BBAY</Point>
-      <Point>COBA</Point>
-      <Point>CGM</Point>
-      <Point>CIS</Point>
-      <Point>CGD</Point>
-      <Point>DODI</Point>
-      <Point>HASS</Point>
-      <Point>KCFF</Point>
-      <Point>KIRA</Point>
-      <Point>SOV</Point>
-      <Point>MTWG</Point>
-      <Point>MBBY</Point>
-      <Point>MUR</Point>
-      <Point>NTT</Point>
-      <Point>DNGR</Point>
-      <Point>RTY</Point>
-      <Point>SBK</Point>
-      <Point>STOT</Point>
-      <Point>TLC</Point>
-      <Point>TUMB</Point>
-      <Point>UKER</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="INLAND">-282503.896+1533107.385</Point>
       <Point Name="IN_GOONDA">GON</Point>
       <Point Name="IN_PARK_RIDGE">PKR</Point>
       <Point Name="IN_TARGET">TAR</Point>
       <Point Name="IN_TV_TOWERS">TVT</Point>
-      <Point Name="OUT_EAST">-273530.000+1530620.000</Point>
-      <Point Name="OUT_NORTH">-273000.000+1525800.000</Point>
-      <Point Name="OUT_SOUTH">-273920.487+1530422.857</Point>
       <Point Name="COAST_NTH">-274837.651+1532616.654</Point>
       <Point Name="COAST_STH">-270507.260+1531223.327</Point>
       <Point Name="UNIVAT">-272923.035+1530000.477</Point>
     </Label>
-    <!--INLAND-->
-    <Line Pattern="Dotted">
-      -282503.896+1533107.385/-282415.473+1533129.212/-282322.664+1533116.900/-282257.554+1533116.036/-282230.857+1533122.516/-282142.523+1533111.726/-282042.900+1533125.018/-281948.828+1533107.054/-281836.133+1533046.066/STOT/-280439.677+1532214.408/NEN
-    </Line>
     <!--IN_GOONDA-->
     <Line Pattern="Dotted">
       GON/-273513.820+1525724.860
@@ -543,18 +414,6 @@
     <!--IN_TV_TOWERS-->
     <Line Pattern="Dotted">
       TVT/-273035.521+1525534.885/-273220.227+1525746.465
-    </Line>
-    <!--OUT_EAST-->
-    <Line Pattern="Dotted">
-      -273530.000+1530620.000/-273500.000+1530355.000
-    </Line>
-    <!--OUT_NORTH-->
-    <Line Pattern="Dotted">
-      -273000.000+1525800.000/-273104.000+1525837.000
-    </Line>
-    <!--OUT_SOUTH-->
-    <Line Pattern="Dotted">
-      -273920.487+1530422.857/-273641.000+1530223.000
     </Line>
     <!--COAST_NTH-->
     <Line Pattern="Dotted">
@@ -668,29 +527,6 @@
       <Point Name="WOODY PT">WYPT</Point>
       <Point Name="WOORIM">WRM</Point>
       <Point Name="YANDINA">YNA</Point>
-      <Point Name="BANGALOW">BANG</Point>
-      <Point Name="BRUNSWICK HEADS">BRH</Point>
-      <Point Name="BYRON BAY">BBAY</Point>
-      <Point Name="COBAKI">COBA</Point>
-      <Point Name="CONDONG MILL">CGM</Point>
-      <Point Name="COOK ISLAND">CIS</Point>
-      <Point Name="CUDGEN HEADLAND">CGD</Point>
-      <Point Name="DODDS ISLAND">DODI</Point>
-      <Point Name="HASTINGS PT">HASS</Point>
-      <Point Name="KINGSCLIFF">KCFF</Point>
-      <Point Name="KIRRA">KIRA</Point>
-      <Point Name="MOUNT SOMERVILLE RADAR">SOV</Point>
-      <Point Name="MOUNT WARNING">MTWG</Point>
-      <Point Name="MULLUMBIMBY">MBBY</Point>
-      <Point Name="MURWILLUMBAH">MUR</Point>
-      <Point Name="NIMBIN TV TOWERS">NTT</Point>
-      <Point Name="PT DANGER">DNGR</Point>
-      <Point Name="RATHDOWNEY">RTY</Point>
-      <Point Name="SPRINGBROOK">SBK</Point>
-      <Point Name="STOTTS ISLAND">STOT</Point>
-      <Point Name="TERRANORA LAKES COUNTRY CLUB">TLC</Point>
-      <Point Name="TUMBULGUM">TUMB</Point>
-      <Point Name="UKEREBAGH ISLAND">UKER</Point>
     </Label>
   </Map>
   <Map Type="System" Name="YBBN_ALLRWYS" Priority="2" Center="-27.384167+153.117500">
@@ -703,16 +539,6 @@
     <Runway Name="01R/19L">
       <Threshold Name="01R" Position="-27.402797+153.118219" ExtendedCentrelineTrack="207.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
       <Threshold Name="19L" Position="-27.374664+153.134306" ExtendedCentrelineTrack="27.04" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
-    </Runway>
-    <!--YBCG-->
-    <Runway Name="14/32">
-      <Threshold Name="14" Position="-28.156511+153.500706" ExtendedCentrelineTrack="330.59" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-      <Threshold Name="32" Position="-28.172569+153.510919" ExtendedCentrelineTrack="150.59" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
-    </Runway>
-    <!--YBCG-->
-    <Runway Name="17/35">
-      <Threshold Name="17" Position="-28.164356+153.506753" ExtendedCentrelineTrack="4.09" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="35" Position="-28.169594+153.506331" ExtendedCentrelineTrack="184.09" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
     </Runway>
   </Map>
 </Maps>
