@@ -1,0 +1,34 @@
+# Handle only IFR aircraft
+# Runway assignment
+- if_not:
+    VFR: "true"
+  assign_dep_rwy: "true"
+- if:
+    atis_dep_rwy: ["06L"]
+  if_not:
+    VFR: "true"
+  runway: "06L"
+- if:
+    atis_dep_rwy: ["24R"]
+  if_not:
+    VFR: "true"
+  runway: "24R"
+# SID selection based on direction of travel
+- if:
+    radials: ["060-165"]
+  if_not:
+    VFR: "true"
+  SID: "SCARP"
+  CFL: "030"
+- if:
+    radials: ["165-270"]
+  if_not:
+    VFR: "true"
+  SID: "TONEG"
+  CFL: "030"
+- if:
+    radials: ["270-360", "0-060"]
+  if_not:
+    VFR: "true"
+  SID: "ISPET"
+  CFL: "030"
