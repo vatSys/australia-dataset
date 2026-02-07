@@ -282,36 +282,41 @@
       <Point>SHER</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="HOPE_VALLEY">MLIT</Point>
-      <Point Name="IN_EAST">WRR</Point>
-      <Point Name="IN_NORTHWEST">DUB</Point>
-      <Point Name="OUT_EAST">-344544.954+1384033.480</Point>
-      <Point Name="OUT_NORTHWEST">-344653.182+1383351.669</Point>
-      <Point Name="ROUTE_1">BENDO</Point>
+      <Point Name="IN_DAM_WALL">DMW</Point>
+      <Point Name="IN_HOPE_VALLEY">PNL</Point>
+      <Point Name="IN_OUTER_HARBOR">OHB</Point>
+      <Point Name="IN_PORT_ADELAIDE">-344931.000+1383340.000</Point>
+      <Point Name="OUT_HOPE_VALLEY">-344924.336+1383932.821</Point>
+      <Point Name="OUT_ST_KILDA">-344653.182+1383351.669</Point>
+      <Point Name="OUT_SUBSTATION">-344544.954+1384033.480</Point>
     </Label>
-    <!--HOPE_VALLEY-->
+    <!--IN_DAM_WALL-->
     <Line Pattern="Dotted">
-      MLIT/WTC/HVR/-344924.336+1383932.821
+      DMW/-344608.133+1384055.354
     </Line>
-    <!--IN_EAST-->
+    <!--IN_HOPE_VALLEY-->
     <Line Pattern="Dotted">
-      WRR/DMW/-344608.133+1384055.354
+      PNL/MLIT/WTC/-345144.000+1384234.000
     </Line>
-    <!--IN_NORTHWEST-->
+    <!--IN_OUTER_HARBOR-->
     <Line Pattern="Dotted">
-      DUB/RMH/OHB/-344742.820+1383306.502
+      OHB/-344742.820+1383306.502
     </Line>
-    <!--OUT_EAST-->
+    <!--IN_PORT_ADELAIDE-->
     <Line Pattern="Dotted">
-      -344544.954+1384033.480/SUB/SPR
+      -344931.000+1383340.000/PAL
     </Line>
-    <!--OUT_NORTHWEST-->
+    <!--OUT_HOPE_VALLEY-->
     <Line Pattern="Dotted">
-      -344653.182+1383351.669/-344438.523+1383130.173/DUB
+      -344924.336+1383932.821/-345144.000+1384234.000
     </Line>
-    <!--ROUTE_1-->
+    <!--OUT_ST_KILDA-->
     <Line Pattern="Dotted">
-      BENDO/SYN/PNL/MLIT
+      -344653.182+1383351.669/-344438.523+1383130.173
+    </Line>
+    <!--OUT_SUBSTATION-->
+    <Line Pattern="Dotted">
+      -344544.954+1384033.480/SUB
     </Line>
   </Map>
   <Map Type="System2" Name="AD_VFR_FULL_NAME" Priority="1" Center="-34.945000+138.530556">

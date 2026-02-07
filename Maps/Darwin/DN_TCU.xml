@@ -157,6 +157,7 @@
   <Map Type="System2" Name="DN_VFR" Priority="1" Center="-12.414722+130.876667">
     <Symbol Type="HollowSquare">
       <Point>ADB</Point>
+      <Point>ADRM</Point>
       <Point>BTI</Point>
       <Point>BYNO</Point>
       <Point>CGR</Point>
@@ -182,6 +183,7 @@
     </Symbol>
     <Label HasLeader="True">
       <Point>ADB</Point>
+      <Point>ADRM</Point>
       <Point>BTI</Point>
       <Point>BYNO</Point>
       <Point>CGR</Point>
@@ -207,35 +209,36 @@
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="ROUTE_1">CGR</Point>
-      <Point Name="ROUTE_2">CTT</Point>
+      <Point Name="ROUTE_2">ADRM</Point>
       <Point Name="ROUTE_3">ADB</Point>
       <Point Name="ROUTE_4">MTD</Point>
       <Point Name="ROUTE_5">BYNO</Point>
     </Label>
     <!--ROUTE_1-->
     <Line Pattern="Dotted">
-      CGR/-120641.472+1310153.498/-121607.958+1310235.559/HPI/LPT/-122430.045+1305216.201
+      CGR/JAC/LPT/-122430.045+1305216.201
     </Line>
     <!--ROUTE_2-->
     <Line Pattern="Dotted">
-      CTT/HPI/LPT/-122430.045+1305216.201
+      ADRM/JAC/LPT/-122430.045+1305216.201
     </Line>
     <!--ROUTE_3-->
     <Line Pattern="Dotted">
-      ADB/-124311.677+1310112.000/EAM/-122519.586+1305216.327
+      ADB/LAD/CHI/-122519.586+1305216.327
     </Line>
     <!--ROUTE_4-->
     <Line Pattern="Dotted">
-      MTD/-124311.677+1310112.000/EAM/-122519.586+1305216.327
+      MTD/LAD/CHI/-122519.586+1305216.327
     </Line>
     <!--ROUTE_5-->
     <Line Pattern="Dotted">
-      BYNO/WSM/-122519.586+1305216.327
+      BYNO/CHI/-122519.586+1305216.327
     </Line>
   </Map>
   <Map Type="System2" Name="DN_VFR_FULL_NAME" Priority="1" Center="-12.414722+130.876667">
     <Label HasLeader="True" LabelOrientation="SW">
       <Point Name="ADELAIDE RIVER BRIDGE">ADB</Point>
+      <Point Name="ADELAIDE RIVER MOUTH">ADRM</Point>
       <Point Name="BATHURST ISLAND">BTI</Point>
       <Point Name="BYNOE HARBOUR">BYNO</Point>
       <Point Name="CAPE GAMBIER">CGR</Point>
@@ -249,7 +252,7 @@
       <Point Name="GUNN PT">GUP</Point>
       <Point Name="HOPE INLET">HPI</Point>
       <Point Name="JACKO'S JUNCTION">JAC</Point>
-      <Point Name="LAKE DEAN">LAD</Point>
+      <Point Name="LAKE DEANE">LAD</Point>
       <Point Name="LAKE FINNISS">LFS</Point>
       <Point Name="LEE PT">LPT</Point>
       <Point Name="MANDORAH">MADO</Point>
