@@ -1,0 +1,27 @@
+- assign_dep_rwy: "true"
+- CFL: "080"
+- if:
+    VFR: "true"
+  CFL: "045"
+
+# SIDS - note the regex format to target SIDs ending with particular characters (\\d = single character, B = 'B')
+# 14R
+- if:
+    runway: ["14R"]
+    waypoint: ["FLIKI"]
+  SID: "#FLIK\\dB"
+- if:
+    runway: ["14R"]
+    waypoint: ["VIMAP"]
+  SID: "#VIMA\\dB"
+- if:
+    runway: ["14R"]
+    waypoint: ["NUNPA"]
+  SID: "#NUNP\\dB"
+- if:
+    runway: ["14R"]
+    waypoint: ["MOTRA"]
+  SID: "#MOTR\\dB"
+  
+# Frequencies
+- departures: ["123.8", "122.6"]
