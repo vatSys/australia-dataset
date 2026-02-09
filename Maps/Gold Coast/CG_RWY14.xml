@@ -10,12 +10,17 @@
     <Line>
       <!--Rwy14 APAGI5-->
       -281021.250+1533039.310/
-      -281242.144+1533209.775/
       SMALL/
-      -281128.211+1533122.148/
-      -281110.308+1533112.580/
-      -281051.988+1533104.088/
-      -281046.815+1533102.225/
+      CUDGN/
+      APAGI
+    </Line>
+    <Line>
+      <!--Rwy14 CUDGN4-->
+      SMALL/
+      -281202.886+1533143.771/
+      -281220.840+1533153.216/
+      -281239.205+1533201.584/
+      -281244.388+1533203.412/
       CG847/
       CUDGN/
       -281502.065+1533248.277/
@@ -25,16 +30,6 @@
       -281708.959+1533150.503/
       CG851/
       APAGI
-    </Line>
-    <Line>
-      <!--Rwy14 CUDGN4-->
-      -281021.250+1533039.310/
-      SMALL/
-      -281202.886+1533143.771/
-      -281220.840+1533153.216/
-      -281239.205+1533201.584/
-      -281244.388+1533203.412/
-      CG847
     </Line>
     <!--STARs-->
     <Line>
@@ -109,9 +104,9 @@
       <Point>CUDGN</Point>
     </Symbol>
     <Symbol Type="HollowStar">
+      <Point>APAGI</Point>
       <Point>CG847</Point>
       <Point>CG851</Point>
-      <Point>APAGI</Point>
       <Point>BERNI</Point>
       <Point>ELDUX</Point>
       <Point>VANSU</Point>
@@ -136,10 +131,10 @@
   <Map Type="System" Name="CG_RWY14_NAMES" Priority="2" Center="-28.164444+153.504722">
     <Label>
       <Point>SMALL</Point>
-      <Point>CG847</Point>
       <Point>CUDGN</Point>
-      <Point>CG851</Point>
       <Point>APAGI</Point>
+      <Point>CG847</Point>
+      <Point>CG851</Point>
       <Point>OVREX</Point>
       <Point>VEGAH</Point>
       <Point>IDNER</Point>
