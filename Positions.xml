@@ -501,7 +501,7 @@
         <Sector Name="HYD" />
         <Sector Name="PIY" />
         <Sector Name="JAR" />
-        <Sector Name="CRS" />
+        <Sector Name="SCR" />
         <Sector Name="GVE" />
         <Sector Name="LEA" />
         <Sector Name="GEL" />
@@ -1130,7 +1130,7 @@
         <Window Airport="YBSU" />
       </ATIS>
       <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="5000">
+      <CFL QuickLevel="4000">
         <AdditionalLevels>1900,2800,4100</AdditionalLevels>
       </CFL>
       <ControllerInfo>
@@ -1638,7 +1638,6 @@
         <Sector Name="BAS" />
         <Sector Name="BDN" />
         <Sector Name="BDS" />
-        <Sector Name="BAC" />
         <Sector Name="SHN" />
       </Sectors>
       <ManualVisibility>
@@ -1647,6 +1646,7 @@
       </ManualVisibility>
       <Maps>
         <Map Name="ALL_CTA" />
+        <Map Name="AIRWAY_NOTES" />
         <Map Name="Brisbane/BN_COAST" />
         <Map Name="Brisbane/BN_TCU" />
         <Map Name="Brisbane/BN_RWY01PROPS" />
@@ -1704,6 +1704,40 @@
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
+	<Position Name="Gold Coast TCU" Type="ASD" DefaultCenter="-28.164444+153.504722" DefaultRange="175" VisibilityRange="100" MagneticVariation="-11">
+      <Sectors>
+        <Sector Name="BAC" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-27.3942+153.1218</Point>
+        <Point>-28.166667+153.500</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="AIRWAY_NOTES" />
+        <Map Name="Gold Coast/CG_COAST" />
+        <Map Name="Gold Coast/CG_TCU" />
+        <Map Name="Gold Coast/CG_RWY32" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBCG" Frequency="134.5" />
+        <Window Airport="YBCG" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha">
+        <Window Type="ADEP" Beacon="YBCG" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="12000">
+        <AdditionalLevels>1700,1800,1900,2400,2900,3400,3800,4400,5100</AdditionalLevels>
+      </CFL>
+      <ControllerInfo Callsign="BN-C_APP">
+        <Line>Brisbane Approach (Gold Coast) | ATIS available on 125.5</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Canberra TCU" Type="ASD" DefaultCenter="-35.306944+149.195" DefaultRange="150" VisibilityRange="100" MagneticVariation="-12.5">
       <Sectors>
         <Sector Name="CBE" />
@@ -1751,9 +1785,9 @@
       </ManualVisibility>
       <Maps>
         <Map Name="ALL_CTA" />
-        <Map Name="Perth/PH_COAST" />
-        <Map Name="Perth/PH_TCU" />
-        <Map Name="Perth/PE_RWY36" />
+        <Map Name="Pearce/PE_COAST" />
+        <Map Name="Pearce/PE_TCU" />
+        <Map Name="Pearce/PE_RWY36" />
         <Map Name="ALL_SECTORS" />
         <Map Name="TMA_LL_LABELS" />
       </Maps>
@@ -1885,7 +1919,7 @@
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Tindal TCU" Type="ASD" DefaultCenter="-14.521111+132.377778" DefaultRange="150" MagneticVariation="-3" DynamicInfill="false">
+    <Position Name="Tindal TCU" Type="ASD" DefaultCenter="-14.521111+132.377778" DefaultRange="150" MagneticVariation="-3" DynamicInfill="true">
       <Sectors>
         <Sector Name="TNA" />
       </Sectors>
@@ -2172,6 +2206,7 @@
         <Map Name="Curtin/CIN_TCU" />
         <Map Name="Curtin/YCIN_ALLRWYS" />
         <Map Name="ALL_SECTORS" />
+        <Map Name="Curtin/CIN_COAST" />
       </Maps>
       <ATIS>
         <Editor Airport="YCIN" Frequency="134.8" />
@@ -3277,8 +3312,9 @@
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
-        <Map Name="Perth/PH_TCU" />
-        <Map Name="Perth/GIG_RWY08" />
+        <Map Name="Pearce/PE_COAST" />
+        <Map Name="Pearce/PE_TCU" />
+        <Map Name="Pearce/GIG_RWY08" />
       </Maps>
       <ATIS>
         <Editor Airport="YGIG" Frequency="134.5" />
@@ -3301,9 +3337,9 @@
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
-        <Map Name="Brisbane/BN_COAST" />
-        <Map Name="Brisbane/BN_TCU" />
-        <Map Name="Brisbane/CG_RWY14" />
+        <Map Name="Gold Coast/CG_COAST" />
+        <Map Name="Gold Coast/CG_TCU" />
+        <Map Name="Gold Coast/CG_RWY14" />
       </Maps>
       <ATIS>
         <Editor Airport="YBCG" Frequency="134.5" />
@@ -3341,9 +3377,9 @@
       </Sectors>
       <Maps>
         <Map Name="ALL_CTA" />
-        <Map Name="Perth/PH_COAST" />
-        <Map Name="Perth/PH_TCU" />
-        <Map Name="Perth/PE_RWY18" />
+        <Map Name="Pearce/PE_COAST" />
+        <Map Name="Pearce/PE_TCU" />
+        <Map Name="Pearce/PE_RWY18" />
       </Maps>
       <ATIS>
         <Editor Airport="YPEA" Frequency="136.4" />

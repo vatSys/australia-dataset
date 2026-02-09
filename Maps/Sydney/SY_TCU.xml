@@ -227,7 +227,7 @@
       <Point>KRMD</Point>
       <Point>LIHR</Point>
       <Point>LRF</Point>
-      <Point>MANLY</Point>
+      <Point>MNLY</Point>
       <Point>MRBR</Point>
       <Point>MYF</Point>
       <Point>MEG</Point>
@@ -299,7 +299,7 @@
       <Point>KRMD</Point>
       <Point>LIHR</Point>
       <Point>LRF</Point>
-      <Point>MANLY</Point>
+      <Point>MNLY</Point>
       <Point>MRBR</Point>
       <Point>MYF</Point>
       <Point>MEG</Point>
@@ -342,7 +342,8 @@
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="RIC_ROUTE">WSFR</Point>
-      <Point Name="IN_SOUTH">BBG</Point>
+      <Point Name="IN_NORTH">PSP</Point>
+      <Point Name="IN_TWO_RN">TWRN</Point>
       <Point Name="OUT_NORTH">-335230.084+1505947.701</Point>
       <Point Name="HARB_SCENIC_1">LRF</Point>
       <Point Name="HARB_SCENIC_2">CHAT</Point>
@@ -352,21 +353,25 @@
     <Line Pattern="Dotted">
       WSFR/KRMD/GRRV/-334259.498+1503855.777/NPBR
     </Line>
-    <!--IN_SOUTH-->
+    <!--IN_NORTH-->
     <Line Pattern="Dotted">
-      BBG/-334202.299+1510107.919/PSP/-335252.538+1505729.859
+      PSP/-335252.538+1505729.859
+    </Line>
+    <!--IN_TWO_RN-->
+    <Line Pattern="Dotted">
+      TWRN/-335555.000+1505649.000
     </Line>
     <!--OUT_NORTH-->
     <Line Pattern="Dotted">
-      -335230.084+1505947.701/PRT/PENH/HSY/PAA
+      -335230.084+1505947.701/PRT
     </Line>
     <!--HARB_SCENIC_1-->
     <Line Pattern="Dotted">
-      LRF/HBB/NOHD/MANLY/LRF
+      LRF/HBB/NOHD/MNLY/LRF
     </Line>
     <!--HARB_SCENIC_2-->
     <Line Pattern="Dotted">
-      CHAT/MANLY/LRF/CHAT
+      CHAT/MNLY/LRF/CHAT
     </Line>
     <!--VICTOR_1-->
     <Line Pattern="Dotted">
@@ -405,7 +410,7 @@
       <Point Name="KURMOND">KRMD</Point>
       <Point Name="LIGHTHORSE INTERCHANGE">LIHR</Point>
       <Point Name="LONG REEF">LRF</Point>
-      <Point Name="MANLY">MANLY</Point>
+      <Point Name="MANLY">MNLY</Point>
       <Point Name="MAROUBRA BEACH">MRBR</Point>
       <Point Name="MAYFIELD">MYF</Point>
       <Point Name="MENANGLE">MEG</Point>

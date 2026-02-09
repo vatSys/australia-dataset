@@ -1,58 +1,68 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="PE_RWY05" Priority="1" Center="-31.667778+116.015000">
+  <Map Type="System" Name="PE_RWY23" Priority="1" Center="-31.667778+116.015000">
     <!--YPEA-->
     <Runway Name="05/23">
-      <Threshold Name="05" Position="-31.672319+116.008692" ExtendedCentrelineTrack="224.73" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
-      <Threshold Name="23" Position="-31.661486+116.021242" />
+      <Threshold Name="05" Position="-31.672319+116.008692" />
+      <Threshold Name="23" Position="-31.661486+116.021242" ExtendedCentrelineTrack="44.74" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy05 ALKIM7-->
-      -313941.350+1160116.470/
-      -313815.807+1160255.195/
-      -313804.000+1160250.000/
-      -313759.000+1160240.000/
-      -313756.000+1160227.000/
-      -313802.000+1155634.000/
+      <!--Rwy23 ALKIM7-->
+      -314020.350+1160031.290/
+      -314228.184+1155802.566/
+      -314232.000+1155737.000/
+      -314223.000+1155712.000/
+      -314202.000+1155652.000/
+      -313809.000+1155648.000/
       -313229.000+1154612.000
     </Line>
     <Line>
-      <!--Rwy05 GUNOK2-->
-      -313815.807+1160255.195/
-      -313800.000+1160314.000/
-      GUNOK
+      <!--Rwy23 MULALOO8-->
+      -314232.000+1155737.000/
+      -314207.000+1155606.000/
+      -314749.000+1153909.000
     </Line>
     <Line>
-      <!--Rwy05 PEA6-->
-      -313941.350+1160116.470/
-      -313846.000+1160220.000
+      <!--Rwy23 PEA6-->
+      -314020.350+1160031.290/
+      -314228.625+1155803.091
     </Line>
     <Line>
-      <!--Rwy05 WAMAL6-->
-      -313804.000+1160250.000/
-      -313552.000+1160030.000/
+      <!--Rwy23 WAMAL6-->
+      -314228.184+1155802.566/
+      -314250.000+1155608.000/
+      -314250.000+1155557.000/
+      -314248.000+1155546.000/
+      -314244.000+1155536.000/
+      -314236.000+1155529.000/
+      -314225.000+1155527.000/
+      -314214.000+1155528.000/
+      -314203.000+1155532.000/
+      -314154.000+1155536.000/
+      -314150.000+1155539.000/
+      -313634.000+1160035.000/
       -312530.000+1155918.000
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy05 PEA4G.KABLI-->
+      <!--Rwy23 PEA4G.KABLI-->
       KABLI/
       KYEMA/
       GOSNL
     </Line>
     <Line>
-      <!--Rwy05 PEA4G.LAVEX-->
+      <!--Rwy23 PEA4G.LAVEX-->
       LAVEX/
       BOOKA/
       GOSNL
     </Line>
     <Line>
-      <!--Rwy05 PEA4G-->
+      <!--Rwy23 PEA4G-->
       GOSNL
     </Line>
     <Line>
-      <!--Rwy05 PEA4R.KABLI-->
+      <!--Rwy23 PEA4R.KABLI-->
       KABLI/
       BOOKA/
       RONAN/
@@ -60,7 +70,7 @@
       ROLOB
     </Line>
     <Line>
-      <!--Rwy05 PEA4R.LAVEX-->
+      <!--Rwy23 PEA4R.LAVEX-->
       LAVEX/
       BUVOT/
       RONAN/
@@ -68,22 +78,21 @@
       ROLOB
     </Line>
     <Line>
-      <!--Rwy05 PEA4R-->
+      <!--Rwy23 PEA4R-->
       ROLOB
     </Line>
     <Line>
-      <!--Rwy05 PEA4W.MALUP-->
+      <!--Rwy23 PEA4W.MALUP-->
       MALUP/
       DAYLR/
       WUNGO
     </Line>
     <Line>
-      <!--Rwy05 PEA4W-->
+      <!--Rwy23 PEA4W-->
       WUNGO/
       HARMN
     </Line>
     <Symbol Type="HollowStar">
-      <Point>GUNOK</Point>
       <Point>GOSNL</Point>
       <Point>KABLI</Point>
       <Point>KYEMA</Point>
@@ -100,9 +109,8 @@
       <Point>DAYLR</Point>
     </Symbol>
   </Map>
-  <Map Type="System" Name="PE_RWY05_NAMES" Priority="2" Center="-31.667778+116.015000">
+  <Map Type="System" Name="PE_RWY23_NAMES" Priority="2" Center="-31.667778+116.015000">
     <Label>
-      <Point>GUNOK</Point>
       <Point>KABLI</Point>
       <Point>KYEMA</Point>
       <Point>GOSNL</Point>

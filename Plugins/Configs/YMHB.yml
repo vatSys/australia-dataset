@@ -1,0 +1,7 @@
+- assign_dep_rwy: "true"
+- CFL: "080"
+- if:
+    VFR: "true"
+  CFL: "045"  
+# Frequencies
+- departures: ["125.55", "122.6"]
