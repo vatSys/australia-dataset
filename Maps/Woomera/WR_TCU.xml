@@ -26,6 +26,47 @@
       <Point>WHA NDB</Point>
     </Label>
   </Map>
+  <Map Type="System2" Name="WR_VFR" Priority="1" Center="-31.144167+136.816944">
+    <Symbol Type="HollowSquare" />
+    <Label HasLeader="True" />
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="ISLAND_LAGOON">-312127.000+1364652.000</Point>
+      <Point Name="KOOLYMILKA_LAKE">-305833.000+1363232.000</Point>
+      <Point Name="LAKE_HART">-311403.000+1362334.000</Point>
+      <Point Name="LAKE_RICHARDSON">-310535.000+1365822.000</Point>
+      <Point Name="LAKE_WINDABOUT">-311817.000+1370318.000</Point>
+      <Point Name="RED_SWAMP">-305044.000+1365218.000</Point>
+      <Point Name="SHELL_LAGOON">-305559.000+1364456.000</Point>
+    </Label>
+    <!--ISLAND_LAGOON-->
+    <Line Pattern="Dotted">
+      -312127.000+1364652.000/-311447.000+1364740.000
+    </Line>
+    <!--KOOLYMILKA_LAKE-->
+    <Line Pattern="Dotted">
+      -305833.000+1363232.000/-310543.000+1364358.000
+    </Line>
+    <!--LAKE_HART-->
+    <Line Pattern="Dotted">
+      -311403.000+1362334.000/-311000.000+1364201.000
+    </Line>
+    <!--LAKE_RICHARDSON-->
+    <Line Pattern="Dotted">
+      -310535.000+1365822.000/-310728.000+1365208.000
+    </Line>
+    <!--LAKE_WINDABOUT-->
+    <Line Pattern="Dotted">
+      -311817.000+1370318.000/-311238.000+1365431.000
+    </Line>
+    <!--RED_SWAMP-->
+    <Line Pattern="Dotted">
+      -305044.000+1365218.000/-310057.000+1365008.000
+    </Line>
+    <!--SHELL_LAGOON-->
+    <Line Pattern="Dotted">
+      -305559.000+1364456.000/-310134.000+1364631.000
+    </Line>
+  </Map>
   <Map Type="System" Name="YPWR_ALLRWYS" Priority="2" Center="-31.144167+136.816944">
     <!--YPWR-->
     <Runway Name="18/36">
