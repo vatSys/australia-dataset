@@ -549,6 +549,11 @@
             Gets or sets a list of waypoints, where at least one must be in the planned route.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.Airway">
+            <summary>
+            Gets or sets a list of airways, where at least one must be in the planned route.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RuleCondition.WTC">
             <summary>
             Gets or sets a list of wake turb cats, where at least one must match the aircraft
