@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="PE_TCU" Priority="1" Center="-31.667778+116.015000">
+    <!--YGIG-->
+    <Runway Name="08/26">
+      <Threshold Name="08" Position="-31.466489+115.853731" ExtendedCentrelineTrack="254.99" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="26" Position="-31.462219+115.872314" ExtendedCentrelineTrack="75" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--YPEA-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-31.672319+116.008692" />
+      <Threshold Name="23" Position="-31.661486+116.021242" />
+    </Runway>
+    <Runway Name="18L/36R">
+      <Threshold Name="18L" Position="-31.657600+116.013083" />
+      <Threshold Name="36R" Position="-31.684250+116.016631" />
+    </Runway>
+    <Runway Name="18R/36L">
+      <Threshold Name="18R" Position="-31.668781+116.013333" />
+      <Threshold Name="36L" Position="-31.684389+116.015411" />
+    </Runway>
+  </Map>
+  <Map Type="System2" Name="PE_VFR" Priority="1" Center="-31.667778+116.015000">
+    <Symbol Type="HollowSquare">
+      <Point>ADWD</Point>
+      <Point>AKMW</Point>
+      <Point>SHOP</Point>
+      <Point>BARB</Point>
+      <Point>BOAT</Point>
+      <Point>BUB</Point>
+      <Point>BYFD</Point>
+      <Point>CNB</Point>
+      <Point>CDM</Point>
+      <Point>CYB</Point>
+      <Point>CTE</Point>
+      <Point>FDL</Point>
+      <Point>FFLD</Point>
+      <Point>FRE</Point>
+      <Point>FREM</Point>
+      <Point>HRR</Point>
+      <Point>HKE</Point>
+      <Point>JADL</Point>
+      <Point>MAYL</Point>
+      <Point>MTK</Point>
+      <Point>MUE</Point>
+      <Point>MUP</Point>
+      <Point>MWR</Point>
+      <Point>NORT</Point>
+      <Point>OAKF</Point>
+      <Point>OBC</Point>
+      <Point>PCTY</Point>
+      <Point>PIB</Point>
+      <Point>POWR</Point>
+      <Point>REDC</Point>
+      <Point>ROHM</Point>
+      <Point>RLY</Point>
+      <Point>RUSS</Point>
+      <Point>SWY</Point>
+      <Point>SEL</Point>
+      <Point>TLMI</Point>
+      <Point>TOML</Point>
+      <Point>TOS</Point>
+      <Point>USW</Point>
+      <Point>VPH</Point>
+      <Point>WMP</Point>
+      <Point>WUN</Point>
+      <Point>WUNG</Point>
+      <Point>YGB</Point>
+      <Point>ORKT</Point>
+    </Symbol>
+    <Label HasLeader="True">
+      <Point>ADWD</Point>
+      <Point>AKMW</Point>
+      <Point>SHOP</Point>
+      <Point>BARB</Point>
+      <Point>BOAT</Point>
+      <Point>BUB</Point>
+      <Point>BYFD</Point>
+      <Point>CNB</Point>
+      <Point>CDM</Point>
+      <Point>CYB</Point>
+      <Point>CTE</Point>
+      <Point>FDL</Point>
+      <Point>FFLD</Point>
+      <Point>FRE</Point>
+      <Point>FREM</Point>
+      <Point>HRR</Point>
+      <Point>HKE</Point>
+      <Point>JADL</Point>
+      <Point>MAYL</Point>
+      <Point>MTK</Point>
+      <Point>MUE</Point>
+      <Point>MUP</Point>
+      <Point>MWR</Point>
+      <Point>NORT</Point>
+      <Point>OAKF</Point>
+      <Point>OBC</Point>
+      <Point>PCTY</Point>
+      <Point>PIB</Point>
+      <Point>POWR</Point>
+      <Point>REDC</Point>
+      <Point>ROHM</Point>
+      <Point>RLY</Point>
+      <Point>RUSS</Point>
+      <Point>SWY</Point>
+      <Point>SEL</Point>
+      <Point>TLMI</Point>
+      <Point>TOML</Point>
+      <Point>TOS</Point>
+      <Point>USW</Point>
+      <Point>VPH</Point>
+      <Point>WMP</Point>
+      <Point>WUN</Point>
+      <Point>WUNG</Point>
+      <Point>YGB</Point>
+      <Point>ORKT</Point>
+    </Label>
+  </Map>
+  <Map Type="System2" Name="PE_VFR_FULL_NAME" Priority="1" Center="-31.667778+116.015000">
+    <Label HasLeader="True" LabelOrientation="SW">
+      <Point Name="ADVENTURE WORLD">ADWD</Point>
+      <Point Name="ALKIMOS WATER">AKMW</Point>
+      <Point Name="ARMADALE SHOPS">SHOP</Point>
+      <Point Name="BARBAGALLO RACEWAY">BARB</Point>
+      <Point Name="BOATYARD">BOAT</Point>
+      <Point Name="BURNS BEACH">BUB</Point>
+      <Point Name="BYFORD">BYFD</Point>
+      <Point Name="CANNING BRIDGE">CNB</Point>
+      <Point Name="CANNING DAM">CDM</Point>
+      <Point Name="CITY BEACH">CYB</Point>
+      <Point Name="COTTESLOE">CTE</Point>
+      <Point Name="FORRESTDALE LAKE">FDL</Point>
+      <Point Name="FORRESTFIELD">FFLD</Point>
+      <Point Name="FREMANTLE">FRE</Point>
+      <Point Name="FREMANTLE GOLF COURSE">FREM</Point>
+      <Point Name="HELENA RIVER RESV">HRR</Point>
+      <Point Name="HERDSMAN LAKE">HKE</Point>
+      <Point Name="JARRAHDALE">JADL</Point>
+      <Point Name="MAYLANDS POLICE ACADEMY">MAYL</Point>
+      <Point Name="MOUNT COOKE">MTK</Point>
+      <Point Name="MOUNT DALE">MUE</Point>
+      <Point Name="MULLALOO PT">MUP</Point>
+      <Point Name="MUNDARING WEIR">MWR</Point>
+      <Point Name="NORTH LAKE">NORT</Point>
+      <Point Name="OAKFORD">OAKF</Point>
+      <Point Name="OBSERVATION CITY">OBC</Point>
+      <Point Name="PERTH CITY">PCTY</Point>
+      <Point Name="PICKERING BROOK GOLF COURSE">PIB</Point>
+      <Point Name="POWERHOUSE">POWR</Point>
+      <Point Name="REDCLIFFE BRIDGE">REDC</Point>
+      <Point Name="ROCKINGHAM">ROHM</Point>
+      <Point Name="ROLEYSTONE">RLY</Point>
+      <Point Name="RUSSELL">RUSS</Point>
+      <Point Name="SAWYERS VALLEY">SWY</Point>
+      <Point Name="SHELLEY BRIDGE">SEL</Point>
+      <Point Name="THE LAKES MINE">TLMI</Point>
+      <Point Name="THOMSONS LAKE">TOML</Point>
+      <Point Name="TWO ROCKS">TOS</Point>
+      <Point Name="UPPER SWAN">USW</Point>
+      <Point Name="VPH">VPH</Point>
+      <Point Name="WOODMAN PT">WMP</Point>
+      <Point Name="WUNDOWIE">WUN</Point>
+      <Point Name="WUNGONG RESERVOIR">WUNG</Point>
+      <Point Name="YANGEBUP LAKE">YGB</Point>
+      <Point Name="YORK TOWNSHIP">ORKT</Point>
+    </Label>
+  </Map>
+  <Map Type="System" Name="YPEA_ALLRWYS" Priority="2" Center="-31.667778+116.015000">
+    <!--YPEA-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-31.672319+116.008692" ExtendedCentrelineTrack="224.73" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="23" Position="-31.661486+116.021242" ExtendedCentrelineTrack="44.74" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <!--YPEA-->
+    <Runway Name="18L/36R">
+      <Threshold Name="18L" Position="-31.657600+116.013083" ExtendedCentrelineTrack="353.5" ExtendedCentrelineLength="12" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="36R" Position="-31.684250+116.016631" ExtendedCentrelineTrack="173.51" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <!--YPEA-->
+    <Runway Name="18R/36L">
+      <Threshold Name="18R" Position="-31.668781+116.013333" />
+      <Threshold Name="36L" Position="-31.684389+116.015411" />
+    </Runway>
+  </Map>
+</Maps>

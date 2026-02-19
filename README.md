@@ -30,6 +30,20 @@ Pull requests to the master branch will not be approved.
 
 **Note:** Major changes (E.g. TCU/ENR/Aerodrome changes) must be discussed with the AIS team directly as an [issue](https://github.com/vatSys/australia-dataset/issues) before commencing work on the change.
 
+#### Custom Map Layers
+For a map to be considered for inclusion into the Australia or Pacific profile:
+- It must be compatible with the AIS AIRAC maintenance process.
+  - ie, it can't need any Airspace.xml or TCU.xml changes
+- It must not duplicate, or make redundant, any existing AIS map layer;
+- It must be reasonably expected to be useful to the provision of ATS within VATPAC airspace;
+- It must be designed to replicate operations as they are simulated online - not necessarily as they exist in the real world;
+- It must be available for use by all appropriately credentialled VATPAC members, and not for exclusive use by members of any third-party organisation or group;
+- It must not contain any personal information not relevant to the functionality of the map;
+- It should use a colour/design scheme that will not be confused with an existing AIS map layer;
+- It must be approved by both the AIS Manager and ATS Director.
+
+If you are considering contributing a map layer and are unsure how these requirements would apply, please reach out to the AIS team directly by raising an [issue](https://github.com/vatSys/australia-dataset/issues) before commencing work on the change.
+
 
 # Data Preparation
 

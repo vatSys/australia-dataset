@@ -57,7 +57,7 @@
             A bay.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.#ctor(System.Collections.Generic.List{MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay},MaxRumsey.OzStripsPlugin.GUI.BayManager,MaxRumsey.OzStripsPlugin.GUI.SocketConn,System.String,System.Int32,System.Boolean)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.#ctor(System.Collections.Generic.List{MaxRumsey.OzStripsPlugin.GUI.Shared.StripBay},MaxRumsey.OzStripsPlugin.GUI.BayManager,MaxRumsey.OzStripsPlugin.GUI.SocketConn,System.String,System.Int32,System.Boolean,System.Int32)">
             <summary>
             Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Bay"/> class.
             </summary>
@@ -66,7 +66,8 @@
             <param name="socketConn">The socket connection.</param>
             <param name="name">The name of the bay.</param>
             <param name="vertBoardNum">The vertical board number.</param>
-            <param name="CDMDisplay">Whether or not CDM stats are displayed here.</param>
+            <param name="containsCDMDisplay">Whether or not CDM stats are displayed here.</param>
+            <param name="totalNumBays">The total number of bays that will exist post-layout.</param>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Bay.VerticalBoardNumber">
             <summary>
@@ -234,7 +235,7 @@
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.GetListItemByStr(System.String)">
             <summary>
-            Gets if available a list item by strip name.
+            Gets if available a list item by strip name. Will create or delete a bar if needed.
             </summary>
             <param name="code">The code of the item.</param>
             <returns>The list item if there is a match, otherwise null.</returns>
@@ -255,6 +256,16 @@
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.Dispose">
             <summary>
             Dispose.
+            </summary>
+        </member>
+        <member name="E:MaxRumsey.OzStripsPlugin.GUI.Bay.OnBarsChanged">
+            <summary>
+            Called when bars may be added or removed.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.BarsChangedExternally">
+            <summary>
+            Called when this bay's bars may have been changed externally, and the bay needs to update accordingly.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.BayManager">
@@ -492,6 +503,13 @@
             <param name="type">Type of bay.</param>
             <param name="text">Text on bar.</param>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.ToggleCrossReleaseBar(System.String,System.String)">
+            <summary>
+            Toggles the presence of a cross/release bar, on the runway bay.
+            </summary>
+            <param name="runwayPair">Runway pair identifier as present in Maps.</param>
+            <param name="type">"Crossing" or "Released".</param>
+        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.DeleteBarByParams(System.String,System.Int32,System.String)">
             <summary>
             Deletes a bar by params. Returns true if found.
@@ -559,12 +577,13 @@
             <param name="item">The strip.</param>
             <returns>The bay if the name matches.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.AddBay(MaxRumsey.OzStripsPlugin.GUI.Bay,System.Int32)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.AddBay(MaxRumsey.OzStripsPlugin.GUI.Bay,System.Int32,System.Int32)">
             <summary>
             Adds the bay to the vertical board.
             </summary>
             <param name="bay">The bay.</param>
             <param name="verticalBoardNumber">The desired vertical board number.</param>
+            <param name="totalNum">The total number of bays that will be present post-layout.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayRepository.ReloadStrips(MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
             <summary>
@@ -902,6 +921,14 @@
             </summary>
             <param name="strip">Strip.</param>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown.ShowCrossingOrReleaseDropDown(MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AutoMapAerodrome,System.String,MaxRumsey.OzStripsPlugin.GUI.BayManager)">
+            <summary>
+            Shows a crossing / release bar dropdown.
+            </summary>
+            <param name="autoMapAerodrome">Automap aerodrome file.</param>
+            <param name="type">Crossing or Released.</param>
+            <param name="bayManager">Bay Manager.</param>
+        </member>
         <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDown.components">
             <summary>
             Required designer variable.
@@ -1231,6 +1258,11 @@
             Gets or sets a list of concerned positions.
             </summary>
         </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AutoMapAerodrome">
+            <summary>
+            Represents items in XML FIle.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AutoOpen">
             <summary>
             Represents items in XML FIle.
@@ -1398,6 +1430,11 @@
             Gets the aerodrome code label.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.ReleaseButton">
+            <summary>
+            Gets the release button.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.MetarToolTip">
             <summary>
             Gets the metar tool tip.
@@ -1446,6 +1483,11 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.OpenPDCs">
             <summary>
             Gets the open PDCs menu item.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.InhibitGroundMaps">
+            <summary>
+            Gets the inhibit ground maps menu item.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.AutoFillAvailable">
@@ -1571,6 +1613,11 @@
             </summary>
             <param name="value">The list of aerodromes.</param>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.UpdateMaps">
+            <summary>
+            Updates release and crossing maps.
+            </summary>
+        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.MarkConnectionReadiness(System.Boolean)">
             <summary>
             Marks whether or not a connection is ready to be established to the server.
@@ -1643,6 +1690,16 @@
             </summary>
             <param name="args">Event arguments.</param>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ToggleCrossBar">
+            <summary>
+            Toggles the crossing bar in the runway bay.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ToggleReleaseBar">
+            <summary>
+            Toggles the released bar in the runway bay.
+            </summary>
+        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
             <summary>
             Overrides keypress event to capture all keypresses.
@@ -1677,7 +1734,14 @@
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.CrossButton_Click(System.Object,System.EventArgs)">
             <summary>
-            Crosses the selected strip.
+            Opens the cross bar menu.
+            </summary>
+            <param name="sender">The sender.</param>
+            <param name="e">Eventargs.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.ReleaseButton_Click(System.Object,System.EventArgs)">
+            <summary>
+            Opens the release bar menu.
             </summary>
             <param name="sender">The sender.</param>
             <param name="e">Eventargs.</param>
@@ -1826,6 +1890,11 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainFormController.Handle">
             <summary>
             Gets the current main form handle.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.MapManager">
+            <summary>
+            Manages map visibility in ASMGCS windows based on current bar states.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.ModalReturnArgs">
@@ -1983,7 +2052,7 @@
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.version">
             <summary>
-              Looks up a localized string similar to 0.8.3.
+              Looks up a localized string similar to 0.8.5.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher">

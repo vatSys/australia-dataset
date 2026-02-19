@@ -211,7 +211,7 @@
       <Point>ROK</Point>
       <Point>RLR</Point>
       <Point>SDP</Point>
-      <Point>SHOAL</Point>
+      <Point>SHOL</Point>
       <Point>SNP</Point>
       <Point>SGSV</Point>
       <Point>SBU</Point>
@@ -297,7 +297,7 @@
       <Point>ROK</Point>
       <Point>RLR</Point>
       <Point>SDP</Point>
-      <Point>SHOAL</Point>
+      <Point>SHOL</Point>
       <Point>SNP</Point>
       <Point>SGSV</Point>
       <Point>SBU</Point>
@@ -322,16 +322,51 @@
       <Point>LORN</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="COASTAL">TON</Point>
-      <Point Name="INLAND">KIM</Point>
+      <Point Name="CITY_LEFT_ORBIT">APL</Point>
+      <Point Name="CITY_RIGHT_ORBIT">SNP</Point>
+      <Point Name="IN_ACADEMY">ACE</Point>
+      <Point Name="IN_BAYWEST">BAW</Point>
+      <Point Name="IN_BRIGHTON">BTO</Point>
+      <Point Name="IN_CARRUM">CARR</Point>
+      <Point Name="IN_GMH">GMH</Point>
+      <Point Name="IN_SHOAL">SHOL</Point>
+      <Point Name="OUT_17R">-380130.000+1450638.000</Point>
     </Label>
-    <!--COASTAL-->
+    <!--CITY_LEFT_ORBIT-->
     <Line Pattern="Dotted">
-      TON/ALTS/ALOA/WMS/SNP/PTOM/BTO/CERB/CARR
+      APL/MCG/-374834.836+1445856.342/-374804.130+1445829.608/-374748.095+1445747.030/-374751.025+1445700.010/-374808.559+1445625.363/BLTB/SNP
     </Line>
-    <!--INLAND-->
+    <!--CITY_RIGHT_ORBIT-->
     <Line Pattern="Dotted">
-      KIM/SGSV
+      SNP/BLTB
+    </Line>
+    <!--IN_ACADEMY-->
+    <Line Pattern="Dotted">
+      ACE/-375612.000+1450826.000
+    </Line>
+    <!--IN_BAYWEST-->
+    <Line Pattern="Dotted">
+      BAW/-375909.000+1450225.000
+    </Line>
+    <!--IN_BRIGHTON-->
+    <Line Pattern="Dotted">
+      BTO/-375654.000+1450259.000
+    </Line>
+    <!--IN_CARRUM-->
+    <Line Pattern="Dotted">
+      CARR/-380249.000+1450507.000/-380124.000+1450509.000
+    </Line>
+    <!--IN_GMH-->
+    <Line Pattern="Dotted">
+      GMH/-375930.000+1450945.000
+    </Line>
+    <!--IN_SHOAL-->
+    <Line Pattern="Dotted">
+      SHOL/-380106.000+1450410.000
+    </Line>
+    <!--OUT_17R-->
+    <Line Pattern="Dotted">
+      -380130.000+1450638.000/-380341.000+1450724.000
     </Line>
   </Map>
   <Map Type="System2" Name="ML_VFR_FULL_NAME" Priority="1" Center="-37.673333+144.843333">
@@ -397,7 +432,7 @@
       <Point Name="ROCKBANK">ROK</Point>
       <Point Name="ROSSLYNNE RESV">RLR</Point>
       <Point Name="SANDY PT">SDP</Point>
-      <Point Name="SHOAL">SHOAL</Point>
+      <Point Name="SHOAL">SHOL</Point>
       <Point Name="STATION PIER">SNP</Point>
       <Point Name="SUGARLOAF RESERVOIR">SGSV</Point>
       <Point Name="SUNBURY">SBU</Point>

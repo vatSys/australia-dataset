@@ -418,13 +418,13 @@
         <Departure Values="YSCB">
           <Rules>
             <Route Values="AVBEG,CULIN">
-              <AssignSector Order="CAE,CAW"/>
+              <AssignSector Order="CBE,CBW"/>
             </Route>
             <Route Values="HOWLY,WG,NONUP,TANTA">
-              <AssignSector Order="CAW,CAE"/>
+              <AssignSector Order="CBW,CBE"/>
             </Route>
             <Default>
-              <AssignSector Order="CAE,CAW"/>
+              <AssignSector Order="CBE,CBW"/>
             </Default>
           </Rules>
         </Departure>

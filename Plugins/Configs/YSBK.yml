@@ -1,0 +1,13 @@
+# Handle only IFR aircraft
+- if:
+    atis_dep_rwy: ["11C"]
+  if_not:
+    VFR: "true"
+  runway: "11C"
+  CFL: "030"
+- if:
+    atis_dep_rwy: ["29C"]
+  if_not:
+    VFR: "true"
+  runway: "29C"
+  CFL: "030"

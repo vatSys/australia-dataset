@@ -48,15 +48,14 @@
   <Sector FullName="Colombo Training" Frequency="124.900" Callsign="VCCF_T_CTR" Name="VCCFT" DisplayInSectorsWindow="False">
     <Volumes>VCCF</Volumes>
   </Sector>
-  <Sector FullName="Cross" Frequency="135.800" Callsign="ML-CRS_CTR" Name="CRS">
-    <Volumes>CRS</Volumes>
+  <Sector FullName="Cross" Frequency="135.800" Callsign="ML-SCR_CTR" Name="SCR">
+    <Volumes>SCR</Volumes>
   </Sector>
   <Sector FullName="Downs" Frequency="135.600" Callsign="BN-DOS_CTR" Name="DOS">
     <Volumes>DOS</Volumes>
   </Sector>
   <Sector FullName="Eildon Weir" Frequency="123.750" Callsign="ML-ELW_CTR" Name="ELW">
     <Volumes>ELW,ELW_ML_TMA_CAP</Volumes>
-    <ResponsibleSectors>MAE</ResponsibleSectors>
   </Sector>
   <Sector FullName="Esperance" Frequency="123.950" Callsign="ML-ESP_CTR" Name="ESP">
     <Volumes>ESP</Volumes>
@@ -89,7 +88,7 @@
   </Sector>
   <Sector FullName="Hyden" Frequency="118.200" Callsign="ML-HYD_CTR" Name="HYD">
     <Volumes>HYD</Volumes>
-    <ResponsibleSectors>JAR,PIY,CRS,GVE,GEL,LEA,PHA</ResponsibleSectors>
+    <ResponsibleSectors>JAR,PIY,SCR,GVE,GEL,LEA,PHA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Inverell" Frequency="134.200" Callsign="BN-INL_CTR" Name="INL">
     <Volumes>INL</Volumes>
@@ -147,7 +146,6 @@
   </Sector>
   <Sector FullName="Manning" Frequency="130.100" Callsign="BN-MNN_CTR" Name="MNN">
     <Volumes>MNN</Volumes>
-    <ResponsibleSectors>MLD</ResponsibleSectors>
   </Sector>
   <Sector FullName="Mauritius" Frequency="129.300" Callsign="FIMM_CTR" Name="FIMM" DisplayInSectorsWindow="False">
     <Volumes>FIMM</Volumes>
@@ -364,7 +362,6 @@
   </Sector>
   <Sector FullName="Brisbane Approach (South)" Frequency="125.600" Callsign="BN-S_APP" Name="BAS">
     <Volumes>BNA</Volumes>
-    <ResponsibleSectors>BAC</ResponsibleSectors>
   </Sector>
   <Sector FullName="Brisbane Departures (North)" Frequency="133.450" Callsign="BN_DEP" Name="BDN">
     <Volumes>BNA</Volumes>
@@ -499,10 +496,10 @@
   <Sector FullName="Vila Tower (TCU)" Frequency="120.700" Callsign="NVVV_APP" Name="NVVVA" DisplayInSectorsWindow="False">
     <Volumes>NVVVA</Volumes>
   </Sector>
-  <Sector FullName="Williamtown Approach (Low)" Frequency="133.300" Callsign="WLM_APP" Name="WAL">
+  <Sector FullName="Williamtown Approach (Low)" Frequency="135.700" Callsign="WLM_APP" Name="WAL">
     <Volumes>WLM_APP</Volumes>
   </Sector>
-  <Sector FullName="Williamtown Approach (High)" Frequency="135.700" Callsign="WLM-H_APP" Name="WAH">
+  <Sector FullName="Williamtown Approach (High)" Frequency="133.300" Callsign="WLM-H_APP" Name="WAH">
     <Volumes>WLM-H_APP</Volumes>
   </Sector>
   <Sector FullName="Adelaide Delivery" Frequency="126.100" Callsign="AD_DEL" Name="AD ACD" DisplayInHandoffWindow="False">
@@ -877,6 +874,5 @@
   <Sector FullName="Sydney Flow" Frequency="123.450" Callsign="SY_FMP" Name="SY FMP" DisplayInHandoffWindow="False">
     <Volumes>SYA</Volumes>
   </Sector>
-
 </Sectors>
 

@@ -99,7 +99,6 @@
       <Point>BIDG</Point>
       <Point>BDGE</Point>
       <Point>BKM</Point>
-      <Point>OBSTM</Point>
       <Point>BEN</Point>
       <Point>URG</Point>
       <Point>BJK</Point>
@@ -129,7 +128,7 @@
       <Point>QBN</Point>
       <Point>SUE</Point>
       <Point>TAGO</Point>
-      <Point>THW</Point>
+      <Point>THAW</Point>
       <Point>TGC</Point>
       <Point>ASST</Point>
     </Symbol>
@@ -137,7 +136,6 @@
       <Point>BIDG</Point>
       <Point>BDGE</Point>
       <Point>BKM</Point>
-      <Point>OBSTM</Point>
       <Point>BEN</Point>
       <Point>URG</Point>
       <Point>BJK</Point>
@@ -167,14 +165,14 @@
       <Point>QBN</Point>
       <Point>SUE</Point>
       <Point>TAGO</Point>
-      <Point>THW</Point>
+      <Point>THAW</Point>
       <Point>TGC</Point>
       <Point>ASST</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="CITY_ONE_ROUTE">BKM</Point>
       <Point Name="CITY_TWO_ROUTE">LGDA</Point>
-      <Point Name="SW_ROUTE">THW</Point>
+      <Point Name="SW_ROUTE">THAW</Point>
     </Label>
     <!--CITY_ONE_ROUTE-->
     <Line Pattern="Dotted">
@@ -186,7 +184,7 @@
     </Line>
     <!--SW_ROUTE-->
     <Line Pattern="Dotted">
-      THW/BIDG/COTR
+      THAW/BDGE/BIDG/COTR
     </Line>
   </Map>
   <Map Type="System2" Name="CB_VFR_FULL_NAME" Priority="1" Center="-35.306944+149.195000">
@@ -194,7 +192,6 @@
       <Point Name="BIDGEE 1 ACT">BIDG</Point>
       <Point Name="BIDGEE 2 ACT">BDGE</Point>
       <Point Name="BLACK MT ACT">BKM</Point>
-      <Point Name="BRUCE STADIUM ACT">OBSTM</Point>
       <Point Name="BUNGENDORE">BEN</Point>
       <Point Name="BURBONG">URG</Point>
       <Point Name="BURRINJUCK">BJK</Point>
@@ -224,7 +221,7 @@
       <Point Name="QUEANBEYAN">QBN</Point>
       <Point Name="SUTTON ROAD OVERPASS">SUE</Point>
       <Point Name="TARAGO">TAGO</Point>
-      <Point Name="THARWA ACT">THW</Point>
+      <Point Name="THARWA ACT">THAW</Point>
       <Point Name="TUGGERANONG TOWN CENTRE ACT">TGC</Point>
       <Point Name="YASS TOWNSHIP">ASST</Point>
     </Label>
