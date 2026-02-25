@@ -322,7 +322,7 @@
         <STAR Name="ITID2W" OpDataFlag="W" ApproachName="RNP-ARW" />
         <STAR Name="ITID2Z" ApproachName="RNPZ" />
         <STAR Name="REBE2Z" ApproachName="RNPZ" />
-        <STAR Name="SEBV1Z" ApproachName="RNPZ" />
+        <STAR Name="SEBV2Z" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="31" DataRunway="31">
         <SID Name="MOOLO2" />
@@ -331,8 +331,8 @@
         <STAR Name="ITID2Z" ApproachName="RNPZ" />
         <STAR Name="REBE2X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="REBE2Z" ApproachName="RNPZ" />
-        <STAR Name="SEBV1X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="SEBV1Z" ApproachName="RNPZ" />
+        <STAR Name="SEBV2X" OpDataFlag="X" ApproachName="RNP-ARX" />
+        <STAR Name="SEBV2Z" ApproachName="RNPZ" />
       </Runway>
     </Airport>
     <Airport Name="YBTL">
@@ -17256,11 +17256,11 @@ SAGLI
       <Route Runway="13">REBEG/PASPO/METUK/UPLOT</Route>
       <Route Runway="31">REBEG/DUKEL/IKISA/DOVMI/OVRUL</Route>
     </STAR>
-    <STAR Name="SEBV1X" Airport="YBSU" Runways="31">
+    <STAR Name="SEBV2X" Airport="YBSU" Runways="31">
       <Route Runway="31">SEBVA/METUK/DUKEL/IKISA</Route>
     </STAR>
-    <STAR Name="SEBV1Z" Airport="YBSU" Runways="13,31">
       <Route Runway="13">SEBVA/OLTUD</Route>
+      <Route Runway="13">SEBVA/AGETI/PORID/OLTUD</Route>
       <Route Runway="31">SEBVA/METUK/DUKEL/IKISA/DOVMI/OVRUL</Route>
     </STAR>
     <STAR Name="IBUX2A" Airport="YBTL" Runways="01">
