@@ -68,6 +68,10 @@
       <Point>ESDIT</Point>
       <Point>IGBER</Point>
       <Point>KANRA</Point>
+      <Point>BT2SC</Point>
+      <Point>ESDIG</Point>
+      <Point>BT2SA</Point>
+      <Point>BT2SF</Point>
       <Point>BAFWE</Point>
       <Point>BAFWD</Point>
       <Point>BAFWG</Point>
@@ -688,9 +692,6 @@
       <Point>BT2NG</Point>
       <Point>BT2NF</Point>
       <Point>BT2NI</Point>
-      <Point>BT2SA</Point>
-      <Point>BT2SC</Point>
-      <Point>BT2SF</Point>
       <Point>BT2SI</Point>
       <Point>BTHNA</Point>
       <Point>BTHNC</Point>
@@ -4527,6 +4528,9 @@
       <Point>AKUVO</Point>
       <Point>DOTLO</Point>
       <Point>ESDIT</Point>
+      <Point>BT2SC</Point>
+      <Point>ESDIG</Point>
+      <Point>BT2SA</Point>
       <Point>BAFWE</Point>
       <Point>BAFWD</Point>
       <Point>BAFWG</Point>
@@ -4880,8 +4884,6 @@
       <Point>BT2ND</Point>
       <Point>BT2NE</Point>
       <Point>BT2NG</Point>
-      <Point>BT2SA</Point>
-      <Point>BT2SC</Point>
       <Point>BTHNA</Point>
       <Point>BTHNC</Point>
       <Point>BTHND</Point>
@@ -6549,8 +6551,9 @@
     <Line>BT2NG/BT2NI</Line>
     <Line>BT2NI/BT2NF</Line>
     <Line>-373024.880+1434741.760/BT2NF</Line>
-    <Line>BT2SA/BT2SI</Line>
     <Line>BT2SC/BT2SI</Line>
+    <Line>ESDIG/BT2SI</Line>
+    <Line>BT2SA/BT2SI</Line>
     <Line>BT2SI/BT2SF</Line>
     <Line>-373122.450+1434730.600/BT2SF</Line>
     <Line>BTHNA/BTHNI</Line>
@@ -9261,7 +9264,6 @@
     <Line>HAIGH/PH2NF/-315542.940+1155806.470</Line>
     <Line>KOORI/HAIGH</Line>
     <Line>WOOFY/PH2ND/HAIGH</Line>
-    <Line>KOORI/PH2EF/-315551.270+1155843.650</Line>
     <Line>SPUDO/KOORI/PH2EF/-315551.270+1155843.650</Line>
     <Line>PTNNI/PTNNF/-143028.910+1322154.530</Line>
     <Line>PTNND/PTNNI</Line>
