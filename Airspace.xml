@@ -720,16 +720,16 @@
     </Airport>
     <Airport Name="YPDN">
       <Runway Name="11" DataRunway="11">
-        <SID Name="DN7" Default="True" />
-        <SID Name="HELLI5" Type="Jet" />
-        <SID Name="JULIE5" Type="Jet" />
-        <SID Name="LAKUP5" Type="NonJet" />
+        <SID Name="DN8" Default="True" />
+        <SID Name="HELLI6" Type="Jet" />
+        <SID Name="JULIE6" Type="Jet" />
+        <SID Name="LAKUP6" Type="NonJet" />
         <SID Name="LIZAD3" />
-        <SID Name="OCTOB8" Type="Jet" />
+        <SID Name="OCTOB9" Type="Jet" />
         <SID Name="OLTAS1" Type="NonJet" />
-        <SID Name="RUPEG2" Type="Jet" />
-        <SID Name="RUSKA6" Type="NonJet" />
-        <SID Name="VANDI8" Type="NonJet" />
+        <SID Name="RUPEG3" Type="Jet" />
+        <SID Name="RUSKA7" Type="NonJet" />
+        <SID Name="VANDI9" Type="NonJet" />
         <STAR Name="ANUP2A" ApproachName="RNP-ARX" />
         <STAR Name="ANUP2X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="DISCO3" />
@@ -743,17 +743,17 @@
         <STAR Name="WANG5X" OpDataFlag="X" ApproachName="RNP-ARX" />
       </Runway>
       <Runway Name="18" DataRunway="18">
-        <SID Name="DN7" Default="True" />
+        <SID Name="DN8" Default="True" />
       </Runway>
       <Runway Name="29" DataRunway="29">
-        <SID Name="DN7" Default="True" />
-        <SID Name="HELLI5" Type="Jet" />
-        <SID Name="JULIE5" Type="Jet" />
-        <SID Name="LAKUP5" Type="NonJet" />
-        <SID Name="OCTOB8" Type="Jet" />
+        <SID Name="DN8" Default="True" />
+        <SID Name="HELLI6" Type="Jet" />
+        <SID Name="JULIE6" Type="Jet" />
+        <SID Name="LAKUP6" Type="NonJet" />
+        <SID Name="OCTOB9" Type="Jet" />
         <SID Name="OLTAS1" Type="NonJet" />
-        <SID Name="RUPEG2" Type="Jet" />
-        <SID Name="RUSKA6" Type="NonJet" />
+        <SID Name="RUPEG3" Type="Jet" />
+        <SID Name="RUSKA7" Type="NonJet" />
         <SID Name="TURTL2" />
         <SID Name="VANDI8" Type="NonJet" />
         <STAR Name="ANUP2A" ApproachName="LOC" />
@@ -768,7 +768,7 @@
         <STAR Name="WANG5X" OpDataFlag="X" ApproachName="RNP-ARX" />
       </Runway>
       <Runway Name="36" DataRunway="36">
-        <SID Name="DN7" Default="True" />
+        <SID Name="DN8" Default="True" />
       </Runway>
     </Airport>
     <Airport Name="YPEA">
@@ -16494,21 +16494,21 @@ SAGLI
       <Route Runway="05">-345626.230+1383235.750/MOPRI/VIRAT/UPROT</Route>
       <Route Runway="23">-345727.540+1383106.500/COLPY/LEMAT/MORPH/CLARY/URADA/UPROT</Route>
     </SID>
-    <SID Name="DN7" Airport="YPDN" Runways="11,18,29,36">
+    <SID Name="DN8" Airport="YPDN" Runways="11,18,29,36">
       <Route Runway="11" />
       <Route Runway="18" />
       <Route Runway="29" />
       <Route Runway="36" />
     </SID>
-    <SID Name="HELLI5" Airport="YPDN" Runways="11,29">
+    <SID Name="HELLI6" Airport="YPDN" Runways="11,29">
       <Route Runway="11">-122509.220+1305339.990/LAPAR/KAMSO/OLSAN/UTTOX/BARNY/HELLI</Route>
       <Route Runway="29">-122433.850+1305154.940/NASUX/BARNY/HELLI</Route>
     </SID>
-    <SID Name="JULIE5" Airport="YPDN" Runways="11,29">
+    <SID Name="JULIE6" Airport="YPDN" Runways="11,29">
       <Route Runway="11">-122509.220+1305339.990/LAPAR/MENOB/TURGO/WUDOF/ARUPU/SADAR/JULIE</Route>
       <Route Runway="29">-122433.850+1305154.940/NASUX/SADAR/JULIE</Route>
     </SID>
-    <SID Name="LAKUP5" Airport="YPDN" Runways="11,29">
+    <SID Name="LAKUP6" Airport="YPDN" Runways="11,29">
       <Route Runway="11">-122509.220+1305339.990/DN VOR/ONALI/OTGAX/LAKUP</Route>
       <Route Runway="29">-122433.850+1305154.940/-122350.344+1304945.880/BELUN/MIGIP/OMUNI/LAKUP</Route>
     </SID>
@@ -16518,7 +16518,7 @@ SAGLI
       <Transition Name="FISHO">-122318.000+1310418.000/-121712.000+1305542.000</Transition>
       <Transition Name="GATE1">-124654.000+1310730.000</Transition>
     </SID>
-    <SID Name="OCTOB8" Airport="YPDN" Runways="11,29">
+    <SID Name="OCTOB9" Airport="YPDN" Runways="11,29">
       <Route Runway="11">-122509.220+1305339.990/LAPAR/MENOB/TURGO/WUDOF/VATPO/OCTOB</Route>
       <Route Runway="29">-122433.850+1305154.940/NASUX/RIPMI/VATPO/OCTOB</Route>
     </SID>
@@ -16526,11 +16526,11 @@ SAGLI
       <Route Runway="11">-122509.220+1305339.990/DN VOR/UPROX/PEBBL/UBDIG/OLTAS</Route>
       <Route Runway="29">-122433.850+1305154.940/-122350.344+1304945.880/BELUN/OLTAS</Route>
     </SID>
-    <SID Name="RUPEG2" Airport="YPDN" Runways="11,29">
+    <SID Name="RUPEG3" Airport="YPDN" Runways="11,29">
       <Route Runway="11">-122509.220+1305339.990/LAPAR/SNICK/RUPEG</Route>
       <Route Runway="29">-122433.850+1305154.940/NASUX/UBGUX/LEMUX/BAXIB/AKNUD/SNICK/RUPEG</Route>
     </SID>
-    <SID Name="RUSKA6" Airport="YPDN" Runways="11,29">
+    <SID Name="RUSKA7" Airport="YPDN" Runways="11,29">
       <Route Runway="11">-122509.220+1305339.990/DN VOR/ONALI/PAGSO/VABLI/RUSKA</Route>
       <Route Runway="29">-122433.850+1305154.940/-122350.344+1304945.880/BELUN/MIGIP/LEGUL/OTGAX/TEGIT/ITTSA/VABLI/RUSKA</Route>
     </SID>
@@ -16541,8 +16541,10 @@ SAGLI
       <Transition Name="GATE10">-121712.000+1303012.000</Transition>
       <Transition Name="GATE9">-122548.000+1302848.000</Transition>
     </SID>
-    <SID Name="VANDI8" Airport="YPDN" Runways="11,29">
+    <SID Name="VANDI9" Airport="YPDN" Runways="11">
       <Route Runway="11">-122509.220+1305339.990/DN VOR/PAMGA/BAXIB/VANDI</Route>
+    </SID>
+    <SID Name="VANDI8" Airport="YPDN" Runways="29">
       <Route Runway="29">-122433.850+1305154.940/-122350.344+1304945.880/BELUN/MIGIP/LEGUL/OTGAX/TEGIT/MUDMI/BOPNI/AGIGA/VANDI</Route>
     </SID>
     <SID Name="ALKIM7" Airport="YPEA" Runways="05,18L,23,36R">
