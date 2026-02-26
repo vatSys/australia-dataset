@@ -24,9 +24,12 @@
       GUNOK
     </Line>
     <Line>
-      <!--Rwy05 PEA6-->
+      <!--Rwy05 PEA6A-->
       -313941.350+1160116.470/
       -313846.000+1160220.000
+    </Line>
+    <Line>
+      <!--Rwy05 PEA6T-->
     </Line>
     <Line>
       <!--Rwy05 WAMAL6-->
@@ -49,7 +52,8 @@
     </Line>
     <Line>
       <!--Rwy05 PEA4G-->
-      GOSNL
+      GOSNL/
+      PH VOR
     </Line>
     <Line>
       <!--Rwy05 PEA4R.KABLI-->
@@ -82,6 +86,9 @@
       WUNGO/
       HARMN
     </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>SAMLA</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>GUNOK</Point>
       <Point>GOSNL</Point>
@@ -108,6 +115,7 @@
       <Point>GOSNL</Point>
       <Point>LAVEX</Point>
       <Point>BOOKA</Point>
+      <Point>PH VOR</Point>
       <Point>RONAN</Point>
       <Point>VEPAN</Point>
       <Point>ROLOB</Point>
@@ -117,6 +125,7 @@
       <Point>DAYLR</Point>
       <Point>WUNGO</Point>
       <Point>HARMN</Point>
+      <Point>SAMLA</Point>
     </Label>
   </Map>
 </Maps>

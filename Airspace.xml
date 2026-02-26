@@ -775,7 +775,8 @@
       <Runway Name="05" DataRunway="05">
         <SID Name="ALKIM7" />
         <SID Name="GUNOK2" />
-        <SID Name="PEA6" />
+        <SID Name="PEA6A" />
+        <SID Name="PEA6T" />
         <SID Name="WAMAL6" />
         <STAR Name="PEA4G" OpDataFlag="G" />
         <STAR Name="PEA4R" OpDataFlag="R" />
@@ -785,8 +786,8 @@
         <SID Name="ALKIM7" />
         <SID Name="GUNOK2" />
         <SID Name="MULALOO8" />
-        <SID Name="PEA6E" />
-        <SID Name="PEA6W" />
+        <SID Name="PEA6A" />
+        <SID Name="PEA6T" />
         <SID Name="WAMAL6" />
         <STAR Name="PEA4G" OpDataFlag="G" />
         <STAR Name="PEA4R" OpDataFlag="R" />
@@ -800,7 +801,8 @@
       <Runway Name="23" DataRunway="23">
         <SID Name="ALKIM7" />
         <SID Name="MULALOO8" />
-        <SID Name="PEA6" />
+        <SID Name="PEA6A" />
+        <SID Name="PEA6T" />
         <SID Name="WAMAL6" />
         <STAR Name="PEA4G" OpDataFlag="G" />
         <STAR Name="PEA4R" OpDataFlag="R" />
@@ -815,7 +817,8 @@
         <SID Name="ALKIM7" />
         <SID Name="GUNOK2" />
         <SID Name="MULALOO8" />
-        <SID Name="PEA6" />
+        <SID Name="PEA6A" />
+        <SID Name="PEA6T" />
         <SID Name="WAMAL6" />
         <STAR Name="PEA4G" OpDataFlag="G" />
         <STAR Name="PEA4R" OpDataFlag="R" />
@@ -846,7 +849,7 @@
       <Runway Name="06L" DataRunway="06L">
         <SID Name="ISPET1" />
         <SID Name="SCARP5" />
-        <SID Name="TONEG5" />
+        <SID Name="TONEG6" />
         <STAR Name="JT3G" OpDataFlag="G" />
         <STAR Name="JT3R" OpDataFlag="R" />
         <STAR Name="JT3W" OpDataFlag="W" />
@@ -16563,16 +16566,25 @@ SAGLI
       <Route Runway="23">-314020.350+1160031.290/-314228.184+1155802.566/-314232.000+1155737.000/-314207.000+1155606.000/-314749.000+1153909.000</Route>
       <Route Runway="36R">-313927.360+1160047.100/-313728.165+1160031.646/-313719.000+1160003.000/-313717.000+1155933.000/-313722.000+1155904.000/-313737.000+1155844.000/-314157.000+1155635.000/-314207.000+1155606.000/-314749.000+1153909.000</Route>
     </SID>
-    <SID Name="PEA6" Airport="YPEA" Runways="05,23,36R">
+    <SID Name="PEA6A" Airport="YPEA" Runways="05,23,36R">
       <Route Runway="05">-313941.350+1160116.470/-313846.000+1160220.000</Route>
       <Route Runway="23">-314020.350+1160031.290/-314228.625+1155803.091</Route>
       <Route Runway="36R">-313927.360+1160047.100/-313728.165+1160031.646</Route>
     </SID>
-    <SID Name="PEA6E" Airport="YPEA" Runways="18L">
+    <SID Name="PEA6A" Airport="YPEA" Runways="18L">
       <Route Runway="18L">-314103.300+1160059.870/-314103.300+1160059.870</Route>
+      <Transition Name="E">-314109.247+1160100.765</Transition>
+      <Transition Name="W">-314109.270+1160100.521</Transition>
     </SID>
-    <SID Name="PEA6W" Airport="YPEA" Runways="18L">
+    <SID Name="PEA6T" Airport="YPEA" Runways="05,23,36R">
+      <Route Runway="05">-313941.350+1160116.470/-313846.000+1160220.000</Route>
+      <Route Runway="23">-314020.350+1160031.290/-314228.625+1155803.091</Route>
+      <Route Runway="36R">-313927.360+1160047.100/-313728.165+1160031.646</Route>
+    </SID>
+    <SID Name="PEA6T" Airport="YPEA" Runways="18L">
       <Route Runway="18L">-314103.300+1160059.870/-314103.300+1160059.870</Route>
+      <Transition Name="E">-314109.247+1160100.765</Transition>
+      <Transition Name="W">-314109.270+1160100.521</Transition>
     </SID>
     <SID Name="WAMAL6" Airport="YPEA" Runways="05,18L,23,36R">
       <Route Runway="05">-313941.350+1160116.470/-313816.101+1160255.545/-313804.000+1160250.000/-313552.000+1160030.000/-312530.000+1155918.000</Route>
@@ -16600,8 +16612,10 @@ SAGLI
       <Route Runway="24R">-320559.920+1155228.540/-320601.752+1155224.444/-320657.852+1155101.080/-320715.600+1155054.239/-320733.816+1155058.919/-320747.676+1155113.680/-320753.435+1155134.560/-320706.203+1155556.279/SCARP</Route>
       <Route Runway="30">-320559.810+1155220.950/-320559.770+1155220.878/-320526.484+1155042.000/-320530.371+1155020.399/-320542.828+1155004.200/-320600.576+1154957.359/-320618.792+1155002.039/-320632.652+1155016.799/SCARP</Route>
     </SID>
-    <SID Name="TONEG5" Airport="YPJT" Runways="06L,12,24R,30">
+    <SID Name="TONEG6" Airport="YPJT" Runways="06L">
       <Route Runway="06L">-320538.610+1155303.530/-320535.183+1155308.907/-320439.108+1155432.400/-320421.360+1155439.239/-320403.144+1155434.559/-320349.284+1155419.800/-320343.523+1155358.919/-320347.411+1155337.319/TONEG</Route>
+    </SID>
+    <SID Name="TONEG5" Airport="YPJT" Runways="12,24R,30">
       <Route Runway="12">-320620.090+1155313.280/-320613.095+1155255.245/-320650.436+1155432.400/-320706.240+1155443.919/-320724.852+1155444.640/-320741.304+1155434.199/-320751.167+1155415.839/-320731.691+1155043.439/TONEG</Route>
       <Route Runway="24R">-320559.920+1155228.540/-320601.752+1155224.444/-320648.707+1155111.159/-320731.691+1155043.439/TONEG</Route>
       <Route Runway="30">-320559.810+1155220.950/-320559.770+1155220.878/-320526.484+1155042.000/-320530.371+1155020.399/-320542.828+1155004.200/-320600.576+1154957.359/-320731.691+1155043.439/TONEG</Route>
