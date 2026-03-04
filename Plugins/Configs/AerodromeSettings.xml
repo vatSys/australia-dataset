@@ -8,8 +8,6 @@
         <ConcernedSector>
             <Aerodromes>
                 <Aerodrome>YPAD</Aerodrome>
-                <Aerodrome>YPPF</Aerodrome>
-                <Aerodrome>YPED</Aerodrome>
             </Aerodromes>
             <Positions>
                 <Position>AAE</Position>
@@ -19,11 +17,28 @@
 
         <ConcernedSector>
             <Aerodromes>
+                <Aerodrome>YPPF</Aerodrome>
+                <Aerodrome>YPED</Aerodrome>
+            </Aerodromes>
+            <Positions>
+                <Position>AAR</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
                 <Aerodrome>YAMB</Aerodrome>
-                <Aerodrome>YBOK</Aerodrome>
             </Aerodromes>
             <Positions>
                 <Position>AMA</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YBOK</Aerodrome>
+            </Aerodromes>
+            <Positions>
                 <Position>OKA</Position>
             </Positions>
         </ConcernedSector>
@@ -31,7 +46,6 @@
         <ConcernedSector>
             <Aerodromes>
                 <Aerodrome>YBBN</Aerodrome>
-                <Aerodrome>YBAF</Aerodrome>
             </Aerodromes>
             <Positions>
                 <Position>BAN</Position>
@@ -47,6 +61,15 @@
             </Aerodromes>
             <Positions>
                 <Position>BAC</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YBAF</Aerodrome>
+            </Aerodromes>
+            <Positions>
+                <Position>SHN</Position>
             </Positions>
         </ConcernedSector>
 
@@ -102,11 +125,18 @@
         <ConcernedSector>
             <Aerodromes>
                 <Aerodrome>YMHB</Aerodrome>
-                <Aerodrome>YMLT</Aerodrome>
                 <Aerodrome>YCBG</Aerodrome>
             </Aerodromes>
             <Positions>
                 <Position>HBA</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YMLT</Aerodrome>
+            </Aerodromes>
+            <Positions>
                 <Position>LTA</Position>
             </Positions>
         </ConcernedSector>
@@ -123,10 +153,17 @@
         <ConcernedSector>
             <Aerodromes>
                 <Aerodrome>YBMK</Aerodrome>
-                <Aerodrome>YBRK</Aerodrome>
             </Aerodromes>
             <Positions>
                 <Position>MKA</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YBRK</Aerodrome>
+            </Aerodromes>
+            <Positions>
                 <Position>RKA</Position>
             </Positions>
         </ConcernedSector>
@@ -134,15 +171,30 @@
         <ConcernedSector>
             <Aerodromes>
                 <Aerodrome>YMML</Aerodrome>
-                <Aerodrome>YMEN</Aerodrome>
-                <Aerodrome>YMMB</Aerodrome>
-                <Aerodrome>YMAV</Aerodrome>
             </Aerodromes>
             <Positions>
                 <Position>MAE</Position>
                 <Position>MDN</Position>
                 <Position>MDS</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YMAV</Aerodrome>
+            </Aerodromes>
+            <Positions>
                 <Position>MAV</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YMEN</Aerodrome>
+                <Aerodrome>YMMB</Aerodrome>
+            </Aerodromes>
+            <Positions>
+                <Position>MAW</Position>
             </Positions>
         </ConcernedSector>
 
@@ -158,13 +210,28 @@
         <ConcernedSector>
             <Aerodromes>
                 <Aerodrome>YPPH</Aerodrome>
-                <Aerodrome>YPJT</Aerodrome>
-                <Aerodrome>YPEA</Aerodrome>
-                <Aerodrome>YGIG</Aerodrome>
             </Aerodromes>
             <Positions>
                 <Position>PHA</Position>
                 <Position>PHD</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YPJT</Aerodrome>
+            </Aerodromes>
+            <Positions>
+                <Position>PHR</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YPEA</Aerodrome>
+                <Aerodrome>YGIG</Aerodrome>
+            </Aerodromes>
+            <Positions>
                 <Position>PEA</Position>
             </Positions>
         </ConcernedSector>
@@ -226,6 +293,7 @@
         </ConcernedSector>
 
         <!-- Procedural Towers under ENR positions -->
+        <!---
         <ConcernedSector>
             <Aerodromes>
                 <Aerodrome>YMAY</Aerodrome>
@@ -307,6 +375,7 @@
                 <Position>WRA</Position>
             </Positions>
         </ConcernedSector>
+        -->
 
         <!-- Aerodrome positions with multiple aerodromes under their jurisdiction -->
         <ConcernedSector>
@@ -811,7 +880,6 @@
         <AutoMapAerodrome FullName="Rockhampton" ICAO="YBRK">04/22, 15/33</AutoMapAerodrome>
         <AutoMapAerodrome FullName="Perth" ICAO="YPJT">06L/24R, 06R/24L, 12/30</AutoMapAerodrome>
         <AutoMapAerodrome FullName="Tamworth" ICAO="YSTW">06/24, 18/36, 12L/30R, 12R/30L</AutoMapAerodrome>
-        <AutoMapAerodrome FullName="Canberra" ICAO="YSCB">12/30, 17/35</AutoMapAerodrome>
     </AutoMapAerodromes>
 
 
