@@ -51,24 +51,7 @@
       BN VOR
     </Line>
     <Line>
-      <!--Rwy15 BYRON1-->
-      -273850.390+1524259.300/
-      COWIE/
-      KIWEE/
-      ZANET/
-      LOTMA/
-      SEMAJ
-    </Line>
-    <Line>
-      <!--Rwy15 CENTR5-->
-      -273850.390+1524259.300/
-      BINUP/
-      MURJO/
-      BOBED/
-      VIRGE
-    </Line>
-    <Line>
-      <!--Rwy15 JEDA5A-->
+      <!--Rwy15 MESE5A-->
       -274351.880+1524508.760/
       -274502.252+1524516.965/
       -274606.856+1524444.197/
@@ -76,42 +59,15 @@
       -274655.470+1524219.675/
       -274626.444+1524106.671/
       -274606.211+1524044.087/
-      RUDEY/
-      JEDDA
-    </Line>
-    <Line>
-      <!--Rwy15 JEDA5T-->
-      -274606.211+1524044.087/
-      -274519.580+1524018.040/
-      -273245.380+1523339.990/
-      JEDDA
-    </Line>
-    <Line>
-      <!--Rwy15 MESE5A-->
-      -274606.211+1524044.087/
       IMATI/
       MESED
     </Line>
     <Line>
       <!--Rwy15 MESE5T-->
+      -274606.211+1524044.087/
       -274519.580+1524018.040/
       -273340.410+1523021.670/
       MESED
-    </Line>
-    <Line>
-      <!--Rwy15 NORTH5-->
-      BOBED/
-      LESKO
-    </Line>
-    <Line>
-      <!--Rwy15 NORTH5.ADNUK-->
-      LESKO/
-      ADNUK
-    </Line>
-    <Line>
-      <!--Rwy15 NORTH5.MOSSI-->
-      LESKO/
-      MOSSI
     </Line>
     <Line>
       <!--Rwy15 TATE2A-->
@@ -196,7 +152,8 @@
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>BIGIX</Point>
-      <Point>OREBI</Point>
+      <Point>SOOTY</Point>
+      <Point>SHNAB</Point>
     </Symbol>
     <Symbol Type="Circle">
       <Point>BN VOR</Point>
@@ -204,29 +161,23 @@
     <Symbol Type="HollowStar">
       <Point>DEBEE</Point>
       <Point>BOBOP</Point>
-      <Point>COWIE</Point>
-      <Point>KIWEE</Point>
-      <Point>ZANET</Point>
-      <Point>LOTMA</Point>
-      <Point>SEMAJ</Point>
-      <Point>BINUP</Point>
-      <Point>MURJO</Point>
-      <Point>BOBED</Point>
-      <Point>VIRGE</Point>
-      <Point>RUDEY</Point>
-      <Point>JEDDA</Point>
       <Point>IMATI</Point>
       <Point>MESED</Point>
-      <Point>LESKO</Point>
-      <Point>ADNUK</Point>
-      <Point>MOSSI</Point>
       <Point>PAMRI</Point>
       <Point>TATEN</Point>
+      <Point>SEMAJ</Point>
+      <Point>LOTMA</Point>
+      <Point>ZANET</Point>
       <Point>LAGOB</Point>
       <Point>TUGUN</Point>
       <Point>AMB TAC</Point>
+      <Point>VIRGE</Point>
+      <Point>BOBED</Point>
       <Point>JEZZA</Point>
       <Point>ANKED</Point>
+      <Point>LESKO</Point>
+      <Point>ADNUK</Point>
+      <Point>MOSSI</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="AMB_RWY15_NAMES" Priority="2" Center="-27.640556+152.711944">
@@ -234,31 +185,26 @@
       <Point>DEBEE</Point>
       <Point>BOBOP</Point>
       <Point>BN VOR</Point>
-      <Point>COWIE</Point>
-      <Point>KIWEE</Point>
-      <Point>ZANET</Point>
-      <Point>LOTMA</Point>
-      <Point>SEMAJ</Point>
-      <Point>BINUP</Point>
-      <Point>MURJO</Point>
-      <Point>BOBED</Point>
-      <Point>VIRGE</Point>
-      <Point>RUDEY</Point>
-      <Point>JEDDA</Point>
       <Point>IMATI</Point>
       <Point>MESED</Point>
-      <Point>LESKO</Point>
-      <Point>ADNUK</Point>
-      <Point>MOSSI</Point>
       <Point>PAMRI</Point>
       <Point>TATEN</Point>
+      <Point>SEMAJ</Point>
+      <Point>LOTMA</Point>
+      <Point>ZANET</Point>
       <Point>LAGOB</Point>
       <Point>TUGUN</Point>
       <Point>AMB TAC</Point>
       <Point>BIGIX</Point>
+      <Point>VIRGE</Point>
+      <Point>BOBED</Point>
       <Point>JEZZA</Point>
       <Point>ANKED</Point>
+      <Point>ADNUK</Point>
+      <Point>LESKO</Point>
+      <Point>MOSSI</Point>
       <Point>UNVAT</Point>
+      <Point>JEDDA</Point>
       <Point>GOMOL</Point>
       <Point>BNA NDB</Point>
       <Point>CFS VOR</Point>
@@ -279,7 +225,8 @@
       <Point>HUUGO</Point>
       <Point>ROM NDB</Point>
       <Point>AGIVA</Point>
-      <Point>OREBI</Point>
+      <Point>SOOTY</Point>
+      <Point>SHNAB</Point>
     </Label>
   </Map>
 </Maps>
