@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System2" Name="MIL_GATES" Priority="1" Center="-31.940278+115.966944" CustomColourName="Mil1">
+        <!-- Amberley -->
+        <Symbol Type="SolidTriangle">
+          <Point>-27.690250+151.910808</Point> <!-- WHITL -->
+          <Point>-27.874275+151.951772</Point> <!-- BEACH -->
+          <Point>-27.988953+152.008506</Point> <!-- WATTO -->
+        </Symbol>
+        <Label HasLeader="True" LabelOrientation="NE">
+          <Point Name="WHITL">-27.690250+151.910808</Point>
+          <Point Name="BEACH">-27.874275+151.951772</Point>
+          <Point Name="WATTO">-27.988953+152.008506</Point>
+        </Label>
+        <!-- Curtin -->
+        <Symbol Type="SolidTriangle">
+          <Point>-170935.30+1235030.40</Point>
+          <Point>-171318.10+1240327.60</Point>
+          <Point>-172244.10+1241245.70</Point>
+          <Point>-173522.20+1241555.00</Point>
+          <Point>-174749.60+1241203.70</Point>
+          <Point>-175645.60+1240212.60</Point>
+          <Point>-175946.00+1234900.20</Point>
+          <Point>-175602.30+1233600.00</Point>
+          <Point>-174634.60+1232642.10</Point>
+          <Point>-173355.70+1232336.00</Point>
+          <Point>-172129.30+1232730.30</Point>
+          <Point>-171235.00+1233721.20</Point>
+        </Symbol>
+        <Label HasLeader="True" LabelOrientation="NE">
+          <Point Name="1">-170935.30+1235030.40</Point>
+          <Point Name="2">-171318.10+1240327.60</Point>
+          <Point Name="3">-172244.10+1241245.70</Point>
+          <Point Name="4">-173522.20+1241555.00</Point>
+          <Point Name="5">-174749.60+1241203.70</Point>
+          <Point Name="6">-175645.60+1240212.60</Point>
+          <Point Name="7">-175946.00+1234900.20</Point>
+          <Point Name="8">-175602.30+1233600.00</Point>
+          <Point Name="9">-174634.60+1232642.10</Point>
+          <Point Name="10">-173355.70+1232336.00</Point>
+          <Point Name="11">-172129.30+1232730.30</Point>
+          <Point Name="12">-171235.00+1233721.20</Point>
+        </Label>
+        <!-- Darwin -->
+        <Symbol Type="SolidTriangle">
+          <Point>-1246.900+13107.500</Point>
+          <Point>-1250.000+13059.200</Point>
+          <Point>-1250.400+13052.600</Point>
+          <Point>-1249.300+13046.500</Point>
+          <Point>-1247.300+13042.000</Point>
+          <Point>-1244.300+13037.600</Point>
+          <Point>-1240.100+13033.700</Point>
+          <Point>-1232.300+13029.800</Point>
+          <Point>-1225.800+13028.800</Point>
+          <Point>-1217.200+13030.200</Point>
+          <Point>-1200.300+13055.300</Point>
+          <Point>-1202.400+13104.700</Point>
+          <Point>-1205.300+13109.700</Point>
+          <Point>-1212.400+13116.300</Point>
+          <Point>-1218.000+13118.800</Point>
+          <Point>-1149.000+13112.000</Point> <!-- WIZZOS -->
+          <Point>-1153.000+13119.000</Point> <!-- MONNIES -->
+          <Point>-1205.000+13130.000</Point> <!-- SHAGS -->
+        </Symbol>
+        <Label HasLeader="True" LabelOrientation="NE">
+          <Point Name="1">-1246.900+13107.500</Point>
+          <Point Name="2">-1250.000+13059.200</Point>
+          <Point Name="3">-1250.400+13052.600</Point>
+          <Point Name="4">-1249.300+13046.500</Point>
+          <Point Name="5">-1247.300+13042.000</Point>
+          <Point Name="6">-1244.300+13037.600</Point>
+          <Point Name="7">-1240.100+13033.700</Point>
+          <Point Name="8">-1232.300+13029.800</Point>
+          <Point Name="9">-1225.800+13028.800</Point>
+          <Point Name="10">-1217.200+13030.200</Point>
+          <Point Name="A">-1200.300+13055.300</Point>
+          <Point Name="B">-1202.400+13104.700</Point>
+          <Point Name="C">-1205.300+13109.700</Point>
+          <Point Name="D">-1212.400+13116.300</Point>
+          <Point Name="E">-1218.000+13118.800</Point>
+          <Point Name="WIZZOS">-1149.000+13112.000</Point>
+          <Point Name="MONNIES">-1153.000+13119.000</Point>
+          <Point Name="SHAGS">-1205.000+13130.000</Point>
+        </Label>
+        <!-- East Sale -->
+        <!--Northern Lane -->
+        <Line Pattern="Solid">
+            LEKEM/GONEB/LANOS
+        </Line>
+        <Label HasLeader="True" LabelOrientation="N">
+          <Point Name="NORTHERN OUT">LANOS</Point>
+        </Label>
+        <Symbol Type="HollowTriangle">
+          <Point>LEKEM</Point>
+          <Point>GONEB</Point>
+          <Point>LANOS</Point>
+        </Symbol>
+        <!-- Eastern Lane -->
+        <Line Pattern="Solid">
+            VEMDA/KADRU/TAVET
+        </Line>
+        <Label HasLeader="True" LabelOrientation="E">
+          <Point Name="EASTERN OUT">TAVET</Point>
+        </Label>
+        <Symbol Type="HollowTriangle">
+          <Point>VEMDA</Point>
+          <Point>KADRU</Point>
+          <Point>TAVET</Point>
+        </Symbol>
+        <!-- Southern Lane -->
+        <Line Pattern="Solid">
+            SABAX/LUTUK/NOLOX
+        </Line>
+        <Label HasLeader="True" LabelOrientation="S">
+          <Point Name="SOUTHERN OUT">NOLOX</Point>
+        </Label>
+        <Symbol Type="HollowTriangle">
+          <Point>SABAX</Point>
+          <Point>LUTUK</Point>
+          <Point>NOLOX</Point>
+        </Symbol>
+        <!-- Western Lane -->
+        <Line Pattern="Solid">
+            DUGAD/LERKO/DUNNE
+        </Line>
+        <Label HasLeader="True" LabelOrientation="W">
+          <Point Name="SOUTHERN OUT">DUNNE</Point>
+        </Label>
+        <Symbol Type="HollowTriangle">
+          <Point>DUGAD</Point>
+          <Point>LERKO</Point>
+          <Point>DUNNE</Point>
+        </Symbol>
+        <!-- Lakes Lane -->
+        <Line Pattern="Solid">
+            OMBOR/TODIV/GIPPS
+        </Line>
+        <Label HasLeader="True" LabelOrientation="NE">
+          <Point Name="LAKES IN">GIPPS</Point>
+        </Label>
+        <Symbol Type="HollowTriangle">
+          <Point>OMBOR</Point>
+          <Point>TODIV</Point>
+          <Point>GIPPS</Point>
+        </Symbol>
+        <!-- Bass Lane -->
+        <Line Pattern="Solid">
+            KIGAG/REMOT/PUKIM
+        </Line>
+        <Label HasLeader="True" LabelOrientation="SE">
+          <Point Name="BASS IN">PUKIM</Point>
+        </Label>
+        <Symbol Type="HollowTriangle">
+          <Point>KIGAG</Point>
+          <Point>REMOT</Point>
+          <Point>PUKIM</Point>
+        </Symbol>
+        <!-- Strezlecki Lane -->
+        <Line Pattern="Solid">
+            TEBUM/PARNU/RUPOD
+        </Line>
+        <Label HasLeader="True" LabelOrientation="SW">
+          <Point Name="STREZLECKI IN">RUPOD</Point>
+        </Label>
+        <Symbol Type="HollowTriangle">
+          <Point>TEBUM</Point>
+          <Point>PARNU</Point>
+          <Point>RUPOD</Point>
+        </Symbol>
+        <!-- Avon Lane -->
+        <Line Pattern="Solid">
+            AKVIN/UPSAL/ENBUD
+        </Line>
+        <Label HasLeader="True" LabelOrientation="NW">
+          <Point Name="AVON IN">ENBUD</Point>
+        </Label>
+        <Symbol Type="HollowTriangle">
+          <Point>AKVIN</Point>
+          <Point>UPSAL</Point>
+          <Point>ENBUD</Point>
+        </Symbol>
+        <!-- Pearce -->
+        <!-- Wannamal Lane Right-->
+        <Label HasLeader="True" LabelOrientation="N">
+          <Point Name="WANNAMAL">-305539.000+1155723.000</Point>
+        </Label>
+        <Line Pattern="Solid">
+        PEA358005/
+        PEA358015/
+        PEA358030/
+        PEA358045
+        </Line>
+        <!--Wannamal Lane Left-->
+        <Line Pattern="Solid">
+        PEA354005/
+        PEA354015/
+        PEA354030/
+        PEA354045
+        </Line>
+        <!--Alkimos Lane 306 TAC-->
+        <Label HasLeader="True" LabelOrientation="NW">
+          <Point Name="ALKIMOS">-311506.000+1151710.000</Point>
+        </Label>
+        <Line Pattern="Solid">
+        PEA306005/
+        PEA306015/
+        PEA306030/
+        PEA306045
+        </Line>
+        <!--Alkimos Lane 302 TAC-->
+        <Line Pattern="Solid">
+        PEA302005/
+        PEA302015/
+        PEA302030/
+        PEA302045
+        </Line>
+         <!--Mullaloo Lane 248 TAC-->
+        <Label HasLeader="True" LabelOrientation="SW">
+          <Point Name="MULLALOO">-315945.000+1152008.000</Point>
+        </Label>
+        <Line Pattern="Solid">
+        PEA248012/
+        PEA248020/
+        PEA248030/
+        PEA248040
+        </Line>
+         <!--Mullaloo Lane 233 TAC-->
+        <Line Pattern="Solid">
+        PEA233012/
+        PEA233020/
+        PEA233030/
+        PEA233040
+        </Line>
+        <!--Quokka Lane-->
+        <Label HasLeader="True" LabelOrientation="S">
+          <Point Name="QUOKKA">FENDA</Point>
+        </Label>
+        <Line Pattern="Solid">
+        AZZAR/
+        FENDA
+        </Line>
+        <!-- Tindal -->
+        <Symbol Type="SolidTriangle">
+          <Point>-14.140680+132.041505</Point> <!-- BIAK -->
+          <Point>-14.273613+131.926246</Point> <!-- TOP GATE -->
+          <Point>-14.522880+131.856843</Point> <!-- MOROTAI -->
+          <Point>-14.772849+131.925992</Point> <!-- TADJI -->
+          <Point>-14.992907+132.196460</Point> <!-- TARAKAN -->
+          <Point>-15.015499+132.283368</Point> <!-- BOTTOM GATE -->
+          <Point>-14.956022+132.631084</Point> <!-- NADZAB -->
+          <Point>-14.522880+132.889157</Point> <!-- MILNE -->
+          <Point>-14.454323+132.107096</Point> <!-- WEDGE 1 -->
+          <Point>-14.558063+132.169674</Point> <!-- WEDGE 2 -->
+          <Point>-14.773841+132.278847</Point> <!-- WEDGE 3 -->
+          <Point>-14.773841+132.278847</Point> <!-- WEDGE 3 -->
+          <Point>-14.382118+132.518945</Point> <!-- NORTH GATE -->
+        </Symbol>
+        <Label HasLeader="True" LabelOrientation="NW">
+          <Point Name="BIAK">-14.140680+132.041505</Point>
+          <Point Name="TOP GATE">-14.273192+131.925992</Point>
+          <Point Name="MOROTAI">-14.522880+131.856843</Point>
+          <Point Name="TADJI">-14.772849+131.925992</Point>
+          <Point Name="TARAKAN">-14.992907+132.196460</Point>
+          <Point Name="BOTTOM GATE">-15.015499+132.283368</Point>
+          <Point Name="NADZAB">-14.956022+132.631084</Point>
+          <Point Name="MILNE">-14.522880+132.889157</Point>
+          <Point Name="WEDGE 1">-14.454323+132.107096</Point>
+          <Point Name="WEDGE 2">-14.558063+132.169674</Point>
+          <Point Name="WEDGE 3">-14.773841+132.278847</Point>
+          <Point Name="NORTH GATE">-14.382118+132.518945</Point>
+        </Label>
+        <!-- Williamtown -->
+        <Symbol Type="SolidTriangle">
+          <Point>-3227.88+15132.22</Point> <!-- THNDA -->
+          <Point>-3154.38+15050.23</Point> <!-- TG3 -->
+          <Point>-3109.97+15021.38</Point> <!-- TG4 -->
+          <Point>-3117.13+15013.28</Point> <!-- TG5 -->
+          <Point>-3158.68+15038.32</Point> <!-- TG6 -->
+          <Point>-3243.58+15219.22</Point> <!-- LG -->
+          <Point>-3234.86+15124.65</Point> <!-- STORM -->
+          <Point>-3229.13+15209.69</Point> <!-- G1 -->
+          <Point>-3236.25+15216.26</Point> <!-- G2 -->
+          <Point>-3242.31+15218.90</Point> <!-- G3/LC1 -->
+          <Point>-3251.08+15219.40</Point> <!-- G4 -->
+          <Point>-3259.38+15216.33</Point> <!-- G5 -->
+          <Point>-3306.29+15210.06</Point> <!-- G6 -->
+          <Point>-3308.95+15205.96</Point> <!-- G7 -->
+          <Point>-3311.89+15158.23</Point> <!-- G8 -->
+          <Point>-3224.13+15159.59</Point> <!-- WX1 -->
+          <Point>-3222.79+15149.12</Point> <!-- XY1 -->
+          <Point>-3225.54+15136.48</Point> <!-- YZ1 -->
+          <Point>-3339.43+15202.10</Point> <!-- A2 -->
+          <Point>-3348.90+15206.68</Point> <!-- A3 -->
+          <Point>-3349.10+15245.63</Point> <!-- A4 -->
+          <Point>-3324.61+15257.75</Point> <!-- AB2 -->
+          <Point>-3336.85+15330.26</Point> <!-- AB3 -->
+          <Point>-3348.92+15402.83</Point> <!-- AB4 -->
+          <Point>-3240.64+15227.57</Point> <!-- BC1 -->
+          <Point>-3242.10+15233.27</Point> <!-- BC2 -->
+          <Point>-3105.81+15404.74</Point> <!-- FG3 -->
+          <Point>-3117.88+15437.33</Point> <!-- FG4 -->
+          <Point>-3133.96+15521.55</Point> <!-- FG5 -->
+          <Point>-3043.55+15324.45</Point> <!-- G1 -->
+          <Point>-3104.72+15538.05</Point> <!-- G2 -->
+          <Point>-3244.79+15219.42</Point> <!-- LC2 -->
+          <Point>-3230.62+15232.63</Point> <!-- W1 -->
+          <Point>-3225.00+15227.00</Point> <!-- W2 -->
+          <Point>-3202.25+15225.22</Point> <!-- W3 -->
+          <Point>-3205.88+15209.95</Point> <!-- WX2 -->
+          <Point>-3202.31+15221.09</Point> <!-- WX3 -->
+          <Point>-3208.23+15144.70</Point> <!-- XY2 -->
+          <Point>-3155.43+15155.50</Point> <!-- XY3 -->
+          <Point>-3200.81+15122.17</Point> <!-- YZ2 -->
+          <Point>-3233.43+15125.75</Point> <!-- Z1 -->
+          <Point>-3211.29+15105.33</Point> <!-- Z2 -->
+          <Point>-3201.87+15246.92</Point> <!-- J1 -->
+          <Point>-3100.35+15316.50</Point> <!-- J2 -->
+          <Point>-3100.23+15248.43</Point> <!-- J3 -->
+          <Point>-3133.33+15227.10</Point> <!-- J4 -->
+          <Point>-3256.75+15311.38</Point> <!-- BC3 -->
+          <Point>-3309.02+15343.87</Point> <!-- BC4 -->
+          <Point>-3322.02+15418.87</Point> <!-- BC5 -->
+          <Point>-3212.97+15241.50</Point> <!-- CD1 -->
+          <Point>-3215.02+15246.88</Point> <!-- CD2 -->
+          <Point>-3229.28+15324.67</Point> <!-- CD3 -->
+          <Point>-3241.37+15357.25</Point> <!-- CD4 -->
+          <Point>-3255.05+15434.77</Point> <!-- CD5 -->
+          <Point>-3145.14+15255.03</Point> <!-- DE1 -->
+          <Point>-3147.19+15300.40</Point> <!-- DE2 -->
+          <Point>-3201.46+15338.18</Point> <!-- DE3 -->
+          <Point>-3213.56+15410.76</Point> <!-- DE4 -->
+          <Point>-3228.06+15450.51</Point> <!-- DE5 -->
+          <Point>-3117.40+15308.38</Point> <!-- EF1 -->
+          <Point>-3119.43+15313.72</Point> <!-- EF2 -->
+          <Point>-3133.67+15351.52</Point> <!-- EF3 -->
+          <Point>-3145.74+15424.11</Point> <!-- EF4 -->
+          <Point>-3201.02+15506.10</Point> <!-- EF5 -->
+          <Point>-3049.55+15321.62</Point> <!-- FG1 -->
+          <Point>-3051.57+15326.97</Point> <!-- FG2 -->
+          
+        </Symbol>
+        <Label HasLeader="True" LabelOrientation="NW">
+          <Point Name="THNDA">-3227.88+15132.22</Point>
+          <Point Name="TG3">-3154.38+15050.23</Point>
+          <Point Name="TG4">-3109.97+15021.38</Point>
+          <Point Name="TG5">-3117.13+15013.28</Point>
+          <Point Name="TG6">-3158.68+15038.32</Point>
+          <Point Name="LG">-3243.58+15219.22</Point>
+          <Point Name="STORM">-3234.86+15124.65</Point>
+          <Point Name="G1">-3229.13+15209.69</Point>
+          <Point Name="G2">-3236.25+15216.26</Point>
+          <Point Name="G3/LC1">-3242.31+15218.90</Point>
+          <Point Name="G4">-3251.08+15219.40</Point>
+          <Point Name="G5">-3259.38+15216.33</Point>
+          <Point Name="G6">-3306.29+15210.06</Point>
+          <Point Name="G7">-3308.95+15205.96</Point>
+          <Point Name="G8">-3311.89+15158.23</Point>
+          <Point Name="WX1">-3224.13+15159.59</Point>
+          <Point Name="XY1">-3222.79+15149.12</Point>
+          <Point Name="YZ1">-3225.54+15136.48</Point>
+          <Point Name="A2">-3339.43+15202.10</Point>
+          <Point Name="A3">-3348.90+15206.68</Point>
+          <Point Name="A4">-3349.10+15245.63</Point>
+          <Point Name="AB2">-3324.61+15257.75</Point>
+          <Point Name="AB3">-3336.85+15330.26</Point>
+          <Point Name="AB4">-3348.92+15402.83</Point>
+          <Point Name="BC1">-3240.64+15227.57</Point>
+          <Point Name="BC2">-3242.10+15233.27</Point>
+          <Point Name="FG3">-3105.81+15404.74</Point>
+          <Point Name="FG4">-3117.88+15437.33</Point>
+          <Point Name="FG5">-3133.96+15521.55</Point>
+          <Point Name="G1">-3043.55+15324.45</Point>
+          <Point Name="G2">-3104.72+15538.05</Point>
+          <Point Name="LC2">-3244.79+15219.42</Point>
+          <Point Name="W1">-3230.62+15232.63</Point>
+          <Point Name="W2">-3225.00+15227.00</Point>
+          <Point Name="W3">-3202.25+15225.22</Point>
+          <Point Name="WX2">-3205.88+15209.95</Point>
+          <Point Name="WX3">-3202.31+15221.09</Point>
+          <Point Name="XY2">-3208.23+15144.70</Point>
+          <Point Name="XY3">-3155.43+15155.50</Point>
+          <Point Name="YZ2">-3200.81+15122.17</Point>
+          <Point Name="Z1">-3233.43+15125.75</Point>
+          <Point Name="Z2">-3211.29+15105.33</Point>
+          <Point Name="J1">-3201.87+15246.92</Point>
+          <Point Name="J2">-3100.35+15316.50</Point>
+          <Point Name="J3">-3100.23+15248.43</Point>
+          <Point Name="J4">-3133.33+15227.10</Point>
+          <Point Name="BC3">-3256.75+15311.38</Point>
+          <Point Name="BC4">-3309.02+15343.87</Point>
+          <Point Name="BC5">-3322.02+15418.87</Point>
+          <Point Name="CD1">-3212.97+15241.50</Point>
+          <Point Name="CD2">-3215.02+15246.88</Point>
+          <Point Name="CD3">-3229.28+15324.67</Point>
+          <Point Name="CD4">-3241.37+15357.25</Point>
+          <Point Name="CD5">-3255.05+15434.77</Point>
+          <Point Name="DE1">-3145.14+15255.03</Point>
+          <Point Name="DE2">-3147.19+15300.40</Point>
+          <Point Name="DE3">-3201.46+15338.18</Point>
+          <Point Name="DE4">-3213.56+15410.76</Point>
+          <Point Name="DE5">-3228.06+15450.51</Point>
+          <Point Name="EF1">-3117.40+15308.38</Point>
+          <Point Name="EF2">-3119.43+15313.72</Point>
+          <Point Name="EF3">-3133.67+15351.52</Point>
+          <Point Name="EF4">-3145.74+15424.11</Point>
+          <Point Name="EF5">-3201.02+15506.10</Point>
+          <Point Name="FG1">-3049.55+15321.62</Point>
+          <Point Name="FG2">-3051.57+15326.97</Point>
+        </Label>
+    </Map>
+    <Map Type="System2" Name="MIL_CORRIDORS" Priority="1" Center="-31.940278+115.966944" CustomColourName="Mil2">
+        <!-- Amberley Corridor North - Northern Border -->
+        <Line Pattern="Solid">
+            -27.303171+152.713298/
+            -27.238171+153.080533/
+            -27.218448+153.190537/
+            -26.860811+153.542187/
+            -26.444968+153.577391
+        </Line>
+        <!-- Amberley Corridor North/Central Border -->
+        <Line Pattern="Solid">
+            -26.693782+153.855150/
+            -26.906838+153.643574/
+            -27.211712+153.339051/
+            -27.171314+154.728749
+        </Line>
+        <!-- Amberley Corridor Central - Southern Border -->
+        <Line Pattern="Solid">
+            -27.474938+152.788866/
+            -27.413279+153.136640/
+            -27.312758+153.237924/
+            -27.268685+154.754029
+        </Line>
+        <!-- Amberley Corridor South - Eastern Border -->
+        <Line Pattern="Solid">
+            -27.624840+152.857568/
+            -27.627618+153.325623/
+            -27.641330+153.376285/
+            -27.761052+153.464940/
+            -27.762949+153.466976/
+            -28.093122+153.784606/
+            -28.111374+153.801074/
+            -28.655541+153.946616
+        </Line>
+        <!-- Amberley Corridor South Border - West Border -->
+        <Line Pattern="Solid">
+            -27.809326+152.857996/
+            -27.810424+153.322894/
+            -27.836754+153.391186/
+            -28.155281+153.698817/
+            -28.697774+153.843384
+        </Line>
+        <!-- Amberley Corridor Labels -->
+        
+        <Label HasLeader="True" LabelOrientation="NE">
+          <Point Name="NORTHERN">-263620.000+1534234.000</Point>
+        </Label>
+        <Label HasLeader="True" LabelOrientation="E">
+          <Point Name="CENTRAL">VIRGE</Point>
+        </Label>
+        <Label HasLeader="True" LabelOrientation="SE">
+          <Point Name="SOUTH">SEMAJ</Point>
+        </Label>
+        
+        <!-- Williamtown Lightning Corridor - West Border -->
+        <Line Pattern="Solid">
+            -3242.31+15218.90/
+            -3240.64+15227.57/
+            -3212.97+15241.50/
+            -3201.87+15246.92/
+            -3145.14+15255.03/
+            -3117.40+15308.38/
+            -3100.35+15316.50/
+            -3049.55+15321.62
+        </Line>
+        <!-- Williamtown Lightning Corridor - East Border -->
+        <Line Pattern="Solid">
+            -3051.57+15326.97/
+            -3119.43+15313.72/
+            -3147.19+15300.40/
+            -3215.02+15246.88/
+            -3242.10+15233.27/
+            -3244.79+15219.42
+        </Line>
+        <!-- Williamtown Thunder Corridor - West Border -->
+        <Line Pattern="Solid">
+            -31.314347+150.201844/
+            -32.006847+150.619032/
+            -32.608856+151.374111
+        </Line>
+        <!-- Williamtown Lightning Corridor - East Border -->
+        <Line Pattern="Solid">
+            -32.435817+151.556741/
+            -31.877484+150.856786/
+            -31.138300+150.392496
+        </Line>
+        <!-- Williamtown Corridor Labels -->
+        
+        <Label HasLeader="True" LabelOrientation="NE">
+          <Point Name="LIGHTNING">-324340.000+1521914.000</Point>
+        </Label>
+        <Label HasLeader="True" LabelOrientation="NW">
+          <Point Name="THUNDER">-323058.000+1512749.000</Point>
+        </Label>
+    </Map>
+</Maps>

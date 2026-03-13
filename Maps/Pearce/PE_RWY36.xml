@@ -39,7 +39,10 @@
       -314749.000+1153909.000
     </Line>
     <Line>
-      <!--Rwy36R PEA6-->
+      <!--Rwy36R PEA6A-->
+    </Line>
+    <Line>
+      <!--Rwy36R PEA6T-->
     </Line>
     <Line>
       <!--Rwy36R WAMAL6-->
@@ -62,7 +65,8 @@
     </Line>
     <Line>
       <!--Rwy36L PEA4G-->
-      GOSNL
+      GOSNL/
+      PH VOR
     </Line>
     <Line>
       <!--Rwy36L PEA4R.KABLI-->
@@ -103,7 +107,6 @@
     </Line>
     <Line>
       <!--Rwy36R PEA4G-->
-      GOSNL
     </Line>
     <Line>
       <!--Rwy36R PEA4R.KABLI-->
@@ -121,8 +124,12 @@
     <Line>
       <!--Rwy36R PEA4W-->
     </Line>
-    <Symbol Type="HollowStar">
+    <Symbol Type="HollowTriangle">
+      <Point>MUGOB</Point>
+      <Point>RUSOM</Point>
       <Point>GUNOK</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
       <Point>GOSNL</Point>
       <Point>KABLI</Point>
       <Point>KYEMA</Point>
@@ -147,6 +154,7 @@
       <Point>GOSNL</Point>
       <Point>LAVEX</Point>
       <Point>BOOKA</Point>
+      <Point>PH VOR</Point>
       <Point>RONAN</Point>
       <Point>VEPAN</Point>
       <Point>ROLOB</Point>
@@ -156,6 +164,8 @@
       <Point>DAYLR</Point>
       <Point>WUNGO</Point>
       <Point>HARMN</Point>
+      <Point>MUGOB</Point>
+      <Point>RUSOM</Point>
     </Label>
   </Map>
 </Maps>
