@@ -2,7 +2,7 @@
 <MET>
   <GRIB url="http://sawbe.com/GRIB/" fileName="world.grib2" />
   <ProductTypes>
-    <TAF url="https://aviationweather.gov/adds/dataserver_current/httpparam?dataSource=tafs&amp;requestType=retrieve&amp;format=xml&amp;stationString=%ICAO&amp;hoursBeforeNow=0&amp;timeType=valid&amp;mostRecent=true" xmlDataTag="raw_text" mostRecent="true"/>
+    <TAF url="https://aviationweather.gov/api/data/taf?ids=%ICAO&amp;format=xml" xmlDataTag="raw_text" mostRecent="true"/>
   </ProductTypes>
   <Browsers>
     <AreaQNH url="https://areaqnh.actuallyleviticus.xyz/static.html"/>
