@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+    <Map Type="System2" Name="MIL_GATES" Priority="1" Center="-31.940278+115.966944" CustomColourName="Mil1">
+        <Symbol Type="SolidTriangle">
+          <Point>-27.690250+151.910808</Point> <!-- WHITL -->
+          <Point>-27.874275+151.951772</Point> <!-- BEACH -->
+          <Point>-27.988953+152.008506</Point> <!-- WATTO -->
+        </Symbol>
+        <Label HasLeader="True" LabelOrientation="NE">
+          <Point Name="WHITL">-27.690250+151.910808</Point>
+          <Point Name="BEACH">-27.874275+151.951772</Point>
+          <Point Name="WATTO">-27.988953+152.008506</Point>
+        </Label>
+    </Map>
+    <Map Type="System2" Name="MIL_CORRIDORS" Priority="1" Center="-31.940278+115.966944" CustomColourName="Mil2">
+        
+        <!-- Amberley Corridor North - Northern Border-->
+        <Line Pattern="Solid">
+            -27.303171+152.713298/
+            -27.238171+153.080533/
+            -27.218448+153.190537/
+            -26.860811+153.542187/
+            -26.444968+153.577391
+        </Line>
+        <!-- Amberley Corridor North/Central Border-->
+        <Line Pattern="Solid">
+            -26.693782+153.855150/
+            -26.906838+153.643574/
+            -27.211712+153.339051/
+            -27.171314+154.728749
+        </Line>
+        <!-- Amberley Corridor Central - Southern Border-->
+        <Line Pattern="Solid">
+            -27.474938+152.788866/
+            -27.413279+153.136640/
+            -27.312758+153.237924/
+            -27.268685+154.754029
+        </Line>
+        <!-- Amberley Corridor South - Eastern Border-->
+        <Line Pattern="Solid">
+            -27.624840+152.857568/
+            -27.627618+153.325623/
+            -27.641330+153.376285/
+            -27.761052+153.464940/
+            -27.762949+153.466976/
+            -28.093122+153.784606/
+            -28.111374+153.801074/
+            -28.655541+153.946616
+        </Line>
+        <!-- Amberley Corridor South Border - West Border-->
+        <Line Pattern="Solid">
+            -27.809326+152.857996/
+            -27.810424+153.322894/
+            -27.836754+153.391186/
+            -28.155281+153.698817/
+            -28.697774+153.843384
+        </Line>
+    </Map>
+</Maps>
