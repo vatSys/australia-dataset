@@ -38,163 +38,28 @@
       -324713.640+1514921.340/
       -322752.800+1513213.200/
       -315422.800+1505013.800/
-      -310958.200+1502122.800/
+      -310958.200+1502122.800
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy30 STORM2-->
       -311707.800+1501316.800/
       -315840.800+1503819.200/
       -323451.600+1512439.000
     </Line>
-    <!--STARs-->
-    <Line>
-      <!--Rwy30 ASUVA1-->
-      ASUVA/
-      UPVIB
-    </Line>
-    <Line>
-      <!--Rwy30 EKIPU2-->
-      EKIPU/
-      IVTAG/
-      DOXAP
-    </Line>
-    <Line>
-      <!--Rwy30 IVTA1R.EKIPU-->
-      EKIPU/
-      IVTAG
-    </Line>
-    <Line>
-      <!--Rwy30 IVTA1R.OVLUX-->
-      OVLUX/
-      IVTAG
-    </Line>
-    <Line>
-      <!--Rwy30 IVTA1R.PUDUT-->
-      PUDUT/
-      IVTAG
-    </Line>
-    <Line>
-      <!--Rwy30 IVTA1R-->
-      IVTAG/
-      UBGIM
-    </Line>
-    <Line>
-      <!--Rwy30 IVTA1V.EKIPU-->
-    </Line>
-    <Line>
-      <!--Rwy30 IVTA1V.OVLUX-->
-    </Line>
-    <Line>
-      <!--Rwy30 IVTA1V.PUDUT-->
-    </Line>
-    <Line>
-      <!--Rwy30 IVTA1V-->
-      UBGIM/
-      UBMAX/
-      ELKOV
-    </Line>
-    <Line>
-      <!--Rwy30 LAXU2A-->
-      LAXUM/
-      IPGUX/
-      ENVIR/
-      UBNIL/
-      AVGOP/
-      AKLOL
-    </Line>
-    <Line>
-      <!--Rwy30 LAXU2B-->
-      LAXUM/
-      IDPEP/
-      ISVUP/
-      UGVOK/
-      IDSOM/
-      IVTAG
-    </Line>
-    <Line>
-      <!--Rwy30 LAXU2R-->
-      IPGUX/
-      IVSES/
-      IDSAX
-    </Line>
-    <Line>
-      <!--Rwy30 LAXU2V-->
-      IDSAX/
-      AKRUS/
-      UDEPO/
-      OVPEV
-    </Line>
-    <Line>
-      <!--Rwy30 OVLUX2-->
-      OVLUX/
-      IVTAG
-    </Line>
-    <Line>
-      <!--Rwy30 PUDUT1-->
-      PUDUT/
-      IVTAG
-    </Line>
-    <Symbol Type="HollowTriangle">
-      <Point>UPVIB</Point>
-      <Point>DOXAP</Point>
-      <Point>UBGIM</Point>
-      <Point>ELKOV</Point>
-      <Point>AKLOL</Point>
-      <Point>IDSAX</Point>
-      <Point>OVPEV</Point>
-    </Symbol>
     <Symbol Type="HollowStar">
       <Point>OLVEP</Point>
       <Point>UKDIP</Point>
-      <Point>ASUVA</Point>
-      <Point>EKIPU</Point>
-      <Point>IVTAG</Point>
-      <Point>OVLUX</Point>
-      <Point>PUDUT</Point>
-      <Point>UBMAX</Point>
-      <Point>LAXUM</Point>
-      <Point>IPGUX</Point>
-      <Point>ENVIR</Point>
-      <Point>UBNIL</Point>
-      <Point>AVGOP</Point>
-      <Point>IDPEP</Point>
-      <Point>ISVUP</Point>
-      <Point>UGVOK</Point>
-      <Point>IDSOM</Point>
-      <Point>IVSES</Point>
-      <Point>AKRUS</Point>
-      <Point>UDEPO</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="WLM_RWY30MIL_NAMES" Priority="2" Center="-32.795000+151.834444">
     <Label>
       <Point>OLVEP</Point>
       <Point>UKDIP</Point>
-      <Point>ASUVA</Point>
-      <Point>UPVIB</Point>
-      <Point>EKIPU</Point>
-      <Point>IVTAG</Point>
-      <Point>DOXAP</Point>
-      <Point>OVLUX</Point>
-      <Point>PUDUT</Point>
-      <Point>UBGIM</Point>
-      <Point>UBMAX</Point>
-      <Point>ELKOV</Point>
-      <Point>LAXUM</Point>
-      <Point>IPGUX</Point>
-      <Point>ENVIR</Point>
-      <Point>UBNIL</Point>
-      <Point>AVGOP</Point>
-      <Point>AKLOL</Point>
-      <Point>IDPEP</Point>
-      <Point>ISVUP</Point>
-      <Point>UGVOK</Point>
-      <Point>IDSOM</Point>
-      <Point>IVSES</Point>
-      <Point>IDSAX</Point>
-      <Point>AKRUS</Point>
-      <Point>UDEPO</Point>
-      <Point>OVPEV</Point>
       <Point>TESAT</Point>
       <Point>OLSEM</Point>
       <Point>UPNEX</Point>
+      <Point>EKIPU</Point>
       <Point>BANDA</Point>
       <Point>RULGU</Point>
       <Point>OMKAX</Point>
@@ -204,14 +69,17 @@
       <Point>ABASS</Point>
       <Point>NWA NDB</Point>
       <Point>NONID</Point>
+      <Point>ASUVA</Point>
       <Point>KAMBA</Point>
       <Point>TOOKI</Point>
+      <Point>OVLUX</Point>
       <Point>MAKOR</Point>
       <Point>LOWEP</Point>
       <Point>NBR NDB</Point>
       <Point>OLRON</Point>
       <Point>TW VOR</Point>
       <Point>TIMBO</Point>
+      <Point>LAXUM</Point>
       <Point>NICLA</Point>
       <Point>LOSKU</Point>
       <Point>IVL NDB</Point>

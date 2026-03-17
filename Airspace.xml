@@ -1280,6 +1280,7 @@
         <STAR Name="LAXU2R" OpDataFlag="R" ApproachName="RNPX" />
         <STAR Name="OVLUX2" ApproachName="RNPZ" />
         <STAR Name="PUDUT1" ApproachName="RNPZ" />
+        <STAR Name="STORM2" />
       </Runway>
       <Runway Name="30" DataRunway="30">
         <SID Name="CLASS1" />
@@ -1298,6 +1299,7 @@
         <STAR Name="LAXU2R" OpDataFlag="R" ApproachName="RNPX" />
         <STAR Name="OVLUX2" ApproachName="RNPZ" />
         <STAR Name="PUDUT1" ApproachName="RNPZ" />
+        <STAR Name="STORM2" />
       </Runway>
       <Runway Name="30V" DataRunway="30">
         <STAR Name="IVTA1V" />
@@ -16965,8 +16967,8 @@ SAGLI
       <Transition Name="OLVEP">OLVEP</Transition>
     </SID>
     <SID Name="STORM1" Airport="YWLM" Runways="12,30">
-      <Route Runway="12">-324817.850+1515050.990/-322752.800+1513213.200/-315422.800+1505013.800/-310958.200+1502122.800/-311707.800+1501316.800/-315840.800+1503819.200/-323451.600+1512439.000</Route>
-      <Route Runway="30">-324713.640+1514921.340/-322752.800+1513213.200/-315422.800+1505013.800/-310958.200+1502122.800/-311707.800+1501316.800/-315840.800+1503819.200/-323451.600+1512439.000</Route>
+      <Route Runway="12">-324817.850+1515050.990/-322752.800+1513213.200/-315422.800+1505013.800/-310958.200+1502122.800</Route>
+      <Route Runway="30">-324713.640+1514921.340/-322752.800+1513213.200/-315422.800+1505013.800/-310958.200+1502122.800</Route>
     </SID>
     <SID Name="UBSO1A" Airport="YWLM" Runways="12,30">
       <Route Runway="12">-324817.850+1515050.990/-325053.878+1515427.750/-325114.048+1515517.697/-325110.473+1515612.991/-325044.147+1515658.742/-325002.128+1515722.688/IBADI/IGNUV/UBSON</Route>
@@ -17956,6 +17958,10 @@ SAGLI
     <STAR Name="PUDUT1" Airport="YWLM" Runways="12,30">
       <Route Runway="12">PUDUT/IGLUM/MATLA/OSATO</Route>
       <Route Runway="30">PUDUT/IVTAG/DOXAP</Route>
+    </STAR>
+    <STAR Name="STORM2" Airport="YWLM" Runways="12,30">
+      <Route Runway="12">-311707.800+1501316.800/-315840.800+1503819.200/-323451.600+1512439.000</Route>
+      <Route Runway="30">-311707.800+1501316.800/-315840.800+1503819.200/-323451.600+1512439.000</Route>
     </STAR>
     <Approach Name="LOC" Airport="YAMB" Runway="15">
       <Transition Name="BIGIX">BIGIX</Transition>
