@@ -1269,6 +1269,7 @@
         <SID Name="LIMLO1" />
         <SID Name="MONDO1" />
         <SID Name="PEPER1" />
+        <SID Name="SALT A" />
         <SID Name="STORM1" />
         <SID Name="UBSO1A" />
         <SID Name="UBSO1B" />
@@ -1288,6 +1289,7 @@
         <SID Name="LIMLO1" />
         <SID Name="MONDO1" />
         <SID Name="PEPER1" />
+        <SID Name="SALT A" />
         <SID Name="STORM1" />
         <SID Name="UBSO1A" />
         <SID Name="WLM4" Default="True" />
@@ -16965,6 +16967,10 @@ SAGLI
       <Route Runway="30">-324713.640+1514921.340/-324615.103+1514800.126/-324255.000+1514853.000</Route>
       <Transition Name="ERVEV">-324042.000+1514927.000/-323925.000+1515015.000/ERVEV</Transition>
       <Transition Name="OLVEP">OLVEP</Transition>
+    </SID>
+    <SID Name="SALT A" Airport="YWLM" Runways="12,30">
+      <Route Runway="12">-324817.850+1515050.990/-324516.800+1515446.800</Route>
+      <Route Runway="30">-324713.640+1514921.340/-324516.800+1515446.800</Route>
     </SID>
     <SID Name="STORM1" Airport="YWLM" Runways="12,30">
       <Route Runway="12">-324817.850+1515050.990/-322752.800+1513213.200/-315422.800+1505013.800/-310958.200+1502122.800</Route>
