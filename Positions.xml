@@ -1744,7 +1744,9 @@
         <Editor Airport="YSCB" Frequency="127.45" />
         <Window Airport="YSCB" />
       </ATIS>
-      <Strips Mode="State" Sort="Alpha" />
+      <Strips Mode="Beacon" Sort="Alpha" >
+       <Window Type="ADEP" Beacon="YSCB" Visible="true" />
+      </Strips>
       <CFL QuickLevel="24000">
         <AdditionalLevels>4300,4400,4800,5100,5400,6200,6700,7700</AdditionalLevels>
       </CFL>
