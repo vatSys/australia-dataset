@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="JT_RWY06" Priority="1" Center="-32.097500+115.881111">
+    <!--YPJT-->
+    <Runway Name="06L/24R">
+      <Threshold Name="06L" Position="-32.099978+115.874594" ExtendedCentrelineTrack="234.42" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="24R" Position="-32.094058+115.884314" />
+    </Runway>
+    <Runway Name="06R/24L">
+      <Threshold Name="06R" Position="-32.100881+115.876939" ExtendedCentrelineTrack="234.41" ExtendedCentrelineLength="0" ExtendedCentrelineTickInterval="0" />
+      <Threshold Name="24L" Position="-32.094844+115.886847" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy06L ISPET1-->
+      -320538.610+1155303.530/
+      -320535.183+1155308.907/
+      -320439.108+1155432.400/
+      -320421.360+1155439.239/
+      -320403.144+1155434.559/
+      -320349.284+1155419.800/
+      -320343.523+1155358.919/
+      -320347.411+1155337.319/
+      ISPET
+    </Line>
+    <Line>
+      <!--Rwy06L SCARP5-->
+      -320535.183+1155308.907/
+      -320453.436+1155418.360/
+      -320452.788+1155440.679/
+      -320501.535+1155459.760/
+      -320517.339+1155511.639/
+      SCARP
+    </Line>
+    <Line>
+      <!--Rwy06L TONEG6-->
+      -320347.411+1155337.319/
+      TONEG
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy06L JT3G.KABLI-->
+      KABLI/
+      KYEMA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy06L JT3G.LAVEX-->
+      LAVEX/
+      BOOKA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy06L JT3G.WOORA-->
+      WOORA/
+      HERNE/
+      GUNGN/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy06L JT3G-->
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy06L JT3R.KABLI-->
+      KABLI/
+      BOOKA/
+      RONAN/
+      VEPAN/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy06L JT3R.LAVEX-->
+      LAVEX/
+      BUVOT/
+      RONAN/
+      UNDOW/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy06L JT3R-->
+      ROLOB/
+      PH VOR
+    </Line>
+    <Line>
+      <!--Rwy06L JT3W.MALUP-->
+      MALUP/
+      DAYLR/
+      WUNGO
+    </Line>
+    <Line>
+      <!--Rwy06L JT3W-->
+      WUNGO/
+      HARMN/
+      PH VOR
+    </Line>
+    <Line>
+      <!--Rwy06R JT3G.KABLI-->
+    </Line>
+    <Line>
+      <!--Rwy06R JT3G.LAVEX-->
+    </Line>
+    <Line>
+      <!--Rwy06R JT3G.WOORA-->
+    </Line>
+    <Line>
+      <!--Rwy06R JT3G-->
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy06R JT3R.KABLI-->
+    </Line>
+    <Line>
+      <!--Rwy06R JT3R.LAVEX-->
+    </Line>
+    <Line>
+      <!--Rwy06R JT3R-->
+    </Line>
+    <Line>
+      <!--Rwy06R JT3W.MALUP-->
+    </Line>
+    <Line>
+      <!--Rwy06R JT3W-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>PH VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ISPET</Point>
+      <Point>SCARP</Point>
+      <Point>TONEG</Point>
+      <Point>GOSNL</Point>
+      <Point>KABLI</Point>
+      <Point>KYEMA</Point>
+      <Point>LAVEX</Point>
+      <Point>BOOKA</Point>
+      <Point>WOORA</Point>
+      <Point>HERNE</Point>
+      <Point>GUNGN</Point>
+      <Point>ROLOB</Point>
+      <Point>RONAN</Point>
+      <Point>VEPAN</Point>
+      <Point>BUVOT</Point>
+      <Point>UNDOW</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+      <Point>MALUP</Point>
+      <Point>DAYLR</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="JT_RWY06_NAMES" Priority="2" Center="-32.097500+115.881111">
+    <Label>
+      <Point>ISPET</Point>
+      <Point>SCARP</Point>
+      <Point>TONEG</Point>
+      <Point>KABLI</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>LAVEX</Point>
+      <Point>BOOKA</Point>
+      <Point>WOORA</Point>
+      <Point>HERNE</Point>
+      <Point>GUNGN</Point>
+      <Point>RONAN</Point>
+      <Point>VEPAN</Point>
+      <Point>ROLOB</Point>
+      <Point>BUVOT</Point>
+      <Point>UNDOW</Point>
+      <Point>PH VOR</Point>
+      <Point>MALUP</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+      <Point>HIDOT</Point>
+      <Point>VEMON</Point>
+      <Point>BURGU</Point>
+      <Point>OTLED</Point>
+      <Point>ONGAR</Point>
+      <Point>SOVTO</Point>
+      <Point>DALWU</Point>
+      <Point>AVPAL</Point>
+      <Point>HINDS</Point>
+      <Point>CALIG</Point>
+      <Point>JULIM</Point>
+      <Point>ESMIN</Point>
+      <Point>KALBO</Point>
+      <Point>KAGMI</Point>
+      <Point>DAKPO</Point>
+      <Point>OPEGA</Point>
+      <Point>MERIB</Point>
+      <Point>OLMAM</Point>
+      <Point>BLN NDB</Point>
+      <Point>SOLUS</Point>
+      <Point>JOSBU</Point>
+      <Point>AVNEX</Point>
+      <Point>ESDEG</Point>
+      <Point>AMANA</Point>
+      <Point>LAKIR</Point>
+      <Point>MANIG</Point>
+      <Point>LAKMO</Point>
+      <Point>REPOK</Point>
+      <Point>NINEK</Point>
+      <Point>DUTAK</Point>
+      <Point>LAKAV</Point>
+      <Point>BUNGL</Point>
+      <Point>YAHMO</Point>
+      <Point>KELLA</Point>
+      <Point>MEVAD</Point>
+      <Point>PUMRY</Point>
+    </Label>
+  </Map>
+</Maps>

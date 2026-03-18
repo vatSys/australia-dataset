@@ -3,16 +3,16 @@
   <Map Type="System" Name="PH_TCU" Priority="1" Center="-31.940278+115.966944">
     <!--YPJT-->
     <Runway Name="06L/24R">
-      <Threshold Name="06L" Position="-32.099978+115.874594" ExtendedCentrelineTrack="234.42" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="24R" Position="-32.094058+115.884314" ExtendedCentrelineTrack="54.42" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="06L" Position="-32.099978+115.874594" />
+      <Threshold Name="24R" Position="-32.094058+115.884314" />
     </Runway>
     <Runway Name="06R/24L">
       <Threshold Name="06R" Position="-32.100881+115.876939" />
       <Threshold Name="24L" Position="-32.094844+115.886847" />
     </Runway>
     <Runway Name="12/30">
-      <Threshold Name="12" Position="-32.099947+115.872486" ExtendedCentrelineTrack="294.48" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="30" Position="-32.105581+115.887022" ExtendedCentrelineTrack="114.48" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="12" Position="-32.099947+115.872486" />
+      <Threshold Name="30" Position="-32.105581+115.887022" />
     </Runway>
     <!--YPPH-->
     <Runway Name="03/21">
@@ -148,6 +148,7 @@
       <Point>WUNG</Point>
       <Point>YGB</Point>
       <Point>ORKT</Point>
+      <Point>WRNA</Point>
     </Symbol>
     <Label HasLeader="True">
       <Point>ADWD</Point>
@@ -196,6 +197,7 @@
       <Point>WUNG</Point>
       <Point>YGB</Point>
       <Point>ORKT</Point>
+      <Point>WRNA</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="IN_BOATYARD">BOAT</Point>
@@ -293,6 +295,7 @@
       <Point Name="WUNGONG RESERVOIR">WUNG</Point>
       <Point Name="YANGEBUP LAKE">YGB</Point>
       <Point Name="YORK TOWNSHIP">ORKT</Point>
+      <Point Name="WAROONA">WRNA</Point>
     </Label>
   </Map>
   <Map Type="System" Name="YPPH_ALLRWYS" Priority="2" Center="-31.940278+115.966944">
@@ -305,6 +308,21 @@
     <Runway Name="06/24">
       <Threshold Name="06" Position="-31.940989+115.959203" ExtendedCentrelineTrack="238.89" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="24" Position="-31.930908+115.978792" ExtendedCentrelineTrack="58.9" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--YPJT-->
+    <Runway Name="06L/24R">
+      <Threshold Name="06L" Position="-32.099978+115.874594" ExtendedCentrelineTrack="234.42" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="24R" Position="-32.094058+115.884314" ExtendedCentrelineTrack="54.42" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--YPJT-->
+    <Runway Name="06R/24L">
+      <Threshold Name="06R" Position="-32.100881+115.876939" />
+      <Threshold Name="24L" Position="-32.094844+115.886847" />
+    </Runway>
+    <!--YPJT-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-32.099947+115.872486" ExtendedCentrelineTrack="294.48" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="30" Position="-32.105581+115.887022" ExtendedCentrelineTrack="114.48" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
   </Map>
 </Maps>

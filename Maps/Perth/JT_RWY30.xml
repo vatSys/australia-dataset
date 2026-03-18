@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="JT_RWY30" Priority="1" Center="-32.097500+115.881111">
+    <!--YPJT-->
+    <Runway Name="12/30">
+      <Threshold Name="12" Position="-32.099947+115.872486" />
+      <Threshold Name="30" Position="-32.105581+115.887022" ExtendedCentrelineTrack="114.48" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy30 ISPET1-->
+      -320559.810+1155220.950/
+      -320559.770+1155220.878/
+      -320529.292+1155056.400/
+      -320446.127+1155045.240/
+      ISPET
+    </Line>
+    <Line>
+      <!--Rwy30 SCARP5-->
+      -320559.770+1155220.878/
+      -320526.484+1155042.000/
+      -320530.371+1155020.399/
+      -320542.828+1155004.200/
+      -320600.576+1154957.359/
+      -320618.792+1155002.039/
+      -320632.652+1155016.799/
+      SCARP
+    </Line>
+    <Line>
+      <!--Rwy30 TONEG5-->
+      -320600.576+1154957.359/
+      -320731.691+1155043.439/
+      TONEG
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy30 JT3G.KABLI-->
+      KABLI/
+      KYEMA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy30 JT3G.LAVEX-->
+      LAVEX/
+      BOOKA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy30 JT3G.WOORA-->
+      WOORA/
+      HERNE/
+      GUNGN/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy30 JT3G-->
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy30 JT3R.KABLI-->
+      KABLI/
+      BOOKA/
+      RONAN/
+      VEPAN/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy30 JT3R.LAVEX-->
+      LAVEX/
+      BUVOT/
+      RONAN/
+      UNDOW/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy30 JT3R-->
+      ROLOB/
+      PH VOR
+    </Line>
+    <Line>
+      <!--Rwy30 JT3W.MALUP-->
+      MALUP/
+      DAYLR/
+      WUNGO
+    </Line>
+    <Line>
+      <!--Rwy30 JT3W-->
+      WUNGO/
+      HARMN/
+      PH VOR
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>PH VOR</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ISPET</Point>
+      <Point>SCARP</Point>
+      <Point>TONEG</Point>
+      <Point>GOSNL</Point>
+      <Point>KABLI</Point>
+      <Point>KYEMA</Point>
+      <Point>LAVEX</Point>
+      <Point>BOOKA</Point>
+      <Point>WOORA</Point>
+      <Point>HERNE</Point>
+      <Point>GUNGN</Point>
+      <Point>ROLOB</Point>
+      <Point>RONAN</Point>
+      <Point>VEPAN</Point>
+      <Point>BUVOT</Point>
+      <Point>UNDOW</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+      <Point>MALUP</Point>
+      <Point>DAYLR</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="JT_RWY30_NAMES" Priority="2" Center="-32.097500+115.881111">
+    <Label>
+      <Point>ISPET</Point>
+      <Point>SCARP</Point>
+      <Point>TONEG</Point>
+      <Point>KABLI</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>LAVEX</Point>
+      <Point>BOOKA</Point>
+      <Point>WOORA</Point>
+      <Point>HERNE</Point>
+      <Point>GUNGN</Point>
+      <Point>RONAN</Point>
+      <Point>VEPAN</Point>
+      <Point>ROLOB</Point>
+      <Point>BUVOT</Point>
+      <Point>UNDOW</Point>
+      <Point>PH VOR</Point>
+      <Point>MALUP</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+      <Point>HIDOT</Point>
+      <Point>VEMON</Point>
+      <Point>BURGU</Point>
+      <Point>OTLED</Point>
+      <Point>ONGAR</Point>
+      <Point>SOVTO</Point>
+      <Point>DALWU</Point>
+      <Point>AVPAL</Point>
+      <Point>HINDS</Point>
+      <Point>CALIG</Point>
+      <Point>JULIM</Point>
+      <Point>ESMIN</Point>
+      <Point>KALBO</Point>
+      <Point>KAGMI</Point>
+      <Point>DAKPO</Point>
+      <Point>OPEGA</Point>
+      <Point>MERIB</Point>
+      <Point>OLMAM</Point>
+      <Point>BLN NDB</Point>
+      <Point>SOLUS</Point>
+      <Point>JOSBU</Point>
+      <Point>AVNEX</Point>
+      <Point>ESDEG</Point>
+      <Point>AMANA</Point>
+      <Point>LAKIR</Point>
+      <Point>MANIG</Point>
+      <Point>LAKMO</Point>
+      <Point>REPOK</Point>
+      <Point>NINEK</Point>
+      <Point>DUTAK</Point>
+      <Point>LAKAV</Point>
+      <Point>BUNGL</Point>
+      <Point>YAHMO</Point>
+      <Point>KELLA</Point>
+      <Point>MEVAD</Point>
+      <Point>PUMRY</Point>
+    </Label>
+  </Map>
+</Maps>

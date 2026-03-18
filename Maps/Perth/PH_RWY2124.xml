@@ -201,11 +201,68 @@
     <Line>
       <!--Rwy24 SOLU3A-->
     </Line>
+    <Line>
+      <!--Rwy24 JT3G.KABLI-->
+      KABLI/
+      KYEMA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy24 JT3G.LAVEX-->
+      LAVEX/
+      BOOKA/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy24 JT3G.WOORA-->
+      WOORA/
+      HERNE/
+      GUNGN/
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy24 JT3G-->
+      GOSNL
+    </Line>
+    <Line>
+      <!--Rwy24 JT3R.KABLI-->
+      KABLI/
+      BOOKA/
+      RONAN/
+      VEPAN/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy24 JT3R.LAVEX-->
+      LAVEX/
+      BUVOT/
+      RONAN/
+      UNDOW/
+      ROLOB
+    </Line>
+    <Line>
+      <!--Rwy24 JT3R-->
+      ROLOB/
+      PH VOR
+    </Line>
+    <Line>
+      <!--Rwy24 JT3W.MALUP-->
+      MALUP/
+      DAYLR/
+      WUNGO
+    </Line>
+    <Line>
+      <!--Rwy24 JT3W-->
+      WUNGO/
+      HARMN/
+      PH VOR
+    </Line>
     <Symbol Type="HollowTriangle">
       <Point>WOOFY</Point>
       <Point>HAIGH</Point>
       <Point>MOCUR</Point>
       <Point>SPUDO</Point>
+      <Point>PH VOR</Point>
       <Point>KOORI</Point>
     </Symbol>
     <Symbol Type="HollowStar">
@@ -277,6 +334,14 @@
       <Point>ANSEP</Point>
       <Point>PATMU</Point>
       <Point>UPNIS</Point>
+      <Point>GOSNL</Point>
+      <Point>KYEMA</Point>
+      <Point>HERNE</Point>
+      <Point>GUNGN</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
+      <Point>MALUP</Point>
+      <Point>DAYLR</Point>
     </Symbol>
     <!--(PH) RWY2124 Airspace-->
     <Line Name="(PH) RWY2124" Width="1.7" Pattern="Dotted">
@@ -377,6 +442,15 @@
       <Point>SPUDO</Point>
       <Point>PATMU</Point>
       <Point>UPNIS</Point>
+      <Point>KYEMA</Point>
+      <Point>GOSNL</Point>
+      <Point>HERNE</Point>
+      <Point>GUNGN</Point>
+      <Point>PH VOR</Point>
+      <Point>MALUP</Point>
+      <Point>DAYLR</Point>
+      <Point>WUNGO</Point>
+      <Point>HARMN</Point>
       <Point>ONGAR</Point>
       <Point>SOVTO</Point>
       <Point>DALWU</Point>
@@ -384,7 +458,6 @@
       <Point>HINDS</Point>
       <Point>CALIG</Point>
       <Point>ESMIN</Point>
-      <Point>MALUP</Point>
       <Point>DAKPO</Point>
       <Point>MERIB</Point>
       <Point>BLN NDB</Point>
