@@ -201,8 +201,10 @@
       <!--Rwy29 PESEA3-->
       MABAM
     </Line>
-    <Symbol Type="HollowStar">
+    <Symbol Type="HollowTriangle">
+      <Point>DRADO</Point>
       <Point>MABAM</Point>
+      <Point>MOMAN</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="DN_RWY29MIL_NAMES" Priority="2" Center="-12.414722+130.876667">
@@ -272,6 +274,8 @@
       <Point>BEBUX</Point>
       <Point>JULES</Point>
       <Point>MOTRU</Point>
+      <Point>DRADO</Point>
+      <Point>MOMAN</Point>
     </Label>
   </Map>
 </Maps>

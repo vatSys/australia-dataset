@@ -40,106 +40,22 @@
       -324817.850+1515050.990/
       -322752.800+1513213.200/
       -315422.800+1505013.800/
-      -310958.200+1502122.800/
+      -310958.200+1502122.800
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy12 STORM2-->
       -311707.800+1501316.800/
       -315840.800+1503819.200/
       -323451.600+1512439.000
     </Line>
-    <!--STARs-->
-    <Line>
-      <!--Rwy12 ASUVA1-->
-      ASUVA/
-      AVGOP/
-      LIBMU/
-      OMLIR
-    </Line>
-    <Line>
-      <!--Rwy12 EKIPU2-->
-      EKIPU/
-      IGLUM/
-      MATLA/
-      OSATO
-    </Line>
-    <Line>
-      <!--Rwy12 LAXU2A-->
-      LAXUM/
-      EGAPU/
-      OMLIR
-    </Line>
-    <Line>
-      <!--Rwy12 LAXU2B-->
-      LAXUM/
-      ESDOD/
-      ATLOR/
-      OBKUR/
-      IPMED
-    </Line>
-    <Line>
-      <!--Rwy12 LAXU2R-->
-      OMLIR/
-      ISDUS
-    </Line>
-    <Line>
-      <!--Rwy12 LAXU2V-->
-      ISDUS/
-      UPTEB
-    </Line>
-    <Line>
-      <!--Rwy12 OVLUX2-->
-      OVLUX/
-      IGLUM
-    </Line>
-    <Line>
-      <!--Rwy12 PUDUT1-->
-      PUDUT/
-      IGLUM
-    </Line>
-    <Symbol Type="HollowTriangle">
-      <Point>OMLIR</Point>
-      <Point>OSATO</Point>
-      <Point>IPMED</Point>
-      <Point>ISDUS</Point>
-      <Point>UPTEB</Point>
-    </Symbol>
-    <Symbol Type="HollowStar">
-      <Point>ASUVA</Point>
-      <Point>AVGOP</Point>
-      <Point>LIBMU</Point>
-      <Point>EKIPU</Point>
-      <Point>IGLUM</Point>
-      <Point>MATLA</Point>
-      <Point>LAXUM</Point>
-      <Point>EGAPU</Point>
-      <Point>ESDOD</Point>
-      <Point>ATLOR</Point>
-      <Point>OBKUR</Point>
-      <Point>OVLUX</Point>
-      <Point>PUDUT</Point>
-    </Symbol>
   </Map>
   <Map Type="System" Name="WLM_RWY12MIL_NAMES" Priority="2" Center="-32.795000+151.834444">
     <Label>
-      <Point>ASUVA</Point>
-      <Point>AVGOP</Point>
-      <Point>LIBMU</Point>
-      <Point>OMLIR</Point>
-      <Point>EKIPU</Point>
-      <Point>IGLUM</Point>
-      <Point>MATLA</Point>
-      <Point>OSATO</Point>
-      <Point>LAXUM</Point>
-      <Point>EGAPU</Point>
-      <Point>ESDOD</Point>
-      <Point>ATLOR</Point>
-      <Point>OBKUR</Point>
-      <Point>IPMED</Point>
-      <Point>ISDUS</Point>
-      <Point>UPTEB</Point>
-      <Point>OVLUX</Point>
-      <Point>PUDUT</Point>
       <Point>TESAT</Point>
       <Point>OLSEM</Point>
       <Point>UPNEX</Point>
+      <Point>EKIPU</Point>
       <Point>BANDA</Point>
       <Point>RULGU</Point>
       <Point>OMKAX</Point>
@@ -149,14 +65,17 @@
       <Point>ABASS</Point>
       <Point>NWA NDB</Point>
       <Point>NONID</Point>
+      <Point>ASUVA</Point>
       <Point>KAMBA</Point>
       <Point>TOOKI</Point>
+      <Point>OVLUX</Point>
       <Point>MAKOR</Point>
       <Point>LOWEP</Point>
       <Point>NBR NDB</Point>
       <Point>OLRON</Point>
       <Point>TW VOR</Point>
       <Point>TIMBO</Point>
+      <Point>LAXUM</Point>
       <Point>NICLA</Point>
       <Point>LOSKU</Point>
       <Point>IVL NDB</Point>

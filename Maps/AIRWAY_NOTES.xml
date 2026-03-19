@@ -36,5 +36,47 @@
       <Point>NOPAS</Point>
       <Point>GOMOL</Point>
     </Label>    
+    
+    <!--ML PORTS STAR-->
+    <Line Pattern="Broken">
+	  TASIS/
+	  EKKAS
+    </Line>
+    <Line Pattern="Broken">
+	  ONAGI/
+	  LATTA
+    </Line>
+    <Symbol Type="SolidSquare">
+      <Point>EKKAS</Point>
+      <Point>LATTA</Point>
+    </Symbol>
+    <Label>
+      <Point>EKKAS</Point>
+      <Point>LATTA</Point>
+    </Label> 
+    
+    <!--LT 32L ROUTING-->
+    <Line Pattern="Broken">
+	  IRSOM/
+      NODAS/
+      LT2SC
+    </Line>
+    <Line Pattern="Broken">
+	  NUNPA/
+      ELREL/
+      LT2SA
+    </Line>
+    <Symbol Type="SolidSquare">
+      <Point>NODAS</Point>
+      <Point>ELREL</Point>
+      <Point>LT2SC</Point>
+      <Point>LT2SA</Point>
+    </Symbol>
+    <Label>
+      <Point>NODAS</Point>
+      <Point>ELREL</Point>
+      <Point>LT2SC</Point>
+      <Point>LT2SA</Point>
+    </Label> 
   </Map>
 </Maps>
