@@ -457,6 +457,29 @@
           <Point Name="FG1">-3049.55+15321.62</Point>
           <Point Name="FG2">-3051.57+15326.97</Point>
         </Label>
+        <!-- Woomera -->
+        <Symbol Type="SolidTriangle">
+          <Point>-312127.000+1364652.000</Point> <!-- ISLAND LAGOON -->
+          <Point>-305833.000+1363232.000</Point> <!-- KOOLYMILKA LAKE -->
+          <Point>-311403.000+1362334.000</Point> <!-- LAKE HART -->
+          <Point>-310535.000+1365822.000</Point> <!-- LAKE RICHARDSON -->
+          <Point>-311817.000+1370318.000</Point> <!-- LAKE WINDABOUT -->
+          <Point>-305044.000+1365218.000</Point> <!-- RED SWAMP -->
+          <Point>-305559.000+1364456.000</Point> <!-- SHELL LAGOON -->
+        </Symbol>
+        <Label HasLeader="True" LabelOrientation="NW">
+          <Point Name="KOOLYMILKA LAKE">-305833.000+1363232.000</Point>
+          <Point Name="LAKE HART">-311403.000+1362334.000</Point>
+          <Point Name="RED SWAMP">-305044.000+1365218.000</Point>
+          <Point Name="SHELL LAGOON">-305559.000+1364456.000</Point>
+        </Label>
+        <Label HasLeader="True" LabelOrientation="NE">
+          <Point Name="LAKE RICHARDSON">-310535.000+1365822.000</Point>
+        </Label>
+        <Label HasLeader="True" LabelOrientation="SE">
+          <Point Name="ISLAND LAGOON">-312127.000+1364652.000</Point>
+          <Point Name="LAKE WINDABOUT">-311817.000+1370318.000</Point>
+        </Label>
     </Map>
     <Map Type="System2" Name="MIL_CORRIDORS" Priority="1" Center="-31.940278+115.966944" CustomColourName="Mil2">
         <!-- Amberley Corridor North - Northern Border -->
