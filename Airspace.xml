@@ -341,9 +341,10 @@
         <SID Name="ANRUB1" />
         <SID Name="CARMN1" />
         <SID Name="CATEY1" />
+        <SID Name="COPTE4" />
         <SID Name="JEMMA3" />
-        <SID Name="TLE3" Default="True" />
-        <SID Name="TLN4" Default="True" />
+        <SID Name="TL EA3" Default="True" />
+        <SID Name="TL NO4" Default="True" />
         <SID Name="WALTA2" />
         <STAR Name="IBUX2A" ApproachName="RNPZ" />
         <STAR Name="IGIK2A" ApproachName="RNPZ" />
@@ -16215,6 +16216,9 @@ SAGLI
       <Route Runway="01">-191417.530+1464627.180/AGSIR/AVMAT/LEDOG/VEBTO/ENSOM/CATEY</Route>
       <Route Runway="19">-191529.900+1464553.000/VARBI/IGBIK/ENSOM/CATEY</Route>
     </SID>
+    <SID Name="COPTE4" Airport="YBTL" Runways="01">
+      <Route Runway="01">-191417.530+1464627.180/-191355.654+1464637.593</Route>
+    </SID>
     <SID Name="IGBIK1" Airport="YBTL" Runways="19">
       <Route Runway="19">-191529.900+1464553.000/VARBI/IGBIK</Route>
     </SID>
@@ -16228,10 +16232,10 @@ SAGLI
     <SID Name="RURTO1" Airport="YBTL" Runways="19">
       <Route Runway="19">-191529.900+1464553.000/ORORO/RURTO</Route>
     </SID>
-    <SID Name="TLE3" Airport="YBTL" Runways="01">
-      <Route Runway="01">-191417.530+1464627.180/-191126.260+1464751.630/PCA</Route>
+    <SID Name="TL EA3" Airport="YBTL" Runways="01">
+      <Route Runway="01">-191417.530+1464627.180/-191126.260+1464751.630/-191236.000+1465156.000</Route>
     </SID>
-    <SID Name="TLN4" Airport="YBTL" Runways="01">
+    <SID Name="TL NO4" Airport="YBTL" Runways="01">
       <Route Runway="01">-191417.530+1464627.180/-191126.260+1464751.630/-190847.504+1464416.015</Route>
     </SID>
     <SID Name="WALTA2" Airport="YBTL" Runways="01,19">
