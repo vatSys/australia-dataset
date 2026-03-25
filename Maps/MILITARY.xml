@@ -239,6 +239,35 @@
         AZZAR/
         FENDA
         </Line>
+        <!-- Scherger -->
+        <Symbol Type="SolidTriangle">
+          <Point>-115708.80+1420847.20</Point> <!-- 1-->
+          <Point>-120411.60+1422839.90</Point> <!-- 2 -->
+          <Point>-122004.00+1424219.60</Point> <!-- 3 -->
+          <Point>-124031.80+1424606.30</Point> <!-- 4 -->
+          <Point>-130006.50+1423857.30</Point> <!-- 5 -->
+          <Point>-131332.50+1422245.50</Point> <!-- 6 -->
+          <Point>-131712.90+1420151.70</Point> <!-- 7 -->
+          <Point>-131008.00+1414154.20</Point> <!-- 8 -->
+          <Point>-125412.60+1412815.50</Point> <!-- 9 -->
+          <Point>-123343.80+1412434.70</Point> <!-- 10 -->
+          <Point>-121411.10+1413148.70</Point> <!-- 11 -->
+          <Point>-120048.10+1414759.40</Point> <!-- 12 -->
+        </Symbol>
+        <Label HasLeader="True" LabelOrientation="NW">
+          <Point Name="1">-115708.80+1420847.20</Point>
+          <Point Name="2">-120411.60+1422839.90</Point>
+          <Point Name="3">-122004.00+1424219.60</Point>
+          <Point Name="4">-124031.80+1424606.30</Point>
+          <Point Name="5">-130006.50+1423857.30</Point>
+          <Point Name="6">-131332.50+1422245.50</Point>
+          <Point Name="7">-131712.90+1420151.70</Point>
+          <Point Name="8">-131008.00+1414154.20</Point>
+          <Point Name="9">--125412.60+1412815.50</Point>
+          <Point Name="10">-123343.80+1412434.70</Point>
+          <Point Name="11">-121411.10+1413148.70</Point>
+          <Point Name="12">-120048.10+1414759.40</Point>
+        </Label>
         <!-- Tindal -->
         <Symbol Type="SolidTriangle">
           <Point>-14.140680+132.041505</Point> <!-- BIAK -->
@@ -427,6 +456,29 @@
           <Point Name="EF5">-3201.02+15506.10</Point>
           <Point Name="FG1">-3049.55+15321.62</Point>
           <Point Name="FG2">-3051.57+15326.97</Point>
+        </Label>
+        <!-- Woomera -->
+        <Symbol Type="SolidTriangle">
+          <Point>-312127.000+1364652.000</Point> <!-- ISLAND LAGOON -->
+          <Point>-305833.000+1363232.000</Point> <!-- KOOLYMILKA LAKE -->
+          <Point>-311403.000+1362334.000</Point> <!-- LAKE HART -->
+          <Point>-310535.000+1365822.000</Point> <!-- LAKE RICHARDSON -->
+          <Point>-311817.000+1370318.000</Point> <!-- LAKE WINDABOUT -->
+          <Point>-305044.000+1365218.000</Point> <!-- RED SWAMP -->
+          <Point>-305559.000+1364456.000</Point> <!-- SHELL LAGOON -->
+        </Symbol>
+        <Label HasLeader="True" LabelOrientation="NW">
+          <Point Name="KOOLYMILKA LAKE">-305833.000+1363232.000</Point>
+          <Point Name="LAKE HART">-311403.000+1362334.000</Point>
+          <Point Name="RED SWAMP">-305044.000+1365218.000</Point>
+          <Point Name="SHELL LAGOON">-305559.000+1364456.000</Point>
+        </Label>
+        <Label HasLeader="True" LabelOrientation="NE">
+          <Point Name="LAKE RICHARDSON">-310535.000+1365822.000</Point>
+        </Label>
+        <Label HasLeader="True" LabelOrientation="SE">
+          <Point Name="ISLAND LAGOON">-312127.000+1364652.000</Point>
+          <Point Name="LAKE WINDABOUT">-311817.000+1370318.000</Point>
         </Label>
     </Map>
     <Map Type="System2" Name="MIL_CORRIDORS" Priority="1" Center="-31.940278+115.966944" CustomColourName="Mil2">
