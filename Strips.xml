@@ -285,7 +285,8 @@
                     <StripLayoutLines>
                       <StripLayoutLine>
                         <StripItems>
-                          <StripItem Type="OtherInfo" LeftClick="Label_Field18_Popup" MaxLength="10" MinLength="13" />
+                          <!-- TODO: Reduce length to 13 once CPDLC plugin is in-->
+                          <StripItem Type="OtherInfo" LeftClick="Label_Field18_Popup" MaxLength="10" MinLength="14" />
                         </StripItems>
                       </StripLayoutLine>
                     </StripLayoutLines>
