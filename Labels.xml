@@ -49,9 +49,22 @@
     </DataLine>
     <DataLine>
       <Item Type="LABEL_ITEM_ACID" Colour="" P1_Colour="Warning" P1_BackgroundColour="Emergency" LeftClick="Label_ACID_Menu" MiddleClick="Label_Extend_Toggle" RightClick="Label_SAR_Popup" />
+
+      <!-- Default text status item -->
+      <!-- TODO: Remove once CPDLC plugin is in -->
+      <Item Type="LABEL_ITEM_CPDLC" Colour="" BackgroundColour="CPDLCDownlink" LeftClick="Label_CPDLC_Menu" MiddleClick="Label_CPDLC_Message_Toggle" RightClick="Label_CPDLC_Editor" />
+
+      <!-- CPDLC Plugin: CPDLC Status -->
+      <Item Type="CPDLCPLUGIN_CPDLCSTATUS" />
+      <Item Type="CPDLCPLUGIN_CPDLCSTATUS_BG" BackgroundColour="Custom" />
+
       <Item Type="LABEL_ITEM_CPDLC" Colour="" BackgroundColour="CPDLCDownlink" LeftClick="Label_CPDLC_Menu" MiddleClick="Label_CPDLC_Message_Toggle" RightClick="Label_CPDLC_Editor" />
       <Item Type="LABEL_ITEM_WAKETURBCAT" Colour="" LeftClick="" MiddleClick="" RightClick="" />
       <Item Type="LABEL_ITEM_FIELD18RMK" Colour="" LeftClick="Label_Field18_Popup" MiddleClick="" RightClick="" />
+
+      <!-- CPDLC Plugin: Text Status -->
+      <Item Type="CPDLCPLUGIN_TEXTSTATUS" />
+      <Item Type="CPDLCPLUGIN_TEXTSTATUS_BG" BackgroundColour="Custom" />
     </DataLine>
     <DataLine>
       <Item Type="LABEL_ITEM_LEVEL" Colour="" LeftClick="Label_PRL_Popup" MiddleClick="" RightClick="Label_Move" />
@@ -69,12 +82,6 @@
     <DataLine>
       <Item Type="LABEL_ITEM_OPDATA" BackgroundColour="" Colour="" LeftClick="Label_OpData_Popup" MiddleClick="" RightClick="Label_Toggle_1" />
     </DataLine>
-    <DataLine>
-      <Item Type="CPDLCPLUGIN_CPDLCSTATUS" />
-      <Item Type="CPDLCPLUGIN_CPDLCSTATUS_BG" BackgroundColour="Custom" />
-      <Item Type="CPDLCPLUGIN_TEXTSTATUS" />
-      <Item Type="CPDLCPLUGIN_TEXTSTATUS_BG" BackgroundColour="Custom" />
-    </DataLine>
   </Label>
   <Label Type="Extended" MaximumWidth="11" LabelRectangle="Default">
     <DataLine Visibility="Hidden">
@@ -88,9 +95,21 @@
     </DataLine>
     <DataLine>
       <Item Type="LABEL_ITEM_ACID" Colour="" P1_Colour="Warning" P1_BackgroundColour="Emergency" LeftClick="Label_ACID_Menu" MiddleClick="Label_Extend_Toggle" RightClick="Label_SAR_Popup" />
+      
+      <!-- Default text status item -->
+      <!-- TODO: Remove once CPDLC plugin is in -->
       <Item Type="LABEL_ITEM_CPDLC" Colour="" BackgroundColour="CPDLCDownlink" LeftClick="Label_CPDLC_Menu" MiddleClick="Label_CPDLC_Message_Toggle" RightClick="Label_CPDLC_Editor" />
+
+      <!-- CPDLC Plugin: CPDLC Status -->
+      <Item Type="CPDLCPLUGIN_CPDLCSTATUS" />
+      <Item Type="CPDLCPLUGIN_CPDLCSTATUS_BG" BackgroundColour="Custom" />
+
       <Item Type="LABEL_ITEM_WAKETURBCAT" Colour="" LeftClick="" MiddleClick="" RightClick="" />
       <Item Type="LABEL_ITEM_FIELD18RMK" Colour="" LeftClick="Label_Field18_Popup" MiddleClick="" RightClick="" />
+
+      <!-- CPDLC Plugin: Text Status -->
+      <Item Type="CPDLCPLUGIN_TEXTSTATUS" />
+      <Item Type="CPDLCPLUGIN_TEXTSTATUS_BG" BackgroundColour="Custom" />
     </DataLine>
     <DataLine>
       <Item Type="LABEL_ITEM_LEVEL" Colour="" LeftClick="Label_PRL_Popup" MiddleClick="" RightClick="Label_Move" />
@@ -116,12 +135,6 @@
     </DataLine>
     <DataLine>
       <Item Type="LABEL_ITEM_OPDATA" BackgroundColour="" Colour="" LeftClick="Label_OpData_Popup" MiddleClick="" RightClick="Label_Toggle_1" />
-    </DataLine>
-    <DataLine>
-      <Item Type="CPDLCPLUGIN_CPDLCSTATUS" />
-      <Item Type="CPDLCPLUGIN_CPDLCSTATUS_BG" BackgroundColour="Custom" />
-      <Item Type="CPDLCPLUGIN_TEXTSTATUS" />
-      <Item Type="CPDLCPLUGIN_TEXTSTATUS_BG" BackgroundColour="Custom" />
     </DataLine>
   </Label>
   <Label Type="GroundAir" MaximumWidth="11" LabelRectangle="None">

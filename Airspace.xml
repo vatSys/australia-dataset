@@ -341,9 +341,11 @@
         <SID Name="ANRUB1" />
         <SID Name="CARMN1" />
         <SID Name="CATEY1" />
+        <SID Name="COPTE4" />
         <SID Name="JEMMA3" />
-        <SID Name="TLE3" Default="True" />
-        <SID Name="TLN4" Default="True" />
+        <SID Name="LIGHT1" Type="Jet" />
+        <SID Name="TL EA3" Default="True" />
+        <SID Name="TL NO4" Default="True" />
         <SID Name="WALTA2" />
         <STAR Name="IBUX2A" ApproachName="RNPZ" />
         <STAR Name="IGIK2A" ApproachName="RNPZ" />
@@ -361,6 +363,7 @@
         <SID Name="JEMMA3" />
         <SID Name="KVALM2" />
         <SID Name="RURTO1" />
+        <SID Name="THUND1" Type="Jet" />
         <SID Name="WALTA2" />
         <STAR Name="IBUX2Z" ApproachName="RNPZ" />
         <STAR Name="PORO2B" OpDataFlag="B" ApproachName="VOR" />
@@ -16215,6 +16218,9 @@ SAGLI
       <Route Runway="01">-191417.530+1464627.180/AGSIR/AVMAT/LEDOG/VEBTO/ENSOM/CATEY</Route>
       <Route Runway="19">-191529.900+1464553.000/VARBI/IGBIK/ENSOM/CATEY</Route>
     </SID>
+    <SID Name="COPTE4" Airport="YBTL" Runways="01">
+      <Route Runway="01">-191417.530+1464627.180/-191355.654+1464637.593</Route>
+    </SID>
     <SID Name="IGBIK1" Airport="YBTL" Runways="19">
       <Route Runway="19">-191529.900+1464553.000/VARBI/IGBIK</Route>
     </SID>
@@ -16223,15 +16229,21 @@ SAGLI
       <Route Runway="19">-191529.900+1464553.000/VARBI/DAPLA/SATCO/ODOTA/PINIP/JEMMA</Route>
     </SID>
     <SID Name="KVALM2" Airport="YBTL" Runways="19">
-      <Route Runway="19">-191529.900+1464553.000/TL410/TL414/TL416/KVALM/TL419/TL430/TL436/TL455/JEMMA</Route>
+      <Route Runway="19">-191529.900+1464553.000/-191530.451+1464552.750/TL410/-191612.386+1464534.206/-191630.650+1464529.304/-191646.774+1464526.843/TL414/-191743.327+1464513.899/-191822.648+1464453.710/TL416/TL416/KVALM/-192103.329+1464249.923/-192143.522+1464227.964/-192219.960+1464212.944/TL419/TL430/-192705.532+1464048.262/-192817.754+1464054.461/TL436/-192945.672+1464128.432/-193048.301+1464218.316/-193116.434+1464252.355/TL455/JEMMA</Route>
+    </SID>
+    <SID Name="LIGHT1" Airport="YBTL" Runways="01">
+      <Route Runway="01">-191417.530+1464627.180/-191133.455+1464745.256</Route>
     </SID>
     <SID Name="RURTO1" Airport="YBTL" Runways="19">
-      <Route Runway="19">-191529.900+1464553.000/ORORO/RURTO</Route>
+      <Route Runway="19">-191529.900+1464553.000/-191557.455+1464540.489/ORORO/RURTO</Route>
     </SID>
-    <SID Name="TLE3" Airport="YBTL" Runways="01">
-      <Route Runway="01">-191417.530+1464627.180/-191126.260+1464751.630/PCA</Route>
+    <SID Name="THUND1" Airport="YBTL" Runways="19">
+      <Route Runway="19">-191529.900+1464553.000/-192003.338+1464342.761</Route>
     </SID>
-    <SID Name="TLN4" Airport="YBTL" Runways="01">
+    <SID Name="TL EA3" Airport="YBTL" Runways="01">
+      <Route Runway="01">-191417.530+1464627.180/-191126.260+1464751.630/-191236.000+1465156.000</Route>
+    </SID>
+    <SID Name="TL NO4" Airport="YBTL" Runways="01">
       <Route Runway="01">-191417.530+1464627.180/-191126.260+1464751.630/-190847.504+1464416.015</Route>
     </SID>
     <SID Name="WALTA2" Airport="YBTL" Runways="01,19">
@@ -18123,14 +18135,14 @@ SAGLI
     <Approach Name="RNPZ" Airport="YBTL" Runway="19">
       <Transition Name="ADNOD">ADNOD</Transition>
       <Transition Name="LEBOT">LEBOT</Transition>
-      <Transition Name="TL2SH">TL2NE</Transition>
+      <Transition Name="TL2NE">TL2NE</Transition>
       <Route>TL2NI/TL2NF/TL2NM</Route>
     </Approach>
     <Approach Name="RNP-ARP" Airport="YBTL" Runway="01">
-      <Route>GUGAN/PARPO/TL788/TL780/ESDAM/-191529.900+1464553.000</Route>
+      <Route>GUGAN/PARPO/TL788/-192704.298+1464427.033/-192618.500+1464334.663/-192523.971+1464258.090/TL780/-192357.578+1464232.690/-192250.277+1464235.455/-192203.572+1464249.009/ESDAM/ESDAM/-191529.900+1464553.000</Route>
     </Approach>
     <Approach Name="RNP-ARP" Airport="YBTL" Runway="19">
-      <Route>VILUN/TL688/TL684/BIXAX/TL671/AGVIT/TL670/-191417.530+1464627.180</Route>
+      <Route>VILUN/TL688/-191227.630+1470122.726/-191159.305+1470049.472/-191140.070+1470009.591/-191132.904+1465939.492/TL684/BIXAX/TL671/AGVIT/-191111.876+1464849.472/-191122.708+1464818.349/-191140.777+1464751.253/-191204.853+1464730.031/-191208.256+1464727.938/TL670/-191417.530+1464627.180</Route>
     </Approach>
     <Approach Name="VOR" Airport="YBTL" Runway="19">
       <Transition Name="IBUNO">IBUNO</Transition>
