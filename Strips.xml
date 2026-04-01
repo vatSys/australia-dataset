@@ -33,6 +33,10 @@
                         <StripItems>
                           <StripItem Type="Callsign" LeftClick="Label_ACID_Menu" MiddleClick="Strip_Extend" RightClick="Label_SAR_Popup" MaxLength="8" MinLength="8" FontSize="Large" />
                           
+                          <!-- Default text status item -->
+                          <!-- TODO: Remove once CPDLC plugin is in -->
+                          <StripItem Type="CPDLCStatus" LeftClick="Label_CPDLC_Editor" MinLength="1" />
+
                           <!-- CPDLC Plugin: CPDLC Status -->
                           <StripItem Type="CPDLCPLUGIN_CPDLCSTATUS" MinLength="1" />
                           
