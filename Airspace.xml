@@ -111,7 +111,7 @@
       <Runway Name="01L" DataRunway="01L">
         <SID Name="BIXAD2" />
         <SID Name="BN4" Default="True" />
-        <STAR Name="BLAK7A" ApproachName="RNPZ" />
+        <STAR Name="BLAK8A" ApproachName="RNPZ" />
         <STAR Name="ENLI2A" ApproachName="RNPZ" />
         <STAR Name="GOMO4A" ApproachName="RNPZ" />
         <STAR Name="MORB2A" ApproachName="RNPZ" />
@@ -130,8 +130,8 @@
         <SID Name="SANEG2" Default="True" />
         <SID Name="SCOTT4" />
         <SID Name="WACKO4" />
-        <STAR Name="BLAK7A" ApproachName="RNPZ" />
-        <STAR Name="BLAK7X" OpDataFlag="X" ApproachName="RNP-ARX" />
+        <STAR Name="BLAK8A" ApproachName="RNPZ" />
+        <STAR Name="BLAK8X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="ENLI2A" ApproachName="RNPZ" />
         <STAR Name="GOMO4A" ApproachName="RNPZ" />
         <STAR Name="GOMO4V" OpDataFlag="V" />
@@ -152,8 +152,8 @@
         <SID Name="SANEG2" />
         <SID Name="SCOTT4" />
         <SID Name="WACKO4" />
-        <STAR Name="BLAK7A" ApproachName="RNPZ" />
-        <STAR Name="BLAK7X" OpDataFlag="X" ApproachName="RNP-ARX" />
+        <STAR Name="BLAK8A" ApproachName="RNPZ" />
+        <STAR Name="BLAK8X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="ENLI2A" ApproachName="RNPZ" />
         <STAR Name="ENLI2X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="GOMO4A" ApproachName="RNPZ" />
@@ -170,7 +170,7 @@
         <SID Name="BIXAD2" />
         <SID Name="BN4" Default="True" />
         <SID Name="WACKO4" />
-        <STAR Name="BLAK7A" ApproachName="RNPZ" />
+        <STAR Name="BLAK8A" ApproachName="RNPZ" />
         <STAR Name="ENLI2A" ApproachName="RNPZ" />
         <STAR Name="ENLI2X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="GOMO4A" ApproachName="RNPZ" />
@@ -361,6 +361,7 @@
         <SID Name="JEMMA3" />
         <SID Name="KVALM2" />
         <SID Name="RURTO1" />
+        <SID Name="THUND1" Type="Jet" />
         <SID Name="WALTA2" />
         <STAR Name="IBUX2Z" ApproachName="RNPZ" />
         <STAR Name="PORO2B" OpDataFlag="B" ApproachName="VOR" />
@@ -17007,13 +17008,13 @@ SAGLI
       <Route Runway="22">LESKO/BOBED/JEZZA/ANKED/AMB TAC/BIGIX</Route>
       <Route Runway="33">LESKO/BOBED/JEZZA/ANKED/AMB TAC/BIGIX</Route>
     </STAR>
-    <STAR Name="BLAK7A" Airport="YBBN" Runways="01L,01R,19L,19R">
+    <STAR Name="BLAK8A" Airport="YBBN" Runways="01L,01R,19L,19R">
       <Route Runway="01L">BLAKA/VELKA/BERTI/PONOD/BISEK/VANTI/TANIK</Route>
       <Route Runway="01R">BLAKA/VELKA/BERTI/PONOD/ENTOX/VATRO/PULEX/GLENN</Route>
       <Route Runway="19L">BLAKA/PEGRI/DOGMU/LAGEV/PUBIV/ISPON/OMGUV/BETSO</Route>
       <Route Runway="19R">BLAKA/ELKIK/SUNUB/LAGOB/OVNEB/AMITY/ESLUB/OSEGU/PILIG/LAVIN/OSOKO</Route>
     </STAR>
-    <STAR Name="BLAK7X" Airport="YBBN" Runways="01R,19L">
+    <STAR Name="BLAK8X" Airport="YBBN" Runways="01R,19L">
       <Route Runway="01R">BLAKA/VELKA/ARONU/COTON/KASBA/SORVA</Route>
       <Route Runway="19L">BLAKA/PEGRI/DOGMU/LAGEV/RINKI/PUBIV/ATSEP</Route>
     </STAR>
