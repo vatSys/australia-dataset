@@ -6,6 +6,10 @@
       <Threshold Name="01" Position="-19.258306+146.764722" ExtendedCentrelineTrack="204.16" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="19" Position="-19.238203+146.774217" />
     </Runway>
+    <Runway Name="07/25">
+      <Threshold Name="07" Position="-19.255808+146.755544" ExtendedCentrelineTrack="253.97" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="25" Position="-19.253072+146.765575" />
+    </Runway>
     <!--SIDs-->
     <Line>
       <!--Rwy01 ADNOD1-->
@@ -54,17 +58,6 @@
       GUMUT/
       SUKBU/
       JEMMA
-    </Line>
-    <Line>
-      <!--Rwy01 TLE3-->
-      -191417.530+1464627.180/
-      -191126.260+1464751.630/
-      PCA
-    </Line>
-    <Line>
-      <!--Rwy01 TLN4-->
-      -191126.260+1464751.630/
-      -190847.504+1464416.015
     </Line>
     <Line>
       <!--Rwy01 WALTA2-->
@@ -143,7 +136,6 @@
       <Point>GUMUT</Point>
       <Point>SUKBU</Point>
       <Point>JEMMA</Point>
-      <Point>PCA</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
       <Point>AGPOK</Point>
@@ -182,7 +174,6 @@
       <Point>GUMUT</Point>
       <Point>SUKBU</Point>
       <Point>JEMMA</Point>
-      <Point>PCA</Point>
       <Point>WALTA</Point>
       <Point>IBUXI</Point>
       <Point>TL VOR</Point>
