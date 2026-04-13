@@ -3156,7 +3156,7 @@
         <Line>ATIS available on 133.5</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Tindal Tower" Type="ASD" DefaultCenter="-14.521111+132.377778" DefaultRange="100" MagneticVariation="-3" DynamicInfill="false">
+    <Position Name="Tindal Tower" Type="ASD" DefaultCenter="-14.521111+132.377778" DefaultRange="100" MagneticVariation="-3">
       <Sectors>
         <Sector Name="TN ADC" />
         <Sector Name="TN SMC" />
@@ -3576,7 +3576,7 @@
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Scherger Tower" Type="ASD" DefaultCenter="-12.62389+142.08722" DefaultRange="50" MagneticVariation="-4.9">
+    <Position Name="Scherger Tower" Type="ASD" DefaultCenter="-12.62389+142.08722" DefaultRange="50" MagneticVariation="-4.9"  DynamicInfill="false">
       <Sectors>
         <Sector Name="SG ADC" />
         <Sector Name="SG SMC" />
