@@ -285,6 +285,9 @@
       <Point>PW2NA</Point>
       <Point>PW2NC</Point>
       <Point>PW2ND</Point>
+      <Point>PW3SB</Point>
+      <Point>PW3SE</Point>
+      <Point>PW3SG</Point>
       <Point>CINWD</Point>
       <Point>CINWE</Point>
       <Point>CINWG</Point>
@@ -391,6 +394,7 @@
       <Point>KA2WF</Point>
       <Point>KA2EF</Point>
       <Point>PW2NF</Point>
+      <Point>PW3SF</Point>
       <Point>CINWF</Point>
       <Point>CINEF</Point>
       <Point>SV2WF</Point>
@@ -475,6 +479,7 @@
       <Point>KA2WI</Point>
       <Point>KA2EI</Point>
       <Point>PW2NI</Point>
+      <Point>PW3SI</Point>
       <Point>CINWI</Point>
       <Point>CINEI</Point>
       <Point>SV2WI</Point>
@@ -2410,11 +2415,6 @@
       <Point>PU2ND</Point>
       <Point>PU2NF</Point>
       <Point>PU2NI</Point>
-      <Point>PW3SB</Point>
-      <Point>PW3SE</Point>
-      <Point>PW3SG</Point>
-      <Point>PW3SF</Point>
-      <Point>PW3SI</Point>
       <Point>QB2ND</Point>
       <Point>QB2NE</Point>
       <Point>QB2NG</Point>
@@ -3255,6 +3255,7 @@
       <Point>KA2WF</Point>
       <Point>KA2EF</Point>
       <Point>PW2NF</Point>
+      <Point>PW3SF</Point>
       <Point>CINWF</Point>
       <Point>CINEF</Point>
       <Point>SV2WF</Point>
@@ -3663,7 +3664,6 @@
       <Point>PS2NF</Point>
       <Point>PS2SF</Point>
       <Point>PU2NF</Point>
-      <Point>PW3SF</Point>
       <Point>QB2NF</Point>
       <Point>QB2SF</Point>
       <Point>QL2EF</Point>
@@ -3907,6 +3907,7 @@
       <Point>KA2WI</Point>
       <Point>KA2EI</Point>
       <Point>PW2NI</Point>
+      <Point>PW3SI</Point>
       <Point>CINWI</Point>
       <Point>CINEI</Point>
       <Point>SV2WI</Point>
@@ -4316,7 +4317,6 @@
       <Point>PS2NI</Point>
       <Point>PS2SI</Point>
       <Point>PU2NI</Point>
-      <Point>PW3SI</Point>
       <Point>QB2NI</Point>
       <Point>QB2SI</Point>
       <Point>QL2EI</Point>
@@ -4744,6 +4744,9 @@
       <Point>PW2NA</Point>
       <Point>PW2NC</Point>
       <Point>PW2ND</Point>
+      <Point>PW3SB</Point>
+      <Point>PW3SE</Point>
+      <Point>PW3SG</Point>
       <Point>CINWD</Point>
       <Point>CINWE</Point>
       <Point>CINWG</Point>
@@ -5894,9 +5897,6 @@
       <Point>PU2NA</Point>
       <Point>PU2NC</Point>
       <Point>PU2ND</Point>
-      <Point>PW3SB</Point>
-      <Point>PW3SE</Point>
-      <Point>PW3SG</Point>
       <Point>QB2ND</Point>
       <Point>QB2NE</Point>
       <Point>QB2NG</Point>
@@ -8294,11 +8294,6 @@
     <Line>PU2ND/PU2NI</Line>
     <Line>PU2NI/PU2NF</Line>
     <Line>PU2NM/PU2NF</Line>
-    <Line>PW3SB/PW3SI</Line>
-    <Line>PW3SE/PW3SI</Line>
-    <Line>PW3SG/PW3SI</Line>
-    <Line>PW3SI/PW3SF</Line>
-    <Line>-310923.080+1364840.850/PW3SF</Line>
     <Line>QB2ND/QB2NI</Line>
     <Line>QB2NE/QB2NI</Line>
     <Line>QB2NG/QB2NI</Line>
@@ -9387,6 +9382,10 @@
     <Line>PW2NA/PW2NI</Line>
     <Line>PW2NC/PW2NI</Line>
     <Line>PW2ND/PW2NI</Line>
+    <Line>PW3SI/PW3SF/-310923.080+1364840.850</Line>
+    <Line>PW3SB/PW3SI</Line>
+    <Line>PW3SE/PW3SI</Line>
+    <Line>PW3SG/PW3SI</Line>
     <Line>CINWI/CINWF/-173432.280+1234854.430</Line>
     <Line>CINWD/CINWI</Line>
     <Line>CINWE/CINWI</Line>

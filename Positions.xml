@@ -2419,8 +2419,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="C_LL_LABELS" />
         <Map Name="Sydney/SY_TCU" />
-        <Map Name="Metro_D/BK_ARRS_DEPS" />
-        <Map Name="Metro_D/BK_FULL_NAMES" />
+        <Map Name="Sydney/SY_VFR" />
       </Maps>
       <ATIS>
         <Editor Airport="YSBK" Frequency="120.9" />
@@ -3576,7 +3575,7 @@
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Scherger Tower" Type="ASD" DefaultCenter="-12.62389+142.08722" DefaultRange="50" MagneticVariation="-4.9">
+    <Position Name="Scherger Tower" Type="ASD" DefaultCenter="-12.62389+142.08722" DefaultRange="50" MagneticVariation="-4.9"  DynamicInfill="false">
       <Sectors>
         <Sector Name="SG ADC" />
         <Sector Name="SG SMC" />
