@@ -80,6 +80,13 @@
       <Point>WDN</Point>
       <Point>WOI</Point>
     </Label>
+    <Label HasLeader="True" LabelOrientation="NW">
+      <Point Name="TRANSIT">KMA</Point>
+    </Label>
+    <!--TRANSIT-->
+    <Line Pattern="Dotted">
+      KMA/CONG/WOI/WDN/UDA
+    </Line>
   </Map>
   <Map Type="System2" Name="NW_VFR_FULL_NAME" Priority="1" Center="-34.948889+150.536944">
     <Label HasLeader="True" LabelOrientation="SW">
