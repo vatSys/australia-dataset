@@ -1273,6 +1273,21 @@
             Represents items in XML FIle.
             </summary>
         </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.StripColour">
+            <summary>
+            Represents the strip colour settings.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.StripColour.Type">
+            <summary>
+            Gets or sets strip type.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.StripColour.Colour">
+            <summary>
+            Gets or sets strip colour.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement">
             <summary>
             Represents items in XML FIle.
@@ -2057,7 +2072,7 @@
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.version">
             <summary>
-              Looks up a localized string similar to 0.8.6.
+              Looks up a localized string similar to 0.8.7.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher">
