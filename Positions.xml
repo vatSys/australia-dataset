@@ -2425,6 +2425,29 @@
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Ballina Tower" Type="ASD" DefaultCenter="-285002.000+1533345.000" DefaultRange="65" MagneticVariation="-9.2">
+      <Sectors>
+        <Sector Name="BA ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Gold Coast/CG_COAST" />
+        <Map Name="Gold Coast/CG_TCU" />
+        <Map Name="Gold Coast/BA_RWY06" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBNA" Frequency="128.65" />
+        <Window Airport="YBNA" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="4000" />
+      <ControllerInfo>
+        <Line>Ballina Tower | ATIS available on 128.65</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Bankstown Tower" Type="ASD" DefaultCenter="-33.924444+150.988333" DefaultRange="30" MagneticVariation="-12.6">
       <Sectors>
         <Sector Name="BK ADC" />
@@ -3621,6 +3644,46 @@
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Walton Tower" Type="ASD" DefaultCenter="-335327.000+1504306.000" DefaultRange="60" MagneticVariation="-13">
+      <Sectors>
+        <Sector Name="WS ADC" />
+        <Sector Name="WS SMC" />
+        <Sector Name="WS ACD" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Sydney/SY_COAST" />
+        <Map Name="Sydney/SY_TCU" />
+        <Map Name="Sydney/WS_RWY05" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YSWS" Frequency="127.00" />
+        <Window Airport="YSWS" />
+      </ATIS>
+      <Strips Mode="State" Sort="Alpha" />
+      <CFL QuickLevel="5000" />
+      <ControllerInfo Callsign="WS_TWR">
+        <Line>Walton Tower | PDC YSWS</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+        <Line>ATIS available on 127.0</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="WS_GND">
+        <Line>Walton Ground | PDC YSWS</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+        <Line>ATIS available on 127.0</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="WS_DEL">
+        <Line>Walton Delivery | PDC YSWS</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+        <Line>ATIS available on 127.0</Line>
       </ControllerInfo>
     </Position>
   </Group>
