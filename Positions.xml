@@ -63,6 +63,14 @@
       <Map Name="Sydney/ASMGCS_YSRI_TWY" />
       <Map Name="Sydney/ASMGCS_YSRI_BLD" />
     </Maps>
+    <Position Name="YSWS" Type="ASMGCS" ASMGCSAirport="YSWS" DefaultCenter="-335327.000+1504306.000" DefaultRange="2" MagneticVariation="-12.6" Rotation="47">
+    <Maps>
+      <Map Name="Sydney/ASMGCS_YSWS_RWY" />
+      <Map Name="Sydney/ASMGCS_YSWS_APR" />
+      <Map Name="Sydney/ASMGCS_YSWS_TWY" />
+      <Map Name="Sydney/ASMGCS_YSWS_BLD" />
+    </Maps>
+  </Position>
   </Position>
   <Position Name="YBBN" Type="ASMGCS" ASMGCSAirport="YBBN" DefaultCenter="-27.3942+153.1218" DefaultRange="5" MagneticVariation="-11" Rotation="-15">
     <Maps>
@@ -196,7 +204,7 @@
     <Position Name="Armidale" Type="ASD" DefaultCenter="-3233.200+15056.266" DefaultRange="950" VisibilityRange="600">
       <Sectors>
         <Sector Name="ARL" />
-        <Sector Name="MDE" />
+        <Sector Name="LIG" />
         <Sector Name="MLD" />
         <Sector Name="OCN" />
         <Sector Name="CNK" />
@@ -897,6 +905,14 @@
         <Map Name="Launceston/ASMGCS_YMLT_BLD" />
       </Maps>
     </Position>
+    <Position Name="YBNA" Type="ASMGCS" ASMGCSAirport="YBNA" DefaultCenter="-285002.000+1533345.000" DefaultRange="2" MagneticVariation="-11.7" Rotation="62">
+    <Maps>
+      <Map Name="Gold Coast/ASMGCS_YBNA_RWY" />
+      <Map Name="Gold Coast/ASMGCS_YBNA_APR" />
+      <Map Name="Gold Coast/ASMGCS_YBNA_TWY" />
+      <Map Name="Gold Coast/ASMGCS_YBNA_BLD" />
+    </Maps>
+  </Position>
   </Group>
   <Group Name="Procedural">
     <Position Name="YMAY" Type="ASMGCS" ASMGCSAirport="YMAY" DefaultCenter="-36.069444+146.960000" DefaultRange="1" MagneticVariation="-11.9" Rotation="21">
@@ -1579,7 +1595,7 @@
         <Sector Name="SDS" />
         <Sector Name="SFW" />
         <Sector Name="SFE" />
-        <Sector Name="SRI" />
+        <Sector Name="SYC" />
       </Sectors>
       <ManualVisibility>
         <Point>-33.9461+151.1772</Point>
