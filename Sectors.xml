@@ -12,7 +12,6 @@
   </Sector>
   <Sector FullName="Armidale" Frequency="130.900" Callsign="BN-ARL_CTR" Name="ARL">
     <Volumes>ARL</Volumes>
-    <ResponsibleSectors>LIG,CNK</ResponsibleSectors>
   </Sector>
   <Sector FullName="Ashmore" Frequency="133.400" Callsign="BN-ASH_CTR" Name="ASH">
     <Volumes>ASH</Volumes>
@@ -50,6 +49,9 @@
   </Sector>
   <Sector FullName="Cross" Frequency="135.800" Callsign="ML-SCR_CTR" Name="SCR">
     <Volumes>SCR</Volumes>
+  </Sector>
+  <Sector FullName="Denman" Frequency="134.150" Callsign="BN-DEN_CTR" Name="DEN">
+    <Volumes>DEN</Volumes>
   </Sector>
   <Sector FullName="Downs" Frequency="135.600" Callsign="BN-DOS_CTR" Name="DOS">
     <Volumes>DOS</Volumes>
@@ -135,8 +137,15 @@
   <Sector FullName="Kimberley" Frequency="132.100" Callsign="BN-KIY_CTR" Name="KIY">
     <Volumes>KIY</Volumes>
   </Sector>
+  <Sector FullName="Lightning" Frequency="133.000" Callsign="BN-LIG_CTR" Name="LIG">
+    <Volumes>LIG</Volumes>
+  </Sector>
   <Sector FullName="Leeman" Frequency="122.400" Callsign="ML-LEA_CTR" Name="LEA">
     <Volumes>LEA</Volumes>
+  </Sector>
+  <Sector FullName="Gunnedah" Frequency="121.150" Callsign="BN-GAH_CTR" Name="GAH">
+    <Volumes>GAH</Volumes>
+    <ResponsibleSectors>ARL,CNK,DEN,LIG,MOR,RYS</ResponsibleSectors>
   </Sector>
   <Sector FullName="Maitland" Frequency="132.350" Callsign="BN-MLD_CTR" Name="MLD">
     <Volumes>MLD</Volumes>
@@ -163,20 +172,8 @@
   <Sector FullName="Mount" Frequency="133.700" Callsign="ML-MTK_CTR" Name="MTK">
     <Volumes>MTK</Volumes>
   </Sector>
-  <Sector FullName="Lightning" Frequency="133.000" Callsign="BN-LIG_CTR" Name="LIG">
-    <Volumes>MDE</Volumes>
-  </Sector>
-  <Sector FullName="Gunnedah" Frequency="121.150" Callsign="BN-GAH_CTR" Name="GAH">
-    <Volumes>MDE</Volumes>
-  </Sector>
-  <Sector FullName="Denman" Frequency="134.150" Callsign="BN-DEN_CTR" Name="DEN">
-    <Volumes>MDE</Volumes>
-  </Sector>
   <Sector FullName="Moree" Frequency="134.850" Callsign="BN-MOR_CTR" Name="MOR">
-    <Volumes>MDE</Volumes>
-  </Sector>
-  <Sector FullName="Rylstone" Frequency="119.700" Callsign="BN-RYS_CTR" Name="RYS">
-    <Volumes>MDE</Volumes>
+    <Volumes>MOR</Volumes>
   </Sector>
   <Sector FullName="Mungo" Frequency="132.600" Callsign="ML-MUN_CTR" Name="MUN">
     <Volumes>MUN</Volumes>
@@ -210,6 +207,9 @@
   </Sector>
   <Sector FullName="Port" Frequency="127.000" Callsign="ML-POT_CTR" Name="POT">
     <Volumes>POT</Volumes>
+  </Sector>
+  <Sector FullName="Rylstone" Frequency="119.700" Callsign="BN-RYS_CTR" Name="RYS">
+    <Volumes>RYS</Volumes>
   </Sector>
   <Sector FullName="Snowy" Frequency="124.000" Callsign="ML-SNO_CTR" Name="SNO">
     <Volumes>SNO</Volumes>

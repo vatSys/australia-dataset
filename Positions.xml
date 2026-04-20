@@ -201,11 +201,15 @@
     </Maps>
   </Position>
   <Group Name="Enroute">
-    <Position Name="Armidale" Type="ASD" DefaultCenter="-3233.200+15056.266" DefaultRange="950" VisibilityRange="600">
+    <Position Name="Gunnedah" Type="ASD" DefaultCenter="-305434.000+1495443.000" DefaultRange="950" VisibilityRange="600">
       <Sectors>
+        <Sector Name="GAH" />
         <Sector Name="ARL" />
-        <Sector Name="LIG" />
         <Sector Name="CNK" />
+        <Sector Name="DEN" />
+        <Sector Name="LIG" />
+        <Sector Name="MOR" />
+        <Sector Name="RYS" />
       </Sectors>
       <ManualVisibility>
         <Point>-32.405+150.710</Point>
@@ -240,8 +244,8 @@
     </Position>
     <Position Name="Manning" Type="ASD" DefaultCenter="-330134.000+1525630.000" DefaultRange="950" VisibilityRange="600">
       <Sectors>
-        <Sector Name="MLD" />
         <Sector Name="MNN" />
+        <Sector Name="MLD" />
         <Sector Name="OCN" />
       </Sectors>
       <ManualVisibility>
