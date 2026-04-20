@@ -241,6 +241,43 @@
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Manning" Type="ASD" DefaultCenter="-330134.000+1525630.000" DefaultRange="950" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="MLD" />
+        <Sector Name="MNN" />
+        <Sector Name="OCN" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-310131.000+1531432.000</Point>
+        <Point>-325239.000+1523634.000</Point>
+        <Point>-334455.000+1550545.000</Point>
+        <Point>-351520.000+1531427.000</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="AIRWAY_NOTES" />
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="10000" />
+      <ControllerInfo>
+        <Line>Brisbane Centre</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Huon" Type="ASD" DefaultCenter="-40.859861+146.245167" DefaultRange="730" VisibilityRange="600">
       <Sectors>
         <Sector Name="HUO" />
