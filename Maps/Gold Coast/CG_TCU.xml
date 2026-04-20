@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="CG_TCU" Priority="1" Center="-28.164444+153.504722">
+    <!--YBNA-->
+    <Runway Name="06/24">
+      <Threshold Name="06" Position="-28.835736+153.551808" />
+      <Threshold Name="24" Position="-28.830864+153.570472" />
+    </Runway>
     <!--YBCG-->
     <Runway Name="14/32">
       <Threshold Name="14" Position="-28.156511+153.500706" />
@@ -14,6 +19,7 @@
     <Line>
       <!--H252-->
       BANDA/
+      KAPSA/
       RULGU/
       OMKAX
     </Line>
@@ -64,7 +70,6 @@
     </Line>
     <Line>
       <!--W196-->
-      BNA NDB/
       CFS VOR/
       KADSI/
       UGPOT
@@ -75,6 +80,11 @@
       CFS VOR
     </Line>
     <Line>
+      <!--W256 BNA NDB-->
+      LOSKU/
+      ARM NDB
+    </Line>
+    <Line>
       <!--W786-->
       ALDAR/
       ARM NDB/
@@ -82,9 +92,16 @@
     </Line>
     <Line>
       <!--Y43-->
+      GUXOT/
       BANDA/
       VESOK/
       BERNI
+    </Line>
+    <Line>
+      <!--Y130 BNA NDB-->
+      OLRIP/
+      IDBAB/
+      UPSEL
     </Line>
     <Line>
       <!--Y177-->
@@ -112,25 +129,33 @@
   </Map>
   <Map Type="System2" Name="CG_VFR" Priority="1" Center="-28.164444+153.504722">
     <Symbol Type="HollowSquare">
+      <Point>ASFK</Point>
       <Point>BANG</Point>
       <Point>BENT</Point>
       <Point>BUVY</Point>
+      <Point>BORQ</Point>
+      <Point>BRAK</Point>
       <Point>BCTY</Point>
       <Point>BNCG</Point>
       <Point>BRH</Point>
       <Point>BLGH</Point>
+      <Point>BURN</Point>
       <Point>BBAY</Point>
       <Point>CALT</Point>
       <Point>CARIN</Point>
       <Point>CBRG</Point>
       <Point>CVD</Point>
+      <Point>CLUN</Point>
       <Point>COBA</Point>
       <Point>CGM</Point>
       <Point>CIS</Point>
       <Point>CGD</Point>
+      <Point>DALW</Point>
       <Point>DODI</Point>
       <Point>DOOM</Point>
       <Point>DRLD</Point>
+      <Point>EPFM</Point>
+      <Point>EVLO</Point>
       <Point>FISH</Point>
       <Point>FPK</Point>
       <Point>GWB</Point>
@@ -141,6 +166,7 @@
       <Point>JUP</Point>
       <Point>KCFF</Point>
       <Point>KIRA</Point>
+      <Point>LAWT</Point>
       <Point>MBHB</Point>
       <Point>MCOO</Point>
       <Point>MVT</Point>
@@ -150,6 +176,7 @@
       <Point>MBBY</Point>
       <Point>MUR</Point>
       <Point>NEN</Point>
+      <Point>NEWB</Point>
       <Point>NTT</Point>
       <Point>OFD</Point>
       <Point>SFG</Point>
@@ -164,6 +191,7 @@
       <Point>REDB</Point>
       <Point>ROTC</Point>
       <Point>RUIS</Point>
+      <Point>SALT</Point>
       <Point>SAU</Point>
       <Point>SPT</Point>
       <Point>SPMT</Point>
@@ -182,27 +210,38 @@
       <Point>WTBG</Point>
       <Point>WELL</Point>
       <Point>WNFE</Point>
+      <Point>WOBR</Point>
+      <Point>BROD</Point>
+      <Point>CORK</Point>
     </Symbol>
     <Label HasLeader="True">
+      <Point>ASFK</Point>
       <Point>BANG</Point>
       <Point>BENT</Point>
       <Point>BUVY</Point>
+      <Point>BORQ</Point>
+      <Point>BRAK</Point>
       <Point>BCTY</Point>
       <Point>BNCG</Point>
       <Point>BRH</Point>
       <Point>BLGH</Point>
+      <Point>BURN</Point>
       <Point>BBAY</Point>
       <Point>CALT</Point>
       <Point>CARIN</Point>
       <Point>CBRG</Point>
       <Point>CVD</Point>
+      <Point>CLUN</Point>
       <Point>COBA</Point>
       <Point>CGM</Point>
       <Point>CIS</Point>
       <Point>CGD</Point>
+      <Point>DALW</Point>
       <Point>DODI</Point>
       <Point>DOOM</Point>
       <Point>DRLD</Point>
+      <Point>EPFM</Point>
+      <Point>EVLO</Point>
       <Point>FISH</Point>
       <Point>FPK</Point>
       <Point>GWB</Point>
@@ -213,6 +252,7 @@
       <Point>JUP</Point>
       <Point>KCFF</Point>
       <Point>KIRA</Point>
+      <Point>LAWT</Point>
       <Point>MBHB</Point>
       <Point>MCOO</Point>
       <Point>MVT</Point>
@@ -222,6 +262,7 @@
       <Point>MBBY</Point>
       <Point>MUR</Point>
       <Point>NEN</Point>
+      <Point>NEWB</Point>
       <Point>NTT</Point>
       <Point>OFD</Point>
       <Point>SFG</Point>
@@ -236,6 +277,7 @@
       <Point>REDB</Point>
       <Point>ROTC</Point>
       <Point>RUIS</Point>
+      <Point>SALT</Point>
       <Point>SAU</Point>
       <Point>SPT</Point>
       <Point>SPMT</Point>
@@ -254,6 +296,9 @@
       <Point>WTBG</Point>
       <Point>WELL</Point>
       <Point>WNFE</Point>
+      <Point>WOBR</Point>
+      <Point>BROD</Point>
+      <Point>CORK</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="INLAND">-282503.896+1533107.385</Point>
@@ -265,25 +310,33 @@
   </Map>
   <Map Type="System2" Name="CG_VFR_FULL_NAME" Priority="1" Center="-28.164444+153.504722">
     <Label HasLeader="True" LabelOrientation="SW">
+      <Point Name="ABEAM SUFFOLK PARK">ASFK</Point>
       <Point Name="BANGALOW">BANG</Point>
       <Point Name="BEECHMONT">BENT</Point>
       <Point Name="BOND UNIVERSITY">BUVY</Point>
+      <Point Name="BORAL QUARRIES">BORQ</Point>
+      <Point Name="BREAKWATER">BRAK</Point>
       <Point Name="BRISBANE CBD">BCTY</Point>
       <Point Name="BRISBANE CRICKET GROUND">BNCG</Point>
       <Point Name="BRUNSWICK HEADS">BRH</Point>
       <Point Name="BURLEIGH HEADS">BLGH</Point>
+      <Point Name="BURNS POINT FERRY">BURN</Point>
       <Point Name="BYRON BAY">BBAY</Point>
       <Point Name="CALTEX REFINERY">CALT</Point>
       <Point Name="CARINDALE SHOPPING CENTRE">CARIN</Point>
       <Point Name="CENTENARY BRIDGE">CBRG</Point>
       <Point Name="CLEVELAND">CVD</Point>
+      <Point Name="CLUNES">CLUN</Point>
       <Point Name="COBAKI">COBA</Point>
       <Point Name="CONDONG MILL">CGM</Point>
       <Point Name="COOK ISLAND">CIS</Point>
       <Point Name="CUDGEN HEADLAND">CGD</Point>
+      <Point Name="DALWOOD">DALW</Point>
       <Point Name="DODDS ISLAND">DODI</Point>
       <Point Name="DOOMBEN RACECOURSE">DOOM</Point>
       <Point Name="DREAMWORLD">DRLD</Point>
+      <Point Name="EPIC FARM">EPFM</Point>
+      <Point Name="EVERLONG">EVLO</Point>
       <Point Name="FISHERMANS ISLAND">FISH</Point>
       <Point Name="FLINDERS PEAK">FPK</Point>
       <Point Name="GATEWAY BRIDGE">GWB</Point>
@@ -294,6 +347,7 @@
       <Point Name="JUPITERS CASINO">JUP</Point>
       <Point Name="KINGSCLIFF">KCFF</Point>
       <Point Name="KIRRA">KIRA</Point>
+      <Point Name="LAKE AINSWORTH">LAWT</Point>
       <Point Name="MANLY BOAT HARBOUR">MBHB</Point>
       <Point Name="MOUNT COTTON">MCOO</Point>
       <Point Name="MOUNT GRAVATT">MVT</Point>
@@ -303,6 +357,7 @@
       <Point Name="MULLUMBIMBY">MBBY</Point>
       <Point Name="MURWILLUMBAH">MUR</Point>
       <Point Name="NERANG">NEN</Point>
+      <Point Name="NEWRYBAR">NEWB</Point>
       <Point Name="NIMBIN TV TOWERS">NTT</Point>
       <Point Name="OXENFORD">OFD</Point>
       <Point Name="PARADISE GARDENS">SFG</Point>
@@ -317,6 +372,7 @@
       <Point Name="REDLAND BAY">REDB</Point>
       <Point Name="ROBINA TOWN CENTRE">ROTC</Point>
       <Point Name="RUSSELL ISLAND">RUIS</Point>
+      <Point Name="SALTWATER">SALT</Point>
       <Point Name="SANCTUARY COVE">SAU</Point>
       <Point Name="SOUTHPORT">SPT</Point>
       <Point Name="SPRING MOUNTAIN">SPMT</Point>
@@ -335,6 +391,9 @@
       <Point Name="WALTER TAYLOR BRIDGE">WTBG</Point>
       <Point Name="WELLINGTON PT">WELL</Point>
       <Point Name="WESTERN FREEWAY">WNFE</Point>
+      <Point Name="WOLLONGBAR">WOBR</Point>
+      <Point Name="BROADWATER">BROD</Point>
+      <Point Name="CORAKAI">CORK</Point>
     </Label>
   </Map>
   <Map Type="System" Name="YBCG_ALLRWYS" Priority="2" Center="-28.164444+153.504722">
@@ -347,6 +406,11 @@
     <Runway Name="17/35">
       <Threshold Name="17" Position="-28.164356+153.506753" ExtendedCentrelineTrack="4.09" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="35" Position="-28.169594+153.506331" ExtendedCentrelineTrack="184.09" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
+    </Runway>
+    <!--YBNA-->
+    <Runway Name="06/24">
+      <Threshold Name="06" Position="-28.835736+153.551808" ExtendedCentrelineTrack="253.48" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
+      <Threshold Name="24" Position="-28.830864+153.570472" ExtendedCentrelineTrack="73.49" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
     </Runway>
   </Map>
 </Maps>

@@ -28,6 +28,11 @@
       <Threshold Name="10" Position="-33.601614+150.771247" />
       <Threshold Name="28" Position="-33.607272+150.793219" />
     </Runway>
+    <!--YSWS-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-33.891850+150.695731" />
+      <Threshold Name="23" Position="-33.875036+150.730267" />
+    </Runway>
     <!--YSSY-->
     <Runway Name="07/25">
       <Threshold Name="07" Position="-33.943739+151.163628" />
@@ -67,15 +72,9 @@
       CB VOR
     </Line>
     <Line>
-      <!--H76 RIC NDB-->
-      LOKYA/
-      EMSUR/
-      AVBID/
-      UPVEN
-    </Line>
-    <Line>
       <!--H201-->
       OLTIN/
+      KARDI/
       MONDO/
       LOWEP/
       YAKKA/
@@ -87,26 +86,20 @@
       UPNEX/
       EKIPU/
       WLM NDB/
-      BANDA
+      BANDA/
+      KAPSA
     </Line>
     <Line>
       <!--H530-->
-      BOYSY/
-      IDSUP/
+      STUIE/
+      RUSUM/
+      SHABY/
       EMROT/
       MUDGI/
       UNSAR/
       LASUD/
       IDGIG/
       IPGOK
-    </Line>
-    <Line>
-      <!--H652-->
-      IDOGI/
-      LALIB/
-      IGDAM/
-      SADLO/
-      BOREE
     </Line>
     <Line>
       <!--L521-->
@@ -124,14 +117,23 @@
       NONID/
       SAPOX/
       RIKNI/
-      MARLN
+      MARLN/
+      BIKUS
     </Line>
     <Line>
-      <!--Q155 RIC NDB-->
-      SANAD/
-      UBLOM/
-      ISREV/
-      DUUKE
+      <!--Q28 UPDAK-->
+      TEEVE/
+      PKS VOR
+    </Line>
+    <Line>
+      <!--Q58 UPDAK-->
+      POSUT/
+      EKABO/
+      TIABB/
+      LATAB/
+      DAGVA/
+      UKDUL/
+      UNTAV
     </Line>
     <Line>
       <!--V140-->
@@ -151,34 +153,24 @@
       DUBUS
     </Line>
     <Line>
-      <!--V295-->
-      SOFAL/
-      DU NDB/
-      ENPAG
+      <!--Y50-->
+      NIXIM/
+      RUPOG/
+      TW VOR/
+      ADMOD/
+      IRPIR/
+      IVTON/
+      DABOG/
+      BOREE
     </Line>
     <Line>
-      <!--V316-->
-      RUTOS/
-      SCATZ/
-      ANBAN
-    </Line>
-    <Line>
-      <!--V665 RIC NDB-->
-      MAKOR/
-      OLTIN
-    </Line>
-    <Line>
-      <!--W113-->
-      WG VOR/
-      HAPPI/
-      AKMIR/
-      WELSH/
-      ODALE
-    </Line>
-    <Line>
-      <!--W460 RIC NDB-->
-      BTH NDB/
-      PKS VOR
+      <!--Y52 UPDAK-->
+      GUVBO/
+      OMDOG/
+      ENVOL/
+      RUPEM/
+      TOROB/
+      REVKI
     </Line>
     <Line>
       <!--Y59-->
@@ -187,6 +179,7 @@
       NONUP/
       CULIN/
       TARAL/
+      ENLAD/
       RIVET
     </Line>
     <Line>
@@ -202,18 +195,26 @@
       <Point>BEE</Point>
       <Point>BBH</Point>
       <Point>BWL</Point>
+      <Point>BWKS</Point>
       <Point>BRY</Point>
       <Point>BBG</Point>
+      <Point>BLEP</Point>
+      <Point>CRST</Point>
       <Point>CAMB</Point>
       <Point>CBY</Point>
       <Point>CAPS</Point>
+      <Point>CAST</Point>
+      <Point>CPIT</Point>
       <Point>CHAT</Point>
       <Point>CNTH</Point>
       <Point>CSTH</Point>
       <Point>CWST</Point>
       <Point>CUL</Point>
+      <Point>CRSC</Point>
       <Point>DHH</Point>
       <Point>DLPT</Point>
+      <Point>EMPS</Point>
+      <Point>EDNR</Point>
       <Point>ERSK</Point>
       <Point>GRB</Point>
       <Point>GVB</Point>
@@ -221,7 +222,7 @@
       <Point>HBB</Point>
       <Point>HNB</Point>
       <Point>HSY</Point>
-      <Point>INGL</Point>
+      <Point>HXPR</Point>
       <Point>JIBN</Point>
       <Point>KMA</Point>
       <Point>KRMD</Point>
@@ -232,8 +233,12 @@
       <Point>MYF</Point>
       <Point>MEG</Point>
       <Point>MPSC</Point>
+      <Point>MAGG</Point>
       <Point>MTB</Point>
+      <Point>MFGC</Point>
+      <Point>MULG</Point>
       <Point>NPBR</Point>
+      <Point>NCAM</Point>
       <Point>NOHD</Point>
       <Point>ONPK</Point>
       <Point>PRT</Point>
@@ -250,7 +255,9 @@
       <Point>RCB</Point>
       <Point>RYB</Point>
       <Point>SECF</Point>
+      <Point>SITS</Point>
       <Point>SPIT</Point>
+      <Point>SSKP</Point>
       <Point>SIS</Point>
       <Point>SLL</Point>
       <Point>SUD</Point>
@@ -260,6 +267,7 @@
       <Point>THK</Point>
       <Point>APST</Point>
       <Point>TWRN</Point>
+      <Point>VCBR</Point>
       <Point>WAD</Point>
       <Point>WFM</Point>
       <Point>WFL</Point>
@@ -267,6 +275,7 @@
       <Point>WSFR</Point>
       <Point>MVI</Point>
       <Point>PUTY</Point>
+      <Point>MSV</Point>
     </Symbol>
     <Label HasLeader="True">
       <Point>APPN</Point>
@@ -274,18 +283,26 @@
       <Point>BEE</Point>
       <Point>BBH</Point>
       <Point>BWL</Point>
+      <Point>BWKS</Point>
       <Point>BRY</Point>
       <Point>BBG</Point>
+      <Point>BLEP</Point>
+      <Point>CRST</Point>
       <Point>CAMB</Point>
       <Point>CBY</Point>
       <Point>CAPS</Point>
+      <Point>CAST</Point>
+      <Point>CPIT</Point>
       <Point>CHAT</Point>
       <Point>CNTH</Point>
       <Point>CSTH</Point>
       <Point>CWST</Point>
       <Point>CUL</Point>
+      <Point>CRSC</Point>
       <Point>DHH</Point>
       <Point>DLPT</Point>
+      <Point>EMPS</Point>
+      <Point>EDNR</Point>
       <Point>ERSK</Point>
       <Point>GRB</Point>
       <Point>GVB</Point>
@@ -293,7 +310,7 @@
       <Point>HBB</Point>
       <Point>HNB</Point>
       <Point>HSY</Point>
-      <Point>INGL</Point>
+      <Point>HXPR</Point>
       <Point>JIBN</Point>
       <Point>KMA</Point>
       <Point>KRMD</Point>
@@ -304,8 +321,12 @@
       <Point>MYF</Point>
       <Point>MEG</Point>
       <Point>MPSC</Point>
+      <Point>MAGG</Point>
       <Point>MTB</Point>
+      <Point>MFGC</Point>
+      <Point>MULG</Point>
       <Point>NPBR</Point>
+      <Point>NCAM</Point>
       <Point>NOHD</Point>
       <Point>ONPK</Point>
       <Point>PRT</Point>
@@ -322,7 +343,9 @@
       <Point>RCB</Point>
       <Point>RYB</Point>
       <Point>SECF</Point>
+      <Point>SITS</Point>
       <Point>SPIT</Point>
+      <Point>SSKP</Point>
       <Point>SIS</Point>
       <Point>SLL</Point>
       <Point>SUD</Point>
@@ -332,6 +355,7 @@
       <Point>THK</Point>
       <Point>APST</Point>
       <Point>TWRN</Point>
+      <Point>VCBR</Point>
       <Point>WAD</Point>
       <Point>WFM</Point>
       <Point>WFL</Point>
@@ -339,6 +363,7 @@
       <Point>WSFR</Point>
       <Point>MVI</Point>
       <Point>PUTY</Point>
+      <Point>MSV</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="RIC_ROUTE">WSFR</Point>
@@ -385,18 +410,26 @@
       <Point Name="BERILEE">BEE</Point>
       <Point Name="BOTANY BAY HEADS">BBH</Point>
       <Point Name="BOWRAL">BWL</Point>
+      <Point Name="BRICKWORKS">BWKS</Point>
       <Point Name="BRINGELLY">BRY</Point>
       <Point Name="BROOKLYN BRIDGE">BBG</Point>
+      <Point Name="BUNNINGS LEPPINGTON">BLEP</Point>
+      <Point Name="CAMPBELLTOWN RAILWAY STATION">CRST</Point>
       <Point Name="CAMPBELLTOWN UNIVERSITY">CAMB</Point>
       <Point Name="CANTERBURY RACECOURSE">CBY</Point>
       <Point Name="CAPE BANKS">CAPS</Point>
+      <Point Name="CASTLE TOWERS">CAST</Point>
+      <Point Name="CECIL PARK INTERSECTION OF M12 AND M7">CPIT</Point>
       <Point Name="CHATSWOOD CBD">CHAT</Point>
       <Point Name="CHOPPERS NORTH">CNTH</Point>
       <Point Name="CHOPPERS SOUTH">CSTH</Point>
       <Point Name="CHOPPERS WEST">CWST</Point>
       <Point Name="CRONULLA">CUL</Point>
+      <Point Name="CROSSROADS SHOPPING CENTRE">CRSC</Point>
       <Point Name="DARLING HARBOUR">DHH</Point>
       <Point Name="DOLLS POINT">DLPT</Point>
+      <Point Name="EDMONDSON PARK STATION">EMPS</Point>
+      <Point Name="ELIZABETH DR AND THE NORTHERN RD INT">EDNR</Point>
       <Point Name="ERSKINEVILLE OVAL">ERSK</Point>
       <Point Name="GEORGES RIVER BRIDGE">GRB</Point>
       <Point Name="GLADESVILLE BRIDGE">GVB</Point>
@@ -404,7 +437,7 @@
       <Point Name="HARBOUR BRIDGE">HBB</Point>
       <Point Name="HELENSBURGH">HNB</Point>
       <Point Name="HORNSBY">HSY</Point>
-      <Point Name="INGLEBURN">INGL</Point>
+      <Point Name="HOXTON PARK ROAD">HXPR</Point>
       <Point Name="JIBBON PT">JIBN</Point>
       <Point Name="KIAMA">KMA</Point>
       <Point Name="KURMOND">KRMD</Point>
@@ -415,8 +448,12 @@
       <Point Name="MAYFIELD">MYF</Point>
       <Point Name="MENANGLE">MEG</Point>
       <Point Name="MOORE PARK SUPA CENTRE">MPSC</Point>
+      <Point Name="MOUNT ANNAN GARDENS GREENHOUSE">MAGG</Point>
       <Point Name="MOUNT BOYCE">MTB</Point>
+      <Point Name="MUIRFIELD GOLF CLUB">MFGC</Point>
+      <Point Name="MULGOA">MULG</Point>
       <Point Name="NEPEAN BRIDGE">NPBR</Point>
+      <Point Name="NORTH CAMDEN">NCAM</Point>
       <Point Name="NORTH HEAD">NOHD</Point>
       <Point Name="ORAN PARK">ONPK</Point>
       <Point Name="PARRAMATTA">PRT</Point>
@@ -433,7 +470,9 @@
       <Point Name="RUSH CUTTERS BAY">RCB</Point>
       <Point Name="RYDE BRIDGE">RYB</Point>
       <Point Name="SEA CLIFF BRIDGE">SECF</Point>
+      <Point Name="SEVEN HILLS TRAIN STATION">SITS</Point>
       <Point Name="SPIT BRIDGE">SPIT</Point>
+      <Point Name="ST HELENS SKATE PARK">SSKP</Point>
       <Point Name="ST IVES SHOWGROUND">SIS</Point>
       <Point Name="STANWELL PARK">SLL</Point>
       <Point Name="SUTHERLAND">SUD</Point>
@@ -443,6 +482,7 @@
       <Point Name="THE OAKS">THK</Point>
       <Point Name="THE STAMFORD (HOTEL)">APST</Point>
       <Point Name="TWO RN">TWRN</Point>
+      <Point Name="VICTORIA BRIDGE">VCBR</Point>
       <Point Name="WARRAGAMBA DAM">WAD</Point>
       <Point Name="WARWICK FARM">WFM</Point>
       <Point Name="WATERFALL">WFL</Point>
@@ -450,6 +490,7 @@
       <Point Name="WISEMANS FERRY">WSFR</Point>
       <Point Name="MOUNT VICTORIA">MVI</Point>
       <Point Name="PUTTY">PUTY</Point>
+      <Point Name="MOSS VALE">MSV</Point>
     </Label>
   </Map>
   <Map Type="System2" Name="SY_HELO" Priority="1" Center="-33.946111+151.177222">
@@ -528,6 +569,11 @@
     <Runway Name="10/28">
       <Threshold Name="10" Position="-33.601614+150.771247" ExtendedCentrelineTrack="287.1" ExtendedCentrelineLength="5" ExtendedCentrelineTickInterval="5" />
       <Threshold Name="28" Position="-33.607272+150.793219" ExtendedCentrelineTrack="107.11" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+    </Runway>
+    <!--YSWS-->
+    <Runway Name="05/23">
+      <Threshold Name="05" Position="-33.891850+150.695731" />
+      <Threshold Name="23" Position="-33.875036+150.730267" />
     </Runway>
   </Map>
 </Maps>

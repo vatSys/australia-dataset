@@ -726,6 +726,25 @@
     +000000.000+1600000.000/
     +000000.000+1410000.000
   </Boundary>
+  <Boundary Name="BALLINA_CONTROL_ZONE_(D)">
+        -284454.000+1533911.000/
+        -284820.000+1532601.000/
+        -284848.840+1532552.936/
+        -285001.765+1532545.560/
+        -285114.704+1532552.752/
+        -285225.440+1532614.301/
+        -285331.823+1532649.560/
+        -285431.832+1532737.463/
+        -285505.000+1532813.000/
+        -285136.000+1534131.000/
+        -285114.704+1534137.248/
+        -285001.765+1534144.440/
+        -284848.840+1534137.064/
+        -284738.144+1534115.354/
+        -284631.824+1534039.975/
+        -284531.891+1533952.008/
+        -284454.000+1533911.000
+  </Boundary>
   <Boundary Name="BANKSTOWN_CONTROL_ZONE_(D)">
     -335753.000+1505719.000/
     -335349.000+1505617.000/
@@ -4767,6 +4786,19 @@
     -142316.043+1451745.058/
     -142518.000+1450511.000
   </Boundary>
+  <Boundary Name="WESTERN_SYDNEY_CONTROL_ZONE_(C)">
+    -335939.000+1503615.000/
+    -335623.000+1503358.000/
+    -335358.000+1503428.000/
+    -335241.000+1503618.000/
+    -334721.000+1504715.000/
+    -334735.000+1504945.000/
+    -334944.000+1505116.000/
+    -335218.000+1505032.000/
+    -335519.000+1504425.000/
+    -335634.000+1504238.000/
+    -335939.000+1503615.000
+  </Boundary>
   <Boundary Name="WILLIAMTOWN_APPROACH">
     -323602.000+1512351.000/
     -323517.375+1512417.231/
@@ -5775,6 +5807,9 @@
   <Volume Name="GUN_CB_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>GUNDAGAI_CB_CAP</Boundaries>
   </Volume>
+  <Volume Name="BATWR" LowerLimit="0" UpperLimit="1500">
+    <Boundaries>BALLINA_CONTROL_ZONE_(D)</Boundaries>
+  </Volume>
   <Volume Name="BKE" LowerLimit="0" UpperLimit="60000">
     <Boundaries>BOURKE</Boundaries>
   </Volume>
@@ -6257,6 +6292,9 @@
   </Volume>
   <Volume Name="WLMTWR" LowerLimit="0" UpperLimit="1500">
     <Boundaries>WILLIAMTOWN_CONTROL_ZONE_A_(C)</Boundaries>
+  </Volume>
+  <Volume Name="WSTWR" LowerLimit="0" UpperLimit="1500">
+    <Boundaries>WESTERN_SYDNEY_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
   <Volume Name="WOL" LowerLimit="0" UpperLimit="60000">
     <Boundaries>WOLLONGONG</Boundaries>

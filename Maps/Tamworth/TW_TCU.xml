@@ -21,7 +21,9 @@
     <!--Airway Routes-->
     <Line>
       <!--H66-->
+      SPLIZ/
       MUDGI/
+      LIPDI/
       UPVEN/
       URKER
     </Line>
@@ -43,16 +45,6 @@
       MATLA/
       KEXAR/
       EKIBI
-    </Line>
-    <Line>
-      <!--V258-->
-      BIARO/
-      NBR NDB
-    </Line>
-    <Line>
-      <!--V417-->
-      NBR NDB/
-      OLRON
     </Line>
     <Line>
       <!--V417-->
@@ -94,7 +86,8 @@
       <!--W411-->
       DULIN/
       VONDO/
-      MASMI
+      MASMI/
+      POSUT
     </Line>
     <Line>
       <!--W411-->
@@ -110,9 +103,32 @@
     <Line>
       <!--W542-->
       MOR NDB/
+      OVNOM
+    </Line>
+    <Line>
+      <!--Y50-->
       OVNOM/
-      OLKUR/
-      OMGOS
+      NIXIM/
+      RUPOG
+    </Line>
+    <Line>
+      <!--Y50-->
+      ADMOD/
+      IRPIR/
+      IVTON/
+      DABOG/
+      BOREE/
+      TESAT
+    </Line>
+    <Line>
+      <!--Z321-->
+      BIARO/
+      NBR NDB
+    </Line>
+    <Line>
+      <!--Z511-->
+      NBR NDB/
+      OLRON
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>VETAK</Point>
@@ -120,7 +136,9 @@
   </Map>
   <Map Type="System" Name="TW_TCU_NAMES" Priority="2" Center="-31.083889+150.846667">
     <Label>
+      <Point>SPLIZ</Point>
       <Point>MUDGI</Point>
+      <Point>LIPDI</Point>
       <Point>UPVEN</Point>
       <Point>URKER</Point>
       <Point>PEBDO</Point>
@@ -136,9 +154,6 @@
       <Point>MATLA</Point>
       <Point>KEXAR</Point>
       <Point>EKIBI</Point>
-      <Point>BIARO</Point>
-      <Point>NBR NDB</Point>
-      <Point>OLRON</Point>
       <Point>TIMBO</Point>
       <Point>LAXUM</Point>
       <Point>WLM NDB</Point>
@@ -156,6 +171,7 @@
       <Point>DULIN</Point>
       <Point>VONDO</Point>
       <Point>MASMI</Point>
+      <Point>POSUT</Point>
       <Point>OSRAR</Point>
       <Point>UNSAR</Point>
       <Point>DU NDB</Point>
@@ -163,8 +179,17 @@
       <Point>GFN NDB</Point>
       <Point>MOR NDB</Point>
       <Point>OVNOM</Point>
-      <Point>OLKUR</Point>
-      <Point>OMGOS</Point>
+      <Point>NIXIM</Point>
+      <Point>RUPOG</Point>
+      <Point>ADMOD</Point>
+      <Point>IRPIR</Point>
+      <Point>IVTON</Point>
+      <Point>DABOG</Point>
+      <Point>BOREE</Point>
+      <Point>TESAT</Point>
+      <Point>BIARO</Point>
+      <Point>NBR NDB</Point>
+      <Point>OLRON</Point>
       <Point>VETAK</Point>
     </Label>
   </Map>
