@@ -1,23 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="AIRWAY_NOTES" Priority="1">
-    <!-- AKMIR Reroute-->
-    <Line Pattern="Broken">
-	  MAKKA/
-	  ANNKY/
-	  AKMIR
-    </Line>
-    <Symbol Type="SolidSquare">
-      <Point>MAKKA</Point>
-      <Point>ANNKY</Point>
-      <Point>AKMIR</Point>
-    </Symbol>
-    <Label>
-      <Point>MAKKA</Point>
-      <Point>AKMIR</Point>
-      <Point>WELSH</Point>
-      <Point>ODALE</Point>
-    </Label>
     <!--GOLD COAST NE Arrivals-->
     <Line Pattern="Broken">
 	  IDRIL/
