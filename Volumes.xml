@@ -535,10 +535,10 @@
     -301740.000+1494704.000/
     -285621.000+1491711.000
   </Boundary>
-  <Boundary Name="DENMAN_A">
-    -324347.000+1500738.000/
-    -323829.877+1501730.817/
-    -323158.251+1503426.549/
+  <Boundary Name="DENMAN">
+    -321057.000+1500255.000/
+    -313715.000+1503551.000/
+    -320502.000+1503653.000/
     -323051.000+1503751.000/
     -330110.000+1503900.000/
     -331422.000+1505212.000/
@@ -547,49 +547,25 @@
     -330620.000+1501238.000/
     -330442.000+1501040.000/
     -325524.000+1500919.000/
-    -324347.000+1500738.000
-  </Boundary>
-  <Boundary Name="DENMAN_B">
-    -321057.000+1500255.000/
-    -313715.000+1503551.000/
-    -320502.000+1503653.000/
-    -323051.000+1503751.000/
-    -323158.251+1503426.549/
-    -323829.877+1501730.817/
     -324347.000+1500738.000/
     -322132.000+1500426.000/
     -321057.000+1500255.000
   </Boundary>
-  <Boundary Name="RYLSTONE_A">
-    -331103.000+1495212.000/
-    -330450.941+1495748.705/
-    -325523.000+1500918.000/
-    -330442.000+1501040.000/
-    -332225.000+1503157.000/
-    -333003.000+1501311.000/
-    -331836.000+1500031.000/
-    -331103.000+1495212.000
-  </Boundary>
-  <Boundary Name="RYLSTONE_B">
-    -324303.000+1492142.000/
-    -323339.000+1493537.000/
-    -322132.000+1500426.000/
-    -324347.000+1500738.000/
-    -325523.000+1500918.000/
-    -330450.941+1495748.705/
-    -331103.000+1495212.000/
-    -324914.000+1492824.000/
-    -324303.000+1492142.000
-  </Boundary>
-  <Boundary Name="RYLSTONE_C">
+  <Boundary Name="RYLSTONE">
     -311506.000+1481114.000/
     -310853.000+1482149.000/
     -304714.000+1485813.000/
     -301740.000+1494704.000/
     -321057.000+1500255.000/
     -322132.000+1500426.000/
-    -322407.000+1495819.000/
-    -323339.000+1493537.000/
+    -324347.000+1500738.000/
+    -325523.000+1500918.000/
+    -330442.000+1501040.000/
+    -332225.000+1503157.000/
+    -333003.000+1501311.000/
+    -331836.000+1500031.000/
+    -331103.000+1495212.000/
+    -324914.000+1492824.000/
     -324303.000+1492142.000/
     -322023.000+1490219.000/
     -320540.000+1484951.000/
@@ -4214,6 +4190,10 @@
     -33.877267+151.182500
   </Boundary>
   <Boundary Name="SY_TMA_FULL">
+    -333003.000+1501311.000/
+    -331611.000+1504709.000/
+    -331419.458+1505232.936/
+    -331218.666+1510136.669/
     -331138.000+1511057.000/
     -331218.666+1512017.331/
     -331419.458+1512921.064/
@@ -4238,19 +4218,17 @@
     -343533.255+1504337.108/
     -343101.347+1503550.694/
     -342526.478+1502909.580/
-    -341859.011+1502345.943/
-    -341150.897+1501949.445/
-    -340415.284+1501726.969/
-    -335626.106+1501642.444/
-    -334837.645+1501736.776/
-    -334104.098+1502007.876/
-    -333359.147+1502410.775/
-    -332735.562+1502937.820/
-    -332204.823+1503618.935/
-    -331736.797+1504401.944/
-    -331419.458+1505232.936/
-    -331218.666+1510136.669/
-    -331138.000+1511057.000
+    -342025.000+1502454.000/
+    -342325.000+1502002.000/
+    -341704.000+1501558.000/
+    -341046.000+1501313.000/
+    -340739.000+1501216.000/
+    -340520.000+1500537.000/
+    -335719.000+1500451.000/
+    -335620.233+1500439.260/
+    -334647.785+1500546.987/
+    -333733.744+1500852.808/
+    -333003.000+1501311.000
   </Boundary>
   <Boundary Name="TABLETOP">
     -181748.000+1435032.000/
@@ -5955,6 +5933,9 @@
   <Volume Name="CVN" LowerLimit="0" UpperLimit="60000">
     <Boundaries>CARNARVON</Boundaries>
   </Volume>
+  <Volume Name="DAL" LowerLimit="0" UpperLimit="60000">
+    <Boundaries>DALLY</Boundaries>
+  </Volume>
   <Volume Name="DNA" LowerLimit="0" UpperLimit="18000">
     <Boundaries>DARWIN_CTA_C4</Boundaries>
   </Volume>
@@ -5962,7 +5943,7 @@
     <Boundaries>DARWIN_CONTROL_ZONE_(C)</Boundaries>
   </Volume>
   <Volume Name="DEN" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>DENMAN_A,DENMAN_B</Boundaries>
+    <Boundaries>DENMAN</Boundaries>
   </Volume>
   <Volume Name="DOS" LowerLimit="0" UpperLimit="60000">
     <Boundaries>DOWNS</Boundaries>
@@ -6031,7 +6012,7 @@
     <Boundaries>GRIFFITH</Boundaries>
   </Volume>
   <Volume Name="GVE" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>DALLY,GROVE</Boundaries>
+    <Boundaries>GROVE</Boundaries>
   </Volume>
   <Volume Name="HBA" LowerLimit="0" UpperLimit="24500">
     <Boundaries>HOBART_APPROACH</Boundaries>
@@ -6123,6 +6104,9 @@
   <Volume Name="LIG" LowerLimit="0" UpperLimit="60000">
     <Boundaries>LIGHTNING</Boundaries>
   </Volume>
+  <Volume Name="LEO" LowerLimit="0" UpperLimit="60000">
+    <Boundaries>LEONORA</Boundaries>
+  </Volume>
   <Volume Name="MEK" LowerLimit="0" UpperLimit="60000">
     <Boundaries>MEEKATHARRA</Boundaries>
   </Volume>
@@ -6145,7 +6129,7 @@
     <Boundaries>MUNGO</Boundaries>
   </Volume>
   <Volume Name="MZI" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>LEONORA,MENZIES</Boundaries>
+    <Boundaries>MENZIES</Boundaries>
   </Volume>
   <Volume Name="NEW" LowerLimit="0" UpperLimit="60000">
     <Boundaries>NEWMAN</Boundaries>
@@ -6241,7 +6225,7 @@
     <Boundaries>ROCKHAMPTON_CONTROL_ZONE_(D)</Boundaries>
   </Volume>
   <Volume Name="RYS" LowerLimit="0" UpperLimit="60000">
-    <Boundaries>RYLSTONE_A,RYLSTONE_B,RYLSTONE_C</Boundaries>
+    <Boundaries>RYLSTONE</Boundaries>
   </Volume>
   <Volume Name="SYA" LowerLimit="0" UpperLimit="28000">
     <Boundaries>SY_TMA_FULL</Boundaries>
