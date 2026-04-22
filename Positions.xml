@@ -200,659 +200,6 @@
       <Map Name="Learmonth/ASMGCS_YPLM_BLD" />
     </Maps>
   </Position>
-  <Group Name="Enroute">
-    <Position Name="Gunnedah" Type="ASD" DefaultCenter="-305434.000+1495443.000" DefaultRange="950" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="GAH" />
-        <Sector Name="ARL" />
-        <Sector Name="CNK" />
-        <Sector Name="DEN" />
-        <Sector Name="LIG" />
-        <Sector Name="MOR" />
-        <Sector Name="RYS" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-32.405+150.710</Point>
-        <Point>-24.802+150.787</Point>
-        <Point>-19.656+140.362</Point>
-        <Point>-32.507+140.712</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="10000" />
-      <ControllerInfo>
-        <Line>Brisbane Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Manning" Type="ASD" DefaultCenter="-330134.000+1525630.000" DefaultRange="950" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="MNN" />
-        <Sector Name="MLD" />
-        <Sector Name="OCN" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-310131.000+1531432.000</Point>
-        <Point>-325239.000+1523634.000</Point>
-        <Point>-334455.000+1550545.000</Point>
-        <Point>-351520.000+1531427.000</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="10000" />
-      <ControllerInfo>
-        <Line>Brisbane Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Huon" Type="ASD" DefaultCenter="-40.859861+146.245167" DefaultRange="730" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="HUO" />
-        <Sector Name="WON" />
-        <Sector Name="HBA" />
-        <Sector Name="LTA" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-41.115+146.038</Point>
-        <Point>-33.804+148.270</Point>
-        <Point>-33.158+140.723</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="25000" />
-      <ControllerInfo>
-        <Line>Melbourne Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Mt Isa" Type="ASD" DefaultCenter="-194924.2967+1405500.9521" DefaultRange="2751" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="ISA" />
-        <Sector Name="WEG" />
-        <Sector Name="ARA" />
-        <Sector Name="STR" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-152747.6868+1234623.9905</Point>
-        <Point>-152103.1805+1362648.3435</Point>
-        <Point>-203937.2766+1464854.3384</Point>
-        <Point>-272304.1469+1543929.8608</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-        <Map Name="NEIGHBOUR_SUBSECTORS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="25000" />
-      <ControllerInfo>
-        <Line>Brisbane Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Inverell" Type="ASD" DefaultCenter="-273810.000+1531547.000" DefaultRange="1200" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="INL" />
-        <Sector Name="DOS" />
-        <Sector Name="BUR" />
-        <Sector Name="SDY" />
-        <Sector Name="GOL" />
-        <Sector Name="NSA" />
-        <Sector Name="BAN" />
-        <Sector Name="BAC" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-25.725+150.343</Point>
-        <Point>-31.391+150.777</Point>
-        <Point>-19.010+147.268</Point>
-        <Point>-23.163+141.507</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="9000" />
-      <ControllerInfo>
-        <Line>Brisbane Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Keppel" Type="ASD" DefaultCenter="-240656.000+1495402.000" DefaultRange="1200" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="KPL" />
-        <Sector Name="CVN" />
-        <Sector Name="SWY" />
-        <Sector Name="MKA" />
-        <Sector Name="RKA" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-25.725+150.343</Point>
-        <Point>-31.391+150.777</Point>
-        <Point>-19.010+147.268</Point>
-        <Point>-23.163+141.507</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="9000" />
-      <ControllerInfo>
-        <Line>Brisbane Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Howe" Type="ASD" DefaultCenter="-302049.482+1585027.3377" DefaultRange="1600" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="HWE" />
-      </Sectors>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="25000" />
-      <ControllerInfo>
-        <Line>Brisbane Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="2000" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="TRT" />
-        <Sector Name="KIY" />
-        <Sector Name="ASH" />
-        <Sector Name="TRS" />
-        <Sector Name="DAE" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-16.000+126.986</Point>
-        <Point>-14.930+119.923</Point>
-        <Point>-13.403+129.478</Point>
-        <Point>-19.447+130.986</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-        <Map Name="NEIGHBOUR_SUBSECTORS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="10000" />
-      <ControllerInfo>
-        <Line>Brisbane Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Alice Springs" Type="ASD" DefaultCenter="-302041.5031+1342547.7539" DefaultRange="2610" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="ASP" />
-        <Sector Name="ASW" />
-        <Sector Name="WAR" />
-        <Sector Name="BKE" />
-        <Sector Name="FOR" />
-        <Sector Name="WRA" />
-        <Sector Name="ESP" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-270442.0946+1175658.5059</Point>
-        <Point>-290512.410+1264202.2137</Point>
-        <Point>-302918.4442+1332130.6189</Point>
-        <Point>-360329.0012+1424738.5877</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="25000" />
-      <ControllerInfo>
-        <Line>Melbourne Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Hyden" Type="ASD" DefaultCenter="-32.179139+116.762333" DefaultRange="1200" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="HYD" />
-        <Sector Name="PIY" />
-        <Sector Name="JAR" />
-        <Sector Name="SCR" />
-        <Sector Name="GVE" />
-        <Sector Name="LEA" />
-        <Sector Name="GEL" />
-        <Sector Name="PHA" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-32.999+119.788</Point>
-        <Point>-27.353+116.633</Point>
-        <Point>-25.820+123.212</Point>
-        <Point>-22.015+116.355</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="9000" />
-      <ControllerInfo>
-        <Line>Melbourne Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Onslow" Type="ASD" DefaultCenter="-243721.9113+1183247.2943" DefaultRange="1800" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="OLW" />
-        <Sector Name="POT" />
-        <Sector Name="MEK" />
-        <Sector Name="PAR" />
-        <Sector Name="NEW" />
-        <Sector Name="MTK" />
-        <Sector Name="MZI" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-32.999+119.788</Point>
-        <Point>-27.353+116.633</Point>
-        <Point>-25.820+123.212</Point>
-        <Point>-22.015+116.355</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="25000" />
-      <ControllerInfo>
-        <Line>Melbourne Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Kennedy" Type="ASD" DefaultCenter="-164428.000+1470710.000" DefaultRange="1100" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="KEN" />
-        <Sector Name="TBP" />
-        <Sector Name="WIL" />
-        <Sector Name="BAR" />
-        <Sector Name="CS1" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-18.565+147.837</Point>
-        <Point>-24.786+150.307</Point>
-        <Point>-23.655+142.199</Point>
-        <Point>-18.697+140.953</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="7000" />
-      <ControllerInfo>
-        <Line>Brisbane Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Tailem Bend" Type="ASD" DefaultCenter="-343343.9975+1374743.4216" DefaultRange="800" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="TBD" />
-        <Sector Name="AUG" />
-        <Sector Name="AAE" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-270442.0946+1175658.5059</Point>
-        <Point>-290512.410+1264202.2137</Point>
-        <Point>-302918.4442+1332130.6189</Point>
-        <Point>-360329.0012+1424738.5877</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="9000" />
-      <ControllerInfo>
-        <Line>Melbourne Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Benalla" Type="ASD" DefaultCenter="-36.595056+146.952945" DefaultRange="420" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="BLA" />
-        <Sector Name="ELW" />
-        <Sector Name="MAE" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-33.293+141.617</Point>
-        <Point>-38.600+145.876</Point>
-        <Point>-32.691+150.237</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="9000" />
-      <ControllerInfo>
-        <Line>Melbourne Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Mungo" Type="ASD" DefaultCenter="-360115.000+1434014.000" DefaultRange="785" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="MUN" />
-        <Sector Name="YWE" />
-        <Sector Name="OXL" />
-        <Sector Name="GTH" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-300442.431+1322101.2305</Point>
-        <Point>-370345.000+1403044.7693</Point>
-        <Point>-383518.8782+1455829.7473</Point>
-        <Point>-324203.7518+1501444.2346</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="9000" />
-      <ControllerInfo>
-        <Line>Melbourne Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Wollongong" Type="ASD" DefaultCenter="-37.497333+149.972889" DefaultRange="800" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="WOL" />
-        <Sector Name="SNO" />
-        <Sector Name="CBE" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-33.293+141.617</Point>
-        <Point>-38.600+145.876</Point>
-        <Point>-32.691+150.237</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="9000" />
-      <ControllerInfo>
-        <Line>Melbourne Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Gundagai" Type="ASD" DefaultCenter="-33.795972+149.332500" DefaultRange="420" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="GUN" />
-        <Sector Name="BIK" />
-        <Sector Name="KAT" />
-        <Sector Name="SAS" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-33.293+141.617</Point>
-        <Point>-38.600+145.876</Point>
-        <Point>-32.691+150.237</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="10000" />
-      <ControllerInfo>
-        <Line>Melbourne Centre</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-  </Group>
   <Group Name="Class D">
     <Position Name="YBAF" Type="ASMGCS" ASMGCSAirport="YBAF" DefaultCenter="-27.568889+153.006389" DefaultRange="1" MagneticVariation="-11" Rotation="-7">
       <Maps>
@@ -1026,275 +373,655 @@
       </Maps>
     </Position>
   </Group>
-  <Group Name="Procedural TWR">
-    <Position Name="Albury Tower" Type="ASD" DefaultCenter="-36.067778+146.958056" DefaultRange="95" MagneticVariation="-11.9">
+  <Group Name="Enroute">
+      <Position Name="Alice Springs" Type="ASD" DefaultCenter="-302041.5031+1342547.7539" DefaultRange="2610" VisibilityRange="600">
       <Sectors>
-        <Sector Name="AY ADC" />
-        <Sector Name="AY SMC" />
+        <Sector Name="ASP" />
+        <Sector Name="ASW" />
+        <Sector Name="BKE" />
+        <Sector Name="ESP" />
+        <Sector Name="FOR" />
+        <Sector Name="WAR" />
+        <Sector Name="WRA" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-270442.0946+1175658.5059</Point>
+        <Point>-290512.410+1264202.2137</Point>
+        <Point>-302918.4442+1332130.6189</Point>
+        <Point>-360329.0012+1424738.5877</Point>
+      </ManualVisibility>
       <Maps>
+        <Map Name="AIRWAY_NOTES" />
         <Map Name="ALL_CTA" />
-        <Map Name="Albury/AY_TCU" />
-        <Map Name="Albury/AY_RWY07" />
-        <Map Name="TMA_LL_LABELS" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
       </Maps>
-      <ATIS>
-        <Editor Airport="YMAY" Frequency="133.85" />
-        <Window Airport="YMAY" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="7000">
-        <AdditionalLevels>3400,5400</AdditionalLevels>
-      </CFL>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="25000" />
       <ControllerInfo>
-        <Line>Albury Tower | ATIS available on 133.85</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="AY_GND">
-        <Line>Albury Ground | ATIS available on 133.85</Line>
+        <Line>Melbourne Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Alice Springs Tower" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="120" MagneticVariation="-4.6">
+    <Position Name="Benalla" Type="ASD" DefaultCenter="-36.595056+146.952945" DefaultRange="420" VisibilityRange="600">
       <Sectors>
-        <Sector Name="AS ADC" />
+        <Sector Name="BLA" />
+        <Sector Name="ELW" />
+        <Sector Name="MAE" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-33.293+141.617</Point>
+        <Point>-38.600+145.876</Point>
+        <Point>-32.691+150.237</Point>
+      </ManualVisibility>
       <Maps>
+        <Map Name="AIRWAY_NOTES" />
         <Map Name="ALL_CTA" />
-        <Map Name="Alice Springs/AS_TCU" />
-        <Map Name="Alice Springs/AS_RWY12" />
-        <Map Name="TMA_LL_LABELS" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
       </Maps>
-      <ATIS>
-        <Editor Airport="YBAS" Frequency="123.000" />
-        <Window Airport="YBAS" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="7000">
-        <AdditionalLevels>5200</AdditionalLevels>
-      </CFL>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="9000" />
       <ControllerInfo>
-        <Line>Alice Tower | ATIS available on 123.0</Line>
+        <Line>Melbourne Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Broome Tower" Type="ASD" DefaultCenter="-17.949444+122.227778" DefaultRange="140" MagneticVariation="-1.7">
+    <Position Name="Gundagai" Type="ASD" DefaultCenter="-33.795972+149.332500" DefaultRange="420" VisibilityRange="600">
       <Sectors>
-        <Sector Name="BRM ADC" />
-        <Sector Name="BRM SMC" />
+        <Sector Name="GUN" />
+        <Sector Name="BIK" />
+        <Sector Name="KAT" />
+        <Sector Name="SAS" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-33.293+141.617</Point>
+        <Point>-38.600+145.876</Point>
+        <Point>-32.691+150.237</Point>
+      </ManualVisibility>
       <Maps>
+        <Map Name="AIRWAY_NOTES" />
         <Map Name="ALL_CTA" />
-        <Map Name="Broome/BRM_COAST" />
-        <Map Name="Broome/BRM_TCU" />
-        <Map Name="Broome/YBRM_ALLRWYS" />
-        <Map Name="TMA_LL_LABELS" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
       </Maps>
-      <ATIS>
-        <Editor Airport="YBRM" Frequency="128.2" />
-        <Window Airport="YBRM" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="5000">
-        <AdditionalLevels>2100</AdditionalLevels>
-      </CFL>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="10000" />
       <ControllerInfo>
-        <Line>Broome Tower | ATIS available on 128.2</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="BRM_GND">
-        <Line>Broome Ground | ATIS available on 128.2</Line>
+        <Line>Melbourne Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Coffs Harbour Tower" Type="ASD" DefaultCenter="-30.320556+153.116389" DefaultRange="100" MagneticVariation="-12">
+    <Position Name="Gunnedah" Type="ASD" DefaultCenter="-305434.000+1495443.000" DefaultRange="950" VisibilityRange="600">
       <Sectors>
-        <Sector Name="CFS ADC" />
+        <Sector Name="GAH" />
+        <Sector Name="ARL" />
+        <Sector Name="CNK" />
+        <Sector Name="DEN" />
+        <Sector Name="LIG" />
+        <Sector Name="MOR" />
+        <Sector Name="RYS" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-32.405+150.710</Point>
+        <Point>-24.802+150.787</Point>
+        <Point>-19.656+140.362</Point>
+        <Point>-32.507+140.712</Point>
+      </ManualVisibility>
       <Maps>
+        <Map Name="AIRWAY_NOTES" />
         <Map Name="ALL_CTA" />
-        <Map Name="Coffs Harbour/CFS_COAST" />
-        <Map Name="Coffs Harbour/CFS_TCU" />
-        <Map Name="Coffs Harbour/YCFS_ALLRWYS" />
-        <Map Name="TMA_LL_LABELS" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
       </Maps>
-      <ATIS>
-        <Editor Airport="YCFS" Frequency="130.3" />
-        <Window Airport="YCFS" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="7000">
-        <AdditionalLevels>3300</AdditionalLevels>
-      </CFL>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="10000" />
       <ControllerInfo>
-        <Line>Coffs Tower | ATIS available on 130.3</Line>
+        <Line>Brisbane Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Hamilton Island Tower" Type="ASD" DefaultCenter="-20.358056+148.951667" DefaultRange="100" MagneticVariation="-8.1">
+    <Position Name="Howe" Type="ASD" DefaultCenter="-302049.482+1585027.3377" DefaultRange="1600" VisibilityRange="600">
       <Sectors>
-        <Sector Name="HM ADC" />
+        <Sector Name="HWE" />
       </Sectors>
       <Maps>
+        <Map Name="AIRWAY_NOTES" />
         <Map Name="ALL_CTA" />
-        <Map Name="Hamilton Island/HM_COAST" />
-        <Map Name="Hamilton Island/HM_TCU" />
-        <Map Name="Hamilton Island/YBHM_ALLRWYS" />
-        <Map Name="TMA_LL_LABELS" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
       </Maps>
-      <ATIS>
-        <Editor Airport="YBHM" Frequency="128.35" />
-        <Window Airport="YBHM" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="5000">
-        <AdditionalLevels>2800,3900</AdditionalLevels>
-      </CFL>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="25000" />
       <ControllerInfo>
-        <Line>Hamilton Tower | ATIS available on 128.35</Line>
+        <Line>Brisbane Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Sunshine Coast Tower" Type="ASD" DefaultCenter="-26.603333+153.091111" DefaultRange="90" MagneticVariation="-10.8">
+    <Position Name="Huon" Type="ASD" DefaultCenter="-40.859861+146.245167" DefaultRange="730" VisibilityRange="600">
       <Sectors>
-        <Sector Name="SU ADC" />
-        <Sector Name="SU SMC" />
+        <Sector Name="HUO" />
+        <Sector Name="WON" />
+        <Sector Name="HBA" />
+        <Sector Name="LTA" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-41.115+146.038</Point>
+        <Point>-33.804+148.270</Point>
+        <Point>-33.158+140.723</Point>
+      </ManualVisibility>
       <Maps>
+        <Map Name="AIRWAY_NOTES" />
         <Map Name="ALL_CTA" />
-        <Map Name="Sunshine Coast/SU_COAST" />
-        <Map Name="Sunshine Coast/SU_TCU" />
-        <Map Name="Sunshine Coast/SU_RWY13" />
-        <Map Name="TMA_LL_LABELS" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
       </Maps>
-      <ATIS>
-        <Editor Airport="YBSU" Frequency="119.8" />
-        <Window Airport="YBSU" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="4000">
-        <AdditionalLevels>1900,2800,4100</AdditionalLevels>
-      </CFL>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="25000" />
       <ControllerInfo>
-        <Line>Sunshine Coast Tower | ATIS available on 119.8</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="SU_GND">
-        <Line>Sunshine Coast Ground | ATIS available on 119.8</Line>
+        <Line>Melbourne Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Karratha Tower" Type="ASD" DefaultCenter="-20.712222+116.773333" DefaultRange="130" MagneticVariation="-0.9">
+    <Position Name="Hyden" Type="ASD" DefaultCenter="-32.179139+116.762333" DefaultRange="1200" VisibilityRange="600">
       <Sectors>
-        <Sector Name="KA ADC" />
-        <Sector Name="KA SMC" />
+        <Sector Name="HYD" />
+        <Sector Name="DAL" />
+        <Sector Name="GEL" />
+        <Sector Name="GVE" />
+        <Sector Name="JAR" />
+        <Sector Name="LEA" />
+        <Sector Name="PIY" />
+        <Sector Name="SCR" />
+        <Sector Name="PHA" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-32.999+119.788</Point>
+        <Point>-27.353+116.633</Point>
+        <Point>-25.820+123.212</Point>
+        <Point>-22.015+116.355</Point>
+      </ManualVisibility>
       <Maps>
+        <Map Name="AIRWAY_NOTES" />
         <Map Name="ALL_CTA" />
-        <Map Name="Karratha/KA_COAST" />
-        <Map Name="Karratha/KA_TCU" />
-        <Map Name="Karratha/YPKA_ALLRWYS" />
-        <Map Name="TMA_LL_LABELS" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
       </Maps>
-      <ATIS>
-        <Editor Airport="YPKA" Frequency="134.55" />
-        <Window Airport="YPKA" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="5000">
-        <AdditionalLevels>2200</AdditionalLevels>
-      </CFL>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="9000" />
       <ControllerInfo>
-        <Line>Karratha Tower | ATIS available on 134.55</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="KA_GND">
-        <Line>Karratha Ground | ATIS available on 134.55</Line>
+        <Line>Melbourne Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Tamworth Tower" Type="ASD" DefaultCenter="-31.083889+150.846667" DefaultRange="80" MagneticVariation="-11.5">
+    <Position Name="Inverell" Type="ASD" DefaultCenter="-273810.000+1531547.000" DefaultRange="1200" VisibilityRange="600">
       <Sectors>
-        <Sector Name="TW ADC" />
-        <Sector Name="TW ADCS" />
-        <Sector Name="TW SMC" />
+        <Sector Name="INL" />
+        <Sector Name="BUR" />
+        <Sector Name="DOS" />
+        <Sector Name="GOL" />
+        <Sector Name="NSA" />
+        <Sector Name="SDY" />
+        <Sector Name="BAN" />
+        <Sector Name="BAC" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-25.725+150.343</Point>
+        <Point>-31.391+150.777</Point>
+        <Point>-19.010+147.268</Point>
+        <Point>-23.163+141.507</Point>
+      </ManualVisibility>
       <Maps>
+        <Map Name="AIRWAY_NOTES" />
         <Map Name="ALL_CTA" />
-        <Map Name="Tamworth/TW_TCU" />
-        <Map Name="Tamworth/YSTW_ALLRWYS" />
-        <Map Name="TMA_LL_LABELS" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
       </Maps>
-      <ATIS>
-        <Editor Airport="YSTW" Frequency="123.8" />
-        <Window Airport="YSTW" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha" />
-      <CFL QuickLevel="7000">
-        <AdditionalLevels>4300</AdditionalLevels>
-      </CFL>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="9000" />
       <ControllerInfo>
-        <Line>Tamworth Tower | ATIS available on 123.8</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo>
-        <Line>Tamworth Tower (South) | ATIS available on 123.8</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="TW_GND">
-        <Line>Tamworth Ground | ATIS available on 123.8</Line>
+        <Line>Brisbane Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Woomera Tower" Type="ASD" DefaultCenter="-31.14417+136.81694" DefaultRange="50" MagneticVariation="-6.5">
+    <Position Name="Kennedy" Type="ASD" DefaultCenter="-164428.000+1470710.000" DefaultRange="1100" VisibilityRange="600">
       <Sectors>
-        <Sector Name="WR ADC" />
+        <Sector Name="KEN" />
+        <Sector Name="BAR" />
+        <Sector Name="TBP" />
+        <Sector Name="WIL" />
+        <Sector Name="CS1" />
       </Sectors>
+      <ManualVisibility>
+        <Point>-18.565+147.837</Point>
+        <Point>-24.786+150.307</Point>
+        <Point>-23.655+142.199</Point>
+        <Point>-18.697+140.953</Point>
+      </ManualVisibility>
       <Maps>
+        <Map Name="AIRWAY_NOTES" />
         <Map Name="ALL_CTA" />
-        <Map Name="Woomera/WR_TCU" />
-        <Map Name="Woomera/WR_COAST" />
-        <Map Name="Woomera/YPWR_ALLRWYS" />
-        <Map Name="TMA_LL_LABELS" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
       </Maps>
-      <ATIS>
-        <Editor Airport="YPWR" Frequency="118.1" />
-        <Window Airport="YPWR" />
-      </ATIS>
-      <Strips Mode="Beacon" Sort="Alpha" />
-      <CFL QuickLevel="12000">
-        <AdditionalLevels>2300</AdditionalLevels>
-      </CFL>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="7000" />
       <ControllerInfo>
-        <Line>Woomera Tower | ATIS available on 118.1</Line>
+        <Line>Brisbane Centre</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Keppel" Type="ASD" DefaultCenter="-240656.000+1495402.000" DefaultRange="1200" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="KPL" />
+        <Sector Name="CVN" />
+        <Sector Name="SWY" />
+        <Sector Name="MKA" />
+        <Sector Name="RKA" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-25.725+150.343</Point>
+        <Point>-31.391+150.777</Point>
+        <Point>-19.010+147.268</Point>
+        <Point>-23.163+141.507</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="AIRWAY_NOTES" />
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="9000" />
+      <ControllerInfo>
+        <Line>Brisbane Centre</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Manning" Type="ASD" DefaultCenter="-330134.000+1525630.000" DefaultRange="950" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="MNN" />
+        <Sector Name="MLD" />
+        <Sector Name="OCN" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-310131.000+1531432.000</Point>
+        <Point>-325239.000+1523634.000</Point>
+        <Point>-334455.000+1550545.000</Point>
+        <Point>-351520.000+1531427.000</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="AIRWAY_NOTES" />
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="10000" />
+      <ControllerInfo>
+        <Line>Brisbane Centre</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Mt Isa" Type="ASD" DefaultCenter="-194924.2967+1405500.9521" DefaultRange="2751" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="ISA" />
+        <Sector Name="ARA" />
+        <Sector Name="STR" />
+        <Sector Name="WEG" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-152747.6868+1234623.9905</Point>
+        <Point>-152103.1805+1362648.3435</Point>
+        <Point>-203937.2766+1464854.3384</Point>
+        <Point>-272304.1469+1543929.8608</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="AIRWAY_NOTES" />
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="NEIGHBOUR_SUBSECTORS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="25000" />
+      <ControllerInfo>
+        <Line>Brisbane Centre</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Mungo" Type="ASD" DefaultCenter="-360115.000+1434014.000" DefaultRange="785" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="MUN" />
+        <Sector Name="GTH" />
+        <Sector Name="OXL" />
+        <Sector Name="YWE" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-300442.431+1322101.2305</Point>
+        <Point>-370345.000+1403044.7693</Point>
+        <Point>-383518.8782+1455829.7473</Point>
+        <Point>-324203.7518+1501444.2346</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="AIRWAY_NOTES" />
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="9000" />
+      <ControllerInfo>
+        <Line>Melbourne Centre</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Onslow" Type="ASD" DefaultCenter="-243721.9113+1183247.2943" DefaultRange="1800" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="OLW" />
+        <Sector Name="LEO" />
+        <Sector Name="MEK" />
+        <Sector Name="MTK" />
+        <Sector Name="MZI" />
+        <Sector Name="NEW" />
+        <Sector Name="PAR" />
+        <Sector Name="POT" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-32.999+119.788</Point>
+        <Point>-27.353+116.633</Point>
+        <Point>-25.820+123.212</Point>
+        <Point>-22.015+116.355</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="AIRWAY_NOTES" />
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="25000" />
+      <ControllerInfo>
+        <Line>Melbourne Centre</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Tailem Bend" Type="ASD" DefaultCenter="-343343.9975+1374743.4216" DefaultRange="800" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="TBD" />
+        <Sector Name="AUG" />
+        <Sector Name="AAE" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-270442.0946+1175658.5059</Point>
+        <Point>-290512.410+1264202.2137</Point>
+        <Point>-302918.4442+1332130.6189</Point>
+        <Point>-360329.0012+1424738.5877</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="AIRWAY_NOTES" />
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="9000" />
+      <ControllerInfo>
+        <Line>Melbourne Centre</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Territory" Type="ASD" DefaultCenter="-1600.000+12700.000" DefaultRange="2000" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="TRT" />
+        <Sector Name="ASH" />
+        <Sector Name="KIY" />
+        <Sector Name="TRS" />
+        <Sector Name="DAE" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-16.000+126.986</Point>
+        <Point>-14.930+119.923</Point>
+        <Point>-13.403+129.478</Point>
+        <Point>-19.447+130.986</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="AIRWAY_NOTES" />
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+        <Map Name="NEIGHBOUR_SUBSECTORS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="10000" />
+      <ControllerInfo>
+        <Line>Brisbane Centre</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Wollongong" Type="ASD" DefaultCenter="-37.497333+149.972889" DefaultRange="800" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="WOL" />
+        <Sector Name="SNO" />
+        <Sector Name="CBE" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-33.293+141.617</Point>
+        <Point>-38.600+145.876</Point>
+        <Point>-32.691+150.237</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="AIRWAY_NOTES" />
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="9000" />
+      <ControllerInfo>
+        <Line>Melbourne Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
@@ -1634,6 +1361,9 @@
         <Sector Name="SFW" />
         <Sector Name="SFE" />
         <Sector Name="SYC" />
+        <Sector Name="SBA" />
+        <Sector Name="SRA" />
+        <Sector Name="SWA" />
       </Sectors>
       <ManualVisibility>
         <Point>-33.9461+151.1772</Point>
@@ -1701,6 +1431,24 @@
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="BK_APP">
+        <Line>Bankstown Approach | ATIS available on 120.9</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="RI_APP">
+        <Line>Richmond Approach | ATIS available on 126.3</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="WS_APP">
+        <Line>Walton Approach | ATIS available on 127.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Brisbane TCU" Type="ASD" DefaultCenter="-27.648889+153.039167" DefaultRange="220" VisibilityRange="100" MagneticVariation="-11">
       <Sectors>
@@ -1727,7 +1475,6 @@
       <ATIS>
         <Editor Airport="YBBN" Frequency="125.5" />
         <Window Airport="YBBN" />
-        <Window Airport="YBCG" />
       </ATIS>
       <Strips Mode="State" Sort="Alpha">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -1746,12 +1493,6 @@
       </ControllerInfo>
       <ControllerInfo Callsign="BN-S_APP">
         <Line>Brisbane Approach (South) | ATIS available on 125.5</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="BN-C_APP">
-        <Line>Brisbane Approach (Gold Coast) | ATIS available on 125.5</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
@@ -1778,6 +1519,7 @@
 	<Position Name="Gold Coast TCU" Type="ASD" DefaultCenter="-28.164444+153.504722" DefaultRange="175" VisibilityRange="100" MagneticVariation="-11">
       <Sectors>
         <Sector Name="BAC" />
+        <Sector Name="BAA" />
       </Sectors>
       <ManualVisibility>
         <Point>-27.3942+153.1218</Point>
@@ -1807,6 +1549,12 @@
       </CFL>
       <ControllerInfo Callsign="BN-C_APP">
         <Line>Brisbane Approach (Gold Coast) | ATIS available on 125.5</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="BA_APP">
+        <Line>Ballina Approach | ATIS available on 128.65</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
@@ -2402,356 +2150,6 @@
       </CFL>
       <ControllerInfo>
         <Line>Scherger Approach | ATIS available on 132.25</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-  </Group>
-  <Group Name="Class D TWR">
-    <Position Name="Archerfield Tower" Type="ASD" DefaultCenter="-27.570278+153.008056" DefaultRange="30" MagneticVariation="-11">
-      <Sectors>
-        <Sector Name="AF ADC" />
-        <Sector Name="AF ADCN" />
-        <Sector Name="AF SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Brisbane/BN_TCU" />
-        <Map Name="TMA_LL_LABELS" />
-        <Map Name="Brisbane/BN_VFR" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YBAF" Frequency="120.9" />
-        <Window Airport="YBAF" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="4000" />
-      <ControllerInfo>
-        <Line>Archer Tower | ATIS available on 120.9</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="AF_GND">
-        <Line>Archer Ground | ATIS available on 120.9</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Avalon Tower" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="50" MagneticVariation="-11.6" DynamicInfill="false">
-      <Sectors>
-        <Sector Name="AV ADC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Melbourne/ML_COAST" />
-        <Map Name="Melbourne/ML_TCU" />
-        <Map Name="Melbourne/AV_RWY18" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YMAV" Frequency="118.2" />
-        <Window Airport="YMAV" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="4000" />
-      <ControllerInfo>
-        <Line>Avalon Tower | ATIS available on 118.2</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Ballina Tower" Type="ASD" DefaultCenter="-285002.000+1533345.000" DefaultRange="65" MagneticVariation="-9.2">
-      <Sectors>
-        <Sector Name="BA ADC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Gold Coast/CG_COAST" />
-        <Map Name="Gold Coast/CG_TCU" />
-        <Map Name="Gold Coast/BA_RWY06" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YBNA" Frequency="128.65" />
-        <Window Airport="YBNA" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="4000" />
-      <ControllerInfo>
-        <Line>Ballina Tower | ATIS available on 128.65</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Bankstown Tower" Type="ASD" DefaultCenter="-33.924444+150.988333" DefaultRange="30" MagneticVariation="-12.6">
-      <Sectors>
-        <Sector Name="BK ADC" />
-        <Sector Name="BK ADCC" />
-        <Sector Name="BK SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="C_LL_LABELS" />
-        <Map Name="Sydney/SY_TCU" />
-        <Map Name="Sydney/SY_VFR" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YSBK" Frequency="120.9" />
-        <Window Airport="YSBK" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="3000" />
-      <ControllerInfo>
-        <Line>Bankstown Tower | ATIS available on 120.9</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="BK_GND">
-        <Line>Bankstown Ground | ATIS available on 120.9</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Camden Tower" Type="ASD" DefaultCenter="-34.040278+150.686667" DefaultRange="30" MagneticVariation="-12.5">
-      <Sectors>
-        <Sector Name="CN ADC" />
-        <Sector Name="CN SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="C_LL_LABELS" />
-        <Map Name="Sydney/SY_TCU" />
-        <Map Name="Sydney/SY_VFR" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YSCN" Frequency="125.1" />
-        <Window Airport="YSCN" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="3000" />
-      <ControllerInfo>
-        <Line>Camden Tower | ATIS available on 125.1</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="CN_GND">
-        <Line>Camden Ground | ATIS available on 125.1</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Hobart Tower" Type="ASD" DefaultCenter="-42.836111+147.510278" DefaultRange="65" MagneticVariation="-15.3">
-      <Sectors>
-        <Sector Name="HB ADC" />
-        <Sector Name="HB SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Hobart/HB_COAST" />
-        <Map Name="Hobart/HB_TCU" />
-        <Map Name="Hobart/HB_RWY12" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YMHB" Frequency="128.45" />
-        <Window Airport="YMHB" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="8000">
-        <AdditionalLevels>3900,4200,5600</AdditionalLevels>
-      </CFL>
-      <ControllerInfo>
-        <Line>Hobart Tower | ATIS available on 128.45</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="HB_GND">
-        <Line>Hobart Ground | ATIS available on 128.45</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Jandakot Tower" Type="ASD" DefaultCenter="-32.097500+115.881111" DefaultRange="30" MagneticVariation="1.7">
-      <Sectors>
-        <Sector Name="JT ADC" />
-        <Sector Name="JT ADCC" />
-        <Sector Name="JT SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Perth/PH_COAST" />
-        <Map Name="Perth/PH_TCU" />
-        <Map Name="Perth/PH_VFR" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YPJT" Frequency="128.65" />
-        <Window Airport="YPJT" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="3000" />
-      <ControllerInfo>
-        <Line>Jandakot Tower | ATIS available on 128.65</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="JT_GND">
-        <Line>Jandakot Ground | ATIS available on 128.65</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Launceston Tower" Type="ASD" DefaultCenter="-41.545278+147.214167" DefaultRange="65" MagneticVariation="-14.4">
-      <Sectors>
-        <Sector Name="LT ADC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Launceston/LT_COAST" />
-        <Map Name="Launceston/LT_TCU" />
-        <Map Name="Launceston/LT_RWY32L" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YMLT" Frequency="134.75" />
-        <Window Airport="YMLT" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="8000">
-        <AdditionalLevels>3200,5800,6300</AdditionalLevels>
-      </CFL>
-      <ControllerInfo>
-        <Line>Launy Tower | ATIS available on 134.75</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Mackay Tower" Type="ASD" DefaultCenter="-21.171389+149.179722" DefaultRange="65" MagneticVariation="-8.4">
-      <Sectors>
-        <Sector Name="MK ADC" />
-        <Sector Name="MK SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Mackay/MK_COAST" />
-        <Map Name="Mackay/MK_TCU" />
-        <Map Name="Mackay/MK_RWY14" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YBMK" Frequency="128.0" />
-        <Window Airport="YBMK" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="6000" />
-      <ControllerInfo>
-        <Line>Mackay Tower | ATIS available on 128.0</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="MK_GND">
-        <Line>Mackay Ground | ATIS available on 128.0</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Moorabbin Tower" Type="ASD" DefaultCenter="-37.975833+145.102222" DefaultRange="30" MagneticVariation="-11.8">
-      <Sectors>
-        <Sector Name="MB ADC" />
-        <Sector Name="MB ADCW" />
-        <Sector Name="MB SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Melbourne/ML_COAST" />
-        <Map Name="Melbourne/ML_TCU" />
-        <Map Name="Melbourne/ML_VFR" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YMMB" Frequency="120.9" />
-        <Window Airport="YMMB" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="5000" />
-      <ControllerInfo>
-        <Line>Moorabbin Tower | ATIS available on 120.9</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="MB_GND">
-        <Line>Moorabbin Ground | ATIS available on 120.9</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Parafield Tower" Type="ASD" DefaultCenter="-34.793333+138.633056" DefaultRange="30" MagneticVariation="-8">
-      <Sectors>
-        <Sector Name="PF ADC" />
-        <Sector Name="PF ADCW" />
-        <Sector Name="PF SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Adelaide/AD_COAST" />
-        <Map Name="Adelaide/AD_TCU" />
-        <Map Name="Adelaide/AD_VFR" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YPPF" Frequency="120.9" />
-        <Window Airport="YPPF" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="3000" />
-      <ControllerInfo>
-        <Line>Parafield Tower | ATIS available on 120.9</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="PF_GND">
-        <Line>Parafield Ground | ATIS available on 120.9</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Rockhampton Tower" Type="ASD" DefaultCenter="-23.381944+150.475278" DefaultRange="65" MagneticVariation="-9.2">
-      <Sectors>
-        <Sector Name="RK ADC" />
-        <Sector Name="RK SMC" />
-      </Sectors>
-      <Maps>
-        <Map Name="ALL_CTA" />
-        <Map Name="Rockhampton/RK_COAST" />
-        <Map Name="Rockhampton/RK_TCU" />
-        <Map Name="Rockhampton/RK_RWY15" />
-      </Maps>
-      <ATIS>
-        <Editor Airport="YBRK" Frequency="128.5" />
-        <Window Airport="YBRK" />
-      </ATIS>
-      <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="6000" />
-      <ControllerInfo>
-        <Line>Rocky Tower | ATIS available on 128.5</Line>
-        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
-        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-      <ControllerInfo Callsign="RK_GND">
-        <Line>Rocky Ground | ATIS available on 128.5</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
@@ -3722,6 +3120,631 @@
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
         <Line>ATIS available on 127.0</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+  <Group Name="Procedural TWR">
+    <Position Name="Albury Tower" Type="ASD" DefaultCenter="-36.067778+146.958056" DefaultRange="95" MagneticVariation="-11.9">
+      <Sectors>
+        <Sector Name="AY ADC" />
+        <Sector Name="AY SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Albury/AY_TCU" />
+        <Map Name="Albury/AY_RWY07" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMAY" Frequency="133.85" />
+        <Window Airport="YMAY" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="7000">
+        <AdditionalLevels>3400,5400</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Albury Tower | ATIS available on 133.85</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="AY_GND">
+        <Line>Albury Ground | ATIS available on 133.85</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Alice Springs Tower" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="120" MagneticVariation="-4.6">
+      <Sectors>
+        <Sector Name="AS ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Alice Springs/AS_TCU" />
+        <Map Name="Alice Springs/AS_RWY12" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBAS" Frequency="123.000" />
+        <Window Airport="YBAS" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="7000">
+        <AdditionalLevels>5200</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Alice Tower | ATIS available on 123.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Broome Tower" Type="ASD" DefaultCenter="-17.949444+122.227778" DefaultRange="140" MagneticVariation="-1.7">
+      <Sectors>
+        <Sector Name="BRM ADC" />
+        <Sector Name="BRM SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Broome/BRM_COAST" />
+        <Map Name="Broome/BRM_TCU" />
+        <Map Name="Broome/YBRM_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBRM" Frequency="128.2" />
+        <Window Airport="YBRM" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="5000">
+        <AdditionalLevels>2100</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Broome Tower | ATIS available on 128.2</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="BRM_GND">
+        <Line>Broome Ground | ATIS available on 128.2</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Coffs Harbour Tower" Type="ASD" DefaultCenter="-30.320556+153.116389" DefaultRange="100" MagneticVariation="-12">
+      <Sectors>
+        <Sector Name="CFS ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Coffs Harbour/CFS_COAST" />
+        <Map Name="Coffs Harbour/CFS_TCU" />
+        <Map Name="Coffs Harbour/YCFS_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YCFS" Frequency="130.3" />
+        <Window Airport="YCFS" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="7000">
+        <AdditionalLevels>3300</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Coffs Tower | ATIS available on 130.3</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Hamilton Island Tower" Type="ASD" DefaultCenter="-20.358056+148.951667" DefaultRange="100" MagneticVariation="-8.1">
+      <Sectors>
+        <Sector Name="HM ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Hamilton Island/HM_COAST" />
+        <Map Name="Hamilton Island/HM_TCU" />
+        <Map Name="Hamilton Island/YBHM_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBHM" Frequency="128.35" />
+        <Window Airport="YBHM" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="5000">
+        <AdditionalLevels>2800,3900</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Hamilton Tower | ATIS available on 128.35</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Sunshine Coast Tower" Type="ASD" DefaultCenter="-26.603333+153.091111" DefaultRange="90" MagneticVariation="-10.8">
+      <Sectors>
+        <Sector Name="SU ADC" />
+        <Sector Name="SU SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Sunshine Coast/SU_COAST" />
+        <Map Name="Sunshine Coast/SU_TCU" />
+        <Map Name="Sunshine Coast/SU_RWY13" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBSU" Frequency="119.8" />
+        <Window Airport="YBSU" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="4000">
+        <AdditionalLevels>1900,2800,4100</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Sunshine Coast Tower | ATIS available on 119.8</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="SU_GND">
+        <Line>Sunshine Coast Ground | ATIS available on 119.8</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Karratha Tower" Type="ASD" DefaultCenter="-20.712222+116.773333" DefaultRange="130" MagneticVariation="-0.9">
+      <Sectors>
+        <Sector Name="KA ADC" />
+        <Sector Name="KA SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Karratha/KA_COAST" />
+        <Map Name="Karratha/KA_TCU" />
+        <Map Name="Karratha/YPKA_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPKA" Frequency="134.55" />
+        <Window Airport="YPKA" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="5000">
+        <AdditionalLevels>2200</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Karratha Tower | ATIS available on 134.55</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="KA_GND">
+        <Line>Karratha Ground | ATIS available on 134.55</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Tamworth Tower" Type="ASD" DefaultCenter="-31.083889+150.846667" DefaultRange="80" MagneticVariation="-11.5">
+      <Sectors>
+        <Sector Name="TW ADC" />
+        <Sector Name="TW ADCS" />
+        <Sector Name="TW SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Tamworth/TW_TCU" />
+        <Map Name="Tamworth/YSTW_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YSTW" Frequency="123.8" />
+        <Window Airport="YSTW" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha" />
+      <CFL QuickLevel="7000">
+        <AdditionalLevels>4300</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Tamworth Tower | ATIS available on 123.8</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo>
+        <Line>Tamworth Tower (South) | ATIS available on 123.8</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="TW_GND">
+        <Line>Tamworth Ground | ATIS available on 123.8</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Woomera Tower" Type="ASD" DefaultCenter="-31.14417+136.81694" DefaultRange="50" MagneticVariation="-6.5">
+      <Sectors>
+        <Sector Name="WR ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Woomera/WR_TCU" />
+        <Map Name="Woomera/WR_COAST" />
+        <Map Name="Woomera/YPWR_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPWR" Frequency="118.1" />
+        <Window Airport="YPWR" />
+      </ATIS>
+      <Strips Mode="Beacon" Sort="Alpha" />
+      <CFL QuickLevel="12000">
+        <AdditionalLevels>2300</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Woomera Tower | ATIS available on 118.1</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+  <Group Name="Class D TWR">
+    <Position Name="Archerfield Tower" Type="ASD" DefaultCenter="-27.570278+153.008056" DefaultRange="30" MagneticVariation="-11">
+      <Sectors>
+        <Sector Name="AF ADC" />
+        <Sector Name="AF ADCN" />
+        <Sector Name="AF SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Brisbane/BN_TCU" />
+        <Map Name="TMA_LL_LABELS" />
+        <Map Name="Brisbane/BN_VFR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBAF" Frequency="120.9" />
+        <Window Airport="YBAF" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="4000" />
+      <ControllerInfo>
+        <Line>Archer Tower | ATIS available on 120.9</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="AF_GND">
+        <Line>Archer Ground | ATIS available on 120.9</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Avalon Tower" Type="ASD" DefaultCenter="-38.039444+144.469444" DefaultRange="50" MagneticVariation="-11.6" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="AV ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Melbourne/ML_COAST" />
+        <Map Name="Melbourne/ML_TCU" />
+        <Map Name="Melbourne/AV_RWY18" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMAV" Frequency="118.2" />
+        <Window Airport="YMAV" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="4000" />
+      <ControllerInfo>
+        <Line>Avalon Tower | ATIS available on 118.2</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Ballina Tower" Type="ASD" DefaultCenter="-285002.000+1533345.000" DefaultRange="65" MagneticVariation="-9.2">
+      <Sectors>
+        <Sector Name="BA ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Gold Coast/CG_COAST" />
+        <Map Name="Gold Coast/CG_TCU" />
+        <Map Name="Gold Coast/BA_RWY06" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBNA" Frequency="128.65" />
+        <Window Airport="YBNA" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="4000" />
+      <ControllerInfo>
+        <Line>Ballina Tower | ATIS available on 128.65</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Bankstown Tower" Type="ASD" DefaultCenter="-33.924444+150.988333" DefaultRange="30" MagneticVariation="-12.6">
+      <Sectors>
+        <Sector Name="BK ADC" />
+        <Sector Name="BK ADCC" />
+        <Sector Name="BK SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="C_LL_LABELS" />
+        <Map Name="Sydney/SY_TCU" />
+        <Map Name="Sydney/SY_VFR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YSBK" Frequency="120.9" />
+        <Window Airport="YSBK" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="3000" />
+      <ControllerInfo>
+        <Line>Bankstown Tower | ATIS available on 120.9</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="BK_GND">
+        <Line>Bankstown Ground | ATIS available on 120.9</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Camden Tower" Type="ASD" DefaultCenter="-34.040278+150.686667" DefaultRange="30" MagneticVariation="-12.5">
+      <Sectors>
+        <Sector Name="CN ADC" />
+        <Sector Name="CN SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="C_LL_LABELS" />
+        <Map Name="Sydney/SY_TCU" />
+        <Map Name="Sydney/SY_VFR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YSCN" Frequency="125.1" />
+        <Window Airport="YSCN" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="3000" />
+      <ControllerInfo>
+        <Line>Camden Tower | ATIS available on 125.1</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="CN_GND">
+        <Line>Camden Ground | ATIS available on 125.1</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Hobart Tower" Type="ASD" DefaultCenter="-42.836111+147.510278" DefaultRange="65" MagneticVariation="-15.3">
+      <Sectors>
+        <Sector Name="HB ADC" />
+        <Sector Name="HB SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Hobart/HB_COAST" />
+        <Map Name="Hobart/HB_TCU" />
+        <Map Name="Hobart/HB_RWY12" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMHB" Frequency="128.45" />
+        <Window Airport="YMHB" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="8000">
+        <AdditionalLevels>3900,4200,5600</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Hobart Tower | ATIS available on 128.45</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="HB_GND">
+        <Line>Hobart Ground | ATIS available on 128.45</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Jandakot Tower" Type="ASD" DefaultCenter="-32.097500+115.881111" DefaultRange="30" MagneticVariation="1.7">
+      <Sectors>
+        <Sector Name="JT ADC" />
+        <Sector Name="JT ADCC" />
+        <Sector Name="JT SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Perth/PH_COAST" />
+        <Map Name="Perth/PH_TCU" />
+        <Map Name="Perth/PH_VFR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPJT" Frequency="128.65" />
+        <Window Airport="YPJT" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="3000" />
+      <ControllerInfo>
+        <Line>Jandakot Tower | ATIS available on 128.65</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="JT_GND">
+        <Line>Jandakot Ground | ATIS available on 128.65</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Launceston Tower" Type="ASD" DefaultCenter="-41.545278+147.214167" DefaultRange="65" MagneticVariation="-14.4">
+      <Sectors>
+        <Sector Name="LT ADC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Launceston/LT_COAST" />
+        <Map Name="Launceston/LT_TCU" />
+        <Map Name="Launceston/LT_RWY32L" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMLT" Frequency="134.75" />
+        <Window Airport="YMLT" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="8000">
+        <AdditionalLevels>3200,5800,6300</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Launy Tower | ATIS available on 134.75</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Mackay Tower" Type="ASD" DefaultCenter="-21.171389+149.179722" DefaultRange="65" MagneticVariation="-8.4">
+      <Sectors>
+        <Sector Name="MK ADC" />
+        <Sector Name="MK SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Mackay/MK_COAST" />
+        <Map Name="Mackay/MK_TCU" />
+        <Map Name="Mackay/MK_RWY14" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBMK" Frequency="128.0" />
+        <Window Airport="YBMK" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="6000" />
+      <ControllerInfo>
+        <Line>Mackay Tower | ATIS available on 128.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="MK_GND">
+        <Line>Mackay Ground | ATIS available on 128.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Moorabbin Tower" Type="ASD" DefaultCenter="-37.975833+145.102222" DefaultRange="30" MagneticVariation="-11.8">
+      <Sectors>
+        <Sector Name="MB ADC" />
+        <Sector Name="MB ADCW" />
+        <Sector Name="MB SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Melbourne/ML_COAST" />
+        <Map Name="Melbourne/ML_TCU" />
+        <Map Name="Melbourne/ML_VFR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YMMB" Frequency="120.9" />
+        <Window Airport="YMMB" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="5000" />
+      <ControllerInfo>
+        <Line>Moorabbin Tower | ATIS available on 120.9</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="MB_GND">
+        <Line>Moorabbin Ground | ATIS available on 120.9</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Parafield Tower" Type="ASD" DefaultCenter="-34.793333+138.633056" DefaultRange="30" MagneticVariation="-8">
+      <Sectors>
+        <Sector Name="PF ADC" />
+        <Sector Name="PF ADCW" />
+        <Sector Name="PF SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Adelaide/AD_COAST" />
+        <Map Name="Adelaide/AD_TCU" />
+        <Map Name="Adelaide/AD_VFR" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPPF" Frequency="120.9" />
+        <Window Airport="YPPF" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="3000" />
+      <ControllerInfo>
+        <Line>Parafield Tower | ATIS available on 120.9</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="PF_GND">
+        <Line>Parafield Ground | ATIS available on 120.9</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Rockhampton Tower" Type="ASD" DefaultCenter="-23.381944+150.475278" DefaultRange="65" MagneticVariation="-9.2">
+      <Sectors>
+        <Sector Name="RK ADC" />
+        <Sector Name="RK SMC" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Rockhampton/RK_COAST" />
+        <Map Name="Rockhampton/RK_TCU" />
+        <Map Name="Rockhampton/RK_RWY15" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBRK" Frequency="128.5" />
+        <Window Airport="YBRK" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="6000" />
+      <ControllerInfo>
+        <Line>Rocky Tower | ATIS available on 128.5</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="RK_GND">
+        <Line>Rocky Ground | ATIS available on 128.5</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
   </Group>
