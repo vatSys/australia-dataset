@@ -73,7 +73,7 @@
         </Departure>
       </Rules>
     </RuleSet>
-      <RuleSet Name="YBCG_DEPS">
+    <RuleSet Name="YBCG_DEPS">
       <Rules>
         <Departure Values="YBCG">
           <Rules>
@@ -112,6 +112,17 @@
           <Rules>
             <Default>
               <AssignSector Order="MKA,SWY"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YBNA_DEPS">
+      <Rules>
+        <Departure Values="YBNA">
+          <Rules>
+            <Default>
+              <AssignSector Order="BAA,BAC,BAS,BDS,BDN,BAN,GOL"/>
             </Default>
           </Rules>
         </Departure>
@@ -407,7 +418,7 @@
         <Departure Values="YSBK">
           <Rules>
             <Default>
-              <AssignSector Order="SDN"/>
+              <AssignSector Order="SBA,SDN"/>
             </Default>
           </Rules>
         </Departure>
@@ -457,7 +468,7 @@
         <Departure Values="YSRI">
           <Rules>
             <Default>
-              <AssignSector Order="SDN"/>
+              <AssignSector Order="SRA,SDN"/>
             </Default>
           </Rules>
         </Departure>
@@ -492,6 +503,17 @@
             </Route>
             <Default>
               <AssignSector Order="SDN,SDS,SAN,SAS"/>
+            </Default>
+          </Rules>
+        </Departure>
+      </Rules>
+    </RuleSet>
+    <RuleSet Name="YSWS_DEPS">
+      <Rules>
+        <Departure Values="YSWS">
+          <Rules>
+            <Default>
+              <AssignSector Order="SWA,SDN,SDS,SAN,SAS"/>
             </Default>
           </Rules>
         </Departure>
