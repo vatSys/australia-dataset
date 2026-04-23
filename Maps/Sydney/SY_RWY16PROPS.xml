@@ -51,7 +51,29 @@
       OPTIC
     </Line>
     <Line>
-      <!--Rwy16R GROOK1-->
+      <!--Rwy16R ANKUB1-->
+      -335751.350+1511050.330/
+      ANKUB
+    </Line>
+    <Line>
+      <!--Rwy16R ANKUB1.BENBU-->
+      ANKUB/
+      IKORO/
+      NB523/
+      NB524/
+      NB525/
+      NB526/
+      DUBSU/
+      BENBU
+    </Line>
+    <Line>
+      <!--Rwy16R ANKUB1.KADOM-->
+      NB524/
+      NB540/
+      KADOM
+    </Line>
+    <Line>
+      <!--Rwy16R GROOK2-->
       -335751.350+1511050.330/
       -335759.243+1511051.980/
       DUNES/
@@ -59,7 +81,7 @@
       GROOK
     </Line>
     <Line>
-      <!--Rwy16R GROOK1.KADOM-->
+      <!--Rwy16R GROOK2.KADOM-->
       GROOK/
       OLVAG/
       GUSPU/
@@ -68,13 +90,13 @@
       KADOM
     </Line>
     <Line>
-      <!--Rwy16R GROOK1.RIC-->
+      <!--Rwy16R GROOK2.STUIE-->
       ANKUB/
       UPMAR/
-      RIC NDB
+      STUIE
     </Line>
     <Line>
-      <!--Rwy16R GROOK1.WOL-->
+      <!--Rwy16R GROOK2.WOL-->
       OLVAG/
       ISBEX/
       WOL NDB
@@ -164,7 +186,6 @@
       <Point>KADOM</Point>
     </Symbol>
     <Symbol Type="Circle">
-      <Point>RIC NDB</Point>
       <Point>WOL NDB</Point>
     </Symbol>
     <Symbol Type="HollowStar">
@@ -172,13 +193,22 @@
       <Point>CAWLY</Point>
       <Point>EXOVA</Point>
       <Point>PEDLU</Point>
+      <Point>ANKUB</Point>
+      <Point>IKORO</Point>
+      <Point>NB523</Point>
+      <Point>NB524</Point>
+      <Point>NB525</Point>
+      <Point>NB526</Point>
+      <Point>DUBSU</Point>
+      <Point>BENBU</Point>
+      <Point>NB540</Point>
       <Point>DUNES</Point>
       <Point>DEENA</Point>
       <Point>OLVAG</Point>
       <Point>GUSPU</Point>
       <Point>EGOPO</Point>
-      <Point>ANKUB</Point>
       <Point>UPMAR</Point>
+      <Point>STUIE</Point>
       <Point>ISBEX</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
@@ -259,16 +289,24 @@
       <Point>NOBAR</Point>
       <Point>OLSEM</Point>
       <Point>OPTIC</Point>
+      <Point>ANKUB</Point>
+      <Point>IKORO</Point>
+      <Point>NB523</Point>
+      <Point>NB524</Point>
+      <Point>NB525</Point>
+      <Point>NB526</Point>
+      <Point>DUBSU</Point>
+      <Point>BENBU</Point>
+      <Point>NB540</Point>
+      <Point>KADOM</Point>
       <Point>DUNES</Point>
       <Point>DEENA</Point>
       <Point>GROOK</Point>
       <Point>OLVAG</Point>
       <Point>GUSPU</Point>
       <Point>EGOPO</Point>
-      <Point>ANKUB</Point>
-      <Point>KADOM</Point>
       <Point>UPMAR</Point>
-      <Point>RIC NDB</Point>
+      <Point>STUIE</Point>
       <Point>ISBEX</Point>
       <Point>WOL NDB</Point>
       <Point>BOREE</Point>
@@ -311,7 +349,6 @@
       <Point>WLM NDB</Point>
       <Point>BANDA</Point>
       <Point>KAPSA</Point>
-      <Point>STUIE</Point>
       <Point>RUSUM</Point>
       <Point>SHABY</Point>
       <Point>EMROT</Point>

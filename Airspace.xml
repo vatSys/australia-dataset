@@ -1055,12 +1055,16 @@
     </Airport>
     <Airport Name="YSBK">
       <Runway Name="11C" DataRunway="11C">
-        <SID Name="BK1" Default="True" />
+        <SID Name="BK2" Default="True" />
+        <SID Name="MECKO1" />
+        <SID Name="URDOS1" />
       </Runway>
       <Runway Name="11L" DataRunway="11L" />
       <Runway Name="11R" DataRunway="11R" />
       <Runway Name="29C" DataRunway="29C">
         <SID Name="BK1" Default="True" />
+        <SID Name="MECKO1" />
+        <SID Name="URDOS1" />
       </Runway>
       <Runway Name="29L" DataRunway="29L" />
       <Runway Name="29R" DataRunway="29R" />
@@ -1181,21 +1185,30 @@
     <Airport Name="YSRI">
       <Runway Name="10" DataRunway="10">
         <SID Name="ANKUB2" />
+        <SID Name="BEROW1" />
         <SID Name="KADOM3" />
         <SID Name="MUDGI3" />
-        <SID Name="RIC4" Default="True" />
+        <SID Name="NESSY1" />
+        <SID Name="NIVOT1" />
+        <SID Name="RIC5" Default="True" />
+        <SID Name="RUTOS1" />
       </Runway>
       <Runway Name="28" DataRunway="28">
         <SID Name="ANKUB2" />
+        <SID Name="BEROW1" />
         <SID Name="KADOM3" />
         <SID Name="KADOM4" />
         <SID Name="MUDGI3" />
+        <SID Name="NESSY1" />
+        <SID Name="NIVOT1" />
         <SID Name="RIC4" Default="True" />
+        <SID Name="RUTOS1" />
       </Runway>
     </Airport>
     <Airport Name="YSSY">
       <Runway Name="07" DataRunway="07">
-        <SID Name="FISHA9" Type="Jet" />
+        <SID Name="ANKUB1" Type="NonJet" />
+        <SID Name="FISHA1" Type="Jet" />
         <SID Name="SY3" Default="True" />
         <STAR Name="BORE4A" />
         <STAR Name="MARLN5" />
@@ -1205,6 +1218,7 @@
       </Runway>
       <Runway Name="16L" DataRunway="16L">
         <SID Name="ABBEY3" Type="Jet" />
+        <SID Name="ANKUB1" Type="NonJet" />
         <SID Name="KEVIN7" />
         <SID Name="SY3" Default="True" />
         <STAR Name="BORE4A" />
@@ -1214,7 +1228,8 @@
         <STAR Name="RIVET4" />
       </Runway>
       <Runway Name="16R" DataRunway="16R">
-        <SID Name="GROOK1" />
+        <SID Name="ANKUB1" Type="NonJet" />
+        <SID Name="GROOK2" />
         <SID Name="SY3" Default="True" />
         <STAR Name="BORE4A" />
         <STAR Name="BORE4P" OpDataFlag="P" ApproachName="RNPZ" />
@@ -1224,6 +1239,10 @@
         <STAR Name="RIVET4" />
       </Runway>
       <Runway Name="25" DataRunway="25">
+        <SID Name="ANKUB1" Type="NonJet" />
+        <SID Name="AVMOV1" />
+        <SID Name="KADOM2" Type="Jet" />
+        <SID Name="STUIE1" Type="Jet" />
         <SID Name="SY3" Default="True" />
         <STAR Name="BORE4A" />
         <STAR Name="MARLN5" ApproachName="RNPZ" />
@@ -1232,10 +1251,12 @@
         <STAR Name="RIVET4" />
       </Runway>
       <Runway Name="34L" DataRunway="34L">
-        <SID Name="KADOM1" Type="Jet" />
-        <SID Name="RIC6" Type="Jet" />
+        <SID Name="ANKUB1" Type="NonJet" />
+        <SID Name="AVMOV1" />
+        <SID Name="KADOM2" Type="Jet" />
+        <SID Name="STUIE1" Type="Jet" />
         <SID Name="SY3" Default="True" />
-        <SID Name="WOL2" Type="Jet" />
+        <SID Name="TONTO1" />
         <STAR Name="BORE4A" />
         <STAR Name="MARLN5" />
         <STAR Name="MEPIL3" Type="NonJet" />
@@ -1243,6 +1264,7 @@
         <STAR Name="RIVET4" />
       </Runway>
       <Runway Name="34R" DataRunway="34R">
+        <SID Name="ANKUB1" />
         <SID Name="MARUB7" Type="Jet" />
         <SID Name="OLSEM1" Type="Jet" />
         <SID Name="SY3" Default="True" />
@@ -1264,8 +1286,46 @@
       <Runway Name="36" DataRunway="36" />
     </Airport>
     <Airport Name="YSWS">
-      <Runway Name="05" DataRunway="05" />
-      <Runway Name="23" DataRunway="23" />
+      <Runway Name="05" DataRunway="05">
+        <SID Name="ADPA1D" Type="NonJet" />
+        <SID Name="BENB1D" />
+        <SID Name="BENB1N" />
+        <SID Name="ENDE1N" />
+        <SID Name="ISDI1D" />
+        <SID Name="KAMB1D" Type="NonJet" />
+        <SID Name="KAMB1N" Type="NonJet" />
+        <SID Name="PASG1N" />
+        <SID Name="PKS1D" />
+        <SID Name="REDA1N" />
+        <SID Name="TEVE1D" />
+        <SID Name="TEVE1N" />
+        <SID Name="TESA1D" />
+        <SID Name="TONT1D" />
+        <SID Name="TONT1H" />
+        <SID Name="WS1" Default="True" />
+      </Runway>
+      <Runway Name="23" DataRunway="23">
+        <SID Name="BENB1D" />
+        <SID Name="BENB1N" />
+        <SID Name="BENB1Q" />
+        <SID Name="ENDE1N" />
+        <SID Name="ENDE1Q" />
+        <SID Name="KAMB1N" Type="NonJet" />
+        <SID Name="KAMB1Q" Type="NonJet" />
+        <SID Name="LEKI1D" Type="NonJet" />
+        <SID Name="MELI1H" />
+        <SID Name="PASG1N" />
+        <SID Name="PKS1D" />
+        <SID Name="REDA1N" />
+        <SID Name="REGE1D" Type="NonJet" />
+        <SID Name="TEVE1D" />
+        <SID Name="TEVE1N" />
+        <SID Name="TEVE1Q" />
+        <SID Name="TESA1D" />
+        <SID Name="TONT1D" />
+        <SID Name="TONT1Q" />
+        <SID Name="WS1" Default="True" />
+      </Runway>
     </Airport>
     <Airport Name="YWLM">
       <Runway Name="12" DataRunway="12">
@@ -17014,9 +17074,20 @@ SAGLI
       <Route Runway="14" />
       <Route Runway="32" />
     </SID>
-    <SID Name="BK1" Airport="YSBK" Runways="11C,29C">
+    <SID Name="BK2" Airport="YSBK" Runways="11C">
       <Route Runway="11C" />
+    </SID>
+    <SID Name="BK1" Airport="YSBK" Runways="29C">
       <Route Runway="29C" />
+    </SID>
+    <SID Name="MECKO1" Airport="YSBK" Runways="11C,29C">
+      <Route Runway="11C">-335535.230+1505945.100/-335608.581+1510045.155/-335613.602+1510102.859/-335610.585+1510121.220/-335600.356+1510135.302/-335545.655+1510141.332/-335530.421+1510137.695/-335525.161+1510133.680/SB511/SB529/MECKO</Route>
+      <Route Runway="29C">-335512.430+1505904.400/SB529/MECKO</Route>
+      <Transition Name="NOLEM">NOLEM</Transition>
+    </SID>
+    <SID Name="URDOS1" Airport="YSBK" Runways="11C,29C">
+      <Route Runway="11C">-335535.230+1505945.100/-335608.581+1510045.155/-335613.602+1510102.859/-335610.585+1510121.220/-335600.356+1510135.302/-335545.655+1510141.332/-335530.421+1510137.695/-335525.161+1510133.680/SB511/UKBES/URDOS</Route>
+      <Route Runway="29C">-335512.430+1505904.400/SB529/SS501/UKBES/URDOS</Route>
     </SID>
     <SID Name="AKMIR3" Airport="YSCB" Runways="17,35">
       <Route Runway="17">-351853.310+1491140.000/-352153.175+1491137.305/-352249.712+1491114.638/-352340.487+1491059.044/-352450.577+1491107.099/-352510.748+1491149.071/-352508.156+1491245.785/OGORA/OKERU/AKMIR</Route>
@@ -17137,6 +17208,11 @@ SAGLI
       <Route Runway="10">-333626.180+1504735.590/-333642.000+1504846.000/-333727.000+1504844.000/-334015.000+1504833.000/ANKUB</Route>
       <Route Runway="28">-333605.810+1504616.490/-333555.000+1504551.000/-333559.000+1504518.000/-333616.000+1504501.000/-333639.000+1504456.000/-333700.000+1504510.000/-333843.000+1504851.000/ANKUB</Route>
     </SID>
+    <SID Name="BEROW1" Airport="YSRI" Runways="10,28">
+      <Route Runway="10">-333626.180+1504735.590/RI510/-333736.106+1505253.054/-333715.809+1505339.234/-333639.000+1505407.032/-333555.551+1505409.003/-333517.100+1505344.631/-333505.531+1505328.630/RI511/RI530/RI531/OMBIB/BEROW</Route>
+      <Route Runway="28">-333605.810+1504616.490/RI528/RI530/RI531/OMBIB/BEROW</Route>
+      <Transition Name="TESAT">TESAT</Transition>
+    </SID>
     <SID Name="KADOM3" Airport="YSRI" Runways="10,28">
       <Route Runway="10">-333626.180+1504735.590/-333642.000+1504846.000/-333727.000+1504844.000/-333740.000+1504831.000/-333748.000+1504810.000/-333653.000+1504305.000/KADOM</Route>
       <Route Runway="28">-333605.810+1504616.490/-333555.000+1504551.000/-333559.000+1504518.000/-333616.000+1504501.000/-333653.000+1504305.000/KADOM</Route>
@@ -17148,26 +17224,63 @@ SAGLI
       <Route Runway="10">-333626.180+1504735.590/-333642.000+1504846.000/-333637.000+1504911.000/-333623.000+1504930.000/-333602.000+1504933.000/-333544.000+1504929.000/-333528.000+1504906.000/-333330.000+1504334.000/MUDGI</Route>
       <Route Runway="28">-333605.810+1504616.490/-333330.000+1504334.000/MUDGI</Route>
     </SID>
-    <SID Name="RIC4" Airport="YSRI" Runways="10,28">
-      <Route Runway="10">-333626.180+1504735.590/-333626.490+1504737.191/-333713.769+1505042.039</Route>
+    <SID Name="NESSY1" Airport="YSRI" Runways="10,28">
+      <Route Runway="10">-333626.180+1504735.590/RI510/-333736.106+1505253.054/-333715.809+1505339.234/-333639.000+1505407.032/-333555.551+1505409.003/-333517.100+1505344.631/-333505.531+1505328.630/RI511/NESSY</Route>
+      <Route Runway="28">-333605.810+1504616.490/RI528/NESSY</Route>
+    </SID>
+    <SID Name="NIVOT1" Airport="YSRI" Runways="10,28">
+      <Route Runway="10">-333626.180+1504735.590/RI510/-333736.106+1505253.054/-333715.809+1505339.234/-333639.000+1505407.032/-333555.551+1505409.003/-333517.100+1505344.631/-333505.531+1505328.630/RI511/RI530/NIVOT</Route>
+      <Route Runway="28">-333605.810+1504616.490/RI528/RI530/NIVOT</Route>
+    </SID>
+    <SID Name="RIC5" Airport="YSRI" Runways="10">
+      <Route Runway="10">-333626.180+1504735.590/-333734.400+1505200.900</Route>
+    </SID>
+    <SID Name="RIC4" Airport="YSRI" Runways="28">
       <Route Runway="28">-333605.810+1504616.490/-333605.127+1504614.639/-333458.119+1504339.000</Route>
+    </SID>
+    <SID Name="RUTOS1" Airport="YSRI" Runways="10,28">
+      <Route Runway="10">-333626.180+1504735.590/RI510/-333736.106+1505253.054/-333715.809+1505339.234/-333639.000+1505407.032/-333555.551+1505409.003/-333517.100+1505344.631/-333505.531+1505328.630/RI511/RI530/RI531/RUTOS</Route>
+      <Route Runway="28">-333605.810+1504616.490/RI528/RI530/RI531/RUTOS</Route>
     </SID>
     <SID Name="ABBEY3" Airport="YSSY" Runways="16L">
       <Route Runway="16L">-335814.720+1511137.720/-335923.315+1511200.420/-340013.297+1511426.578/KEVIN/JULIA/ABBEY/WOL NDB</Route>
     </SID>
-    <SID Name="FISHA9" Airport="YSSY" Runways="07">
+    <SID Name="ANKUB1" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
+      <Route Runway="07">-335615.990+1511120.070/ANKUB</Route>
+      <Route Runway="16L">-335814.720+1511137.720/ANKUB</Route>
+      <Route Runway="16R">-335751.350+1511050.330/ANKUB</Route>
+      <Route Runway="25">-335637.460+1510949.060/ANKUB</Route>
+      <Route Runway="34L">-335548.350+1511018.420/ANKUB</Route>
+      <Route Runway="34R">-335705.890+1511119.850/ANKUB</Route>
+      <Transition Name="BENBU">IKORO/NB523/NB524/NB525/NB526/DUBSU/BENBU</Transition>
+      <Transition Name="KADOM">IKORO/NB523/NB524/NB540/KADOM</Transition>
+    </SID>
+    <SID Name="AVMOV1" Airport="YSSY" Runways="25,34L">
+      <Route Runway="25">-335637.460+1510949.060/-335727.491+1510603.813/SS500/SS504/OGESO/AVMOV</Route>
+      <Route Runway="34L">-335548.350+1511018.420/-335339.947+1510945.533/SS500/SS504/OGESO/AVMOV</Route>
+      <Transition Name="CAWLY">MANFA/CAWLY</Transition>
+      <Transition Name="DIPSO">DIPSO</Transition>
+      <Transition Name="EVONN">MANFA/EVONN</Transition>
+      <Transition Name="NOBAR">NOBAR</Transition>
+      <Transition Name="OLSEM">OLSEM</Transition>
+      <Transition Name="OPTIC">MANFA/OPTIC</Transition>
+    </SID>
+    <SID Name="FISHA1" Airport="YSSY" Runways="07">
       <Route Runway="07">-335615.990+1511120.070/-335610.038+1511335.517/FISHA</Route>
+      <Transition Name="KADOM">-335433.974+1512248.524/-335416.928+1512353.474/SS506/AVMOV/OGESO/SS504/SS503/KADOM</Transition>
       <Transition Name="OLSEM">-335433.974+1512248.524/-335416.928+1512353.474/-335334.313+1512452.536/OLSEM</Transition>
+      <Transition Name="STUIE">-335433.974+1512248.524/-335416.928+1512353.474/SS506/AVMOV/OGESO/SS504/STUIE</Transition>
       <Transition Name="WOL">-335435.277+1512240.086/-335430.055+1512350.730/-335440.255+1512439.171/-335505.967+1512525.336/-335552.096+1512603.118/-335647.454+1512615.190/-335734.091+1512603.770/-335818.852+1512530.291/WOL NDB</Transition>
     </SID>
-    <SID Name="GROOK1" Airport="YSSY" Runways="16R">
+    <SID Name="GROOK2" Airport="YSSY" Runways="16R">
       <Route Runway="16R">-335751.350+1511050.330/-335759.243+1511051.980/DUNES/DEENA/GROOK</Route>
       <Transition Name="KADOM">OLVAG/GUSPU/EGOPO/ANKUB/KADOM</Transition>
-      <Transition Name="RIC">OLVAG/GUSPU/EGOPO/ANKUB/UPMAR/RIC NDB</Transition>
+      <Transition Name="STUIE">OLVAG/GUSPU/EGOPO/ANKUB/UPMAR/STUIE</Transition>
       <Transition Name="WOL">OLVAG/ISBEX/WOL NDB</Transition>
     </SID>
-    <SID Name="KADOM1" Airport="YSSY" Runways="34L">
-      <Route Runway="34L">-335548.350+1511018.420/-335558.387+1511021.732/-335456.281+1511003.593/-335413.000+1510926.043/-335003.227+1510138.578/KADOM</Route>
+    <SID Name="KADOM2" Airport="YSSY" Runways="25,34L">
+      <Route Runway="25">-335637.460+1510949.060/-335727.491+1510603.813/SS500/SS501/SS502/SS503/KADOM</Route>
+      <Route Runway="34L">-335548.350+1511018.420/-335558.387+1511021.732/SS500/SS501/SS502/SS503/KADOM</Route>
     </SID>
     <SID Name="KEVIN7" Airport="YSSY" Runways="16L">
       <Route Runway="16L">-335814.720+1511137.720/-335923.315+1511200.420/IDBIM/KEVIN</Route>
@@ -17185,9 +17298,9 @@ SAGLI
     <SID Name="OLSEM1" Airport="YSSY" Runways="34R">
       <Route Runway="34R">-335705.890+1511119.850/-335626.198+1511109.739/-335550.887+1511115.168/-335517.263+1511131.283/HALAS/-334911.404+1512127.697/-334821.747+1512248.587/OLSEM</Route>
     </SID>
-    <SID Name="RIC6" Airport="YSSY" Runways="34L">
-      <Route Runway="34L">-335548.350+1511018.420/-335558.387+1511021.732/-335456.281+1511003.593/-335407.926+1510931.588/-334738.730+1510122.814</Route>
-      <Transition Name="RIC">RIC NDB</Transition>
+    <SID Name="STUIE1" Airport="YSSY" Runways="25,34L">
+      <Route Runway="25">-335637.460+1510949.060/-335727.491+1510603.813/URDOS/STUIE</Route>
+      <Route Runway="34L">-335548.350+1511018.420/-335558.387+1511021.732/URDOS/STUIE</Route>
     </SID>
     <SID Name="SY3" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
       <Route Runway="07" />
@@ -17197,8 +17310,136 @@ SAGLI
       <Route Runway="34L" />
       <Route Runway="34R" />
     </SID>
-    <SID Name="WOL2" Airport="YSSY" Runways="34L">
-      <Route Runway="34L">-335548.350+1511018.420/-335558.387+1511021.732/-335456.281+1511003.593/-335413.000+1510926.043/-335003.227+1510138.578/-334954.611+1505743.312/-335006.043+1505726.451/-335050.673+1505653.085/-335138.033+1505633.233/-335234.957+1505621.225/-335352.154+1505621.991/-335535.937+1505648.943/ANKUB/WOL NDB</Route>
+    <SID Name="TONTO1" Airport="YSSY" Runways="34L">
+      <Route Runway="34L">-335548.350+1511018.420/-335558.387+1511021.732/SS500/SS501/SS502/SS503/NB511/NB524/KAKNU/LAVEB/TONTO</Route>
+      <Transition Name="LEECE">LEECE</Transition>
+      <Transition Name="NWA">NWA NDB</Transition>
+      <Transition Name="WOL">WOL NDB</Transition>
+    </SID>
+    <SID Name="ADPA1D" Airport="YSWS" Runways="05">
+      <Route Runway="05">-335230.130+1504348.960/NB597/NB598/NB599/ADPAV</Route>
+    </SID>
+    <SID Name="BENB1D" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">-335230.130+1504348.960/NB505/NB506/NB507/NB508/NB509/DUBSU/BENBU</Route>
+      <Route Runway="23">-335330.660+1504144.630/NB523/NB524/NB525/NB526/DUBSU/BENBU</Route>
+    </SID>
+    <SID Name="BENB1N" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">-335230.130+1504348.960/-335159.784+1504451.243/NB504/NB508/BENBU</Route>
+      <Route Runway="23">-335330.660+1504144.630/NB523/NB524/NB525/NB526/DUBSU/BENBU</Route>
+    </SID>
+    <SID Name="BENB1Q" Airport="YSWS" Runways="23">
+      <Route Runway="23">-335330.660+1504144.630/-335400.997+1504042.322/-335406.819+1504025.837/-335408.864+1504008.079/-335407.025+1503950.289/-335401.425+1503933.679/-335352.448+1503919.381/-335348.112+1503914.664/MIKOM/NB503/BENBU</Route>
+    </SID>
+    <SID Name="ENDE1N" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">-335230.130+1504348.960/-335159.784+1504451.243/-335110.249+1504525.168/-335041.805+1504515.728/-335021.090+1504450.431/-335013.654+1504416.055/MIKOM/NB519/NB539/ENDEV</Route>
+      <Route Runway="23">-335330.660+1504144.630/NB523/DAMTU/NB538/NB539/ENDEV</Route>
+      <Transition Name="CAWLY">CAWLY</Transition>
+      <Transition Name="EVONN">EVONN</Transition>
+      <Transition Name="OPTIC">OPTIC</Transition>
+    </SID>
+    <SID Name="ENDE1Q" Airport="YSWS" Runways="23">
+      <Route Runway="23">-335330.660+1504144.630/-335400.997+1504042.322/-335410.100+1504028.156/-335421.967+1504017.340/-335431.170+1504012.331/NB501/NB502/NB539/ENDEV</Route>
+      <Transition Name="CAWLY">CAWLY</Transition>
+      <Transition Name="DIPSO">DIPSO</Transition>
+      <Transition Name="EVONN">EVONN</Transition>
+      <Transition Name="NOBAR">NOBAR</Transition>
+      <Transition Name="OLSEM">OLSEM</Transition>
+      <Transition Name="OPTIC">OPTIC</Transition>
+    </SID>
+    <SID Name="ISDI1D" Airport="YSWS" Runways="05">
+      <Route Runway="05">-335230.130+1504348.960/NB593/ISDIT</Route>
+    </SID>
+    <SID Name="KAMB1D" Airport="YSWS" Runways="05">
+      <Route Runway="05">-335230.130+1504348.960/NB593/ISDIT/PEBRA/NB594/BIPAP/KAMBA</Route>
+      <Transition Name="DIPSO">DIPSO</Transition>
+      <Transition Name="NOBAR">NOBAR</Transition>
+    </SID>
+    <SID Name="KAMB1N" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">-335230.130+1504348.960/-335159.784+1504451.243/NB504/NB508/NB537/PASGO/KAMBA</Route>
+      <Route Runway="23">-335330.660+1504144.630/NB523/NB524/NB525/MADUG/NB537/PASGO/KAMBA</Route>
+    </SID>
+    <SID Name="KAMB1Q" Airport="YSWS" Runways="23">
+      <Route Runway="23">-335330.660+1504144.630/-335400.997+1504042.322/-335406.819+1504025.837/-335408.864+1504008.079/-335407.025+1503950.289/-335401.425+1503933.679/-335352.448+1503919.381/-335348.112+1503914.664/MIKOM/NB503/GODUK/NB537/PASGO/KAMBA</Route>
+    </SID>
+    <SID Name="LEKI1D" Airport="YSWS" Runways="23">
+      <Route Runway="23">-335330.660+1504144.630/-335400.997+1504042.322/-335406.819+1504025.837/-335408.864+1504008.079/-335407.025+1503950.289/-335401.425+1503933.679/-335352.448+1503919.381/-335348.112+1503914.664/MIKOM/NB596/LEKID</Route>
+    </SID>
+    <SID Name="MELI1H" Airport="YSWS" Runways="23">
+      <Route Runway="23">-335330.660+1504144.630/NB590/UPDID/REGER/MELIT</Route>
+      <Transition Name="LEECE">LEECE</Transition>
+      <Transition Name="NWA">NWA NDB</Transition>
+    </SID>
+    <SID Name="PASG1N" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">-335230.130+1504348.960/-335159.784+1504451.243/NB504/NB508/NB537/PASGO</Route>
+      <Route Runway="23">-335330.660+1504144.630/NB523/NB524/NB525/MADUG/NB537/PASGO</Route>
+      <Transition Name="DIPSO">DIPSO</Transition>
+      <Transition Name="NOBAR">NOBAR</Transition>
+      <Transition Name="OLSEM">OLSEM</Transition>
+    </SID>
+    <SID Name="PASG1N" Airport="YSWS" Runways="05">
+      <Route Runway="05">-335230.130+1504348.960/-335159.784+1504451.243/NB504/NB508/NB537/PASGO</Route>
+      <Transition Name="EVONN">EVONN</Transition>
+    </SID>
+    <SID Name="PKS1D" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">-335230.130+1504348.960/NB505/NB506/NB507/NB508/NB509/DUBSU/PKS VOR</Route>
+      <Route Runway="23">-335330.660+1504144.630/NB523/NB524/DULAX/NB528/TEEVE/PKS VOR</Route>
+    </SID>
+    <SID Name="REDA1N" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">-335230.130+1504348.960/-335159.784+1504451.243/-335110.249+1504525.168/-335041.805+1504515.728/-335021.090+1504450.431/-335013.654+1504416.055/MIKOM/NB518/REDAS</Route>
+      <Route Runway="23">-335330.660+1504144.630/NB523/REDAS</Route>
+      <Transition Name="EXETA">EXETA</Transition>
+      <Transition Name="LEECE">LEECE</Transition>
+      <Transition Name="NWA">NWA NDB</Transition>
+    </SID>
+    <SID Name="REGE1D" Airport="YSWS" Runways="23">
+      <Route Runway="23">-335330.660+1504144.630/NB590/UPDID/REGER</Route>
+      <Transition Name="EXETA">EXETA</Transition>
+      <Transition Name="NWA">NWA NDB</Transition>
+      <Transition Name="WOL">WOL NDB</Transition>
+    </SID>
+    <SID Name="TEVE1D" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">-335230.130+1504348.960/NB505/NB506/NB507/NB508/NB509/MADUG/TEEVE</Route>
+      <Route Runway="23">-335330.660+1504144.630/NB523/NB524/DULAX/NB528/TEEVE</Route>
+    </SID>
+    <SID Name="TEVE1N" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">-335230.130+1504348.960/-335159.784+1504451.243/-335110.249+1504525.168/-335041.805+1504515.728/-335021.090+1504450.431/-335013.654+1504416.055/MIKOM/NB517/TEEVE</Route>
+      <Route Runway="23">-335330.660+1504144.630/NB523/NB524/NB536/TEEVE</Route>
+      <Transition Name="PKS">PKS VOR</Transition>
+    </SID>
+    <SID Name="TEVE1Q" Airport="YSWS" Runways="23">
+      <Route Runway="23">-335330.660+1504144.630/-335400.997+1504042.322/-335406.819+1504025.837/-335408.864+1504008.079/-335407.025+1503950.289/-335401.425+1503933.679/-335352.448+1503919.381/-335348.112+1503914.664/MIKOM/NB517/TEEVE</Route>
+      <Transition Name="PKS">PKS VOR</Transition>
+    </SID>
+    <SID Name="TESA1D" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">-335230.130+1504348.960/NB505/NB510/TUPMA/NB511/NB512/NB513/NB514/KAKNU/IDEKI/TESAT</Route>
+      <Route Runway="23">-335330.660+1504144.630/NB523/NB524/NB529/NB530/NB531/NB532/KAKNU/IDEKI/TESAT</Route>
+      <Transition Name="CAWLY">CAWLY</Transition>
+      <Transition Name="DIPSO">DIPSO</Transition>
+      <Transition Name="EVONN">EVONN</Transition>
+      <Transition Name="NOBAR">NOBAR</Transition>
+      <Transition Name="OLSEM">OLSEM</Transition>
+      <Transition Name="OPTIC">OPTIC</Transition>
+    </SID>
+    <SID Name="TONT1D" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">-335230.130+1504348.960/NB505/NB510/TUPMA/NB511/NB512/NB513/NB514/KAKNU/LAVEB/TONTO</Route>
+      <Route Runway="23">-335330.660+1504144.630/NB523/NB524/NB529/NB530/NB531/NB532/KAKNU/LAVEB/TONTO</Route>
+      <Transition Name="LEECE">LEECE</Transition>
+      <Transition Name="NWA">NWA NDB</Transition>
+    </SID>
+    <SID Name="TONT1H" Airport="YSWS" Runways="05">
+      <Route Runway="05">-335230.130+1504348.960/NB505/NB510/TUPMA/NB511/NB512/NB515/NB516/KAKNU/LAVEB/TONTO</Route>
+      <Transition Name="LEECE">LEECE</Transition>
+      <Transition Name="NWA">NWA NDB</Transition>
+    </SID>
+    <SID Name="TONT1Q" Airport="YSWS" Runways="23">
+      <Route Runway="23">-335330.660+1504144.630/-335400.997+1504042.322/-335410.100+1504028.156/-335421.967+1504017.340/-335431.170+1504012.331/NB501/NB502/NB539/TONTO</Route>
+      <Transition Name="EXETA">EXETA</Transition>
+      <Transition Name="LEECE">LEECE</Transition>
+      <Transition Name="NWA">NWA NDB</Transition>
+    </SID>
+    <SID Name="WS1" Airport="YSWS" Runways="05,23">
+      <Route Runway="05" />
+      <Route Runway="23" />
     </SID>
     <SID Name="CLASS1" Airport="YWLM" Runways="12">
       <Route Runway="12">-324817.850+1515050.990/-325014.881+1515333.540</Route>

@@ -8,21 +8,58 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy07 FISHA9-->
+      <!--Rwy07 ANKUB1-->
+      -335615.990+1511120.070/
+      ANKUB
+    </Line>
+    <Line>
+      <!--Rwy07 ANKUB1.BENBU-->
+      ANKUB/
+      IKORO/
+      NB523/
+      NB524/
+      NB525/
+      NB526/
+      DUBSU/
+      BENBU
+    </Line>
+    <Line>
+      <!--Rwy07 ANKUB1.KADOM-->
+      NB524/
+      NB540/
+      KADOM
+    </Line>
+    <Line>
+      <!--Rwy07 FISHA1-->
       -335615.990+1511120.070/
       -335610.038+1511335.517/
       FISHA
     </Line>
     <Line>
-      <!--Rwy07 FISHA9.OLSEM-->
+      <!--Rwy07 FISHA1.KADOM-->
       FISHA/
       -335433.974+1512248.524/
+      -335416.928+1512353.474/
+      SS506/
+      AVMOV/
+      OGESO/
+      SS504/
+      SS503/
+      KADOM
+    </Line>
+    <Line>
+      <!--Rwy07 FISHA1.OLSEM-->
       -335416.928+1512353.474/
       -335334.313+1512452.536/
       OLSEM
     </Line>
     <Line>
-      <!--Rwy07 FISHA9.WOL-->
+      <!--Rwy07 FISHA1.STUIE-->
+      SS504/
+      STUIE
+    </Line>
+    <Line>
+      <!--Rwy07 FISHA1.WOL-->
       FISHA/
       -335435.277+1512240.086/
       -335430.055+1512350.730/
@@ -89,7 +126,22 @@
       <Point>WOL NDB</Point>
     </Symbol>
     <Symbol Type="HollowStar">
+      <Point>IKORO</Point>
+      <Point>NB523</Point>
+      <Point>NB524</Point>
+      <Point>NB525</Point>
+      <Point>NB526</Point>
+      <Point>DUBSU</Point>
+      <Point>BENBU</Point>
+      <Point>NB540</Point>
+      <Point>KADOM</Point>
+      <Point>SS506</Point>
+      <Point>AVMOV</Point>
+      <Point>OGESO</Point>
+      <Point>SS504</Point>
+      <Point>SS503</Point>
       <Point>OLSEM</Point>
+      <Point>STUIE</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
       <Point>BEROW</Point>
@@ -149,8 +201,24 @@
   </Map>
   <Map Type="System" Name="SY_RWY07_NAMES" Priority="2" Center="-33.946111+151.177222">
     <Label>
+      <Point>ANKUB</Point>
+      <Point>IKORO</Point>
+      <Point>NB523</Point>
+      <Point>NB524</Point>
+      <Point>NB525</Point>
+      <Point>NB526</Point>
+      <Point>DUBSU</Point>
+      <Point>BENBU</Point>
+      <Point>NB540</Point>
+      <Point>KADOM</Point>
       <Point>FISHA</Point>
+      <Point>SS506</Point>
+      <Point>AVMOV</Point>
+      <Point>OGESO</Point>
+      <Point>SS504</Point>
+      <Point>SS503</Point>
       <Point>OLSEM</Point>
+      <Point>STUIE</Point>
       <Point>WOL NDB</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
@@ -169,12 +237,10 @@
       <Point>ODALE</Point>
       <Point>KABLO</Point>
       <Point>MITSA</Point>
-      <Point>ANKUB</Point>
       <Point>RIVET</Point>
       <Point>BIGEM</Point>
       <Point>TAMMI</Point>
       <Point>BOOGI</Point>
-      <Point>KADOM</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>
       <Point>ABARB</Point>
@@ -193,7 +259,6 @@
       <Point>WLM NDB</Point>
       <Point>BANDA</Point>
       <Point>KAPSA</Point>
-      <Point>STUIE</Point>
       <Point>RUSUM</Point>
       <Point>SHABY</Point>
       <Point>EMROT</Point>
