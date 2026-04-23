@@ -3,7 +3,7 @@
     <Map Type="Ground_INF" Name="BAY_NUMBERS" Priority="0" Center="-2380.8+13390.1">
         <Label HasLeader="false" Alignment="Center" VerticalAlignment="Middle">
             <!--ADELAIDE (YPAD)-->
-            <!--APRON CHART - TERMINAL ONE PAGE 1 | 04-Sep-2025 (Am 184)-->
+            <!--APRON CHART - TERMINAL ONE PAGE 1 | 09-July-2026 (Am 187)-->
             <Point Name="1">-345615.86+1383232.96</Point>
             <Point Name="2">-345614.66+1383233.22</Point>
             <Point Name="2A">-345614.40+1383233.56</Point>
@@ -38,7 +38,7 @@
             <Point Name="28L">-345629.39+1383206.19</Point>
             <Point Name="28R">-345628.43+1383206.34</Point>
             <Point Name="29">-345630.30+1383204.87</Point>
-            <!--APRON CHART - TERMINAL ONE PAGE 2 | 04-Sep-2025 (Am 184)-->
+            <!--APRON CHART - TERMINAL ONE PAGE 2 | 09-July-2026 (Am 187)-->
             <Point Name="50A">-345622.91+1383209.77</Point>
             <Point Name="50B">-345623.75+1383208.50</Point>
             <Point Name="50C">-345624.55+1383207.31</Point>
@@ -46,7 +46,9 @@
             <Point Name="50E">-345626.26+1383205.95</Point>
             <Point Name="50F">-345627.95+1383203.77</Point>
             <Point Name="50G">-345628.52+1383203.00</Point>
-            <!--APRON CHART - TERMINAL TWO | 01-Dec-2022 (Am 173)-->
+            <!--APRON CHART - TERMINAL TWO | 09-Jul-2026 (Am 187)-->
+            <Point Name="78">-345632.58+1383152.48</Point>
+            <Point Name="79">-345632.30+1383151.28</Point>
             <Point Name="80">-345630.88+1383149.07</Point>
             <Point Name="81">-345630.04+1383148.46</Point>
             <Point Name="82">-345628.65+1383149.17</Point>
@@ -58,8 +60,18 @@
             <Point Name="88">-345624.36+1383149.19</Point>
             <Point Name="101">-345618.43+1383159.50</Point>
 
+            <!--ALBURY (YMAY)-->
+            <!--GoogleEarth\YMAY Parking Coordinates | 27 JUN 23-->
+            <Point Name="1">-36.0690888+146.9533182</Point>
+            <Point Name="1A">-36.0690004+146.9533099</Point>
+            <Point Name="2">-36.0690074+146.9539275</Point>
+            <Point Name="3">-36.0689323+146.9545303</Point>
+            <Point Name="4">-36.0688554+146.9551309</Point>
+            <Point Name="4A">-36.0687333+146.9553042</Point>
+            <Point Name="5">-36.0687774+146.9557405</Point>
+
             <!--ALICE SPRINGS (YBAS)-->
-            <!--APRON CHART | 28-Nov-2024 (Am 181)-->
+            <!--APRON CHART | 09-Jul-2026 (Am 187)-->
             <Point Name="2">-234814.06+1335412.59</Point>
             <Point Name="3">-234813.03+1335410.66</Point>
             <Point Name="4">-234812.00+1335408.74</Point>
@@ -87,6 +99,13 @@
             <Point Name="6">-380138.16+1442829.78</Point>
             <Point Name="E1">-380146.27+1442830.53</Point>
             <Point Name="E2">-380147.10+1442830.37</Point>
+
+            <!--BALLINA (YBNA)-->
+            <!--Google Earth | 24-Apr-26 -->
+            <Point Name="1">-28.837331+153.555051</Point>
+            <Point Name="2">-28.837199+153.555561</Point>
+            <Point Name="3">-28.837035+153.556124</Point>
+            <Point Name="4">-28.836852+153.556838</Point>
 
             <!--BRISBANE (YBBN)-->
             <!--APRON CHART - DOMESTIC PAGE 2 | 19-Mar-2026 (Am 186)-->
@@ -238,13 +257,30 @@
             <Point Name="P17">-272433.42+1530609.39</Point>
             <Point Name="P18">-272436.83+1530613.03</Point>
             <Point Name="H">-272449.87+1530600.90</Point>
-            <!--APRON CHART - NORTH REMOTE APRON | 15-Jun-2023 (Am 175)-->
+            <!--APRON CHART - GA APRON and NORTH REMOTE APRON | 09-JUL-2026 (Am 187)-->
             <Point Name="R1">-272148.94+1530747.61</Point>
+            <Point Name="R1A">-273148.94+1530747.61</Point>
             <Point Name="R2">-272147.91+1530746.83</Point>
             <Point Name="R3">-272146.33+1530745.61</Point>
             <Point Name="R4">-272145.31+1530744.82</Point>
-            <Point Name="R5">-272143.95+1530743.90</Point>
-            <!--APRON CHART - GENERAL AVIATION | 12-Jun-2025 (Am 183)-->
+            <Point Name="R5">-272143.95+1530743.90</Point>       
+            <Point Name="E10">-272214.57+1530753.32</Point>
+            <Point Name="E10A">-272213.18+1530752.25</Point>
+            <Point Name="E11">-272208.90+1530748.95</Point>
+            <Point Name="E12">-272206.74+1530747.29</Point>
+            <Point Name="E13">-272204.36+1530745.46</Point>
+            <Point Name="E14">-272158.16+1530740.69</Point>
+            <Point Name="E14A">-272156.83+1530739.67</Point>
+            <Point Name="E14B">-272155.51+1530738.65</Point>
+            <Point Name="ER15">-272220.49+1530738.92</Point>
+            <Point Name="ER16">-272223.76+1530746.10</Point>
+            <Point Name="H">-272220.66+1530739.30</Point>
+            <Point Name="1F3">-272219.82+1530730.96</Point>
+            <Point Name="2F3">-272218.37+1530731.79</Point>
+            <Point Name="3F3">-272216.93+1530732.62</Point>
+            <Point Name="4F3">-272205.72+1530739.57</Point>
+            <Point Name="5F3">-272204.80+1530741.07</Point>
+            <Point Name="6F3">-272203.88+1530742.57</Point>
             <Point Name="G2">-272229.17+1530733.71</Point>
             <Point Name="G3">-272228.20+1530734.27</Point>
             <Point Name="G4">-272227.26+1530734.97</Point>
@@ -273,7 +309,6 @@
             <Point Name="G25">-272224.88+1530723.85</Point>
             <Point Name="G26">-272224.24+1530724.54</Point>
             <Point Name="G27">-272223.83+1530725.32</Point>
-
             <!--BROOME/INTL (YBRM)-->
             <!--APRON CHART - RPT | 9-Sep-2021 (Am 168)-->
             <Point Name="1">-175711.24+1221359.88</Point>
@@ -400,7 +435,7 @@
             <Point Name="31">-351810.19+1491155.71</Point>
 
             <!--COFFS HARBOUR (YCFS)-->
-            <!--APRON CHART - RPT | 12-Jun-2025 (Am 183)-->
+            <!--APRON CHART - RPT | 09-Jul-2026 (Am 187)-->
             <Point Name="1">-301925.95+1530655.67</Point>
             <Point Name="1A">-301925.81+1530656.12</Point>
             <Point Name="1B">-301926.70+1530656.53</Point>
@@ -590,7 +625,7 @@
             <Point Name="HELIPAD SOUTH">-211025.40+1491052.14</Point>
 
             <!--MELBOURNE (YMML)-->
-            <!--APRON CHART PAGE 2 | 19-Mar-26 (Am 186)-->
+            <!--APRON CHART PAGE 2 | 09-Jul-2026 (Am 187)-->
             <Point Name="B21">-374004.63+1445109.19</Point>
             <Point Name="B22">-374005.36+1445106.55</Point>
             <Point Name="B23">-374002.38+1445108.78</Point>
@@ -656,12 +691,13 @@
             <Point Name="E9">-374015.15+1445042.95</Point>
             <Point Name="E10">-374016.51+1445043.39</Point>
             <Point Name="F11">-374021.63+1445051.66</Point>
-            <Point Name="F12">-374023.71+1445052.72</Point>
+            <Point Name="F12">-374032.83+1445052.49</Point>
+            <Point Name="F12A">-374023.84+1445052.66</Point>
             <Point Name="F13">-374021.72+1445049.79</Point>
             <Point Name="F14">-374023.63+1445049.90</Point>
             <Point Name="F15">-374021.88+1445047.84</Point>
             <Point Name="F16">-374024.05+1445048.32</Point>
-            <!--APRON CHART PAGE 3 | 12-Jun-2025 (Am 183)-->
+            <!--APRON CHART PAGE 3 | 20-Mar-2025 (Am 182)-->
             <Point Name="F17">-374022.08+1445046.15</Point>
             <Point Name="F18">-374024.25+1445046.61</Point>
             <Point Name="F19">-374022.28+1445044.46</Point>
@@ -742,7 +778,7 @@
             <Point Name="36">-374344.21+1445351.72</Point>
 
             <!--PERTH (YPPH)-->
-            <!--APRON CHART - TERMINAL 1 & 2 PAGE 2 | 5-Sep-2024 (Am 180)-->
+            <!--APRON CHART - TERMINAL 1 & 2 PAGE 2 | 09-Jul-2026 (Am 187))-->
             <Point Name="143">-315630.66+1155817.96</Point>
             <Point Name="144">-315629.88+1155815.90</Point>
             <Point Name="145">-315629.50+1155814.11</Point>
@@ -784,7 +820,7 @@
             <Point Name="163">-315620.42+1155818.12</Point>
             <Point Name="163A">-315619.76+1155818.61</Point>
             <Point Name="163B">-315620.26+1155816.99</Point>
-            <!--APRON CHART - TERMINAL 1 & 2 PAGE 3 | 19-Mar-2026 (Am 186)-->
+            <!--APRON CHART - TERMINAL 1 & 2 PAGE 3 | 09-Jul-2026 (Am 187)-->
             <Point Name="201">-315633.70+1155816.14</Point>
             <Point Name="202">-315635.02+1155815.75</Point>
             <Point Name="203">-315636.39+1155815.35</Point>
@@ -829,8 +865,8 @@
             <Point Name="280">-315700.23+1155800.06</Point>
             <Point Name="281">-315700.56+1155801.64</Point>
             <Point Name="282">-315700.89+1155803.21</Point>
-            <Point Name="VA1">-315707.88+1155802.92</Point>
-            <Point Name="VA2">-315707.54+1155801.32</Point>
+            <Point Name="VA1">-315707.83+1155802.96</Point>
+            <Point Name="VA2">-315707.49+1155801.35</Point>
             <Point Name="VA3">-315710.07+1155803.11</Point>
             <!--APRON CHART - TERMINAL 3 & 4 - PAGE 2 | 12-Jun-2025 (Am 183)-->
             <Point Name="7">-315553.68+1155736.59</Point>
@@ -870,7 +906,7 @@
             <Point Name="916">-315609.06+1155747.19</Point>
             <Point Name="917">-315607.75+1155747.62</Point>
             <Point Name="918">-315606.43+1155748.07</Point>
-            <!--APRON CHART - GA NORTHERN | 20-Mar-2025 (Am 182)-->
+            <!--APRON CHART - GA NORTHERN | 04-Sep-2025 (Am 184)-->
             <Point Name="NJ1">-315533.02+1155745.60</Point>
             <Point Name="NJ2">-315532.73+1155744.20</Point>
             <Point Name="NJ3">-315532.43+1155742.81</Point>
@@ -922,14 +958,13 @@
             <Point Name="AF3">-315519.94+1155754.08</Point>
             <Point Name="AF4">-315522.41+1155754.72</Point>
             <Point Name="AF5">-315522.76+1155753.72</Point>
-            <!--APRON CHART - CENTRAL DOMESTIC AND GA SOUTHERN | 12-Jun-2025 (Am 183)-->
+            <!--APRON CHART - CENTRAL DOMESTIC AND GA SOUTHERN | 09-Jul-2026 (Am 187)-->
             <Point Name="MAR1">-315540.77+1155721.46</Point>
             <Point Name="MAR1A">-315541.10+1155721.53</Point>
-            <Point Name="MAR2">-315540.20+1155722.07</Point>
-            <Point Name="MAR3A">-315539.54+1155720.20</Point>
-            <Point Name="MAR4">-315539.23+1155721.47</Point>
-            <Point Name="MAR5">-315538.10+1155721.89</Point>
-            <Point Name="MAR5A">-315538.52+1155722.25</Point>
+            <Point Name="MAR2">-315540.16+1155722.11</Point>
+            <Point Name="MAR3A">-315539.49+1155720.24</Point>
+            <Point Name="MAR4">-315539.18+1155721.51</Point>
+            <Point Name="MAR5">-315538.05+1155721.93</Point>
             <Point Name="MAR6">-315539.41+1155723.78</Point>
             <Point Name="MAR7">-315538.96+1155723.26</Point>
             <Point Name="MAR8">-315538.50+1155722.74</Point>
@@ -990,7 +1025,7 @@
             <Point Name="6">-232245.47+1502841.47</Point>
 
             <!--SUNSHINE COAST (YBSU)-->
-            <!--APRON CHART - PAGE 2 | 26-Mar-2026 (SUP H29/26)-->
+            <!--APRON CHART - PAGE 2 | 09-Jul-2026 (Am 187)-->
             <Point Name="10">-263624.33+1530521.49</Point>
             <Point Name="11">-263623.28+1530520.77</Point>
             <Point Name="12">-263622.72+1530520.84</Point>
@@ -1006,7 +1041,7 @@
             <Point Name="20A">-263612.26+1530516.76</Point>
 
             <!--SYDNEY/KINGSFORD SMITH (YSSY)-->
-            <!--APRON CHART - INTERNATIONAL PAGE 2 | 19-Mar-2026 (Am 186)-->
+            <!--APRON CHART - INTERNATIONAL PAGE 2 | 09-Jul-2026 (Am 187)-->
             <Point Name="1">-335543.16+1511005.74</Point>
             <Point Name="1A">-335544.24+1511006.27</Point>
             <Point Name="2">-335547.53+1511002.09</Point>
@@ -1018,8 +1053,8 @@
             <Point Name="4A">-335551.56+1511004.69</Point>
             <Point Name="5">-335554.43+1511003.89</Point>
             <Point Name="5A">-335554.65+1511004.02</Point>
-            <Point Name="6">-335556.87+1511004.27</Point>
-            <Point Name="7">-335556.82+1511004.53</Point>
+            <Point Name="6">-335556.82+1511004.53</Point>
+            <Point Name="7">-335556.87+1511004.27</Point>
             <Point Name="7A">-335558.77+1511004.54</Point>
             <Point Name="8">-335602.67+1511002.80</Point>
             <Point Name="9">-335605.47+1511003.38</Point>
@@ -1243,7 +1278,7 @@
             <Point Name="2">-143047.630+1322155.370</Point>
 
             <!--TOWNSVILLE/TOWNSVILLE INTL (YBTL)-->
-            <!--APRON CHART | 28-Nov-2024 (Am 181)-->
+            <!--APRON CHART | 	09-Jul-2026 (Am 187)-->
             <Point Name="1">-191525.39+1464611.16</Point>
             <Point Name="1A">-191525.74+1464609.85</Point>
             <Point Name="1B">-191524.83+1464610.55</Point>
@@ -1285,15 +1320,8 @@
             <Point Name="15">-324821.34+1515033.22</Point>
             <Point Name="15A">-324821.10+1515032.89</Point>
 
-            <!--ALBURY (YMAY)-->
-            <!--GoogleEarth\YMAY Parking Coordinates | 27 JUN 23-->
-            <Point Name="1">-36.0690888+146.9533182</Point>
-            <Point Name="1A">-36.0690004+146.9533099</Point>
-            <Point Name="2">-36.0690074+146.9539275</Point>
-            <Point Name="3">-36.0689323+146.9545303</Point>
-            <Point Name="4">-36.0688554+146.9551309</Point>
-            <Point Name="4A">-36.0687333+146.9553042</Point>
-            <Point Name="5">-36.0687774+146.9557405</Point>
+
+        <!--RAAF - CHECK TERMA-->
 
             <!--AMBERLEY (YAMB)-->
             <!--AERODROME CHART | 09 SEP 21-->

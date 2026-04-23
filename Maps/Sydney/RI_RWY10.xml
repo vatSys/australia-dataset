@@ -16,6 +16,27 @@
       ANKUB
     </Line>
     <Line>
+      <!--Rwy10 BEROW1-->
+      -333626.180+1504735.590/
+      RI510/
+      -333736.106+1505253.054/
+      -333715.809+1505339.234/
+      -333639.000+1505407.032/
+      -333555.551+1505409.003/
+      -333517.100+1505344.631/
+      -333505.531+1505328.630/
+      RI511/
+      RI530/
+      RI531/
+      OMBIB/
+      BEROW
+    </Line>
+    <Line>
+      <!--Rwy10 BEROW1.TESAT-->
+      BEROW/
+      TESAT
+    </Line>
+    <Line>
       <!--Rwy10 KADOM3-->
       -333727.000+1504844.000/
       -333740.000+1504831.000/
@@ -35,23 +56,59 @@
       MUDGI
     </Line>
     <Line>
-      <!--Rwy10 RIC4-->
+      <!--Rwy10 NESSY1-->
+      RI511/
+      NESSY
+    </Line>
+    <Line>
+      <!--Rwy10 NIVOT1-->
+      RI530/
+      NIVOT
+    </Line>
+    <Line>
+      <!--Rwy10 RIC5-->
       -333626.180+1504735.590/
-      -333626.490+1504737.191/
-      -333713.769+1505042.039
+      -333734.400+1505200.900
+    </Line>
+    <Line>
+      <!--Rwy10 RUTOS1-->
+      RI531/
+      RUTOS
     </Line>
     <!--STARs-->
+    <Symbol Type="SolidStar">
+      <Point>RI510</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>ANKUB</Point>
+      <Point>RI511</Point>
+      <Point>RI530</Point>
+      <Point>RI531</Point>
+      <Point>OMBIB</Point>
+      <Point>BEROW</Point>
+      <Point>TESAT</Point>
       <Point>KADOM</Point>
       <Point>MUDGI</Point>
+      <Point>NESSY</Point>
+      <Point>NIVOT</Point>
+      <Point>RUTOS</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="RI_RWY10_NAMES" Priority="2" Center="-33.600556+150.780833">
     <Label>
       <Point>ANKUB</Point>
+      <Point>RI510</Point>
+      <Point>RI511</Point>
+      <Point>RI530</Point>
+      <Point>RI531</Point>
+      <Point>OMBIB</Point>
+      <Point>BEROW</Point>
+      <Point>TESAT</Point>
       <Point>KADOM</Point>
       <Point>MUDGI</Point>
+      <Point>NESSY</Point>
+      <Point>NIVOT</Point>
+      <Point>RUTOS</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>
       <Point>ABARB</Point>

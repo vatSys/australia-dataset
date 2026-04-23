@@ -7,6 +7,82 @@
       <Threshold Name="25" Position="-33.937775+151.188908" ExtendedCentrelineTrack="74.2" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--SIDs-->
+    <Line>
+      <!--Rwy25 ANKUB1-->
+      -335637.460+1510949.060/
+      ANKUB
+    </Line>
+    <Line>
+      <!--Rwy25 ANKUB1.BENBU-->
+      ANKUB/
+      IKORO/
+      NB523/
+      NB524/
+      NB525/
+      NB526/
+      DUBSU/
+      BENBU
+    </Line>
+    <Line>
+      <!--Rwy25 ANKUB1.KADOM-->
+      NB524/
+      NB540/
+      KADOM
+    </Line>
+    <Line>
+      <!--Rwy25 AVMOV1-->
+      -335637.460+1510949.060/
+      -335727.491+1510603.813/
+      SS500/
+      SS504/
+      OGESO/
+      AVMOV
+    </Line>
+    <Line>
+      <!--Rwy25 AVMOV1.CAWLY-->
+      AVMOV/
+      MANFA/
+      CAWLY
+    </Line>
+    <Line>
+      <!--Rwy25 AVMOV1.DIPSO-->
+      AVMOV/
+      DIPSO
+    </Line>
+    <Line>
+      <!--Rwy25 AVMOV1.EVONN-->
+      MANFA/
+      EVONN
+    </Line>
+    <Line>
+      <!--Rwy25 AVMOV1.NOBAR-->
+      AVMOV/
+      NOBAR
+    </Line>
+    <Line>
+      <!--Rwy25 AVMOV1.OLSEM-->
+      AVMOV/
+      OLSEM
+    </Line>
+    <Line>
+      <!--Rwy25 AVMOV1.OPTIC-->
+      MANFA/
+      OPTIC
+    </Line>
+    <Line>
+      <!--Rwy25 KADOM2-->
+      SS500/
+      SS501/
+      SS502/
+      SS503/
+      KADOM
+    </Line>
+    <Line>
+      <!--Rwy25 STUIE1-->
+      -335727.491+1510603.813/
+      URDOS/
+      STUIE
+    </Line>
     <!--STARs-->
     <Line>
       <!--Rwy25 BORE4A-->
@@ -56,6 +132,32 @@
       <Point>JELLI</Point>
     </Symbol>
     <Symbol Type="HollowStar">
+      <Point>ANKUB</Point>
+      <Point>IKORO</Point>
+      <Point>NB523</Point>
+      <Point>NB524</Point>
+      <Point>NB525</Point>
+      <Point>NB526</Point>
+      <Point>DUBSU</Point>
+      <Point>BENBU</Point>
+      <Point>NB540</Point>
+      <Point>KADOM</Point>
+      <Point>SS500</Point>
+      <Point>SS504</Point>
+      <Point>OGESO</Point>
+      <Point>AVMOV</Point>
+      <Point>MANFA</Point>
+      <Point>CAWLY</Point>
+      <Point>DIPSO</Point>
+      <Point>EVONN</Point>
+      <Point>NOBAR</Point>
+      <Point>OLSEM</Point>
+      <Point>OPTIC</Point>
+      <Point>SS501</Point>
+      <Point>SS502</Point>
+      <Point>SS503</Point>
+      <Point>URDOS</Point>
+      <Point>STUIE</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
       <Point>BEROW</Point>
@@ -73,7 +175,6 @@
       <Point>ODALE</Point>
       <Point>KABLO</Point>
       <Point>MITSA</Point>
-      <Point>ANKUB</Point>
       <Point>RIVET</Point>
       <Point>BIGEM</Point>
       <Point>TAMMI</Point>
@@ -117,6 +218,32 @@
   </Map>
   <Map Type="System" Name="SY_RWY25_NAMES" Priority="2" Center="-33.946111+151.177222">
     <Label>
+      <Point>ANKUB</Point>
+      <Point>IKORO</Point>
+      <Point>NB523</Point>
+      <Point>NB524</Point>
+      <Point>NB525</Point>
+      <Point>NB526</Point>
+      <Point>DUBSU</Point>
+      <Point>BENBU</Point>
+      <Point>NB540</Point>
+      <Point>KADOM</Point>
+      <Point>SS500</Point>
+      <Point>SS504</Point>
+      <Point>OGESO</Point>
+      <Point>AVMOV</Point>
+      <Point>MANFA</Point>
+      <Point>CAWLY</Point>
+      <Point>DIPSO</Point>
+      <Point>EVONN</Point>
+      <Point>NOBAR</Point>
+      <Point>OLSEM</Point>
+      <Point>OPTIC</Point>
+      <Point>SS501</Point>
+      <Point>SS502</Point>
+      <Point>SS503</Point>
+      <Point>URDOS</Point>
+      <Point>STUIE</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
       <Point>BEROW</Point>
@@ -135,16 +262,12 @@
       <Point>ODALE</Point>
       <Point>KABLO</Point>
       <Point>MITSA</Point>
-      <Point>ANKUB</Point>
       <Point>RIVET</Point>
       <Point>BIGEM</Point>
       <Point>TAMMI</Point>
       <Point>BOOGI</Point>
-      <Point>KADOM</Point>
       <Point>PKS VOR</Point>
-      <Point>NOBAR</Point>
       <Point>ABARB</Point>
-      <Point>DIPSO</Point>
       <Point>GUTIV</Point>
       <Point>INVUS</Point>
       <Point>ATNAT</Point>
@@ -155,13 +278,11 @@
       <Point>KARDI</Point>
       <Point>MONDO</Point>
       <Point>LOWEP</Point>
-      <Point>OLSEM</Point>
       <Point>UPNEX</Point>
       <Point>EKIPU</Point>
       <Point>WLM NDB</Point>
       <Point>BANDA</Point>
       <Point>KAPSA</Point>
-      <Point>STUIE</Point>
       <Point>RUSUM</Point>
       <Point>SHABY</Point>
       <Point>EMROT</Point>
@@ -170,10 +291,8 @@
       <Point>LASUD</Point>
       <Point>IDGIG</Point>
       <Point>IPGOK</Point>
-      <Point>EVONN</Point>
       <Point>GEROS</Point>
       <Point>PLUGA</Point>
-      <Point>CAWLY</Point>
       <Point>AKALU</Point>
       <Point>NONID</Point>
       <Point>SAPOX</Point>
@@ -214,7 +333,6 @@
       <Point>CULIN</Point>
       <Point>TARAL</Point>
       <Point>ENLAD</Point>
-      <Point>OPTIC</Point>
       <Point>TONIM</Point>
     </Label>
   </Map>

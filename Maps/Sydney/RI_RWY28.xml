@@ -19,6 +19,20 @@
       ANKUB
     </Line>
     <Line>
+      <!--Rwy28 BEROW1-->
+      -333605.810+1504616.490/
+      RI528/
+      RI530/
+      RI531/
+      OMBIB/
+      BEROW
+    </Line>
+    <Line>
+      <!--Rwy28 BEROW1.TESAT-->
+      BEROW/
+      TESAT
+    </Line>
+    <Line>
       <!--Rwy28 KADOM3-->
       -333616.000+1504501.000/
       -333653.000+1504305.000/
@@ -67,23 +81,56 @@
       MUDGI
     </Line>
     <Line>
+      <!--Rwy28 NESSY1-->
+      RI528/
+      NESSY
+    </Line>
+    <Line>
+      <!--Rwy28 NIVOT1-->
+      RI530/
+      NIVOT
+    </Line>
+    <Line>
       <!--Rwy28 RIC4-->
       -333605.810+1504616.490/
       -333605.127+1504614.639/
       -333458.119+1504339.000
     </Line>
+    <Line>
+      <!--Rwy28 RUTOS1-->
+      RI531/
+      RUTOS
+    </Line>
     <!--STARs-->
     <Symbol Type="HollowStar">
       <Point>ANKUB</Point>
+      <Point>RI528</Point>
+      <Point>RI530</Point>
+      <Point>RI531</Point>
+      <Point>OMBIB</Point>
+      <Point>BEROW</Point>
+      <Point>TESAT</Point>
       <Point>KADOM</Point>
       <Point>MUDGI</Point>
+      <Point>NESSY</Point>
+      <Point>NIVOT</Point>
+      <Point>RUTOS</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="RI_RWY28_NAMES" Priority="2" Center="-33.600556+150.780833">
     <Label>
       <Point>ANKUB</Point>
+      <Point>RI528</Point>
+      <Point>RI530</Point>
+      <Point>RI531</Point>
+      <Point>OMBIB</Point>
+      <Point>BEROW</Point>
+      <Point>TESAT</Point>
       <Point>KADOM</Point>
       <Point>MUDGI</Point>
+      <Point>NESSY</Point>
+      <Point>NIVOT</Point>
+      <Point>RUTOS</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>
       <Point>ABARB</Point>
