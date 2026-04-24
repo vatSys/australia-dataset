@@ -366,37 +366,49 @@
       <Point>PUTY</Point>
     </Label>
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="IN_NORTH">PSP</Point>
-      <Point Name="IN_TWO_RN">TWRN</Point>
-      <Point Name="OUT_NORTH">-335230.084+1505947.701</Point>
+      <Point Name="IN_BROOKLYN">BBG</Point>
+      <Point Name="IN_LIGHTHORSE">NPBR</Point>
+      <Point Name="IN_MTANNAN">-335522.000+1505417.000</Point>
+      <Point Name="IN_ST-HELENS">SSKP</Point>
+      <Point Name="OUT_HORNSBY">-335130.000+1505954.000</Point>
       <Point Name="RIC_ROUTE">WSFR</Point>
-      <Point Name="HARB_SCENIC_1">LRF</Point>
-      <Point Name="HARB_SCENIC_2">CHAT</Point>
+      <Point Name="HARB_SCENIC">LRF</Point>
       <Point Name="VICTOR_1">-340506.284+1511110.861</Point>
     </Label>
-    <!--IN_NORTH-->
+    <Label HasLeader="True" LabelOrientation="SE">
+      <Point Name="OUT_PENRITH">-335130.000+1505954.000</Point>
+    </Label>
+    <!--IN_BROOKLYN-->
     <Line Pattern="Dotted">
-      PSP/-335252.538+1505729.859
+      BBG/CAST/PSP/-335144.000+1505647.000
     </Line>
-    <!--IN_TWO_RN-->
+    <!--IN_LIGHTHORSE-->
     <Line Pattern="Dotted">
-      TWRN/-335555.000+1505649.000
+      NPBR/LIHR/PSP/-335144.000+1505647.000
     </Line>
-    <!--OUT_NORTH-->
+    <!--IN_MTANNAN-->
     <Line Pattern="Dotted">
-      -335230.084+1505947.701/PRT
+      -335522.000+1505417.000/HXPR/EMPS/MAGG
+    </Line>
+    <!--IN_ST-HELENS-->
+    <Line Pattern="Dotted">
+      SSKP/CRST/CRSC/-335719.000+1505439.000
+    </Line>
+    <!--OUT_HORNSBY-->
+    <Line Pattern="Dotted">
+      -335130.000+1505954.000/PRT/MFGC/PENH/HSY/-333358.000+1511459.000
+    </Line>
+    <!--OUT_PENRITH-->
+    <Line Pattern="Dotted">
+      -335130.000+1505954.000/PRT/SITS/VCBR
     </Line>
     <!--RIC_ROUTE-->
     <Line Pattern="Dotted">
       WSFR/KRMD/GRRV/-334259.498+1503855.777/NPBR
     </Line>
-    <!--HARB_SCENIC_1-->
+    <!--HARB_SCENIC-->
     <Line Pattern="Dotted">
-      LRF/HBB/NOHD/MNLY/LRF
-    </Line>
-    <!--HARB_SCENIC_2-->
-    <Line Pattern="Dotted">
-      CHAT/MNLY/LRF/CHAT
+      LRF/HBB/NOHD/MNLY
     </Line>
     <!--VICTOR_1-->
     <Line Pattern="Dotted">
