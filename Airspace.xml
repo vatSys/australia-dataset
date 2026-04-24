@@ -264,8 +264,22 @@
       </Runway>
     </Airport>
     <Airport Name="YBNA">
-      <Runway Name="06" DataRunway="06" />
-      <Runway Name="24" DataRunway="24" />
+      <Runway Name="06" DataRunway="06">
+        <SID Name="BNA1" Default="True" />
+        <SID Name="BUVAM1" Type="NonJet" />
+        <SID Name="IDNER1" />
+        <STAR Name="UPSE1A" ApproachName="RNPZ" />
+        <STAR Name="UPSE1B" OpDataFlag="B" ApproachName="RNPZ" />
+        <STAR Name="UPSE1X" OpDataFlag="X" ApproachName="RNP-ARX" />
+      </Runway>
+      <Runway Name="24" DataRunway="24">
+        <SID Name="BNA1" />
+        <SID Name="IDNER1" />
+        <STAR Name="UPSE1A" ApproachName="RNPZ" />
+        <STAR Name="UPSE1B" OpDataFlag="B" ApproachName="RNPZ" />
+        <STAR Name="UPSE1X" OpDataFlag="X" ApproachName="RNP-ARX" />
+        <STAR Name="UPSE1Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
+      </Runway>
     </Airport>
     <Airport Name="YBOK">
       <Runway Name="05" DataRunway="05">
@@ -16479,6 +16493,17 @@ SAGLI
       <Route Runway="14">-211041.900+1491115.630/-211041.970+1491115.601/-211352.157+1491323.438/MUNAR</Route>
       <Route Runway="32">-210947.430+1491038.920/-210947.491+1491038.870/-210840.188+1490950.843/AVKIK/-210023.792+1484631.927/-210027.796+1484559.550/-210046.147+1484533.467/-210114.098+1484520.422/RUVAL/MUNAR</Route>
     </SID>
+    <SID Name="BNA1" Airport="YBNA" Runways="06,24">
+      <Route Runway="06">-284951.110+1533413.700/-284934.277+1533519.389</Route>
+      <Route Runway="24">-285008.650+1533306.510/-285025.474+1533200.812</Route>
+    </SID>
+    <SID Name="BUVAM1" Airport="YBNA" Runways="06">
+      <Route Runway="06">-284951.110+1533413.700/EXUVI/-284848.317+1533933.568/-284925.223+1534051.539/-285031.335+1534138.020/-285117.524+1534145.029/BUVAM</Route>
+    </SID>
+    <SID Name="IDNER1" Airport="YBNA" Runways="06,24">
+      <Route Runway="06">-284951.110+1533413.700/BIVIT/-284801.505+1534008.701/-284706.849+1534042.381/-284604.758+1534040.363/-284511.868+1534003.204/-284442.345+1533900.868/-284439.206+1533832.687/UPVUK/UXIPI/NA520/IDNER</Route>
+      <Route Runway="24">-285008.650+1533306.510/SAPOR/NA521/IDNER</Route>
+    </SID>
     <SID Name="OK6" Airport="YBOK" Runways="05,09,14,32">
       <Route Runway="05" />
       <Route Runway="09" />
@@ -17760,6 +17785,21 @@ SAGLI
       <Route Runway="14">WELKE/BURNO/SADID/LUMVA</Route>
       <Route Runway="32">WELKE/BAVAM</Route>
     </STAR>
+    <STAR Name="UPSE1A" Airport="YBNA" Runways="06,24">
+      <Route Runway="06">UPSEL/UKBAX/UXUGA/DAPRA</Route>
+      <Route Runway="24">UPSEL/UKBAX/NA522/BUTIR/RUNLO</Route>
+    </STAR>
+    <STAR Name="UPSE1B" Airport="YBNA" Runways="06,24">
+      <Route Runway="06">UPSEL/UVUNU/NA526/RAXOK/NA527/NA528/DAPRA</Route>
+      <Route Runway="24">UPSEL/UVUNU/NA526/RAXOK/BUGTI/IGMIM/AVBAK/MADAK</Route>
+    </STAR>
+    <STAR Name="UPSE1X" Airport="YBNA" Runways="06,24">
+      <Route Runway="06">UPSEL/UKBAX/AKTUX/NA524/OPESO</Route>
+      <Route Runway="24">UPSEL/UKBAX/NA522/BUTIR/POLUR</Route>
+    </STAR>
+    <STAR Name="UPSE1Y" Airport="YBNA" Runways="24">
+      <Route Runway="24">UPSEL/UVUNU/NA526/RAXOK/BUGTI/IGMIM/AVBAK</Route>
+    </STAR>
     <STAR Name="ABVAS1" Airport="YBRK" Runways="15,33">
       <Route Runway="15">ABVAS/RELEM/BASOB</Route>
       <Route Runway="33">ABVAS/RELEM/PADVU/POPEX/LALIS</Route>
@@ -18578,6 +18618,26 @@ SAGLI
       <Transition Name="BMKSJ">BMKSJ</Transition>
       <Transition Name="BURNO">BURNO</Transition>
       <Route>BMKSI/BMKSF/BMKSM</Route>
+    </Approach>
+    <Approach Name="RNPZ" Airport="YBNA" Runway="06">
+      <Transition Name="DAPRA">DAPRA</Transition>
+      <Transition Name="NA2WG">NA2WG</Transition>
+      <Route>NA2WI/NA2WF/-285008.650+1533306.510</Route>
+    </Approach>
+    <Approach Name="RNPZ" Airport="YBNA" Runway="24">
+      <Transition Name="MADAK">MADAK</Transition>
+      <Transition Name="RUNLO">RUNLO</Transition>
+      <Route>NA2EI/NA2EF/-284951.110+1533413.700</Route>
+    </Approach>
+    <Approach Name="RNP-ARX" Airport="YBNA" Runway="06">
+      <Transition Name="OPESO">OPESO</Transition>
+      <Route>NA420/NA430/PUMIP/-285008.650+1533306.510</Route>
+    </Approach>
+    <Approach Name="RNP-ARX" Airport="YBNA" Runway="24">
+      <Route>POLUR/NA500/-285106.223+1534157.616/-285004.171+1534200.853/-284909.014+1534128.243/-284835.526+1534028.534/-284830.016+1533943.238/NA510/-284951.110+1533413.700</Route>
+    </Approach>
+    <Approach Name="RNP-ARY" Airport="YBNA" Runway="24">
+      <Route>AVBAK/NA610/-284248.982+1534227.482/-284325.856+1534345.398/-284431.950+1534431.869/-284549.563+1534434.432/-284657.900+1534352.376/-284719.640+1534322.820/NA620/-284951.110+1533413.700</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YBRK" Runway="15">
       <Transition Name="BASOB">BASOB</Transition>
