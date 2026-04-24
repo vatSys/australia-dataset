@@ -1516,7 +1516,7 @@
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-	<Position Name="Gold Coast TCU" Type="ASD" DefaultCenter="-28.164444+153.504722" DefaultRange="175" VisibilityRange="100" MagneticVariation="-11">
+	<Position Name="Gold Coast TCU" Type="ASD" DefaultCenter="-282819.000+1533029.000" DefaultRange="250" VisibilityRange="100" MagneticVariation="-11">
       <Sectors>
         <Sector Name="BAC" />
         <Sector Name="BAA" />
@@ -1537,6 +1537,7 @@
       <ATIS>
         <Editor Airport="YBCG" Frequency="134.5" />
         <Window Airport="YBCG" />
+        <Window Airport="YBNA" />
       </ATIS>
       <Strips Mode="State" Sort="Alpha">
         <Window Type="State" State="Jurisdiction" Visible="true" />
@@ -1553,6 +1554,42 @@
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
+      <ControllerInfo Callsign="BA_APP">
+        <Line>Ballina Approach | ATIS available on 128.65</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Ballina TCU" Type="ASD" DefaultCenter="-285727.000+1532617.000" DefaultRange="145" VisibilityRange="100" MagneticVariation="-11">
+      <Sectors>
+        <Sector Name="BAA" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-285727.000+1532617.000</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="AIRWAY_NOTES" />
+        <Map Name="Gold Coast/CG_COAST" />
+        <Map Name="Gold Coast/CG_TCU" />
+        <Map Name="Gold Coast/BA_RWY24" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBNA" Frequency="128.65" />
+        <Window Airport="YBNA" />
+      </ATIS>
+      <Strips Mode="State" Sort="Alpha">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="12000">
+        <AdditionalLevels>3200</AdditionalLevels>
+      </CFL>
       <ControllerInfo Callsign="BA_APP">
         <Line>Ballina Approach | ATIS available on 128.65</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
