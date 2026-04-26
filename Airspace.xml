@@ -65,18 +65,18 @@
         <SID Name="DIGLA3" />
         <SID Name="ELLOW3" />
         <SID Name="GAFER3" />
-        <SID Name="HONGI3" />
+        <SID Name="HONGI4" />
         <SID Name="IDANU3" />
         <SID Name="KALUG3" />
-        <SID Name="LUGSA1" />
-        <SID Name="MATMA1" />
+        <SID Name="LUGSA2" />
+        <SID Name="MATMA2" />
         <SID Name="MUDMO1" />
         <SID Name="PULOL3" />
         <SID Name="PUMAK1" />
-        <SID Name="RUPUS1" />
+        <SID Name="RUPUS2" />
         <SID Name="SADEL4" />
         <SID Name="SOTMI1" />
-        <SID Name="TNK3" />
+        <SID Name="TNK4" />
         <SID Name="TUMSO1" />
       </Runway>
       <Runway Name="17" DataRunway="17" />
@@ -85,18 +85,18 @@
         <SID Name="DIGLA3" />
         <SID Name="ELLOW3" />
         <SID Name="GAFER3" />
-        <SID Name="HONGI3" />
+        <SID Name="HONGI4" />
         <SID Name="IDANU3" />
         <SID Name="KALUG3" />
-        <SID Name="LUGSA1" />
-        <SID Name="MATMA1" />
+        <SID Name="LUGSA2" />
+        <SID Name="MATMA2" />
         <SID Name="OCTAV6" />
         <SID Name="PULOL3" />
         <SID Name="PUMAK1" />
-        <SID Name="RUPUS1" />
+        <SID Name="RUPUS2" />
         <SID Name="SADEL3" />
         <SID Name="SOTMI1" />
-        <SID Name="TNK3" />
+        <SID Name="TNK4" />
         <SID Name="TUMSO1" />
       </Runway>
       <Runway Name="35" DataRunway="35" />
@@ -751,10 +751,10 @@
         <STAR Name="GATO4A" ApproachName="RNP-ARX" />
         <STAR Name="GATO4X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="VEGP1A" ApproachName="RNP-ARX" />
-        <STAR Name="VEGP1W" OpDataFlag="W" ApproachName="RNP-ARX" />
+        <STAR Name="VEGP1W" OpDataFlag="W" ApproachName="RNP-ARW" />
         <STAR Name="VEGP1X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="WANG5A" ApproachName="RNP-ARX" />
-        <STAR Name="WANG5W" OpDataFlag="W" ApproachName="RNP-ARX" />
+        <STAR Name="WANG5W" OpDataFlag="W" ApproachName="RNP-ARW" />
         <STAR Name="WANG5X" OpDataFlag="X" ApproachName="RNP-ARX" />
       </Runway>
       <Runway Name="18" DataRunway="18">
@@ -779,7 +779,7 @@
         <STAR Name="VEGP1A" ApproachName="LOC" />
         <STAR Name="VEGP1X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="WANG5A" ApproachName="LOC" />
-        <STAR Name="WANG5W" OpDataFlag="W" ApproachName="RNP-ARX" />
+        <STAR Name="WANG5W" OpDataFlag="W" ApproachName="RNP-ARW" />
         <STAR Name="WANG5X" OpDataFlag="X" ApproachName="RNP-ARX" />
       </Runway>
       <Runway Name="36" DataRunway="36">
@@ -16354,7 +16354,7 @@ SAGLI
       <Route Runway="12">-234843.630+1335450.500/-234905.693+1335532.910/-234811.852+1335821.315/-234201.307+1340306.561/GAFER</Route>
       <Route Runway="30">-234803.710+1335336.100/OCTAV/-234648.233+1335129.822/-234607.000+1335055.766/-234519.100+1335034.537/-234427.806+1335027.579/-234352.393+1335031.505/AS456/-234208.602+1335118.997/-234105.200+1335220.133/-234018.438+1335337.091/-233951.499+1335504.630/-233946.213+1335636.795/-233951.663+1335720.331/NAMIT/-234036.781+1340134.356/-234024.554+1340504.293/-233938.964+1340744.047/AS476/GAFER</Route>
     </SID>
-    <SID Name="HONGI3" Airport="YBAS" Runways="12,30">
+    <SID Name="HONGI4" Airport="YBAS" Runways="12,30">
       <Route Runway="12">-234843.630+1335450.500/-234905.693+1335532.910/-234811.852+1335821.315/-234406.337+1334847.578/HONGI</Route>
       <Route Runway="30">-234803.710+1335336.100/-234644.416+1335114.512/-234527.012+1335014.320/HONGI</Route>
     </SID>
@@ -16366,11 +16366,11 @@ SAGLI
       <Route Runway="12">-234843.630+1335450.500/-234855.875+1335513.625/-235612.900+1340404.000/KALUG</Route>
       <Route Runway="30">-234803.710+1335336.100/-234644.416+1335114.512/-234227.012+1335014.320/-234331.123+1335253.676/AS VOR/KALUG</Route>
     </SID>
-    <SID Name="LUGSA1" Airport="YBAS" Runways="12,30">
+    <SID Name="LUGSA2" Airport="YBAS" Runways="12,30">
       <Route Runway="12">-234843.630+1335450.500/PUNED/BODAS/OSINA/IGDEB/LUGSA</Route>
       <Route Runway="30">-234803.710+1335336.100/RUGMU/IGDEB/LUGSA</Route>
     </SID>
-    <SID Name="MATMA1" Airport="YBAS" Runways="12,30">
+    <SID Name="MATMA2" Airport="YBAS" Runways="12,30">
       <Route Runway="12">-234843.630+1335450.500/-234855.875+1335513.625/-234930.913+1335838.241/MATMA</Route>
       <Route Runway="30">-234803.710+1335336.100/-234644.416+1335114.512/-235200.594+1340530.306/MATMA</Route>
     </SID>
@@ -16403,7 +16403,7 @@ SAGLI
       <Route Runway="12">-234843.630+1335450.500/PUNED/BODAS/OLREB/PUMAK</Route>
       <Route Runway="30">-234803.710+1335336.100/RUGMU/OLREB/PUMAK</Route>
     </SID>
-    <SID Name="RUPUS1" Airport="YBAS" Runways="12,30">
+    <SID Name="RUPUS2" Airport="YBAS" Runways="12,30">
       <Route Runway="12">-234843.630+1335450.500/-234905.693+1335532.910/-234811.852+1335821.315/-234038.623+1335131.383/-231813.147+1334708.201/RUPUS</Route>
       <Route Runway="30">-234803.710+1335336.100/OCTAV/-234648.233+1335129.822/-234607.000+1335055.766/-234519.100+1335034.537/-234427.806+1335027.579/-234352.393+1335031.505/AS456/-234036.533+1335115.414/-233847.138+1335112.923/AS462/RUPUS</Route>
     </SID>
@@ -16417,7 +16417,7 @@ SAGLI
       <Route Runway="12">-234843.630+1335450.500/-234855.875+1335513.625/-235302.394+1335504.332/SOTMI</Route>
       <Route Runway="30">-234803.710+1335336.100/-234644.416+1335114.512/-234227.012+1335014.320/-234331.123+1335253.676/AS VOR/SOTMI</Route>
     </SID>
-    <SID Name="TNK3" Airport="YBAS" Runways="12,30">
+    <SID Name="TNK4" Airport="YBAS" Runways="12,30">
       <Route Runway="12">-234843.630+1335450.500/-234905.693+1335532.910/-234811.852+1335821.315/-233722.942+1335329.991/TNK VOR</Route>
       <Route Runway="30">-234803.710+1335336.100/-234644.416+1335114.512/-234227.012+1335014.320/-234049.042+1335251.072/TNK VOR</Route>
     </SID>
@@ -18785,6 +18785,17 @@ SAGLI
     </Approach>
     <Approach Name="LOC" Airport="YPDN" Runway="29">
       <Route>LAPAR/TOROT/-122509.220+1305339.990</Route>
+    </Approach>
+    <Approach Name="RNP-ARW" Airport="YPDN" Runway="11">
+      <Transition Name="KITTY">KITTY/TOSOB/DN412/-122709.995+1304412.935/-122643.942+1304343.000/-122611.209+1304320.988/-122555.304+1304314.351/DN407/-122422.690+1304312.487/-122316.645+1304354.291/-122239.859+1304504.298/-122236.779+1304555.723</Transition>
+      <Transition Name="UPSEN">UPSEN/IGBOV/DN407/-122422.693+1304312.585/-122316.698+1304354.470/-122239.995+1304504.523/-122236.977+1304555.952</Transition>
+      <Transition Name="WOKKI">WOKKI/GUPOD/DN422/-121752.236+1304649.269/-121826.044+1304537.727/-121930.269+1304453.064/-122047.706+1304447.252/-122157.608+1304521.855/-122220.475+1304547.362</Transition>
+      <Route>DN404/-122433.850+1305154.940</Route>
+    </Approach>
+    <Approach Name="RNP-ARW" Airport="YPDN" Runway="29">
+      <Transition Name="KITTY">KITTY/GUMUR/DN448/-123205.761+1305944.238/-123131.313+1310055.522/-123026.685+1310139.605/-122909.198+1310144.680/-122759.614+1310109.394/-122740.207+1310048.091/DN444</Transition>
+      <Transition Name="WOKKI">WOKKI/ADBER/DN438/-122251.986+1310141.689/-122401.648+1310216.802/-122519.124+1310211.549/-122623.654+1310127.331/-122657.944+1310015.991/-122700.632+1305941.468</Transition>
+      <Route>DN432/-122509.220+1305339.990</Route>
     </Approach>
     <Approach Name="RNP-ARX" Airport="YPDN" Runway="11">
       <Transition Name="KITTY">KITTY/TOSOB/DN412/-122709.995+1304412.935/-122643.942+1304343.000/-122611.209+1304320.988/-122555.304+1304314.351/DN407/-122422.690+1304312.487/-122316.645+1304354.291/-122239.859+1304504.298/-122236.779+1304555.723/DN404</Transition>

@@ -36,9 +36,9 @@
       <Point>OGUGU</Point>
       <Point>TUMDI</Point>
       <Point>KITTY</Point>
-      <Point>NASUX</Point>
       <Point>UPSEN</Point>
       <Point>WOKKI</Point>
+      <Point>NASUX</Point>
       <Point>LAPAR</Point>
       <Point>KARGO</Point>
       <Point>TALAG</Point>
@@ -66,6 +66,9 @@
       <Point>HOORN</Point>
       <Point>MCLOY</Point>
       <Point>UPTIK</Point>
+      <Point>OPESO</Point>
+      <Point>POLUR</Point>
+      <Point>AVBAK</Point>
       <Point>AS624</Point>
       <Point>AS752</Point>
       <Point>ADKOP</Point>
@@ -103,6 +106,9 @@
       <Point>RM604</Point>
       <Point>KA902</Point>
       <Point>KA904</Point>
+      <Point>PUMIP</Point>
+      <Point>NA500</Point>
+      <Point>NA620</Point>
       <Point>AS764</Point>
       <Point>SEEKR</Point>
       <Point>AS620</Point>
@@ -135,6 +141,8 @@
       <Point>HM832</Point>
       <Point>RM606</Point>
       <Point>RAPLY</Point>
+      <Point>NA420</Point>
+      <Point>NA610</Point>
     </Label>
     <Symbol Type="HollowStar">
       <Point>AS604</Point>
@@ -245,6 +253,8 @@
       <Point>KA972</Point>
       <Point>KA971</Point>
       <Point>ADLOB</Point>
+      <Point>NA430</Point>
+      <Point>NA510</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>AS788</Point>
@@ -281,9 +291,9 @@
       <Point>OGUGU</Point>
       <Point>TUMDI</Point>
       <Point>KITTY</Point>
-      <Point>NASUX</Point>
       <Point>UPSEN</Point>
       <Point>WOKKI</Point>
+      <Point>NASUX</Point>
       <Point>LAPAR</Point>
       <Point>KARGO</Point>
       <Point>TALAG</Point>
@@ -311,6 +321,9 @@
       <Point>HOORN</Point>
       <Point>MCLOY</Point>
       <Point>UPTIK</Point>
+      <Point>OPESO</Point>
+      <Point>POLUR</Point>
+      <Point>AVBAK</Point>
     </Symbol>
     <Symbol Type="MalteseCross">
       <Point>AS624</Point>
@@ -350,6 +363,9 @@
       <Point>RM604</Point>
       <Point>KA902</Point>
       <Point>KA904</Point>
+      <Point>PUMIP</Point>
+      <Point>NA500</Point>
+      <Point>NA620</Point>
     </Symbol>
     <Symbol Type="SolidTriangle">
       <Point>AS764</Point>
@@ -384,6 +400,8 @@
       <Point>HM832</Point>
       <Point>RM606</Point>
       <Point>RAPLY</Point>
+      <Point>NA420</Point>
+      <Point>NA610</Point>
     </Symbol>
     <Line>AS624/-234413.000+1335202.000/-234504.000+1335103.000/-234611.000+1335100.000/AS604/-234803.710+1335336.100</Line>
     <Line>AS788/AS632/-234356.742+1335843.696/-234421.967+1335509.872/-234418.632+1335401.013/AS624/AS624</Line>
@@ -444,14 +462,16 @@
     <Line>OGUGU/AD020</Line>
     <Line>TUMDI/AD030</Line>
     <Line>DN404/-122433.850+1305154.940</Line>
-    <Line>KITTY/TOSOB/DN412/-122709.995+1304412.935/-122643.942+1304343.000/-122611.209+1304320.988/-122555.304+1304314.351/DN407/-122422.690+1304312.487/-122316.645+1304354.291/-122239.859+1304504.298/-122236.779+1304555.723/DN404/DN404</Line>
-    <Line>NASUX/DN404</Line>
+    <Line>KITTY/TOSOB/DN412/-122709.995+1304412.935/-122643.942+1304343.000/-122611.209+1304320.988/-122555.304+1304314.351/DN407/-122422.690+1304312.487/-122316.645+1304354.291/-122239.859+1304504.298/-122236.779+1304555.723/DN404</Line>
     <Line>UPSEN/IGBOV/DN407/-122422.693+1304312.585/-122316.698+1304354.470/-122239.995+1304504.523/-122236.977+1304555.952/DN404</Line>
     <Line>WOKKI/GUPOD/DN422/-121752.236+1304649.269/-121826.044+1304537.727/-121930.269+1304453.064/-122047.706+1304447.252/-122157.608+1304521.855/-122220.475+1304547.362/DN404</Line>
     <Line>DN432/-122509.220+1305339.990</Line>
     <Line>KITTY/GUMUR/DN448/-123205.761+1305944.238/-123131.313+1310055.522/-123026.685+1310139.605/-122909.198+1310144.680/-122759.614+1310109.394/-122740.207+1310048.091/DN444/DN432</Line>
+    <Line>WOKKI/ADBER/DN438/-122251.986+1310141.689/-122401.648+1310216.802/-122519.124+1310211.549/-122623.654+1310127.331/-122657.944+1310015.991/-122700.632+1305941.468/DN432</Line>
+    <Line>DN404/DN404</Line>
+    <Line>NASUX/DN404</Line>
     <Line>LAPAR/DN444</Line>
-    <Line>WOKKI/ADBER/DN438/-122251.986+1310141.689/-122401.648+1310216.802/-122519.124+1310211.549/-122623.654+1310127.331/-122657.944+1310015.991/-122700.632+1305941.468/DN432/DN432</Line>
+    <Line>DN432/DN432</Line>
     <Line>KARGO/PH010/PH020/-320240.037+1155837.969/-320215.775+1155757.105/-320143.372+1155725.048/-320105.038+1155703.982/-320023.388+1155655.339/-315957.900+1155656.537/PH030/-315731.460+1155734.860</Line>
     <Line>TALAG/CB403/CB402/CB401/-351726.260+1491139.990</Line>
     <Line>CB431/CB432/CB444/CB445/CB446/-351853.310+1491140.000</Line>
@@ -497,5 +517,9 @@
     <Line>GITSM/KA906/KA904</Line>
     <Line>HOORN/KA972/KA971/ADLOB/-204736.044+1165428.328/-204623.232+1165530.512/-204451.105+1165545.417/-204324.352+1165509.070/-204226.211+1165351.229/-204215.216+1165314.260/KA904/KA904</Line>
     <Line>UPTIK/-205244.346+1164132.328/-205112.462+1164236.847/-204959.710+1164404.619/-204910.651+1164549.527/-204855.621+1164650.416/KA971</Line>
+    <Line>NA420/NA430/PUMIP/-285008.650+1533306.510</Line>
+    <Line>OPESO/NA420</Line>
+    <Line>POLUR/NA500/-285106.223+1534157.616/-285004.171+1534200.853/-284909.014+1534128.243/-284835.526+1534028.534/-284830.016+1533943.238/NA510/-284951.110+1533413.700</Line>
+    <Line>AVBAK/NA610/-284248.982+1534227.482/-284325.856+1534345.398/-284431.950+1534431.869/-284549.563+1534434.432/-284657.900+1534352.376/-284719.640+1534322.820/NA620/-284951.110+1533413.700</Line>
   </Map>
 </Maps>
