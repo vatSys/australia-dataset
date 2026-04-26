@@ -72,6 +72,12 @@
       <Point>ESDIG</Point>
       <Point>BT2SA</Point>
       <Point>BT2SF</Point>
+      <Point>STUIE</Point>
+      <Point>WH3WA</Point>
+      <Point>WH3WF</Point>
+      <Point>ESGID</Point>
+      <Point>SB3SI</Point>
+      <Point>WH3SF</Point>
       <Point>BAFWE</Point>
       <Point>BAFWD</Point>
       <Point>BAFWG</Point>
@@ -203,7 +209,6 @@
       <Point>PTNSC</Point>
       <Point>NIXOD</Point>
       <Point>SB3WB</Point>
-      <Point>ESGID</Point>
       <Point>CB2EA</Point>
       <Point>CB2EB</Point>
       <Point>CB2EC</Point>
@@ -214,7 +219,6 @@
       <Point>RI2WD</Point>
       <Point>ELMEN</Point>
       <Point>PAPGU</Point>
-      <Point>STUIE</Point>
       <Point>TEDEK</Point>
       <Point>ANKUB</Point>
       <Point>SSYNI</Point>
@@ -463,7 +467,6 @@
       <Point>PTNSI</Point>
       <Point>SB3NA</Point>
       <Point>SB3WI</Point>
-      <Point>SB3SI</Point>
       <Point>CB2EI</Point>
       <Point>CB2SI</Point>
       <Point>RI2WI</Point>
@@ -3841,6 +3844,8 @@
       <Point>ET2WF</Point>
       <Point>DULUB</Point>
       <Point>KANRA</Point>
+      <Point>WH3WF</Point>
+      <Point>WH3SF</Point>
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>BAFWI</Point>
@@ -4499,6 +4504,7 @@
       <Point>DUDUT</Point>
       <Point>BEKED</Point>
       <Point>IGBER</Point>
+      <Point>WH3WA</Point>
     </Symbol>
     <Symbol Type="HollowTriangle">
       <Point>MUDAN</Point>
@@ -4549,6 +4555,8 @@
       <Point>BT2SC</Point>
       <Point>ESDIG</Point>
       <Point>BT2SA</Point>
+      <Point>STUIE</Point>
+      <Point>ESGID</Point>
       <Point>BAFWE</Point>
       <Point>BAFWD</Point>
       <Point>BAFWG</Point>
@@ -4680,7 +4688,6 @@
       <Point>PTNSC</Point>
       <Point>NIXOD</Point>
       <Point>SB3WB</Point>
-      <Point>ESGID</Point>
       <Point>CB2EA</Point>
       <Point>CB2EB</Point>
       <Point>CB2EC</Point>
@@ -4691,7 +4698,6 @@
       <Point>RI2WD</Point>
       <Point>ELMEN</Point>
       <Point>PAPGU</Point>
-      <Point>STUIE</Point>
       <Point>TEDEK</Point>
       <Point>ANKUB</Point>
       <Point>TONUX</Point>
@@ -9110,6 +9116,11 @@
     <Line>ESDIT/IGBER</Line>
     <Line>IGBER/KANRA</Line>
     <Line>MEVUM/KANRA</Line>
+    <Line>STUIE/WH3WA</Line>
+    <Line>WH3WA/WH3WF</Line>
+    <Line>UKBES/WH3WF</Line>
+    <Line>SB3SI/WH3SF</Line>
+    <Line>WH3SM/WH3SF</Line>
     <Line>BAFWI/BAFWF/-273414.180+1525953.270</Line>
     <Line>BAFWE/BAFWI</Line>
     <Line>BAFWD/BAFWI</Line>
