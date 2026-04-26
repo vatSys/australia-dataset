@@ -7,10 +7,108 @@
       <Threshold Name="24" Position="-28.830864+153.570472" />
     </Runway>
     <!--SIDs-->
+    <Line>
+      <!--Rwy06 BNA1-->
+      -284951.110+1533413.700/
+      -284934.277+1533519.389
+    </Line>
+    <Line>
+      <!--Rwy06 BUVAM1-->
+      -284951.110+1533413.700/
+      EXUVI/
+      -284848.317+1533933.568/
+      -284925.223+1534051.539/
+      -285031.335+1534138.020/
+      -285117.524+1534145.029/
+      BUVAM
+    </Line>
+    <Line>
+      <!--Rwy06 IDNER1-->
+      -284951.110+1533413.700/
+      BIVIT/
+      -284801.505+1534008.701/
+      -284706.849+1534042.381/
+      -284604.758+1534040.363/
+      -284511.868+1534003.204/
+      -284442.345+1533900.868/
+      -284439.206+1533832.687/
+      UPVUK/
+      UXIPI/
+      NA520/
+      IDNER
+    </Line>
     <!--STARs-->
+    <Line>
+      <!--Rwy06 UPSE1A-->
+      UPSEL/
+      UKBAX/
+      UXUGA/
+      DAPRA
+    </Line>
+    <Line>
+      <!--Rwy06 UPSE1B-->
+      UPSEL/
+      UVUNU/
+      NA526/
+      RAXOK/
+      NA527/
+      NA528/
+      DAPRA
+    </Line>
+    <Line>
+      <!--Rwy06 UPSE1X-->
+      UKBAX/
+      AKTUX/
+      NA524/
+      OPESO
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>DAPRA</Point>
+      <Point>OPESO</Point>
+    </Symbol>
+    <Symbol Type="SolidStar">
+      <Point>EXUVI</Point>
+      <Point>BIVIT</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>BUVAM</Point>
+      <Point>UPVUK</Point>
+      <Point>UXIPI</Point>
+      <Point>NA520</Point>
+      <Point>IDNER</Point>
+      <Point>UPSEL</Point>
+      <Point>UKBAX</Point>
+      <Point>UXUGA</Point>
+      <Point>UVUNU</Point>
+      <Point>NA526</Point>
+      <Point>RAXOK</Point>
+      <Point>NA527</Point>
+      <Point>NA528</Point>
+      <Point>AKTUX</Point>
+      <Point>NA524</Point>
+    </Symbol>
   </Map>
   <Map Type="System" Name="BA_RWY06_NAMES" Priority="2" Center="-28.833889+153.562500">
     <Label>
+      <Point>EXUVI</Point>
+      <Point>BUVAM</Point>
+      <Point>BIVIT</Point>
+      <Point>UPVUK</Point>
+      <Point>UXIPI</Point>
+      <Point>NA520</Point>
+      <Point>IDNER</Point>
+      <Point>UPSEL</Point>
+      <Point>UKBAX</Point>
+      <Point>UXUGA</Point>
+      <Point>DAPRA</Point>
+      <Point>UVUNU</Point>
+      <Point>NA526</Point>
+      <Point>RAXOK</Point>
+      <Point>NA527</Point>
+      <Point>NA528</Point>
+      <Point>AKTUX</Point>
+      <Point>NA524</Point>
+      <Point>OPESO</Point>
       <Point>BANDA</Point>
       <Point>KAPSA</Point>
       <Point>RULGU</Point>
@@ -40,7 +138,6 @@
       <Point>DULIN</Point>
       <Point>KADSI</Point>
       <Point>UGPOT</Point>
-      <Point>IDNER</Point>
       <Point>LOSKU</Point>
       <Point>ARM NDB</Point>
       <Point>ALDAR</Point>
@@ -49,7 +146,6 @@
       <Point>BERNI</Point>
       <Point>OLRIP</Point>
       <Point>IDBAB</Point>
-      <Point>UPSEL</Point>
       <Point>BESBO</Point>
       <Point>LAMUG</Point>
       <Point>SMOKA</Point>

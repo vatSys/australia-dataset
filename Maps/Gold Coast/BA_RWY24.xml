@@ -7,10 +7,85 @@
       <Threshold Name="24" Position="-28.830864+153.570472" ExtendedCentrelineTrack="73.49" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="5" />
     </Runway>
     <!--SIDs-->
+    <Line>
+      <!--Rwy24 BNA1-->
+      -285008.650+1533306.510/
+      -285025.474+1533200.812
+    </Line>
+    <Line>
+      <!--Rwy24 IDNER1-->
+      -285008.650+1533306.510/
+      SAPOR/
+      NA521/
+      IDNER
+    </Line>
     <!--STARs-->
+    <Line>
+      <!--Rwy24 UPSE1A-->
+      UPSEL/
+      UKBAX/
+      NA522/
+      BUTIR/
+      RUNLO
+    </Line>
+    <Line>
+      <!--Rwy24 UPSE1B-->
+      UPSEL/
+      UVUNU/
+      NA526/
+      RAXOK/
+      BUGTI/
+      IGMIM/
+      AVBAK/
+      MADAK
+    </Line>
+    <Line>
+      <!--Rwy24 UPSE1X-->
+      BUTIR/
+      POLUR
+    </Line>
+    <Line>
+      <!--Rwy24 UPSE1Y-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>RUNLO</Point>
+      <Point>MADAK</Point>
+      <Point>POLUR</Point>
+      <Point>AVBAK</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>SAPOR</Point>
+      <Point>NA521</Point>
+      <Point>IDNER</Point>
+      <Point>UPSEL</Point>
+      <Point>UKBAX</Point>
+      <Point>NA522</Point>
+      <Point>BUTIR</Point>
+      <Point>UVUNU</Point>
+      <Point>NA526</Point>
+      <Point>RAXOK</Point>
+      <Point>BUGTI</Point>
+      <Point>IGMIM</Point>
+    </Symbol>
   </Map>
   <Map Type="System" Name="BA_RWY24_NAMES" Priority="2" Center="-28.833889+153.562500">
     <Label>
+      <Point>SAPOR</Point>
+      <Point>NA521</Point>
+      <Point>IDNER</Point>
+      <Point>UPSEL</Point>
+      <Point>UKBAX</Point>
+      <Point>NA522</Point>
+      <Point>BUTIR</Point>
+      <Point>RUNLO</Point>
+      <Point>UVUNU</Point>
+      <Point>NA526</Point>
+      <Point>RAXOK</Point>
+      <Point>BUGTI</Point>
+      <Point>IGMIM</Point>
+      <Point>AVBAK</Point>
+      <Point>MADAK</Point>
+      <Point>POLUR</Point>
       <Point>BANDA</Point>
       <Point>KAPSA</Point>
       <Point>RULGU</Point>
@@ -40,7 +115,6 @@
       <Point>DULIN</Point>
       <Point>KADSI</Point>
       <Point>UGPOT</Point>
-      <Point>IDNER</Point>
       <Point>LOSKU</Point>
       <Point>ARM NDB</Point>
       <Point>ALDAR</Point>
@@ -49,7 +123,6 @@
       <Point>BERNI</Point>
       <Point>OLRIP</Point>
       <Point>IDBAB</Point>
-      <Point>UPSEL</Point>
       <Point>BESBO</Point>
       <Point>LAMUG</Point>
       <Point>SMOKA</Point>
