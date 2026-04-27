@@ -1247,70 +1247,70 @@
       <Runway Name="07" DataRunway="07">
         <SID Name="ANKUB1" Type="NonJet" />
         <SID Name="FISHA1" Type="Jet" />
-        <SID Name="SY3" Default="True" />
-        <STAR Name="BORE4A" />
-        <STAR Name="MARLN5" />
-        <STAR Name="MEPIL3" Type="NonJet" />
-        <STAR Name="ODALE7" Type="NonJet" />
-        <STAR Name="RIVET4" />
+        <SID Name="SY4" Default="True" />
+        <STAR Name="AKMIR1" />
+        <STAR Name="BORE5A" />
+        <STAR Name="MARLN6" />
+        <STAR Name="MEPIL4" Type="NonJet" />
+        <STAR Name="RIVET5" />
       </Runway>
       <Runway Name="16L" DataRunway="16L">
         <SID Name="ABBEY3" Type="Jet" />
         <SID Name="ANKUB1" Type="NonJet" />
         <SID Name="KEVIN7" />
-        <SID Name="SY3" Default="True" />
-        <STAR Name="BORE4A" />
-        <STAR Name="MARLN5" />
-        <STAR Name="MEPIL3" Type="NonJet" />
-        <STAR Name="ODALE7" Type="NonJet" />
-        <STAR Name="RIVET4" />
+        <SID Name="SY4" Default="True" />
+        <STAR Name="AKMIR1" />
+        <STAR Name="BORE5A" />
+        <STAR Name="MARLN6" />
+        <STAR Name="MEPIL4" Type="NonJet" />
+        <STAR Name="RIVET5" />
       </Runway>
       <Runway Name="16R" DataRunway="16R">
         <SID Name="ANKUB1" Type="NonJet" />
         <SID Name="GROOK2" />
-        <SID Name="SY3" Default="True" />
-        <STAR Name="BORE4A" />
-        <STAR Name="BORE4P" OpDataFlag="P" ApproachName="RNPZ" />
-        <STAR Name="MARLN5" />
-        <STAR Name="MEPIL3" Type="NonJet" />
-        <STAR Name="ODALE7" Type="NonJet" />
-        <STAR Name="RIVET4" />
+        <SID Name="SY4" Default="True" />
+        <STAR Name="AKMIR1" />
+        <STAR Name="BORE5A" />
+        <STAR Name="BORE5P" OpDataFlag="P" ApproachName="RNPZ" />
+        <STAR Name="MARLN6" />
+        <STAR Name="MEPIL4" Type="NonJet" />
+        <STAR Name="RIVET5" />
       </Runway>
       <Runway Name="25" DataRunway="25">
         <SID Name="ANKUB1" Type="NonJet" />
         <SID Name="AVMOV1" />
         <SID Name="KADOM2" Type="Jet" />
         <SID Name="STUIE1" Type="Jet" />
-        <SID Name="SY3" Default="True" />
-        <STAR Name="BORE4A" />
-        <STAR Name="MARLN5" ApproachName="RNPZ" />
-        <STAR Name="MEPIL3" Type="NonJet" />
-        <STAR Name="ODALE7" Type="NonJet" />
-        <STAR Name="RIVET4" />
+        <SID Name="SY4" Default="True" />
+        <STAR Name="AKMIR1" />
+        <STAR Name="BORE5A" />
+        <STAR Name="MARLN6" ApproachName="RNPZ" />
+        <STAR Name="MEPIL4" Type="NonJet" />
+        <STAR Name="RIVET5" />
       </Runway>
       <Runway Name="34L" DataRunway="34L">
         <SID Name="ANKUB1" Type="NonJet" />
         <SID Name="AVMOV1" />
         <SID Name="KADOM2" Type="Jet" />
         <SID Name="STUIE1" Type="Jet" />
-        <SID Name="SY3" Default="True" />
+        <SID Name="SY4" Default="True" />
         <SID Name="TONTO1" />
-        <STAR Name="BORE4A" />
-        <STAR Name="MARLN5" />
-        <STAR Name="MEPIL3" Type="NonJet" />
-        <STAR Name="ODALE7" Type="NonJet" />
-        <STAR Name="RIVET4" />
+        <STAR Name="AKMIR1" />
+        <STAR Name="BORE5A" />
+        <STAR Name="MARLN6" />
+        <STAR Name="MEPIL4" Type="NonJet" />
+        <STAR Name="RIVET5" />
       </Runway>
       <Runway Name="34R" DataRunway="34R">
         <SID Name="ANKUB1" />
         <SID Name="MARUB7" Type="Jet" />
         <SID Name="OLSEM1" Type="Jet" />
-        <SID Name="SY3" Default="True" />
-        <STAR Name="BORE4A" />
-        <STAR Name="MARLN5" />
-        <STAR Name="MEPIL3" Type="NonJet" />
-        <STAR Name="ODALE7" Type="NonJet" />
-        <STAR Name="RIVET4" />
+        <SID Name="SY4" Default="True" />
+        <STAR Name="AKMIR1" />
+        <STAR Name="BORE5A" />
+        <STAR Name="MARLN6" />
+        <STAR Name="MEPIL4" Type="NonJet" />
+        <STAR Name="RIVET5" />
       </Runway>
     </Airport>
     <Airport Name="YSTW">
@@ -17351,7 +17351,7 @@ SAGLI
       <Route Runway="25">-335637.460+1510949.060/-335727.491+1510603.813/URDOS/STUIE</Route>
       <Route Runway="34L">-335548.350+1511018.420/-335558.387+1511021.732/URDOS/STUIE</Route>
     </SID>
-    <SID Name="SY3" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
+    <SID Name="SY4" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
       <Route Runway="07" />
       <Route Runway="16L" />
       <Route Runway="16R" />
@@ -18465,18 +18465,26 @@ SAGLI
       <Route Runway="10">RUPEM/EPGET/RI601/AKBOT</Route>
       <Route Runway="28">RUPEM/EPGET/RI601/AKBOT/RI602/STUIE</Route>
     </STAR>
-    <STAR Name="BORE4A" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
-      <Route Runway="07">BOREE/VASRA/BEROW/OVILS</Route>
-      <Route Runway="16L">BOREE/VASRA/BEROW/OVILS</Route>
-      <Route Runway="16R">BOREE/VASRA/BEROW/OVILS</Route>
-      <Route Runway="25">BOREE/VASRA/BEROW/OVILS</Route>
-      <Route Runway="34L">BOREE/VASRA/BEROW/OVILS/JENTL/ZONKA/DUDOK/NASHO</Route>
-      <Route Runway="34R">BOREE/VASRA/BEROW/OVILS/MAJAR/DIPPA/JAKLN</Route>
+    <STAR Name="AKMIR1" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
+      <Route Runway="07">AKMIR/UDODU/MUBDI/MITSA/GURSI</Route>
+      <Route Runway="16L">AKMIR/UDODU/MUBDI/MITSA/GURSI/ANKUB</Route>
+      <Route Runway="16R">AKMIR/UDODU/MUBDI/MITSA/GURSI/ANKUB</Route>
+      <Route Runway="25">AKMIR/UDODU/MUBDI/MITSA/GURSI/ANKUB</Route>
+      <Route Runway="34L">AKMIR/UDODU/MUBDI/MITSA/GURSI/ANKUB</Route>
+      <Route Runway="34R">AKMIR/UDODU/MUBDI/MITSA/GURSI/ANKUB</Route>
     </STAR>
-    <STAR Name="BORE4P" Airport="YSSY" Runways="16R">
+    <STAR Name="BORE5A" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
+      <Route Runway="07">BOREE/VASRA/KAFRI/BEROW/OVILS</Route>
+      <Route Runway="16L">BOREE/VASRA/KAFRI/BEROW/OVILS</Route>
+      <Route Runway="16R">BOREE/VASRA/KAFRI/BEROW/OVILS</Route>
+      <Route Runway="25">BOREE/VASRA/KAFRI/BEROW/OVILS</Route>
+      <Route Runway="34L">BOREE/VASRA/KAFRI/BEROW/OVILS/JENTL/ZONKA/DUDOK/NASHO</Route>
+      <Route Runway="34R">BOREE/VASRA/KAFRI/BEROW/OVILS/MAJAR/DIPPA/JAKLN</Route>
+    </STAR>
+    <STAR Name="BORE5P" Airport="YSSY" Runways="16R">
       <Route Runway="16R">BOREE/VASRA/DALAR/DUMOP/URDEN</Route>
     </STAR>
-    <STAR Name="MARLN5" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
+    <STAR Name="MARLN6" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
       <Route Runway="07">MARLN/BIKUS/WHALE/PRAWN/TESAT</Route>
       <Route Runway="16L">MARLN/BIKUS/WHALE/PRAWN/TESAT</Route>
       <Route Runway="16R">MARLN/BIKUS/WHALE/PRAWN/TESAT</Route>
@@ -18484,7 +18492,7 @@ SAGLI
       <Route Runway="34L">MARLN/BIKUS/WHALE/PRAWN/TESAT</Route>
       <Route Runway="34R">MARLN/BIKUS/WHALE/PRAWN/MANFA/JAKLN</Route>
     </STAR>
-    <STAR Name="MEPIL3" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
+    <STAR Name="MEPIL4" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
       <Transition Name="SANAD">SANAD/OLTIN/YAKKA</Transition>
       <Route Runway="07">MEPIL/LANOL/TESAT</Route>
       <Route Runway="16L">MEPIL/LANOL/TESAT</Route>
@@ -18493,21 +18501,13 @@ SAGLI
       <Route Runway="34L">MEPIL/LANOL/TESAT</Route>
       <Route Runway="34R">MEPIL/LANOL/TESAT</Route>
     </STAR>
-    <STAR Name="ODALE7" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
-      <Route Runway="07">ODALE/KABLO/MITSA/ANKUB/TESAT</Route>
-      <Route Runway="16L">ODALE/KABLO/MITSA/ANKUB/TESAT</Route>
-      <Route Runway="16R">ODALE/KABLO/MITSA/ANKUB/TESAT</Route>
-      <Route Runway="25">ODALE/KABLO/MITSA/ANKUB/TESAT</Route>
-      <Route Runway="34L">ODALE/KABLO/MITSA/ANKUB/TESAT</Route>
-      <Route Runway="34R">ODALE/KABLO/MITSA/ANKUB/TESAT</Route>
-    </STAR>
-    <STAR Name="RIVET4" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
-      <Route Runway="07">RIVET/BIGEM/TAMMI/BOOGI/TESAT</Route>
-      <Route Runway="16L">RIVET/BIGEM/TAMMI/BOOGI/TESAT</Route>
-      <Route Runway="16R">RIVET/BIGEM/TAMMI/BOOGI/TESAT</Route>
-      <Route Runway="25">RIVET/BIGEM/TAMMI/BOOGI/TESAT</Route>
-      <Route Runway="34L">RIVET/BIGEM/TAMMI/BOOGI/DUDOK/NASHO</Route>
-      <Route Runway="34R">RIVET/BIGEM/TAMMI/BOOGI/DUDOK/NASHO</Route>
+    <STAR Name="RIVET5" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
+      <Route Runway="07">RIVET/POMEL/BIGEM/TAMMI/TAXAT</Route>
+      <Route Runway="16L">RIVET/POMEL/BIGEM/TAMMI/TAXAT/BOOGI/TESAT</Route>
+      <Route Runway="16R">RIVET/POMEL/BIGEM/TAMMI/TAXAT/BOOGI/TESAT</Route>
+      <Route Runway="25">RIVET/POMEL/BIGEM/TAMMI/TAXAT/BOOGI/TESAT</Route>
+      <Route Runway="34L">RIVET/POMEL/BIGEM/TAMMI/TAXAT/BOOGI/DUDOK/NASHO</Route>
+      <Route Runway="34R">RIVET/POMEL/BIGEM/TAMMI/TAXAT/BOOGI/DUDOK/NASHO</Route>
     </STAR>
     <STAR Name="ASUVA1" Airport="YWLM" Runways="12,30">
       <Route Runway="12">ASUVA/AVGOP/LIBMU/OMLIR</Route>

@@ -73,14 +73,23 @@
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy07 BORE4A-->
+      <!--Rwy07 AKMIR1-->
+      AKMIR/
+      UDODU/
+      MUBDI/
+      MITSA/
+      GURSI
+    </Line>
+    <Line>
+      <!--Rwy07 BORE5A-->
       BOREE/
       VASRA/
+      KAFRI/
       BEROW/
       OVILS
     </Line>
     <Line>
-      <!--Rwy07 MARLN5-->
+      <!--Rwy07 MARLN6-->
       MARLN/
       BIKUS/
       WHALE/
@@ -88,35 +97,28 @@
       TESAT
     </Line>
     <Line>
-      <!--Rwy07 MEPIL3.SANAD-->
+      <!--Rwy07 MEPIL4.SANAD-->
       SANAD/
       OLTIN/
       YAKKA/
       MEPIL
     </Line>
     <Line>
-      <!--Rwy07 MEPIL3-->
+      <!--Rwy07 MEPIL4-->
       MEPIL/
       LANOL/
       TESAT
     </Line>
     <Line>
-      <!--Rwy07 ODALE7-->
-      ODALE/
-      KABLO/
-      MITSA/
-      ANKUB/
-      TESAT
-    </Line>
-    <Line>
-      <!--Rwy07 RIVET4-->
+      <!--Rwy07 RIVET5-->
       RIVET/
+      POMEL/
       BIGEM/
       TAMMI/
-      BOOGI/
-      TESAT
+      TAXAT
     </Line>
     <Symbol Type="HollowTriangle">
+      <Point>GURSI</Point>
       <Point>ANKUB</Point>
     </Symbol>
     <Symbol Type="SolidStar">
@@ -142,8 +144,13 @@
       <Point>SS503</Point>
       <Point>OLSEM</Point>
       <Point>STUIE</Point>
+      <Point>AKMIR</Point>
+      <Point>UDODU</Point>
+      <Point>MUBDI</Point>
+      <Point>MITSA</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
+      <Point>KAFRI</Point>
       <Point>BEROW</Point>
       <Point>OVILS</Point>
       <Point>MARLN</Point>
@@ -156,13 +163,11 @@
       <Point>SANAD</Point>
       <Point>OLTIN</Point>
       <Point>YAKKA</Point>
-      <Point>ODALE</Point>
-      <Point>KABLO</Point>
-      <Point>MITSA</Point>
       <Point>RIVET</Point>
+      <Point>POMEL</Point>
       <Point>BIGEM</Point>
       <Point>TAMMI</Point>
-      <Point>BOOGI</Point>
+      <Point>TAXAT</Point>
     </Symbol>
     <!--(SY) RWY07 Airspace-->
     <Line Name="(SY) RWY07" Width="1.7" Pattern="Dotted">
@@ -220,8 +225,14 @@
       <Point>OLSEM</Point>
       <Point>STUIE</Point>
       <Point>WOL NDB</Point>
+      <Point>AKMIR</Point>
+      <Point>UDODU</Point>
+      <Point>MUBDI</Point>
+      <Point>MITSA</Point>
+      <Point>GURSI</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
+      <Point>KAFRI</Point>
       <Point>BEROW</Point>
       <Point>OVILS</Point>
       <Point>MARLN</Point>
@@ -234,13 +245,11 @@
       <Point>YAKKA</Point>
       <Point>MEPIL</Point>
       <Point>LANOL</Point>
-      <Point>ODALE</Point>
-      <Point>KABLO</Point>
-      <Point>MITSA</Point>
       <Point>RIVET</Point>
+      <Point>POMEL</Point>
       <Point>BIGEM</Point>
       <Point>TAMMI</Point>
-      <Point>BOOGI</Point>
+      <Point>TAXAT</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>
       <Point>ABARB</Point>
