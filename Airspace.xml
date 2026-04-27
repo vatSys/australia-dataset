@@ -1341,6 +1341,14 @@
         <SID Name="TONT1D" />
         <SID Name="TONT1H" />
         <SID Name="WS1" Default="True" />
+        <STAR Name="BIKU1A" ApproachName="RNPZ" />
+        <STAR Name="REVK1A" ApproachName="RNPZ" />
+        <STAR Name="REVK1N" OpDataFlag="N" ApproachName="LOCZ" />
+        <STAR Name="RIKN1N" OpDataFlag="N" ApproachName="LOCZ" />
+        <STAR Name="UNTA1A" ApproachName="RNPZ" />
+        <STAR Name="UNTA1B" OpDataFlag="B" ApproachName="LOCZ" />
+        <STAR Name="UNTA1N" OpDataFlag="N" ApproachName="LOCZ" />
+        <STAR Name="UNTA1Q" OpDataFlag="Q" ApproachName="LOCZ" />
       </Runway>
       <Runway Name="23" DataRunway="23">
         <SID Name="BENB1D" />
@@ -1363,6 +1371,12 @@
         <SID Name="TONT1D" />
         <SID Name="TONT1Q" />
         <SID Name="WS1" Default="True" />
+        <STAR Name="BIKU1A" ApproachName="RNPZ" />
+        <STAR Name="GODU1N" OpDataFlag="N" ApproachName="RNPZ" />
+        <STAR Name="REVK1A" ApproachName="RNPZ" />
+        <STAR Name="REVK1N" OpDataFlag="N" ApproachName="RNPZ" />
+        <STAR Name="RIKN1N" OpDataFlag="N" ApproachName="RNPZ" />
+        <STAR Name="UNTA1A" ApproachName="RNPZ" />
       </Runway>
     </Airport>
     <Airport Name="YWLM">
@@ -18509,6 +18523,38 @@ SAGLI
       <Route Runway="34L">RIVET/POMEL/BIGEM/TAMMI/TAXAT/BOOGI/DUDOK/NASHO</Route>
       <Route Runway="34R">RIVET/POMEL/BIGEM/TAMMI/TAXAT/BOOGI/DUDOK/NASHO</Route>
     </STAR>
+    <STAR Name="BIKU1A" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">BIKUS/DIPPA/TESAT/LURPA/VATRU/NUGSO</Route>
+      <Route Runway="23">BIKUS/DIPPA/TESAT/LURPA/PIDEG/NB603/BAVOB/KIKEL/PIBIX</Route>
+    </STAR>
+    <STAR Name="GODU1N" Airport="YSWS" Runways="23">
+      <Route Runway="23">GODUK/ADPUG/PIBIX</Route>
+    </STAR>
+    <STAR Name="REVK1A" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">REVKI/NB601/AKOGA/OMBEN/DAMTU/GUSDO</Route>
+      <Route Runway="23">REVKI/GUPKO/MIKOM/BAVOB/KIKEL/PIBIX</Route>
+    </STAR>
+    <STAR Name="REVK1N" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">REVKI/NB601/AKOGA/OMBEN/DAMTU/GUSDO</Route>
+      <Route Runway="23">REVKI/SASEG/NB602/ADPUG/PIBIX</Route>
+    </STAR>
+    <STAR Name="RIKN1N" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">RIKNI/MARLN/NONOX/NB607/ENVET/LAXED/DAMTU/GUSDO</Route>
+      <Route Runway="23">RIKNI/MARLN/NOGEB/AGVID/ORIXI/PIBIX</Route>
+    </STAR>
+    <STAR Name="UNTA1A" Airport="YSWS" Runways="05,23">
+      <Route Runway="05">UNTAV/NB600/BOTVU/IKIDA/VATRU/NUGSO</Route>
+      <Route Runway="23">UNTAV/TASIK/DOLPA/ORIXI/PIBIX</Route>
+    </STAR>
+    <STAR Name="UNTA1B" Airport="YSWS" Runways="05">
+      <Route Runway="05">UNTAV/NB600/DOLPA/PIBIX/WONGA/NUGSO</Route>
+    </STAR>
+    <STAR Name="UNTA1N" Airport="YSWS" Runways="05">
+      <Route Runway="05">UNTAV/MADUG/NB604/OGIXO/KEXIP/OMBEN/DAMTU/GUSDO</Route>
+    </STAR>
+    <STAR Name="UNTA1Q" Airport="YSWS" Runways="05">
+      <Route Runway="05">UNTAV/NB605/NB606/OGIXO/KEXIP/OMBEN/DAMTU/GUSDO</Route>
+    </STAR>
     <STAR Name="ASUVA1" Airport="YWLM" Runways="12,30">
       <Route Runway="12">ASUVA/AVGOP/LIBMU/OMLIR</Route>
       <Route Runway="30">ASUVA/UPVIB</Route>
@@ -18932,6 +18978,20 @@ SAGLI
     <Approach Name="RNP" Airport="YSSY" Runway="16R">
       <Transition Name="URDEN">URDEN</Transition>
       <Route>SYDNF/SYDNM</Route>
+    </Approach>
+    <Approach Name="LOCZ" Airport="YSWS" Runway="05">
+      <Transition Name="GUSDO">GUSDO</Transition>
+      <Transition Name="NUGSO">NUGSO/BUVNU/GUSDO</Transition>
+      <Route>NB2WF/-335330.660+1504144.630</Route>
+    </Approach>
+    <Approach Name="RNPZ" Airport="YSWS" Runway="05">
+      <Transition Name="GUSDO">GUSDO</Transition>
+      <Transition Name="NUGSO">NUGSO/BUVNU/GUSDO</Transition>
+      <Route>NB2WF/-335330.660+1504144.630</Route>
+    </Approach>
+    <Approach Name="RNPZ" Airport="YSWS" Runway="23">
+      <Transition Name="PIBIX">PIBIX</Transition>
+      <Route>ENROK/NB2EF/-335230.130+1504348.960</Route>
     </Approach>
     <Approach Name="LOCX" Airport="YWLM" Runway="12">
       <Transition Name="OMLIR">OMLIR</Transition>
