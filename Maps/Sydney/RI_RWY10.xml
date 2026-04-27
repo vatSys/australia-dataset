@@ -76,6 +76,38 @@
       RUTOS
     </Line>
     <!--STARs-->
+    <Line>
+      <!--Rwy10 PRAWN1-->
+      PRAWN/
+      TESAT/
+      LURPA/
+      PIDEG
+    </Line>
+    <Line>
+      <!--Rwy10 DIPPA1-->
+      ISBOV/
+      DIPPA/
+      TESAT/
+      NB603/
+      ATRIR/
+      STUIE
+    </Line>
+    <Line>
+      <!--Rwy10 RITSU1-->
+      RUTOS/
+      RITSU/
+      LEBOP
+    </Line>
+    <Line>
+      <!--Rwy10 RUPEM1-->
+      RUPEM/
+      EPGET/
+      RI601/
+      AKBOT
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>AKBOT</Point>
+    </Symbol>
     <Symbol Type="SolidStar">
       <Point>RI510</Point>
     </Symbol>
@@ -92,6 +124,19 @@
       <Point>NESSY</Point>
       <Point>NIVOT</Point>
       <Point>RUTOS</Point>
+      <Point>PRAWN</Point>
+      <Point>LURPA</Point>
+      <Point>PIDEG</Point>
+      <Point>ISBOV</Point>
+      <Point>DIPPA</Point>
+      <Point>NB603</Point>
+      <Point>ATRIR</Point>
+      <Point>STUIE</Point>
+      <Point>RITSU</Point>
+      <Point>LEBOP</Point>
+      <Point>RUPEM</Point>
+      <Point>EPGET</Point>
+      <Point>RI601</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="RI_RWY10_NAMES" Priority="2" Center="-33.600556+150.780833">
@@ -109,6 +154,20 @@
       <Point>NESSY</Point>
       <Point>NIVOT</Point>
       <Point>RUTOS</Point>
+      <Point>PRAWN</Point>
+      <Point>LURPA</Point>
+      <Point>PIDEG</Point>
+      <Point>ISBOV</Point>
+      <Point>DIPPA</Point>
+      <Point>NB603</Point>
+      <Point>ATRIR</Point>
+      <Point>STUIE</Point>
+      <Point>RITSU</Point>
+      <Point>LEBOP</Point>
+      <Point>RUPEM</Point>
+      <Point>EPGET</Point>
+      <Point>RI601</Point>
+      <Point>AKBOT</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>
       <Point>ABARB</Point>
@@ -179,7 +238,6 @@
       <Point>GUVBO</Point>
       <Point>OMDOG</Point>
       <Point>ENVOL</Point>
-      <Point>RUPEM</Point>
       <Point>TOROB</Point>
       <Point>REVKI</Point>
       <Point>EBONY</Point>

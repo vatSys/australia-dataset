@@ -102,6 +102,42 @@
       RUTOS
     </Line>
     <!--STARs-->
+    <Line>
+      <!--Rwy28 PRAWN1-->
+      PRAWN/
+      TESAT/
+      LURPA/
+      PIDEG
+    </Line>
+    <Line>
+      <!--Rwy28 DIPPA1-->
+      ISBOV/
+      DIPPA/
+      TESAT/
+      NB603/
+      ATRIR/
+      STUIE
+    </Line>
+    <Line>
+      <!--Rwy28 RITSU1-->
+      RUTOS/
+      RITSU/
+      LEBOP/
+      ELMEN
+    </Line>
+    <Line>
+      <!--Rwy28 RUPEM1-->
+      RUPEM/
+      EPGET/
+      RI601/
+      AKBOT/
+      RI602/
+      STUIE
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>STUIE</Point>
+      <Point>ELMEN</Point>
+    </Symbol>
     <Symbol Type="HollowStar">
       <Point>ANKUB</Point>
       <Point>RI528</Point>
@@ -115,6 +151,20 @@
       <Point>NESSY</Point>
       <Point>NIVOT</Point>
       <Point>RUTOS</Point>
+      <Point>PRAWN</Point>
+      <Point>LURPA</Point>
+      <Point>PIDEG</Point>
+      <Point>ISBOV</Point>
+      <Point>DIPPA</Point>
+      <Point>NB603</Point>
+      <Point>ATRIR</Point>
+      <Point>RITSU</Point>
+      <Point>LEBOP</Point>
+      <Point>RUPEM</Point>
+      <Point>EPGET</Point>
+      <Point>RI601</Point>
+      <Point>AKBOT</Point>
+      <Point>RI602</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="RI_RWY28_NAMES" Priority="2" Center="-33.600556+150.780833">
@@ -131,6 +181,22 @@
       <Point>NESSY</Point>
       <Point>NIVOT</Point>
       <Point>RUTOS</Point>
+      <Point>PRAWN</Point>
+      <Point>LURPA</Point>
+      <Point>PIDEG</Point>
+      <Point>ISBOV</Point>
+      <Point>DIPPA</Point>
+      <Point>NB603</Point>
+      <Point>ATRIR</Point>
+      <Point>STUIE</Point>
+      <Point>RITSU</Point>
+      <Point>LEBOP</Point>
+      <Point>ELMEN</Point>
+      <Point>RUPEM</Point>
+      <Point>EPGET</Point>
+      <Point>RI601</Point>
+      <Point>AKBOT</Point>
+      <Point>RI602</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>
       <Point>ABARB</Point>
@@ -201,7 +267,6 @@
       <Point>GUVBO</Point>
       <Point>OMDOG</Point>
       <Point>ENVOL</Point>
-      <Point>RUPEM</Point>
       <Point>TOROB</Point>
       <Point>REVKI</Point>
       <Point>EBONY</Point>

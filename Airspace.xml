@@ -1072,16 +1072,26 @@
         <SID Name="BK2" Default="True" />
         <SID Name="MECKO1" />
         <SID Name="URDOS1" />
+        <STAR Name="WHALE1" />
       </Runway>
-      <Runway Name="11L" DataRunway="11L" />
-      <Runway Name="11R" DataRunway="11R" />
+      <Runway Name="11L" DataRunway="11L">
+        <STAR Name="WHALE1" />
+      </Runway>
+      <Runway Name="11R" DataRunway="11R">
+        <STAR Name="WHALE1" />
+      </Runway>
       <Runway Name="29C" DataRunway="29C">
         <SID Name="BK1" Default="True" />
         <SID Name="MECKO1" />
         <SID Name="URDOS1" />
+        <STAR Name="WHALE1" />
       </Runway>
-      <Runway Name="29L" DataRunway="29L" />
-      <Runway Name="29R" DataRunway="29R" />
+      <Runway Name="29L" DataRunway="29L">
+        <STAR Name="WHALE1" />
+      </Runway>
+      <Runway Name="29R" DataRunway="29R">
+        <STAR Name="WHALE1" />
+      </Runway>
     </Airport>
     <Airport Name="YSCB">
       <Runway Name="12" DataRunway="12">
@@ -1135,10 +1145,18 @@
       </Runway>
     </Airport>
     <Airport Name="YSCN">
-      <Runway Name="06" DataRunway="06" />
-      <Runway Name="10" DataRunway="10" />
-      <Runway Name="24" DataRunway="24" />
-      <Runway Name="28" DataRunway="28" />
+      <Runway Name="06" DataRunway="06">
+        <STAR Name="PRAWN1" />
+      </Runway>
+      <Runway Name="10" DataRunway="10">
+        <STAR Name="PRAWN1" />
+      </Runway>
+      <Runway Name="24" DataRunway="24">
+        <STAR Name="PRAWN1" />
+      </Runway>
+      <Runway Name="28" DataRunway="28">
+        <STAR Name="PRAWN1" />
+      </Runway>
     </Airport>
     <Airport Name="YSNW">
       <Runway Name="03" DataRunway="03">
@@ -1206,6 +1224,9 @@
         <SID Name="NIVOT1" />
         <SID Name="RIC5" Default="True" />
         <SID Name="RUTOS1" />
+        <STAR Name="DIPPA1" />
+        <STAR Name="RITSU1" />
+        <STAR Name="RUPEM1" ApproachName="RNP" />
       </Runway>
       <Runway Name="28" DataRunway="28">
         <SID Name="ANKUB2" />
@@ -1217,6 +1238,9 @@
         <SID Name="NIVOT1" />
         <SID Name="RIC4" Default="True" />
         <SID Name="RUTOS1" />
+        <STAR Name="DIPPA1" ApproachName="RNP" />
+        <STAR Name="RITSU1" ApproachName="RNP" />
+        <STAR Name="RUPEM1" ApproachName="RNP" />
       </Runway>
     </Airport>
     <Airport Name="YSSY">
@@ -18356,6 +18380,14 @@ SAGLI
     <STAR Name="SOLU3X" Airport="YPPH" Runways="03">
       <Route Runway="03">SOLUS/MESAM/KARGO</Route>
     </STAR>
+    <STAR Name="WHALE1" Airport="YSBK" Runways="11C,11L,11R,29C,29L,29R">
+      <Route Runway="11C">WHALE/DIPPA/TESAT/LURPA/PIDEG</Route>
+      <Route Runway="11L">WHALE/DIPPA/TESAT/LURPA/PIDEG</Route>
+      <Route Runway="11R">WHALE/DIPPA/TESAT/LURPA/PIDEG</Route>
+      <Route Runway="29C">WHALE/DIPPA/TESAT/LURPA/PIDEG</Route>
+      <Route Runway="29L">WHALE/DIPPA/TESAT/LURPA/PIDEG</Route>
+      <Route Runway="29R">WHALE/DIPPA/TESAT/LURPA/PIDEG</Route>
+    </STAR>
     <STAR Name="AVBE6A" Airport="YSCB" Runways="17,35">
       <Route Runway="17">AVBEG/OMDAL/DOGRO/GOONY/TALAG</Route>
       <Route Runway="35">AVBEG/LANYO/HONEY/DALEY/MENZI</Route>
@@ -18414,6 +18446,24 @@ SAGLI
       <Transition Name="KACEY">KACEY</Transition>
       <Transition Name="WG">WG VOR</Transition>
       <Route Runway="35">POLLI/BIXAV/GOMAN/HONEY/ANREP/KALKA</Route>
+    </STAR>
+    <STAR Name="PRAWN1" Airport="YSCN" Runways="06,10,24,28">
+      <Route Runway="06">PRAWN/TESAT/LURPA/PIDEG</Route>
+      <Route Runway="10">PRAWN/TESAT/LURPA/PIDEG</Route>
+      <Route Runway="24">PRAWN/TESAT/LURPA/PIDEG</Route>
+      <Route Runway="28">PRAWN/TESAT/LURPA/PIDEG</Route>
+    </STAR>
+    <STAR Name="DIPPA1" Airport="YSRI" Runways="10,28">
+      <Route Runway="10">ISBOV/DIPPA/TESAT/LURPA/PIDEG/NB603/ATRIR/STUIE</Route>
+      <Route Runway="28">ISBOV/DIPPA/TESAT/LURPA/PIDEG/NB603/ATRIR/STUIE</Route>
+    </STAR>
+    <STAR Name="RITSU1" Airport="YSRI" Runways="10,28">
+      <Route Runway="10">RUTOS/RITSU/LEBOP</Route>
+      <Route Runway="28">RUTOS/RITSU/LEBOP/ELMEN</Route>
+    </STAR>
+    <STAR Name="RUPEM1" Airport="YSRI" Runways="10,28">
+      <Route Runway="10">RUPEM/EPGET/RI601/AKBOT</Route>
+      <Route Runway="28">RUPEM/EPGET/RI601/AKBOT/RI602/STUIE</Route>
     </STAR>
     <STAR Name="BORE4A" Airport="YSSY" Runways="07,16L,16R,25,34L,34R">
       <Route Runway="07">BOREE/VASRA/BEROW/OVILS</Route>
@@ -18856,6 +18906,19 @@ SAGLI
     <Approach Name="RNP-ARY" Airport="YSCB" Runway="35">
       <Transition Name="BIBRU">BIBRU/CB441/-352746.859+1491501.718/-352737.380+1491427.252/CB442</Transition>
       <Route>CB442/-352656.984+1491303.694/-352607.923+1491207.055/-352540.501+1491146.154/CB443/CB444/CB445/CB446/-351853.310+1491140.000</Route>
+    </Approach>
+    <Approach Name="RNP" Airport="YSRI" Runway="10">
+      <Transition Name="AKBOT">AKBOT</Transition>
+      <Transition Name="RI2WD">RI2WD</Transition>
+      <Transition Name="RI2WG">RI2WG</Transition>
+      <Route>RI2WI/RI2WF/RI2WM</Route>
+    </Approach>
+    <Approach Name="RNP" Airport="YSRI" Runway="28">
+      <Transition Name="ELMEN">ELMEN/TEDEK/RI3EA/PAPGU</Transition>
+      <Transition Name="PAPGU">PAPGU</Transition>
+      <Transition Name="STUIE">STUIE/TEDEK/RI3EA/PAPGU</Transition>
+      <Transition Name="TEDEK">TEDEK/RI3EA/PAPGU</Transition>
+      <Route>PEBRA/RI3EM/-333626.180+1504735.590</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YSSY" Runway="16R">
       <Route>URDEN/SYDNF/SYDNM</Route>

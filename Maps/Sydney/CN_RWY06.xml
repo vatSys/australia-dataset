@@ -8,9 +8,26 @@
     </Runway>
     <!--SIDs-->
     <!--STARs-->
+    <Line>
+      <!--Rwy06 PRAWN1-->
+      PRAWN/
+      TESAT/
+      LURPA/
+      PIDEG
+    </Line>
+    <Symbol Type="HollowStar">
+      <Point>PRAWN</Point>
+      <Point>TESAT</Point>
+      <Point>LURPA</Point>
+      <Point>PIDEG</Point>
+    </Symbol>
   </Map>
   <Map Type="System" Name="CN_RWY06_NAMES" Priority="2" Center="-34.040278+150.686667">
     <Label>
+      <Point>PRAWN</Point>
+      <Point>TESAT</Point>
+      <Point>LURPA</Point>
+      <Point>PIDEG</Point>
       <Point>KADOM</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>
