@@ -72,7 +72,8 @@
     <Volumes>GEL</Volumes>
   </Sector>
   <Sector FullName="Gold Coast" Frequency="130.400" Callsign="BN-GOL_CTR" Name="GOL">
-    <Volumes>GOLD_COAST_A,GOLD_COAST_B,GOLD_COAST_C,GOLD_COAST_D,GOLD_COAST_E,GOLD_COAST_F,GRAFTON_E</Volumes>
+    <Volumes>GOLD_COAST_D,GOLD_COAST_E,GOLD_COAST_F,GOL_TMA_CAP</Volumes>
+    <ResponsibleSectors>BAC</ResponsibleSectors>
   </Sector>
   <Sector FullName="Griffith" Frequency="122.750" Callsign="ML-GTH_CTR" Name="GTH">
     <Volumes>GTH</Volumes>
@@ -97,7 +98,7 @@
   </Sector>
   <Sector FullName="Hyden" Frequency="118.200" Callsign="ML-HYD_CTR" Name="HYD">
     <Volumes>HYD</Volumes>
-    <ResponsibleSectors>JAR,PIY,SCR,GVE,GEL,LEA,PHA</ResponsibleSectors>
+    <ResponsibleSectors>JAR,DAL,SCR,GVE,GEL,LEA,PIY,PHA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Inverell" Frequency="134.200" Callsign="BN-INL_CTR" Name="INL">
     <Volumes>INL</Volumes>
@@ -200,7 +201,7 @@
   </Sector>
   <Sector FullName="Onslow" Frequency="134.000" Callsign="ML-OLW_CTR" Name="OLW">
     <Volumes>OLW</Volumes>
-    <ResponsibleSectors>POT,PAR,MEK,MTK,NEW,MZI</ResponsibleSectors>
+    <ResponsibleSectors>LEO,MEK,MTK,NEW,MZI,POT,PAR</ResponsibleSectors>
   </Sector>
   <Sector FullName="Oxley" Frequency="128.500" Callsign="ML-OXL_CTR" Name="OXL">
     <Volumes>OXL</Volumes>
@@ -230,7 +231,7 @@
     <Volumes>SWY</Volumes>
   </Sector>
   <Sector FullName="Tabletop" Frequency="120.550" Callsign="BN-TBP_CTR" Name="TBP">
-    <Volumes>TBP,TBPTMA</Volumes>
+    <Volumes>TBP,TBP_TMA_CAP</Volumes>
   </Sector>
   <Sector FullName="Tailem Bend" Frequency="123.050" Callsign="ML-TBD_CTR" Name="TBD">
     <Volumes>TBD,TBD_TMA_CAP</Volumes>
@@ -373,10 +374,10 @@
     <ResponsibleSectors>MAW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Ballina Approach" Frequency="118.350" Callsign="BA_APP" Name="BAA">
-    <Volumes>BAG_NORTH,BAG_SOUTH</Volumes>
+    <Volumes>BAA</Volumes>
   </Sector>
   <Sector FullName="Brisbane Approach (Gold Coast)" Frequency="123.500" Callsign="BN-C_APP" Name="BAC">
-    <Volumes>BAG_NORTH,BAG_SOUTH</Volumes>
+    <Volumes>BAC_NORTH,BAC_SOUTH</Volumes>
     <ResponsibleSectors>BAA</ResponsibleSectors>
   </Sector>
   <Sector FullName="Brisbane Approach (North)" Frequency="124.700" Callsign="BN_APP" Name="BAN">
@@ -508,13 +509,13 @@
     <Volumes>SYA</Volumes>
   </Sector>
   <Sector FullName="Walton Approach" Frequency="118.400" Callsign="WS_APP" Name="SWA">
-    <Volumes>SYA</Volumes>
+    <Volumes>SWA,SWD_SAS_SHELF</Volumes>
   </Sector>
     <Sector FullName="Bankstown Approach" Frequency="125.800" Callsign="BK_APP" Name="SBA">
-    <Volumes>SYA</Volumes>
+    <Volumes>SBA_1,SBA_2-3,SBA_BK</Volumes>
   </Sector>
-    <Sector FullName="Richmond Approach" Frequency="118.350" Callsign="RI_APP" Name="SRA">
-    <Volumes>SYA</Volumes>
+  <Sector FullName="Richmond Approach" Frequency="118.350" Callsign="RI_APP" Name="SRA">
+    <Volumes>SRA</Volumes>
   </Sector>
   <Sector FullName="Tindal Approach" Frequency="120.950" Callsign="TN_APP" Name="TNA">
     <Volumes>TNA</Volumes>
@@ -529,10 +530,10 @@
     <Volumes>NVVVA</Volumes>
   </Sector>
   <Sector FullName="Williamtown Approach (Low)" Frequency="135.700" Callsign="WLM_APP" Name="WAL">
-    <Volumes>WLM_APP</Volumes>
+    <Volumes>WAL</Volumes>
   </Sector>
   <Sector FullName="Williamtown Approach (High)" Frequency="133.300" Callsign="WLM-H_APP" Name="WAH">
-    <Volumes>WLM-H_APP</Volumes>
+    <Volumes>WAH</Volumes>
   </Sector>
   <Sector FullName="Adelaide Delivery" Frequency="126.100" Callsign="AD_DEL" Name="AD ACD" DisplayInHandoffWindow="False">
     <Volumes>ADTWR</Volumes>
@@ -785,13 +786,13 @@
     <Volumes>PFTWR</Volumes>
   </Sector>
   <Sector FullName="Pearce Delivery" Frequency="134.100" Callsign="PE_DEL" Name="PE ACD" DisplayInHandoffWindow="False">
-    <Volumes>PEATWR</Volumes>
+    <Volumes>PETWR</Volumes>
   </Sector>
   <Sector FullName="Pearce Ground" Frequency="127.250" Callsign="PE_GND" Name="PE SMC" DisplayInHandoffWindow="False">
-    <Volumes>PEATWR</Volumes>
+    <Volumes>PETWR</Volumes>
   </Sector>
   <Sector FullName="Pearce Tower" Frequency="118.300" Callsign="PE_TWR" Name="PE ADC" DisplayInHandoffWindow="False">
-    <Volumes>PEATWR</Volumes>
+    <Volumes>PETWR</Volumes>
   </Sector>
   <Sector FullName="Perth Delivery" Frequency="118.550" Callsign="PH_DEL" Name="PH ACD" DisplayInHandoffWindow="False">
     <Volumes>PHTWR</Volumes>

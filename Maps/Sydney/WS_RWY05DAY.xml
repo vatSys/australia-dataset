@@ -3,7 +3,7 @@
   <Map Type="System" Name="WS_RWY05DAY" Priority="1" Center="-33.890833+150.718333">
     <!--YSWS-->
     <Runway Name="05/23">
-      <Threshold Name="05" Position="-33.891850+150.695731" ExtendedCentrelineTrack="239.72" ExtendedCentrelineLength="0" ExtendedCentrelineTickInterval="0" />
+      <Threshold Name="05" Position="-33.891850+150.695731" ExtendedCentrelineTrack="239.72" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="23" Position="-33.875036+150.730267" />
     </Runway>
     <!--SIDs-->
@@ -234,6 +234,73 @@
       <!--Rwy05 TONT1H.NWA-->
     </Line>
     <!--STARs-->
+    <Line>
+      <!--Rwy05 BIKU1A-->
+      BIKUS/
+      DIPPA/
+      TESAT/
+      LURPA/
+      VATRU/
+      NUGSO
+    </Line>
+    <Line>
+      <!--Rwy05 REVK1A-->
+      REVKI/
+      NB601/
+      AKOGA/
+      OMBEN/
+      DAMTU/
+      GUSDO
+    </Line>
+    <Line>
+      <!--Rwy05 REVK1N-->
+    </Line>
+    <Line>
+      <!--Rwy05 RIKN1N-->
+      RIKNI/
+      MARLN/
+      NONOX/
+      NB607/
+      ENVET/
+      LAXED/
+      DAMTU
+    </Line>
+    <Line>
+      <!--Rwy05 UNTA1A-->
+      UNTAV/
+      NB600/
+      BOTVU/
+      IKIDA/
+      VATRU
+    </Line>
+    <Line>
+      <!--Rwy05 UNTA1B-->
+      NB600/
+      DOLPA/
+      PIBIX/
+      WONGA/
+      NUGSO
+    </Line>
+    <Line>
+      <!--Rwy05 UNTA1N-->
+      UNTAV/
+      MADUG/
+      NB604/
+      OGIXO/
+      KEXIP/
+      OMBEN
+    </Line>
+    <Line>
+      <!--Rwy05 UNTA1Q-->
+      UNTAV/
+      NB605/
+      NB606/
+      OGIXO
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NUGSO</Point>
+      <Point>GUSDO</Point>
+    </Symbol>
     <Symbol Type="SolidStar">
       <Point>NB597</Point>
     </Symbol>
@@ -291,6 +358,33 @@
       <Point>TONTO</Point>
       <Point>NB515</Point>
       <Point>NB516</Point>
+      <Point>BIKUS</Point>
+      <Point>DIPPA</Point>
+      <Point>LURPA</Point>
+      <Point>VATRU</Point>
+      <Point>REVKI</Point>
+      <Point>NB601</Point>
+      <Point>AKOGA</Point>
+      <Point>OMBEN</Point>
+      <Point>DAMTU</Point>
+      <Point>RIKNI</Point>
+      <Point>MARLN</Point>
+      <Point>NONOX</Point>
+      <Point>NB607</Point>
+      <Point>ENVET</Point>
+      <Point>LAXED</Point>
+      <Point>UNTAV</Point>
+      <Point>NB600</Point>
+      <Point>BOTVU</Point>
+      <Point>IKIDA</Point>
+      <Point>DOLPA</Point>
+      <Point>PIBIX</Point>
+      <Point>WONGA</Point>
+      <Point>NB604</Point>
+      <Point>OGIXO</Point>
+      <Point>KEXIP</Point>
+      <Point>NB605</Point>
+      <Point>NB606</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="WS_RWY05DAY_NAMES" Priority="2" Center="-33.890833+150.718333">
@@ -347,6 +441,35 @@
       <Point>TONTO</Point>
       <Point>NB515</Point>
       <Point>NB516</Point>
+      <Point>BIKUS</Point>
+      <Point>DIPPA</Point>
+      <Point>LURPA</Point>
+      <Point>VATRU</Point>
+      <Point>NUGSO</Point>
+      <Point>REVKI</Point>
+      <Point>NB601</Point>
+      <Point>AKOGA</Point>
+      <Point>OMBEN</Point>
+      <Point>DAMTU</Point>
+      <Point>GUSDO</Point>
+      <Point>RIKNI</Point>
+      <Point>MARLN</Point>
+      <Point>NONOX</Point>
+      <Point>NB607</Point>
+      <Point>ENVET</Point>
+      <Point>LAXED</Point>
+      <Point>UNTAV</Point>
+      <Point>NB600</Point>
+      <Point>BOTVU</Point>
+      <Point>IKIDA</Point>
+      <Point>DOLPA</Point>
+      <Point>PIBIX</Point>
+      <Point>WONGA</Point>
+      <Point>NB604</Point>
+      <Point>OGIXO</Point>
+      <Point>KEXIP</Point>
+      <Point>NB605</Point>
+      <Point>NB606</Point>
       <Point>KADOM</Point>
       <Point>ABARB</Point>
       <Point>GUTIV</Point>
@@ -366,7 +489,6 @@
       <Point>WLM NDB</Point>
       <Point>BANDA</Point>
       <Point>KAPSA</Point>
-      <Point>STUIE</Point>
       <Point>RUSUM</Point>
       <Point>SHABY</Point>
       <Point>EMROT</Point>
@@ -380,16 +502,12 @@
       <Point>AKALU</Point>
       <Point>NONID</Point>
       <Point>SAPOX</Point>
-      <Point>RIKNI</Point>
-      <Point>MARLN</Point>
-      <Point>BIKUS</Point>
       <Point>POSUT</Point>
       <Point>EKABO</Point>
       <Point>TIABB</Point>
       <Point>LATAB</Point>
       <Point>DAGVA</Point>
       <Point>UKDUL</Point>
-      <Point>UNTAV</Point>
       <Point>TOOKI</Point>
       <Point>OVLUX</Point>
       <Point>LATUT</Point>
@@ -397,6 +515,8 @@
       <Point>PEGSU</Point>
       <Point>BUNGO</Point>
       <Point>DUBUS</Point>
+      <Point>MAKOR</Point>
+      <Point>BTH NDB</Point>
       <Point>NIXIM</Point>
       <Point>RUPOG</Point>
       <Point>TW VOR</Point>
@@ -410,7 +530,6 @@
       <Point>ENVOL</Point>
       <Point>RUPEM</Point>
       <Point>TOROB</Point>
-      <Point>REVKI</Point>
       <Point>EBONY</Point>
       <Point>ARRAN</Point>
       <Point>NONUP</Point>
@@ -419,6 +538,10 @@
       <Point>ENLAD</Point>
       <Point>RIVET</Point>
       <Point>TONIM</Point>
+      <Point>ATIRU</Point>
+      <Point>GORPU</Point>
+      <Point>WELSH</Point>
+      <Point>DAMID</Point>
     </Label>
   </Map>
 </Maps>

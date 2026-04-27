@@ -36,7 +36,7 @@
     <Line>
       <!--Rwy34L AVMOV1-->
       -335548.350+1511018.420/
-      -335339.947+1510945.533/
+      -335449.744+1511003.152/
       SS500/
       SS504/
       OGESO/
@@ -75,8 +75,6 @@
     </Line>
     <Line>
       <!--Rwy34L KADOM2-->
-      -335548.350+1511018.420/
-      -335558.387+1511021.732/
       SS500/
       SS501/
       SS502/
@@ -85,7 +83,7 @@
     </Line>
     <Line>
       <!--Rwy34L STUIE1-->
-      -335558.387+1511021.732/
+      -335449.744+1511003.152/
       URDOS/
       STUIE
     </Line>
@@ -161,9 +159,19 @@
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy34L BORE4A-->
+      <!--Rwy34L AKMIR1-->
+      AKMIR/
+      UDODU/
+      MUBDI/
+      MITSA/
+      GURSI/
+      ANKUB
+    </Line>
+    <Line>
+      <!--Rwy34L BORE5A-->
       BOREE/
       VASRA/
+      KAFRI/
       BEROW/
       OVILS/
       JENTL/
@@ -172,7 +180,7 @@
       NASHO
     </Line>
     <Line>
-      <!--Rwy34L MARLN5-->
+      <!--Rwy34L MARLN6-->
       MARLN/
       BIKUS/
       WHALE/
@@ -180,58 +188,52 @@
       TESAT
     </Line>
     <Line>
-      <!--Rwy34L MEPIL3.SANAD-->
+      <!--Rwy34L MEPIL4.SANAD-->
       SANAD/
       OLTIN/
       YAKKA/
       MEPIL
     </Line>
     <Line>
-      <!--Rwy34L MEPIL3-->
+      <!--Rwy34L MEPIL4-->
       MEPIL/
       LANOL/
       TESAT
     </Line>
     <Line>
-      <!--Rwy34L ODALE7-->
-      ODALE/
-      KABLO/
-      MITSA/
-      ANKUB/
-      TESAT
-    </Line>
-    <Line>
-      <!--Rwy34L RIVET4-->
+      <!--Rwy34L RIVET5-->
       RIVET/
+      POMEL/
       BIGEM/
       TAMMI/
+      TAXAT/
       BOOGI/
       DUDOK
     </Line>
     <Line>
-      <!--Rwy34R BORE4A-->
+      <!--Rwy34R AKMIR1-->
+    </Line>
+    <Line>
+      <!--Rwy34R BORE5A-->
       OVILS/
       MAJAR/
       DIPPA/
       JAKLN
     </Line>
     <Line>
-      <!--Rwy34R MARLN5-->
+      <!--Rwy34R MARLN6-->
       PRAWN/
       MANFA/
       JAKLN
     </Line>
     <Line>
-      <!--Rwy34R MEPIL3.SANAD-->
+      <!--Rwy34R MEPIL4.SANAD-->
     </Line>
     <Line>
-      <!--Rwy34R MEPIL3-->
+      <!--Rwy34R MEPIL4-->
     </Line>
     <Line>
-      <!--Rwy34R ODALE7-->
-    </Line>
-    <Line>
-      <!--Rwy34R RIVET4-->
+      <!--Rwy34R RIVET5-->
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>SOSIJ</Point>
@@ -279,8 +281,14 @@
       <Point>TONTO</Point>
       <Point>LEECE</Point>
       <Point>HALAS</Point>
+      <Point>AKMIR</Point>
+      <Point>UDODU</Point>
+      <Point>MUBDI</Point>
+      <Point>MITSA</Point>
+      <Point>GURSI</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
+      <Point>KAFRI</Point>
       <Point>BEROW</Point>
       <Point>OVILS</Point>
       <Point>JENTL</Point>
@@ -296,12 +304,11 @@
       <Point>SANAD</Point>
       <Point>OLTIN</Point>
       <Point>YAKKA</Point>
-      <Point>ODALE</Point>
-      <Point>KABLO</Point>
-      <Point>MITSA</Point>
       <Point>RIVET</Point>
+      <Point>POMEL</Point>
       <Point>BIGEM</Point>
       <Point>TAMMI</Point>
+      <Point>TAXAT</Point>
       <Point>BOOGI</Point>
       <Point>MAJAR</Point>
       <Point>DIPPA</Point>
@@ -384,8 +391,14 @@
       <Point>WOL NDB</Point>
       <Point>MARUB</Point>
       <Point>HALAS</Point>
+      <Point>AKMIR</Point>
+      <Point>UDODU</Point>
+      <Point>MUBDI</Point>
+      <Point>MITSA</Point>
+      <Point>GURSI</Point>
       <Point>BOREE</Point>
       <Point>VASRA</Point>
+      <Point>KAFRI</Point>
       <Point>BEROW</Point>
       <Point>OVILS</Point>
       <Point>JENTL</Point>
@@ -402,12 +415,11 @@
       <Point>YAKKA</Point>
       <Point>MEPIL</Point>
       <Point>LANOL</Point>
-      <Point>ODALE</Point>
-      <Point>KABLO</Point>
-      <Point>MITSA</Point>
       <Point>RIVET</Point>
+      <Point>POMEL</Point>
       <Point>BIGEM</Point>
       <Point>TAMMI</Point>
+      <Point>TAXAT</Point>
       <Point>BOOGI</Point>
       <Point>MAJAR</Point>
       <Point>DIPPA</Point>
@@ -458,6 +470,8 @@
       <Point>EXETA</Point>
       <Point>BUNGO</Point>
       <Point>DUBUS</Point>
+      <Point>MAKOR</Point>
+      <Point>BTH NDB</Point>
       <Point>NIXIM</Point>
       <Point>RUPOG</Point>
       <Point>TW VOR</Point>
@@ -478,6 +492,10 @@
       <Point>TARAL</Point>
       <Point>ENLAD</Point>
       <Point>TONIM</Point>
+      <Point>ATIRU</Point>
+      <Point>GORPU</Point>
+      <Point>WELSH</Point>
+      <Point>DAMID</Point>
       <Point>SOSIJ</Point>
       <Point>ENDEV</Point>
     </Label>
