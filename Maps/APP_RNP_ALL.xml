@@ -313,6 +313,9 @@
       <Point>PLMSA</Point>
       <Point>PLMSB</Point>
       <Point>PLMSC</Point>
+      <Point>GUSDO</Point>
+      <Point>NUGSO</Point>
+      <Point>PIBIX</Point>
       <Point>DAPRA</Point>
       <Point>NA2WG</Point>
       <Point>MADAK</Point>
@@ -408,6 +411,8 @@
       <Point>SV2EF</Point>
       <Point>PLMNF</Point>
       <Point>PLMSF</Point>
+      <Point>NB2WF</Point>
+      <Point>NB2EF</Point>
       <Point>NA2WF</Point>
       <Point>NA2EF</Point>
       <Point>BAFWI</Point>
@@ -501,6 +506,8 @@
       <Point>SV2EI</Point>
       <Point>PLMNI</Point>
       <Point>PLMSI</Point>
+      <Point>BUVNU</Point>
+      <Point>ENROK</Point>
       <Point>NA2WI</Point>
       <Point>NA2EI</Point>
       <Point>AE2EA</Point>
@@ -3275,6 +3282,8 @@
       <Point>SV2EF</Point>
       <Point>PLMNF</Point>
       <Point>PLMSF</Point>
+      <Point>NB2WF</Point>
+      <Point>NB2EF</Point>
       <Point>NA2WF</Point>
       <Point>NA2EF</Point>
       <Point>AE2EF</Point>
@@ -3938,6 +3947,8 @@
       <Point>SV2EI</Point>
       <Point>PLMNI</Point>
       <Point>PLMSI</Point>
+      <Point>BUVNU</Point>
+      <Point>ENROK</Point>
       <Point>NA2WI</Point>
       <Point>NA2EI</Point>
       <Point>AE2EI</Point>
@@ -4794,6 +4805,9 @@
       <Point>PLMSA</Point>
       <Point>PLMSB</Point>
       <Point>PLMSC</Point>
+      <Point>GUSDO</Point>
+      <Point>NUGSO</Point>
+      <Point>PIBIX</Point>
       <Point>DAPRA</Point>
       <Point>NA2WG</Point>
       <Point>MADAK</Point>
@@ -9462,6 +9476,11 @@
     <Line>PLMSA/PLMSI</Line>
     <Line>PLMSB/PLMSI</Line>
     <Line>PLMSC/PLMSI</Line>
+    <Line>NB2WF/-335330.660+1504144.630</Line>
+    <Line>GUSDO/NB2WF</Line>
+    <Line>NUGSO/BUVNU/GUSDO/NB2WF</Line>
+    <Line>ENROK/NB2EF/-335230.130+1504348.960</Line>
+    <Line>PIBIX/ENROK</Line>
     <Line>NA2WI/NA2WF/-285008.650+1533306.510</Line>
     <Line>DAPRA/NA2WI</Line>
     <Line>NA2WG/NA2WI</Line>
