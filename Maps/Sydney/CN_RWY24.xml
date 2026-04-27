@@ -1,63 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="System" Name="BK_RWY11" Priority="1" Center="-33.924444+150.988333">
-    <!--YSBK-->
-    <Runway Name="11C/29C">
-      <Threshold Name="11C" Position="-33.920119+150.984556" ExtendedCentrelineTrack="303.9" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="29C" Position="-33.926453+150.995861" />
-    </Runway>
-    <Runway Name="11L/29R">
-      <Threshold Name="11L" Position="-33.920122+150.986647" ExtendedCentrelineTrack="303.89" ExtendedCentrelineLength="0" ExtendedCentrelineTickInterval="0" />
-      <Threshold Name="29R" Position="-33.925653+150.996522" />
-    </Runway>
-    <Runway Name="11R/29L">
-      <Threshold Name="11R" Position="-33.921631+150.985203" ExtendedCentrelineTrack="303.89" ExtendedCentrelineLength="0" ExtendedCentrelineTickInterval="0" />
-      <Threshold Name="29L" Position="-33.926833+150.994492" />
+  <Map Type="System" Name="CN_RWY24" Priority="1" Center="-34.040278+150.686667">
+    <!--YSCN-->
+    <Runway Name="06/24">
+      <Threshold Name="06" Position="-34.040619+150.680619" />
+      <Threshold Name="24" Position="-34.036186+150.691939" ExtendedCentrelineTrack="64.81" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <!--SIDs-->
-    <Line>
-      <!--Rwy11C MECKO1-->
-      -335535.230+1505945.100/
-      -335608.581+1510045.155/
-      -335613.602+1510102.859/
-      -335610.585+1510121.220/
-      -335600.356+1510135.302/
-      -335545.655+1510141.332/
-      -335530.421+1510137.695/
-      -335525.161+1510133.680/
-      SB511/
-      SB529/
-      MECKO
-    </Line>
-    <Line>
-      <!--Rwy11C MECKO1.NOLEM-->
-      MECKO/
-      NOLEM
-    </Line>
-    <Line>
-      <!--Rwy11C URDOS1-->
-      SB511/
-      UKBES/
-      URDOS
-    </Line>
     <!--STARs-->
-    <Symbol Type="HollowStar">
-      <Point>SB511</Point>
-      <Point>SB529</Point>
-      <Point>MECKO</Point>
-      <Point>NOLEM</Point>
-      <Point>UKBES</Point>
-      <Point>URDOS</Point>
-    </Symbol>
   </Map>
-  <Map Type="System" Name="BK_RWY11_NAMES" Priority="2" Center="-33.924444+150.988333">
+  <Map Type="System" Name="CN_RWY24_NAMES" Priority="2" Center="-34.040278+150.686667">
     <Label>
-      <Point>SB511</Point>
-      <Point>SB529</Point>
-      <Point>MECKO</Point>
-      <Point>NOLEM</Point>
-      <Point>UKBES</Point>
-      <Point>URDOS</Point>
       <Point>KADOM</Point>
       <Point>PKS VOR</Point>
       <Point>NOBAR</Point>

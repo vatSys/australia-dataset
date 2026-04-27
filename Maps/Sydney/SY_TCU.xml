@@ -1,15 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System" Name="SY_TCU" Priority="1" Center="-33.946111+151.177222">
-    <!--YSCN-->
-    <Runway Name="06/24">
-      <Threshold Name="06" Position="-34.040619+150.680619" ExtendedCentrelineTrack="244.8" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="24" Position="-34.036186+150.691939" ExtendedCentrelineTrack="64.81" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-    </Runway>
-    <Runway Name="10/28">
-      <Threshold Name="10" Position="-34.041503+150.681736" ExtendedCentrelineTrack="290.95" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-      <Threshold Name="28" Position="-34.043833+150.689047" ExtendedCentrelineTrack="110.96" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
-    </Runway>
     <!--YSBK-->
     <Runway Name="11C/29C">
       <Threshold Name="11C" Position="-33.920119+150.984556" />
@@ -22,6 +13,15 @@
     <Runway Name="11R/29L">
       <Threshold Name="11R" Position="-33.921631+150.985203" />
       <Threshold Name="29L" Position="-33.926833+150.994492" />
+    </Runway>
+    <!--YSCN-->
+    <Runway Name="06/24">
+      <Threshold Name="06" Position="-34.040619+150.680619" />
+      <Threshold Name="24" Position="-34.036186+150.691939" />
+    </Runway>
+    <Runway Name="10/28">
+      <Threshold Name="10" Position="-34.041503+150.681736" />
+      <Threshold Name="28" Position="-34.043833+150.689047" />
     </Runway>
     <!--YSRI-->
     <Runway Name="10/28">
@@ -91,7 +91,6 @@
     </Line>
     <Line>
       <!--H530-->
-      STUIE/
       RUSUM/
       SHABY/
       EMROT/
@@ -153,6 +152,16 @@
       DUBUS
     </Line>
     <Line>
+      <!--V665 STUIE-->
+      MAKOR/
+      OLTIN
+    </Line>
+    <Line>
+      <!--W460 STUIE-->
+      BTH NDB/
+      PKS VOR
+    </Line>
+    <Line>
       <!--Y50-->
       NIXIM/
       RUPOG/
@@ -186,6 +195,23 @@
       <!--Y84-->
       OPTIC/
       TONIM
+    </Line>
+    <Line>
+      <!--Z88 PILAK-->
+      MEPIL/
+      ATIRU
+    </Line>
+    <Line>
+      <!--Z97 PILAK-->
+      REVKI/
+      GORPU/
+      WELSH/
+      DAMID
+    </Line>
+    <Line>
+      <!--Z97 RAKSO-->
+      REVKI/
+      GORPU
     </Line>
   </Map>
   <Map Type="System2" Name="SY_VFR" Priority="1" Center="-33.946111+151.177222">
@@ -368,8 +394,8 @@
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="IN_BROOKLYN">BBG</Point>
       <Point Name="IN_LIGHTHORSE">NPBR</Point>
-      <Point Name="IN_MTANNAN">-335522.000+1505417.000</Point>
-      <Point Name="IN_ST-HELENS">SSKP</Point>
+      <Point Name="IN_MT ANNAN">-335522.000+1505417.000</Point>
+      <Point Name="IN_ST HELENS">SSKP</Point>
       <Point Name="OUT_HORNSBY">-335130.000+1505954.000</Point>
       <Point Name="RIC_ROUTE">WSFR</Point>
       <Point Name="HARB_SCENIC">LRF</Point>
@@ -386,11 +412,11 @@
     <Line Pattern="Dotted">
       NPBR/LIHR/PSP/-335144.000+1505647.000
     </Line>
-    <!--IN_MTANNAN-->
+    <!--IN_MT ANNAN-->
     <Line Pattern="Dotted">
       -335522.000+1505417.000/HXPR/EMPS/MAGG
     </Line>
-    <!--IN_ST-HELENS-->
+    <!--IN_ST HELENS-->
     <Line Pattern="Dotted">
       SSKP/CRST/CRSC/-335719.000+1505439.000
     </Line>
@@ -591,6 +617,16 @@
     <Runway Name="11R/29L">
       <Threshold Name="11R" Position="-33.921631+150.985203" />
       <Threshold Name="29L" Position="-33.926833+150.994492" />
+    </Runway>
+    <!--YSCN-->
+    <Runway Name="06/24">
+      <Threshold Name="06" Position="-34.040619+150.680619" ExtendedCentrelineTrack="244.8" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="24" Position="-34.036186+150.691939" ExtendedCentrelineTrack="64.81" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+    </Runway>
+    <!--YSCN-->
+    <Runway Name="10/28">
+      <Threshold Name="10" Position="-34.041503+150.681736" ExtendedCentrelineTrack="290.95" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
+      <Threshold Name="28" Position="-34.043833+150.689047" ExtendedCentrelineTrack="110.96" ExtendedCentrelineLength="3" ExtendedCentrelineTickInterval="3" />
     </Runway>
     <!--YSRI-->
     <Runway Name="10/28">
