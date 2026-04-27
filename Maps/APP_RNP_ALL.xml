@@ -221,6 +221,7 @@
       <Point>PAPGU</Point>
       <Point>TEDEK</Point>
       <Point>ANKUB</Point>
+      <Point>GURSI</Point>
       <Point>SSYNI</Point>
       <Point>TONUX</Point>
       <Point>URDEN</Point>
@@ -312,6 +313,9 @@
       <Point>PLMSA</Point>
       <Point>PLMSB</Point>
       <Point>PLMSC</Point>
+      <Point>GUSDO</Point>
+      <Point>NUGSO</Point>
+      <Point>PIBIX</Point>
       <Point>DAPRA</Point>
       <Point>NA2WG</Point>
       <Point>MADAK</Point>
@@ -375,12 +379,7 @@
       <Point>SB3SF</Point>
       <Point>CB2EF</Point>
       <Point>CB2SF</Point>
-      <Point>SSYWF</Point>
       <Point>SSYNF</Point>
-      <Point>SYDNF</Point>
-      <Point>SSYEF</Point>
-      <Point>SYDSF</Point>
-      <Point>SSYSF</Point>
       <Point>LM500</Point>
       <Point>LM400</Point>
       <Point>LM610</Point>
@@ -412,6 +411,8 @@
       <Point>SV2EF</Point>
       <Point>PLMNF</Point>
       <Point>PLMSF</Point>
+      <Point>NB2WF</Point>
+      <Point>NB2EF</Point>
       <Point>NA2WF</Point>
       <Point>NA2EF</Point>
       <Point>BAFWI</Point>
@@ -472,6 +473,11 @@
       <Point>RI2WI</Point>
       <Point>RI2WG</Point>
       <Point>PEBRA</Point>
+      <Point>SSYWF</Point>
+      <Point>SYDNF</Point>
+      <Point>SSYEF</Point>
+      <Point>SYDSF</Point>
+      <Point>SSYSF</Point>
       <Point>WM3WI</Point>
       <Point>EA2WI</Point>
       <Point>EA2NI</Point>
@@ -500,6 +506,8 @@
       <Point>SV2EI</Point>
       <Point>PLMNI</Point>
       <Point>PLMSI</Point>
+      <Point>BUVNU</Point>
+      <Point>ENROK</Point>
       <Point>NA2WI</Point>
       <Point>NA2EI</Point>
       <Point>AE2EA</Point>
@@ -2543,6 +2551,7 @@
       <Point>SA2WB</Point>
       <Point>SA2WF</Point>
       <Point>SA2WI</Point>
+      <Point>LURPA</Point>
       <Point>SB3NI</Point>
       <Point>SCOEA</Point>
       <Point>SCOEB</Point>
@@ -3066,6 +3075,7 @@
       <Point>XG2SC</Point>
       <Point>XG2SF</Point>
       <Point>XG2SI</Point>
+      <Point>EPGET</Point>
       <Point>XL2SE</Point>
       <Point>XL2SG</Point>
       <Point>XL2SF</Point>
@@ -3240,12 +3250,7 @@
       <Point>SB3SF</Point>
       <Point>CB2EF</Point>
       <Point>CB2SF</Point>
-      <Point>SSYWF</Point>
       <Point>SSYNF</Point>
-      <Point>SYDNF</Point>
-      <Point>SSYEF</Point>
-      <Point>SYDSF</Point>
-      <Point>SSYSF</Point>
       <Point>LM500</Point>
       <Point>LM400</Point>
       <Point>LM610</Point>
@@ -3277,6 +3282,8 @@
       <Point>SV2EF</Point>
       <Point>PLMNF</Point>
       <Point>PLMSF</Point>
+      <Point>NB2WF</Point>
+      <Point>NB2EF</Point>
       <Point>NA2WF</Point>
       <Point>NA2EF</Point>
       <Point>AE2EF</Point>
@@ -3907,6 +3914,11 @@
       <Point>RI2WI</Point>
       <Point>RI2WG</Point>
       <Point>PEBRA</Point>
+      <Point>SSYWF</Point>
+      <Point>SYDNF</Point>
+      <Point>SSYEF</Point>
+      <Point>SYDSF</Point>
+      <Point>SSYSF</Point>
       <Point>WM3WI</Point>
       <Point>EA2WI</Point>
       <Point>EA2NI</Point>
@@ -3935,6 +3947,8 @@
       <Point>SV2EI</Point>
       <Point>PLMNI</Point>
       <Point>PLMSI</Point>
+      <Point>BUVNU</Point>
+      <Point>ENROK</Point>
       <Point>NA2WI</Point>
       <Point>NA2EI</Point>
       <Point>AE2EI</Point>
@@ -4700,6 +4714,7 @@
       <Point>PAPGU</Point>
       <Point>TEDEK</Point>
       <Point>ANKUB</Point>
+      <Point>GURSI</Point>
       <Point>TONUX</Point>
       <Point>URDEN</Point>
       <Point>JELLI</Point>
@@ -4790,6 +4805,9 @@
       <Point>PLMSA</Point>
       <Point>PLMSB</Point>
       <Point>PLMSC</Point>
+      <Point>GUSDO</Point>
+      <Point>NUGSO</Point>
+      <Point>PIBIX</Point>
       <Point>DAPRA</Point>
       <Point>NA2WG</Point>
       <Point>MADAK</Point>
@@ -5993,6 +6011,7 @@
       <Point>RTIWG</Point>
       <Point>SA2WA</Point>
       <Point>SA2WB</Point>
+      <Point>LURPA</Point>
       <Point>SCOEA</Point>
       <Point>SCOEB</Point>
       <Point>SCOEC</Point>
@@ -6295,6 +6314,7 @@
       <Point>XG2SA</Point>
       <Point>XG2SB</Point>
       <Point>XG2SC</Point>
+      <Point>EPGET</Point>
       <Point>XL2SE</Point>
       <Point>XL2SG</Point>
       <Point>XL2WA</Point>
@@ -8437,6 +8457,7 @@
     <Line>SA2WI/SA2WF</Line>
     <Line>SA2WM/SA2WF</Line>
     <Line>SB3NA/SB3NI</Line>
+    <Line>LURPA/SB3NI</Line>
     <Line>SB3NI/SB3NF</Line>
     <Line>SB3NM/SB3NF</Line>
     <Line>SCOEA/SCOEI</Line>
@@ -8982,6 +9003,7 @@
     <Line>XG2SM/XG2SF</Line>
     <Line>XL2SE/XL2SI</Line>
     <Line>XL2SG/XL2SI</Line>
+    <Line>EPGET/XL2SI</Line>
     <Line>XL2SI/XL2SF</Line>
     <Line>XL2SM/XL2SF</Line>
     <Line>XL2WA/XL2WI</Line>
@@ -9327,13 +9349,19 @@
     <Line>PAPGU/PEBRA</Line>
     <Line>STUIE/TEDEK/RI3EA/PAPGU/PEBRA</Line>
     <Line>TEDEK/RI3EA/PAPGU/PEBRA</Line>
-    <Line>ANKUB/SSYWF/SSYWM</Line>
+    <Line>SSYWF/SSYWM</Line>
+    <Line>ANKUB/SSYWF</Line>
+    <Line>GURSI/ANKUB/SSYWF</Line>
     <Line>SSYNI/SSYNF/SSYNM</Line>
     <Line>TONUX/SSYNI</Line>
-    <Line>URDEN/SYDNF/SYDNM</Line>
-    <Line>JELLI/SSYEF/SSYEM</Line>
-    <Line>SOSIJ/SYDSF/SYDSM</Line>
-    <Line>ENDEV/SSYSF/SSYSM</Line>
+    <Line>SYDNF/SYDNM</Line>
+    <Line>URDEN/SYDNF</Line>
+    <Line>SSYEF/SSYEM</Line>
+    <Line>JELLI/SSYEF</Line>
+    <Line>SYDSF/SYDSM</Line>
+    <Line>SOSIJ/SYDSF</Line>
+    <Line>SSYSF/SSYSM</Line>
+    <Line>ENDEV/SSYSF</Line>
     <Line>UBGIM/LM500/-325157.372+1515345.908/-325115.085+1515345.205/-325034.392+1515331.500/-324958.065+1515305.731/-324951.566+1515259.116/LM510/LM510/-324817.850+1515050.990</Line>
     <Line>ISDUS/LM400/-324453.099+1514614.343/-324517.983+1514640.330/LM410/LM410/-324713.640+1514921.340</Line>
     <Line>IDSAX/LM600/-324752.692+1515932.723/-324833.931+1515943.871/-324913.178+1515942.388/LM610/LM610/-325039.608+1515853.015/-325123.889+1515728.246/-325126.609+1515548.472/-325111.541+1515501.300/LM620/LM620/-324817.850+1515050.990</Line>
@@ -9448,6 +9476,11 @@
     <Line>PLMSA/PLMSI</Line>
     <Line>PLMSB/PLMSI</Line>
     <Line>PLMSC/PLMSI</Line>
+    <Line>NB2WF/-335330.660+1504144.630</Line>
+    <Line>GUSDO/NB2WF</Line>
+    <Line>NUGSO/BUVNU/GUSDO/NB2WF</Line>
+    <Line>ENROK/NB2EF/-335230.130+1504348.960</Line>
+    <Line>PIBIX/ENROK</Line>
     <Line>NA2WI/NA2WF/-285008.650+1533306.510</Line>
     <Line>DAPRA/NA2WI</Line>
     <Line>NA2WG/NA2WI</Line>
