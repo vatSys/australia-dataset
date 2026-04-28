@@ -397,6 +397,9 @@
       <Point Name="IN_MT ANNAN">-335522.000+1505417.000</Point>
       <Point Name="IN_ST HELENS">SSKP</Point>
       <Point Name="OUT_HORNSBY">-335130.000+1505954.000</Point>
+      <Point Name="IN_MENAGNGLE">MEG</Point>
+      <Point Name="IN_PICTON">PIC</Point>
+      <Point Name="IN_THE OAKS">THK</Point>
       <Point Name="RIC_ROUTE">WSFR</Point>
       <Point Name="HARB_SCENIC">LRF</Point>
       <Point Name="VICTOR_1">-340506.284+1511110.861</Point>
@@ -427,6 +430,18 @@
     <!--OUT_PENRITH-->
     <Line Pattern="Dotted">
       -335130.000+1505954.000/PRT/SITS/VCBR
+    </Line>
+    <!--IN_MENAGNGLE-->
+    <Line Pattern="Dotted">
+      MEG/-340412.000+1504219.000
+    </Line>
+    <!--IN_PICTON-->
+    <Line Pattern="Dotted">
+      PIC/-340414.000+1504007.000
+    </Line>
+    <!--IN_THE OAKS-->
+    <Line Pattern="Dotted">
+      THK/-340312.000+1503859.000
     </Line>
     <!--RIC_ROUTE-->
     <Line Pattern="Dotted">
@@ -590,7 +605,7 @@
   <Map Type="System" Name="YSSY_ALLRWYS" Priority="2" Center="-33.946111+151.177222">
     <!--YSSY-->
     <Runway Name="07/25">
-      <Threshold Name="07" Position="-33.943739+151.163628" ExtendedCentrelineTrack="254.19" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
+      <Threshold Name="07" Position="-33.943739+151.163628" ExtendedCentrelineTrack="254.19" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="25" Position="-33.937775+151.188908" ExtendedCentrelineTrack="74.2" ExtendedCentrelineLength="10" ExtendedCentrelineTickInterval="1" />
     </Runway>
     <!--YSSY-->
