@@ -8,16 +8,6 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy35 AKMIR3-->
-      -351726.260+1491139.990/
-      -351715.407+1491140.425/
-      -351550.423+1491152.803/
-      -351451.491+1491204.207/
-      -351415.302+1491226.062/
-      OKERU/
-      AKMIR
-    </Line>
-    <Line>
       <!--Rwy35 AVBEG3-->
       -351726.260+1491139.990/
       VICKI/
@@ -43,6 +33,16 @@
       -350605.616+1490927.348/
       SCULN/
       HOWLY
+    </Line>
+    <Line>
+      <!--Rwy35 IDROP1-->
+      -351726.260+1491139.990/
+      -351715.407+1491140.425/
+      -351550.423+1491152.803/
+      -351451.491+1491204.207/
+      -351415.302+1491226.062/
+      OKERU/
+      IDROP
     </Line>
     <Line>
       <!--Rwy35 NONUP9-->
@@ -141,8 +141,6 @@
       <Point>WG VOR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>OKERU</Point>
-      <Point>AKMIR</Point>
       <Point>VICKI</Point>
       <Point>AVBEG</Point>
       <Point>CULIN</Point>
@@ -151,6 +149,8 @@
       <Point>GUTMO</Point>
       <Point>SCULN</Point>
       <Point>HOWLY</Point>
+      <Point>OKERU</Point>
+      <Point>IDROP</Point>
       <Point>MAJOR</Point>
       <Point>NONUP</Point>
       <Point>KEATS</Point>
@@ -176,8 +176,6 @@
   </Map>
   <Map Type="System" Name="CB_RWYCURFEW_NAMES" Priority="2" Center="-35.306944+149.195000">
     <Label>
-      <Point>OKERU</Point>
-      <Point>AKMIR</Point>
       <Point>VICKI</Point>
       <Point>AVBEG</Point>
       <Point>CULIN</Point>
@@ -186,6 +184,8 @@
       <Point>GUTMO</Point>
       <Point>SCULN</Point>
       <Point>HOWLY</Point>
+      <Point>OKERU</Point>
+      <Point>IDROP</Point>
       <Point>MAJOR</Point>
       <Point>NONUP</Point>
       <Point>KEATS</Point>
@@ -219,7 +219,6 @@
       <Point>WAZZA</Point>
       <Point>TEMIS</Point>
       <Point>BOYSE</Point>
-      <Point>IDROP</Point>
       <Point>ANNKY</Point>
       <Point>CWR NDB</Point>
       <Point>SPLIZ</Point>

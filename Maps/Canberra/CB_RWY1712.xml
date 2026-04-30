@@ -12,20 +12,8 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy17 AKMIR3-->
-      -351853.310+1491140.000/
-      -352153.175+1491137.305/
-      -352249.712+1491114.638/
-      -352340.487+1491059.044/
-      -352450.577+1491107.099/
-      -352510.748+1491149.071/
-      -352508.156+1491245.785/
-      OGORA/
-      OKERU/
-      AKMIR
-    </Line>
-    <Line>
       <!--Rwy17 AVBEG3-->
+      -351853.310+1491140.000/
       -352153.175+1491137.305/
       ROYAL/
       ONGLO/
@@ -50,6 +38,18 @@
       BIDGI/
       KEATS/
       HOWLY
+    </Line>
+    <Line>
+      <!--Rwy17 IDROP1-->
+      -352153.175+1491137.305/
+      -352249.712+1491114.638/
+      -352340.487+1491059.044/
+      -352450.577+1491107.099/
+      -352510.748+1491149.071/
+      -352508.156+1491245.785/
+      OGORA/
+      OKERU/
+      IDROP
     </Line>
     <Line>
       <!--Rwy17 NONUP9-->
@@ -146,9 +146,6 @@
       <Point>WG VOR</Point>
     </Symbol>
     <Symbol Type="HollowStar">
-      <Point>OGORA</Point>
-      <Point>OKERU</Point>
-      <Point>AKMIR</Point>
       <Point>ROYAL</Point>
       <Point>ONGLO</Point>
       <Point>POPET</Point>
@@ -160,6 +157,9 @@
       <Point>BIDGI</Point>
       <Point>KEATS</Point>
       <Point>HOWLY</Point>
+      <Point>OGORA</Point>
+      <Point>OKERU</Point>
+      <Point>IDROP</Point>
       <Point>NONUP</Point>
       <Point>KELLY</Point>
       <Point>TANTA</Point>
@@ -183,9 +183,6 @@
   </Map>
   <Map Type="System" Name="CB_RWY1712_NAMES" Priority="2" Center="-35.306944+149.195000">
     <Label>
-      <Point>OGORA</Point>
-      <Point>OKERU</Point>
-      <Point>AKMIR</Point>
       <Point>ROYAL</Point>
       <Point>ONGLO</Point>
       <Point>POPET</Point>
@@ -197,6 +194,9 @@
       <Point>BIDGI</Point>
       <Point>KEATS</Point>
       <Point>HOWLY</Point>
+      <Point>OGORA</Point>
+      <Point>OKERU</Point>
+      <Point>IDROP</Point>
       <Point>NONUP</Point>
       <Point>KELLY</Point>
       <Point>TANTA</Point>
@@ -228,7 +228,6 @@
       <Point>WAZZA</Point>
       <Point>TEMIS</Point>
       <Point>BOYSE</Point>
-      <Point>IDROP</Point>
       <Point>ANNKY</Point>
       <Point>CWR NDB</Point>
       <Point>SPLIZ</Point>
