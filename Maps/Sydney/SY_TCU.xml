@@ -552,14 +552,10 @@
       <Point Name="HELO_BONDI">-335120.350+1511816.652</Point>
       <Point Name="HELO_CAPE_BANKS-IN">CAPS</Point>
       <Point Name="HELO_CAPE_BANKS-OUT">-335640.460+1511117.600</Point>
-      <Point Name="HELO_ERSKINEVILLE">APST</Point>
-      <Point Name="HELO_GEORGES_RVR">CSTH</Point>
+      <Point Name="HELO_HARB_BRIDGE">APST</Point>
       <Point Name="HELO_MAROUBRA">MRBR</Point>
       <Point Name="HELO_ROSEHILL">RSH</Point>
       <Point Name="HELO_WANDA">-340241.150+1511109.240</Point>
-    </Label>
-    <Label HasLeader="True" LabelOrientation="SE">
-      <Point Name="HELO_HARB_BRIDGE">APST</Point>
     </Label>
     <!--HELO_BARRACKS-->
     <Line Pattern="Dotted">
@@ -576,14 +572,6 @@
     <!--HELO_CAPE_BANKS-OUT-->
     <Line Pattern="Dotted">
       -335640.460+1511117.600/-335718.860+1511133.240
-    </Line>
-    <!--HELO_ERSKINEVILLE-->
-    <Line Pattern="Dotted">
-      APST/ERSK/REDF/-335301.000+1511221.240/DHH
-    </Line>
-    <!--HELO_GEORGES_RVR-->
-    <Line Pattern="Dotted">
-      CSTH/PNP/GRB/-340045.740+1510804.380/-335959.010+1510929.350/-335740.570+1511002.990
     </Line>
     <!--HELO_HARB_BRIDGE-->
     <Line Pattern="Dotted">
