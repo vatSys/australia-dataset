@@ -2858,7 +2858,7 @@
   </Boundary>
   <Boundary Name="SWD-SAS">
     -340522.000+1502837.000/
-    -341649.000+1503145.000/
+    -341653.000+1503146.000/
     -342025.000+1502454.000/
     -342325.000+1502002.000/
     -341704.000+1501558.000/
@@ -5353,7 +5353,7 @@
   <Volume Name="SWA" LowerLimit="0" UpperLimit="28000">
     <Boundaries>WALTON_APPROACH_CUSTOM</Boundaries>
   </Volume>
-  <Volume Name="SWD_SAS_SHELF" LowerLimit="4500" UpperLimit="8000">
+  <Volume Name="SWD_SAS_SHELF" LowerLimit="0" UpperLimit="28000">
     <Boundaries>SWD-SAS</Boundaries>
   </Volume>
   <Volume Name="TNA" LowerLimit="0" UpperLimit="24500">
