@@ -394,9 +394,9 @@
     <Label HasLeader="True" LabelOrientation="NW">
       <Point Name="IN_BROOKLYN">BBG</Point>
       <Point Name="IN_LIGHTHORSE">NPBR</Point>
-      <Point Name="IN_MT ANNAN">-335522.000+1505417.000</Point>
       <Point Name="IN_ST HELENS">SSKP</Point>
       <Point Name="OUT_HORNSBY">-335130.000+1505954.000</Point>
+      <Point Name="OUT_MT ANNAN">-335522.000+1505417.000</Point>
       <Point Name="IN_MENAGNGLE">MEG</Point>
       <Point Name="IN_PICTON">PIC</Point>
       <Point Name="IN_THE OAKS">THK</Point>
@@ -409,15 +409,11 @@
     </Label>
     <!--IN_BROOKLYN-->
     <Line Pattern="Dotted">
-      BBG/CAST/PSP/-335144.000+1505647.000
+      BBG/BEE/CAST/PSP/-335144.000+1505647.000
     </Line>
     <!--IN_LIGHTHORSE-->
     <Line Pattern="Dotted">
       NPBR/-334740.000+1505120.000/PSP/-335144.000+1505647.000
-    </Line>
-    <!--IN_MT ANNAN-->
-    <Line Pattern="Dotted">
-      -335522.000+1505417.000/HXPR/EMPS/MAGG
     </Line>
     <!--IN_ST HELENS-->
     <Line Pattern="Dotted">
@@ -426,6 +422,10 @@
     <!--OUT_HORNSBY-->
     <Line Pattern="Dotted">
       -335130.000+1505954.000/PRT/MFGC/PENH/HSY/-333358.000+1511459.000
+    </Line>
+    <!--OUT_MT ANNAN-->
+    <Line Pattern="Dotted">
+      -335522.000+1505417.000/HXPR/EMPS/MAGG
     </Line>
     <!--OUT_PENRITH-->
     <Line Pattern="Dotted">
