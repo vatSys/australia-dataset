@@ -548,10 +548,9 @@
   </Map>
   <Map Type="System2" Name="SY_HELO" Priority="1" Center="-33.946111+151.177222">
     <Label HasLeader="True" LabelOrientation="NW">
-      <Point Name="HELO_BARRACKS">-335218.650+1511402.240</Point>
+      <Point Name="HELO_BARRACKS">RCB</Point>
       <Point Name="HELO_BONDI">-335120.350+1511816.652</Point>
-      <Point Name="HELO_CAPE_BANKS-IN">CAPS</Point>
-      <Point Name="HELO_CAPE_BANKS-OUT">-335640.460+1511117.600</Point>
+      <Point Name="HELO_CAPE_BANKS">-335809.700+1511224.300</Point>
       <Point Name="HELO_HARB_BRIDGE">APST</Point>
       <Point Name="HELO_MAROUBRA">MRBR</Point>
       <Point Name="HELO_ROSEHILL">RSH</Point>
@@ -559,19 +558,15 @@
     </Label>
     <!--HELO_BARRACKS-->
     <Line Pattern="Dotted">
-      -335218.650+1511402.240/-335308.770+1511327.580/-335408.760+1511255.440/-335608.500+1511228.000
+      RCB/-335308.770+1511327.580/MPSC/-335515.000+1511252.300/-335608.500+1511228.000
     </Line>
     <!--HELO_BONDI-->
     <Line Pattern="Dotted">
       -335120.350+1511816.652/-335336.660+1511816.030/-335816.030+1511708.700
     </Line>
-    <!--HELO_CAPE_BANKS-IN-->
+    <!--HELO_CAPE_BANKS-->
     <Line Pattern="Dotted">
-      CAPS/-335809.700+1511224.300
-    </Line>
-    <!--HELO_CAPE_BANKS-OUT-->
-    <Line Pattern="Dotted">
-      -335640.460+1511117.600/-335718.860+1511133.240
+      -335809.700+1511224.300/CAPS
     </Line>
     <!--HELO_HARB_BRIDGE-->
     <Line Pattern="Dotted">
@@ -587,7 +582,7 @@
     </Line>
     <!--HELO_WANDA-->
     <Line Pattern="Dotted">
-      -340241.150+1511109.240/-340012.930+1510959.470/-335959.010+1510929.350/-335740.570+1511002.990
+      -340241.150+1511109.240/-340012.930+1510959.470/-335947.000+1510904.000/-335908.000+1510905.000/-335817.000+1510924.000/-335739.000+1510951.000
     </Line>
   </Map>
   <Map Type="System" Name="YSSY_ALLRWYS" Priority="2" Center="-33.946111+151.177222">

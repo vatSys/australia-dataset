@@ -3,25 +3,230 @@
   <Map Type="System" Name="WS_RWYRRO" Priority="1" Center="-33.890833+150.718333">
     <!--YSWS-->
     <Runway Name="05/23">
-      <Threshold Name="05" Position="-33.891850+150.695731" />
+      <Threshold Name="05" Position="-33.891850+150.695731" ExtendedCentrelineTrack="239.72" ExtendedCentrelineLength="15" ExtendedCentrelineTickInterval="1" />
       <Threshold Name="23" Position="-33.875036+150.730267" />
     </Runway>
     <!--SIDs-->
+    <Line>
+      <!--Rwy23 BENB1Q-->
+      -335330.660+1504144.630/
+      -335400.997+1504042.322/
+      -335406.819+1504025.837/
+      -335408.864+1504008.079/
+      -335407.025+1503950.289/
+      -335401.425+1503933.679/
+      -335352.448+1503919.381/
+      -335348.112+1503914.664/
+      MIKOM/
+      NB503/
+      BENBU
+    </Line>
+    <Line>
+      <!--Rwy23 ENDE1Q-->
+      -335400.997+1504042.322/
+      -335410.100+1504028.156/
+      -335421.967+1504017.340/
+      -335431.170+1504012.331/
+      NB501/
+      NB502/
+      NB539/
+      ENDEV
+    </Line>
+    <Line>
+      <!--Rwy23 ENDE1Q.CAWLY-->
+      ENDEV/
+      CAWLY
+    </Line>
+    <Line>
+      <!--Rwy23 ENDE1Q.DIPSO-->
+      ENDEV/
+      DIPSO
+    </Line>
+    <Line>
+      <!--Rwy23 ENDE1Q.EVONN-->
+      ENDEV/
+      EVONN
+    </Line>
+    <Line>
+      <!--Rwy23 ENDE1Q.NOBAR-->
+      ENDEV/
+      NOBAR
+    </Line>
+    <Line>
+      <!--Rwy23 ENDE1Q.OLSEM-->
+      ENDEV/
+      OLSEM
+    </Line>
+    <Line>
+      <!--Rwy23 ENDE1Q.OPTIC-->
+      ENDEV/
+      OPTIC
+    </Line>
+    <Line>
+      <!--Rwy23 KAMB1Q-->
+      NB503/
+      GODUK/
+      NB537/
+      PASGO/
+      KAMBA
+    </Line>
+    <Line>
+      <!--Rwy23 TEVE1Q-->
+      MIKOM/
+      NB517/
+      TEEVE
+    </Line>
+    <Line>
+      <!--Rwy23 TEVE1Q.PKS-->
+      TEEVE/
+      PKS VOR
+    </Line>
+    <Line>
+      <!--Rwy23 TONT1Q-->
+      NB539/
+      TONTO
+    </Line>
+    <Line>
+      <!--Rwy23 TONT1Q.EXETA-->
+      TONTO/
+      EXETA
+    </Line>
+    <Line>
+      <!--Rwy23 TONT1Q.LEECE-->
+      TONTO/
+      LEECE
+    </Line>
+    <Line>
+      <!--Rwy23 TONT1Q.NWA-->
+      TONTO/
+      NWA NDB
+    </Line>
     <!--STARs-->
+    <Line>
+      <!--Rwy05 BIKU1A-->
+      BIKUS/
+      DIPPA/
+      TESAT/
+      LURPA/
+      VATRU/
+      NUGSO
+    </Line>
+    <Line>
+      <!--Rwy05 REVK1N-->
+      REVKI/
+      NB601/
+      AKOGA/
+      OMBEN/
+      DAMTU/
+      GUSDO
+    </Line>
+    <Line>
+      <!--Rwy05 UNTA1Q-->
+      UNTAV/
+      NB605/
+      NB606/
+      OGIXO/
+      KEXIP/
+      OMBEN
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>NUGSO</Point>
+      <Point>GUSDO</Point>
+    </Symbol>
+    <Symbol Type="Circle">
+      <Point>PKS VOR</Point>
+      <Point>NWA NDB</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>MIKOM</Point>
+      <Point>NB503</Point>
+      <Point>BENBU</Point>
+      <Point>NB501</Point>
+      <Point>NB502</Point>
+      <Point>NB539</Point>
+      <Point>ENDEV</Point>
+      <Point>CAWLY</Point>
+      <Point>DIPSO</Point>
+      <Point>EVONN</Point>
+      <Point>NOBAR</Point>
+      <Point>OLSEM</Point>
+      <Point>OPTIC</Point>
+      <Point>GODUK</Point>
+      <Point>NB537</Point>
+      <Point>PASGO</Point>
+      <Point>KAMBA</Point>
+      <Point>NB517</Point>
+      <Point>TEEVE</Point>
+      <Point>TONTO</Point>
+      <Point>EXETA</Point>
+      <Point>LEECE</Point>
+      <Point>BIKUS</Point>
+      <Point>DIPPA</Point>
+      <Point>TESAT</Point>
+      <Point>LURPA</Point>
+      <Point>VATRU</Point>
+      <Point>REVKI</Point>
+      <Point>NB601</Point>
+      <Point>AKOGA</Point>
+      <Point>OMBEN</Point>
+      <Point>DAMTU</Point>
+      <Point>UNTAV</Point>
+      <Point>NB605</Point>
+      <Point>NB606</Point>
+      <Point>OGIXO</Point>
+      <Point>KEXIP</Point>
+    </Symbol>
   </Map>
   <Map Type="System" Name="WS_RWYRRO_NAMES" Priority="2" Center="-33.890833+150.718333">
     <Label>
-      <Point>KADOM</Point>
-      <Point>PKS VOR</Point>
-      <Point>NOBAR</Point>
-      <Point>ABARB</Point>
+      <Point>MIKOM</Point>
+      <Point>NB503</Point>
+      <Point>BENBU</Point>
+      <Point>NB501</Point>
+      <Point>NB502</Point>
+      <Point>NB539</Point>
+      <Point>ENDEV</Point>
+      <Point>CAWLY</Point>
       <Point>DIPSO</Point>
+      <Point>EVONN</Point>
+      <Point>NOBAR</Point>
+      <Point>OLSEM</Point>
+      <Point>OPTIC</Point>
+      <Point>GODUK</Point>
+      <Point>NB537</Point>
+      <Point>PASGO</Point>
+      <Point>KAMBA</Point>
+      <Point>NB517</Point>
+      <Point>TEEVE</Point>
+      <Point>PKS VOR</Point>
+      <Point>TONTO</Point>
+      <Point>EXETA</Point>
+      <Point>LEECE</Point>
+      <Point>NWA NDB</Point>
+      <Point>BIKUS</Point>
+      <Point>DIPPA</Point>
+      <Point>TESAT</Point>
+      <Point>LURPA</Point>
+      <Point>VATRU</Point>
+      <Point>NUGSO</Point>
+      <Point>REVKI</Point>
+      <Point>NB601</Point>
+      <Point>AKOGA</Point>
+      <Point>OMBEN</Point>
+      <Point>DAMTU</Point>
+      <Point>GUSDO</Point>
+      <Point>UNTAV</Point>
+      <Point>NB605</Point>
+      <Point>NB606</Point>
+      <Point>OGIXO</Point>
+      <Point>KEXIP</Point>
+      <Point>KADOM</Point>
+      <Point>ABARB</Point>
       <Point>GUTIV</Point>
       <Point>INVUS</Point>
       <Point>ATNAT</Point>
       <Point>SOTKI</Point>
       <Point>WOL NDB</Point>
-      <Point>LEECE</Point>
       <Point>CB VOR</Point>
       <Point>OLTIN</Point>
       <Point>KARDI</Point>
@@ -29,7 +234,6 @@
       <Point>LOWEP</Point>
       <Point>YAKKA</Point>
       <Point>MEPIL</Point>
-      <Point>OLSEM</Point>
       <Point>UPNEX</Point>
       <Point>EKIPU</Point>
       <Point>WLM NDB</Point>
@@ -43,31 +247,24 @@
       <Point>LASUD</Point>
       <Point>IDGIG</Point>
       <Point>IPGOK</Point>
-      <Point>EVONN</Point>
       <Point>GEROS</Point>
       <Point>PLUGA</Point>
-      <Point>CAWLY</Point>
       <Point>AKALU</Point>
       <Point>NONID</Point>
       <Point>SAPOX</Point>
       <Point>RIKNI</Point>
       <Point>MARLN</Point>
-      <Point>BIKUS</Point>
-      <Point>TEEVE</Point>
       <Point>POSUT</Point>
       <Point>EKABO</Point>
       <Point>TIABB</Point>
       <Point>LATAB</Point>
       <Point>DAGVA</Point>
       <Point>UKDUL</Point>
-      <Point>UNTAV</Point>
-      <Point>KAMBA</Point>
       <Point>TOOKI</Point>
       <Point>OVLUX</Point>
       <Point>LATUT</Point>
       <Point>CFS VOR</Point>
       <Point>PEGSU</Point>
-      <Point>EXETA</Point>
       <Point>BUNGO</Point>
       <Point>DUBUS</Point>
       <Point>MAKOR</Point>
@@ -85,7 +282,6 @@
       <Point>ENVOL</Point>
       <Point>RUPEM</Point>
       <Point>TOROB</Point>
-      <Point>REVKI</Point>
       <Point>EBONY</Point>
       <Point>ARRAN</Point>
       <Point>NONUP</Point>
@@ -93,7 +289,6 @@
       <Point>TARAL</Point>
       <Point>ENLAD</Point>
       <Point>RIVET</Point>
-      <Point>OPTIC</Point>
       <Point>TONIM</Point>
       <Point>ATIRU</Point>
       <Point>GORPU</Point>
