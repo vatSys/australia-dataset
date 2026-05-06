@@ -1099,7 +1099,7 @@
       </Runway>
       <Runway Name="17" DataRunway="17">
         <SID Name="AVBEG3" Type="Jet" />
-        <SID Name="CB2" Default="True" />
+        <SID Name="CB3" Default="True" />
         <SID Name="CULIN2" Type="Jet" />
         <SID Name="DUBUS3" Type="NonJet" />
         <SID Name="HOWLY9" Type="Jet" />
@@ -17149,12 +17149,10 @@ SAGLI
       <Route Runway="17">-351853.310+1491140.000/-352153.175+1491137.305/ROYAL/ONGLO/POPET/AVBEG</Route>
       <Route Runway="35">-351726.260+1491139.990/VICKI/AVBEG</Route>
     </SID>
-    <SID Name="CB3" Airport="YSCB" Runways="12,35">
+    <SID Name="CB3" Airport="YSCB" Runways="12,17,35">
       <Route Runway="12" />
-      <Route Runway="35" />
-    </SID>
-    <SID Name="CB2" Airport="YSCB" Runways="17">
       <Route Runway="17" />
+      <Route Runway="35" />
     </SID>
     <SID Name="CULIN2" Airport="YSCB" Runways="17,35">
       <Route Runway="17">-351853.310+1491140.000/-352153.175+1491137.305/ROYAL/ONGLO/POPET/CULIN</Route>
