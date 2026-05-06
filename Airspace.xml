@@ -1229,7 +1229,7 @@
         <SID Name="BEROW1" />
         <SID Name="NESSY1" />
         <SID Name="NIVOT1" />
-        <SID Name="RIC4" Default="True" />
+        <SID Name="RIC5" Default="True" />
         <SID Name="RUTOS1" />
         <STAR Name="DIPPA1" ApproachName="RNP" />
         <STAR Name="RITSU1" ApproachName="RNP" />
@@ -17271,10 +17271,8 @@ SAGLI
       <Route Runway="10">-333626.180+1504735.590/RI510/-333736.106+1505253.054/-333715.809+1505339.234/-333639.000+1505407.032/-333555.551+1505409.003/-333517.100+1505344.631/-333505.531+1505328.630/RI511/RI530/NIVOT</Route>
       <Route Runway="28">-333605.810+1504616.490/RI528/RI530/NIVOT</Route>
     </SID>
-    <SID Name="RIC5" Airport="YSRI" Runways="10">
+    <SID Name="RIC5" Airport="YSRI" Runways="10,28">
       <Route Runway="10">-333626.180+1504735.590/-333734.400+1505200.900</Route>
-    </SID>
-    <SID Name="RIC4" Airport="YSRI" Runways="28">
       <Route Runway="28">-333605.810+1504616.490/-333605.127+1504614.639/-333458.119+1504339.000</Route>
     </SID>
     <SID Name="RUTOS1" Airport="YSRI" Runways="10,28">
