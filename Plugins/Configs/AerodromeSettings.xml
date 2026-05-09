@@ -1,4 +1,4 @@
-AerodromeSettings>
+<AerodromeSettings>
 
     <!-- MARK: Aerodrome List -->
     <!-- Fill the aerodrome list with appropriate ICAO codes based on current sectors under
@@ -61,6 +61,15 @@ AerodromeSettings>
             </Aerodromes>
             <Positions>
                 <Position>BAC</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YBNA</Aerodrome>
+            </Aerodromes>
+            <Positions>
+                <Position>BAA</Position>
             </Positions>
         </ConcernedSector>
 
@@ -262,12 +271,37 @@ AerodromeSettings>
 
         <ConcernedSector>
             <Aerodromes>
-                <Aerodrome>YSBK</Aerodrome>
-                <Aerodrome>YSCN</Aerodrome>
+                <Aerodrome>YSWS</Aerodrome>
+            </Aerodromes>
+            <Positions>
+                <Position>SWA</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
                 <Aerodrome>YSRI</Aerodrome>
             </Aerodromes>
             <Positions>
-                <Position>SRI</Position>
+                <Position>SRA</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YSBK</Aerodrome>
+            </Aerodromes>
+            <Positions>
+                <Position>SBA</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YSCN</Aerodrome>
+            </Aerodromes>
+            <Positions>
+                <Position>SYC</Position>
             </Positions>
         </ConcernedSector>
 
@@ -426,6 +460,10 @@ AerodromeSettings>
             <Position>Broome Tower</Position>
         </AutoOpen>
         <AutoOpen>
+            <Aerodrome>YBNA</Aerodrome>
+            <Position>Ballina Tower</Position>
+        </AutoOpen>
+        <AutoOpen>
             <Aerodrome>YCFS</Aerodrome>
             <Position>Coffs Harbour Tower</Position>
         </AutoOpen>
@@ -516,6 +554,10 @@ AerodromeSettings>
         <AutoOpen>
             <Aerodrome>YSSY</Aerodrome>
             <Position>Sydney Tower</Position>
+        </AutoOpen>
+        <AutoOpen>
+            <Aerodrome>YSWS</Aerodrome>
+            <Position>Walton Tower</Position>
         </AutoOpen>
         <AutoOpen>
             <Aerodrome>YBBN</Aerodrome>
@@ -851,6 +893,7 @@ AerodromeSettings>
             <Aerodrome>YPPF</Aerodrome>
             <Aerodrome>YBRK</Aerodrome>
             <Aerodrome>YMMB</Aerodrome>
+            <Aerodrome>YBNA</Aerodrome>
         </AerodromeList>
         <AerodromeList Type="Proc">
             <Aerodrome>YBAS</Aerodrome>
