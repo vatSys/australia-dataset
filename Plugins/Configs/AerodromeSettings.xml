@@ -1,4 +1,4 @@
-AerodromeSettings>
+<AerodromeSettings>
 
     <!-- MARK: Aerodrome List -->
     <!-- Fill the aerodrome list with appropriate ICAO codes based on current sectors under
@@ -61,6 +61,15 @@ AerodromeSettings>
             </Aerodromes>
             <Positions>
                 <Position>BAC</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YBNA</Aerodrome>
+            </Aerodromes>
+            <Positions>
+                <Position>BAA</Position>
             </Positions>
         </ConcernedSector>
 
@@ -262,12 +271,37 @@ AerodromeSettings>
 
         <ConcernedSector>
             <Aerodromes>
-                <Aerodrome>YSBK</Aerodrome>
-                <Aerodrome>YSCN</Aerodrome>
+                <Aerodrome>YSWS</Aerodrome>
+            </Aerodromes>
+            <Positions>
+                <Position>SWA</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
                 <Aerodrome>YSRI</Aerodrome>
             </Aerodromes>
             <Positions>
-                <Position>SRI</Position>
+                <Position>SRA</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YSBK</Aerodrome>
+            </Aerodromes>
+            <Positions>
+                <Position>SBA</Position>
+            </Positions>
+        </ConcernedSector>
+
+        <ConcernedSector>
+            <Aerodromes>
+                <Aerodrome>YSCN</Aerodrome>
+            </Aerodromes>
+            <Positions>
+                <Position>SYC</Position>
             </Positions>
         </ConcernedSector>
 
@@ -426,6 +460,10 @@ AerodromeSettings>
             <Position>Broome Tower</Position>
         </AutoOpen>
         <AutoOpen>
+            <Aerodrome>YBNA</Aerodrome>
+            <Position>Ballina Tower</Position>
+        </AutoOpen>
+        <AutoOpen>
             <Aerodrome>YCFS</Aerodrome>
             <Position>Coffs Harbour Tower</Position>
         </AutoOpen>
@@ -518,6 +556,10 @@ AerodromeSettings>
             <Position>Sydney Tower</Position>
         </AutoOpen>
         <AutoOpen>
+            <Aerodrome>YSWS</Aerodrome>
+            <Position>Walton Tower</Position>
+        </AutoOpen>
+        <AutoOpen>
             <Aerodrome>YBBN</Aerodrome>
             <Position>Brisbane Tower</Position>
         </AutoOpen>
@@ -596,7 +638,7 @@ AerodromeSettings>
     <!-- Select which bays should appear in which layouts, and which columns they should display in
     (requires that the bays are defined in BayTypes below -->
     <LayoutDefinitions>
-        <!-- DEFAULT / RADAR TOWERS -->
+        <!-- Radar Tower / Default -->
         <LayoutDefinition Name="All">
             <Element Name="Preactive" Column="0" />
             <Element Name="Cleared" Column="0" />
@@ -650,8 +692,37 @@ AerodromeSettings>
             <Element Name="Departed" Column="2" />
             <Element Name="Arrivals" Column="2" />
         </LayoutDefinition>
-        <!-- METRO D -->
-        <LayoutDefinition Name="All" Type="D">
+
+        <!-- Default Tower, No Pushback Bay -->
+        <LayoutDefinition Name="All" Type="DefaultNoPush">
+            <Element Name="Preactive" Column="0" />
+            <Element Name="Cleared" Column="0" />
+            <Element Name="Monitor SMC" Column="0" />
+            <Element Name="Taxi" Column="1" />
+            <Element Name="Holding Point" Column="1" />
+            <Element Name="Runway" Column="1" />
+            <Element Name="Circuit" Column="2" />
+            <Element Name="Departed" Column="2" />
+            <Element Name="Arrivals" Column="2" />
+        </LayoutDefinition>
+        <LayoutDefinition Name="SMC" Type="DefaultNoPush">
+            <Element Name="Preactive" Column="0" />
+            <Element Name="Cleared" Column="0" />
+            <Element Name="Monitor SMC" Column="1" />
+            <Element Name="Taxi" Column="1" />
+            <Element Name="Holding Point" Column="2" />
+            <Element Name="Runway" Column="2" />
+        </LayoutDefinition>
+        <LayoutDefinition Name="ADC" Type="DefaultNoPush">
+            <Element Name="Holding Point" Column="0" />
+            <Element Name="Runway" Column="1" />
+            <Element Name="Circuit" Column="1" />
+            <Element Name="Departed" Column="2" />
+            <Element Name="Arrivals" Column="2" />
+        </LayoutDefinition>
+
+        <!-- Metro D -->
+        <LayoutDefinition Name="All" Type="MetroD">
             <Element Name="Preactive" Column="0" />
             <Element Name="Taxi" Column="0" />
             <Element Name="Holding Point" Column="1" />
@@ -659,8 +730,9 @@ AerodromeSettings>
             <Element Name="Circuit" Column="2" />
             <Element Name="Arrivals" Column="2" />
         </LayoutDefinition>
-        <!-- PROC -->
-        <LayoutDefinition Name="All" Type="Proc">
+
+        <!-- Active Bay, No Pushback Bay -->
+        <LayoutDefinition Name="All" Type="ActiveBayNoPush">
             <Element Name="Preactive" Column="0" />
             <Element Name="Cleared" Column="0" />
             <Element Name="Taxi" Column="1" />
@@ -669,21 +741,22 @@ AerodromeSettings>
             <Element Name="Active" Column="2" />
             <Element Name="Pending Arrivals" Column="2" />
         </LayoutDefinition>
-        <LayoutDefinition Name="SMC" Type="Proc">
+        <LayoutDefinition Name="SMC" Type="ActiveBayNoPush">
             <Element Name="Preactive" Column="0" />
             <Element Name="Cleared" Column="0" />
             <Element Name="Taxi" Column="1" />
             <Element Name="Holding Point" Column="2" />
             <Element Name="Runway" Column="2" />
         </LayoutDefinition>
-        <LayoutDefinition Name="ADC" Type="Proc">
+        <LayoutDefinition Name="ADC" Type="ActiveBayNoPush">
             <Element Name="Holding Point" Column="0" />
             <Element Name="Runway" Column="0" />
             <Element Name="Active" Column="1" />
             <Element Name="Pending Arrivals" Column="2" />
         </LayoutDefinition>
-        <!-- Proc Push -->
-        <LayoutDefinition Name="All" Type="ProcPush">
+
+        <!-- Active Bay with Pushback Bay -->
+        <LayoutDefinition Name="All" Type="ActiveBayWithPush">
             <Element Name="Preactive" Column="0" />
             <Element Name="Cleared" Column="0" />
             <Element Name="Pushback" Column="0" />
@@ -693,7 +766,7 @@ AerodromeSettings>
             <Element Name="Active" Column="2" />
             <Element Name="Pending Arrivals" Column="2" />
         </LayoutDefinition>
-        <LayoutDefinition Name="SMC" Type="ProcPush">
+        <LayoutDefinition Name="SMC" Type="ActiveBayWithPush">
             <Element Name="Preactive" Column="0" />
             <Element Name="Cleared" Column="0" />
             <Element Name="Pushback" Column="1" />
@@ -701,7 +774,7 @@ AerodromeSettings>
             <Element Name="Holding Point" Column="2" />
             <Element Name="Runway" Column="2" />
         </LayoutDefinition>
-        <LayoutDefinition Name="ADC" Type="ProcPush">
+        <LayoutDefinition Name="ADC" Type="ActiveBayWithPush">
             <Element Name="Holding Point" Column="0" />
             <Element Name="Runway" Column="0" />
             <Element Name="Active" Column="1" />
@@ -714,7 +787,7 @@ AerodromeSettings>
     <!-- MARK: Bay Types -->
     <!-- Creates bays of various types for use in LayoutDefinitions above -->
     <BayTypes>
-        <!-- RADAR TOWER / DEFAULT -->
+        <!-- Radar Tower / Default -->
         <BayType>
             <Bay Name="Preactive">
                 <Type>BAY_PREA</Type>
@@ -749,9 +822,42 @@ AerodromeSettings>
                 <Type>BAY_ARRIVAL</Type>
             </Bay>
         </BayType>
+        
+        <!-- Default Tower, No Pushback -->
+        <BayType Type="DefaultNoPush">
+            <Bay Name="Preactive">
+                <Type>BAY_PREA</Type>
+            </Bay>
+            <Bay Name="Cleared">
+                <Type>BAY_CLEARED</Type>
+                <Type>BAY_COORDINATOR</Type>
+            </Bay>
+            <Bay Name="Monitor SMC" Coordinator="true">
+                <Type>BAY_COORDINATOR</Type>
+            </Bay>
+            <Bay Name="Taxi">
+                <Type>BAY_TAXI</Type>
+            </Bay>
+            <Bay Name="Holding Point">
+                <Type>BAY_HOLDSHORT</Type>
+            </Bay>
+            <Bay Name="Runway" CDMDisplay="true">
+                <Type>BAY_RUNWAY</Type>
+            </Bay>
+            <Bay Name="Departed">
+                <Type>BAY_OUT</Type>
+                <Type>BAY_CIRCUIT</Type>
+            </Bay>
+            <Bay Name="Circuit" Circuit="true">
+                <Type>BAY_CIRCUIT</Type>
+            </Bay>
+            <Bay Name="Arrivals">
+                <Type>BAY_ARRIVAL</Type>
+            </Bay>
+        </BayType>
 
-        <!-- METROD -->
-        <BayType Type="D">
+        <!-- Metro D -->
+        <BayType Type="MetroD">
             <Bay Name="Preactive">
                 <Type>BAY_PREA</Type>
             </Bay>
@@ -776,8 +882,8 @@ AerodromeSettings>
             </Bay>
         </BayType>
 
-        <!-- PROC -->
-        <BayType Type="Proc">
+        <!-- Active Bay, No Pushback Bay -->
+        <BayType Type="ActiveBayNoPush">
             <Bay Name="Preactive">
                 <Type>BAY_PREA</Type>
             </Bay>
@@ -804,8 +910,8 @@ AerodromeSettings>
             </Bay>
         </BayType>
 
-        <!-- Proc with Pushes -->
-        <BayType Type="ProcPush">
+        <!-- Active Bay with Pushback Bay -->
+        <BayType Type="ActiveBayWithPush">
             <Bay Name="Preactive">
                 <Type>BAY_PREA</Type>
             </Bay>
@@ -839,20 +945,23 @@ AerodromeSettings>
     <!-- MARK: Aerodrome Lists -->
     <!-- Assigns each aerodrome with a layout, defined above -->
     <AerodromeLists>
-        <AerodromeList Type="D">
-            <Aerodrome>YBAF</Aerodrome>
+        <AerodromeList Type="DefaultNoPush">
             <Aerodrome>YMAV</Aerodrome>
-            <Aerodrome>YSBK</Aerodrome>
-            <Aerodrome>YSCN</Aerodrome>
             <Aerodrome>YMHB</Aerodrome>
-            <Aerodrome>YPJT</Aerodrome>
             <Aerodrome>YMLT</Aerodrome>
             <Aerodrome>YBMK</Aerodrome>
-            <Aerodrome>YPPF</Aerodrome>
+            <Aerodrome>YBNA</Aerodrome>
             <Aerodrome>YBRK</Aerodrome>
+        </AerodromeList>
+        <AerodromeList Type="MetroD">
+            <Aerodrome>YBAF</Aerodrome>
+            <Aerodrome>YSBK</Aerodrome>
+            <Aerodrome>YSCN</Aerodrome>
+            <Aerodrome>YPJT</Aerodrome>
+            <Aerodrome>YPPF</Aerodrome>
             <Aerodrome>YMMB</Aerodrome>
         </AerodromeList>
-        <AerodromeList Type="Proc">
+        <AerodromeList Type="ActiveBayNoPush">
             <Aerodrome>YBAS</Aerodrome>
             <Aerodrome>YMAY</Aerodrome>
             <Aerodrome>YBRM</Aerodrome>
@@ -862,7 +971,7 @@ AerodromeSettings>
             <Aerodrome>YSTW</Aerodrome>
             <Aerodrome>YPWR</Aerodrome>
         </AerodromeList>
-        <AerodromeList Type="ProcPush">
+        <AerodromeList Type="ActiveBayWithPush">
             <Aerodrome>YBSU</Aerodrome>
             <Aerodrome>YSRI</Aerodrome>
         </AerodromeList>
