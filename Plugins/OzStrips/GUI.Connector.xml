@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>GUI.Connector</name>
+    </assembly>
+    <members>
+        <member name="T:GUI.Connector.IStripsWindow">
+            <summary>
+            Implemented by the OzStrips MainForm.
+            </summary>
+        </member>
+        <member name="M:GUI.Connector.IStripsWindow.GetDTO(System.String)">
+            <summary>
+            Gets a strip DTO by callsign.
+            </summary>
+            <param name="callsign">Callsign.</param>
+            <returns>DTO, if found.</returns>
+        </member>
+        <member name="M:GUI.Connector.IStripsWindow.InQueue(MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey)">
+            <summary>
+            Determines whether or not the selected strip is in a queue.
+            </summary>
+            <param name="key">Strip key.</param>
+            <returns>In queue.</returns>
+        </member>
+        <member name="M:GUI.Connector.IStripsWindow.GetCDMResult(MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey)">
+            <summary>
+            Gets a CDMResult by callsign.
+            </summary>
+            <param name="key">Strip key.</param>
+            <returns>CDM Result, if found.</returns>
+        </member>
+    </members>
+</doc>

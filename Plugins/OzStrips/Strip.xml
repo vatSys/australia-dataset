@@ -1,6 +1,6 @@
 <StripElementList>
   <!-- COL1 -->
-  <StripElement>
+  <StripElement cockable="true">
     <X>0</X>
     <Y>0</Y>
     <W>50</W>
@@ -8,7 +8,7 @@
     <Value>STAND</Value>
     <LeftClick>MOD_STD</LeftClick>
   </StripElement>
-  <StripElement>
+  <StripElement cockable="true">
     <X>0</X>
     <Y>20</Y>
     <W>50</W>
@@ -17,7 +17,7 @@
     <LeftClick>OPEN_FDR</LeftClick>
   </StripElement>
   <!-- COL2 -->
-  <StripElement>
+  <StripElement cockable="true">
     <X>50</X>
     <Y>0</Y>
     <W>50</W>
@@ -26,7 +26,7 @@
     <LeftClick>COCK</LeftClick>
     <RightClick>OPEN_CDM</RightClick>
   </StripElement>
-  <StripElement>
+  <StripElement cockable="true">
     <X>50</X>
     <Y>20</Y>
     <W>25</W>
@@ -34,7 +34,7 @@
     <Value>ROUTE</Value>
     <LeftClick>SHOW_ROUTE</LeftClick>
   </StripElement>
-  <StripElement>
+  <StripElement cockable="true">
     <X>75</X>
     <Y>20</Y>
     <W>25</W>
@@ -43,7 +43,7 @@
     <LeftClick>SHOW_ROUTE</LeftClick>
   </StripElement>
   <!-- COL 3/4 -->
-  <StripElement>
+  <StripElement cockable="true">
     <X>100</X>
     <Y>0</Y>
     <W>50</W>
@@ -51,14 +51,14 @@
     <Value>TYPE</Value>
     <LeftClick>OPEN_FDR</LeftClick>
   </StripElement>
-  <StripElement>
+  <StripElement cockable="true">
     <X>150</X>
     <Y>0</Y>
     <W>25</W>
     <H>20</H>
     <Value>WTC</Value>
   </StripElement>
-  <StripElement>
+  <StripElement cockable="true">
     <X>100</X>
     <Y>20</Y>
     <W>25</W>
@@ -67,7 +67,7 @@
     <LeftClick>OPEN_PDC</LeftClick>
     <RightClick>OPEN_PM</RightClick>
   </StripElement>
-  <StripElement>
+  <StripElement cockable="true">
     <X>125</X>
     <Y>20</Y>
     <W>50</W>
@@ -156,7 +156,7 @@
     <LeftClick>MOD_CFL</LeftClick>
   </StripElement>
   <!-- Base -->
-  <StripElement>
+  <StripElement crossable="true">
     <X>0</X>
     <Y>40</Y>
     <W>165</W>
@@ -165,7 +165,7 @@
     <LeftClick>MOD_GLOP</LeftClick>
     <MiddleClick>INHIBIT_HDG</MiddleClick>
   </StripElement>
-  <StripElement>
+  <StripElement crossable="true">
     <X>165</X>
     <Y>40</Y>
     <W>165</W>
@@ -173,7 +173,7 @@
     <Value>REMARK</Value>
     <LeftClick>MOD_REMARK</LeftClick>
   </StripElement>
-  <StripElement>
+  <StripElement crossable="true">
     <X>330</X>
     <Y>40</Y>
     <W>60</W>
