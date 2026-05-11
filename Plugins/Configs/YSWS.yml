@@ -1,13 +1,81 @@
+# Add RRO when OPR INFO info available
+
 - assign_dep_rwy: "true"
 - CFL: "030"
 - if:
     jet: "true"
   CFL: "040"
 
-# Radar SID (default)
-# Day SIDs
+# Day SIDs & Radar SID assigned by default
+
 # Hot SIDs
-# Night SIDs
-# RRO SIDs
+- if:
+    waypoint: ["LEECE", "NWA"]
+    runway: ["05"]
+    temp: ["35"]
+  SID: "#TONT\\dH"
+
+- if:
+    waypoint: ["LEECE", "NWA"]
+    runway: ["23"]
+    temp: ["35"]
+  SID: "#MELI\\dH"
+
+# Night SIDs (assumes UTC+10)
+- if:
+    time: ["1300-1930"]
+    waypoint: ["KAMBA"]
+  if_not:
+    jet: "true"
+  SID: "#KAMB\\dN"
+
+- if:
+    time: ["1300-1930"]
+    waypoint: ["BENBU"]
+  SID: "#BENB\\dN"
+
+- if:
+    time: ["1300-1930"]
+    waypoint: ["CAWLY", "EVONN", "OPTIC"]
+  SID: "#ENDE\\dN"
+
+- if:
+    time: ["1300-1930"]
+    waypoint: ["TEEVE", "PKS"]
+  SID: "#TEEV\\dN"
+
+  # 05 night SIDs
+- if:
+    time: ["1300-1930"]
+    waypoint: ["DIPSO", "NOBAR", "OLSEM"]
+    runway: ["05"]
+  SID: "#PASG\\dN"
+
+- if:
+    time: ["1300-1930"]
+    waypoint: ["EXETA", "LEECE", "NWA"]
+    runway: ["05"]
+  SID: "#REDA\\dN"
+
+  # Default 23 jet night SID
+- if:
+    time: ["1300-1930"]
+    jet: "true"
+    runway: ["23"]
+  SID: "#REDA\\dN"
+
+- if:
+    time: ["1300-1930"]
+    waypoint: ["DIPSO", "NOBAR"]
+    runway: ["23"]
+  SID: "#PASG\\dN"
+
+- if:
+    time: ["1300-1930"]
+    waypoint: ["EXETA", "LEECE", "NWA"]
+    runway: ["23"]
+  SID: "#REDA\\dN"
+
+# TODO: RRO SIDs
 
 - departures: ["118.4", "123.0", "129.7", "124.4", "128.3", "126.1", "125.3", "124.55", "129.8", "133.15"]
