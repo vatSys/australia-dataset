@@ -344,8 +344,8 @@
         <SID Name="COPTE4" />
         <SID Name="JEMMA3" />
         <SID Name="LIGHT1" Type="Jet" />
-        <SID Name="TL EA3" Default="True" />
-        <SID Name="TL NO4" Default="True" />
+        <SID Name="TLEAS3" Default="True" />
+        <SID Name="TLNOR4" Default="True" />
         <SID Name="WALTA2" />
         <STAR Name="IBUX2A" ApproachName="RNPZ" />
         <STAR Name="IGIK2A" ApproachName="RNPZ" />
@@ -425,16 +425,16 @@
     </Airport>
     <Airport Name="YMEN">
       <Runway Name="08" DataRunway="08">
-        <SID Name="EN8" Default="True" />
+        <SID Name="EN9" Default="True" />
       </Runway>
       <Runway Name="17" DataRunway="17">
-        <SID Name="EN8" Default="True" />
+        <SID Name="EN9" Default="True" />
       </Runway>
       <Runway Name="26" DataRunway="26">
-        <SID Name="EN8" Default="True" />
+        <SID Name="EN9" Default="True" />
       </Runway>
       <Runway Name="35" DataRunway="35">
-        <SID Name="EN8" Default="True" />
+        <SID Name="EN9" Default="True" />
       </Runway>
     </Airport>
     <Airport Name="YMES">
@@ -1272,7 +1272,7 @@
         <SID Name="LIMLO1" />
         <SID Name="MONDO1" />
         <SID Name="PEPER1" />
-        <SID Name="SALT A" />
+        <SID Name="SALTAS" />
         <SID Name="STORM1" />
         <SID Name="UBSO1A" />
         <SID Name="UBSO1B" />
@@ -1292,7 +1292,7 @@
         <SID Name="LIMLO1" />
         <SID Name="MONDO1" />
         <SID Name="PEPER1" />
-        <SID Name="SALT A" />
+        <SID Name="SALTAS" />
         <SID Name="STORM1" />
         <SID Name="UBSO1A" />
         <SID Name="WLM4" Default="True" />
@@ -16240,10 +16240,10 @@ SAGLI
     <SID Name="THUND1" Airport="YBTL" Runways="19">
       <Route Runway="19">-191529.900+1464553.000/-192003.338+1464342.761</Route>
     </SID>
-    <SID Name="TL EA3" Airport="YBTL" Runways="01">
+    <SID Name="TLEAS3" Airport="YBTL" Runways="01">
       <Route Runway="01">-191417.530+1464627.180/-191126.260+1464751.630/-191236.000+1465156.000</Route>
     </SID>
-    <SID Name="TL NO4" Airport="YBTL" Runways="01">
+    <SID Name="TLNOR4" Airport="YBTL" Runways="01">
       <Route Runway="01">-191417.530+1464627.180/-191126.260+1464751.630/-190847.504+1464416.015</Route>
     </SID>
     <SID Name="WALTA2" Airport="YBTL" Runways="01,19">
@@ -16274,7 +16274,7 @@ SAGLI
       <Route Runway="07">-360355.620+1465811.070/ANUGO/OLTAN/UGVER</Route>
       <Route Runway="25">-360405.070+1465656.010/SAPAN/ADLEK/UGVER</Route>
     </SID>
-    <SID Name="EN8" Airport="YMEN" Runways="08,17,26,35">
+    <SID Name="EN9" Airport="YMEN" Runways="08,17,26,35">
       <Route Runway="08" />
       <Route Runway="17" />
       <Route Runway="26" />
@@ -16980,7 +16980,7 @@ SAGLI
       <Transition Name="ERVEV">-324042.000+1514927.000/-323925.000+1515015.000/ERVEV</Transition>
       <Transition Name="OLVEP">OLVEP</Transition>
     </SID>
-    <SID Name="SALT A" Airport="YWLM" Runways="12,30">
+    <SID Name="SALTAS" Airport="YWLM" Runways="12,30">
       <Route Runway="12">-324817.850+1515050.990/-324516.800+1515446.800</Route>
       <Route Runway="30">-324713.640+1514921.340/-324516.800+1515446.800</Route>
     </SID>
@@ -17726,7 +17726,7 @@ SAGLI
       <Route Runway="30">GOSNL/PH VOR</Route>
     </STAR>
     <STAR Name="JT3R" Airport="YPJT" Runways="06L,06R,12,24L,24R,30">
-      <Transition Name="KABLI">KABLI/BOOKA/RONAN/VEPAN</Transition>
+      <Transition Name="KABLI">KABLI/BOOKA/DUDIN/VEPAN</Transition>
       <Transition Name="LAVEX">LAVEX/BUVOT/RONAN/UNDOW</Transition>
       <Route Runway="06L">ROLOB/PH VOR</Route>
       <Route Runway="06R">ROLOB/PH VOR</Route>
