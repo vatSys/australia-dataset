@@ -9,6 +9,144 @@
             Manages aerodromes immaediately available in the selection list.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.PreviouslyClosed">
+            <summary>
+            Gets or sets a value indicating whether OzStrips has been previously closed this session.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.AutoOpenAerodrome">
+            <summary>
+            Gets or sets applicable auto-open aerodrome for this position.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager._concernedAerodromes">
+            <summary>
+            List of concerned aerodromes.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.InhibitVersionCheck">
+            <summary>
+            Gets or sets a value indicating whether or not the version check is inhibited.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.AerodromeAutoFillLocation">
+            <summary>
+            Gets or sets the base autofill file path.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.PDCFormat">
+            <summary>
+            Gets or sets the default PDC format.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.StripColours">
+            <summary>
+            Gets or sets default strip colours.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.AllowAutoOpen">
+            <summary>
+            Gets a value indicating whether the window should autoopen.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.ManuallySetAerodromes">
+            <summary>
+            Gets or sets a list of manually set aerodromes.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.Settings">
+            <summary>
+            Gets or sets the aerodrome settings.
+            </summary>
+        </member>
+        <member name="E:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.AerodromeListChanged">
+            <summary>
+            Called when the list of quick-switch aerodromes changes.
+            </summary>
+        </member>
+        <member name="E:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.OpenGUI">
+            <summary>
+            Called when the GUI is opened.
+            </summary>
+        </member>
+        <member name="E:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.ViewListChanged">
+            <summary>
+            Called when the list of possible views changes.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.AerodromeList">
+            <summary>
+            Gets the complete list of quick-switch aerodromes.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.GetAerodromeType(System.String)">
+            <summary>
+            Gets the aerodrome type.
+            </summary>
+            <param name="aerodrome">ICAO code.</param>
+            <returns>Aerodrome type.</returns>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.CircuitBayEnabled(System.String)">
+            <summary>
+            Determines if this aerodrome list should have the circuit bay enabled.
+            </summary>
+            <param name="aerodrome">ICAO Code.</param>
+            <returns>Activity status.</returns>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager"/> class.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.Initialize">
+            <summary>
+            Initialises the aerodrome manager.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.InitialiseOnNewWindow">
+            <summary>
+            Called when a new window is opened.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.ConfigureAerodromeListForNewAerodrome(System.String)">
+            <summary>
+            Configures the view list for a new aerodrome.
+            </summary>
+            <param name="aerodrome">New aerodrome.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.ReturnLayouts(System.String)">
+            <summary>
+            Gets the list of layouts.
+            </summary>
+            <param name="filter">Filter by aerodrome type.</param>
+            <returns>List of layouts.</returns>
+            <exception cref="T:System.Exception">Loading error.</exception>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.LoadSettings">
+            <summary>
+            Loads settings.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.AutoOpenModes">
+            <summary>
+            Possible auto-open modes.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.AutoOpenModes.OncePerSession">
+            <summary>
+            Only auto-open once.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.AutoOpenModes.Always">
+            <summary>
+            Always auto-open.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.AerodromeManager.AutoOpenModes.Never">
+            <summary>
+            Never auto-open.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.BaseModal">
             <summary>
             A base modal form.
@@ -20,6 +158,11 @@
             </summary>
             <param name="child">The child.</param>
             <param name="text">The text.</param>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.BaseModal.Child">
+            <summary>
+            Gets the modal child.
+            </summary>
         </member>
         <member name="E:MaxRumsey.OzStripsPlugin.GUI.BaseModal.ReturnEvent">
             <summary>
@@ -103,12 +246,6 @@
             <summary>
             Gets the current bay manager.
             </summary>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.op_Implicit(MaxRumsey.OzStripsPlugin.GUI.Bay)~MaxRumsey.OzStripsPlugin.GUI.Shared.BayDTO">
-            <summary>
-            Converts the Bay into a Bay Transfer object.
-            </summary>
-            <param name="bay">The bay to convert.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.GetStripHeight">
             <summary>
@@ -240,6 +377,13 @@
             <param name="code">The code of the item.</param>
             <returns>The list item if there is a match, otherwise null.</returns>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.GetListItemByBayItem(MaxRumsey.OzStripsPlugin.GUI.Shared.BayItem)">
+            <summary>
+            Gets if available a list item by bay item. Will create or delete a bar if needed.
+            </summary>
+            <param name="bayItem">The bayItem..</param>
+            <returns>The list item if there is a match, otherwise null.</returns>
+        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Bay.ToString">
             <summary>
             To string method.
@@ -361,6 +505,7 @@
             Forces a track into the first bay.
             </summary>
             <param name="socketConn">The socket connection.</param>
+            <returns>Task.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.SidTrigger">
             <summary>
@@ -402,6 +547,7 @@
             Drop the strip to the specified bay.
             </summary>
             <param name="bay">The bay.</param>
+            <returns>Task.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.BayManager.MoveStrip(MaxRumsey.OzStripsPlugin.GUI.Bay,MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
@@ -775,6 +921,7 @@
             Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.CDMAircraftControl"/> class.
             </summary>
             <param name="cdmDTO">CDM DTO object.</param>
+            <param name="adCode">Aerodrome code.</param>
         </member>
         <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.CDMAircraftControl.components">
             <summary> 
@@ -812,7 +959,6 @@
             <summary>
             Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.DebugSetATIS"/> class.
             </summary>
-            <param name="controller">The strip.</param>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.DebugSetATIS.ATISText">
             <summary>
@@ -981,9 +1127,19 @@
             Freetext element.
             </summary>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDownItem.MaxLen">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Controls.DropDownItem.MaxLen">
             <summary>
-            Max length for freetext items.
+            Gets or sets the max length for freetext items.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.KeybindChanger">
+            <summary>
+            Keybind changer window.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.KeybindChanger.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.KeybindChanger"/> class.
             </summary>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.KeybindChanger.ProcessCmdKey(System.Windows.Forms.Message@,System.Windows.Forms.Keys)">
@@ -991,7 +1147,7 @@
             Handles key presses to set keybinds.
             </summary>
             <param name="message">Message.</param>
-            <param name="newKey">New key.</param>
+            <param name="keys">New key.</param>
             <returns>Successfully handled.</returns>
         </member>
         <member name="F:MaxRumsey.OzStripsPlugin.GUI.Controls.KeybindChanger.components">
@@ -1076,7 +1232,7 @@
             <summary>
             Prevents scrolling to control.
             </summary>
-            <param name="activeControl">The active control</param>
+            <param name="activeControl">The active control.</param>
             <returns>Point.</returns>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.NoScrollPanel">
@@ -1088,7 +1244,7 @@
             <summary>
             Prevents scrolling to control.
             </summary>
-            <param name="activeControl">The active control</param>
+            <param name="activeControl">The active control.</param>
             <returns>Point.</returns>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Controls.PDCControl">
@@ -1248,19 +1404,116 @@
             Represents items in XML FIle.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeList.Type">
+            <summary>
+            Gets or sets type of aerodrome.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeList.EnableCircuit">
+            <summary>
+            Gets or sets whether the circuit should be enabled.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeList.Aerodromes">
+            <summary>
+            Gets or sets aerodrome ICAO codes.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings">
             <summary>
             Represents an object carrying the aerodrome settings.
             </summary>
         </member>
-        <member name="F:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.ConcernedSectors">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.ConcernedSectors">
             <summary>
             Gets or sets a list of concerned positions.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.AutoOpens">
+            <summary>
+            Gets or sets a list of auto-open positions.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.DefaultAerodromes">
+            <summary>
+            Gets or sets a list of default aerodromes.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.InhibitVersionCheck">
+            <summary>
+            Gets or sets a value indicating whether the version check is inhibited.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.Bays">
+            <summary>
+            Gets or sets a list of bay types.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.Layouts">
+            <summary>
+            Gets or sets a list of layout definitions.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.AerodromeLists">
+            <summary>
+            Gets or sets a list of aerodromes.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.AutoMapAerodromes">
+            <summary>
+            Gets or sets a list of auto-map aerodromes.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.PDCFormat">
+            <summary>
+            Gets or sets the default PDC format.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.AerodromeAutoFillLocation">
+            <summary>
+            Gets or sets the default autofill file path.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.StripColours">
+            <summary>
+            Gets or sets a list of default strip colours.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.DefaultLayout">
+            <summary>
+            Gets or sets the default layout.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeSettings.Load">
+            <summary>
+            Loads the aerodrome settings.
+            </summary>
+            <returns>Aerodrome settings.</returns>
+            <exception cref="T:System.Exception">Loading error.</exception>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AutoMapAerodrome">
             <summary>
             Represents items in XML FIle.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AutoMapAerodrome.FullName">
+            <summary>
+            Gets or sets the aerodrome full name per the vatsys dropdown.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AutoMapAerodrome.ICAOCode">
+            <summary>
+            Gets or sets the aerodrome ICAO code.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AutoMapAerodrome.RawRunways">
+            <summary>
+            Gets or sets the list of raw runway pairs.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AutoMapAerodrome.RunwayPairs">
+            <summary>
+            Gets the list of runwya pairs.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AutoOpen">
@@ -1268,9 +1521,74 @@
             Represents items in XML FIle.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AutoOpen.Aerodrome">
+            <summary>
+            Gets or sets the aerodrome ICAO code.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AutoOpen.Position">
+            <summary>
+            Gets or sets the position name.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.BayDefinition">
+            <summary>
+            Represents a single bay definition.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.BayDefinition.Name">
+            <summary>
+            Gets or sets the bay name.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.BayDefinition.Circuit">
+            <summary>
+            Gets or sets a value indicating whether this is a circuit bay.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.BayDefinition.Coordinator">
+            <summary>
+            Gets or sets a value indicating whether this is a coordinator bay.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.BayDefinition.CDMDisplay">
+            <summary>
+            Gets or sets a value indicating whether this bay should display CDM stats.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.BayDefinition.Types">
+            <summary>
+            Gets or sets a list of StripBay types.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.BayType">
+            <summary>
+            Contains child bays for a specific aerodrome type.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.BayType.Type">
+            <summary>
+            Gets or sets the aerodrome type.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.BayType.Bays">
+            <summary>
+            Gets or sets the list of bays.
+            </summary>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.ConcernedSector">
             <summary>
             Represents items in XML FIle.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.ConcernedSector.Aerodromes">
+            <summary>
+            Gets or sets the list of aerodromes.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.ConcernedSector.Positions">
+            <summary>
+            Gets or sets the list of positions.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.StripColour">
@@ -1286,6 +1604,46 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.StripColour.Colour">
             <summary>
             Gets or sets strip colour.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.LayoutDefinition">
+            <summary>
+            Contains layout definition information.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.LayoutDefinition.Name">
+            <summary>
+            Gets or sets the layout name.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.LayoutDefinition.Elements">
+            <summary>
+            Gets or sets a list of elements.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.LayoutDefinition.Type">
+            <summary>
+            Gets or sets the layout type.
+            </summary>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.LayoutElement">
+            <summary>
+            Layout elements.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.LayoutElement.Name">
+            <summary>
+            Gets or sets the layout element name.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.LayoutElement.Column">
+            <summary>
+            Gets or sets the default column.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.LayoutElement.Bay">
+            <summary>
+            Gets or sets the correlated bay.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement">
@@ -1346,6 +1704,26 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.FontSize">
             <summary>
             Gets or sets the font size in pixels.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.Cockable">
+            <summary>
+            Gets or sets a value indicating whether or not the element should be given the cocking highlight.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.CockableSpecified">
+            <summary>
+            Gets or sets a value indicating whether or not the element should be cocking highlight.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.Crossable">
+            <summary>
+            Gets or sets a value indicating whether or not the element should be given the crossing highlight.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElement.CrossableSpecified">
+            <summary>
+            Gets or sets a value indicating whether or not the element should be crossing highlight.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.StripElementList">
@@ -1433,7 +1811,7 @@
             Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.MainForm"/> class.
             </summary>
             <param name="readyForConnection">Whether the client can establish a server connection.</param>
-            <param name="aerodromeManager">The Aerodrome Manager</param>
+            <param name="aerodromeManager">The Aerodrome Manager.</param>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.MainFormInstance">
             <summary>
@@ -1540,6 +1918,11 @@
             Gets or sets the title of the main form.
             </summary>
         </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.Controller">
+            <summary>
+            Gets the mainform controller.
+            </summary>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainForm.CreateParams">
             <inheritdoc/>
         </member>
@@ -1550,6 +1933,16 @@
             <param name="msg">Sender.</param>
             <param name="keyData">Key.</param>
             <returns>Handled.</returns>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainForm.SetSmartResizeCheckBox">
+            <summary>
+            Set ups smartresize checkboxes.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainForm.SetControlBarScrollBar">
+            <summary>
+            Set ups the control bar visibility.
+            </summary>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainForm.GetStripByFDR(vatsys.FDP2.FDR)">
             <summary>
@@ -1562,8 +1955,17 @@
             <summary>
             Opens the defined input field.
             </summary>
-            <param name="strip">Strip,</param>
+            <param name="strip">Strip.</param>
             <param name="type">Label name.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainForm.GetDTO(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainForm.InQueue(MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainForm.GetCDMResult(MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey)">
+            <inheritdoc/>
         </member>
         <member name="F:MaxRumsey.OzStripsPlugin.GUI.MainForm.components">
             <summary>
@@ -1696,6 +2098,7 @@
             </summary>
             <param name="sender">Sending object.</param>
             <param name="e">EventArgs.</param>
+            <returns>Task.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.UpdateFDR(vatsys.FDP2.FDR)">
             <summary>
@@ -1703,6 +2106,7 @@
             </summary>
             <param name="fdr">The flgiht data record.</param>
             <remarks>Triggered from Connector plugin.</remarks>
+            <returns>Task.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.HandleDisconnect(vatsys.Network.PilotUpdateEventArgs)">
             <summary>
@@ -1749,7 +2153,7 @@
             <summary>
             Opens the defined input field.
             </summary>
-            <param name="strip">Strip,</param>
+            <param name="strip">Strip.</param>
             <param name="type">Label name.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.CrossButton_Click(System.Object,System.EventArgs)">
@@ -1897,6 +2301,15 @@
             <param name="act">The action to invoke.</param>
             <returns>Returning value of the action.</returns>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.GetDTO(System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.InQueue(MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey)">
+            <inheritdoc/>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.MainFormController.GetCDMResult(MaxRumsey.OzStripsPlugin.GUI.Shared.StripKey)">
+            <inheritdoc/>
+        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.MainFormController.Visible">
             <summary>
             Gets a value indicating whether the main form is visible.
@@ -2024,7 +2437,7 @@
             <summary>
             Gets the ASD track custom colour.
             </summary>
-            <param name="track">Aircraft track</param>
+            <param name="track">Aircraft track.</param>
             <returns>Null.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.OzStrips.SelectGroundTrackColour(vatsys.Track)">
@@ -2072,7 +2485,7 @@
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.version">
             <summary>
-              Looks up a localized string similar to 0.8.7.
+              Looks up a localized string similar to 0.9.0.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher">
@@ -2165,9 +2578,9 @@
             Gets or sets the current server type.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Connected">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.State">
             <summary>
-            Gets or sets a value indicating whether the client is connected.
+            Gets the connection state.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.HaveSendPerms">
@@ -2185,6 +2598,7 @@
             Syncs the strip controller.
             </summary>
             <param name="sc">The strip controller.</param>
+            <returns>Task.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SendStripStatus(MaxRumsey.OzStripsPlugin.GUI.Strip,System.String)">
             <summary>
@@ -2205,12 +2619,14 @@
             Requests routes for a given sc.
             </summary>
             <param name="sc">The strip controller.</param>
+            <returns>Task.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.RequestStrip(MaxRumsey.OzStripsPlugin.GUI.Strip)">
             <summary>
             Requests strip data from the server.
             </summary>
             <param name="strip">Strip to fetch.</param>
+            <returns>Task.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SendPDC(MaxRumsey.OzStripsPlugin.GUI.Strip,System.String)">
             <summary>
@@ -2218,24 +2634,13 @@
             </summary>
             <param name="strip">Strip.</param>
             <param name="text">PDC text.</param>
+            <returns>Task.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.ReadyForBayData(System.Boolean)">
-            <summary>
-            Requests bay order data from server.
-            </summary>
-            <param name="force">Whether or not to force fetching of bay data.</param>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SyncDeletion(MaxRumsey.OzStripsPlugin.GUI.Strip)">
-            <summary>
-            Syncs the deletion of a controller.
-            </summary>
-            <param name="sc">The strip controller.</param>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SyncBay(MaxRumsey.OzStripsPlugin.GUI.Bay)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SyncBay(MaxRumsey.OzStripsPlugin.GUI.Shared.BayChange)">
             <summary>
             Sync the bay to the socket.
             </summary>
-            <param name="bay">The bay to sync.</param>
+            <param name="bayChange">The bay to sync.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.RequestCircuit(System.Boolean)">
             <summary>
@@ -2260,6 +2665,9 @@
             Sets the aerodrome based on the bay manager.
             </summary>
             <returns>Task.</returns>
+            <exception cref="T:System.Exception">Server error.</exception>
+            <exception cref="T:System.ArgumentNullException">Connection data was not returned.</exception>
+            <exception cref="T:System.ArgumentException">Connection data did not match our copy.</exception>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SetServerType(MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Servers)">
             <summary>
@@ -2279,11 +2687,6 @@
             </summary>
             <returns>Task.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Close">
-            <summary>
-            Disconnects from the server.
-            </summary>
-        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Connect">
             <summary>
             Creates a connection to the server.
@@ -2295,14 +2698,39 @@
             Disconnects the io.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Dispose">
-            <inheritdoc/>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.MarkDesynchronised">
+            <summary>
+            Marks the server as desynchronised when effecting an aerodrome change.
+            </summary>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.CreateCacheDTO">
             <summary>
             Creates the cache data transfer object.
             </summary>
             <returns>The cache data transfer object.</returns>
+        </member>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.SocketConn.ConnectionState">
+            <summary>
+            SignalR connection status.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.SocketConn.ConnectionState.DISCONNECTED">
+            <summary>
+            Client is disconnected.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.SocketConn.ConnectionState.CONNECTED">
+            <summary>
+            Client is connected.
+            </summary>
+        </member>
+        <member name="F:MaxRumsey.OzStripsPlugin.GUI.SocketConn.ConnectionState.RECONNECTING">
+            <summary>
+            Client is reconnecting.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.DisposeAsync">
+            <inheritdoc/>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Strip">
             <summary>
@@ -2396,6 +2824,11 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.FDR">
             <summary>
             Gets the flight data record.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.DepartureChanged">
+            <summary>
+            Gets or sets a value indicating whether or not the departure has been changed.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.PDCFlags">
@@ -2612,11 +3045,6 @@
             <param name="fdr">New FDR.</param>
             <returns>Whether or not a change is detected.</returns>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.SendDeleteMessage">
-            <summary>
-            Sends a strip deletion message to the server.
-            </summary>
-        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.SendPDC(System.String)">
             <summary>
             Sends a Hoppies PDC to the server.
@@ -2659,6 +3087,7 @@
             <summary>
             Requests new strip data from the server, for new strips.
             </summary>
+            <returns>Task.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.ApplicableToAerodrome(System.String)">
             <summary>
@@ -2695,6 +3124,7 @@
             <summary>
             Sync the strip with the server.
             </summary>
+            <returns>Task.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.CleanVatsysRoute(System.String)">
             <summary>
@@ -2702,6 +3132,11 @@
             </summary>
             <param name="rawRoute">The raw route.</param>
             <returns>The parsed route.</returns>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.Dispose">
+            <summary>
+            Disposes of the strip.
+            </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.StripController">
             <summary>
@@ -2882,6 +3317,12 @@
             <param name="obj">The object.</param>
             <returns>Equal.</returns>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripListItem.ToBayChangeArgument">
+            <summary>
+            Converts the strip item into a bay change argument.
+            </summary>
+            <returns>Bay change argument.</returns>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.StripRepository">
             <summary>
             Accounts for all strip models.
@@ -2923,7 +3364,7 @@
             <param name="stripDTO">The strip controller data.</param>
             <param name="bayManager">The bay manager.</param>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.LoadCache(System.Collections.Generic.List{MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO},MaxRumsey.OzStripsPlugin.GUI.BayManager,MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.LoadCache(MaxRumsey.OzStripsPlugin.GUI.Shared.StripDTO[],MaxRumsey.OzStripsPlugin.GUI.BayManager,MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
             <summary>
             Loads in a cacheDTO object received from server, sets SCs accordingly.
             </summary>
