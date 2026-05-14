@@ -124,20 +124,20 @@
         <SID Name="SANEG2" Default="True" />
         <SID Name="SCOTT4" />
         <SID Name="WACKO4" />
-        <STAR Name="BLAK9A" ApproachName="RNPT" />
+        <STAR Name="BLAK9A" ApproachName="RNPZ" />
         <STAR Name="BLAK9X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="ENLI3A" ApproachName="RNPT" />
-        <STAR Name="GOMO5A" ApproachName="RNPT" />
+        <STAR Name="ENLI3A" ApproachName="RNPZ" />
+        <STAR Name="GOMO5A" ApproachName="RNPZ" />
         <STAR Name="GOMO5V" OpDataFlag="V" />
         <STAR Name="GOMO5X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="MORB3A" ApproachName="RNPT" />
-        <STAR Name="SMOK2A" ApproachName="RNPT" />
+        <STAR Name="MORB3A" ApproachName="RNPZ" />
+        <STAR Name="SMOK2A" ApproachName="RNPZ" />
         <STAR Name="SMOK2M" OpDataFlag="M" ApproachName="RNP-ARM" />
-        <STAR Name="TEBO3A" ApproachName="RNPT" />
+        <STAR Name="TEBO3A" ApproachName="RNPZ" />
         <STAR Name="TEBO3X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="UGTU3A" ApproachName="RNPT" />
+        <STAR Name="UGTU3A" ApproachName="RNPZ" />
         <STAR Name="UGTU3X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="WODY3A" ApproachName="RNPT" />
+        <STAR Name="WODY3A" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="19L" DataRunway="19L">
         <SID Name="BIXAD2" />
@@ -168,7 +168,7 @@
         <STAR Name="ENLI3A" ApproachName="RNPZ" />
         <STAR Name="ENLI3X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="GOMO5A" ApproachName="RNPZ" />
-        <STAR Name="ISPON2" ApproachName="RNPZ" />
+        <STAR Name="ISPON2" ApproachName="LOCZ" />
         <STAR Name="MORB3A" ApproachName="RNPZ" />
         <STAR Name="MORB3V" OpDataFlag="V" />
         <STAR Name="SMOK2A" ApproachName="RNPZ" />
@@ -18577,14 +18577,18 @@ SAGLI
       <Transition Name="BIGIX">BIGIX</Transition>
       <Route>OREBI/IKELI/-273718.130+1524218.980</Route>
     </Approach>
-    <Approach Name="RNPT" Airport="YBBN" Runway="01R">
-      <Transition Name="ENTIK">ENTIK/GLENN</Transition>
-      <Transition Name="GLENN">GLENN</Transition>
-      <Route>NOMEV/GOGEX/-272410.070+1530705.590</Route>
+    <Approach Name="LOCZ" Airport="YBBN" Runway="19R">
+      <Transition Name="OSOKO">OSOKO</Transition>
+      <Route>SAKBO/-272123.560+1530719.090</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YBBN" Runway="01L">
       <Transition Name="BUSLA">BUSLA</Transition>
       <Route>AKTOB/LUTSI/-272259.050+1530624.490</Route>
+    </Approach>
+    <Approach Name="RNPZ" Airport="YBBN" Runway="01R">
+      <Transition Name="ENTIK">ENTIK/GLENN</Transition>
+      <Transition Name="GLENN">GLENN</Transition>
+      <Route>NOMEV/GOGEX/-272410.070+1530705.590</Route>
     </Approach>
     <Approach Name="RNPZ" Airport="YBBN" Runway="19L">
       <Transition Name="BETSO">BETSO</Transition>
