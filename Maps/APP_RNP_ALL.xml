@@ -90,8 +90,9 @@
       <Point>AS2EA</Point>
       <Point>AS2EB</Point>
       <Point>AS2EC</Point>
-      <Point>TANIK</Point>
+      <Point>ENTIK</Point>
       <Point>GLENN</Point>
+      <Point>BUSLA</Point>
       <Point>BETSO</Point>
       <Point>OSOKO</Point>
       <Point>CG2NC</Point>
@@ -324,8 +325,8 @@
       <Point>BAFEF</Point>
       <Point>AS2WF</Point>
       <Point>AS2EF</Point>
-      <Point>LUTSI</Point>
       <Point>GOGEX</Point>
+      <Point>LUTSI</Point>
       <Point>OGATU</Point>
       <Point>SAKBO</Point>
       <Point>CG2NF</Point>
@@ -420,7 +421,6 @@
       <Point>BAFEI</Point>
       <Point>AS2WI</Point>
       <Point>AS2EI</Point>
-      <Point>AKTOB</Point>
       <Point>NOMEV</Point>
       <Point>PIKON</Point>
       <Point>OKVIS</Point>
@@ -2813,11 +2813,11 @@
       <Point>TV2EG</Point>
       <Point>TV2EF</Point>
       <Point>TV2EI</Point>
-      <Point>TV2WA</Point>
-      <Point>TV2WB</Point>
-      <Point>TV2WC</Point>
-      <Point>TV2WF</Point>
-      <Point>TV2WI</Point>
+      <Point>TV3WA</Point>
+      <Point>TV3WB</Point>
+      <Point>TV3WC</Point>
+      <Point>TV3WF</Point>
+      <Point>TV3WI</Point>
       <Point>TW2EA</Point>
       <Point>TW2EB</Point>
       <Point>TW2EC</Point>
@@ -3195,8 +3195,8 @@
       <Point>BAFEF</Point>
       <Point>AS2WF</Point>
       <Point>AS2EF</Point>
-      <Point>LUTSI</Point>
       <Point>GOGEX</Point>
+      <Point>LUTSI</Point>
       <Point>OGATU</Point>
       <Point>SAKBO</Point>
       <Point>CG2NF</Point>
@@ -3766,7 +3766,7 @@
       <Point>TT2NF</Point>
       <Point>TT2SF</Point>
       <Point>TV2EF</Point>
-      <Point>TV2WF</Point>
+      <Point>TV3WF</Point>
       <Point>TW2EF</Point>
       <Point>TW2WF</Point>
       <Point>UA2EF</Point>
@@ -3860,7 +3860,6 @@
       <Point>BAFEI</Point>
       <Point>AS2WI</Point>
       <Point>AS2EI</Point>
-      <Point>AKTOB</Point>
       <Point>NOMEV</Point>
       <Point>PIKON</Point>
       <Point>OKVIS</Point>
@@ -4433,7 +4432,7 @@
       <Point>TT2NI</Point>
       <Point>TT2SI</Point>
       <Point>TV2EI</Point>
-      <Point>TV2WI</Point>
+      <Point>TV3WI</Point>
       <Point>TW2EI</Point>
       <Point>TW2WI</Point>
       <Point>UA2EI</Point>
@@ -4583,8 +4582,9 @@
       <Point>AS2EA</Point>
       <Point>AS2EB</Point>
       <Point>AS2EC</Point>
-      <Point>TANIK</Point>
+      <Point>ENTIK</Point>
       <Point>GLENN</Point>
+      <Point>BUSLA</Point>
       <Point>BETSO</Point>
       <Point>OSOKO</Point>
       <Point>CG2NC</Point>
@@ -6165,9 +6165,9 @@
       <Point>TV2ED</Point>
       <Point>TV2EE</Point>
       <Point>TV2EG</Point>
-      <Point>TV2WA</Point>
-      <Point>TV2WB</Point>
-      <Point>TV2WC</Point>
+      <Point>TV3WA</Point>
+      <Point>TV3WB</Point>
+      <Point>TV3WC</Point>
       <Point>TW2EA</Point>
       <Point>TW2EB</Point>
       <Point>TW2EC</Point>
@@ -8726,11 +8726,11 @@
     <Line>TV2EG/TV2EI</Line>
     <Line>TV2EI/TV2EF</Line>
     <Line>-381223.170+1462835.860/TV2EF</Line>
-    <Line>TV2WA/TV2WI</Line>
-    <Line>TV2WB/TV2WI</Line>
-    <Line>TV2WC/TV2WI</Line>
-    <Line>TV2WI/TV2WF</Line>
-    <Line>-381255.890+1462754.190/TV2WF</Line>
+    <Line>TV3WA/TV3WI</Line>
+    <Line>TV3WB/TV3WI</Line>
+    <Line>TV3WC/TV3WI</Line>
+    <Line>TV3WI/TV3WF</Line>
+    <Line>-381255.890+1462754.190/TV3WF</Line>
     <Line>TW2EA/TW2EI</Line>
     <Line>TW2EB/TW2EI</Line>
     <Line>TW2EC/TW2EI</Line>
@@ -9159,10 +9159,11 @@
     <Line>AS2EA/AS2EI</Line>
     <Line>AS2EB/AS2EI</Line>
     <Line>AS2EC/AS2EI</Line>
-    <Line>AKTOB/LUTSI/-272259.050+1530624.490</Line>
-    <Line>TANIK/AKTOB</Line>
     <Line>NOMEV/GOGEX/-272410.070+1530705.590</Line>
+    <Line>ENTIK/GLENN/NOMEV</Line>
     <Line>GLENN/NOMEV</Line>
+    <Line>AKTOB/LUTSI/-272259.050+1530624.490</Line>
+    <Line>BUSLA/AKTOB</Line>
     <Line>PIKON/OGATU/-272228.790+1530803.500</Line>
     <Line>BETSO/PIKON</Line>
     <Line>OKVIS/SAKBO/-272123.560+1530719.090</Line>

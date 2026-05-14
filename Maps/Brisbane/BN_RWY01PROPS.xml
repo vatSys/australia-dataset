@@ -54,30 +54,30 @@
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy01L ENLI2A-->
+      <!--Rwy01L ENLI3A-->
       ENLIP/
       ODUTO/
       ANSOR/
       GORSO/
-      TANIK
+      BUSLA
     </Line>
     <Line>
-      <!--Rwy01L MORB2A-->
+      <!--Rwy01L MORB3A-->
       MORBI/
       REMOR/
       GAYLA/
       DAYBO/
       ONIPA/
+      IRPIM/
       TAPUL/
-      SULDO/
-      DABKO/
-      TANIK
+      VEGSU/
+      BUSLA
     </Line>
     <Line>
-      <!--Rwy01L MORB2V-->
+      <!--Rwy01L MORB3V-->
     </Line>
     <Line>
-      <!--Rwy01L SMOK1A-->
+      <!--Rwy01L SMOK2A-->
       SMOKA/
       OTGAT/
       GARTH/
@@ -87,33 +87,31 @@
       TAPUL
     </Line>
     <Line>
-      <!--Rwy01L SMOK1X-->
+      <!--Rwy01L SMOK2X-->
       RUKNO/
       RUSVA
     </Line>
     <Line>
-      <!--Rwy01L WODY2A-->
+      <!--Rwy01L WODY3A-->
       WOODY/
       NUSBU/
       NODUG/
       RUKNO
     </Line>
     <Line>
-      <!--Rwy01L WODY2V-->
+      <!--Rwy01L WODY3V-->
     </Line>
     <Line>
-      <!--Rwy01R BLAK8A-->
+      <!--Rwy01R BLAK9A-->
       BLAKA/
       VELKA/
       BERTI/
-      PONOD/
-      ENTOX/
-      VATRO/
-      PULEX/
-      GLENN
+      DORAT/
+      GUTOR/
+      ENTIK
     </Line>
     <Line>
-      <!--Rwy01R BLAK8X-->
+      <!--Rwy01R BLAK9X-->
       VELKA/
       ARONU/
       COTON/
@@ -121,23 +119,23 @@
       SORVA
     </Line>
     <Line>
-      <!--Rwy01R GOMO4A-->
+      <!--Rwy01R GOMO5A-->
       GOMOL/
       SURSI/
       VELKA
     </Line>
     <Line>
-      <!--Rwy01R GOMO4V-->
+      <!--Rwy01R GOMO5V-->
       GOMOL/
       VERIK/
       LAGOB/
       ARONU
     </Line>
     <Line>
-      <!--Rwy01R GOMO4X-->
+      <!--Rwy01R GOMO5X-->
     </Line>
     <Line>
-      <!--Rwy01R TEBO2A-->
+      <!--Rwy01R TEBO3A-->
       TEBOT/
       URBIN/
       ANIRI/
@@ -145,28 +143,34 @@
       VEVEX/
       COTON/
       NUNDI/
-      ENTOX
+      ENTOX/
+      VATRO/
+      PULEX/
+      GLENN
     </Line>
     <Line>
-      <!--Rwy01R TEBO2X-->
+      <!--Rwy01R TEBO3X-->
     </Line>
     <Line>
-      <!--Rwy01R UGTU2A-->
+      <!--Rwy01R UGTU3A-->
       UGTUG/
       IRTED/
-      DOMBO
+      DOMBO/
+      EGOTO/
+      DORAT
     </Line>
     <Line>
-      <!--Rwy01R UGTU2X-->
+      <!--Rwy01R UGTU3X-->
     </Line>
     <Symbol Type="HollowTriangle">
-      <Point>TANIK</Point>
+      <Point>BUSLA</Point>
       <Point>DAYBO</Point>
       <Point>RUSVA</Point>
       <Point>RUKNO</Point>
-      <Point>GLENN</Point>
+      <Point>ENTIK</Point>
       <Point>SORVA</Point>
       <Point>ARONU</Point>
+      <Point>GLENN</Point>
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>OSOKO</Point>
@@ -198,9 +202,9 @@
       <Point>REMOR</Point>
       <Point>GAYLA</Point>
       <Point>ONIPA</Point>
+      <Point>IRPIM</Point>
       <Point>TAPUL</Point>
-      <Point>SULDO</Point>
-      <Point>DABKO</Point>
+      <Point>VEGSU</Point>
       <Point>SMOKA</Point>
       <Point>OTGAT</Point>
       <Point>GARTH</Point>
@@ -212,10 +216,8 @@
       <Point>BLAKA</Point>
       <Point>VELKA</Point>
       <Point>BERTI</Point>
-      <Point>PONOD</Point>
-      <Point>ENTOX</Point>
-      <Point>VATRO</Point>
-      <Point>PULEX</Point>
+      <Point>DORAT</Point>
+      <Point>GUTOR</Point>
       <Point>COTON</Point>
       <Point>KASBA</Point>
       <Point>GOMOL</Point>
@@ -228,8 +230,12 @@
       <Point>DOMBO</Point>
       <Point>VEVEX</Point>
       <Point>NUNDI</Point>
+      <Point>ENTOX</Point>
+      <Point>VATRO</Point>
+      <Point>PULEX</Point>
       <Point>UGTUG</Point>
       <Point>IRTED</Point>
+      <Point>EGOTO</Point>
     </Symbol>
     <!--(BN) RWY01PROPS Airspace-->
     <Line Name="(BN) RWY01PROPS_DER1L-GUMKI" Width="1.7" Pattern="Dotted">
@@ -287,15 +293,15 @@
       <Point>ODUTO</Point>
       <Point>ANSOR</Point>
       <Point>GORSO</Point>
-      <Point>TANIK</Point>
+      <Point>BUSLA</Point>
       <Point>MORBI</Point>
       <Point>REMOR</Point>
       <Point>GAYLA</Point>
       <Point>DAYBO</Point>
       <Point>ONIPA</Point>
+      <Point>IRPIM</Point>
       <Point>TAPUL</Point>
-      <Point>SULDO</Point>
-      <Point>DABKO</Point>
+      <Point>VEGSU</Point>
       <Point>SMOKA</Point>
       <Point>OTGAT</Point>
       <Point>GARTH</Point>
@@ -309,11 +315,9 @@
       <Point>BLAKA</Point>
       <Point>VELKA</Point>
       <Point>BERTI</Point>
-      <Point>PONOD</Point>
-      <Point>ENTOX</Point>
-      <Point>VATRO</Point>
-      <Point>PULEX</Point>
-      <Point>GLENN</Point>
+      <Point>DORAT</Point>
+      <Point>GUTOR</Point>
+      <Point>ENTIK</Point>
       <Point>ARONU</Point>
       <Point>COTON</Point>
       <Point>KASBA</Point>
@@ -328,8 +332,13 @@
       <Point>DOMBO</Point>
       <Point>VEVEX</Point>
       <Point>NUNDI</Point>
+      <Point>ENTOX</Point>
+      <Point>VATRO</Point>
+      <Point>PULEX</Point>
+      <Point>GLENN</Point>
       <Point>UGTUG</Point>
       <Point>IRTED</Point>
+      <Point>EGOTO</Point>
       <Point>MEPEM</Point>
       <Point>AVMUN</Point>
       <Point>ROM NDB</Point>
