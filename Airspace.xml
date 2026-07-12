@@ -190,26 +190,26 @@
         <SID Name="APAGI5" Type="Jet" />
         <SID Name="CG7" Default="True" />
         <SID Name="CUDGN4" />
-        <STAR Name="BERN4A" ApproachName="RNPZ" />
-        <STAR Name="BERN4Y" ApproachName="RNP-ARY" />
-        <STAR Name="LAMS3A" ApproachName="RNPZ" />
-        <STAR Name="LAMS3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="BERN5A" ApproachName="RNPZ" />
+        <STAR Name="BERN5Y" ApproachName="RNP-ARY" />
+        <STAR Name="LAMS4A" ApproachName="RNPZ" />
+        <STAR Name="LAMS4Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="17" DataRunway="17" />
       <Runway Name="32" DataRunway="32">
         <SID Name="APAGI5" Type="Jet" />
         <SID Name="BURLI5" />
         <SID Name="CG7" Default="True" />
-        <STAR Name="BERN4A" ApproachName="RNPZ" />
-        <STAR Name="LAMS3A" ApproachName="RNPZ" />
-        <STAR Name="LAMS3Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
+        <STAR Name="BERN5A" ApproachName="RNPZ" />
+        <STAR Name="LAMS4A" ApproachName="RNPZ" />
+        <STAR Name="LAMS4Y" OpDataFlag="Y" ApproachName="RNP-ARY" />
       </Runway>
       <Runway Name="35" DataRunway="35" />
       <Runway Name="14V" DataRunway="14">
-        <STAR Name="BERN4V" />
+        <STAR Name="BERN5V" />
       </Runway>
       <Runway Name="32V" DataRunway="32">
-        <STAR Name="BERN4V" />
+        <STAR Name="BERN5V" />
       </Runway>
     </Airport>
     <Airport Name="YBCS">
@@ -17673,28 +17673,28 @@ SAGLI
       <Route Runway="01L">WOODY/NUSBU/NODUG/RUKNO</Route>
       <Route Runway="19R">WOODY/ATVON/TEGIL/PAMGO</Route>
     </STAR>
-    <STAR Name="BERN4A" Airport="YBCG" Runways="14,32">
+    <STAR Name="BERN5A" Airport="YBCG" Runways="14,32">
       <Transition Name="OVREX">OVREX/VEGAH/IDNER</Transition>
       <Transition Name="VESOK">VESOK/VEGAH/IDNER</Transition>
       <Route Runway="14">BERNI/ELDUX/VANSU/ROONY/FIKUL/CHOOK/AGTEK/KEGAN</Route>
       <Route Runway="32">BERNI/ELDUX/VANSU/ROONY/FIKUL</Route>
     </STAR>
-    <STAR Name="BERN4V" Airport="YBCG" Runways="14,32">
+    <STAR Name="BERN5V" Airport="YBCG" Runways="14,32">
       <Transition Name="OVREX">OVREX/VEGAH/IDNER</Transition>
       <Transition Name="VESOK">VESOK/VEGAH/IDNER</Transition>
       <Route Runway="14">BERNI/ELDUX/VANSU/ROONY/FIKUL/CHOOK/KERRI/SAILA/NIKKI/INDEE</Route>
       <Route Runway="32">BERNI/ELDUX/VANSU/ROONY/FIKUL/JAAPI/TERRA</Route>
     </STAR>
-    <STAR Name="BERN4Y" Airport="YBCG" Runways="14">
+    <STAR Name="BERN5Y" Airport="YBCG" Runways="14">
       <Transition Name="OVREX">OVREX/VEGAH/IDNER</Transition>
       <Transition Name="VESOK">VESOK/VEGAH/IDNER</Transition>
       <Route Runway="14">BERNI/ELDUX/VANSU/ROONY/FIKUL/CHOOK/KERRI</Route>
     </STAR>
-    <STAR Name="LAMS3A" Airport="YBCG" Runways="14,32">
+    <STAR Name="LAMS4A" Airport="YBCG" Runways="14,32">
       <Route Runway="14">LAMSI/PATSU/TELOG/LOTMA/KEGAN</Route>
       <Route Runway="32">LAMSI/IGLAP/VIDUM/FIKUL</Route>
     </STAR>
-    <STAR Name="LAMS3Y" Airport="YBCG" Runways="14,32">
+    <STAR Name="LAMS4Y" Airport="YBCG" Runways="14,32">
       <Route Runway="14">LAMSI/MIMUD/KAKVI/ENRIM/KERRI</Route>
       <Route Runway="32">LAMSI/OVSOT/ADMAK/TENIP/ATKEN</Route>
     </STAR>
