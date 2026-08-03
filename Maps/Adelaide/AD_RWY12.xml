@@ -19,11 +19,16 @@
       DOVAR
     </Line>
     <Line>
-      <!--Rwy12 ELRO5V-->
+      <!--Rwy12 ELRO6V-->
       ELROX/
       TROUB/
       RIKVI/
       MULDR
+    </Line>
+    <Line>
+      <!--Rwy12 ELRO6Z-->
+      RIKVI/
+      PADWO
     </Line>
     <Line>
       <!--Rwy12 GULF8V.ATNAR-->
@@ -65,6 +70,7 @@
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>MULDR</Point>
+      <Point>PADWO</Point>
     </Symbol>
     <Symbol Type="HollowStar">
       <Point>ATPIP</Point>
@@ -97,6 +103,7 @@
       <Point>TROUB</Point>
       <Point>RIKVI</Point>
       <Point>MULDR</Point>
+      <Point>PADWO</Point>
       <Point>ATNAR</Point>
       <Point>GULFS</Point>
       <Point>AGROS</Point>
