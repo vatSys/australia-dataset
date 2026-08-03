@@ -154,12 +154,12 @@
       <Point>MESEE</Point>
       <Point>MESEG</Point>
       <Point>MESEJ</Point>
-      <Point>BUSKA</Point>
-      <Point>HB2WD</Point>
-      <Point>HB2WG</Point>
       <Point>HB2EB</Point>
       <Point>HB2EC</Point>
       <Point>PIDOS</Point>
+      <Point>BUSKA</Point>
+      <Point>HB2WD</Point>
+      <Point>HB2WG</Point>
       <Point>LT2ND</Point>
       <Point>LT2NE</Point>
       <Point>LT2NG</Point>
@@ -354,10 +354,12 @@
       <Point>MESWF</Point>
       <Point>MESNF</Point>
       <Point>MESEF</Point>
-      <Point>HB2WF</Point>
       <Point>HB2EF</Point>
+      <Point>HB2WF</Point>
       <Point>LT2NF</Point>
       <Point>LT2SF</Point>
+      <Point>PAPGA</Point>
+      <Point>MATKU</Point>
       <Point>BOSGI</Point>
       <Point>AVMEL</Point>
       <Point>PADSF</Point>
@@ -448,12 +450,10 @@
       <Point>MESWI</Point>
       <Point>MESNI</Point>
       <Point>MESEI</Point>
-      <Point>HB2WI</Point>
       <Point>HB2EI</Point>
+      <Point>HB2WI</Point>
       <Point>LT2NI</Point>
       <Point>LT2SI</Point>
-      <Point>PAPGA</Point>
-      <Point>MATKU</Point>
       <Point>ANBEM</Point>
       <Point>PADSI</Point>
       <Point>PADWI</Point>
@@ -3227,10 +3227,12 @@
       <Point>MESWF</Point>
       <Point>MESNF</Point>
       <Point>MESEF</Point>
-      <Point>HB2WF</Point>
       <Point>HB2EF</Point>
+      <Point>HB2WF</Point>
       <Point>LT2NF</Point>
       <Point>LT2SF</Point>
+      <Point>PAPGA</Point>
+      <Point>MATKU</Point>
       <Point>BOSGI</Point>
       <Point>AVMEL</Point>
       <Point>PADSF</Point>
@@ -3892,12 +3894,10 @@
       <Point>MESWI</Point>
       <Point>MESNI</Point>
       <Point>MESEI</Point>
-      <Point>HB2WI</Point>
       <Point>HB2EI</Point>
+      <Point>HB2WI</Point>
       <Point>LT2NI</Point>
       <Point>LT2SI</Point>
-      <Point>PAPGA</Point>
-      <Point>MATKU</Point>
       <Point>ANBEM</Point>
       <Point>PADSI</Point>
       <Point>PADWI</Point>
@@ -4655,12 +4655,12 @@
       <Point>MESEE</Point>
       <Point>MESEG</Point>
       <Point>MESEJ</Point>
-      <Point>BUSKA</Point>
-      <Point>HB2WD</Point>
-      <Point>HB2WG</Point>
       <Point>HB2EB</Point>
       <Point>HB2EC</Point>
       <Point>PIDOS</Point>
+      <Point>BUSKA</Point>
+      <Point>HB2WD</Point>
+      <Point>HB2WG</Point>
       <Point>LT2ND</Point>
       <Point>LT2NE</Point>
       <Point>LT2NG</Point>
@@ -9268,14 +9268,14 @@
     <Line>MESEE/MESEI</Line>
     <Line>MESEG/MESEI</Line>
     <Line>MESEJ/MESEI</Line>
+    <Line>HB2EI/HB2EF/-425044.090+1473128.570</Line>
+    <Line>HB2EB/HB2EI</Line>
+    <Line>HB2EC/HB2EI</Line>
+    <Line>PIDOS/HB2EI</Line>
     <Line>HB2WI/HB2WF/HB2WM</Line>
     <Line>BUSKA/HB2WI</Line>
     <Line>HB2WD/HB2WI</Line>
     <Line>HB2WG/HB2WI</Line>
-    <Line>HB2EI/HB2EF/HB2EM</Line>
-    <Line>HB2EB/HB2EI</Line>
-    <Line>HB2EC/HB2EI</Line>
-    <Line>PIDOS/HB2EI</Line>
     <Line>LT2NI/LT2NF/-413213.440+1471214.750</Line>
     <Line>LT2ND/LT2NI</Line>
     <Line>LT2NE/LT2NI</Line>
