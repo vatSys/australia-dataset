@@ -220,6 +220,7 @@
   </Sector>
   <Sector FullName="Snowy" Frequency="124.000" Callsign="ML-SNO_CTR" Name="SNO">
     <Volumes>SNO</Volumes>
+    <ResponsibleSectors>WOL,CBE,CBW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Straddy" Frequency="134.300" Callsign="BN-SDY_CTR" Name="SDY">
     <Volumes>SDY,SDY_BN_TMA_CAP</Volumes>
@@ -277,7 +278,6 @@
   </Sector>
   <Sector FullName="Wollongong" Frequency="125.000" Callsign="ML-WOL_CTR" Name="WOL">
     <Volumes>WOL,WOL_CB_TMA_CAP</Volumes>
-    <ResponsibleSectors>SNO,CBE,CBW</ResponsibleSectors>
   </Sector>
   <Sector FullName="Wonthaggi" Frequency="135.300" Callsign="ML-WON_CTR" Name="WON">
     <Volumes>WON,WON_ML_TMA_CAP</Volumes>

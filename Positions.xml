@@ -914,6 +914,42 @@
         <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
+    <Position Name="Snowy" Type="ASD" DefaultCenter="-37.497333+149.972889" DefaultRange="800" VisibilityRange="600">
+      <Sectors>
+        <Sector Name="SNO" />
+        <Sector Name="WOL" />
+        <Sector Name="CBE" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-33.293+141.617</Point>
+        <Point>-38.600+145.876</Point>
+        <Point>-32.691+150.237</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="AIRWAY_NOTES" />
+        <Map Name="ALL_CTA" />
+        <Map Name="ALL_SECTORS" />
+        <Map Name="ALL_NAVAIDS" />
+        <Map Name="COAST_ALL" />
+        <Map Name="ALL_ROUTES_HIGH" />
+        <Map Name="ALL_POINTS_HIGH" />
+        <Map Name="FIR_BDRY" />
+        <Map Name="UPPER_SECTOR_FREQS" />
+      </Maps>
+      <Strips Mode="State" Sort="Time">
+        <Window Type="State" State="Jurisdiction" Visible="true" />
+        <Window Type="State" State="Announced" Visible="true" />
+        <Window Type="State" State="Preactive" Visible="true" />
+        <Window Type="State" State="HandoverIn" Visible="true" />
+      </Strips>
+      <CFL QuickLevel="9000" />
+      <ControllerInfo>
+        <Line>Melbourne Centre</Line>
+        <Line>Airspace and Charts - vats.im/pac/tools | Pilot Procs - vats.im/pac/pilot</Line>
+        <Line>** New AIRAC Procedures in Place - Ensure Current Data **</Line>
+        <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
     <Position Name="Tailem Bend" Type="ASD" DefaultCenter="-343343.9975+1374743.4216" DefaultRange="800" VisibilityRange="600">
       <Sectors>
         <Sector Name="TBD" />
@@ -988,42 +1024,6 @@
         <Line>Brisbane Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
-        <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
-      </ControllerInfo>
-    </Position>
-    <Position Name="Wollongong" Type="ASD" DefaultCenter="-37.497333+149.972889" DefaultRange="800" VisibilityRange="600">
-      <Sectors>
-        <Sector Name="WOL" />
-        <Sector Name="SNO" />
-        <Sector Name="CBE" />
-      </Sectors>
-      <ManualVisibility>
-        <Point>-33.293+141.617</Point>
-        <Point>-38.600+145.876</Point>
-        <Point>-32.691+150.237</Point>
-      </ManualVisibility>
-      <Maps>
-        <Map Name="AIRWAY_NOTES" />
-        <Map Name="ALL_CTA" />
-        <Map Name="ALL_SECTORS" />
-        <Map Name="ALL_NAVAIDS" />
-        <Map Name="COAST_ALL" />
-        <Map Name="ALL_ROUTES_HIGH" />
-        <Map Name="ALL_POINTS_HIGH" />
-        <Map Name="FIR_BDRY" />
-        <Map Name="UPPER_SECTOR_FREQS" />
-      </Maps>
-      <Strips Mode="State" Sort="Time">
-        <Window Type="State" State="Jurisdiction" Visible="true" />
-        <Window Type="State" State="Announced" Visible="true" />
-        <Window Type="State" State="Preactive" Visible="true" />
-        <Window Type="State" State="HandoverIn" Visible="true" />
-      </Strips>
-      <CFL QuickLevel="9000" />
-      <ControllerInfo>
-        <Line>Melbourne Centre</Line>
-        <Line>Airspace and Charts - vats.im/pac/tools | Pilot Procs - vats.im/pac/pilot</Line>
-        <Line>** New AIRAC Procedures in Place - Ensure Current Data **</Line>
         <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
