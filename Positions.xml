@@ -1514,7 +1514,7 @@
 	<Position Name="Gold Coast TCU" Type="ASD" DefaultCenter="-282819.000+1533029.000" DefaultRange="250" VisibilityRange="100" MagneticVariation="-11">
       <Sectors>
         <Sector Name="BAC" />
-        <Sector Name="BAA" />
+        <Sector Name="BAB" />
       </Sectors>
       <ManualVisibility>
         <Point>-27.3942+153.1218</Point>
@@ -1559,7 +1559,7 @@
     </Position>
     <Position Name="Ballina TCU" Type="ASD" DefaultCenter="-285727.000+1532617.000" DefaultRange="145" VisibilityRange="100" MagneticVariation="-11">
       <Sectors>
-        <Sector Name="BAA" />
+        <Sector Name="BAB" />
       </Sectors>
       <ManualVisibility>
         <Point>-285727.000+1532617.000</Point>
@@ -1604,7 +1604,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Canberra/CB_COAST" />
         <Map Name="Canberra/CB_TCU" />
-        <Map Name="Canberra/CB_RWY1712" />
+        <Map Name="Canberra/CB_RWY3530" />
         <Map Name="ALL_SECTORS" />
         <Map Name="TMA_LL_LABELS" />
       </Maps>
@@ -2015,13 +2015,13 @@
         <AdditionalLevels>3200,3700,4200,5100,5600,5800,6300</AdditionalLevels>
       </CFL>
       <ControllerInfo>
-        <Line>Launceston Approach | ATIS available on 134.75</Line>
+        <Line>Launy Approach | ATIS available on 134.75</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Mackay TCU" Type="ASD" DefaultCenter="-21.293889+149.171667" DefaultRange="150" MagneticVariation="-8.4">
+    <Position Name="Mackay TCU" Type="ASD" DefaultCenter="-21.293889+149.171667" DefaultRange="150" VisibilityRange="150" MagneticVariation="-8.4">
       <Sectors>
         <Sector Name="MKA" />
       </Sectors>
@@ -2057,7 +2057,7 @@
         <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
-    <Position Name="Rockhampton TCU" Type="ASD" DefaultCenter="-23.381944+150.475278" DefaultRange="180" MagneticVariation="-9.2">
+    <Position Name="Rockhampton TCU" Type="ASD" DefaultCenter="-23.381944+150.475278" DefaultRange="180" VisibilityRange="150" MagneticVariation="-9.2">
       <Sectors>
         <Sector Name="RKA" />
       </Sectors>
@@ -2493,7 +2493,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Canberra/CB_COAST" />
         <Map Name="Canberra/CB_TCU" />
-        <Map Name="Canberra/CB_RWY1712" />
+        <Map Name="Canberra/CB_RWY3530" />
       </Maps>
       <ATIS>
         <Editor Airport="YSCB" Frequency="127.45" />
