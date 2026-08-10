@@ -379,6 +379,7 @@
         <Sector Name="ASP" />
         <Sector Name="ASW" />
         <Sector Name="BKE" />
+        <Sector Name="ESP" />
         <Sector Name="FOR" />
         <Sector Name="WAR" />
         <Sector Name="WRA" />
@@ -605,9 +606,6 @@
         <Sector Name="PIY" />
         <Sector Name="SCR" />
         <Sector Name="PHA" />
-        <Sector Name="LEO" />
-        <Sector Name="MZI" />
-        <Sector Name="ESP" />
       </Sectors>
       <ManualVisibility>
         <Point>-32.999+119.788</Point>
@@ -877,8 +875,10 @@
     <Position Name="Onslow" Type="ASD" DefaultCenter="-243721.9113+1183247.2943" DefaultRange="1800" VisibilityRange="600">
       <Sectors>
         <Sector Name="OLW" />
+        <Sector Name="LEO" />
         <Sector Name="MEK" />
         <Sector Name="MTK" />
+        <Sector Name="MZI" />
         <Sector Name="NEW" />
         <Sector Name="PAR" />
         <Sector Name="POT" />
