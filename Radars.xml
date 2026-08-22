@@ -104,7 +104,7 @@
     <Lat>-27.328345</Lat>
     <Long>151.737883055556</Long>
   </Radar>
-  <Radar Name="East Sale" Type="SSR_ModeC" Elevation="285" MaxRange="255">
+  <Radar Name="East Sale" Type="ADSB" Elevation="285" MaxRange="255">
     <Lat>-38.188055</Lat>
     <Long>147.182503888889</Long>
   </Radar>
@@ -136,11 +136,11 @@
     <Lat>-32.7734188888889</Lat>
     <Long>151.82197</Long>
   </Radar>
-  <Radar Name="Brisbane TAR" Type="SSR_ModeS" Elevation="43" MaxRange="255">
+  <Radar Name="Brisbane TAR" Type="SSR_ModeC" Elevation="43" MaxRange="255">
     <Lat>-27.3576969444444</Lat>
     <Long>153.116081111111</Long>
   </Radar>
-  <Radar Name="Mt Hardgrave" Type="SSR_ModeS" Elevation="827" MaxRange="255">
+  <Radar Name="Mt Hardgrave" Type="SSR_ModeC" Elevation="827" MaxRange="255">
     <Lat>-27.5000038888889</Lat>
     <Long>153.453186111111</Long>
   </Radar>
@@ -160,7 +160,7 @@
     <Lat>-16.915565</Lat>
     <Long>145.252083055556</Long>
   </Radar>
-  <Radar Name="Greenhill" Type="SSR_ModeS" Elevation="2106" MaxRange="255">
+  <Radar Name="Greenhill" Type="SSR_ModeC" Elevation="2106" MaxRange="255">
     <Lat>-34.952235</Lat>
     <Long>138.717026111111</Long>
   </Radar>
@@ -180,7 +180,7 @@
     <Lat>-35.2376169444444</Lat>
     <Long>149.182331111111</Long>
   </Radar>
-  <Radar Name="Sydney TAR" Type="SSR_ModeC" Elevation="108" MaxRange="255">
+  <Radar Name="Sydney TAR" Type="SSR_ModeS" Elevation="108" MaxRange="255">
     <Lat>-33.9499180555555</Lat>
     <Long>151.181285</Long>
   </Radar>
@@ -192,7 +192,7 @@
     <Lat>-30.4376688888889</Lat>
     <Long>152.2403</Long>
   </Radar>
-  <Radar Name="Mt Macedon" Type="SSR_ModeS" Elevation="3425" MaxRange="255">
+  <Radar Name="Mt Macedon" Type="PRI" Elevation="3425" MaxRange="255">
     <Lat>-37.3833769444444</Lat>
     <Long>144.575878055556</Long>
   </Radar>
@@ -256,11 +256,11 @@
     <Lat>-23.428125</Lat>
     <Long>144.288156111111</Long>
   </Radar>
-  <Radar Name="Broome" Type="ADSB" Elevation="82" MaxRange="250">
+  <Radar Name="Broome" Type="PRI" Elevation="82" MaxRange="250">
     <Lat>-17.9546</Lat>
     <Long>122.233956111111</Long>
   </Radar>
-  <Radar Name="Karratha" Type="ADSB" Elevation="105" MaxRange="250">
+  <Radar Name="Karratha" Type="PRI" Elevation="105" MaxRange="250">
     <Lat>-20.7075319444444</Lat>
     <Long>116.773775</Long>
   </Radar>
@@ -332,7 +332,7 @@
     <Lat>-32.0048830555556</Lat>
     <Long>141.476283888889</Long>
   </Radar>
-  <Radar Name="Learmonth" Type="ADSB" Elevation="43" MaxRange="250">
+  <Radar Name="Learmonth" Type="PRI" Elevation="43" MaxRange="250">
     <Lat>-22.2409369444444</Lat>
     <Long>114.09436</Long>
   </Radar>
@@ -352,9 +352,9 @@
     <Lat>-31.1428311111111</Lat>
     <Long>136.807311111111</Long>
   </Radar>
-  <Radar Name="Mt William" Type="ADSB" Elevation="3947" MaxRange="250">
-    <Lat>-37.2931319444444</Lat>
-    <Long>142.601406111111</Long>
+  <Radar Name="Mt Difficult" Type="ADSB" Elevation="2645" MaxRange="250">
+    <Lat>-37.01050074</Lat>
+    <Long>142.44209688</Long>
   </Radar>
   <Radar Name="Eungella" Type="ADSB" Elevation="3684" MaxRange="250">
     <Lat>-21.0826480555556</Lat>
@@ -380,11 +380,11 @@
     <Lat>-16.9158111111111</Lat>
     <Long>145.252256111111</Long>
   </Radar>
-  <Radar Name="Mt Tassie" Type="ADSB" Elevation="2490" MaxRange="250">
+  <Radar Name="Mt Tassie" Type="SSR_ModeC" Elevation="2490" MaxRange="250">
     <Lat>-38.3999469444444</Lat>
     <Long>146.56581</Long>
   </Radar>
-  <Radar Name="Mt Macedon" Type="ADSB" Elevation="3402" MaxRange="250">
+  <Radar Name="Mt Macedon" Type="SSR_ModeC" Elevation="3402" MaxRange="80">
     <Lat>-37.3836311111111</Lat>
     <Long>144.575863055556</Long>
   </Radar>
@@ -392,7 +392,7 @@
     <Lat>-34.12115</Lat>
     <Long>146.235136944444</Long>
   </Radar>
-  <Radar Name="Mt Hardgrave" Type="ADSB" Elevation="725" MaxRange="250">
+  <Radar Name="Mt Hardgrave" Type="SSR_ModeC" Elevation="725" MaxRange="250">
     <Lat>-27.4999169444444</Lat>
     <Long>153.4533</Long>
   </Radar>
@@ -444,7 +444,7 @@
     <Lat>-33.884296</Lat>
     <Long>150.716877</Long>
   </Radar>
-  <Radar Name="Ballina" Type="SMR_ADSB" Elevation="7" MaxRange="1">
+  <Radar Name="Ballina" Type="PRI" Elevation="7" MaxRange="5">
     <Lat>-28.836127</Lat>
     <Long>153.555951</Long>
   </Radar>
@@ -460,7 +460,7 @@
     <Lat>-27.6405555555556</Lat>
     <Long>152.711944444444</Long>
   </Radar>
-  <Radar Name="Archerfield" Type="PRI" Elevation="65" MaxRange="1">
+  <Radar Name="Archerfield" Type="PRI" Elevation="65" MaxRange="5">
     <Lat>-27.5702777777778</Lat>
     <Long>153.008055555556</Long>
   </Radar>
@@ -504,7 +504,7 @@
     <Lat>-19.2525</Lat>
     <Long>146.765277777778</Long>
   </Radar>
-  <Radar Name="Coffs Harbour" Type="PRI" Elevation="18" MaxRange="1">
+  <Radar Name="Coffs Harbour" Type="PRI" Elevation="18" MaxRange="5">
     <Lat>-30.3205555555556</Lat>
     <Long>153.116388888889</Long>
   </Radar>
@@ -512,7 +512,7 @@
     <Lat>-31.4652777777778</Lat>
     <Long>115.863333333333</Long>
   </Radar>
-  <Radar Name="Avalon" Type="SMR_ADSB" Elevation="35" MaxRange="1">
+  <Radar Name="Avalon" Type="PRI" Elevation="35" MaxRange="5">
     <Lat>-38.0394444444444</Lat>
     <Long>144.469444444444</Long>
   </Radar>
@@ -520,7 +520,7 @@
     <Lat>-36.0677777777778</Lat>
     <Long>146.958055555556</Long>
   </Radar>
-  <Radar Name="Essendon" Type="SMR_ADSB" Elevation="282" MaxRange="1">
+  <Radar Name="Essendon" Type="PRI" Elevation="282" MaxRange="5">
     <Lat>-37.7280555555556</Lat>
     <Long>144.901944444444</Long>
   </Radar>
@@ -536,7 +536,7 @@
     <Lat>-41.5452777777778</Lat>
     <Long>147.214166666667</Long>
   </Radar>
-  <Radar Name="Moorabbin" Type="PRI" Elevation="55" MaxRange="1">
+  <Radar Name="Moorabbin" Type="PRI" Elevation="55" MaxRange="5">
     <Lat>-37.9758333333333</Lat>
     <Long>145.102222222222</Long>
   </Radar>
@@ -560,7 +560,7 @@
     <Lat>-32.0975</Lat>
     <Long>115.881111111111</Long>
   </Radar>
-  <Radar Name="Karratha" Type="SMR_ADSB" Elevation="33" MaxRange="1">
+  <Radar Name="Karratha" Type="PRI" Elevation="33" MaxRange="1">
     <Lat>-20.7122222222222</Lat>
     <Long>116.773333333333</Long>
   </Radar>
@@ -572,7 +572,7 @@
     <Lat>-14.5211111111111</Lat>
     <Long>132.377777777778</Long>
   </Radar>
-  <Radar Name="Bankstown" Type="PRI" Elevation="34" MaxRange="1">
+  <Radar Name="Bankstown" Type="PRI" Elevation="34" MaxRange="5">
     <Lat>-33.9244444444444</Lat>
     <Long>150.988333333333</Long>
   </Radar>
@@ -580,7 +580,7 @@
     <Lat>-35.3069444444444</Lat>
     <Long>149.195</Long>
   </Radar>
-  <Radar Name="Camden" Type="PRI" Elevation="230" MaxRange="1">
+  <Radar Name="Camden" Type="PRI" Elevation="230" MaxRange="5">
     <Lat>-34.0402777777778</Lat>
     <Long>150.686666666667</Long>
   </Radar>
@@ -760,4 +760,5 @@
     <Lat>-9.45532222222222</Lat>
     <Long>147.164572222222</Long>
   </Radar>
-</Radars>
+<Radar Name="Kalamunda" Type="SSR_ModeC" Elevation="1184" MaxRange="255"><Lat>31.99097</Lat><Long>116.071493888889</Long></Radar>
+  </Radars>
