@@ -24,6 +24,10 @@
     jet: "true"
     atis_dep_rwy: ["01L", "01R"]
   runway: "01R"
+# Force Non-jets on Radar SID (not always assigned that way by default)
+- if_not:
+    jet: "true"
+  SID: "BN"
 # Frequencies
 - if:
     runway: ["01L", "19R"]
