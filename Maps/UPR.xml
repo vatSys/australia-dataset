@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
   <Map Type="System2" Name="UPR_EXCL_ZONE" Priority="0" CustomColourName="DarkViolet">
-    <Infill Name="UPR_N_QLD" Pattern="Hash">
+    <Line Name="UPR_N_QLD" Pattern="Dotted">
         ANDEE/
         KOOKA/
         MEMOS/
@@ -17,8 +17,8 @@
         MATAR/
         LAKOT/
         ANDEE
-    </Infill>
-    <Infill Name="UPR_BRISBANE" Pattern="Hash">
+    </Line>
+    <Line Name="UPR_BRISBANE" Pattern="Dotted">
         UNVAT/
         ADGAD/
         ATROP/
@@ -34,8 +34,8 @@
         EYELA/
         LAWRY/
         UNVAT
-    </Infill>
-    <Infill Name="UPR_SYDNEY" Pattern="Hash">
+    </Line>
+    <Line Name="UPR_SYDNEY" Pattern="Dotted">
         AROLI/
         VEDPI/
         UPTOD/
@@ -54,8 +54,8 @@
         ANROM/
         EMTUS/
         AROLI
-    </Infill>
-    <Infill Name="UPR_MELBOURNE" Pattern="Hash">
+    </Line>
+    <Line Name="UPR_MELBOURNE" Pattern="Dotted">
         BORTO/
         MAXEM/
         NATYA/
@@ -70,8 +70,8 @@
         SUNTI/
         NOGIP/
         BORTO
-    </Infill>
-    <Infill Name="UPR_ADELAIDE" Pattern="Hash">
+    </Line>
+    <Line Name="UPR_ADELAIDE" Pattern="Dotted">
         LONLY/
         TUTNO/
         KAMBI/
@@ -85,14 +85,14 @@
         BORTO/
         GILES/
         LONLY
-    </Infill>
-    <Infill Name="UPR_PERTH" Pattern="Hash">
+    </Line>
+    <Line Name="UPR_PERTH" Pattern="Dotted">
         POKIP/
         TOPIR/
         AMANA/
         PH/
         KAGMI/
         POKIP
-    </Infill>
+    </Line>
   </Map>
 </Maps>
