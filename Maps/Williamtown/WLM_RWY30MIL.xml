@@ -34,6 +34,21 @@
       UKDIP
     </Line>
     <Line>
+      <!--Rwy30 PEPER1-->
+      -324615.103+1514800.126/
+      -324255.000+1514853.000
+    </Line>
+    <Line>
+      <!--Rwy30 PEPER1.ERVEV-->
+      -324255.000+1514853.000/
+      -324042.000+1514927.000/
+      -323925.000+1515015.000/
+      ERVEV
+    </Line>
+    <Line>
+      <!--Rwy30 PEPER1.OLVEP-->
+    </Line>
+    <Line>
       <!--Rwy30 STORM1-->
       -324713.640+1514921.340/
       -322752.800+1513213.200/
@@ -50,12 +65,14 @@
     <Symbol Type="HollowStar">
       <Point>OLVEP</Point>
       <Point>UKDIP</Point>
+      <Point>ERVEV</Point>
     </Symbol>
   </Map>
   <Map Type="System" Name="WLM_RWY30MIL_NAMES" Priority="2" Center="-32.795000+151.834444">
     <Label>
       <Point>OLVEP</Point>
       <Point>UKDIP</Point>
+      <Point>ERVEV</Point>
       <Point>TESAT</Point>
       <Point>OLSEM</Point>
       <Point>UPNEX</Point>
