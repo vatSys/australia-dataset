@@ -1932,7 +1932,7 @@ Airports:
 
   RunwayModes:
   
-  # 48 landings per hour = 150s
+  # 24 landings per hour = 150s
   - Identifier: SW 21/24
     DependencyRateSeconds: 30
     Runways:
@@ -1945,7 +1945,7 @@ Airports:
     Runways:
     - {Identifier: "03", ApproachType: A, LandingRateSeconds: 144}
 
-  # 
+  # 24 landings per hour = 150s
   - Identifier: "03/06V"
     DependencyRateSeconds: 30
     Runways:
