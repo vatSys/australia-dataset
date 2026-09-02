@@ -36,6 +36,11 @@
       -324957.613+1514934.275
     </Line>
     <Line>
+      <!--Rwy12 PEPER1-->
+      -325014.881+1515333.540/
+      UDIXA
+    </Line>
+    <Line>
       <!--Rwy12 STORM1-->
       -324817.850+1515050.990/
       -322752.800+1513213.200/
@@ -49,9 +54,13 @@
       -315840.800+1503819.200/
       -323451.600+1512439.000
     </Line>
+    <Symbol Type="HollowStar">
+      <Point>UDIXA</Point>
+    </Symbol>
   </Map>
   <Map Type="System" Name="WLM_RWY12MIL_NAMES" Priority="2" Center="-32.795000+151.834444">
     <Label>
+      <Point>UDIXA</Point>
       <Point>TESAT</Point>
       <Point>OLSEM</Point>
       <Point>UPNEX</Point>

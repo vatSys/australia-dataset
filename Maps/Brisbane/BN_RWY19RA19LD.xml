@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Maps>
+  <Map Type="System" Name="BN_RWY19RA19LD" Priority="1" Center="-27.384167+153.117500">
+    <!--YBBN-->
+    <Runway Name="01R/19L">
+      <Threshold Name="01R" Position="-27.402797+153.118219" />
+      <Threshold Name="19L" Position="-27.374664+153.134306" />
+    </Runway>
+    <Runway Name="01L/19R">
+      <Threshold Name="01L" Position="-27.383069+153.106803" />
+      <Threshold Name="19R" Position="-27.356544+153.121969" ExtendedCentrelineTrack="27.05" ExtendedCentrelineLength="18" ExtendedCentrelineTickInterval="2" />
+    </Runway>
+    <!--SIDs-->
+    <Line>
+      <!--Rwy19L BIXAD2-->
+      -272410.070+1530705.590/
+      CITEE/
+      TOGIN/
+      ALBUB/
+      AMBLE/
+      DEBAY/
+      BUKBU/
+      BIXAD
+    </Line>
+    <Line>
+      <!--Rwy19L GUMKI2-->
+      -272410.070+1530705.590/
+      BOSVU/
+      DADAN/
+      DENIS/
+      LILEE/
+      IDPAT/
+      DUGAL/
+      BEMAN/
+      IDKOS/
+      GUMKI
+    </Line>
+    <Line>
+      <!--Rwy19L SANEG2-->
+      LILEE/
+      SANEG
+    </Line>
+    <Line>
+      <!--Rwy19L SCOTT4-->
+      DUGAL/
+      SCOTT
+    </Line>
+    <Line>
+      <!--Rwy19L WACKO4-->
+      TOGIN/
+      IGMAS/
+      WACKO
+    </Line>
+    <!--STARs-->
+    <Line>
+      <!--Rwy19R ISPON2.BLAKA-->
+      BLAKA/
+      DOGMU/
+      LAGEV/
+      PUBIV/
+      ISPON
+    </Line>
+    <Line>
+      <!--Rwy19R ISPON2.ENLIP-->
+      ENLIP/
+      ODUTO/
+      ANSOR/
+      PULEX/
+      SORVA/
+      RUTAT/
+      PUBIV
+    </Line>
+    <Line>
+      <!--Rwy19R ISPON2.GOMOL-->
+      GOMOL/
+      MEKUG/
+      SALEL/
+      SALGA/
+      ISPON
+    </Line>
+    <Line>
+      <!--Rwy19R ISPON2.UGTUG-->
+      UGTUG/
+      IPGAV/
+      ISPON
+    </Line>
+    <Line>
+      <!--Rwy19R ISPON2-->
+      ISPON/
+      OMGUV/
+      LAVIN/
+      OSOKO
+    </Line>
+    <Line>
+      <!--Rwy19R MORB3A-->
+      MORBI/
+      REMOR/
+      GAYLA/
+      LUTKO/
+      IGBON/
+      PAMBU/
+      ATRAX/
+      LAVIN
+    </Line>
+    <Line>
+      <!--Rwy19R MORB3V-->
+      GAYLA/
+      TOLAX
+    </Line>
+    <Line>
+      <!--Rwy19R SMOK2A-->
+      SMOKA/
+      OTGAT/
+      GARTH/
+      BURPA/
+      IGBON
+    </Line>
+    <Line>
+      <!--Rwy19R SMOK2X-->
+      GARTH/
+      DAYBO/
+      PAMGO/
+      RUTAX/
+      DRAIN/
+      LUVNA
+    </Line>
+    <Line>
+      <!--Rwy19R TEBO3A-->
+      TEBOT/
+      URBIN/
+      DOLSU/
+      PILIG/
+      LAVIN
+    </Line>
+    <Line>
+      <!--Rwy19R WODY3A-->
+      WOODY/
+      ATVON/
+      TEGIL/
+      PAMGO/
+      IGBON
+    </Line>
+    <Line>
+      <!--Rwy19R WODY3V-->
+    </Line>
+    <Symbol Type="HollowTriangle">
+      <Point>OSOKO</Point>
+      <Point>TOLAX</Point>
+      <Point>LUVNA</Point>
+      <Point>PAMGO</Point>
+    </Symbol>
+    <Symbol Type="SolidStar">
+      <Point>CITEE</Point>
+      <Point>TOGIN</Point>
+      <Point>BOSVU</Point>
+    </Symbol>
+    <Symbol Type="HollowStar">
+      <Point>ALBUB</Point>
+      <Point>AMBLE</Point>
+      <Point>DEBAY</Point>
+      <Point>BUKBU</Point>
+      <Point>BIXAD</Point>
+      <Point>DADAN</Point>
+      <Point>DENIS</Point>
+      <Point>LILEE</Point>
+      <Point>IDPAT</Point>
+      <Point>DUGAL</Point>
+      <Point>BEMAN</Point>
+      <Point>IDKOS</Point>
+      <Point>GUMKI</Point>
+      <Point>SANEG</Point>
+      <Point>SCOTT</Point>
+      <Point>IGMAS</Point>
+      <Point>WACKO</Point>
+      <Point>ISPON</Point>
+      <Point>OMGUV</Point>
+      <Point>LAVIN</Point>
+      <Point>BLAKA</Point>
+      <Point>DOGMU</Point>
+      <Point>LAGEV</Point>
+      <Point>PUBIV</Point>
+      <Point>ENLIP</Point>
+      <Point>ODUTO</Point>
+      <Point>ANSOR</Point>
+      <Point>PULEX</Point>
+      <Point>SORVA</Point>
+      <Point>RUTAT</Point>
+      <Point>GOMOL</Point>
+      <Point>MEKUG</Point>
+      <Point>SALEL</Point>
+      <Point>SALGA</Point>
+      <Point>UGTUG</Point>
+      <Point>IPGAV</Point>
+      <Point>MORBI</Point>
+      <Point>REMOR</Point>
+      <Point>GAYLA</Point>
+      <Point>LUTKO</Point>
+      <Point>IGBON</Point>
+      <Point>PAMBU</Point>
+      <Point>ATRAX</Point>
+      <Point>SMOKA</Point>
+      <Point>OTGAT</Point>
+      <Point>GARTH</Point>
+      <Point>BURPA</Point>
+      <Point>DAYBO</Point>
+      <Point>RUTAX</Point>
+      <Point>DRAIN</Point>
+      <Point>TEBOT</Point>
+      <Point>URBIN</Point>
+      <Point>DOLSU</Point>
+      <Point>PILIG</Point>
+      <Point>WOODY</Point>
+      <Point>ATVON</Point>
+      <Point>TEGIL</Point>
+    </Symbol>
+  </Map>
+  <Map Type="System" Name="BN_RWY19RA19LD_NAMES" Priority="2" Center="-27.384167+153.117500">
+    <Label>
+      <Point>CITEE</Point>
+      <Point>TOGIN</Point>
+      <Point>ALBUB</Point>
+      <Point>AMBLE</Point>
+      <Point>DEBAY</Point>
+      <Point>BUKBU</Point>
+      <Point>BIXAD</Point>
+      <Point>BOSVU</Point>
+      <Point>DADAN</Point>
+      <Point>DENIS</Point>
+      <Point>LILEE</Point>
+      <Point>IDPAT</Point>
+      <Point>DUGAL</Point>
+      <Point>BEMAN</Point>
+      <Point>IDKOS</Point>
+      <Point>GUMKI</Point>
+      <Point>SANEG</Point>
+      <Point>SCOTT</Point>
+      <Point>IGMAS</Point>
+      <Point>WACKO</Point>
+      <Point>BLAKA</Point>
+      <Point>DOGMU</Point>
+      <Point>LAGEV</Point>
+      <Point>PUBIV</Point>
+      <Point>ISPON</Point>
+      <Point>ENLIP</Point>
+      <Point>ODUTO</Point>
+      <Point>ANSOR</Point>
+      <Point>PULEX</Point>
+      <Point>SORVA</Point>
+      <Point>RUTAT</Point>
+      <Point>GOMOL</Point>
+      <Point>MEKUG</Point>
+      <Point>SALEL</Point>
+      <Point>SALGA</Point>
+      <Point>UGTUG</Point>
+      <Point>IPGAV</Point>
+      <Point>OMGUV</Point>
+      <Point>LAVIN</Point>
+      <Point>OSOKO</Point>
+      <Point>MORBI</Point>
+      <Point>REMOR</Point>
+      <Point>GAYLA</Point>
+      <Point>LUTKO</Point>
+      <Point>IGBON</Point>
+      <Point>PAMBU</Point>
+      <Point>ATRAX</Point>
+      <Point>TOLAX</Point>
+      <Point>SMOKA</Point>
+      <Point>OTGAT</Point>
+      <Point>GARTH</Point>
+      <Point>BURPA</Point>
+      <Point>DAYBO</Point>
+      <Point>PAMGO</Point>
+      <Point>RUTAX</Point>
+      <Point>DRAIN</Point>
+      <Point>LUVNA</Point>
+      <Point>TEBOT</Point>
+      <Point>URBIN</Point>
+      <Point>DOLSU</Point>
+      <Point>PILIG</Point>
+      <Point>WOODY</Point>
+      <Point>ATVON</Point>
+      <Point>TEGIL</Point>
+      <Point>MEPEM</Point>
+      <Point>AVMUN</Point>
+      <Point>ROM NDB</Point>
+      <Point>RILGO</Point>
+      <Point>LIKTO</Point>
+      <Point>SAVER</Point>
+      <Point>BONEY</Point>
+      <Point>HUUGO</Point>
+      <Point>APAGI</Point>
+      <Point>CLIFF</Point>
+      <Point>ADMAR</Point>
+      <Point>PONUX</Point>
+      <Point>ATROP</Point>
+      <Point>BANDA</Point>
+      <Point>KAPSA</Point>
+      <Point>RULGU</Point>
+      <Point>OMKAX</Point>
+      <Point>LAGOB</Point>
+      <Point>KIBAT</Point>
+      <Point>GUDSO</Point>
+      <Point>TAPET</Point>
+      <Point>LOAFA</Point>
+      <Point>GLA VOR</Point>
+      <Point>RUDEY</Point>
+      <Point>MESED</Point>
+      <Point>HARVS</Point>
+      <Point>IGUPI</Point>
+      <Point>COOLA</Point>
+      <Point>IBUNA</Point>
+      <Point>LEBIT</Point>
+      <Point>ATVIL</Point>
+      <Point>UNVAT</Point>
+      <Point>MILTY</Point>
+      <Point>SUSGI</Point>
+      <Point>OTLEB</Point>
+      <Point>AKOBA</Point>
+      <Point>SAGLI</Point>
+      <Point>MAGPI</Point>
+      <Point>OLDIB</Point>
+      <Point>DADBO</Point>
+      <Point>RUROX</Point>
+      <Point>BUD NDB</Point>
+      <Point>SOSTU</Point>
+      <Point>SU VOR</Point>
+      <Point>BUGNU</Point>
+      <Point>RIDVO</Point>
+      <Point>OK VOR</Point>
+      <Point>MATVI</Point>
+      <Point>SHIKO</Point>
+      <Point>SPARK</Point>
+      <Point>ENAID</Point>
+      <Point>GOPVO</Point>
+      <Point>AVBOS</Point>
+      <Point>EMTID</Point>
+      <Point>SUKTU</Point>
+      <Point>EDPEG</Point>
+      <Point>KANKO</Point>
+      <Point>BEPNA</Point>
+      <Point>IRMOX</Point>
+      <Point>OPIPO</Point>
+      <Point>NODOR</Point>
+      <Point>BESBO</Point>
+      <Point>LAMUG</Point>
+      <Point>IDRIL</Point>
+      <Point>AGIVA</Point>
+      <Point>PARRY</Point>
+      <Point>ELENI</Point>
+      <Point>DULIN</Point>
+    </Label>
+  </Map>
+</Maps>

@@ -12,7 +12,7 @@
     </Runway>
     <!--SIDs-->
     <Line>
-      <!--Rwy06L ISPET1-->
+      <!--Rwy06L ISPET2-->
       -320538.610+1155303.530/
       -320535.183+1155308.907/
       -320439.108+1155432.400/
@@ -24,7 +24,7 @@
       ISPET
     </Line>
     <Line>
-      <!--Rwy06L SCARP5-->
+      <!--Rwy06L SCARP6-->
       -320535.183+1155308.907/
       -320453.436+1155418.360/
       -320452.788+1155440.679/
@@ -33,36 +33,37 @@
       SCARP
     </Line>
     <Line>
-      <!--Rwy06L TONEG6-->
-      -320347.411+1155337.319/
+      <!--Rwy06L TONEG7-->
+      -320343.523+1155358.919/
+      LARUM/
       TONEG
     </Line>
     <!--STARs-->
     <Line>
-      <!--Rwy06L JT3G.KABLI-->
+      <!--Rwy06L JT4G.KABLI-->
       KABLI/
       KYEMA/
       GOSNL
     </Line>
     <Line>
-      <!--Rwy06L JT3G.LAVEX-->
+      <!--Rwy06L JT4G.LAVEX-->
       LAVEX/
       BOOKA/
       GOSNL
     </Line>
     <Line>
-      <!--Rwy06L JT3G.WOORA-->
+      <!--Rwy06L JT4G.WOORA-->
       WOORA/
       HERNE/
       GUNGN/
       GOSNL
     </Line>
     <Line>
-      <!--Rwy06L JT3G-->
+      <!--Rwy06L JT4G-->
       GOSNL
     </Line>
     <Line>
-      <!--Rwy06L JT3R.KABLI-->
+      <!--Rwy06L JT4R.KABLI-->
       KABLI/
       BOOKA/
       DUDIN/
@@ -70,7 +71,7 @@
       ROLOB
     </Line>
     <Line>
-      <!--Rwy06L JT3R.LAVEX-->
+      <!--Rwy06L JT4R.LAVEX-->
       LAVEX/
       BUVOT/
       RONAN/
@@ -78,49 +79,49 @@
       ROLOB
     </Line>
     <Line>
-      <!--Rwy06L JT3R-->
+      <!--Rwy06L JT4R-->
       ROLOB/
       PH VOR
     </Line>
     <Line>
-      <!--Rwy06L JT3W.MALUP-->
+      <!--Rwy06L JT4W.MALUP-->
       MALUP/
       DAYLR/
       WUNGO
     </Line>
     <Line>
-      <!--Rwy06L JT3W-->
+      <!--Rwy06L JT4W-->
       WUNGO/
       HARMN/
       PH VOR
     </Line>
     <Line>
-      <!--Rwy06R JT3G.KABLI-->
+      <!--Rwy06R JT4G.KABLI-->
     </Line>
     <Line>
-      <!--Rwy06R JT3G.LAVEX-->
+      <!--Rwy06R JT4G.LAVEX-->
     </Line>
     <Line>
-      <!--Rwy06R JT3G.WOORA-->
+      <!--Rwy06R JT4G.WOORA-->
     </Line>
     <Line>
-      <!--Rwy06R JT3G-->
+      <!--Rwy06R JT4G-->
       GOSNL
     </Line>
     <Line>
-      <!--Rwy06R JT3R.KABLI-->
+      <!--Rwy06R JT4R.KABLI-->
     </Line>
     <Line>
-      <!--Rwy06R JT3R.LAVEX-->
+      <!--Rwy06R JT4R.LAVEX-->
     </Line>
     <Line>
-      <!--Rwy06R JT3R-->
+      <!--Rwy06R JT4R-->
     </Line>
     <Line>
-      <!--Rwy06R JT3W.MALUP-->
+      <!--Rwy06R JT4W.MALUP-->
     </Line>
     <Line>
-      <!--Rwy06R JT3W-->
+      <!--Rwy06R JT4W-->
     </Line>
     <Symbol Type="HollowTriangle">
       <Point>PH VOR</Point>
@@ -128,6 +129,7 @@
     <Symbol Type="HollowStar">
       <Point>ISPET</Point>
       <Point>SCARP</Point>
+      <Point>LARUM</Point>
       <Point>TONEG</Point>
       <Point>GOSNL</Point>
       <Point>KABLI</Point>
@@ -153,6 +155,7 @@
     <Label>
       <Point>ISPET</Point>
       <Point>SCARP</Point>
+      <Point>LARUM</Point>
       <Point>TONEG</Point>
       <Point>KABLI</Point>
       <Point>KYEMA</Point>
