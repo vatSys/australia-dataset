@@ -222,11 +222,11 @@
         <STAR Name="CODI2X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="CODI2Z" OpDataFlag="Z" ApproachName="RNPZ" />
         <STAR Name="KASP1B" OpDataFlag="B" ApproachName="VOR" />
-        <STAR Name="NONU1A" ApproachName="LOC" />
+        <STAR Name="NONU6A" ApproachName="LOC" />
         <STAR Name="NONU6B" OpDataFlag="B" ApproachName="VOR" />
         <STAR Name="NONU6U" OpDataFlag="U" ApproachName="RNP-ARW" />
         <STAR Name="NONU6W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="NONU6Z" ApproachName="RNPZ" />
+        <STAR Name="NONU6Z" OpDataFlag="Z" ApproachName="RNPZ" />
         <STAR Name="UPOL3A" ApproachName="LOC" />
         <STAR Name="UPOL3B" OpDataFlag="B" ApproachName="VOR" />
         <STAR Name="UPOL3S" OpDataFlag="S" ApproachName="RNP-ARX" />
@@ -17825,7 +17825,7 @@ SAGLI
       <Transition Name="ZANEY">ZANEY</Transition>
       <Route Runway="33">KEEWI/LOTVA</Route>
     </STAR>
-    <STAR Name="NONU1A" Airport="YBCS" Runways="15">
+    <STAR Name="NONU6A" Airport="YBCS" Runways="15">
       <Route Runway="15">NONUM/RAINY</Route>
     </STAR>
     <STAR Name="NONU6B" Airport="YBCS" Runways="15">
