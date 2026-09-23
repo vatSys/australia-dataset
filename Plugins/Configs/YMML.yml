@@ -1,5 +1,7 @@
 - assign_dep_rwy: "true"
 - CFL: "050"
+
+#ISPEG off mode departures
 - if:
     waypoint:
       - "MNG"
@@ -9,9 +11,12 @@
       - "PEDNI"
       - "ESDIG"
     runway: ["16"]
+    jet: "true"
   if_not:
     atis_dep_rwy: ["16"]
   SID: "ISPEG"
+
+#27AD34D
 - if:
     atis_dep_rwy: ["27", "34"]
   runway: "27"
@@ -22,6 +27,7 @@
       - "NONIX"
       - "DOSEL"
   runway: "34"
+
 # Dep Freqs
 - if:
     runway: ["09", "27"]
