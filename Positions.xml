@@ -2177,8 +2177,7 @@
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Adelaide/AD_COAST" />
-        <Map Name="Adelaide/AD_TCU" />
-        <Map Name="Adelaide/AD_RWY2312A23D" />
+        <Map Name="Adelaide/YPAD_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YPAD" Frequency="134.5" Server="rw1.vatpac.org" />
@@ -2211,10 +2210,10 @@
         <Sector Name="AMB SMC" />
         <Sector Name="AMB ACD" />
       </Sectors>
-      <Maps>
+      <Maps> 
         <Map Name="ALL_CTA" />
         <Map Name="Amberley/AMB_TCU" />
-        <Map Name="Amberley/AMB_RWY15" />
+        <Map Name="Amberley/YAMB_ALLRWYS"/>
       </Maps>
       <ATIS>
         <Editor Airport="YAMB" Frequency="123.3" />
@@ -2288,7 +2287,7 @@
         <Map Name="C_LL_LABELS" />
         <Map Name="Melbourne/ML_COAST" />
         <Map Name="Melbourne/ML_TCU" />
-        <Map Name="Melbourne/EN_RWY26" />
+        <Map Name="Melbourne/YMML_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YMEN" Frequency="119.8" />
@@ -2319,7 +2318,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Melbourne/ML_COAST" />
         <Map Name="Melbourne/ML_TCU" />
-        <Map Name="Melbourne/ML_RWY16" />
+        <Map Name="Melbourne/YMML_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YMML" Frequency="118.0" />
@@ -2359,7 +2358,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Sydney/SY_COAST" />
         <Map Name="Sydney/SY_TCU" />
-        <Map Name="Sydney/SY_RWY34PROPS" />
+        <Map Name="Sydney/YSSY_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YSSY" Frequency="118.55" />
@@ -2417,7 +2416,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Brisbane/BN_COAST" />
         <Map Name="Brisbane/BN_TCU" />
-        <Map Name="Brisbane/BN_RWY01PROPS" />
+        <Map Name="Brisbane/YBBN_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBBN" Frequency="125.5" />
@@ -2470,8 +2469,7 @@
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Canberra/CB_COAST" />
-        <Map Name="Canberra/CB_TCU" />
-        <Map Name="Canberra/CB_RWY3530" />
+        <Map Name="Canberra/YSCB_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YSCB" Frequency="127.45" />
@@ -2504,7 +2502,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Perth/PH_COAST" />
         <Map Name="Perth/PH_TCU" />
-        <Map Name="Perth/PH_RWY0306" />
+        <Map Name="Perth/YPPH_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YPPH" Frequency="123.8" />
@@ -2547,7 +2545,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Cairns/CS_COAST" />
         <Map Name="Cairns/CS_TCU" />
-        <Map Name="Cairns/CS_RWY15" />
+        <Map Name="Cairns/YBCS_ALLRWYS" />
         <Map Name="ALL_SECTORS" />
       </Maps>
       <ATIS>
@@ -2586,7 +2584,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Townsville/TL_COAST" />
         <Map Name="Townsville/TL_TCU" />
-        <Map Name="Townsville/TL_RWY01" />
+        <Map Name="Townsville/YBTL_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBTL" Frequency="133.5" />
@@ -2623,7 +2621,7 @@
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Tindal/TN_TCU" />
-        <Map Name="Tindal/TN_RWY14" />
+        <Map Name="Tindal/YPTN_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YPTN" Frequency="124.000" />
@@ -2659,8 +2657,7 @@
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Darwin/DN_COAST" />
-        <Map Name="Darwin/DN_TCU" />
-        <Map Name="Darwin/DN_RWY11" />
+        <Map Name="Darwin/YPDN_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YPDN" Frequency="128.25" />
@@ -2698,7 +2695,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Williamtown/WLM_COAST" />
         <Map Name="Williamtown/WLM_TCU" />
-        <Map Name="Williamtown/WLM_RWY12" />
+        <Map Name="Williamtown/YWLM_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YWLM" Frequency="134.45" />
@@ -2808,7 +2805,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Adelaide/AD_COAST" />
         <Map Name="Adelaide/AD_TCU" />
-        <Map Name="Adelaide/ED_RWY18" />
+        <Map Name="Adelaide/YPAD_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YPED" Frequency="126.25" />
@@ -2838,7 +2835,6 @@
         <Map Name="ALL_CTA" />
         <Map Name="Pearce/PE_COAST" />
         <Map Name="Pearce/PE_TCU" />
-        <Map Name="Pearce/GIG_RWY08" />
       </Maps>
       <ATIS>
         <Editor Airport="YGIG" Frequency="134.5" />
@@ -2863,7 +2859,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Gold Coast/CG_COAST" />
         <Map Name="Gold Coast/CG_TCU" />
-        <Map Name="Gold Coast/CG_RWY14" />
+        <Map Name="Gold Coast/YBCG_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBCG" Frequency="134.5" />
@@ -2901,7 +2897,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Pearce/PE_COAST" />
         <Map Name="Pearce/PE_TCU" />
-        <Map Name="Pearce/PE_RWY18" />
+        <Map Name="Pearce/YPEA_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YPEA" Frequency="136.4" />
@@ -2936,7 +2932,7 @@
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Sydney/SY_TCU" />
-        <Map Name="Sydney/RI_RWY28" />
+        <Map Name="Sydney/YSSY_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YSRI" Frequency="126.3" />
@@ -3070,7 +3066,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Sydney/SY_COAST" />
         <Map Name="Sydney/SY_TCU" />
-        <Map Name="Sydney/WS_RWY23DAY" />
+        <Map Name="Sydney/YSSY_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YSWS" Frequency="127.00" />
@@ -3420,7 +3416,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Melbourne/ML_COAST" />
         <Map Name="Melbourne/ML_TCU" />
-        <Map Name="Melbourne/AV_RWY18" />
+        <Map Name="Melbourne/YMML_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YMAV" Frequency="118.2" />
@@ -3442,8 +3438,7 @@
       <Maps>
         <Map Name="ALL_CTA" />
         <Map Name="Gold Coast/CG_COAST" />
-        <Map Name="Gold Coast/CG_TCU" />
-        <Map Name="Gold Coast/BA_RWY06" />
+        <Map Name="Gold Coast/YBCG_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBNA" Frequency="128.65" />
@@ -3469,6 +3464,7 @@
         <Map Name="C_LL_LABELS" />
         <Map Name="Sydney/SY_TCU" />
         <Map Name="Sydney/SY_VFR" />
+        <Map Name="Sydney/YSSY_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YSBK" Frequency="120.9" />
@@ -3505,6 +3501,7 @@
         <Map Name="C_LL_LABELS" />
         <Map Name="Sydney/SY_TCU" />
         <Map Name="Sydney/SY_VFR" />
+        <Map Name="Sydney/YSSY_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YSCN" Frequency="125.1" />
@@ -3534,7 +3531,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Hobart/HB_COAST" />
         <Map Name="Hobart/HB_TCU" />
-        <Map Name="Hobart/HB_RWY12" />
+        <Map Name="Hobart/YMHB_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YMHB" Frequency="128.45" />
@@ -3568,6 +3565,8 @@
         <Map Name="Perth/PH_COAST" />
         <Map Name="Perth/PH_TCU" />
         <Map Name="Perth/PH_VFR" />
+        <Map Name="Perth/YPPH_ALLRWYS" />
+
       </Maps>
       <ATIS>
         <Editor Airport="YPJT" Frequency="128.65" />
@@ -3602,7 +3601,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Launceston/LT_COAST" />
         <Map Name="Launceston/LT_TCU" />
-        <Map Name="Launceston/LT_RWY32L" />
+        <Map Name="Launceston/YMLT_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YMLT" Frequency="134.75" />
@@ -3628,7 +3627,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Mackay/MK_COAST" />
         <Map Name="Mackay/MK_TCU" />
-        <Map Name="Mackay/MK_RWY14" />
+        <Map Name="Mackay/YBMK_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBMK" Frequency="128.0" />
@@ -3732,7 +3731,7 @@
         <Map Name="ALL_CTA" />
         <Map Name="Rockhampton/RK_COAST" />
         <Map Name="Rockhampton/RK_TCU" />
-        <Map Name="Rockhampton/RK_RWY15" />
+        <Map Name="Rockhampton/YBRK_ALLRWYS" />
       </Maps>
       <ATIS>
         <Editor Airport="YBRK" Frequency="128.5" />
