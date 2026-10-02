@@ -553,6 +553,19 @@
   <Sector FullName="Alice Springs Tower" Frequency="118.300" Callsign="AS_TWR" Name="AS ADC">
     <Volumes>ASTWR</Volumes>
   </Sector>
+    <Sector FullName="Alice Springs Ground" Frequency="119.900" Callsign="AS_GND" Name="AS SMC" DisplayInHandoffWindow="False">
+    <Volumes>ASTWR</Volumes>
+  </Sector>
+    <Sector FullName="Alice Springs Delivery" Frequency="126.800" Callsign="AS_DEL" Name="AS ACD" DisplayInHandoffWindow="False">
+    <Volumes>ASTWR</Volumes>
+  </Sector>
+  <Sector FullName="Alice Springs Approach" Frequency="119.800" Callsign="AS_APP" Name="ASA">
+    <Volumes>ASA</Volumes>
+  <ResponsibleSectors>ASD</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Alice Springs Departures" Frequency="122.400" Callsign="AS_DEP" Name="ASD">
+    <Volumes>ASA</Volumes>
+  </Sector>
   <Sector FullName="Amberley Delivery" Frequency="134.600" Callsign="AMB_DEL" Name="AMB ACD" DisplayInHandoffWindow="False">
     <Volumes>AMBTWR</Volumes>
   </Sector>
@@ -713,8 +726,18 @@
   <Sector FullName="Karratha Ground" Frequency="123.550" Callsign="KA_GND" Name="KA SMC" DisplayInHandoffWindow="False">
     <Volumes>KATWR</Volumes>
   </Sector>
+    <Sector FullName="Karratha Delivery" Frequency="124.500" Callsign="KA_DEL" Name="KA ACD" DisplayInHandoffWindow="False">
+    <Volumes>KATWR</Volumes>
+  </Sector>
   <Sector FullName="Karratha Tower" Frequency="127.350" Callsign="KA_TWR" Name="KA ADC">
     <Volumes>KATWR</Volumes>
+  </Sector>
+  <Sector FullName="Karratha Approach" Frequency="122.400" Callsign="KA_APP" Name="KAA">
+    <Volumes>KAA</Volumes>
+    <ResponsibleSectors>KAD</ResponsibleSectors>
+  </Sector>
+  <Sector FullName="Karratha Departures" Frequency="119.800" Callsign="KA_DEP" Name="KAD">
+    <Volumes>KAA</Volumes>
   </Sector>
   <Sector FullName="KWA Kwajalein Ground" Frequency="121.900" Callsign="PKWA_GND" Name="PKWA SMC" />
   <Sector FullName="KWA Kwajalein Tower" Frequency="118.800" Callsign="PKWA_TWR" Name="PKWA ADC" />
@@ -834,6 +857,9 @@
     <Volumes>SYTWR</Volumes>
   </Sector>
   <Sector FullName="Sydney Delivery" Frequency="133.800" Callsign="SY_DEL" Name="SY ACD" DisplayInHandoffWindow="False">
+    <Volumes>SYTWR</Volumes>
+  </Sector>
+  <Sector FullName="Sydney (Assistant) Delivery" Frequency="123.450" Callsign="SY-C_DEL" Name="SY ACDC" DisplayInHandoffWindow="False">
     <Volumes>SYTWR</Volumes>
   </Sector>
   <Sector FullName="Sydney Ground" Frequency="121.700" Callsign="SY_GND" Name="SY SMC" DisplayInHandoffWindow="False">

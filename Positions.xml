@@ -2402,6 +2402,12 @@
         <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
+       <ControllerInfo Callsign="SY-C_DEL">
+        <Line>Sydney (Assistant) Delivery</Line>
+        <Line>No control services provided</Line>
+        <Line>PDC service only</Line>
+        <Line>ATC feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
     </Position>
     <Position Name="Brisbane Tower" Type="ASD" DefaultCenter="-27.3942+153.1218" DefaultRange="60" MagneticVariation="-11" DynamicInfill="false">
       <Sectors>
@@ -3926,6 +3932,156 @@
       <ControllerInfo Callsign="CS_FMP">
         <Line>Cairns Flow</Line>
         <Line>Tactical planning position - no control service offered</Line>
+        <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+  </Group>
+  <Group Name="EVENT">
+    <Position Name="Alice Springs TCU" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="200" VisibilityRange="150" MagneticVariation="-4.6">
+      <Sectors>
+        <Sector Name="ASA" />
+      </Sectors>
+       <ManualVisibility>
+        <Point>-23.808333+133.900833</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Alice Springs/AS_TCU" />
+        <Map Name="Alice Springs/AS_RWY12" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBAS" Frequency="123.000" />
+        <Window Airport="YBAS" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="7000">
+        <AdditionalLevels>5200</AdditionalLevels>
+      </CFL>
+      <ControllerInfo Callsign="AS_APP">
+        <Line>Alice Approach | ATIS available on 123.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="AS_DEP">
+        <Line>Alice Departures | ATIS available on 123.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+     <Position Name="Alice Springs Tower" Type="ASD" DefaultCenter="-23.808333+133.900833" DefaultRange="60" MagneticVariation="-4.6"  DynamicInfill="false">
+      <Sectors>
+        <Sector Name="AS ADC" />
+        <Sector Name="AS SMC" />
+        <Sector Name="AS ACD" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Alice Springs/AS_TCU" />
+        <Map Name="Alice Springs/YBAS_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YBAS" Frequency="123.000" />
+        <Window Airport="YBAS" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="7000">
+        <AdditionalLevels>5200</AdditionalLevels>
+      </CFL>
+      <ControllerInfo Callsign="AS_TWR">
+        <Line>Alice Tower | ATIS available on 123.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="AS_GND">
+        <Line>Alice Ground | ATIS available on 123.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="AS_DEL">
+        <Line>Alice Delivery | ATIS available on 123.0</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Karratha Tower" Type="ASD" DefaultCenter="-20.712222+116.773333" DefaultRange="60" MagneticVariation="-0.9" DynamicInfill="false">
+      <Sectors>
+        <Sector Name="KA ADC" />
+        <Sector Name="KA SMC" />
+        <Sector Name="KA ACD" />
+      </Sectors>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Karratha/KA_COAST" />
+        <Map Name="Karratha/KA_TCU" />
+        <Map Name="Karratha/YPKA_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPKA" Frequency="134.55" />
+        <Window Airport="YPKA" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="5000">
+        <AdditionalLevels>2200</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Karratha Tower | ATIS available on 134.55</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="KA_GND">
+        <Line>Karratha Ground | ATIS available on 134.55</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="KA_DEL">
+        <Line>Karratha Delivery | ATIS available on 134.55</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+    </Position>
+    <Position Name="Karratha TCU" Type="ASD" DefaultCenter="-20.712222+116.773333" DefaultRange="140" VisibilityRange="150" MagneticVariation="-0.9">
+      <Sectors>
+        <Sector Name="KAA" />
+      </Sectors>
+      <ManualVisibility>
+        <Point>-20.712500+116.773333</Point>
+      </ManualVisibility>
+      <Maps>
+        <Map Name="ALL_CTA" />
+        <Map Name="Karratha/KA_COAST" />
+        <Map Name="Karratha/KA_TCU" />
+        <Map Name="Karratha/YPKA_ALLRWYS" />
+        <Map Name="TMA_LL_LABELS" />
+      </Maps>
+      <ATIS>
+        <Editor Airport="YPKA" Frequency="134.55" />
+        <Window Airport="YPKA" />
+      </ATIS>
+      <Strips Mode="State" Sort="Time" />
+      <CFL QuickLevel="5000">
+        <AdditionalLevels>2200</AdditionalLevels>
+      </CFL>
+      <ControllerInfo>
+        <Line>Karratha Approach | ATIS available on 134.55</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
+        <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
+      </ControllerInfo>
+      <ControllerInfo Callsign="KA_DEP">
+        <Line>Karratha Departures | ATIS available on 134.55</Line>
+        <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
+        <Line>Pilot Procedures - vats.im/pac/pilot</Line>
         <Line>ATC Feedback - vats.im/pac/helpdesk</Line>
       </ControllerInfo>
     </Position>
