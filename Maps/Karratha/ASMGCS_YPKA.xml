@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Maps>
-  <Map Type="Ground_BLD" Name="ASMGCS_YPKA_BLD" Priority="1" Center="-20.712222+116.773333">
+  <Map Type="Ground_BLD" Name="ASMGCS_YPKA_BLD" Priority="1" Center="-204244.000+1164624.000">
     <Infill Name="Terminal">
       <Point>
 -204232.602+1164610.489/
@@ -29,7 +29,16 @@
 </Point>
     </Infill>
   </Map>
-  <Map Type="Ground_APR" Name="ASMGCS_YPKA_APR" Priority="3" Center="-20.712222+116.773333">
+  <Map Type="Ground_APR" Name="ASMGCS_YPKA_APR" Priority="3" Center="-204244.000+1164624.000">
+    <Infill Name="apron_eventds">
+      <Point>
+-204235.674+1164624.981/
+-204240.418+1164625.558/
+-204237.347+1164654.289/
+-204232.516+1164653.605/
+-204235.674+1164624.981
+</Point>
+    </Infill>
     <Infill Name="apron_western">
       <Point>
 -204237.016+1164556.673/
@@ -98,7 +107,30 @@
 </Point>
     </Infill>
   </Map>
-  <Map Type="Ground_TWY" Name="ASMGCS_YPKA_TWY" Priority="2" Center="-20.712222+116.773333">
+  <Map Type="Ground_TWY" Name="ASMGCS_YPKA_TWY" Priority="2" Center="-204244.000+1164624.000">
+    <Infill Name="taxiway_event">
+      <Point>
+-204237.962+1164652.340/
+-204236.290+1164706.919/
+-204236.223+1164707.720/
+-204236.258+1164708.472/
+-204236.509+1164708.890/
+-204236.926+1164709.210/
+-204240.491+1164709.789/
+-204241.203+1164709.875/
+-204241.114+1164710.734/
+-204237.203+1164710.195/
+-204236.567+1164709.996/
+-204236.129+1164709.773/
+-204235.812+1164709.468/
+-204235.629+1164709.138/
+-204235.361+1164708.494/
+-204235.439+1164707.501/
+-204236.698+1164657.166/
+-204237.309+1164652.270/
+-204237.962+1164652.340
+</Point>
+    </Infill>
     <Infill Name="taxiway_A">
       <Point>
 -204240.538+1164621.863/
@@ -317,7 +349,7 @@
 </Point>
     </Infill>
   </Map>
-  <Map Type="Ground_RWY" Name="ASMGCS_YPKA_RWY" Priority="1" Center="-20.712222+116.773333">
+  <Map Type="Ground_RWY" Name="ASMGCS_YPKA_RWY" Priority="1" Center="-204244.000+1164624.000">
     <Infill Name="runway_RW08_26">
       <Point>
 -204251.651+1164553.017/
