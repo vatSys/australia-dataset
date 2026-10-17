@@ -137,6 +137,26 @@
 		</PathGeometry>
 	</TrackSymbol>
 	
+	<!-- ADSC Triangle -->
+	<TrackSymbol Type="ADSC" StrokeWidth="0">
+		<PathGeometry>
+			<Figure Start="0,-6" FigureBegin="Filled" FigureEnd="Closed">
+				<Line>-6,6</Line>
+				<Line>6,6</Line>
+			</Figure>
+		</PathGeometry>
+	</TrackSymbol>
+	
+	<!-- ADSC Extrapolated Triangle -->
+	<TrackSymbol Type="ADSCExtrapolated">
+		<PathGeometry>
+			<Figure Start="0,-6" FigureBegin="Hollow" FigureEnd="Closed">
+				<Line>-6,6</Line>
+				<Line>6,6</Line>
+			</Figure>
+		</PathGeometry>
+	</TrackSymbol>
+	
 	<!--Flight plan square-->
 	<TrackSymbol Type="FlightPlan">
 		<RectangleGeometry TopLeft="-6,-6" BottomRight="6,6" />
