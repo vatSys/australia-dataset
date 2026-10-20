@@ -408,7 +408,7 @@
         <Window Type="State" State="Preactive" Visible="true" />
         <Window Type="State" State="HandoverIn" Visible="true" />
       </Strips>
-      <CFL QuickLevel="25000" />
+      <CFL QuickLevel="9000" />
       <ControllerInfo>
         <Line>Melbourne Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
@@ -896,7 +896,7 @@
         <Window Type="State" State="Preactive" Visible="true" />
         <Window Type="State" State="HandoverIn" Visible="true" />
       </Strips>
-      <CFL QuickLevel="25000" />
+      <CFL QuickLevel="9000" />
       <ControllerInfo>
         <Line>Melbourne Centre</Line>
         <Line>Airspace, Charts, Tools - vats.im/pac/tools</Line>
@@ -3959,7 +3959,7 @@
         <Window Airport="YBAS" />
       </ATIS>
       <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="7000">
+      <CFL QuickLevel="18000">
         <AdditionalLevels>5200</AdditionalLevels>
       </CFL>
       <ControllerInfo Callsign="AS_APP">
@@ -4073,7 +4073,7 @@
         <Window Airport="YPKA" />
       </ATIS>
       <Strips Mode="State" Sort="Time" />
-      <CFL QuickLevel="5000">
+      <CFL QuickLevel="18000">
         <AdditionalLevels>2200</AdditionalLevels>
       </CFL>
       <ControllerInfo>
