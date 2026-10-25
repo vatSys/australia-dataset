@@ -4,6 +4,43 @@
         <name>GUI.Shared</name>
     </assembly>
     <members>
+        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeIdentificationToken">
+            <summary>
+            Represents an aerodrome identification token (AIT) consisting of an ICAO code and an optional suffix.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeIdentificationToken.ICAOCode">
+            <summary>
+            Gets or sets the ICAO code of the aerodrome. The ICAO code must be exactly 4 characters long and consist of letters only.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeIdentificationToken.Suffix">
+            <summary>
+            Gets or sets the suffix of the aerodrome identification token.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeIdentificationToken.IsSweatbox">
+            <summary>
+            Gets a value indicating whether this AIT represents a sweatbox connection.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeIdentificationToken.OldServerNumber">
+            <summary>
+            Gets or sets the old server number associated with this AIT. The server number must be between 1 and 3.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeIdentificationToken.StringToken">
+            <summary>
+            Gets a string representation of the aerodrome identification token, combining the ICAO code and suffix.
+            </summary>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeIdentificationToken.IsMatch(MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeIdentificationToken)">
+            <summary>
+            Determines whether the specified AIT matches this AIT based on ICAO code and suffix.
+            </summary>
+            <param name="other">To compare.</param>
+            <returns>Is a match.</returns>
+        </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeState">
             <summary>
             Represents state data sent from the server about a specific aerodrome.
@@ -98,6 +135,11 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeSubscriptionResponse.Server">
             <summary>
             Gets or sets the server code.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeSubscriptionResponse.AIT">
+            <summary>
+            Gets or sets the aerodrome identification token (AIT).
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeSubscriptionResponse.StripCache">
@@ -622,19 +664,29 @@
             Gets or sets the API version of the client.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Server">
-            <summary>
-            Gets or sets the current server type.
-            </summary>
-        </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.AerodromeName">
             <summary>
-            Gets or sets the current aerodrome nmae.
+            Gets or sets the aerodrome ICAO.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Server">
+            <summary>
+            Gets or sets the server code.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.AIT">
+            <summary>
+            Gets or sets the aerodrome identification token (AIT).
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Callsign">
             <summary>
             Gets or sets the user callsign.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.TraceID">
+            <summary>
+            Gets or sets the parent trace ID.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.MessageMetadata">
@@ -649,6 +701,12 @@
             <param name="icao">ICAO code.</param>
             <param name="server">Server.</param>
         </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Shared.MessageMetadata.#ctor(MaxRumsey.OzStripsPlugin.GUI.Shared.AerodromeIdentificationToken)">
+            <summary>
+            Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Shared.MessageMetadata"/> class.
+            </summary>
+            <param name="ait">AerodromeIdentificationToken.</param>
+        </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Shared.MessageMetadata.#ctor">
             <summary>
             Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Shared.MessageMetadata"/> class.
@@ -656,12 +714,22 @@
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.MessageMetadata.AerodromeICAO">
             <summary>
-            Gets or sets the aerodrome ICAO code.
+            Gets or sets the aerodrome ICAO.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.MessageMetadata.Server">
             <summary>
-            Gets or sets the server type.
+            Gets or sets the server code.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.MessageMetadata.AIT">
+            <summary>
+            Gets or sets the aerodrome identification token (AIT).
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.MessageMetadata.TraceID">
+            <summary>
+            Gets or sets the trace id.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.PDCRequest">
@@ -712,21 +780,6 @@
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.PDCRequest.LastModified">
             <summary>
             Gets or sets the last modified time of this PDC request.
-            </summary>
-        </member>
-        <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.RequestMetadata">
-            <summary>
-            Metadata included with every request.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RequestMetadata.AerodromeICAO">
-            <summary>
-            Gets or sets the aerodrome icao code.
-            </summary>
-        </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Shared.RequestMetadata.ServerCode">
-            <summary>
-            Gets or sets the server code.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.Shared.RouteDTO">
