@@ -1383,7 +1383,7 @@
             A altitude and heading control.
             </summary>
         </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.SettingsWindowControl.#ctor(MaxRumsey.OzStripsPlugin.GUI.SocketConn,System.Collections.Generic.List{System.String})">
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.Controls.SettingsWindowControl.#ctor(System.Collections.Generic.List{System.String})">
             <summary>
             Initializes a new instance of the <see cref="T:MaxRumsey.OzStripsPlugin.GUI.Controls.SettingsWindowControl"/> class.
             </summary>
@@ -1412,6 +1412,11 @@
             <summary> 
             Required method for Designer support - do not modify 
             the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.DTO.SweatboxSession.SessionId">
+            <summary>
+            Gets or sets the session ID for the sweatbox session.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.DTO.XML.AerodromeList">
@@ -2515,7 +2520,7 @@
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.OzStripsConfig.version">
             <summary>
-              Looks up a localized string similar to 0.9.2.
+              Looks up a localized string similar to 0.9.3.
             </summary>
         </member>
         <member name="T:MaxRumsey.OzStripsPlugin.GUI.PDCWatcher">
@@ -2603,9 +2608,9 @@
             Gets the messages, used for debugging.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.Server">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.AIT">
             <summary>
-            Gets or sets the current server type.
+            Gets or sets the aerodrome identification token.
             </summary>
         </member>
         <member name="P:MaxRumsey.OzStripsPlugin.GUI.SocketConn.State">
@@ -2628,7 +2633,12 @@
             Syncs the strip controller.
             </summary>
             <param name="sc">The strip controller.</param>
-            <returns>Task.</returns>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SoftSyncStrip(MaxRumsey.OzStripsPlugin.GUI.Strip)">
+            <summary>
+            Soft-syncs a list of strips to the server. If this strip exists on the server, it wont be synced.
+            </summary>
+            <param name="sc">The strip controllers.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SendStripStatus(MaxRumsey.OzStripsPlugin.GUI.Strip,System.String)">
             <summary>
@@ -2698,12 +2708,6 @@
             <exception cref="T:System.Exception">Server error.</exception>
             <exception cref="T:System.ArgumentNullException">Connection data was not returned.</exception>
             <exception cref="T:System.ArgumentException">Connection data did not match our copy.</exception>
-        </member>
-        <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SetServerType(MaxRumsey.OzStripsPlugin.GUI.Shared.ConnectionMetadataDTO.Servers)">
-            <summary>
-            Sets the server type.
-            </summary>
-            <param name="type">Server connection type.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.SocketConn.SendCache">
             <summary>
@@ -2836,7 +2840,7 @@
             Gets or sets a value indicating whether or not a Hoppies PDC has been sent.
             </summary>
         </member>
-        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.Server">
+        <member name="P:MaxRumsey.OzStripsPlugin.GUI.Strip.AerodromeIdentificationString">
             <summary>
             Gets the current server code.
             </summary>
@@ -3154,7 +3158,6 @@
             <summary>
             Sync the strip with the server.
             </summary>
-            <returns>Task.</returns>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.Strip.CleanVatsysRoute(System.String)">
             <summary>
@@ -3401,6 +3404,12 @@
             <param name="cacheData">The cache data.</param>
             <param name="bayManager">The bay manager.</param>
             <param name="socketConn">The socket connection.</param>
+        </member>
+        <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.SoftSyncAll(MaxRumsey.OzStripsPlugin.GUI.SocketConn)">
+            <summary>
+            Performs a non-destructive synchronization of all entities.
+            </summary>
+            <param name="conn">Socketconn.</param>
         </member>
         <member name="M:MaxRumsey.OzStripsPlugin.GUI.StripRepository.MarkAllStripsAsAwaitingRoutes">
             <summary>
