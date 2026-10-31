@@ -260,7 +260,7 @@
     <Lat>-17.9546</Lat>
     <Long>122.233956111111</Long>
   </Radar>
-  <Radar Name="Karratha" Type="PRI" Elevation="105" MaxRange="250">
+  <Radar Name="Karratha" Type="SSR_ModeC" Elevation="105" MaxRange="250">
     <Lat>-20.7075319444444</Lat>
     <Long>116.773775</Long>
   </Radar>
@@ -760,5 +760,49 @@
     <Lat>-9.45532222222222</Lat>
     <Long>147.164572222222</Long>
   </Radar>
-<Radar Name="Kalamunda" Type="SSR_ModeC" Elevation="1184" MaxRange="255"><Lat>-31.99097</Lat><Long>116.071493888889</Long></Radar>
+<Radar Name="Kalamunda" Type="SSR_ModeC" Elevation="1184" MaxRange="255"><Lat>31.99097</Lat><Long>116.071493888889</Long></Radar>
+<Radar Name="ADSB Boat 001" Type="ADSB" Elevation="0" MaxRange="250">
+  <Lat>-14.711193</Lat>
+  <Long>129.17458</Long>
+</Radar>
+<Radar Name="ADSB Boat 002" Type="ADSB" Elevation="0" MaxRange="250">
+  <Lat>-10.520168</Lat>
+  <Long>123.991358</Long>
+</Radar>
+<Radar Name="ADSB boat 003" Type="ADSB" Elevation="0" MaxRange="250">
+  <Lat>-13.816775</Lat>
+  <Long>128.012774</Long>
+</Radar>
+<Radar Name="ADSB Boat 004" Type="ADSB" Elevation="0" MaxRange="250">
+  <Lat>-11.501544</Lat>
+  <Long>125.046348</Long>
+</Radar>
+<Radar Name="ADSB Boat 005" Type="ADSB" Elevation="0" MaxRange="250">
+  <Lat>-12.602907</Lat>
+  <Long>126.419423</Long>
+</Radar>
+<Radar Name="ADSB Boat 006" Type="ADSB" Elevation="0" MaxRange="250">
+  <Lat>-8.210801</Lat>
+  <Long>107.994536</Long>
+</Radar>
+<Radar Name="ADSB boat 007" Type="ADSB" Elevation="0" MaxRange="250">
+  <Lat>-10.487765</Lat>
+  <Long>109.226057</Long>
+</Radar>
+<Radar Name="ADSB Boat 008" Type="ADSB" Elevation="0" MaxRange="250">
+  <Lat>-13.025899</Lat>
+  <Long>110.830017</Long>
+</Radar>
+<Radar Name="ADSB Boat 009" Type="ADSB" Elevation="0" MaxRange="250">
+  <Lat>-15.602952</Lat>
+  <Long>112.522694</Long>
+</Radar>
+<Radar Name="ADSB Boat 010" Type="ADSB" Elevation="0" MaxRange="250">
+  <Lat>-18.084856</Lat>
+  <Long>113.929501</Long>
+</Radar>
+<Radar Name="ADSB Boat 011" Type="ADSB" Elevation="0" MaxRange="250">
+  <Lat>-20.181858</Lat>
+  <Long>115.270363</Long>
+</Radar>
   </Radars>
