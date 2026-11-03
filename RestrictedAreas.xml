@@ -7292,6 +7292,27 @@
 -380855.000+1471518.000</Area>
       <Activations />
     </RestrictedArea>
+	<RestrictedArea Type="Restricted" Name="R400 DEAKIN" AltitudeFloor="0" AltitudeCeiling="400" DAIWEnabled="true" LinePattern="Solid">
+      <Area>-351837.000+1490656.000/
+-351835.000+1490704.000/
+-351840.000+1490706.000/
+-351842.000+1490659.000/
+-351841.000+1490658.000/
+-351837.000+1490656.000</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>
+    <RestrictedArea Type="Restricted" Name="R401 CAPITAL HILL" AltitudeFloor="0" AltitudeCeiling="400" DAIWEnabled="true" LinePattern="Solid">
+      <Area>-351819.000+1490715.000/
+-351819.000+1490741.000/
+-351840.000+1490741.000/
+-351840.000+1490715.000/
+-351819.000+1490715.000</Area>
+      <Activations>
+        <Activation H24="true" Start="0000" End="0000" />
+      </Activations>
+    </RestrictedArea>
     <RestrictedArea Type="Restricted" Name="R406 TEMORA" AltitudeFloor="0" AltitudeCeiling="5000" DAIWEnabled="true" LinePattern="Dotted">
       <Area>-342017.000+1473042.000/
 -342021.553+1473145.090/
