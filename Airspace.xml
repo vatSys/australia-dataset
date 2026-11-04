@@ -342,18 +342,18 @@
       <Runway Name="13" DataRunway="13">
         <SID Name="MOOLO2" />
         <SID Name="TAPET1" />
-        <STAR Name="ITID2W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="ITID2Z" ApproachName="RNPZ" />
-        <STAR Name="REBE2Z" ApproachName="RNPZ" />
+        <STAR Name="ITID3W" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="ITID3Z" ApproachName="RNPZ" />
+        <STAR Name="REBE3Z" ApproachName="RNPZ" />
         <STAR Name="SEBV2Z" ApproachName="RNPZ" />
       </Runway>
       <Runway Name="31" DataRunway="31">
         <SID Name="MOOLO2" />
         <SID Name="TAPET1" />
-        <STAR Name="ITID2W" OpDataFlag="W" ApproachName="RNP-ARW" />
-        <STAR Name="ITID2Z" ApproachName="RNPZ" />
-        <STAR Name="REBE2X" OpDataFlag="X" ApproachName="RNP-ARX" />
-        <STAR Name="REBE2Z" ApproachName="RNPZ" />
+        <STAR Name="ITID3W" OpDataFlag="W" ApproachName="RNP-ARW" />
+        <STAR Name="ITID3Z" ApproachName="RNPZ" />
+        <STAR Name="REBE3X" OpDataFlag="X" ApproachName="RNP-ARX" />
+        <STAR Name="REBE3Z" ApproachName="RNPZ" />
         <STAR Name="SEBV2X" OpDataFlag="X" ApproachName="RNP-ARX" />
         <STAR Name="SEBV2Z" ApproachName="RNPZ" />
       </Runway>
@@ -1281,7 +1281,7 @@
       </Runway>
       <Runway Name="25" DataRunway="25">
         <SID Name="ANKUB1" Type="NonJet" />
-        <SID Name="AVMOV1" />
+        <SID Name="AVMOV2" />
         <SID Name="KADOM2" Type="Jet" />
         <SID Name="STUIE1" Type="Jet" />
         <SID Name="SY4" Default="True" />
@@ -1293,7 +1293,7 @@
       </Runway>
       <Runway Name="34L" DataRunway="34L">
         <SID Name="ANKUB1" Type="NonJet" />
-        <SID Name="AVMOV1" />
+        <SID Name="AVMOV2" />
         <SID Name="KADOM2" Type="Jet" />
         <SID Name="STUIE1" Type="Jet" />
         <SID Name="SY4" Default="True" />
@@ -17387,7 +17387,7 @@ SAGLI
       <Transition Name="BENBU">NB525/NB526/DUBSU/BENBU</Transition>
       <Transition Name="KADOM">NB540/KADOM</Transition>
     </SID>
-    <SID Name="AVMOV1" Airport="YSSY" Runways="25,34L">
+    <SID Name="AVMOV2" Airport="YSSY" Runways="25,34L">
       <Route Runway="25">-335637.460+1510949.060/-335727.491+1510603.813/SS500/SS504/OGESO/AVMOV</Route>
       <Route Runway="34L">-335548.350+1511018.420/-335449.744+1511003.152/SS500/SS504/OGESO/AVMOV</Route>
       <Transition Name="CAWLY">MANFA/CAWLY</Transition>
@@ -17967,20 +17967,20 @@ SAGLI
       <Route Runway="15">DADBO/DADIS/GOKUN</Route>
       <Route Runway="33">DADBO/SARUS</Route>
     </STAR>
-    <STAR Name="ITID2W" Airport="YBSU" Runways="13,31">
+    <STAR Name="ITID3W" Airport="YBSU" Runways="13,31">
       <Route Runway="13">ITIDE/BUKRA/VIKIL/OMDUN</Route>
       <Route Runway="31">ITIDE/AKERO/SAKAP</Route>
     </STAR>
-    <STAR Name="ITID2Z" Airport="YBSU" Runways="13,31">
+    <STAR Name="ITID3Z" Airport="YBSU" Runways="13,31">
       <Route Runway="13">ITIDE/BUKRA/DUKEL/METUK/UPLOT</Route>
       <Route Runway="31">ITIDE/GUVIX/OVRUL</Route>
     </STAR>
-    <STAR Name="REBE2X" Airport="YBSU" Runways="31">
-      <Route Runway="31">REBEG/DUKEL/IKISA</Route>
+    <STAR Name="REBE3X" Airport="YBSU" Runways="31">
+      <Route Runway="31">REBEG/IRSOP/DUKEL/IKISA</Route>
     </STAR>
-    <STAR Name="REBE2Z" Airport="YBSU" Runways="13,31">
-      <Route Runway="13">REBEG/PASPO/METUK/UPLOT</Route>
-      <Route Runway="31">REBEG/DUKEL/IKISA/DOVMI/OVRUL</Route>
+    <STAR Name="REBE3Z" Airport="YBSU" Runways="13,31">
+      <Route Runway="13">REBEG/PASPO/PILAB/AKNAD/METUK/UPLOT</Route>
+      <Route Runway="31">REBEG/IRSOP/DUKEL/IKISA/DOVMI/OVRUL</Route>
     </STAR>
     <STAR Name="SEBV2X" Airport="YBSU" Runways="31">
       <Route Runway="31">SEBVA/METUK/DUKEL/IKISA</Route>
