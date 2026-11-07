@@ -1,9 +1,7 @@
 - assign_dep_rwy: "true"
-- CFL: "060"
+- CFL: "070"
 # Override default SID selection for GAFER
 - if:
     waypoint:
       - "GAFER"
   SID: "GAFER"
-  # Frequencies
-- departures: ["122.4", "119.8", "128.85"]
