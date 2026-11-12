@@ -1,0 +1,10 @@
+# Handle only the UBSON alternate when Salt Ash High active
+- if:
+    atis_dep_rwy: ["12"]
+    waypoint: ["UBSON"]
+    opr_info_regex: "R 5 9 7 B"
+  runway: "12"
+  CFL: "120"
+  SID: "#UBSO\\dB"
+
+- departures: ["135.7"]
