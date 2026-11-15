@@ -10,6 +10,7 @@
     MinCeiling, MinVisibility  lowest BKN/OVC cloud base (ft) and visibility (m) the mode needs.
                             METAR steps mean "above 3000FT" is 3100 and "above 5000M" is 6000.
     DryOnly="true"          not used on a wet runway (SFC COND set, or precipitation in the METAR).
+    MaxTailwind="10" MaxTailwindWet="5"  tailwind (kt) allowed on a dry and a wet runway, instead of 5 and none.
     PreferredBelowCeiling, PreferredBelowVisibility  cloud base (ft) or visibility (m) below which the mode is
                             preferred over its priority, like a mode within its Hours (e.g. RRO in low cloud).
     AutoSelect="false"      never picked automatically.
@@ -20,7 +21,8 @@
     DaylightSaving="true"   limits the mode to daylight saving time ("false": standard time), e.g. AEDT/AEST wording.
                             Outside that season it isn't listed (unless it's the selected mode).
     Runways="10L,10R|28L,28R"  runways to check against the wind when the RWY text names both ends.
-  A mode is usable with up to 20KT crosswind and 5KT tailwind (none when wet) on each of its runways.
+  A mode is usable with up to 20KT crosswind and 5KT tailwind (none when wet, or as MaxTailwind says) on each of
+  its runways.
 
   TimeZone="AUS Eastern Standard Time" on <Airport> is the Windows time zone for Hours.
 
