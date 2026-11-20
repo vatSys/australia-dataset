@@ -87,12 +87,27 @@
   visibility is 5000M or less, however many arrival runways there are. Arrival runways are those in RWY clauses
   mentioning ARR or ARRS, or every runway in RWY when none does.
 
+  <MetarSource Url="https://example.org/metar/{ICAO}" Airports="Y" MaxPerRequest="4" Interval="150" /> before the
+             airports sets a division's own METAR API, used alongside vatSys's VATSIM METARs: whichever has the
+             newer report (by its DDHHMMZ time) is used, so a source that's slow, down or missing an airport
+             changes nothing. Without one, or off the live VATSIM network (Sweatbox, a private server), METARs
+             come from vatSys alone.
+             Url: {ICAO} is replaced by the airports, comma separated, up to MaxPerRequest per request (default 4).
+             Airports: ICAO prefixes the source covers, comma separated (default: all). Interval: seconds between
+             requests for an airport (default 300), plus one when an ATIS is created or Load METAR is pressed
+             (no more than every 30 seconds). The answer is a JSON list of { "icao", "kind", "report",
+             "isStale" }; METAR or SPECI before the report and remarks after it are left out, and stale reports or
+             ones older than 90 minutes are ignored. The METAR line says where its METAR came from when pointed at.
+
   Field names must match the Input names in the profile's ATIS.xml (APCH, RWY, SFC COND, OPR INFO, SIGWX).
   RWY values leave out the leading "RWY" because the field name is already spoken.
 
   Wording from the VATPAC ATC SOPs (github.com/vatpac-technology/sops).
 -->
 <ATISPresets>
+
+  <!-- VATPAC's METARs, ahead of VATSIM's feed, asked for every 150 seconds. Australian airports only. -->
+  <MetarSource Url="https://vatpac.org/api/airports/metar/{ICAO}" Airports="Y" MaxPerRequest="4" Interval="150" />
 
   <!-- ===================== Class C ===================== -->
 
