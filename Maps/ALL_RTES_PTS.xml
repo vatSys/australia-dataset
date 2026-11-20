@@ -100,6 +100,7 @@
     <Line Name="J37_0">WHA NDB.J37.OOM NDB</Line>
     <Line Name="J400_0">BRM NDB.J400.CC VOR</Line>
     <Line Name="J401_0">HID NDB.J401.RENAK</Line>
+    <Line Name="J402_0">LEO NDB.J402.UPRUN</Line>
     <Line Name="J42_0">WOL NDB.J42.AY VOR</Line>
     <Line Name="J58_0">AREPA.J58.WHA NDB</Line>
     <Line Name="J61_0">IKUMA.J61.CS VOR</Line>
@@ -967,6 +968,9 @@
       <Point>HID NDB</Point>
       <Point>GOPMI</Point>
       <Point>BEPKU</Point>
+      <Point>LEO NDB</Point>
+      <Point>RENOD</Point>
+      <Point>UPRUN</Point>
       <Point>PAGMI</Point>
       <Point>LUDPU</Point>
       <Point>SOCAR</Point>
@@ -1219,7 +1223,6 @@
       <Point>ISNUG</Point>
       <Point>RIKDA</Point>
       <Point>TUSVA</Point>
-      <Point>LEO NDB</Point>
       <Point>NUBNI</Point>
       <Point>DUDEP</Point>
       <Point>GUSNI</Point>
@@ -1429,7 +1432,6 @@
       <Point>JEMMA</Point>
       <Point>LINSU</Point>
       <Point>LERKI</Point>
-      <Point>UPRUN</Point>
       <Point>LUVAV</Point>
       <Point>ENTRE</Point>
       <Point>LHR NDB</Point>
@@ -1753,6 +1755,7 @@
     <Line Name="V403_0">LM VOR.V403.BEMVU</Line>
     <Line Name="V404_0">BEMVU.V404.LM VOR</Line>
     <Line Name="V408_0">JOSBU.V408.ABA NDB</Line>
+    <Line Name="V409_0">GFN NDB.V409.IDNER</Line>
     <Line Name="V410_0">WG VOR.V410.TEMIS</Line>
     <Line Name="V412_0">LEBIT.V412.ROM NDB</Line>
     <Line Name="V415_0">PAVSO.V415.SOLUS</Line>
@@ -1775,7 +1778,7 @@
     <Line Name="V621_0">CDU NDB.V621.ATNAR</Line>
     <Line Name="V623_0">DOLVU.V623.BENDO</Line>
     <Line Name="V650_0">DUNNE.V650.BADGR</Line>
-    <Line Name="V652_0">NICLA.V652.IDNER</Line>
+    <Line Name="V652_0">NICLA.V652.PMQ NDB</Line>
     <Line Name="V653_0">PEXOR.V653.BUTON</Line>
     <Line Name="V656_0">AS VOR.V656.AYE NDB</Line>
     <Line Name="V662_0">MENEN.V662.WOODY</Line>
@@ -1931,7 +1934,10 @@
     <Line Name="W411_0">DULIN.W411.DU NDB</Line>
     <Line Name="W412_0">GOMOL.W412.BNA NDB</Line>
     <Line Name="W414_0">SWH NDB.W414.UBGUT</Line>
+    <Line Name="W415_0">LEO NDB.W415.WBR NDB</Line>
+    <Line Name="W416_0">KG VOR.W416.UPRUN</Line>
     <Line Name="W417_0">DBY NDB.W417.HLC NDB</Line>
+    <Line Name="W418_0">PMQ NDB.W418.GFN NDB</Line>
     <Line Name="W419_0">BTH NDB.W419.MAKIV</Line>
     <Line Name="W422_0">ESDAN.W422.MAKAT</Line>
     <Line Name="W423_0">BTH NDB.W423.CB VOR</Line>
@@ -2911,6 +2917,12 @@
       <Point>TUVRA</Point>
       <Point>KAPSU</Point>
       <Point>MIKIS</Point>
+      <Point>RENOD</Point>
+      <Point>WBR NDB</Point>
+      <Point>KG VOR</Point>
+      <Point>EKUNO</Point>
+      <Point>BUNNY</Point>
+      <Point>UPRUN</Point>
       <Point>NIFTI</Point>
       <Point>SULTU</Point>
       <Point>DUMPA</Point>
@@ -3052,7 +3064,6 @@
       <Point>SEDRA</Point>
       <Point>SANAD</Point>
       <Point>LALIB</Point>
-      <Point>KG VOR</Point>
       <Point>SEEMO</Point>
       <Point>ANITA</Point>
       <Point>IBOMU</Point>
@@ -3146,6 +3157,7 @@
       <Point>ELRIM</Point>
       <Point>DOVOD</Point>
       <Point>RIKTU</Point>
+      <Point>GFN NDB</Point>
       <Point>LEBIT</Point>
       <Point>TIMBO</Point>
       <Point>ACTIN</Point>
@@ -3155,7 +3167,6 @@
       <Point>MOZZA</Point>
       <Point>ENVOL</Point>
       <Point>SPENA</Point>
-      <Point>GFN NDB</Point>
       <Point>BUTON</Point>
       <Point>OLNAM</Point>
       <Point>SORTI</Point>
@@ -3248,8 +3259,6 @@
       <Point>ENDET</Point>
       <Point>CARMN</Point>
       <Point>SUNIL</Point>
-      <Point>WBR NDB</Point>
-      <Point>UPRUN</Point>
       <Point>LUVAV</Point>
       <Point>LAROO</Point>
       <Point>NODEK</Point>
@@ -3399,7 +3408,7 @@
       <Point>LIPLU</Point>
       <Point>VINAX</Point>
       <Point>DOTTE</Point>
-      <Point>AKEVU</Point>
+      <Point>GUVUS</Point>
       <Point>ANBAN</Point>
       <Point>OLDER</Point>
       <Point>NOKAV</Point>
@@ -4159,6 +4168,12 @@
       <Point>TUVRA</Point>
       <Point>KAPSU</Point>
       <Point>MIKIS</Point>
+      <Point>RENOD</Point>
+      <Point>WBR NDB</Point>
+      <Point>KG VOR</Point>
+      <Point>EKUNO</Point>
+      <Point>BUNNY</Point>
+      <Point>UPRUN</Point>
       <Point>NIFTI</Point>
       <Point>SULTU</Point>
       <Point>DUMPA</Point>
@@ -4298,7 +4313,6 @@
       <Point>SEDRA</Point>
       <Point>SANAD</Point>
       <Point>LALIB</Point>
-      <Point>KG VOR</Point>
       <Point>SEEMO</Point>
       <Point>ANITA</Point>
       <Point>IBOMU</Point>
@@ -4392,6 +4406,7 @@
       <Point>ELRIM</Point>
       <Point>DOVOD</Point>
       <Point>RIKTU</Point>
+      <Point>GFN NDB</Point>
       <Point>LEBIT</Point>
       <Point>TIMBO</Point>
       <Point>ACTIN</Point>
@@ -4401,7 +4416,6 @@
       <Point>MOZZA</Point>
       <Point>ENVOL</Point>
       <Point>SPENA</Point>
-      <Point>GFN NDB</Point>
       <Point>BUTON</Point>
       <Point>OLNAM</Point>
       <Point>SORTI</Point>
@@ -4494,8 +4508,6 @@
       <Point>ENDET</Point>
       <Point>CARMN</Point>
       <Point>SUNIL</Point>
-      <Point>WBR NDB</Point>
-      <Point>UPRUN</Point>
       <Point>LUVAV</Point>
       <Point>LAROO</Point>
       <Point>NODEK</Point>
@@ -4641,7 +4653,7 @@
       <Point>LIPLU</Point>
       <Point>VINAX</Point>
       <Point>DOTTE</Point>
-      <Point>AKEVU</Point>
+      <Point>GUVUS</Point>
       <Point>ANBAN</Point>
       <Point>OLDER</Point>
       <Point>NOKAV</Point>
@@ -5280,6 +5292,9 @@
       <Point>HID NDB</Point>
       <Point>GOPMI</Point>
       <Point>BEPKU</Point>
+      <Point>LEO NDB</Point>
+      <Point>RENOD</Point>
+      <Point>UPRUN</Point>
       <Point>PAGMI</Point>
       <Point>LUDPU</Point>
       <Point>SOCAR</Point>
@@ -5532,7 +5547,6 @@
       <Point>ISNUG</Point>
       <Point>RIKDA</Point>
       <Point>TUSVA</Point>
-      <Point>LEO NDB</Point>
       <Point>NUBNI</Point>
       <Point>DUDEP</Point>
       <Point>GUSNI</Point>
@@ -5740,7 +5754,6 @@
       <Point>JEMMA</Point>
       <Point>LINSU</Point>
       <Point>LERKI</Point>
-      <Point>UPRUN</Point>
       <Point>LUVAV</Point>
       <Point>ENTRE</Point>
       <Point>LHR NDB</Point>

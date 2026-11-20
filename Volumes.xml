@@ -5463,10 +5463,10 @@
   <Volume Name="SDY_BN_TMA_CAP" LowerLimit="18000" UpperLimit="60000">
     <Boundaries>STRADDY_B</Boundaries>
   </Volume>
-    <Volume Name="TBD_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
+  <Volume Name="TBD_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
     <Boundaries>ADELAIDE_TMA</Boundaries>
   </Volume>
-    <Volume Name="TBP_TMA_CAP" LowerLimit="10000" UpperLimit="60000">
+  <Volume Name="TBP_TMA_CAP" LowerLimit="10000" UpperLimit="60000">
     <Boundaries>TOWNSVILLE_APPROACH</Boundaries>
   </Volume>
   <Volume Name="WOL_CB_TMA_CAP" LowerLimit="24500" UpperLimit="60000">
@@ -5715,11 +5715,7 @@
     <Boundaries>YARROWEE</Boundaries>
   </Volume>
   
-    <!--
-  
-  PACIFIC PROFILE DEFINITIONS
-  
-  -->  
+  <!--  PACIFIC PROFILE DEFINITIONS  -->  
   <!-- PNG -->
   <Boundary Name="AYPM">
     +000000.000+1410000.000/
@@ -6416,6 +6412,26 @@
     -221529.000+1663136.000
   </Boundary>
   
+  <!-- Solomon Islands -->
+  <Boundary Name="AGGG">
+	-045000.000+1590000.000/
+	-045000.000+1600000.000/
+	-103000.000+1664500.000/
+	-114800.000+1665230.000/
+	-130001.154+1644539.870/
+	-140000.000+1630000.000/
+	-140000.000+1611500.000/
+	-140000.000+1550000.000/
+	-120000.000+1550000.000/
+	-071900.000+1550000.000/
+	-065536.000+1553536.000/
+	-065536.000+1554136.000/
+	-065048.000+1555524.000/
+	-063948.000+1560224.000/
+	-063300.000+1560212.000/
+	-045000.000+1590000.000
+  </Boundary>
+  
   <!-- Vanuatu -->
   <Boundary Name="NVVV_TCA">
     -165157.000+1681912.000/
@@ -6479,7 +6495,7 @@
   <Volume Name="AYNZA" LowerLimit="0" UpperLimit="24500">
     <Boundaries>AYNZ_NADZAB_APP</Boundaries>
   </Volume>
-   <Volume Name="AYNZTWR" LowerLimit="0" UpperLimit="6000">
+  <Volume Name="AYNZTWR" LowerLimit="0" UpperLimit="6000">
     <Boundaries>AYNZ_NADZAB_CTA-CTZ</Boundaries>
   </Volume>
   
@@ -6489,10 +6505,10 @@
   <Volume Name="AYMDTWR" LowerLimit="0" UpperLimit="20000">
     <Boundaries>AYMD_MADANG_ATZ</Boundaries>
   </Volume>
-   <Volume Name="AYMHTWR" LowerLimit="0" UpperLimit="20000">
+  <Volume Name="AYMHTWR" LowerLimit="0" UpperLimit="20000">
     <Boundaries>AYMH_HAGEN_ATZ</Boundaries>
   </Volume>
-   <Volume Name="AYTKTWR" LowerLimit="0" UpperLimit="20000">
+  <Volume Name="AYTKTWR" LowerLimit="0" UpperLimit="20000">
     <Boundaries>AYTK_TOKUA_ATZ</Boundaries>
   </Volume>
   
@@ -6534,6 +6550,11 @@
     <Boundaries>NWWM_MAGENTA_CTZ_2</Boundaries>
   </Volume>
   
+  <!-- Solomon Islands -->
+  <Volume Name="AGGG" LowerLimit="0" UpperLimit="24500">
+	<Boundaries>AGGG</Boundaries>
+  </Volume>
+  
   <!--		 Vanuatu	-->
   <Volume Name="NVVVA" LowerLimit="0" UpperLimit="24000">
     <Boundaries>NVVV_CTA</Boundaries>
@@ -6542,12 +6563,8 @@
     <Boundaries>NVVV_TCA</Boundaries>
   </Volume>
   
-    <!--
-  
-    INTERNATIONAL SECTORS FR
-  
-    -->
-    <Boundary Name="FAJO">
+    <!-- INTERNATIONAL DEFINITIONS -->
+  <Boundary Name="FAJO">
     -200000.000-0100000.000/
     -180000.000-0050000.000/
     -180000.000+0100000.000/
@@ -6579,7 +6596,7 @@
     -190000.000+0553000.000/
     -100000.000+0553000.000
   </Boundary>
-    <Boundary Name="KZAK_EAST">
+  <Boundary Name="KZAK_EAST">
     +560000.000-1530000.000/
     +533000.000-1600000.000/
     +512400.000-1674900.001/
@@ -6608,7 +6625,7 @@
     +564542.001-1514500.000/
     +560000.000-1530000.000
   </Boundary>
-    <Boundary Name="KZAK_WEST">
+  <Boundary Name="KZAK_WEST">
     +210000.000+1300000.000/
     +070000.000+1300000.000/
     +033000.000+1330000.000/
@@ -6625,7 +6642,7 @@
     +210000.000+1550000.000/
     +210000.000+1300000.000
   </Boundary>
-    <Boundary Name="NZCM">
+  <Boundary Name="NZCM">
     -900000.000+1630000.000/
     -600000.000+1630000.000/
     -600000.000-1310000.000/
@@ -6688,7 +6705,7 @@
     -45.282749+165.758398/
     -45.503612+165.811942
   </Boundary>
- <Boundary Name="VCCF">
+  <Boundary Name="VCCF">
     +100000.000+0800000.000/
     +100053.280+0812700.000/
     +060000.000+0920000.000/

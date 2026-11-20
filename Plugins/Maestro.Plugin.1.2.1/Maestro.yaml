@@ -255,7 +255,6 @@ Airports:
 
   - FeederFix: BOREE
     RunwayIdentifier: '07'
-    ApproachType: A
     Segments:
     - {Identifier: VASRA, Track: 170.9, DistanceNM: 7.9}
     - {Identifier: KAFRI, Track: 170.9, DistanceNM: 7.9}
@@ -267,7 +266,6 @@ Airports:
 
   - FeederFix: BOREE
     RunwayIdentifier: '25'
-    ApproachType: A
     Segments:
     - {Identifier: VASRA, Track: 170.9, DistanceNM: 7.9}
     - {Identifier: KAFRI, Track: 170.9, DistanceNM: 7.9}
@@ -279,7 +277,6 @@ Airports:
 
   - FeederFix: BOREE
     RunwayIdentifier: 16L
-    ApproachType: A
     Segments:
     - {Identifier: VASRA, Track: 170.9, DistanceNM: 7.9}
     - {Identifier: KAFRI, Track: 170.9, DistanceNM: 7.9}
@@ -289,7 +286,6 @@ Airports:
 
   - FeederFix: BOREE
     RunwayIdentifier: 16R
-    ApproachType: A
     Segments:
     - {Identifier: VASRA, Track: 170.9, DistanceNM: 7.9}
     - {Identifier: KAFRI, Track: 170.9, DistanceNM: 7.9}
@@ -298,18 +294,7 @@ Airports:
     - {Identifier: 16R, Track: 172.1, DistanceNM: 13.8}
 
   - FeederFix: BOREE
-    RunwayIdentifier: 16R
-    ApproachType: P
-    Segments:
-    - {Identifier: VASRA, Track: 170.9, DistanceNM: 7.9}
-    - {Identifier: DALAR, Track: 179.6, DistanceNM: 10.2}
-    - {Identifier: DUMOP, Track: 167.9, DistanceNM: 7}
-    - {Identifier: URDEN, Track: 167.9, DistanceNM: 5.9}
-    - {Identifier: 16R, Track: 167.9, DistanceNM: 11.3}
-
-  - FeederFix: BOREE
     RunwayIdentifier: 34L
-    ApproachType: A
     Segments:
     - {Identifier: VASRA, Track: 170.9, DistanceNM: 7.9}
     - {Identifier: KAFRI, Track: 170.9, DistanceNM: 7.9}
@@ -324,7 +309,6 @@ Airports:
 
   - FeederFix: BOREE
     RunwayIdentifier: 34R
-    ApproachType: A
     Segments:
     - {Identifier: VASRA, Track: 170.9, DistanceNM: 7.9}
     - {Identifier: KAFRI, Track: 170.9, DistanceNM: 7.9}
